@@ -24,9 +24,14 @@ on:
 permissions:
   contents: read
 
+# Back-to-back publishes race npm's read-after-write window: a queued second
+# run reads dist-tags before the first run's PUT is visible and picks the same
+# calver version → E409. Cancelling the older in-flight run keeps only the
+# newest one (which carries the freshest data) publishing; the digest gate
+# makes the survivor a no-op when nothing actually changed.
 concurrency:
   group: npm-feed-publish
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   publish:

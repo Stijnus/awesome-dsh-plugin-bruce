@@ -74,87 +74,118 @@ if (info.published && info.feedDigest === digest) {
   process.exit(0);
 }
 
-// 0.YYYYMMDD.N — N is the first free patch for today.
-let patch = 0;
-if (info.published) {
-  patch = Math.max(
+// 0.YYYYMMDD.N — N is the first free patch for today. `extra` folds in
+// versions the registry reported as colliding but that a raced packument
+// read may not list yet.
+function firstFreePatch(versions, extra = []) {
+  return Math.max(
     0,
-    ...info.versions
+    ...[...versions, ...extra]
       .filter((v) => v.startsWith(`0.${day}.`))
       .map((v) => Number(v.split('.')[2]) + 1)
       .filter((n) => Number.isFinite(n)),
   );
 }
-const version = `0.${day}.${patch}`;
 
 await rm(DIST, { recursive: true, force: true });
 await mkdir(resolve(DIST, 'data'), { recursive: true });
 await Promise.all(files.map((f, i) => writeFile(resolve(DIST, f), reads[i])));
 
-const packageJson = {
-  name: PKG_NAME,
-  version,
-  description: 'DSH plugin market feeds — v1 feed, v2 superset with paste-ready install targets, and the packages mapping. China-reachable via registry.npmmirror.com.',
-  license: 'MIT',
-  repository: { type: 'git', url: 'git+https://github.com/bruc3van/awesome-dsh-plugin.git' },
-  homepage: 'https://github.com/bruc3van/awesome-dsh-plugin#readme',
-  files: ['data', 'README.md'],
-  feedDigest: digest,
-  feedGeneratedAt: v2.generated_at,
-};
-await writeFile(resolve(DIST, 'package.json'), `${JSON.stringify(packageJson, null, 2)}\n`);
+function writeDist(version) {
+  const packageJson = {
+    name: PKG_NAME,
+    version,
+    description: 'DSH plugin market feeds — v1 feed, v2 superset with paste-ready install targets, and the packages mapping. China-reachable via registry.npmmirror.com.',
+    license: 'MIT',
+    repository: { type: 'git', url: 'git+https://github.com/bruc3van/awesome-dsh-plugin.git' },
+    homepage: 'https://github.com/bruc3van/awesome-dsh-plugin#readme',
+    files: ['data', 'README.md'],
+    feedDigest: digest,
+    feedGeneratedAt: v2.generated_at,
+  };
+  return writeFile(resolve(DIST, 'package.json'), `${JSON.stringify(packageJson, null, 2)}\n`);
+}
 
-const readme = [
-  '# awesome-dsh-plugin-feed',
-  '',
-  `Market data snapshot for the [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) catalog, published so consumers can fetch it from an npm registry — including the China-reachable mirror registry.npmmirror.com — when raw.githubusercontent.com is unreachable.`,
-  '',
-  `- version: \`${version}\` (calver \`0.YYYYMMDD.N\`)`,
-  `- feed generated at: \`${v2.generated_at}\``,
-  `- data digest (sha256): \`${digest}\``,
-  '',
-  '## Files',
-  '',
-  '| File | What it is |',
-  '| --- | --- |',
-  '| `data/market.json` | v1 downstream feed (schema 1) — the wire contract dsh-desktop-safe-market consumes today |',
-  '| `data/market-v2.json` | v2 superset (schema 2) — same entries, mapped ones carry a `packages` block with `install` (paste-ready into the official 插件→添加插件 box: npm name or repo URL), `command`, requirements and verification |',
-  '| `data/packages.json` | the hand-maintained install-target source of truth (includes entries outside the 600-entry feed) |',
-  '',
-  '## Fetching',
-  '',
-  '```bash',
-  '# npmmirror (China): direct file access, 302-redirected — follow redirects',
-  'curl -L -O https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-v2.json',
-  '',
-  '# or via jsDelivr\'s npm CDN',
-  'curl -O https://cdn.jsdelivr.net/npm/awesome-dsh-plugin-feed/data/market-v2.json',
-  '',
-  '# or the classic way: packument → dist.tarball',
-  'npm view awesome-dsh-plugin-feed dist.tarball --registry=https://registry.npmmirror.com',
-  '```',
-  '',
-  'Check freshness with `npm view awesome-dsh-plugin-feed feedDigest feedGeneratedAt` and compare against this repo\u2019s latest commit.',
-  '',
-  'Data is generated and validated in [bruc3van/awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin); see data/review/README.md there for schemas and curation rules.',
-  '',
-].join('\n');
-await writeFile(resolve(DIST, 'README.md'), `${readme}\n`);
+async function writeReadme(version) {
+  const readme = [
+    '# awesome-dsh-plugin-feed',
+    '',
+    `Market data snapshot for the [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) catalog, published so consumers can fetch it from an npm registry — including the China-reachable mirror registry.npmmirror.com — when raw.githubusercontent.com is unreachable.`,
+    '',
+    `- version: \`${version}\` (calver \`0.YYYYMMDD.N\`)`,
+    `- feed generated at: \`${v2.generated_at}\``,
+    `- data digest (sha256): \`${digest}\``,
+    '',
+    '## Files',
+    '',
+    '| File | What it is |',
+    '| --- | --- |',
+    '| `data/market.json` | v1 downstream feed (schema 1) — the wire contract dsh-desktop-safe-market consumes today |',
+    '| `data/market-v2.json` | v2 superset (schema 2) — same entries, mapped ones carry a `packages` block with `install` (paste-ready into the official 插件→添加插件 box: npm name or repo URL), `command`, requirements and verification |',
+    '| `data/packages.json` | the hand-maintained install-target source of truth (includes entries outside the 600-entry feed) |',
+    '',
+    '## Fetching',
+    '',
+    '```bash',
+    '# npmmirror (China): direct file access, 302-redirected — follow redirects',
+    'curl -L -O https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-v2.json',
+    '',
+    '# or via jsDelivr\'s npm CDN',
+    'curl -O https://cdn.jsdelivr.net/npm/awesome-dsh-plugin-feed/data/market-v2.json',
+    '',
+    '# or the classic way: packument → dist.tarball',
+    'npm view awesome-dsh-plugin-feed dist.tarball --registry=https://registry.npmmirror.com',
+    '```',
+    '',
+    'Check freshness with `npm view awesome-dsh-plugin-feed feedDigest feedGeneratedAt` and compare against this repo\u2019s latest commit.',
+    '',
+    'Data is generated and validated in [bruc3van/awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin); see data/review/README.md there for schemas and curation rules.',
+    '',
+  ].join('\n');
+  await writeFile(resolve(DIST, 'README.md'), `${readme}\n`);
+}
 
-console.log(`built ${PKG_NAME}@${version} in dist-npm/ — digest ${digest.slice(0, 12)}…`);
-for (const [i, f] of files.entries()) console.log(`  ${f}: ${Buffer.byteLength(reads[i])} bytes`);
+// Two publishes can land close together (refresh-market and refresh-market-v2
+// both complete after a review merge); npm's packument read lags its write, so
+// the second run may pick a version the first has just published and get an
+// E409. The 409 body names the colliding version — trust that over a re-read,
+// bump the patch, and retry once.
+let version = `0.${day}.${info.published ? firstFreePatch(info.versions) : 0}`;
 
-if (!PUBLISH) {
-  console.log('dry run only — pass --publish (requires npm auth, e.g. NODE_AUTH_TOKEN) to release.');
-} else {
+for (let attempt = 1; ; attempt++) {
+  await writeDist(version);
+  await writeReadme(version);
+  console.log(`built ${PKG_NAME}@${version} in dist-npm/ — digest ${digest.slice(0, 12)}…`);
+  for (const [i, f] of files.entries()) console.log(`  ${f}: ${Buffer.byteLength(reads[i])} bytes`);
+
+  if (!PUBLISH) {
+    console.log('dry run only — pass --publish (requires npm auth, e.g. NODE_AUTH_TOKEN) to release.');
+    break;
+  }
+
   const result = spawnSync('npm', ['publish', DIST, '--access', 'public'], {
     cwd: DIST,
-    stdio: 'inherit',
+    stdio: ['inherit', 'inherit', 'pipe'],
+    encoding: 'utf8',
     env: { ...process.env, npm_config_registry: REGISTRY },
   });
-  if (result.status !== 0) {
+  if (result.status === 0) {
+    console.log(`published ${PKG_NAME}@${version}. npmmirror mirrors npmjs.org within minutes.`);
+    break;
+  }
+
+  const stderr = String(result.stderr ?? '');
+  const collided = stderr.match(/Cannot publish over previously staged version "([^"]+)"/);
+  if (!collided || attempt >= 2) {
+    if (stderr) console.error(stderr.trimEnd());
     console.error('npm publish failed — if the version already exists, rerun; the script bumps the patch per day.');
     process.exit(result.status ?? 1);
   }
-  console.log(`published ${PKG_NAME}@${version}. npmmirror mirrors npmjs.org within minutes.`);
+
+  const fresh = await latestInfo();
+  const taken = [...(fresh.published ? fresh.versions : []), collided[1]];
+  let next = `0.${day}.${firstFreePatch(taken)}`;
+  if (next === version) next = `0.${day}.${Number(version.split('.')[2]) + 1}`;
+  console.warn(`npm rejected ${version} — already published by a concurrent run; retrying once as ${next}.`);
+  version = next;
 }

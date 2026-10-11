@@ -74,3 +74,34 @@ test('first publication, version bump and digest no-op', async (t) => {
   const next = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   assert.equal(next.version, manifest.version.replace(/\.0$/, '.1'));
 });
+
+test('an E409 version collision retries once with a bumped patch', async (t) => {
+  const root = await fixture(t);
+  // The raced packument read never lists the colliding version — the retry
+  // must recover it from the 409 body alone.
+  const day = JSON.parse(await readFile(resolve(root, 'data/market-v2.json'), 'utf8')).generated_at
+    .slice(0, 10)
+    .replaceAll('-', '');
+  await writeFile(resolve(root, 'mock.mjs'), `
+    import cp from 'node:child_process';
+    import { syncBuiltinESMExports } from 'node:module';
+    const original = cp.spawnSync;
+    let calls = 0;
+    cp.spawnSync = (cmd, ...args) => {
+      if (cmd !== 'npm') return original(cmd, ...args);
+      calls++;
+      console.log('MOCK_NPM_PUBLISH');
+      return calls === 1
+        ? {status: 1, stderr: 'npm error code E409\\nnpm error 409 Conflict - PUT https://registry.npmjs.org/awesome-dsh-plugin-feed - Cannot publish over previously staged version "0.${day}.0".'}
+        : {status: 0};
+    };
+    syncBuiltinESMExports();
+    globalThis.fetch = async () => ({ok:true,status:200,json:async()=>({'dist-tags':{latest:'0.19990101.0'},versions:{'0.19990101.0':{}}})});
+  `);
+  const result = spawnSync(process.execPath, ['--import', './mock.mjs', './scripts/publish-npm-feed.mjs', '--publish'], { cwd: root, encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stderr);
+  assert.equal((result.stdout.match(/MOCK_NPM_PUBLISH/g) ?? []).length, 2);
+  assert.match(result.stderr, new RegExp(`already published by a concurrent run; retrying once as 0\\.${day}\\.1`));
+  const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
+  assert.equal(manifest.version, `0.${day}.1`);
+});
