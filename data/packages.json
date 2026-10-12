@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-09",
+  "updated_at": "2026-10-12",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -146,19 +146,6 @@
       "verified_via": "README@main",
       "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-hdc-bridge」或「dsh plugin --profile <name> add github:1na-ko/dsh-hdc-bridge」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
       "install_mode": "manual"
-    },
-    "398894496-arch/dsh-krouter": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/398894496-arch/DSH-KRouter",
-          "source": "github:398894496-arch/DSH-KRouter",
-          "command": "dsh plugin --profile web add github:398894496-arch/DSH-KRouter"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
     },
     "534119219/chicheng-stats": {
       "packages": [
@@ -7764,6 +7751,19 @@
           "install": "@zseven-w/dsh-openpencil@next",
           "source": "npm:@zseven-w/dsh-openpencil@next",
           "command": "dsh plugin --profile web add @zseven-w/dsh-openpencil@next"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "398894496-arch/krouter": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/398894496-arch/KRouter",
+          "source": "github:398894496-arch/KRouter",
+          "command": "dsh plugin --profile web add github:398894496-arch/KRouter"
         }
       ],
       "status": "readme-verified",
