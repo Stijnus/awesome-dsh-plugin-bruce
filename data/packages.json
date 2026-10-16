@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-15",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -6931,25 +6931,6 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
-    "xdtrees/dsh-workbuddy-xdpool": {
-      "packages": [
-        {
-          "profile": "desktop",
-          "install": "dsh-workbuddy-xdpool",
-          "source": "npm:dsh-workbuddy-xdpool",
-          "command": "dsh plugin --profile desktop add dsh-workbuddy-xdpool"
-        },
-        {
-          "profile": "desktop",
-          "install": "https://github.com/XDTrees/dsh-workbuddy-xdpool",
-          "source": "github:XDTrees/dsh-workbuddy-xdpool",
-          "command": "dsh plugin --profile desktop add github:XDTrees/dsh-workbuddy-xdpool"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
     "xgone/dsh-remote": {
       "packages": [
         {
@@ -7755,6 +7736,25 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "xdtrees/dsh-xdpool": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "dsh-xdpool",
+          "source": "npm:dsh-xdpool",
+          "command": "dsh plugin --profile desktop add dsh-xdpool"
+        },
+        {
+          "profile": "desktop",
+          "install": "https://github.com/XDTrees/dsh-xdpool",
+          "source": "github:XDTrees/dsh-xdpool",
+          "command": "dsh plugin --profile desktop add github:XDTrees/dsh-xdpool"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-15",
       "verified_via": "README@main"
     }
   }

@@ -366,6 +366,11 @@ const VOLUME_SPLITS = {
     { key: 'agents-workflows', upTo: 'm', label: 'A–M' },
     { key: 'agents-workflows-n-z', upTo: 'z', label: 'N–Z' },
   ],
+  // Owner-letter byte share as of 2026-10-15: A–L 52% / M–Z 48%.
+  'ui-experience': [
+    { key: 'ui-experience', upTo: 'l', label: 'A–L' },
+    { key: 'ui-experience-m-z', upTo: 'z', label: 'M–Z' },
+  ],
 };
 
 // Assign a repository to one of a category's letter-range volumes: the first
