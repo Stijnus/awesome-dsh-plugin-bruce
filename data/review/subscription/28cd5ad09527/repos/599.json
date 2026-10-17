@@ -1,0 +1,95 @@
+{
+  "full_name": "Han-1413141/dsh-ui-hub",
+  "originalPosition": 599,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Han-1413141/dsh-ui-hub"
+  ],
+  "manualNote": null,
+  "ordinal": 599,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:06:08.174Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6a3ae157c67f78b4228eb5c6450dba6549ae4cba4e984b4f090bea9a8a21cdd0",
+      "url": "https://github.com/Han-1413141/dsh-ui-hub/blob/219fe63a65de64bf4720bd0b9ec47b4a9c05d4c5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Han-1413141/dsh-ui-hub",
+          "command": "dsh plugin --profile desktop add github:Han-1413141/dsh-ui-hub",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Han-1413141/dsh-ui-hub",
+          "command": "dsh plugin --profile web add github:Han-1413141/dsh-ui-hub",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Han-1413141/dsh-ui-hub/blob/219fe63a65de64bf4720bd0b9ec47b4a9c05d4c5/README.en.md",
+      "sha256": "1d6ee64d7e274359636ff7d13c17b788276e3c6867de3c94852fba8d250a66a0",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Han-1413141/dsh-ui-hub",
+          "command": "dsh plugin --profile desktop add github:Han-1413141/dsh-ui-hub",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Han-1413141/dsh-ui-hub",
+          "command": "dsh plugin --profile web add github:Han-1413141/dsh-ui-hub",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ui-hub",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Han-1413141/dsh-ui-hub",
+        "commit": "219fe63a65de64bf4720bd0b9ec47b4a9c05d4c5"
+      },
+      "manifestSha256": "62191fcfb5a87a96a8af7a3a58a4e5c76cf5e5850fd887ecb5f8a9b672dc9df2",
+      "manifestUrl": "https://github.com/Han-1413141/dsh-ui-hub/blob/219fe63a65de64bf4720bd0b9ec47b4a9c05d4c5/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Han-1413141/dsh-ui-hub",
+    "commit": "219fe63a65de64bf4720bd0b9ec47b4a9c05d4c5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:16.253Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:15.942Z",
+  "coverageReviewedAt": "2026-10-17T17:12:33.551Z",
+  "contentReviewFlags": []
+}

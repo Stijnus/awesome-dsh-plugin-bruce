@@ -1,0 +1,165 @@
+{
+  "full_name": "czcdr/dsh-plugin-rea",
+  "originalPosition": 381,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 88,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:33.100Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e878c4a2903c276a82bd93bcd044adaded361a3965b6208dc1646a1bf860f031",
+      "url": "https://github.com/czcdr/dsh-plugin-rea/blob/27d3f1106c85a06d22ada4243d4996c03b1250ab/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-rea",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-rea",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/czcdr/dsh-plugin-rea#v2.0.0",
+          "command": "dsh plugin --profile <profile> add github:czcdr/dsh-plugin-rea#v2.0.0",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/czcdr/dsh-plugin-rea#v1.0.6",
+          "command": "dsh plugin --profile <profile> add github:czcdr/dsh-plugin-rea#v1.0.6",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-plugin-rea@1.0.6",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-rea@1.0.6",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "d427eb246a9a40b493bd900ef26f09e2e77605c6093781878defcdc4f212f61d",
+      "url": "https://github.com/czcdr/dsh-plugin-rea/blob/27d3f1106c85a06d22ada4243d4996c03b1250ab/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-rea",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-rea",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/czcdr/dsh-plugin-rea#v2.0.0",
+          "command": "dsh plugin --profile <profile> add github:czcdr/dsh-plugin-rea#v2.0.0",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/czcdr/dsh-plugin-rea#v1.0.6",
+          "command": "dsh plugin --profile <profile> add github:czcdr/dsh-plugin-rea#v1.0.6",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-plugin-rea@1.0.6",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-rea@1.0.6",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-rea",
+      "version": "2.0.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/czcdr/dsh-plugin-rea",
+        "commit": "27d3f1106c85a06d22ada4243d4996c03b1250ab"
+      },
+      "manifestSha256": "0ea5b82c7d1b0443a57d66ca1e5be440e661f6faff7dc2a498ddcceea7e1343c",
+      "manifestUrl": "https://github.com/czcdr/dsh-plugin-rea/blob/27d3f1106c85a06d22ada4243d4996c03b1250ab/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-rea",
+      "origin": "npm",
+      "name": "dsh-plugin-rea",
+      "version": "2.0.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "224eecdf49cec033249e086589c1294ed647e5b23f4b30627a5e1c916b86d3bf"
+    },
+    {
+      "target": "https://github.com/czcdr/dsh-plugin-rea#v2.0.0",
+      "origin": "git_target",
+      "path": "",
+      "commit": "83bd2c70fe6845f9b1f79e324bf9b608877080f8",
+      "name": "dsh-plugin-rea",
+      "version": "2.0.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/czcdr/dsh-plugin-rea#v1.0.6",
+      "origin": "git_target",
+      "path": "",
+      "commit": "3bcd313c7b2f8073a0343d0f5907ac2c3cc6223d",
+      "name": "dsh-plugin-rea",
+      "version": "1.0.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-plugin-rea",
+      "version": "1.0.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-rea",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/czcdr/dsh-plugin-rea#v2.0.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/czcdr/dsh-plugin-rea#v1.0.6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-rea@1.0.6",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/czcdr/dsh-plugin-rea",
+    "commit": "27d3f1106c85a06d22ada4243d4996c03b1250ab",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:55.625Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.909Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,100 @@
+{
+  "full_name": "ouli-1242/dsh-plugin-tool-management",
+  "originalPosition": 527,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:49.657Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3666d1b9631e5ee4809bcb2db88481558e641966faac705bfe3ac127fd3c194f",
+      "url": "https://github.com/ouli-1242/dsh-plugin-tool-management/blob/9ef2aed21fee9823d6b2e1dd34842ded3601ac24/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-tool-management@latest",
+          "command": "dsh plugin --profile web add dsh-plugin-tool-management@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-tool-management@latest",
+          "command": "dsh plugin --profile desktop add dsh-plugin-tool-management@latest",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "1e26752d6ae825523e7ff52cfc609e81949d3c055aae9b948d91587b9072a2d9",
+      "url": "https://github.com/ouli-1242/dsh-plugin-tool-management/blob/9ef2aed21fee9823d6b2e1dd34842ded3601ac24/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-tool-management@latest",
+          "command": "dsh plugin --profile web add dsh-plugin-tool-management@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-tool-management@latest",
+          "command": "dsh plugin --profile desktop add dsh-plugin-tool-management@latest",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-tool-management",
+      "version": "0.20.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ouli-1242/dsh-plugin-tool-management",
+        "commit": "9ef2aed21fee9823d6b2e1dd34842ded3601ac24"
+      },
+      "manifestSha256": "46a660e04b22f29346b15967abbc854a9689b5272f37adba48a1535994aab68f",
+      "manifestUrl": "https://github.com/ouli-1242/dsh-plugin-tool-management/blob/9ef2aed21fee9823d6b2e1dd34842ded3601ac24/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-tool-management@latest",
+      "origin": "npm",
+      "name": "dsh-plugin-tool-management",
+      "version": "0.20.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "e83e59b8ddfc65516f41c49f7ea8ef8466a2aa39c332fac8abbef7477486c7c3"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-tool-management@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ouli-1242/dsh-plugin-tool-management",
+    "commit": "9ef2aed21fee9823d6b2e1dd34842ded3601ac24",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:59.221Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.441Z",
+  "contentReviewFlags": []
+}

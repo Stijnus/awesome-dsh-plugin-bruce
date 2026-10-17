@@ -1,0 +1,76 @@
+{
+  "full_name": "ArtlexYoung/dsh-super-code",
+  "originalPosition": 421,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 96,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:50.755Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "205eb7c5e3032aed2f039f3933ba495070dc447cf3b419ed966dbe55b223a8af",
+      "url": "https://github.com/ArtlexYoung/dsh-super-code/blob/093bc36fbc5edf8df8b92536947ec46aa0c60cf2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-super-code",
+          "command": "dsh plugin --profile web add dsh-super-code",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-super-code",
+      "version": "0.3.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ArtlexYoung/dsh-super-code",
+        "commit": "093bc36fbc5edf8df8b92536947ec46aa0c60cf2"
+      },
+      "manifestSha256": "68aaf54e933cdf4dc2db1bdb0404705689ccc85648d0ac32c7393fdbf41b532d",
+      "manifestUrl": "https://github.com/ArtlexYoung/dsh-super-code/blob/093bc36fbc5edf8df8b92536947ec46aa0c60cf2/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-super-code",
+      "origin": "npm",
+      "name": "dsh-super-code",
+      "version": "0.3.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "2469886a2425f5370a53866244b5bce6adfc5ec0b11f112f895a0d3c424abd46"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-super-code",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ArtlexYoung/dsh-super-code",
+    "commit": "093bc36fbc5edf8df8b92536947ec46aa0c60cf2",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:58.945Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.755Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,199 @@
+{
+  "full_name": "FuRongJun-1999/dsh-memory",
+  "originalPosition": 37,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 11,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:17.978Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6c866c9f3c15f0163f2ff8d7c60e8f39570bcb92c14d85eb177d1aeae63b98ab",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "rust/README.md",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/rust/README.md",
+      "sha256": "4b9a40f29c98503db20508251a37696725814275825d7bf621dd46296a1ab252",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "hive/README.md",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/hive/README.md",
+      "sha256": "f63441eaf3938b6648f513769856ffbdb0db74d348e1cf964390184205bc6039",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/docs/README.md",
+      "sha256": "4be2fad75443909ba14513e4d7d63ca508fd824b6b820eb4c33f233298cd0204",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "data/benchmarks/bench6-100-zh-en/README.md",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/data/benchmarks/bench6-100-zh-en/README.md",
+      "sha256": "e881854ac3b276cfb63de215203e28b1aa20c57780fb55666444c09e308c7816",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh/README.md",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/dsh/README.md",
+      "sha256": "b796c489a2a0f829a01a2dfd8fef7473ffb8edddbf947c5d1ccfbc5798120329",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "codebuddy/README.md",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/codebuddy/README.md",
+      "sha256": "7baba22f1ef41641037e65da78a92c993453efa38ccb38f2a2390551d2340a76",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "zcode/README.md",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/zcode/README.md",
+      "sha256": "493305347fba006a20a61717b8d02e3cb9b4a9c802e55e899ded90b81e0d7d93",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "codex/README.md",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/codex/README.md",
+      "sha256": "117e10cc35baba8b56f9f90fcf883480ca6bdb07388cc15c997eae31631ef649",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "claude/README.md",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/claude/README.md",
+      "sha256": "5efb20bce3f20d5873331e3fd80ded8882bc19e6d57161e25a87283df5305d11",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@furongjun1999/dsh-memory",
+      "version": "0.8.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FuRongJun-1999/dsh-memory",
+        "commit": "53855492ae09227041c818ea35f992215f15c28f"
+      },
+      "manifestSha256": "d94fd02d7541dac7505e3e2d2c52f0d6bd76d6fb0e1d82e57e216380fd49ea3a",
+      "manifestUrl": "https://github.com/FuRongJun-1999/dsh-memory/blob/53855492ae09227041c818ea35f992215f15c28f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FuRongJun-1999/dsh-memory",
+    "commit": "53855492ae09227041c818ea35f992215f15c28f",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:26.884Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "rust/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "hive/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "data/benchmarks/bench6-100-zh-en/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "codebuddy/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "zcode/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "codex/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "claude/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "rust/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "hive/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "data/benchmarks/bench6-100-zh-en/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "codebuddy/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "zcode/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "codex/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "claude/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:50.842Z",
+  "coverageReviewedAt": "2026-10-17T17:12:05.752Z",
+  "contentReviewFlags": []
+}

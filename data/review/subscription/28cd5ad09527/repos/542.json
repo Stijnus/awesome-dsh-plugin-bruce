@@ -1,0 +1,78 @@
+{
+  "full_name": "Dely0/dsh-personal-workbench",
+  "originalPosition": 486,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@dely0/dsh-personal-workbench",
+    "git+https://github.com/Dely0/dsh-personal-workbench.git"
+  ],
+  "manualNote": null,
+  "ordinal": 542,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:25.431Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3e20afbb33e610906926d2bc638e5dbeb1a8527c94de242e8bc72a10dd6b070b",
+      "url": "https://github.com/Dely0/dsh-personal-workbench/blob/787b3d8829066e8fb9a5a627f3cd5538f5327826/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dely0/dsh-personal-workbench",
+          "command": "dsh plugin --profile web add @dely0/dsh-personal-workbench",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/Dely0/dsh-personal-workbench.git",
+          "command": "dsh plugin --profile web add git+https://github.com/Dely0/dsh-personal-workbench.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dely0/dsh-personal-workbench",
+      "version": "1.16.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Dely0/dsh-personal-workbench",
+        "commit": "787b3d8829066e8fb9a5a627f3cd5538f5327826"
+      },
+      "manifestSha256": "6beb9472deff2c5e2324e2c5831d8450df9b098f8393bac11cc737515684e4bc",
+      "manifestUrl": "https://github.com/Dely0/dsh-personal-workbench/blob/787b3d8829066e8fb9a5a627f3cd5538f5327826/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@dely0/dsh-personal-workbench",
+      "origin": "npm",
+      "name": "@dely0/dsh-personal-workbench",
+      "version": "1.16.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "cc6376eeb4c88b71083a26b0a7bd777d15ffbfd97183823501890d028c9d8a1d"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Dely0/dsh-personal-workbench",
+    "commit": "787b3d8829066e8fb9a5a627f3cd5538f5327826",
+    "releaseTags": 42,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:33.790Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.722Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,84 @@
+{
+  "full_name": "w2112515/dsh-plugin-development",
+  "originalPosition": 289,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/w2112515/dsh-plugin-development/releases/download/v0.2.0-beta.1/dsh-plugin-development-0.2.0-beta.1.tgz",
+    "https://github.com/w2112515/dsh-plugin-development#v0.2.0-beta.1"
+  ],
+  "manualNote": null,
+  "ordinal": 402,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:21.355Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dc34c4b72a060113b4893b0a0c4d733b04c10902f4620560b1f83e373eb98ce3",
+      "url": "https://github.com/w2112515/dsh-plugin-development/blob/4dab80cbeb86f706aa6fa9cc8269049aa809ccc9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/w2112515/dsh-plugin-development/releases/download/v0.2.0-beta.1/dsh-plugin-development-0.2.0-beta.1.tgz",
+          "command": "dsh plugin --profile web add https://github.com/w2112515/dsh-plugin-development/releases/download/v0.2.0-beta.1/dsh-plugin-development-0.2.0-beta.1.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/w2112515/dsh-plugin-development#v0.2.0-beta.1",
+          "command": "dsh plugin --profile web add github:w2112515/dsh-plugin-development#v0.2.0-beta.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-development",
+      "version": "0.2.0-beta.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/w2112515/dsh-plugin-development",
+        "commit": "4dab80cbeb86f706aa6fa9cc8269049aa809ccc9"
+      },
+      "manifestSha256": "ae1d7d385ac1fc436d54964174a52555a8f026eb52f51f921b972bb50d2233a4",
+      "manifestUrl": "https://github.com/w2112515/dsh-plugin-development/blob/4dab80cbeb86f706aa6fa9cc8269049aa809ccc9/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/w2112515/dsh-plugin-development/releases/download/v0.2.0-beta.1/dsh-plugin-development-0.2.0-beta.1.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/w2112515/dsh-plugin-development#v0.2.0-beta.1",
+      "origin": "git_target",
+      "path": "",
+      "commit": "0114b0ec445c5bf5d528106136bd9cf4acf7e27b",
+      "name": "dsh-plugin-development",
+      "version": "0.2.0-beta.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/w2112515/dsh-plugin-development",
+    "commit": "4dab80cbeb86f706aa6fa9cc8269049aa809ccc9",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:34.979Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.754Z",
+  "contentReviewFlags": []
+}

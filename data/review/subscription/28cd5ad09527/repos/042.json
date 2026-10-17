@@ -1,0 +1,90 @@
+{
+  "full_name": "songoao25/dsh-chatgpt-sub",
+  "originalPosition": 219,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 42,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:16.257Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d46e78f1e9181a456f4ecf3e2a3602507ffb4cc5299978820d81f3103cbd853e",
+      "url": "https://github.com/songoao25/dsh-chatgpt-sub/blob/2c13fe53569506ff5a0b509b31d39f73aba627a0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chatgpt-sub",
+          "command": "dsh plugin --profile web add dsh-chatgpt-sub",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "4f41a404e768ae208ab3ececd91c33a921aa44b8e0c82f4a6f804af331bf5d8c",
+      "url": "https://github.com/songoao25/dsh-chatgpt-sub/blob/2c13fe53569506ff5a0b509b31d39f73aba627a0/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chatgpt-sub",
+          "command": "dsh plugin --profile web add dsh-chatgpt-sub",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chatgpt-sub",
+      "version": "0.6.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/songoao25/dsh-chatgpt-sub",
+        "commit": "2c13fe53569506ff5a0b509b31d39f73aba627a0"
+      },
+      "manifestSha256": "4d1b07961e16f7966e47664dd5fe8c97ab4af0ff3548af16277f1a712ea68209",
+      "manifestUrl": "https://github.com/songoao25/dsh-chatgpt-sub/blob/2c13fe53569506ff5a0b509b31d39f73aba627a0/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-chatgpt-sub",
+      "origin": "npm",
+      "name": "dsh-chatgpt-sub",
+      "version": "0.6.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ef84ef0fc455e22b0667167885a5c430504b4690e74b4115eb933434381e4593"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-chatgpt-sub",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/songoao25/dsh-chatgpt-sub",
+    "commit": "2c13fe53569506ff5a0b509b31d39f73aba627a0",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:26.345Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:04.190Z",
+  "contentReviewFlags": []
+}

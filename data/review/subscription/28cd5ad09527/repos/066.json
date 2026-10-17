@@ -1,0 +1,61 @@
+{
+  "full_name": "Airmetro/dsh-update-checker",
+  "originalPosition": 305,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 66,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:55.501Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1da9ccd42ba3626e7c9ab195ce7109855d6c9e08a348d99c22a594c8ed7d440a",
+      "url": "https://github.com/Airmetro/dsh-update-checker/blob/a3333065b93c360117ff7546ea249e11bba578d7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d7416b95668aaf07abb3625f908e306276398c69e78ac76d2ab7ccf5c1742441",
+      "url": "https://github.com/Airmetro/dsh-update-checker/blob/a3333065b93c360117ff7546ea249e11bba578d7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-update-checker",
+      "version": "1.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Airmetro/dsh-update-checker",
+        "commit": "a3333065b93c360117ff7546ea249e11bba578d7"
+      },
+      "manifestSha256": "bd9b97c8736b6078eb85177eb62eeb3a4d4f814797f51368729494004a7e7535",
+      "manifestUrl": "https://github.com/Airmetro/dsh-update-checker/blob/a3333065b93c360117ff7546ea249e11bba578d7/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Airmetro/dsh-update-checker",
+    "commit": "a3333065b93c360117ff7546ea249e11bba578d7",
+    "releaseTags": 32,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:04.940Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.021Z",
+  "contentReviewFlags": []
+}

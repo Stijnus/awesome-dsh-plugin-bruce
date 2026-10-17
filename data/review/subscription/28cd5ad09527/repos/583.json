@@ -1,0 +1,61 @@
+{
+  "full_name": "xiazhi88/dsh-onecompany",
+  "originalPosition": 564,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/xiazhi88/dsh-onecompany"
+  ],
+  "manualNote": null,
+  "ordinal": 583,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:39.345Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a35898266c8640fb71a1456cf0ec0d26b7d9bf116868b9f529bfe2840d98a459",
+      "url": "https://github.com/xiazhi88/dsh-onecompany/blob/6e1dbb3cf30158e10cf2b2905413651958968099/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xiazhi88/dsh-onecompany",
+          "command": "dsh plugin --profile web add \"github:xiazhi88/dsh-onecompany\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-onecompany",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiazhi88/dsh-onecompany",
+        "commit": "6e1dbb3cf30158e10cf2b2905413651958968099"
+      },
+      "manifestSha256": "369e1a69c3ee22e26c1ef61304f2e67173db7c40f82452e3f5045e48ac644759",
+      "manifestUrl": "https://github.com/xiazhi88/dsh-onecompany/blob/6e1dbb3cf30158e10cf2b2905413651958968099/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiazhi88/dsh-onecompany",
+    "commit": "6e1dbb3cf30158e10cf2b2905413651958968099",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:47.087Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.586Z",
+  "contentReviewFlags": []
+}

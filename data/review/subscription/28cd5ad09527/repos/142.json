@@ -1,0 +1,113 @@
+{
+  "full_name": "HeathHe/dsh-worktree-panel",
+  "originalPosition": 561,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:22.687Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e47a98f5f6086b1718fa502909f7705c3f4ac8a6c9d06f62675ecbb762a63296",
+      "url": "https://github.com/HeathHe/dsh-worktree-panel/blob/adf481e99e0298787360bf58324bc6623b8892c4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-worktree-panel",
+          "command": "dsh plugin --profile web add dsh-worktree-panel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-worktree-panel@0.1.6",
+          "command": "dsh plugin --profile web add dsh-worktree-panel@0.1.6",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "7c7ede9afe2b8962c5e4d549cb171cfb05833694ad7c9153743065d2e0d5802a",
+      "url": "https://github.com/HeathHe/dsh-worktree-panel/blob/adf481e99e0298787360bf58324bc6623b8892c4/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-worktree-panel",
+          "command": "dsh plugin --profile web add dsh-worktree-panel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-worktree-panel@0.1.6",
+          "command": "dsh plugin --profile web add dsh-worktree-panel@0.1.6",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-worktree-panel",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HeathHe/dsh-worktree-panel",
+        "commit": "adf481e99e0298787360bf58324bc6623b8892c4"
+      },
+      "manifestSha256": "90d2cd678bdef86854d65dbacb2927bf3147ba829d7c2b0e24b9dcc0c48bec2f",
+      "manifestUrl": "https://github.com/HeathHe/dsh-worktree-panel/blob/adf481e99e0298787360bf58324bc6623b8892c4/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-worktree-panel",
+      "origin": "npm",
+      "name": "dsh-worktree-panel",
+      "version": "0.1.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "64387bc5771bb286f3a2e6bac5a9950930908eb32b3e6df5cbf0bd8674de8363"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-worktree-panel",
+      "version": "0.1.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-worktree-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-worktree-panel@0.1.6",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HeathHe/dsh-worktree-panel",
+    "commit": "adf481e99e0298787360bf58324bc6623b8892c4",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:33.454Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.114Z",
+  "contentReviewFlags": []
+}

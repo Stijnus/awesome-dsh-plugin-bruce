@@ -1,0 +1,75 @@
+{
+  "full_name": "oil-oil/dsh-vision",
+  "originalPosition": 183,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/oil-oil/dsh-vision"
+  ],
+  "manualNote": null,
+  "ordinal": 331,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:52.482Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d35a19d2a08a65bccc93819815d0a4182fded4b55d3b9f641d8d3bb22f5f9802",
+      "url": "https://github.com/oil-oil/dsh-vision/blob/9446a41dc96bd9fc96a7cc3b3a11365e125c9bd7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/oil-oil/dsh-vision",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:oil-oil/dsh-vision",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "a3816f1dcc6c76091e6e13106f42900902768512a6ac50f8d74df33f09542ccf",
+      "url": "https://github.com/oil-oil/dsh-vision/blob/9446a41dc96bd9fc96a7cc3b3a11365e125c9bd7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/oil-oil/dsh-vision",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:oil-oil/dsh-vision",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@oil-oil/dsh-vision",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/oil-oil/dsh-vision",
+        "commit": "9446a41dc96bd9fc96a7cc3b3a11365e125c9bd7"
+      },
+      "manifestSha256": "2914eea7a5f364ae0ae713f49c2a00871b35adad32a7110c19d84e492b345514",
+      "manifestUrl": "https://github.com/oil-oil/dsh-vision/blob/9446a41dc96bd9fc96a7cc3b3a11365e125c9bd7/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/oil-oil/dsh-vision",
+    "commit": "9446a41dc96bd9fc96a7cc3b3a11365e125c9bd7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:02.312Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.024Z",
+  "contentReviewFlags": []
+}

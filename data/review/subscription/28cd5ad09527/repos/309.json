@@ -1,0 +1,341 @@
+{
+  "full_name": "Cerbur/clutch-dsh",
+  "originalPosition": 151,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@cerbur/clutch-dsh-worktree",
+    "@cerbur/clutch-dsh-fireworks",
+    "@cerbur/clutch-dsh-title"
+  ],
+  "manualNote": null,
+  "ordinal": 309,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:13:21.296Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "db649a912bfdcd48d2bce0fec5ee49c2e2205fd363a019858b3e47817ad35d06",
+      "url": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cerbur/clutch-dsh-worktree",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-worktree",
+          "profile": "web"
+        },
+        {
+          "install": "@cerbur/clutch-dsh-fireworks",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-fireworks",
+          "profile": "web"
+        },
+        {
+          "install": "@cerbur/clutch-dsh-discuss",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-discuss",
+          "profile": "web"
+        },
+        {
+          "install": "@cerbur/clutch-dsh-title",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-title",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "58d12de5d12768a2a3d861bdfb97e35ec9148f53bc5a8b7f435a3f5dee9c1edc",
+      "url": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/README.zh.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cerbur/clutch-dsh-worktree",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-worktree",
+          "profile": "web"
+        },
+        {
+          "install": "@cerbur/clutch-dsh-fireworks",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-fireworks",
+          "profile": "web"
+        },
+        {
+          "install": "@cerbur/clutch-dsh-discuss",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-discuss",
+          "profile": "web"
+        },
+        {
+          "install": "@cerbur/clutch-dsh-title",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-title",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/clutch-dsh-worktree/README.md",
+      "sha256": "2668c31c6ee4b9806c9376f997dbccf7fef103ce0c4a021c8d08353f581a083e",
+      "url": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-worktree/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Cerbur/clutch-dsh#path:/packages/clutch-dsh-worktree",
+          "command": "dsh plugin --profile web add \"github:Cerbur/clutch-dsh#path:/packages/clutch-dsh-worktree\"",
+          "profile": "web"
+        },
+        {
+          "install": "@cerbur/clutch-dsh-worktree",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-worktree",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/clutch-dsh-fireworks/README.md",
+      "sha256": "64db4cb30d2807aa8630e4fad34bf41a73a6b5bac4e2f104767c430c3214ed9e",
+      "url": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-fireworks/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cerbur/clutch-dsh-fireworks",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-fireworks",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/clutch-dsh-discuss/README.md",
+      "sha256": "a5deaabe0d4e550862b320e453ee6bad8f93f581b5638b2be43cae68b269d3db",
+      "url": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-discuss/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cerbur/clutch-dsh-discuss",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-discuss",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/clutch-dsh-title/README.md",
+      "sha256": "eb4e68213492ef252bd503bedef37de5a5f6230247f647035afc09ef142fb374",
+      "url": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-title/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cerbur/clutch-dsh-title",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-title",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/clutch-dsh-worktree/README.zh.md",
+      "sha256": "7aa309f69e1b466f583ec57a79bd2048281db74c472dca52de39ac8d3e60c75c",
+      "url": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-worktree/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Cerbur/clutch-dsh#path:/packages/clutch-dsh-worktree",
+          "command": "dsh plugin --profile web add \"github:Cerbur/clutch-dsh#path:/packages/clutch-dsh-worktree\"",
+          "profile": "web"
+        },
+        {
+          "install": "@cerbur/clutch-dsh-worktree",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-worktree",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/clutch-dsh-fireworks/README.zh.md",
+      "sha256": "cbb1da1aa0b593c1e76d819499f253ce1e895f816549693752ad2e0467a89123",
+      "url": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-fireworks/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cerbur/clutch-dsh-fireworks",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-fireworks",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/clutch-dsh-discuss/README.zh.md",
+      "sha256": "80563c7f337f27e36d996b1fa651e3af2444482a9b64c69488311654d985cb4e",
+      "url": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-discuss/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cerbur/clutch-dsh-discuss",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-discuss",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/clutch-dsh-title/README.zh.md",
+      "sha256": "85876fd38ef5515fc2ce7c700b16798c3cc22674b1c1530f2e5c9a5ab2b86def",
+      "url": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-title/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cerbur/clutch-dsh-title",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-title",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@cerbur/clutch-dsh-discuss",
+      "version": "0.0.1-alpha",
+      "path": "packages/clutch-dsh-discuss",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Cerbur/clutch-dsh",
+        "commit": "3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87",
+        "path": "packages/clutch-dsh-discuss"
+      },
+      "manifestSha256": "af5f22b1f1e59ec567ba1949e90e1f6ce19bebbe3917a408a17de9be157dca17",
+      "manifestUrl": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-discuss/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@cerbur/clutch-dsh-fireworks",
+      "version": "0.1.4",
+      "path": "packages/clutch-dsh-fireworks",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Cerbur/clutch-dsh",
+        "commit": "3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87",
+        "path": "packages/clutch-dsh-fireworks"
+      },
+      "manifestSha256": "9dd272465811c64d000586060c12137e876c75c1ff0ee172acaf1aa7ee1117b8",
+      "manifestUrl": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-fireworks/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@cerbur/clutch-dsh-title",
+      "version": "0.1.6",
+      "path": "packages/clutch-dsh-title",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Cerbur/clutch-dsh",
+        "commit": "3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87",
+        "path": "packages/clutch-dsh-title"
+      },
+      "manifestSha256": "2d2530e4f69920dfd9fa4a297e2363a6213c764118c57063afe1838cb1b7bfe7",
+      "manifestUrl": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-title/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@cerbur/clutch-dsh-worktree",
+      "version": "0.1.18",
+      "path": "packages/clutch-dsh-worktree",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Cerbur/clutch-dsh",
+        "commit": "3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87",
+        "path": "packages/clutch-dsh-worktree"
+      },
+      "manifestSha256": "58c79d2a58f1265872585da06f84f27f55bd61bbbf352db8244e06de9015bff5",
+      "manifestUrl": "https://github.com/Cerbur/clutch-dsh/blob/3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87/packages/clutch-dsh-worktree/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@cerbur/clutch-dsh-worktree",
+      "origin": "npm",
+      "name": "@cerbur/clutch-dsh-worktree",
+      "version": "0.1.18",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a1e8af7739333554461dcabcb619082935f119f294b384e5e5ac6f7f4c44b11d"
+    },
+    {
+      "target": "@cerbur/clutch-dsh-fireworks",
+      "origin": "npm",
+      "name": "@cerbur/clutch-dsh-fireworks",
+      "version": "0.1.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "6c5c997dffc675bb36061ae2565a7938cdad3c665224a397d68803a9e1fc6c5d"
+    },
+    {
+      "target": "@cerbur/clutch-dsh-title",
+      "origin": "npm",
+      "name": "@cerbur/clutch-dsh-title",
+      "version": "0.1.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "380e1b4bdce514f552c65b60bff00779a0548a3e9b64312c16f61a4909c3e05a"
+    },
+    {
+      "target": "@cerbur/clutch-dsh-discuss",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    },
+    {
+      "target": "https://github.com/Cerbur/clutch-dsh#path:/packages/clutch-dsh-worktree",
+      "origin": "git_target",
+      "path": "packages/clutch-dsh-worktree",
+      "commit": "3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87",
+      "name": "@cerbur/clutch-dsh-worktree",
+      "version": "0.1.18",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@cerbur/clutch-dsh-discuss",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Cerbur/clutch-dsh#path:/packages/clutch-dsh-worktree",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Cerbur/clutch-dsh",
+    "commit": "3ef8bb7043efd995f4bd0d0f15dc17289f4f0e87",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:14:00.759Z",
+  "coverageReviewedAt": "2026-10-17T17:14:00.759Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,118 @@
+{
+  "full_name": "Amakurai/dsh-liketavern",
+  "originalPosition": 186,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Amakurai/dsh-liketavern#v0.4.3"
+  ],
+  "manualNote": null,
+  "ordinal": 333,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:59.840Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a8645acd87f271d1f5c3d66cd9443a369b5f121a3111f65a86366eee546be694",
+      "url": "https://github.com/Amakurai/dsh-liketavern/blob/dd2fd421a8163f9e3bd78b5c9bd45c8836613e69/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Amakurai/dsh-liketavern#v0.5.3",
+          "command": "dsh plugin --profile web add github:Amakurai/dsh-liketavern#v0.5.3",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Amakurai/dsh-liketavern/blob/dd2fd421a8163f9e3bd78b5c9bd45c8836613e69/README.en.md",
+      "sha256": "4eaa1e364267f25c8077fc6acb7732dc22071f1d497fad57632133c3ccae1608",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Amakurai/dsh-liketavern#v0.5.3",
+          "command": "dsh plugin --profile web add github:Amakurai/dsh-liketavern#v0.5.3",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-liketavern",
+      "version": "0.5.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Amakurai/dsh-liketavern",
+        "commit": "dd2fd421a8163f9e3bd78b5c9bd45c8836613e69"
+      },
+      "manifestSha256": "54e50ace0e87a93f361a0ce7b511ab64e8c1aa776d22fdafdab80cf3c7e8ac2b",
+      "manifestUrl": "https://github.com/Amakurai/dsh-liketavern/blob/dd2fd421a8163f9e3bd78b5c9bd45c8836613e69/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/Amakurai/dsh-liketavern#v0.4.3",
+      "origin": "git_target",
+      "path": "",
+      "commit": "ed9b604a4530325c178d3e23e935b05cee7a791e",
+      "name": "dsh-liketavern",
+      "version": "0.4.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/Amakurai/dsh-liketavern#v0.5.3",
+      "origin": "git_target",
+      "path": "",
+      "commit": "a9fadbe792fa8e8bc9d1042561cd725efa1082bf",
+      "name": "dsh-liketavern",
+      "version": "0.5.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Amakurai/dsh-liketavern#v0.4.3",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Amakurai/dsh-liketavern#v0.5.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Amakurai/dsh-liketavern",
+    "commit": "dd2fd421a8163f9e3bd78b5c9bd45c8836613e69",
+    "releaseTags": 28,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:20.411Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:03.670Z",
+  "coverageReviewedAt": "2026-10-17T17:12:16.289Z",
+  "contentReviewFlags": []
+}

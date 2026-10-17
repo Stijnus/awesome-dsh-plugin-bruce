@@ -1,0 +1,86 @@
+{
+  "full_name": "xiajiajun516/dsh-config-manager",
+  "originalPosition": 136,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-config-manager@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 294,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:22.884Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "52ccd01e95fe739e6ab6c14e624425a3cfa9a97ccf7b057a0fdcdea1c65f9c75",
+      "url": "https://github.com/xiajiajun516/dsh-config-manager/blob/43abe67da3d27ae7e739c220415144eea9846a30/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-config-manager@latest",
+          "command": "dsh plugin --profile web add dsh-config-manager@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "344c17e8ddfb71ae6fd9dbd5987eb6dc99f88bd6262ec474846ea687509fc1bd",
+      "url": "https://github.com/xiajiajun516/dsh-config-manager/blob/43abe67da3d27ae7e739c220415144eea9846a30/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-config-manager@latest",
+          "command": "dsh plugin --profile web add dsh-config-manager@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-config-manager",
+      "version": "0.1.76",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiajiajun516/dsh-config-manager",
+        "commit": "43abe67da3d27ae7e739c220415144eea9846a30"
+      },
+      "manifestSha256": "91d33480c51c81bb1fb79bc4471b6d997435fade53682f3cec79a0ffe7d99634",
+      "manifestUrl": "https://github.com/xiajiajun516/dsh-config-manager/blob/43abe67da3d27ae7e739c220415144eea9846a30/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-config-manager@latest",
+      "origin": "npm",
+      "name": "dsh-config-manager",
+      "version": "0.1.76",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "935f5cdb6308b1dc77bd242c3e765b312e3e9c7e6329120f6f767fc8b37f5a4e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiajiajun516/dsh-config-manager",
+    "commit": "43abe67da3d27ae7e739c220415144eea9846a30",
+    "releaseTags": 75,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:34.952Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.689Z",
+  "contentReviewFlags": []
+}

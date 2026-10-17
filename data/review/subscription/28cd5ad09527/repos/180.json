@@ -1,0 +1,84 @@
+{
+  "full_name": "dsh-plugins/dsh-auxiliary",
+  "originalPosition": 583,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <PROFILE> add @dsh-plugin/dsh-auxiliary」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 180,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:40.948Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5d474979efb9abb755ec4ca23de96023caf727541a25dbe61a20c119c65be21a",
+      "url": "https://github.com/dsh-plugins/dsh-auxiliary/blob/e497aa57cb3bcd3536eee4da8be935af3e94a6f7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-plugin/dsh-auxiliary",
+          "command": "dsh plugin --profile <PROFILE> add @dsh-plugin/dsh-auxiliary",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-plugin/dsh-auxiliary",
+      "version": "0.6.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dsh-plugins/dsh-auxiliary",
+        "commit": "e497aa57cb3bcd3536eee4da8be935af3e94a6f7"
+      },
+      "manifestSha256": "3b9ee527f01b0821110e21caf8345129feb14283839832b47047f1a5999a752c",
+      "manifestUrl": "https://github.com/dsh-plugins/dsh-auxiliary/blob/e497aa57cb3bcd3536eee4da8be935af3e94a6f7/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@dsh-plugin/dsh-auxiliary",
+      "origin": "npm",
+      "name": "@dsh-plugin/dsh-auxiliary",
+      "version": "0.6.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "fd6dd4c56227eddbbc485c8bc65b5ec3f9e00a12c62a037274d26f229240b359"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dsh-plugin/dsh-auxiliary",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dsh-plugins/dsh-auxiliary",
+    "commit": "e497aa57cb3bcd3536eee4da8be935af3e94a6f7",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:49.584Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.390Z",
+  "contentReviewFlags": []
+}

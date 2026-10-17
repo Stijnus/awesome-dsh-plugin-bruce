@@ -1,0 +1,108 @@
+{
+  "full_name": "liustack/modlens",
+  "originalPosition": 12,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@liustack/modlens@3.26.5"
+  ],
+  "manualNote": null,
+  "ordinal": 194,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:11.008Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b5438d495a9c6f97034750a1d0036a03b0702293722b88ebd64da77e7a4c9dba",
+      "url": "https://github.com/liustack/modlens/blob/aa108d1796e3c4b5a6790516e2fcde87a35b189f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@liustack/modlens@3.27.1",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.27.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "7f3ba5c06df108cb064b1ab531c47422a20443ee81cdfcc16aca22102a1ebb27",
+      "url": "https://github.com/liustack/modlens/blob/aa108d1796e3c4b5a6790516e2fcde87a35b189f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@liustack/modlens@3.27.1",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.27.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@liustack/modlens",
+      "version": "3.27.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liustack/modlens",
+        "commit": "aa108d1796e3c4b5a6790516e2fcde87a35b189f"
+      },
+      "manifestSha256": "60fefdae9bb954f42489da89dee8e58940a22ace89b085bc9388c0e095dede1d",
+      "manifestUrl": "https://github.com/liustack/modlens/blob/aa108d1796e3c4b5a6790516e2fcde87a35b189f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@liustack/modlens@3.26.5",
+      "origin": "npm",
+      "name": "@liustack/modlens",
+      "version": "3.26.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "70c805c362c22fc533d9ba466b0ea4d45729219249e8b46b9c1b40f7d3224986"
+    },
+    {
+      "target": "@liustack/modlens@3.27.1",
+      "origin": "npm",
+      "name": "@liustack/modlens",
+      "version": "3.27.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "70c805c362c22fc533d9ba466b0ea4d45729219249e8b46b9c1b40f7d3224986"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@liustack/modlens@3.26.5",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@liustack/modlens@3.27.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liustack/modlens",
+    "commit": "aa108d1796e3c4b5a6790516e2fcde87a35b189f",
+    "releaseTags": 93,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:20.958Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.862Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,53 @@
+{
+  "full_name": "gameswu/dsh-plugin-background",
+  "originalPosition": 290,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 63,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:51.300Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2d233067e5ea3c60b3b24f6ed2fcff1861c36b1a7c338abdc5ac7aefe352b4ef",
+      "url": "https://github.com/gameswu/dsh-plugin-background/blob/0bb878f2aa104761a600c626dd7cab53dc7b035d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-background",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gameswu/dsh-plugin-background",
+        "commit": "0bb878f2aa104761a600c626dd7cab53dc7b035d"
+      },
+      "manifestSha256": "872c5a1717709ccbfda5679540adf19a018e59435242f1634b84cfcb798ea604",
+      "manifestUrl": "https://github.com/gameswu/dsh-plugin-background/blob/0bb878f2aa104761a600c626dd7cab53dc7b035d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gameswu/dsh-plugin-background",
+    "commit": "0bb878f2aa104761a600c626dd7cab53dc7b035d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:59.039Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.016Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,147 @@
+{
+  "full_name": "HakureiMonika/dsh-sandbox-escalation-fix",
+  "originalPosition": 81,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-sandbox-escalation-fix@latest",
+    "dsh-sandbox-escalation-fix@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 248,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:44.840Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c17b55c43e29bf49348caed4ca11172e159669b0291f6d2311244518a0ba502c",
+      "url": "https://github.com/HakureiMonika/dsh-sandbox-escalation-fix/blob/8760b89076b45ea3f60e3c6a598f91e59a1f7387/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sandbox-escalation-fix@latest",
+          "command": "dsh plugin --profile web add dsh-sandbox-escalation-fix@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-sandbox-escalation-fix@latest",
+          "command": "dsh plugin --profile headless add dsh-sandbox-escalation-fix@latest",
+          "profile": "headless"
+        },
+        {
+          "install": "dsh-sandbox-escalation-fix@next",
+          "command": "dsh plugin --profile <profile> add dsh-sandbox-escalation-fix@next",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-sandbox-escalation-fix@0.1.6-alpha2-win-linux",
+          "command": "dsh plugin --profile web add dsh-sandbox-escalation-fix@0.1.6-alpha2-win-linux",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d7ed28caff401e7b80fece000c90ff0940d3367184937f7234a67231afaef81c",
+      "url": "https://github.com/HakureiMonika/dsh-sandbox-escalation-fix/blob/8760b89076b45ea3f60e3c6a598f91e59a1f7387/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sandbox-escalation-fix@latest",
+          "command": "dsh plugin --profile web add dsh-sandbox-escalation-fix@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-sandbox-escalation-fix@latest",
+          "command": "dsh plugin --profile headless add dsh-sandbox-escalation-fix@latest",
+          "profile": "headless"
+        },
+        {
+          "install": "dsh-sandbox-escalation-fix@next",
+          "command": "dsh plugin --profile <profile> add dsh-sandbox-escalation-fix@next",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-sandbox-escalation-fix@0.1.6-alpha2-win-linux",
+          "command": "dsh plugin --profile web add dsh-sandbox-escalation-fix@0.1.6-alpha2-win-linux",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sandbox-escalation-fix",
+      "version": "0.1.6-alpha2-win-linux",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HakureiMonika/dsh-sandbox-escalation-fix",
+        "commit": "8760b89076b45ea3f60e3c6a598f91e59a1f7387"
+      },
+      "manifestSha256": "8d1205f1e11e7155af392e987e433420fa95435f1cd78d912021026d4835cc5f",
+      "manifestUrl": "https://github.com/HakureiMonika/dsh-sandbox-escalation-fix/blob/8760b89076b45ea3f60e3c6a598f91e59a1f7387/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-sandbox-escalation-fix@latest",
+      "origin": "npm",
+      "name": "dsh-sandbox-escalation-fix",
+      "version": "0.1.6-alpha2-win-linux",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "55c3b72618c18c3f40be2558c5a9dca0963361de4dfdc3f180e9dfade25130f9"
+    },
+    {
+      "target": "dsh-sandbox-escalation-fix@next",
+      "origin": "npm",
+      "name": "dsh-sandbox-escalation-fix",
+      "version": "0.1.6-alpha2-win-linux",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "55c3b72618c18c3f40be2558c5a9dca0963361de4dfdc3f180e9dfade25130f9"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-sandbox-escalation-fix",
+      "version": "0.1.6-alpha2-win-linux",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sandbox-escalation-fix@next",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sandbox-escalation-fix@0.1.6-alpha2-win-linux",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HakureiMonika/dsh-sandbox-escalation-fix",
+    "commit": "8760b89076b45ea3f60e3c6a598f91e59a1f7387",
+    "releaseTags": 24,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:55.257Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.637Z",
+  "contentReviewFlags": []
+}

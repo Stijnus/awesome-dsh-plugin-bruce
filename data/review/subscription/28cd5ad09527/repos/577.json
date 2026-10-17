@@ -1,0 +1,72 @@
+{
+  "full_name": "monotykamary/dsh-factory",
+  "originalPosition": 544,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-factory@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 577,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:30.649Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dcbff15d3dccf7ee8dbb3a5d1c6930136c1037fa2d1b2327c3ce856984dcc572",
+      "url": "https://github.com/monotykamary/dsh-factory/blob/7c1fba5e92fd30b2e3ab6946b79836877fe13e91/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-factory@latest",
+          "command": "dsh plugin --profile web add dsh-factory@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-factory",
+      "version": "0.1.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/monotykamary/dsh-factory",
+        "commit": "7c1fba5e92fd30b2e3ab6946b79836877fe13e91"
+      },
+      "manifestSha256": "e90dcc12a5e189ce9e947e3292be21335530e53e7444654087e00f67914ce8c4",
+      "manifestUrl": "https://github.com/monotykamary/dsh-factory/blob/7c1fba5e92fd30b2e3ab6946b79836877fe13e91/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-factory@latest",
+      "origin": "npm",
+      "name": "dsh-factory",
+      "version": "0.1.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "44ee4132f4939e8667d73ecbb5743b14e36550977adb4597246e5c938a9b551a"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/monotykamary/dsh-factory",
+    "commit": "7c1fba5e92fd30b2e3ab6946b79836877fe13e91",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:38.654Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.375Z",
+  "contentReviewFlags": []
+}

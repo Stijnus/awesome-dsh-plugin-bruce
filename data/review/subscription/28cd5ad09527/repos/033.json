@@ -1,0 +1,76 @@
+{
+  "full_name": "Microqian2th/dsh-codex-effort-slider",
+  "originalPosition": 176,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:58.738Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "947563b3837165effe6054356bcae029633626474f59b717b6d124b53c09b874",
+      "url": "https://github.com/Microqian2th/dsh-codex-effort-slider/blob/6154e7a116d9fdf0ba8a1bb1c03219a3e617c02c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-effort-slider",
+          "command": "dsh plugin --profile <你的 profile> add dsh-codex-effort-slider",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-effort-slider",
+      "version": "1.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Microqian2th/dsh-codex-effort-slider",
+        "commit": "6154e7a116d9fdf0ba8a1bb1c03219a3e617c02c"
+      },
+      "manifestSha256": "f69742b8f5bbd2c895d60216124ac039cb0e52692ab5ed355ad4c2d58d793cff",
+      "manifestUrl": "https://github.com/Microqian2th/dsh-codex-effort-slider/blob/6154e7a116d9fdf0ba8a1bb1c03219a3e617c02c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-codex-effort-slider",
+      "origin": "npm",
+      "name": "dsh-codex-effort-slider",
+      "version": "1.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8358279e90156c561b2ad9fe5275aa682452a5231791bc700db70ba03f274d09"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-effort-slider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Microqian2th/dsh-codex-effort-slider",
+    "commit": "6154e7a116d9fdf0ba8a1bb1c03219a3e617c02c",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:07.311Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:03.966Z",
+  "contentReviewFlags": []
+}

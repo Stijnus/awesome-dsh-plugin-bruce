@@ -1,0 +1,108 @@
+{
+  "full_name": "jsdvjx/dsh-strata",
+  "originalPosition": 216,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-strata",
+    "https://github.com/jsdvjx/dsh-strata#main"
+  ],
+  "manualNote": null,
+  "ordinal": 354,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:01.800Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "09aeba82f60bc3752c1875d9f5c47481fd718dc7392e9436455456f5e6a759a9",
+      "url": "https://github.com/jsdvjx/dsh-strata/blob/50b128aea6d8dc9e5d493f852302c2e6577daf81/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-strata",
+          "command": "dsh plugin --profile web add dsh-strata",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/jsdvjx/dsh-strata#main",
+          "command": "dsh plugin --profile web add \"github:jsdvjx/dsh-strata#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d2e179d5cdc49d2bbfb0ff92e85428764d1a5d70fd1962a4cd42388ed16e714e",
+      "url": "https://github.com/jsdvjx/dsh-strata/blob/50b128aea6d8dc9e5d493f852302c2e6577daf81/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-strata",
+          "command": "dsh plugin --profile web add dsh-strata",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/jsdvjx/dsh-strata#main",
+          "command": "dsh plugin --profile web add \"github:jsdvjx/dsh-strata#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-strata",
+      "version": "0.12.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jsdvjx/dsh-strata",
+        "commit": "50b128aea6d8dc9e5d493f852302c2e6577daf81"
+      },
+      "manifestSha256": "6a461de253c59b9947305fae35476ab48a19c335323cee90f167d1ffce6137de",
+      "manifestUrl": "https://github.com/jsdvjx/dsh-strata/blob/50b128aea6d8dc9e5d493f852302c2e6577daf81/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-strata",
+      "origin": "npm",
+      "name": "dsh-strata",
+      "version": "0.12.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "767b8ac9e9aaf9f53780a7af52ca23062d2f3b2e4d9e35e33223a7d7333b576f"
+    },
+    {
+      "target": "https://github.com/jsdvjx/dsh-strata#main",
+      "origin": "git_target",
+      "path": "",
+      "commit": "50b128aea6d8dc9e5d493f852302c2e6577daf81",
+      "name": "dsh-strata",
+      "version": "0.12.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jsdvjx/dsh-strata",
+    "commit": "50b128aea6d8dc9e5d493f852302c2e6577daf81",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:17.773Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:17.068Z",
+  "contentReviewFlags": []
+}

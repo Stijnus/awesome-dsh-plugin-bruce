@@ -1,0 +1,316 @@
+{
+  "full_name": "PerryLink/dsh-mcp-panel",
+  "originalPosition": 448,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-mcp-panel#main",
+    "dsh-mcp-panel"
+  ],
+  "manualNote": null,
+  "ordinal": 516,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:39.594Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bc00d86724b9f82bfcb0f416cd301a70d060ef8b456979c29212f1705251f091",
+      "url": "https://github.com/PerryLink/dsh-mcp-panel/blob/6f77171aeae441cd880a5e335d15789eeeb40919/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-mcp-panel",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-mcp-panel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp-panel",
+          "command": "dsh plugin --profile web add dsh-mcp-panel",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-mcp-panel/blob/6f77171aeae441cd880a5e335d15789eeeb40919/README-zh.md",
+      "sha256": "512906d608423e694b4e1b127ddd9bc61d30866080f115ef8beb6626f2517abc",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-mcp-panel",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-mcp-panel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp-panel",
+          "command": "dsh plugin --profile web add dsh-mcp-panel",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-mcp-panel/blob/6f77171aeae441cd880a5e335d15789eeeb40919/README-es.md",
+      "sha256": "77bad50965e25fe36098fb21e6f87bb2abdb52ee575ab46420698c3730ce7a6c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-mcp-panel",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-mcp-panel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp-panel",
+          "command": "dsh plugin --profile web add dsh-mcp-panel",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-mcp-panel/blob/6f77171aeae441cd880a5e335d15789eeeb40919/README-pt.md",
+      "sha256": "3c261b43fcb121fd3776130749ff763f6bf19b8eeae6c87b6d9b00f69b624298",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-mcp-panel",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-mcp-panel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp-panel",
+          "command": "dsh plugin --profile web add dsh-mcp-panel",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-mcp-panel/blob/6f77171aeae441cd880a5e335d15789eeeb40919/README-hi.md",
+      "sha256": "86c2c7769bd75201baaec0574ff0d11869fd97621415d7558c1af8cf7eaabc56",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-mcp-panel",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-mcp-panel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp-panel",
+          "command": "dsh plugin --profile web add dsh-mcp-panel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mcp-panel",
+      "version": "0.6.24",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-mcp-panel",
+        "commit": "6f77171aeae441cd880a5e335d15789eeeb40919"
+      },
+      "manifestSha256": "663e86dc79e4b614bc9b4cbff2ac749f49a251916eb9b8e7b53778ec579abedf",
+      "manifestUrl": "https://github.com/PerryLink/dsh-mcp-panel/blob/6f77171aeae441cd880a5e335d15789eeeb40919/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-mcp-panel",
+        "versions": [
+          {
+            "version": "0.6.24",
+            "publishTimestamp": 1791813001,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-mcp-panel",
+              "commit": "6f77171aeae441cd880a5e335d15789eeeb40919"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-mcp-panel#main",
+      "origin": "git_target",
+      "name": "dsh-mcp-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mcp-panel",
+        "title": "dsh-mcp-panel",
+        "description": "MCP management console for the official DeepSeek Harness MCP client: /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (append-only profile-patch fragments, approval-gated writes with automatic backups), a tool trial console over the official tool pipeline, connection status, reconnect counts and sanitized tool inventory, plus an optional Streamable HTTP probe.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-mcp-panel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "mcp",
+            "mcp-client",
+            "mcp-console",
+            "management",
+            "observability",
+            "panel"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.24",
+            "publishTimestamp": 1791813001,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-mcp-panel",
+              "commit": "6f77171aeae441cd880a5e335d15789eeeb40919"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "6f77171aeae441cd880a5e335d15789eeeb40919",
+          "name": "dsh-mcp-panel",
+          "version": "0.6.24",
+          "url": "https://github.com/PerryLink/dsh-mcp-panel",
+          "manifestSha256": "663e86dc79e4b614bc9b4cbff2ac749f49a251916eb9b8e7b53778ec579abedf",
+          "publishTimestamp": 1791813001
+        }
+      ]
+    },
+    {
+      "target": "dsh-mcp-panel",
+      "origin": "npm",
+      "name": "dsh-mcp-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mcp-panel",
+        "title": "dsh-mcp-panel",
+        "description": "MCP management console for the official DeepSeek Harness MCP client: /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (append-only profile-patch fragments, approval-gated writes with automatic backups), a tool trial console over the official tool pipeline, connection status, reconnect counts and sanitized tool inventory, plus an optional Streamable HTTP probe.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-mcp-panel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "mcp",
+            "mcp-client",
+            "mcp-console",
+            "management",
+            "observability",
+            "panel"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.24",
+            "publishTimestamp": 1791610549,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "87b8155f51498457f351b772679f37ff26d48ace11ae2617498742400dd0dfe2",
+      "evidence": [
+        {
+          "name": "dsh-mcp-panel",
+          "version": "0.6.24",
+          "tarball": "https://registry.npmjs.org/dsh-mcp-panel/-/dsh-mcp-panel-0.6.24.tgz",
+          "integrity": "sha512-MQ0mZsDjT5SX+QR/PRZ98D2XdTiW5CBjM0r5YlWI4xA9eSsViewInNxbv8y/ZYjBmXRNAZ76y42JDISL8gG2bA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-mcp-panel#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-mcp-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-mcp-panel",
+    "commit": "6f77171aeae441cd880a5e335d15789eeeb40919",
+    "releaseTags": 34,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:03:57.947Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:13.264Z",
+  "coverageReviewedAt": "2026-10-17T17:12:31.043Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,61 @@
+{
+  "full_name": "Moeblack/deepseek-manners",
+  "originalPosition": 200,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/moeblack/deepseek-manners"
+  ],
+  "manualNote": null,
+  "ordinal": 346,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:40.088Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2eb070c53da367b19af3bceb52e3ee9c1e72958a5e096058ad3f75e5c9809f02",
+      "url": "https://github.com/Moeblack/deepseek-manners/blob/32f58a8a008797a624f0f46367cb91fed9de5dee/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/moeblack/deepseek-manners",
+          "command": "dsh plugin --profile web add github:moeblack/deepseek-manners",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-manners",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Moeblack/deepseek-manners",
+        "commit": "32f58a8a008797a624f0f46367cb91fed9de5dee"
+      },
+      "manifestSha256": "c8c4f47de656033cab0b2a8da6d656a5b12bb048e91496cc55d301fd86268d3b",
+      "manifestUrl": "https://github.com/Moeblack/deepseek-manners/blob/32f58a8a008797a624f0f46367cb91fed9de5dee/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Moeblack/deepseek-manners",
+    "commit": "32f58a8a008797a624f0f46367cb91fed9de5dee",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:47.899Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.806Z",
+  "contentReviewFlags": []
+}

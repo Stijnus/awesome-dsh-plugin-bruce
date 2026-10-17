@@ -71,6 +71,9 @@ test('classify separates github / url / npm / local and rejects placeholders', (
   assert.deepEqual(classify('dsh-raw-html-v2-0.7.28.tgz'), { kind: 'local' });
   assert.deepEqual(classify('https://example.com/pkg-0.1.0.tgz'), { kind: 'other' });
   assert.deepEqual(classify('${VAR}'), { kind: 'other' });
+  assert.deepEqual(classify('github:hellodigua/dsh-share#vX.Y.Z'), { kind: 'other' });
+  assert.deepEqual(classify('https://github.com/o/r#vX.Y.Z&path:/plugin'), { kind: 'other' });
+  assert.deepEqual(classify('demo@X.Y.Z'), { kind: 'other' });
 });
 
 test('npmBase strips versions but keeps scoped names intact', () => {

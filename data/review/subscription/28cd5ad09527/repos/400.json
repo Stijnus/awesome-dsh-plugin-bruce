@@ -1,0 +1,117 @@
+{
+  "full_name": "anweat/dsh-web-search-pro",
+  "originalPosition": 286,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@anweat/dsh-browser@0.1.15"
+  ],
+  "manualNote": null,
+  "ordinal": 400,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:36.167Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "286b96f01a23aff24ede03e612d6e785d7eccf96ba5b2aa199635083a5a3c0a1",
+      "url": "https://github.com/anweat/dsh-web-search-pro/blob/9e905c212fac5e891cc0f7ea75e1c276c9e5498e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-search-pro@0.2.1",
+          "command": "dsh plugin --profile web add dsh-web-search-pro@0.2.1",
+          "profile": "web"
+        },
+        {
+          "install": "@anweat/dsh-browser@0.2.0",
+          "command": "dsh plugin --profile web add @anweat/dsh-browser@0.2.0 dsh-web-search-pro@0.2.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-search-pro",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/anweat/dsh-web-search-pro",
+        "commit": "9e905c212fac5e891cc0f7ea75e1c276c9e5498e"
+      },
+      "manifestSha256": "0a0456a31aa3fc1ea1772f80e5995d9dc18bcabd36516d1cf4d34bd6f92046ff",
+      "manifestUrl": "https://github.com/anweat/dsh-web-search-pro/blob/9e905c212fac5e891cc0f7ea75e1c276c9e5498e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@anweat/dsh-browser@0.1.15",
+      "origin": "npm",
+      "name": "@anweat/dsh-browser",
+      "version": "0.1.15",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "b1c9b37e25b534544dfb127d5139a903ab634423c01d866b0152c71a99ccb5c4"
+    },
+    {
+      "target": "dsh-web-search-pro@0.2.1",
+      "origin": "npm",
+      "name": "dsh-web-search-pro",
+      "version": "0.2.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "32c2c9055f86989be6e2b1f2b22ba70f93eb748f1806c598aedbf71e184235c6"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@anweat/dsh-browser",
+      "version": "0.2.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@anweat/dsh-browser@0.1.15",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-web-search-pro@0.2.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@anweat/dsh-browser@0.2.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/anweat/dsh-web-search-pro",
+    "commit": "9e905c212fac5e891cc0f7ea75e1c276c9e5498e",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:45.908Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.md",
+      "httpStatus": 200
+    }
+  ],
+  "coverageReviewedAt": "2026-10-17T17:12:21.464Z",
+  "contentReviewFlags": []
+}

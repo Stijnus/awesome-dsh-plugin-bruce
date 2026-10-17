@@ -1,0 +1,72 @@
+{
+  "full_name": "HuanLinOTO/dsh-plugin-auto-blame",
+  "originalPosition": 280,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@huanlin/dsh-plugin-auto-blame"
+  ],
+  "manualNote": null,
+  "ordinal": 394,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:25.562Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1798487e3fcc4205a33cc94babe0559d5a2c53127ae35bbcf417a31243913023",
+      "url": "https://github.com/HuanLinOTO/dsh-plugin-auto-blame/blob/7a51349548da0c1fffee5b893ec45f4f9fa9a54b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@huanlin/dsh-plugin-auto-blame",
+          "command": "dsh plugin --profile web add @huanlin/dsh-plugin-auto-blame",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huanlin/dsh-plugin-auto-blame",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuanLinOTO/dsh-plugin-auto-blame",
+        "commit": "7a51349548da0c1fffee5b893ec45f4f9fa9a54b"
+      },
+      "manifestSha256": "48bcaf40710c2d6cb0adfcead5d1a6c363d2d2fdc84b01b56491ae50973d992b",
+      "manifestUrl": "https://github.com/HuanLinOTO/dsh-plugin-auto-blame/blob/7a51349548da0c1fffee5b893ec45f4f9fa9a54b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@huanlin/dsh-plugin-auto-blame",
+      "origin": "npm",
+      "name": "@huanlin/dsh-plugin-auto-blame",
+      "version": "0.2.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8f73125e5014a3df8d2f5a47ee741113282efe28074ac4e1026c8524f1d1ea4c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HuanLinOTO/dsh-plugin-auto-blame",
+    "commit": "7a51349548da0c1fffee5b893ec45f4f9fa9a54b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:33.947Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.414Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,72 @@
+{
+  "full_name": "Make0209/dsh-usage-stats",
+  "originalPosition": 265,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-usage-stats"
+  ],
+  "manualNote": null,
+  "ordinal": 385,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:08.483Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d284319f9a2530ce19c849d4e5446eb1a46dd1fb311df2984bccca88e77303d2",
+      "url": "https://github.com/Make0209/dsh-usage-stats/blob/8992d306cdca8857b4362868d591fde3689765b0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-usage-stats",
+          "command": "dsh plugin --profile web add dsh-usage-stats",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-usage-stats",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Make0209/dsh-usage-stats",
+        "commit": "8992d306cdca8857b4362868d591fde3689765b0"
+      },
+      "manifestSha256": "7e894626c20a0526b82a9d60874b2d73f49f6066e680c10b97f078da010a52ee",
+      "manifestUrl": "https://github.com/Make0209/dsh-usage-stats/blob/8992d306cdca8857b4362868d591fde3689765b0/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-usage-stats",
+      "origin": "npm",
+      "name": "dsh-usage-stats",
+      "version": "0.1.16",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8fbf5fcbb9f8f586cfc94215d3287999fe3a0200d0e662464253e5e804e6b90f"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Make0209/dsh-usage-stats",
+    "commit": "8992d306cdca8857b4362868d591fde3689765b0",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:17.805Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:19.824Z",
+  "contentReviewFlags": []
+}

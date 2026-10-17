@@ -1,0 +1,86 @@
+{
+  "full_name": "pengyue-polaron/deepseek-harness-genui",
+  "originalPosition": 472,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-genui"
+  ],
+  "manualNote": null,
+  "ordinal": 535,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:10.858Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "42d0d889968aaaededee151d6db6e88b8cee2adfd90f184f4ba3d89b285f730d",
+      "url": "https://github.com/pengyue-polaron/deepseek-harness-genui/blob/f6289bc709c5b1992c851bf5e63237a5fa453e1f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-genui",
+          "command": "dsh plugin --profile web add dsh-plugin-genui",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "4f98b218ac45a7d223bc221f995ce75be175d26db0a7ac58ae8d991aa08431d2",
+      "url": "https://github.com/pengyue-polaron/deepseek-harness-genui/blob/f6289bc709c5b1992c851bf5e63237a5fa453e1f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-genui",
+          "command": "dsh plugin --profile web add dsh-plugin-genui",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-genui",
+      "version": "0.15.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/pengyue-polaron/deepseek-harness-genui",
+        "commit": "f6289bc709c5b1992c851bf5e63237a5fa453e1f"
+      },
+      "manifestSha256": "15ed67dae5ec045e0b9bff456b0187821a9782ea4c27195913a4d13997715ded",
+      "manifestUrl": "https://github.com/pengyue-polaron/deepseek-harness-genui/blob/f6289bc709c5b1992c851bf5e63237a5fa453e1f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-genui",
+      "origin": "npm",
+      "name": "dsh-plugin-genui",
+      "version": "0.15.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "48c1ad3703ba36a84875ce4dbb42bd7913522ce85a847725e585a99b3452c91b"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pengyue-polaron/deepseek-harness-genui",
+    "commit": "f6289bc709c5b1992c851bf5e63237a5fa453e1f",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:19.959Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.496Z",
+  "contentReviewFlags": []
+}

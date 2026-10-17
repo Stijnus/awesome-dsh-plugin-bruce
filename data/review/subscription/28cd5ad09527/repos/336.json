@@ -1,0 +1,96 @@
+{
+  "full_name": "omdsh-dev/dsh-plugin-check",
+  "originalPosition": 189,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/omdsh-dev/dsh-plugin-check",
+    "https://github.com/omdsh-dev/dsh-plugin-check"
+  ],
+  "manualNote": null,
+  "ordinal": 336,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:07.146Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ead1ea56f6bd9ca3331a42ba9626d7ed6f941cf365acbf53627e7c0539f3d833",
+      "url": "https://github.com/omdsh-dev/dsh-plugin-check/blob/5bf7beb29a78d0211e2b3bdccfd1222e6b2bc1cc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-plugin-check",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-plugin-check",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-plugin-check",
+          "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-plugin-check",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/omdsh-dev/dsh-plugin-check/blob/5bf7beb29a78d0211e2b3bdccfd1222e6b2bc1cc/README.en.md",
+      "sha256": "6a8ae108f595f3509c82498c89f24eaa949da3e0760d4511db916fba78cf59b7",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-plugin-check",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-plugin-check",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-plugin-check",
+          "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-plugin-check",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@omdsh-dev/dsh-plugin-check",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-plugin-check",
+        "commit": "5bf7beb29a78d0211e2b3bdccfd1222e6b2bc1cc"
+      },
+      "manifestSha256": "91c4d8e693340ff32e6234b6a1eee9cf01df358fad0132cd01ae2114f364c2cd",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-plugin-check/blob/5bf7beb29a78d0211e2b3bdccfd1222e6b2bc1cc/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-plugin-check",
+    "commit": "5bf7beb29a78d0211e2b3bdccfd1222e6b2bc1cc",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:14.632Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:03.972Z",
+  "coverageReviewedAt": "2026-10-17T17:12:16.339Z",
+  "contentReviewFlags": []
+}

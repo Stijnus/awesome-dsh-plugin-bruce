@@ -1,0 +1,174 @@
+{
+  "full_name": "fu827707013/dsh-codebuddy-cli",
+  "originalPosition": 480,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-codebuddy-cli",
+    "https://github.com/fu827707013/dsh-codebuddy-cli",
+    "dsh-codebuddy-cli"
+  ],
+  "manualNote": null,
+  "ordinal": 540,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:19.959Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "91158e3706dbab4353a0cdba76e0b2c0275bcbf91f94f184d4a8b38f19b83a74",
+      "url": "https://github.com/fu827707013/dsh-codebuddy-cli/blob/28a47b647539ae341991deff00dbcd165398216b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codebuddy-cli",
+          "command": "dsh plugin --profile web add dsh-codebuddy-cli",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/fu827707013/dsh-codebuddy-cli",
+          "command": "dsh plugin --profile web add github:fu827707013/dsh-codebuddy-cli",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-codebuddy-cli",
+          "command": "dsh plugin --profile desktop add dsh-codebuddy-cli",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/fu827707013/dsh-codebuddy-cli/blob/28a47b647539ae341991deff00dbcd165398216b/README.en.md",
+      "sha256": "c9ccac7134df075c33716dfdb316ba582204ae132d73521aa6bba6d32ec7e64e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codebuddy-cli",
+          "command": "dsh plugin --profile web add dsh-codebuddy-cli",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/fu827707013/dsh-codebuddy-cli",
+          "command": "dsh plugin --profile web add github:fu827707013/dsh-codebuddy-cli",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-codebuddy-cli",
+          "command": "dsh plugin --profile desktop add dsh-codebuddy-cli",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codebuddy-cli",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fu827707013/dsh-codebuddy-cli",
+        "commit": "28a47b647539ae341991deff00dbcd165398216b"
+      },
+      "manifestSha256": "7a8d2ec894f961042c4878026b21d588a637f422816f02a023f92d80d0efd7b2",
+      "manifestUrl": "https://github.com/fu827707013/dsh-codebuddy-cli/blob/28a47b647539ae341991deff00dbcd165398216b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-codebuddy-cli",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1792255138,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fu827707013/dsh-codebuddy-cli",
+              "commit": "28a47b647539ae341991deff00dbcd165398216b"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-codebuddy-cli",
+      "origin": "npm",
+      "name": "dsh-codebuddy-cli",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-codebuddy-cli",
+        "title": "dsh-codebuddy-cli",
+        "description": "复用 CodeBuddy CLI 的登录态，把 CodeBuddy 包含的模型自动接入 DeepSeek Harness — reuse the CodeBuddy CLI sign-in to bring its models into DeepSeek Harness with zero configuration.",
+        "author": "fu827707013",
+        "homepage": "https://github.com/fu827707013/dsh-codebuddy-cli#readme",
+        "repository": {
+          "url": "https://github.com/fu827707013/dsh-codebuddy-cli"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "codebuddy",
+            "codebuddy-cli",
+            "model-provider"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1792255340,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "462e2e869a2f20add49621fd0255c394332599ee8dd34dad776c434e95d6ee6f",
+      "evidence": [
+        {
+          "name": "dsh-codebuddy-cli",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-codebuddy-cli/-/dsh-codebuddy-cli-0.4.0.tgz",
+          "integrity": "sha512-iMWfccE86H4fy8JpTnUN7i2s0hw1/Kj96YxQz8CIkX/kSGPPoopU5LY4fqnGW2xXJ3jWyikytY0lcDAEeS0Z3Q=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fu827707013/dsh-codebuddy-cli",
+    "commit": "28a47b647539ae341991deff00dbcd165398216b",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:04:29.399Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:13.904Z",
+  "coverageReviewedAt": "2026-10-17T17:12:31.770Z",
+  "contentReviewFlags": []
+}

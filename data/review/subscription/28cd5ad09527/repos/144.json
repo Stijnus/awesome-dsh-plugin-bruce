@@ -1,0 +1,88 @@
+{
+  "full_name": "xiaohj233/dsh-magic-context",
+  "originalPosition": 569,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:25.862Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "11819c10bda67eb33496d33af7722e5213176299b96cfd6867e4636fe6131347",
+      "url": "https://github.com/xiaohj233/dsh-magic-context/blob/6c82abd4d75c63516421c6e1692d1b7d1636b8e4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/xiaohj233/dsh-magic-context/blob/6c82abd4d75c63516421c6e1692d1b7d1636b8e4/README.en.md",
+      "sha256": "035a54b0c319aa419b36b30be85428123108d9c3d1f713af46b0f8aa010192f6",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "e2e/README.md",
+      "url": "https://github.com/xiaohj233/dsh-magic-context/blob/6c82abd4d75c63516421c6e1692d1b7d1636b8e4/e2e/README.md",
+      "sha256": "00c227b7fb882f3b7dd9e6bfb6b35ac2ed0a817e465103dd1684c79e058f2c16",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-magic-context",
+      "version": "0.1.2",
+      "path": "packages/dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaohj233/dsh-magic-context",
+        "commit": "6c82abd4d75c63516421c6e1692d1b7d1636b8e4",
+        "path": "packages/dsh-plugin"
+      },
+      "manifestSha256": "7524224e8d50636aacecba539749128a3630b81b6b7e2ab13e26f9b749dd0a2e",
+      "manifestUrl": "https://github.com/xiaohj233/dsh-magic-context/blob/6c82abd4d75c63516421c6e1692d1b7d1636b8e4/packages/dsh-plugin/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaohj233/dsh-magic-context",
+    "commit": "6c82abd4d75c63516421c6e1692d1b7d1636b8e4",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:35.790Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "e2e/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "e2e/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:54.002Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.356Z",
+  "contentReviewFlags": []
+}

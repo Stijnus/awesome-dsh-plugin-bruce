@@ -1,0 +1,86 @@
+{
+  "full_name": "weshopai/weshop-dsh-plugin",
+  "originalPosition": 593,
+  "inputMode": "command",
+  "mappedTargets": [
+    "weshop-dsh-plugin"
+  ],
+  "manualNote": null,
+  "ordinal": 595,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:58.373Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0cfaabf7f818270892d28ec99f5b45b6b6e4dbfb13d61705d22f3bda6a60c0e0",
+      "url": "https://github.com/weshopai/weshop-dsh-plugin/blob/c90f80ec7c23a291425de08a11adf802826b422a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "weshop-dsh-plugin",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add weshop-dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "a845ca085bd8f3464f3d9dff87fb146b418185d327783895197d986953b02aca",
+      "url": "https://github.com/weshopai/weshop-dsh-plugin/blob/c90f80ec7c23a291425de08a11adf802826b422a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "weshop-dsh-plugin",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add weshop-dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "weshop-dsh-plugin",
+      "version": "1.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weshopai/weshop-dsh-plugin",
+        "commit": "c90f80ec7c23a291425de08a11adf802826b422a"
+      },
+      "manifestSha256": "7c46e57dd6a26317bf070ffd2b7b76a2a3aa27556a2eb98979aeed8c8995fd3b",
+      "manifestUrl": "https://github.com/weshopai/weshop-dsh-plugin/blob/c90f80ec7c23a291425de08a11adf802826b422a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "weshop-dsh-plugin",
+      "origin": "npm",
+      "name": "weshop-dsh-plugin",
+      "version": "1.0.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9f13bdfc67dd5d5d1c282cba2e81588e1b445834dd45b801472bf673be66a16b"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/weshopai/weshop-dsh-plugin",
+    "commit": "c90f80ec7c23a291425de08a11adf802826b422a",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:08.173Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:33.022Z",
+  "contentReviewFlags": []
+}

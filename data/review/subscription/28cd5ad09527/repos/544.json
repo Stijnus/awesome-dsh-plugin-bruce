@@ -1,0 +1,86 @@
+{
+  "full_name": "meto-ventus/dsh-deepseek-usage",
+  "originalPosition": 490,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/mmzm0808/dsh-deepseek-usage"
+  ],
+  "manualNote": null,
+  "ordinal": 544,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:26.133Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "33bb4d8e51beeb18ca28304388a1ce13743a7b4aff7e26cbe9337049885bf654",
+      "url": "https://github.com/meto-ventus/dsh-deepseek-usage/blob/9e12139988d9e1e9cf74133d4fb3a88b3918e8d2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mmzm0808/dsh-deepseek-usage",
+          "command": "dsh plugin --profile web add github:mmzm0808/dsh-deepseek-usage",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "bbd02b2586521b66767e465187289b7b4f42e102c5e37490704e57b1a1ec3dd1",
+      "url": "https://github.com/meto-ventus/dsh-deepseek-usage/blob/9e12139988d9e1e9cf74133d4fb3a88b3918e8d2/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mmzm0808/dsh-deepseek-usage",
+          "command": "dsh plugin --profile web add github:mmzm0808/dsh-deepseek-usage",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepseek-usage",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/meto-ventus/dsh-deepseek-usage",
+        "commit": "9e12139988d9e1e9cf74133d4fb3a88b3918e8d2"
+      },
+      "manifestSha256": "457e6b4176d9e4533cdf092cfc0f9a0567d0d4d5c9592476b2b2f571f4dd5100",
+      "manifestUrl": "https://github.com/meto-ventus/dsh-deepseek-usage/blob/9e12139988d9e1e9cf74133d4fb3a88b3918e8d2/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/mmzm0808/dsh-deepseek-usage",
+      "origin": "git_target",
+      "path": "",
+      "commit": "9e12139988d9e1e9cf74133d4fb3a88b3918e8d2",
+      "name": "dsh-deepseek-usage",
+      "version": "0.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/meto-ventus/dsh-deepseek-usage",
+    "commit": "9e12139988d9e1e9cf74133d4fb3a88b3918e8d2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:43.411Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.724Z",
+  "contentReviewFlags": []
+}

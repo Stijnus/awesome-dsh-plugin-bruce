@@ -1,0 +1,219 @@
+{
+  "full_name": "Duskriver/dsh-opencode-go",
+  "originalPosition": 10,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-opencode-go@0.1.15",
+    "dsh-opencode-go@0.1.15"
+  ],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:09.668Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a5b51b667dd71ab83c4cf58cf45357ac721ed221f013a7b36873a39382086451",
+      "url": "https://github.com/Duskriver/dsh-opencode-go/blob/fca01342e7065cfc78f0c557dfe8421659db3667/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-opencode-go",
+          "command": "dsh plugin --profile web add dsh-opencode-go",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Duskriver/dsh-opencode-go/blob/fca01342e7065cfc78f0c557dfe8421659db3667/README.en.md",
+      "sha256": "11d91968e35982bcb8bc12f96cd6b1de30b485561809814df127c41a20755956",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-opencode-go",
+          "command": "dsh plugin --profile web add dsh-opencode-go",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-go",
+      "version": "0.1.24",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Duskriver/dsh-opencode-go",
+        "commit": "fca01342e7065cfc78f0c557dfe8421659db3667"
+      },
+      "manifestSha256": "d6f36b221b719835748f0ed15782846ded12d1eb38fb4f1fcd45e3a1036cc58d",
+      "manifestUrl": "https://github.com/Duskriver/dsh-opencode-go/blob/fca01342e7065cfc78f0c557dfe8421659db3667/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-opencode-go",
+        "versions": [
+          {
+            "version": "0.1.24",
+            "publishTimestamp": 1792234704,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Duskriver/dsh-opencode-go",
+              "commit": "fca01342e7065cfc78f0c557dfe8421659db3667"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-opencode-go@0.1.15",
+      "origin": "npm",
+      "name": "dsh-opencode-go",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-opencode-go",
+        "title": "dsh-opencode-go",
+        "description": "OpenCode Go model provider and settings UI for DeepSeek Harness",
+        "homepage": "https://github.com/Duskriver/dsh-opencode-go#readme",
+        "repository": {
+          "url": "https://github.com/Duskriver/dsh-opencode-go"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh",
+            "opencode",
+            "opencode-go",
+            "llm",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.15",
+            "publishTimestamp": 1790434050,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9a5c323c1848cb88eebcc67dc60ad7fcd2d6cef1c874fc0973b83a0f5b89f6cd",
+      "evidence": [
+        {
+          "name": "dsh-opencode-go",
+          "version": "0.1.15",
+          "tarball": "https://registry.npmjs.org/dsh-opencode-go/-/dsh-opencode-go-0.1.15.tgz",
+          "integrity": "sha512-/KRPRu/I5XXyjyDu0k+zPjOvTLSKFm3hsLAXctqQQT4AL9/JGgHbJ94WSH8rBQmeeGC8Z1JGg3C9qsmNryRTZQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-opencode-go",
+      "origin": "npm",
+      "name": "dsh-opencode-go",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-opencode-go",
+        "title": "dsh-opencode-go",
+        "description": "OpenCode Go model provider and settings UI for DeepSeek Harness",
+        "homepage": "https://github.com/Duskriver/dsh-opencode-go#readme",
+        "repository": {
+          "url": "https://github.com/Duskriver/dsh-opencode-go"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh",
+            "opencode",
+            "opencode-go",
+            "llm",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.24",
+            "publishTimestamp": 1792089970,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9a5c323c1848cb88eebcc67dc60ad7fcd2d6cef1c874fc0973b83a0f5b89f6cd",
+      "evidence": [
+        {
+          "name": "dsh-opencode-go",
+          "version": "0.1.24",
+          "tarball": "https://registry.npmjs.org/dsh-opencode-go/-/dsh-opencode-go-0.1.24.tgz",
+          "integrity": "sha512-tnKnvULaP166iGKXZEDVPU0BXxtWO1HREilrUhWvpRhpZxkyyVuo2m/8FgcljW8PBZj/pji3aVUN4Qt4stOFbA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-opencode-go@0.1.15",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-opencode-go@0.1.15",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-opencode-go",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Duskriver/dsh-opencode-go",
+    "commit": "fca01342e7065cfc78f0c557dfe8421659db3667",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:05:31.915Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:53.849Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.956Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,140 @@
+{
+  "full_name": "mem9-ai/mem9",
+  "originalPosition": 7,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:05.098Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "80768bf22bf3f4c07c55d77255bab59502bf5936a31e584ce9e707b2cb7b0053",
+      "url": "https://github.com/mem9-ai/mem9/blob/c1ffe9c1b3c18b7a1b1621763662d9cf9bb31dda/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "claude-plugin/README.md",
+      "url": "https://github.com/mem9-ai/mem9/blob/c1ffe9c1b3c18b7a1b1621763662d9cf9bb31dda/claude-plugin/README.md",
+      "sha256": "b65dffcfdcf47e3bd60acbc97c845caa6266d31178af3474b46d905ea67e04fa",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "opencode-plugin/README.md",
+      "url": "https://github.com/mem9-ai/mem9/blob/c1ffe9c1b3c18b7a1b1621763662d9cf9bb31dda/opencode-plugin/README.md",
+      "sha256": "fd62107ce12326f7d5454183e4ac5cc6d1485ebd7d523ad55795d530e404df50",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "codex-plugin/README.md",
+      "url": "https://github.com/mem9-ai/mem9/blob/c1ffe9c1b3c18b7a1b1621763662d9cf9bb31dda/codex-plugin/README.md",
+      "sha256": "4a36237a5e9d4760eedc8c04aa459e6ab0c15b5db0ab8345d7b81c92e41dd30d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "url": "https://github.com/mem9-ai/mem9/blob/c1ffe9c1b3c18b7a1b1621763662d9cf9bb31dda/dsh-plugin/README.md",
+      "sha256": "09e765409a986aca14ad3db47bdf123a63784bfdcc69e90bf4f77fd39572cd9b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mem9/dsh-plugin",
+          "command": "dsh plugin --profile <profile> add @mem9/dsh-plugin",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mem9/dsh-plugin",
+      "version": "0.1.0",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mem9-ai/mem9",
+        "commit": "c1ffe9c1b3c18b7a1b1621763662d9cf9bb31dda",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "90cf0afce10ecd2c4fc37bb1546be6ecf4267ef9a3b016300e3b453d3ff9f7e1",
+      "manifestUrl": "https://github.com/mem9-ai/mem9/blob/c1ffe9c1b3c18b7a1b1621763662d9cf9bb31dda/dsh-plugin/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@mem9/dsh-plugin",
+      "version": "0.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mem9/dsh-plugin",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mem9-ai/mem9",
+    "commit": "c1ffe9c1b3c18b7a1b1621763662d9cf9bb31dda",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:22.693Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "claude-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "opencode-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "codex-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "claude-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "opencode-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "codex-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:50.533Z",
+  "coverageReviewedAt": "2026-10-17T17:12:04.178Z",
+  "contentReviewFlags": []
+}

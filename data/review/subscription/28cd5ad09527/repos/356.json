@@ -1,0 +1,96 @@
+{
+  "full_name": "omdsh-dev/dsh-security-audit",
+  "originalPosition": 220,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/omdsh-dev/dsh-security-audit",
+    "https://github.com/omdsh-dev/dsh-security-audit"
+  ],
+  "manualNote": null,
+  "ordinal": 356,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:07.666Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "223685ead0752c0a962e76c3d9e3507ac1540f0eab937f83a9596d724b1c5921",
+      "url": "https://github.com/omdsh-dev/dsh-security-audit/blob/e22bd19af7d27e0f7302061808d0cbd7dc9b0914/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-security-audit",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-security-audit",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-security-audit",
+          "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-security-audit",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/omdsh-dev/dsh-security-audit/blob/e22bd19af7d27e0f7302061808d0cbd7dc9b0914/README.en.md",
+      "sha256": "9076f8764a9b349d848fcba274e027420dcd719a6b7141f6ac0c16975d3d684d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-security-audit",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-security-audit",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-security-audit",
+          "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-security-audit",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-security-audit",
+      "version": "0.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-security-audit",
+        "commit": "e22bd19af7d27e0f7302061808d0cbd7dc9b0914"
+      },
+      "manifestSha256": "2dbda0d1606bf5ce66250b973915618d9b9f6f70b4d9250a52718519c960a417",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-security-audit/blob/e22bd19af7d27e0f7302061808d0cbd7dc9b0914/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-security-audit",
+    "commit": "e22bd19af7d27e0f7302061808d0cbd7dc9b0914",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:15.526Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:04.358Z",
+  "coverageReviewedAt": "2026-10-17T17:12:17.285Z",
+  "contentReviewFlags": []
+}

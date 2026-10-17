@@ -1,0 +1,195 @@
+{
+  "full_name": "SeverusZh/dsh-plugin-subagent-director",
+  "originalPosition": 229,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-subagent-director@0.6.0-beta.1"
+  ],
+  "manualNote": null,
+  "ordinal": 363,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:21.075Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "75b7c1adcce6310648702e0277d3a8f1cf4bcceef3429ccba29da11910c18529",
+      "url": "https://github.com/SeverusZh/dsh-plugin-subagent-director/blob/ba4d46a8c40eca3c4b3ea892d720139e29388123/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-subagent-director",
+          "command": "dsh plugin --profile <name> add dsh-plugin-subagent-director",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-subagent-director",
+      "version": "0.6.0-beta.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SeverusZh/dsh-plugin-subagent-director",
+        "commit": "ba4d46a8c40eca3c4b3ea892d720139e29388123"
+      },
+      "manifestSha256": "3dff70ff90921b528e0555da389c7a1077dbfbdcd4a9cb4829576a7590f2e670",
+      "manifestUrl": "https://github.com/SeverusZh/dsh-plugin-subagent-director/blob/ba4d46a8c40eca3c4b3ea892d720139e29388123/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-subagent-director",
+        "versions": [
+          {
+            "version": "0.6.0-beta.1",
+            "publishTimestamp": 1792231240,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SeverusZh/dsh-plugin-subagent-director",
+              "commit": "ba4d46a8c40eca3c4b3ea892d720139e29388123"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-subagent-director@0.6.0-beta.1",
+      "origin": "npm",
+      "name": "dsh-plugin-subagent-director",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-subagent-director",
+        "title": "dsh-plugin-subagent-director",
+        "description": "Subagent Director: choose an LLM provider/model for each subagent (call args > role binding > plugin default > inherit parent) and plan main-agent/subagent responsibilities with role templates, plus a settings UI.",
+        "homepage": "https://github.com/SeverusZh/dsh-plugin-subagent-director",
+        "repository": {
+          "url": "https://github.com/SeverusZh/dsh-plugin-subagent-director"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "subagent",
+            "subagent-director",
+            "llm",
+            "provider",
+            "model",
+            "role-template"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.0-beta.1",
+            "publishTimestamp": 1792240877,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "faebfb7edb8b5b914096734a329cc9959c5508b8388618c59173f3af89dd8d27",
+      "evidence": [
+        {
+          "name": "dsh-plugin-subagent-director",
+          "version": "0.6.0-beta.1",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-subagent-director/-/dsh-plugin-subagent-director-0.6.0-beta.1.tgz",
+          "integrity": "sha512-ckpzC8mZo6y6YJTQjov6QWfOFq3RgFntt7UfLxkx3+rYVNruyUpLnsAhvHFHF3JiA97dddxIWfxrlkBNwCsZJA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-plugin-subagent-director",
+      "origin": "npm",
+      "name": "dsh-plugin-subagent-director",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-subagent-director",
+        "title": "dsh-plugin-subagent-director",
+        "description": "Subagent Director: choose an LLM provider/model for each subagent (call args > role binding > plugin default > inherit parent) and plan main-agent/subagent responsibilities with role templates, plus a settings UI.",
+        "homepage": "https://github.com/SeverusZh/dsh-plugin-subagent-director",
+        "repository": {
+          "url": "https://github.com/SeverusZh/dsh-plugin-subagent-director"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "subagent",
+            "subagent-director",
+            "llm",
+            "provider",
+            "model",
+            "role-template"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.0-beta.1",
+            "publishTimestamp": 1792240877,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "faebfb7edb8b5b914096734a329cc9959c5508b8388618c59173f3af89dd8d27",
+      "evidence": [
+        {
+          "name": "dsh-plugin-subagent-director",
+          "version": "0.6.0-beta.1",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-subagent-director/-/dsh-plugin-subagent-director-0.6.0-beta.1.tgz",
+          "integrity": "sha512-ckpzC8mZo6y6YJTQjov6QWfOFq3RgFntt7UfLxkx3+rYVNruyUpLnsAhvHFHF3JiA97dddxIWfxrlkBNwCsZJA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-plugin-subagent-director@0.6.0-beta.1",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-subagent-director",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SeverusZh/dsh-plugin-subagent-director",
+    "commit": "ba4d46a8c40eca3c4b3ea892d720139e29388123",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:06:32.288Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:17.602Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,113 @@
+{
+  "full_name": "tancheng33/dsh-ontology",
+  "originalPosition": 447,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-ontology」或「dsh plugin --profile <name> add github:tancheng33/dsh-ontology」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 173,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:26.147Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5d34f66caef1c8272c40523000a9a414141c563268224dac788f5363ea01f592",
+      "url": "https://github.com/tancheng33/dsh-ontology/blob/ca2399ace40e97c5d61b5e47243984fa00e33081/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ontology",
+          "command": "dsh plugin --profile <name> add dsh-ontology",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/tancheng33/dsh-ontology",
+          "command": "dsh plugin --profile <name> add github:tancheng33/dsh-ontology",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8163a37e384307c01cf2a0859456c6f4fec45a6e3607eba1dce85fd568610c3e",
+      "url": "https://github.com/tancheng33/dsh-ontology/blob/ca2399ace40e97c5d61b5e47243984fa00e33081/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ontology",
+          "command": "dsh plugin --profile <名字> add dsh-ontology",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/tancheng33/dsh-ontology",
+          "command": "dsh plugin --profile <名字> add github:tancheng33/dsh-ontology",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ontology",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tancheng33/dsh-ontology",
+        "commit": "ca2399ace40e97c5d61b5e47243984fa00e33081"
+      },
+      "manifestSha256": "6a29b0e2ff28002fa59b01718d74d85d56f109d0ea142234ba68440b7434ae3d",
+      "manifestUrl": "https://github.com/tancheng33/dsh-ontology/blob/ca2399ace40e97c5d61b5e47243984fa00e33081/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-ontology",
+      "origin": "npm",
+      "name": "dsh-ontology",
+      "version": "0.2.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f1ab03dbad9e105f4f0b10e6dc8a1167e138990d265455bf93bb5e4d90ca20ad"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ontology",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/tancheng33/dsh-ontology",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tancheng33/dsh-ontology",
+    "commit": "ca2399ace40e97c5d61b5e47243984fa00e33081",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:35.477Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.378Z",
+  "contentReviewFlags": []
+}

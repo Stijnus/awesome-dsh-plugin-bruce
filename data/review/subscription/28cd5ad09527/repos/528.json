@@ -1,0 +1,86 @@
+{
+  "full_name": "Sqhao-O/dsh-docs",
+  "originalPosition": 463,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-doc"
+  ],
+  "manualNote": null,
+  "ordinal": 528,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:57.947Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "48aa296394f0edf1b6fd90059cdff4a2d35979e001283c71a1480e026180b56a",
+      "url": "https://github.com/Sqhao-O/dsh-docs/blob/67d3ae944bba92b881255b5d11f08c20b806bd65/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-doc",
+          "command": "dsh plugin --profile web add dsh-doc",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "f486713939df5a32fa8c57c6d79dfcce509e16f3b3bee894b7b5fcbe8c36fb3e",
+      "url": "https://github.com/Sqhao-O/dsh-docs/blob/67d3ae944bba92b881255b5d11f08c20b806bd65/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-doc",
+          "command": "dsh plugin --profile web add dsh-doc",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-doc",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Sqhao-O/dsh-docs",
+        "commit": "67d3ae944bba92b881255b5d11f08c20b806bd65"
+      },
+      "manifestSha256": "ac39d6da10f91a9570b097a2279a845fad7600db097b95ee65e9f2c9cfda0e92",
+      "manifestUrl": "https://github.com/Sqhao-O/dsh-docs/blob/67d3ae944bba92b881255b5d11f08c20b806bd65/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-doc",
+      "origin": "npm",
+      "name": "dsh-doc",
+      "version": "0.1.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "d9e8ddf13fddfe2a730ab18a676455d40af3c12de7efcb6ed5b4519bce175c79"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Sqhao-O/dsh-docs",
+    "commit": "67d3ae944bba92b881255b5d11f08c20b806bd65",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:06.548Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:30.979Z",
+  "contentReviewFlags": []
+}

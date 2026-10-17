@@ -1,0 +1,85 @@
+{
+  "full_name": "white-sand-grand/dsh-plugin-doctor",
+  "originalPosition": 559,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/white-sand-grand/dsh-plugin-doctor"
+  ],
+  "manualNote": null,
+  "ordinal": 581,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:37.798Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5b79e500dca7d1099dd1bd7083aedbb44c6e4a391606b83194944e893150992a",
+      "url": "https://github.com/white-sand-grand/dsh-plugin-doctor/blob/e9aede7c2a6befc2daad350e21439d95066f9520/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/white-sand-grand/dsh-plugin-doctor",
+          "command": "dsh plugin --profile web add github:white-sand-grand/dsh-plugin-doctor",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/white-sand-grand/dsh-plugin-doctor/blob/e9aede7c2a6befc2daad350e21439d95066f9520/README.en.md",
+      "sha256": "6d1a0aa7a5536ac9423af008395a166311b90e8dae17c424df3d22678daecbc3",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/white-sand-grand/dsh-plugin-doctor",
+          "command": "dsh plugin --profile web add github:white-sand-grand/dsh-plugin-doctor",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-doctor",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/white-sand-grand/dsh-plugin-doctor",
+        "commit": "e9aede7c2a6befc2daad350e21439d95066f9520"
+      },
+      "manifestSha256": "67580f8d83ce1f9100dc4147038b005fa33257b20c2b417d3cd009d14e51ee96",
+      "manifestUrl": "https://github.com/white-sand-grand/dsh-plugin-doctor/blob/e9aede7c2a6befc2daad350e21439d95066f9520/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/white-sand-grand/dsh-plugin-doctor",
+    "commit": "e9aede7c2a6befc2daad350e21439d95066f9520",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:45.532Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.987Z",
+  "coverageReviewedAt": "2026-10-17T17:12:32.607Z",
+  "contentReviewFlags": []
+}

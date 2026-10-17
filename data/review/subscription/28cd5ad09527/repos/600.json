@@ -1,0 +1,86 @@
+{
+  "full_name": "bill9109/dsh-101",
+  "originalPosition": 600,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/bill9109/dsh-101#v0.1.7"
+  ],
+  "manualNote": null,
+  "ordinal": 600,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:06:08.870Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b19f6a10282e2eb01e9d09b395760f8f537c5d6b25dd19e2d68257d0c253fd8b",
+      "url": "https://github.com/bill9109/dsh-101/blob/ae6b4addadfda63e6751b1bf929665733ba60b6c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/bill9109/dsh-101#v0.1.7",
+          "command": "dsh plugin --profile dsh-101 add github:bill9109/dsh-101#v0.1.7",
+          "profile": "dsh-101"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "fda70b1c269f100d07e5be5f25bd53f5c50ecc4fd5723dd47d1ba8604b0f4193",
+      "url": "https://github.com/bill9109/dsh-101/blob/ae6b4addadfda63e6751b1bf929665733ba60b6c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/bill9109/dsh-101#v0.1.7",
+          "command": "dsh plugin --profile dsh-101 add github:bill9109/dsh-101#v0.1.7",
+          "profile": "dsh-101"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@bill9109/dsh-101",
+      "version": "0.1.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bill9109/dsh-101",
+        "commit": "ae6b4addadfda63e6751b1bf929665733ba60b6c"
+      },
+      "manifestSha256": "0ef65d66934a75aa6b10d5894ae4ac1105e4668accd4cfd19ad135b529b6e115",
+      "manifestUrl": "https://github.com/bill9109/dsh-101/blob/ae6b4addadfda63e6751b1bf929665733ba60b6c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/bill9109/dsh-101#v0.1.7",
+      "origin": "git_target",
+      "path": "",
+      "commit": "f3e801edc0eb0f87be0987eb9ca4eec063c4ba96",
+      "name": "@bill9109/dsh-101",
+      "version": "0.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bill9109/dsh-101",
+    "commit": "ae6b4addadfda63e6751b1bf929665733ba60b6c",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:25.117Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:33.322Z",
+  "contentReviewFlags": []
+}

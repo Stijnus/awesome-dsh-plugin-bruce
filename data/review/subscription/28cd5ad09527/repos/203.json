@@ -1,0 +1,80 @@
+{
+  "full_name": "syncable-dev/memtrace-public",
+  "originalPosition": 27,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/syncable-dev/dsh-plugin-memtrace"
+  ],
+  "manualNote": null,
+  "ordinal": 203,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:18.321Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d2a955f91ea46f357beb34fcd92daec4822c74d93496bc9541cb2aa01b01f595",
+      "url": "https://github.com/syncable-dev/memtrace-public/blob/3a3084dd88e4b49adcb185eb09173dbf0bd547d3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/syncable-dev/dsh-plugin-memtrace",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:syncable-dev/dsh-plugin-memtrace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "benchmarks/README.md",
+      "url": "https://github.com/syncable-dev/memtrace-public/blob/3a3084dd88e4b49adcb185eb09173dbf0bd547d3/benchmarks/README.md",
+      "sha256": "371b3dfd4a84c8dec1e9064ae88a2689f1646fbd1db251d6577e7580ab0f8a64",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "target": "https://github.com/syncable-dev/dsh-plugin-memtrace",
+      "origin": "git_target",
+      "path": "",
+      "commit": "61e9f239330b6ace1d76fa49eb47ab7a548ce3eb",
+      "name": "dsh-plugin-memtrace",
+      "version": "0.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/syncable-dev/memtrace-public",
+    "commit": "3a3084dd88e4b49adcb185eb09173dbf0bd547d3",
+    "releaseTags": 177,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:31.756Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "benchmarks/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "benchmarks/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:54.561Z",
+  "coverageReviewedAt": "2026-10-17T17:12:08.679Z",
+  "contentReviewFlags": []
+}

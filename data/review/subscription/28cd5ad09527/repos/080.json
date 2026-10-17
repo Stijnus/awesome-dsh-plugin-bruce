@@ -1,0 +1,76 @@
+{
+  "full_name": "godv61/dsh-task-engine",
+  "originalPosition": 349,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 80,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:16.983Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5f598d663fdceb5158e9474fa437ebaec0ba939bf780331e9b8e198770e9866c",
+      "url": "https://github.com/godv61/dsh-task-engine/blob/133290b7c7513ccc203b5bfcbbec81f4a90935ec/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@godv61/dsh-task-engine",
+          "command": "dsh plugin --profile web add @godv61/dsh-task-engine",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@godv61/dsh-task-engine",
+      "version": "0.33.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/godv61/dsh-task-engine",
+        "commit": "133290b7c7513ccc203b5bfcbbec81f4a90935ec"
+      },
+      "manifestSha256": "48dbc63b352f9ce1593245212f91ac0171328cb93f785d174c28ba487c90794c",
+      "manifestUrl": "https://github.com/godv61/dsh-task-engine/blob/133290b7c7513ccc203b5bfcbbec81f4a90935ec/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@godv61/dsh-task-engine",
+      "origin": "npm",
+      "name": "@godv61/dsh-task-engine",
+      "version": "0.33.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "bb38cba3d34f5cb6b5ace39a631ad1c6581b1ec4f9363959334c952425464672"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@godv61/dsh-task-engine",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/godv61/dsh-task-engine",
+    "commit": "133290b7c7513ccc203b5bfcbbec81f4a90935ec",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:25.371Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.542Z",
+  "contentReviewFlags": []
+}

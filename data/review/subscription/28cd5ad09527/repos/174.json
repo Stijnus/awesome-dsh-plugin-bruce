@@ -1,0 +1,73 @@
+{
+  "full_name": "GongYuanCaiJi/dsh-archify",
+  "originalPosition": 451,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <你的 profile> add github:GongYuanCaiJi/dsh-archify」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 174,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:29.040Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "03c71da2ede8a61d0819d187be14f7b042711f30ae0e392451942a4397fd7606",
+      "url": "https://github.com/GongYuanCaiJi/dsh-archify/blob/8fc7ba557981af978578e2dd13e6c6ad8df53a7d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/GongYuanCaiJi/dsh-archify",
+          "command": "dsh plugin --profile <你的 profile> add github:GongYuanCaiJi/dsh-archify",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-archify",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GongYuanCaiJi/dsh-archify",
+        "commit": "8fc7ba557981af978578e2dd13e6c6ad8df53a7d"
+      },
+      "manifestSha256": "17678e9ff3324a4562496d6c93963243a58e865e8f1d5077f3690f5866a3af89",
+      "manifestUrl": "https://github.com/GongYuanCaiJi/dsh-archify/blob/8fc7ba557981af978578e2dd13e6c6ad8df53a7d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/GongYuanCaiJi/dsh-archify",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GongYuanCaiJi/dsh-archify",
+    "commit": "8fc7ba557981af978578e2dd13e6c6ad8df53a7d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:37.387Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.379Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,61 @@
+{
+  "full_name": "e2mcc/dsh-popout-sidebar",
+  "originalPosition": 292,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/e2mcc/dsh-popout-sidebar"
+  ],
+  "manualNote": null,
+  "ordinal": 404,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:21.356Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c1175ada91d7f417ad9b3d197691fca3b5acf1f3983cddb196c443ebb6c8ce11",
+      "url": "https://github.com/e2mcc/dsh-popout-sidebar/blob/f2c72d6b39df536072c075b1f0c55eff84b12e77/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/e2mcc/dsh-popout-sidebar",
+          "command": "dsh plugin --profile web add github:e2mcc/dsh-popout-sidebar",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-popout-sidebar",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/e2mcc/dsh-popout-sidebar",
+        "commit": "f2c72d6b39df536072c075b1f0c55eff84b12e77"
+      },
+      "manifestSha256": "04b9202312ac717790e3f802150b4d7b65932d993b7981f79d9edf124b65e532",
+      "manifestUrl": "https://github.com/e2mcc/dsh-popout-sidebar/blob/f2c72d6b39df536072c075b1f0c55eff84b12e77/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/e2mcc/dsh-popout-sidebar",
+    "commit": "f2c72d6b39df536072c075b1f0c55eff84b12e77",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:29.509Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.981Z",
+  "contentReviewFlags": []
+}

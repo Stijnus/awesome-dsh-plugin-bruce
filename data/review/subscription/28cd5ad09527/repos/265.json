@@ -1,0 +1,96 @@
+{
+  "full_name": "extracurricular-ai/dsh-filesnap",
+  "originalPosition": 101,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-filesnap"
+  ],
+  "manualNote": null,
+  "ordinal": 265,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:16.896Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0894530dba8ab8ac9ae72d61fd2a97bfc4fef48424838649c4f1bbca6abe27e1",
+      "url": "https://github.com/extracurricular-ai/dsh-filesnap/blob/7f80b3721559b669ff666992252d1ba612d1a046/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-filesnap",
+          "command": "dsh plugin --profile web add dsh-filesnap",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/extracurricular-ai/dsh-filesnap/blob/7f80b3721559b669ff666992252d1ba612d1a046/README.en.md",
+      "sha256": "98fca9c12a373b1ddf76fd92fe3f6c36017d9d4482fb1e3dc81bea0f223c4ec0",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-filesnap",
+          "command": "dsh plugin --profile web add dsh-filesnap",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-filesnap",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/extracurricular-ai/dsh-filesnap",
+        "commit": "7f80b3721559b669ff666992252d1ba612d1a046"
+      },
+      "manifestSha256": "fcbf9e9466be0f9f89256c3ec455cf3396e0b7ef46bf3c46524ff9583719e2e9",
+      "manifestUrl": "https://github.com/extracurricular-ai/dsh-filesnap/blob/7f80b3721559b669ff666992252d1ba612d1a046/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-filesnap",
+      "origin": "npm",
+      "name": "dsh-filesnap",
+      "version": "0.4.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "93e7a6be683640d7547d72a02103a9aec63ae6ba3616e69da1b04ce48743122d"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/extracurricular-ai/dsh-filesnap",
+    "commit": "7f80b3721559b669ff666992252d1ba612d1a046",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:25.932Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:58.044Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.305Z",
+  "contentReviewFlags": []
+}

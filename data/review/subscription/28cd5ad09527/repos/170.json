@@ -1,0 +1,98 @@
+{
+  "full_name": "HaoyueQin/dsh-usage-statistics-panel",
+  "originalPosition": 343,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-usage-statistics-panel@latest」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 170,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:15.596Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9f7dc1e05688d15d16d0170566f9fe0e305446ea1000a6690ab549741ad091ce",
+      "url": "https://github.com/HaoyueQin/dsh-usage-statistics-panel/blob/cb6d3894cdb948c9053b1b110b597aae57297c21/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-usage-statistics-panel@latest",
+          "command": "dsh plugin --profile <name> add dsh-usage-statistics-panel@latest",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "50993af70f03e6fdee5b2cf644cae7086cc9e1b670ae6e72f774d6034964d9e6",
+      "url": "https://github.com/HaoyueQin/dsh-usage-statistics-panel/blob/cb6d3894cdb948c9053b1b110b597aae57297c21/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-usage-statistics-panel@latest",
+          "command": "dsh plugin --profile <name> add dsh-usage-statistics-panel@latest",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-usage-statistics-panel",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HaoyueQin/dsh-usage-statistics-panel",
+        "commit": "cb6d3894cdb948c9053b1b110b597aae57297c21"
+      },
+      "manifestSha256": "cc9ccd6f3f42e7c0ac00274f1b5cbdf4f41c169dcc0dfb525fe66da2d8c05f40",
+      "manifestUrl": "https://github.com/HaoyueQin/dsh-usage-statistics-panel/blob/cb6d3894cdb948c9053b1b110b597aae57297c21/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-usage-statistics-panel@latest",
+      "origin": "npm",
+      "name": "dsh-usage-statistics-panel",
+      "version": "0.3.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "056dfb16250f18f9cf327a385ccb1823b69bd9c5282cc209cbdaa9c50fda9309"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-usage-statistics-panel@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HaoyueQin/dsh-usage-statistics-panel",
+    "commit": "cb6d3894cdb948c9053b1b110b597aae57297c21",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:25.995Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.374Z",
+  "contentReviewFlags": []
+}

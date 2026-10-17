@@ -1,0 +1,76 @@
+{
+  "full_name": "2huy4n/ProjectKaren",
+  "originalPosition": 513,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:43.124Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e7d01b97f4fa9288e3790c01424c41fc86c95a98acdc513f1a97d4b4a2e1ae2a",
+      "url": "https://github.com/2huy4n/ProjectKaren/blob/f9961151c32b0a5fd79b76b25660208a43f854cb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/2huy4n/ProjectKaren#v0.2.4",
+          "command": "dsh plugin --profile <profile> add \"git+https://github.com/2huy4n/ProjectKaren#v0.2.4\"",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "project-karen",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/2huy4n/ProjectKaren",
+        "commit": "f9961151c32b0a5fd79b76b25660208a43f854cb"
+      },
+      "manifestSha256": "cc353e10c5bb8039b13e0b6bb14ef7a03db3ee67233d76059755d44046c2b209",
+      "manifestUrl": "https://github.com/2huy4n/ProjectKaren/blob/f9961151c32b0a5fd79b76b25660208a43f854cb/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "git+https://github.com/2huy4n/ProjectKaren#v0.2.4",
+      "origin": "git_target",
+      "path": "",
+      "commit": "f9961151c32b0a5fd79b76b25660208a43f854cb",
+      "name": "project-karen",
+      "version": "0.2.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/2huy4n/ProjectKaren#v0.2.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/2huy4n/ProjectKaren",
+    "commit": "f9961151c32b0a5fd79b76b25660208a43f854cb",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:56.730Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.359Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,53 @@
+{
+  "full_name": "yanfei0725/dsh-qwen-paint",
+  "originalPosition": 503,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:35.540Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b18f26b6b91aca957bf0b6312db1fc5976c0dbe226bfdc0f705dd60b7eea878a",
+      "url": "https://github.com/yanfei0725/dsh-qwen-paint/blob/ebdb7bf130c8aa5f686d319ab95a92f131a0772e/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qwen-paint",
+      "version": "0.17.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanfei0725/dsh-qwen-paint",
+        "commit": "ebdb7bf130c8aa5f686d319ab95a92f131a0772e"
+      },
+      "manifestSha256": "da81227161a7ed79cebed9129aef8888627369ac8c18a30ae59e8016063ba511",
+      "manifestUrl": "https://github.com/yanfei0725/dsh-qwen-paint/blob/ebdb7bf130c8aa5f686d319ab95a92f131a0772e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yanfei0725/dsh-qwen-paint",
+    "commit": "ebdb7bf130c8aa5f686d319ab95a92f131a0772e",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:43.850Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.211Z",
+  "contentReviewFlags": []
+}

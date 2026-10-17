@@ -1,0 +1,116 @@
+{
+  "full_name": "Fei2411/DeepSeek-Bot",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:05.098Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bd8274d1cfb3352708b30b81f37e52801825f5b567f3e3c0d32dcd95a84f82aa",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot/blob/e13bc3419d2695a509520d850a07e63f05c34e07/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "47be1adcc99c9aad8debbc080ee39c5fa9891a520333f7dd2d40fe6f6e9d75d5",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot/blob/e13bc3419d2695a509520d850a07e63f05c34e07/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docker/README.md",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot/blob/e13bc3419d2695a509520d850a07e63f05c34e07/docker/README.md",
+      "sha256": "f7649e3b4eaa6633c939a024b4f48311005bcd8fde26d49bfe0c11680dc8d277",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "ds-bot/README.md",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot/blob/e13bc3419d2695a509520d850a07e63f05c34e07/ds-bot/README.md",
+      "sha256": "c880ff409a10af8918289608032b2e82e92b7ce1df843857b4058f7bd6d451c1",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "ds-bot",
+          "command": "dsh plugin --profile desktop add ds-bot",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "ds-bot",
+      "version": "0.1.7",
+      "path": "ds-bot",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fei2411/DeepSeek-Bot",
+        "commit": "e13bc3419d2695a509520d850a07e63f05c34e07",
+        "path": "ds-bot"
+      },
+      "manifestSha256": "6aee6d2b595e5fe07182385ab6d1e6421d44fce3b31dec7b51aa7aaeefac7987",
+      "manifestUrl": "https://github.com/Fei2411/DeepSeek-Bot/blob/e13bc3419d2695a509520d850a07e63f05c34e07/ds-bot/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "name": "ds-bot",
+      "version": "0.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "ds-bot",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fei2411/DeepSeek-Bot",
+    "commit": "e13bc3419d2695a509520d850a07e63f05c34e07",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:15.217Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docker/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "ds-bot/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docker/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "ds-bot/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:49.236Z",
+  "coverageReviewedAt": "2026-10-17T17:12:03.818Z",
+  "contentReviewFlags": []
+}

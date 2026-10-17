@@ -1,0 +1,75 @@
+{
+  "full_name": "LiZhenNet/dsh-antigravity",
+  "originalPosition": 576,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/LiZhenNet/dsh-antigravity"
+  ],
+  "manualNote": null,
+  "ordinal": 590,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:48.320Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "64508263586fe2a43bfa67341b22b42356f4ea12916eb45d27f55beb8896b6b1",
+      "url": "https://github.com/LiZhenNet/dsh-antigravity/blob/94957767c5e247d86cec8833fb1b67f659078af6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LiZhenNet/dsh-antigravity",
+          "command": "dsh plugin --profile web add github:LiZhenNet/dsh-antigravity",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "56fa40310237e8cfd30f882a5358fb2b30a9490732be8ff4a29b7f2d648ce56d",
+      "url": "https://github.com/LiZhenNet/dsh-antigravity/blob/94957767c5e247d86cec8833fb1b67f659078af6/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LiZhenNet/dsh-antigravity",
+          "command": "dsh plugin --profile web add github:LiZhenNet/dsh-antigravity",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-antigravity",
+      "version": "0.0.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LiZhenNet/dsh-antigravity",
+        "commit": "94957767c5e247d86cec8833fb1b67f659078af6"
+      },
+      "manifestSha256": "d5b23b28ee5138586e0f5a8d9f1331f3108e63304b3e6e0c6efe0d3c082cdcdf",
+      "manifestUrl": "https://github.com/LiZhenNet/dsh-antigravity/blob/94957767c5e247d86cec8833fb1b67f659078af6/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LiZhenNet/dsh-antigravity",
+    "commit": "94957767c5e247d86cec8833fb1b67f659078af6",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:58.372Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.800Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,61 @@
+{
+  "full_name": "plolpl789/dsh-raw-html-v2",
+  "originalPosition": 193,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/plolpl789/dsh-raw-html-v2"
+  ],
+  "manualNote": null,
+  "ordinal": 340,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:20.412Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "46a6575cc2e90d0dfd3c5a1c56a5f1476c407088b3198fb0fc8af034a0df1b4c",
+      "url": "https://github.com/plolpl789/dsh-raw-html-v2/blob/2591ae6b776985028b10da3710b28a12c2b069b2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-raw-html-v2",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/plolpl789/dsh-raw-html-v2",
+        "commit": "2591ae6b776985028b10da3710b28a12c2b069b2"
+      },
+      "manifestSha256": "495c08c24a18af3f00e11c68c28e851bd201ce49fac297929fdfd8d02f41fc54",
+      "manifestUrl": "https://github.com/plolpl789/dsh-raw-html-v2/blob/2591ae6b776985028b10da3710b28a12c2b069b2/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/plolpl789/dsh-raw-html-v2",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/plolpl789/dsh-raw-html-v2",
+    "commit": "2591ae6b776985028b10da3710b28a12c2b069b2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:29.200Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.295Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "Stormycry-cryp/dsh-AuthInOne",
+  "originalPosition": 163,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装为引导命令「pnpm dlx github:Stormycry-cryp/dsh-AuthInOne#v0.2.0-alpha.4 install --profile web」——由该包自带的引导器完成官方 add，不是直接的 dsh plugin add 命令。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 163,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:05.432Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "87a57b808d284ee355cf40fa9ae25275cdce51d2d0d81f77a0ef7b594329dec2",
+      "url": "https://github.com/Stormycry-cryp/dsh-AuthInOne/blob/190ecc2d834ba06da008522684e689324a9c2706/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "e88a2624ebfc7553eb259100a8d52abb2f6dfe6fbc3f436343e95d2246bedd33",
+      "url": "https://github.com/Stormycry-cryp/dsh-AuthInOne/blob/190ecc2d834ba06da008522684e689324a9c2706/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-auth-in-one",
+      "version": "0.2.0-alpha.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Stormycry-cryp/dsh-AuthInOne",
+        "commit": "190ecc2d834ba06da008522684e689324a9c2706"
+      },
+      "manifestSha256": "607f24faa736fc1116f12cb77e6158cf936ab68715801a27d6905d98ea93eb7d",
+      "manifestUrl": "https://github.com/Stormycry-cryp/dsh-AuthInOne/blob/190ecc2d834ba06da008522684e689324a9c2706/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Stormycry-cryp/dsh-AuthInOne",
+    "commit": "190ecc2d834ba06da008522684e689324a9c2706",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:14.892Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.150Z",
+  "contentReviewFlags": []
+}

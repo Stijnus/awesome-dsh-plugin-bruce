@@ -1,0 +1,94 @@
+{
+  "full_name": "mytianyi0712/dsh-tui-plugin-OhMyPi",
+  "originalPosition": 500,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@dsh-std/adapter-dsh"
+  ],
+  "manualNote": null,
+  "ordinal": 550,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:37.970Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b4db0c784f106059949f1e2eb0b771c3e08e5c04e330d3dffe7bc33bec7ea4d4",
+      "url": "https://github.com/mytianyi0712/dsh-tui-plugin-OhMyPi/blob/aca05ee68f7d9cfc70471f30c74d56392d8a0287/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-std/adapter-dsh@0.1.1-rc.4",
+          "command": "dsh plugin --profile tui add @dsh-std/adapter-dsh@0.1.1-rc.4",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-omp-tui",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mytianyi0712/dsh-tui-plugin-OhMyPi",
+        "commit": "aca05ee68f7d9cfc70471f30c74d56392d8a0287"
+      },
+      "manifestSha256": "e17384133a530c84c9521c293861cdf1c209b39613dbf71939ec3a5d77f77211",
+      "manifestUrl": "https://github.com/mytianyi0712/dsh-tui-plugin-OhMyPi/blob/aca05ee68f7d9cfc70471f30c74d56392d8a0287/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@dsh-std/adapter-dsh",
+      "origin": "npm",
+      "name": "@dsh-std/adapter-dsh",
+      "version": "0.1.1-rc.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ca3c9f77e926f4ec3514baf15ca5ed154fd9f078e55f501811fcf85684e9c47f"
+    },
+    {
+      "target": "@dsh-std/adapter-dsh@0.1.1-rc.4",
+      "origin": "npm",
+      "name": "@dsh-std/adapter-dsh",
+      "version": "0.1.1-rc.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ca3c9f77e926f4ec3514baf15ca5ed154fd9f078e55f501811fcf85684e9c47f"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@dsh-std/adapter-dsh",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dsh-std/adapter-dsh@0.1.1-rc.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mytianyi0712/dsh-tui-plugin-OhMyPi",
+    "commit": "aca05ee68f7d9cfc70471f30c74d56392d8a0287",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:46.417Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.746Z",
+  "contentReviewFlags": []
+}

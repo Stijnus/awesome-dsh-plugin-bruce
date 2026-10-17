@@ -1,0 +1,102 @@
+{
+  "full_name": "cocofhu/skillhub",
+  "originalPosition": 299,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@cocofhu/skillhub"
+  ],
+  "manualNote": null,
+  "ordinal": 409,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:31.654Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aa1c3efe69861a19132a361f0e59bac90f06caa1d85f58809908696387a64438",
+      "url": "https://github.com/cocofhu/skillhub/blob/bb7384e6e28e803c1193deabb988716d9410fb72/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cocofhu/skillhub",
+          "command": "dsh plugin --profile web add @cocofhu/skillhub",
+          "profile": "web"
+        },
+        {
+          "install": "skillhub-plugin",
+          "command": "dsh plugin --profile web add skillhub-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "skillhub-plugin",
+      "version": "0.2.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cocofhu/skillhub",
+        "commit": "bb7384e6e28e803c1193deabb988716d9410fb72"
+      },
+      "manifestSha256": "f2fdb656481a14437b263ecfbfbcb1925e28d5dc45518db95cfe582f87579708",
+      "manifestUrl": "https://github.com/cocofhu/skillhub/blob/bb7384e6e28e803c1193deabb988716d9410fb72/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@cocofhu/skillhub",
+      "origin": "npm",
+      "name": "@cocofhu/skillhub",
+      "version": "0.2.16",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "6d8356ea88de37b97bf5a56e997b1cc9e1f3853fac6fdce24dae8027ab38a3e1"
+    },
+    {
+      "target": "https://github.com/cocofhu/skillhub#vX.Y.Z",
+      "status": "mapping_needs_review",
+      "code": "git_ref_not_found",
+      "reason": "指定 Git 引用不存在"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "skillhub-plugin",
+      "version": "0.2.16",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/cocofhu/skillhub#vX.Y.Z",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "skillhub-plugin",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cocofhu/skillhub",
+    "commit": "bb7384e6e28e803c1193deabb988716d9410fb72",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:44.261Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:21.358Z",
+  "contentReviewFlags": []
+}

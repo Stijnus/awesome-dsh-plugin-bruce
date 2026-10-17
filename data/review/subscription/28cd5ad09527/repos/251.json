@@ -1,0 +1,72 @@
+{
+  "full_name": "dingminhua/dsh-connect-trae",
+  "originalPosition": 85,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-connect-trae"
+  ],
+  "manualNote": null,
+  "ordinal": 251,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:48.480Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ad8ae25cb3b0f348c5c34e9c6dac95054c8c8b807b8d319becd6633a3937433b",
+      "url": "https://github.com/dingminhua/dsh-connect-trae/blob/74a6cead09345e7eae993919d02938cb5ddab45b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-connect-trae",
+          "command": "dsh plugin --profile desktop add dsh-connect-trae",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-connect-trae",
+      "version": "3.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dingminhua/dsh-connect-trae",
+        "commit": "74a6cead09345e7eae993919d02938cb5ddab45b"
+      },
+      "manifestSha256": "734bce5fa6e787c007b8fabaec58614afea05092f06ca8df171ef84c6fb05db0",
+      "manifestUrl": "https://github.com/dingminhua/dsh-connect-trae/blob/74a6cead09345e7eae993919d02938cb5ddab45b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-connect-trae",
+      "origin": "npm",
+      "name": "dsh-connect-trae",
+      "version": "3.7.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f1c47eeb3199f747c04c3bc628668b337d80533491d422e550f6bb5f75184974"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dingminhua/dsh-connect-trae",
+    "commit": "74a6cead09345e7eae993919d02938cb5ddab45b",
+    "releaseTags": 62,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:56.339Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.626Z",
+  "contentReviewFlags": []
+}

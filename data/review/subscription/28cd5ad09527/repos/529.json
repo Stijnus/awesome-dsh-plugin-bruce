@@ -1,0 +1,110 @@
+{
+  "full_name": "orrinzeng/dsh-cursor-subscription",
+  "originalPosition": 465,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-cursor-subscription"
+  ],
+  "manualNote": null,
+  "ordinal": 529,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:00.309Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1dc922d1ef8b91fa27b0adc78e1ccfacc209f388fd3f2d9a810905a44bc61e9a",
+      "url": "https://github.com/orrinzeng/dsh-cursor-subscription/blob/936fb5b40b8efb50a5bb2031c81f3c8f553bf7f8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cursor-subscription",
+          "command": "dsh plugin --profile web add dsh-cursor-subscription",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-cursor-subscription@0.5.8",
+          "command": "dsh plugin --profile web add dsh-cursor-subscription@0.5.8",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "333f52bc71098b3e9cf6c9781c1238eed9445a8c0199b18a9f43f6579527f68f",
+      "url": "https://github.com/orrinzeng/dsh-cursor-subscription/blob/936fb5b40b8efb50a5bb2031c81f3c8f553bf7f8/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cursor-subscription",
+          "command": "dsh plugin --profile web add dsh-cursor-subscription",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-cursor-subscription@0.5.8",
+          "command": "dsh plugin --profile web add dsh-cursor-subscription@0.5.8",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cursor-subscription",
+      "version": "0.6.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/orrinzeng/dsh-cursor-subscription",
+        "commit": "936fb5b40b8efb50a5bb2031c81f3c8f553bf7f8"
+      },
+      "manifestSha256": "f72f93d90babcc8b8c0dec43953d77dbe6db5229fcd2114f2cf7151afe1d92e9",
+      "manifestUrl": "https://github.com/orrinzeng/dsh-cursor-subscription/blob/936fb5b40b8efb50a5bb2031c81f3c8f553bf7f8/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-cursor-subscription",
+      "origin": "npm",
+      "name": "dsh-cursor-subscription",
+      "version": "0.6.12",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "cb8061447e43251eb084e7f94b728f5b9f9fd9f0b078c67d025feaa54e7e3346"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-cursor-subscription",
+      "version": "0.5.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-cursor-subscription@0.5.8",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/orrinzeng/dsh-cursor-subscription",
+    "commit": "936fb5b40b8efb50a5bb2031c81f3c8f553bf7f8",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:10.857Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.277Z",
+  "contentReviewFlags": []
+}

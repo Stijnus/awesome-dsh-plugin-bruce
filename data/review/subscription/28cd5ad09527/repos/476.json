@@ -1,0 +1,665 @@
+{
+  "full_name": "baosfeng/my-dsh-plugins",
+  "originalPosition": 395,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-file-activity",
+    "dsh-shared",
+    "dsh-md-render"
+  ],
+  "manualNote": null,
+  "ordinal": 476,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:26.391Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "572a050ddd95f4fb6f4927a832f31d0cc281fa26261997bb49d49a13ed120b45",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-file-activity",
+          "command": "dsh plugin --profile web add dsh-file-activity --trust-lockfile",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-shared",
+          "command": "dsh plugin --profile web add dsh-shared dsh-md-render",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-file-activity/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-file-activity/README.md",
+      "sha256": "17e27e477a9051a84e4b6b8d2c1602bfa6d6a6ecdd9fea7bdc82bbbb86ee135d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-file-activity",
+          "command": "dsh plugin --profile web add dsh-file-activity --trust-lockfile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-md-render/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-md-render/README.md",
+      "sha256": "e61b6779e2bbe94f34f443e086ba3e2a964b619302d38719210253e71f888977",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-md-render",
+          "command": "dsh plugin --profile web add dsh-md-render --trust-lockfile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-my-notify/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-notify/README.md",
+      "sha256": "d3ef57b27c2bb6bf6d5ad3c853f54872f73475e8bbc779fd5d07c35210072044",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-my-notify",
+          "command": "dsh plugin --profile web add dsh-my-notify --trust-lockfile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-my-remote/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-remote/README.md",
+      "sha256": "7160bba7b702d7bc7beee1d707bef5adb44e6cb57e908146883794365277b897",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-my-remote",
+          "command": "dsh plugin --profile web add dsh-my-remote",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-my-guardian/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-guardian/README.md",
+      "sha256": "c72ad4b4dfeaa9f694b5de5a61416fe53142b42a66f5e3645e0a257bc6b6e869",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-my-guardian",
+          "command": "dsh plugin --profile web add dsh-my-guardian --trust-lockfile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-task-reliability/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-task-reliability/README.md",
+      "sha256": "74d189f1afe60430689693ede0bd4542e313c1d433f0275c8ff5643934a1930c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-task-reliability",
+          "command": "dsh plugin --profile web add dsh-task-reliability --trust-lockfile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-my-skill-manager/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-skill-manager/README.md",
+      "sha256": "b6e2a481766873049947f23f79ba2f221ab9b92ddb73d747c6d28ef59c7f3f28",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-my-skill-manager",
+          "command": "dsh plugin --profile web add dsh-my-skill-manager --trust-lockfile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-my-memory/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-memory/README.md",
+      "sha256": "56e89d926732b4de3c9137c4af49550e909f0e6919dc4dc9672e36c9badaaf54",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-my-memory",
+          "command": "dsh plugin --profile web add dsh-my-memory --trust-lockfile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-my-observability/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-observability/README.md",
+      "sha256": "f104ea7eb3aca36e3bf45349c02c88faf6aa142bc93888bb47caa346e7119cac",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-my-observability",
+          "command": "dsh plugin --profile web add dsh-my-observability --trust-lockfile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-my-context/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-context/README.md",
+      "sha256": "1faf0bb1ebb53d3a2f1130809f1c1b1cc2abe9a3e5722ed6d5953494772f028d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-my-context",
+          "command": "dsh plugin --profile web add dsh-my-context --trust-lockfile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-my-opencode-session-header/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-opencode-session-header/README.md",
+      "sha256": "9e3906d50420f7159c135307a013ecb61ae9da6ae16214c69d7d0f3cdac918e0",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-my-opencode-session-header",
+          "command": "dsh plugin --profile web add dsh-my-opencode-session-header",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-shared/README.md",
+      "url": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-shared/README.md",
+      "sha256": "86f5bef41c0d163f2f17ad7de8e7614e351a106bea19bb477d919f7785cfecbb",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-file-activity",
+      "version": "0.5.15",
+      "path": "plugins/dsh-file-activity",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-file-activity"
+      },
+      "manifestSha256": "ea3db713a5c8111bbe9272dfc75edca9a7775466eaf9dad366bf512588cbb557",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-file-activity/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-md-render",
+      "version": "0.5.2",
+      "path": "plugins/dsh-md-render",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-md-render"
+      },
+      "manifestSha256": "940a6faa3323b4ffc1a728c366e40b0dea51f9085760aa2e41bf8a32e34ccda4",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-md-render/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-my-context",
+      "version": "0.1.7",
+      "path": "plugins/dsh-my-context",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-my-context"
+      },
+      "manifestSha256": "6ca37364b7477ab838729de2545357ac31468955578f43e78b46637bb0996ea6",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-context/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-my-guardian",
+      "version": "0.4.6",
+      "path": "plugins/dsh-my-guardian",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-my-guardian"
+      },
+      "manifestSha256": "fdcc169c5cef3f12a8b2f44d664c77e3d40a852c93819b2b9605e897eb053d40",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-guardian/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-my-memory",
+      "version": "0.1.12",
+      "path": "plugins/dsh-my-memory",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-my-memory"
+      },
+      "manifestSha256": "ae8528b51bc9a65b9b465b9fc8f6e73a487d6eddca4ca7194e639dba3353ef0c",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-memory/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-my-notify",
+      "version": "0.4.3",
+      "path": "plugins/dsh-my-notify",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-my-notify"
+      },
+      "manifestSha256": "dd361027c46f9609658d8bb4a2c5bb987ebd01581287c3704c8c2050ed2ad248",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-notify/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-my-observability",
+      "version": "0.3.6",
+      "path": "plugins/dsh-my-observability",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-my-observability"
+      },
+      "manifestSha256": "2e93f6e6216862c1b404ce827e22311048d0a49ed8cc811f3da4fa26bf686770",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-observability/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-my-opencode-session-header",
+      "version": "0.1.0",
+      "path": "plugins/dsh-my-opencode-session-header",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-my-opencode-session-header"
+      },
+      "manifestSha256": "1c297b635fbdcb940e3785e9b0a94724cc18892f1e35e927fcb0da51207ebb3e",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-opencode-session-header/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-my-remote",
+      "version": "0.1.5",
+      "path": "plugins/dsh-my-remote",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-my-remote"
+      },
+      "manifestSha256": "c7d45b39586f3d3c69e6596a5a4b246fef96e4de24a0f9eb93c6e4ea00fd8870",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-remote/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-my-skill-manager",
+      "version": "0.1.12",
+      "path": "plugins/dsh-my-skill-manager",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-my-skill-manager"
+      },
+      "manifestSha256": "91f95a234b922d3f667465a187016a74412a706d4edec78a43bec259da8d136a",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-my-skill-manager/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-task-reliability",
+      "version": "0.4.11",
+      "path": "plugins/dsh-task-reliability",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baosfeng/my-dsh-plugins",
+        "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+        "path": "plugins/dsh-task-reliability"
+      },
+      "manifestSha256": "ce9147da549df433a12fa386d1b900a2ceef8cbe09f80c36709556474c04f637",
+      "manifestUrl": "https://github.com/baosfeng/my-dsh-plugins/blob/47c1c8be8165000e6c15aa5c54dca2c3860a1b72/plugins/dsh-task-reliability/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-file-activity",
+      "origin": "npm",
+      "name": "dsh-file-activity",
+      "version": "0.5.15",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "dac42bac7e5a516e7c73bddd5d3ed6ed31f204a58277487597398d0a7d440560"
+    },
+    {
+      "target": "dsh-shared",
+      "origin": "npm",
+      "name": "dsh-shared",
+      "version": "0.1.7",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "9742da672a68b5ec6da697daa520e11966492797c95c6da8186b6c993080566c"
+    },
+    {
+      "target": "dsh-md-render",
+      "origin": "npm",
+      "name": "dsh-md-render",
+      "version": "0.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "7225d92ec038a8ced1441aef0e0620b1b08c4928f0464f5fd19ee0084954bc56"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-my-notify",
+      "version": "0.4.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-my-remote",
+      "version": "0.1.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-my-guardian",
+      "version": "0.4.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-task-reliability",
+      "version": "0.4.11",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-my-skill-manager",
+      "version": "0.1.12",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-my-memory",
+      "version": "0.1.12",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-my-observability",
+      "version": "0.3.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-my-context",
+      "version": "0.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-my-opencode-session-header",
+      "version": "0.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-file-activity",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-shared",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-md-render",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-my-notify",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-my-remote",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-my-guardian",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-task-reliability",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-my-skill-manager",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-my-memory",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-my-observability",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-my-context",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-my-opencode-session-header",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/baosfeng/my-dsh-plugins",
+    "commit": "47c1c8be8165000e6c15aa5c54dca2c3860a1b72",
+    "releaseTags": 196,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:55.344Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "plugins/dsh-file-activity/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-md-render/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-notify/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-remote/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-guardian/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-task-reliability/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-skill-manager/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-memory/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-observability/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-context/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-opencode-session-header/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-shared/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-file-activity/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-md-render/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-notify/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-remote/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-guardian/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-task-reliability/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-skill-manager/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-memory/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-observability/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-context/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-my-opencode-session-header/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugins/dsh-shared/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.204Z",
+  "coverageReviewedAt": "2026-10-17T17:12:29.348Z",
+  "contentReviewFlags": []
+}

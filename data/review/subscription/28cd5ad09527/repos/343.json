@@ -1,0 +1,150 @@
+{
+  "full_name": "xiehuan123/dsh-deepread",
+  "originalPosition": 197,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-deepread",
+    "https://github.com/xiehuan123/dsh-deepread#v1.0.1"
+  ],
+  "manualNote": null,
+  "ordinal": 343,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:29.202Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "024cc967de251b6d37ba5771cca5e633b422743feb804498117388c2fc340460",
+      "url": "https://github.com/xiehuan123/dsh-deepread/blob/9462f1e546b94a7f27e77abaf3d9ee3fedf7f746/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepread",
+          "command": "dsh plugin --profile web add dsh-deepread",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/xiehuan123/dsh-deepread#v1.0.1",
+          "command": "dsh plugin --profile web add \"github:xiehuan123/dsh-deepread#v1.0.1\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-deepread@1.0.1",
+          "command": "dsh plugin --profile web add dsh-deepread@1.0.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "28e38f479b52efa21ae0032cc8a40247ac20b1caff4150be5ce4daefd2ce5fc0",
+      "url": "https://github.com/xiehuan123/dsh-deepread/blob/9462f1e546b94a7f27e77abaf3d9ee3fedf7f746/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepread",
+          "command": "dsh plugin --profile web add dsh-deepread",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/xiehuan123/dsh-deepread#v1.0.1",
+          "command": "dsh plugin --profile web add \"github:xiehuan123/dsh-deepread#v1.0.1\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-deepread@1.0.1",
+          "command": "dsh plugin --profile web add dsh-deepread@1.0.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/README.md",
+      "url": "https://github.com/xiehuan123/dsh-deepread/blob/9462f1e546b94a7f27e77abaf3d9ee3fedf7f746/examples/README.md",
+      "sha256": "5e06c9ac749637dd29e20b4950d5c94531bab81c89b9dff25dcbca69132a59e0",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepread",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiehuan123/dsh-deepread",
+        "commit": "9462f1e546b94a7f27e77abaf3d9ee3fedf7f746"
+      },
+      "manifestSha256": "38e05eab31c207822dc0941c6122b10c77142cfa211dd0a5bf131ac62b94e7d7",
+      "manifestUrl": "https://github.com/xiehuan123/dsh-deepread/blob/9462f1e546b94a7f27e77abaf3d9ee3fedf7f746/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-deepread",
+      "origin": "npm",
+      "name": "dsh-deepread",
+      "version": "1.0.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "258e393cd5c224f8f6361a76ab183c925aa235c5896e19d68c5ca9dcc5c2c253"
+    },
+    {
+      "target": "https://github.com/xiehuan123/dsh-deepread#v1.0.1",
+      "origin": "git_target",
+      "path": "",
+      "commit": "a429c3a678db86451bae4bcc68b3a29e5e184900",
+      "name": "dsh-deepread",
+      "version": "1.0.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-deepread",
+      "version": "1.0.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-deepread@1.0.1",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiehuan123/dsh-deepread",
+    "commit": "9462f1e546b94a7f27e77abaf3d9ee3fedf7f746",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:44.766Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "examples/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:04.001Z",
+  "coverageReviewedAt": "2026-10-17T17:12:16.844Z",
+  "contentReviewFlags": []
+}

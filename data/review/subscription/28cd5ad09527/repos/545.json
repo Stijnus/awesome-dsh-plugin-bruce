@@ -1,0 +1,86 @@
+{
+  "full_name": "9087/dsh-diff-approval",
+  "originalPosition": 491,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-diff-approval"
+  ],
+  "manualNote": null,
+  "ordinal": 545,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:26.870Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "047be3b2dda9bbb9973f9494c4d53f0287d2463bdb87950eaef9cbde700f7107",
+      "url": "https://github.com/9087/dsh-diff-approval/blob/69d174f60f33015867c9f732e20f866702116de7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-diff-approval",
+          "command": "dsh plugin --profile web add dsh-diff-approval",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7810ca6aaa343e36f4794c508c91f800bdb2826d50ab709d0417251321ed7dfe",
+      "url": "https://github.com/9087/dsh-diff-approval/blob/69d174f60f33015867c9f732e20f866702116de7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-diff-approval",
+          "command": "dsh plugin --profile web add dsh-diff-approval",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-diff-approval",
+      "version": "0.35.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/9087/dsh-diff-approval",
+        "commit": "69d174f60f33015867c9f732e20f866702116de7"
+      },
+      "manifestSha256": "60bc04e3ac8eeda1cf07e98abb262fc568b89b705281dc16e070de221ab656f6",
+      "manifestUrl": "https://github.com/9087/dsh-diff-approval/blob/69d174f60f33015867c9f732e20f866702116de7/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-diff-approval",
+      "origin": "npm",
+      "name": "dsh-diff-approval",
+      "version": "0.35.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0ca8e49a945e0814c96322a76ebf54879b46c3eadf4e07aa1376ae56c20a075e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/9087/dsh-diff-approval",
+    "commit": "69d174f60f33015867c9f732e20f866702116de7",
+    "releaseTags": 47,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:36.547Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.725Z",
+  "contentReviewFlags": []
+}

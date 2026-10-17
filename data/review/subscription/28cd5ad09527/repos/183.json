@@ -1,0 +1,114 @@
+{
+  "full_name": "chinosk6/dsh-roleplay",
+  "originalPosition": 473,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-roleplay",
+    "https://github.com/chinosk6/dsh-roleplay",
+    "https://github.com/chinosk6/dsh-roleplay#v0.1.0"
+  ],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:47.399Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "456db78a7a80f82dec7013ae3da686538156204f8f576659d67f8caad8db95f0",
+      "url": "https://github.com/chinosk6/dsh-roleplay/blob/ebe57737327de196b4625b7f9a45b0bf042673ad/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-roleplay",
+          "command": "dsh plugin --profile web add -w dsh-roleplay",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chinosk6/dsh-roleplay",
+          "command": "dsh plugin --profile web add -w github:chinosk6/dsh-roleplay",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chinosk6/dsh-roleplay#v0.1.0",
+          "command": "dsh plugin --profile web add -w github:chinosk6/dsh-roleplay#v0.1.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-EN.md",
+      "sha256": "b18ef4e55db09cf5c400b473f79405e1423e6f7b33c4ae37ee37311bf144255e",
+      "url": "https://github.com/chinosk6/dsh-roleplay/blob/ebe57737327de196b4625b7f9a45b0bf042673ad/README-EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-roleplay",
+          "command": "dsh plugin --profile web add -w dsh-roleplay",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chinosk6/dsh-roleplay",
+          "command": "dsh plugin --profile web add -w github:chinosk6/dsh-roleplay",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chinosk6/dsh-roleplay#v0.1.0",
+          "command": "dsh plugin --profile web add -w github:chinosk6/dsh-roleplay#v0.1.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay",
+      "version": "0.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chinosk6/dsh-roleplay",
+        "commit": "ebe57737327de196b4625b7f9a45b0bf042673ad"
+      },
+      "manifestSha256": "57e63f035e3f1e8172aad58bd2e7dd87ecd5d5c89c5fd59f2716e1da2fb2d322",
+      "manifestUrl": "https://github.com/chinosk6/dsh-roleplay/blob/ebe57737327de196b4625b7f9a45b0bf042673ad/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-roleplay",
+      "origin": "npm",
+      "name": "dsh-roleplay",
+      "version": "0.6.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f7607071dbaff394a71d1b5830b3b7afb55b63e49e4913769b522e0bc5604d8a"
+    },
+    {
+      "target": "https://github.com/chinosk6/dsh-roleplay#v0.1.0",
+      "status": "mapping_needs_review",
+      "code": "git_ref_not_found",
+      "reason": "指定 Git 引用不存在"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chinosk6/dsh-roleplay",
+    "commit": "ebe57737327de196b4625b7f9a45b0bf042673ad",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:59.575Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.408Z",
+  "contentReviewFlags": []
+}

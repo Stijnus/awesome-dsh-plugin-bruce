@@ -1,0 +1,90 @@
+{
+  "full_name": "GGboya/dsh-paper-reader",
+  "originalPosition": 377,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 87,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:32.712Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ff6312da10392683989ebac90267ee791a7aa685193b4145a0ea0d1ceb202f00",
+      "url": "https://github.com/GGboya/dsh-paper-reader/blob/0c5a0fb6d7ea6f5d1a5e54705803140735acdf75/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ggboy123/dsh-paper-reader@latest",
+          "command": "dsh plugin --profile web add @ggboy123/dsh-paper-reader@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "db3b26d0874e66ff84b49930955d3ef9364b8183a1f0da39373e3e582b5fe5c3",
+      "url": "https://github.com/GGboya/dsh-paper-reader/blob/0c5a0fb6d7ea6f5d1a5e54705803140735acdf75/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ggboy123/dsh-paper-reader@latest",
+          "command": "dsh plugin --profile web add @ggboy123/dsh-paper-reader@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ggboy123/dsh-paper-reader",
+      "version": "1.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GGboya/dsh-paper-reader",
+        "commit": "0c5a0fb6d7ea6f5d1a5e54705803140735acdf75"
+      },
+      "manifestSha256": "3b56d4598edfdbeddc9909271aa69162200520e90dca4cb7d6806dbddfc7e763",
+      "manifestUrl": "https://github.com/GGboya/dsh-paper-reader/blob/0c5a0fb6d7ea6f5d1a5e54705803140735acdf75/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@ggboy123/dsh-paper-reader@latest",
+      "origin": "npm",
+      "name": "@ggboy123/dsh-paper-reader",
+      "version": "1.5.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "79144c05eef620bc5f6b4c422521b8fba61d851e112537fe11a84da204587869"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@ggboy123/dsh-paper-reader@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GGboya/dsh-paper-reader",
+    "commit": "0c5a0fb6d7ea6f5d1a5e54705803140735acdf75",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:42.369Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.561Z",
+  "contentReviewFlags": []
+}

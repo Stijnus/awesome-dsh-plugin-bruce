@@ -1,0 +1,61 @@
+{
+  "full_name": "euuuuuuzer/dsh-loop-dock",
+  "originalPosition": 384,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 89,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:37.447Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6121bba3dea77192212a51e3fd9fc8789c911408585532e7833db85c29699bca",
+      "url": "https://github.com/euuuuuuzer/dsh-loop-dock/blob/aa5a461c2ed1036b066d4288493b8dc466dc9399/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "9c8d812bb29e54766c99aea064ccf47e989fd4c4e4c7820533681a4f46fb11db",
+      "url": "https://github.com/euuuuuuzer/dsh-loop-dock/blob/aa5a461c2ed1036b066d4288493b8dc466dc9399/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-loop-dock",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/euuuuuuzer/dsh-loop-dock",
+        "commit": "aa5a461c2ed1036b066d4288493b8dc466dc9399"
+      },
+      "manifestSha256": "da18b8a9b1dbd5851ec4678021767b3d3aea23b555fd2bd704a9ec933cadc2b2",
+      "manifestUrl": "https://github.com/euuuuuuzer/dsh-loop-dock/blob/aa5a461c2ed1036b066d4288493b8dc466dc9399/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/euuuuuuzer/dsh-loop-dock",
+    "commit": "aa5a461c2ed1036b066d4288493b8dc466dc9399",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:47.403Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.642Z",
+  "contentReviewFlags": []
+}

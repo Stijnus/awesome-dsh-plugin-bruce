@@ -1,0 +1,100 @@
+{
+  "full_name": "Ychris12138/dsh-usage-stats",
+  "originalPosition": 19,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@ychris12138/dsh-usage-stats@0.3.4",
+    "https://github.com/Ychris12138/dsh-usage-stats"
+  ],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:30.742Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "266f6d681a4c86f1f0cd08ffd65cc48365066be09de23744186dd5d8bf2ea1db",
+      "url": "https://github.com/Ychris12138/dsh-usage-stats/blob/da11021f432ab7de836704e09acd9e6024fd34e7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ychris12138/dsh-usage-stats@0.3.5",
+          "command": "dsh plugin --profile web add \"@ychris12138/dsh-usage-stats@0.3.5\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Ychris12138/dsh-usage-stats",
+          "command": "dsh plugin --profile web add \"github:Ychris12138/dsh-usage-stats\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ychris12138/dsh-usage-stats",
+      "version": "0.3.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ychris12138/dsh-usage-stats",
+        "commit": "da11021f432ab7de836704e09acd9e6024fd34e7"
+      },
+      "manifestSha256": "d9a8b479737de84130103fa26bdf6ffb9c7530e7dc058eabba1036a30d5f012d",
+      "manifestUrl": "https://github.com/Ychris12138/dsh-usage-stats/blob/da11021f432ab7de836704e09acd9e6024fd34e7/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@ychris12138/dsh-usage-stats@0.3.4",
+      "origin": "npm",
+      "name": "@ychris12138/dsh-usage-stats",
+      "version": "0.3.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "41451ebb2ffe3c4068956419a500ac7383cc3c787b8b0047812c76ab9a7da6c3"
+    },
+    {
+      "target": "@ychris12138/dsh-usage-stats@0.3.5",
+      "origin": "npm",
+      "name": "@ychris12138/dsh-usage-stats",
+      "version": "0.3.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "41451ebb2ffe3c4068956419a500ac7383cc3c787b8b0047812c76ab9a7da6c3"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@ychris12138/dsh-usage-stats@0.3.4",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@ychris12138/dsh-usage-stats@0.3.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ychris12138/dsh-usage-stats",
+    "commit": "da11021f432ab7de836704e09acd9e6024fd34e7",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:39.651Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.163Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,86 @@
+{
+  "full_name": "shaokeyibb/dsh-plugin-product-subagents",
+  "originalPosition": 325,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-product-subagents"
+  ],
+  "manualNote": null,
+  "ordinal": 428,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:02.415Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1b9132efcf802908dc96e68a138816d461c306e99e485eb5a6509d0cba2cc1fe",
+      "url": "https://github.com/shaokeyibb/dsh-plugin-product-subagents/blob/e5a002db3b8d6df984fdb5e704e9321dca1723cd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-product-subagents",
+          "command": "dsh plugin --profile web add dsh-plugin-product-subagents",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "24f0c67e73cfe93b09e7d42adb756f36675254baa1279c63bee4bd76e12d5509",
+      "url": "https://github.com/shaokeyibb/dsh-plugin-product-subagents/blob/e5a002db3b8d6df984fdb5e704e9321dca1723cd/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-product-subagents",
+          "command": "dsh plugin --profile web add dsh-plugin-product-subagents",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-product-subagents",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shaokeyibb/dsh-plugin-product-subagents",
+        "commit": "e5a002db3b8d6df984fdb5e704e9321dca1723cd"
+      },
+      "manifestSha256": "35dcc9aaf177a4d11bf390b5a8fb0229225663ec1f1842bc3d39482647ac2bbe",
+      "manifestUrl": "https://github.com/shaokeyibb/dsh-plugin-product-subagents/blob/e5a002db3b8d6df984fdb5e704e9321dca1723cd/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-product-subagents",
+      "origin": "npm",
+      "name": "dsh-plugin-product-subagents",
+      "version": "0.4.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8355f0754c53b0cba397d84897f8b221a28629ea154528ae063b034dc3ed567d"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shaokeyibb/dsh-plugin-product-subagents",
+    "commit": "e5a002db3b8d6df984fdb5e704e9321dca1723cd",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:14.885Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:22.739Z",
+  "contentReviewFlags": []
+}

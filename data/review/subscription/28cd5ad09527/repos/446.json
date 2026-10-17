@@ -1,0 +1,96 @@
+{
+  "full_name": "Fantasality/dsh-origin-plugin",
+  "originalPosition": 353,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Fantasality/dsh-origin-plugin",
+    "dsh-origin-plugin"
+  ],
+  "manualNote": null,
+  "ordinal": 446,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:35.133Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "df2bef7d93882025b783b78c005e9e24ff68e7107d5f122f8598b24e9ba57d14",
+      "url": "https://github.com/Fantasality/dsh-origin-plugin/blob/fefeca7de2be9f499887948ecee308bbe7dd0f92/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Fantasality/dsh-origin-plugin",
+          "command": "dsh plugin --profile web add github:Fantasality/dsh-origin-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-origin-plugin",
+          "command": "dsh plugin add dsh-origin-plugin",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Fantasality/dsh-origin-plugin/blob/fefeca7de2be9f499887948ecee308bbe7dd0f92/README.en.md",
+      "sha256": "09f2647f9fce8dede31e259f5afb0bf7e9fff8a2ef64b0339d63b9fb5d114c4a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-origin-plugin",
+      "version": "2.7.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fantasality/dsh-origin-plugin",
+        "commit": "fefeca7de2be9f499887948ecee308bbe7dd0f92"
+      },
+      "manifestSha256": "eab23bb7dc87e578049ac6ea52aef7e42ae2be37349cbf566fc76d027c7adf2c",
+      "manifestUrl": "https://github.com/Fantasality/dsh-origin-plugin/blob/fefeca7de2be9f499887948ecee308bbe7dd0f92/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-origin-plugin",
+      "origin": "npm",
+      "name": "dsh-origin-plugin",
+      "version": "2.7.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8a33665b34c812917044b9ccdc92814b0686a5be44aa9728ffb528d6955e5d97"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fantasality/dsh-origin-plugin",
+    "commit": "fefeca7de2be9f499887948ecee308bbe7dd0f92",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:43.246Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:08.753Z",
+  "coverageReviewedAt": "2026-10-17T17:12:24.637Z",
+  "contentReviewFlags": []
+}

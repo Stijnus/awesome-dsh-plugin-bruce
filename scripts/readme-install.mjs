@@ -116,6 +116,8 @@ export function commandsFrom(text) {
 
 export function classify(target) {
   const t = target;
+  // README version placeholders are examples, not installable references.
+  if (/(?:#|@)v?x\.y\.z(?:$|[&/])/i.test(t)) return { kind: 'other' };
   if (/^github:[\w.-]+\/[\w.-]+(#\S+)?$/i.test(t)) {
     const owner = t.slice(7).split('/')[0].toLowerCase();
     if (PLACEHOLDER_OWNERS.has(owner)) return { kind: 'other' };

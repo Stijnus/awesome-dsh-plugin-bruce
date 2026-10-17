@@ -1,0 +1,76 @@
+{
+  "full_name": "hdhgsysh/dsh-connect-qoder",
+  "originalPosition": 445,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:58.945Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c197cf56b6a14795b2d562acd408f81685ae95f54f4d237ece948aff5188f5e2",
+      "url": "https://github.com/hdhgsysh/dsh-connect-qoder/blob/e3d4a5a1ca704b426166889de8ac69cc1f234cde/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@eghrhegpe/dsh-connect-qoder",
+          "command": "dsh plugin --profile web add @eghrhegpe/dsh-connect-qoder",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@eghrhegpe/dsh-connect-qoder",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hdhgsysh/dsh-connect-qoder",
+        "commit": "e3d4a5a1ca704b426166889de8ac69cc1f234cde"
+      },
+      "manifestSha256": "f640fa02f1b008cc7d9223c7eb1920a5b8be4de478854f5df4dddcc35312db7c",
+      "manifestUrl": "https://github.com/hdhgsysh/dsh-connect-qoder/blob/e3d4a5a1ca704b426166889de8ac69cc1f234cde/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@eghrhegpe/dsh-connect-qoder",
+      "origin": "npm",
+      "name": "@eghrhegpe/dsh-connect-qoder",
+      "version": "0.6.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ea6996d7865df5f044f39863db1fb0a867bc2f202caa7fe67a058ab1cf9a71cb"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@eghrhegpe/dsh-connect-qoder",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hdhgsysh/dsh-connect-qoder",
+    "commit": "e3d4a5a1ca704b426166889de8ac69cc1f234cde",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:08.394Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.880Z",
+  "contentReviewFlags": []
+}

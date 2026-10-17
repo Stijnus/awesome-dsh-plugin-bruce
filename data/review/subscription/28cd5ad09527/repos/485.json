@@ -1,0 +1,135 @@
+{
+  "full_name": "HTian-qwq/prts-terrarchive",
+  "originalPosition": 406,
+  "inputMode": "command",
+  "mappedTargets": [
+    "prts-terrarchive@0.2.0"
+  ],
+  "manualNote": null,
+  "ordinal": 485,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:42.305Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "64b9e170b6219b8055e64334988787b9bb3edc5bd1b0d7f2e83a11225905b023",
+      "url": "https://github.com/HTian-qwq/prts-terrarchive/blob/0eb7609fafced4129a84d244974bf80d68ccf4e5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "prts-terrarchive@0.2.3",
+          "command": "dsh plugin --profile web add prts-terrarchive@0.2.3",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/HTian-qwq/prts-terrarchive/blob/0eb7609fafced4129a84d244974bf80d68ccf4e5/README.en.md",
+      "sha256": "bf1d57d86e56a3b620586706967cf2c0acd93b4f4fddc9edd27e079602b37d17",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "prts-terrarchive@0.2.3",
+          "command": "dsh plugin --profile web add prts-terrarchive@0.2.3",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "prts-terrarchive",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HTian-qwq/prts-terrarchive",
+        "commit": "0eb7609fafced4129a84d244974bf80d68ccf4e5"
+      },
+      "manifestSha256": "5d8e46312c46f6802afba5e991c8b6e7f0e7939e830c9c2cf084ebec9eaf6a60",
+      "manifestUrl": "https://github.com/HTian-qwq/prts-terrarchive/blob/0eb7609fafced4129a84d244974bf80d68ccf4e5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "prts-terrarchive",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1792256312,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HTian-qwq/prts-terrarchive",
+              "commit": "0eb7609fafced4129a84d244974bf80d68ccf4e5"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "prts-terrarchive@0.2.0",
+      "origin": "npm",
+      "name": "prts-terrarchive",
+      "version": "0.2.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "42cbb28d2125c21fed2fd653829021f265e05052caf966c868630ef0b7aa0024"
+    },
+    {
+      "target": "prts-terrarchive@0.2.3",
+      "origin": "npm",
+      "name": "prts-terrarchive",
+      "version": "0.2.3",
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "42cbb28d2125c21fed2fd653829021f265e05052caf966c868630ef0b7aa0024"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "prts-terrarchive@0.2.0",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "prts-terrarchive@0.2.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HTian-qwq/prts-terrarchive",
+    "commit": "0eb7609fafced4129a84d244974bf80d68ccf4e5",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:02:52.304Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:10.507Z",
+  "coverageReviewedAt": "2026-10-17T17:12:28.400Z",
+  "contentReviewFlags": []
+}

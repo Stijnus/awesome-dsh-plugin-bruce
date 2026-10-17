@@ -1,0 +1,85 @@
+{
+  "full_name": "justhalfbit/dsh-plugin-memory",
+  "originalPosition": 517,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/justhalfbit/dsh-plugin-memory"
+  ],
+  "manualNote": null,
+  "ordinal": 559,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:52.554Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0fda7170455a4ab36082001cdc807d251ec540a9b67e285af396c8aef40c6dfc",
+      "url": "https://github.com/justhalfbit/dsh-plugin-memory/blob/34f87c42d3f66dabcf4476d6cdbe2c6f8e243527/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/justhalfbit/dsh-plugin-memory",
+          "command": "dsh plugin --profile web add github:justhalfbit/dsh-plugin-memory",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/justhalfbit/dsh-plugin-memory/blob/34f87c42d3f66dabcf4476d6cdbe2c6f8e243527/README.en.md",
+      "sha256": "b5ba67a67d5a910c6f8cc586456592e173f1a1f8cd11b5989803f60644e33a1f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/justhalfbit/dsh-plugin-memory",
+          "command": "dsh plugin --profile web add github:justhalfbit/dsh-plugin-memory",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-memory",
+      "version": "0.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/justhalfbit/dsh-plugin-memory",
+        "commit": "34f87c42d3f66dabcf4476d6cdbe2c6f8e243527"
+      },
+      "manifestSha256": "fe44b5f4015ecc0de075a1682dc9ccc8b9942a9c494e8183660eea79193cd454",
+      "manifestUrl": "https://github.com/justhalfbit/dsh-plugin-memory/blob/34f87c42d3f66dabcf4476d6cdbe2c6f8e243527/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/justhalfbit/dsh-plugin-memory",
+    "commit": "34f87c42d3f66dabcf4476d6cdbe2c6f8e243527",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:59.809Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.495Z",
+  "coverageReviewedAt": "2026-10-17T17:12:32.014Z",
+  "contentReviewFlags": []
+}

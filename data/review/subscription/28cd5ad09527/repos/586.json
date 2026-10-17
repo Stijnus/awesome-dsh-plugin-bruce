@@ -1,0 +1,97 @@
+{
+  "full_name": "madage/dsh-self-improved",
+  "originalPosition": 567,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-self-improved",
+    "https://github.com/madage/dsh-self-improved"
+  ],
+  "manualNote": null,
+  "ordinal": 586,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:42.798Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eb1429847643158f4686fbb3ab1ec7cc6af3b70055b442051e820cdfb69bb218",
+      "url": "https://github.com/madage/dsh-self-improved/blob/4f134c9a93dbaccedbeee339fe8cc942d1740cca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-self-improved",
+          "command": "dsh plugin --profile web add dsh-self-improved",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/madage/dsh-self-improved",
+          "command": "dsh plugin --profile web add github:madage/dsh-self-improved",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "cf700d1c3252d09ded0313e62624f50d8cdecd7e493eec58b060d1f97afa0d97",
+      "url": "https://github.com/madage/dsh-self-improved/blob/4f134c9a93dbaccedbeee339fe8cc942d1740cca/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-self-improved",
+          "command": "dsh plugin --profile web add dsh-self-improved",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/madage/dsh-self-improved",
+          "command": "dsh plugin --profile web add github:madage/dsh-self-improved",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-self-improved",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/madage/dsh-self-improved",
+        "commit": "4f134c9a93dbaccedbeee339fe8cc942d1740cca"
+      },
+      "manifestSha256": "2fc0d6eec2e639aa687e60564f37c4f3a5a94f204da237ba2df4517288297187",
+      "manifestUrl": "https://github.com/madage/dsh-self-improved/blob/4f134c9a93dbaccedbeee339fe8cc942d1740cca/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-self-improved",
+      "origin": "npm",
+      "name": "dsh-self-improved",
+      "version": "0.1.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "094c1226b4d4c8a8f7e4a7e0ace94cbd617fb99004a6a4eb4b4cdc5fece4d3d6"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/madage/dsh-self-improved",
+    "commit": "4f134c9a93dbaccedbeee339fe8cc942d1740cca",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:51.900Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.600Z",
+  "contentReviewFlags": []
+}

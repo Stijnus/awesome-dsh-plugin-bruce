@@ -1,0 +1,105 @@
+{
+  "full_name": "zibo2025/dsh-orchestrator",
+  "originalPosition": 274,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <该名字> add dsh-orchestrator」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 168,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:14.893Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3b0dba937b59ca6aa1bc170d2b97e02b743c96697e247f5a995d50f3af7ef01f",
+      "url": "https://github.com/zibo2025/dsh-orchestrator/blob/76c0368b45fa6a8be25f581cc9af3cbe2ebf0e48/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-orchestrator",
+          "command": "dsh plugin --profile <该名字> add dsh-orchestrator",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/zibo2025/dsh-orchestrator#v0.3.0",
+          "command": "dsh plugin --profile <name> add github:zibo2025/dsh-orchestrator#v0.3.0",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-orchestrator",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zibo2025/dsh-orchestrator",
+        "commit": "76c0368b45fa6a8be25f581cc9af3cbe2ebf0e48"
+      },
+      "manifestSha256": "c3284d0f30d3471e5ace89b1c92ec0112e37605aa01b01561f6c454a72f3e1f3",
+      "manifestUrl": "https://github.com/zibo2025/dsh-orchestrator/blob/76c0368b45fa6a8be25f581cc9af3cbe2ebf0e48/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-orchestrator",
+      "origin": "npm",
+      "name": "dsh-orchestrator",
+      "version": "0.3.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3a28590d0fdd57e39beb166eb86552a130d0ccfd0bef30b609ffafae55b4bed1"
+    },
+    {
+      "target": "https://github.com/zibo2025/dsh-orchestrator#v0.3.0",
+      "origin": "git_target",
+      "path": "",
+      "commit": "76c0368b45fa6a8be25f581cc9af3cbe2ebf0e48",
+      "name": "dsh-orchestrator",
+      "version": "0.3.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-orchestrator",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/zibo2025/dsh-orchestrator#v0.3.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zibo2025/dsh-orchestrator",
+    "commit": "76c0368b45fa6a8be25f581cc9af3cbe2ebf0e48",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:29.040Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.370Z",
+  "contentReviewFlags": []
+}

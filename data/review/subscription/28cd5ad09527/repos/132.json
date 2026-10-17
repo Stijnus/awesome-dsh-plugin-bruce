@@ -1,0 +1,100 @@
+{
+  "full_name": "jasen215/dsh-continual-harness",
+  "originalPosition": 547,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:02.384Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b3c3ce67a8a2dbc9a38aa43dc6282547ac2f4a6da9b51ab251734ce416b31470",
+      "url": "https://github.com/jasen215/dsh-continual-harness/blob/0432de6bb0d66f420f1b40f3889833d14d385f9e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-continual-harness",
+          "command": "dsh plugin --profile <name> add dsh-continual-harness",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/readme/README.zh.md",
+      "url": "https://github.com/jasen215/dsh-continual-harness/blob/0432de6bb0d66f420f1b40f3889833d14d385f9e/docs/readme/README.zh.md",
+      "sha256": "437673b8ad9bf0088a5cca9c961d694b2da6b583c21df86da775d026310d6d2f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-continual-harness",
+          "command": "dsh plugin --profile <name> add dsh-continual-harness",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-continual-harness",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jasen215/dsh-continual-harness",
+        "commit": "0432de6bb0d66f420f1b40f3889833d14d385f9e"
+      },
+      "manifestSha256": "a8c35b285e5d80c378838751596f2ed6152c7a9f7902894cd654a094dcbc0653",
+      "manifestUrl": "https://github.com/jasen215/dsh-continual-harness/blob/0432de6bb0d66f420f1b40f3889833d14d385f9e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-continual-harness",
+      "origin": "npm",
+      "name": "dsh-continual-harness",
+      "version": "0.3.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ca82d9afd25beb7f54ecb687d5e905b5218849075fc19c7d90e3e6fb07a4b5ee"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-continual-harness",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jasen215/dsh-continual-harness",
+    "commit": "0432de6bb0d66f420f1b40f3889833d14d385f9e",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:10.304Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/readme/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/readme/README.zh.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:52.491Z",
+  "coverageReviewedAt": "2026-10-17T17:12:06.900Z",
+  "contentReviewFlags": []
+}

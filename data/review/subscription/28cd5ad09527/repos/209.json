@@ -1,0 +1,78 @@
+{
+  "full_name": "shanliuling/dsh-image-gen",
+  "originalPosition": 33,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-image-gen@latest",
+    "git+https://github.com/shanliuling/dsh-image-gen.git"
+  ],
+  "manualNote": null,
+  "ordinal": 209,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:28.498Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a57c662d36ca65eea738ce36669d007aff5a6deaa0f82610eeb9fa5e012e257f",
+      "url": "https://github.com/shanliuling/dsh-image-gen/blob/b128d0d38416360f6835c07331bc5b78ddcd242a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-image-gen@latest",
+          "command": "pnpm dsh plugin --profile web add dsh-image-gen@latest",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/shanliuling/dsh-image-gen.git",
+          "command": "pnpm dsh plugin --profile web add git+https://github.com/shanliuling/dsh-image-gen.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-image-gen",
+      "version": "0.9.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shanliuling/dsh-image-gen",
+        "commit": "b128d0d38416360f6835c07331bc5b78ddcd242a"
+      },
+      "manifestSha256": "5247d99078a147348d42c9c65241c17cf00e1efe71c76069ea74181813df595a",
+      "manifestUrl": "https://github.com/shanliuling/dsh-image-gen/blob/b128d0d38416360f6835c07331bc5b78ddcd242a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-image-gen@latest",
+      "origin": "npm",
+      "name": "dsh-image-gen",
+      "version": "0.9.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "b06364520500066ebebecd6a9744a54adf12aaea8f554fa28c2a297510bd8c38"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shanliuling/dsh-image-gen",
+    "commit": "b128d0d38416360f6835c07331bc5b78ddcd242a",
+    "releaseTags": 34,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:37.238Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.491Z",
+  "contentReviewFlags": []
+}

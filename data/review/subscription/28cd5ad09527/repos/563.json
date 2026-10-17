@@ -1,0 +1,72 @@
+{
+  "full_name": "hongyue0721/dsh-kimicode-swarm",
+  "originalPosition": 524,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-kimicode-swarm"
+  ],
+  "manualNote": null,
+  "ordinal": 563,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:00.581Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "68f39b45cc6caf01b27bb52f874250ac62c6a341f7833e0a08f0c70b2593528e",
+      "url": "https://github.com/hongyue0721/dsh-kimicode-swarm/blob/311d6f42a26070501c87a70eebf628391ce7604c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-kimicode-swarm",
+          "command": "dsh plugin --profile web add dsh-kimicode-swarm",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-kimicode-swarm",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hongyue0721/dsh-kimicode-swarm",
+        "commit": "311d6f42a26070501c87a70eebf628391ce7604c"
+      },
+      "manifestSha256": "2da7fe9982f0e6747c9f65e6cc771aa67f0c57683356c3303828309d4095a0c9",
+      "manifestUrl": "https://github.com/hongyue0721/dsh-kimicode-swarm/blob/311d6f42a26070501c87a70eebf628391ce7604c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-kimicode-swarm",
+      "origin": "npm",
+      "name": "dsh-kimicode-swarm",
+      "version": "0.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0dccdf36cf88ec37f40981011b7426cf68fdf62d7609066f5c66486c440a1d4a"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hongyue0721/dsh-kimicode-swarm",
+    "commit": "311d6f42a26070501c87a70eebf628391ce7604c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:08.994Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.021Z",
+  "contentReviewFlags": []
+}

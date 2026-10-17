@@ -1,0 +1,120 @@
+{
+  "full_name": "Max-Samson/dsh-usage-chart",
+  "originalPosition": 309,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-usage-chart"
+  ],
+  "manualNote": null,
+  "ordinal": 417,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:45.381Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bb062130ab57fbed4474cb0ff2e405f310152a821d8fd024dfd586e055dab421",
+      "url": "https://github.com/Max-Samson/dsh-usage-chart/blob/b19a8513dac993a66b170123137b7f6e138b4755/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-usage-chart",
+          "command": "dsh plugin --profile web add dsh-usage-chart",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-usage-chart@1.1.7",
+          "command": "dsh plugin --profile web add dsh-usage-chart@1.1.7",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_ZH.md",
+      "url": "https://github.com/Max-Samson/dsh-usage-chart/blob/b19a8513dac993a66b170123137b7f6e138b4755/README_ZH.md",
+      "sha256": "21c8e91003d5aa6da23d0268243bb0ff6207447532b029a934b66d7f5a703873",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-usage-chart",
+          "command": "dsh plugin --profile web add dsh-usage-chart",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-usage-chart@1.1.7",
+          "command": "dsh plugin --profile web add dsh-usage-chart@1.1.7",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-usage-chart",
+      "version": "1.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Max-Samson/dsh-usage-chart",
+        "commit": "b19a8513dac993a66b170123137b7f6e138b4755"
+      },
+      "manifestSha256": "c79a223e7cea6672efdfbe192efab5f63173c581d08fe2cf6b2fbd373c1f0fd3",
+      "manifestUrl": "https://github.com/Max-Samson/dsh-usage-chart/blob/b19a8513dac993a66b170123137b7f6e138b4755/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-usage-chart",
+      "origin": "npm",
+      "name": "dsh-usage-chart",
+      "version": "1.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "54964d0ee8a9e4ca345cabf39d1694713ceb506f5e0b95a1541cfca35732607a"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-usage-chart",
+      "version": "1.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-usage-chart@1.1.7",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Max-Samson/dsh-usage-chart",
+    "commit": "b19a8513dac993a66b170123137b7f6e138b4755",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:54.438Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README_ZH.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README_ZH.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:07.277Z",
+  "coverageReviewedAt": "2026-10-17T17:12:22.118Z",
+  "contentReviewFlags": []
+}

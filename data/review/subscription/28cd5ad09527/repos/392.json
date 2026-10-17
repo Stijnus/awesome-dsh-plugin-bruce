@@ -1,0 +1,110 @@
+{
+  "full_name": "literaf/dsh-ai4scholar",
+  "originalPosition": 277,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-ai4scholar"
+  ],
+  "manualNote": null,
+  "ordinal": 392,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:24.706Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f8002ee3f16346d9633b3c6aabbc28207041b212b8efb286941c5189d5b62f61",
+      "url": "https://github.com/literaf/dsh-ai4scholar/blob/27a026f25d1bfd7c3e766e4c136916586cd2f7a5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ai4scholar",
+          "command": "dsh plugin --profile web add dsh-ai4scholar",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ai4scholar@latest",
+          "command": "dsh plugin --profile web add dsh-ai4scholar@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "c4190af12cb899b73569baebb8d6a091ff740caa73ba37bfb9343a89b55cf0ce",
+      "url": "https://github.com/literaf/dsh-ai4scholar/blob/27a026f25d1bfd7c3e766e4c136916586cd2f7a5/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ai4scholar",
+          "command": "dsh plugin --profile web add dsh-ai4scholar",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ai4scholar@latest",
+          "command": "dsh plugin --profile web add dsh-ai4scholar@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ai4scholar",
+      "version": "0.3.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/literaf/dsh-ai4scholar",
+        "commit": "27a026f25d1bfd7c3e766e4c136916586cd2f7a5"
+      },
+      "manifestSha256": "ee7482732091564171c28ae0fc5a81bc39d201138bb333cc83884d41e08a1d0e",
+      "manifestUrl": "https://github.com/literaf/dsh-ai4scholar/blob/27a026f25d1bfd7c3e766e4c136916586cd2f7a5/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-ai4scholar",
+      "origin": "npm",
+      "name": "dsh-ai4scholar",
+      "version": "0.3.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "7c1c1e7274c5b52fda4346c73cbd1aa59032b9ee6a6a82a1ed99f61c7d56eb18"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-ai4scholar",
+      "version": "0.3.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ai4scholar@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/literaf/dsh-ai4scholar",
+    "commit": "27a026f25d1bfd7c3e766e4c136916586cd2f7a5",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:34.307Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.514Z",
+  "contentReviewFlags": []
+}

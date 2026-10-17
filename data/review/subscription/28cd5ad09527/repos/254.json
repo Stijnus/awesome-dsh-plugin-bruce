@@ -1,0 +1,96 @@
+{
+  "full_name": "Ayase34/gal-view",
+  "originalPosition": 88,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Ayase34/gal-view#main"
+  ],
+  "manualNote": null,
+  "ordinal": 254,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:55.258Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dbc32fe4f02b843278106eb630f1dc3e71a2fe5d88816ed07cb02d965119cca4",
+      "url": "https://github.com/Ayase34/gal-view/blob/d002fe0e7051c618a2665af3c653f9838cd6aa8a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ayase34/gal-view#main",
+          "command": "dsh plugin --profile web add github:Ayase34/gal-view#main",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Ayase34/gal-view/blob/d002fe0e7051c618a2665af3c653f9838cd6aa8a/README.en.md",
+      "sha256": "6db6ba71113db242c6c6d4cd0cffca338c905f4717042dac487e358df8557496",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ayase34/gal-view#main",
+          "command": "dsh plugin --profile web add github:Ayase34/gal-view#main",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "gal-view",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ayase34/gal-view",
+        "commit": "d002fe0e7051c618a2665af3c653f9838cd6aa8a"
+      },
+      "manifestSha256": "0ba331717f4d085e21e9d75bb1bbe7e545d0acf5dd585ebe2336d41907f9e468",
+      "manifestUrl": "https://github.com/Ayase34/gal-view/blob/d002fe0e7051c618a2665af3c653f9838cd6aa8a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/Ayase34/gal-view#main",
+      "origin": "git_target",
+      "path": "",
+      "commit": "d002fe0e7051c618a2665af3c653f9838cd6aa8a",
+      "name": "gal-view",
+      "version": "0.3.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ayase34/gal-view",
+    "commit": "d002fe0e7051c618a2665af3c653f9838cd6aa8a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:08.731Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:56.901Z",
+  "coverageReviewedAt": "2026-10-17T17:12:10.837Z",
+  "contentReviewFlags": []
+}

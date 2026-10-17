@@ -1,0 +1,78 @@
+{
+  "full_name": "XCNXNXNX/dsh-portable-tavern",
+  "originalPosition": 181,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-portable-tavern",
+    "https://github.com/XCNXNXNX/dsh-portable-tavern"
+  ],
+  "manualNote": null,
+  "ordinal": 329,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:51.503Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0d4710409a7b22dad5a8a060e3d291abc0f07e7276cf37cd4ec8f8c298218e41",
+      "url": "https://github.com/XCNXNXNX/dsh-portable-tavern/blob/b1b319b60680f8d16acd3499775b57ded8096304/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-portable-tavern",
+          "command": "dsh plugin --profile web add dsh-portable-tavern",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/XCNXNXNX/dsh-portable-tavern",
+          "command": "dsh plugin --profile web add github:XCNXNXNX/dsh-portable-tavern",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-portable-tavern",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XCNXNXNX/dsh-portable-tavern",
+        "commit": "b1b319b60680f8d16acd3499775b57ded8096304"
+      },
+      "manifestSha256": "9bd952db530f9a272d09314cd9d54def849af585811be185b99f5b59dc02176d",
+      "manifestUrl": "https://github.com/XCNXNXNX/dsh-portable-tavern/blob/b1b319b60680f8d16acd3499775b57ded8096304/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-portable-tavern",
+      "origin": "npm",
+      "name": "dsh-portable-tavern",
+      "version": "0.4.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a6080b38d1458e32192f6ce535626581e0963c9ae52aab1ec23e94cf7b47913b"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XCNXNXNX/dsh-portable-tavern",
+    "commit": "b1b319b60680f8d16acd3499775b57ded8096304",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:01.489Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:15.499Z",
+  "contentReviewFlags": []
+}

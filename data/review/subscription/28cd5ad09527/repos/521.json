@@ -1,0 +1,72 @@
+{
+  "full_name": "huxint/dsh-team",
+  "originalPosition": 455,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-team"
+  ],
+  "manualNote": null,
+  "ordinal": 521,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:47.503Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6efe5cbcec074fead3bc8e9324b7e55f88696e5b3fe1a955dc37551d5bd0d84d",
+      "url": "https://github.com/huxint/dsh-team/blob/3ac69851af687cda1b6315bbfb12c92cb0537703/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-team",
+          "command": "dsh plugin --profile web add dsh-team",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-team",
+      "version": "0.2.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huxint/dsh-team",
+        "commit": "3ac69851af687cda1b6315bbfb12c92cb0537703"
+      },
+      "manifestSha256": "7619ef6a45758802e18b200cb05ebde48c4d298611eebf23de38ade2799f2c42",
+      "manifestUrl": "https://github.com/huxint/dsh-team/blob/3ac69851af687cda1b6315bbfb12c92cb0537703/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-team",
+      "origin": "npm",
+      "name": "dsh-team",
+      "version": "0.2.11",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "405cafc4c824e99d935c2bc21d70eaeaca149726055e19a3f1e582599a1f8a10"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huxint/dsh-team",
+    "commit": "3ac69851af687cda1b6315bbfb12c92cb0537703",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:55.689Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:30.710Z",
+  "contentReviewFlags": []
+}

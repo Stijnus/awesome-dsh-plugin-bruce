@@ -1,0 +1,73 @@
+{
+  "full_name": "wxkingstar/SpecFusion",
+  "originalPosition": 488,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@wxkingstar/specfusion-dsh"
+  ],
+  "manualNote": null,
+  "ordinal": 543,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:25.571Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "24e6c73dfad9324ac27d4c7f4056b4e2f17d5898cf8946044e764d6b497c6abd",
+      "url": "https://github.com/wxkingstar/SpecFusion/blob/54ff77ae5411f1a566df8e1be12ebbebf377bfcc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wxkingstar/specfusion-dsh",
+          "command": "dsh plugin --profile web add @wxkingstar/specfusion-dsh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@wxkingstar/specfusion-dsh",
+      "version": "0.1.1",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wxkingstar/SpecFusion",
+        "commit": "54ff77ae5411f1a566df8e1be12ebbebf377bfcc",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "cbb3ea89d588282ab195ad7db5a1ec2f47eeb8c56ef2146ac7cdf86e2f8f5d43",
+      "manifestUrl": "https://github.com/wxkingstar/SpecFusion/blob/54ff77ae5411f1a566df8e1be12ebbebf377bfcc/dsh-plugin/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@wxkingstar/specfusion-dsh",
+      "origin": "npm",
+      "name": "@wxkingstar/specfusion-dsh",
+      "version": "0.1.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "2fd14026ee7389cd33e774b83ccbfd866b043ec958c780635883b7ed548b099f"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wxkingstar/SpecFusion",
+    "commit": "54ff77ae5411f1a566df8e1be12ebbebf377bfcc",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:37.969Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.723Z",
+  "contentReviewFlags": []
+}

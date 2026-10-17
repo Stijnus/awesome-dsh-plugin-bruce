@@ -1,0 +1,314 @@
+{
+  "full_name": "PerryLink/dsh-auto-review",
+  "originalPosition": 11,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-auto-review#main",
+    "dsh-auto-review"
+  ],
+  "manualNote": null,
+  "ordinal": 193,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:10.822Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9966d981f844b7060e6e7f1aebdaf4bca997205bca03ca0e6d7a044ebd3795ff",
+      "url": "https://github.com/PerryLink/dsh-auto-review/blob/a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-auto-review",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-auto-review",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auto-review",
+          "command": "dsh plugin --profile web add dsh-auto-review",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-auto-review/blob/a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020/README-zh.md",
+      "sha256": "3e18942bdde7d5b84a46c6ccd961fa38bbf7658b3ee13def451035a0d5a6c1b6",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-auto-review",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-auto-review",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auto-review",
+          "command": "dsh plugin --profile web add dsh-auto-review",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-auto-review/blob/a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020/README-es.md",
+      "sha256": "ba2c0618e10d6a38222a876c25a3e11cfa2fe5f518954671c09ad078a2d98384",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-auto-review",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-auto-review",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auto-review",
+          "command": "dsh plugin --profile web add dsh-auto-review",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-auto-review/blob/a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020/README-pt.md",
+      "sha256": "f7709d5d591aa66f4eb3fcb7fb0af901f79282cd60d1e62ea7ffd4d7b76f5869",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-auto-review",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-auto-review",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auto-review",
+          "command": "dsh plugin --profile web add dsh-auto-review",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-auto-review/blob/a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020/README-hi.md",
+      "sha256": "e88d8f1809f6540d212a2257cbe357401d108113151620c5542d40b0c727c085",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-auto-review",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-auto-review",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auto-review",
+          "command": "dsh plugin --profile web add dsh-auto-review",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-auto-review",
+      "version": "0.12.17",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-auto-review",
+        "commit": "a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020"
+      },
+      "manifestSha256": "25a99b494dc76f94f2e10038a13f9f2d63c18584fa94373487a2324470da53c4",
+      "manifestUrl": "https://github.com/PerryLink/dsh-auto-review/blob/a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-auto-review",
+        "versions": [
+          {
+            "version": "0.12.17",
+            "publishTimestamp": 1791812995,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-auto-review",
+              "commit": "a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-auto-review#main",
+      "origin": "git_target",
+      "name": "dsh-auto-review",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auto-review",
+        "title": "dsh-auto-review",
+        "description": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-auto-review"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "approval",
+            "auto-review",
+            "second-model",
+            "ai-safety",
+            "sandbox",
+            "subagent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.12.17",
+            "publishTimestamp": 1791812995,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-auto-review",
+              "commit": "a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020",
+          "name": "dsh-auto-review",
+          "version": "0.12.17",
+          "url": "https://github.com/PerryLink/dsh-auto-review",
+          "manifestSha256": "25a99b494dc76f94f2e10038a13f9f2d63c18584fa94373487a2324470da53c4",
+          "publishTimestamp": 1791812995
+        }
+      ]
+    },
+    {
+      "target": "dsh-auto-review",
+      "origin": "npm",
+      "name": "dsh-auto-review",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auto-review",
+        "title": "dsh-auto-review",
+        "description": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-auto-review"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "approval",
+            "auto-review",
+            "second-model",
+            "ai-safety",
+            "sandbox",
+            "subagent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.12.17",
+            "publishTimestamp": 1791605216,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c05693530518a20d8c38947bb035b2f0450758499883f82fae85f24b8e837a04",
+      "evidence": [
+        {
+          "name": "dsh-auto-review",
+          "version": "0.12.17",
+          "tarball": "https://registry.npmjs.org/dsh-auto-review/-/dsh-auto-review-0.12.17.tgz",
+          "integrity": "sha512-/qsXhFZ+zwqsTkgaGTQSg1wYY4eq4jjE7P1b9ckZJh3twEYcHRCEMhUsiADnMozYwoIHzx598N0hXawLcPjn2w=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-auto-review#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-auto-review",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-auto-review",
+    "commit": "a1ed031d8dd8bd1e3dd58a8e49a42f71d089f020",
+    "releaseTags": 38,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:05:27.605Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:55.745Z",
+  "coverageReviewedAt": "2026-10-17T17:12:09.266Z",
+  "contentReviewFlags": []
+}

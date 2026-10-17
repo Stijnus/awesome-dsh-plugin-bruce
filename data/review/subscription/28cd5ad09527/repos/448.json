@@ -1,0 +1,139 @@
+{
+  "full_name": "Hongcheng-LI/dsh-zotero",
+  "originalPosition": 355,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-zotero"
+  ],
+  "manualNote": null,
+  "ordinal": 448,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:36.061Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "65014b97edcbb119d07f4951a1a17d1fd199c16b05a4c016863187332570a07e",
+      "url": "https://github.com/Hongcheng-LI/dsh-zotero/blob/e4042d5139aa81d810b95928d63632f80a32a7ac/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Hongcheng-LI/dsh-zotero",
+          "command": "dsh plugin add github:Hongcheng-LI/dsh-zotero",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/Hongcheng-LI/dsh-zotero",
+          "command": "dsh plugin --profile web add github:Hongcheng-LI/dsh-zotero",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-zotero",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hongcheng-LI/dsh-zotero",
+        "commit": "e4042d5139aa81d810b95928d63632f80a32a7ac"
+      },
+      "manifestSha256": "7fd848d80dc7fe127f0e05f17ca3eb482cb16bb2eb90bbc9387932ff23462a82",
+      "manifestUrl": "https://github.com/Hongcheng-LI/dsh-zotero/blob/e4042d5139aa81d810b95928d63632f80a32a7ac/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-zotero",
+      "origin": "npm",
+      "name": "dsh-zotero",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-zotero",
+        "title": {
+          "en": "dsh-zotero",
+          "zh": "dsh-zotero"
+        },
+        "description": {
+          "en": "Let agents search, read, and cite your local Zotero library: find papers, browse notes and annotations, pull evidence by question, open the source document, generate citations.",
+          "zh": "让智能体搜索、阅读并引用本地 Zotero 知识库：检索论文、浏览笔记与批注、按问题提取证据片段、打开本地文献原文、生成多格式引文。"
+        },
+        "author": "Wenjie Xu",
+        "repository": {
+          "url": "https://github.com/Vncntvx/dsh-zotero"
+        },
+        "metadata": {
+          "keywords": [
+            "zotero",
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "research",
+            "literature"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.12.1",
+            "publishTimestamp": 1790883369,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5a3589026ef3fd8e46401c2263f027bb5ceebc2b2970331a2c6263eedd0378af",
+      "evidence": [
+        {
+          "name": "dsh-zotero",
+          "version": "0.12.1",
+          "tarball": "https://registry.npmjs.org/dsh-zotero/-/dsh-zotero-0.12.1.tgz",
+          "integrity": "sha512-RmUK8LWXUNHUG2i1zbLmCUNKf4F1Wee2fv7fgIJm1p+ak8h3BJA6A0+5xdTnmAIGtg9jOlGVFJKmWrkG4PUSvg=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-zotero",
+          "code": "metadata_warning",
+          "status": "warning",
+          "reason": "图标超过 32 KiB 内联上限，已省略"
+        }
+      ],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-zotero",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Hongcheng-LI/dsh-zotero",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hongcheng-LI/dsh-zotero",
+    "commit": "e4042d5139aa81d810b95928d63632f80a32a7ac",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:52.258Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:24.425Z",
+  "contentReviewFlags": []
+}

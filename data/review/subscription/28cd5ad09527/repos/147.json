@@ -1,0 +1,53 @@
+{
+  "full_name": "1052326311/dsh-plan-lattice",
+  "originalPosition": 574,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:35.537Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "34a2fa6c95c51c157a2eef1ac591d702baac5d6b6c743aeb12079f510704eb0e",
+      "url": "https://github.com/1052326311/dsh-plan-lattice/blob/ea4d4f7d726681466e86d11f93e4cc38a6c0d3f3/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plan-lattice",
+      "version": "0.4.0-rc.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1052326311/dsh-plan-lattice",
+        "commit": "ea4d4f7d726681466e86d11f93e4cc38a6c0d3f3"
+      },
+      "manifestSha256": "f903654f4c78dfae07c32ba956dbb583babaa71b3c67946f61f009aa86f87fc4",
+      "manifestUrl": "https://github.com/1052326311/dsh-plan-lattice/blob/ea4d4f7d726681466e86d11f93e4cc38a6c0d3f3/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1052326311/dsh-plan-lattice",
+    "commit": "ea4d4f7d726681466e86d11f93e4cc38a6c0d3f3",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:42.855Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.927Z",
+  "contentReviewFlags": []
+}

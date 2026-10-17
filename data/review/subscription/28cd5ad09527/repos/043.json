@@ -1,0 +1,105 @@
+{
+  "full_name": "shengsheng90/DSH-taskboard",
+  "originalPosition": 222,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 43,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:16.552Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a5bc8b7724bf384638f43e2de8b5f8b3bbc6519a8f2d7a468125fa67013641e8",
+      "url": "https://github.com/shengsheng90/DSH-taskboard/blob/84206452666390b9dcde7e2334dcf28c2e4cc9f0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@shengsheng/dsh-taskboard",
+          "command": "dsh plugin --profile web add -w @shengsheng/dsh-taskboard",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/shengsheng90/DSH-taskboard.git",
+          "command": "dsh plugin --profile web add -w git+https://github.com/shengsheng90/DSH-taskboard.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "209a227efb6e2a310430506e791ae32a61c78a269ae70c35c8a3a05a5d3ea4f3",
+      "url": "https://github.com/shengsheng90/DSH-taskboard/blob/84206452666390b9dcde7e2334dcf28c2e4cc9f0/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@shengsheng/dsh-taskboard",
+          "command": "dsh plugin --profile web add -w @shengsheng/dsh-taskboard",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/shengsheng90/DSH-taskboard.git",
+          "command": "dsh plugin --profile web add -w git+https://github.com/shengsheng90/DSH-taskboard.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@shengsheng/dsh-taskboard",
+      "version": "0.1.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shengsheng90/DSH-taskboard",
+        "commit": "84206452666390b9dcde7e2334dcf28c2e4cc9f0"
+      },
+      "manifestSha256": "894f201fd5fae51eba014e752c0fad9de1c16a6913e8fdf46cc5904200f88199",
+      "manifestUrl": "https://github.com/shengsheng90/DSH-taskboard/blob/84206452666390b9dcde7e2334dcf28c2e4cc9f0/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@shengsheng/dsh-taskboard",
+      "origin": "npm",
+      "name": "@shengsheng/dsh-taskboard",
+      "version": "0.1.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "70238f654c49054892cf65ce03293d5548144d664be0cc660d1850bf25f42e76"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@shengsheng/dsh-taskboard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/shengsheng90/DSH-taskboard.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shengsheng90/DSH-taskboard",
+    "commit": "84206452666390b9dcde7e2334dcf28c2e4cc9f0",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:26.662Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:04.194Z",
+  "contentReviewFlags": []
+}

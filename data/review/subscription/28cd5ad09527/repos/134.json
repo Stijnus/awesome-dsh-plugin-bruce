@@ -1,0 +1,105 @@
+{
+  "full_name": "weekitmo/oh-my-dsh-plugins",
+  "originalPosition": 549,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:07.787Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dcd3fb02825e59a957feb366c1b395d312139938a411bef1bd925cc28049d8cc",
+      "url": "https://github.com/weekitmo/oh-my-dsh-plugins/blob/3fbf6d1b7afeac8f2ac5c23086c87234b1007e6d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@weekit/dsh-delegate-agent",
+      "version": "0.2.0",
+      "path": "plugins/dsh-delegate-agent",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weekitmo/oh-my-dsh-plugins",
+        "commit": "3fbf6d1b7afeac8f2ac5c23086c87234b1007e6d",
+        "path": "plugins/dsh-delegate-agent"
+      },
+      "manifestSha256": "3947cdb6fbaf53a3452bf2adaca0a028940d22ca31df1f338c2f9e582820f7fb",
+      "manifestUrl": "https://github.com/weekitmo/oh-my-dsh-plugins/blob/3fbf6d1b7afeac8f2ac5c23086c87234b1007e6d/plugins/dsh-delegate-agent/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@weekit/dsh-keybinding",
+      "version": "0.1.1",
+      "path": "plugins/dsh-keybinding",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weekitmo/oh-my-dsh-plugins",
+        "commit": "3fbf6d1b7afeac8f2ac5c23086c87234b1007e6d",
+        "path": "plugins/dsh-keybinding"
+      },
+      "manifestSha256": "ba5edf1096471299974498f18dfdcae3a9d59856cf62e604448935be45242ed8",
+      "manifestUrl": "https://github.com/weekitmo/oh-my-dsh-plugins/blob/3fbf6d1b7afeac8f2ac5c23086c87234b1007e6d/plugins/dsh-keybinding/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@weekit/dsh-notify",
+      "version": "0.5.0",
+      "path": "plugins/dsh-notify",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weekitmo/oh-my-dsh-plugins",
+        "commit": "3fbf6d1b7afeac8f2ac5c23086c87234b1007e6d",
+        "path": "plugins/dsh-notify"
+      },
+      "manifestSha256": "80659b7e997ccb52b29d5a1f97c0a785bb92c5f4cb80201509379c6c84b70464",
+      "manifestUrl": "https://github.com/weekitmo/oh-my-dsh-plugins/blob/3fbf6d1b7afeac8f2ac5c23086c87234b1007e6d/plugins/dsh-notify/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@weekit/dsh-trace",
+      "version": "0.2.0",
+      "path": "plugins/dsh-trace",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weekitmo/oh-my-dsh-plugins",
+        "commit": "3fbf6d1b7afeac8f2ac5c23086c87234b1007e6d",
+        "path": "plugins/dsh-trace"
+      },
+      "manifestSha256": "d3362b55d232f8943247fbf32c7f237adbe69171d8bcc917e29e93d5538c6bc5",
+      "manifestUrl": "https://github.com/weekitmo/oh-my-dsh-plugins/blob/3fbf6d1b7afeac8f2ac5c23086c87234b1007e6d/plugins/dsh-trace/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/weekitmo/oh-my-dsh-plugins",
+    "commit": "3fbf6d1b7afeac8f2ac5c23086c87234b1007e6d",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:22.686Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.679Z",
+  "contentReviewFlags": []
+}

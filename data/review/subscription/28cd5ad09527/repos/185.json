@@ -1,0 +1,258 @@
+{
+  "full_name": "smilewhenever777/dsh-scholar",
+  "originalPosition": 507,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-scholar-desk",
+    "dsh-server-dashboard",
+    "dsh-trajectory"
+  ],
+  "manualNote": null,
+  "ordinal": 185,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:55.385Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "49de65a409e5cfb4070a3ce1670b97d81a870698e2014500df4c54bf6a9e3510",
+      "url": "https://github.com/smilewhenever777/dsh-scholar/blob/38501bb4e878c9312faea00e214f1c5d485c45d5/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-scholar-desk",
+          "command": "dsh plugin --profile web add dsh-scholar-desk",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-server-dashboard",
+          "command": "dsh plugin --profile web add dsh-server-dashboard",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-trajectory",
+          "command": "dsh plugin --profile web add dsh-trajectory",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-scholar/README.md",
+      "url": "https://github.com/smilewhenever777/dsh-scholar/blob/38501bb4e878c9312faea00e214f1c5d485c45d5/dsh-scholar/README.md",
+      "sha256": "956c037a53771a2916c16fb5a18de2a26154f8c9297f9f01d93315d14719ed61",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-scholar-desk",
+          "command": "dsh plugin --profile web add dsh-scholar-desk",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-server-dashboard/README.md",
+      "url": "https://github.com/smilewhenever777/dsh-scholar/blob/38501bb4e878c9312faea00e214f1c5d485c45d5/dsh-server-dashboard/README.md",
+      "sha256": "46f6617edea95dd2df4f02d52fb1b12c131a3256cfebf877ab1167b0c07f9378",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-server-dashboard",
+          "command": "dsh plugin --profile web add dsh-server-dashboard",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-trajectory/README.md",
+      "url": "https://github.com/smilewhenever777/dsh-scholar/blob/38501bb4e878c9312faea00e214f1c5d485c45d5/dsh-trajectory/README.md",
+      "sha256": "170c70cea7a70f872e412ba4ec4832ab87069c4e6422b945738ebce2a05d61c1",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-trajectory",
+          "command": "dsh plugin --profile web add dsh-trajectory",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "tests/README.md",
+      "url": "https://github.com/smilewhenever777/dsh-scholar/blob/38501bb4e878c9312faea00e214f1c5d485c45d5/tests/README.md",
+      "sha256": "8424a44a0cb8f8ca24533c10d618f8965d5b2f973a8874c06e0de7e03128df06",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dispatch",
+      "version": "0.10.0",
+      "path": "dsh-dispatch",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/smilewhenever777/dsh-scholar",
+        "commit": "38501bb4e878c9312faea00e214f1c5d485c45d5",
+        "path": "dsh-dispatch"
+      },
+      "manifestSha256": "58346b0eb1bc63f1fbe626626c810760705f441fb086f0425439b50630fdaf62",
+      "manifestUrl": "https://github.com/smilewhenever777/dsh-scholar/blob/38501bb4e878c9312faea00e214f1c5d485c45d5/dsh-dispatch/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-scholar-desk",
+      "version": "0.3.0",
+      "path": "dsh-scholar",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/smilewhenever777/dsh-scholar",
+        "commit": "38501bb4e878c9312faea00e214f1c5d485c45d5",
+        "path": "dsh-scholar"
+      },
+      "manifestSha256": "34c5e162ccfb5962b6620ca6abd412b59a2c3fa950ef1a9d3f3a6e1665087d7d",
+      "manifestUrl": "https://github.com/smilewhenever777/dsh-scholar/blob/38501bb4e878c9312faea00e214f1c5d485c45d5/dsh-scholar/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-server-dashboard",
+      "version": "0.3.0",
+      "path": "dsh-server-dashboard",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/smilewhenever777/dsh-scholar",
+        "commit": "38501bb4e878c9312faea00e214f1c5d485c45d5",
+        "path": "dsh-server-dashboard"
+      },
+      "manifestSha256": "3996f54110117f1e41eec43e577d8f8a4164379c123ee9a503090d6784b50a4c",
+      "manifestUrl": "https://github.com/smilewhenever777/dsh-scholar/blob/38501bb4e878c9312faea00e214f1c5d485c45d5/dsh-server-dashboard/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-trajectory",
+      "version": "0.3.0",
+      "path": "dsh-trajectory",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/smilewhenever777/dsh-scholar",
+        "commit": "38501bb4e878c9312faea00e214f1c5d485c45d5",
+        "path": "dsh-trajectory"
+      },
+      "manifestSha256": "48dd9b8c7232031a989cb9ab8e32ad70974393f506a2ea3a9df57de15f314a71",
+      "manifestUrl": "https://github.com/smilewhenever777/dsh-scholar/blob/38501bb4e878c9312faea00e214f1c5d485c45d5/dsh-trajectory/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-scholar-desk",
+      "origin": "npm",
+      "name": "dsh-scholar-desk",
+      "version": "0.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3c9060a181a339f608944cbc25e57704a8204cdfae5b6e61bfe04a7c17898095"
+    },
+    {
+      "target": "dsh-server-dashboard",
+      "origin": "npm",
+      "name": "dsh-server-dashboard",
+      "version": null,
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "91fc601c907216726f4b23ee037e93d4694c7b2eb4eaabfe16714039b5097be8"
+    },
+    {
+      "target": "dsh-trajectory",
+      "origin": "npm",
+      "name": "dsh-trajectory",
+      "version": null,
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "4ac1ae74b460b445973e1e5a168456bac4c8d47ff64f3f2e8e297a99513f78cc"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-scholar-desk",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-server-dashboard",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-trajectory",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/smilewhenever777/dsh-scholar",
+    "commit": "38501bb4e878c9312faea00e214f1c5d485c45d5",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:11.007Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "dsh-scholar/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-server-dashboard/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-trajectory/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "tests/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-scholar/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-server-dashboard/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-trajectory/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "tests/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:54.551Z",
+  "coverageReviewedAt": "2026-10-17T17:12:08.371Z",
+  "contentReviewFlags": []
+}

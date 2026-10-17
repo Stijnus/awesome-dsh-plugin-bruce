@@ -1,0 +1,72 @@
+{
+  "full_name": "YYTbit/oh-my-deepseek-harness",
+  "originalPosition": 444,
+  "inputMode": "command",
+  "mappedTargets": [
+    "oh-my-deepseek-harness"
+  ],
+  "manualNote": null,
+  "ordinal": 515,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:35.692Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "51894e2122637b60a1254413cd1e5d73a152fdfc6c30176ee70d8c782cbd4d8c",
+      "url": "https://github.com/YYTbit/oh-my-deepseek-harness/blob/1b2da9a3c3dd02475721e8fcdd5b44712e730201/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "oh-my-deepseek-harness",
+          "command": "dsh plugin --profile your-profile add oh-my-deepseek-harness",
+          "profile": "your-profile"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "oh-my-deepseek-harness",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YYTbit/oh-my-deepseek-harness",
+        "commit": "1b2da9a3c3dd02475721e8fcdd5b44712e730201"
+      },
+      "manifestSha256": "5aee33d7b0f5d3f0a82068c7c15f492770c46273d35cb2ff783550fe836ba30b",
+      "manifestUrl": "https://github.com/YYTbit/oh-my-deepseek-harness/blob/1b2da9a3c3dd02475721e8fcdd5b44712e730201/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "oh-my-deepseek-harness",
+      "origin": "npm",
+      "name": "oh-my-deepseek-harness",
+      "version": "0.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "688b01376072db05b4de50434e612c32cd8c2a4437cdb30021cd20b9733f91c6"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YYTbit/oh-my-deepseek-harness",
+    "commit": "1b2da9a3c3dd02475721e8fcdd5b44712e730201",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:43.888Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:30.044Z",
+  "contentReviewFlags": []
+}

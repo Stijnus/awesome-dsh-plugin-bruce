@@ -1,0 +1,71 @@
+{
+  "full_name": "slywalker2006/dsh-passwords",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 22,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:34.842Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1700385b97892faefa302ca8ddadf349ec2a7d85bd032bec0de1f9702122524a",
+      "url": "https://github.com/slywalker2006/dsh-passwords/blob/3219789be4870e2888df9ef879448d442b87662d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_en.md",
+      "url": "https://github.com/slywalker2006/dsh-passwords/blob/3219789be4870e2888df9ef879448d442b87662d/README_en.md",
+      "sha256": "db997f6a46c6438a51fcdee8b66a2f5ce96ddedcac923b9fcc4959cd1397157b",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-passwords",
+      "version": "2.7.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/slywalker2006/dsh-passwords",
+        "commit": "3219789be4870e2888df9ef879448d442b87662d"
+      },
+      "manifestSha256": "980d5f3f265d3778f7e9c98f5dcaf35dbfc68c5536ef01f8ea1959bccef9e3ef",
+      "manifestUrl": "https://github.com/slywalker2006/dsh-passwords/blob/3219789be4870e2888df9ef879448d442b87662d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/slywalker2006/dsh-passwords",
+    "commit": "3219789be4870e2888df9ef879448d442b87662d",
+    "releaseTags": 44,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:43.143Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README_en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README_en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:48.405Z",
+  "coverageReviewedAt": "2026-10-17T17:12:03.710Z",
+  "contentReviewFlags": []
+}

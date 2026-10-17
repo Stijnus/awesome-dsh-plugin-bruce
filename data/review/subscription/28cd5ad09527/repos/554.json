@@ -1,0 +1,78 @@
+{
+  "full_name": "x2802490130-prog/dsh-balance-float",
+  "originalPosition": 510,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-balance-float",
+    "https://github.com/x2802490130-prog/dsh-balance-float"
+  ],
+  "manualNote": null,
+  "ordinal": 554,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:44.611Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c7892d7dc66283ba8a631f7b5c6767c620507210574bf1be6803983bb7d33f41",
+      "url": "https://github.com/x2802490130-prog/dsh-balance-float/blob/14311f51e81b5b1fef335705d4e56c788d091979/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-balance-float",
+          "command": "dsh plugin --profile web add dsh-balance-float",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/x2802490130-prog/dsh-balance-float",
+          "command": "dsh plugin --profile web add github:x2802490130-prog/dsh-balance-float",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-balance-float",
+      "version": "1.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/x2802490130-prog/dsh-balance-float",
+        "commit": "14311f51e81b5b1fef335705d4e56c788d091979"
+      },
+      "manifestSha256": "94e8a3a3402f2c0934a4904f5abf4dc24b40f47962d77640d830d64342f5edf5",
+      "manifestUrl": "https://github.com/x2802490130-prog/dsh-balance-float/blob/14311f51e81b5b1fef335705d4e56c788d091979/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-balance-float",
+      "origin": "npm",
+      "name": "dsh-balance-float",
+      "version": "1.0.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f85b4e5c2d245e62cf220d21e151b5076fb7f5e5280a6f55944848675b0fa3c2"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/x2802490130-prog/dsh-balance-float",
+    "commit": "14311f51e81b5b1fef335705d4e56c788d091979",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:52.553Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.749Z",
+  "contentReviewFlags": []
+}

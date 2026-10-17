@@ -1,0 +1,206 @@
+{
+  "full_name": "Contexera/dsh-agent-team",
+  "originalPosition": 167,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@contexera/dsh-agent-team@0.2.2"
+  ],
+  "manualNote": null,
+  "ordinal": 319,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:24.680Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fd4052cda70ab30e569da49283d632db24c1aa91bb8047789d954b2cd45a4f63",
+      "url": "https://github.com/Contexera/dsh-agent-team/blob/b799255673bcd73a4855c73169dbe4914e5dce93/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@contexera/dsh-agent-team@0.2.4",
+          "command": "dsh plugin --profile web add @contexera/dsh-agent-team@0.2.4",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d522bcce5ea3f35b36cefc96ea5f022bcddafecf56784e95e131adfb9d80e8ee",
+      "url": "https://github.com/Contexera/dsh-agent-team/blob/b799255673bcd73a4855c73169dbe4914e5dce93/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@contexera/dsh-agent-team@0.2.4",
+          "command": "dsh plugin --profile web add @contexera/dsh-agent-team@0.2.4",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/Contexera/dsh-agent-team/blob/b799255673bcd73a4855c73169dbe4914e5dce93/docs/README.md",
+      "sha256": "c87b3c7b53bdbc93e10eb55c22ad2cf145d0b06aa7b76b367b8cd4179bdd51cc",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "url": "https://github.com/Contexera/dsh-agent-team/blob/b799255673bcd73a4855c73169dbe4914e5dce93/docs/architecture/README.md",
+      "sha256": "264d180503e3f0042f12d1a1c9298e345159539d55a9aa2b03c3b6caed7ebe77",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/team-collaboration/README.md",
+      "url": "https://github.com/Contexera/dsh-agent-team/blob/b799255673bcd73a4855c73169dbe4914e5dce93/docs/team-collaboration/README.md",
+      "sha256": "8d193464885d412bbf9924ff9152626cdced7a0e3256944c5606df75a3ad7970",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.zh.md",
+      "url": "https://github.com/Contexera/dsh-agent-team/blob/b799255673bcd73a4855c73169dbe4914e5dce93/docs/README.zh.md",
+      "sha256": "fbccd475c65bce2d28e76708a52468ead8e59f906257d2fdf8d6595e7f55b931",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/architecture/README.zh.md",
+      "url": "https://github.com/Contexera/dsh-agent-team/blob/b799255673bcd73a4855c73169dbe4914e5dce93/docs/architecture/README.zh.md",
+      "sha256": "15a9d5cd9d8e47a9bd7af0db03fc19666c8b806cec318866357e60168a10ac03",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/team-collaboration/README.zh.md",
+      "url": "https://github.com/Contexera/dsh-agent-team/blob/b799255673bcd73a4855c73169dbe4914e5dce93/docs/team-collaboration/README.zh.md",
+      "sha256": "8758442115debd2ccf50a0c6adc5512fd91600482984e548cc2c9f2479673504",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@contexera/dsh-agent-team",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Contexera/dsh-agent-team",
+        "commit": "b799255673bcd73a4855c73169dbe4914e5dce93"
+      },
+      "manifestSha256": "93d929fbe9cc88571d16c74284bd60ec9a0026017863c7857321c445345948e4",
+      "manifestUrl": "https://github.com/Contexera/dsh-agent-team/blob/b799255673bcd73a4855c73169dbe4914e5dce93/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@contexera/dsh-agent-team@0.2.2",
+      "origin": "npm",
+      "name": "@contexera/dsh-agent-team",
+      "version": "0.2.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "652df1a1ebab3d3fe015730d6e28d471e6f5f643b412cc098fbd0466ad2b9baf"
+    },
+    {
+      "target": "@contexera/dsh-agent-team@0.2.4",
+      "origin": "npm",
+      "name": "@contexera/dsh-agent-team",
+      "version": "0.2.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "652df1a1ebab3d3fe015730d6e28d471e6f5f643b412cc098fbd0466ad2b9baf"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@contexera/dsh-agent-team@0.2.2",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@contexera/dsh-agent-team@0.2.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Contexera/dsh-agent-team",
+    "commit": "b799255673bcd73a4855c73169dbe4914e5dce93",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:36.345Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/team-collaboration/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/architecture/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/team-collaboration/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/team-collaboration/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/architecture/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/team-collaboration/README.zh.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:03.653Z",
+  "coverageReviewedAt": "2026-10-17T17:12:16.125Z",
+  "contentReviewFlags": []
+}

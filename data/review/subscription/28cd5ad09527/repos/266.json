@@ -1,0 +1,96 @@
+{
+  "full_name": "Nagi-ovo/dsh-ads",
+  "originalPosition": 102,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@nagi-ovo/dsh-ads",
+    "https://github.com/Nagi-ovo/dsh-ads"
+  ],
+  "manualNote": null,
+  "ordinal": 266,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:17.818Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "46a9b65cce4d2dfb9abccd633b6bbd70cc7bddb2b3f1f9a2a023c2d5931df5d6",
+      "url": "https://github.com/Nagi-ovo/dsh-ads/blob/1aabe11d712bfd28aa889998bff783b5050340e2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nagi-ovo/dsh-ads",
+          "command": "dsh plugin --profile web add @nagi-ovo/dsh-ads",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Nagi-ovo/dsh-ads",
+          "command": "dsh plugin --profile web add github:Nagi-ovo/dsh-ads",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "contrib/README.md",
+      "url": "https://github.com/Nagi-ovo/dsh-ads/blob/1aabe11d712bfd28aa889998bff783b5050340e2/contrib/README.md",
+      "sha256": "c5990f1b2d0442e29d9e9c1cb7a8cde6c198255e94affad8ce24aa61e02a69dd",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@nagi-ovo/dsh-ads",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nagi-ovo/dsh-ads",
+        "commit": "1aabe11d712bfd28aa889998bff783b5050340e2"
+      },
+      "manifestSha256": "32e5dd584d3999269ab988616983257e2ff45c3e7948b1471315315efaff77d7",
+      "manifestUrl": "https://github.com/Nagi-ovo/dsh-ads/blob/1aabe11d712bfd28aa889998bff783b5050340e2/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@nagi-ovo/dsh-ads",
+      "origin": "npm",
+      "name": "@nagi-ovo/dsh-ads",
+      "version": "0.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "cdb18396461906a76b94121fa068c7ba4a8c9415237daa3fcf4727b8ab33d054"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nagi-ovo/dsh-ads",
+    "commit": "1aabe11d712bfd28aa889998bff783b5050340e2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:26.496Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "contrib/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "contrib/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:58.186Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.359Z",
+  "contentReviewFlags": []
+}

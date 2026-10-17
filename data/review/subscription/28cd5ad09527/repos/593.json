@@ -1,0 +1,312 @@
+{
+  "full_name": "PerryLink/dsh-doublecheck",
+  "originalPosition": 588,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-doublecheck#main",
+    "dsh-doublecheck"
+  ],
+  "manualNote": null,
+  "ordinal": 593,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:55.980Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c5d823302e6d8b3362434fd21f3d3c99c3387773619af116cb90e9a620a7be42",
+      "url": "https://github.com/PerryLink/dsh-doublecheck/blob/ff9f83ed46b703ab4f9f97cbd7de878bd87026f7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-doublecheck",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-doublecheck",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-doublecheck",
+          "command": "dsh plugin --profile web add dsh-doublecheck",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-doublecheck/blob/ff9f83ed46b703ab4f9f97cbd7de878bd87026f7/README-zh.md",
+      "sha256": "1f38ca1a10f8c4bcbc206097cab10fa3283e9f2cb11bd16693b74d49cb91d2e6",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-doublecheck",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-doublecheck",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-doublecheck",
+          "command": "dsh plugin --profile web add dsh-doublecheck",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-doublecheck/blob/ff9f83ed46b703ab4f9f97cbd7de878bd87026f7/README-es.md",
+      "sha256": "1e5fd94584f1d1435e667cf525b3adea393a958de3aa96e79fc889f1a3d93828",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-doublecheck",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-doublecheck",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-doublecheck",
+          "command": "dsh plugin --profile web add dsh-doublecheck",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-doublecheck/blob/ff9f83ed46b703ab4f9f97cbd7de878bd87026f7/README-pt.md",
+      "sha256": "01a1edaabe4c64ba53230e9145ce5d14f52f71a09e81d7c907fb56f3c9553198",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-doublecheck",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-doublecheck",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-doublecheck",
+          "command": "dsh plugin --profile web add dsh-doublecheck",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-doublecheck/blob/ff9f83ed46b703ab4f9f97cbd7de878bd87026f7/README-hi.md",
+      "sha256": "0f5bddd3fa9b6fa5be00f5683cca7faf0a3a2524e183533db3d665c18ee8eca1",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-doublecheck",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-doublecheck",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-doublecheck",
+          "command": "dsh plugin --profile web add dsh-doublecheck",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-doublecheck",
+      "version": "0.9.24",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-doublecheck",
+        "commit": "ff9f83ed46b703ab4f9f97cbd7de878bd87026f7"
+      },
+      "manifestSha256": "d3baaa53e785da0b18022f4eeb5ec507a0362bbd3a3d6d372cadac6fbc856dc0",
+      "manifestUrl": "https://github.com/PerryLink/dsh-doublecheck/blob/ff9f83ed46b703ab4f9f97cbd7de878bd87026f7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-doublecheck",
+        "versions": [
+          {
+            "version": "0.9.24",
+            "publishTimestamp": 1791812998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-doublecheck",
+              "commit": "ff9f83ed46b703ab4f9f97cbd7de878bd87026f7"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-doublecheck#main",
+      "origin": "git_target",
+      "name": "dsh-doublecheck",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-doublecheck",
+        "title": "dsh-doublecheck",
+        "description": "Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-doublecheck"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "engineering-discipline",
+            "requirements",
+            "guard",
+            "skill",
+            "quality-gate",
+            "delivery-gate"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.9.24",
+            "publishTimestamp": 1791812998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-doublecheck",
+              "commit": "ff9f83ed46b703ab4f9f97cbd7de878bd87026f7"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "ff9f83ed46b703ab4f9f97cbd7de878bd87026f7",
+          "name": "dsh-doublecheck",
+          "version": "0.9.24",
+          "url": "https://github.com/PerryLink/dsh-doublecheck",
+          "manifestSha256": "d3baaa53e785da0b18022f4eeb5ec507a0362bbd3a3d6d372cadac6fbc856dc0",
+          "publishTimestamp": 1791812998
+        }
+      ]
+    },
+    {
+      "target": "dsh-doublecheck",
+      "origin": "npm",
+      "name": "dsh-doublecheck",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-doublecheck",
+        "title": "dsh-doublecheck",
+        "description": "Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-doublecheck"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "engineering-discipline",
+            "requirements",
+            "guard",
+            "skill",
+            "quality-gate",
+            "delivery-gate"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.9.24",
+            "publishTimestamp": 1791594043,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ee5a9a6afcd0b6a2ae90f17815211e81e4b49f7ecf43dd96cf52f58ccdbecadf",
+      "evidence": [
+        {
+          "name": "dsh-doublecheck",
+          "version": "0.9.24",
+          "tarball": "https://registry.npmjs.org/dsh-doublecheck/-/dsh-doublecheck-0.9.24.tgz",
+          "integrity": "sha512-N7amcZuyGX/0M7IQ1tdLAGbdClFvMvUjMHmX0FdTTvamShCi+JolcCsFxb8OAE7XBnT42j5rbsmFTIDWc3Bw5Q=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-doublecheck#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-doublecheck",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-doublecheck",
+    "commit": "ff9f83ed46b703ab4f9f97cbd7de878bd87026f7",
+    "releaseTags": 33,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:06:12.160Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:17.759Z",
+  "coverageReviewedAt": "2026-10-17T17:12:34.225Z",
+  "contentReviewFlags": []
+}

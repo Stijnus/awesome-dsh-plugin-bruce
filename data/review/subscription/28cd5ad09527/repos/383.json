@@ -1,0 +1,109 @@
+{
+  "full_name": "lcgash/dsh-plugin-uw",
+  "originalPosition": 260,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/lcgash/dsh-plugin-uw"
+  ],
+  "manualNote": null,
+  "ordinal": 383,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:07.737Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8fc5f4d33cbed1fa7bf7ef9d7c1b8de667f8a0cc41bc716a05818fda1aaad6f5",
+      "url": "https://github.com/lcgash/dsh-plugin-uw/blob/0508c23f28dea94e8af629a16be337152ca70ad3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lcgash/dsh-plugin-uw",
+          "command": "dsh plugin add github:lcgash/dsh-plugin-uw",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-union-workspace",
+          "command": "dsh plugin --profile <name> add dsh-union-workspace",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/lcgash/dsh-plugin-uw/blob/0508c23f28dea94e8af629a16be337152ca70ad3/README.en.md",
+      "sha256": "f6d12c85d9afc7476a87a5054729e025fdc7247cdcb12f789a5427accc84773b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lcgash/dsh-plugin-uw",
+          "command": "dsh plugin add github:lcgash/dsh-plugin-uw",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-union-workspace",
+          "command": "dsh plugin --profile <name> add dsh-union-workspace",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-union-workspace",
+      "version": "0.6.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lcgash/dsh-plugin-uw",
+        "commit": "0508c23f28dea94e8af629a16be337152ca70ad3"
+      },
+      "manifestSha256": "df955e83e6e24fce42de7b33f96a04e33e586b80a10ec224e040d3990ab144ba",
+      "manifestUrl": "https://github.com/lcgash/dsh-plugin-uw/blob/0508c23f28dea94e8af629a16be337152ca70ad3/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-union-workspace",
+      "version": "0.6.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-union-workspace",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lcgash/dsh-plugin-uw",
+    "commit": "0508c23f28dea94e8af629a16be337152ca70ad3",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:16.015Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:06.750Z",
+  "coverageReviewedAt": "2026-10-17T17:12:20.214Z",
+  "contentReviewFlags": []
+}

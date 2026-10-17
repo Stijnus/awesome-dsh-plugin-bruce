@@ -1,0 +1,90 @@
+{
+  "full_name": "hanxuanliang/dsh-chaos",
+  "originalPosition": 454,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@hanxuanliang/dsh-chaos@0.1.2"
+  ],
+  "manualNote": null,
+  "ordinal": 520,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:43.888Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fa808bc8542339b9ce0b1f93ab189193ce31714bdb6d709c173ad80e4af1c5e9",
+      "url": "https://github.com/hanxuanliang/dsh-chaos/blob/d439bf9f47e2436c408e896ebb7fbad025faf791/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@hanxuanliang/dsh-chaos@0.1.2",
+          "command": "dsh plugin --profile web add @hanxuanliang/dsh-chaos@0.1.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/hanxuanliang/dsh-chaos/blob/d439bf9f47e2436c408e896ebb7fbad025faf791/docs/README.md",
+      "sha256": "8d6748da7bcc26af58e457315262649580b5acffa285e5efda653296fe47bdc3",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@hanxuanliang/dsh-chaos",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hanxuanliang/dsh-chaos",
+        "commit": "d439bf9f47e2436c408e896ebb7fbad025faf791"
+      },
+      "manifestSha256": "7e62fac52c113fc5871b8dadcde4ae92d4c1f34c2412232f8dc878a179143d93",
+      "manifestUrl": "https://github.com/hanxuanliang/dsh-chaos/blob/d439bf9f47e2436c408e896ebb7fbad025faf791/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@hanxuanliang/dsh-chaos@0.1.2",
+      "origin": "npm",
+      "name": "@hanxuanliang/dsh-chaos",
+      "version": "0.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f27d17cb2d03fcbd5fd36b225f01e78377c691ea7c5575b34c25455d8c9237fc"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hanxuanliang/dsh-chaos",
+    "commit": "d439bf9f47e2436c408e896ebb7fbad025faf791",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:52.696Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:12.519Z",
+  "coverageReviewedAt": "2026-10-17T17:12:30.720Z",
+  "contentReviewFlags": []
+}

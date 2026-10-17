@@ -1,0 +1,110 @@
+{
+  "full_name": "IceApriler/dsh-remote-mobile",
+  "originalPosition": 275,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-remote-mobile"
+  ],
+  "manualNote": null,
+  "ordinal": 390,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:17.923Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c2064b0894645f1c4b2f68214113197100feda7503ef94123d4f8c64e8cddcea",
+      "url": "https://github.com/IceApriler/dsh-remote-mobile/blob/9f03161c1865acb67729da0bcf67019e8ef97821/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote-mobile",
+          "command": "dsh plugin --profile web add dsh-remote-mobile",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-remote-mobile@latest",
+          "command": "dsh plugin --profile web add dsh-remote-mobile@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "3bd37c93450191dfe21f301e31dd83b3fbbd7562312cc8a2b33ec3da6b996031",
+      "url": "https://github.com/IceApriler/dsh-remote-mobile/blob/9f03161c1865acb67729da0bcf67019e8ef97821/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote-mobile",
+          "command": "dsh plugin --profile web add dsh-remote-mobile",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-remote-mobile@latest",
+          "command": "dsh plugin --profile web add dsh-remote-mobile@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote-mobile",
+      "version": "1.9.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/IceApriler/dsh-remote-mobile",
+        "commit": "9f03161c1865acb67729da0bcf67019e8ef97821"
+      },
+      "manifestSha256": "a7a91cb34909e72770e13f10a862841f70cd4ecaa7232f46be6cd02bc1dc1846",
+      "manifestUrl": "https://github.com/IceApriler/dsh-remote-mobile/blob/9f03161c1865acb67729da0bcf67019e8ef97821/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-remote-mobile",
+      "origin": "npm",
+      "name": "dsh-remote-mobile",
+      "version": "1.9.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "74bfeb6e2f631eebccf34e6e49d48c2c0cec7251f05e7df8ca4d973cf967776d"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-remote-mobile",
+      "version": "1.9.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-remote-mobile@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/IceApriler/dsh-remote-mobile",
+    "commit": "9f03161c1865acb67729da0bcf67019e8ef97821",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:26.874Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.409Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,118 @@
+{
+  "full_name": "franksong2702/dsh-codex-connect",
+  "originalPosition": 133,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-codex-connect@0.1.0-alpha.4.52"
+  ],
+  "manualNote": null,
+  "ordinal": 291,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:17.046Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "55395eee47a19d6f521200330051dc03c3e890d0b817995aa50efe56600bf37d",
+      "url": "https://github.com/franksong2702/dsh-codex-connect/blob/ad968f6e714c655bb77ed0dec578d338a88d25af/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-connect@0.2.0-alpha.5",
+          "command": "dsh plugin --profile web add dsh-codex-connect@0.2.0-alpha.5",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.zh.md",
+      "url": "https://github.com/franksong2702/dsh-codex-connect/blob/ad968f6e714c655bb77ed0dec578d338a88d25af/docs/README.zh.md",
+      "sha256": "b67804a52733e8422a2e3838f93e07c9c98800720705f1f132fc91bdad64ac1e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-connect@0.2.0-alpha.5",
+          "command": "dsh plugin --profile web add dsh-codex-connect@0.2.0-alpha.5",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-connect",
+      "version": "0.2.0-alpha.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/franksong2702/dsh-codex-connect",
+        "commit": "ad968f6e714c655bb77ed0dec578d338a88d25af"
+      },
+      "manifestSha256": "3192501ec0aef945a9fa2e39e7b7ad1de7e13dc6167ea51ebc7c4008722a3879",
+      "manifestUrl": "https://github.com/franksong2702/dsh-codex-connect/blob/ad968f6e714c655bb77ed0dec578d338a88d25af/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-codex-connect@0.1.0-alpha.4.52",
+      "origin": "npm",
+      "name": "dsh-codex-connect",
+      "version": "0.1.0-alpha.4.52",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3b96ae90564ba959b52d7bb05f930a63fc97e6de6e4e6636c8a81923e8b9c6d0"
+    },
+    {
+      "target": "dsh-codex-connect@0.2.0-alpha.5",
+      "origin": "npm",
+      "name": "dsh-codex-connect",
+      "version": "0.2.0-alpha.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3b96ae90564ba959b52d7bb05f930a63fc97e6de6e4e6636c8a81923e8b9c6d0"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-codex-connect@0.1.0-alpha.4.52",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-connect@0.2.0-alpha.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/franksong2702/dsh-codex-connect",
+    "commit": "ad968f6e714c655bb77ed0dec578d338a88d25af",
+    "releaseTags": 62,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:26.210Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.zh.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:59.827Z",
+  "coverageReviewedAt": "2026-10-17T17:12:12.670Z",
+  "contentReviewFlags": []
+}

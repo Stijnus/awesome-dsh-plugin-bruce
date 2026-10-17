@@ -1,0 +1,94 @@
+{
+  "full_name": "sorsama/deepseek-harness-mobile",
+  "originalPosition": 352,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-relay"
+  ],
+  "manualNote": null,
+  "ordinal": 445,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:31.256Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ddff7c0ab5e7a79621349300ee196da45172e11a5cb3d90e8042252eae48df47",
+      "url": "https://github.com/sorsama/deepseek-harness-mobile/blob/b6e1d4e61fa3b2b2e0bd0e0135c8fee1c9edcf63/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-relay",
+          "command": "dsh plugin --profile web add dsh-relay",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "c36089cbf85cb05689563a11269cdc48a77911967f3e6f4b2b3735341cb73721",
+      "url": "https://github.com/sorsama/deepseek-harness-mobile/blob/b6e1d4e61fa3b2b2e0bd0e0135c8fee1c9edcf63/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-relay",
+          "command": "dsh plugin --profile web add dsh-relay",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "harness/README.md",
+      "url": "https://github.com/sorsama/deepseek-harness-mobile/blob/b6e1d4e61fa3b2b2e0bd0e0135c8fee1c9edcf63/harness/README.md",
+      "sha256": "8b8c373f0ab3ad5f1010dfda82847bcffaaf7f6a4de34c0a5d7d28f888d7fefd",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "target": "dsh-relay",
+      "origin": "npm",
+      "name": "dsh-relay",
+      "version": "0.2.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "c1043f8f39415bf038b0dddeed5c00e7525302f0fc506c5b251c2efd55eff531"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sorsama/deepseek-harness-mobile",
+    "commit": "b6e1d4e61fa3b2b2e0bd0e0135c8fee1c9edcf63",
+    "releaseTags": 32,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:40.856Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "harness/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "harness/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:08.679Z",
+  "coverageReviewedAt": "2026-10-17T17:12:24.413Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,86 @@
+{
+  "full_name": "Asher-2000/dsh-expert-mode",
+  "originalPosition": 164,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-expert-mode"
+  ],
+  "manualNote": null,
+  "ordinal": 316,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:14.718Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eef16465bfab3f5c8c0f9301aa24c4118e75a10586e4603e78ba8867e264a30f",
+      "url": "https://github.com/Asher-2000/dsh-expert-mode/blob/ed9a19d64bb0fc1889ebcb1a998ca3716c56d299/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-expert-mode",
+          "command": "dsh plugin add dsh-expert-mode",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "12785376c0ac45e32521e2ff855932043a22527787ec9fc6adfef3df2bdb47fe",
+      "url": "https://github.com/Asher-2000/dsh-expert-mode/blob/ed9a19d64bb0fc1889ebcb1a998ca3716c56d299/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-expert-mode",
+          "command": "dsh plugin add dsh-expert-mode",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-expert-mode",
+      "version": "0.9.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Asher-2000/dsh-expert-mode",
+        "commit": "ed9a19d64bb0fc1889ebcb1a998ca3716c56d299"
+      },
+      "manifestSha256": "88deec9ecd76084237d73b92a59e5719550c0f1ac452eea39f1832c48b726196",
+      "manifestUrl": "https://github.com/Asher-2000/dsh-expert-mode/blob/ed9a19d64bb0fc1889ebcb1a998ca3716c56d299/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-expert-mode",
+      "origin": "npm",
+      "name": "dsh-expert-mode",
+      "version": "0.9.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ac4970a2bce61ccdf18d235f94f0cdddbd3fe15a21068b63d8e2302237eba817"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Asher-2000/dsh-expert-mode",
+    "commit": "ed9a19d64bb0fc1889ebcb1a998ca3716c56d299",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:24.680Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:14.206Z",
+  "contentReviewFlags": []
+}

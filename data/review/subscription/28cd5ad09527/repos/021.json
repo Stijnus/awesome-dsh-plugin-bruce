@@ -1,0 +1,65 @@
+{
+  "full_name": "KDDKBD/DeepSeek-splash-animation",
+  "originalPosition": 100,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:34.019Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4c864929be52fa9c4b8e7c2cd1ef2d52bb55b465d95329cf9f408ddfdcf308e9",
+      "url": "https://github.com/KDDKBD/DeepSeek-splash-animation/blob/bd82a5718507ecb752f04492d9639058ee9291d8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KDDKBD/DeepSeek-splash-animation",
+          "command": "dsh plugin --profile web add github:KDDKBD/DeepSeek-splash-animation",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-splash-animation",
+      "version": "0.4.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KDDKBD/DeepSeek-splash-animation",
+        "commit": "bd82a5718507ecb752f04492d9639058ee9291d8"
+      },
+      "manifestSha256": "5ed240ee5ebc5718a5247c8b65704c90d8bc6d0e2afb6c4e08e2f1076bcb548e",
+      "manifestUrl": "https://github.com/KDDKBD/DeepSeek-splash-animation/blob/bd82a5718507ecb752f04492d9639058ee9291d8/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/KDDKBD/DeepSeek-splash-animation",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KDDKBD/DeepSeek-splash-animation",
+    "commit": "bd82a5718507ecb752f04492d9639058ee9291d8",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:42.957Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:03.146Z",
+  "contentReviewFlags": []
+}

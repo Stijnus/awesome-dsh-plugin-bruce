@@ -1,0 +1,163 @@
+{
+  "full_name": "1475505/miliastra-beyond-simulator",
+  "originalPosition": 306,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/1475505/miliastra-beyond-simulator"
+  ],
+  "manualNote": null,
+  "ordinal": 415,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:43.502Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "10f70c459c1b66ab5e039358e8cc43145f9c177726d498785f8708ba794a2e72",
+      "url": "https://github.com/1475505/miliastra-beyond-simulator/blob/a74a8736069fc983fbdbcb01c46e208ac8571b10/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/1475505/miliastra-beyond-simulator",
+          "command": "dsh plugin --profile web add github:1475505/miliastra-beyond-simulator",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-beyond-simulator",
+          "command": "dsh plugin --profile web add dsh-plugin-beyond-simulator",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "web/README.md",
+      "url": "https://github.com/1475505/miliastra-beyond-simulator/blob/a74a8736069fc983fbdbcb01c46e208ac8571b10/web/README.md",
+      "sha256": "4e46bd390427cbf1c10d1b6dd72bb7ee6a21f86af6c33cc699b76d5976ff9a68",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "mcp/README.md",
+      "url": "https://github.com/1475505/miliastra-beyond-simulator/blob/a74a8736069fc983fbdbcb01c46e208ac8571b10/mcp/README.md",
+      "sha256": "7952925da1512bdd15604c0a2fd1bd9a09632165a0a245c7712c3aaf1e41d931",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "url": "https://github.com/1475505/miliastra-beyond-simulator/blob/a74a8736069fc983fbdbcb01c46e208ac8571b10/dsh-plugin/README.md",
+      "sha256": "d12bf10fb62fe3a533d63bbba535871486956cf4098ea74b809d2d56ce797a87",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/1475505/miliastra-beyond-simulator",
+          "command": "dsh plugin --profile web add github:1475505/miliastra-beyond-simulator",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-beyond-simulator",
+          "command": "dsh plugin --profile web add dsh-plugin-beyond-simulator",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "agent/wonderland-lua-builder/README.md",
+      "url": "https://github.com/1475505/miliastra-beyond-simulator/blob/a74a8736069fc983fbdbcb01c46e208ac8571b10/agent/wonderland-lua-builder/README.md",
+      "sha256": "8c700f45458f0ebba2903c58dcb94bf6668dbcac76ca1c055dd994a35baf19fd",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/1475505/miliastra-beyond-simulator",
+          "command": "dsh plugin --profile web add github:1475505/miliastra-beyond-simulator",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-beyond-simulator",
+      "version": "2.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1475505/miliastra-beyond-simulator",
+        "commit": "a74a8736069fc983fbdbcb01c46e208ac8571b10"
+      },
+      "manifestSha256": "38bff24cb4dde919c7fdd1b794b4dd63fbd1f4ad3b3c8d1761205a4dbc42b986",
+      "manifestUrl": "https://github.com/1475505/miliastra-beyond-simulator/blob/a74a8736069fc983fbdbcb01c46e208ac8571b10/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-plugin-beyond-simulator",
+      "version": "2.1.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-beyond-simulator",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1475505/miliastra-beyond-simulator",
+    "commit": "a74a8736069fc983fbdbcb01c46e208ac8571b10",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:51.185Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "web/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "mcp/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "agent/wonderland-lua-builder/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "web/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "mcp/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "agent/wonderland-lua-builder/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:08.694Z",
+  "coverageReviewedAt": "2026-10-17T17:12:22.847Z",
+  "contentReviewFlags": []
+}

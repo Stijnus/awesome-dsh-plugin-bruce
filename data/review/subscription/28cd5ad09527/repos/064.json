@@ -1,0 +1,60 @@
+{
+  "full_name": "JayZz210l/deepseek-harness-for-ide",
+  "originalPosition": 294,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 64,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:51.306Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9cf3ae755037625090dd19126b2a033d7fdec44b7425e50deaf1305097bbf7e8",
+      "url": "https://github.com/JayZz210l/deepseek-harness-for-ide/blob/c26aa261c067449da7a6e111a5705e50804b9047/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/JayZz210l/deepseek-harness-for-ide/blob/c26aa261c067449da7a6e111a5705e50804b9047/README.en.md",
+      "sha256": "7a91408cbfec158fe0a7aa47511b0cc421221287268eef8d8b1f1176285b11f2",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JayZz210l/deepseek-harness-for-ide",
+    "commit": "c26aa261c067449da7a6e111a5705e50804b9047",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-10-17T17:00:57.486Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:50.682Z",
+  "coverageReviewedAt": "2026-10-17T17:12:05.243Z",
+  "contentReviewFlags": []
+}

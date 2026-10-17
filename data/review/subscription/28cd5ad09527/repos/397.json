@@ -1,0 +1,84 @@
+{
+  "full_name": "jing-hy/picturereader",
+  "originalPosition": 283,
+  "inputMode": "command",
+  "mappedTargets": [
+    "picturereader",
+    "picturereader",
+    "picturereader"
+  ],
+  "manualNote": null,
+  "ordinal": 397,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:33.948Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0472824437c9010f526f4a22833fc5972b717c622dd4923c1f96384649c97e0f",
+      "url": "https://github.com/jing-hy/picturereader/blob/ebbb2f098ecf3fe18a47eaaa361ae157d31272cc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "picturereader",
+          "command": "dsh plugin add picturereader",
+          "profile": "default"
+        },
+        {
+          "install": "picturereader",
+          "command": "dsh plugin --profile web add picturereader",
+          "profile": "web"
+        },
+        {
+          "install": "picturereader",
+          "command": "dsh plugin --profile headless add picturereader",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "picturereader",
+      "version": "3.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jing-hy/picturereader",
+        "commit": "ebbb2f098ecf3fe18a47eaaa361ae157d31272cc"
+      },
+      "manifestSha256": "9e6d95e5962d7ddfc9a3342e52c4a2585575cd50bbedf885726f709c6137c817",
+      "manifestUrl": "https://github.com/jing-hy/picturereader/blob/ebbb2f098ecf3fe18a47eaaa361ae157d31272cc/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "picturereader",
+      "origin": "npm",
+      "name": "picturereader",
+      "version": "3.3.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "2206e72697218922a9997d5a0cecbfb11fdfb4b221b0a45ce1ad4acc3d973740"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jing-hy/picturereader",
+    "commit": "ebbb2f098ecf3fe18a47eaaa361ae157d31272cc",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:43.023Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.459Z",
+  "contentReviewFlags": []
+}

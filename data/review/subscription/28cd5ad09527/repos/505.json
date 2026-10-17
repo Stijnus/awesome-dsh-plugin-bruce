@@ -1,0 +1,86 @@
+{
+  "full_name": "xiaoshenming/dsh-session-surgeon",
+  "originalPosition": 431,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/xiaoshenming/dsh-session-surgeon#main"
+  ],
+  "manualNote": null,
+  "ordinal": 505,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:18.998Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "54400e2da78b90e8ca3c238768ac2fb0b4e15e29887c5c70a3f3571d4106a4a8",
+      "url": "https://github.com/xiaoshenming/dsh-session-surgeon/blob/b3fe9fc752176d2260e0ce26e3aa00ebc2bcb2ba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xiaoshenming/dsh-session-surgeon#main",
+          "command": "dsh plugin --profile desktop add \"github:xiaoshenming/dsh-session-surgeon#main\"",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "4b0aa215e695232fb7d7a14ccf3e4b4068ca8dd1267b00daa39619e7ecc82729",
+      "url": "https://github.com/xiaoshenming/dsh-session-surgeon/blob/b3fe9fc752176d2260e0ce26e3aa00ebc2bcb2ba/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xiaoshenming/dsh-session-surgeon#main",
+          "command": "dsh plugin --profile desktop add \"github:xiaoshenming/dsh-session-surgeon#main\"",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-surgeon",
+      "version": "0.2.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaoshenming/dsh-session-surgeon",
+        "commit": "b3fe9fc752176d2260e0ce26e3aa00ebc2bcb2ba"
+      },
+      "manifestSha256": "e5db1c0da6bce7020353a07247cf75d34752323e7c86c655380fe764e2820749",
+      "manifestUrl": "https://github.com/xiaoshenming/dsh-session-surgeon/blob/b3fe9fc752176d2260e0ce26e3aa00ebc2bcb2ba/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/xiaoshenming/dsh-session-surgeon#main",
+      "origin": "git_target",
+      "path": "",
+      "commit": "b3fe9fc752176d2260e0ce26e3aa00ebc2bcb2ba",
+      "name": "dsh-session-surgeon",
+      "version": "0.2.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaoshenming/dsh-session-surgeon",
+    "commit": "b3fe9fc752176d2260e0ce26e3aa00ebc2bcb2ba",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:35.485Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:29.378Z",
+  "contentReviewFlags": []
+}

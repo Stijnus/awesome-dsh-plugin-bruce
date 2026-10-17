@@ -1,0 +1,75 @@
+{
+  "full_name": "SLin-code/dsh-custom-skin",
+  "originalPosition": 502,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/SLin-code/dsh-custom-skin"
+  ],
+  "manualNote": null,
+  "ordinal": 551,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:41.170Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b3dfb802f63218d8fa7a451f6fb763edfcd2f6531dcd5f8b6e7a49b7b898869b",
+      "url": "https://github.com/SLin-code/dsh-custom-skin/blob/03d3117fa426d14df4e7a58248adfce094e94633/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/SLin-code/dsh-custom-skin",
+          "command": "pnpm dsh plugin --profile web add github:SLin-code/dsh-custom-skin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "633f8589b52e7eaa15e9fdeaf48e77de1351d9f7eca20aa96f99d2b9162c9bab",
+      "url": "https://github.com/SLin-code/dsh-custom-skin/blob/03d3117fa426d14df4e7a58248adfce094e94633/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/SLin-code/dsh-custom-skin",
+          "command": "pnpm dsh plugin --profile web add github:SLin-code/dsh-custom-skin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-custom-skin",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SLin-code/dsh-custom-skin",
+        "commit": "03d3117fa426d14df4e7a58248adfce094e94633"
+      },
+      "manifestSha256": "1df6505e78095c8eca341660d334527322071e574995bffe38149aa4aa826c8f",
+      "manifestUrl": "https://github.com/SLin-code/dsh-custom-skin/blob/03d3117fa426d14df4e7a58248adfce094e94633/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SLin-code/dsh-custom-skin",
+    "commit": "03d3117fa426d14df4e7a58248adfce094e94633",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:51.292Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.747Z",
+  "contentReviewFlags": []
+}

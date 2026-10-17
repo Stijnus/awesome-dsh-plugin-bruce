@@ -1,0 +1,107 @@
+{
+  "full_name": "PolinniZhong/dsh-omi-voice",
+  "originalPosition": 458,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PolinniZhong/dsh-omi-voice#v0.1.3&path:/",
+    "dsh-omi-voice"
+  ],
+  "manualNote": null,
+  "ordinal": 524,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:52.460Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "530c184a32c20d79bc9ddb25ebbf823b1fb67468cd70709aafdffac6864e91f2",
+      "url": "https://github.com/PolinniZhong/dsh-omi-voice/blob/025489d85f14cf9c48ba0b94fd6b059e64a34597/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PolinniZhong/dsh-omi-voice#v0.1.3&path:/",
+          "command": "dsh plugin --profile web add \"github:PolinniZhong/dsh-omi-voice#v0.1.3&path:/\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-omi-voice",
+          "command": "dsh plugin --profile web add dsh-omi-voice",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "engine/README.md",
+      "url": "https://github.com/PolinniZhong/dsh-omi-voice/blob/025489d85f14cf9c48ba0b94fd6b059e64a34597/engine/README.md",
+      "sha256": "7f10c746355f420289c5718bb088f5a75cbd36618721ead19dad15cf2cb1a2bb",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-omi-voice",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PolinniZhong/dsh-omi-voice",
+        "commit": "025489d85f14cf9c48ba0b94fd6b059e64a34597"
+      },
+      "manifestSha256": "1632e82ea4fb4fc77fb0ea50bf57d8421f744cdf8b6067dae25d8bbe3e4da9e1",
+      "manifestUrl": "https://github.com/PolinniZhong/dsh-omi-voice/blob/025489d85f14cf9c48ba0b94fd6b059e64a34597/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/PolinniZhong/dsh-omi-voice#v0.1.3&path:/",
+      "origin": "git_target",
+      "path": "",
+      "commit": "0d754c277aabe65c5074d542ef843b59a35ddb96",
+      "name": "dsh-omi-voice",
+      "version": "0.1.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "dsh-omi-voice",
+      "origin": "npm",
+      "name": "dsh-omi-voice",
+      "version": "0.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "1ceadbc791a666f8e07aef55ff4335738d20cd107a1cde7f505351c9ce798307"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PolinniZhong/dsh-omi-voice",
+    "commit": "025489d85f14cf9c48ba0b94fd6b059e64a34597",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:06.401Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "engine/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "engine/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:12.519Z",
+  "coverageReviewedAt": "2026-10-17T17:12:30.949Z",
+  "contentReviewFlags": []
+}

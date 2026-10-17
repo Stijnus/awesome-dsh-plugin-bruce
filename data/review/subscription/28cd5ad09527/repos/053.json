@@ -1,0 +1,53 @@
+{
+  "full_name": "Thanksgiver233/comm-protocol-hub",
+  "originalPosition": 259,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 53,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:34.980Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "80441845140f3c44a2cc2164fd6b981b145c558308b8d85635824f7acc626d96",
+      "url": "https://github.com/Thanksgiver233/comm-protocol-hub/blob/8b7b07d88315ffe85ead1d680e72f9b83f07853d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-comm-protocol-hub",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Thanksgiver233/comm-protocol-hub",
+        "commit": "8b7b07d88315ffe85ead1d680e72f9b83f07853d"
+      },
+      "manifestSha256": "48c6772c9f39fa732e749853f59fb5c4a18ccc9a39418b697e0da9abb33f4d66",
+      "manifestUrl": "https://github.com/Thanksgiver233/comm-protocol-hub/blob/8b7b07d88315ffe85ead1d680e72f9b83f07853d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Thanksgiver233/comm-protocol-hub",
+    "commit": "8b7b07d88315ffe85ead1d680e72f9b83f07853d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:43.837Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:04.769Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,171 @@
+{
+  "full_name": "Phant0Meow/dsh-meow-memory",
+  "originalPosition": 87,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Phant0Meow/dsh-meow-memory"
+  ],
+  "manualNote": null,
+  "ordinal": 253,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:54.812Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9c1b612aa37e208b5838b47e5945ffab212c38bb87fb5c1f60343644add50ae8",
+      "url": "https://github.com/Phant0Meow/dsh-meow-memory/blob/033df8589467bbe17a2c40dc864283b960795ec5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Phant0Meow/dsh-meow-memory",
+          "command": "dsh plugin --profile web add github:Phant0Meow/dsh-meow-memory",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/coutogilson/dsh-meow-memory",
+          "command": "dsh plugin --profile web add github:coutogilson/dsh-meow-memory",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Phant0Meow/dsh-meow-memory/blob/033df8589467bbe17a2c40dc864283b960795ec5/README.en.md",
+      "sha256": "a4ea71f0dcf12e5128bcdcbf0dd7b7edd9acefafa5f264c748ad6a6458e2c1d9",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Phant0Meow/dsh-meow-memory",
+          "command": "dsh plugin --profile web add github:Phant0Meow/dsh-meow-memory",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/coutogilson/dsh-meow-memory",
+          "command": "dsh plugin --profile web add github:coutogilson/dsh-meow-memory",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt-br.md",
+      "url": "https://github.com/Phant0Meow/dsh-meow-memory/blob/033df8589467bbe17a2c40dc864283b960795ec5/README.pt-br.md",
+      "sha256": "59b82c363517457720d3fa58b3993ab5bd1827f31fddce3fac7a8216c8136db8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Phant0Meow/dsh-meow-memory",
+          "command": "dsh plugin --profile web add github:Phant0Meow/dsh-meow-memory",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/coutogilson/dsh-meow-memory",
+          "command": "dsh plugin --profile web add github:coutogilson/dsh-meow-memory",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "src/i18n/README.md",
+      "url": "https://github.com/Phant0Meow/dsh-meow-memory/blob/033df8589467bbe17a2c40dc864283b960795ec5/src/i18n/README.md",
+      "sha256": "da44a894f4fd2b19189ce6c42016c84ea44f26bff1d939db5d697dea29e950dc",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "src/prompts/README.md",
+      "url": "https://github.com/Phant0Meow/dsh-meow-memory/blob/033df8589467bbe17a2c40dc864283b960795ec5/src/prompts/README.md",
+      "sha256": "c39fb6ba0af326eafa74661f3a9f5f3e2bc96c8c21d5ecf44f24dbfb257d26b2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "meow-memory",
+      "version": "0.31.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Phant0Meow/dsh-meow-memory",
+        "commit": "033df8589467bbe17a2c40dc864283b960795ec5"
+      },
+      "manifestSha256": "147a4684c66ecc083669e02721ef6a529c48603c44bf97d9451fd909c6c6f67b",
+      "manifestUrl": "https://github.com/Phant0Meow/dsh-meow-memory/blob/033df8589467bbe17a2c40dc864283b960795ec5/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/coutogilson/dsh-meow-memory",
+      "origin": "git_target",
+      "path": "",
+      "commit": "f5987045812bbd928f7d2dd7a0ed064c3040d44f",
+      "name": "meow-memory",
+      "version": "0.29.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/coutogilson/dsh-meow-memory",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Phant0Meow/dsh-meow-memory",
+    "commit": "033df8589467bbe17a2c40dc864283b960795ec5",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:08.768Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.pt-br.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "src/i18n/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "src/prompts/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.pt-br.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "src/i18n/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "src/prompts/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:57.837Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.537Z",
+  "contentReviewFlags": []
+}

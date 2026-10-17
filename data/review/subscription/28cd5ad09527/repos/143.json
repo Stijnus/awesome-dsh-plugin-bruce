@@ -1,0 +1,89 @@
+{
+  "full_name": "CodermanYHZ/dsh-node-flow",
+  "originalPosition": 563,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 143,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:23.736Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0fa1b69124b8b40baa9b348366ecd24a05074e2df7a3840c4df2e5b463a8efa8",
+      "url": "https://github.com/CodermanYHZ/dsh-node-flow/blob/21cf06fa80b042db16b41cb6908c919042a5bfcc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/CodermanYHZ/dsh-node-flow.git",
+          "command": "dsh plugin --profile web add git+https://github.com/CodermanYHZ/dsh-node-flow.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/CodermanYHZ/dsh-node-flow/blob/21cf06fa80b042db16b41cb6908c919042a5bfcc/README.en.md",
+      "sha256": "dfb7ad605aa33f3587dd8cc6d1f5e3a43b0e8f8ed2e2ce695aecdb6901c1de85",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/CodermanYHZ/dsh-node-flow.git",
+          "command": "dsh plugin --profile web add git+https://github.com/CodermanYHZ/dsh-node-flow.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-node-flow",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CodermanYHZ/dsh-node-flow",
+        "commit": "21cf06fa80b042db16b41cb6908c919042a5bfcc"
+      },
+      "manifestSha256": "c52f6cf99ab56b3fc5fc27689686840e0a56807da65a0a57909370e0b55c0626",
+      "manifestUrl": "https://github.com/CodermanYHZ/dsh-node-flow/blob/21cf06fa80b042db16b41cb6908c919042a5bfcc/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/CodermanYHZ/dsh-node-flow.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CodermanYHZ/dsh-node-flow",
+    "commit": "21cf06fa80b042db16b41cb6908c919042a5bfcc",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:31.618Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:52.738Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.142Z",
+  "contentReviewFlags": []
+}

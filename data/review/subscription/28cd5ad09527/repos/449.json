@@ -1,0 +1,121 @@
+{
+  "full_name": "HaoyueQin/dsh-better-reasoning-effort",
+  "originalPosition": 356,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-better-reasoning-effort",
+    "https://github.com/HaoyueQin/dsh-better-reasoning-effort"
+  ],
+  "manualNote": null,
+  "ordinal": 449,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:38.270Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f0910221d2ce96ae6d6f7f90012d674ce400043454c856aaf982b1d67d396c0",
+      "url": "https://github.com/HaoyueQin/dsh-better-reasoning-effort/blob/81b708219d71d95b84817c42a5d31b238422854b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-reasoning-effort",
+          "command": "dsh plugin --profile web add dsh-better-reasoning-effort",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/HaoyueQin/dsh-better-reasoning-effort",
+          "command": "dsh plugin --profile web add github:HaoyueQin/dsh-better-reasoning-effort",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-reasoning-effort@0.5.2",
+          "command": "dsh plugin --profile web add dsh-better-reasoning-effort@0.5.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "fcac2c7a0899f685113daf8ababb7dcbdd1dd043a740c3fb93d81e4d219a8e7d",
+      "url": "https://github.com/HaoyueQin/dsh-better-reasoning-effort/blob/81b708219d71d95b84817c42a5d31b238422854b/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-reasoning-effort",
+          "command": "dsh plugin --profile web add dsh-better-reasoning-effort",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/HaoyueQin/dsh-better-reasoning-effort",
+          "command": "dsh plugin --profile web add github:HaoyueQin/dsh-better-reasoning-effort",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-reasoning-effort@0.5.2",
+          "command": "dsh plugin --profile web add dsh-better-reasoning-effort@0.5.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-reasoning-effort",
+      "version": "0.5.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HaoyueQin/dsh-better-reasoning-effort",
+        "commit": "81b708219d71d95b84817c42a5d31b238422854b"
+      },
+      "manifestSha256": "43a7d0e1212f2b583347ede9f15d6362ce75e316adb67884d5179a856a761be2",
+      "manifestUrl": "https://github.com/HaoyueQin/dsh-better-reasoning-effort/blob/81b708219d71d95b84817c42a5d31b238422854b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-better-reasoning-effort",
+      "origin": "npm",
+      "name": "dsh-better-reasoning-effort",
+      "version": "0.5.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "372b5a1512c3cc6a4754eb5425e5318787ed9992667294270fb77d6451d379fd"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-better-reasoning-effort",
+      "version": "0.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-reasoning-effort@0.5.2",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HaoyueQin/dsh-better-reasoning-effort",
+    "commit": "81b708219d71d95b84817c42a5d31b238422854b",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:48.350Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:24.749Z",
+  "contentReviewFlags": []
+}

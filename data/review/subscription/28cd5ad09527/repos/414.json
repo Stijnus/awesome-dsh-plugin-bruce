@@ -1,0 +1,78 @@
+{
+  "full_name": "Phant0Meow/femo-plugin",
+  "originalPosition": 304,
+  "inputMode": "command",
+  "mappedTargets": [
+    "femo-plugin",
+    "https://github.com/Phant0Meow/femo-plugin"
+  ],
+  "manualNote": null,
+  "ordinal": 414,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:42.804Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1ac8be06bbe7064760136311aef98646c1d01b2935c91a2c48a117e3af228d37",
+      "url": "https://github.com/Phant0Meow/femo-plugin/blob/443448b661af170291f60074a9e32ab240a4d0e2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "femo-plugin",
+          "command": "dsh plugin --profile web add femo-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Phant0Meow/femo-plugin",
+          "command": "dsh plugin --profile web add github:Phant0Meow/femo-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "femo-plugin",
+      "version": "1.0.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Phant0Meow/femo-plugin",
+        "commit": "443448b661af170291f60074a9e32ab240a4d0e2"
+      },
+      "manifestSha256": "c49b97fa88d9410807c5287c66e4563e8fece09a9836a01f93e5cba8258a93f3",
+      "manifestUrl": "https://github.com/Phant0Meow/femo-plugin/blob/443448b661af170291f60074a9e32ab240a4d0e2/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "femo-plugin",
+      "origin": "npm",
+      "name": "femo-plugin",
+      "version": "1.0.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "b4854fdd11f0fc28b8a1b2b76944fdfbd809f20bbf950aa226e2779959f54656"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Phant0Meow/femo-plugin",
+    "commit": "443448b661af170291f60074a9e32ab240a4d0e2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:51.337Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:21.474Z",
+  "contentReviewFlags": []
+}

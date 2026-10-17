@@ -1,0 +1,61 @@
+{
+  "full_name": "534119219/chicheng-stats",
+  "originalPosition": 440,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/534119219/chicheng-stats"
+  ],
+  "manualNote": null,
+  "ordinal": 511,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:32.069Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ca02ca74f28ce25f6339283f4fc13b7a2ed60a3732552586ce8d1cd9380b140a",
+      "url": "https://github.com/534119219/chicheng-stats/blob/53ee7d9bc356b16f7f461caeb89b85bd79c9a608/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/534119219/chicheng-stats",
+          "command": "dsh plugin --profile web add github:534119219/chicheng-stats",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "chicheng-stats",
+      "version": "0.10.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/534119219/chicheng-stats",
+        "commit": "53ee7d9bc356b16f7f461caeb89b85bd79c9a608"
+      },
+      "manifestSha256": "23b847b29a7afa272f5fa490f521ac2c3abb8dd7182199d52a766a784af731a2",
+      "manifestUrl": "https://github.com/534119219/chicheng-stats/blob/53ee7d9bc356b16f7f461caeb89b85bd79c9a608/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/534119219/chicheng-stats",
+    "commit": "53ee7d9bc356b16f7f461caeb89b85bd79c9a608",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:41.066Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:29.784Z",
+  "contentReviewFlags": []
+}

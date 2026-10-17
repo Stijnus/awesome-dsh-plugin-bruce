@@ -1,0 +1,97 @@
+{
+  "full_name": "quqxui/dsh-memgas",
+  "originalPosition": 357,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-memgas",
+    "https://github.com/quqxui/dsh-memgas"
+  ],
+  "manualNote": null,
+  "ordinal": 450,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:39.891Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "69335b1bf021136dc9310eeafe54b7be265d73af8e0a6784297a4458a6e33351",
+      "url": "https://github.com/quqxui/dsh-memgas/blob/dcd4689e7a5ed4d156430bc939e33c97c7f6d961/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-memgas",
+          "command": "dsh plugin --profile web add dsh-memgas",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/quqxui/dsh-memgas",
+          "command": "dsh plugin --profile web add github:quqxui/dsh-memgas",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "7a968a3ead91aee75302848a275b88d03fbd50b20990f3bad1936b38e65d58fd",
+      "url": "https://github.com/quqxui/dsh-memgas/blob/dcd4689e7a5ed4d156430bc939e33c97c7f6d961/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-memgas",
+          "command": "dsh plugin --profile web add dsh-memgas",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/quqxui/dsh-memgas",
+          "command": "dsh plugin --profile web add github:quqxui/dsh-memgas",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memgas",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/quqxui/dsh-memgas",
+        "commit": "dcd4689e7a5ed4d156430bc939e33c97c7f6d961"
+      },
+      "manifestSha256": "84050a642673505f1d5edb79bf2e383e7f1b8e9bd818b647c4b026f3f5a2bc00",
+      "manifestUrl": "https://github.com/quqxui/dsh-memgas/blob/dcd4689e7a5ed4d156430bc939e33c97c7f6d961/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-memgas",
+      "origin": "npm",
+      "name": "dsh-memgas",
+      "version": "0.2.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "6fb7311070c22ae964ee79b774c24b74663b04205f8e49027d0ebcc26fa12058"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/quqxui/dsh-memgas",
+    "commit": "dcd4689e7a5ed4d156430bc939e33c97c7f6d961",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:50.240Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:24.603Z",
+  "contentReviewFlags": []
+}

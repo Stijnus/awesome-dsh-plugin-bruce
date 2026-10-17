@@ -1,0 +1,86 @@
+{
+  "full_name": "better-er/dsh-live-token-stats",
+  "originalPosition": 470,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:06.355Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c2c4d29bb86c81aecfe756f779d3adfdae1597397c85e0ac77a4a9fb01819b30",
+      "url": "https://github.com/better-er/dsh-live-token-stats/blob/dde82fc7053f352f1bd363d5c8dceca6a7faa2d8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/better-er/dsh-live-token-stats",
+          "command": "dsh plugin --profile web add github:better-er/dsh-live-token-stats",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-live-token-stats",
+          "command": "dsh plugin --profile web add dsh-live-token-stats",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-live-token-stats",
+      "version": "0.4.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/better-er/dsh-live-token-stats",
+        "commit": "dde82fc7053f352f1bd363d5c8dceca6a7faa2d8"
+      },
+      "manifestSha256": "e9febfd426549daa6c0db0cd201e57a2b7ee82e07dade945e02ea044367f20bd",
+      "manifestUrl": "https://github.com/better-er/dsh-live-token-stats/blob/dde82fc7053f352f1bd363d5c8dceca6a7faa2d8/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-live-token-stats",
+      "origin": "npm",
+      "name": "dsh-live-token-stats",
+      "version": "0.4.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3848617e3a74c26c00ba631060f95672ef5b25ecc8a8f6ced1fd6fe3cd85d840"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/better-er/dsh-live-token-stats",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-live-token-stats",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/better-er/dsh-live-token-stats",
+    "commit": "dde82fc7053f352f1bd363d5c8dceca6a7faa2d8",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:14.653Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.893Z",
+  "contentReviewFlags": []
+}

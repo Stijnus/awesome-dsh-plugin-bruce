@@ -1,0 +1,87 @@
+{
+  "full_name": "82c86b8z86-stack/dsh-engineering-workflow",
+  "originalPosition": 404,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add github:82c86b8z86-stack/dsh-engineering-workflow」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 171,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:20.488Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9c4c36ef05de342565e8f7cc06f441bdbad264e304ad480cd7dc651f9c0a024a",
+      "url": "https://github.com/82c86b8z86-stack/dsh-engineering-workflow/blob/3e251eb78002625bcc238a42d9926d87c3a38bfe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/82c86b8z86-stack/dsh-engineering-workflow",
+          "command": "dsh plugin --profile <name> add github:82c86b8z86-stack/dsh-engineering-workflow",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b96d9172faa365e8ebe1b8ec4f64e382bd1040503109960d450c779152ddc815",
+      "url": "https://github.com/82c86b8z86-stack/dsh-engineering-workflow/blob/3e251eb78002625bcc238a42d9926d87c3a38bfe/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/82c86b8z86-stack/dsh-engineering-workflow",
+          "command": "dsh plugin --profile <name> add github:82c86b8z86-stack/dsh-engineering-workflow",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-engineering-workflow",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/82c86b8z86-stack/dsh-engineering-workflow",
+        "commit": "3e251eb78002625bcc238a42d9926d87c3a38bfe"
+      },
+      "manifestSha256": "a84fbfcf88d9cc5af8eec3e020580db1e00eb3bea944c94d3870b0f07c3fe34a",
+      "manifestUrl": "https://github.com/82c86b8z86-stack/dsh-engineering-workflow/blob/3e251eb78002625bcc238a42d9926d87c3a38bfe/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/82c86b8z86-stack/dsh-engineering-workflow",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/82c86b8z86-stack/dsh-engineering-workflow",
+    "commit": "3e251eb78002625bcc238a42d9926d87c3a38bfe",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:30.453Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.375Z",
+  "contentReviewFlags": []
+}

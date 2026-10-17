@@ -1,0 +1,76 @@
+{
+  "full_name": "webkubor/dsh-bloom-theme",
+  "originalPosition": 482,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 109,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:14.654Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "709384577d6d396760b0cb628cf4a960b9d580ef647a620a7f98cb6ce547dac8",
+      "url": "https://github.com/webkubor/dsh-bloom-theme/blob/1e0e74cbc40bbc9e578f6dc8ebf393c8563a9949/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bloom-theme",
+          "command": "dsh plugin --profile <你的 profile> add dsh-bloom-theme",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bloom-theme",
+      "version": "0.17.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/webkubor/dsh-bloom-theme",
+        "commit": "1e0e74cbc40bbc9e578f6dc8ebf393c8563a9949"
+      },
+      "manifestSha256": "c32ba32d881d4d25fb8f7c17e510b5dc865a3a8168926d350365de057a0a3600",
+      "manifestUrl": "https://github.com/webkubor/dsh-bloom-theme/blob/1e0e74cbc40bbc9e578f6dc8ebf393c8563a9949/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-bloom-theme",
+      "origin": "npm",
+      "name": "dsh-bloom-theme",
+      "version": "0.17.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "1765d640730850237ead6ab04f0b9f754f2600d54b981dbae1cf332b97f76859"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bloom-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/webkubor/dsh-bloom-theme",
+    "commit": "1e0e74cbc40bbc9e578f6dc8ebf393c8563a9949",
+    "releaseTags": 37,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:22.811Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.062Z",
+  "contentReviewFlags": []
+}

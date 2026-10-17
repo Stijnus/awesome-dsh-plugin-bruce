@@ -1,0 +1,90 @@
+{
+  "full_name": "liqiGeGe/dsh-plugin-execution-graph",
+  "originalPosition": 373,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 84,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:28.426Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e056f49db7bcc1ccc6874d28cb3ba82d2c77db53362df4040501d9a56cb84dd7",
+      "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph/blob/7c870016b79a451150860be0ebc3e58f7bc9a57f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-execution-graph",
+          "command": "dsh plugin --profile <name> add dsh-plugin-execution-graph",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "9f9238897160940b7fff8ddc71de20e33c364a876befef047226913ed070e93f",
+      "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph/blob/7c870016b79a451150860be0ebc3e58f7bc9a57f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-execution-graph",
+          "command": "dsh plugin --profile <name> add dsh-plugin-execution-graph",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-execution-graph",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph",
+        "commit": "7c870016b79a451150860be0ebc3e58f7bc9a57f"
+      },
+      "manifestSha256": "f340a697946418c357ab7db1cbe8f91c91e8f27ffda60c8614e97da890becd3f",
+      "manifestUrl": "https://github.com/liqiGeGe/dsh-plugin-execution-graph/blob/7c870016b79a451150860be0ebc3e58f7bc9a57f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-execution-graph",
+      "origin": "npm",
+      "name": "dsh-plugin-execution-graph",
+      "version": "0.1.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "01a75400f190f70950a260496a5ca10d9324d3a4364ed16f215cabdb045e6d63"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-execution-graph",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph",
+    "commit": "7c870016b79a451150860be0ebc3e58f7bc9a57f",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:39.896Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.551Z",
+  "contentReviewFlags": []
+}

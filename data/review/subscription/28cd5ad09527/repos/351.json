@@ -1,0 +1,148 @@
+{
+  "full_name": "wqty123/dsh-browser",
+  "originalPosition": 206,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-builtin-browser"
+  ],
+  "manualNote": null,
+  "ordinal": 351,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:58.534Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "46c3fc15f1f7898fc37454d530a589d310cd7fe3a2ee4ddcd163942d4d15ec00",
+      "url": "https://github.com/wqty123/dsh-browser/blob/e8519ee6bf56692c6b75ec64dae5641f42b2cf17/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-builtin-browser",
+          "command": "dsh plugin --profile desktop add dsh-builtin-browser",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-builtin-browser",
+          "command": "dsh plugin --profile web add dsh-builtin-browser",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/wqty123/dsh-browser/blob/e8519ee6bf56692c6b75ec64dae5641f42b2cf17/docs/README.md",
+      "sha256": "a25b74020e331257c5f5f0e7534b891b6b692084f7ab57078c03b29bd0df17e9",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-builtin-browser",
+      "version": "0.4.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wqty123/dsh-browser",
+        "commit": "e8519ee6bf56692c6b75ec64dae5641f42b2cf17"
+      },
+      "manifestSha256": "5ba5a63d4abd2dbe7e03ad92f7cec08ef7248317c753858bcc236c7aa3d8c3ea",
+      "manifestUrl": "https://github.com/wqty123/dsh-browser/blob/e8519ee6bf56692c6b75ec64dae5641f42b2cf17/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.2 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-builtin-browser",
+        "versions": [
+          {
+            "version": "0.4.13",
+            "publishTimestamp": 1792235790,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wqty123/dsh-browser",
+              "commit": "e8519ee6bf56692c6b75ec64dae5641f42b2cf17"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-builtin-browser",
+      "origin": "npm",
+      "name": "dsh-builtin-browser",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-builtin-browser",
+        "title": "dsh-builtin-browser",
+        "description": "Shared real browser plugin for DeepSeek Harness: install-and-use — a visible native browser the human can take over, driven by the agent over CDP. DOM-level interaction (React/Vue safe), per-task session isolation, cookie persistence (dsh_browser_auth), CAPTCHA detection, batch form fill (dsh_browser_fill), authenticated download, history/replay, action restriction",
+        "homepage": "https://github.com/wqty123/dsh-browser",
+        "repository": {
+          "url": "https://github.com/wqty123/dsh-browser"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "browser",
+            "cdp"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.13",
+            "publishTimestamp": 1792236028,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f4d8d1f124b7a50f9955aa6dac718b9159674d69ccf681aecb75ffe548c4bf32",
+      "evidence": [
+        {
+          "name": "dsh-builtin-browser",
+          "version": "0.4.13",
+          "tarball": "https://registry.npmjs.org/dsh-builtin-browser/-/dsh-builtin-browser-0.4.13.tgz",
+          "integrity": "sha512-G2FdCfcmjNsDaOBO2azw0zCFrfSBpaTKqVoAUPO0fTuVYTA7hKeUtsli0z2uCuGKvfrwSGPvUN/Ws7m0GkndnA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wqty123/dsh-browser",
+    "commit": "e8519ee6bf56692c6b75ec64dae5641f42b2cf17",
+    "releaseTags": 35,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:06:07.665Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:04.189Z",
+  "coverageReviewedAt": "2026-10-17T17:12:17.064Z",
+  "contentReviewFlags": []
+}

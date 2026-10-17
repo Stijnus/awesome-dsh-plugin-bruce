@@ -1,0 +1,97 @@
+{
+  "full_name": "Anionex/dsh-turn-rewind",
+  "originalPosition": 188,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@anionex/dsh-turn-rewind",
+    "@anionex/dsh-turn-rewind"
+  ],
+  "manualNote": null,
+  "ordinal": 335,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:02.313Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c6a02fe363515b1e3dc18075de27fbb027180f2824bb4ae5ef8a9267bee38b78",
+      "url": "https://github.com/Anionex/dsh-turn-rewind/blob/9610ab93c87e2405e7512d53a099b8fb2caf6936/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@anionex/dsh-turn-rewind",
+          "command": "dsh plugin --profile web add @anionex/dsh-turn-rewind",
+          "profile": "web"
+        },
+        {
+          "install": "@anionex/dsh-turn-rewind",
+          "command": "dsh plugin --profile headless add @anionex/dsh-turn-rewind",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7cf1a467f9fadd457675dc7f78ee3c8cddd512a317c83ea285b65d0b11423514",
+      "url": "https://github.com/Anionex/dsh-turn-rewind/blob/9610ab93c87e2405e7512d53a099b8fb2caf6936/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@anionex/dsh-turn-rewind",
+          "command": "dsh plugin --profile web add @anionex/dsh-turn-rewind",
+          "profile": "web"
+        },
+        {
+          "install": "@anionex/dsh-turn-rewind",
+          "command": "dsh plugin --profile headless add @anionex/dsh-turn-rewind",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@anionex/dsh-turn-rewind",
+      "version": "0.3.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Anionex/dsh-turn-rewind",
+        "commit": "9610ab93c87e2405e7512d53a099b8fb2caf6936"
+      },
+      "manifestSha256": "9c1cf281f89f6280f523c7aeba799a29520ae93769c68f0e64879b03e6ab56af",
+      "manifestUrl": "https://github.com/Anionex/dsh-turn-rewind/blob/9610ab93c87e2405e7512d53a099b8fb2caf6936/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@anionex/dsh-turn-rewind",
+      "origin": "npm",
+      "name": "@anionex/dsh-turn-rewind",
+      "version": "0.3.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "513d749c9eec8e5e927061dbcd08739ba5fa8a42af0317c0248770ad34d7ba5e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Anionex/dsh-turn-rewind",
+    "commit": "9610ab93c87e2405e7512d53a099b8fb2caf6936",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:11.645Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.131Z",
+  "contentReviewFlags": []
+}

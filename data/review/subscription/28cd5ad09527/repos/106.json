@@ -1,0 +1,61 @@
+{
+  "full_name": "UynajGI/dsh-ssh",
+  "originalPosition": 475,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 106,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:07.851Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "43d208bfffded48348aee9a17f9c431bc318985cbd156270cda14bcd64f71232",
+      "url": "https://github.com/UynajGI/dsh-ssh/blob/9c344efb9bef13ad942b4e9ea16c203fb0095632/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b8d4a8de8982fe308783410853c28725a53d14a35f113216c307e7ac555fe80a",
+      "url": "https://github.com/UynajGI/dsh-ssh/blob/9c344efb9bef13ad942b4e9ea16c203fb0095632/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ssh",
+      "version": "0.3.0-pre",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/UynajGI/dsh-ssh",
+        "commit": "9c344efb9bef13ad942b4e9ea16c203fb0095632"
+      },
+      "manifestSha256": "7a9bc3d276fec3932434def1b8890bd987923a0c531083a0228b8141046fda5a",
+      "manifestUrl": "https://github.com/UynajGI/dsh-ssh/blob/9c344efb9bef13ad942b4e9ea16c203fb0095632/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/UynajGI/dsh-ssh",
+    "commit": "9c344efb9bef13ad942b4e9ea16c203fb0095632",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:19.018Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.896Z",
+  "contentReviewFlags": []
+}

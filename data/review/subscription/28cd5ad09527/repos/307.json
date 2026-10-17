@@ -1,0 +1,94 @@
+{
+  "full_name": "aa2246740/dsh-skillhub",
+  "originalPosition": 149,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/aa2246740/dsh-skillhub#v1.0.3"
+  ],
+  "manualNote": null,
+  "ordinal": 307,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:52.179Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "97e3181cfe25a63edce62f7fdff884da0e75e96108309b6618f999aa467cc82d",
+      "url": "https://github.com/aa2246740/dsh-skillhub/blob/415709e6b6ffe52a8d41a8efb80d70460dbde84b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@aa2246740/dsh-skillhub@1.0.7",
+          "command": "dsh plugin --profile web add @aa2246740/dsh-skillhub@1.0.7",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@aa2246740/dsh-skillhub",
+      "version": "1.0.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aa2246740/dsh-skillhub",
+        "commit": "415709e6b6ffe52a8d41a8efb80d70460dbde84b"
+      },
+      "manifestSha256": "fe794bd8e76d7a8854078e5180a15045ace0a883e78c14c57060f119746f7a63",
+      "manifestUrl": "https://github.com/aa2246740/dsh-skillhub/blob/415709e6b6ffe52a8d41a8efb80d70460dbde84b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/aa2246740/dsh-skillhub#v1.0.3",
+      "origin": "git_target",
+      "path": "",
+      "commit": "6594e19d970c24f26635711b0d93d4d416d0e25d",
+      "name": "dsh-skillhub",
+      "version": "1.0.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "@aa2246740/dsh-skillhub@1.0.7",
+      "origin": "npm",
+      "name": "@aa2246740/dsh-skillhub",
+      "version": "1.0.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "16bad0d140fa193c58b48305b4032e2a340bb6666342079ccd043d2fa3ac653d"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/aa2246740/dsh-skillhub#v1.0.3",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@aa2246740/dsh-skillhub@1.0.7",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aa2246740/dsh-skillhub",
+    "commit": "415709e6b6ffe52a8d41a8efb80d70460dbde84b",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:07.933Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:13.152Z",
+  "contentReviewFlags": []
+}

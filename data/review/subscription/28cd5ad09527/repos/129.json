@@ -1,0 +1,108 @@
+{
+  "full_name": "Oscar-Williams/dsh-deepcanary",
+  "originalPosition": 532,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 129,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:56.731Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9e59fb487623d3e69e8901a5b8025fbd77e1671b37994398d5331296364721c0",
+      "url": "https://github.com/Oscar-Williams/dsh-deepcanary/blob/229b824f8dd0d9ac249af00fa6b104e7c3f8064a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepcanary@0.1.4-rc.1",
+          "command": "dsh plugin --profile web add dsh-deepcanary@0.1.4-rc.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "d6c67e23f0fc4cc2437a3d09fa9182419b013b57c14fd7de366e9210ad50532e",
+      "url": "https://github.com/Oscar-Williams/dsh-deepcanary/blob/229b824f8dd0d9ac249af00fa6b104e7c3f8064a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepcanary@0.1.4-rc.1",
+          "command": "dsh plugin --profile web add dsh-deepcanary@0.1.4-rc.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/Oscar-Williams/dsh-deepcanary/blob/229b824f8dd0d9ac249af00fa6b104e7c3f8064a/docs/README.md",
+      "sha256": "96e8ad1ec95b7edb016b0f6a213967eec33d7413984d294652236c7d84fdd1d8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepcanary",
+      "version": "0.1.4-rc.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Oscar-Williams/dsh-deepcanary",
+        "commit": "229b824f8dd0d9ac249af00fa6b104e7c3f8064a"
+      },
+      "manifestSha256": "29f597c613ee1ff3820d9564ab94ebf093d2ff31e29c171019ad51d9c7e66542",
+      "manifestUrl": "https://github.com/Oscar-Williams/dsh-deepcanary/blob/229b824f8dd0d9ac249af00fa6b104e7c3f8064a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-deepcanary@0.1.4-rc.1",
+      "origin": "npm",
+      "name": "dsh-deepcanary",
+      "version": "0.1.4-rc.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "7a742a75299f86866ad70354b08df72eda16c16b3c67fd096369679a9fdc1c32"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-deepcanary@0.1.4-rc.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Oscar-Williams/dsh-deepcanary",
+    "commit": "229b824f8dd0d9ac249af00fa6b104e7c3f8064a",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:07.787Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:52.426Z",
+  "coverageReviewedAt": "2026-10-17T17:12:06.803Z",
+  "contentReviewFlags": []
+}

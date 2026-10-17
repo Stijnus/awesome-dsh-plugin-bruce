@@ -1,0 +1,202 @@
+{
+  "full_name": "c1overzz/dsh-bili-scroll",
+  "originalPosition": 60,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-bili-scroll@0.1.7"
+  ],
+  "manualNote": null,
+  "ordinal": 230,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:10.001Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d7867be2eddeced3e5238dc0630fa74975ced5ff6ed694a571f3bc79d5715959",
+      "url": "https://github.com/c1overzz/dsh-bili-scroll/blob/afedbbd9c7a288247b62c39b8b5aa2a55f244616/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bili-scroll",
+          "command": "dsh plugin --profile web add dsh-bili-scroll",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/c1overzz/dsh-bili-scroll",
+          "command": "dsh plugin --profile web add github:c1overzz/dsh-bili-scroll",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-bili-scroll",
+          "command": "dsh plugin --profile desktop add dsh-bili-scroll",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bili-scroll",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/c1overzz/dsh-bili-scroll",
+        "commit": "afedbbd9c7a288247b62c39b8b5aa2a55f244616"
+      },
+      "manifestSha256": "9821b40a18003668ed715407b02b5c50c8eacf40c2a3a9fee9da93bbe660b789",
+      "manifestUrl": "https://github.com/c1overzz/dsh-bili-scroll/blob/afedbbd9c7a288247b62c39b8b5aa2a55f244616/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-bili-scroll",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1792251000,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/c1overzz/dsh-bili-scroll",
+              "commit": "afedbbd9c7a288247b62c39b8b5aa2a55f244616"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-bili-scroll@0.1.7",
+      "origin": "npm",
+      "name": "dsh-bili-scroll",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bili-scroll",
+        "title": "dsh-bili-scroll",
+        "description": "DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你",
+        "homepage": "https://github.com/c1overzz/dsh-bili-scroll#readme",
+        "repository": {
+          "url": "https://github.com/c1overzz/dsh-bili-scroll"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "bilibili",
+            "mcp",
+            "duty"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1792251306,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "752934f3bb69dde0ab701be8e80f2e727881aed4356de70c1d92e03bc1781db3",
+      "evidence": [
+        {
+          "name": "dsh-bili-scroll",
+          "version": "0.1.7",
+          "tarball": "https://registry.npmjs.org/dsh-bili-scroll/-/dsh-bili-scroll-0.1.7.tgz",
+          "integrity": "sha512-yeDAnMpfYwlQZwPu8ltch7wZEZM2Ytara+LFlIUXP+JNlAvNDRHKfIpszywoJ0719aKY4oWj3II6gh7aSd1ViQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-bili-scroll",
+      "origin": "npm",
+      "name": "dsh-bili-scroll",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bili-scroll",
+        "title": "dsh-bili-scroll",
+        "description": "DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你",
+        "homepage": "https://github.com/c1overzz/dsh-bili-scroll#readme",
+        "repository": {
+          "url": "https://github.com/c1overzz/dsh-bili-scroll"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "bilibili",
+            "mcp",
+            "duty"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1792251306,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "752934f3bb69dde0ab701be8e80f2e727881aed4356de70c1d92e03bc1781db3",
+      "evidence": [
+        {
+          "name": "dsh-bili-scroll",
+          "version": "0.1.7",
+          "tarball": "https://registry.npmjs.org/dsh-bili-scroll/-/dsh-bili-scroll-0.1.7.tgz",
+          "integrity": "sha512-yeDAnMpfYwlQZwPu8ltch7wZEZM2Ytara+LFlIUXP+JNlAvNDRHKfIpszywoJ0719aKY4oWj3II6gh7aSd1ViQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-bili-scroll@0.1.7",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bili-scroll",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/c1overzz/dsh-bili-scroll",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/c1overzz/dsh-bili-scroll",
+    "commit": "afedbbd9c7a288247b62c39b8b5aa2a55f244616",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:19.466Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:09.339Z",
+  "contentReviewFlags": []
+}

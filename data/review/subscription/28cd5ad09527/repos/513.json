@@ -1,0 +1,95 @@
+{
+  "full_name": "Sutera-Diffusus/dsh-whale-musume",
+  "originalPosition": 442,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Sutera-Diffusus/dsh-whale-musume"
+  ],
+  "manualNote": null,
+  "ordinal": 513,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:35.405Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3b98c626a273aa61352f0b4cff08e9ee04f5ff03e0da38231e8b33c56e8cace0",
+      "url": "https://github.com/Sutera-Diffusus/dsh-whale-musume/blob/7d9c4cd6fb56f9135f6874d995e1f4e57e3d2622/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+          "command": "dsh plugin --profile web add github:Sutera-Diffusus/dsh-whale-musume",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+          "command": "dsh plugin add github:Sutera-Diffusus/dsh-whale-musume",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Sutera-Diffusus/dsh-whale-musume/blob/7d9c4cd6fb56f9135f6874d995e1f4e57e3d2622/README.en.md",
+      "sha256": "75cbaa9860b95223778c87de7d3ab36edacafa97db37f3c307f15194db1a81a8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+          "command": "dsh plugin --profile web add github:Sutera-Diffusus/dsh-whale-musume",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+          "command": "dsh plugin add github:Sutera-Diffusus/dsh-whale-musume",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-musume",
+      "version": "2.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+        "commit": "7d9c4cd6fb56f9135f6874d995e1f4e57e3d2622"
+      },
+      "manifestSha256": "367ce720e92ab6fd30b63e063255a7cd6d2288e66e0c8ff95fa5ae374db3f123",
+      "manifestUrl": "https://github.com/Sutera-Diffusus/dsh-whale-musume/blob/7d9c4cd6fb56f9135f6874d995e1f4e57e3d2622/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+    "commit": "7d9c4cd6fb56f9135f6874d995e1f4e57e3d2622",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:42.805Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:12.092Z",
+  "coverageReviewedAt": "2026-10-17T17:12:30.041Z",
+  "contentReviewFlags": []
+}

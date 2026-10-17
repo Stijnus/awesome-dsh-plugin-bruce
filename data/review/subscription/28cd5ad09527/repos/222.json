@@ -1,0 +1,85 @@
+{
+  "full_name": "FishBottle7/opencode2dsh",
+  "originalPosition": 48,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@opencode2dsh/dsh-plugin"
+  ],
+  "manualNote": null,
+  "ordinal": 222,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:55.832Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "41aaad82754112dbe3cfe6e51c5c9aa5c79044a3b3962500d08f5d1174450020",
+      "url": "https://github.com/FishBottle7/opencode2dsh/blob/06a702931abcb7505147e848bf817f577f1cd577/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@opencode2dsh/dsh-plugin",
+          "command": "dsh plugin --profile web add @opencode2dsh/dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "10e401b02b19aa6122c964554117ea3744ad973f1cef13bd4ec3a9649d3f959b",
+      "url": "https://github.com/FishBottle7/opencode2dsh/blob/06a702931abcb7505147e848bf817f577f1cd577/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@opencode2dsh/dsh-plugin",
+          "command": "dsh plugin --profile web add @opencode2dsh/dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "opencode2dsh",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FishBottle7/opencode2dsh",
+        "commit": "06a702931abcb7505147e848bf817f577f1cd577"
+      },
+      "manifestSha256": "5da0b679471a4d6cc437e9ccb288d92dac634fcf8980d17207cc0a00b9dac9cb",
+      "manifestUrl": "https://github.com/FishBottle7/opencode2dsh/blob/06a702931abcb7505147e848bf817f577f1cd577/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@opencode2dsh/dsh-plugin",
+      "origin": "npm",
+      "name": "@opencode2dsh/dsh-plugin",
+      "version": "0.3.12",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a9ba5fc5412ecdba456337409c0ba137033c3f21e5912144d168bb566823cc87"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FishBottle7/opencode2dsh",
+    "commit": "06a702931abcb7505147e848bf817f577f1cd577",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:05.731Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.762Z",
+  "contentReviewFlags": []
+}

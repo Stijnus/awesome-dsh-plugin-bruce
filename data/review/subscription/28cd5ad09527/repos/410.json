@@ -1,0 +1,126 @@
+{
+  "full_name": "zeng6125-rgb/dsh-llm-retry-settings",
+  "originalPosition": 300,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/zeng6125-rgb/dsh-llm-retry-settings",
+    "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.12/dsh-llm-retry-settings-0.1.12.tgz"
+  ],
+  "manualNote": null,
+  "ordinal": 410,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:33.678Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "38ea35367b341ec7427cba0270ca1349fff1d19c29a10618ea2523fba8254733",
+      "url": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/blob/c9db2a15487ed17f11bc8ace3caa6b563683f208/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings",
+          "command": "dsh plugin --profile web add github:zeng6125-rgb/dsh-llm-retry-settings",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.18/dsh-llm-retry-settings-0.1.18.tgz",
+          "command": "dsh plugin --profile web add https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.18/dsh-llm-retry-settings-0.1.18.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "382ba87e6ae961310a69570eb92b9d7d7026c967c258217148bfb42f95b676be",
+      "url": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/blob/c9db2a15487ed17f11bc8ace3caa6b563683f208/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings",
+          "command": "dsh plugin --profile web add github:zeng6125-rgb/dsh-llm-retry-settings",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.18/dsh-llm-retry-settings-0.1.18.tgz",
+          "command": "dsh plugin --profile web add https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.18/dsh-llm-retry-settings-0.1.18.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-retry-settings",
+      "version": "0.1.18",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings",
+        "commit": "c9db2a15487ed17f11bc8ace3caa6b563683f208"
+      },
+      "manifestSha256": "9f3b7f44206ef10e26cff6859aa38aa027cdf16de2cf53678e4f1593e1c31291",
+      "manifestUrl": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/blob/c9db2a15487ed17f11bc8ace3caa6b563683f208/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-alpha.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-llm-retry-settings",
+        "versions": [
+          {
+            "version": "0.1.18",
+            "publishTimestamp": 1792173508,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings",
+              "commit": "c9db2a15487ed17f11bc8ace3caa6b563683f208"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.12/dsh-llm-retry-settings-0.1.12.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.18/dsh-llm-retry-settings-0.1.18.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.12/dsh-llm-retry-settings-0.1.12.tgz",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.18/dsh-llm-retry-settings-0.1.18.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings",
+    "commit": "c9db2a15487ed17f11bc8ace3caa6b563683f208",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:00:42.802Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:21.178Z",
+  "contentReviewFlags": []
+}

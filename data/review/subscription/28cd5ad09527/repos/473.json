@@ -1,0 +1,145 @@
+{
+  "full_name": "liceses/dsh-memes-reply",
+  "originalPosition": 390,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/liceses/dsh-memes-reply#e6e551e1867e4e6554af8e529c272631bd925d4a"
+  ],
+  "manualNote": null,
+  "ordinal": 473,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:20.742Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e47c88807e49312d4e90aa921fced67cb84d6722c1ad8ecde2bccea18bf4131d",
+      "url": "https://github.com/liceses/dsh-memes-reply/blob/e6e551e1867e4e6554af8e529c272631bd925d4a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/liceses/dsh-memes-reply",
+          "command": "dsh plugin --profile web add github:liceses/dsh-memes-reply",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-memes-reply",
+          "command": "dsh plugin --profile web add dsh-memes-reply",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memes-reply",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liceses/dsh-memes-reply",
+        "commit": "e6e551e1867e4e6554af8e529c272631bd925d4a"
+      },
+      "manifestSha256": "81b714e64f9919daff7a3919281a3279810b3ee87d9423e7db5c6f4323862901",
+      "manifestUrl": "https://github.com/liceses/dsh-memes-reply/blob/e6e551e1867e4e6554af8e529c272631bd925d4a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1 <0.3",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-memes-reply",
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1791378991,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liceses/dsh-memes-reply",
+              "commit": "e6e551e1867e4e6554af8e529c272631bd925d4a"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/liceses/dsh-memes-reply#e6e551e1867e4e6554af8e529c272631bd925d4a",
+      "origin": "git_target",
+      "name": "dsh-memes-reply",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-memes-reply",
+        "title": "dsh-memes-reply",
+        "description": "蓝色大肥鱼表情包回复插件：模型按语境在回复里贴一张会动的大肥鱼，配置面板画在插件管理页里本插件自己的页面上（预览墙 + 下一轮指定）。素材经插件自有 HTTP 路由直出，不经过附件流水线（那会把动画压成静图）。",
+        "homepage": "https://github.com/liceses/dsh-memes-reply#readme",
+        "repository": {
+          "url": "https://github.com/liceses/dsh-memes-reply"
+        },
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1791378991,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liceses/dsh-memes-reply",
+              "commit": "e6e551e1867e4e6554af8e529c272631bd925d4a"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "e6e551e1867e4e6554af8e529c272631bd925d4a",
+          "name": "dsh-memes-reply",
+          "version": "0.1.4",
+          "url": "https://github.com/liceses/dsh-memes-reply",
+          "manifestSha256": "81b714e64f9919daff7a3919281a3279810b3ee87d9423e7db5c6f4323862901",
+          "publishTimestamp": 1791378991
+        }
+      ]
+    },
+    {
+      "target": "dsh-memes-reply",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/liceses/dsh-memes-reply#e6e551e1867e4e6554af8e529c272631bd925d4a",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/liceses/dsh-memes-reply",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-memes-reply",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liceses/dsh-memes-reply",
+    "commit": "e6e551e1867e4e6554af8e529c272631bd925d4a",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:02:33.174Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:26.306Z",
+  "contentReviewFlags": []
+}

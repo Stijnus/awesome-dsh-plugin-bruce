@@ -1,0 +1,158 @@
+{
+  "full_name": "Devin-AXIS/deepseek-design",
+  "originalPosition": 13,
+  "inputMode": "command",
+  "mappedTargets": [
+    "deepseek-idesign"
+  ],
+  "manualNote": null,
+  "ordinal": 195,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:15.920Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d27768742292da3b021ff2dcf739fec82a9006764cacc26ec6aae0b39164026d",
+      "url": "https://github.com/Devin-AXIS/deepseek-design/blob/62ee529e84423ba63e823b23860293a43b6eb03b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-idesign",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add deepseek-idesign",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-idesign",
+      "version": "0.2.2",
+      "path": "packages/deepseek-idesign",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Devin-AXIS/deepseek-design",
+        "commit": "62ee529e84423ba63e823b23860293a43b6eb03b",
+        "path": "packages/deepseek-idesign"
+      },
+      "manifestSha256": "6ba7e9de3dfc5fe018215fa760c3940cd4138bbf79bdefe8cdc2ad323f745d63",
+      "manifestUrl": "https://github.com/Devin-AXIS/deepseek-design/blob/62ee529e84423ba63e823b23860293a43b6eb03b/packages/deepseek-idesign/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-ippt",
+      "version": "0.1.2",
+      "path": "packages/deepseek-ippt",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Devin-AXIS/deepseek-design",
+        "commit": "62ee529e84423ba63e823b23860293a43b6eb03b",
+        "path": "packages/deepseek-ippt"
+      },
+      "manifestSha256": "df8eaaf7d771d3c36ebb304eb5250f163923118d5f5847ed02ef9a9fca86b373",
+      "manifestUrl": "https://github.com/Devin-AXIS/deepseek-design/blob/62ee529e84423ba63e823b23860293a43b6eb03b/packages/deepseek-ippt/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-ivideo",
+      "version": "0.5.0",
+      "path": "packages/deepseek-ivideo",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Devin-AXIS/deepseek-design",
+        "commit": "62ee529e84423ba63e823b23860293a43b6eb03b",
+        "path": "packages/deepseek-ivideo"
+      },
+      "manifestSha256": "01ea7ea9cb8e65589a0af7d270612dee87a602f318e6a5f804bdb7ff089cf37c",
+      "manifestUrl": "https://github.com/Devin-AXIS/deepseek-design/blob/62ee529e84423ba63e823b23860293a43b6eb03b/packages/deepseek-ivideo/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-idesign",
+      "version": "0.2.2",
+      "path": "source/plugins/deepseek-idesign",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Devin-AXIS/deepseek-design",
+        "commit": "62ee529e84423ba63e823b23860293a43b6eb03b",
+        "path": "source/plugins/deepseek-idesign"
+      },
+      "manifestSha256": "1f0ff0278a4faa795bc5f2bf9eac41c7b1a316eeb3dbc218006474e21dfb34e9",
+      "manifestUrl": "https://github.com/Devin-AXIS/deepseek-design/blob/62ee529e84423ba63e823b23860293a43b6eb03b/source/plugins/deepseek-idesign/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-ippt",
+      "version": "0.1.2",
+      "path": "source/plugins/deepseek-ippt",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Devin-AXIS/deepseek-design",
+        "commit": "62ee529e84423ba63e823b23860293a43b6eb03b",
+        "path": "source/plugins/deepseek-ippt"
+      },
+      "manifestSha256": "bdba0e602b5bf0cccfa914853027667f19cad766056081b6210896fabb16618a",
+      "manifestUrl": "https://github.com/Devin-AXIS/deepseek-design/blob/62ee529e84423ba63e823b23860293a43b6eb03b/source/plugins/deepseek-ippt/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-ivideo",
+      "version": "0.5.0",
+      "path": "source/plugins/deepseek-ivideo",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Devin-AXIS/deepseek-design",
+        "commit": "62ee529e84423ba63e823b23860293a43b6eb03b",
+        "path": "source/plugins/deepseek-ivideo"
+      },
+      "manifestSha256": "ff7da3a81161e6a91a57e882b2a486c1209c5e060f0a27c8faa63690197165b4",
+      "manifestUrl": "https://github.com/Devin-AXIS/deepseek-design/blob/62ee529e84423ba63e823b23860293a43b6eb03b/source/plugins/deepseek-ivideo/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "deepseek-idesign",
+      "origin": "npm",
+      "name": "deepseek-idesign",
+      "version": "0.2.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9840e713fb62ed6165c2ebcaf56d79fe1ed354fd1704d85c761e0b29d9f3e59f"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Devin-AXIS/deepseek-design",
+    "commit": "62ee529e84423ba63e823b23860293a43b6eb03b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:36.285Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.865Z",
+  "contentReviewFlags": []
+}

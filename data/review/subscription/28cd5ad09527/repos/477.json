@@ -1,0 +1,81 @@
+{
+  "full_name": "omdsh-dev/dsh-open-in-vscode",
+  "originalPosition": 396,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/omdsh-dev/dsh-open-in-vscode/archive/refs/tags/v0.1.6.tar.gz"
+  ],
+  "manualNote": null,
+  "ordinal": 477,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:28.706Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ecc21f29b13cd09a543cefcc7addbc4bd374f91db39a9a9dd93f6285e39fecef",
+      "url": "https://github.com/omdsh-dev/dsh-open-in-vscode/blob/8aed144abdc158a332aa73bce42fc217d962f751/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-open-in-vscode/archive/refs/tags/v0.1.6.tar.gz",
+          "command": "dsh plugin --profile web add https://github.com/omdsh-dev/dsh-open-in-vscode/archive/refs/tags/v0.1.6.tar.gz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3fe681977d9560c19cc388e8621d9380c0a412638320c2211330cd19c0506847",
+      "url": "https://github.com/omdsh-dev/dsh-open-in-vscode/blob/8aed144abdc158a332aa73bce42fc217d962f751/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-open-in-vscode/archive/refs/tags/v0.1.6.tar.gz",
+          "command": "dsh plugin --profile web add https://github.com/omdsh-dev/dsh-open-in-vscode/archive/refs/tags/v0.1.6.tar.gz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-open-in-vscode",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-open-in-vscode",
+        "commit": "8aed144abdc158a332aa73bce42fc217d962f751"
+      },
+      "manifestSha256": "c75d1c81168a5698a297826fb4baac4be593e1cbd7228cd7211954d0b97b6c3d",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode/blob/8aed144abdc158a332aa73bce42fc217d962f751/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/omdsh-dev/dsh-open-in-vscode/archive/refs/tags/v0.1.6.tar.gz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-open-in-vscode",
+    "commit": "8aed144abdc158a332aa73bce42fc217d962f751",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:38.382Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:26.840Z",
+  "contentReviewFlags": []
+}

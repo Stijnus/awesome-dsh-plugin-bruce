@@ -2,7 +2,11 @@
 import { npmTarball } from './vendor/fetchers.ts'
 import { isBundle } from './vendor/packages.ts'
 import { readDisplayMetadata } from './vendor/metadata.ts'
-export async function verifyNpmPlugin(plugin, packument) {
+export async function verifyNpmPlugin(
+  plugin,
+  packument,
+  limits = { timeoutMs: 60000, maxTarballBytes: 64 * 1024 * 1024 },
+) {
   const diagnostics = [],
     evidence = []
   let highest
@@ -12,7 +16,7 @@ export async function verifyNpmPlugin(plugin, packument) {
       plugin.name,
       version.version,
       registryManifest.dist,
-      { timeoutMs: 60000, maxTarballBytes: 64 * 1024 * 1024 },
+      limits,
     )
     if (!isBundle(manifest) || manifest.engines?.dsh !== version.engines.dsh)
       throw Error(

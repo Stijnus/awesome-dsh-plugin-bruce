@@ -1,0 +1,72 @@
+{
+  "full_name": "dickpy/dsh-imagegen",
+  "originalPosition": 143,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@dickpy/dsh-imagegen"
+  ],
+  "manualNote": null,
+  "ordinal": 301,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:35.295Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c9b92faaa43a6cee1213464d8a40740aade09abddcffd41a64e2aa251ee8650b",
+      "url": "https://github.com/dickpy/dsh-imagegen/blob/d95e46071cec5af72fb7217ea14e1cf9b5ca7c00/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dickpy/dsh-imagegen",
+          "command": "dsh plugin --profile web add @dickpy/dsh-imagegen",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dickpy/dsh-imagegen",
+      "version": "1.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dickpy/dsh-imagegen",
+        "commit": "d95e46071cec5af72fb7217ea14e1cf9b5ca7c00"
+      },
+      "manifestSha256": "a972d3a11fcaa70e7d66be397e97c48feaba8650cca3f0e4654958c9adce30e3",
+      "manifestUrl": "https://github.com/dickpy/dsh-imagegen/blob/d95e46071cec5af72fb7217ea14e1cf9b5ca7c00/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@dickpy/dsh-imagegen",
+      "origin": "npm",
+      "name": "@dickpy/dsh-imagegen",
+      "version": "1.7.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9c97c7b01e2ec7c10aa31897fd54601e38de0628f15caab63accdb602def1948"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dickpy/dsh-imagegen",
+    "commit": "d95e46071cec5af72fb7217ea14e1cf9b5ca7c00",
+    "releaseTags": 47,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:43.168Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.929Z",
+  "contentReviewFlags": []
+}

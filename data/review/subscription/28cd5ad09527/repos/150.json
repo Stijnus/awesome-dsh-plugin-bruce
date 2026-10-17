@@ -1,0 +1,91 @@
+{
+  "full_name": "Rinai-R/kivotos",
+  "originalPosition": 580,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 150,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:42.547Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "60cdaee95dd98dd19e63b9a2a50a1c8da0ba4efaad806c2dd2c253a8487760fd",
+      "url": "https://github.com/Rinai-R/kivotos/blob/0484c093a3837a2669f12c1799e78482ace41bba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "kivotos",
+          "command": "dsh plugin --profile web add kivotos",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b72efc608e106237fd9fa427b87ae6977e80c3e71edede22093b6dbd81b2f4a2",
+      "url": "https://github.com/Rinai-R/kivotos/blob/0484c093a3837a2669f12c1799e78482ace41bba/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "kivotos",
+          "command": "dsh plugin --profile web add kivotos",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "kivotos",
+      "version": "0.1.8",
+      "path": "packages/kivotos",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Rinai-R/kivotos",
+        "commit": "0484c093a3837a2669f12c1799e78482ace41bba",
+        "path": "packages/kivotos"
+      },
+      "manifestSha256": "a4bf3aa96e0b6ccc06a5c0e1337327ea0e7ef8ad6ea384eb9bda9d38f0fcaa42",
+      "manifestUrl": "https://github.com/Rinai-R/kivotos/blob/0484c093a3837a2669f12c1799e78482ace41bba/packages/kivotos/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "kivotos",
+      "origin": "npm",
+      "name": "kivotos",
+      "version": "0.1.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "6ac003198f1c0a6a535b72c9a4ab07a7d1c78a3db685292a4a64a620d3d758cb"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "kivotos",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Rinai-R/kivotos",
+    "commit": "0484c093a3837a2669f12c1799e78482ace41bba",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:54.984Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.934Z",
+  "contentReviewFlags": []
+}

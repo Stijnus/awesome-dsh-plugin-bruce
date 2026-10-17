@@ -1,0 +1,86 @@
+{
+  "full_name": "ZSeven-W/dsh-harbor",
+  "originalPosition": 191,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@zseven-w/dsh-harbor@next"
+  ],
+  "manualNote": null,
+  "ordinal": 338,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:14.633Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8627679fd9a2482a4f22cfebac797821b7a908c89f5cb721f98d7d2c397df583",
+      "url": "https://github.com/ZSeven-W/dsh-harbor/blob/306be016e44177efb806b1ec429ea77c2dff5418/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-harbor@next",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-harbor@next",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2cc63455b6c4309f60c8d1cefa7a3c8c5993b6ce9fb9505cb1387f9b0adaa203",
+      "url": "https://github.com/ZSeven-W/dsh-harbor/blob/306be016e44177efb806b1ec429ea77c2dff5418/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-harbor@next",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-harbor@next",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zseven-w/dsh-harbor",
+      "version": "0.1.0-rc.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZSeven-W/dsh-harbor",
+        "commit": "306be016e44177efb806b1ec429ea77c2dff5418"
+      },
+      "manifestSha256": "adf2706ad593013a8cf9a23be6bd59047c21f6f274eae58e7ed27bf4e0b44227",
+      "manifestUrl": "https://github.com/ZSeven-W/dsh-harbor/blob/306be016e44177efb806b1ec429ea77c2dff5418/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zseven-w/dsh-harbor@next",
+      "origin": "npm",
+      "name": "@zseven-w/dsh-harbor",
+      "version": "0.1.0-rc.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "fab2d86248b6e1a6e07865c75d2e3d2ab879aa8dfb3db4c73686408283f05a89"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZSeven-W/dsh-harbor",
+    "commit": "306be016e44177efb806b1ec429ea77c2dff5418",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:24.712Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.293Z",
+  "contentReviewFlags": []
+}

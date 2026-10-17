@@ -1,0 +1,118 @@
+{
+  "full_name": "aa2246740/dsh-better-display",
+  "originalPosition": 408,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/aa2246740/dsh-better-display#v0.3.3"
+  ],
+  "manualNote": null,
+  "ordinal": 487,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:48.022Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "437736e5983ac090d1faab6ca76647952ab0badab937a787e4680c19e16cbd30",
+      "url": "https://github.com/aa2246740/dsh-better-display/blob/82d6aa862ad055a487f18435b543d7283adea560/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/aa2246740/dsh-better-display#v0.3.6",
+          "command": "dsh plugin --profile web add github:aa2246740/dsh-better-display#v0.3.6",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/aa2246740/dsh-better-display/blob/82d6aa862ad055a487f18435b543d7283adea560/README.en.md",
+      "sha256": "01d25af9b4cd43af13161587d88d9792c2b7d51c8c3269896e3dd211d6bed1e1",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/aa2246740/dsh-better-display#v0.3.6",
+          "command": "dsh plugin --profile web add github:aa2246740/dsh-better-display#v0.3.6",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-display",
+      "version": "0.3.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aa2246740/dsh-better-display",
+        "commit": "82d6aa862ad055a487f18435b543d7283adea560"
+      },
+      "manifestSha256": "65447390cb77f5a4a17e9832984ee1a021878bbabcbbf5778558de05074df899",
+      "manifestUrl": "https://github.com/aa2246740/dsh-better-display/blob/82d6aa862ad055a487f18435b543d7283adea560/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/aa2246740/dsh-better-display#v0.3.3",
+      "origin": "git_target",
+      "path": "",
+      "commit": "e1822e84f14a16f3b8baad8b5d37017b3f1d3b6e",
+      "name": "dsh-better-display",
+      "version": "0.3.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/aa2246740/dsh-better-display#v0.3.6",
+      "origin": "git_target",
+      "path": "",
+      "commit": "596688670b067226ba2a6bf30a826b347d447bf9",
+      "name": "dsh-better-display",
+      "version": "0.3.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/aa2246740/dsh-better-display#v0.3.3",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/aa2246740/dsh-better-display#v0.3.6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aa2246740/dsh-better-display",
+    "commit": "82d6aa862ad055a487f18435b543d7283adea560",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:10.047Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:10.545Z",
+  "coverageReviewedAt": "2026-10-17T17:12:28.852Z",
+  "contentReviewFlags": []
+}

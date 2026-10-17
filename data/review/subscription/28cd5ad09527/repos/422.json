@@ -1,0 +1,91 @@
+{
+  "full_name": "BeforeWave/dsh-with-chatgpt",
+  "originalPosition": 316,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@beforewave/dsh-with-chatgpt"
+  ],
+  "manualNote": null,
+  "ordinal": 422,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:52.448Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "15dd2edb29a0b536837e7e00783a806e0aedc70dc3452abc73c4d87b555f541a",
+      "url": "https://github.com/BeforeWave/dsh-with-chatgpt/blob/72dcc97f336aaeef3c64b25cba9269b52c24ea0b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@beforewave/dsh-with-chatgpt",
+          "command": "dsh plugin --profile web add @beforewave/dsh-with-chatgpt",
+          "profile": "web"
+        },
+        {
+          "install": "@beforewave/dsh-with-chatgpt@0.1.4",
+          "command": "dsh plugin --profile web add @beforewave/dsh-with-chatgpt@0.1.4",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@beforewave/dsh-with-chatgpt",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BeforeWave/dsh-with-chatgpt",
+        "commit": "72dcc97f336aaeef3c64b25cba9269b52c24ea0b"
+      },
+      "manifestSha256": "13e600298d8c2d87fdd43c68d59f941521a78e129fe9e037156ebd7fb231df00",
+      "manifestUrl": "https://github.com/BeforeWave/dsh-with-chatgpt/blob/72dcc97f336aaeef3c64b25cba9269b52c24ea0b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@beforewave/dsh-with-chatgpt",
+      "origin": "npm",
+      "name": "@beforewave/dsh-with-chatgpt",
+      "version": "0.1.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "82b13a774d8fa6663379574fc7e737b505587aecc0febde94486f47c868e4b45"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@beforewave/dsh-with-chatgpt",
+      "version": "0.1.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@beforewave/dsh-with-chatgpt@0.1.4",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BeforeWave/dsh-with-chatgpt",
+    "commit": "72dcc97f336aaeef3c64b25cba9269b52c24ea0b",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:00.840Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:22.474Z",
+  "contentReviewFlags": []
+}

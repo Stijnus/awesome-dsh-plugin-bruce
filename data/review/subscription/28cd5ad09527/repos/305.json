@@ -1,0 +1,86 @@
+{
+  "full_name": "yj-liuzepeng/dsh-project-brain",
+  "originalPosition": 147,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/yj-liuzepeng/dsh-project-brain#v0.7.0-beta.2"
+  ],
+  "manualNote": null,
+  "ordinal": 305,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:44.310Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e7ca8b84724945a9f316716d8f3d5ad8324b490bc1bea6ace222533821f5984b",
+      "url": "https://github.com/yj-liuzepeng/dsh-project-brain/blob/978c2b6938f44e45ddd30a6bfbd45c6bec951cea/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yj-liuzepeng/dsh-project-brain#v0.7.0-beta.2",
+          "command": "dsh plugin --profile web add github:yj-liuzepeng/dsh-project-brain#v0.7.0-beta.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "5b9bebc43842d6e8f17ea14794cf9149183ae6aa8257c9e2192e7c5a62964d9c",
+      "url": "https://github.com/yj-liuzepeng/dsh-project-brain/blob/978c2b6938f44e45ddd30a6bfbd45c6bec951cea/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yj-liuzepeng/dsh-project-brain#v0.7.0-beta.2",
+          "command": "dsh plugin --profile web add github:yj-liuzepeng/dsh-project-brain#v0.7.0-beta.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-project-brain",
+      "version": "1.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yj-liuzepeng/dsh-project-brain",
+        "commit": "978c2b6938f44e45ddd30a6bfbd45c6bec951cea"
+      },
+      "manifestSha256": "ed09ff475119a4a54b440feb63b7bc13c53f6398b735a2d5b7d39a796d263b3f",
+      "manifestUrl": "https://github.com/yj-liuzepeng/dsh-project-brain/blob/978c2b6938f44e45ddd30a6bfbd45c6bec951cea/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/yj-liuzepeng/dsh-project-brain#v0.7.0-beta.2",
+      "origin": "git_target",
+      "path": "",
+      "commit": "b39fcfd30b0de8696a9ae0d925a95cf4c0f615d6",
+      "name": "dsh-project-brain",
+      "version": "0.7.0-beta.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yj-liuzepeng/dsh-project-brain",
+    "commit": "978c2b6938f44e45ddd30a6bfbd45c6bec951cea",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:00.577Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:13.148Z",
+  "contentReviewFlags": []
+}

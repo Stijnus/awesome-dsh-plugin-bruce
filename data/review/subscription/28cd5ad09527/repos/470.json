@@ -1,0 +1,78 @@
+{
+  "full_name": "Roarpeng/GraphFlow",
+  "originalPosition": 387,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@roarpeng/graphflow",
+    "https://github.com/Roarpeng/GraphFlow"
+  ],
+  "manualNote": null,
+  "ordinal": 470,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:13.607Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e8259dc6635162b65c0cfbe5811f2e2f16eec693ad6504bcbe53d3f177a1ce08",
+      "url": "https://github.com/Roarpeng/GraphFlow/blob/7ed06a58e513d55d352198adb93139bca1af2e72/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7891d45053ce1b3097e4e745781c809a3804b99cd228714d5766ba1a34c5046c",
+      "url": "https://github.com/Roarpeng/GraphFlow/blob/7ed06a58e513d55d352198adb93139bca1af2e72/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "target": "@roarpeng/graphflow",
+      "origin": "npm",
+      "name": "@roarpeng/graphflow",
+      "version": "3.3.0",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "b4b3929fe281d97936563dd83dcce5f1afe943e5c2f2ae074189620c14b6b384"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@roarpeng/graphflow",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Roarpeng/GraphFlow",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Roarpeng/GraphFlow",
+    "commit": "7ed06a58e513d55d352198adb93139bca1af2e72",
+    "releaseTags": 135,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@roarpeng/graphflow",
+    "version": "3.3.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-10-17T17:02:26.391Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:26.295Z",
+  "contentReviewFlags": []
+}

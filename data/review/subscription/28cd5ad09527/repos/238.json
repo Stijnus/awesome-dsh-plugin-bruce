@@ -1,0 +1,206 @@
+{
+  "full_name": "weijiafu14/pi2dsh",
+  "originalPosition": 68,
+  "inputMode": "command",
+  "mappedTargets": [
+    "pi2dsh",
+    "pi2dsh",
+    "pi2dsh"
+  ],
+  "manualNote": null,
+  "ordinal": 238,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:29.798Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dbe243b6cea52896a3439454f9824d7251079fd34e0e11375357a4e25fb6493d",
+      "url": "https://github.com/weijiafu14/pi2dsh/blob/66b60664b8499927ce9d02edb3d4e478adb0c61e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "pi2dsh",
+          "command": "dsh plugin add pi2dsh",
+          "profile": "default"
+        },
+        {
+          "install": "pi2dsh",
+          "command": "dsh plugin --profile web add pi2dsh",
+          "profile": "web"
+        },
+        {
+          "install": "pi2dsh",
+          "command": "dsh plugin --profile dsh-tui add pi2dsh",
+          "profile": "dsh-tui"
+        },
+        {
+          "install": "pi2dsh",
+          "command": "dsh plugin --profile pi-tui add pi2dsh pi-mcp-adapter @tintinweb/pi-subagents",
+          "profile": "pi-tui"
+        },
+        {
+          "install": "pi2dsh@latest",
+          "command": "dsh plugin add pi2dsh@latest",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "dc76bde006565c458a039ded779722afabe36c2a0fcad275c39057c3844f8717",
+      "url": "https://github.com/weijiafu14/pi2dsh/blob/66b60664b8499927ce9d02edb3d4e478adb0c61e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "pi2dsh",
+          "command": "dsh plugin add pi2dsh",
+          "profile": "default"
+        },
+        {
+          "install": "pi2dsh",
+          "command": "dsh plugin --profile web add pi2dsh",
+          "profile": "web"
+        },
+        {
+          "install": "pi2dsh",
+          "command": "dsh plugin --profile dsh-tui add pi2dsh",
+          "profile": "dsh-tui"
+        },
+        {
+          "install": "pi2dsh@latest",
+          "command": "dsh plugin add pi2dsh@latest",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "community/release-0.26.0/README.md",
+      "url": "https://github.com/weijiafu14/pi2dsh/blob/66b60664b8499927ce9d02edb3d4e478adb0c61e/community/release-0.26.0/README.md",
+      "sha256": "d6ade596e8f1eeddc68deb72e6266f2a4316b87aa2f5f4c6fb38f536c1744b9a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "pi2dsh@0.26.0",
+          "command": "dsh plugin --profile web add pi2dsh@0.26.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "community/release-0.25.2/README.md",
+      "url": "https://github.com/weijiafu14/pi2dsh/blob/66b60664b8499927ce9d02edb3d4e478adb0c61e/community/release-0.25.2/README.md",
+      "sha256": "f8d82aec6fa98b700780c2a9e7b049c0f120d1fd8ed076863eebc85a846333eb",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/capabilities/README.md",
+      "url": "https://github.com/weijiafu14/pi2dsh/blob/66b60664b8499927ce9d02edb3d4e478adb0c61e/docs/capabilities/README.md",
+      "sha256": "0b931ac5c416f7cbe6e549b426b10f2da911073eb85a63a69b2b7fd9956fe00f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "pi2dsh",
+      "version": "0.26.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weijiafu14/pi2dsh",
+        "commit": "66b60664b8499927ce9d02edb3d4e478adb0c61e"
+      },
+      "manifestSha256": "d7bd295b690e770ecfbf7d24f79f0c34792083a8acd9222e17535654e02607c0",
+      "manifestUrl": "https://github.com/weijiafu14/pi2dsh/blob/66b60664b8499927ce9d02edb3d4e478adb0c61e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "pi2dsh",
+      "origin": "npm",
+      "name": "pi2dsh",
+      "version": "0.26.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3d3c03e994e51c1594eefc60f77fb11d45e8841586f4301ba45c99ee0dc492e1"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "pi2dsh",
+      "version": "0.26.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "pi2dsh",
+      "version": "0.26.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "pi2dsh@0.26.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "pi2dsh@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/weijiafu14/pi2dsh",
+    "commit": "66b60664b8499927ce9d02edb3d4e478adb0c61e",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:39.816Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "community/release-0.26.0/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "community/release-0.25.2/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/capabilities/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "community/release-0.26.0/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "community/release-0.25.2/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/capabilities/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:57.556Z",
+  "coverageReviewedAt": "2026-10-17T17:12:10.778Z",
+  "contentReviewFlags": []
+}

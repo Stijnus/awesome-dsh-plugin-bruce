@@ -1,0 +1,70 @@
+{
+  "full_name": "Across2005/harness-self-evolution-plugin",
+  "originalPosition": 584,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 153,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:48.283Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0d886598ea4a718d05d9edaf190a4fcd1e034e7394e1d45e6a4ca7d0d673026d",
+      "url": "https://github.com/Across2005/harness-self-evolution-plugin/blob/167d15d6dbcc80ff1cd5571c632add1bd1fac6af/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@across2005/harness-self-evolution",
+      "version": "3.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Across2005/harness-self-evolution-plugin",
+        "commit": "167d15d6dbcc80ff1cd5571c632add1bd1fac6af"
+      },
+      "manifestSha256": "6762692e2f3d0a44fcd7bc7b9ef79c309a81935d75f5820f61361ab7df929038",
+      "manifestUrl": "https://github.com/Across2005/harness-self-evolution-plugin/blob/167d15d6dbcc80ff1cd5571c632add1bd1fac6af/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.2 <0.1.6 || >=0.1.6-alpha.1 <0.2.0",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@across2005/harness-self-evolution",
+        "versions": [
+          {
+            "version": "3.2.3",
+            "publishTimestamp": 1790745496,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Across2005/harness-self-evolution-plugin",
+              "commit": "167d15d6dbcc80ff1cd5571c632add1bd1fac6af"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.1.6 || >=0.1.6-alpha.1 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Across2005/harness-self-evolution-plugin",
+    "commit": "167d15d6dbcc80ff1cd5571c632add1bd1fac6af",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T17:03:55.988Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.119Z",
+  "contentReviewFlags": []
+}

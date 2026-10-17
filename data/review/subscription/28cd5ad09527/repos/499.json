@@ -1,0 +1,97 @@
+{
+  "full_name": "xlight/deepseek-visionary",
+  "originalPosition": 423,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@xlight-oss/visionary-dsh"
+  ],
+  "manualNote": null,
+  "ordinal": 499,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:10.048Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a58549931a21a5e82f5f48221b6f7d07740207270e92a8b611d284e37130eb94",
+      "url": "https://github.com/xlight/deepseek-visionary/blob/ad31672bc99f95f0af8db6377e9dbe8dca7e84d8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xlight-oss/visionary-dsh",
+          "command": "dsh plugin --profile web add @xlight-oss/visionary-dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-plugin/README.md",
+      "url": "https://github.com/xlight/deepseek-visionary/blob/ad31672bc99f95f0af8db6377e9dbe8dca7e84d8/packages/dsh-plugin/README.md",
+      "sha256": "10762f7e3c93b8b6a7d09be3528599c7ba54d7c51e767d84009515ee2645fca0",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xlight-oss/visionary-dsh",
+          "command": "dsh plugin --profile web add @xlight-oss/visionary-dsh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xlight-oss/visionary-dsh",
+      "version": "0.7.3",
+      "path": "packages/dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xlight/deepseek-visionary",
+        "commit": "ad31672bc99f95f0af8db6377e9dbe8dca7e84d8",
+        "path": "packages/dsh-plugin"
+      },
+      "manifestSha256": "a37dfb54132667184bab7d6e5a3a5950b2ad1a08a38e2bc4fa70420bee7f4ce7",
+      "manifestUrl": "https://github.com/xlight/deepseek-visionary/blob/ad31672bc99f95f0af8db6377e9dbe8dca7e84d8/packages/dsh-plugin/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@xlight-oss/visionary-dsh",
+      "origin": "npm",
+      "name": "@xlight-oss/visionary-dsh",
+      "version": "0.7.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8374b1a6d7fd4ce65b2e6d5168fedf0dbd3dfa4f4906ee3158d8a6d0daf0f143"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xlight/deepseek-visionary",
+    "commit": "ad31672bc99f95f0af8db6377e9dbe8dca7e84d8",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:18.281Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "packages/dsh-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-plugin/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:11.576Z",
+  "coverageReviewedAt": "2026-10-17T17:12:29.548Z",
+  "contentReviewFlags": []
+}

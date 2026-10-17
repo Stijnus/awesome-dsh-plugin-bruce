@@ -1,0 +1,61 @@
+{
+  "full_name": "dhicoc/dsh-reverse-skill",
+  "originalPosition": 57,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/dhicoc/dsh-reverse-skill"
+  ],
+  "manualNote": null,
+  "ordinal": 228,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:07.294Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bf3a9d2e444fe6989c70765ba10cfb084ed54995812b2946c9bfbdf04c03d264",
+      "url": "https://github.com/dhicoc/dsh-reverse-skill/blob/f1b61cf3deec370198ae81a23b8512338002d073/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dhicoc/dsh-reverse-skill",
+          "command": "dsh plugin add github:dhicoc/dsh-reverse-skill",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dhicoc/dsh-reverse-skill",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dhicoc/dsh-reverse-skill",
+        "commit": "f1b61cf3deec370198ae81a23b8512338002d073"
+      },
+      "manifestSha256": "fe6b59d104c3bf26beed8569a90853be69c5b736e40253c11d3400bdecaecd32",
+      "manifestUrl": "https://github.com/dhicoc/dsh-reverse-skill/blob/f1b61cf3deec370198ae81a23b8512338002d073/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dhicoc/dsh-reverse-skill",
+    "commit": "f1b61cf3deec370198ae81a23b8512338002d073",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:15.067Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:09.269Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,108 @@
+{
+  "full_name": "sanshanya/better-model-provider",
+  "originalPosition": 543,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/sanshanya/better-model-provider#master"
+  ],
+  "manualNote": null,
+  "ordinal": 576,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:26.777Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "12bdc77bdfbe534e80e317c115abf9f3a274f9bfe9214fc8d33f0d6692d56b7a",
+      "url": "https://github.com/sanshanya/better-model-provider/blob/b2771e35be4dbad33ba732c909b41efc8a55ccc2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "better-model-provider",
+          "command": "dsh plugin --profile web add better-model-provider",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "32d0a51c958e6637fc970a71208d4092c12d820235633ec180a532763a433754",
+      "url": "https://github.com/sanshanya/better-model-provider/blob/b2771e35be4dbad33ba732c909b41efc8a55ccc2/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "better-model-provider",
+          "command": "dsh plugin --profile web add better-model-provider",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "better-model-provider",
+      "version": "0.0.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sanshanya/better-model-provider",
+        "commit": "b2771e35be4dbad33ba732c909b41efc8a55ccc2"
+      },
+      "manifestSha256": "1ea495b45f2996f6db4e8d1d274a054d14afdfdd51b3bc9f69875030e2e045e3",
+      "manifestUrl": "https://github.com/sanshanya/better-model-provider/blob/b2771e35be4dbad33ba732c909b41efc8a55ccc2/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/sanshanya/better-model-provider#master",
+      "origin": "git_target",
+      "path": "",
+      "commit": "ef2181fb783c799e8af9d27e3b0e7cafa79b3b59",
+      "name": "better-model-provider",
+      "version": "0.0.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "better-model-provider",
+      "origin": "npm",
+      "name": "better-model-provider",
+      "version": "0.0.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3bc392db9f441d3e4f7df9036a028ec365a93ddeb6244e1c0c92d3be8639bbe5"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/sanshanya/better-model-provider#master",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "better-model-provider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sanshanya/better-model-provider",
+    "commit": "b2771e35be4dbad33ba732c909b41efc8a55ccc2",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:42.378Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.374Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,85 @@
+{
+  "full_name": "FTShare-Lab/dsh_kline",
+  "originalPosition": 139,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/FTShare-Lab/dsh_kline"
+  ],
+  "manualNote": null,
+  "ordinal": 297,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:27.810Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "17ba7f318b9a0d29fb2543e06987365dcba4dd9a0dd464b1035c3613286d9db7",
+      "url": "https://github.com/FTShare-Lab/dsh_kline/blob/d727206320d884120c4922b0e38464baf48b723f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/FTShare-Lab/dsh_kline",
+          "command": "dsh plugin --profile web add github:FTShare-Lab/dsh_kline",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/FTShare-Lab/dsh_kline/blob/d727206320d884120c4922b0e38464baf48b723f/README.en.md",
+      "sha256": "d09c1bb75e91e690d9542995ffff8499b7bc6504fd3623a717f4f194473f780a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/FTShare-Lab/dsh_kline",
+          "command": "dsh plugin --profile web add github:FTShare-Lab/dsh_kline",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ftshare-lab/dsh-kline",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FTShare-Lab/dsh_kline",
+        "commit": "d727206320d884120c4922b0e38464baf48b723f"
+      },
+      "manifestSha256": "89be356f9135efdc88f6eefa4a3a56ac2f8758d983d4ec2699d9e059c6355076",
+      "manifestUrl": "https://github.com/FTShare-Lab/dsh_kline/blob/d727206320d884120c4922b0e38464baf48b723f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FTShare-Lab/dsh_kline",
+    "commit": "d727206320d884120c4922b0e38464baf48b723f",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:35.079Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:00.256Z",
+  "coverageReviewedAt": "2026-10-17T17:12:13.159Z",
+  "contentReviewFlags": []
+}

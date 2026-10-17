@@ -1,0 +1,86 @@
+{
+  "full_name": "Funny1Potato/dsh-outsourcing-expert",
+  "originalPosition": 424,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 97,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:51.690Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6b153b036d66f184caead8bf4382067b79328cabe3eed76ec703ae8679cb571e",
+      "url": "https://github.com/Funny1Potato/dsh-outsourcing-expert/blob/42cd185d3dd738124f68004ee82d7478311fa2a6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-outsourcing-expert",
+          "command": "dsh plugin --profile <profile> add dsh-outsourcing-expert",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/Funny1Potato/dsh-outsourcing-expert",
+          "command": "dsh plugin --profile <profile> add github:Funny1Potato/dsh-outsourcing-expert",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-outsourcing-expert",
+      "version": "1.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Funny1Potato/dsh-outsourcing-expert",
+        "commit": "42cd185d3dd738124f68004ee82d7478311fa2a6"
+      },
+      "manifestSha256": "839fb558d5daee241973e3df32e75dba039f9e773d4f8842e476e310ecf0f880",
+      "manifestUrl": "https://github.com/Funny1Potato/dsh-outsourcing-expert/blob/42cd185d3dd738124f68004ee82d7478311fa2a6/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-outsourcing-expert",
+      "origin": "npm",
+      "name": "dsh-outsourcing-expert",
+      "version": "1.2.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "2fbc76e120ad29e96e8fddb906efec2499b4f6f327955c9127a8aa5ae80c2c4d"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-outsourcing-expert",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Funny1Potato/dsh-outsourcing-expert",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Funny1Potato/dsh-outsourcing-expert",
+    "commit": "42cd185d3dd738124f68004ee82d7478311fa2a6",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:59.729Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.760Z",
+  "contentReviewFlags": []
+}

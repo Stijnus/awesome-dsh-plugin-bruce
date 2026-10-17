@@ -1,0 +1,113 @@
+{
+  "full_name": "opencues/opencues",
+  "originalPosition": 508,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@opencues/dsh"
+  ],
+  "manualNote": null,
+  "ordinal": 552,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:43.412Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cc1b7d2e603e84d8088a87c9481950fec9258aa30b150728e6344c2ea4b6cb21",
+      "url": "https://github.com/opencues/opencues/blob/55eb0d1ec956dcdcd71bf5bee369fac5e4aae07c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@opencues/dsh",
+          "command": "dsh plugin --profile web add @opencues/dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "integrations/dsh/README.md",
+      "url": "https://github.com/opencues/opencues/blob/55eb0d1ec956dcdcd71bf5bee369fac5e4aae07c/integrations/dsh/README.md",
+      "sha256": "49026b26f672ebe49988238aa2ec803c0eeee45eced59b74d2c51cb4cc5ef6a4",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@opencues/dsh",
+          "command": "dsh plugin --profile web add @opencues/dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/features/README.md",
+      "url": "https://github.com/opencues/opencues/blob/55eb0d1ec956dcdcd71bf5bee369fac5e4aae07c/docs/features/README.md",
+      "sha256": "8ae21f2f99e2c8bb82adf7ff01d19c36ee9371c235bf77a7741935032aa68aeb",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@opencues/dsh",
+      "version": "0.2.21",
+      "path": "integrations/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/opencues/opencues",
+        "commit": "55eb0d1ec956dcdcd71bf5bee369fac5e4aae07c",
+        "path": "integrations/dsh"
+      },
+      "manifestSha256": "44ccf8489b3dc17b9a315f8e2c5630a160b50cce6300382af495278dc119c38f",
+      "manifestUrl": "https://github.com/opencues/opencues/blob/55eb0d1ec956dcdcd71bf5bee369fac5e4aae07c/integrations/dsh/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@opencues/dsh",
+      "origin": "npm",
+      "name": "@opencues/dsh",
+      "version": "0.2.21",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f168ad631abf7aaad1c77c2b47c3e893fc88895a6a3d1f3842c187d05bfe738b"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/opencues/opencues",
+    "commit": "55eb0d1ec956dcdcd71bf5bee369fac5e4aae07c",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:11.866Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "integrations/dsh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/features/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "integrations/dsh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/features/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.352Z",
+  "coverageReviewedAt": "2026-10-17T17:12:32.361Z",
+  "contentReviewFlags": []
+}

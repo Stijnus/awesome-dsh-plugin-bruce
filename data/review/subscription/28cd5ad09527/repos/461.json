@@ -1,0 +1,97 @@
+{
+  "full_name": "YuMS/dsh-duet",
+  "originalPosition": 370,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-duet",
+    "https://github.com/YuMS/dsh-duet"
+  ],
+  "manualNote": null,
+  "ordinal": 461,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:58.990Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "db1ea3aa9923833672a4b3a5641a0d49702029c7ffff73a473b073154d6de735",
+      "url": "https://github.com/YuMS/dsh-duet/blob/143de3f30c61d323568b3863d2e5badeb47123e7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-duet",
+          "command": "dsh plugin --profile web add dsh-duet",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-duet@latest",
+          "command": "dsh plugin --profile web add dsh-duet@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-duet",
+      "version": "0.1.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YuMS/dsh-duet",
+        "commit": "143de3f30c61d323568b3863d2e5badeb47123e7"
+      },
+      "manifestSha256": "d4e630781061a8a8718d34031b74cfdce5262ad7c7a24ddb575005ef321f4981",
+      "manifestUrl": "https://github.com/YuMS/dsh-duet/blob/143de3f30c61d323568b3863d2e5badeb47123e7/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-duet",
+      "origin": "npm",
+      "name": "dsh-duet",
+      "version": "0.1.10",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "107289b0dffa1efa0409e9e718af21638e62195049ec844a3e96b4febe62a3a9"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-duet",
+      "version": "0.1.10",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/YuMS/dsh-duet",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-duet@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YuMS/dsh-duet",
+    "commit": "143de3f30c61d323568b3863d2e5badeb47123e7",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:07.176Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:25.515Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,215 @@
+{
+  "full_name": "SpookyWaste/dsh-bash-native",
+  "originalPosition": 590,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-bash-native@0.2.0"
+  ],
+  "manualNote": null,
+  "ordinal": 594,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:56.668Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6efdb43c4b13706e05333bcbebd39f51fe597842b85d4d198826b34543e55586",
+      "url": "https://github.com/SpookyWaste/dsh-bash-native/blob/6e363eecbcd91b439692fdc80d1aa81a396998d7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bash-native",
+          "command": "dsh plugin --profile web add dsh-bash-native",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/SpookyWaste/dsh-bash-native/blob/6e363eecbcd91b439692fdc80d1aa81a396998d7/README.en.md",
+      "sha256": "ebafb3f7ef752b655ce872663c739aad5c3ec54bb8eaeb222ec82a67bfa29e04",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bash-native",
+          "command": "dsh plugin --profile web add dsh-bash-native",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bash-native",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SpookyWaste/dsh-bash-native",
+        "commit": "6e363eecbcd91b439692fdc80d1aa81a396998d7"
+      },
+      "manifestSha256": "489e2323b094be0f7c3bfb2413892a8b663bfbbfd13a245a40b9f7eb7a16b781",
+      "manifestUrl": "https://github.com/SpookyWaste/dsh-bash-native/blob/6e363eecbcd91b439692fdc80d1aa81a396998d7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-bash-native",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792144766,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SpookyWaste/dsh-bash-native",
+              "commit": "6e363eecbcd91b439692fdc80d1aa81a396998d7"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-bash-native@0.2.0",
+      "origin": "npm",
+      "name": "dsh-bash-native",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bash-native",
+        "title": "dsh-bash-native",
+        "description": "dsh-bash-native: a Windows-native POSIX bash executor for the DSH shell seam, with engine resolution and DSH's three-tier file sandbox honored.",
+        "author": "SpookyWaste",
+        "homepage": "https://github.com/SpookyWaste/dsh-bash-native#readme",
+        "repository": {
+          "url": "https://github.com/SpookyWaste/dsh-bash-native"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "bash",
+            "windows",
+            "brush",
+            "sandbox"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792128818,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "89469cd2e0264a6828ca2490ce9966fa6b21e5cbe7eaf6d509b5ef37d9bcbf1b",
+      "evidence": [
+        {
+          "name": "dsh-bash-native",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-bash-native/-/dsh-bash-native-0.2.0.tgz",
+          "integrity": "sha512-7puBvcooQJAI3j37ySiGhwn9pntmzyGj1NbTN279l+LAon3MqIYF3SZxWv8UQe3JWctcD4DRTSwu7DQp28usOg=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-bash-native",
+      "origin": "npm",
+      "name": "dsh-bash-native",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bash-native",
+        "title": "dsh-bash-native",
+        "description": "dsh-bash-native: a Windows-native POSIX bash executor for the DSH shell seam, with engine resolution and DSH's three-tier file sandbox honored.",
+        "author": "SpookyWaste",
+        "homepage": "https://github.com/SpookyWaste/dsh-bash-native#readme",
+        "repository": {
+          "url": "https://github.com/SpookyWaste/dsh-bash-native"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "bash",
+            "windows",
+            "brush",
+            "sandbox"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792128818,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "89469cd2e0264a6828ca2490ce9966fa6b21e5cbe7eaf6d509b5ef37d9bcbf1b",
+      "evidence": [
+        {
+          "name": "dsh-bash-native",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-bash-native/-/dsh-bash-native-0.2.0.tgz",
+          "integrity": "sha512-7puBvcooQJAI3j37ySiGhwn9pntmzyGj1NbTN279l+LAon3MqIYF3SZxWv8UQe3JWctcD4DRTSwu7DQp28usOg=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-bash-native@0.2.0",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bash-native",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SpookyWaste/dsh-bash-native",
+    "commit": "6e363eecbcd91b439692fdc80d1aa81a396998d7",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:07:45.057Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:15.664Z",
+  "coverageReviewedAt": "2026-10-17T17:12:33.325Z",
+  "contentReviewFlags": []
+}

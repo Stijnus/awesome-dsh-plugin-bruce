@@ -1,0 +1,75 @@
+{
+  "full_name": "hkkz9522/dsh-session-manager",
+  "originalPosition": 416,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/hkkz9522/dsh-session-manager"
+  ],
+  "manualNote": null,
+  "ordinal": 493,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:00.116Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d961a40d11677b419918780773048ff27261943566a917786151b275fc311cf9",
+      "url": "https://github.com/hkkz9522/dsh-session-manager/blob/daf5e73dfbec459cb37c659406579e155d038476/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/hkkz9522/dsh-session-manager",
+          "command": "dsh plugin --profile web add github:hkkz9522/dsh-session-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "35418c9c13b4f0e7e42ee2d24813c3f37a7b2ebf82d1bba90de6f07cd0eaf6cb",
+      "url": "https://github.com/hkkz9522/dsh-session-manager/blob/daf5e73dfbec459cb37c659406579e155d038476/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/hkkz9522/dsh-session-manager",
+          "command": "dsh plugin --profile web add github:hkkz9522/dsh-session-manager",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-manager",
+      "version": "0.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hkkz9522/dsh-session-manager",
+        "commit": "daf5e73dfbec459cb37c659406579e155d038476"
+      },
+      "manifestSha256": "d790b34f51be1d42418287447080a434ad88aea2d43f73cebd4d2cb01e9fd68b",
+      "manifestUrl": "https://github.com/hkkz9522/dsh-session-manager/blob/daf5e73dfbec459cb37c659406579e155d038476/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hkkz9522/dsh-session-manager",
+    "commit": "daf5e73dfbec459cb37c659406579e155d038476",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:09.867Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:28.954Z",
+  "contentReviewFlags": []
+}

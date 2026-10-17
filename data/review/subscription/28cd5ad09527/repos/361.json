@@ -1,0 +1,72 @@
+{
+  "full_name": "PolinniZhong/dsh-session-workbench",
+  "originalPosition": 227,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-session-workbench"
+  ],
+  "manualNote": null,
+  "ordinal": 361,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:17.773Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aa810dd8b97fe60d9258499b655a00b396998eb3bcc9947308d20d88c436f4a6",
+      "url": "https://github.com/PolinniZhong/dsh-session-workbench/blob/991912d87ac4a1de040d4d10b76f6a3479d495b2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-workbench",
+          "command": "dsh plugin --profile web add dsh-session-workbench",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-workbench",
+      "version": "1.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PolinniZhong/dsh-session-workbench",
+        "commit": "991912d87ac4a1de040d4d10b76f6a3479d495b2"
+      },
+      "manifestSha256": "5c449473b1ec6bcfbca94bd4f8a3750abc72eff6bd5509bcde7cffa73714a845",
+      "manifestUrl": "https://github.com/PolinniZhong/dsh-session-workbench/blob/991912d87ac4a1de040d4d10b76f6a3479d495b2/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-session-workbench",
+      "origin": "npm",
+      "name": "dsh-session-workbench",
+      "version": "1.0.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9c996f6a7ac0f60e5319ef52c542e9d28d440f72dff8a96bcbf8babc81f52cc4"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PolinniZhong/dsh-session-workbench",
+    "commit": "991912d87ac4a1de040d4d10b76f6a3479d495b2",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:27.017Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:17.290Z",
+  "contentReviewFlags": []
+}

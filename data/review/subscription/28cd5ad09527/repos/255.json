@@ -1,0 +1,72 @@
+{
+  "full_name": "webkubor/dsh-llm-hub",
+  "originalPosition": 89,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@dsh-plugins/dsh-llm-hub"
+  ],
+  "manualNote": null,
+  "ordinal": 255,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:56.340Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eabf7ee74a27268d40540a654389db52be9a1026c609e86abe6abe378aa05ded",
+      "url": "https://github.com/webkubor/dsh-llm-hub/blob/1689b8a8a2b79545a6151efa0df87963c3f2d99d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-plugins/dsh-llm-hub",
+          "command": "npx @deepseek-ai/dsh plugin --profile <你的 profile> add @dsh-plugins/dsh-llm-hub",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-plugins/dsh-llm-hub",
+      "version": "1.9.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/webkubor/dsh-llm-hub",
+        "commit": "1689b8a8a2b79545a6151efa0df87963c3f2d99d"
+      },
+      "manifestSha256": "ad62963bf36fd1a7c7b8262fa74ce7f36be4f0d7510b3b5261e8e44aca7de299",
+      "manifestUrl": "https://github.com/webkubor/dsh-llm-hub/blob/1689b8a8a2b79545a6151efa0df87963c3f2d99d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@dsh-plugins/dsh-llm-hub",
+      "origin": "npm",
+      "name": "@dsh-plugins/dsh-llm-hub",
+      "version": "1.9.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "329ab74f6db042deef5ad0f363de3e925941cb53284886b812fe8e94b0c1ad08"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/webkubor/dsh-llm-hub",
+    "commit": "1689b8a8a2b79545a6151efa0df87963c3f2d99d",
+    "releaseTags": 41,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:04.535Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.638Z",
+  "contentReviewFlags": []
+}

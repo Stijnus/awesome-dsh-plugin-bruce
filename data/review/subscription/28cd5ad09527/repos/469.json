@@ -1,0 +1,72 @@
+{
+  "full_name": "xbzbing/dsh-auth-gateway",
+  "originalPosition": 385,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-auth-gateway"
+  ],
+  "manualNote": null,
+  "ordinal": 469,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:12.312Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e4a56f8287f4ac79c22d376860191365690a70883359246541daab91e307c6e4",
+      "url": "https://github.com/xbzbing/dsh-auth-gateway/blob/e2d6c130dab4a724f593c4b51640fd28881e8a41/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-auth-gateway",
+          "command": "dsh plugin --profile web add dsh-auth-gateway",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-auth-gateway",
+      "version": "0.8.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xbzbing/dsh-auth-gateway",
+        "commit": "e2d6c130dab4a724f593c4b51640fd28881e8a41"
+      },
+      "manifestSha256": "79c5d75cf5fc39515189b3e4b72820e66133bf4d01ade46dc30743822cc18cd5",
+      "manifestUrl": "https://github.com/xbzbing/dsh-auth-gateway/blob/e2d6c130dab4a724f593c4b51640fd28881e8a41/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-auth-gateway",
+      "origin": "npm",
+      "name": "dsh-auth-gateway",
+      "version": "0.8.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f4c47bd8fc51fe96259da3fa395ef3b202332599b320abfb1281fed9ba4a60fb"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xbzbing/dsh-auth-gateway",
+    "commit": "e2d6c130dab4a724f593c4b51640fd28881e8a41",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:20.742Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:26.292Z",
+  "contentReviewFlags": []
+}

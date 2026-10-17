@@ -1,0 +1,78 @@
+{
+  "full_name": "Meredith2328/dsh-sticky-note",
+  "originalPosition": 70,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Meredith2328/dsh-sticky-note",
+    "dsh-sticky-note"
+  ],
+  "manualNote": null,
+  "ordinal": 240,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:31.163Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dcf670d60af487599cec091be77788e6fd2245358a14032cb165826dd8924dbb",
+      "url": "https://github.com/Meredith2328/dsh-sticky-note/blob/995ba55fccad4b5ce090c405d3afab9f22f8bfda/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Meredith2328/dsh-sticky-note",
+          "command": "dsh plugin --profile web add github:Meredith2328/dsh-sticky-note",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-sticky-note",
+          "command": "dsh plugin ... add dsh-sticky-note",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sticky-note",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Meredith2328/dsh-sticky-note",
+        "commit": "995ba55fccad4b5ce090c405d3afab9f22f8bfda"
+      },
+      "manifestSha256": "5fe6205f3fac3302f431e5bb693be7910d09580ce04bfe736b4d52dc7004c975",
+      "manifestUrl": "https://github.com/Meredith2328/dsh-sticky-note/blob/995ba55fccad4b5ce090c405d3afab9f22f8bfda/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-sticky-note",
+      "origin": "npm",
+      "name": "dsh-sticky-note",
+      "version": "1.0.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "fce5868d075903f05fab424bdef47b71665c1254a84526178453a825b79fc66c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Meredith2328/dsh-sticky-note",
+    "commit": "995ba55fccad4b5ce090c405d3afab9f22f8bfda",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:38.700Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.046Z",
+  "contentReviewFlags": []
+}

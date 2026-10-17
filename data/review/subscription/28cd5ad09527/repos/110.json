@@ -1,0 +1,90 @@
+{
+  "full_name": "jyh20030112/dsh-visual-plugin",
+  "originalPosition": 483,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:16.583Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3e14a51aad5754efa6718f39f7ed706a8cca22a8fd3d6040aaf3859e9e8394eb",
+      "url": "https://github.com/jyh20030112/dsh-visual-plugin/blob/f4f9e8fd54e135e01d44518e9ee0b00ce0e22685/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-visual-plugin",
+          "command": "dsh plugin --profile web add dsh-visual-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e67fae614e8e94fcf569ba8804e3dba7442f7777bbdbca42c337519efa918027",
+      "url": "https://github.com/jyh20030112/dsh-visual-plugin/blob/f4f9e8fd54e135e01d44518e9ee0b00ce0e22685/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-visual-plugin",
+          "command": "dsh plugin --profile web add dsh-visual-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-visual-plugin",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jyh20030112/dsh-visual-plugin",
+        "commit": "f4f9e8fd54e135e01d44518e9ee0b00ce0e22685"
+      },
+      "manifestSha256": "e1c3a40e7f717cc5a03af92faa07035491bb977f6c6b409df5ee48a3f636458a",
+      "manifestUrl": "https://github.com/jyh20030112/dsh-visual-plugin/blob/f4f9e8fd54e135e01d44518e9ee0b00ce0e22685/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-visual-plugin",
+      "origin": "npm",
+      "name": "dsh-visual-plugin",
+      "version": "0.4.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3b7a2d2433e8afcaa6b4e33b6c7bf270a4b3076d3be5382cf0234a7c5d9392ea"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-visual-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jyh20030112/dsh-visual-plugin",
+    "commit": "f4f9e8fd54e135e01d44518e9ee0b00ce0e22685",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:26.714Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.065Z",
+  "contentReviewFlags": []
+}

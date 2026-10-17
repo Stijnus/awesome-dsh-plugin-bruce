@@ -1,0 +1,112 @@
+{
+  "full_name": "lemoncat7/dsh-knowledge",
+  "originalPosition": 467,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@lemoncat7/dsh-knowledge"
+  ],
+  "manualNote": null,
+  "ordinal": 531,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:06.401Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ca3f5824b98ad98136e5a63eea509f7c86c92631f9f61fe1b0d658e2b35dfbe4",
+      "url": "https://github.com/lemoncat7/dsh-knowledge/blob/2ea989181e4578e6faee0374ed0afa3131d137cb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@lemoncat7/dsh-knowledge@latest",
+          "command": "dsh plugin --profile web add @lemoncat7/dsh-knowledge@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/releases/README.md",
+      "url": "https://github.com/lemoncat7/dsh-knowledge/blob/2ea989181e4578e6faee0374ed0afa3131d137cb/docs/releases/README.md",
+      "sha256": "6e5217aa6ac934e001a1c464b00df2dcf54458857fd3ece09e677b48701f5a8f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lemoncat7/dsh-knowledge",
+      "version": "2.14.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lemoncat7/dsh-knowledge",
+        "commit": "2ea989181e4578e6faee0374ed0afa3131d137cb"
+      },
+      "manifestSha256": "5d10a66f32661c2188d51a33576a664f5efee02fc93b9b05ea87eedf5514079e",
+      "manifestUrl": "https://github.com/lemoncat7/dsh-knowledge/blob/2ea989181e4578e6faee0374ed0afa3131d137cb/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@lemoncat7/dsh-knowledge",
+      "origin": "npm",
+      "name": "@lemoncat7/dsh-knowledge",
+      "version": "2.14.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "606f8026f7d8190bf1bcc270071e97ea042ee60b3efd0daac60ec5c41f0b8577"
+    },
+    {
+      "target": "@lemoncat7/dsh-knowledge@latest",
+      "origin": "npm",
+      "name": "@lemoncat7/dsh-knowledge",
+      "version": "2.14.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "606f8026f7d8190bf1bcc270071e97ea042ee60b3efd0daac60ec5c41f0b8577"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@lemoncat7/dsh-knowledge",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@lemoncat7/dsh-knowledge@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lemoncat7/dsh-knowledge",
+    "commit": "2ea989181e4578e6faee0374ed0afa3131d137cb",
+    "releaseTags": 68,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:15.474Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/releases/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/releases/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:13.945Z",
+  "coverageReviewedAt": "2026-10-17T17:12:31.443Z",
+  "contentReviewFlags": []
+}

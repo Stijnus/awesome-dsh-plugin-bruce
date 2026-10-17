@@ -1,0 +1,86 @@
+{
+  "full_name": "Ultronen/dsh-archived-chats",
+  "originalPosition": 556,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-archived-chats@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 580,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:33.514Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "598b1b731fadebe74c6f0255ed93e0aa564bd83cae1e2688023f699928aeb405",
+      "url": "https://github.com/Ultronen/dsh-archived-chats/blob/ce6df374da649eae306b9a7a5b73d1f3335ce7c9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-archived-chats@latest",
+          "command": "dsh plugin --profile web add dsh-archived-chats@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "de222f38cd8f356a30108817f0bb8d341ae8e50aad6588d1641bf6f1b39285d1",
+      "url": "https://github.com/Ultronen/dsh-archived-chats/blob/ce6df374da649eae306b9a7a5b73d1f3335ce7c9/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-archived-chats@latest",
+          "command": "dsh plugin --profile web add dsh-archived-chats@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-archived-chats",
+      "version": "1.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ultronen/dsh-archived-chats",
+        "commit": "ce6df374da649eae306b9a7a5b73d1f3335ce7c9"
+      },
+      "manifestSha256": "c16195c981c5ff7e221e7fce00fd0b16142292d5e0b5f30007d3cac7a9085b92",
+      "manifestUrl": "https://github.com/Ultronen/dsh-archived-chats/blob/ce6df374da649eae306b9a7a5b73d1f3335ce7c9/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-archived-chats@latest",
+      "origin": "npm",
+      "name": "dsh-archived-chats",
+      "version": "1.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0af960a02d11d11d87d5f508193a405011fa7d24a98ed6226577713f150bf55c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ultronen/dsh-archived-chats",
+    "commit": "ce6df374da649eae306b9a7a5b73d1f3335ce7c9",
+    "releaseTags": 38,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:42.797Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.382Z",
+  "contentReviewFlags": []
+}

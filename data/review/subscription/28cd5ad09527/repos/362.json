@@ -1,0 +1,144 @@
+{
+  "full_name": "aa2246740/dsh-watcher",
+  "originalPosition": 228,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/aa2246740/dsh-watcher#v0.6.1"
+  ],
+  "manualNote": null,
+  "ordinal": 362,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:17.927Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3ae6a5fc2db6c72c4aef466bc4935661501ddd72d5c2e97a86e1f8ca4494f249",
+      "url": "https://github.com/aa2246740/dsh-watcher/blob/99ba0d7f5c2226005336fba674c55d837c487035/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-watcher",
+          "command": "dsh plugin --profile web add dsh-watcher",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/aa2246740/dsh-watcher#v0.8.0",
+          "command": "dsh plugin --profile web add github:aa2246740/dsh-watcher#v0.8.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/aa2246740/dsh-watcher/blob/99ba0d7f5c2226005336fba674c55d837c487035/README.en.md",
+      "sha256": "024f24483fcb82cc8c7d73b939691098292fa88aba00fdf95432894a1a78a9ca",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-watcher",
+          "command": "dsh plugin --profile web add dsh-watcher",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/aa2246740/dsh-watcher#v0.8.0",
+          "command": "dsh plugin --profile web add github:aa2246740/dsh-watcher#v0.8.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-watcher",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aa2246740/dsh-watcher",
+        "commit": "99ba0d7f5c2226005336fba674c55d837c487035"
+      },
+      "manifestSha256": "281acc1e8356e07d7b88d7aaf37b11c052b7fb6e08b52f793b01453a686b222d",
+      "manifestUrl": "https://github.com/aa2246740/dsh-watcher/blob/99ba0d7f5c2226005336fba674c55d837c487035/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/aa2246740/dsh-watcher#v0.6.1",
+      "origin": "git_target",
+      "path": "",
+      "commit": "08b1f14878d98cf0888ce0c926d440d8df8ee121",
+      "name": "dsh-watcher",
+      "version": "0.6.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "dsh-watcher",
+      "origin": "npm",
+      "name": "dsh-watcher",
+      "version": "0.8.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9fa0f81a961af1e4d12262bff31278b07a390d6313de9db29ae1437ef57893ac"
+    },
+    {
+      "target": "https://github.com/aa2246740/dsh-watcher#v0.8.0",
+      "origin": "git_target",
+      "path": "",
+      "commit": "c50fb5e598db6cae2306f49c9ea4be6dd29f9269",
+      "name": "dsh-watcher",
+      "version": "0.8.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/aa2246740/dsh-watcher#v0.6.1",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-watcher",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/aa2246740/dsh-watcher#v0.8.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aa2246740/dsh-watcher",
+    "commit": "99ba0d7f5c2226005336fba674c55d837c487035",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:40.629Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:04.655Z",
+  "coverageReviewedAt": "2026-10-17T17:12:17.592Z",
+  "contentReviewFlags": []
+}

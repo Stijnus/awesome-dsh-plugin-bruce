@@ -1,0 +1,97 @@
+{
+  "full_name": "wsz987/dsh-channels",
+  "originalPosition": 525,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@wsz987/dsh-channels@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 564,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:00.629Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2c4f29d3e4f67f0b0e9e2d3c1bf903a5afd5b2f6b5138d7a32dcce555183b279",
+      "url": "https://github.com/wsz987/dsh-channels/blob/8401caaa340cc0ec5b29e473569993e49d2b3a5b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wsz987/dsh-channels@latest",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add -w @wsz987/dsh-channels@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/wsz987/dsh-channels/blob/8401caaa340cc0ec5b29e473569993e49d2b3a5b/README.en.md",
+      "sha256": "6acb73979bf8534a2946cbd4004492ee8ebbdf0276ec1bf9f7c81bab538ee96f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wsz987/dsh-channels@latest",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add -w @wsz987/dsh-channels@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@wsz987/dsh-channels",
+      "version": "0.5.1",
+      "path": "packages/channels",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wsz987/dsh-channels",
+        "commit": "8401caaa340cc0ec5b29e473569993e49d2b3a5b",
+        "path": "packages/channels"
+      },
+      "manifestSha256": "50fbee6213e9120240803438714988f644bdee5332f5cb189aee3f3df628cbae",
+      "manifestUrl": "https://github.com/wsz987/dsh-channels/blob/8401caaa340cc0ec5b29e473569993e49d2b3a5b/packages/channels/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@wsz987/dsh-channels@latest",
+      "origin": "npm",
+      "name": "@wsz987/dsh-channels",
+      "version": "0.5.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ef4660e2f151dc72e3126c3b083c483ac501cf7cdc292ec46c39c083f72897ec"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wsz987/dsh-channels",
+    "commit": "8401caaa340cc0ec5b29e473569993e49d2b3a5b",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:32.133Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.953Z",
+  "coverageReviewedAt": "2026-10-17T17:12:32.273Z",
+  "contentReviewFlags": []
+}

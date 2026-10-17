@@ -1,0 +1,215 @@
+{
+  "full_name": "miuzel/dsh-graph",
+  "originalPosition": 144,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-graph@0.21.0"
+  ],
+  "manualNote": null,
+  "ordinal": 302,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:37.615Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aba72a881c3037551dcc6b1371e64f046fc8108d93de63ae344185f0ceb3bfdb",
+      "url": "https://github.com/miuzel/dsh-graph/blob/86d2bed3c937acbd1917eb0cf17440e02a675a12/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-graph",
+          "command": "dsh plugin --profile <name> add dsh-graph",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "dsh-graph-host/README.md",
+      "url": "https://github.com/miuzel/dsh-graph/blob/86d2bed3c937acbd1917eb0cf17440e02a675a12/dsh-graph-host/README.md",
+      "sha256": "a2064bd761840158c37426a5f55977f8e29b0e873c41e29b6e754668e001eda5",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-graph",
+          "command": "dsh plugin --profile <profile-name> add dsh-graph",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-graph",
+      "version": "0.20.2",
+      "path": "dsh-graph-host",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/miuzel/dsh-graph",
+        "commit": "86d2bed3c937acbd1917eb0cf17440e02a675a12",
+        "path": "dsh-graph-host"
+      },
+      "manifestSha256": "a20a4e52626c163aeff805e8234f30e71f4533c37722c3f19fc9e24f68856a25",
+      "manifestUrl": "https://github.com/miuzel/dsh-graph/blob/86d2bed3c937acbd1917eb0cf17440e02a675a12/dsh-graph-host/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.2 <0.2.2-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-graph",
+        "versions": [
+          {
+            "version": "0.20.2",
+            "publishTimestamp": 1791820449,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/miuzel/dsh-graph",
+              "commit": "86d2bed3c937acbd1917eb0cf17440e02a675a12",
+              "path": "dsh-graph-host"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.2.2-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-graph@0.21.0",
+      "origin": "npm",
+      "name": "dsh-graph",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-graph",
+        "title": "dsh-graph",
+        "description": "A DeepSeek Harness plugin for graph-based goal management and kanban visualization.",
+        "repository": {
+          "url": "https://github.com/miuzel/dsh-graph"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "plugin",
+            "goals",
+            "kanban",
+            "graph",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.21.0",
+            "publishTimestamp": 1792058822,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.2.2-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0204b7300aaa7f09ff8fc61efb4a3bd090ce0fd938a20b7d36420249dacfdf6f",
+      "evidence": [
+        {
+          "name": "dsh-graph",
+          "version": "0.21.0",
+          "tarball": "https://registry.npmjs.org/dsh-graph/-/dsh-graph-0.21.0.tgz",
+          "integrity": "sha512-dwiGek+JEz8mIb/ejvPMmA3can8QW2iZ+Mn4xb8xUTQthmNEtJ1E7uO2LW/0bGqHrRTCyKwF+N4j9YqoWij2YQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-graph",
+      "origin": "npm",
+      "name": "dsh-graph",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-graph",
+        "title": "dsh-graph",
+        "description": "A DeepSeek Harness plugin for graph-based goal management and kanban visualization.",
+        "repository": {
+          "url": "https://github.com/miuzel/dsh-graph"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "plugin",
+            "goals",
+            "kanban",
+            "graph",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.21.0",
+            "publishTimestamp": 1792058822,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.2.2-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0204b7300aaa7f09ff8fc61efb4a3bd090ce0fd938a20b7d36420249dacfdf6f",
+      "evidence": [
+        {
+          "name": "dsh-graph",
+          "version": "0.21.0",
+          "tarball": "https://registry.npmjs.org/dsh-graph/-/dsh-graph-0.21.0.tgz",
+          "integrity": "sha512-dwiGek+JEz8mIb/ejvPMmA3can8QW2iZ+Mn4xb8xUTQthmNEtJ1E7uO2LW/0bGqHrRTCyKwF+N4j9YqoWij2YQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-graph@0.21.0",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-graph",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/miuzel/dsh-graph",
+    "commit": "86d2bed3c937acbd1917eb0cf17440e02a675a12",
+    "releaseTags": 31,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:03:57.119Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "dsh-graph-host/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-graph-host/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:00.354Z",
+  "coverageReviewedAt": "2026-10-17T17:12:13.239Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,201 @@
+{
+  "full_name": "pearjelly/deep-blend",
+  "originalPosition": 333,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 73,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:05.337Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "49c2cd4dc00217f548075117df8d320994994da944826956bfee7cbfa3b2e500",
+      "url": "https://github.com/pearjelly/deep-blend/blob/d0f99ad5e30731a506b56ac353587d3fede9ecdf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+          "command": "dsh plugin --profile web add https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pearjelly/deep-blend#path:/packages/deepblend/bundle",
+          "command": "dsh plugin --profile web add 'github:pearjelly/deep-blend#path:/packages/deepblend/bundle'",
+          "profile": "web"
+        },
+        {
+          "install": "@deepblend/dsh-blender-bundle",
+          "command": "dsh plugin --profile web add @deepblend/dsh-blender-bundle",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "5ec4523af6debfb2615a8c821e3a214c663cb4743dfb33934838a7c8d3e6d36f",
+      "url": "https://github.com/pearjelly/deep-blend/blob/d0f99ad5e30731a506b56ac353587d3fede9ecdf/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+          "command": "dsh plugin --profile web add https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pearjelly/deep-blend#path:/packages/deepblend/bundle",
+          "command": "dsh plugin --profile web add 'github:pearjelly/deep-blend#path:/packages/deepblend/bundle'",
+          "profile": "web"
+        },
+        {
+          "install": "@deepblend/dsh-blender-bundle",
+          "command": "dsh plugin --profile web add @deepblend/dsh-blender-bundle",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "deepblend/docs/README.md",
+      "url": "https://github.com/pearjelly/deep-blend/blob/d0f99ad5e30731a506b56ac353587d3fede9ecdf/deepblend/docs/README.md",
+      "sha256": "1a27a03bbad4618ab01aebd5b3e5f014b48063226752265d482996b0d6aac9ef",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deepblend/showcase/README.md",
+      "url": "https://github.com/pearjelly/deep-blend/blob/d0f99ad5e30731a506b56ac353587d3fede9ecdf/deepblend/showcase/README.md",
+      "sha256": "210ada2816a7fba2172aafd9bb5750d1274b8860e1d908429879beecb41a842c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deepblend/reproductions/recovery-v0.11.0/README.md",
+      "url": "https://github.com/pearjelly/deep-blend/blob/d0f99ad5e30731a506b56ac353587d3fede9ecdf/deepblend/reproductions/recovery-v0.11.0/README.md",
+      "sha256": "ed0920c44736300d971fe6a0823dd5572284946a3a957c7e7df070ec9abfafb8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deepblend/development/README.md",
+      "url": "https://github.com/pearjelly/deep-blend/blob/d0f99ad5e30731a506b56ac353587d3fede9ecdf/deepblend/development/README.md",
+      "sha256": "6b183a9b7b1ae6b1b67a4a1103218ff168054d6c5a9e574f78eaf96615a87109",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepblend/dsh-blender-bundle",
+      "version": "0.14.0",
+      "path": "packages/deepblend/bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/pearjelly/deep-blend",
+        "commit": "d0f99ad5e30731a506b56ac353587d3fede9ecdf",
+        "path": "packages/deepblend/bundle"
+      },
+      "manifestSha256": "26e32884d1ee02cd6b385bda4fb35d9d031badcc49ba890e3fa320107a2d51ab",
+      "manifestUrl": "https://github.com/pearjelly/deep-blend/blob/d0f99ad5e30731a506b56ac353587d3fede9ecdf/packages/deepblend/bundle/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/pearjelly/deep-blend#path:/packages/deepblend/bundle",
+      "origin": "git_target",
+      "path": "packages/deepblend/bundle",
+      "commit": "d0f99ad5e30731a506b56ac353587d3fede9ecdf",
+      "name": "@deepblend/dsh-blender-bundle",
+      "version": "0.14.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@deepblend/dsh-blender-bundle",
+      "version": "0.14.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/pearjelly/deep-blend#path:/packages/deepblend/bundle",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@deepblend/dsh-blender-bundle",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pearjelly/deep-blend",
+    "commit": "d0f99ad5e30731a506b56ac353587d3fede9ecdf",
+    "releaseTags": 50,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:32.605Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "deepblend/docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "deepblend/showcase/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "deepblend/reproductions/recovery-v0.11.0/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "deepblend/development/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "deepblend/docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "deepblend/showcase/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "deepblend/reproductions/recovery-v0.11.0/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "deepblend/development/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:52.223Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.744Z",
+  "contentReviewFlags": []
+}

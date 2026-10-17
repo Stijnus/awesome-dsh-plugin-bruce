@@ -1,0 +1,115 @@
+{
+  "full_name": "TindalosKorone/dsh-cheatengine",
+  "originalPosition": 581,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:42.856Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8fde68b1c20f16c7ba604ba8cc168c7d67c72ac44a135973218d734d5132df8f",
+      "url": "https://github.com/TindalosKorone/dsh-cheatengine/blob/c3974454e310964dbd1cc2990267e8698741c2ea/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@tindalosko/dsh-cheatengine",
+          "command": "dsh plugin add @tindalosko/dsh-cheatengine",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/TindalosKorone/dsh-cheatengine",
+          "command": "dsh plugin add github:TindalosKorone/dsh-cheatengine",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/TindalosKorone/dsh-cheatengine/blob/c3974454e310964dbd1cc2990267e8698741c2ea/README.en.md",
+      "sha256": "6fe915d7d9c2763d9aa1bbfe8c83afcf97eeddd7ae8b1a451d2aa6fa79777ae7",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@tindalosko/dsh-cheatengine",
+          "command": "dsh plugin add @tindalosko/dsh-cheatengine",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/TindalosKorone/dsh-cheatengine",
+          "command": "dsh plugin add github:TindalosKorone/dsh-cheatengine",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tindalosko/dsh-cheatengine",
+      "version": "0.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TindalosKorone/dsh-cheatengine",
+        "commit": "c3974454e310964dbd1cc2990267e8698741c2ea"
+      },
+      "manifestSha256": "7db3417c6f9998868839d32d77889b5df69a21138c7de34116ccbcce46b31412",
+      "manifestUrl": "https://github.com/TindalosKorone/dsh-cheatengine/blob/c3974454e310964dbd1cc2990267e8698741c2ea/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@tindalosko/dsh-cheatengine",
+      "origin": "npm",
+      "name": "@tindalosko/dsh-cheatengine",
+      "version": "0.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "dc4a5c51e76ffaa1e6b1de730cd7c4d3d41fd33456601ae323148d1188c7797f"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@tindalosko/dsh-cheatengine",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TindalosKorone/dsh-cheatengine",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TindalosKorone/dsh-cheatengine",
+    "commit": "c3974454e310964dbd1cc2990267e8698741c2ea",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:50.817Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:52.770Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.147Z",
+  "contentReviewFlags": []
+}

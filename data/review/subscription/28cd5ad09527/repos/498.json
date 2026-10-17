@@ -1,0 +1,78 @@
+{
+  "full_name": "mexiaosqwq/dsh-web-mobile",
+  "originalPosition": 422,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-web-mobile",
+    "https://github.com/mexiaosqwq/dsh-web-mobile"
+  ],
+  "manualNote": null,
+  "ordinal": 498,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:09.867Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9fa47d09f3d78d1cab8c5ea276e6c42bfc18eca6c3cf857ecab1651e40a70f20",
+      "url": "https://github.com/mexiaosqwq/dsh-web-mobile/blob/a7c4532cc910bcf1bf90fc1ecc9cafb3d0f1153d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-mobile",
+          "command": "dsh plugin --profile web add dsh-web-mobile",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/mexiaosqwq/dsh-web-mobile",
+          "command": "dsh plugin --profile web add github:mexiaosqwq/dsh-web-mobile",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-mobile",
+      "version": "3.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mexiaosqwq/dsh-web-mobile",
+        "commit": "a7c4532cc910bcf1bf90fc1ecc9cafb3d0f1153d"
+      },
+      "manifestSha256": "fdcf54d3ce247f41f0cd7f26106140ebeb02433a278662865164e31e1ed557be",
+      "manifestUrl": "https://github.com/mexiaosqwq/dsh-web-mobile/blob/a7c4532cc910bcf1bf90fc1ecc9cafb3d0f1153d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-web-mobile",
+      "origin": "npm",
+      "name": "dsh-web-mobile",
+      "version": "3.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a1499694db7f2d1f68e22c7f44aaec6cc2117008cde188a46a877a7d793f6150"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mexiaosqwq/dsh-web-mobile",
+    "commit": "a7c4532cc910bcf1bf90fc1ecc9cafb3d0f1153d",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:18.997Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:29.308Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,115 @@
+{
+  "full_name": "timeance/dsh-approve-for-me",
+  "originalPosition": 281,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-approve-for-me@latest",
+    "dsh-approve-for-me@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 395,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:26.876Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23de8950cb6f372569de5f6d71f94cd4e098f2483c775015cf3c403177d341fa",
+      "url": "https://github.com/timeance/dsh-approve-for-me/blob/0fe15f0f8e564e46f5320ae945025b3fe0c94a85/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-approve-for-me@latest",
+          "command": "dsh plugin --profile web add dsh-approve-for-me@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-approve-for-me@latest",
+          "command": "dsh plugin --profile headless add dsh-approve-for-me@latest",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "571d75e5e4e3a3b3327ce946cb3f99616e41a1db2eb51eefc32e80204eb0c599",
+      "url": "https://github.com/timeance/dsh-approve-for-me/blob/0fe15f0f8e564e46f5320ae945025b3fe0c94a85/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/timeance/dsh-approve-for-me/blob/0fe15f0f8e564e46f5320ae945025b3fe0c94a85/README.en.md",
+      "sha256": "c154c1def72a780c340eb28fade94d85916f7c1156111f728821608e8a85114b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-approve-for-me@latest",
+          "command": "dsh plugin --profile web add dsh-approve-for-me@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-approve-for-me@latest",
+          "command": "dsh plugin --profile headless add dsh-approve-for-me@latest",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-approve-for-me",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/timeance/dsh-approve-for-me",
+        "commit": "0fe15f0f8e564e46f5320ae945025b3fe0c94a85"
+      },
+      "manifestSha256": "9494e49673127db173e1cf214717be4b97eaffea09f5fabdd9453f85c568b20e",
+      "manifestUrl": "https://github.com/timeance/dsh-approve-for-me/blob/0fe15f0f8e564e46f5320ae945025b3fe0c94a85/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-approve-for-me@latest",
+      "origin": "npm",
+      "name": "dsh-approve-for-me",
+      "version": "0.3.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ebeb97699adf565c10632d54b88d5233dae90245e7a95dc53bd3a8fc8eb5f2bd"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/timeance/dsh-approve-for-me",
+    "commit": "0fe15f0f8e564e46f5320ae945025b3fe0c94a85",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:36.153Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:06.903Z",
+  "coverageReviewedAt": "2026-10-17T17:12:20.647Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,78 @@
+{
+  "full_name": "Awu12277/dsh-stock-watch",
+  "originalPosition": 266,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-stock-watch",
+    "https://github.com/Awu12277/dsh-stock-watch"
+  ],
+  "manualNote": null,
+  "ordinal": 386,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:15.605Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c3ac113eb32bbd98e5ec2c8f6d29b16aa0fd4aa6e00f3a944f2eb5b2fae0c649",
+      "url": "https://github.com/Awu12277/dsh-stock-watch/blob/ea922597583d339f4e0fba0facae95b5a127d004/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-stock-watch",
+          "command": "dsh plugin --profile web add dsh-stock-watch",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Awu12277/dsh-stock-watch",
+          "command": "dsh plugin --profile web add github:Awu12277/dsh-stock-watch",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-stock-watch",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Awu12277/dsh-stock-watch",
+        "commit": "ea922597583d339f4e0fba0facae95b5a127d004"
+      },
+      "manifestSha256": "d046873fe1db3b9343df1894e15319e0467acb9cac852e8f6125f287df6b3084",
+      "manifestUrl": "https://github.com/Awu12277/dsh-stock-watch/blob/ea922597583d339f4e0fba0facae95b5a127d004/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-stock-watch",
+      "origin": "npm",
+      "name": "dsh-stock-watch",
+      "version": "1.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8ab7686af8f8cfe91315237871190a4bf52c3a017b68894dc1b0463d6e9a1f3d"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Awu12277/dsh-stock-watch",
+    "commit": "ea922597583d339f4e0fba0facae95b5a127d004",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:24.706Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:19.827Z",
+  "contentReviewFlags": []
+}

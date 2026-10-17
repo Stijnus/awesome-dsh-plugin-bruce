@@ -1,0 +1,113 @@
+{
+  "full_name": "vlln/whale-girl",
+  "originalPosition": 202,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/vlln/whale-girl#main"
+  ],
+  "manualNote": null,
+  "ordinal": 348,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:44.767Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fc2d9be85a1ff456aa356ebc762e267a05ee0d6e9e0f8d8430e26e1c26b1e074",
+      "url": "https://github.com/vlln/whale-girl/blob/38e2721ff9f1e8aedff8fc73b8d4455118116924/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/vlln/whale-girl#main",
+          "command": "dsh plugin --profile web add \"github:vlln/whale-girl#main\"",
+          "profile": "web"
+        },
+        {
+          "install": "whale-girl@0.2.0",
+          "command": "dsh plugin --profile web add whale-girl@0.2.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6325a91a665dd584f0ac4af13bf68ccb6274361af08adb9a7351aa4142394488",
+      "url": "https://github.com/vlln/whale-girl/blob/38e2721ff9f1e8aedff8fc73b8d4455118116924/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/vlln/whale-girl#main",
+          "command": "dsh plugin --profile web add \"github:vlln/whale-girl#main\"",
+          "profile": "web"
+        },
+        {
+          "install": "whale-girl@0.2.0",
+          "command": "dsh plugin --profile web add whale-girl@0.2.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "whale-girl",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/vlln/whale-girl",
+        "commit": "38e2721ff9f1e8aedff8fc73b8d4455118116924"
+      },
+      "manifestSha256": "ed819c381158c6b9f8240ebd48d6f7299948a4f2989a5544d60a93fe1a203add",
+      "manifestUrl": "https://github.com/vlln/whale-girl/blob/38e2721ff9f1e8aedff8fc73b8d4455118116924/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/vlln/whale-girl#main",
+      "origin": "git_target",
+      "path": "",
+      "commit": "38e2721ff9f1e8aedff8fc73b8d4455118116924",
+      "name": "whale-girl",
+      "version": "0.2.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "whale-girl@0.2.0",
+      "origin": "npm",
+      "name": "whale-girl",
+      "version": "0.2.0",
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "c045ed29c05a271f2f49396555057094892a09b3a694370d13b462d093a1574b"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "whale-girl@0.2.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/vlln/whale-girl",
+    "commit": "38e2721ff9f1e8aedff8fc73b8d4455118116924",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:01.798Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.810Z",
+  "contentReviewFlags": []
+}

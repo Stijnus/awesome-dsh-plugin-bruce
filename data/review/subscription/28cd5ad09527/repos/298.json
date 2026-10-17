@@ -1,0 +1,96 @@
+{
+  "full_name": "omdsh-dev/stent",
+  "originalPosition": 140,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@oh-my-dsh/stent-pack"
+  ],
+  "manualNote": null,
+  "ordinal": 298,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:28.055Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8355e084d16e6e6405c6440859be7adcef6fcbbfe7241fdfe2c07f87fbe4870a",
+      "url": "https://github.com/omdsh-dev/stent/blob/af701b3b1989066f5638e83a56413c58becb5d26/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@oh-my-dsh/stent-pack",
+          "command": "dsh plugin --profile <p> add @oh-my-dsh/stent-pack",
+          "profile": "default"
+        },
+        {
+          "install": "@oh-my-dsh/stent-pack",
+          "command": "dsh plugin --profile web add @oh-my-dsh/stent-pack",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "fcfb5267db5e40ba02d3d612dda8dd2ee5a07bc6b7f0fb22c6d7592b543f0578",
+      "url": "https://github.com/omdsh-dev/stent/blob/af701b3b1989066f5638e83a56413c58becb5d26/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@oh-my-dsh/stent-pack",
+          "command": "dsh plugin --profile <p> add @oh-my-dsh/stent-pack",
+          "profile": "default"
+        },
+        {
+          "install": "@oh-my-dsh/stent-pack",
+          "command": "dsh plugin --profile web add @oh-my-dsh/stent-pack",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@oh-my-dsh/stent-pack",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/stent",
+        "commit": "af701b3b1989066f5638e83a56413c58becb5d26"
+      },
+      "manifestSha256": "fc2e07dae581c11fa35af5fc4a2a91b0f9d60f47556040eb4d6292efaa0df3b6",
+      "manifestUrl": "https://github.com/omdsh-dev/stent/blob/af701b3b1989066f5638e83a56413c58becb5d26/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@oh-my-dsh/stent-pack",
+      "origin": "npm",
+      "name": "@oh-my-dsh/stent-pack",
+      "version": "0.1.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "1d37244a3d6cb863041116ba371ce7c393d4a7b11237c6acfcc8fac8c5c55d55"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/stent",
+    "commit": "af701b3b1989066f5638e83a56413c58becb5d26",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:37.614Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.917Z",
+  "contentReviewFlags": []
+}

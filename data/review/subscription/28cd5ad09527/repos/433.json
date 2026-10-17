@@ -1,0 +1,72 @@
+{
+  "full_name": "HuanLinOTO/dsh-plugin-sleep",
+  "originalPosition": 330,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@huanlin/dsh-plugin-sleep"
+  ],
+  "manualNote": null,
+  "ordinal": 433,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:11.639Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a7a294cb09f374cbb5289810b26f8675c2f3f5e02ec2214567bc710696f7e9b7",
+      "url": "https://github.com/HuanLinOTO/dsh-plugin-sleep/blob/eec2156d6fed315da21fe764c0a2c49bf90f4be7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@huanlin/dsh-plugin-sleep",
+          "command": "dsh plugin --profile web add @huanlin/dsh-plugin-sleep",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huanlin/dsh-plugin-sleep",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuanLinOTO/dsh-plugin-sleep",
+        "commit": "eec2156d6fed315da21fe764c0a2c49bf90f4be7"
+      },
+      "manifestSha256": "ce8b892cb9996941d70bd9f87d6255bd4c51b81fde6474cf5c9bb1cc81d9f9cf",
+      "manifestUrl": "https://github.com/HuanLinOTO/dsh-plugin-sleep/blob/eec2156d6fed315da21fe764c0a2c49bf90f4be7/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@huanlin/dsh-plugin-sleep",
+      "origin": "npm",
+      "name": "@huanlin/dsh-plugin-sleep",
+      "version": "0.2.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0acbffbfda0bd3328d6224f2fa5605e734d1ff319c192b2c21763f13c354322e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HuanLinOTO/dsh-plugin-sleep",
+    "commit": "eec2156d6fed315da21fe764c0a2c49bf90f4be7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:20.015Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:23.273Z",
+  "contentReviewFlags": []
+}

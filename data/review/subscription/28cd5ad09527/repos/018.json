@@ -1,0 +1,377 @@
+{
+  "full_name": "wzxaaaa/dsh-w-plugin-ecosystem",
+  "originalPosition": 80,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 18,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:30.653Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2077bb623d157b3ae35f8813de921a389ac9457f17ccb968f1cf8277f3f00181",
+      "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-api-key-switcher",
+      "version": "0.1.4",
+      "path": "dsh-w-api-key-switcher",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-api-key-switcher"
+      },
+      "manifestSha256": "ac348327024824bffb66983c843f782f91165cd15f7aa4deb9e98beb62945aad",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-api-key-switcher/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-archive-manager",
+      "version": "0.2.0",
+      "path": "dsh-w-archive-manager",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-archive-manager"
+      },
+      "manifestSha256": "952abf12d0e909229e97e4e7b22a83c687a328c1b9fb92527950059230b2ff69",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-archive-manager/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-assistant-refresh",
+      "version": "0.2.6",
+      "path": "dsh-w-assistant-refresh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-assistant-refresh"
+      },
+      "manifestSha256": "f98f93a959be44935a8ebded2e5642936c8ffbd2c37b9f0841323199639b954e",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-assistant-refresh/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-camera-watch",
+      "version": "0.2.4",
+      "path": "dsh-w-camera-watch",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-camera-watch"
+      },
+      "manifestSha256": "5986b5da3ba910201c64fa43e75c7072e37b4bdd2e0ba4fe727a311288910247",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-camera-watch/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-chatflow",
+      "version": "0.3.2",
+      "path": "dsh-w-chatflow",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-chatflow"
+      },
+      "manifestSha256": "ce57349a231a7c0c0271b979399fa27204b6abe13e3fa68ff3698fde61cd355a",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-chatflow/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-computer-use",
+      "version": "0.3.2",
+      "path": "dsh-w-computer-use",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-computer-use"
+      },
+      "manifestSha256": "45a01fe480562743c366f4acd65c0e62fd43e2692b3bb266ac1f4f3587b684c6",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-computer-use/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-custom-plugins",
+      "version": "0.5.1",
+      "path": "dsh-w-custom-plugins",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-custom-plugins"
+      },
+      "manifestSha256": "f31dfb707cc6b7f029b8eedfb02d2c255c4a401eb5ce533012317b2336b03ff3",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-custom-plugins/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-deslop",
+      "version": "0.1.1",
+      "path": "dsh-w-deslop",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-deslop"
+      },
+      "manifestSha256": "34028334f77867cb9c2c2c9e6c18e83409033e4e26cb4182a298085c990bda94",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-deslop/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-easy-upload",
+      "version": "0.2.0",
+      "path": "dsh-w-easy-upload",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-easy-upload"
+      },
+      "manifestSha256": "19ee2ec01c0c03ae3ef929a22df48d8229a92d4cae99eb7d14f23b0d7f87594c",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-easy-upload/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-knowledge-base",
+      "version": "0.5.3",
+      "path": "dsh-w-knowledge-base",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-knowledge-base"
+      },
+      "manifestSha256": "ce253225787493ad580e63e9011a3779d100e5d8a15ff20e1051adff549710e0",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-knowledge-base/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-noval-write",
+      "version": "0.15.0",
+      "path": "dsh-w-noval-write",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-noval-write"
+      },
+      "manifestSha256": "71f29addcb48a70177055189a5d57fc7e4a56bc6190e0bef9d4424a769be88be",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-noval-write/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-persona",
+      "version": "0.3.7",
+      "path": "dsh-w-persona",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-persona"
+      },
+      "manifestSha256": "5063dd47d746591f7e91b387848cbe4feac3e222bbf7c12b901fed0125c822ba",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-persona/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-reasoning-bridge",
+      "version": "0.2.2",
+      "path": "dsh-w-reasoning-bridge",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-reasoning-bridge"
+      },
+      "manifestSha256": "74bf278a230ba885d1207fa6fc4260d101ea2f0e03283edeb61a1237ba1005a4",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-reasoning-bridge/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-right-sidebar",
+      "version": "0.8.3",
+      "path": "dsh-w-right-sidebar",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-right-sidebar"
+      },
+      "manifestSha256": "3e7d2a4a203b31c5def99c3d458d6e501ab84f7070163952df6c7ebb1fb50129",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-right-sidebar/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-route-primer",
+      "version": "0.3.0",
+      "path": "dsh-w-route-primer",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-route-primer"
+      },
+      "manifestSha256": "06b78698c4fc553fcc138986c01ee412912d017d3280326bc6170809a1f58ec7",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-route-primer/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-studio",
+      "version": "0.4.6",
+      "path": "dsh-w-studio",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-studio"
+      },
+      "manifestSha256": "90b7d7bcfffbeb13a111dd158a70079cf6ff7add7f1a8190d1ea78e40a73c03e",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-studio/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-teacher-help-me",
+      "version": "0.2.0",
+      "path": "dsh-w-teacher-help-me",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-teacher-help-me"
+      },
+      "manifestSha256": "23431c29a205de53a72671758b88c8c9b1853eb1b840e3dd9a36f9fad67da032",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-teacher-help-me/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-vision",
+      "version": "0.3.2",
+      "path": "dsh-w-vision",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-vision"
+      },
+      "manifestSha256": "d4ef2eb94f9144debaa3b5169d4fa8421af5a626d00e67fb7cf0bf4293d6797c",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-vision/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-wallpaper",
+      "version": "0.2.1",
+      "path": "dsh-w-wallpaper",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-wallpaper"
+      },
+      "manifestSha256": "cf6cb41a7c470f786e1a901b882e86d5be2669a0dfdeb98c4edbe5ee24921c1d",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-wallpaper/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-w-whale-tail",
+      "version": "0.5.0",
+      "path": "dsh-w-whale-tail",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+        "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+        "path": "dsh-w-whale-tail"
+      },
+      "manifestSha256": "d22e0609cbbb8a74cd5bfcb16afaa44c868f3798329a754c98ddd557ffbfa03e",
+      "manifestUrl": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem/blob/7d1fee84326c83c5ad14df10cc3b06ce50abee0c/dsh-w-whale-tail/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wzxaaaa/dsh-w-plugin-ecosystem",
+    "commit": "7d1fee84326c83c5ad14df10cc3b06ce50abee0c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:08.826Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:01.962Z",
+  "contentReviewFlags": []
+}

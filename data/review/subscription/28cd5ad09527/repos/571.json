@@ -1,0 +1,72 @@
+{
+  "full_name": "Axiaohungry/dsh-llm-workbuddy",
+  "originalPosition": 538,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@axiaohungry/dsh-llm-workbuddy@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 571,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:18.796Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a15958bcd9733b17883d39aab4c9f90c0b9e365e5017026876e13ee068555f69",
+      "url": "https://github.com/Axiaohungry/dsh-llm-workbuddy/blob/f1b887bf396a23942594a4f4ab4d3b89558d2508/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@axiaohungry/dsh-llm-workbuddy@latest",
+          "command": "dsh plugin --profile web add @axiaohungry/dsh-llm-workbuddy@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@axiaohungry/dsh-llm-workbuddy",
+      "version": "1.3.21",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Axiaohungry/dsh-llm-workbuddy",
+        "commit": "f1b887bf396a23942594a4f4ab4d3b89558d2508"
+      },
+      "manifestSha256": "0eed41f5c43747666e06837758d0f643849da3b53563bf9920d3861de5ac4860",
+      "manifestUrl": "https://github.com/Axiaohungry/dsh-llm-workbuddy/blob/f1b887bf396a23942594a4f4ab4d3b89558d2508/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@axiaohungry/dsh-llm-workbuddy@latest",
+      "origin": "npm",
+      "name": "@axiaohungry/dsh-llm-workbuddy",
+      "version": "1.3.21",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ccdfcb8729f7e2850068cbd19b265b8cee3643d7d83dd4433023cbad91d8d7b1"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Axiaohungry/dsh-llm-workbuddy",
+    "commit": "f1b887bf396a23942594a4f4ab4d3b89558d2508",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:26.777Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.291Z",
+  "contentReviewFlags": []
+}

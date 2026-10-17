@@ -1,0 +1,38 @@
+{
+  "feedSha256": "28cd5ad095279591ebea4cf6c2c0b1c24412d5dc51f80267791a92b0d97d1b23",
+  "total": 600,
+  "attempted": 600,
+  "evidenceCollected": 600,
+  "manualReviewRequired": 254,
+  "mappingDifferenceRepositories": 225,
+  "retryRequired": 0,
+  "pending": 0,
+  "outcomes": {
+    "needs_upstream_declaration": 497,
+    "no_eligible_bundle_found": 21,
+    "template_or_example_review": 3,
+    "mapping_can_be_added": 7,
+    "manual_install_review": 3,
+    "eligible_source_verified": 69
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "total": 200,
+      "attempted": 200,
+      "retryRequired": 0
+    },
+    {
+      "batch": 2,
+      "total": 200,
+      "attempted": 200,
+      "retryRequired": 0
+    },
+    {
+      "batch": 3,
+      "total": 200,
+      "attempted": 200,
+      "retryRequired": 0
+    }
+  ]
+}

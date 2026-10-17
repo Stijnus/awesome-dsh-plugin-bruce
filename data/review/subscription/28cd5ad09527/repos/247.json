@@ -1,0 +1,165 @@
+{
+  "full_name": "openma-ai/Martty",
+  "originalPosition": 79,
+  "inputMode": "command",
+  "mappedTargets": [
+    "martty@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 247,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:44.259Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23d67d0ff7e6cb37d8c8f3f0a62cd7191d0c79d056faedd4a7c80d50588c1382",
+      "url": "https://github.com/openma-ai/Martty/blob/bf66b4a3dfbcebbfe1d91e76c5af39d63f921337/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "martty@latest",
+          "command": "dsh plugin --profile martty add martty@latest",
+          "profile": "martty"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/openma-ai/Martty/blob/bf66b4a3dfbcebbfe1d91e76c5af39d63f921337/README.en.md",
+      "sha256": "60ff698c2cb2ddc0b6082365de3334d2edf88cb9e961c246ad0688a6f18a72a3",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "martty@latest",
+          "command": "dsh plugin --profile martty add martty@latest",
+          "profile": "martty"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/openma-ai/Martty/blob/bf66b4a3dfbcebbfe1d91e76c5af39d63f921337/docs/README.md",
+      "sha256": "159e1ecdf6a51cd5d24562694f0937fe635455e86250d35acc02f1a2ddef5eca",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "martty",
+      "version": "0.3.3",
+      "path": "npm",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/openma-ai/Martty",
+        "commit": "bf66b4a3dfbcebbfe1d91e76c5af39d63f921337",
+        "path": "npm"
+      },
+      "manifestSha256": "21f761205f602f8f97a84e2f2cf54f3f5c4ad66109c7bba5930a0084bd2d393b",
+      "manifestUrl": "https://github.com/openma-ai/Martty/blob/bf66b4a3dfbcebbfe1d91e76c5af39d63f921337/npm/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "martty",
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1792251227,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/openma-ai/Martty",
+              "commit": "bf66b4a3dfbcebbfe1d91e76c5af39d63f921337",
+              "path": "npm"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "martty@latest",
+      "origin": "npm",
+      "name": "martty",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "martty",
+        "title": "martty",
+        "description": "Terminal-native ACP client UI; Cordis client tree, any ACP agent",
+        "homepage": "https://martty.sh",
+        "repository": {
+          "url": "https://github.com/openma-ai/Martty"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "tui",
+            "agent",
+            "acp",
+            "agent-client-protocol"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1792249283,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6cd72229097b9b91521bdf6b77dd62951c833479cacc3742ca0d58bb6ca610f8",
+      "evidence": [
+        {
+          "name": "martty",
+          "version": "0.3.3",
+          "tarball": "https://registry.npmjs.org/martty/-/martty-0.3.3.tgz",
+          "integrity": "sha512-yTEfqj4os2j0MD0RYrMiEPwqaJegUbly0RMit5yQD0KumvATlTfp4dBsrdjA696otk36ZTsb62PKWR0Ii2Au7Q=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/openma-ai/Martty",
+    "commit": "bf66b4a3dfbcebbfe1d91e76c5af39d63f921337",
+    "releaseTags": 71,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:54.811Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:56.790Z",
+  "coverageReviewedAt": "2026-10-17T17:12:10.948Z",
+  "contentReviewFlags": []
+}

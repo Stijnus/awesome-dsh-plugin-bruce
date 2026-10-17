@@ -1,0 +1,76 @@
+{
+  "full_name": "loyalchiiina/dsh-workbuddy-hub",
+  "originalPosition": 519,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 123,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:43.850Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cc42a1a2687688c2b6a99deeb37d3f481128aaf242981696f189d7eb522a728b",
+      "url": "https://github.com/loyalchiiina/dsh-workbuddy-hub/blob/4b0bb296cc0a4e27963aa7c32667b14cf2e849c8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workbuddy-hub",
+          "command": "dsh plugin --profile desktop add dsh-workbuddy-hub",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workbuddy-hub",
+      "version": "1.9.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/loyalchiiina/dsh-workbuddy-hub",
+        "commit": "4b0bb296cc0a4e27963aa7c32667b14cf2e849c8"
+      },
+      "manifestSha256": "8c51973f92d745aa9dc170e71633be1e5a31b41cb60b7f6b354e82d5c07b985d",
+      "manifestUrl": "https://github.com/loyalchiiina/dsh-workbuddy-hub/blob/4b0bb296cc0a4e27963aa7c32667b14cf2e849c8/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-workbuddy-hub",
+      "origin": "npm",
+      "name": "dsh-workbuddy-hub",
+      "version": "1.9.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "e6b0ae8c22c50c85e63d68ff55e0f10b45e5daf0bcb0c6c35aeb53962eca74e6"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workbuddy-hub",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/loyalchiiina/dsh-workbuddy-hub",
+    "commit": "4b0bb296cc0a4e27963aa7c32667b14cf2e849c8",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:51.610Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.362Z",
+  "contentReviewFlags": []
+}

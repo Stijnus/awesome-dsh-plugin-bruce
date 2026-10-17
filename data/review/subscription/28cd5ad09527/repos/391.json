@@ -1,0 +1,72 @@
+{
+  "full_name": "Clarklevis1995/dsh-plugin-mobile-gateway",
+  "originalPosition": 276,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-mobile-gateway@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 391,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:19.813Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "32801902ba31d82bfd108eff3cca85ca23859c4746db25ad981ec5ae50a851ed",
+      "url": "https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway/blob/9ce0b33fd67de4bdbdf368bf4c5db4e727cfc05b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-mobile-gateway@latest",
+          "command": "dsh plugin --profile web add dsh-plugin-mobile-gateway@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-mobile-gateway",
+      "version": "0.10.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway",
+        "commit": "9ce0b33fd67de4bdbdf368bf4c5db4e727cfc05b"
+      },
+      "manifestSha256": "168362d429f0eeaf02e500746dbb6f7ebba3c59ba7330e7323908fdc6c4cdc25",
+      "manifestUrl": "https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway/blob/9ce0b33fd67de4bdbdf368bf4c5db4e727cfc05b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-mobile-gateway@latest",
+      "origin": "npm",
+      "name": "dsh-plugin-mobile-gateway",
+      "version": "0.10.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "2283b9f5aef5e36f5aa7acfea315b91ad3f7ca5b4628dca96b2f02f5d8df1ab1"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway",
+    "commit": "9ce0b33fd67de4bdbdf368bf4c5db4e727cfc05b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:28.078Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.222Z",
+  "contentReviewFlags": []
+}

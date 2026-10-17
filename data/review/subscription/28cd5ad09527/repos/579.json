@@ -1,0 +1,85 @@
+{
+  "full_name": "poiuyjie/dsh-vision-opencode",
+  "originalPosition": 553,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/poiuyjie/dsh-vision-opencode"
+  ],
+  "manualNote": null,
+  "ordinal": 579,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:32.133Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "73d16483c326ada09b09de0f76393e3d80a1c542858e83943a5b7241691955e8",
+      "url": "https://github.com/poiuyjie/dsh-vision-opencode/blob/1ab7e5502b969c20d38e7d269ed1f1c4d8aa3e24/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/poiuyjie/dsh-vision-opencode",
+          "command": "dsh plugin --profile web add -w github:poiuyjie/dsh-vision-opencode",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/poiuyjie/dsh-vision-opencode/blob/1ab7e5502b969c20d38e7d269ed1f1c4d8aa3e24/README.en.md",
+      "sha256": "390f129b4d1282814bbff4f8f51118dc3462a571e15822018bca559e8daae8ce",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/poiuyjie/dsh-vision-opencode",
+          "command": "dsh plugin --profile web add -w github:poiuyjie/dsh-vision-opencode",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vision-opencode",
+      "version": "0.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/poiuyjie/dsh-vision-opencode",
+        "commit": "1ab7e5502b969c20d38e7d269ed1f1c4d8aa3e24"
+      },
+      "manifestSha256": "70b07fc6676eea9b98733e4a7549e5005149f443b9d0ea965694aea43c3d3fca",
+      "manifestUrl": "https://github.com/poiuyjie/dsh-vision-opencode/blob/1ab7e5502b969c20d38e7d269ed1f1c4d8aa3e24/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/poiuyjie/dsh-vision-opencode",
+    "commit": "1ab7e5502b969c20d38e7d269ed1f1c4d8aa3e24",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:40.812Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.680Z",
+  "coverageReviewedAt": "2026-10-17T17:12:32.597Z",
+  "contentReviewFlags": []
+}

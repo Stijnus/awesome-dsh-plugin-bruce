@@ -1,0 +1,90 @@
+{
+  "full_name": "hancao97/hanai-investment-dsh",
+  "originalPosition": 95,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@deepseek-ai/dsh-web-app"
+  ],
+  "manualNote": null,
+  "ordinal": 261,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:08.732Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4762eeea1292c91a59eaba631c8663c2adadfe11a622c9d32b9406a821140b76",
+      "url": "https://github.com/hancao97/hanai-investment-dsh/blob/de3aca4fdc173b2f23bfdddfc7ae5e9ecdb05cd2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@deepseek-ai/dsh-web-app",
+          "command": "dsh plugin add @deepseek-ai/dsh-web-app",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/hancao97/hanai-investment-dsh/blob/de3aca4fdc173b2f23bfdddfc7ae5e9ecdb05cd2/docs/README.md",
+      "sha256": "ed6cdf86bab177e82e2fdec2ea211e5d43ece674b438c3f0ca09ef215f6fff7f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "hanai-investment-dsh",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hancao97/hanai-investment-dsh",
+        "commit": "de3aca4fdc173b2f23bfdddfc7ae5e9ecdb05cd2"
+      },
+      "manifestSha256": "816da54d4744b8b097783935b0b278bbcd5f4243fe545e81980a6900c8ba5b9a",
+      "manifestUrl": "https://github.com/hancao97/hanai-investment-dsh/blob/de3aca4fdc173b2f23bfdddfc7ae5e9ecdb05cd2/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@deepseek-ai/dsh-web-app",
+      "origin": "npm",
+      "name": "@deepseek-ai/dsh-web-app",
+      "version": "0.0.1-rc.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "4ff716fb9d6f08fb4ae6197af7ac340b0048c7a038593a6abd1bbcd321432dc2"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hancao97/hanai-investment-dsh",
+    "commit": "de3aca4fdc173b2f23bfdddfc7ae5e9ecdb05cd2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:19.536Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:57.679Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.179Z",
+  "contentReviewFlags": []
+}

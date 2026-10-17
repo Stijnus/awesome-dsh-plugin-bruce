@@ -1,0 +1,53 @@
+{
+  "full_name": "c3cvld7aag/fujiang-dsh",
+  "originalPosition": 20,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:05.099Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "32e72dbb8cf41c505ae4a9b81b0ae89a297fa26069838a1e5e47e92cd235abcc",
+      "url": "https://github.com/c3cvld7aag/fujiang-dsh/blob/ab86ddcd169f0f13bc74923b6ed95eda55224931/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "fujiang-armor",
+      "version": "0.4.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/c3cvld7aag/fujiang-dsh",
+        "commit": "ab86ddcd169f0f13bc74923b6ed95eda55224931"
+      },
+      "manifestSha256": "0c32568fd035096e31a037ff02415f7b53eb6446dba2487ae330582a170d013a",
+      "manifestUrl": "https://github.com/c3cvld7aag/fujiang-dsh/blob/ab86ddcd169f0f13bc74923b6ed95eda55224931/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/c3cvld7aag/fujiang-dsh",
+    "commit": "ab86ddcd169f0f13bc74923b6ed95eda55224931",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:13.656Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:01.909Z",
+  "contentReviewFlags": []
+}

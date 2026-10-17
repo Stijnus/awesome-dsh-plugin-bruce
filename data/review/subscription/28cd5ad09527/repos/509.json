@@ -1,0 +1,78 @@
+{
+  "full_name": "amlyczz/dsh-lark-link",
+  "originalPosition": 436,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-lark-link@latest",
+    "https://github.com/amlyczz/dsh-lark-link"
+  ],
+  "manualNote": null,
+  "ordinal": 509,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:26.319Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "02d9c9a27b9b5ca6e404c7092a62f9ab2b8909775440160869a7c3410b1d491e",
+      "url": "https://github.com/amlyczz/dsh-lark-link/blob/1f32812730645f37aeabf6c55a6d250c67f5ac7e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-lark-link@latest",
+          "command": "dsh plugin --profile web add dsh-lark-link@latest --ignore-scripts",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/amlyczz/dsh-lark-link",
+          "command": "dsh plugin --profile web add github:amlyczz/dsh-lark-link",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lark-link",
+      "version": "0.5.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/amlyczz/dsh-lark-link",
+        "commit": "1f32812730645f37aeabf6c55a6d250c67f5ac7e"
+      },
+      "manifestSha256": "66e655f7a31a439af27c0f04867e40027a770f4375fde52f4df0ea32839dba09",
+      "manifestUrl": "https://github.com/amlyczz/dsh-lark-link/blob/1f32812730645f37aeabf6c55a6d250c67f5ac7e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-lark-link@latest",
+      "origin": "npm",
+      "name": "dsh-lark-link",
+      "version": "0.5.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "343295a89baa596171a134478552aff7afff54aed13ddcdd0f6538142e6017df"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/amlyczz/dsh-lark-link",
+    "commit": "1f32812730645f37aeabf6c55a6d250c67f5ac7e",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:34.873Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:29.660Z",
+  "contentReviewFlags": []
+}

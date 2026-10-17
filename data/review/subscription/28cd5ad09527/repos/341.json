@@ -1,0 +1,220 @@
+{
+  "full_name": "MichaelShii/dsh-plugin-teamflow",
+  "originalPosition": 194,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-teamflow"
+  ],
+  "manualNote": null,
+  "ordinal": 341,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:23.463Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2b81200234c350a59ec5320ad62b5772cd25bb21affb81b6d56840d77162f049",
+      "url": "https://github.com/MichaelShii/dsh-plugin-teamflow/blob/d2ce2db5ae8f4b9578caaeb66d92324a595b9edf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-teamflow",
+          "command": "dsh plugin --profile web add dsh-plugin-teamflow",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-teamflow@latest",
+          "command": "dsh plugin --profile web add dsh-plugin-teamflow@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/MichaelShii/dsh-plugin-teamflow/blob/d2ce2db5ae8f4b9578caaeb66d92324a595b9edf/README.en.md",
+      "sha256": "57bd3535fbdb46f87ed3fcec59811c18c957621ea1d00c74874f28798f7a5815",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-teamflow",
+          "command": "dsh plugin --profile web add dsh-plugin-teamflow",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-teamflow@latest",
+          "command": "dsh plugin --profile web add dsh-plugin-teamflow@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-teamflow",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichaelShii/dsh-plugin-teamflow",
+        "commit": "d2ce2db5ae8f4b9578caaeb66d92324a595b9edf"
+      },
+      "manifestSha256": "c4e8c73f35113937e795b544fa4b025e3a8ffae23eac0ffa24a868ca15c1b600",
+      "manifestUrl": "https://github.com/MichaelShii/dsh-plugin-teamflow/blob/d2ce2db5ae8f4b9578caaeb66d92324a595b9edf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-alpha.2 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-teamflow",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792242308,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MichaelShii/dsh-plugin-teamflow",
+              "commit": "d2ce2db5ae8f4b9578caaeb66d92324a595b9edf"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-teamflow",
+      "origin": "npm",
+      "name": "dsh-plugin-teamflow",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-teamflow",
+        "title": "dsh-plugin-teamflow",
+        "description": "TeamFlow 团队研发流水线（TypeScript）：需求→PRD→设计→架构→技术方案→并行开发→QA→验收；backlog 持久化 + 断点续跑 + 完成汇报 + 防假交付；Web 团队工作台（conversation.view tab + 拖拽看板）",
+        "homepage": "https://github.com/MichaelShii/dsh-plugin-teamflow",
+        "repository": {
+          "url": "https://github.com/MichaelShii/dsh-plugin-teamflow"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "teamflow",
+            "multi-agent",
+            "pipeline",
+            "agent-team",
+            "llm-agent",
+            "kanban",
+            "coding-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792242279,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "02e4d39999c641891498fa14aa36c0f2833500bdcde1d38c322ff80596ff3fe4",
+      "evidence": [
+        {
+          "name": "dsh-plugin-teamflow",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-teamflow/-/dsh-plugin-teamflow-0.3.0.tgz",
+          "integrity": "sha512-C7SLrB1epL3CWsWof9hQzz8vWvWbn7ercAVuYEUvLOSIAUL/xEXCwMwbZu6MEZhLj1hpn6k0+T/UlntLJYC3dA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-plugin-teamflow",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-teamflow",
+        "title": "dsh-plugin-teamflow",
+        "description": "TeamFlow 团队研发流水线（TypeScript）：需求→PRD→设计→架构→技术方案→并行开发→QA→验收；backlog 持久化 + 断点续跑 + 完成汇报 + 防假交付；Web 团队工作台（conversation.view tab + 拖拽看板）",
+        "homepage": "https://github.com/MichaelShii/dsh-plugin-teamflow",
+        "repository": {
+          "url": "https://github.com/MichaelShii/dsh-plugin-teamflow"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "teamflow",
+            "multi-agent",
+            "pipeline",
+            "agent-team",
+            "llm-agent",
+            "kanban",
+            "coding-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792242279,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "name": "dsh-plugin-teamflow",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-teamflow/-/dsh-plugin-teamflow-0.3.0.tgz",
+          "integrity": "sha512-C7SLrB1epL3CWsWof9hQzz8vWvWbn7ercAVuYEUvLOSIAUL/xEXCwMwbZu6MEZhLj1hpn6k0+T/UlntLJYC3dA=="
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-teamflow@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichaelShii/dsh-plugin-teamflow",
+    "commit": "d2ce2db5ae8f4b9578caaeb66d92324a595b9edf",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:05:31.947Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:03.998Z",
+  "coverageReviewedAt": "2026-10-17T17:12:18.120Z",
+  "contentReviewFlags": []
+}

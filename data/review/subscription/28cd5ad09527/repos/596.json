@@ -1,0 +1,96 @@
+{
+  "full_name": "oomol-lab/dsh-oomol",
+  "originalPosition": 595,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-oomol"
+  ],
+  "manualNote": null,
+  "ordinal": 596,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:59.690Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "27220c7c7e066b1db112c33f31481f239bf3c4a65daa8963a4aa7f495a44be62",
+      "url": "https://github.com/oomol-lab/dsh-oomol/blob/6b210ef008f4b80f300daf72bcd66b329d3db3df/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-oomol",
+          "command": "dsh plugin --profile web add -w dsh-oomol",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.zh-CN.md",
+      "url": "https://github.com/oomol-lab/dsh-oomol/blob/6b210ef008f4b80f300daf72bcd66b329d3db3df/docs/README.zh-CN.md",
+      "sha256": "b5e624266a82500047816e8df92bfcdd97f2fb729cdc40776cd18c7716af9e9a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-oomol",
+          "command": "dsh plugin --profile web add -w dsh-oomol",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-oomol",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/oomol-lab/dsh-oomol",
+        "commit": "6b210ef008f4b80f300daf72bcd66b329d3db3df"
+      },
+      "manifestSha256": "38e3096a9a5f0bee919026d21e24eb1d46ce5a9faa40d7fd39d8249b46829799",
+      "manifestUrl": "https://github.com/oomol-lab/dsh-oomol/blob/6b210ef008f4b80f300daf72bcd66b329d3db3df/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-oomol",
+      "origin": "npm",
+      "name": "dsh-oomol",
+      "version": "1.0.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "5f50c5dde43e4c762c6bac15e0bf8c6f6ff73921bbf66e911e7dd51fcc8b282e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/oomol-lab/dsh-oomol",
+    "commit": "6b210ef008f4b80f300daf72bcd66b329d3db3df",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:08.869Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.zh-CN.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.zh-CN.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:15.387Z",
+  "coverageReviewedAt": "2026-10-17T17:12:33.318Z",
+  "contentReviewFlags": []
+}

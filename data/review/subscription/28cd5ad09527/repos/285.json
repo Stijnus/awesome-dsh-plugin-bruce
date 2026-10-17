@@ -1,0 +1,96 @@
+{
+  "full_name": "GraySilver/dsh-evolve-modes",
+  "originalPosition": 126,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@graysilver/dsh-evolve-modes@0.4.0"
+  ],
+  "manualNote": null,
+  "ordinal": 285,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:05.525Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a372de0ed62a6dd1828496b5f85a2d34aca545cc32f5525e2156d605b21e2bea",
+      "url": "https://github.com/GraySilver/dsh-evolve-modes/blob/58b2742ec6f5c38200efdacd38f61c780d7977da/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@graysilver/dsh-evolve-modes@0.4.0",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @graysilver/dsh-evolve-modes@0.4.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/GraySilver/dsh-evolve-modes/blob/58b2742ec6f5c38200efdacd38f61c780d7977da/README.en.md",
+      "sha256": "894e1841f60c6b4333ee6fc071b578ec13bd433dfe736e19c40dc89c215073e7",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@graysilver/dsh-evolve-modes@0.4.0",
+          "command": "dsh plugin --profile web add @graysilver/dsh-evolve-modes@0.4.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@graysilver/dsh-evolve-modes",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GraySilver/dsh-evolve-modes",
+        "commit": "58b2742ec6f5c38200efdacd38f61c780d7977da"
+      },
+      "manifestSha256": "b39bbab886e33755957f074bb8466c7e73b66e4b2b3c0e4de06bde21c0206c5e",
+      "manifestUrl": "https://github.com/GraySilver/dsh-evolve-modes/blob/58b2742ec6f5c38200efdacd38f61c780d7977da/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@graysilver/dsh-evolve-modes@0.4.0",
+      "origin": "npm",
+      "name": "@graysilver/dsh-evolve-modes",
+      "version": "0.4.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "40e8b61d8b3041083651893b2717ba0dda0f7756c8efd8004c6ac6c53e7242a6"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GraySilver/dsh-evolve-modes",
+    "commit": "58b2742ec6f5c38200efdacd38f61c780d7977da",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:14.946Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:59.047Z",
+  "coverageReviewedAt": "2026-10-17T17:12:12.191Z",
+  "contentReviewFlags": []
+}

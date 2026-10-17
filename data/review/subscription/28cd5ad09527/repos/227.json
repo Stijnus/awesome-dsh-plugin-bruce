@@ -1,0 +1,97 @@
+{
+  "full_name": "EthanYoQ/Invoice-Downloader",
+  "originalPosition": 56,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@ethanyoq/dsh-invoice-downloader"
+  ],
+  "manualNote": null,
+  "ordinal": 227,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:05.731Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e216d2d1e7066aa141f7fceb6702c8e06603442c3ab24364744c53c95be49dbc",
+      "url": "https://github.com/EthanYoQ/Invoice-Downloader/blob/8fe3a1147c619268b41f1480e73c4fa38d97db69/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ethanyoq/dsh-invoice-downloader",
+          "command": "dsh plugin --profile web add @ethanyoq/dsh-invoice-downloader",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/EthanYoQ/Invoice-Downloader/blob/8fe3a1147c619268b41f1480e73c4fa38d97db69/README.en.md",
+      "sha256": "f5c3721a44fc2ddfeb9dcd2c592beb737ed2616295e013d87cfaf0d6be575531",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ethanyoq/dsh-invoice-downloader",
+          "command": "dsh plugin --profile web add @ethanyoq/dsh-invoice-downloader",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ethanyoq/dsh-invoice-downloader",
+      "version": "0.1.1",
+      "path": "plugins/dsh-invoice-downloader",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EthanYoQ/Invoice-Downloader",
+        "commit": "8fe3a1147c619268b41f1480e73c4fa38d97db69",
+        "path": "plugins/dsh-invoice-downloader"
+      },
+      "manifestSha256": "88c063a74adfb475e926020eee09e3bf63c2e4c1a61ddd8095ec1aeddf16d82f",
+      "manifestUrl": "https://github.com/EthanYoQ/Invoice-Downloader/blob/8fe3a1147c619268b41f1480e73c4fa38d97db69/plugins/dsh-invoice-downloader/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@ethanyoq/dsh-invoice-downloader",
+      "origin": "npm",
+      "name": "@ethanyoq/dsh-invoice-downloader",
+      "version": "0.1.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "bb26578645b723d001c80c8a78de50bf57c8f34947c717424e6f48747edf7750"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EthanYoQ/Invoice-Downloader",
+    "commit": "8fe3a1147c619268b41f1480e73c4fa38d97db69",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:14.725Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:55.973Z",
+  "coverageReviewedAt": "2026-10-17T17:12:09.334Z",
+  "contentReviewFlags": []
+}

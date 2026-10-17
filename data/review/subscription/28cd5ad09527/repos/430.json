@@ -1,0 +1,90 @@
+{
+  "full_name": "hr98w/dsh-memory",
+  "originalPosition": 327,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@hr98w/dsh-memory"
+  ],
+  "manualNote": null,
+  "ordinal": 430,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:03.429Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e6fcebdfc5027c9bd41e07c2fec71d95064126e12153bb75f8ea6e10f495ef59",
+      "url": "https://github.com/hr98w/dsh-memory/blob/06823e024c9a09d8982f3e81bd374f756b56d6e9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@hr98w/dsh-memory",
+          "command": "dsh plugin --profile web add @hr98w/dsh-memory",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "benchmark/locomo/README.md",
+      "url": "https://github.com/hr98w/dsh-memory/blob/06823e024c9a09d8982f3e81bd374f756b56d6e9/benchmark/locomo/README.md",
+      "sha256": "622deeaf06b6f8dd65938e50e667ef089675fc1c6d52a4b5fdb9ed744bf6e2b1",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@hr98w/dsh-memory",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hr98w/dsh-memory",
+        "commit": "06823e024c9a09d8982f3e81bd374f756b56d6e9"
+      },
+      "manifestSha256": "9a98ae8803acdfa07cd458c04350d220e88d6d498de471a324f579ca6e03c9ff",
+      "manifestUrl": "https://github.com/hr98w/dsh-memory/blob/06823e024c9a09d8982f3e81bd374f756b56d6e9/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@hr98w/dsh-memory",
+      "origin": "npm",
+      "name": "@hr98w/dsh-memory",
+      "version": "0.1.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9b2149df7accff4af9cbf14ed489b10d9840755e4f3116499eddabde399567e9"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hr98w/dsh-memory",
+    "commit": "06823e024c9a09d8982f3e81bd374f756b56d6e9",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:12.263Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "benchmark/locomo/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "benchmark/locomo/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:07.657Z",
+  "coverageReviewedAt": "2026-10-17T17:12:23.090Z",
+  "contentReviewFlags": []
+}

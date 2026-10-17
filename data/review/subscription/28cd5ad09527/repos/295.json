@@ -1,0 +1,104 @@
+{
+  "full_name": "AskTheWay/dsh-auto-memory",
+  "originalPosition": 137,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-auto-memory"
+  ],
+  "manualNote": null,
+  "ordinal": 295,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:26.211Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0de15ad20fccf201fee65a8db9441580cffb2e1a737ece6546530ae1cc7b5a3b",
+      "url": "https://github.com/AskTheWay/dsh-auto-memory/blob/5bcf1c6d4f1ff303195c1e51fea56274810b3717/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-auto-memory",
+          "command": "dsh plugin --profile demo add dsh-auto-memory",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7ff14da914844c68eb4d474e199138672d067337019a2e3a2187fadd07fb8530",
+      "url": "https://github.com/AskTheWay/dsh-auto-memory/blob/5bcf1c6d4f1ff303195c1e51fea56274810b3717/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-auto-memory",
+          "command": "dsh plugin --profile demo add dsh-auto-memory",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "evals/README.md",
+      "url": "https://github.com/AskTheWay/dsh-auto-memory/blob/5bcf1c6d4f1ff303195c1e51fea56274810b3717/evals/README.md",
+      "sha256": "a8dd1995c565a896bfc579623a731a5159a29c4a6ca701d642e57808be3c87f9",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-auto-memory",
+      "version": "0.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AskTheWay/dsh-auto-memory",
+        "commit": "5bcf1c6d4f1ff303195c1e51fea56274810b3717"
+      },
+      "manifestSha256": "4882c5644bbb54eabafcc9ddfb429600092ba00f38ee61f7357dd97f43ab707f",
+      "manifestUrl": "https://github.com/AskTheWay/dsh-auto-memory/blob/5bcf1c6d4f1ff303195c1e51fea56274810b3717/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-auto-memory",
+      "origin": "npm",
+      "name": "dsh-auto-memory",
+      "version": "0.7.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "185e9705a91c46769522abd8564427e5f77750f2f87a36aa173f186fb23a6607"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AskTheWay/dsh-auto-memory",
+    "commit": "5bcf1c6d4f1ff303195c1e51fea56274810b3717",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:35.294Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "evals/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "evals/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:59.979Z",
+  "coverageReviewedAt": "2026-10-17T17:12:12.911Z",
+  "contentReviewFlags": []
+}

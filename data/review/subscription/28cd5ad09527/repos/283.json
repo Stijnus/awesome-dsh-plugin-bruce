@@ -1,0 +1,232 @@
+{
+  "full_name": "PerryLink/dsh-skill-pack-security",
+  "originalPosition": 124,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-skill-pack-security#main"
+  ],
+  "manualNote": null,
+  "ordinal": 283,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:58.286Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1f5d823b24ac135de73b9d14843225e4a4799b2a573c9875174177a6079870e6",
+      "url": "https://github.com/PerryLink/dsh-skill-pack-security/blob/d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-skill-pack-security",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-skill-pack-security",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-skill-pack-security/blob/d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca/README-zh.md",
+      "sha256": "9dee01fc54c90036528007b2c1c61d597c4e3916c1c514bc6f084b08241a9aa9",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-skill-pack-security",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-skill-pack-security",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-skill-pack-security/blob/d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca/README-es.md",
+      "sha256": "f488f0089cc7077478466f884498b9f5c5f560a9bcff07d62a46d8fa152d7160",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-skill-pack-security",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-skill-pack-security",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-skill-pack-security/blob/d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca/README-pt.md",
+      "sha256": "67b35f94ccc6950e107852128ca0079935478e18b7012a5c7a4fdd4ba49e8bff",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-skill-pack-security",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-skill-pack-security",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-skill-pack-security/blob/d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca/README-hi.md",
+      "sha256": "2476940be29c6ca074948c284e8caa486e25714fa44ff03c9dc2cf4c28b888f9",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-skill-pack-security",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-skill-pack-security",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skill-pack-security",
+      "version": "2.2.24",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-skill-pack-security",
+        "commit": "d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca"
+      },
+      "manifestSha256": "31ce64aeb69e9f356ac390d4ce65c6dcd1e685c9ebcb20cddf780a6efde58d04",
+      "manifestUrl": "https://github.com/PerryLink/dsh-skill-pack-security/blob/d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-skill-pack-security",
+        "versions": [
+          {
+            "version": "2.2.24",
+            "publishTimestamp": 1791813006,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-skill-pack-security",
+              "commit": "d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-skill-pack-security#main",
+      "origin": "git_target",
+      "name": "dsh-skill-pack-security",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-skill-pack-security",
+        "title": "dsh-skill-pack-security",
+        "description": "Automated plugin supply-chain security gate for DeepSeek Harness (dsh): eight agent skills in Chinese and English editions teach the audit methodology, and the plugin_vet tool executes the pre-install gate (license / SBOM / commit pinning / malicious patterns / five-dimension risk card) with findings that cite the matching skill sections.",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-skill-pack-security"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "skill-pack",
+            "skills",
+            "security",
+            "security-audit",
+            "supply-chain",
+            "plugin-vet",
+            "gate"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.2.24",
+            "publishTimestamp": 1791813006,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-skill-pack-security",
+              "commit": "d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca",
+          "name": "dsh-skill-pack-security",
+          "version": "2.2.24",
+          "url": "https://github.com/PerryLink/dsh-skill-pack-security",
+          "manifestSha256": "31ce64aeb69e9f356ac390d4ce65c6dcd1e685c9ebcb20cddf780a6efde58d04",
+          "publishTimestamp": 1791813006
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-skill-pack-security#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-skill-pack-security",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-skill-pack-security",
+    "commit": "d6a6d00e94796b5e7f5d0f513cb88eb6dfa4eaca",
+    "releaseTags": 35,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:03:12.332Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:59.934Z",
+  "coverageReviewedAt": "2026-10-17T17:12:12.908Z",
+  "contentReviewFlags": []
+}

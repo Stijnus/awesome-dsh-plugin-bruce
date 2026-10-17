@@ -1,0 +1,71 @@
+{
+  "full_name": "leavestring/awesome-dsh-background-plugin",
+  "originalPosition": 499,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:27.765Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bd74b9c0aec1a47985fa6da6cb8eaca4077c6fc8eb00c6bddd9462bcaf50f2eb",
+      "url": "https://github.com/leavestring/awesome-dsh-background-plugin/blob/6b39c8d34e9d48829b4eb8721003909f901e2f15/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/leavestring/awesome-dsh-background-plugin/blob/6b39c8d34e9d48829b4eb8721003909f901e2f15/README.en.md",
+      "sha256": "1c90ee66ec3fe49b8d785c47d71c7607a052c0e3acc8ce3b4cd00eb0c3c9bafe",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "awesome-dsh-background-plugin",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/leavestring/awesome-dsh-background-plugin",
+        "commit": "6b39c8d34e9d48829b4eb8721003909f901e2f15"
+      },
+      "manifestSha256": "e5ffd77eba46551fa4b768cb13da6dbaadbe6fa1b261926da30776c4a3771d0e",
+      "manifestUrl": "https://github.com/leavestring/awesome-dsh-background-plugin/blob/6b39c8d34e9d48829b4eb8721003909f901e2f15/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/leavestring/awesome-dsh-background-plugin",
+    "commit": "6b39c8d34e9d48829b4eb8721003909f901e2f15",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:35.540Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:52.074Z",
+  "coverageReviewedAt": "2026-10-17T17:12:06.356Z",
+  "contentReviewFlags": []
+}

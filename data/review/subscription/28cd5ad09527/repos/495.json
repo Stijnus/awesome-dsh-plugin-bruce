@@ -1,0 +1,72 @@
+{
+  "full_name": "linhut/gongwen-skill",
+  "originalPosition": 418,
+  "inputMode": "command",
+  "mappedTargets": [
+    "gongwen-skill"
+  ],
+  "manualNote": null,
+  "ordinal": 495,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:02.771Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5847e5e3bc31512d74f65c0d5e8d9dee86ad4b32d3dcdb604d405d392753e149",
+      "url": "https://github.com/linhut/gongwen-skill/blob/6a41282aa5ae3ed3bbc55ad9adc33bcff80c7353/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "gongwen-skill",
+          "command": "dsh plugin --profile web add -w gongwen-skill",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "gongwen-skill",
+      "version": "2.15.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/linhut/gongwen-skill",
+        "commit": "6a41282aa5ae3ed3bbc55ad9adc33bcff80c7353"
+      },
+      "manifestSha256": "8d3f9ec6d16706e131932f12af071a1378b419b437154eb5258c19c6c81c0c5f",
+      "manifestUrl": "https://github.com/linhut/gongwen-skill/blob/6a41282aa5ae3ed3bbc55ad9adc33bcff80c7353/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "gongwen-skill",
+      "origin": "npm",
+      "name": "gongwen-skill",
+      "version": "2.15.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0b69a34c800a98cffaa34fb3c8d07d7eb4af3842ea80f09f57c451638802d49b"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/linhut/gongwen-skill",
+    "commit": "6a41282aa5ae3ed3bbc55ad9adc33bcff80c7353",
+    "releaseTags": 113,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:11.497Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:29.135Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,76 @@
+{
+  "full_name": "imlishiyuan/deepseek-harness-zh-cn",
+  "originalPosition": 211,
+  "inputMode": "command",
+  "mappedTargets": [
+    "deepseek-harness-zh-cn"
+  ],
+  "manualNote": null,
+  "ordinal": 353,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:58.827Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a2923795c43e30825841a3ef5eb7cc97e3306eda03fffacc556425ab2b60ea67",
+      "url": "https://github.com/imlishiyuan/deepseek-harness-zh-cn/blob/06c6821afc133fee5fecf3b7138730afa12de44d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-harness-zh-cn",
+          "command": "dsh plugin --profile web add deepseek-harness-zh-cn",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c711fec0dd52d3c4b9683b3fd6b09e9c2376ca9ec0acc0000b581266f3438f5e",
+      "url": "https://github.com/imlishiyuan/deepseek-harness-zh-cn/blob/06c6821afc133fee5fecf3b7138730afa12de44d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-harness-zh-cn",
+          "command": "dsh plugin --profile web add deepseek-harness-zh-cn",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "target": "deepseek-harness-zh-cn",
+      "origin": "npm",
+      "name": "deepseek-harness-zh-cn",
+      "version": "0.1.4",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "0744701d66d260d629b48ef188ba8d445815e6e721171cbd4d87e98af7844be8"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/imlishiyuan/deepseek-harness-zh-cn",
+    "commit": "06c6821afc133fee5fecf3b7138730afa12de44d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "deepseek-harness-zh-cn",
+    "version": "0.1.4",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-10-17T17:06:08.183Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:17.067Z",
+  "contentReviewFlags": []
+}

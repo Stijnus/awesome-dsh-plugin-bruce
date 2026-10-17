@@ -1,0 +1,90 @@
+{
+  "full_name": "xiaosurongjia/dsh-improved-inline-edit",
+  "originalPosition": 170,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@springbrand/dsh-plugin-marketplace"
+  ],
+  "manualNote": null,
+  "ordinal": 322,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:33.147Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9ef8b34c73e80823441854b9d90a8a5e88e661defc25efc62ca4ca49bc2e6c38",
+      "url": "https://github.com/xiaosurongjia/dsh-improved-inline-edit/blob/4ba82a0cfcd20ae8605940a71a65d3d8face2974/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@springbrand/dsh-plugin-marketplace",
+          "command": "dsh plugin --profile web add @springbrand/dsh-plugin-marketplace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/xiaosurongjia/dsh-improved-inline-edit/blob/4ba82a0cfcd20ae8605940a71a65d3d8face2974/README.en.md",
+      "sha256": "0c1c7ce9a0738125ae0330c929a1b3cce0d682ad554d3e05e98e49fc7e0bba3a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-improved-inline-edit",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaosurongjia/dsh-improved-inline-edit",
+        "commit": "4ba82a0cfcd20ae8605940a71a65d3d8face2974"
+      },
+      "manifestSha256": "bba1552f3a93391f8fb65b1afe74fc08872f7eebbd4e58536875a34b9651cf2d",
+      "manifestUrl": "https://github.com/xiaosurongjia/dsh-improved-inline-edit/blob/4ba82a0cfcd20ae8605940a71a65d3d8face2974/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@springbrand/dsh-plugin-marketplace",
+      "origin": "npm",
+      "name": "@springbrand/dsh-plugin-marketplace",
+      "version": "1.0.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "d91ca91e0c55fdf55abe24336f130682c3d50cce5d4c5de1e172b5c915ac756a"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaosurongjia/dsh-improved-inline-edit",
+    "commit": "4ba82a0cfcd20ae8605940a71a65d3d8face2974",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:41.314Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:01.874Z",
+  "coverageReviewedAt": "2026-10-17T17:12:15.203Z",
+  "contentReviewFlags": []
+}

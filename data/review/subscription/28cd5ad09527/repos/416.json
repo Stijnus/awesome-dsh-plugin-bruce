@@ -1,0 +1,78 @@
+{
+  "full_name": "kanneiren/dsh-network-settings",
+  "originalPosition": 308,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-network-settings",
+    "https://github.com/kanneiren/dsh-network-settings"
+  ],
+  "manualNote": null,
+  "ordinal": 416,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:44.262Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "753fab3ad812de53172ba177971a9f071fba1dae7a722ae0beeacdd39524bc0d",
+      "url": "https://github.com/kanneiren/dsh-network-settings/blob/567ca07bccd2246d96d49ffa849a38b35c2cb016/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-network-settings",
+          "command": "dsh plugin --profile web add dsh-network-settings",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/kanneiren/dsh-network-settings",
+          "command": "dsh plugin --profile web add github:kanneiren/dsh-network-settings",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-network-settings",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kanneiren/dsh-network-settings",
+        "commit": "567ca07bccd2246d96d49ffa849a38b35c2cb016"
+      },
+      "manifestSha256": "f5f6174de156c95b27eadeb5a0e08b044a3304e1b0acbd6e6dbc412c386a7814",
+      "manifestUrl": "https://github.com/kanneiren/dsh-network-settings/blob/567ca07bccd2246d96d49ffa849a38b35c2cb016/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-network-settings",
+      "origin": "npm",
+      "name": "dsh-network-settings",
+      "version": "0.3.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "560964b08332cb6f4f9fa8b6763c841a67c8973ff17a85032298ef63a2a9d73b"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kanneiren/dsh-network-settings",
+    "commit": "567ca07bccd2246d96d49ffa849a38b35c2cb016",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:52.448Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:21.487Z",
+  "contentReviewFlags": []
+}

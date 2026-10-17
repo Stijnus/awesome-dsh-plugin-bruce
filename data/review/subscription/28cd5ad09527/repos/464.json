@@ -1,0 +1,304 @@
+{
+  "full_name": "dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+  "originalPosition": 378,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-wsl-workspace",
+    "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace"
+  ],
+  "manualNote": null,
+  "ordinal": 464,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:04.213Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3893133f164e420a2ac7313f66eb03b99f0a6d86d07440bef18d0f78118ff886",
+      "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add dsh-wsl-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6b3a40cbeecc13786f705182b7e5c1e4975cab2658efe95338704cf1961b12da",
+      "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add dsh-wsl-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/README.ja.md",
+      "sha256": "9c692bb339db94f8daa4ec77b30e2145308302068bdbdf64746883575f9425b7",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add dsh-wsl-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ko.md",
+      "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/README.ko.md",
+      "sha256": "2b22d976cfc78516f62971b9b036c862be6bbba13cee1ba28c4a57b22d68b6bd",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add dsh-wsl-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/README.fr.md",
+      "sha256": "534e2ee206af50db49163c55d6ae11ba4d70b04e1445a60b63ae6ff08bb91468",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add dsh-wsl-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/README.de.md",
+      "sha256": "859b2b4c860d941ecbe064f849a8221bea9b294615be9334ee729856af4f0cc0",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add dsh-wsl-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/README.es.md",
+      "sha256": "d459f8024c01ff5badfc59aa17d3004eecc2f4753670e2193d9b0026d5d37b4f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add dsh-wsl-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt.md",
+      "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/README.pt.md",
+      "sha256": "8fff338a2ad6f84cd87d14e4dcb6554fb4f0a072f068f1221a9503616ac3bcae",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add dsh-wsl-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/README.ru.md",
+      "sha256": "eba0c393c8c933318d0750a6941659833b2ce896c51825d2136c10939ed18577",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add dsh-wsl-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/docs/README.md",
+      "sha256": "6fb2dcc05166cdba78d43334445288a5820dd2602a22a86826e72940e7f3337d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wsl-workspace",
+      "version": "0.7.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+        "commit": "0fb7b015ba86fd56fa496f02d1e63a3351744c29"
+      },
+      "manifestSha256": "88ecaf7e19864d66cc1266eff2e2f1f90f784f5c6e3589378cec58a9cb15f8b8",
+      "manifestUrl": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace/blob/0fb7b015ba86fd56fa496f02d1e63a3351744c29/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-wsl-workspace",
+      "origin": "npm",
+      "name": "dsh-wsl-workspace",
+      "version": "0.7.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "148810961c49dd26cadaea41f7eab16c36855e841cc6ba4acbc6c5f2d5981739"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+    "commit": "0fb7b015ba86fd56fa496f02d1e63a3351744c29",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:13.606Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.ja.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.ko.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.fr.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.de.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.ru.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.ja.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.ko.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.fr.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.de.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.ru.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:15.037Z",
+  "coverageReviewedAt": "2026-10-17T17:12:27.781Z",
+  "contentReviewFlags": []
+}

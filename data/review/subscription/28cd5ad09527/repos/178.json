@@ -1,0 +1,84 @@
+{
+  "full_name": "swarm-apps/dsh-swarmdrop",
+  "originalPosition": 554,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-swarmdrop」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 178,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:35.478Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8c79c3d35b2762f60bf8f0603c512a05b3bd2369baf882b342af8dfa65d5ada2",
+      "url": "https://github.com/swarm-apps/dsh-swarmdrop/blob/bea5d520f2ac98354db53b73eb6a07a6228a2790/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-swarmdrop",
+          "command": "dsh plugin --profile <name> add dsh-swarmdrop",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-swarmdrop",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/swarm-apps/dsh-swarmdrop",
+        "commit": "bea5d520f2ac98354db53b73eb6a07a6228a2790"
+      },
+      "manifestSha256": "1bb8b19013743eddf5dee96b3170fd9ab6d1510ba01189c53620d1b7ebc53937",
+      "manifestUrl": "https://github.com/swarm-apps/dsh-swarmdrop/blob/bea5d520f2ac98354db53b73eb6a07a6228a2790/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-swarmdrop",
+      "origin": "npm",
+      "name": "dsh-swarmdrop",
+      "version": "0.7.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "48137f827defaa9f73ac3097a496b3480e6f3abaa0db251f01cef0c3e8b352e4"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-swarmdrop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/swarm-apps/dsh-swarmdrop",
+    "commit": "bea5d520f2ac98354db53b73eb6a07a6228a2790",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:44.637Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.384Z",
+  "contentReviewFlags": []
+}

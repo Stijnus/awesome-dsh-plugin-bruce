@@ -1,0 +1,117 @@
+{
+  "full_name": "freehul/sgme",
+  "originalPosition": 435,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/freehul/sgme"
+  ],
+  "manualNote": null,
+  "ordinal": 508,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:25.956Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "53b2aaf9b9d1b11a926221461d7e07269631dbb18129486de9d24ab5866e4d55",
+      "url": "https://github.com/freehul/sgme/blob/6a9c35bbca182be9713ad4f6d9db03e02854f532/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/freehul/sgme",
+          "command": "dsh plugin --profile web add github:freehul/sgme",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-sgme",
+          "command": "dsh plugin --profile web add dsh-sgme",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "ba38bb17236e1c18e9a493cf22676c69dd4d66896b1015fd911e1c45f9a5b58d",
+      "url": "https://github.com/freehul/sgme/blob/6a9c35bbca182be9713ad4f6d9db03e02854f532/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/freehul/sgme",
+          "command": "dsh plugin --profile web add github:freehul/sgme",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-sgme",
+          "command": "dsh plugin --profile web add dsh-sgme",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "adapters/dsh/README.md",
+      "url": "https://github.com/freehul/sgme/blob/6a9c35bbca182be9713ad4f6d9db03e02854f532/adapters/dsh/README.md",
+      "sha256": "44933da942abaf685f17d72cf4182aa429acdaca81af2baeabdaf0cf486b10e6",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sgme",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/freehul/sgme",
+        "commit": "6a9c35bbca182be9713ad4f6d9db03e02854f532"
+      },
+      "manifestSha256": "d511e548cb47181a64e7d5a1188793284d08fc7518ff4b739f2a125a099c880a",
+      "manifestUrl": "https://github.com/freehul/sgme/blob/6a9c35bbca182be9713ad4f6d9db03e02854f532/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-sgme",
+      "version": "0.6.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sgme",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/freehul/sgme",
+    "commit": "6a9c35bbca182be9713ad4f6d9db03e02854f532",
+    "releaseTags": 39,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:35.404Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "adapters/dsh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "adapters/dsh/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:11.810Z",
+  "coverageReviewedAt": "2026-10-17T17:12:30.489Z",
+  "contentReviewFlags": []
+}

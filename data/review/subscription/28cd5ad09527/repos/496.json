@@ -1,0 +1,97 @@
+{
+  "full_name": "cakeni/harness-pet",
+  "originalPosition": 419,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/cakeni/harness-pet"
+  ],
+  "manualNote": null,
+  "ordinal": 496,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:05.750Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "69b15d1da349ccee7d9e52fed9f8f04462fb2c6655eeb259cddfc0218a0d73cc",
+      "url": "https://github.com/cakeni/harness-pet/blob/29bb8f0fbba5514b83300a103e2a1088a02b433a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/cakeni/harness-pet",
+          "command": "dsh plugin --profile web add github:cakeni/harness-pet",
+          "profile": "web"
+        },
+        {
+          "install": "harness-pet",
+          "command": "dsh plugin --profile web add harness-pet",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "51eaa3f8ac7904f96f4c1778312d16b932b100a973625170d21dd0e18af52278",
+      "url": "https://github.com/cakeni/harness-pet/blob/29bb8f0fbba5514b83300a103e2a1088a02b433a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/cakeni/harness-pet",
+          "command": "dsh plugin --profile web add github:cakeni/harness-pet",
+          "profile": "web"
+        },
+        {
+          "install": "harness-pet",
+          "command": "dsh plugin --profile web add harness-pet",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "harness-pet",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cakeni/harness-pet",
+        "commit": "29bb8f0fbba5514b83300a103e2a1088a02b433a"
+      },
+      "manifestSha256": "d319cd39693704f0aacc54980cd55d070552892daa4b839b7666cab0031a7330",
+      "manifestUrl": "https://github.com/cakeni/harness-pet/blob/29bb8f0fbba5514b83300a103e2a1088a02b433a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "harness-pet",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "harness-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cakeni/harness-pet",
+    "commit": "29bb8f0fbba5514b83300a103e2a1088a02b433a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:16.415Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:29.138Z",
+  "contentReviewFlags": []
+}

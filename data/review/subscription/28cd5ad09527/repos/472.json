@@ -1,0 +1,75 @@
+{
+  "full_name": "redfox-data/redfox-community-dsh",
+  "originalPosition": 389,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/redfox-data/redfox-community-dsh"
+  ],
+  "manualNote": null,
+  "ordinal": 472,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:18.147Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7b9889cd95cc95f11f2f8195b2cef9cbac90c9677099cfd3dcff6637e118613f",
+      "url": "https://github.com/redfox-data/redfox-community-dsh/blob/c6be1b9e52c2cda4a28ba39ba9801da7ffa5033f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/redfox-data/redfox-community-dsh",
+          "command": "dsh plugin --profile web add github:redfox-data/redfox-community-dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b81be622200ab87179a3f7c5ef30efc1409d55b4ea457f346ff4c828132992ed",
+      "url": "https://github.com/redfox-data/redfox-community-dsh/blob/c6be1b9e52c2cda4a28ba39ba9801da7ffa5033f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/redfox-data/redfox-community-dsh",
+          "command": "dsh plugin --profile web add github:redfox-data/redfox-community-dsh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "redfox-community-dsh",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/redfox-data/redfox-community-dsh",
+        "commit": "c6be1b9e52c2cda4a28ba39ba9801da7ffa5033f"
+      },
+      "manifestSha256": "b002d89ea792c41536d52ffa174e32cb6b987036ab2d709cf591ceec154251a8",
+      "manifestUrl": "https://github.com/redfox-data/redfox-community-dsh/blob/c6be1b9e52c2cda4a28ba39ba9801da7ffa5033f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/redfox-data/redfox-community-dsh",
+    "commit": "c6be1b9e52c2cda4a28ba39ba9801da7ffa5033f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:28.705Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:26.303Z",
+  "contentReviewFlags": []
+}

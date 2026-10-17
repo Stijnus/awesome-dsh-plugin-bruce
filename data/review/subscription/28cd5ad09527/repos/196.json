@@ -1,0 +1,86 @@
+{
+  "full_name": "Nwflower/dsh-chat-import",
+  "originalPosition": 15,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-chat-import"
+  ],
+  "manualNote": null,
+  "ordinal": 196,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:20.958Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4fd843bd9972ce8e122185af61a080c8bd44588aabc2772c2f56b2ed9c1bdc5f",
+      "url": "https://github.com/Nwflower/dsh-chat-import/blob/c9ccfdd06bad2daede4dbdb2b141c2f8b4f6d169/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chat-import",
+          "command": "dsh plugin --profile web add dsh-chat-import",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "f4a80f8a6b4ab161351f1691e2f778024acfebc571b282005b8c46dba4d0d793",
+      "url": "https://github.com/Nwflower/dsh-chat-import/blob/c9ccfdd06bad2daede4dbdb2b141c2f8b4f6d169/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chat-import",
+          "command": "dsh plugin --profile web add dsh-chat-import",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-import",
+      "version": "0.26.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nwflower/dsh-chat-import",
+        "commit": "c9ccfdd06bad2daede4dbdb2b141c2f8b4f6d169"
+      },
+      "manifestSha256": "6ce0020aaed0d60a9ed1a14fce60ffbdee4d1d7c9501874c4b1e57c1c7a8ce7a",
+      "manifestUrl": "https://github.com/Nwflower/dsh-chat-import/blob/c9ccfdd06bad2daede4dbdb2b141c2f8b4f6d169/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-chat-import",
+      "origin": "npm",
+      "name": "dsh-chat-import",
+      "version": "0.26.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "343b32011d60e78bbb337a6c12e219f14e7c5269940559713c7bd5241d98d8e0"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nwflower/dsh-chat-import",
+    "commit": "c9ccfdd06bad2daede4dbdb2b141c2f8b4f6d169",
+    "releaseTags": 62,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:30.741Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.868Z",
+  "contentReviewFlags": []
+}

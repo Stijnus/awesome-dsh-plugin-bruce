@@ -1,0 +1,86 @@
+{
+  "full_name": "MichengAI/dsh-skills-manager",
+  "originalPosition": 128,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@michengai/dsh-skills-manager@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 286,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:08.257Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9ff9929e11e282e6d30429658808d37a4216dd903396febdacf55e2448cd83d2",
+      "url": "https://github.com/MichengAI/dsh-skills-manager/blob/80a73da30fb390f025737addfc9a7b28fb5b593c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-skills-manager@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-skills-manager@latest --registry=https://registry.npmjs.org/",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "5787dc716afeeb9d8f46dea216b1b9a58da3f93845b7f30414aa27213a4e48dc",
+      "url": "https://github.com/MichengAI/dsh-skills-manager/blob/80a73da30fb390f025737addfc9a7b28fb5b593c/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-skills-manager@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-skills-manager@latest --registry=https://registry.npmjs.org/",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-skills-manager",
+      "version": "1.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-skills-manager",
+        "commit": "80a73da30fb390f025737addfc9a7b28fb5b593c"
+      },
+      "manifestSha256": "40377ffb6493d8b22de5fe4461321f8f06bc50afdff711d88c2565cd33459aa5",
+      "manifestUrl": "https://github.com/MichengAI/dsh-skills-manager/blob/80a73da30fb390f025737addfc9a7b28fb5b593c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@michengai/dsh-skills-manager@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-skills-manager",
+      "version": "1.2.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "2c4a46ec939a7f761f6df1405a7f41831eb22662eed7a13121468ef3a4115347"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-skills-manager",
+    "commit": "80a73da30fb390f025737addfc9a7b28fb5b593c",
+    "releaseTags": 79,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:17.869Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.092Z",
+  "contentReviewFlags": []
+}

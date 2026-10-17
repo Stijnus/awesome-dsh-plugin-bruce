@@ -1,0 +1,85 @@
+{
+  "full_name": "le-soleil-se-couche/dsh-token-cost",
+  "originalPosition": 360,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/le-soleil-se-couche/dsh-token-cost"
+  ],
+  "manualNote": null,
+  "ordinal": 453,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:45.007Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a39b242b00af0d8b9d814c4dacc7206394b1a37bf9d9b0b840bef8fe33ffae52",
+      "url": "https://github.com/le-soleil-se-couche/dsh-token-cost/blob/5a3f7cb37f8557a328126d38332cad1d17517f52/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/le-soleil-se-couche/dsh-token-cost",
+          "command": "dsh plugin --profile web add github:le-soleil-se-couche/dsh-token-cost",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/le-soleil-se-couche/dsh-token-cost/blob/5a3f7cb37f8557a328126d38332cad1d17517f52/README.en.md",
+      "sha256": "43a0d73e869986b0b93d9074516cc24a91adb09a7c6c11ed69eb44cb872bf6cf",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/le-soleil-se-couche/dsh-token-cost",
+          "command": "dsh plugin --profile web add github:le-soleil-se-couche/dsh-token-cost",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-token-cost",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/le-soleil-se-couche/dsh-token-cost",
+        "commit": "5a3f7cb37f8557a328126d38332cad1d17517f52"
+      },
+      "manifestSha256": "5c02e80c6efe7afa8fcf96e7753b8980c26c26cd8015566b51e3688f7373f951",
+      "manifestUrl": "https://github.com/le-soleil-se-couche/dsh-token-cost/blob/5a3f7cb37f8557a328126d38332cad1d17517f52/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/le-soleil-se-couche/dsh-token-cost",
+    "commit": "5a3f7cb37f8557a328126d38332cad1d17517f52",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:52.724Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:09.097Z",
+  "coverageReviewedAt": "2026-10-17T17:12:24.933Z",
+  "contentReviewFlags": []
+}

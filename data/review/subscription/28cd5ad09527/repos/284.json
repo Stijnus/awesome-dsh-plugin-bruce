@@ -1,0 +1,86 @@
+{
+  "full_name": "zexadev/dsh-tether",
+  "originalPosition": 125,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-tether"
+  ],
+  "manualNote": null,
+  "ordinal": 284,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:58.562Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "62ec492e179d8612dce3045fb3e7d634b719b8254fd02a72408044623f38032c",
+      "url": "https://github.com/zexadev/dsh-tether/blob/74aebc95667ca18440e0ecb48d15711bf0e6b43c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-tether",
+          "command": "dsh plugin --profile web add dsh-plugin-tether",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "a525a17d4f2bc91c1b7c85a7f6dd747661599663ece9facd4b1a7a5428659e2a",
+      "url": "https://github.com/zexadev/dsh-tether/blob/74aebc95667ca18440e0ecb48d15711bf0e6b43c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-tether",
+          "command": "dsh plugin --profile web add dsh-plugin-tether",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-tether",
+      "version": "0.1.21",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zexadev/dsh-tether",
+        "commit": "74aebc95667ca18440e0ecb48d15711bf0e6b43c"
+      },
+      "manifestSha256": "b421be27a66c660ed157368a855dcc0785527a1ef9f22329fae323fcc9713239",
+      "manifestUrl": "https://github.com/zexadev/dsh-tether/blob/74aebc95667ca18440e0ecb48d15711bf0e6b43c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-tether",
+      "origin": "npm",
+      "name": "dsh-plugin-tether",
+      "version": "0.1.21",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3c41e06f7c396e2b84599a623c658dbab9ad323b9e67119d9ba97b66565961c9"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zexadev/dsh-tether",
+    "commit": "74aebc95667ca18440e0ecb48d15711bf0e6b43c",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:08.256Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:11.949Z",
+  "contentReviewFlags": []
+}

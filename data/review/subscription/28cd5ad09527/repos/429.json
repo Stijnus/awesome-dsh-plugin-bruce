@@ -1,0 +1,96 @@
+{
+  "full_name": "yxxbc/dsh-balance-plugin",
+  "originalPosition": 326,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-balance-plugin"
+  ],
+  "manualNote": null,
+  "ordinal": 429,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:02.644Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "736acf50ac0787c7debc92f29cfcd579dbdb35639218858d134d8a0b072f8369",
+      "url": "https://github.com/yxxbc/dsh-balance-plugin/blob/d65fba4d7b468ec92a90375f9f2a2780113e4052/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-balance-plugin",
+          "command": "dsh plugin add dsh-balance-plugin",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/yxxbc/dsh-balance-plugin/blob/d65fba4d7b468ec92a90375f9f2a2780113e4052/README.en.md",
+      "sha256": "ffaf7cf66958629a75266e8ebf70b883d2e68eb51f08e380b8eab0521b356dde",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-balance-plugin",
+          "command": "dsh plugin add dsh-balance-plugin",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-balance-plugin",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yxxbc/dsh-balance-plugin",
+        "commit": "d65fba4d7b468ec92a90375f9f2a2780113e4052"
+      },
+      "manifestSha256": "98666ffed0962d5171201605898b1ca3e52bb5e632a297108fccd842bd24b7c5",
+      "manifestUrl": "https://github.com/yxxbc/dsh-balance-plugin/blob/d65fba4d7b468ec92a90375f9f2a2780113e4052/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-balance-plugin",
+      "origin": "npm",
+      "name": "dsh-balance-plugin",
+      "version": "0.2.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "dd09f51c26c03bbbd4a5847ab86b0d4a193efd8b08c2b180af4a8ad715317d03"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yxxbc/dsh-balance-plugin",
+    "commit": "d65fba4d7b468ec92a90375f9f2a2780113e4052",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:10.693Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:07.653Z",
+  "coverageReviewedAt": "2026-10-17T17:12:23.052Z",
+  "contentReviewFlags": []
+}

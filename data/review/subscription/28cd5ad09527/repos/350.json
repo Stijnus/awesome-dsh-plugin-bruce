@@ -1,0 +1,73 @@
+{
+  "full_name": "jiazz197-cmyk/omd-dsh",
+  "originalPosition": 204,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@carljia/omd-dsh"
+  ],
+  "manualNote": null,
+  "ordinal": 350,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:48.842Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "742bed87a30a23eed8042a9b4bcbdc7197a75d0cad46f6b8ef265afd4269ba75",
+      "url": "https://github.com/jiazz197-cmyk/omd-dsh/blob/b86879f80d07b1d966f56b4c41904433b45f713a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@carljia/omd-dsh",
+          "command": "dsh plugin --profile web add @carljia/omd-dsh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@carljia/omd-dsh",
+      "version": "0.1.9",
+      "path": "packages/omd-dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiazz197-cmyk/omd-dsh",
+        "commit": "b86879f80d07b1d966f56b4c41904433b45f713a",
+        "path": "packages/omd-dsh"
+      },
+      "manifestSha256": "51d69cced2673c3fc814ea7a01c1a41b202f9e1068217aeee29caa4eb90feb20",
+      "manifestUrl": "https://github.com/jiazz197-cmyk/omd-dsh/blob/b86879f80d07b1d966f56b4c41904433b45f713a/packages/omd-dsh/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@carljia/omd-dsh",
+      "origin": "npm",
+      "name": "@carljia/omd-dsh",
+      "version": "0.1.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "5575c2011d5003ed4bcd6a0c76f7bfcd5f5fd99d4a3f865ead2a1eca5845259c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jiazz197-cmyk/omd-dsh",
+    "commit": "b86879f80d07b1d966f56b4c41904433b45f713a",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:58.826Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.814Z",
+  "contentReviewFlags": []
+}

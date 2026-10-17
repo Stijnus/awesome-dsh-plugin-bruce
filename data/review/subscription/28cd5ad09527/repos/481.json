@@ -1,0 +1,96 @@
+{
+  "full_name": "ryubyte/dsh-a2a",
+  "originalPosition": 401,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@ryubyte/dsh-a2a"
+  ],
+  "manualNote": null,
+  "ordinal": 481,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:33.415Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "279016b90bff5479e198c5aef5300104ba26573d9a1be973379ced52c829a0d9",
+      "url": "https://github.com/ryubyte/dsh-a2a/blob/748c79317c0eee72b2a3f0636050d036c0b15b55/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ryubyte/dsh-a2a",
+          "command": "dsh plugin --profile web add @ryubyte/dsh-a2a",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/ryubyte/dsh-a2a/blob/748c79317c0eee72b2a3f0636050d036c0b15b55/README.en.md",
+      "sha256": "9fbf71cfff0bbfabd0770737d854ad19e2c9d0241e6eae50a0f5df28b925bff9",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ryubyte/dsh-a2a",
+          "command": "dsh plugin --profile web add @ryubyte/dsh-a2a",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ryubyte/dsh-a2a",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ryubyte/dsh-a2a",
+        "commit": "748c79317c0eee72b2a3f0636050d036c0b15b55"
+      },
+      "manifestSha256": "0eb38780c633419aaf46c0ebc824b26642c514086c14f2aa7fd80dfba2dd2d15",
+      "manifestUrl": "https://github.com/ryubyte/dsh-a2a/blob/748c79317c0eee72b2a3f0636050d036c0b15b55/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@ryubyte/dsh-a2a",
+      "origin": "npm",
+      "name": "@ryubyte/dsh-a2a",
+      "version": "0.3.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "831dd03b521c92fa62a11cd99e84c94aa2ceaf4d0005dbb227a22227d96ccb44"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ryubyte/dsh-a2a",
+    "commit": "748c79317c0eee72b2a3f0636050d036c0b15b55",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:41.393Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:10.137Z",
+  "coverageReviewedAt": "2026-10-17T17:12:28.168Z",
+  "contentReviewFlags": []
+}

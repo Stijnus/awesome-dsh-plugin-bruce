@@ -1,0 +1,251 @@
+{
+  "full_name": "PerryLink/dsh-industry-research",
+  "originalPosition": 77,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-industry-research"
+  ],
+  "manualNote": null,
+  "ordinal": 246,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:39.816Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d12a5813bf6c2f00ee25a251d8d9293659c3cc5b37202ec2cdec1edd9691e5a3",
+      "url": "https://github.com/PerryLink/dsh-industry-research/blob/cd915769f52872642e3ea91122bec13a861e8c41/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-industry-research",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-industry-research",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-industry-research",
+          "command": "dsh plugin --profile demo add dsh-industry-research",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-industry-research/blob/cd915769f52872642e3ea91122bec13a861e8c41/README-zh.md",
+      "sha256": "d4864251363e3e058715581e2b1353ad51034cbf1371975597c2f751b904dc40",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-industry-research",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-industry-research",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-industry-research",
+          "command": "dsh plugin --profile demo add dsh-industry-research",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-industry-research/blob/cd915769f52872642e3ea91122bec13a861e8c41/README-es.md",
+      "sha256": "4559edd8aad746db621639868a5de6b52890f863407ab94ff7a39f5775bd9dc4",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-industry-research",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-industry-research",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-industry-research",
+          "command": "dsh plugin --profile demo add dsh-industry-research",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-industry-research/blob/cd915769f52872642e3ea91122bec13a861e8c41/README-pt.md",
+      "sha256": "bf0cb03a4cd0e23e818366b0f981f10447fa8245ef569908b637fef31ab6e0b6",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-industry-research",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-industry-research",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-industry-research",
+          "command": "dsh plugin --profile demo add dsh-industry-research",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-industry-research/blob/cd915769f52872642e3ea91122bec13a861e8c41/README-hi.md",
+      "sha256": "a752caf1b4258631613e7289ac50fa0793a09d7b544f8d1c024b13b40a90cc1b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-industry-research",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-industry-research",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-industry-research",
+          "command": "dsh plugin --profile demo add dsh-industry-research",
+          "profile": "demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-industry-research",
+      "version": "0.3.19",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-industry-research",
+        "commit": "cd915769f52872642e3ea91122bec13a861e8c41"
+      },
+      "manifestSha256": "449856fe2f53bea55b118b16d707aa6823310317b118a2116a5004471dba0586",
+      "manifestUrl": "https://github.com/PerryLink/dsh-industry-research/blob/cd915769f52872642e3ea91122bec13a861e8c41/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-industry-research",
+        "versions": [
+          {
+            "version": "0.3.19",
+            "publishTimestamp": 1791813000,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-industry-research",
+              "commit": "cd915769f52872642e3ea91122bec13a861e8c41"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-industry-research",
+      "origin": "npm",
+      "name": "dsh-industry-research",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-industry-research",
+        "title": "dsh-industry-research",
+        "description": "Industry and company research domain pack for DeepSeek Harness: methodology skills, an industry-chain structure model (industry_map), public-source policy/news tracking over ctx.web (industry_track), company scan cards (company_scan), and auditable research reports with an optional ctx.researchReport sealing bridge and a builtin Markdown fallback (industry_report). Research only — not investment advice.",
+        "author": "dsh-industry-research contributors",
+        "homepage": "https://github.com/PerryLink/dsh-industry-research#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-industry-research"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "industry-research",
+            "company-research",
+            "research",
+            "report"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.19",
+            "publishTimestamp": 1791594201,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1d5bb6f78ddbe64640fc7d29da4ce5e784af214ed9cca9739cddd4dfdc6c29c1",
+      "evidence": [
+        {
+          "name": "dsh-industry-research",
+          "version": "0.3.19",
+          "tarball": "https://registry.npmjs.org/dsh-industry-research/-/dsh-industry-research-0.3.19.tgz",
+          "integrity": "sha512-IqG7nEhdOrnfakCqmZe8OnIWri3jxX/lTS4+GbGgW1iogizbU3sCh98Sc0Z9RgNv5jM0aechgaIWP+yUu8mzeQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-industry-research",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-industry-research",
+    "commit": "cd915769f52872642e3ea91122bec13a861e8c41",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:48.474Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:57.926Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.143Z",
+  "contentReviewFlags": []
+}

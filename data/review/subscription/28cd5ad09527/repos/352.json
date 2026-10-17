@@ -1,0 +1,112 @@
+{
+  "full_name": "hanshanyike/dsh-yolo",
+  "originalPosition": 207,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-yolo@0.5.0"
+  ],
+  "manualNote": null,
+  "ordinal": 352,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:58.560Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "596ba8939c14eef7d602c7e5734c06ac7222008b48a62d5a01d222dd4cc5c453",
+      "url": "https://github.com/hanshanyike/dsh-yolo/blob/c87d70105f975d86c5c0f98f34fbce66657a6934/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-yolo@0.5.0",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-plugin-yolo@0.5.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/hanshanyike/dsh-yolo/blob/c87d70105f975d86c5c0f98f34fbce66657a6934/README.en.md",
+      "sha256": "f78cfb242dcec50729937b054765a76b388258dc403ee4e767fc094cf593f403",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-yolo@0.5.0",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-plugin-yolo@0.5.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/hanshanyike/dsh-yolo/blob/c87d70105f975d86c5c0f98f34fbce66657a6934/docs/README.md",
+      "sha256": "c69092e11ac48cd1a01ff0736ec5634b8778b6779a3b2d8a5b9d31ca77577628",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-yolo",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hanshanyike/dsh-yolo",
+        "commit": "c87d70105f975d86c5c0f98f34fbce66657a6934"
+      },
+      "manifestSha256": "a10dbd1fa5a300e32563fb0d1ca6f8de188cafc1ee13d031bb40b02e8a7a1158",
+      "manifestUrl": "https://github.com/hanshanyike/dsh-yolo/blob/c87d70105f975d86c5c0f98f34fbce66657a6934/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-yolo@0.5.0",
+      "origin": "npm",
+      "name": "dsh-plugin-yolo",
+      "version": "0.5.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "e005de3231912b59871de0f22e6d92d0f702846ff5a303248baa622b2cd2e5c1"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hanshanyike/dsh-yolo",
+    "commit": "c87d70105f975d86c5c0f98f34fbce66657a6934",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:08.399Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:04.655Z",
+  "coverageReviewedAt": "2026-10-17T17:12:17.274Z",
+  "contentReviewFlags": []
+}

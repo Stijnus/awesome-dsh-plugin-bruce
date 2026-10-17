@@ -1,0 +1,96 @@
+{
+  "full_name": "omdsh-dev/dsh-lark",
+  "originalPosition": 578,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-lark-channel@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 591,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:51.080Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9dc1a361eb46267d3c8e0c4c5ef586b6339cab555811e7315a815ee4f6c73739",
+      "url": "https://github.com/omdsh-dev/dsh-lark/blob/632807d9abafbb866a5e208a0298eff21c7856d1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-lark-channel@latest",
+          "command": "dsh plugin --profile web add dsh-lark-channel@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/omdsh-dev/dsh-lark/blob/632807d9abafbb866a5e208a0298eff21c7856d1/README.en.md",
+      "sha256": "cd851d7bf09c9e5ea9845072454572f25b3ff446c6183f6d29c4cb41e7696ea4",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-lark-channel@latest",
+          "command": "dsh plugin --profile web add dsh-lark-channel@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lark-channel",
+      "version": "0.0.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-lark",
+        "commit": "632807d9abafbb866a5e208a0298eff21c7856d1"
+      },
+      "manifestSha256": "d0bf998346ebbd4bc691c4c6b989e603f37bdb73d9762460e12b7ff514230c63",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-lark/blob/632807d9abafbb866a5e208a0298eff21c7856d1/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-lark-channel@latest",
+      "origin": "npm",
+      "name": "dsh-lark-channel",
+      "version": "0.0.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0b9027bfa8d4cddfccdaa00789f542a6ab1ab0433281824f102ff1f9923794fb"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-lark",
+    "commit": "632807d9abafbb866a5e208a0298eff21c7856d1",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:59.689Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:15.215Z",
+  "coverageReviewedAt": "2026-10-17T17:12:33.017Z",
+  "contentReviewFlags": []
+}

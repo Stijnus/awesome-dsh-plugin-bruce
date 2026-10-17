@@ -1,0 +1,99 @@
+{
+  "full_name": "WM-CODER/custom-first-control-prompt",
+  "originalPosition": 468,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/WM-CODER/custom-first-control-prompt"
+  ],
+  "manualNote": null,
+  "ordinal": 532,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:06.491Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3ec504e690900043240e837245247b6f596d1708c1d8d66e1b7ad60a1481385e",
+      "url": "https://github.com/WM-CODER/custom-first-control-prompt/blob/cab57abe28d565839e026e0018b292aa32d55531/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/WM-CODER/custom-first-control-prompt",
+          "command": "dsh plugin --profile web add github:WM-CODER/custom-first-control-prompt",
+          "profile": "web"
+        },
+        {
+          "install": "@wm-coders/dsh-custom-first-control-prompt",
+          "command": "dsh plugin --profile web add @wm-coders/dsh-custom-first-control-prompt",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "25192f48f6a790977e72a144c098bf84aa2f2fcd6de91dbe963cd0faeb1f362e",
+      "url": "https://github.com/WM-CODER/custom-first-control-prompt/blob/cab57abe28d565839e026e0018b292aa32d55531/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/WM-CODER/custom-first-control-prompt",
+          "command": "dsh plugin --profile web add github:WM-CODER/custom-first-control-prompt",
+          "profile": "web"
+        },
+        {
+          "install": "@wm-coders/dsh-custom-first-control-prompt",
+          "command": "dsh plugin --profile web add @wm-coders/dsh-custom-first-control-prompt",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@wm-coders/dsh-custom-first-control-prompt",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WM-CODER/custom-first-control-prompt",
+        "commit": "cab57abe28d565839e026e0018b292aa32d55531"
+      },
+      "manifestSha256": "144fa5b3909ddffaae3e925ff517d0376c7e0426d98efafde725a6cb8c340be9",
+      "manifestUrl": "https://github.com/WM-CODER/custom-first-control-prompt/blob/cab57abe28d565839e026e0018b292aa32d55531/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@wm-coders/dsh-custom-first-control-prompt",
+      "version": "0.3.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@wm-coders/dsh-custom-first-control-prompt",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WM-CODER/custom-first-control-prompt",
+    "commit": "cab57abe28d565839e026e0018b292aa32d55531",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:17.360Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.744Z",
+  "contentReviewFlags": []
+}

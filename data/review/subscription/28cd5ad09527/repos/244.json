@@ -1,0 +1,86 @@
+{
+  "full_name": "tencent-connect/dsh-qqbot",
+  "originalPosition": 75,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@tencent-connect/dsh-qqbot"
+  ],
+  "manualNote": null,
+  "ordinal": 244,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:37.999Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e8899863c316b8af55c5fc12a36ce0e533ebc197012c4269fd51f8cddfde7943",
+      "url": "https://github.com/tencent-connect/dsh-qqbot/blob/c5f2d8c50dd2bbaec3f53ec50d00881ac5c711aa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@tencent-connect/dsh-qqbot",
+          "command": "npx @deepseek-ai/dsh plugin --profile qqbot add @tencent-connect/dsh-qqbot",
+          "profile": "qqbot"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "67875d241203d62621b29c16f220acfbdb241fe66f1b9ca304da8c5417b51aed",
+      "url": "https://github.com/tencent-connect/dsh-qqbot/blob/c5f2d8c50dd2bbaec3f53ec50d00881ac5c711aa/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@tencent-connect/dsh-qqbot",
+          "command": "npx @deepseek-ai/dsh plugin --profile qqbot add @tencent-connect/dsh-qqbot",
+          "profile": "qqbot"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tencent-connect/dsh-qqbot",
+      "version": "0.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tencent-connect/dsh-qqbot",
+        "commit": "c5f2d8c50dd2bbaec3f53ec50d00881ac5c711aa"
+      },
+      "manifestSha256": "8c4192c8f4b294c5483804f428643c88c6d25f42a855de3836bd5ea43683916b",
+      "manifestUrl": "https://github.com/tencent-connect/dsh-qqbot/blob/c5f2d8c50dd2bbaec3f53ec50d00881ac5c711aa/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@tencent-connect/dsh-qqbot",
+      "origin": "npm",
+      "name": "@tencent-connect/dsh-qqbot",
+      "version": "0.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3f5ab516fb201085b08108e70ad748470ba70f75fd9421fa2d3ab1c062c14294"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tencent-connect/dsh-qqbot",
+    "commit": "c5f2d8c50dd2bbaec3f53ec50d00881ac5c711aa",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:49.066Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.067Z",
+  "contentReviewFlags": []
+}

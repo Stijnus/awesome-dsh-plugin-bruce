@@ -1,0 +1,317 @@
+{
+  "full_name": "PerryLink/dsh-fast",
+  "originalPosition": 575,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-fast@0.2.21"
+  ],
+  "manualNote": null,
+  "ordinal": 589,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:47.087Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a9314d2e8fed8292cd0cb353415c12585ac40da2606f3ce5bd9b1a57c948c5ab",
+      "url": "https://github.com/PerryLink/dsh-fast/blob/73ae9154323c09de833b5b419bacb946fb491c04/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-fast",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-fast",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fast",
+          "command": "dsh plugin --profile demo add dsh-fast",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-fast/blob/73ae9154323c09de833b5b419bacb946fb491c04/README-zh.md",
+      "sha256": "7aff59e95415cc6f7714cc2639670741c4c9ec941cea491ae28a73e88499cc64",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-fast",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-fast",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fast",
+          "command": "dsh plugin --profile demo add dsh-fast",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-fast/blob/73ae9154323c09de833b5b419bacb946fb491c04/README-es.md",
+      "sha256": "bab1120e3b600bb24ef0c878f0e718db8f14482558b4bd770139bec9aae40add",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-fast",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-fast",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fast",
+          "command": "dsh plugin --profile demo add dsh-fast",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-fast/blob/73ae9154323c09de833b5b419bacb946fb491c04/README-pt.md",
+      "sha256": "dd6053e1052c9512ba0a082477bb80b17258f6f3e6b298c9e95b7f8e18b6be67",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-fast",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-fast",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fast",
+          "command": "dsh plugin --profile demo add dsh-fast",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-fast/blob/73ae9154323c09de833b5b419bacb946fb491c04/README-hi.md",
+      "sha256": "4d77ffd40f9aee80a6d29ae44ac49e7049fa093abd8f8bfa804bc7064aa558b1",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-fast",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-fast",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fast",
+          "command": "dsh plugin --profile demo add dsh-fast",
+          "profile": "demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fast",
+      "version": "0.2.21",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-fast",
+        "commit": "73ae9154323c09de833b5b419bacb946fb491c04"
+      },
+      "manifestSha256": "7781779aad3f315643cf835d537224d73feb75b33dd697ba243e56bc0eb5be9d",
+      "manifestUrl": "https://github.com/PerryLink/dsh-fast/blob/73ae9154323c09de833b5b419bacb946fb491c04/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-fast",
+        "versions": [
+          {
+            "version": "0.2.21",
+            "publishTimestamp": 1791812989,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-fast",
+              "commit": "73ae9154323c09de833b5b419bacb946fb491c04"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-fast@0.2.21",
+      "origin": "npm",
+      "name": "dsh-fast",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fast",
+        "title": "dsh-fast",
+        "description": "Read-only performance diagnostics for DeepSeek Harness: session load (open/restore) timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via the /fast command and the fast_report tool, persisted as reconstructable fast/* session events with async sampling off the model path.",
+        "author": "dsh-fast contributors",
+        "homepage": "https://github.com/PerryLink/dsh-fast#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-fast"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "performance",
+            "diagnostics",
+            "profiling",
+            "context-engineering",
+            "llm-cache"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.21",
+            "publishTimestamp": 1791593993,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d0c135b8217deefe0533601587e33857c7421658c89d50cd028037bef4becb35",
+      "evidence": [
+        {
+          "name": "dsh-fast",
+          "version": "0.2.21",
+          "tarball": "https://registry.npmjs.org/dsh-fast/-/dsh-fast-0.2.21.tgz",
+          "integrity": "sha512-J1yA/HL6pfsQk3FhXIrq1mzCi9BOrnhC9xJ9+/KWRUYvxPMf8IEXZj+j1YKPz9/QLtgVWPgM9LbwpJQXY8/JmA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-fast",
+      "origin": "npm",
+      "name": "dsh-fast",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fast",
+        "title": "dsh-fast",
+        "description": "Read-only performance diagnostics for DeepSeek Harness: session load (open/restore) timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via the /fast command and the fast_report tool, persisted as reconstructable fast/* session events with async sampling off the model path.",
+        "author": "dsh-fast contributors",
+        "homepage": "https://github.com/PerryLink/dsh-fast#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-fast"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "performance",
+            "diagnostics",
+            "profiling",
+            "context-engineering",
+            "llm-cache"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.21",
+            "publishTimestamp": 1791593993,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d0c135b8217deefe0533601587e33857c7421658c89d50cd028037bef4becb35",
+      "evidence": [
+        {
+          "name": "dsh-fast",
+          "version": "0.2.21",
+          "tarball": "https://registry.npmjs.org/dsh-fast/-/dsh-fast-0.2.21.tgz",
+          "integrity": "sha512-J1yA/HL6pfsQk3FhXIrq1mzCi9BOrnhC9xJ9+/KWRUYvxPMf8IEXZj+j1YKPz9/QLtgVWPgM9LbwpJQXY8/JmA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-fast@0.2.21",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-fast",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-fast",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-fast",
+    "commit": "73ae9154323c09de833b5b419bacb946fb491c04",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:05:56.666Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:16.918Z",
+  "coverageReviewedAt": "2026-10-17T17:12:34.419Z",
+  "contentReviewFlags": []
+}

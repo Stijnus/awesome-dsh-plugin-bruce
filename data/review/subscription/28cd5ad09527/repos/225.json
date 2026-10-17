@@ -1,0 +1,145 @@
+{
+  "full_name": "liangmianya/dsh-synapse",
+  "originalPosition": 53,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-synapse"
+  ],
+  "manualNote": null,
+  "ordinal": 225,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:01.536Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0f7d381bfcd189e0fc7e7304422c2894cf7c93311eeb3f4a41bacbc7ffb354de",
+      "url": "https://github.com/liangmianya/dsh-synapse/blob/847b712b14579ca5e5c5fcf414f4559589c44d93/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-synapse",
+          "command": "pnpm dsh plugin --profile web add dsh-synapse",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/zh-CN/README.md",
+      "url": "https://github.com/liangmianya/dsh-synapse/blob/847b712b14579ca5e5c5fcf414f4559589c44d93/docs/zh-CN/README.md",
+      "sha256": "3f8dc22e0953d3e0ec6e113212c5a3c893f530a7af6f708cc379f65681777ed8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-synapse",
+          "command": "pnpm dsh plugin --profile web add dsh-synapse",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/liangmianya/dsh-synapse",
+          "command": "pnpm dsh plugin --profile web add github:liangmianya/dsh-synapse",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/en/README.md",
+      "url": "https://github.com/liangmianya/dsh-synapse/blob/847b712b14579ca5e5c5fcf414f4559589c44d93/docs/en/README.md",
+      "sha256": "392d0d7af378db708056c9239dd7abc9e4d2a5be5b053f8637cd3fcc17cfa88a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-synapse",
+          "command": "pnpm dsh plugin --profile web add dsh-synapse",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/liangmianya/dsh-synapse",
+          "command": "pnpm dsh plugin --profile web add github:liangmianya/dsh-synapse",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-synapse",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liangmianya/dsh-synapse",
+        "commit": "847b712b14579ca5e5c5fcf414f4559589c44d93"
+      },
+      "manifestSha256": "f8a1455b0e3dae8dddd5ba7293dd55d77b08dd8d6de1bd76618c2df370938bfd",
+      "manifestUrl": "https://github.com/liangmianya/dsh-synapse/blob/847b712b14579ca5e5c5fcf414f4559589c44d93/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-synapse",
+      "origin": "npm",
+      "name": "dsh-synapse",
+      "version": "0.4.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0e00f475413f440a18b355bbc26212507d8dffdb400803885311a4ce8210d497"
+    },
+    {
+      "origin": "linked_readme",
+      "target": "https://github.com/liangmianya/dsh-synapse",
+      "path": "",
+      "commit": "847b712b14579ca5e5c5fcf414f4559589c44d93",
+      "name": "dsh-synapse",
+      "version": "0.4.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/liangmianya/dsh-synapse",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liangmianya/dsh-synapse",
+    "commit": "847b712b14579ca5e5c5fcf414f4559589c44d93",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:10.001Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/zh-CN/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/en/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/zh-CN/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/en/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:02.955Z",
+  "coverageReviewedAt": "2026-10-17T17:12:09.435Z",
+  "contentReviewFlags": []
+}

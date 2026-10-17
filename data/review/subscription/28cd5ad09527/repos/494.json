@@ -1,0 +1,168 @@
+{
+  "full_name": "EternalNight996/memory-eternal",
+  "originalPosition": 417,
+  "inputMode": "command",
+  "mappedTargets": [
+    "memory-eternal",
+    "memory-eternal"
+  ],
+  "manualNote": null,
+  "ordinal": 494,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:01.031Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "69026f4c22becb464807cb3df041e46e110153df1e798147ce424043a27f9bb3",
+      "url": "https://github.com/EternalNight996/memory-eternal/blob/d924ed3602edee5ad85fa30026126e9dc638f62d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "memory-eternal",
+          "command": "dsh plugin --profile desktop add memory-eternal",
+          "profile": "desktop"
+        },
+        {
+          "install": "memory-eternal",
+          "command": "dsh plugin --profile web add memory-eternal",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/EternalNight996/memory-eternal/blob/d924ed3602edee5ad85fa30026126e9dc638f62d/README.en.md",
+      "sha256": "430714b49114f4df91c837fbaf78ba2e0a1fbb3af70aa128a14bbd15231c259d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "memory-eternal",
+          "command": "dsh plugin --profile desktop add memory-eternal",
+          "profile": "desktop"
+        },
+        {
+          "install": "memory-eternal",
+          "command": "dsh plugin --profile web add memory-eternal",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "memory-eternal",
+      "version": "0.10.38",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EternalNight996/memory-eternal",
+        "commit": "d924ed3602edee5ad85fa30026126e9dc638f62d"
+      },
+      "manifestSha256": "c30a02187e89b82e2af373e3157e892f7a1f539fc666dc2505efebd1ade89fc0",
+      "manifestUrl": "https://github.com/EternalNight996/memory-eternal/blob/d924ed3602edee5ad85fa30026126e9dc638f62d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-alpha.2 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "memory-eternal",
+        "versions": [
+          {
+            "version": "0.10.38",
+            "publishTimestamp": 1792228642,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/EternalNight996/memory-eternal",
+              "commit": "d924ed3602edee5ad85fa30026126e9dc638f62d"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-alpha.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "memory-eternal",
+      "origin": "npm",
+      "name": "memory-eternal",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "memory-eternal",
+        "title": "memory-eternal",
+        "description": "记忆核心（Memory Eternal）：自研的 DeepSeek Harness 记忆插件，不移植任何既有记忆框架——对话结束后自动沉淀知识卡到本地 Markdown Vault（自研去重、自研 CJK 检索、可 git 管理），设置页提供图形化知识库（统计 / 搜索 / 知识图谱 + 侧边栏一键弹窗），Agent 通过 memory_recall 工具按需召回历史上下文。零人工干预。",
+        "author": "EternalNight996",
+        "homepage": "https://github.com/EternalNight996/memory-eternal",
+        "repository": {
+          "url": "https://github.com/EternalNight996/memory-eternal"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "plugin",
+            "memory",
+            "knowledge-base",
+            "vault",
+            "markdown",
+            "knowledge-graph",
+            "rag",
+            "second-brain"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.10.38",
+            "publishTimestamp": 1792228756,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-alpha.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b4e628068782bcff149495f056a6615dbf73a37a55344edf086f93cb758959e4",
+      "evidence": [
+        {
+          "name": "memory-eternal",
+          "version": "0.10.38",
+          "tarball": "https://registry.npmjs.org/memory-eternal/-/memory-eternal-0.10.38.tgz",
+          "integrity": "sha512-ZkP96OE84yHZTfyxzSFoboyPq0m1Om/9EZrmV6+H9chdDPiIDX8VfqIcFjUa4QYGIqd8jpL80SAbqKGybJjIDA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EternalNight996/memory-eternal",
+    "commit": "d924ed3602edee5ad85fa30026126e9dc638f62d",
+    "releaseTags": 64,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:03:15.094Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:11.061Z",
+  "coverageReviewedAt": "2026-10-17T17:12:29.305Z",
+  "contentReviewFlags": []
+}

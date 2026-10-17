@@ -1,0 +1,97 @@
+{
+  "full_name": "omdsh-dev/dsh-annotation",
+  "originalPosition": 402,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@changfenhuang/dsh-annotation",
+    "git+https://github.com/omdsh-dev/dsh-annotation.git"
+  ],
+  "manualNote": null,
+  "ordinal": 482,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:38.383Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1b1335de591622f10657f5131091cad01cc79e6af9943ab8f4fd68230389dd78",
+      "url": "https://github.com/omdsh-dev/dsh-annotation/blob/14111b20b47ff9a9cf6299a481a2ec2a7dd7272d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@changfenhuang/dsh-annotation",
+          "command": "dsh plugin --profile web add @changfenhuang/dsh-annotation",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/omdsh-dev/dsh-annotation.git",
+          "command": "dsh plugin --profile web add git+https://github.com/omdsh-dev/dsh-annotation.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b1aea08202349e52224f1aa989e0a15266fab74a8dee37e988c4a9e61dc4bad8",
+      "url": "https://github.com/omdsh-dev/dsh-annotation/blob/14111b20b47ff9a9cf6299a481a2ec2a7dd7272d/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@changfenhuang/dsh-annotation",
+          "command": "dsh plugin --profile web add @changfenhuang/dsh-annotation",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/omdsh-dev/dsh-annotation.git",
+          "command": "dsh plugin --profile web add git+https://github.com/omdsh-dev/dsh-annotation.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@changfenhuang/dsh-annotation",
+      "version": "1.4.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-annotation",
+        "commit": "14111b20b47ff9a9cf6299a481a2ec2a7dd7272d"
+      },
+      "manifestSha256": "37d5aea8e01ba584ea9366836ed249b1c3671d5f9c30bc932aa2025b57391a6c",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-annotation/blob/14111b20b47ff9a9cf6299a481a2ec2a7dd7272d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@changfenhuang/dsh-annotation",
+      "origin": "npm",
+      "name": "@changfenhuang/dsh-annotation",
+      "version": "1.4.11",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ae3e1bc3b85801962a1fbdb2db52869feff60ea1e338a0409043ecc9ae0da4e0"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-annotation",
+    "commit": "14111b20b47ff9a9cf6299a481a2ec2a7dd7272d",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:48.021Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:27.786Z",
+  "contentReviewFlags": []
+}

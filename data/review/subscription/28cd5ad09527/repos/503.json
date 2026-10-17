@@ -1,0 +1,75 @@
+{
+  "full_name": "kinoward/dsh-plugin-subhub",
+  "originalPosition": 429,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/kinoward/dsh-plugin-subhub"
+  ],
+  "manualNote": null,
+  "ordinal": 503,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:17.491Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4c5f06d9120365e48304f96cf1ade97b44e28f75bb8c04b31e2895adf13c62d7",
+      "url": "https://github.com/kinoward/dsh-plugin-subhub/blob/ede192750485d893086492c289396fbfd44ee0aa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/kinoward/dsh-plugin-subhub",
+          "command": "dsh plugin --profile web add github:kinoward/dsh-plugin-subhub",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f19fadc214bf0129752f5a4a3d831805c8730b3dbdff354b7524c9fb3fb9f4ba",
+      "url": "https://github.com/kinoward/dsh-plugin-subhub/blob/ede192750485d893086492c289396fbfd44ee0aa/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/kinoward/dsh-plugin-subhub",
+          "command": "dsh plugin --profile web add github:kinoward/dsh-plugin-subhub",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-subhub",
+      "version": "1.8.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kinoward/dsh-plugin-subhub",
+        "commit": "ede192750485d893086492c289396fbfd44ee0aa"
+      },
+      "manifestSha256": "5f290184de87da2fe7eeb1c62d19a045d9a241374b465d0585336a40db3ed70b",
+      "manifestUrl": "https://github.com/kinoward/dsh-plugin-subhub/blob/ede192750485d893086492c289396fbfd44ee0aa/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kinoward/dsh-plugin-subhub",
+    "commit": "ede192750485d893086492c289396fbfd44ee0aa",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:27.530Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:29.376Z",
+  "contentReviewFlags": []
+}

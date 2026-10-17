@@ -1,0 +1,75 @@
+{
+  "full_name": "c3ll256/dsh-toy",
+  "originalPosition": 30,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/c3ll256/dsh-toy"
+  ],
+  "manualNote": null,
+  "ordinal": 206,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:18.324Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "99b8c6b5a479e96d789af426ef666cf92e155ef5efb8103b76a1acdd02625507",
+      "url": "https://github.com/c3ll256/dsh-toy/blob/51b582507aa8aad8332e1a5b5a0bc2ae607f4860/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/c3ll256/dsh-toy",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:c3ll256/dsh-toy",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "2dd0041e4cc187e15b8e541c1a485bb312447e5d2fb75cdea795d20e0d579e4c",
+      "url": "https://github.com/c3ll256/dsh-toy/blob/51b582507aa8aad8332e1a5b5a0bc2ae607f4860/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/c3ll256/dsh-toy",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:c3ll256/dsh-toy",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-toy",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/c3ll256/dsh-toy",
+        "commit": "51b582507aa8aad8332e1a5b5a0bc2ae607f4860"
+      },
+      "manifestSha256": "4169f1ff72d7266dfa6eec8c7215caf4ab6a0bc10c9841abfe7333f5754444bc",
+      "manifestUrl": "https://github.com/c3ll256/dsh-toy/blob/51b582507aa8aad8332e1a5b5a0bc2ae607f4860/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/c3ll256/dsh-toy",
+    "commit": "51b582507aa8aad8332e1a5b5a0bc2ae607f4860",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:27.868Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.399Z",
+  "contentReviewFlags": []
+}

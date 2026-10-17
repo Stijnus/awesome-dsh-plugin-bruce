@@ -1,0 +1,97 @@
+{
+  "full_name": "Yan-Zero/dsh-codex",
+  "originalPosition": 428,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-codex",
+    "dsh-codex"
+  ],
+  "manualNote": null,
+  "ordinal": 502,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:16.415Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aeb55f66e9fe4814fff7f048b80f76675f619a5894bc87ab59a50ca5ccb1f07c",
+      "url": "https://github.com/Yan-Zero/dsh-codex/blob/413c651e07820f2a4670049c8087077f074fa846/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex",
+          "command": "dsh plugin --profile web add dsh-codex",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-codex",
+          "command": "dsh plugin --profile dsh-tui add dsh-codex",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e96aed6858bd5ec46ac50670677a1cae4a559b1a2e46e4d4f74df4ac20f6ba76",
+      "url": "https://github.com/Yan-Zero/dsh-codex/blob/413c651e07820f2a4670049c8087077f074fa846/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex",
+          "command": "dsh plugin --profile web add dsh-codex",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-codex",
+          "command": "dsh plugin --profile dsh-tui add dsh-codex",
+          "profile": "dsh-tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yan-Zero/dsh-codex",
+        "commit": "413c651e07820f2a4670049c8087077f074fa846"
+      },
+      "manifestSha256": "f9a6ea3e647901ea1f6b218bc27aa2e3cd9ff9a9579b9036489a12354363f5bc",
+      "manifestUrl": "https://github.com/Yan-Zero/dsh-codex/blob/413c651e07820f2a4670049c8087077f074fa846/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-codex",
+      "origin": "npm",
+      "name": "dsh-codex",
+      "version": "0.3.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "7a7f0dabf116b0a8fdd0b822d1f5ee404b04618abfde629b815fa28a0c065df8"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yan-Zero/dsh-codex",
+    "commit": "413c651e07820f2a4670049c8087077f074fa846",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:25.956Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:29.371Z",
+  "contentReviewFlags": []
+}

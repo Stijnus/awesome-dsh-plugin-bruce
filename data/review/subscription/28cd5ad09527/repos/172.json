@@ -1,0 +1,94 @@
+{
+  "full_name": "1na-ko/dsh-hdc-bridge",
+  "originalPosition": 437,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-hdc-bridge」或「dsh plugin --profile <name> add github:1na-ko/dsh-hdc-bridge」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 172,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:25.995Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "824e852f76147c0e079b4876203a41279f4c0ac546aa57aa5315b6a17b1e6669",
+      "url": "https://github.com/1na-ko/dsh-hdc-bridge/blob/395381a446075c161fa915210e4680c266956de1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hdc-bridge",
+          "command": "dsh plugin --profile <name> add dsh-hdc-bridge",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/1na-ko/dsh-hdc-bridge",
+          "command": "dsh plugin --profile <name> add github:1na-ko/dsh-hdc-bridge",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-hdc-bridge",
+      "version": "0.10.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1na-ko/dsh-hdc-bridge",
+        "commit": "395381a446075c161fa915210e4680c266956de1"
+      },
+      "manifestSha256": "007f375341d9cbbe1598c0ba99dfe72bbd1eeb5c3b77bc49e9c4bf9affc4c5f1",
+      "manifestUrl": "https://github.com/1na-ko/dsh-hdc-bridge/blob/395381a446075c161fa915210e4680c266956de1/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-hdc-bridge",
+      "origin": "npm",
+      "name": "dsh-hdc-bridge",
+      "version": "0.10.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "6c90f572c2d0f55fc404de95884f0786e028cef784cf8f6701f90bc36ee3506f"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-hdc-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/1na-ko/dsh-hdc-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1na-ko/dsh-hdc-bridge",
+    "commit": "395381a446075c161fa915210e4680c266956de1",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:34.420Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.376Z",
+  "contentReviewFlags": []
+}

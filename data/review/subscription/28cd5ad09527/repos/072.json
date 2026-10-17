@@ -1,0 +1,116 @@
+{
+  "full_name": "Nwflower/dsh-claude-style",
+  "originalPosition": 332,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 72,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:04.941Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "30dc95417b920a01a15cf889be92e78cfd333abcf2b8e4480dad52f2b6c9e154",
+      "url": "https://github.com/Nwflower/dsh-claude-style/blob/059df2f34d333de251507f55275bbc8ae0e43c52/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-claude-style",
+          "command": "dsh plugin --profile web add dsh-claude-style",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Nwflower/dsh-claude-style/blob/059df2f34d333de251507f55275bbc8ae0e43c52/README.en.md",
+      "sha256": "25144cf9c803085e2674cca2fdd715735f1169fd1701cbdd4222b45c868f4b32",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-claude-style",
+          "command": "dsh plugin --profile web add dsh-claude-style",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/adr/README.md",
+      "url": "https://github.com/Nwflower/dsh-claude-style/blob/059df2f34d333de251507f55275bbc8ae0e43c52/docs/adr/README.md",
+      "sha256": "06112e3ef6a521f3a9200dfe5b10c9e2fe7ade9b302d1d43d23e186e4c509abe",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-claude-style",
+      "version": "0.16.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nwflower/dsh-claude-style",
+        "commit": "059df2f34d333de251507f55275bbc8ae0e43c52"
+      },
+      "manifestSha256": "882038d16b16c73f2edce128c21dbf500e9e6eda98615c107ecabbe5f53e4024",
+      "manifestUrl": "https://github.com/Nwflower/dsh-claude-style/blob/059df2f34d333de251507f55275bbc8ae0e43c52/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-claude-style",
+      "origin": "npm",
+      "name": "dsh-claude-style",
+      "version": "0.16.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a98ccb12c9e4c381f452877f695eafa1f90ca4fb9fa59202fdafc1582e6f507e"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-claude-style",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nwflower/dsh-claude-style",
+    "commit": "059df2f34d333de251507f55275bbc8ae0e43c52",
+    "releaseTags": 49,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:13.380Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/adr/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/adr/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:51.361Z",
+  "coverageReviewedAt": "2026-10-17T17:12:05.745Z",
+  "contentReviewFlags": []
+}

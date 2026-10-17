@@ -1,0 +1,118 @@
+{
+  "full_name": "Hilbert-beinghappy/seektty",
+  "originalPosition": 312,
+  "inputMode": "command",
+  "mappedTargets": [
+    "seektty@1.2.6"
+  ],
+  "manualNote": null,
+  "ordinal": 420,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:51.196Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "12fdd34ad4f96f403cad0449e54cbb107d2b7651b4bbdeb1753cb9b68b58b668",
+      "url": "https://github.com/Hilbert-beinghappy/seektty/blob/42a2a7fa2a01b5a10a2e2ce368c151c8e0fdafc5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "seektty@1.3.0",
+          "command": "dsh plugin --profile tui add --config.enable-global-virtual-store=false seektty@1.3.0",
+          "profile": "tui"
+        },
+        {
+          "install": "seektty@1.2.6",
+          "command": "dsh plugin --profile tui add --config.enable-global-virtual-store=false seektty@1.2.6",
+          "profile": "tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "20c2bc8aba3fb6f0fe9e0660ef9d5f68d365838ac5fd1cbc14d2bb2706794708",
+      "url": "https://github.com/Hilbert-beinghappy/seektty/blob/42a2a7fa2a01b5a10a2e2ce368c151c8e0fdafc5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "seektty@1.3.0",
+          "command": "dsh plugin --profile tui add --config.enable-global-virtual-store=false seektty@1.3.0",
+          "profile": "tui"
+        },
+        {
+          "install": "seektty@1.2.6",
+          "command": "dsh plugin --profile tui add --config.enable-global-virtual-store=false seektty@1.2.6",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "seektty",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hilbert-beinghappy/seektty",
+        "commit": "42a2a7fa2a01b5a10a2e2ce368c151c8e0fdafc5"
+      },
+      "manifestSha256": "35005012a3384dd9a50815036c7f462c99f2b2ae6f057e94384ead783432e493",
+      "manifestUrl": "https://github.com/Hilbert-beinghappy/seektty/blob/42a2a7fa2a01b5a10a2e2ce368c151c8e0fdafc5/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "seektty@1.2.6",
+      "origin": "npm",
+      "name": "seektty",
+      "version": "1.2.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ecd3cd4af94c8ce92eeb63940d31e6effd361ae2fd1149cde4c206c653d79bfb"
+    },
+    {
+      "target": "seektty@1.3.0",
+      "origin": "npm",
+      "name": "seektty",
+      "version": "1.3.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ecd3cd4af94c8ce92eeb63940d31e6effd361ae2fd1149cde4c206c653d79bfb"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "seektty@1.2.6",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "seektty@1.3.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hilbert-beinghappy/seektty",
+    "commit": "42a2a7fa2a01b5a10a2e2ce368c151c8e0fdafc5",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:01.778Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:22.126Z",
+  "contentReviewFlags": []
+}

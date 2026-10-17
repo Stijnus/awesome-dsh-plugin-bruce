@@ -1,0 +1,73 @@
+{
+  "full_name": "Zoria-Lind/dsh-ecolink",
+  "originalPosition": 409,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@zoria-lind/dsh-ecolink-adapter"
+  ],
+  "manualNote": null,
+  "ordinal": 488,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:50.163Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "825819e6bafea927304b0026473d3139608951f600335914bf1a2f295915b3f1",
+      "url": "https://github.com/Zoria-Lind/dsh-ecolink/blob/b55e922b9824a87679ee0d223d35fdf8c2b8ae82/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zoria-lind/dsh-ecolink-adapter",
+          "command": "dsh plugin --profile web add @zoria-lind/dsh-ecolink-adapter",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zoria-lind/dsh-ecolink-adapter",
+      "version": "0.2.2",
+      "path": "adapter",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zoria-Lind/dsh-ecolink",
+        "commit": "b55e922b9824a87679ee0d223d35fdf8c2b8ae82",
+        "path": "adapter"
+      },
+      "manifestSha256": "f11127a6142de7a70b3a54767161a4d4b74de9efadcd07b2f5c8c9119ca6e8e4",
+      "manifestUrl": "https://github.com/Zoria-Lind/dsh-ecolink/blob/b55e922b9824a87679ee0d223d35fdf8c2b8ae82/adapter/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zoria-lind/dsh-ecolink-adapter",
+      "origin": "npm",
+      "name": "@zoria-lind/dsh-ecolink-adapter",
+      "version": "0.2.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8210535fd320116595faa989dca2134a2b54bbf2c9f45e4deecbceaafc6036a0"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zoria-Lind/dsh-ecolink",
+    "commit": "b55e922b9824a87679ee0d223d35fdf8c2b8ae82",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:00.116Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:28.856Z",
+  "contentReviewFlags": []
+}

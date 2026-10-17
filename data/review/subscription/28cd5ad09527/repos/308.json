@@ -1,0 +1,228 @@
+{
+  "full_name": "HerTa-st/Herta-dsh",
+  "originalPosition": 150,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-herta@0.1.11"
+  ],
+  "manualNote": null,
+  "ordinal": 308,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:53.572Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5e231b532217717db941dd469af6a9da11b4b0d825c57faf6c90490f889379ba",
+      "url": "https://github.com/HerTa-st/Herta-dsh/blob/9b388425647a6584bdc37d1d241468a1537b56c7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-herta",
+          "command": "dsh plugin --profile web add dsh-herta",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-herta",
+          "command": "dsh plugin --profile desktop add dsh-herta",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-herta",
+      "version": "0.1.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HerTa-st/Herta-dsh",
+        "commit": "9b388425647a6584bdc37d1d241468a1537b56c7"
+      },
+      "manifestSha256": "486a653b8cf126eff20e720d4f882f724f2a206ba51147b1a3ea700cee02d19e",
+      "manifestUrl": "https://github.com/HerTa-st/Herta-dsh/blob/9b388425647a6584bdc37d1d241468a1537b56c7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-herta",
+        "versions": [
+          {
+            "version": "0.1.11",
+            "publishTimestamp": 1792241704,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HerTa-st/Herta-dsh",
+              "commit": "9b388425647a6584bdc37d1d241468a1537b56c7"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-herta@0.1.11",
+      "origin": "npm",
+      "name": "dsh-herta",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-herta",
+        "title": {
+          "en": "Herta",
+          "zh": "黑塔"
+        },
+        "description": {
+          "en": "Installs Herta as a DeepSeek Harness agent: a preset carrying her persona and memory prompt sections, six memory and voice tools, a narrative layer that separates her thinking from what she says, 80 bundled voice clips, offline and MiniMax speech synthesis, and two conversation views rendered with her own components.",
+          "zh": "把黑塔作为 DeepSeek Harness 智能体装入：携带人格与记忆提示词段的 preset、六个记忆与语音工具、区分内心与发言的叙述层、80 条随包语音、本地与 MiniMax 两条语音合成链路，以及两个用她自己的组件渲染会话的对话视图。"
+        },
+        "repository": {
+          "url": "https://github.com/HerTa-st/Herta-dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "herta",
+            "agent",
+            "persona",
+            "memory",
+            "tts",
+            "voice",
+            "preset",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.11",
+            "publishTimestamp": 1792238179,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cd5996b604b237084d9056f251e8511f3c25df5347499b41e511193aceee3dca",
+      "evidence": [
+        {
+          "name": "dsh-herta",
+          "version": "0.1.11",
+          "tarball": "https://registry.npmjs.org/dsh-herta/-/dsh-herta-0.1.11.tgz",
+          "integrity": "sha512-Q38ZGj3SGGaszHZxxLeAH8HlXYN6K4g7IA+I7lUXd+aN337TbJbGvOtDCffuY6j423vZSz5fifIbuz8gzf/OEA=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-herta",
+          "code": "metadata_warning",
+          "status": "warning",
+          "reason": "图标超过 32 KiB 内联上限，已省略"
+        }
+      ],
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-herta",
+      "origin": "npm",
+      "name": "dsh-herta",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-herta",
+        "title": {
+          "en": "Herta",
+          "zh": "黑塔"
+        },
+        "description": {
+          "en": "Installs Herta as a DeepSeek Harness agent: a preset carrying her persona and memory prompt sections, six memory and voice tools, a narrative layer that separates her thinking from what she says, 80 bundled voice clips, offline and MiniMax speech synthesis, and two conversation views rendered with her own components.",
+          "zh": "把黑塔作为 DeepSeek Harness 智能体装入：携带人格与记忆提示词段的 preset、六个记忆与语音工具、区分内心与发言的叙述层、80 条随包语音、本地与 MiniMax 两条语音合成链路，以及两个用她自己的组件渲染会话的对话视图。"
+        },
+        "repository": {
+          "url": "https://github.com/HerTa-st/Herta-dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "herta",
+            "agent",
+            "persona",
+            "memory",
+            "tts",
+            "voice",
+            "preset",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.11",
+            "publishTimestamp": 1792238179,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cd5996b604b237084d9056f251e8511f3c25df5347499b41e511193aceee3dca",
+      "evidence": [
+        {
+          "name": "dsh-herta",
+          "version": "0.1.11",
+          "tarball": "https://registry.npmjs.org/dsh-herta/-/dsh-herta-0.1.11.tgz",
+          "integrity": "sha512-Q38ZGj3SGGaszHZxxLeAH8HlXYN6K4g7IA+I7lUXd+aN337TbJbGvOtDCffuY6j423vZSz5fifIbuz8gzf/OEA=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-herta",
+          "code": "metadata_warning",
+          "status": "warning",
+          "reason": "图标超过 32 KiB 内联上限，已省略"
+        }
+      ],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-herta@0.1.11",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-herta",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HerTa-st/Herta-dsh",
+    "commit": "9b388425647a6584bdc37d1d241468a1537b56c7",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:05:40.086Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:13.157Z",
+  "contentReviewFlags": []
+}

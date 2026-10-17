@@ -1,0 +1,85 @@
+{
+  "full_name": "Viy1204/recruiting-copilot",
+  "originalPosition": 358,
+  "inputMode": "command",
+  "mappedTargets": [
+    "git+https://github.com/Viy1204/recruiting-copilot.git"
+  ],
+  "manualNote": null,
+  "ordinal": 451,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:40.858Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4bfcf2fe9121b8aa0565ba9c7d951874c3a67892335cb74216866a16d17dd53f",
+      "url": "https://github.com/Viy1204/recruiting-copilot/blob/ee2fad82f3ce47c5f09e5fedc0e2d83015c69501/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/Viy1204/recruiting-copilot.git",
+          "command": "dsh plugin --profile web add git+https://github.com/Viy1204/recruiting-copilot.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh/README.md",
+      "url": "https://github.com/Viy1204/recruiting-copilot/blob/ee2fad82f3ce47c5f09e5fedc0e2d83015c69501/dsh/README.md",
+      "sha256": "b7e4f400860ca82166d1e47d86a25f2ebf79b7b27bba23feb533920dac171f3b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/Viy1204/recruiting-copilot.git",
+          "command": "dsh plugin --profile web add git+https://github.com/Viy1204/recruiting-copilot.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "recruiting-copilot",
+      "version": "0.6.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Viy1204/recruiting-copilot",
+        "commit": "ee2fad82f3ce47c5f09e5fedc0e2d83015c69501"
+      },
+      "manifestSha256": "035fae71c3e65276db6bcef89b4a893807f8fe333c8d2bf62f10fd126e4a2485",
+      "manifestUrl": "https://github.com/Viy1204/recruiting-copilot/blob/ee2fad82f3ce47c5f09e5fedc0e2d83015c69501/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Viy1204/recruiting-copilot",
+    "commit": "ee2fad82f3ce47c5f09e5fedc0e2d83015c69501",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:48.358Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "dsh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:09.096Z",
+  "coverageReviewedAt": "2026-10-17T17:12:24.932Z",
+  "contentReviewFlags": []
+}

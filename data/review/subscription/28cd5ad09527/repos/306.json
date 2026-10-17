@@ -1,0 +1,78 @@
+{
+  "full_name": "Rain-kl/dsh-preset-plus",
+  "originalPosition": 148,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Rain-kl/dsh-preset-plus",
+    "@rain-kl/dsh-preset-plus"
+  ],
+  "manualNote": null,
+  "ordinal": 306,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:45.373Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "619f751afdd4cfc79cdaa1d129afe6d178af7ccd47e548972ab9d863c047aa53",
+      "url": "https://github.com/Rain-kl/dsh-preset-plus/blob/a6f5446be1f8516164c1b2623e45334cecf32b18/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Rain-kl/dsh-preset-plus",
+          "command": "dsh plugin --profile web add github:Rain-kl/dsh-preset-plus",
+          "profile": "web"
+        },
+        {
+          "install": "@rain-kl/dsh-preset-plus",
+          "command": "dsh plugin --profile web add @rain-kl/dsh-preset-plus",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@rain-kl/dsh-preset-plus",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Rain-kl/dsh-preset-plus",
+        "commit": "a6f5446be1f8516164c1b2623e45334cecf32b18"
+      },
+      "manifestSha256": "851fdbf70890d0f58a65afce543c0bc27c5d8f15d557113fb6ad24f0fdd8978e",
+      "manifestUrl": "https://github.com/Rain-kl/dsh-preset-plus/blob/a6f5446be1f8516164c1b2623e45334cecf32b18/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@rain-kl/dsh-preset-plus",
+      "origin": "npm",
+      "name": "@rain-kl/dsh-preset-plus",
+      "version": "0.1.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "4251fdb0bab6d91184501d1b13fa3d0837035dc0ffe807774bec153349c44415"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Rain-kl/dsh-preset-plus",
+    "commit": "a6f5446be1f8516164c1b2623e45334cecf32b18",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:53.571Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:13.150Z",
+  "contentReviewFlags": []
+}

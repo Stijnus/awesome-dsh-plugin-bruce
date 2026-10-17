@@ -1,0 +1,86 @@
+{
+  "full_name": "beiyege-01/dsh-voice-ai-girlfriend",
+  "originalPosition": 152,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/beiyege-01/dsh-voice-ai-girlfriend-plugin"
+  ],
+  "manualNote": null,
+  "ordinal": 310,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:57.446Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dd31aedf7662ea06ff08fe7af100c2e732510e26874a7083a7048e27f8221120",
+      "url": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend/blob/480bbabada7335735cad591eaa55f32fe54a4214/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend-plugin",
+          "command": "dsh plugin --profile web add github:beiyege-01/dsh-voice-ai-girlfriend-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "url": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend/blob/480bbabada7335735cad591eaa55f32fe54a4214/dsh-plugin/README.md",
+      "sha256": "83f4ce55892d6aa96581cc2ec683f845c099058c39a264242b5a21bae28b0496",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend-plugin",
+          "command": "dsh plugin --profile web add github:beiyege-01/dsh-voice-ai-girlfriend-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "target": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend-plugin",
+      "origin": "git_target",
+      "path": "",
+      "commit": "b0ac0fe37abd7a9f1e486d24c9bd1c70d2cd3728",
+      "name": "@beiyege-01/dsh-voice-ai-girlfriend",
+      "version": "0.3.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend",
+    "commit": "480bbabada7335735cad591eaa55f32fe54a4214",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:11.590Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "dsh-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:00.684Z",
+  "coverageReviewedAt": "2026-10-17T17:12:13.403Z",
+  "contentReviewFlags": []
+}

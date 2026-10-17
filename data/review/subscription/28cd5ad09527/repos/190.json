@@ -1,0 +1,72 @@
+{
+  "full_name": "shaobeichen/dsh-pocket",
+  "originalPosition": 6,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-pocket"
+  ],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:05.982Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5d1ba733216d318c7efa0e1667fefb0983f6c4891748b958cb60f08474590042",
+      "url": "https://github.com/shaobeichen/dsh-pocket/blob/aee3ae7e97516206049394c7a37dc38778ffb6da/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pocket",
+          "command": "dsh plugin --profile web add dsh-pocket -w",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pocket",
+      "version": "2.12.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shaobeichen/dsh-pocket",
+        "commit": "aee3ae7e97516206049394c7a37dc38778ffb6da"
+      },
+      "manifestSha256": "553725efe7c7add2e1d21430a0b8a83e1e8f87976adbfe63a755fc66fd74f933",
+      "manifestUrl": "https://github.com/shaobeichen/dsh-pocket/blob/aee3ae7e97516206049394c7a37dc38778ffb6da/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-pocket",
+      "origin": "npm",
+      "name": "dsh-pocket",
+      "version": "2.12.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0d930440b8b09767ecad536930b0b6f0f0e41449e92db6390e505d1e8bfa049e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shaobeichen/dsh-pocket",
+    "commit": "aee3ae7e97516206049394c7a37dc38778ffb6da",
+    "releaseTags": 116,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:15.918Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.646Z",
+  "contentReviewFlags": []
+}

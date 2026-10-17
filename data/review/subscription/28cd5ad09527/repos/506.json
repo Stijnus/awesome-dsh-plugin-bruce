@@ -1,0 +1,354 @@
+{
+  "full_name": "PerryLink/dsh-memento",
+  "originalPosition": 432,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-memento#main",
+    "dsh-memento",
+    "git+https://github.com/PerryLink/dsh-memento.git"
+  ],
+  "manualNote": null,
+  "ordinal": 506,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:21.447Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "053655b257f8a0eb1fe21110823121b82cb537afc631782a0c9a0985bb72cfa5",
+      "url": "https://github.com/PerryLink/dsh-memento/blob/27696ae48125bd36bfb68d174ca72b96ca2ad7de/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-memento",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-memento",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-memento",
+          "command": "dsh plugin --profile web add dsh-memento",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/PerryLink/dsh-memento.git",
+          "command": "dsh plugin --profile web add git+https://github.com/PerryLink/dsh-memento.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-memento/blob/27696ae48125bd36bfb68d174ca72b96ca2ad7de/README-zh.md",
+      "sha256": "ddd16e0d0617fcfe7cccad400f7ee0798fb5601131eab2456b1ed0d24b330b54",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-memento",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-memento",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-memento",
+          "command": "dsh plugin --profile web add dsh-memento",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/PerryLink/dsh-memento.git",
+          "command": "dsh plugin --profile web add git+https://github.com/PerryLink/dsh-memento.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-memento/blob/27696ae48125bd36bfb68d174ca72b96ca2ad7de/README-es.md",
+      "sha256": "a8175eb3d7c39531ab2999f0ee39b048c5724059e968e1b7519aece388673faa",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-memento",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-memento",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-memento",
+          "command": "dsh plugin --profile web add dsh-memento",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/PerryLink/dsh-memento.git",
+          "command": "dsh plugin --profile web add git+https://github.com/PerryLink/dsh-memento.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-memento/blob/27696ae48125bd36bfb68d174ca72b96ca2ad7de/README-pt.md",
+      "sha256": "bc8eb9d8d042dcde6f4340ab7201e989f116d06c74c971d7272582df5c332bd8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-memento",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-memento",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-memento",
+          "command": "dsh plugin --profile web add dsh-memento",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/PerryLink/dsh-memento.git",
+          "command": "dsh plugin --profile web add git+https://github.com/PerryLink/dsh-memento.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-memento/blob/27696ae48125bd36bfb68d174ca72b96ca2ad7de/README-hi.md",
+      "sha256": "f13e646aad2d5d6aa218b31c607fcb1414d4801ff897714e645a331ba8ffd2dc",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-memento",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-memento",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-memento",
+          "command": "dsh plugin --profile web add dsh-memento",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/PerryLink/dsh-memento.git",
+          "command": "dsh plugin --profile web add git+https://github.com/PerryLink/dsh-memento.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "test/protocol-conformance/README.md",
+      "url": "https://github.com/PerryLink/dsh-memento/blob/27696ae48125bd36bfb68d174ca72b96ca2ad7de/test/protocol-conformance/README.md",
+      "sha256": "825e02d341f16ff0b9dbaaca2dcc23337d56bd8e6f12f397b716896f5bf3e596",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memento",
+      "version": "0.5.25",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-memento",
+        "commit": "27696ae48125bd36bfb68d174ca72b96ca2ad7de"
+      },
+      "manifestSha256": "e2c83de8985e8dae43ef495440a97dc42370721288524f19d0cef5c35c364403",
+      "manifestUrl": "https://github.com/PerryLink/dsh-memento/blob/27696ae48125bd36bfb68d174ca72b96ca2ad7de/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-memento",
+        "versions": [
+          {
+            "version": "0.5.25",
+            "publishTimestamp": 1791818240,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-memento",
+              "commit": "27696ae48125bd36bfb68d174ca72b96ca2ad7de"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-memento#main",
+      "origin": "git_target",
+      "name": "dsh-memento",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-memento",
+        "title": "dsh-memento",
+        "description": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse",
+        "homepage": "https://github.com/PerryLink/dsh-memento#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-memento"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "memory",
+            "agent-memory",
+            "approval",
+            "audit",
+            "sqlite",
+            "cordis",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.25",
+            "publishTimestamp": 1791818240,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-memento",
+              "commit": "27696ae48125bd36bfb68d174ca72b96ca2ad7de"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "27696ae48125bd36bfb68d174ca72b96ca2ad7de",
+          "name": "dsh-memento",
+          "version": "0.5.25",
+          "url": "https://github.com/PerryLink/dsh-memento",
+          "manifestSha256": "e2c83de8985e8dae43ef495440a97dc42370721288524f19d0cef5c35c364403",
+          "publishTimestamp": 1791818240
+        }
+      ]
+    },
+    {
+      "target": "dsh-memento",
+      "origin": "npm",
+      "name": "dsh-memento",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-memento",
+        "title": "dsh-memento",
+        "description": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse",
+        "homepage": "https://github.com/PerryLink/dsh-memento#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-memento"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "memory",
+            "agent-memory",
+            "approval",
+            "audit",
+            "sqlite",
+            "cordis",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.25",
+            "publishTimestamp": 1791818381,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fd7267c573c1db0fb264ad156431582b0435a45f3094ddbcb55e60a1fb4125ca",
+      "evidence": [
+        {
+          "name": "dsh-memento",
+          "version": "0.5.25",
+          "tarball": "https://registry.npmjs.org/dsh-memento/-/dsh-memento-0.5.25.tgz",
+          "integrity": "sha512-UBQ/ZhEScuRK/TKpIefXeFVkSGBiNV4q+mol8SO6f4P7ujwKpxUH+isIM72lndoprRw6uU5qi5zxKkJc22zJ3Q=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-memento#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-memento",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-memento",
+    "commit": "27696ae48125bd36bfb68d174ca72b96ca2ad7de",
+    "releaseTags": 35,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:03:39.592Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "test/protocol-conformance/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "test/protocol-conformance/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:13.204Z",
+  "coverageReviewedAt": "2026-10-17T17:12:30.926Z",
+  "contentReviewFlags": []
+}

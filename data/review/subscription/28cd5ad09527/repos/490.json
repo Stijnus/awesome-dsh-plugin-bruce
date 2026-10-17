@@ -1,0 +1,61 @@
+{
+  "full_name": "ymh0000123/dsh-theme-endfield",
+  "originalPosition": 412,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/ymh0000123/dsh-theme-endfield"
+  ],
+  "manualNote": null,
+  "ordinal": 490,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:52.304Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0dbe115304a85017c7d404eb3de7acab6a7b595bdef101af8cd59b6becfb1061",
+      "url": "https://github.com/ymh0000123/dsh-theme-endfield/blob/b760d9aa477e938596d6c0dfa50a0f43464d3ad5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/ymh0000123/dsh-theme-endfield",
+          "command": "dsh plugin --profile web add github:ymh0000123/dsh-theme-endfield",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-endfield",
+      "version": "1.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ymh0000123/dsh-theme-endfield",
+        "commit": "b760d9aa477e938596d6c0dfa50a0f43464d3ad5"
+      },
+      "manifestSha256": "d95a20c1bbc4bbeb45009c82dadbd1eb76e9df00732e01e3068d4524f2dd8ace",
+      "manifestUrl": "https://github.com/ymh0000123/dsh-theme-endfield/blob/b760d9aa477e938596d6c0dfa50a0f43464d3ad5/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ymh0000123/dsh-theme-endfield",
+    "commit": "b760d9aa477e938596d6c0dfa50a0f43464d3ad5",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:59.879Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:28.948Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,359 @@
+{
+  "full_name": "Han-1413141/dsh-cost-meter",
+  "originalPosition": 162,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-cost-meter",
+    "https://github.com/Han-1413141/dsh-cost-meter#v1.7.44",
+    "https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.44.tar.gz"
+  ],
+  "manualNote": null,
+  "ordinal": 315,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:14.496Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b6fc969b02bbd67fc49cc5a8236b4b9474d279e83010865cfe0b6d4855277efc",
+      "url": "https://github.com/Han-1413141/dsh-cost-meter/blob/c19fdff3556f4a7329692255245cc12870812400/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cost-meter",
+          "command": "dsh plugin --profile web add dsh-cost-meter",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Han-1413141/dsh-cost-meter#v1.8.36",
+          "command": "dsh plugin --profile web add github:Han-1413141/dsh-cost-meter#v1.8.36",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.8.36.tar.gz",
+          "command": "dsh plugin --profile web add https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.8.36.tar.gz",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-cost-meter@latest",
+          "command": "dsh plugin --profile web add dsh-cost-meter@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "3b605f412da361703dd6d10c58672a6a71b2191735f6843036ea6a6e0ce6e98a",
+      "url": "https://github.com/Han-1413141/dsh-cost-meter/blob/c19fdff3556f4a7329692255245cc12870812400/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cost-meter",
+          "command": "dsh plugin --profile web add dsh-cost-meter",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Han-1413141/dsh-cost-meter#v1.8.36",
+          "command": "dsh plugin --profile web add github:Han-1413141/dsh-cost-meter#v1.8.36",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.8.36.tar.gz",
+          "command": "dsh plugin --profile web add https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.8.36.tar.gz",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-cost-meter@latest",
+          "command": "dsh plugin --profile web add dsh-cost-meter@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cost-meter",
+      "version": "1.8.36",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Han-1413141/dsh-cost-meter",
+        "commit": "c19fdff3556f4a7329692255245cc12870812400"
+      },
+      "manifestSha256": "278874a9121a95cdece9e1e7667a5fcfd7ae0f1e7e9fa43e7b5c592463711d39",
+      "manifestUrl": "https://github.com/Han-1413141/dsh-cost-meter/blob/c19fdff3556f4a7329692255245cc12870812400/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-cost-meter",
+        "versions": [
+          {
+            "version": "1.8.36",
+            "publishTimestamp": 1792249785,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Han-1413141/dsh-cost-meter",
+              "commit": "c19fdff3556f4a7329692255245cc12870812400"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-cost-meter",
+      "origin": "npm",
+      "name": "dsh-cost-meter",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cost-meter",
+        "title": {
+          "en": "dsh-cost-meter",
+          "zh": "费用计量 (dsh-cost-meter)"
+        },
+        "description": {
+          "en": "DeepSeek Harness 会话费用统计插件:本会话成本、当日费用、历史记录与官方价格同步,支持多厂商多模型价格计费(内置 170+ 模型 ID 价格目录与自动匹配)、主流 Coding Plan 订阅额度查询与显示(13 家,含 OpenDesign 工作区查询、含小米 MiMo Token Plan 控制台 Cookie 查询、SCNet Token Plan 本地 Credits 计量与火山方舟 Volcano Ark Coding Plan AK/SK 签名查询)、自定义 Provider 余额查询(可配任意 HTTP 端点)与余额进度条、峰谷计价时段显示与切换前弹窗/系统通知提醒(位置/提前量/类型可配),界面中英双语。Session cost tracking plugin for DeepSeek Harness: per-conversation cost, daily totals, history and official price sync, with multi-vendor model pricing (built-in 170+ model-ID catalog with auto-matching), Coding Plan quota queries & display for 13 vendors (incl. OpenDesign workspace queries, Xiaomi MiMo Token Plan via console cookie, local credits metering for the SCNet Token Plan and Volcano Ark Coding Plan via AK/SK signature), plan/API dual-track billing with per-1% & full-window Token Plan usage estimates, custom provider balance lookup (configurable HTTP endpoint) and balance progress bar, plus peak/off-peak pricing display with pre-switch popup & system-notification alerts (position / lead time / type configurable), in a bilingual (Chinese/English) UI.",
+          "zh": "费用计量：按会话统计 token 与成本，含各厂商余额与峰谷计价提醒"
+        },
+        "homepage": "https://github.com/Han-1413141/dsh-cost-meter#readme",
+        "repository": {
+          "url": "https://github.com/Han-1413141/dsh-cost-meter"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "client-plugin",
+            "cost",
+            "usage",
+            "billing",
+            "budget",
+            "i18n",
+            "bilingual",
+            "zh",
+            "en",
+            "language"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.8.36",
+            "publishTimestamp": 1792250157,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8629a0b79c1a9bafc6b2aa1a4abbf8107bd04b183b5bc8c26f3750a3d321ad31",
+      "evidence": [
+        {
+          "name": "dsh-cost-meter",
+          "version": "1.8.36",
+          "tarball": "https://registry.npmjs.org/dsh-cost-meter/-/dsh-cost-meter-1.8.36.tgz",
+          "integrity": "sha512-5i3zJ4wJMpkCxHpayISKyYUloE+/f2PVDKc4s8B7Lpaf99ji4A4af9SZvKe6CXiqDb4aM5kb691U903beDRoSQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/Han-1413141/dsh-cost-meter#v1.7.44",
+      "origin": "git_target",
+      "path": "",
+      "commit": "1bcfdce7e7d8467c17a6c16e013ce1c2f47b74b9",
+      "name": "dsh-cost-meter",
+      "version": "1.7.44",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.44.tar.gz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/Han-1413141/dsh-cost-meter#v1.8.36",
+      "origin": "git_target",
+      "name": "dsh-cost-meter",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cost-meter",
+        "title": {
+          "en": "dsh-cost-meter",
+          "zh": "费用计量 (dsh-cost-meter)"
+        },
+        "description": {
+          "en": "DeepSeek Harness 会话费用统计插件:本会话成本、当日费用、历史记录与官方价格同步,支持多厂商多模型价格计费(内置 170+ 模型 ID 价格目录与自动匹配)、主流 Coding Plan 订阅额度查询与显示(13 家,含 OpenDesign 工作区查询、含小米 MiMo Token Plan 控制台 Cookie 查询、SCNet Token Plan 本地 Credits 计量与火山方舟 Volcano Ark Coding Plan AK/SK 签名查询)、自定义 Provider 余额查询(可配任意 HTTP 端点)与余额进度条、峰谷计价时段显示与切换前弹窗/系统通知提醒(位置/提前量/类型可配),界面中英双语。Session cost tracking plugin for DeepSeek Harness: per-conversation cost, daily totals, history and official price sync, with multi-vendor model pricing (built-in 170+ model-ID catalog with auto-matching), Coding Plan quota queries & display for 13 vendors (incl. OpenDesign workspace queries, Xiaomi MiMo Token Plan via console cookie, local credits metering for the SCNet Token Plan and Volcano Ark Coding Plan via AK/SK signature), plan/API dual-track billing with per-1% & full-window Token Plan usage estimates, custom provider balance lookup (configurable HTTP endpoint) and balance progress bar, plus peak/off-peak pricing display with pre-switch popup & system-notification alerts (position / lead time / type configurable), in a bilingual (Chinese/English) UI.",
+          "zh": "费用计量：按会话统计 token 与成本，含各厂商余额与峰谷计价提醒"
+        },
+        "homepage": "https://github.com/Han-1413141/dsh-cost-meter#readme",
+        "repository": {
+          "url": "https://github.com/Han-1413141/dsh-cost-meter"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "client-plugin",
+            "cost",
+            "usage",
+            "billing",
+            "budget",
+            "i18n",
+            "bilingual",
+            "zh",
+            "en",
+            "language"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.8.36",
+            "publishTimestamp": 1792249785,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Han-1413141/dsh-cost-meter",
+              "commit": "c19fdff3556f4a7329692255245cc12870812400"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "c19fdff3556f4a7329692255245cc12870812400",
+          "name": "dsh-cost-meter",
+          "version": "1.8.36",
+          "url": "https://github.com/Han-1413141/dsh-cost-meter",
+          "manifestSha256": "278874a9121a95cdece9e1e7667a5fcfd7ae0f1e7e9fa43e7b5c592463711d39",
+          "publishTimestamp": 1792249785
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.8.36.tar.gz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-cost-meter",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cost-meter",
+        "title": {
+          "en": "dsh-cost-meter",
+          "zh": "费用计量 (dsh-cost-meter)"
+        },
+        "description": {
+          "en": "DeepSeek Harness 会话费用统计插件:本会话成本、当日费用、历史记录与官方价格同步,支持多厂商多模型价格计费(内置 170+ 模型 ID 价格目录与自动匹配)、主流 Coding Plan 订阅额度查询与显示(13 家,含 OpenDesign 工作区查询、含小米 MiMo Token Plan 控制台 Cookie 查询、SCNet Token Plan 本地 Credits 计量与火山方舟 Volcano Ark Coding Plan AK/SK 签名查询)、自定义 Provider 余额查询(可配任意 HTTP 端点)与余额进度条、峰谷计价时段显示与切换前弹窗/系统通知提醒(位置/提前量/类型可配),界面中英双语。Session cost tracking plugin for DeepSeek Harness: per-conversation cost, daily totals, history and official price sync, with multi-vendor model pricing (built-in 170+ model-ID catalog with auto-matching), Coding Plan quota queries & display for 13 vendors (incl. OpenDesign workspace queries, Xiaomi MiMo Token Plan via console cookie, local credits metering for the SCNet Token Plan and Volcano Ark Coding Plan via AK/SK signature), plan/API dual-track billing with per-1% & full-window Token Plan usage estimates, custom provider balance lookup (configurable HTTP endpoint) and balance progress bar, plus peak/off-peak pricing display with pre-switch popup & system-notification alerts (position / lead time / type configurable), in a bilingual (Chinese/English) UI.",
+          "zh": "费用计量：按会话统计 token 与成本，含各厂商余额与峰谷计价提醒"
+        },
+        "homepage": "https://github.com/Han-1413141/dsh-cost-meter#readme",
+        "repository": {
+          "url": "https://github.com/Han-1413141/dsh-cost-meter"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "client-plugin",
+            "cost",
+            "usage",
+            "billing",
+            "budget",
+            "i18n",
+            "bilingual",
+            "zh",
+            "en",
+            "language"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.8.36",
+            "publishTimestamp": 1792250157,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "name": "dsh-cost-meter",
+          "version": "1.8.36",
+          "tarball": "https://registry.npmjs.org/dsh-cost-meter/-/dsh-cost-meter-1.8.36.tgz",
+          "integrity": "sha512-5i3zJ4wJMpkCxHpayISKyYUloE+/f2PVDKc4s8B7Lpaf99ji4A4af9SZvKe6CXiqDb4aM5kb691U903beDRoSQ=="
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Han-1413141/dsh-cost-meter#v1.7.44",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.44.tar.gz",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Han-1413141/dsh-cost-meter#v1.8.36",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.8.36.tar.gz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-cost-meter@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Han-1413141/dsh-cost-meter",
+    "commit": "c19fdff3556f4a7329692255245cc12870812400",
+    "releaseTags": 157,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:04:43.217Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.287Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,86 @@
+{
+  "full_name": "Yu-tao-Li/dsh-computer-use-win",
+  "originalPosition": 426,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 98,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:55.161Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c82cf39107579c82929bdbb5615b3b56d6c881e1101905692431f423f0cdd05d",
+      "url": "https://github.com/Yu-tao-Li/dsh-computer-use-win/blob/6130f8771e447ae253437e43daf3115b967c09bd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-computer-use-win",
+          "command": "dsh plugin --profile web add dsh-computer-use-win",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
+          "command": "dsh plugin --profile web add github:Yu-tao-Li/dsh-computer-use-win",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-computer-use-win",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
+        "commit": "6130f8771e447ae253437e43daf3115b967c09bd"
+      },
+      "manifestSha256": "dd1addbae7abf3eefa31674df0f0e6e3d2055695d7f5f5017fe33e6550baa899",
+      "manifestUrl": "https://github.com/Yu-tao-Li/dsh-computer-use-win/blob/6130f8771e447ae253437e43daf3115b967c09bd/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-computer-use-win",
+      "origin": "npm",
+      "name": "dsh-computer-use-win",
+      "version": "0.4.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "82c6078fcd75e1cedd39dfe335e8cf998b0bc01c3594683cdb2a411ccb488f87"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-computer-use-win",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
+    "commit": "6130f8771e447ae253437e43daf3115b967c09bd",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:03.120Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.762Z",
+  "contentReviewFlags": []
+}

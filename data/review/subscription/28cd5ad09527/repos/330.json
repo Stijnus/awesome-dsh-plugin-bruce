@@ -1,0 +1,159 @@
+{
+  "full_name": "d-dev0101/open-sea-skin",
+  "originalPosition": 182,
+  "inputMode": "command",
+  "mappedTargets": [
+    "open-sea-skin@1.2.3",
+    "https://github.com/d-dev0101/open-sea-skin#v1.2.4"
+  ],
+  "manualNote": null,
+  "ordinal": 330,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:51.970Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e24d3a86cc695d95fed62c9a54809c4c8a1d481352ed4c16ffbf51b98fe728e5",
+      "url": "https://github.com/d-dev0101/open-sea-skin/blob/634583facf41ab4a8bff705a71ea6605404ab35f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "open-sea-skin@1.2.5",
+          "command": "dsh plugin --profile web add open-sea-skin@1.2.5",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e24d3a86cc695d95fed62c9a54809c4c8a1d481352ed4c16ffbf51b98fe728e5",
+      "url": "https://github.com/d-dev0101/open-sea-skin/blob/634583facf41ab4a8bff705a71ea6605404ab35f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "open-sea-skin@1.2.5",
+          "command": "dsh plugin --profile web add open-sea-skin@1.2.5",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "native-dist/README.md",
+      "url": "https://github.com/d-dev0101/open-sea-skin/blob/634583facf41ab4a8bff705a71ea6605404ab35f/native-dist/README.md",
+      "sha256": "ea843b8fc76dd158a22e8c8dab7c960297fd3fb265d40a5804dc5e7dd6955550",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "harness-plugin/README.md",
+      "url": "https://github.com/d-dev0101/open-sea-skin/blob/634583facf41ab4a8bff705a71ea6605404ab35f/harness-plugin/README.md",
+      "sha256": "b3a1aac71a528bf68950262f29cc31996a23127aa48bc154b005d1e6d7145727",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "open-sea-skin",
+      "version": "1.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/d-dev0101/open-sea-skin",
+        "commit": "634583facf41ab4a8bff705a71ea6605404ab35f"
+      },
+      "manifestSha256": "f1df5c8661a6848253d1faefa7fb4533d344a1af8ac26dd273acdcf1305c1c7f",
+      "manifestUrl": "https://github.com/d-dev0101/open-sea-skin/blob/634583facf41ab4a8bff705a71ea6605404ab35f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "open-sea-skin@1.2.3",
+      "origin": "npm",
+      "name": "open-sea-skin",
+      "version": "1.2.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a8b1c849179c995733dd510bae157bba76d2e35028675ab3e50abbdae2857dfc"
+    },
+    {
+      "target": "https://github.com/d-dev0101/open-sea-skin#v1.2.4",
+      "origin": "git_target",
+      "path": "",
+      "commit": "58a1f490ca9af55febcbb5095908d5ca35db4248",
+      "name": "open-sea-skin",
+      "version": "1.2.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "open-sea-skin@1.2.5",
+      "origin": "npm",
+      "name": "open-sea-skin",
+      "version": "1.2.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a8b1c849179c995733dd510bae157bba76d2e35028675ab3e50abbdae2857dfc"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "open-sea-skin@1.2.3",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/d-dev0101/open-sea-skin#v1.2.4",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "open-sea-skin@1.2.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/d-dev0101/open-sea-skin",
+    "commit": "634583facf41ab4a8bff705a71ea6605404ab35f",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:07.146Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "native-dist/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "harness-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "native-dist/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "harness-plugin/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:03.840Z",
+  "coverageReviewedAt": "2026-10-17T17:12:16.020Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,145 @@
+{
+  "full_name": "caob23/dsh-browser-control",
+  "originalPosition": 466,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@caob23/dsh-browser-control",
+    "https://github.com/caob23/dsh-browser-control#v1.0.7"
+  ],
+  "manualNote": null,
+  "ordinal": 530,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:03.429Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2295023c22dc3dcf6a1a0a2fde2f6b212c989a4cd3f37bc4f776937c3e64d531",
+      "url": "https://github.com/caob23/dsh-browser-control/blob/e3832f797d2070d45bc6462e9f41c0b2a6957301/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@caob23/dsh-browser-control",
+          "command": "dsh plugin --profile web add @caob23/dsh-browser-control",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/caob23/dsh-browser-control#v1.0.17",
+          "command": "dsh plugin --profile web add \"github:caob23/dsh-browser-control#v1.0.17\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-config/README.md",
+      "url": "https://github.com/caob23/dsh-browser-control/blob/e3832f797d2070d45bc6462e9f41c0b2a6957301/dsh-config/README.md",
+      "sha256": "a880209b07938b7477e54dd1edc1154fb9def93a3a2a379499691b17efe1c61f",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "verify/README.md",
+      "url": "https://github.com/caob23/dsh-browser-control/blob/e3832f797d2070d45bc6462e9f41c0b2a6957301/verify/README.md",
+      "sha256": "2bad85c3e5646d901f8e3d571fe72c7fa00bc91850cca547b45312400338a4b1",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@caob23/dsh-browser-control",
+      "version": "1.0.17",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/caob23/dsh-browser-control",
+        "commit": "e3832f797d2070d45bc6462e9f41c0b2a6957301"
+      },
+      "manifestSha256": "a0d7377acccfd75d03fc6cc604de4bab4eae47cf3cfb41a804bfd76276f66196",
+      "manifestUrl": "https://github.com/caob23/dsh-browser-control/blob/e3832f797d2070d45bc6462e9f41c0b2a6957301/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@caob23/dsh-browser-control",
+      "origin": "npm",
+      "name": "@caob23/dsh-browser-control",
+      "version": "1.0.17",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0309a7b0b2c9d26624f24042bdde5edc16a5ceb2f50c27c84ba28d76eb89d87b"
+    },
+    {
+      "target": "https://github.com/caob23/dsh-browser-control#v1.0.7",
+      "origin": "git_target",
+      "path": "",
+      "commit": "0e0696c7468e88fb1e77b567d79b57314f30530f",
+      "name": "@caob23/dsh-browser-control",
+      "version": "1.0.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/caob23/dsh-browser-control#v1.0.17",
+      "origin": "git_target",
+      "path": "",
+      "commit": "e3832f797d2070d45bc6462e9f41c0b2a6957301",
+      "name": "@caob23/dsh-browser-control",
+      "version": "1.0.17",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/caob23/dsh-browser-control#v1.0.7",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/caob23/dsh-browser-control#v1.0.17",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/caob23/dsh-browser-control",
+    "commit": "e3832f797d2070d45bc6462e9f41c0b2a6957301",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:25.571Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "dsh-config/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "verify/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-config/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "verify/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:13.579Z",
+  "coverageReviewedAt": "2026-10-17T17:12:31.492Z",
+  "contentReviewFlags": []
+}

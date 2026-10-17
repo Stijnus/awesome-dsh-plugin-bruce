@@ -1,0 +1,193 @@
+{
+  "full_name": "PerryLink/jevcore",
+  "originalPosition": 278,
+  "inputMode": "command",
+  "mappedTargets": [
+    "jevcore-dsh@0.4.1"
+  ],
+  "manualNote": null,
+  "ordinal": 393,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:24.930Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3854967e39162fda5ab917d9003264c8160df18295d847f65ccaff2812157691",
+      "url": "https://github.com/PerryLink/jevcore/blob/da5bd49a60c93a86f8b7c261f88ac5f9b736c66a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "jevcore-dsh",
+          "command": "dsh plugin --profile <profile> add jevcore-dsh",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "jevcore-dsh",
+      "version": "0.4.2",
+      "path": "packages/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/jevcore",
+        "commit": "da5bd49a60c93a86f8b7c261f88ac5f9b736c66a",
+        "path": "packages/dsh"
+      },
+      "manifestSha256": "5d4b998546e92eb9457d08934f367453a3039a831455249aec906223d9196601",
+      "manifestUrl": "https://github.com/PerryLink/jevcore/blob/da5bd49a60c93a86f8b7c261f88ac5f9b736c66a/packages/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0-0 || >=0.2.1-0 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "jevcore-dsh",
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1791549838,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/jevcore",
+              "commit": "da5bd49a60c93a86f8b7c261f88ac5f9b736c66a",
+              "path": "packages/dsh"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0-0 || >=0.2.1-0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "jevcore-dsh@0.4.1",
+      "origin": "npm",
+      "name": "jevcore-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "jevcore-dsh",
+        "title": "jevcore-dsh",
+        "description": "TypeSafe Jev as a first-class Cordis service and three model-visible tools for DeepSeek Harness — offline by default, egress disclosed, never default-on.",
+        "homepage": "https://github.com/PerryLink/jevcore#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/jevcore"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "jev",
+            "typesafe",
+            "typesafe-ai",
+            "system-one",
+            "decision-model",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1789924195,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "34a5054d4aa2fe3acb1e35a57f049488c72eb71d468de1fa3d2f8536b8f23742",
+      "evidence": [
+        {
+          "name": "jevcore-dsh",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/jevcore-dsh/-/jevcore-dsh-0.4.1.tgz",
+          "integrity": "sha512-Hmew30SHpnxYBzqC6GspLN8y743OOP9j3C7CWM5tc2dtFzvzeWqcwskDZ+iPw6J09z5epxDG0P5U0LBa+XHaYg=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "jevcore-dsh",
+      "origin": "npm",
+      "name": "jevcore-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "jevcore-dsh",
+        "title": "jevcore-dsh",
+        "description": "TypeSafe Jev as a first-class Cordis service and three model-visible tools for DeepSeek Harness — offline by default, egress disclosed, never default-on.",
+        "homepage": "https://github.com/PerryLink/jevcore#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/jevcore"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "jev",
+            "typesafe",
+            "typesafe-ai",
+            "system-one",
+            "decision-model",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1789924195,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "34a5054d4aa2fe3acb1e35a57f049488c72eb71d468de1fa3d2f8536b8f23742",
+      "evidence": [
+        {
+          "name": "jevcore-dsh",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/jevcore-dsh/-/jevcore-dsh-0.4.1.tgz",
+          "integrity": "sha512-Hmew30SHpnxYBzqC6GspLN8y743OOP9j3C7CWM5tc2dtFzvzeWqcwskDZ+iPw6J09z5epxDG0P5U0LBa+XHaYg=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "jevcore-dsh@0.4.1",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "jevcore-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/jevcore",
+    "commit": "da5bd49a60c93a86f8b7c261f88ac5f9b736c66a",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:07:40.973Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.413Z",
+  "contentReviewFlags": []
+}

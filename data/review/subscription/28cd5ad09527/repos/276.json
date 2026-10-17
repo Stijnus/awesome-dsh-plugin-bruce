@@ -1,0 +1,114 @@
+{
+  "full_name": "Wenaixi/dsh-superpower",
+  "originalPosition": 114,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@wenaixi/dsh-superpower",
+    "https://github.com/Wenaixi/dsh-superpower"
+  ],
+  "manualNote": null,
+  "ordinal": 276,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:34.850Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "757d7f89e8820d3f6a4e9a32c23ac6740a1f8fd0688755697e82211e86577f72",
+      "url": "https://github.com/Wenaixi/dsh-superpower/blob/629dfff09b2808255b0e407913f86b5b3cdcd30a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wenaixi/dsh-superpower",
+          "command": "dsh plugin --profile web add @wenaixi/dsh-superpower",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Wenaixi/dsh-superpower",
+          "command": "dsh plugin --profile web add github:Wenaixi/dsh-superpower",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7c2a025e9898735436adf11204490dd4a78c9d982081a30f3207e6ddfc97c29b",
+      "url": "https://github.com/Wenaixi/dsh-superpower/blob/629dfff09b2808255b0e407913f86b5b3cdcd30a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wenaixi/dsh-superpower",
+          "command": "dsh plugin --profile web add @wenaixi/dsh-superpower",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Wenaixi/dsh-superpower",
+          "command": "dsh plugin --profile web add github:Wenaixi/dsh-superpower",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@wenaixi/dsh-superpower",
+      "version": "8.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Wenaixi/dsh-superpower",
+        "commit": "629dfff09b2808255b0e407913f86b5b3cdcd30a"
+      },
+      "manifestSha256": "d63d4314c3d3796e729f85d716e9327ae6c2d00c79122709f14df81b1c490d78",
+      "manifestUrl": "https://github.com/Wenaixi/dsh-superpower/blob/629dfff09b2808255b0e407913f86b5b3cdcd30a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@wenaixi/dsh-superpower",
+        "versions": [
+          {
+            "version": "8.0.0",
+            "publishTimestamp": 1792251895,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Wenaixi/dsh-superpower",
+              "commit": "629dfff09b2808255b0e407913f86b5b3cdcd30a"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@wenaixi/dsh-superpower",
+      "origin": "npm",
+      "name": "@wenaixi/dsh-superpower",
+      "version": "8.0.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "367e0e2c274671358fcd68cd84d74be1f9b4c15ca129282c91584110b281ab0c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Wenaixi/dsh-superpower",
+    "commit": "629dfff09b2808255b0e407913f86b5b3cdcd30a",
+    "releaseTags": 33,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:02:45.222Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:11.544Z",
+  "contentReviewFlags": []
+}

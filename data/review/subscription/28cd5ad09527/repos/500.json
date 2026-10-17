@@ -1,0 +1,78 @@
+{
+  "full_name": "TomoyoNatsume/dsh-qq-bridge",
+  "originalPosition": 425,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@yachangchang/dsh-qq-bridge",
+    "https://github.com/TomoyoNatsume/dsh-qq-bridge"
+  ],
+  "manualNote": null,
+  "ordinal": 500,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:11.499Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "40fccf36c02a135488a3db43d609b4e478d812afb03c82e2105d262ef8897bc8",
+      "url": "https://github.com/TomoyoNatsume/dsh-qq-bridge/blob/6e13f95415bf58c9534b4616ed074087dc5e5631/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yachangchang/dsh-qq-bridge",
+          "command": "pnpm dsh plugin --profile web add @yachangchang/dsh-qq-bridge",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/TomoyoNatsume/dsh-qq-bridge",
+          "command": "pnpm dsh plugin --profile web add github:TomoyoNatsume/dsh-qq-bridge",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yachangchang/dsh-qq-bridge",
+      "version": "1.0.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TomoyoNatsume/dsh-qq-bridge",
+        "commit": "6e13f95415bf58c9534b4616ed074087dc5e5631"
+      },
+      "manifestSha256": "8ab6d3e1517b249b61d21c4e6234ba88a8d6021c7f494040bd4c7b62fd7ec252",
+      "manifestUrl": "https://github.com/TomoyoNatsume/dsh-qq-bridge/blob/6e13f95415bf58c9534b4616ed074087dc5e5631/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@yachangchang/dsh-qq-bridge",
+      "origin": "npm",
+      "name": "@yachangchang/dsh-qq-bridge",
+      "version": "1.0.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "e04b4a956bac23cad2b9cfd0228b096a0db6ed09b86c0980db207ef9baefaaf4"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TomoyoNatsume/dsh-qq-bridge",
+    "commit": "6e13f95415bf58c9534b4616ed074087dc5e5631",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:21.442Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:29.353Z",
+  "contentReviewFlags": []
+}

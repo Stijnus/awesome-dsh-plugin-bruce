@@ -1,0 +1,92 @@
+{
+  "full_name": "HR2AY/DSH-Plan-Graph",
+  "originalPosition": 453,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/HR2AY/DSH-Plan-Graph"
+  ],
+  "manualNote": null,
+  "ordinal": 519,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:42.806Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "44527df18bd1a1a44f4cfbfdb956333d87540ece906bcffa881cb8d8c2cc9c88",
+      "url": "https://github.com/HR2AY/DSH-Plan-Graph/blob/e7d4919902c5149b26b40246ddc425ae4dbfcdce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plan-graph",
+          "command": "dsh plugin --profile demo add dsh-plan-graph",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c5dcb71cf0422bda8c3adef94b48b2292fd7c6386441295e0caf73bbf118e061",
+      "url": "https://github.com/HR2AY/DSH-Plan-Graph/blob/e7d4919902c5149b26b40246ddc425ae4dbfcdce/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plan-graph",
+          "command": "dsh plugin --profile demo add dsh-plan-graph",
+          "profile": "demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plan-graph",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HR2AY/DSH-Plan-Graph",
+        "commit": "e7d4919902c5149b26b40246ddc425ae4dbfcdce"
+      },
+      "manifestSha256": "10eecc63b72e2f1fe04108b05af349b9ba8e3e310cfeafc34be2c61efa3e6994",
+      "manifestUrl": "https://github.com/HR2AY/DSH-Plan-Graph/blob/e7d4919902c5149b26b40246ddc425ae4dbfcdce/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plan-graph",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/HR2AY/DSH-Plan-Graph",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plan-graph",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HR2AY/DSH-Plan-Graph",
+    "commit": "e7d4919902c5149b26b40246ddc425ae4dbfcdce",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:52.459Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:30.495Z",
+  "contentReviewFlags": []
+}

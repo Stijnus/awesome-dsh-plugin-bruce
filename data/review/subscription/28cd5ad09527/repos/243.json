@@ -1,0 +1,152 @@
+{
+  "full_name": "UNLINEARITY/dsh-code",
+  "originalPosition": 74,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-code@1.6.0",
+    "https://github.com/unlinearity/dsh-code/releases/download/1.6.0/dsh-code-1.6.0.tgz",
+    "https://github.com/unlinearity/dsh-code"
+  ],
+  "manualNote": null,
+  "ordinal": 243,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:37.999Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "58dfd88f85e8329c2934bf6b8cbe2205056dbd54fbc1cf9fd68895e0c02dfd19",
+      "url": "https://github.com/UNLINEARITY/dsh-code/blob/7de989b94c7eab5d074422512729385f650699ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-code@2.0.0",
+          "command": "dsh plugin --profile cli add dsh-code@2.0.0",
+          "profile": "cli"
+        },
+        {
+          "install": "https://github.com/unlinearity/dsh-code/releases/download/2.0.0/dsh-code-2.0.0.tgz",
+          "command": "dsh plugin --profile cli add https://github.com/unlinearity/dsh-code/releases/download/2.0.0/dsh-code-2.0.0.tgz",
+          "profile": "cli"
+        },
+        {
+          "install": "https://github.com/unlinearity/dsh-code",
+          "command": "dsh plugin --profile cli add github:unlinearity/dsh-code",
+          "profile": "cli"
+        }
+      ]
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "b85455a36bc2ed94a9212ad740303b679c3534e248e2aded8b72478d71212a33",
+      "url": "https://github.com/UNLINEARITY/dsh-code/blob/7de989b94c7eab5d074422512729385f650699ce/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-code@2.0.0",
+          "command": "dsh plugin --profile cli add dsh-code@2.0.0",
+          "profile": "cli"
+        },
+        {
+          "install": "https://github.com/unlinearity/dsh-code/releases/download/2.0.0/dsh-code-2.0.0.tgz",
+          "command": "dsh plugin --profile cli add https://github.com/unlinearity/dsh-code/releases/download/2.0.0/dsh-code-2.0.0.tgz",
+          "profile": "cli"
+        },
+        {
+          "install": "https://github.com/unlinearity/dsh-code",
+          "command": "dsh plugin --profile cli add github:unlinearity/dsh-code",
+          "profile": "cli"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-code",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/UNLINEARITY/dsh-code",
+        "commit": "7de989b94c7eab5d074422512729385f650699ce"
+      },
+      "manifestSha256": "7b88643e37cc4b4982435c3d1ffa241e744e46d52f7c905f0cae96f441cce115",
+      "manifestUrl": "https://github.com/UNLINEARITY/dsh-code/blob/7de989b94c7eab5d074422512729385f650699ce/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-code@1.6.0",
+      "origin": "npm",
+      "name": "dsh-code",
+      "version": "1.6.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "be73a736e91acda6ef72d6ffa5ffe6f05e015cf80358b89751d5aa0e2e59cceb"
+    },
+    {
+      "target": "https://github.com/unlinearity/dsh-code/releases/download/1.6.0/dsh-code-1.6.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "dsh-code@2.0.0",
+      "origin": "npm",
+      "name": "dsh-code",
+      "version": "2.0.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "be73a736e91acda6ef72d6ffa5ffe6f05e015cf80358b89751d5aa0e2e59cceb"
+    },
+    {
+      "target": "https://github.com/unlinearity/dsh-code/releases/download/2.0.0/dsh-code-2.0.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-code@1.6.0",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/unlinearity/dsh-code/releases/download/1.6.0/dsh-code-1.6.0.tgz",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-code@2.0.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/unlinearity/dsh-code/releases/download/2.0.0/dsh-code-2.0.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/UNLINEARITY/dsh-code",
+    "commit": "7de989b94c7eab5d074422512729385f650699ce",
+    "releaseTags": 27,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:47.992Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.064Z",
+  "contentReviewFlags": []
+}

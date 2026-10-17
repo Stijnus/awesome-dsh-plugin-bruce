@@ -1,0 +1,161 @@
+{
+  "full_name": "yangdcm/dsh-expert-team",
+  "originalPosition": 535,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@yangdcm/dsh-expert-team"
+  ],
+  "manualNote": null,
+  "ordinal": 568,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:11.106Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ed5bac29b7460ba1f0d6b49b068d1bc4f45d6ac98a771ebaada150cef398fcb2",
+      "url": "https://github.com/yangdcm/dsh-expert-team/blob/d5a5670e8ee8dad533bbc6a0ab6c0e65c3d28910/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yangdcm/dsh-expert-team",
+          "command": "dsh plugin --profile web add @yangdcm/dsh-expert-team",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/yangdcm/dsh-expert-team/blob/d5a5670e8ee8dad533bbc6a0ab6c0e65c3d28910/README.en.md",
+      "sha256": "8a90668ba4677e9ab857ffc8ceb9e4175f86f223c14f0450da91babce2365c82",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yangdcm/dsh-expert-team",
+          "command": "dsh plugin --profile web add @yangdcm/dsh-expert-team",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yangdcm/dsh-expert-team",
+      "version": "1.5.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yangdcm/dsh-expert-team",
+        "commit": "d5a5670e8ee8dad533bbc6a0ab6c0e65c3d28910"
+      },
+      "manifestSha256": "dbbce520d99492d970368aa38c6eb8699c9d44c96d90a9265e6f668aea24228b",
+      "manifestUrl": "https://github.com/yangdcm/dsh-expert-team/blob/d5a5670e8ee8dad533bbc6a0ab6c0e65c3d28910/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@yangdcm/dsh-expert-team",
+        "versions": [
+          {
+            "version": "1.5.3",
+            "publishTimestamp": 1790500867,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yangdcm/dsh-expert-team",
+              "commit": "d5a5670e8ee8dad533bbc6a0ab6c0e65c3d28910"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@yangdcm/dsh-expert-team",
+      "origin": "npm",
+      "name": "@yangdcm/dsh-expert-team",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@yangdcm/dsh-expert-team",
+        "title": "@yangdcm/dsh-expert-team",
+        "description": "dsh「专家团」bundle：一句自然语言组建角色化多智能体「数字员工」团队，按九阶段门控流水线协作交付，实现者直接改代码并产出持久工件；带 live 团队浮层。 · Role-based multi-agent expert team for DeepSeek Harness: one sentence in, a staged and gated team delivery out.",
+        "homepage": "https://github.com/yangdcm/dsh-expert-team#readme",
+        "repository": {
+          "url": "https://github.com/yangdcm/dsh-expert-team"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "deepseek-harness",
+            "multi-agent",
+            "ai-agents",
+            "agent-team",
+            "orchestration",
+            "workflow",
+            "subagent",
+            "code-review",
+            "quality-gate",
+            "role-based",
+            "spec-driven",
+            "dag",
+            "agentic-workflow"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.5.3",
+            "publishTimestamp": 1790501028,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "eab193c0f7c4201e40709d333737a202f69901bc7c92e7e7b3d81b2d4c1ad8ba",
+      "evidence": [
+        {
+          "name": "@yangdcm/dsh-expert-team",
+          "version": "1.5.3",
+          "tarball": "https://registry.npmjs.org/@yangdcm/dsh-expert-team/-/dsh-expert-team-1.5.3.tgz",
+          "integrity": "sha512-uWloBKFcX7ktYyZr8glLvnx8I1xWGYRd5Uj3ANMYB1Bz4jnq1P8SRGYw91V63DC1JPKj2b+d/pHIzuwasCuN6A=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yangdcm/dsh-expert-team",
+    "commit": "d5a5670e8ee8dad533bbc6a0ab6c0e65c3d28910",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:05:23.953Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.616Z",
+  "coverageReviewedAt": "2026-10-17T17:12:32.581Z",
+  "contentReviewFlags": []
+}

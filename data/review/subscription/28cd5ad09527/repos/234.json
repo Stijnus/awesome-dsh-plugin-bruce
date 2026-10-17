@@ -1,0 +1,163 @@
+{
+  "full_name": "fb0sh/dsh-pentester",
+  "originalPosition": 64,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-pentester@latest",
+    "https://github.com/fb0sh/dsh-pentester"
+  ],
+  "manualNote": null,
+  "ordinal": 234,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:18.185Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e3390c8372f70f9346cd200dabcbd8718ffc11c811f57de46ae3c5a3cbd8a4af",
+      "url": "https://github.com/fb0sh/dsh-pentester/blob/1c69c8e4bd7923fa1e8da38c4b4521a90acd55f0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pentester@latest",
+          "command": "dsh plugin --profile web add dsh-pentester@latest",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/fb0sh/dsh-pentester",
+          "command": "dsh plugin --profile web add github:fb0sh/dsh-pentester",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/fb0sh/dsh-pentester/blob/1c69c8e4bd7923fa1e8da38c4b4521a90acd55f0/docs/README.md",
+      "sha256": "b951d232a0cce4d69721d96ffac3910a37e0d6d6a90ad5a085a25e6cc2d53ef0",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pentester@latest",
+          "command": "dsh plugin --profile web add dsh-pentester@latest",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/fb0sh/dsh-pentester",
+          "command": "dsh plugin --profile web add github:fb0sh/dsh-pentester",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pentester",
+      "version": "6.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fb0sh/dsh-pentester",
+        "commit": "1c69c8e4bd7923fa1e8da38c4b4521a90acd55f0"
+      },
+      "manifestSha256": "f214160b47dc959ec999b36f7cfe641abce73266afcf6ad492d09370e8e10b7b",
+      "manifestUrl": "https://github.com/fb0sh/dsh-pentester/blob/1c69c8e4bd7923fa1e8da38c4b4521a90acd55f0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-pentester",
+        "versions": [
+          {
+            "version": "6.5.0",
+            "publishTimestamp": 1791949830,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fb0sh/dsh-pentester",
+              "commit": "1c69c8e4bd7923fa1e8da38c4b4521a90acd55f0"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-pentester@latest",
+      "origin": "npm",
+      "name": "dsh-pentester",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-pentester",
+        "title": "dsh-pentester",
+        "description": "Minimal Root-Orchestrator PTES pentesting plugin for DeepSeek Harness",
+        "homepage": "https://github.com/fb0sh/dsh-pentester.git",
+        "repository": {
+          "url": "https://github.com/fb0sh/dsh-pentester"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "deepseek-harness",
+            "dsh-plugin",
+            "pentester",
+            "pentesting",
+            "security"
+          ]
+        },
+        "versions": [
+          {
+            "version": "6.5.0",
+            "publishTimestamp": 1791954218,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ccb13b80837f97bd4b61c5cadeb8d4cc2acedd673d3eced9c043311cf0c120ab",
+      "evidence": [
+        {
+          "name": "dsh-pentester",
+          "version": "6.5.0",
+          "tarball": "https://registry.npmjs.org/dsh-pentester/-/dsh-pentester-6.5.0.tgz",
+          "integrity": "sha512-CGNkgiIEt5fO0BZnbdCoZi7vTY7yhUENX2d6Kh2YHrTBwrOug0BJMKw2y+A6AJmUHoi6oqEJ7pFHcK0xe4PBqw=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fb0sh/dsh-pentester",
+    "commit": "1c69c8e4bd7923fa1e8da38c4b4521a90acd55f0",
+    "releaseTags": 31,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:37.997Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:55.945Z",
+  "coverageReviewedAt": "2026-10-17T17:12:09.733Z",
+  "contentReviewFlags": []
+}

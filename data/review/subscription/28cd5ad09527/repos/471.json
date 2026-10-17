@@ -1,0 +1,86 @@
+{
+  "full_name": "PensiveFei/dsh-secure-audit",
+  "originalPosition": 388,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-secure-audit"
+  ],
+  "manualNote": null,
+  "ordinal": 471,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:15.188Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4e7ee49cf96e185c3d012939acb1edea08455158597bc3d259a0da1320d2679e",
+      "url": "https://github.com/PensiveFei/dsh-secure-audit/blob/430113f16f43e7885dadd10494a9770dd9b20443/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-secure-audit",
+          "command": "dsh plugin add dsh-secure-audit",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "951559615aee46e41bb2de68dd85ff8f41249f2857365c31313da471fb2cd6ed",
+      "url": "https://github.com/PensiveFei/dsh-secure-audit/blob/430113f16f43e7885dadd10494a9770dd9b20443/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-secure-audit",
+          "command": "dsh plugin add dsh-secure-audit",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-secure-audit",
+      "version": "0.2.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PensiveFei/dsh-secure-audit",
+        "commit": "430113f16f43e7885dadd10494a9770dd9b20443"
+      },
+      "manifestSha256": "9d4bfa595bc25e43c1ee9c5abb3e8d40572ebbedd0d82520ff4ddae84b8995ba",
+      "manifestUrl": "https://github.com/PensiveFei/dsh-secure-audit/blob/430113f16f43e7885dadd10494a9770dd9b20443/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-secure-audit",
+      "origin": "npm",
+      "name": "dsh-secure-audit",
+      "version": "0.2.12",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "cc687eaa15aa95396fa30da384f49a157d89eb7f6c98c66dcaba690d6f6279e3"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PensiveFei/dsh-secure-audit",
+    "commit": "430113f16f43e7885dadd10494a9770dd9b20443",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:24.362Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:26.300Z",
+  "contentReviewFlags": []
+}

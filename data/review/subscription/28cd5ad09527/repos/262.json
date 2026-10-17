@@ -1,0 +1,229 @@
+{
+  "full_name": "liguobao/ds-harness-remote",
+  "originalPosition": 96,
+  "inputMode": "command",
+  "mappedTargets": [
+    "ds-harness-remote@0.4.23"
+  ],
+  "manualNote": null,
+  "ordinal": 262,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:08.769Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9a093d8ef1ff219335aa731460a6f7c69f132a38fc3de02373e32eadfa7f5162",
+      "url": "https://github.com/liguobao/ds-harness-remote/blob/0011bae43191b97a3e49713382bfb87833fa280e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "ds-harness-remote@0.5.10",
+          "command": "dsh plugin --profile desktop add -w ds-harness-remote@0.5.10",
+          "profile": "desktop"
+        },
+        {
+          "install": "ds-harness-remote@0.5.10",
+          "command": "dsh plugin --profile web add -w ds-harness-remote@0.5.10",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7887b7556428d3890a76978faf6a48a0eb57a4c2079150bee7a9239b1be5aaf7",
+      "url": "https://github.com/liguobao/ds-harness-remote/blob/0011bae43191b97a3e49713382bfb87833fa280e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "ds-harness-remote@0.5.10",
+          "command": "dsh plugin --profile desktop add -w ds-harness-remote@0.5.10",
+          "profile": "desktop"
+        },
+        {
+          "install": "ds-harness-remote@0.5.10",
+          "command": "dsh plugin --profile web add -w ds-harness-remote@0.5.10",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "apps/server/README.md",
+      "url": "https://github.com/liguobao/ds-harness-remote/blob/0011bae43191b97a3e49713382bfb87833fa280e/apps/server/README.md",
+      "sha256": "789b728b5d72050269f5bca14eabb7a66cd257a314517ecfc33a699076082f6f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/android/README.md",
+      "url": "https://github.com/liguobao/ds-harness-remote/blob/0011bae43191b97a3e49713382bfb87833fa280e/apps/android/README.md",
+      "sha256": "07edf6596a34a57cb33c60c42407b692424e33c0eccaa0ac54b7291e21474742",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/plugin/README.md",
+      "url": "https://github.com/liguobao/ds-harness-remote/blob/0011bae43191b97a3e49713382bfb87833fa280e/packages/plugin/README.md",
+      "sha256": "fae9f3e9068397f7dee03b79a955569316087e5d1189a5a0d14e6297e1a5882f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "ds-harness-remote@0.5.2",
+          "command": "dsh plugin --profile desktop add -w ds-harness-remote@0.5.2",
+          "profile": "desktop"
+        },
+        {
+          "install": "ds-harness-remote@0.5.2",
+          "command": "dsh plugin --profile web add -w ds-harness-remote@0.5.2",
+          "profile": "web"
+        },
+        {
+          "install": "ds-harness-remote@0.5.2",
+          "command": "dsh plugin --profile dsh-tui add -w ds-harness-remote@0.5.2",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/liguobao/ds-harness-remote/blob/0011bae43191b97a3e49713382bfb87833fa280e/docs/README.md",
+      "sha256": "1d56ae1e15e0e82682e351f29a574c3832f1b0c4bea9f823c8e84af909ccc763",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/server/README.zh.md",
+      "url": "https://github.com/liguobao/ds-harness-remote/blob/0011bae43191b97a3e49713382bfb87833fa280e/apps/server/README.zh.md",
+      "sha256": "3555913ae23f4440a0f4855125c594be9ad1128c7cd20376855db9f4cc617eee",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "ds-harness-remote",
+      "version": "0.5.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liguobao/ds-harness-remote",
+        "commit": "0011bae43191b97a3e49713382bfb87833fa280e"
+      },
+      "manifestSha256": "911cdeee8298935388c51c2e3c5682527f0f2aca5b135fb746f1916114841fa3",
+      "manifestUrl": "https://github.com/liguobao/ds-harness-remote/blob/0011bae43191b97a3e49713382bfb87833fa280e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "ds-harness-remote@0.4.23",
+      "origin": "npm",
+      "name": "ds-harness-remote",
+      "version": "0.4.23",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "91e3681acd07841d57280c7300f7202eab2d3f2ae4cc42101e107d2c63fc9afe"
+    },
+    {
+      "target": "ds-harness-remote@0.5.10",
+      "origin": "npm",
+      "name": "ds-harness-remote",
+      "version": "0.5.10",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "91e3681acd07841d57280c7300f7202eab2d3f2ae4cc42101e107d2c63fc9afe"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "ds-harness-remote",
+      "version": "0.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "ds-harness-remote@0.4.23",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "ds-harness-remote@0.5.10",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "ds-harness-remote@0.5.2",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liguobao/ds-harness-remote",
+    "commit": "0011bae43191b97a3e49713382bfb87833fa280e",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:20.977Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "apps/server/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "apps/android/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "apps/server/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "apps/server/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "apps/android/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "apps/server/README.zh.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:59.823Z",
+  "coverageReviewedAt": "2026-10-17T17:12:12.257Z",
+  "contentReviewFlags": []
+}

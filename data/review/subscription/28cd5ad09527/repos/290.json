@@ -1,0 +1,171 @@
+{
+  "full_name": "omdsh-dev/dsh-mnemon",
+  "originalPosition": 132,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-mnemon"
+  ],
+  "manualNote": null,
+  "ordinal": 290,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:14.946Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8ad10bc4c71eb82b634c26e493be39f1983101852c981db86aac4d5d179bba54",
+      "url": "https://github.com/omdsh-dev/dsh-mnemon/blob/7a7e1ae116e3d8e71d0bb870e25867029d378766/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mnemon",
+          "command": "dsh plugin --profile web add dsh-mnemon",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "a2f4b6480ae00bd0f412fbe5a9456de8b6a30b194216cf25f839e309e52d57e7",
+      "url": "https://github.com/omdsh-dev/dsh-mnemon/blob/7a7e1ae116e3d8e71d0bb870e25867029d378766/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mnemon",
+          "command": "dsh plugin --profile web add dsh-mnemon",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mnemon",
+      "version": "0.5.31",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-mnemon",
+        "commit": "7a7e1ae116e3d8e71d0bb870e25867029d378766"
+      },
+      "manifestSha256": "a8abd405e7b51da43a72ad42857b7de1e2a3c14fc20c6213ca71e41bb624090c",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-mnemon/blob/7a7e1ae116e3d8e71d0bb870e25867029d378766/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-mnemon",
+        "versions": [
+          {
+            "version": "0.5.31",
+            "publishTimestamp": 1792252719,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/omdsh-dev/dsh-mnemon",
+              "commit": "7a7e1ae116e3d8e71d0bb870e25867029d378766"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mnemon",
+      "origin": "npm",
+      "name": "dsh-mnemon",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mnemon",
+        "title": {
+          "en": "dsh-mnemon",
+          "zh": "可组合记忆 (dsh-mnemon)"
+        },
+        "description": {
+          "en": "Composable, view-based memory for DeepSeek Harness. Pluggable sources and strategies, with layered memory out of the box.",
+          "zh": "面向 DeepSeek Harness 的可组合视图记忆。记忆来源与策略可插拔，开箱即用提供分层记忆。"
+        },
+        "homepage": "https://github.com/omdsh-dev/dsh-mnemon#readme",
+        "repository": {
+          "url": "https://github.com/omdsh-dev/dsh-mnemon"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "deepseek-harness-plugin",
+            "dsh-plugin",
+            "agent-memory",
+            "llm-memory",
+            "persistent-memory",
+            "long-term-memory",
+            "runtime-memory",
+            "working-memory",
+            "cross-session-memory",
+            "multi-agent-memory",
+            "shared-agent-memory",
+            "memory-orchestration",
+            "memory-provider",
+            "pluggable-memory",
+            "context-management",
+            "project-memory",
+            "project-documents",
+            "document-search",
+            "semantic-recall",
+            "local-first",
+            "mnemon",
+            "openviking",
+            "honcho",
+            "mem0",
+            "hindsight",
+            "holographic-memory",
+            "retaindb",
+            "byterover",
+            "supermemory"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.31",
+            "publishTimestamp": 1792224137,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b7c4189611756d462bcdc18ecfe7f768b9579e2318f0bbeba1e34c388fa9fcbb",
+      "evidence": [
+        {
+          "name": "dsh-mnemon",
+          "version": "0.5.31",
+          "tarball": "https://registry.npmjs.org/dsh-mnemon/-/dsh-mnemon-0.5.31.tgz",
+          "integrity": "sha512-k37owzI6lOP9NUWBsV/uA34fX5FunQ6zt7WGIcl3gcoZx2ivF6RqsTFNZ9WzXHSFXfipPZypNPknqHmlth8RYQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-mnemon",
+    "commit": "7a7e1ae116e3d8e71d0bb870e25867029d378766",
+    "releaseTags": 72,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:03:26.880Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.418Z",
+  "contentReviewFlags": []
+}

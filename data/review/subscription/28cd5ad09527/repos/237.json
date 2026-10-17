@@ -1,0 +1,252 @@
+{
+  "full_name": "PerryLink/dsh-research-report",
+  "originalPosition": 67,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-research-report"
+  ],
+  "manualNote": null,
+  "ordinal": 237,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:26.180Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c907cd705bd1370cc1bb17114738169ab9eca67da11bc7bc41c012e8403950e8",
+      "url": "https://github.com/PerryLink/dsh-research-report/blob/8d00f06e87c489e18147a45b4aafa0483cd0b53f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-research-report",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-research-report",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-research-report",
+          "command": "dsh plugin --profile demo add dsh-research-report",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-research-report/blob/8d00f06e87c489e18147a45b4aafa0483cd0b53f/README-zh.md",
+      "sha256": "ff9e2aee57cbad1075f9c40ec30bc4db208e9f2400cc008f31179012896ecf2e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-research-report",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-research-report",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-research-report",
+          "command": "dsh plugin --profile demo add dsh-research-report",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-research-report/blob/8d00f06e87c489e18147a45b4aafa0483cd0b53f/README-es.md",
+      "sha256": "2d6081bc4613521c38898932ed5ada5ce01a7f1f32baa759ac8f21324df5352b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-research-report",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-research-report",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-research-report",
+          "command": "dsh plugin --profile demo add dsh-research-report",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-research-report/blob/8d00f06e87c489e18147a45b4aafa0483cd0b53f/README-pt.md",
+      "sha256": "b3b21ede6bb99cd15c426696978faf00d7b1857063bdcb679d06db17b8c94739",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-research-report",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-research-report",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-research-report",
+          "command": "dsh plugin --profile demo add dsh-research-report",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-research-report/blob/8d00f06e87c489e18147a45b4aafa0483cd0b53f/README-hi.md",
+      "sha256": "3a5c3b1ec634a8cfb1449238f07cb562848683d2ea0ede4b3cf60422ffb9e645",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-research-report",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-research-report",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-research-report",
+          "command": "dsh plugin --profile demo add dsh-research-report",
+          "profile": "demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-research-report",
+      "version": "0.3.22",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-research-report",
+        "commit": "8d00f06e87c489e18147a45b4aafa0483cd0b53f"
+      },
+      "manifestSha256": "5ea3dabc490aff4212488fe48cdea55a70d96b0034af695acd494de42ba286f9",
+      "manifestUrl": "https://github.com/PerryLink/dsh-research-report/blob/8d00f06e87c489e18147a45b4aafa0483cd0b53f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-research-report",
+        "versions": [
+          {
+            "version": "0.3.22",
+            "publishTimestamp": 1791813005,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-research-report",
+              "commit": "8d00f06e87c489e18147a45b4aafa0483cd0b53f"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-research-report",
+      "origin": "npm",
+      "name": "dsh-research-report",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-research-report",
+        "title": "dsh-research-report",
+        "description": "Verifiable research-report engine for DeepSeek Harness: a content-addressed evidence ledger (claim — snapshot binding, tamper-evident) plus versioned sealed reports where every claim carries a verification verdict and the manifest hash seals the directory. Retrieval orchestration reuses the official ctx.web / ctx.jobs seams — no deep-research loop.",
+        "author": "dsh-research-report contributors",
+        "homepage": "https://github.com/PerryLink/dsh-research-report#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-research-report"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "research",
+            "evidence-ledger",
+            "verifiable-report",
+            "audit",
+            "citation-verification"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.22",
+            "publishTimestamp": 1791594283,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "48bb7aa6c8100710689efacc6b4fc9f300d165ef0040f9fa4e99be198a4f2fd6",
+      "evidence": [
+        {
+          "name": "dsh-research-report",
+          "version": "0.3.22",
+          "tarball": "https://registry.npmjs.org/dsh-research-report/-/dsh-research-report-0.3.22.tgz",
+          "integrity": "sha512-T8qY1Dk8MQgttoc7Oyx4h6P/jWoVRmV48/qFjexbjj2E9bfkeNJyF1zfrAmwb+hrIQjO7GLO1PDbvVSznvEW5A=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-research-report",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-research-report",
+    "commit": "8d00f06e87c489e18147a45b4aafa0483cd0b53f",
+    "releaseTags": 29,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:35.143Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:57.320Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.070Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,97 @@
+{
+  "full_name": "slow-stack/mneme",
+  "originalPosition": 123,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@modusensus/dsh-mneme"
+  ],
+  "manualNote": null,
+  "ordinal": 282,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:57.305Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fe69812357682955819d79da24e66027d6af92a72ca875bfb149fcc444b0de21",
+      "url": "https://github.com/slow-stack/mneme/blob/ad94d1589ac11f31629b233d52e3fbf17b6e3988/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@modusensus/dsh-mneme",
+          "command": "dsh plugin --profile web add @modusensus/dsh-mneme",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-mneme/README.md",
+      "url": "https://github.com/slow-stack/mneme/blob/ad94d1589ac11f31629b233d52e3fbf17b6e3988/dsh-mneme/README.md",
+      "sha256": "6992966658a45ed45f74ee1935da5a68949b2d73784d6870c632d7afca0675d6",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@modusensus/dsh-mneme",
+          "command": "dsh plugin --profile web add @modusensus/dsh-mneme",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@modusensus/dsh-mneme",
+      "version": "0.9.0",
+      "path": "dsh-mneme",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/slow-stack/mneme",
+        "commit": "ad94d1589ac11f31629b233d52e3fbf17b6e3988",
+        "path": "dsh-mneme"
+      },
+      "manifestSha256": "56bc69548716d29ad3ed182e6f02263ed9a8373d8ea13c952b95d4cbe45353ae",
+      "manifestUrl": "https://github.com/slow-stack/mneme/blob/ad94d1589ac11f31629b233d52e3fbf17b6e3988/dsh-mneme/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@modusensus/dsh-mneme",
+      "origin": "npm",
+      "name": "@modusensus/dsh-mneme",
+      "version": "0.9.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "c289fad6457c97429fd005ad2353f15fae6fb3068050c1eb0329580ca20b0c4d"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/slow-stack/mneme",
+    "commit": "ad94d1589ac11f31629b233d52e3fbf17b6e3988",
+    "releaseTags": 96,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:08.453Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "dsh-mneme/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-mneme/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:58.690Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.944Z",
+  "contentReviewFlags": []
+}

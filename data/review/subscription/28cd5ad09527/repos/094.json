@@ -1,0 +1,416 @@
+{
+  "full_name": "morlay/dsh-plugin",
+  "originalPosition": 410,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:48.330Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9e64b254e41f1fee908bcba0d372ac370e8edb9a059ac0ab3095b068853323bd",
+      "url": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/bundles/better-session/README.md",
+      "url": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/better-session/README.md",
+      "sha256": "cd012b9d6f3ecfc1c7fe5e23f072b3376ef4bda39badf8afa066f46fc60c031f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@morlay/better-session",
+          "command": "dsh plugin --profile web add \"@morlay/better-session\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/bundles/session-mode-profile/README.md",
+      "url": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/session-mode-profile/README.md",
+      "sha256": "dda16c613f09b6cc41c3189662fde16ef90331ca7b90d16531c78f23d03ab41b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/bundles/sandbox-profile/README.md",
+      "url": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/sandbox-profile/README.md",
+      "sha256": "a74c9745f090f5e7940021f35c84414d3f1b52e9c075ca69d00191fcf9ce9b57",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/bundles/ollama-provider-profile/README.md",
+      "url": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/ollama-provider-profile/README.md",
+      "sha256": "b562a9e6f3d196b2afba6c227aee68779828b552f1cabb464561d0d6ba8b4c8e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/bundles/mydsh-profile/README.md",
+      "url": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/mydsh-profile/README.md",
+      "sha256": "d7be70f20dad0ec70fd31d1539f2c05a29808a198fed7cf4db129c22e7f53bf3",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": ".agents/README.md",
+      "url": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/.agents/README.md",
+      "sha256": "eac137386197c043e792ca16bbb50bc5dcc1469d20283b54039f67989a3efcf2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@morlay/better-session",
+      "version": "0.1.8",
+      "path": "packages/bundles/better-session",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/morlay/dsh-plugin",
+        "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+        "path": "packages/bundles/better-session"
+      },
+      "manifestSha256": "27ebeb56ccf58b6f4f6c7d7e8b360d2d6a434447087ebf3d1b49d70b5ff8845b",
+      "manifestUrl": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/better-session/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">= 0.2.1-rc.1 < 0.2.2",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@morlay/better-session",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1792228381,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/morlay/dsh-plugin",
+              "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+              "path": "packages/bundles/better-session"
+            },
+            "engines": {
+              "dsh": ">= 0.2.1-rc.1 < 0.2.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@morlay/mydsh-profile",
+      "version": "0.0.10",
+      "path": "packages/bundles/mydsh-profile",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/morlay/dsh-plugin",
+        "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+        "path": "packages/bundles/mydsh-profile"
+      },
+      "manifestSha256": "d965aef06fa29f45e797d00c30ef5178ae7d7e2a99a52743cd690370b41174ab",
+      "manifestUrl": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/mydsh-profile/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">= 0.2.1-rc.1 < 0.2.2",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@morlay/mydsh-profile",
+        "versions": [
+          {
+            "version": "0.0.10",
+            "publishTimestamp": 1792228381,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/morlay/dsh-plugin",
+              "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+              "path": "packages/bundles/mydsh-profile"
+            },
+            "engines": {
+              "dsh": ">= 0.2.1-rc.1 < 0.2.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@morlay/ollama-provider-profile",
+      "version": "0.0.9",
+      "path": "packages/bundles/ollama-provider-profile",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/morlay/dsh-plugin",
+        "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+        "path": "packages/bundles/ollama-provider-profile"
+      },
+      "manifestSha256": "675d60f8ba07505eec42598c7323fbfe7e0a1ef492dba2c0992bd3cd5b89b618",
+      "manifestUrl": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/ollama-provider-profile/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">= 0.2.1-rc.1 < 0.2.2",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@morlay/ollama-provider-profile",
+        "versions": [
+          {
+            "version": "0.0.9",
+            "publishTimestamp": 1792228381,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/morlay/dsh-plugin",
+              "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+              "path": "packages/bundles/ollama-provider-profile"
+            },
+            "engines": {
+              "dsh": ">= 0.2.1-rc.1 < 0.2.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@morlay/sandbox-profile",
+      "version": "0.0.9",
+      "path": "packages/bundles/sandbox-profile",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/morlay/dsh-plugin",
+        "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+        "path": "packages/bundles/sandbox-profile"
+      },
+      "manifestSha256": "9e7e9c13b6ab532e86c0849799502fe5b484a89eb266fe73897df656eea1485a",
+      "manifestUrl": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/sandbox-profile/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">= 0.2.1-rc.1 < 0.2.2",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@morlay/sandbox-profile",
+        "versions": [
+          {
+            "version": "0.0.9",
+            "publishTimestamp": 1792228381,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/morlay/dsh-plugin",
+              "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+              "path": "packages/bundles/sandbox-profile"
+            },
+            "engines": {
+              "dsh": ">= 0.2.1-rc.1 < 0.2.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@morlay/session-mode-profile",
+      "version": "0.0.11",
+      "path": "packages/bundles/session-mode-profile",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/morlay/dsh-plugin",
+        "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+        "path": "packages/bundles/session-mode-profile"
+      },
+      "manifestSha256": "9be3f6890dd65a1f739568b17bb98fddba06c716ce9fb0559a74d3f3da9682a5",
+      "manifestUrl": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/session-mode-profile/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">= 0.2.1-rc.1 < 0.2.2",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@morlay/session-mode-profile",
+        "versions": [
+          {
+            "version": "0.0.11",
+            "publishTimestamp": 1792228381,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/morlay/dsh-plugin",
+              "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+              "path": "packages/bundles/session-mode-profile"
+            },
+            "engines": {
+              "dsh": ">= 0.2.1-rc.1 < 0.2.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@morlay/web-custom-profile",
+      "version": "0.0.2",
+      "path": "packages/bundles/web-custom-profile",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/morlay/dsh-plugin",
+        "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+        "path": "packages/bundles/web-custom-profile"
+      },
+      "manifestSha256": "efb511f40a2297a5f986bd491f1bcbf57532e2f46852450f813f96caada25a53",
+      "manifestUrl": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/packages/bundles/web-custom-profile/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">= 0.2.1-rc.1 < 0.2.2",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@morlay/web-custom-profile",
+        "versions": [
+          {
+            "version": "0.0.2",
+            "publishTimestamp": 1792228381,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/morlay/dsh-plugin",
+              "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+              "path": "packages/bundles/web-custom-profile"
+            },
+            "engines": {
+              "dsh": ">= 0.2.1-rc.1 < 0.2.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@morlay/better-session",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@morlay/better-session",
+        "title": {
+          "en": "Session Editing",
+          "zh": "会话编辑装配"
+        },
+        "description": {
+          "en": "dsh profile bundle: assembles @morlay/session-branch, @morlay/session-rdb, @morlay/ui-conversation-message-actions, @morlay/ui-conversation-manager and @morlay/dsh-reference into a web profile — the rewind / retry / recall / fork closed loop on RDB persistence; the conversation shell stays on the official ui-conversation row and our extensions only register on its slots.",
+          "zh": "profile 聚合 bundle：把 @morlay/session-branch、@morlay/session-rdb、@morlay/ui-conversation-message-actions、@morlay/ui-conversation-manager 与 @morlay/dsh-reference 装进 web profile，提供就地编辑 / 重试 / 撤回 / 分支（rewind / retry / recall / fork）闭环；对话外壳走官方 ui-conversation 行，扩展只注册在它的槽位上。"
+        },
+        "repository": {
+          "url": "https://github.com/morlay/dsh-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-bundle",
+            "dsh-plugin",
+            "fork",
+            "retry",
+            "rewind",
+            "session-rdb",
+            "ui-conversation-message-actions"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZWxsaXBzZSBjeD0iMTgiIGN5PSIxMC40IiByeD0iMTAiIHJ5PSI0IiBzdHJva2U9InVybCgjY2FwKSIgc3Ryb2tlLXdpZHRoPSIzIiAvPgogIDxwYXRoIGQ9Ik04IDEwLjR2MTVjMCAyLjIgNC41IDQgMTAgNHMxMC0xLjggMTAtNHYtMTUiIHN0cm9rZT0idXJsKCN2YXVsdCkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik04IDE3LjljMCAyLjIgNC41IDQgMTAgNHMxMC0xLjggMTAtNCIgc3Ryb2tlPSJ1cmwoI3RpZXIpIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgLz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iY2FwIiB4MT0iOCIgeTE9IjYuNCIgeDI9IjI4IiB5Mj0iMTQuNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjQThENkZGIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1Qjc4RjAiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ2YXVsdCIgeDE9IjgiIHkxPSIxMC40IiB4Mj0iMjgiIHkyPSIyOS40IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM4Q0M2RkYiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzRBNjVFOCIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InRpZXIiIHgxPSI4IiB5MT0iMTcuOSIgeDI9IjI4IiB5Mj0iMjEuOSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjQjREQkZGIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2RjhCRUUiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1792228532,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">= 0.2.1-rc.1 < 0.2.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "name": "@morlay/better-session",
+          "version": "0.1.8",
+          "tarball": "https://registry.npmjs.org/@morlay/better-session/-/better-session-0.1.8.tgz",
+          "integrity": "sha512-r26AmlZ9iDXUUkaK3A4gbLDC49uD2vi8zgRoNVlIiF5zGMOyLLtIt+5bgp7Ex9dIErZpmrIJVhATslWrGePrrQ=="
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@morlay/better-session",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/morlay/dsh-plugin",
+    "commit": "923d2b556730625d7392b31b15b7252a94970d5f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [
+    "workspace glob \"vendor/deepseek-harness/vendor/*\" matches no directory",
+    "workspace glob \"vendor/deepseek-harness/packages/*/*\" matches no directory",
+    "workspace glob \"vendor/deepseek-harness/native/system\" matches no directory",
+    "workspace glob \"vendor/deepseek-harness/native/system/packages/*\" matches no directory",
+    "workspace glob \"vendor/deepseek-harness/apps/*\" matches no directory"
+  ],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T17:02:43.072Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "packages/bundles/better-session/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/bundles/session-mode-profile/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/bundles/sandbox-profile/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/bundles/ollama-provider-profile/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/bundles/mydsh-profile/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": ".agents/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/bundles/better-session/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/bundles/session-mode-profile/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/bundles/sandbox-profile/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/bundles/ollama-provider-profile/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/bundles/mydsh-profile/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": ".agents/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:54.211Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.111Z",
+  "contentReviewFlags": []
+}

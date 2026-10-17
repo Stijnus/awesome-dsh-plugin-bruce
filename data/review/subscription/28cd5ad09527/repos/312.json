@@ -1,0 +1,87 @@
+{
+  "full_name": "summer1238/dsh-remote-web-gateway",
+  "originalPosition": 156,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-remote-web-gateway"
+  ],
+  "manualNote": null,
+  "ordinal": 312,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:01.646Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d57bb41ba9126bf09a9247af01959bdc74bfcafe3840d3ecaaa0d66034328d60",
+      "url": "https://github.com/summer1238/dsh-remote-web-gateway/blob/5b2db966a6efec024bd7dd19a152691311ebb124/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote-web-gateway",
+          "command": "dsh plugin --profile web add dsh-remote-web-gateway",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "a8af305e2df8aadd5f6ebd66e6e660c1978da341b759b8cc8e48f6f5f3834247",
+      "url": "https://github.com/summer1238/dsh-remote-web-gateway/blob/5b2db966a6efec024bd7dd19a152691311ebb124/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote-web-gateway",
+          "command": "dsh plugin --profile web add dsh-remote-web-gateway",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote-web-gateway",
+      "version": "0.2.2",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/summer1238/dsh-remote-web-gateway",
+        "commit": "5b2db966a6efec024bd7dd19a152691311ebb124",
+        "path": "plugin"
+      },
+      "manifestSha256": "2d0a296fcc6a26733266e2afa7928b495139b393cdf21ad4af657074ef28b617",
+      "manifestUrl": "https://github.com/summer1238/dsh-remote-web-gateway/blob/5b2db966a6efec024bd7dd19a152691311ebb124/plugin/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-remote-web-gateway",
+      "origin": "npm",
+      "name": "dsh-remote-web-gateway",
+      "version": "0.2.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "480918e81aa73d2f99f6c162885825559e51b54eb89d90b68796dda75cbb8def"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/summer1238/dsh-remote-web-gateway",
+    "commit": "5b2db966a6efec024bd7dd19a152691311ebb124",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:14.717Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:13.410Z",
+  "contentReviewFlags": []
+}

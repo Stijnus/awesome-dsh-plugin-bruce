@@ -1,0 +1,200 @@
+{
+  "full_name": "Player-MINEPIG/dsh-tavern",
+  "originalPosition": 90,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Player-MINEPIG/dsh-tavern#v2.4.3"
+  ],
+  "manualNote": null,
+  "ordinal": 256,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:57.356Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "44b4b1bb48152216d1925197fc62ec18ee6f9a42c4f4ecfd9585424ac95f18b3",
+      "url": "https://github.com/Player-MINEPIG/dsh-tavern/blob/31d8c42a1d2b24dd23c9cd11f9c9f0079dffbf64/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Player-MINEPIG/dsh-memory-manager#v1.0.0",
+          "command": "dsh plugin --profile web add github:Player-MINEPIG/dsh-memory-manager#v1.0.0",
+          "profile": "web"
+        },
+        {
+          "install": "pmp-dsh-tavern@3.0.4",
+          "command": "dsh plugin --profile web add pmp-dsh-tavern@3.0.4",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_en.md",
+      "url": "https://github.com/Player-MINEPIG/dsh-tavern/blob/31d8c42a1d2b24dd23c9cd11f9c9f0079dffbf64/README_en.md",
+      "sha256": "70fc8e915a0b51e8d3c160893935b0c2195fc8e34af3ab287c523f6f1c44cda2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Player-MINEPIG/dsh-memory-manager#v1.0.0",
+          "command": "dsh plugin --profile web add github:Player-MINEPIG/dsh-memory-manager#v1.0.0",
+          "profile": "web"
+        },
+        {
+          "install": "pmp-dsh-tavern@3.0.4",
+          "command": "dsh plugin --profile web add pmp-dsh-tavern@3.0.4",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/assets/market/README.md",
+      "url": "https://github.com/Player-MINEPIG/dsh-tavern/blob/31d8c42a1d2b24dd23c9cd11f9c9f0079dffbf64/docs/assets/market/README.md",
+      "sha256": "bfc0c590c42f1a4b17288fa608fb1ca902407be44aac46a5c445fa76010ca3b2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "pmp-dsh-tavern",
+      "version": "3.0.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Player-MINEPIG/dsh-tavern",
+        "commit": "31d8c42a1d2b24dd23c9cd11f9c9f0079dffbf64"
+      },
+      "manifestSha256": "643bf2cefc0a12fdfd6cfa049ec14061dfd6675fe54b22f450d8cd32daddb1fa",
+      "manifestUrl": "https://github.com/Player-MINEPIG/dsh-tavern/blob/31d8c42a1d2b24dd23c9cd11f9c9f0079dffbf64/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "pmp-dsh-tavern",
+        "versions": [
+          {
+            "version": "3.0.4",
+            "publishTimestamp": 1792249727,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Player-MINEPIG/dsh-tavern",
+              "commit": "31d8c42a1d2b24dd23c9cd11f9c9f0079dffbf64"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Player-MINEPIG/dsh-tavern#v2.4.3",
+      "origin": "git_target",
+      "path": "",
+      "commit": "85b494e86b891571f707188a082863554a3766f4",
+      "name": "pmp-dsh-tavern",
+      "version": "2.4.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/Player-MINEPIG/dsh-memory-manager#v1.0.0",
+      "origin": "git_target",
+      "path": "",
+      "commit": "d8fe9cfea344f972d34fd9a7e8eb2fd28acf8831",
+      "name": "dsh-memory-manager",
+      "version": "1.0.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "pmp-dsh-tavern",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "pmp-dsh-tavern",
+        "title": "pmp-dsh-tavern",
+        "description": "A SillyTavern compatibility plugin that keeps DSH authoritative over sessions and execution, with frontend and backend APIs for composing Tavern capabilities with native DSH features.",
+        "repository": {
+          "url": "https://github.com/Player-MINEPIG/dsh-tavern"
+        },
+        "versions": [
+          {
+            "version": "3.0.4",
+            "publishTimestamp": 1792251323,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "name": "pmp-dsh-tavern",
+          "version": "3.0.4",
+          "tarball": "https://registry.npmjs.org/pmp-dsh-tavern/-/pmp-dsh-tavern-3.0.4.tgz",
+          "integrity": "sha512-eJWcVApI4zBetF44GR55HEupWwbcj+3RD2WHn0x20JG0cNDYefmb18uqQBLgj5hvMwVaVhhBDIhRHbC8krXSFg=="
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Player-MINEPIG/dsh-tavern#v2.4.3",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Player-MINEPIG/dsh-memory-manager#v1.0.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "pmp-dsh-tavern@3.0.4",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Player-MINEPIG/dsh-tavern",
+    "commit": "31d8c42a1d2b24dd23c9cd11f9c9f0079dffbf64",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:02:17.817Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README_en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/assets/market/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README_en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/assets/market/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:57.836Z",
+  "coverageReviewedAt": "2026-10-17T17:12:31.718Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,158 @@
+{
+  "full_name": "Flyvhidbwo/dsh-vision-proxy",
+  "originalPosition": 443,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-vision-proxy"
+  ],
+  "manualNote": null,
+  "ordinal": 514,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:35.486Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "673f5606a7aac550f929182d886d2c838d1b0a631d5351eae73a59bfc4a6e8b6",
+      "url": "https://github.com/Flyvhidbwo/dsh-vision-proxy/blob/d4ac2622e8eb0d9f0121d99466c7946f1567fbf8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vision-proxy",
+          "command": "dsh plugin --profile web add dsh-vision-proxy",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en-US.md",
+      "url": "https://github.com/Flyvhidbwo/dsh-vision-proxy/blob/d4ac2622e8eb0d9f0121d99466c7946f1567fbf8/README.en-US.md",
+      "sha256": "4bf253b0b1c6da45e53fee44ad78c143c2737d8d2b09b5c6fda98b0a288302c2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vision-proxy",
+          "command": "dsh plugin --profile web add dsh-vision-proxy",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vision-proxy",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Flyvhidbwo/dsh-vision-proxy",
+        "commit": "d4ac2622e8eb0d9f0121d99466c7946f1567fbf8"
+      },
+      "manifestSha256": "ab835f1619d0ef1d01f07cf8e570ef639005bb153fbc94b40ecced8a95a9a890",
+      "manifestUrl": "https://github.com/Flyvhidbwo/dsh-vision-proxy/blob/d4ac2622e8eb0d9f0121d99466c7946f1567fbf8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-vision-proxy",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1787725894,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Flyvhidbwo/dsh-vision-proxy",
+              "commit": "d4ac2622e8eb0d9f0121d99466c7946f1567fbf8"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-vision-proxy",
+      "origin": "npm",
+      "name": "dsh-vision-proxy",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-vision-proxy",
+        "title": "dsh-vision-proxy",
+        "description": "DeepSeek brain + automatic image transcription for DeepSeek Harness: a deepseek-vision provider route that transcribes attached images to text before delegating to the text-only DeepSeek adapter. Official deepseek-v4-flash-vision-exp by default (a pure-text V4-Pro brain can see images), any OpenAI-compatible VLM or local Ollama as alternatives, never hangs.",
+        "author": "Flyvhidbwo",
+        "homepage": "https://github.com/Flyvhidbwo/dsh-vision-proxy#readme",
+        "repository": {
+          "url": "https://github.com/Flyvhidbwo/dsh-vision-proxy"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "plugin",
+            "vision",
+            "multimodal",
+            "image",
+            "image-understanding",
+            "ocr",
+            "vlm",
+            "qwen",
+            "dashscope"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1787413781,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "212609e03eb805f70de4e21197696a50468d67683aa41fdb2a66e935ec319d57",
+      "evidence": [
+        {
+          "name": "dsh-vision-proxy",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-vision-proxy/-/dsh-vision-proxy-0.4.1.tgz",
+          "integrity": "sha512-Cky0hONygDEAFxL6Fvi4UA8iF0Kd8SQyOCg+6ZtmuahyL0eyV8jw5Wr2lCipVOgkvsQQLaPM+wk+Emt8Lnyuug=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Flyvhidbwo/dsh-vision-proxy",
+    "commit": "d4ac2622e8eb0d9f0121d99466c7946f1567fbf8",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:03:47.502Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en-US.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en-US.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:12.134Z",
+  "coverageReviewedAt": "2026-10-17T17:12:30.179Z",
+  "contentReviewFlags": []
+}

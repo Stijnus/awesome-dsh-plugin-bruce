@@ -1,0 +1,72 @@
+{
+  "full_name": "HuanLinOTO/dsh-plugin-mineru",
+  "originalPosition": 233,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@huanlin/dsh-plugin-mineru"
+  ],
+  "manualNote": null,
+  "ordinal": 365,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:27.018Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c478b9ecb4c3c5ce36747a75309583460d917ff36144e44e66839fc79db19e4a",
+      "url": "https://github.com/HuanLinOTO/dsh-plugin-mineru/blob/b302e2aa5fa5badf2ee622f9c179384a196860ab/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@huanlin/dsh-plugin-mineru",
+          "command": "dsh plugin --profile web add @huanlin/dsh-plugin-mineru",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huanlin/dsh-plugin-mineru",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuanLinOTO/dsh-plugin-mineru",
+        "commit": "b302e2aa5fa5badf2ee622f9c179384a196860ab"
+      },
+      "manifestSha256": "d50a08a2933f1f6df2af60e4c31952136d7e5a2c58f6b6ee8a3f71f7da766a28",
+      "manifestUrl": "https://github.com/HuanLinOTO/dsh-plugin-mineru/blob/b302e2aa5fa5badf2ee622f9c179384a196860ab/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@huanlin/dsh-plugin-mineru",
+      "origin": "npm",
+      "name": "@huanlin/dsh-plugin-mineru",
+      "version": "0.4.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "87292d6279b394883857efdd3baeee873ea307de0c1a396fa4935246ccdad77c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HuanLinOTO/dsh-plugin-mineru",
+    "commit": "b302e2aa5fa5badf2ee622f9c179384a196860ab",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:35.575Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:17.606Z",
+  "contentReviewFlags": []
+}

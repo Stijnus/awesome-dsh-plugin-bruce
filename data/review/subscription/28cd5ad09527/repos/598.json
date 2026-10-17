@@ -1,0 +1,61 @@
+{
+  "full_name": "dhicoc/dsh-chinese-traditional-wisdom-skill",
+  "originalPosition": 598,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill"
+  ],
+  "manualNote": null,
+  "ordinal": 598,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:06:02.090Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "02dc6144a52046666f70461253eda07d4336d7d119a748fb68f9c0ed8f4da8c6",
+      "url": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill/blob/0e0804ff96f0b3021147b5d52f45f77c2d8eb33b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
+          "command": "dsh plugin add github:dhicoc/dsh-chinese-traditional-wisdom-skill",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dhicoc/dsh-chinese-traditional-wisdom-skill",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
+        "commit": "0e0804ff96f0b3021147b5d52f45f77c2d8eb33b"
+      },
+      "manifestSha256": "a68aa10809b4094e4895eaad2567aa938abb258d87cf4bb2c87b1c9e72884aec",
+      "manifestUrl": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill/blob/0e0804ff96f0b3021147b5d52f45f77c2d8eb33b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
+    "commit": "0e0804ff96f0b3021147b5d52f45f77c2d8eb33b",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:09.943Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:33.319Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,107 @@
+{
+  "full_name": "fandc520/dsh-comfyui",
+  "originalPosition": 238,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-comfyui",
+    "dsh-comfyui"
+  ],
+  "manualNote": null,
+  "ordinal": 368,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:35.577Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e66e2eca804ed3492576a1affea203cd2199cd5fa8725bdb9ac74fe2a00fe2e8",
+      "url": "https://github.com/fandc520/dsh-comfyui/blob/3440ad6787f5de4b76925a7f3766388d96786380/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-comfyui",
+          "command": "dsh plugin --profile web add dsh-comfyui",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-comfyui",
+          "command": "dsh plugin --profile desktop add dsh-comfyui",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/fandc520/dsh-comfyui/blob/3440ad6787f5de4b76925a7f3766388d96786380/README.en.md",
+      "sha256": "763b28927c1b6adff2da1cbdffd373bc71db2c914c08c960b0ebdb6049155fdd",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-comfyui",
+          "command": "dsh plugin --profile web add dsh-comfyui",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-comfyui",
+          "command": "dsh plugin --profile desktop add dsh-comfyui",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-comfyui",
+      "version": "0.5.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fandc520/dsh-comfyui",
+        "commit": "3440ad6787f5de4b76925a7f3766388d96786380"
+      },
+      "manifestSha256": "e0a9ead9e01937e025662617d7274287fb08fb367abdd4ab09a3ce7ad5b9fc22",
+      "manifestUrl": "https://github.com/fandc520/dsh-comfyui/blob/3440ad6787f5de4b76925a7f3766388d96786380/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-comfyui",
+      "origin": "npm",
+      "name": "dsh-comfyui",
+      "version": "0.5.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "adfde84b02011fd166e0b6c997fd3fb3aa18ecdb05230293c3b4e22c4eaeed17"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fandc520/dsh-comfyui",
+    "commit": "3440ad6787f5de4b76925a7f3766388d96786380",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:44.142Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:04.709Z",
+  "coverageReviewedAt": "2026-10-17T17:12:17.839Z",
+  "contentReviewFlags": []
+}

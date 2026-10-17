@@ -1,0 +1,168 @@
+{
+  "full_name": "ChongCyrus/Vibe-Mathematics",
+  "originalPosition": 257,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/ChongCyrus/Vibe-Mathematics#afe629e6a4e005bb61fc9fda8743846f5411971c"
+  ],
+  "manualNote": null,
+  "ordinal": 381,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:02.641Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9f154f75f5264e790f9299227ab02d9e85953f64335b020de3e418c31f047563",
+      "url": "https://github.com/ChongCyrus/Vibe-Mathematics/blob/afe629e6a4e005bb61fc9fda8743846f5411971c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/ChongCyrus/Vibe-Mathematics",
+          "command": "dsh plugin --profile <你的 profile> add github:ChongCyrus/Vibe-Mathematics",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/ChongCyrus/Vibe-Mathematics/blob/afe629e6a4e005bb61fc9fda8743846f5411971c/README.en.md",
+      "sha256": "6470065498506a10ba9a427e5dc2376f5d6154096b8e2726fc820ebf5da19712",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/ChongCyrus/Vibe-Mathematics",
+          "command": "dsh plugin --profile <your profile> add github:ChongCyrus/Vibe-Mathematics",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vibe-math",
+      "version": "2.8.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ChongCyrus/Vibe-Mathematics",
+        "commit": "afe629e6a4e005bb61fc9fda8743846f5411971c"
+      },
+      "manifestSha256": "91a37950dd55db06d8fc51ef26812a7dfb2d0157a1a6f7fb2da85f3b5c3a6201",
+      "manifestUrl": "https://github.com/ChongCyrus/Vibe-Mathematics/blob/afe629e6a4e005bb61fc9fda8743846f5411971c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.4 <0.1.3-0 || >=0.1.3-alpha.2 <0.1.5-0 || >=0.1.5-alpha.1 <0.1.6-0 || >=0.1.6-alpha.1 <0.1.7-0 || >=0.1.7-alpha.1 <0.2.0-0 || >=0.2.0-alpha.1 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-vibe-math",
+        "versions": [
+          {
+            "version": "2.8.5",
+            "publishTimestamp": 1792235158,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ChongCyrus/Vibe-Mathematics",
+              "commit": "afe629e6a4e005bb61fc9fda8743846f5411971c"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.4 <0.1.3-0 || >=0.1.3-alpha.2 <0.1.5-0 || >=0.1.5-alpha.1 <0.1.6-0 || >=0.1.6-alpha.1 <0.1.7-0 || >=0.1.7-alpha.1 <0.2.0-0 || >=0.2.0-alpha.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/ChongCyrus/Vibe-Mathematics#afe629e6a4e005bb61fc9fda8743846f5411971c",
+      "origin": "git_target",
+      "name": "dsh-vibe-math",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-vibe-math",
+        "title": "dsh-vibe-math",
+        "description": "Multi-agent mathematical problem-solving & verification frameworks for DeepSeek Harness — FOUR agent presets in one install: vibe-math-v2 (probability-driven, classic: qs.json + Propos knowledge base + explorer→solver→review/debate verdict), vibe-math-v3 (THIRD-generation, classic: paper-style Markdown knowledge base with Problems/Progress/Propos/Methods/Verified + planner-agent scheduling that decides the next N actions + universal theory/method invention library + agents write their own Markdown directly via a per-file write lock), and vibe-math-v4 (FOURTH-generation: persistent self-organizing resident subagents that message & meet to decide all tasks, verify only by unanimous consensus, /compact at a context threshold, and stop only when all agree the problem is solved), and vibe-math-v5 (FIFTH-generation research institute: an academician as the organizational centre who decomposes and ASSIGNS work and chairs meetings; permanent researchers who hold the vote and may hire/fire their own temp workers; temp workers with no vote; a group chat and meetings; a durable per-recipient mailbox; a compare-and-set task DAG; and a boolean m-vote consensus rule where an object enters Verified/ only when at least m voting members agree AND every one of them returns exactly 1 or exactly 0). Installing this bundle auto-installs all four presets (v1 was removed at v2.0.0). Each preset also writes a FINAL PAPER by default when its run concludes — and does so BEFORE the run is marked complete: on v4/v5 the team co-authors its parts, merges them, cross-reviews, and the editor named by paperEditor finalises; the output is Paper/<run or institute id>/{paper.md,paper.tex,paper.pdf when a LaTeX engine is detected,paper.meta.json,paper.log.md} (params finalPaper/paperFormat/paperLanguage/paperCompilePdf/paperLatexCommand, plus paperEditor on v4/v5; see docs/final-paper.md).",
+        "homepage": "https://github.com/ChongCyrus/Vibe-Mathematics#readme",
+        "repository": {
+          "url": "https://github.com/ChongCyrus/Vibe-Mathematics"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "agent-preset",
+            "multi-agent",
+            "mathematics",
+            "math",
+            "theorem-proving",
+            "verification",
+            "solver",
+            "llm-agents"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.8.5",
+            "publishTimestamp": 1792235158,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ChongCyrus/Vibe-Mathematics",
+              "commit": "afe629e6a4e005bb61fc9fda8743846f5411971c"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.4 <0.1.3-0 || >=0.1.3-alpha.2 <0.1.5-0 || >=0.1.5-alpha.1 <0.1.6-0 || >=0.1.6-alpha.1 <0.1.7-0 || >=0.1.7-alpha.1 <0.2.0-0 || >=0.2.0-alpha.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "afe629e6a4e005bb61fc9fda8743846f5411971c",
+          "name": "dsh-vibe-math",
+          "version": "2.8.5",
+          "url": "https://github.com/ChongCyrus/Vibe-Mathematics",
+          "manifestSha256": "91a37950dd55db06d8fc51ef26812a7dfb2d0157a1a6f7fb2da85f3b5c3a6201",
+          "publishTimestamp": 1792235158
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/ChongCyrus/Vibe-Mathematics#afe629e6a4e005bb61fc9fda8743846f5411971c",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ChongCyrus/Vibe-Mathematics",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ChongCyrus/Vibe-Mathematics",
+    "commit": "afe629e6a4e005bb61fc9fda8743846f5411971c",
+    "releaseTags": 80,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:07:17.922Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:06.563Z",
+  "coverageReviewedAt": "2026-10-17T17:12:19.819Z",
+  "contentReviewFlags": []
+}

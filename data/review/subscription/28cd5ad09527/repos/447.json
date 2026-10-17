@@ -1,0 +1,86 @@
+{
+  "full_name": "polaris-smart/dsh-devices",
+  "originalPosition": 354,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-devices"
+  ],
+  "manualNote": null,
+  "ordinal": 447,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:35.257Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6cdd1b24784c5f6fd1c96f3fcec298936d75095b8dc155f847d15460466481b4",
+      "url": "https://github.com/polaris-smart/dsh-devices/blob/bb8b550ee224b3f79bb7949eeb44dc0292583542/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-devices",
+          "command": "dsh plugin add dsh-devices",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "146e8393f0aae2762d089eff8794999de3295eb8fa8f4fae587497226d912a98",
+      "url": "https://github.com/polaris-smart/dsh-devices/blob/bb8b550ee224b3f79bb7949eeb44dc0292583542/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-devices",
+          "command": "dsh plugin add dsh-devices",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-devices",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/polaris-smart/dsh-devices",
+        "commit": "bb8b550ee224b3f79bb7949eeb44dc0292583542"
+      },
+      "manifestSha256": "f12ef623751dfa8fb137369619946c591961169e7d624cf8a2b6424152913da9",
+      "manifestUrl": "https://github.com/polaris-smart/dsh-devices/blob/bb8b550ee224b3f79bb7949eeb44dc0292583542/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-devices",
+      "origin": "npm",
+      "name": "dsh-devices",
+      "version": "0.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "06efa0cddc14029b1c34f0fe357936b225b68857cf76fd0c10aa95fe953910aa"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/polaris-smart/dsh-devices",
+    "commit": "bb8b550ee224b3f79bb7949eeb44dc0292583542",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:45.005Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:24.422Z",
+  "contentReviewFlags": []
+}

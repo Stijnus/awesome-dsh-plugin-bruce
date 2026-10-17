@@ -1,0 +1,105 @@
+{
+  "full_name": "WSL043/dsh-codex-subscription",
+  "originalPosition": 93,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-codex-subscription",
+    "dsh-codex-subscription"
+  ],
+  "manualNote": null,
+  "ordinal": 259,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:04.536Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "922b30d1a710ea6c4eafd4a3f065ad5822821a8ded829751298cea76991967b0",
+      "url": "https://github.com/WSL043/dsh-codex-subscription/blob/815b1c09b2464dd7b21ff30ff8545216af43d151/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-subscription@3.0.1",
+          "command": "dsh plugin --profile web add dsh-codex-subscription@3.0.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-codex-subscription@3.0.1",
+          "command": "dsh plugin --profile headless add dsh-codex-subscription@3.0.1",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-subscription",
+      "version": "3.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WSL043/dsh-codex-subscription",
+        "commit": "815b1c09b2464dd7b21ff30ff8545216af43d151"
+      },
+      "manifestSha256": "8ecd1ba1d978b77d1c7fc734d52904eb1d083e7047c6882745d666ac59752f82",
+      "manifestUrl": "https://github.com/WSL043/dsh-codex-subscription/blob/815b1c09b2464dd7b21ff30ff8545216af43d151/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-codex-subscription",
+      "origin": "npm",
+      "name": "dsh-codex-subscription",
+      "version": "3.0.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "7eee53b078c9dfe801eecf85273a04163b1da7550932b9e27f013a7f20c56f52"
+    },
+    {
+      "target": "dsh-codex-subscription@3.0.1",
+      "origin": "npm",
+      "name": "dsh-codex-subscription",
+      "version": "3.0.1",
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "7eee53b078c9dfe801eecf85273a04163b1da7550932b9e27f013a7f20c56f52"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-codex-subscription",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-codex-subscription",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-subscription@3.0.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WSL043/dsh-codex-subscription",
+    "commit": "815b1c09b2464dd7b21ff30ff8545216af43d151",
+    "releaseTags": 115,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:16.893Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.841Z",
+  "contentReviewFlags": []
+}

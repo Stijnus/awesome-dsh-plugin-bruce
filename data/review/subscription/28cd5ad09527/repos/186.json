@@ -1,0 +1,150 @@
+{
+  "full_name": "yjh051108/dsh-routing-suite",
+  "originalPosition": 1,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/yjh051108/dsh-routing-suite"
+  ],
+  "manualNote": null,
+  "ordinal": 186,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:57.202Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "02664fcf0e9b314a4911b8443e55095848e02702fb99fa969d8b3f3232627c83",
+      "url": "https://github.com/yjh051108/dsh-routing-suite/blob/195273352f23bff7f9023ebe2ec0cdbdf9c98f10/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yjh051108/dsh-routing-suite",
+          "command": "dsh plugin --profile web add github:yjh051108/dsh-routing-suite",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/yjh051108/dsh-routing-suite/blob/195273352f23bff7f9023ebe2ec0cdbdf9c98f10/README.en.md",
+      "sha256": "8493bf5556a84a358c3c80595af9f060f2057c72f145c63706265c0f663d134e",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "injector/README.md",
+      "url": "https://github.com/yjh051108/dsh-routing-suite/blob/195273352f23bff7f9023ebe2ec0cdbdf9c98f10/injector/README.md",
+      "sha256": "f29df75d0674ed8d3e5c81cb59fa731df3245b966eaa1729fb10ce5b673865be",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yjh051108/dsh-super-injector",
+          "command": "dsh plugin --profile web add github:yjh051108/dsh-super-injector",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "preset/README.md",
+      "url": "https://github.com/yjh051108/dsh-routing-suite/blob/195273352f23bff7f9023ebe2ec0cdbdf9c98f10/preset/README.md",
+      "sha256": "9c29a6f77684b47fb37bf713eb4f8ac2b080efd3ba2e742f02490920337995e8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "graded/README.md",
+      "url": "https://github.com/yjh051108/dsh-routing-suite/blob/195273352f23bff7f9023ebe2ec0cdbdf9c98f10/graded/README.md",
+      "sha256": "6f338def9fde4f2932b3b8da5605d870ee14473b503f871cfb95da81222ca025",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-super-injector",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yjh051108/dsh-routing-suite",
+        "commit": "195273352f23bff7f9023ebe2ec0cdbdf9c98f10"
+      },
+      "manifestSha256": "aff0ae195f897f80e6912d7e246b8fdbcfcbbc73d0740ab5ac8663687a8eeab7",
+      "manifestUrl": "https://github.com/yjh051108/dsh-routing-suite/blob/195273352f23bff7f9023ebe2ec0cdbdf9c98f10/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "target": "https://github.com/yjh051108/dsh-super-injector",
+      "path": "",
+      "commit": "e2fca6e2dc5d926bb33fbd1376780bb5e93f4974",
+      "name": "@dsh-external/dsh-super-injector",
+      "version": "0.3.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yjh051108/dsh-super-injector",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yjh051108/dsh-routing-suite",
+    "commit": "195273352f23bff7f9023ebe2ec0cdbdf9c98f10",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:05.981Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "injector/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "preset/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "graded/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "injector/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "preset/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "graded/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:01.050Z",
+  "coverageReviewedAt": "2026-10-17T17:12:08.397Z",
+  "contentReviewFlags": []
+}

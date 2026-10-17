@@ -1,0 +1,86 @@
+{
+  "full_name": "ZSeven-W/dsh-noema",
+  "originalPosition": 107,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@zseven-w/dsh-noema@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 270,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:25.933Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "375dd3d3ff4d5ba0626cb8e783ba8d9c2299f2ea007b26628b24bec3d44512d9",
+      "url": "https://github.com/ZSeven-W/dsh-noema/blob/07d2fece531d11dbd5c420c5d44eaea12e6a9d7a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-noema@latest",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-noema@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "4a5e1dede5a7bc6d433968aff744ee0afd35549876ea40768f2b7162aa5d5fb1",
+      "url": "https://github.com/ZSeven-W/dsh-noema/blob/07d2fece531d11dbd5c420c5d44eaea12e6a9d7a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-noema@latest",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-noema@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zseven-w/dsh-noema",
+      "version": "0.1.0-rc.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZSeven-W/dsh-noema",
+        "commit": "07d2fece531d11dbd5c420c5d44eaea12e6a9d7a"
+      },
+      "manifestSha256": "78869ea4428e3fbb3fe5ec76fe978d8d86520d7c74c79df8a7e1460313e8c157",
+      "manifestUrl": "https://github.com/ZSeven-W/dsh-noema/blob/07d2fece531d11dbd5c420c5d44eaea12e6a9d7a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zseven-w/dsh-noema@latest",
+      "origin": "npm",
+      "name": "@zseven-w/dsh-noema",
+      "version": "0.1.0-rc.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "71426f5b62553821c859c9301ea326a077b3df4cdc23ade12eccb7c7d18d9618"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZSeven-W/dsh-noema",
+    "commit": "07d2fece531d11dbd5c420c5d44eaea12e6a9d7a",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:34.849Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:11.364Z",
+  "contentReviewFlags": []
+}

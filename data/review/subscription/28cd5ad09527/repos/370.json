@@ -1,0 +1,112 @@
+{
+  "full_name": "huiliyi37/dsh-tianshu-tui",
+  "originalPosition": 242,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@huiliyi37/dsh-tianshu-tui",
+    "https://github.com/huiliyi37/dsh-tianshu-tui"
+  ],
+  "manualNote": null,
+  "ordinal": 370,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:40.631Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e608e20e047e0934c732208b0345c2743a36fe345d832baf58cd31d204698cda",
+      "url": "https://github.com/huiliyi37/dsh-tianshu-tui/blob/229c2b336fd7b44e125a9eeb19b72f82ed9f6e17/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/huiliyi37/dsh-tianshu-tui/blob/229c2b336fd7b44e125a9eeb19b72f82ed9f6e17/README.en.md",
+      "sha256": "3eea4df21805f9e695c496696e8e0e039ded874d995063d1097ebf2cd5981bbe",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "vision-ask/README.md",
+      "url": "https://github.com/huiliyi37/dsh-tianshu-tui/blob/229c2b336fd7b44e125a9eeb19b72f82ed9f6e17/vision-ask/README.md",
+      "sha256": "207e475859544ea3215ef9137d993398772dfa89f8a8da83274f12e2784c510d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huiliyi37/dsh-tianshu-tui",
+      "version": "1.0.0-rc.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huiliyi37/dsh-tianshu-tui",
+        "commit": "229c2b336fd7b44e125a9eeb19b72f82ed9f6e17"
+      },
+      "manifestSha256": "f8e6a2cc44688d62ac05edb3a6af8db62a8dd7d6d5da9da0795fb483a59b94ba",
+      "manifestUrl": "https://github.com/huiliyi37/dsh-tianshu-tui/blob/229c2b336fd7b44e125a9eeb19b72f82ed9f6e17/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@huiliyi37/dsh-tianshu-tui",
+      "origin": "npm",
+      "name": "@huiliyi37/dsh-tianshu-tui",
+      "version": "1.0.0-rc.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "e67ab3bee504dd534884d01a7e0ab242f3f48d3e0625f84c370aeedadf5c6d8c"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@huiliyi37/dsh-tianshu-tui",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/huiliyi37/dsh-tianshu-tui",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huiliyi37/dsh-tianshu-tui",
+    "commit": "229c2b336fd7b44e125a9eeb19b72f82ed9f6e17",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:49.391Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "vision-ask/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "vision-ask/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:05.700Z",
+  "coverageReviewedAt": "2026-10-17T17:12:18.345Z",
+  "contentReviewFlags": []
+}

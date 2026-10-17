@@ -1,0 +1,73 @@
+{
+  "full_name": "starsstreaming/beautiCode",
+  "originalPosition": 522,
+  "inputMode": "command",
+  "mappedTargets": [
+    "beauticode-dsh"
+  ],
+  "manualNote": null,
+  "ordinal": 562,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:59.810Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "24fb9ed9ecd699c338872cb8bff46ffcc68ba3cfb27064042f20461b357d24f4",
+      "url": "https://github.com/starsstreaming/beautiCode/blob/35730da179021eaaa1f6f9f3094bb5fefb536cce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "beauticode-dsh",
+      "version": "1.0.28",
+      "path": "integrations/deepseek-harness",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/starsstreaming/beautiCode",
+        "commit": "35730da179021eaaa1f6f9f3094bb5fefb536cce",
+        "path": "integrations/deepseek-harness"
+      },
+      "manifestSha256": "3888d911138f8b7f57323455e12e1d01c78d36cffca290cbf8adcfd8d1e992f3",
+      "manifestUrl": "https://github.com/starsstreaming/beautiCode/blob/35730da179021eaaa1f6f9f3094bb5fefb536cce/integrations/deepseek-harness/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "beauticode-dsh",
+      "origin": "npm",
+      "name": "beauticode-dsh",
+      "version": "1.0.30",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ab637267a82656956898fca5b447bb2fd8d9618f34a0614d94411cc7da2dfcbd"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "beauticode-dsh",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/starsstreaming/beautiCode",
+    "commit": "35730da179021eaaa1f6f9f3094bb5fefb536cce",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:24.448Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.019Z",
+  "contentReviewFlags": []
+}

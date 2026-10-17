@@ -1,0 +1,114 @@
+{
+  "full_name": "hanshenmesen/dsh-turn-delete",
+  "originalPosition": 298,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-turn-delete",
+    "https://github.com/hanshenmesen/dsh-turn-delete",
+    "https://github.com/hanshenmesen/dsh-turn-delete/releases/latest/download/dsh-turn-delete.tgz"
+  ],
+  "manualNote": null,
+  "ordinal": 408,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:30.467Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "50f1b127c400215c5ea6e219d29ed9eebe46b11846caf2e81925f7e026f8e05c",
+      "url": "https://github.com/hanshenmesen/dsh-turn-delete/blob/4716bcbdee27b110ceea9df21f027c6dfe5888b8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-turn-delete",
+          "command": "dsh plugin --profile web add dsh-turn-delete",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hanshenmesen/dsh-turn-delete",
+          "command": "dsh plugin --profile web add github:hanshenmesen/dsh-turn-delete",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hanshenmesen/dsh-turn-delete/releases/latest/download/dsh-turn-delete.tgz",
+          "command": "dsh plugin --profile web add https://github.com/hanshenmesen/dsh-turn-delete/releases/latest/download/dsh-turn-delete.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ba2fc4a84861859d0b74580f3a5e5f7b1f762d85afb7b76f53ac59dcbf47a560",
+      "url": "https://github.com/hanshenmesen/dsh-turn-delete/blob/4716bcbdee27b110ceea9df21f027c6dfe5888b8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-turn-delete",
+          "command": "dsh plugin --profile web add dsh-turn-delete",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hanshenmesen/dsh-turn-delete",
+          "command": "dsh plugin --profile web add github:hanshenmesen/dsh-turn-delete",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hanshenmesen/dsh-turn-delete/releases/latest/download/dsh-turn-delete.tgz",
+          "command": "dsh plugin --profile web add https://github.com/hanshenmesen/dsh-turn-delete/releases/latest/download/dsh-turn-delete.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-turn-delete",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hanshenmesen/dsh-turn-delete",
+        "commit": "4716bcbdee27b110ceea9df21f027c6dfe5888b8"
+      },
+      "manifestSha256": "0d8523023862c294cc283ce18e14a00a42999ca970c0237a6f6bdae21e0e8746",
+      "manifestUrl": "https://github.com/hanshenmesen/dsh-turn-delete/blob/4716bcbdee27b110ceea9df21f027c6dfe5888b8/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-turn-delete",
+      "origin": "npm",
+      "name": "dsh-turn-delete",
+      "version": "0.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "08f88544d45c046a8ac644f14d7045a6c091fe9c255046e2e9358b2314c4d796"
+    },
+    {
+      "target": "https://github.com/hanshenmesen/dsh-turn-delete/releases/latest/download/dsh-turn-delete.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hanshenmesen/dsh-turn-delete",
+    "commit": "4716bcbdee27b110ceea9df21f027c6dfe5888b8",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:41.117Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:21.091Z",
+  "contentReviewFlags": []
+}

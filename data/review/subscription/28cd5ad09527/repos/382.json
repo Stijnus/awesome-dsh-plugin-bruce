@@ -1,0 +1,164 @@
+{
+  "full_name": "XDTrees/dsh-xdpool",
+  "originalPosition": 258,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-xdpool",
+    "https://github.com/XDTrees/dsh-xdpool"
+  ],
+  "manualNote": null,
+  "ordinal": 382,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:05.975Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "172e00a3abf2d706aed064e06d6c28c7ebfe6069628f04a2f1de26143a233909",
+      "url": "https://github.com/XDTrees/dsh-xdpool/blob/2def4d01509784c7ebc4fe9b5d860f12a398a64f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-xdpool",
+          "command": "dsh plugin --profile desktop add dsh-xdpool",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/XDTrees/dsh-xdpool",
+          "command": "dsh plugin --profile desktop add github:XDTrees/dsh-xdpool",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/XDTrees/dsh-xdpool/blob/2def4d01509784c7ebc4fe9b5d860f12a398a64f/README.en.md",
+      "sha256": "850c18762ab2d6c479fb19394c68f3da082462832fa2834849060b468906c906",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-xdpool",
+          "command": "dsh plugin --profile desktop add dsh-xdpool",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/XDTrees/dsh-xdpool",
+          "command": "dsh plugin --profile desktop add github:XDTrees/dsh-xdpool",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-xdpool",
+      "version": "2.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XDTrees/dsh-xdpool",
+        "commit": "2def4d01509784c7ebc4fe9b5d860f12a398a64f"
+      },
+      "manifestSha256": "99c3cbe87138a25a61280f09b0b9a93fde5dd2cf1db8c6a333f595bc77a2f753",
+      "manifestUrl": "https://github.com/XDTrees/dsh-xdpool/blob/2def4d01509784c7ebc4fe9b5d860f12a398a64f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-xdpool",
+        "versions": [
+          {
+            "version": "2.3.0",
+            "publishTimestamp": 1792247551,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XDTrees/dsh-xdpool",
+              "commit": "2def4d01509784c7ebc4fe9b5d860f12a398a64f"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-xdpool",
+      "origin": "npm",
+      "name": "dsh-xdpool",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-xdpool",
+        "title": "dsh-xdpool",
+        "description": "One DSH model pool for every free quota you have: merge all locally signed-in WorkBuddy accounts with auto-failover, sign in to 13 vendors by QR/web, aggregate 76 vendors' free tiers, plus a usage dashboard, model routing, a local OpenAI-compatible gateway and a points-automation suite.",
+        "author": "XDTrees",
+        "homepage": "https://github.com/XDTrees/dsh-xdpool#readme",
+        "repository": {
+          "url": "https://github.com/XDTrees/dsh-xdpool"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "workbuddy",
+            "codebuddy",
+            "model-provider",
+            "multi-account",
+            "failover"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.3.0",
+            "publishTimestamp": 1792247715,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "036ae48655ab8892f12938d6700f5d7196ed9f91ef3b67d3d34fb5bb501d53f2",
+      "evidence": [
+        {
+          "name": "dsh-xdpool",
+          "version": "2.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-xdpool/-/dsh-xdpool-2.3.0.tgz",
+          "integrity": "sha512-YW8B8WxjEjXqeSur7lXc7GeLbAkNCJwrcSq8wpILFuGLAVxkowm4dDIxPzzYfQ0ZExlzZpOVmpg5dvmImSL5fA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XDTrees/dsh-xdpool",
+    "commit": "2def4d01509784c7ebc4fe9b5d860f12a398a64f",
+    "releaseTags": 42,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:07:19.809Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:06.489Z",
+  "coverageReviewedAt": "2026-10-17T17:12:19.954Z",
+  "contentReviewFlags": []
+}

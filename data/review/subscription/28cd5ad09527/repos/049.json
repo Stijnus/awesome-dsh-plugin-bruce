@@ -1,0 +1,117 @@
+{
+  "full_name": "harrylabsj/kiwi",
+  "originalPosition": 241,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 49,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:27.700Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23754f8a0ecbbec71e3b35dfbe8e48e5709dd7230924631e8339f52284e360e1",
+      "url": "https://github.com/harrylabsj/kiwi/blob/b5ac94a17f0fe730a80ebbc26a7ca35e7218e357/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@harrylabsj/kiwi-dsh-plugin",
+          "command": "dsh plugin --profile web add @harrylabsj/kiwi-dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "integrations/plugins/kiwi-dsh-plugin/README.md",
+      "url": "https://github.com/harrylabsj/kiwi/blob/b5ac94a17f0fe730a80ebbc26a7ca35e7218e357/integrations/plugins/kiwi-dsh-plugin/README.md",
+      "sha256": "b3749ee0de87da26a0ccee9a0a5f0c18cece9bfb7665271c5dbad7b4cffb63bd",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@harrylabsj/kiwi-dsh-plugin",
+          "command": "dsh plugin --profile web add @harrylabsj/kiwi-dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "integrations/hosts/workbuddy/kiwi-sourcing/README.md",
+      "url": "https://github.com/harrylabsj/kiwi/blob/b5ac94a17f0fe730a80ebbc26a7ca35e7218e357/integrations/hosts/workbuddy/kiwi-sourcing/README.md",
+      "sha256": "490479b09410ceeb453c49fdced0d5b1db9e50df766e87d1fb4a6e91aae5aa7f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@harrylabsj/kiwi-dsh-plugin",
+      "version": "0.1.2",
+      "path": "integrations/plugins/kiwi-dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/harrylabsj/kiwi",
+        "commit": "b5ac94a17f0fe730a80ebbc26a7ca35e7218e357",
+        "path": "integrations/plugins/kiwi-dsh-plugin"
+      },
+      "manifestSha256": "ef42e06b91d8b1780494310c4e31efb8b14bad75043af13744c3839cfa5496dd",
+      "manifestUrl": "https://github.com/harrylabsj/kiwi/blob/b5ac94a17f0fe730a80ebbc26a7ca35e7218e357/integrations/plugins/kiwi-dsh-plugin/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@harrylabsj/kiwi-dsh-plugin",
+      "origin": "npm",
+      "name": "@harrylabsj/kiwi-dsh-plugin",
+      "version": "0.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "5d111b51fcc53bc65b93d3ca0211ebc1e9770e9fb97c862dea8ab31eb4e38651"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@harrylabsj/kiwi-dsh-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/harrylabsj/kiwi",
+    "commit": "b5ac94a17f0fe730a80ebbc26a7ca35e7218e357",
+    "releaseTags": 27,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:43.976Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "integrations/plugins/kiwi-dsh-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "integrations/hosts/workbuddy/kiwi-sourcing/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "integrations/plugins/kiwi-dsh-plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "integrations/hosts/workbuddy/kiwi-sourcing/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:50.820Z",
+  "coverageReviewedAt": "2026-10-17T17:12:05.008Z",
+  "contentReviewFlags": []
+}

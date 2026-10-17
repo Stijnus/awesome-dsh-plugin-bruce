@@ -1,0 +1,78 @@
+{
+  "full_name": "Nagi-ovo/dsh-visualize",
+  "originalPosition": 63,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@nagi-ovo/dsh-visualize",
+    "https://github.com/Nagi-ovo/dsh-visualize"
+  ],
+  "manualNote": null,
+  "ordinal": 233,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:15.068Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "49f3c4f333786e47f4c96b16da8e2ffb5d22b52446e2d132391fbd8f0a626675",
+      "url": "https://github.com/Nagi-ovo/dsh-visualize/blob/bb22760689739cfa961c94a5d82ef5f4ce7d17d5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nagi-ovo/dsh-visualize",
+          "command": "dsh plugin --profile web add @nagi-ovo/dsh-visualize",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Nagi-ovo/dsh-visualize",
+          "command": "dsh plugin --profile web add github:Nagi-ovo/dsh-visualize",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@nagi-ovo/dsh-visualize",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nagi-ovo/dsh-visualize",
+        "commit": "bb22760689739cfa961c94a5d82ef5f4ce7d17d5"
+      },
+      "manifestSha256": "1a241eb9dae83d13697fde620100befc9cfdc09e9b900c83b3aedadc031ea973",
+      "manifestUrl": "https://github.com/Nagi-ovo/dsh-visualize/blob/bb22760689739cfa961c94a5d82ef5f4ce7d17d5/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@nagi-ovo/dsh-visualize",
+      "origin": "npm",
+      "name": "@nagi-ovo/dsh-visualize",
+      "version": "0.1.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0f8db3566139e8327be0a9f2f20c0594e0e23b50f92f0cbabb676441b7d7b434"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nagi-ovo/dsh-visualize",
+    "commit": "bb22760689739cfa961c94a5d82ef5f4ce7d17d5",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:26.180Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:09.478Z",
+  "contentReviewFlags": []
+}

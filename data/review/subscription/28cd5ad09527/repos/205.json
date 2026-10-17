@@ -1,0 +1,117 @@
+{
+  "full_name": "HsiangNianian/dsh-auto-continue",
+  "originalPosition": 29,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/HsiangNianian/dsh-auto-continue"
+  ],
+  "manualNote": null,
+  "ordinal": 205,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:18.323Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9a0c1bd3ca8d5ec4df2836c014aff82c47e17ea5bd7a46e8c80de7879d2e9dc7",
+      "url": "https://github.com/HsiangNianian/dsh-auto-continue/blob/d80450805cd1aae425e43586c418217863d8f152/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/HsiangNianian/dsh-auto-continue",
+          "command": "dsh plugin --profile web add github:HsiangNianian/dsh-auto-continue",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-client-auto-continue@latest",
+          "command": "dsh plugin --profile web add dsh-client-auto-continue@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1f78f68768c423f6030ebaefac6ab2e55beaf38da1e0a854339288f3c693d782",
+      "url": "https://github.com/HsiangNianian/dsh-auto-continue/blob/d80450805cd1aae425e43586c418217863d8f152/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/HsiangNianian/dsh-auto-continue",
+          "command": "dsh plugin --profile web add github:HsiangNianian/dsh-auto-continue",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-client-auto-continue@latest",
+          "command": "dsh plugin --profile web add dsh-client-auto-continue@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/screenshots/README.md",
+      "url": "https://github.com/HsiangNianian/dsh-auto-continue/blob/d80450805cd1aae425e43586c418217863d8f152/docs/screenshots/README.md",
+      "sha256": "67b05293e40070a6dc5233ac90206d59ab4cdf4b3f4ff3fe3f0c88b471a78677",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-client-auto-continue",
+      "version": "0.14.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HsiangNianian/dsh-auto-continue",
+        "commit": "d80450805cd1aae425e43586c418217863d8f152"
+      },
+      "manifestSha256": "acdf4478a14b86b6c0c2580a2b7b0d4790bec17b19631b532e1c8880aafb2f29",
+      "manifestUrl": "https://github.com/HsiangNianian/dsh-auto-continue/blob/d80450805cd1aae425e43586c418217863d8f152/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-client-auto-continue",
+      "version": "0.14.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-client-auto-continue@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HsiangNianian/dsh-auto-continue",
+    "commit": "d80450805cd1aae425e43586c418217863d8f152",
+    "releaseTags": 53,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:27.755Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/screenshots/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/screenshots/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:54.557Z",
+  "coverageReviewedAt": "2026-10-17T17:12:09.091Z",
+  "contentReviewFlags": []
+}

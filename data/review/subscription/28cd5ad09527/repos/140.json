@@ -1,0 +1,71 @@
+{
+  "full_name": "aa2246740/dsh-model-fusion",
+  "originalPosition": 558,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:17.451Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a6d9308cd93a1d6d9052a42f7f6aa1c7a8f66539dbfc72ab5e2883f9046009e2",
+      "url": "https://github.com/aa2246740/dsh-model-fusion/blob/1af018f9db834761dde188af638ed1886cb67abd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/aa2246740/dsh-model-fusion/blob/1af018f9db834761dde188af638ed1886cb67abd/README.en.md",
+      "sha256": "2bd3a3ddf6e1e787b402a0e0e268dd6c23df880a541fd85789c11079d954ef27",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-model-fusion",
+      "version": "0.2.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aa2246740/dsh-model-fusion",
+        "commit": "1af018f9db834761dde188af638ed1886cb67abd"
+      },
+      "manifestSha256": "33d39d63fe56b44d71d677a0e6225c9e0e90ebda7c8cb4783d65da3392a8e40d",
+      "manifestUrl": "https://github.com/aa2246740/dsh-model-fusion/blob/1af018f9db834761dde188af638ed1886cb67abd/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aa2246740/dsh-model-fusion",
+    "commit": "1af018f9db834761dde188af638ed1886cb67abd",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:25.861Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:52.469Z",
+  "coverageReviewedAt": "2026-10-17T17:12:06.917Z",
+  "contentReviewFlags": []
+}

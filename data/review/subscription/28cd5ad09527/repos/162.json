@@ -1,0 +1,108 @@
+{
+  "full_name": "Soren-ABT/dsh-knowledge",
+  "originalPosition": 157,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-knowledge」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 162,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:03.068Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6c1e7155b52d07539e3d962423445def024a9a889cba157d24318efe0879918b",
+      "url": "https://github.com/Soren-ABT/dsh-knowledge/blob/4e13e6249c214c2a91766b34ba3492163b3208e0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-knowledge",
+          "command": "dsh plugin --profile <name> add dsh-knowledge",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Soren-ABT/dsh-knowledge/blob/4e13e6249c214c2a91766b34ba3492163b3208e0/README.en.md",
+      "sha256": "16288020c2e8868328d1e62f49b957d072790eece4927f8e072f3117c56158bf",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-knowledge",
+          "command": "dsh plugin --profile <name> add dsh-knowledge",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-knowledge",
+      "version": "0.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Soren-ABT/dsh-knowledge",
+        "commit": "4e13e6249c214c2a91766b34ba3492163b3208e0"
+      },
+      "manifestSha256": "513b3a40cb64babd7eed8387b0f4f4e27c34743e938ec94bdf7398dc5c37815e",
+      "manifestUrl": "https://github.com/Soren-ABT/dsh-knowledge/blob/4e13e6249c214c2a91766b34ba3492163b3208e0/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-knowledge",
+      "origin": "npm",
+      "name": "dsh-knowledge",
+      "version": "0.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "bbd54f16c14d6df2983a840d5d53c710b82dc8ae86f59e0b02ea2fc38f0eaa90"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-knowledge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Soren-ABT/dsh-knowledge",
+    "commit": "4e13e6249c214c2a91766b34ba3492163b3208e0",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:11.182Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:53.197Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.448Z",
+  "contentReviewFlags": []
+}

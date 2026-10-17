@@ -1,0 +1,53 @@
+{
+  "full_name": "ikun666666/dsh-groupchat",
+  "originalPosition": 534,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 130,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:59.222Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "128f01aec9596e1e7be5e0e25995136b6da25dcccc082781e6751e3aa852813b",
+      "url": "https://github.com/ikun666666/dsh-groupchat/blob/d8b1d13c02ad137f8cb2dc883b62ee9344aa234f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-groupchat",
+      "version": "0.6.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ikun666666/dsh-groupchat",
+        "commit": "d8b1d13c02ad137f8cb2dc883b62ee9344aa234f"
+      },
+      "manifestSha256": "e65a5b7b0ef1022bc19a6a35313f8bbffeac62a5ab77cd4e2dd939e772e1d5d9",
+      "manifestUrl": "https://github.com/ikun666666/dsh-groupchat/blob/d8b1d13c02ad137f8cb2dc883b62ee9344aa234f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ikun666666/dsh-groupchat",
+    "commit": "d8b1d13c02ad137f8cb2dc883b62ee9344aa234f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:07.306Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.639Z",
+  "contentReviewFlags": []
+}

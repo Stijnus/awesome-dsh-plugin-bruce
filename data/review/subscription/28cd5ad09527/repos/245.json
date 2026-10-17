@@ -1,0 +1,90 @@
+{
+  "full_name": "saya-ch/dsh-mobile",
+  "originalPosition": 76,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-mobile@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 245,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:38.701Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c196c8e9324eab5ec9b49b85ed1eec125686b7a65e6c5b3ce476a3156d8c7877",
+      "url": "https://github.com/saya-ch/dsh-mobile/blob/d7a91cfa19131979bf535a4e3cdd48258b4674ec/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mobile@latest",
+          "command": "dsh plugin --profile web add dsh-mobile@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "apps/mobile/README.zh-CN.md",
+      "url": "https://github.com/saya-ch/dsh-mobile/blob/d7a91cfa19131979bf535a4e3cdd48258b4674ec/apps/mobile/README.zh-CN.md",
+      "sha256": "105a3d87d24e85eecd5171c8a93dc019c088977fb8f9d1c742cc27036b16fb38",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mobile",
+      "version": "0.6.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/saya-ch/dsh-mobile",
+        "commit": "d7a91cfa19131979bf535a4e3cdd48258b4674ec"
+      },
+      "manifestSha256": "1dcb5764cc758b017d52ea197ea248bb5375391d29443c36dec64cebe85da5a4",
+      "manifestUrl": "https://github.com/saya-ch/dsh-mobile/blob/d7a91cfa19131979bf535a4e3cdd48258b4674ec/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-mobile@latest",
+      "origin": "npm",
+      "name": "dsh-mobile",
+      "version": "0.6.11",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "c762cf6be5b67e0c0a2df47e813e18c02e6c21df40feeb2ddad9159591fa407c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/saya-ch/dsh-mobile",
+    "commit": "d7a91cfa19131979bf535a4e3cdd48258b4674ec",
+    "releaseTags": 73,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:47.665Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "apps/mobile/README.zh-CN.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "apps/mobile/README.zh-CN.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:56.367Z",
+  "coverageReviewedAt": "2026-10-17T17:12:10.304Z",
+  "contentReviewFlags": []
+}

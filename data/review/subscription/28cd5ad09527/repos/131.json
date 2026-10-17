@@ -1,0 +1,127 @@
+{
+  "full_name": "MochiNek0/dsh-web-search-free",
+  "originalPosition": 546,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:00.080Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6b997c64da5b094952520f38ec0101f5dacded275df23ec0dc5239cde4eb1468",
+      "url": "https://github.com/MochiNek0/dsh-web-search-free/blob/4ca9a197372b838122815053aa79ead357268c74/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-search-free",
+          "command": "dsh plugin --profile web add dsh-web-search-free",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-search-free",
+      "version": "1.8.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MochiNek0/dsh-web-search-free",
+        "commit": "4ca9a197372b838122815053aa79ead357268c74"
+      },
+      "manifestSha256": "762256c07258dc89f892441a84e0d315694667826825838d212ad54e794af74b",
+      "manifestUrl": "https://github.com/MochiNek0/dsh-web-search-free/blob/4ca9a197372b838122815053aa79ead357268c74/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-web-search-free",
+        "versions": [
+          {
+            "version": "1.8.1",
+            "publishTimestamp": 1792256152,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MochiNek0/dsh-web-search-free",
+              "commit": "4ca9a197372b838122815053aa79ead357268c74"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-web-search-free",
+      "origin": "npm",
+      "name": "dsh-web-search-free",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-web-search-free",
+        "title": "dsh-web-search-free",
+        "description": "Free web search & fetch plugin for DeepSeek Harness (dsh) with multi-engine fallback (Tavily, Exa, Brave, Baidu, SearXNG and more)",
+        "homepage": "https://github.com/MochiNek0/dsh-web-search-free#readme",
+        "repository": {
+          "url": "https://github.com/MochiNek0/dsh-web-search-free"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "web-search"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.8.1",
+            "publishTimestamp": 1792256427,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "339d16f6c678c15fa2ee6d1036ffd8ecbe36686bb267bbb83fd504546c044546",
+      "evidence": [
+        {
+          "name": "dsh-web-search-free",
+          "version": "1.8.1",
+          "tarball": "https://registry.npmjs.org/dsh-web-search-free/-/dsh-web-search-free-1.8.1.tgz",
+          "integrity": "sha512-uO97cxmNfVyR5Q+Nl/yxacEjedfSI1MgGUsL2qT5r5Hz6a035vmWAJdRz8uQ5rO7tgLvjU4KsnApNVNkyhSVvA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-web-search-free",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MochiNek0/dsh-web-search-free",
+    "commit": "4ca9a197372b838122815053aa79ead357268c74",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T17:03:09.503Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.642Z",
+  "contentReviewFlags": []
+}

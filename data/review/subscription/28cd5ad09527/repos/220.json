@@ -1,0 +1,61 @@
+{
+  "full_name": "SeaOf0/dsh-redteam-model",
+  "originalPosition": 46,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/SeaOf0/dsh-redteam-model"
+  ],
+  "manualNote": null,
+  "ordinal": 220,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:52.957Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f2cd82c94837b3b0a6f3c8be6ad66a9ea78d975826118e32ae5988d0b508e45f",
+      "url": "https://github.com/SeaOf0/dsh-redteam-model/blob/85516202beaad3b1abdb277f606a1ea385c32833/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/SeaOf0/dsh-redteam-model",
+          "command": "dsh plugin --profile web add github:SeaOf0/dsh-redteam-model",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-redteam-model",
+      "version": "1.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SeaOf0/dsh-redteam-model",
+        "commit": "85516202beaad3b1abdb277f606a1ea385c32833"
+      },
+      "manifestSha256": "c4ce103a90cae759270d2eb92a75b71ce32c41eb34aa7dc30d1884537df853ce",
+      "manifestUrl": "https://github.com/SeaOf0/dsh-redteam-model/blob/85516202beaad3b1abdb277f606a1ea385c32833/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SeaOf0/dsh-redteam-model",
+    "commit": "85516202beaad3b1abdb277f606a1ea385c32833",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:01.041Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.695Z",
+  "contentReviewFlags": []
+}

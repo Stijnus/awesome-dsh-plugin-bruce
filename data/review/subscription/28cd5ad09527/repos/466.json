@@ -1,0 +1,80 @@
+{
+  "full_name": "Yuer6327/NoLetMe",
+  "originalPosition": 380,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Yuer6327/NoLetMe"
+  ],
+  "manualNote": null,
+  "ordinal": 466,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:07.177Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d38f91926c4b217ef22c3a66bc463c18073b6f45c269ace42ba01e6f82d7d6e9",
+      "url": "https://github.com/Yuer6327/NoLetMe/blob/903eb369d95a535bfd11f623bd7e2406e5d76e86/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Yuer6327/NoLetMe",
+          "command": "dsh plugin --profile demo add github:Yuer6327/NoLetMe",
+          "profile": "demo"
+        },
+        {
+          "install": "dsh-noletme",
+          "command": "dsh plugin --profile demo add dsh-noletme",
+          "profile": "demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-noletme",
+      "version": "0.3.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yuer6327/NoLetMe",
+        "commit": "903eb369d95a535bfd11f623bd7e2406e5d76e86"
+      },
+      "manifestSha256": "fb66be964f84137165093d2b18ff37899799404c9b304906c324e42226ffeba9",
+      "manifestUrl": "https://github.com/Yuer6327/NoLetMe/blob/903eb369d95a535bfd11f623bd7e2406e5d76e86/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-noletme",
+      "version": "0.3.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-noletme",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yuer6327/NoLetMe",
+    "commit": "903eb369d95a535bfd11f623bd7e2406e5d76e86",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:15.187Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:26.316Z",
+  "contentReviewFlags": []
+}

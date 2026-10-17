@@ -1,0 +1,179 @@
+{
+  "full_name": "NanmiCoder/dsh-agent-teams",
+  "originalPosition": 4,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@nanmicoder/dsh-agent-teams@0.1.22-rc.1"
+  ],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:59.576Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "773799a5e1a7ba7380b422b8dd2a4042e15b1243993239871fc565653c6c4b3d",
+      "url": "https://github.com/NanmiCoder/dsh-agent-teams/blob/6768de25aede12056a497b0a79ebf6cd8bb1e987/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nanmicoder/dsh-agent-teams@0.1.24-rc.1",
+          "command": "dsh plugin --profile web add --save-exact @nanmicoder/dsh-agent-teams@0.1.24-rc.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/harness-0.2.1-rc.1/README.md",
+      "url": "https://github.com/NanmiCoder/dsh-agent-teams/blob/6768de25aede12056a497b0a79ebf6cd8bb1e987/docs/harness-0.2.1-rc.1/README.md",
+      "sha256": "3f28b494fddbdc335c0a7175af283ebf3d56816d10ecb5ab148e88c3a29ccfb8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/maintenance-2026-09-06/release/README.md",
+      "url": "https://github.com/NanmiCoder/dsh-agent-teams/blob/6768de25aede12056a497b0a79ebf6cd8bb1e987/docs/maintenance-2026-09-06/release/README.md",
+      "sha256": "5460a4ddab37e16a181e9df242d45ffd41080e3cb663d571abe668bf3e39b40d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nanmicoder/dsh-agent-teams@0.1.16-rc.1",
+          "command": "dsh plugin --profile web add --save-exact @nanmicoder/dsh-agent-teams@0.1.16-rc.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "skills/README.md",
+      "url": "https://github.com/NanmiCoder/dsh-agent-teams/blob/6768de25aede12056a497b0a79ebf6cd8bb1e987/skills/README.md",
+      "sha256": "1ba2b64ca706e92c9d27e6f6299d5d1e2a0368b62835bcfd7e86e18b0131645b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme-writing-guide.md",
+      "url": "https://github.com/NanmiCoder/dsh-agent-teams/blob/6768de25aede12056a497b0a79ebf6cd8bb1e987/docs/readme-writing-guide.md",
+      "sha256": "6e275df8339f9189dcb0de83ca41ff7e0a9cce852b926063cad5f52655b2c6ab",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@nanmicoder/dsh-agent-teams",
+      "version": "0.1.24-rc.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NanmiCoder/dsh-agent-teams",
+        "commit": "6768de25aede12056a497b0a79ebf6cd8bb1e987"
+      },
+      "manifestSha256": "cbf2a9413c229a577bca2dfe94c4d9b39c4ba7c03210b4e33935181efe4841ea",
+      "manifestUrl": "https://github.com/NanmiCoder/dsh-agent-teams/blob/6768de25aede12056a497b0a79ebf6cd8bb1e987/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@nanmicoder/dsh-agent-teams@0.1.22-rc.1",
+      "origin": "npm",
+      "name": "@nanmicoder/dsh-agent-teams",
+      "version": "0.1.22-rc.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "bb2d92da358ec169e1ce38ee07316b996972f6b41e6d472f81bba7eeeb3fb4c7"
+    },
+    {
+      "target": "@nanmicoder/dsh-agent-teams@0.1.24-rc.1",
+      "origin": "npm",
+      "name": "@nanmicoder/dsh-agent-teams",
+      "version": "0.1.24-rc.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "bb2d92da358ec169e1ce38ee07316b996972f6b41e6d472f81bba7eeeb3fb4c7"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@nanmicoder/dsh-agent-teams",
+      "version": "0.1.16-rc.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@nanmicoder/dsh-agent-teams@0.1.22-rc.1",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@nanmicoder/dsh-agent-teams@0.1.24-rc.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@nanmicoder/dsh-agent-teams@0.1.16-rc.1",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NanmiCoder/dsh-agent-teams",
+    "commit": "6768de25aede12056a497b0a79ebf6cd8bb1e987",
+    "releaseTags": 29,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:09.639Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/harness-0.2.1-rc.1/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/maintenance-2026-09-06/release/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "skills/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/readme-writing-guide.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/harness-0.2.1-rc.1/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/maintenance-2026-09-06/release/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "skills/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/readme-writing-guide.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:55.227Z",
+  "coverageReviewedAt": "2026-10-17T17:12:08.678Z",
+  "contentReviewFlags": []
+}

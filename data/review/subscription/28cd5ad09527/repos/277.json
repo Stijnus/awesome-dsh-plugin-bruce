@@ -1,0 +1,86 @@
+{
+  "full_name": "MichengAI/dsh-im-connect",
+  "originalPosition": 115,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@michengai/dsh-im-connect@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 277,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:37.806Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "816abc095b1d6cbed533924ebda416f8f385a0d376065cdf180fc40b7f0e8fc9",
+      "url": "https://github.com/MichengAI/dsh-im-connect/blob/33bcef28c2b1132915a26df95d8cf08a278125a7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-im-connect@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-im-connect@latest --registry=https://registry.npmjs.org/. Then run dsh --profile web --dump-config, confirm the configuration includes",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "84d735c6ca17fdbdd820f9bc5a8f46b01bff1a3071250b7235465cfacdb8afa7",
+      "url": "https://github.com/MichengAI/dsh-im-connect/blob/33bcef28c2b1132915a26df95d8cf08a278125a7/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-im-connect@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-im-connect@latest --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-im-connect",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-im-connect",
+        "commit": "33bcef28c2b1132915a26df95d8cf08a278125a7"
+      },
+      "manifestSha256": "25069856b537c5b4c7326cc7a70e57709e73ed90160bffa89f10d612e78049fa",
+      "manifestUrl": "https://github.com/MichengAI/dsh-im-connect/blob/33bcef28c2b1132915a26df95d8cf08a278125a7/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@michengai/dsh-im-connect@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-im-connect",
+      "version": "1.0.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "1e11c99235963d3a3ee61acf081d68dd5e3eb4221fe61addd00e3dc0cf9dc997"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-im-connect",
+    "commit": "33bcef28c2b1132915a26df95d8cf08a278125a7",
+    "releaseTags": 58,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:48.856Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:11.546Z",
+  "contentReviewFlags": []
+}

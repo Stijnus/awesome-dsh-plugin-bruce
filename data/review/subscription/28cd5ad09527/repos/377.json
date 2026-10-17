@@ -1,0 +1,235 @@
+{
+  "full_name": "RevolutionLA/dsh-dream-skin",
+  "originalPosition": 252,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-dream-skin"
+  ],
+  "manualNote": null,
+  "ordinal": 377,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:52.737Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "885dda4f94adfc22dd7c2a1f56cdd6957ae63fa474525fdba0af7939ac47c839",
+      "url": "https://github.com/RevolutionLA/dsh-dream-skin/blob/442b9f6cde7e883b4c7b0c76d6ac9b68d780144d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dream-skin",
+          "command": "dsh plugin --profile web add dsh-dream-skin",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-dream-skin@10.16.0",
+          "command": "dsh plugin --profile web add dsh-dream-skin@10.16.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-dream-skin@10.15.0",
+          "command": "dsh plugin --profile web add dsh-dream-skin@10.15.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-dream-skin@10.14.2",
+          "command": "dsh plugin --profile web add dsh-dream-skin@10.14.2",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-dream-skin@10.14.1",
+          "command": "dsh plugin --profile web add dsh-dream-skin@10.14.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-dream-skin@10.14.0",
+          "command": "dsh plugin --profile web add dsh-dream-skin@10.14.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-dream-skin@10.13.0",
+          "command": "dsh plugin --profile web add dsh-dream-skin@10.13.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-dream-skin@10.12.1",
+          "command": "dsh plugin --profile web add dsh-dream-skin@10.12.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-dream-skin@10.12.0",
+          "command": "dsh plugin --profile web add dsh-dream-skin@10.12.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-dream-skin@10.10.0",
+          "command": "dsh plugin --profile web add dsh-dream-skin@10.10.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dream-skin",
+      "version": "10.16.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/RevolutionLA/dsh-dream-skin",
+        "commit": "442b9f6cde7e883b4c7b0c76d6ac9b68d780144d"
+      },
+      "manifestSha256": "f50424c8629ca9755f325261fd950dc2847cf98db302cd8c95d5b77fdea2da82",
+      "manifestUrl": "https://github.com/RevolutionLA/dsh-dream-skin/blob/442b9f6cde7e883b4c7b0c76d6ac9b68d780144d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-dream-skin",
+      "origin": "npm",
+      "name": "dsh-dream-skin",
+      "version": "10.16.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "003f1b17f8b8cd7f4892deab1e6df7f9fe276f6d7752a76c1e575e5a810b404d"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-dream-skin",
+      "version": "10.16.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-dream-skin",
+      "version": "10.15.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-dream-skin",
+      "version": "10.14.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-dream-skin",
+      "version": "10.14.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-dream-skin",
+      "version": "10.14.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-dream-skin",
+      "version": "10.13.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-dream-skin",
+      "version": "10.12.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-dream-skin",
+      "version": "10.12.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-dream-skin",
+      "version": "10.10.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dream-skin@10.16.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dream-skin@10.15.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dream-skin@10.14.2",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dream-skin@10.14.1",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dream-skin@10.14.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dream-skin@10.13.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dream-skin@10.12.1",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dream-skin@10.12.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dream-skin@10.10.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/RevolutionLA/dsh-dream-skin",
+    "commit": "442b9f6cde7e883b4c7b0c76d6ac9b68d780144d",
+    "releaseTags": 55,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:02.641Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:18.949Z",
+  "contentReviewFlags": []
+}

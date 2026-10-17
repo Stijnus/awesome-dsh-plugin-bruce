@@ -1,0 +1,97 @@
+{
+  "full_name": "Yan-Zero/dsh-remote-ssh",
+  "originalPosition": 505,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-remote-ssh",
+    "dsh-remote-ssh"
+  ],
+  "manualNote": null,
+  "ordinal": 184,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:49.585Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "29242b86a3d9937c1e067524a4360e79c9817a03d7299f980d1e351312514087",
+      "url": "https://github.com/Yan-Zero/dsh-remote-ssh/blob/21d727cbe24fbae283196e5101adb3de2bdd9157/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote-ssh",
+          "command": "dsh plugin --profile web add dsh-remote-ssh",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-remote-ssh",
+          "command": "dsh plugin --profile dsh-tui add dsh-remote-ssh",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7b9e0f806f816758dc8a6c4dc99f1d442ef360b56449ec6b4b6459b83f8f0903",
+      "url": "https://github.com/Yan-Zero/dsh-remote-ssh/blob/21d727cbe24fbae283196e5101adb3de2bdd9157/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote-ssh",
+          "command": "dsh plugin --profile web add dsh-remote-ssh",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-remote-ssh",
+          "command": "dsh plugin --profile dsh-tui add dsh-remote-ssh",
+          "profile": "dsh-tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote-ssh",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yan-Zero/dsh-remote-ssh",
+        "commit": "21d727cbe24fbae283196e5101adb3de2bdd9157"
+      },
+      "manifestSha256": "0c22ba63786950b3ec23e128a3b07f6a639ce044c81c4a454da4368539396eb4",
+      "manifestUrl": "https://github.com/Yan-Zero/dsh-remote-ssh/blob/21d727cbe24fbae283196e5101adb3de2bdd9157/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-remote-ssh",
+      "origin": "npm",
+      "name": "dsh-remote-ssh",
+      "version": null,
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "57213c6e06a307b4b6d559f0dc8a9e0e5701ebd0a73dfb6942e93fc811913d5e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yan-Zero/dsh-remote-ssh",
+    "commit": "21d727cbe24fbae283196e5101adb3de2bdd9157",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:59.285Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.410Z",
+  "contentReviewFlags": []
+}

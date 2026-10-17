@@ -1,0 +1,182 @@
+{
+  "full_name": "XieZongChen/dsh-md-notes",
+  "originalPosition": 311,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-md-notes"
+  ],
+  "manualNote": null,
+  "ordinal": 419,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:51.186Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5fa2a2db88df50c9be4eb3022463670baf36be6ea8989a1da973287c37bd2617",
+      "url": "https://github.com/XieZongChen/dsh-md-notes/blob/d98ac7cd4fbe0824d5a7ffcd5127c5bb59f56c4a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-md-notes",
+          "command": "dsh plugin --profile web add dsh-md-notes",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-md-notes@0.13.0",
+          "command": "dsh plugin --profile web add dsh-md-notes@0.13.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e1c38d1f5d80da20253037125afb77e5384f84c732568ff27f11e172858ce8c3",
+      "url": "https://github.com/XieZongChen/dsh-md-notes/blob/d98ac7cd4fbe0824d5a7ffcd5127c5bb59f56c4a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-md-notes",
+          "command": "dsh plugin --profile web add dsh-md-notes",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-md-notes@0.13.0",
+          "command": "dsh plugin --profile web add dsh-md-notes@0.13.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-md-notes",
+      "version": "0.13.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XieZongChen/dsh-md-notes",
+        "commit": "d98ac7cd4fbe0824d5a7ffcd5127c5bb59f56c4a"
+      },
+      "manifestSha256": "3be7a6f290468be65173458b9715f517478c4e8affdd5e354c5ecd3215cd5d8d",
+      "manifestUrl": "https://github.com/XieZongChen/dsh-md-notes/blob/d98ac7cd4fbe0824d5a7ffcd5127c5bb59f56c4a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1 <0.1.8",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-md-notes",
+        "versions": [
+          {
+            "version": "0.13.0",
+            "publishTimestamp": 1790269580,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XieZongChen/dsh-md-notes",
+              "commit": "d98ac7cd4fbe0824d5a7ffcd5127c5bb59f56c4a"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.1.8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-md-notes",
+      "origin": "npm",
+      "name": "dsh-md-notes",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-md-notes",
+        "title": "dsh-md-notes",
+        "description": "A note-taking plugin for DeepSeek Harness (DSH). It provides a full MD notes manager and MD notes editor, letting you quickly capture conversation content into notes. Notes can be maintained by syncing to a Git repository.",
+        "homepage": "https://github.com/XieZongChen/dsh-md-notes",
+        "repository": {
+          "url": "https://github.com/XieZongChen/dsh-md-notes"
+        },
+        "versions": [
+          {
+            "version": "0.13.0",
+            "publishTimestamp": 1789064502,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.1.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b096b9a2e4b118b5f4062d63e41346ef79c2875dbaef95ee1362c452abde4006",
+      "evidence": [
+        {
+          "name": "dsh-md-notes",
+          "version": "0.13.0",
+          "tarball": "https://registry.npmjs.org/dsh-md-notes/-/dsh-md-notes-0.13.0.tgz",
+          "integrity": "sha512-9QvnM4c7pBcqoiauxQNbq023dAoKGU7apah1r3FlpIkXR0i7Ao84YV8ktDIpIIAteQxnU5lqH4h4E/owt4YKIw=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-md-notes",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-md-notes",
+        "title": "dsh-md-notes",
+        "description": "A note-taking plugin for DeepSeek Harness (DSH). It provides a full MD notes manager and MD notes editor, letting you quickly capture conversation content into notes. Notes can be maintained by syncing to a Git repository.",
+        "homepage": "https://github.com/XieZongChen/dsh-md-notes",
+        "repository": {
+          "url": "https://github.com/XieZongChen/dsh-md-notes"
+        },
+        "versions": [
+          {
+            "version": "0.13.0",
+            "publishTimestamp": 1789064502,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.1.6"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "name": "dsh-md-notes",
+          "version": "0.13.0",
+          "tarball": "https://registry.npmjs.org/dsh-md-notes/-/dsh-md-notes-0.13.0.tgz",
+          "integrity": "sha512-9QvnM4c7pBcqoiauxQNbq023dAoKGU7apah1r3FlpIkXR0i7Ao84YV8ktDIpIIAteQxnU5lqH4h4E/owt4YKIw=="
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-md-notes@0.13.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XieZongChen/dsh-md-notes",
+    "commit": "d98ac7cd4fbe0824d5a7ffcd5127c5bb59f56c4a",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:02.643Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:22.423Z",
+  "contentReviewFlags": []
+}

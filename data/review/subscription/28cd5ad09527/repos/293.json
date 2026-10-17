@@ -1,0 +1,78 @@
+{
+  "full_name": "zhuiyueya/dsh-im-gateway",
+  "originalPosition": 135,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-im-gateway",
+    "https://github.com/zhuiyueya/dsh-im-gateway.git"
+  ],
+  "manualNote": null,
+  "ordinal": 293,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:19.504Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a4e6e35c9b67115036624d4f359d3fc140dd3948cfb2c3261aa5f0c78c9efea6",
+      "url": "https://github.com/zhuiyueya/dsh-im-gateway/blob/8e8fbca125dda15b5cdd2ae79ac63a91e21f7c37/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-im-gateway",
+          "command": "dsh plugin --profile web add dsh-im-gateway",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/zhuiyueya/dsh-im-gateway.git",
+          "command": "dsh plugin --profile web add https://github.com/zhuiyueya/dsh-im-gateway.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-im-gateway",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhuiyueya/dsh-im-gateway",
+        "commit": "8e8fbca125dda15b5cdd2ae79ac63a91e21f7c37"
+      },
+      "manifestSha256": "ae4fe632cec3f92b50971da9b2a2f90447600c095c0a253a1a053222eedfced7",
+      "manifestUrl": "https://github.com/zhuiyueya/dsh-im-gateway/blob/8e8fbca125dda15b5cdd2ae79ac63a91e21f7c37/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-im-gateway",
+      "origin": "npm",
+      "name": "dsh-im-gateway",
+      "version": "0.3.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "2b194b7cbfa997c0355aa5da02e0675f0696866da3d7997bf3e1d086ff61e0e1"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhuiyueya/dsh-im-gateway",
+    "commit": "8e8fbca125dda15b5cdd2ae79ac63a91e21f7c37",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:27.809Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.681Z",
+  "contentReviewFlags": []
+}

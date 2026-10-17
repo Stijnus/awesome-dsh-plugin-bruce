@@ -1,0 +1,156 @@
+{
+  "full_name": "ysr666/dsh-vision-router",
+  "originalPosition": 23,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-vision-router",
+    "dsh-vision-router"
+  ],
+  "manualNote": null,
+  "ordinal": 201,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:18.318Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f1b052b5b9de0b37e771c57f3f5706af03591014ef07e2417b3c14ced2f511b",
+      "url": "https://github.com/ysr666/dsh-vision-router/blob/ab72fb0f76aebc562505fa26cd8570738c67826e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vision-router",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-vision-router",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-vision-router",
+          "command": "DSH_HOME=~/.ohdsh npx @deepseek-ai/dsh plugin --profile desktop add dsh-vision-router",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d19fd5d465847e8ebbbfc058bae97aef83b74915f089100ab42032c018d81ee6",
+      "url": "https://github.com/ysr666/dsh-vision-router/blob/ab72fb0f76aebc562505fa26cd8570738c67826e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vision-router",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-vision-router",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-vision-router",
+          "command": "DSH_HOME=~/.ohdsh npx @deepseek-ai/dsh plugin --profile desktop add dsh-vision-router",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vision-router",
+      "version": "3.0.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ysr666/dsh-vision-router",
+        "commit": "ab72fb0f76aebc562505fa26cd8570738c67826e"
+      },
+      "manifestSha256": "f37298258b96e983eb275c03a6de94455333b84383084214f9e4488b2e0a3ccb",
+      "manifestUrl": "https://github.com/ysr666/dsh-vision-router/blob/ab72fb0f76aebc562505fa26cd8570738c67826e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-vision-router",
+        "versions": [
+          {
+            "version": "3.0.5",
+            "publishTimestamp": 1792245854,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ysr666/dsh-vision-router",
+              "commit": "ab72fb0f76aebc562505fa26cd8570738c67826e"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-vision-router",
+      "origin": "npm",
+      "name": "dsh-vision-router",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-vision-router",
+        "title": "dsh-vision-router",
+        "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain + pixel-level tools. Remote vision providers, including the default free fallback, receive image content unless strict local-only use is configured.",
+        "homepage": "https://github.com/ysr666/dsh-vision-router",
+        "repository": {
+          "url": "https://github.com/ysr666/dsh-vision-router"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "vision",
+            "vision-tools",
+            "multimodal",
+            "openrouter",
+            "image",
+            "ocr",
+            "screenshot",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "3.0.4",
+            "publishTimestamp": 1792167944,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7c9252416d5542a507ed9d49800e963c2cc54728f9b191262babf0a4117b7cc3",
+      "evidence": [
+        {
+          "name": "dsh-vision-router",
+          "version": "3.0.4",
+          "tarball": "https://registry.npmjs.org/dsh-vision-router/-/dsh-vision-router-3.0.4.tgz",
+          "integrity": "sha512-0NVP1rr4K/DzHhhIUcmJDNPbrSBY7rNlz6ANuitO3rnwbwPjXto2dmAcwNYX6DstzloA5ihD97dHsxhKe5RMKA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ysr666/dsh-vision-router",
+    "commit": "ab72fb0f76aebc562505fa26cd8570738c67826e",
+    "releaseTags": 54,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:00:35.060Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.339Z",
+  "contentReviewFlags": []
+}

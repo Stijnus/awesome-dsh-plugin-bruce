@@ -1,0 +1,61 @@
+{
+  "full_name": "lhwu1/dsh-withskillhub",
+  "originalPosition": 509,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/lhwu1/dsh-withskillhub"
+  ],
+  "manualNote": null,
+  "ordinal": 553,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:43.555Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8b9e8969bf66666b4f34a464d22efef56c80222f75140051d88cd0ba208396af",
+      "url": "https://github.com/lhwu1/dsh-withskillhub/blob/0fb0dc5b60ae5c65d905d94eae79bf9a4ef0fab8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lhwu1/dsh-withskillhub",
+          "command": "dsh plugin --profile web add github:lhwu1/dsh-withskillhub",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-withskillhub",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lhwu1/dsh-withskillhub",
+        "commit": "0fb0dc5b60ae5c65d905d94eae79bf9a4ef0fab8"
+      },
+      "manifestSha256": "57be1a2ba460b14252df151d1d0aa6184a85c714c71a6eb92fbf5ca0e7795d73",
+      "manifestUrl": "https://github.com/lhwu1/dsh-withskillhub/blob/0fb0dc5b60ae5c65d905d94eae79bf9a4ef0fab8/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lhwu1/dsh-withskillhub",
+    "commit": "0fb0dc5b60ae5c65d905d94eae79bf9a4ef0fab8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:51.845Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.748Z",
+  "contentReviewFlags": []
+}

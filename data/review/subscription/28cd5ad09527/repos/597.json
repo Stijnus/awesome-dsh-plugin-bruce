@@ -1,0 +1,128 @@
+{
+  "full_name": "dongsheng123132/task-passport",
+  "originalPosition": 597,
+  "inputMode": "command",
+  "mappedTargets": [
+    "task-passport@0.3.0"
+  ],
+  "manualNote": null,
+  "ordinal": 597,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:59.954Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5a2dd3129171da9b84d83cbe90e2897a5b109e514c2a2b69965a4a1c2d0980e2",
+      "url": "https://github.com/dongsheng123132/task-passport/blob/af5cfa5f8dd22984cf7e759abfc8fe5907caf2c8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "task-passport@0.3.2",
+          "command": "dsh plugin --profile web add task-passport@0.3.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/gemini/README.md",
+      "url": "https://github.com/dongsheng123132/task-passport/blob/af5cfa5f8dd22984cf7e759abfc8fe5907caf2c8/examples/gemini/README.md",
+      "sha256": "f51bc2dfe0e797153682d04e121c04cfd6086b67f94489a124ea91f3c9fdf3c5",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/foxit/README.md",
+      "url": "https://github.com/dongsheng123132/task-passport/blob/af5cfa5f8dd22984cf7e759abfc8fe5907caf2c8/examples/foxit/README.md",
+      "sha256": "d95877ae6e6d225bc7720e858530b349e5427e742a14708c4dc2653fd38a5159",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "task-passport",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dongsheng123132/task-passport",
+        "commit": "af5cfa5f8dd22984cf7e759abfc8fe5907caf2c8"
+      },
+      "manifestSha256": "f21c27c7b95811c73973b21ca87bfc2199a86c63948a2db899c85ab632900355",
+      "manifestUrl": "https://github.com/dongsheng123132/task-passport/blob/af5cfa5f8dd22984cf7e759abfc8fe5907caf2c8/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "task-passport@0.3.0",
+      "origin": "npm",
+      "name": "task-passport",
+      "version": "0.3.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "47b41d9548ffdcd0a856999f532f9a18f3f16d7a1f1adf02db525ccf658637cd"
+    },
+    {
+      "target": "task-passport@0.3.2",
+      "origin": "npm",
+      "name": "task-passport",
+      "version": "0.3.2",
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "47b41d9548ffdcd0a856999f532f9a18f3f16d7a1f1adf02db525ccf658637cd"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "task-passport@0.3.0",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "task-passport@0.3.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dongsheng123132/task-passport",
+    "commit": "af5cfa5f8dd22984cf7e759abfc8fe5907caf2c8",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:10.602Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "examples/gemini/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/foxit/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/gemini/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/foxit/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:15.685Z",
+  "coverageReviewedAt": "2026-10-17T17:12:33.547Z",
+  "contentReviewFlags": []
+}

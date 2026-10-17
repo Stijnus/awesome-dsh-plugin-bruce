@@ -1,0 +1,139 @@
+{
+  "full_name": "147228/dsh-xiaoyao-skins",
+  "originalPosition": 209,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 37,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:07.313Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ccf75a05b4bdbfaef18162edf3d51fb76fc6b60c29bc2d0f176939b59b865d0e",
+      "url": "https://github.com/147228/dsh-xiaoyao-skins/blob/555a9acbc4c269faa64fd2647205b290d4654903/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xiaoyao-ai/dsh-client-ui-skin-black-whale",
+      "version": "0.1.4",
+      "path": "packages/skins/black-whale",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/147228/dsh-xiaoyao-skins",
+        "commit": "555a9acbc4c269faa64fd2647205b290d4654903",
+        "path": "packages/skins/black-whale"
+      },
+      "manifestSha256": "ab8842ec37b8f23d4dd4c46cc029e6cc024b359933997834452a996dfdbec2a0",
+      "manifestUrl": "https://github.com/147228/dsh-xiaoyao-skins/blob/555a9acbc4c269faa64fd2647205b290d4654903/packages/skins/black-whale/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@xiaoyao-ai/dsh-client-ui-skin-great-wall-beacon",
+      "version": "0.1.1",
+      "path": "packages/skins/great-wall-beacon",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/147228/dsh-xiaoyao-skins",
+        "commit": "555a9acbc4c269faa64fd2647205b290d4654903",
+        "path": "packages/skins/great-wall-beacon"
+      },
+      "manifestSha256": "ebcf8407a1687639e7638583cfe009561d8389b90dc1e7e68580073d0624612e",
+      "manifestUrl": "https://github.com/147228/dsh-xiaoyao-skins/blob/555a9acbc4c269faa64fd2647205b290d4654903/packages/skins/great-wall-beacon/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@xiaoyao-ai/dsh-client-ui-skin-great-wall-snow",
+      "version": "0.1.1",
+      "path": "packages/skins/great-wall-snow",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/147228/dsh-xiaoyao-skins",
+        "commit": "555a9acbc4c269faa64fd2647205b290d4654903",
+        "path": "packages/skins/great-wall-snow"
+      },
+      "manifestSha256": "0f97c05fe9426797e59b130bc4c187550956c8c85f83df992f8a85fef3c82957",
+      "manifestUrl": "https://github.com/147228/dsh-xiaoyao-skins/blob/555a9acbc4c269faa64fd2647205b290d4654903/packages/skins/great-wall-snow/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@xiaoyao-ai/dsh-client-ui-skin-great-wall-sunrise",
+      "version": "0.1.1",
+      "path": "packages/skins/great-wall-sunrise",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/147228/dsh-xiaoyao-skins",
+        "commit": "555a9acbc4c269faa64fd2647205b290d4654903",
+        "path": "packages/skins/great-wall-sunrise"
+      },
+      "manifestSha256": "070c6ef5c57572d76565bc37a1b72ac1ab4a29374dbd548757d35af0ca64de42",
+      "manifestUrl": "https://github.com/147228/dsh-xiaoyao-skins/blob/555a9acbc4c269faa64fd2647205b290d4654903/packages/skins/great-wall-sunrise/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@xiaoyao-ai/dsh-client-ui-skin-xiaoyao",
+      "version": "0.1.1",
+      "path": "packages/skins/ocean",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/147228/dsh-xiaoyao-skins",
+        "commit": "555a9acbc4c269faa64fd2647205b290d4654903",
+        "path": "packages/skins/ocean"
+      },
+      "manifestSha256": "3abdcce53ba2507a200e80e3194c04c0a8088b4cb907f0aa772c651f60fceff5",
+      "manifestUrl": "https://github.com/147228/dsh-xiaoyao-skins/blob/555a9acbc4c269faa64fd2647205b290d4654903/packages/skins/ocean/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@xiaoyao-ai/dsh-client-ui-skin-sky-lab",
+      "version": "0.1.1",
+      "path": "packages/skins/sky-lab",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/147228/dsh-xiaoyao-skins",
+        "commit": "555a9acbc4c269faa64fd2647205b290d4654903",
+        "path": "packages/skins/sky-lab"
+      },
+      "manifestSha256": "bc1e907bb6f2b48db480dc2186be947303389f02a01f72b97f293b403f7ef3b4",
+      "manifestUrl": "https://github.com/147228/dsh-xiaoyao-skins/blob/555a9acbc4c269faa64fd2647205b290d4654903/packages/skins/sky-lab/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/147228/dsh-xiaoyao-skins",
+    "commit": "555a9acbc4c269faa64fd2647205b290d4654903",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:27.699Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:04.070Z",
+  "contentReviewFlags": []
+}

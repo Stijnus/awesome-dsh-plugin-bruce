@@ -1,0 +1,348 @@
+{
+  "full_name": "PerryLink/dsh-lsp-actions",
+  "originalPosition": 235,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-lsp-actions#main",
+    "dsh-lsp-actions"
+  ],
+  "manualNote": null,
+  "ordinal": 367,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:32.291Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4b758a547d5070d567f82b0d1e86ca20be9edcdb183301c4aff58a4fd7111824",
+      "url": "https://github.com/PerryLink/dsh-lsp-actions/blob/0ae93feed1e85934b293ce3888deed68d48f2b7c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-lsp-actions",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-lsp-actions",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-lsp-actions",
+          "command": "dsh plugin --profile web add dsh-lsp-actions",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-lsp-actions/blob/0ae93feed1e85934b293ce3888deed68d48f2b7c/README-zh.md",
+      "sha256": "ad404b26c64ed6ae1ff38be2abad067d3ddcb2f32984d744d63c8a4bea8da1c2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-lsp-actions",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-lsp-actions",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-lsp-actions",
+          "command": "dsh plugin --profile web add dsh-lsp-actions",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-lsp-actions/blob/0ae93feed1e85934b293ce3888deed68d48f2b7c/README-es.md",
+      "sha256": "2159d7f9055e51019a370d2b868a36f28066341ec4ce7d4b0823000eacdbcbde",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-lsp-actions",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-lsp-actions",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-lsp-actions",
+          "command": "dsh plugin --profile web add dsh-lsp-actions",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-lsp-actions/blob/0ae93feed1e85934b293ce3888deed68d48f2b7c/README-pt.md",
+      "sha256": "c13ee5359617182eecbd0a812649e8110392d289080aa342c54f29ac0a793c41",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-lsp-actions",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-lsp-actions",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-lsp-actions",
+          "command": "dsh plugin --profile web add dsh-lsp-actions",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-lsp-actions/blob/0ae93feed1e85934b293ce3888deed68d48f2b7c/README-hi.md",
+      "sha256": "b0414250677d824b42c57ca4cd1aad8340842f861c70b568924eb424476638da",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-lsp-actions",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-lsp-actions",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-lsp-actions",
+          "command": "dsh plugin --profile web add dsh-lsp-actions",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/vscode/README.md",
+      "url": "https://github.com/PerryLink/dsh-lsp-actions/blob/0ae93feed1e85934b293ce3888deed68d48f2b7c/examples/vscode/README.md",
+      "sha256": "3cb3bf30018353a876f822e813b5ccdd6601b13e8f13fbb9e76d098dd41d186d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lsp-actions",
+      "version": "0.5.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-lsp-actions",
+        "commit": "0ae93feed1e85934b293ce3888deed68d48f2b7c"
+      },
+      "manifestSha256": "8745db64d66ecfd13a90b38c7f2cba9acc34af3291a185b0e5b0ac661ed2bda8",
+      "manifestUrl": "https://github.com/PerryLink/dsh-lsp-actions/blob/0ae93feed1e85934b293ce3888deed68d48f2b7c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0-0 || >=0.2.1-0 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-lsp-actions",
+        "versions": [
+          {
+            "version": "0.5.12",
+            "publishTimestamp": 1791813001,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-lsp-actions",
+              "commit": "0ae93feed1e85934b293ce3888deed68d48f2b7c"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0-0 || >=0.2.1-0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-lsp-actions#main",
+      "origin": "git_target",
+      "name": "dsh-lsp-actions",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-lsp-actions",
+        "title": "dsh-lsp-actions",
+        "description": "LSP action surface for DeepSeek Harness: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints, and rename tools over language servers, plus the editor action protocol (lsp.actions.*) that makes the plugin the IDE integration backend",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-lsp-actions"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "lsp",
+            "language-server",
+            "diagnostics",
+            "formatting",
+            "completion",
+            "code-action",
+            "symbols",
+            "signature-help",
+            "inlay-hints",
+            "rename",
+            "refactor",
+            "ide",
+            "editor",
+            "vscode",
+            "acp",
+            "json-rpc"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.12",
+            "publishTimestamp": 1791813001,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-lsp-actions",
+              "commit": "0ae93feed1e85934b293ce3888deed68d48f2b7c"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0-0 || >=0.2.1-0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "0ae93feed1e85934b293ce3888deed68d48f2b7c",
+          "name": "dsh-lsp-actions",
+          "version": "0.5.12",
+          "url": "https://github.com/PerryLink/dsh-lsp-actions",
+          "manifestSha256": "8745db64d66ecfd13a90b38c7f2cba9acc34af3291a185b0e5b0ac661ed2bda8",
+          "publishTimestamp": 1791813001
+        }
+      ]
+    },
+    {
+      "target": "dsh-lsp-actions",
+      "origin": "npm",
+      "name": "dsh-lsp-actions",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-lsp-actions",
+        "title": "dsh-lsp-actions",
+        "description": "LSP action surface for DeepSeek Harness: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints, and rename tools over language servers, plus the editor action protocol (lsp.actions.*) that makes the plugin the IDE integration backend",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-lsp-actions"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "lsp",
+            "language-server",
+            "diagnostics",
+            "formatting",
+            "completion",
+            "code-action",
+            "symbols",
+            "signature-help",
+            "inlay-hints",
+            "rename",
+            "refactor",
+            "ide",
+            "editor",
+            "vscode",
+            "acp",
+            "json-rpc"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.12",
+            "publishTimestamp": 1791594035,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0-0 || >=0.2.1-0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9e28b4e888ba76dda83b5c286591d0e9425ef89b1e15b8c8c1102aabcebf2e7b",
+      "evidence": [
+        {
+          "name": "dsh-lsp-actions",
+          "version": "0.5.12",
+          "tarball": "https://registry.npmjs.org/dsh-lsp-actions/-/dsh-lsp-actions-0.5.12.tgz",
+          "integrity": "sha512-mogEk/7SNhsbEmX6+w7/XYy7yT7556CggLuZBqIgdvvvZs10QQxGTMb7lPTZawMdGYS/cUWfLPCDw7ilfXXjKA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-lsp-actions#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-lsp-actions",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-lsp-actions",
+    "commit": "0ae93feed1e85934b293ce3888deed68d48f2b7c",
+    "releaseTags": 28,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:06:48.720Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/vscode/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/vscode/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:06.242Z",
+  "coverageReviewedAt": "2026-10-17T17:12:18.873Z",
+  "contentReviewFlags": []
+}

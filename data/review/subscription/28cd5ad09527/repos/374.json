@@ -1,0 +1,86 @@
+{
+  "full_name": "Kaiji-Z/dsh-plugin-lookatstudy",
+  "originalPosition": 249,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-lookatstudy"
+  ],
+  "manualNote": null,
+  "ordinal": 374,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:49.392Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b1ce234b32b193cf6c9f564258965c4cc56483397236c0dc1242f4c339a4200a",
+      "url": "https://github.com/Kaiji-Z/dsh-plugin-lookatstudy/blob/d7d86c48c1af8f402fe6bdf3a935bc8ed1076f74/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-lookatstudy",
+          "command": "dsh plugin add dsh-plugin-lookatstudy",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "1f12f51775bf1e952aaabaf88d873bc4a9af14bbc47c6fa127588ec81007dd39",
+      "url": "https://github.com/Kaiji-Z/dsh-plugin-lookatstudy/blob/d7d86c48c1af8f402fe6bdf3a935bc8ed1076f74/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-lookatstudy",
+          "command": "dsh plugin add dsh-plugin-lookatstudy",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-lookatstudy",
+      "version": "0.26.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Kaiji-Z/dsh-plugin-lookatstudy",
+        "commit": "d7d86c48c1af8f402fe6bdf3a935bc8ed1076f74"
+      },
+      "manifestSha256": "a14ef54fbdd1f4b122f61f72a72f81e0ab48033e23b4370de9e36f9898d96087",
+      "manifestUrl": "https://github.com/Kaiji-Z/dsh-plugin-lookatstudy/blob/d7d86c48c1af8f402fe6bdf3a935bc8ed1076f74/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-lookatstudy",
+      "origin": "npm",
+      "name": "dsh-plugin-lookatstudy",
+      "version": "0.26.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "5fd86abd9a29b2417ba60d8cdad1bbed01a89285ffcb68407b8bc939f078b837"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Kaiji-Z/dsh-plugin-lookatstudy",
+    "commit": "d7d86c48c1af8f402fe6bdf3a935bc8ed1076f74",
+    "releaseTags": 38,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:59.594Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:18.367Z",
+  "contentReviewFlags": []
+}

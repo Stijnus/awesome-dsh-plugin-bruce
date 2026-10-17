@@ -1,0 +1,113 @@
+{
+  "full_name": "opdsh/unity-plugin",
+  "originalPosition": 568,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add @opdsh/unity-plugin」或「dsh plugin --profile <name> add github:opdsh/unity-plugin」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 179,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:37.388Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "826a25dfd4e2d9dae78f575db29fe62bc133a3a4d4882b85aef85451f750e202",
+      "url": "https://github.com/opdsh/unity-plugin/blob/1cfcc6c33962152c8db22ada853179957d69c43b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@opdsh/unity-plugin",
+          "command": "dsh plugin --profile <name> add @opdsh/unity-plugin",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/opdsh/unity-plugin",
+          "command": "dsh plugin --profile <name> add github:opdsh/unity-plugin",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2edb158ae793ae1d836e2a4ae9bc00f3a7a7a018d209d8d1d6a1c96264df5ae5",
+      "url": "https://github.com/opdsh/unity-plugin/blob/1cfcc6c33962152c8db22ada853179957d69c43b/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@opdsh/unity-plugin",
+          "command": "dsh plugin --profile <name> add @opdsh/unity-plugin",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/opdsh/unity-plugin",
+          "command": "dsh plugin --profile <name> add github:opdsh/unity-plugin",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@opdsh/unity-plugin",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/opdsh/unity-plugin",
+        "commit": "1cfcc6c33962152c8db22ada853179957d69c43b"
+      },
+      "manifestSha256": "94ca9b89970a6a5203b6a4a96f02b43960e540c7473c5c68e25b91f6c1b370b3",
+      "manifestUrl": "https://github.com/opdsh/unity-plugin/blob/1cfcc6c33962152c8db22ada853179957d69c43b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@opdsh/unity-plugin",
+      "origin": "npm",
+      "name": "@opdsh/unity-plugin",
+      "version": "0.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "d7c7855d0e2d7ad7ce6907d06310ef2fb952acd3c2cdc534783ddeabf15a81af"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@opdsh/unity-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/opdsh/unity-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/opdsh/unity-plugin",
+    "commit": "1cfcc6c33962152c8db22ada853179957d69c43b",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:47.398Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.389Z",
+  "contentReviewFlags": []
+}

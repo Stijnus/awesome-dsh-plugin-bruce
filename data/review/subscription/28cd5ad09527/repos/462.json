@@ -1,0 +1,92 @@
+{
+  "full_name": "cirelir/dsh-change-review",
+  "originalPosition": 371,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/cirelir/dsh-change-review"
+  ],
+  "manualNote": null,
+  "ordinal": 462,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:59.984Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "768abdb386b4c0cd4d1feee9cbd9ba7a14a0f2a05da309e25f092c47092ddf3e",
+      "url": "https://github.com/cirelir/dsh-change-review/blob/1f2de55b3f95dd1c513e713fe56664648ca2e447/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-change-review",
+          "command": "dsh plugin --profile web add dsh-change-review",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "abf74b4b12c225d6604c58c5de76584541a3e5b9f7166e6cad80f491ef4ac9cf",
+      "url": "https://github.com/cirelir/dsh-change-review/blob/1f2de55b3f95dd1c513e713fe56664648ca2e447/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-change-review",
+          "command": "dsh plugin --profile web add dsh-change-review",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-change-review",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cirelir/dsh-change-review",
+        "commit": "1f2de55b3f95dd1c513e713fe56664648ca2e447"
+      },
+      "manifestSha256": "2a07d0e3341d4b2c6b43ecb3da30865c400990c22ca06d6a0b3c28b29e52e7ca",
+      "manifestUrl": "https://github.com/cirelir/dsh-change-review/blob/1f2de55b3f95dd1c513e713fe56664648ca2e447/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-change-review",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/cirelir/dsh-change-review",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-change-review",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cirelir/dsh-change-review",
+    "commit": "1f2de55b3f95dd1c513e713fe56664648ca2e447",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:09.276Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:25.521Z",
+  "contentReviewFlags": []
+}

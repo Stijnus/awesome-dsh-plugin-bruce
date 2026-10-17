@@ -1,0 +1,61 @@
+{
+  "full_name": "Xilin3/dsh-prompt-persona",
+  "originalPosition": 190,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/xilin3/dsh-prompt-persona"
+  ],
+  "manualNote": null,
+  "ordinal": 337,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:11.647Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "42593d6895a056661d05abd73ed396bc151b314004240c78b732845dacdc8431",
+      "url": "https://github.com/Xilin3/dsh-prompt-persona/blob/de1c814724d1ef3b8bca25440e9859bc1642048f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xilin3/dsh-prompt-persona",
+          "command": "dsh plugin --profile web add github:xilin3/dsh-prompt-persona",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xilin3/dsh-prompt-persona",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Xilin3/dsh-prompt-persona",
+        "commit": "de1c814724d1ef3b8bca25440e9859bc1642048f"
+      },
+      "manifestSha256": "0cd97d824833c0f6a8d4d0f0a2dc50f7fd8bdea078198b93a3dc10769729af21",
+      "manifestUrl": "https://github.com/Xilin3/dsh-prompt-persona/blob/de1c814724d1ef3b8bca25440e9859bc1642048f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Xilin3/dsh-prompt-persona",
+    "commit": "de1c814724d1ef3b8bca25440e9859bc1642048f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:19.804Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.292Z",
+  "contentReviewFlags": []
+}

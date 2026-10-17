@@ -1,0 +1,97 @@
+{
+  "full_name": "Tasihi89/dsh-talk-map",
+  "originalPosition": 173,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Tasihi89/dsh-talk-map"
+  ],
+  "manualNote": null,
+  "ordinal": 325,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:41.314Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7e2bf05e3f7ba640bb322db71cee3dce0390ceef7fee49a57480af2912320da0",
+      "url": "https://github.com/Tasihi89/dsh-talk-map/blob/b2d36d69b65f1a6a2c76022b1226392683767b9d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Tasihi89/dsh-talk-map",
+          "command": "dsh plugin --profile web add github:Tasihi89/dsh-talk-map",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-talk-map",
+          "command": "dsh plugin --profile web add dsh-talk-map",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "0891e9374459b284afafda51840b1f4fb7c003b82ef767874331121bb9dda02f",
+      "url": "https://github.com/Tasihi89/dsh-talk-map/blob/b2d36d69b65f1a6a2c76022b1226392683767b9d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Tasihi89/dsh-talk-map",
+          "command": "dsh plugin --profile web add github:Tasihi89/dsh-talk-map",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-talk-map",
+          "command": "dsh plugin --profile web add dsh-talk-map",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-talk-map",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tasihi89/dsh-talk-map",
+        "commit": "b2d36d69b65f1a6a2c76022b1226392683767b9d"
+      },
+      "manifestSha256": "3f81a290341ab5ba1f658f2da406d13821420946a91c06ec7f024c96ce5593ab",
+      "manifestUrl": "https://github.com/Tasihi89/dsh-talk-map/blob/b2d36d69b65f1a6a2c76022b1226392683767b9d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-talk-map",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-talk-map",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tasihi89/dsh-talk-map",
+    "commit": "b2d36d69b65f1a6a2c76022b1226392683767b9d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:52.481Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:15.206Z",
+  "contentReviewFlags": []
+}

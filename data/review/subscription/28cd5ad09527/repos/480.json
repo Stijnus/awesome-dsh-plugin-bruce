@@ -1,0 +1,107 @@
+{
+  "full_name": "AbcdefgXW/dsh-msg-hub",
+  "originalPosition": 399,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-msg-hub",
+    "https://github.com/AbcdefgXW/dsh-msg-hub"
+  ],
+  "manualNote": null,
+  "ordinal": 480,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:33.175Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "640ad7c9783d21c7318e2fb0d38cbb249b1da789c64ab5c1bb238cadfd2dea98",
+      "url": "https://github.com/AbcdefgXW/dsh-msg-hub/blob/0fd11c38fa21d5639ea53f067a221d8ff7d8675c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-msg-hub",
+          "command": "dsh plugin --profile web add dsh-msg-hub",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AbcdefgXW/dsh-msg-hub",
+          "command": "dsh plugin --profile web add github:AbcdefgXW/dsh-msg-hub",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/AbcdefgXW/dsh-msg-hub/blob/0fd11c38fa21d5639ea53f067a221d8ff7d8675c/README.en.md",
+      "sha256": "846159e2d50586c25b0c769569b197353ae1192c0a7d2ea2ae6db6b87680f3d4",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-msg-hub",
+          "command": "dsh plugin --profile web add dsh-msg-hub",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AbcdefgXW/dsh-msg-hub",
+          "command": "dsh plugin --profile web add github:AbcdefgXW/dsh-msg-hub",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-msg-hub",
+      "version": "0.1.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AbcdefgXW/dsh-msg-hub",
+        "commit": "0fd11c38fa21d5639ea53f067a221d8ff7d8675c"
+      },
+      "manifestSha256": "30e0eb61e6843ebc7d8d5a49fea6aa466044e21e3282de58fcaa9329d2f382ba",
+      "manifestUrl": "https://github.com/AbcdefgXW/dsh-msg-hub/blob/0fd11c38fa21d5639ea53f067a221d8ff7d8675c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-msg-hub",
+      "origin": "npm",
+      "name": "dsh-msg-hub",
+      "version": "0.1.11",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "32d05f7d329eb267372e14ff0cb8c316a13ff325c1aa724edfda089b14722287"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AbcdefgXW/dsh-msg-hub",
+    "commit": "0fd11c38fa21d5639ea53f067a221d8ff7d8675c",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:41.712Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:09.952Z",
+  "coverageReviewedAt": "2026-10-17T17:12:27.276Z",
+  "contentReviewFlags": []
+}

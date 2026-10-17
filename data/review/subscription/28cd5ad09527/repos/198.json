@@ -1,0 +1,134 @@
+{
+  "full_name": "1692775560/dsh-Mimir-Academic-research",
+  "originalPosition": 17,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-mimir@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 198,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:27.606Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "84d73d994cda283f0ec272798287259f01089563e847a720b829f730e88354a8",
+      "url": "https://github.com/1692775560/dsh-Mimir-Academic-research/blob/b0c31cd51b70cbc5a5409e699d600e7bbc24ead0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mimir@latest",
+          "command": "dsh plugin --profile web add dsh-mimir@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mimir@0.21.1",
+          "command": "dsh plugin --profile web add dsh-mimir@0.21.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mimir@0.21.0",
+          "command": "dsh plugin --profile web add dsh-mimir@0.21.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "92fc6d4353459c6d0a27a701c4d551cae6f2a5707b210c36c17d1afc814a6eb2",
+      "url": "https://github.com/1692775560/dsh-Mimir-Academic-research/blob/b0c31cd51b70cbc5a5409e699d600e7bbc24ead0/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mimir@latest",
+          "command": "dsh plugin --profile web add dsh-mimir@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mimir@0.21.1",
+          "command": "dsh plugin --profile web add dsh-mimir@0.21.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mimir@0.21.0",
+          "command": "dsh plugin --profile web add dsh-mimir@0.21.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mimir",
+      "version": "0.21.1",
+      "path": "packages/mimir",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1692775560/dsh-Mimir-Academic-research",
+        "commit": "b0c31cd51b70cbc5a5409e699d600e7bbc24ead0",
+        "path": "packages/mimir"
+      },
+      "manifestSha256": "75edc11aea79d617002b389cb6c5afc7b1c67d2786e92edc15ab35cde2603b30",
+      "manifestUrl": "https://github.com/1692775560/dsh-Mimir-Academic-research/blob/b0c31cd51b70cbc5a5409e699d600e7bbc24ead0/packages/mimir/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-mimir@latest",
+      "origin": "npm",
+      "name": "dsh-mimir",
+      "version": "0.21.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9c8849ceeb7415fda7977587b6aac1c852de9d23bdbeebecd83ad2f7a36c04c9"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-mimir",
+      "version": "0.21.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-mimir",
+      "version": "0.21.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mimir@0.21.1",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mimir@0.21.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1692775560/dsh-Mimir-Academic-research",
+    "commit": "b0c31cd51b70cbc5a5409e699d600e7bbc24ead0",
+    "releaseTags": 31,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:42.874Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.331Z",
+  "contentReviewFlags": []
+}

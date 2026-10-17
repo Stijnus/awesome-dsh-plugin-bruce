@@ -1,0 +1,72 @@
+{
+  "full_name": "xmanrui/dsh-im",
+  "originalPosition": 5,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@xmanrui/dsh-im"
+  ],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:00.162Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "30a732e936993cccca8bff66951005a3cbf39e4e645408f2726bcd6d297f478c",
+      "url": "https://github.com/xmanrui/dsh-im/blob/2d0d67fda62b1534bcc5660da2659b498c8a1048/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xmanrui/dsh-im",
+          "command": "dsh plugin --profile web add -w @xmanrui/dsh-im",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xmanrui/dsh-im",
+      "version": "4.39.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xmanrui/dsh-im",
+        "commit": "2d0d67fda62b1534bcc5660da2659b498c8a1048"
+      },
+      "manifestSha256": "dc66944dd5acca71cde5b7666b227a14b391a735e040fe01bbf815a56404e7b6",
+      "manifestUrl": "https://github.com/xmanrui/dsh-im/blob/2d0d67fda62b1534bcc5660da2659b498c8a1048/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@xmanrui/dsh-im",
+      "origin": "npm",
+      "name": "@xmanrui/dsh-im",
+      "version": "4.39.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "5bffef00cb8ef0858addce537dc709c685086d1c9039a40a9ebcd9d5c2fb39dc"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xmanrui/dsh-im",
+    "commit": "2d0d67fda62b1534bcc5660da2659b498c8a1048",
+    "releaseTags": 101,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:10.821Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.644Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,134 @@
+{
+  "full_name": "Renzic-Stone/DSH-EasyRewrite",
+  "originalPosition": 452,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-easyrewrite",
+    "https://github.com/Renzic-Stone/DSH-EasyRewrite"
+  ],
+  "manualNote": null,
+  "ordinal": 518,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:42.269Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "adea26d9243d7e7a0b1140f2e9c31837ab966de2ca82163f79c5e9e6d81b7cce",
+      "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite/blob/8ccdaf46238c09536bd776937273fa9d9d67578b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-easyrewrite",
+          "command": "dsh plugin --profile web add dsh-easyrewrite",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
+          "command": "dsh plugin --profile web add github:Renzic-Stone/DSH-EasyRewrite",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite/blob/8ccdaf46238c09536bd776937273fa9d9d67578b/README.en.md",
+      "sha256": "88c776b8a9af78b01d38e28af59dadf528f3f70a906219f6a6d2d7cc588f60de",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-easyrewrite",
+          "command": "dsh plugin --profile web add dsh-easyrewrite",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
+          "command": "dsh plugin --profile web add github:Renzic-Stone/DSH-EasyRewrite",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite/blob/8ccdaf46238c09536bd776937273fa9d9d67578b/README.ja.md",
+      "sha256": "85dfc8d79ef677ad61d7924386881d9c7e8f126aae247ef3be4e60a3bac44c95",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-easyrewrite",
+          "command": "dsh plugin --profile web add dsh-easyrewrite",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
+          "command": "dsh plugin --profile web add github:Renzic-Stone/DSH-EasyRewrite",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-easyrewrite",
+      "version": "2.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
+        "commit": "8ccdaf46238c09536bd776937273fa9d9d67578b"
+      },
+      "manifestSha256": "5d7e1beb92f10c00f4af7155f0770dd9997b1d82816e197230af6839af2dcc8f",
+      "manifestUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite/blob/8ccdaf46238c09536bd776937273fa9d9d67578b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-easyrewrite",
+      "origin": "npm",
+      "name": "dsh-easyrewrite",
+      "version": "2.6.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "b1e1cf10d5680965e544db0798b26b145e1e564b191016a971af1b7ccc04720c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
+    "commit": "8ccdaf46238c09536bd776937273fa9d9d67578b",
+    "releaseTags": 44,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:50.463Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.ja.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.ja.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:13.374Z",
+  "coverageReviewedAt": "2026-10-17T17:12:30.701Z",
+  "contentReviewFlags": []
+}

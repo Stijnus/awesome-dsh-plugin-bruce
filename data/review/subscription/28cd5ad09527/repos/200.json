@@ -1,0 +1,181 @@
+{
+  "full_name": "omdsh-dev/DSH-better-sidebar",
+  "originalPosition": 22,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-better-sidebar@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:31.916Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "29b70846cc8b64b369b95e0f1dd587ecb6108e79746014ca35892f83c7b511bc",
+      "url": "https://github.com/omdsh-dev/DSH-better-sidebar/blob/83faf70940160e5cd4c5332f5400aa8f4dbbb6d6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-sidebar@latest",
+          "command": "dsh plugin --profile web add dsh-better-sidebar@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-sidebar@0.28.0",
+          "command": "dsh plugin --profile web add dsh-better-sidebar@0.28.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-sidebar@0.28.0-alpha.0",
+          "command": "dsh plugin --profile web add dsh-better-sidebar@0.28.0-alpha.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-sidebar@0.26.1",
+          "command": "dsh plugin --profile web add dsh-better-sidebar@0.26.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-sidebar@0.24.1",
+          "command": "dsh plugin --profile web add dsh-better-sidebar@0.24.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-sidebar@0.22.1",
+          "command": "dsh plugin --profile web add dsh-better-sidebar@0.22.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-sidebar@0.19.1",
+          "command": "dsh plugin --profile web add dsh-better-sidebar@0.19.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-sidebar",
+      "version": "0.28.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+        "commit": "83faf70940160e5cd4c5332f5400aa8f4dbbb6d6"
+      },
+      "manifestSha256": "d6f6223ac976ca769c64794f6c77d626717139197b19b98705df9266416e60ab",
+      "manifestUrl": "https://github.com/omdsh-dev/DSH-better-sidebar/blob/83faf70940160e5cd4c5332f5400aa8f4dbbb6d6/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-better-sidebar@latest",
+      "origin": "npm",
+      "name": "dsh-better-sidebar",
+      "version": "0.28.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a98cd854de0f96359b1e3e36f8bc1d6d0f92e86327904b49ee3551cb19467792"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-better-sidebar",
+      "version": "0.28.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-better-sidebar",
+      "version": "0.28.0-alpha.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-better-sidebar",
+      "version": "0.26.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-better-sidebar",
+      "version": "0.24.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-better-sidebar",
+      "version": "0.22.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-better-sidebar",
+      "version": "0.19.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-sidebar@0.28.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-sidebar@0.28.0-alpha.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-sidebar@0.26.1",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-sidebar@0.24.1",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-sidebar@0.22.1",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-sidebar@0.19.1",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+    "commit": "83faf70940160e5cd4c5332f5400aa8f4dbbb6d6",
+    "releaseTags": 43,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:41.226Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.487Z",
+  "contentReviewFlags": []
+}

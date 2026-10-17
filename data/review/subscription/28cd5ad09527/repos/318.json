@@ -1,0 +1,110 @@
+{
+  "full_name": "MichengAI/dsh-archive-manager",
+  "originalPosition": 166,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@michengai/dsh-archive-manager@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 318,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:15.911Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a3cf2a505be70de364b07758d2920708474bd7ed7c8ab95293ed50a1a4e006ba",
+      "url": "https://github.com/MichengAI/dsh-archive-manager/blob/3bfb7c4a04f9955ff36032718756b37f58e90b7d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-archive-manager@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-archive-manager@latest --registry=https://registry.npmjs.org/",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "2a131b557dabc4cfdda9eae8b0db0ac9f512fa745a7b52c2eba9612134ef7731",
+      "url": "https://github.com/MichengAI/dsh-archive-manager/blob/3bfb7c4a04f9955ff36032718756b37f58e90b7d/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-archive-manager@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-archive-manager@latest --registry=https://registry.npmjs.org/",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "url": "https://github.com/MichengAI/dsh-archive-manager/blob/3bfb7c4a04f9955ff36032718756b37f58e90b7d/README.ru.md",
+      "sha256": "f22fd9358e6c1f8442b588881b1b46958e139be2f97a136a7e14db93c0a40a98",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-archive-manager@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-archive-manager@latest --registry=https://registry.npmjs.org/",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-archive-manager",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-archive-manager",
+        "commit": "3bfb7c4a04f9955ff36032718756b37f58e90b7d"
+      },
+      "manifestSha256": "3bd50ace781523e269e918d7c87e95988671c47ba35a5a43762df30a5769325a",
+      "manifestUrl": "https://github.com/MichengAI/dsh-archive-manager/blob/3bfb7c4a04f9955ff36032718756b37f58e90b7d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@michengai/dsh-archive-manager@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-archive-manager",
+      "version": "1.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "098035edc9b2febde0a32f508d6bf5589d4f71cf752dc238c10dd7a015ee373e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-archive-manager",
+    "commit": "3bfb7c4a04f9955ff36032718756b37f58e90b7d",
+    "releaseTags": 63,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:27.375Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.ru.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.ru.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:01.505Z",
+  "coverageReviewedAt": "2026-10-17T17:12:14.690Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,78 @@
+{
+  "full_name": "CypherNaught-0x/DSH-Subagent-Model-Router",
+  "originalPosition": 541,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/CypherNaught-0x/DSH-Subagent-Model-Router"
+  ],
+  "manualNote": null,
+  "ordinal": 574,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:23.955Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9dde8c7bfb1b4ab45ae97561d86118287f1631a99c4ed9e72efed2a7b7f4562a",
+      "url": "https://github.com/CypherNaught-0x/DSH-Subagent-Model-Router/blob/432c0fdcb56699a7991fa780b57edfd2985d59ab/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-subagent-model-router",
+          "command": "dsh plugin --profile web add dsh-subagent-model-router",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-subagent-model-router",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CypherNaught-0x/DSH-Subagent-Model-Router",
+        "commit": "432c0fdcb56699a7991fa780b57edfd2985d59ab"
+      },
+      "manifestSha256": "52ae9e55b090401ffc34c9445f23d5a78a5695b44fb133b1b8133b1e047eecd1",
+      "manifestUrl": "https://github.com/CypherNaught-0x/DSH-Subagent-Model-Router/blob/432c0fdcb56699a7991fa780b57edfd2985d59ab/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-subagent-model-router",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/CypherNaught-0x/DSH-Subagent-Model-Router",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-subagent-model-router",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CypherNaught-0x/DSH-Subagent-Model-Router",
+    "commit": "432c0fdcb56699a7991fa780b57edfd2985d59ab",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:31.573Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.371Z",
+  "contentReviewFlags": []
+}

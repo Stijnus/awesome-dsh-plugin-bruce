@@ -1,0 +1,85 @@
+{
+  "full_name": "p2coder/dsh-task-control",
+  "originalPosition": 430,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/p2coder/dsh-task-control"
+  ],
+  "manualNote": null,
+  "ordinal": 504,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:18.281Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "27be5c917e929fed172a731c0d01da80d03920f0f6893f88a1e4dcd7710ed224",
+      "url": "https://github.com/p2coder/dsh-task-control/blob/c9caf481d907fd2e41f2c4ddb4ab68386eee3843/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/p2coder/dsh-task-control",
+          "command": "dsh plugin --profile web add github:p2coder/dsh-task-control",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/p2coder/dsh-task-control/blob/c9caf481d907fd2e41f2c4ddb4ab68386eee3843/README.en.md",
+      "sha256": "fbd999510436953657fd44f98112c02c3f5f056c5b1bb2b979d42c00839ce184",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/p2coder/dsh-task-control",
+          "command": "dsh plugin --profile web add github:p2coder/dsh-task-control",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-task-control",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/p2coder/dsh-task-control",
+        "commit": "c9caf481d907fd2e41f2c4ddb4ab68386eee3843"
+      },
+      "manifestSha256": "6ad27ac3342441da7121dd0da9c4ad82889d3d0c4f156379de51ed73769c7fb1",
+      "manifestUrl": "https://github.com/p2coder/dsh-task-control/blob/c9caf481d907fd2e41f2c4ddb4ab68386eee3843/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/p2coder/dsh-task-control",
+    "commit": "c9caf481d907fd2e41f2c4ddb4ab68386eee3843",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:26.319Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:11.374Z",
+  "coverageReviewedAt": "2026-10-17T17:12:29.651Z",
+  "contentReviewFlags": []
+}

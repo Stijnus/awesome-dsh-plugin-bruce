@@ -1,0 +1,355 @@
+{
+  "full_name": "Small-tailqwq/dsh-deep-whale",
+  "originalPosition": 32,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+    "https://github.com/Small-tailqwq/dsh-deep-whale#path:/maid-atelier",
+    "https://github.com/Small-tailqwq/dsh-deep-whale#path:/orca-link"
+  ],
+  "manualNote": null,
+  "ordinal": 208,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:27.869Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "81641cd9dd9f8d9e14a03c135a09df685dfc68585be4add9a5e8e1b230d3853a",
+      "url": "https://github.com/Small-tailqwq/dsh-deep-whale/blob/8f213d08f18ff664c2122a001af4455a9e05fa6d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/skin-manager",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#main&path:/skin-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/maid-atelier",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#main&path:/maid-atelier'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/orca-link",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#main&path:/orca-link'",
+          "profile": "web"
+        },
+        {
+          "install": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+          "command": "dsh plugin --profile web add '@smalltailqwq/dsh-client-ui-skin-deep-whale-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+          "command": "dsh plugin --profile web add '@smalltailqwq/dsh-client-ui-skin-maid-atelier'",
+          "profile": "web"
+        },
+        {
+          "install": "@smalltailqwq/dsh-client-ui-skin-orca-link",
+          "command": "dsh plugin --profile web add '@smalltailqwq/dsh-client-ui-skin-orca-link'",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Small-tailqwq/dsh-deep-whale/blob/8f213d08f18ff664c2122a001af4455a9e05fa6d/README.en.md",
+      "sha256": "d895e6726fc5a8a79f042436aaa646b1939da628307145fd88cc9a30e9b6b5ee",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/skin-manager",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#main&path:/skin-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/maid-atelier",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#main&path:/maid-atelier'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/orca-link",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#main&path:/orca-link'",
+          "profile": "web"
+        },
+        {
+          "install": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+          "command": "dsh plugin --profile web add '@smalltailqwq/dsh-client-ui-skin-deep-whale-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+          "command": "dsh plugin --profile web add '@smalltailqwq/dsh-client-ui-skin-maid-atelier'",
+          "profile": "web"
+        },
+        {
+          "install": "@smalltailqwq/dsh-client-ui-skin-orca-link",
+          "command": "dsh plugin --profile web add '@smalltailqwq/dsh-client-ui-skin-orca-link'",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.vi.md",
+      "url": "https://github.com/Small-tailqwq/dsh-deep-whale/blob/8f213d08f18ff664c2122a001af4455a9e05fa6d/README.vi.md",
+      "sha256": "8d9be09580fbe14f5e57a71c0aae2c0633c680e7d9a83d8206b0dd58b2a94847",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/skin-manager",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#main&path:/skin-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/maid-atelier",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#main&path:/maid-atelier'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/orca-link",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#main&path:/orca-link'",
+          "profile": "web"
+        },
+        {
+          "install": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+          "command": "dsh plugin --profile web add '@smalltailqwq/dsh-client-ui-skin-deep-whale-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+          "command": "dsh plugin --profile web add '@smalltailqwq/dsh-client-ui-skin-maid-atelier'",
+          "profile": "web"
+        },
+        {
+          "install": "@smalltailqwq/dsh-client-ui-skin-orca-link",
+          "command": "dsh plugin --profile web add '@smalltailqwq/dsh-client-ui-skin-orca-link'",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+      "version": "0.1.8",
+      "path": "maid-atelier",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+        "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+        "path": "maid-atelier"
+      },
+      "manifestSha256": "b8b2326107810cfb1ac394ea8a5d4f8ab51f9ec4e5e73cdf4bf89a20679181ec",
+      "manifestUrl": "https://github.com/Small-tailqwq/dsh-deep-whale/blob/8f213d08f18ff664c2122a001af4455a9e05fa6d/maid-atelier/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@smalltailqwq/dsh-client-ui-skin-orca-link",
+      "version": "0.1.8",
+      "path": "orca-link",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+        "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+        "path": "orca-link"
+      },
+      "manifestSha256": "c3d160bfb1075f4127486100869cd2ea1cbe76874a0726ee88ca71a7605bef69",
+      "manifestUrl": "https://github.com/Small-tailqwq/dsh-deep-whale/blob/8f213d08f18ff664c2122a001af4455a9e05fa6d/orca-link/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+      "version": "0.1.7",
+      "path": "skin-manager",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+        "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+        "path": "skin-manager"
+      },
+      "manifestSha256": "6913404c59d7604b7dec7d53c36e813cf659cae40fbf62f31b32f97d70eba471",
+      "manifestUrl": "https://github.com/Small-tailqwq/dsh-deep-whale/blob/8f213d08f18ff664c2122a001af4455a9e05fa6d/skin-manager/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+      "origin": "git_target",
+      "path": "skin-manager",
+      "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+      "name": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+      "version": "0.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/maid-atelier",
+      "origin": "git_target",
+      "path": "maid-atelier",
+      "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+      "name": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+      "version": "0.1.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/orca-link",
+      "origin": "git_target",
+      "path": "orca-link",
+      "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+      "name": "@smalltailqwq/dsh-client-ui-skin-orca-link",
+      "version": "0.1.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/skin-manager",
+      "origin": "git_target",
+      "path": "skin-manager",
+      "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+      "name": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+      "version": "0.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/maid-atelier",
+      "origin": "git_target",
+      "path": "maid-atelier",
+      "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+      "name": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+      "version": "0.1.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/orca-link",
+      "origin": "git_target",
+      "path": "orca-link",
+      "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+      "name": "@smalltailqwq/dsh-client-ui-skin-orca-link",
+      "version": "0.1.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+      "version": "0.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+      "version": "0.1.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@smalltailqwq/dsh-client-ui-skin-orca-link",
+      "version": "0.1.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/maid-atelier",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/orca-link",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/skin-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/maid-atelier",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#main&path:/orca-link",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@smalltailqwq/dsh-client-ui-skin-orca-link",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+    "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:18.184Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.vi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.vi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:55.094Z",
+  "coverageReviewedAt": "2026-10-17T17:12:10.617Z",
+  "contentReviewFlags": []
+}

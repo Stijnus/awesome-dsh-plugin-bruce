@@ -1,0 +1,125 @@
+{
+  "full_name": "ccch1mneyyy/working-activity",
+  "originalPosition": 112,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <你的 profile> add dsh-working-activity」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 161,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:01.086Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a780aa921c5b03b6c1ee7130283190bce4ec798e2e63be551875b2aed42db161",
+      "url": "https://github.com/ccch1mneyyy/working-activity/blob/441540af310ad90c475140c3cf45fb70c2739298/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-working-activity",
+          "command": "dsh plugin --profile <profile> add dsh-working-activity",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "packages/activity/working-activity/README.md",
+      "url": "https://github.com/ccch1mneyyy/working-activity/blob/441540af310ad90c475140c3cf45fb70c2739298/packages/activity/working-activity/README.md",
+      "sha256": "9fdabbbf238e2cab6877a2c7448146e59587e93eab9e41c24572f902ee34a9cc",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-working-activity",
+          "command": "dsh plugin --profile <profile> add dsh-working-activity",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "packages/activity/working-activity/README.zh.md",
+      "url": "https://github.com/ccch1mneyyy/working-activity/blob/441540af310ad90c475140c3cf45fb70c2739298/packages/activity/working-activity/README.zh.md",
+      "sha256": "f1a2ddfd990e17e39a2a1c8e1afee4828f49d5184a16e6a8c03417ed4f7fd28c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-working-activity",
+      "version": "0.5.1",
+      "path": "packages/activity/working-activity",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ccch1mneyyy/working-activity",
+        "commit": "441540af310ad90c475140c3cf45fb70c2739298",
+        "path": "packages/activity/working-activity"
+      },
+      "manifestSha256": "0a1ad270fadc2117dce05091ce9d63b2ded3ef9df98736e1e9932bf0b50a3611",
+      "manifestUrl": "https://github.com/ccch1mneyyy/working-activity/blob/441540af310ad90c475140c3cf45fb70c2739298/packages/activity/working-activity/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-working-activity",
+      "origin": "npm",
+      "name": "dsh-working-activity",
+      "version": "0.5.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "2b0c0861e74a66ceeee044b4b9266595c864c51aa1bc7ebf4cc4c066b9453fe3"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-working-activity",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ccch1mneyyy/working-activity",
+    "commit": "441540af310ad90c475140c3cf45fb70c2739298",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:13.398Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "packages/activity/working-activity/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/activity/working-activity/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/activity/working-activity/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/activity/working-activity/README.zh.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:53.468Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.632Z",
+  "contentReviewFlags": []
+}

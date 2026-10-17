@@ -1,0 +1,86 @@
+{
+  "full_name": "ZSeven-W/dsh-ios",
+  "originalPosition": 232,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@zseven-w/dsh-ios@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 364,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:26.460Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5aafbf63516ad1b3fd8de9429aa75c1010bea8a4b9674568c0b33ba4cdd8431f",
+      "url": "https://github.com/ZSeven-W/dsh-ios/blob/d9a9731ccd73b38858fcfbf2f35d7120a861654c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-ios@latest",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-ios@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d3da508fac24a8dee1f84e93c29c3bce07977907b043ef4770e274f574fc4ba8",
+      "url": "https://github.com/ZSeven-W/dsh-ios/blob/d9a9731ccd73b38858fcfbf2f35d7120a861654c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-ios@latest",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-ios@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zseven-w/dsh-ios",
+      "version": "0.1.0-rc.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZSeven-W/dsh-ios",
+        "commit": "d9a9731ccd73b38858fcfbf2f35d7120a861654c"
+      },
+      "manifestSha256": "bc2b75cf6547c9bdb2202968ecdf993d655e6a06efb00e9284871fee73cc510b",
+      "manifestUrl": "https://github.com/ZSeven-W/dsh-ios/blob/d9a9731ccd73b38858fcfbf2f35d7120a861654c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zseven-w/dsh-ios@latest",
+      "origin": "npm",
+      "name": "@zseven-w/dsh-ios",
+      "version": "0.1.0-rc.10",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3b304b595c8a9e15ea9471b8688d82c230afc2e7f7a06d1150265209d7524f6b"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZSeven-W/dsh-ios",
+    "commit": "d9a9731ccd73b38858fcfbf2f35d7120a861654c",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:35.932Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:17.605Z",
+  "contentReviewFlags": []
+}

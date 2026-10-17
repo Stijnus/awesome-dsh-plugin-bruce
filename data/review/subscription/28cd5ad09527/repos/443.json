@@ -1,0 +1,136 @@
+{
+  "full_name": "Lbunc/dsh-local-llm-controller",
+  "originalPosition": 350,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-local-llm-controller"
+  ],
+  "manualNote": null,
+  "ordinal": 443,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:27.994Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "abb804e1782698b4dee069c07402b8e788823c196a94d4643e92f3e64917db6b",
+      "url": "https://github.com/Lbunc/dsh-local-llm-controller/blob/00c7da1a8a56c16d018138bf29a8130af629e343/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-local-llm-controller",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-local-llm-controller",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-local-llm-controller@2.1.2",
+          "command": "dsh plugin --profile web add dsh-local-llm-controller@2.1.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Lbunc/dsh-local-llm-controller/blob/00c7da1a8a56c16d018138bf29a8130af629e343/README.en.md",
+      "sha256": "04c2ae072b292b2b1e2f57cf506a45b0bf70ec6435e1a2e450ce0777dde66ecc",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-local-llm-controller",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-local-llm-controller",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-local-llm-controller@2.1.2",
+          "command": "dsh plugin --profile web add dsh-local-llm-controller@2.1.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/measurements/README.md",
+      "url": "https://github.com/Lbunc/dsh-local-llm-controller/blob/00c7da1a8a56c16d018138bf29a8130af629e343/docs/measurements/README.md",
+      "sha256": "1b2f397b450996eecf91648d17c50af8d35e8fe69cc26b05bfcb9285774c142a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-local-llm-controller",
+      "version": "2.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lbunc/dsh-local-llm-controller",
+        "commit": "00c7da1a8a56c16d018138bf29a8130af629e343"
+      },
+      "manifestSha256": "463ff520800ed01b02f523839298035fbca05a1a9f4658b40ca77cc346f4ab34",
+      "manifestUrl": "https://github.com/Lbunc/dsh-local-llm-controller/blob/00c7da1a8a56c16d018138bf29a8130af629e343/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-local-llm-controller",
+      "origin": "npm",
+      "name": "dsh-local-llm-controller",
+      "version": "2.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a5b707333b527cffaced0d73db1cb385a2cad53c23317aad6e0b24c6242465fd"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-local-llm-controller",
+      "version": "2.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-local-llm-controller@2.1.2",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lbunc/dsh-local-llm-controller",
+    "commit": "00c7da1a8a56c16d018138bf29a8130af629e343",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:36.060Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/measurements/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/measurements/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:08.677Z",
+  "coverageReviewedAt": "2026-10-17T17:12:24.598Z",
+  "contentReviewFlags": []
+}

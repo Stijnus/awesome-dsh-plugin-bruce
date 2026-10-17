@@ -1,0 +1,104 @@
+{
+  "full_name": "sjh9714/dsh-win32",
+  "originalPosition": 51,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-win32"
+  ],
+  "manualNote": null,
+  "ordinal": 223,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:57.793Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d86ff1473522bf72e820bb138dd5d6220eb4107f059ee76f4964997d233c0347",
+      "url": "https://github.com/sjh9714/dsh-win32/blob/ebf049efd9609bd0ba1f76e069d01cec322fc539/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-win32",
+          "command": "dsh plugin --profile web add dsh-win32",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2f7fe5bff204aec58a81415df1c65301364e1e62d6561ea59ad430ec46ed03e5",
+      "url": "https://github.com/sjh9714/dsh-win32/blob/ebf049efd9609bd0ba1f76e069d01cec322fc539/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.zh.md",
+      "url": "https://github.com/sjh9714/dsh-win32/blob/ebf049efd9609bd0ba1f76e069d01cec322fc539/docs/README.zh.md",
+      "sha256": "2cf518eac7f8bf0e9d4bd1939a38d459ac462e4e992710376cad9f014667c514",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-win32",
+          "command": "dsh plugin --profile web add dsh-win32",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-win32",
+      "version": "0.17.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sjh9714/dsh-win32",
+        "commit": "ebf049efd9609bd0ba1f76e069d01cec322fc539"
+      },
+      "manifestSha256": "806c79a4bef6cf34025d00118486d8408c4de022b3d7e3cde38c327211f98fac",
+      "manifestUrl": "https://github.com/sjh9714/dsh-win32/blob/ebf049efd9609bd0ba1f76e069d01cec322fc539/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-win32",
+      "origin": "npm",
+      "name": "dsh-win32",
+      "version": "0.17.14",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "deccf7db7178a60fd880df2521d2ea86174f6b2f3b175aeb9280525988999eb3"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sjh9714/dsh-win32",
+    "commit": "ebf049efd9609bd0ba1f76e069d01cec322fc539",
+    "releaseTags": 49,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:07.293Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.zh.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:55.216Z",
+  "coverageReviewedAt": "2026-10-17T17:12:08.994Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,233 @@
+{
+  "full_name": "FeatherHunter/dsh-mattpocock-skills-deck",
+  "originalPosition": 362,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-mattpocock-skills-deck",
+    "dsh-mattpocock-skills-deck"
+  ],
+  "manualNote": null,
+  "ordinal": 455,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:48.359Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3a4f2b22d330c09b37fc0242bf7754b615274586f962b394cea209871a81c4c6",
+      "url": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck/blob/fac4dbb8fa13620be56503ac60689878ad87dece/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mattpocock-skills-deck",
+          "command": "dsh plugin --profile web add dsh-mattpocock-skills-deck",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mattpocock-skills-deck",
+          "command": "dsh plugin --profile desktop add dsh-mattpocock-skills-deck",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-mattpocock-skills-deck@1.9.0-beta.4",
+          "command": "dsh plugin --profile web add dsh-mattpocock-skills-deck@1.9.0-beta.4 --registry https://registry.npmjs.org",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mattpocock-skills-deck@latest",
+          "command": "dsh plugin --profile web add dsh-mattpocock-skills-deck@latest --registry https://registry.npmjs.org",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.en.md",
+      "url": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck/blob/fac4dbb8fa13620be56503ac60689878ad87dece/docs/README.en.md",
+      "sha256": "8ac4f9dd37010e6ff33fc471f5a5407ed6cd4fbd002320c9efd1d4614a07e678",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mattpocock-skills-deck",
+          "command": "dsh plugin --profile desktop add dsh-mattpocock-skills-deck",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-mattpocock-skills-deck",
+          "command": "dsh plugin --profile web add dsh-mattpocock-skills-deck",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mattpocock-skills-deck@1.9.0-beta.4",
+          "command": "dsh plugin --profile desktop add dsh-mattpocock-skills-deck@1.9.0-beta.4 --registry https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-mattpocock-skills-deck@latest",
+          "command": "dsh plugin --profile web add dsh-mattpocock-skills-deck@latest --registry https://registry.npmjs.org",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mattpocock-skills-deck",
+      "version": "1.9.0-beta.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck",
+        "commit": "fac4dbb8fa13620be56503ac60689878ad87dece"
+      },
+      "manifestSha256": "b92fe933e90e46297883e59e9025fdc65b14ac3f07203b7e6012b2b54f482698",
+      "manifestUrl": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck/blob/fac4dbb8fa13620be56503ac60689878ad87dece/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-mattpocock-skills-deck",
+      "origin": "npm",
+      "name": "dsh-mattpocock-skills-deck",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mattpocock-skills-deck",
+        "title": "dsh-mattpocock-skills-deck",
+        "description": "安装即自带mattpocock/skills v1.3.1的27个工程与效率技能，无需手动装技能。400亿token打造本插件，在原始技能之上提供10倍的开发效率，也能帮助新手更快上手该技能套件。全力支持GitHub issue；Markdown为预览版；GitLab暂不支持。感谢您的使用和支持💗",
+        "homepage": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck",
+        "repository": {
+          "url": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "plugin",
+            "mattpocock",
+            "skills",
+            "wayfinder",
+            "triage",
+            "grilling",
+            "handoff",
+            "issue-tracker",
+            "deck"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.9.0-beta.3",
+            "publishTimestamp": 1792254207,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e60c204b51b6355e91f9d23a270794e1399f1598e2d2fedff6ce896bbc096ef3",
+      "evidence": [
+        {
+          "name": "dsh-mattpocock-skills-deck",
+          "version": "1.9.0-beta.3",
+          "tarball": "https://registry.npmjs.org/dsh-mattpocock-skills-deck/-/dsh-mattpocock-skills-deck-1.9.0-beta.3.tgz",
+          "integrity": "sha512-fwtXiXRdIG+naBBPTpWqxR15LDS4XT9nWxlf1tJYLDUOm9mhJclBAnLHZw0x8SkimH6vJ4611ksxDqxLKjjT7w=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-mattpocock-skills-deck",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mattpocock-skills-deck",
+        "title": "dsh-mattpocock-skills-deck",
+        "description": "安装即自带mattpocock/skills v1.3.1的27个工程与效率技能，无需手动装技能。400亿token打造本插件，在原始技能之上提供10倍的开发效率，也能帮助新手更快上手该技能套件。全力支持GitHub issue；Markdown为预览版；GitLab暂不支持。感谢您的使用和支持💗",
+        "homepage": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck",
+        "repository": {
+          "url": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "plugin",
+            "mattpocock",
+            "skills",
+            "wayfinder",
+            "triage",
+            "grilling",
+            "handoff",
+            "issue-tracker",
+            "deck"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.9.0-beta.4",
+            "publishTimestamp": 1792256562,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "name": "dsh-mattpocock-skills-deck",
+          "version": "1.9.0-beta.4",
+          "tarball": "https://registry.npmjs.org/dsh-mattpocock-skills-deck/-/dsh-mattpocock-skills-deck-1.9.0-beta.4.tgz",
+          "integrity": "sha512-nfilG36tXok4uorORIDeE3SNrUphLYMgu3D5BA1Kd1I7O2kcJHnDH7HmUcsT4NE0G26xuP3vVhVX23ztqM5Xig=="
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mattpocock-skills-deck@1.9.0-beta.4",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mattpocock-skills-deck@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck",
+    "commit": "fac4dbb8fa13620be56503ac60689878ad87dece",
+    "releaseTags": 38,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:02:04.532Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:09.573Z",
+  "coverageReviewedAt": "2026-10-17T17:12:28.623Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,318 @@
+{
+  "full_name": "PerryLink/dsh-library",
+  "originalPosition": 407,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-library#main",
+    "dsh-library"
+  ],
+  "manualNote": null,
+  "ordinal": 486,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:46.119Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "86c7d5a5707b2b045f5eaa3fa2f7c8585ee506a0792cd7595d04e7286dc6ee06",
+      "url": "https://github.com/PerryLink/dsh-library/blob/d23c93fe873d9712f8ed625e4032ce62a7c9c04b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-library",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-library",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-library",
+          "command": "dsh plugin --profile web add dsh-library",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-library/blob/d23c93fe873d9712f8ed625e4032ce62a7c9c04b/README-zh.md",
+      "sha256": "312281f26beaa8a37a852fde67c06c48ee62479bd2e65a65f8c6f81628facc57",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-library",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-library",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-library",
+          "command": "dsh plugin --profile web add dsh-library",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-library/blob/d23c93fe873d9712f8ed625e4032ce62a7c9c04b/README-es.md",
+      "sha256": "2abcbb1250a4dc7a9ee686d6a3929b0248b40a2ab9182d83954f59c51836a24e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-library",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-library",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-library",
+          "command": "dsh plugin --profile web add dsh-library",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-library/blob/d23c93fe873d9712f8ed625e4032ce62a7c9c04b/README-pt.md",
+      "sha256": "2ddfa01259ce1c07fb30b7b6162dbd5695511d41c447a8743f24174d6cf132c5",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-library",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-library",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-library",
+          "command": "dsh plugin --profile web add dsh-library",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-library/blob/d23c93fe873d9712f8ed625e4032ce62a7c9c04b/README-hi.md",
+      "sha256": "b7e48d55861fa253c7c18ad3446c6e4957f927a9c04b84ad2e2f7881b4f952ad",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-library",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-library",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-library",
+          "command": "dsh plugin --profile web add dsh-library",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-library",
+      "version": "0.2.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-library",
+        "commit": "d23c93fe873d9712f8ed625e4032ce62a7c9c04b"
+      },
+      "manifestSha256": "5951673a461e20ef53601e7c7de8f3a219dadbcdc17546b5cfe208cd577107a5",
+      "manifestUrl": "https://github.com/PerryLink/dsh-library/blob/d23c93fe873d9712f8ed625e4032ce62a7c9c04b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-library",
+        "versions": [
+          {
+            "version": "0.2.20",
+            "publishTimestamp": 1791813000,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-library",
+              "commit": "d23c93fe873d9712f8ed625e4032ce62a7c9c04b"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-library#main",
+      "origin": "git_target",
+      "name": "dsh-library",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-library",
+        "title": "dsh-library",
+        "description": "Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking, relevance filtering and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose —SQLite-backed index via the storage domain, local embedding, zero model downloads",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-library#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-library"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "rag",
+            "knowledge-base",
+            "retrieval",
+            "embedding",
+            "vector-search",
+            "citation-validation",
+            "document-library"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.20",
+            "publishTimestamp": 1791813000,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-library",
+              "commit": "d23c93fe873d9712f8ed625e4032ce62a7c9c04b"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "d23c93fe873d9712f8ed625e4032ce62a7c9c04b",
+          "name": "dsh-library",
+          "version": "0.2.20",
+          "url": "https://github.com/PerryLink/dsh-library",
+          "manifestSha256": "5951673a461e20ef53601e7c7de8f3a219dadbcdc17546b5cfe208cd577107a5",
+          "publishTimestamp": 1791813000
+        }
+      ]
+    },
+    {
+      "target": "dsh-library",
+      "origin": "npm",
+      "name": "dsh-library",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-library",
+        "title": "dsh-library",
+        "description": "Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking, relevance filtering and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose —SQLite-backed index via the storage domain, local embedding, zero model downloads",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-library#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-library"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "rag",
+            "knowledge-base",
+            "retrieval",
+            "embedding",
+            "vector-search",
+            "citation-validation",
+            "document-library"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.20",
+            "publishTimestamp": 1791594250,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9f514b2fc983c1f8e478b0e5886eecd656613dfff26eab2c9a60259c329e118b",
+      "evidence": [
+        {
+          "name": "dsh-library",
+          "version": "0.2.20",
+          "tarball": "https://registry.npmjs.org/dsh-library/-/dsh-library-0.2.20.tgz",
+          "integrity": "sha512-87Xzt1mVhPO63wgpY1VFMox7k83kMUreO40oF0jJ1VaH5ZpruIWkEGA8hj7eBurSNf6gmVAXjGZIC451Q+Mi1Q=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-library#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-library",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-library",
+    "commit": "d23c93fe873d9712f8ed625e4032ce62a7c9c04b",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:03:05.749Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.090Z",
+  "coverageReviewedAt": "2026-10-17T17:12:29.375Z",
+  "contentReviewFlags": []
+}

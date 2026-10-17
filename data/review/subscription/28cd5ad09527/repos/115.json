@@ -1,0 +1,124 @@
+{
+  "full_name": "zaofan-make/dsh-qqbot",
+  "originalPosition": 496,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:27.417Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b75a02cda544bf54c2a34ff87ce0a8c37d7aa301a812c4ce59caea47f5ea6d30",
+      "url": "https://github.com/zaofan-make/dsh-qqbot/blob/35d14fba3427d5917d12049f04993f8601e867c4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zaofan/dsh-qqbot",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @zaofan/dsh-qqbot",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "4b873adb0cc5cf4eb77837f27b47757f5ae2dc335581be95e401b0aca3b6b71e",
+      "url": "https://github.com/zaofan-make/dsh-qqbot/blob/35d14fba3427d5917d12049f04993f8601e867c4/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zaofan/dsh-qqbot",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @zaofan/dsh-qqbot",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/ext-hooks/README.md",
+      "url": "https://github.com/zaofan-make/dsh-qqbot/blob/35d14fba3427d5917d12049f04993f8601e867c4/examples/ext-hooks/README.md",
+      "sha256": "de5cb99abaf3b70ddc79aa01147997b65058adc4dbbc2587dbb38ba93c839fa0",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/ext-inbound/README.md",
+      "url": "https://github.com/zaofan-make/dsh-qqbot/blob/35d14fba3427d5917d12049f04993f8601e867c4/examples/ext-inbound/README.md",
+      "sha256": "7a3581882f1849c3c9e36194f32c4dda9e3266b1c5cfc3b43e10e4571fa7a21b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zaofan/dsh-qqbot",
+      "version": "1.10.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zaofan-make/dsh-qqbot",
+        "commit": "35d14fba3427d5917d12049f04993f8601e867c4"
+      },
+      "manifestSha256": "d2a16d091b8bc4d50fef8082117582390d5a90bd3b7bf2d0234910bcfd6940e7",
+      "manifestUrl": "https://github.com/zaofan-make/dsh-qqbot/blob/35d14fba3427d5917d12049f04993f8601e867c4/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zaofan/dsh-qqbot",
+      "origin": "npm",
+      "name": "@zaofan/dsh-qqbot",
+      "version": "1.10.10",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "33ba2ea43cbc999460690ad550534a029d96e6c4f6c615812ed7882b36f47da6"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zaofan/dsh-qqbot",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zaofan-make/dsh-qqbot",
+    "commit": "35d14fba3427d5917d12049f04993f8601e867c4",
+    "releaseTags": 111,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:37.725Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "examples/ext-hooks/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/ext-inbound/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/ext-hooks/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/ext-inbound/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:52.076Z",
+  "coverageReviewedAt": "2026-10-17T17:12:06.585Z",
+  "contentReviewFlags": []
+}

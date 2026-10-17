@@ -1,0 +1,53 @@
+{
+  "full_name": "lusblead/dsh-Kingdom",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 28,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:48.099Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ea7ff79e3b13296849f4b93856085f796a68e2d45eb03056cfff303308ac4035",
+      "url": "https://github.com/lusblead/dsh-Kingdom/blob/8d6a3f5e97af8878e30b4cc734e4762f15439fcd/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-kingdom",
+      "version": "3.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lusblead/dsh-Kingdom",
+        "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd"
+      },
+      "manifestSha256": "95beb86e00400257373a21cef46545282bac204b1ecf7fd78e23cfaf769f8f22",
+      "manifestUrl": "https://github.com/lusblead/dsh-Kingdom/blob/8d6a3f5e97af8878e30b4cc734e4762f15439fcd/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lusblead/dsh-Kingdom",
+    "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:57.005Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:03.843Z",
+  "contentReviewFlags": []
+}

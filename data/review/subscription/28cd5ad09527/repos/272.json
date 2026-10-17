@@ -1,0 +1,382 @@
+{
+  "full_name": "hyzyn/dsh-plugin-kit",
+  "originalPosition": 109,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@hyzyn/dsh-plugin-kit"
+  ],
+  "manualNote": null,
+  "ordinal": 272,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:29.114Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "17319d048fe88083457fe9a78c5d68b205c45829b3bc62088e0ca7461618f83d",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@hyzyn/dsh-plugin-kit",
+          "command": "dsh plugin --profile web add @hyzyn/dsh-plugin-kit",
+          "profile": "web"
+        },
+        {
+          "install": "@hyzyn/dsh-kit-settings",
+          "command": "dsh plugin --profile web add @hyzyn/dsh-kit-settings",
+          "profile": "web"
+        },
+        {
+          "install": "@hyzyn/dsh-docker",
+          "command": "dsh plugin --profile web add @hyzyn/dsh-docker",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/README.en.md",
+      "sha256": "fb5f3ba12c7ffd55b5cd36cb524051b611060b39d23db31d74daee6419f96a92",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@hyzyn/dsh-plugin-kit",
+          "command": "dsh plugin --profile web add @hyzyn/dsh-plugin-kit",
+          "profile": "web"
+        },
+        {
+          "install": "@hyzyn/dsh-kit-settings",
+          "command": "dsh plugin --profile web add @hyzyn/dsh-kit-settings",
+          "profile": "web"
+        },
+        {
+          "install": "@hyzyn/dsh-docker",
+          "command": "dsh plugin --profile web add @hyzyn/dsh-docker",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/kit/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/kit/README.md",
+      "sha256": "943ac49dbd4747f5f718fd7c68f4aae884f66fae0dbd129ed184131622035206",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/env/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/env/README.md",
+      "sha256": "201b4bead8fda3ad387d8a227e0819cc305adfe83c1e1ff5ee7ed3dcc6b5b289",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/mcp/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/mcp/README.md",
+      "sha256": "108755da3bd1387c2def651fa9750ea2f36c7b4211c2864d1a294ee2945d2739",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/prompt/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/prompt/README.md",
+      "sha256": "dd2427a421bd4d3cfb536435accce18f99c3d324df99ff5664727669be92b3e9",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/profile/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/profile/README.md",
+      "sha256": "d8db908b640abbe6f1ae25ad6e27c05137b957fae214ee2c782df9b898ce72d7",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/kit-settings/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/kit-settings/README.md",
+      "sha256": "bfb31da2ca23d106262f0c19cb3971a9e1483236ca5c8bfed1a86fc116c6df7e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@hyzyn/dsh-kit-settings",
+          "command": "dsh plugin --profile web add @hyzyn/dsh-kit-settings",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/rss/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/rss/README.md",
+      "sha256": "5c20ef5ee39fb295816b89087400a192f5e44eaf980c8bc9fc3144499395b610",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/search/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/search/README.md",
+      "sha256": "f80927e74c0c4f94963d9898c30a2834d0a148a922df1dbecc2ca36e9d18a892",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/codegraph/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/codegraph/README.md",
+      "sha256": "7aa6e68e7a71f5a772cfe07137eb2f1aadd6c344a26a4efa67f7c96243e570dc",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/tty/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/tty/README.md",
+      "sha256": "498129b6f48562533f5a32396b8f906851f837c612eefb507243faff7021fee4",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/docker/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/docker/README.md",
+      "sha256": "e06a4279675d1c922df998142fd4793c2644b1364221ec792d1ad2f6aa95de71",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@hyzyn/dsh-docker",
+          "command": "dsh plugin --profile web add @hyzyn/dsh-docker",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/all/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/packages/all/README.md",
+      "sha256": "c3ffafd219cc63ea9982892e3fd150a7adbca7e6fe920a9c30dbe819e148cfb3",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "scripts/windows/README.md",
+      "url": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/scripts/windows/README.md",
+      "sha256": "23b2fd808056e6714bd9df727c8124e9d342db6ff84198d2183f60adb8a1f1e9",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@deepseek-ai/dsh-web-app@0.1.7-rc.2",
+          "command": "dsh plugin --profile compat add \"@deepseek-ai/dsh-web-app@0.1.7-rc.2\"",
+          "profile": "compat"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@hyzyn/dsh-plugin-kit",
+      "version": "0.1.56",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hyzyn/dsh-plugin-kit",
+        "commit": "e43a0a44ddad499b41fcb760f11ad5dffb2a6117"
+      },
+      "manifestSha256": "6fdaf9f8ce6dce448ff359898a222bb331017b20dbb9eabea2ec9883d86c29dc",
+      "manifestUrl": "https://github.com/hyzyn/dsh-plugin-kit/blob/e43a0a44ddad499b41fcb760f11ad5dffb2a6117/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@hyzyn/dsh-plugin-kit",
+      "origin": "npm",
+      "name": "@hyzyn/dsh-plugin-kit",
+      "version": "0.1.56",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a9c729c80f16133cd7b72d0b9622b5185d26311db7ca914e79b689fb0dab88a0"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@hyzyn/dsh-kit-settings",
+      "version": "0.2.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@hyzyn/dsh-docker",
+      "version": "0.13.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@deepseek-ai/dsh-web-app",
+      "version": "0.1.7-rc.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hyzyn/dsh-kit-settings",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hyzyn/dsh-docker",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@deepseek-ai/dsh-web-app@0.1.7-rc.2",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hyzyn/dsh-plugin-kit",
+    "commit": "e43a0a44ddad499b41fcb760f11ad5dffb2a6117",
+    "releaseTags": 48,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:37.806Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/kit/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/env/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/mcp/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/prompt/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/profile/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/kit-settings/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/rss/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/search/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/codegraph/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/tty/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/docker/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/all/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "scripts/windows/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/kit/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/env/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/mcp/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/prompt/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/profile/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/kit-settings/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/rss/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/search/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/codegraph/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/tty/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/docker/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/all/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "scripts/windows/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:07.090Z",
+  "coverageReviewedAt": "2026-10-17T17:12:15.494Z",
+  "contentReviewFlags": []
+}

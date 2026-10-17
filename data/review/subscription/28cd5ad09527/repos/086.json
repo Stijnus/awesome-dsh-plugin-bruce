@@ -1,0 +1,61 @@
+{
+  "full_name": "Mr-remon219/search-boost",
+  "originalPosition": 376,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 86,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:32.606Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "39f68bff67678cebf192bd59c3684006507f90318cc7281089328c2eef163db7",
+      "url": "https://github.com/Mr-remon219/search-boost/blob/a218d8a5002944f9fc73c24a330f2cb144573740/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "f8f065d639731be154759de0fa73212159f15dde0414c87f823f4969f1aa1362",
+      "url": "https://github.com/Mr-remon219/search-boost/blob/a218d8a5002944f9fc73c24a330f2cb144573740/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "search-boost",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mr-remon219/search-boost",
+        "commit": "a218d8a5002944f9fc73c24a330f2cb144573740"
+      },
+      "manifestSha256": "f94e1a0993574e8a57166b04f4d0ffaf2d34169314ab33837242dd88880f8493",
+      "manifestUrl": "https://github.com/Mr-remon219/search-boost/blob/a218d8a5002944f9fc73c24a330f2cb144573740/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mr-remon219/search-boost",
+    "commit": "a218d8a5002944f9fc73c24a330f2cb144573740",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:42.938Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.558Z",
+  "contentReviewFlags": []
+}

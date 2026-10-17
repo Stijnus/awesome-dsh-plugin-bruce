@@ -1,0 +1,161 @@
+{
+  "full_name": "lamost423/dsh-maze",
+  "originalPosition": 61,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-maze"
+  ],
+  "manualNote": null,
+  "ordinal": 231,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:11.793Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23509ca43d6f7d4fc1838e178ac6e05756a591b408c3a8076c9e3ddadf1e9038",
+      "url": "https://github.com/lamost423/dsh-maze/blob/fb83f3076b4683f23672cefd571e63534f5bc166/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-maze",
+          "command": "dsh plugin --profile web add dsh-maze",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-maze@2.4.0",
+          "command": "dsh plugin --profile desktop add dsh-maze@2.4.0",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/lamost423/dsh-maze",
+          "command": "dsh plugin --profile desktop add github:lamost423/dsh-maze",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-maze@1.1.2",
+          "command": "dsh plugin --profile web add dsh-maze@1.1.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/lamost423/dsh-maze/blob/fb83f3076b4683f23672cefd571e63534f5bc166/README.en.md",
+      "sha256": "6bc663eb83edbf03e3ca2b0d9699bed819bbe6af757ead3902631aa176e43418",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-maze",
+          "command": "dsh plugin --profile web add dsh-maze",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-maze@2.4.0",
+          "command": "dsh plugin --profile desktop add dsh-maze@2.4.0",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/lamost423/dsh-maze",
+          "command": "dsh plugin --profile desktop add github:lamost423/dsh-maze",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-maze@1.1.2",
+          "command": "dsh plugin --profile web add dsh-maze@1.1.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-maze",
+      "version": "2.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lamost423/dsh-maze",
+        "commit": "fb83f3076b4683f23672cefd571e63534f5bc166"
+      },
+      "manifestSha256": "88addb726c864e5d5d68de2422ea18e3155969d695e37dfb63d623fb69cb8b6e",
+      "manifestUrl": "https://github.com/lamost423/dsh-maze/blob/fb83f3076b4683f23672cefd571e63534f5bc166/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-maze",
+      "origin": "npm",
+      "name": "dsh-maze",
+      "version": "2.4.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ca55b5ec9ef3253e833453a4406c347b57ef0f719f7a6fa25ca6224fea989ea4"
+    },
+    {
+      "target": "dsh-maze@2.4.0",
+      "origin": "npm",
+      "name": "dsh-maze",
+      "version": "2.4.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ca55b5ec9ef3253e833453a4406c347b57ef0f719f7a6fa25ca6224fea989ea4"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-maze",
+      "version": "1.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-maze@2.4.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lamost423/dsh-maze",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-maze@1.1.2",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lamost423/dsh-maze",
+    "commit": "fb83f3076b4683f23672cefd571e63534f5bc166",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:20.436Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:55.601Z",
+  "coverageReviewedAt": "2026-10-17T17:12:10.114Z",
+  "contentReviewFlags": []
+}

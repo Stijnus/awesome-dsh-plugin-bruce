@@ -1,0 +1,114 @@
+{
+  "full_name": "openma-ai/deepseek-harness-acp",
+  "originalPosition": 185,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@openma/deepseek-harness-acp"
+  ],
+  "manualNote": null,
+  "ordinal": 332,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:09:13.357Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "624b608a51c71be57143069997eb05ddf51c108344140f8518c07163a57c6946",
+      "url": "https://github.com/openma-ai/deepseek-harness-acp/blob/e771ecf6a6eec2dea0165cd061369060190d5e23/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@openma/deepseek-harness-acp",
+          "command": "dsh plugin --profile acp add -w @openma/deepseek-harness-acp",
+          "profile": "acp"
+        },
+        {
+          "install": "@openma/deepseek-harness-acp@latest",
+          "command": "dsh plugin --profile acp add @openma/deepseek-harness-acp@latest",
+          "profile": "acp"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@openma/deepseek-harness-acp",
+      "version": "0.4.39",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/openma-ai/deepseek-harness-acp",
+        "commit": "e771ecf6a6eec2dea0165cd061369060190d5e23"
+      },
+      "manifestSha256": "c67973346d251218d132bf11de9d75b726b7c1fb4917d02c02a37d9dac79b37b",
+      "manifestUrl": "https://github.com/openma-ai/deepseek-harness-acp/blob/e771ecf6a6eec2dea0165cd061369060190d5e23/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@openma/deepseek-harness-acp",
+        "versions": [
+          {
+            "version": "0.4.39",
+            "publishTimestamp": 1792251232,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/openma-ai/deepseek-harness-acp",
+              "commit": "e771ecf6a6eec2dea0165cd061369060190d5e23"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@openma/deepseek-harness-acp",
+      "status": "policy_excluded",
+      "code": "package_size_limit",
+      "reason": "@openma/deepseek-harness-acp@0.4.39: tarball exceeds 67108864 bytes"
+    },
+    {
+      "target": "@openma/deepseek-harness-acp@latest",
+      "status": "policy_excluded",
+      "code": "package_size_limit",
+      "reason": "@openma/deepseek-harness-acp@0.4.39: tarball exceeds 67108864 bytes；latest 与已检查的不带版本目标解析为同一版本",
+      "origin": "linked_readme",
+      "resolvedVersion": "0.4.39",
+      "registrySha256": "b0f2ad10dbc97d2782b88c7b8890e04c8ba7353c97d2105283e96a397b350568"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@openma/deepseek-harness-acp@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/openma-ai/deepseek-harness-acp",
+    "commit": "e771ecf6a6eec2dea0165cd061369060190d5e23",
+    "releaseTags": 54,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:12:09.332Z",
+  "linkedReadmeChecks": [],
+  "resolvedErrors": [
+    {
+      "stage": "linked_target",
+      "name": "@openma/deepseek-harness-acp",
+      "code": "npm_fetch_failed",
+      "status": "error",
+      "reason": "The operation was aborted due to timeout",
+      "resolution": "注册表重新确认 latest 与已完成包体超限检查的版本相同，复用同一发行包证据"
+    }
+  ],
+  "coverageReviewedAt": "2026-10-17T17:14:15.850Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,97 @@
+{
+  "full_name": "V1ki/dsh-plugin-subscriptions",
+  "originalPosition": 142,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-subscriptions",
+    "https://github.com/V1ki/dsh-plugin-subscriptions"
+  ],
+  "manualNote": null,
+  "ordinal": 300,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:35.080Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "26f3872b214597cf2967a635b8ee7000cce89f6b8734af307a68d41f26ba42f9",
+      "url": "https://github.com/V1ki/dsh-plugin-subscriptions/blob/9930c5ee5e3fa239db9031f47a0f6f30f7ffc443/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-subscriptions",
+          "command": "dsh plugin --profile web add dsh-plugin-subscriptions",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/V1ki/dsh-plugin-subscriptions",
+          "command": "dsh plugin --profile web add github:V1ki/dsh-plugin-subscriptions",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "28f4450dd22d5e20f7469bbce387ea4e64e6b50a433e825f850ad6f61b5e80c0",
+      "url": "https://github.com/V1ki/dsh-plugin-subscriptions/blob/9930c5ee5e3fa239db9031f47a0f6f30f7ffc443/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-subscriptions",
+          "command": "dsh plugin --profile web add dsh-plugin-subscriptions",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/V1ki/dsh-plugin-subscriptions",
+          "command": "dsh plugin --profile web add github:V1ki/dsh-plugin-subscriptions",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-subscriptions",
+      "version": "0.9.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
+        "commit": "9930c5ee5e3fa239db9031f47a0f6f30f7ffc443"
+      },
+      "manifestSha256": "067b6a0ce94c58fbf19c09c9f05e76978b1addadbd48c282f85650ca47c83598",
+      "manifestUrl": "https://github.com/V1ki/dsh-plugin-subscriptions/blob/9930c5ee5e3fa239db9031f47a0f6f30f7ffc443/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-subscriptions",
+      "origin": "npm",
+      "name": "dsh-plugin-subscriptions",
+      "version": "0.9.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "1b7c52ab50d660a1cbefac9a8d7e4b6916888792f72129c6dc127c46cd445673"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
+    "commit": "9930c5ee5e3fa239db9031f47a0f6f30f7ffc443",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:44.310Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.927Z",
+  "contentReviewFlags": []
+}

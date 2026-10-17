@@ -1,0 +1,107 @@
+{
+  "full_name": "Tabbit-Browser/dsh-tabbit",
+  "originalPosition": 69,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-tabbit",
+    "https://github.com/Tabbit-Browser/dsh-tabbit"
+  ],
+  "manualNote": null,
+  "ordinal": 239,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:30.646Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7e26f92d07c136996817f25dc88ccb24b14825ef7e56eca749c7277017de5c58",
+      "url": "https://github.com/Tabbit-Browser/dsh-tabbit/blob/3d09e22587cbfec0826c0223ea13bddefceca888/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tabbit",
+          "command": "dsh plugin --profile web add dsh-tabbit",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Tabbit-Browser/dsh-tabbit",
+          "command": "dsh plugin --profile web add github:Tabbit-Browser/dsh-tabbit",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Tabbit-Browser/dsh-tabbit/blob/3d09e22587cbfec0826c0223ea13bddefceca888/README.en.md",
+      "sha256": "10044820ae5dee48f1be23b61c43d7d39b53947fccd8f22b9260cb917ce150dc",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tabbit",
+          "command": "dsh plugin --profile web add dsh-tabbit",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Tabbit-Browser/dsh-tabbit",
+          "command": "dsh plugin --profile web add github:Tabbit-Browser/dsh-tabbit",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tabbit",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tabbit-Browser/dsh-tabbit",
+        "commit": "3d09e22587cbfec0826c0223ea13bddefceca888"
+      },
+      "manifestSha256": "9fca4e225eced7f43d51fd91a7ca767082f0f7c15f027466cd91a1e757c3a353",
+      "manifestUrl": "https://github.com/Tabbit-Browser/dsh-tabbit/blob/3d09e22587cbfec0826c0223ea13bddefceca888/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-tabbit",
+      "origin": "npm",
+      "name": "dsh-tabbit",
+      "version": "0.4.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a5ac636971cbdb328e8b67f86c42ea5afeb4b027c4dee7867eaf63f51599663c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tabbit-Browser/dsh-tabbit",
+    "commit": "3d09e22587cbfec0826c0223ea13bddefceca888",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:37.998Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:56.368Z",
+  "coverageReviewedAt": "2026-10-17T17:12:10.041Z",
+  "contentReviewFlags": []
+}

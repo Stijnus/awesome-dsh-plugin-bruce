@@ -1,0 +1,75 @@
+{
+  "full_name": "Hanmiao33/dsh-bubble-explain",
+  "originalPosition": 540,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Hanmiao33/dsh-bubble-explain"
+  ],
+  "manualNote": null,
+  "ordinal": 573,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:22.117Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "77ff93f4696ac2bf55a99334d5eb5341c52f084f1736f6557f6410a0ac5856aa",
+      "url": "https://github.com/Hanmiao33/dsh-bubble-explain/blob/88665e0f3bd90c151b5f800a2b1f8f4f392c77bb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Hanmiao33/dsh-bubble-explain",
+          "command": "dsh plugin --profile web add github:Hanmiao33/dsh-bubble-explain",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2546deb4d427b9f8d86d514058000b3739dc93a312afcd073fe3c760ce88652a",
+      "url": "https://github.com/Hanmiao33/dsh-bubble-explain/blob/88665e0f3bd90c151b5f800a2b1f8f4f392c77bb/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Hanmiao33/dsh-bubble-explain",
+          "command": "dsh plugin --profile web add github:Hanmiao33/dsh-bubble-explain",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/bubble-explain",
+      "version": "0.0.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hanmiao33/dsh-bubble-explain",
+        "commit": "88665e0f3bd90c151b5f800a2b1f8f4f392c77bb"
+      },
+      "manifestSha256": "aa97a560c0786c3a7cdb6576f4377b2e2c84e7c45b6776af06494947fb500be1",
+      "manifestUrl": "https://github.com/Hanmiao33/dsh-bubble-explain/blob/88665e0f3bd90c151b5f800a2b1f8f4f392c77bb/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hanmiao33/dsh-bubble-explain",
+    "commit": "88665e0f3bd90c151b5f800a2b1f8f4f392c77bb",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:30.649Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.366Z",
+  "contentReviewFlags": []
+}

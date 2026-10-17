@@ -1,0 +1,86 @@
+{
+  "full_name": "dream-num/dsh-univer-office",
+  "originalPosition": 43,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-univer-office"
+  ],
+  "manualNote": null,
+  "ordinal": 217,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:43.595Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fbe4fd00996149fb5f59a1b58369f4d304dcfdf00a01a96273cbfdef873266d9",
+      "url": "https://github.com/dream-num/dsh-univer-office/blob/8f85ce4074fdbe51416b6c337468bb916a302c2a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-univer-office",
+          "command": "dsh plugin --profile web add dsh-univer-office",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "40023fe06ce83ff365d3107780055d5927d6447792d66edf3f8513427fd43bde",
+      "url": "https://github.com/dream-num/dsh-univer-office/blob/8f85ce4074fdbe51416b6c337468bb916a302c2a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-univer-office",
+          "command": "dsh plugin --profile web add dsh-univer-office",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-univer-office",
+      "version": "0.3.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dream-num/dsh-univer-office",
+        "commit": "8f85ce4074fdbe51416b6c337468bb916a302c2a"
+      },
+      "manifestSha256": "3f497b6f82f5603bc9bb8f50130006286e81f63b5e0cc3cfb5a35f8db2b6be4f",
+      "manifestUrl": "https://github.com/dream-num/dsh-univer-office/blob/8f85ce4074fdbe51416b6c337468bb916a302c2a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-univer-office",
+      "origin": "npm",
+      "name": "dsh-univer-office",
+      "version": "0.3.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "4198252ab5e065a1a7104f3f554a9a5c4c32ac2788509eeeba463eed648e1921"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dream-num/dsh-univer-office",
+    "commit": "8f85ce4074fdbe51416b6c337468bb916a302c2a",
+    "releaseTags": 24,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:52.957Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.689Z",
+  "contentReviewFlags": []
+}

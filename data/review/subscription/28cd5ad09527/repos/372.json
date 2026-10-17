@@ -1,0 +1,71 @@
+{
+  "full_name": "maddogfinance/dsh-trading",
+  "originalPosition": 247,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@dsh-trading/bundle"
+  ],
+  "manualNote": null,
+  "ordinal": 372,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:44.143Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9a3b0ef23b95b8794abc0cea765ebe0c8840f3a2d98dddc3f156e2237cc74f6d",
+      "url": "https://github.com/maddogfinance/dsh-trading/blob/f26dbca15beef1a0e139a5c7db5155d3734cfb7c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-trading/bundle",
+          "command": "dsh plugin --profile trading add @dsh-trading/bundle",
+          "profile": "trading"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-trading",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/maddogfinance/dsh-trading",
+        "commit": "f26dbca15beef1a0e139a5c7db5155d3734cfb7c"
+      },
+      "manifestSha256": "bdb6e9b60a3da9dacb169429477db7319cd8b5e2302211053958d19039154a3f",
+      "manifestUrl": "https://github.com/maddogfinance/dsh-trading/blob/f26dbca15beef1a0e139a5c7db5155d3734cfb7c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@dsh-trading/bundle",
+      "origin": "npm",
+      "name": "@dsh-trading/bundle",
+      "version": "0.2.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3d75da90d7a79ca858185d5fc253c6a591c4d9a1a2178ce762867e78d9f40dd9"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/maddogfinance/dsh-trading",
+    "commit": "f26dbca15beef1a0e139a5c7db5155d3734cfb7c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:52.737Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:18.349Z",
+  "contentReviewFlags": []
+}

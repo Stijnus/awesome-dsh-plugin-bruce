@@ -1,0 +1,96 @@
+{
+  "full_name": "omdsh-dev/dsh-session-health",
+  "originalPosition": 420,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/omdsh-dev/dsh-session-health",
+    "https://github.com/omdsh-dev/dsh-session-health"
+  ],
+  "manualNote": null,
+  "ordinal": 497,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:09.751Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "826de662e7da923a160efffc75aaee1941ed6eb20b105aea900b40043505b32f",
+      "url": "https://github.com/omdsh-dev/dsh-session-health/blob/aedcb3db1279554ff3e6d11d2597553b9f131175/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-session-health",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-session-health",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-session-health",
+          "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-session-health",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/omdsh-dev/dsh-session-health/blob/aedcb3db1279554ff3e6d11d2597553b9f131175/README.en.md",
+      "sha256": "c43da671b9b689f545afa4c4318a28e58acb9ecf6b0d87890f9964ebe47dddc6",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-session-health",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-session-health",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-session-health",
+          "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-session-health",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-session-health",
+      "version": "0.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-session-health",
+        "commit": "aedcb3db1279554ff3e6d11d2597553b9f131175"
+      },
+      "manifestSha256": "e42d8aab5ee8f87c4761cdfbe9bcb12589dc15549db2077de286f8a6f7c4e354",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-session-health/blob/aedcb3db1279554ff3e6d11d2597553b9f131175/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-session-health",
+    "commit": "aedcb3db1279554ff3e6d11d2597553b9f131175",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:17.490Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:11.202Z",
+  "coverageReviewedAt": "2026-10-17T17:12:29.366Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,72 @@
+{
+  "full_name": "HuanLinOTO/dsh-plugin-interpreters",
+  "originalPosition": 320,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@huanlin/dsh-plugin-interpreters"
+  ],
+  "manualNote": null,
+  "ordinal": 424,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:54.438Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bf9a6f5fc24ba3aabad6b54209315279042023ad9e170d94ac0b124442c20940",
+      "url": "https://github.com/HuanLinOTO/dsh-plugin-interpreters/blob/7716b5aa2a9b7ea216bff5bf847f157bcabd023d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@huanlin/dsh-plugin-interpreters",
+          "command": "dsh plugin --profile web add @huanlin/dsh-plugin-interpreters",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huanlin/dsh-plugin-interpreters",
+      "version": "0.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuanLinOTO/dsh-plugin-interpreters",
+        "commit": "7716b5aa2a9b7ea216bff5bf847f157bcabd023d"
+      },
+      "manifestSha256": "034e772750b38d778461123ee5e2fb0ee369a0d377f3a58d70ab2386c18951aa",
+      "manifestUrl": "https://github.com/HuanLinOTO/dsh-plugin-interpreters/blob/7716b5aa2a9b7ea216bff5bf847f157bcabd023d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@huanlin/dsh-plugin-interpreters",
+      "origin": "npm",
+      "name": "@huanlin/dsh-plugin-interpreters",
+      "version": "0.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "561fd7b35e41eb8e39e257d28ef7fa1663f15401b5978dfaa238a456ab16499c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HuanLinOTO/dsh-plugin-interpreters",
+    "commit": "7716b5aa2a9b7ea216bff5bf847f157bcabd023d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:03.429Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:22.437Z",
+  "contentReviewFlags": []
+}

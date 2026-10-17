@@ -1,0 +1,53 @@
+{
+  "full_name": "whiteguo233/dsh-openbiliclaw",
+  "originalPosition": 548,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:07.306Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6c86c2066da6542ce41b40ec2aefdce1f36ec322707b41fcb315b7a858cea043",
+      "url": "https://github.com/whiteguo233/dsh-openbiliclaw/blob/41ba58292f9e1e4e70f583bacf602071ea765871/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@openbiliclaw/dsh-plugin",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/whiteguo233/dsh-openbiliclaw",
+        "commit": "41ba58292f9e1e4e70f583bacf602071ea765871"
+      },
+      "manifestSha256": "e7187595ed73afac85d4ab93ae8805173a1a9e73f39ad41dfa9186d9818b4ddf",
+      "manifestUrl": "https://github.com/whiteguo233/dsh-openbiliclaw/blob/41ba58292f9e1e4e70f583bacf602071ea765871/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/whiteguo233/dsh-openbiliclaw",
+    "commit": "41ba58292f9e1e4e70f583bacf602071ea765871",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:15.475Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.674Z",
+  "contentReviewFlags": []
+}

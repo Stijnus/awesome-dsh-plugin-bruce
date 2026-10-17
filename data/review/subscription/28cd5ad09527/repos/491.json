@@ -1,0 +1,61 @@
+{
+  "full_name": "pypcfx-glitch/risk-rule-design",
+  "originalPosition": 413,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/pypcfx-glitch/risk-rule-design"
+  ],
+  "manualNote": null,
+  "ordinal": 491,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:55.344Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "605201d08b03ceff9ea35f05991f19d05535aad998c7651eb44d7ab89df23800",
+      "url": "https://github.com/pypcfx-glitch/risk-rule-design/blob/89dff5161873917548ae28c1b1cb5f36f2f817fd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/pypcfx-glitch/risk-rule-design",
+          "command": "dsh plugin --profile web add \"github:pypcfx-glitch/risk-rule-design\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-risk-rule-design",
+      "version": "1.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/pypcfx-glitch/risk-rule-design",
+        "commit": "89dff5161873917548ae28c1b1cb5f36f2f817fd"
+      },
+      "manifestSha256": "fe5b922dcdb7f1e5d8459f9f24785ed10d7eaba814a24636f4631543ccbeda3b",
+      "manifestUrl": "https://github.com/pypcfx-glitch/risk-rule-design/blob/89dff5161873917548ae28c1b1cb5f36f2f817fd/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pypcfx-glitch/risk-rule-design",
+    "commit": "89dff5161873917548ae28c1b1cb5f36f2f817fd",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:02.770Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:28.949Z",
+  "contentReviewFlags": []
+}

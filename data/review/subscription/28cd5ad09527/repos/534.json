@@ -1,0 +1,96 @@
+{
+  "full_name": "lanlandeli/dsh-usage-stats",
+  "originalPosition": 471,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-usage-stats"
+  ],
+  "manualNote": null,
+  "ordinal": 534,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:07.049Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ead99cd44dc7be27ca75fee98002f01a9a23a19c549874ac6c32d015d141cca1",
+      "url": "https://github.com/lanlandeli/dsh-usage-stats/blob/ee0c818310071c542330ed0df95e6ed91482ed19/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-usage-stats",
+          "command": "dsh plugin --profile web add dsh-usage-stats",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/lanlandeli/dsh-usage-stats/blob/ee0c818310071c542330ed0df95e6ed91482ed19/README.en.md",
+      "sha256": "69f4b6f3831a6f7327d5d236d48dc8a88a95fddb4dac04da16ed353c21030f24",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-usage-stats",
+          "command": "dsh plugin --profile web add dsh-usage-stats",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-usage-stats",
+      "version": "0.1.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lanlandeli/dsh-usage-stats",
+        "commit": "ee0c818310071c542330ed0df95e6ed91482ed19"
+      },
+      "manifestSha256": "03bf55595d378761baa683f0b7d876aafae6fa6a28d0054ce2c5290e544a07fa",
+      "manifestUrl": "https://github.com/lanlandeli/dsh-usage-stats/blob/ee0c818310071c542330ed0df95e6ed91482ed19/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-usage-stats",
+      "origin": "npm",
+      "name": "dsh-usage-stats",
+      "version": "0.1.16",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8fbf5fcbb9f8f586cfc94215d3287999fe3a0200d0e662464253e5e804e6b90f"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lanlandeli/dsh-usage-stats",
+    "commit": "ee0c818310071c542330ed0df95e6ed91482ed19",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:15.551Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:13.608Z",
+  "coverageReviewedAt": "2026-10-17T17:12:31.744Z",
+  "contentReviewFlags": []
+}

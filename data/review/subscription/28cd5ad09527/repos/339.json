@@ -1,0 +1,303 @@
+{
+  "full_name": "Mars-Sea/dsh-commandcode-provider",
+  "originalPosition": 192,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@mars-sea/dsh-commandcode-provider@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 339,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:19.805Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3c9c2b16ac87f0c57b564ef26de328eec793987c143cb730676909a695695c25",
+      "url": "https://github.com/Mars-Sea/dsh-commandcode-provider/blob/54827e81fe3bada9bb247b0fed44f07c23e9c550/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mars-sea/dsh-commandcode-provider@latest",
+          "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@latest",
+          "profile": "web"
+        },
+        {
+          "install": "@mars-sea/dsh-commandcode-provider@0.11.15",
+          "command": "dsh plugin --profile dsh-tui add @mars-sea/dsh-commandcode-provider@0.11.15",
+          "profile": "dsh-tui"
+        },
+        {
+          "install": "@mars-sea/dsh-commandcode-provider@0.11.17",
+          "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@0.11.17",
+          "profile": "web"
+        },
+        {
+          "install": "@mars-sea/dsh-commandcode-provider@0.11.11",
+          "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@0.11.11",
+          "profile": "web"
+        },
+        {
+          "install": "@mars-sea/dsh-commandcode-provider@0.9.1",
+          "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@0.9.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "5773bd4e5d625d81c1de13c5d50d24be5102ac8b804588b954775798ded32940",
+      "url": "https://github.com/Mars-Sea/dsh-commandcode-provider/blob/54827e81fe3bada9bb247b0fed44f07c23e9c550/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mars-sea/dsh-commandcode-provider@latest",
+          "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@latest",
+          "profile": "web"
+        },
+        {
+          "install": "@mars-sea/dsh-commandcode-provider@0.11.15",
+          "command": "dsh plugin --profile dsh-tui add @mars-sea/dsh-commandcode-provider@0.11.15",
+          "profile": "dsh-tui"
+        },
+        {
+          "install": "@mars-sea/dsh-commandcode-provider@0.11.17",
+          "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@0.11.17",
+          "profile": "web"
+        },
+        {
+          "install": "@mars-sea/dsh-commandcode-provider@0.11.11",
+          "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@0.11.11",
+          "profile": "web"
+        },
+        {
+          "install": "@mars-sea/dsh-commandcode-provider@0.9.1",
+          "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@0.9.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mars-sea/dsh-commandcode-provider",
+      "version": "0.13.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mars-Sea/dsh-commandcode-provider",
+        "commit": "54827e81fe3bada9bb247b0fed44f07c23e9c550"
+      },
+      "manifestSha256": "803960b92e7749452bc50c6c75e3364f40b8908f044c7e8b01527e8563399f5d",
+      "manifestUrl": "https://github.com/Mars-Sea/dsh-commandcode-provider/blob/54827e81fe3bada9bb247b0fed44f07c23e9c550/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2 || 0.2.1-alpha.4",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@mars-sea/dsh-commandcode-provider",
+        "versions": [
+          {
+            "version": "0.13.4",
+            "publishTimestamp": 1792229372,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mars-Sea/dsh-commandcode-provider",
+              "commit": "54827e81fe3bada9bb247b0fed44f07c23e9c550"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.1-alpha.4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@mars-sea/dsh-commandcode-provider@latest",
+      "origin": "npm",
+      "name": "@mars-sea/dsh-commandcode-provider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@mars-sea/dsh-commandcode-provider",
+        "title": {
+          "en": "Command Code",
+          "zh": "Command Code 提供方"
+        },
+        "description": {
+          "en": "Unofficial Command Code provider: live model catalog, multi-account rotation, usage dashboard, and a plans & quota panel.",
+          "zh": "非官方 Command Code 提供方：实时模型目录、多账号轮换、用量面板与套餐配额面板。"
+        },
+        "homepage": "https://github.com/Mars-Sea/dsh-commandcode-provider#readme",
+        "repository": {
+          "url": "https://github.com/Mars-Sea/dsh-commandcode-provider"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "commandcode",
+            "command-code",
+            "llm",
+            "adapter",
+            "provider",
+            "plugin",
+            "bundle"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjEzNyIgdmlld0JveD0iMCAwIDEzNyAxMzciIHdpZHRoPSIxMzciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTAgNjYuNzk1OWMwLTMxLjQ4NzkgMC00Ny4yMzE4IDkuNzgyMDQtNTcuMDEzODYgOS43ODIwNi05Ljc4MjA0IDI1LjUyNTk2LTkuNzgyMDQgNTcuMDEzOTYtOS43ODIwNGgyLjUzNTdjMzEuNDg4MyAwIDQ3LjIzMjMgMCA1Ny4wMTQzIDkuNzgyMDQgOS43ODIgOS43ODIwNiA5Ljc4MiAyNS41MjU5NiA5Ljc4MiA1Ny4wMTM5NnYyLjUzNTdjMCAzMS40ODgzIDAgNDcuMjMyMy05Ljc4MiA1Ny4wMTQzcy0yNS41MjYgOS43ODItNTcuMDE0NCA5Ljc4MmgtMi41MzU3Yy0zMS40ODc5IDAtNDcuMjMxOCAwLTU3LjAxMzg2LTkuNzgyLTkuNzgyMDQtOS43ODItOS43ODIwNC0yNS41MjYtOS43ODIwNC01Ny4wMTQ0eiIgZmlsbD0iIzAwMCIvPjxnIGZpbGw9IiNmZmYiPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTY5LjMzMTcgNS41NjYzM2gtMi41MzU3Yy0xNS45MDE0IDAtMjcuMjY3NC4wMTE4Mi0zNS45MDUgMS4xNzMxMi04LjQ3NzUgMS4xMzk3Ny0xMy40ODg2IDMuMjk0MTUtMTcuMTczIDYuOTc4NTVzLTUuODM4NzggOC42OTU1LTYuOTc4NTUgMTcuMTczYy0xLjE2MTMgOC42Mzc2LTEuMTczMTIgMjAuMDAzNi0xLjE3MzEyIDM1LjkwNDl2Mi41MzU3YzAgMTUuOTAxNC4wMTE4MiAyNy4yNjc0IDEuMTczMTIgMzUuOTA1NCAxLjEzOTc3IDguNDc3IDMuMjk0MTUgMTMuNDg4IDYuOTc4NTUgMTcuMTczIDMuNjg0NCAzLjY4NCA4LjY5NTUgNS44MzggMTcuMTczIDYuOTc4IDguNjM3NiAxLjE2MSAyMC4wMDM2IDEuMTczIDM1LjkwNDkgMS4xNzNoMi41MzU3YzE1LjkwMTQgMCAyNy4yNjc0LS4wMTIgMzUuOTA1NC0xLjE3MyA4LjQ3Ny0xLjE0IDEzLjQ4OC0zLjI5NCAxNy4xNzMtNi45NzggMy42ODQtMy42ODUgNS44MzgtOC42OTYgNi45NzgtMTcuMTczIDEuMTYxLTguNjM4IDEuMTczLTIwLjAwNCAxLjE3My0zNS45MDUzdi0yLjUzNTdjMC0xNS45MDE0LS4wMTItMjcuMjY3NC0xLjE3My0zNS45MDUtMS4xNC04LjQ3NzUtMy4yOTQtMTMuNDg4Ni02Ljk3OC0xNy4xNzMtMy42ODUtMy42ODQ0LTguNjk2LTUuODM4NzgtMTcuMTczLTYuOTc4NTUtOC42MzgtMS4xNjEzLTIwLjAwNC0xLjE3MzEyLTM1LjkwNTMtMS4xNzMxMnptLTU5LjU0OTY2IDQuMjE1NzFjLTkuNzgyMDQgOS43ODIwNi05Ljc4MjA0IDI1LjUyNTk2LTkuNzgyMDQgNTcuMDEzODZ2Mi41MzU3YzAgMzEuNDg4NCAwIDQ3LjIzMjQgOS43ODIwNCA1Ny4wMTQ0IDkuNzgyMDYgOS43ODIgMjUuNTI1OTYgOS43ODIgNTcuMDEzODYgOS43ODJoMi41MzU3YzMxLjQ4ODQgMCA0Ny4yMzI0IDAgNTcuMDE0NC05Ljc4MnM5Ljc4Mi0yNS41MjYgOS43ODItNTcuMDE0M3YtMi41MzU3YzAtMzEuNDg4IDAtNDcuMjMxOS05Ljc4Mi01Ny4wMTM5Ni05Ljc4Mi05Ljc4MjA0LTI1LjUyNi05Ljc4MjA0LTU3LjAxNDMtOS43ODIwNGgtMi41MzU3Yy0zMS40ODggMC00Ny4yMzE5IDAtNTcuMDEzOTYgOS43ODIwNHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGQ9Im05My42NjA0IDI2LjE3ODRjLTguOTgyIDAtMTYuMjg4NyA3LjMwNjctMTYuMjg4NyAxNi4yODg4djYuOTgwOWgtMTguNjE1OHYtNi45ODA5YzAtOC45ODIxLTcuMzA2Ny0xNi4yODg4LTE2LjI4ODctMTYuMjg4OC04Ljk4MjEgMC0xNi4yODg4IDcuMzA2Ny0xNi4yODg4IDE2LjI4ODhzNy4zMDY3IDE2LjI4ODcgMTYuMjg4OCAxNi4yODg3aDYuOTgwOXYxOC42MTU4aC02Ljk4MDljLTguOTgyMSAwLTE2LjI4ODggNy4zMDY3LTE2LjI4ODggMTYuMjg4OCAwIDguOTgyNSA3LjMwNjcgMTYuMjg4NSAxNi4yODg4IDE2LjI4ODUgOC45ODIgMCAxNi4yODg3LTcuMzA2IDE2LjI4ODctMTYuMjg4NXYtNi45ODFoMTguNjE1OHY2Ljk4MWMwIDguOTgyNSA3LjMwNjcgMTYuMjg4NSAxNi4yODg3IDE2LjI4ODUgOC45ODI2IDAgMTYuMjg4Ni03LjMwNiAxNi4yODg2LTE2LjI4ODUgMC04Ljk4MjEtNy4zMDYtMTYuMjg4OC0xNi4yODg2LTE2LjI4ODhoLTYuOTgwOXYtMTguNjE1OGg2Ljk4MDljOC45ODI2IDAgMTYuMjg4Ni03LjMwNjYgMTYuMjg4Ni0xNi4yODg3cy03LjMwNi0xNi4yODg4LTE2LjI4ODYtMTYuMjg4OHptLTYuOTgwOSAyMy4yNjk3di02Ljk4MDljMC0zLjg2MjggMy4xMTgyLTYuOTgwOSA2Ljk4MDktNi45ODA5IDMuODYyOCAwIDYuOTgwNiAzLjExODEgNi45ODA2IDYuOTgwOSAwIDMuODYyNy0zLjExNzggNi45ODA5LTYuOTgwNiA2Ljk4MDl6bS00NC4yMTIzIDBjLTMuODYyOCAwLTYuOTgwOS0zLjExODItNi45ODA5LTYuOTgwOSAwLTMuODYyOCAzLjExODEtNi45ODA5IDYuOTgwOS02Ljk4MDkgMy44NjI3IDAgNi45ODA5IDMuMTE4MSA2Ljk4MDkgNi45ODA5djYuOTgwOXptMTYuMjg4NyAyNy45MjM2di0xOC42MTU4aDE4LjYxNTh2MTguNjE1OHptMzQuOTA0NSAyMy4yNjkzYy0zLjg2MjcgMC02Ljk4MDktMy4xMTc4LTYuOTgwOS02Ljk4MDV2LTYuOTgxaDYuOTgwOWMzLjg2MjggMCA2Ljk4MDYgMy4xMTgyIDYuOTgwNiA2Ljk4MSAwIDMuODYyNy0zLjExNzggNi45ODA1LTYuOTgwNiA2Ljk4MDV6bS01MS4xOTMyIDBjLTMuODYyOCAwLTYuOTgwOS0zLjExNzgtNi45ODA5LTYuOTgwNSAwLTMuODYyOCAzLjExODEtNi45ODEgNi45ODA5LTYuOTgxaDYuOTgwOXY2Ljk4MWMwIDMuODYyNy0zLjExODIgNi45ODA1LTYuOTgwOSA2Ljk4MDV6Ii8+PC9nPjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.13.4",
+            "publishTimestamp": 1792116350,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.1-alpha.4"
+            }
+          }
+        ]
+      },
+      "registrySha256": "757d3297f6c67c4e1c42f06b321ee86bd9cbda94186584d78cc653dc27006506",
+      "evidence": [
+        {
+          "name": "@mars-sea/dsh-commandcode-provider",
+          "version": "0.13.4",
+          "tarball": "https://registry.npmjs.org/@mars-sea/dsh-commandcode-provider/-/dsh-commandcode-provider-0.13.4.tgz",
+          "integrity": "sha512-lWTGaaDSfLyl8bypfnT5ALZGmNw1MjTAw5dfYxXRe4hFB5+Wd6vSTljfRIWwt5XCa+0DcLAzZ6b9T5QwE704QA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "@mars-sea/dsh-commandcode-provider@0.11.15",
+      "origin": "npm",
+      "name": "@mars-sea/dsh-commandcode-provider",
+      "version": "0.11.15",
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "757d3297f6c67c4e1c42f06b321ee86bd9cbda94186584d78cc653dc27006506"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@mars-sea/dsh-commandcode-provider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@mars-sea/dsh-commandcode-provider",
+        "title": {
+          "en": "Command Code",
+          "zh": "Command Code 提供方"
+        },
+        "description": {
+          "en": "Unofficial Command Code provider: live model catalog, multi-account rotation, usage dashboard, and a plans & quota panel.",
+          "zh": "非官方 Command Code 提供方：实时模型目录、多账号轮换、用量面板与套餐配额面板。"
+        },
+        "homepage": "https://github.com/Mars-Sea/dsh-commandcode-provider#readme",
+        "repository": {
+          "url": "https://github.com/Mars-Sea/dsh-commandcode-provider"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "commandcode",
+            "command-code",
+            "llm",
+            "adapter",
+            "provider",
+            "plugin",
+            "bundle"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjEzNyIgdmlld0JveD0iMCAwIDEzNyAxMzciIHdpZHRoPSIxMzciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTAgNjYuNzk1OWMwLTMxLjQ4NzkgMC00Ny4yMzE4IDkuNzgyMDQtNTcuMDEzODYgOS43ODIwNi05Ljc4MjA0IDI1LjUyNTk2LTkuNzgyMDQgNTcuMDEzOTYtOS43ODIwNGgyLjUzNTdjMzEuNDg4MyAwIDQ3LjIzMjMgMCA1Ny4wMTQzIDkuNzgyMDQgOS43ODIgOS43ODIwNiA5Ljc4MiAyNS41MjU5NiA5Ljc4MiA1Ny4wMTM5NnYyLjUzNTdjMCAzMS40ODgzIDAgNDcuMjMyMy05Ljc4MiA1Ny4wMTQzcy0yNS41MjYgOS43ODItNTcuMDE0NCA5Ljc4MmgtMi41MzU3Yy0zMS40ODc5IDAtNDcuMjMxOCAwLTU3LjAxMzg2LTkuNzgyLTkuNzgyMDQtOS43ODItOS43ODIwNC0yNS41MjYtOS43ODIwNC01Ny4wMTQ0eiIgZmlsbD0iIzAwMCIvPjxnIGZpbGw9IiNmZmYiPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTY5LjMzMTcgNS41NjYzM2gtMi41MzU3Yy0xNS45MDE0IDAtMjcuMjY3NC4wMTE4Mi0zNS45MDUgMS4xNzMxMi04LjQ3NzUgMS4xMzk3Ny0xMy40ODg2IDMuMjk0MTUtMTcuMTczIDYuOTc4NTVzLTUuODM4NzggOC42OTU1LTYuOTc4NTUgMTcuMTczYy0xLjE2MTMgOC42Mzc2LTEuMTczMTIgMjAuMDAzNi0xLjE3MzEyIDM1LjkwNDl2Mi41MzU3YzAgMTUuOTAxNC4wMTE4MiAyNy4yNjc0IDEuMTczMTIgMzUuOTA1NCAxLjEzOTc3IDguNDc3IDMuMjk0MTUgMTMuNDg4IDYuOTc4NTUgMTcuMTczIDMuNjg0NCAzLjY4NCA4LjY5NTUgNS44MzggMTcuMTczIDYuOTc4IDguNjM3NiAxLjE2MSAyMC4wMDM2IDEuMTczIDM1LjkwNDkgMS4xNzNoMi41MzU3YzE1LjkwMTQgMCAyNy4yNjc0LS4wMTIgMzUuOTA1NC0xLjE3MyA4LjQ3Ny0xLjE0IDEzLjQ4OC0zLjI5NCAxNy4xNzMtNi45NzggMy42ODQtMy42ODUgNS44MzgtOC42OTYgNi45NzgtMTcuMTczIDEuMTYxLTguNjM4IDEuMTczLTIwLjAwNCAxLjE3My0zNS45MDUzdi0yLjUzNTdjMC0xNS45MDE0LS4wMTItMjcuMjY3NC0xLjE3My0zNS45MDUtMS4xNC04LjQ3NzUtMy4yOTQtMTMuNDg4Ni02Ljk3OC0xNy4xNzMtMy42ODUtMy42ODQ0LTguNjk2LTUuODM4NzgtMTcuMTczLTYuOTc4NTUtOC42MzgtMS4xNjEzLTIwLjAwNC0xLjE3MzEyLTM1LjkwNTMtMS4xNzMxMnptLTU5LjU0OTY2IDQuMjE1NzFjLTkuNzgyMDQgOS43ODIwNi05Ljc4MjA0IDI1LjUyNTk2LTkuNzgyMDQgNTcuMDEzODZ2Mi41MzU3YzAgMzEuNDg4NCAwIDQ3LjIzMjQgOS43ODIwNCA1Ny4wMTQ0IDkuNzgyMDYgOS43ODIgMjUuNTI1OTYgOS43ODIgNTcuMDEzODYgOS43ODJoMi41MzU3YzMxLjQ4ODQgMCA0Ny4yMzI0IDAgNTcuMDE0NC05Ljc4MnM5Ljc4Mi0yNS41MjYgOS43ODItNTcuMDE0M3YtMi41MzU3YzAtMzEuNDg4IDAtNDcuMjMxOS05Ljc4Mi01Ny4wMTM5Ni05Ljc4Mi05Ljc4MjA0LTI1LjUyNi05Ljc4MjA0LTU3LjAxNDMtOS43ODIwNGgtMi41MzU3Yy0zMS40ODggMC00Ny4yMzE5IDAtNTcuMDEzOTYgOS43ODIwNHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGQ9Im05My42NjA0IDI2LjE3ODRjLTguOTgyIDAtMTYuMjg4NyA3LjMwNjctMTYuMjg4NyAxNi4yODg4djYuOTgwOWgtMTguNjE1OHYtNi45ODA5YzAtOC45ODIxLTcuMzA2Ny0xNi4yODg4LTE2LjI4ODctMTYuMjg4OC04Ljk4MjEgMC0xNi4yODg4IDcuMzA2Ny0xNi4yODg4IDE2LjI4ODhzNy4zMDY3IDE2LjI4ODcgMTYuMjg4OCAxNi4yODg3aDYuOTgwOXYxOC42MTU4aC02Ljk4MDljLTguOTgyMSAwLTE2LjI4ODggNy4zMDY3LTE2LjI4ODggMTYuMjg4OCAwIDguOTgyNSA3LjMwNjcgMTYuMjg4NSAxNi4yODg4IDE2LjI4ODUgOC45ODIgMCAxNi4yODg3LTcuMzA2IDE2LjI4ODctMTYuMjg4NXYtNi45ODFoMTguNjE1OHY2Ljk4MWMwIDguOTgyNSA3LjMwNjcgMTYuMjg4NSAxNi4yODg3IDE2LjI4ODUgOC45ODI2IDAgMTYuMjg4Ni03LjMwNiAxNi4yODg2LTE2LjI4ODUgMC04Ljk4MjEtNy4zMDYtMTYuMjg4OC0xNi4yODg2LTE2LjI4ODhoLTYuOTgwOXYtMTguNjE1OGg2Ljk4MDljOC45ODI2IDAgMTYuMjg4Ni03LjMwNjYgMTYuMjg4Ni0xNi4yODg3cy03LjMwNi0xNi4yODg4LTE2LjI4ODYtMTYuMjg4OHptLTYuOTgwOSAyMy4yNjk3di02Ljk4MDljMC0zLjg2MjggMy4xMTgyLTYuOTgwOSA2Ljk4MDktNi45ODA5IDMuODYyOCAwIDYuOTgwNiAzLjExODEgNi45ODA2IDYuOTgwOSAwIDMuODYyNy0zLjExNzggNi45ODA5LTYuOTgwNiA2Ljk4MDl6bS00NC4yMTIzIDBjLTMuODYyOCAwLTYuOTgwOS0zLjExODItNi45ODA5LTYuOTgwOSAwLTMuODYyOCAzLjExODEtNi45ODA5IDYuOTgwOS02Ljk4MDkgMy44NjI3IDAgNi45ODA5IDMuMTE4MSA2Ljk4MDkgNi45ODA5djYuOTgwOXptMTYuMjg4NyAyNy45MjM2di0xOC42MTU4aDE4LjYxNTh2MTguNjE1OHptMzQuOTA0NSAyMy4yNjkzYy0zLjg2MjcgMC02Ljk4MDktMy4xMTc4LTYuOTgwOS02Ljk4MDV2LTYuOTgxaDYuOTgwOWMzLjg2MjggMCA2Ljk4MDYgMy4xMTgyIDYuOTgwNiA2Ljk4MSAwIDMuODYyNy0zLjExNzggNi45ODA1LTYuOTgwNiA2Ljk4MDV6bS01MS4xOTMyIDBjLTMuODYyOCAwLTYuOTgwOS0zLjExNzgtNi45ODA5LTYuOTgwNSAwLTMuODYyOCAzLjExODEtNi45ODEgNi45ODA5LTYuOTgxaDYuOTgwOXY2Ljk4MWMwIDMuODYyNy0zLjExODIgNi45ODA1LTYuOTgwOSA2Ljk4MDV6Ii8+PC9nPjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.11.17",
+            "publishTimestamp": 1790472960,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2"
+            }
+          },
+          {
+            "version": "0.11.11",
+            "publishTimestamp": 1790152339,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-alpha.1 || ^0.1.6-alpha.2 || ^0.1.6-alpha.1 || ^0.1.5-rc.2 || ^0.1.5-rc.1 || ^0.1.5-alpha.1 || ^0.1.3-alpha.2 || ^0.1.3-alpha.1 || ^0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "name": "@mars-sea/dsh-commandcode-provider",
+          "version": "0.11.17",
+          "tarball": "https://registry.npmjs.org/@mars-sea/dsh-commandcode-provider/-/dsh-commandcode-provider-0.11.17.tgz",
+          "integrity": "sha512-CRy/3nb+3Hg3NYZtnEWRHppAmFAXB0pQASXoZggaHAnaSZD/OCzv1bAZjo7G5I8ldbgJA53AlzVypq2EybZ07w=="
+        },
+        {
+          "name": "@mars-sea/dsh-commandcode-provider",
+          "version": "0.11.11",
+          "tarball": "https://registry.npmjs.org/@mars-sea/dsh-commandcode-provider/-/dsh-commandcode-provider-0.11.11.tgz",
+          "integrity": "sha512-jpXqnWzyhlT4Y+GdDTDo1rp57PMuql2p+G6t8622jEDZL5HBD2Lh5CfoOYg6Gn59RZ29svCQPeGEKbJ1XiJGvA=="
+        }
+      ]
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@mars-sea/dsh-commandcode-provider",
+      "version": "0.9.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mars-sea/dsh-commandcode-provider@0.11.15",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mars-sea/dsh-commandcode-provider@0.11.17",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mars-sea/dsh-commandcode-provider@0.11.11",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mars-sea/dsh-commandcode-provider@0.9.1",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mars-Sea/dsh-commandcode-provider",
+    "commit": "54827e81fe3bada9bb247b0fed44f07c23e9c550",
+    "releaseTags": 77,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:05:36.527Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.536Z",
+  "contentReviewFlags": []
+}

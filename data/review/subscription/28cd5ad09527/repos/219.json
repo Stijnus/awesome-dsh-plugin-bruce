@@ -1,0 +1,96 @@
+{
+  "full_name": "wenbin-wb/dsh-bridge",
+  "originalPosition": 45,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@wenbin_wb/dsh-bridge"
+  ],
+  "manualNote": null,
+  "ordinal": 219,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:47.811Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e2b34dfc3f8700e824430a5c1d9aa107d6ad5005b0208c66a9c270a223e9d8f8",
+      "url": "https://github.com/wenbin-wb/dsh-bridge/blob/93260408fedd1749a9a13656535917ce71be2eb4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wenbin_wb/dsh-bridge",
+          "command": "dsh plugin --profile web add @wenbin_wb/dsh-bridge",
+          "profile": "web"
+        },
+        {
+          "install": "@wenbin_wb/dsh-bridge",
+          "command": "dsh plugin --profile desktop add @wenbin_wb/dsh-bridge",
+          "profile": "desktop"
+        },
+        {
+          "install": "@wenbin_wb/dsh-bridge@latest",
+          "command": "dsh plugin --profile web add @wenbin_wb/dsh-bridge@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@wenbin_wb/dsh-bridge",
+      "version": "2.14.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wenbin-wb/dsh-bridge",
+        "commit": "93260408fedd1749a9a13656535917ce71be2eb4"
+      },
+      "manifestSha256": "7b3fc8651662dcb10497d22c491f017a5fa524cfb641a174103a0c0791957c4d",
+      "manifestUrl": "https://github.com/wenbin-wb/dsh-bridge/blob/93260408fedd1749a9a13656535917ce71be2eb4/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@wenbin_wb/dsh-bridge",
+      "origin": "npm",
+      "name": "@wenbin_wb/dsh-bridge",
+      "version": "2.14.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "60e1da7130a7cb401fdc03757a7c7e1ab9388a965a7c0866e77fa30d0f3d0854"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@wenbin_wb/dsh-bridge",
+      "version": "2.14.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@wenbin_wb/dsh-bridge@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wenbin-wb/dsh-bridge",
+    "commit": "93260408fedd1749a9a13656535917ce71be2eb4",
+    "releaseTags": 71,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:55.832Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:09.476Z",
+  "contentReviewFlags": []
+}

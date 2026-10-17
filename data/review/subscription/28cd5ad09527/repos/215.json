@@ -1,0 +1,316 @@
+{
+  "full_name": "PerryLink/dsh-permission-rules",
+  "originalPosition": 41,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-permission-rules#main",
+    "dsh-permission-rules"
+  ],
+  "manualNote": null,
+  "ordinal": 215,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:42.379Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b198f3a48650f4468ddd4768efb26e74bead58ecb9797781f4818cc2549618eb",
+      "url": "https://github.com/PerryLink/dsh-permission-rules/blob/2215d504a87a3b061264630a7ee18ef63477d54c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-permission-rules",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-permission-rules",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-permission-rules",
+          "command": "dsh plugin --profile web add dsh-permission-rules",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-permission-rules/blob/2215d504a87a3b061264630a7ee18ef63477d54c/README-zh.md",
+      "sha256": "af169a1b526252fc7faf8df06cca8260b7cde03ccba287481f054c295d9116a7",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-permission-rules",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-permission-rules",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-permission-rules",
+          "command": "dsh plugin --profile web add dsh-permission-rules",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-permission-rules/blob/2215d504a87a3b061264630a7ee18ef63477d54c/README-es.md",
+      "sha256": "f10abddc02e046868799b356162f17b0f0dbaa9f185f63cdc9f9ea7a44b054a5",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-permission-rules",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-permission-rules",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-permission-rules",
+          "command": "dsh plugin --profile web add dsh-permission-rules",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-permission-rules/blob/2215d504a87a3b061264630a7ee18ef63477d54c/README-pt.md",
+      "sha256": "6019bf08ecdae6472695d7d8ba53fba1bc86d01f286f161fcaeba6ecab6e263c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-permission-rules",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-permission-rules",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-permission-rules",
+          "command": "dsh plugin --profile web add dsh-permission-rules",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-permission-rules/blob/2215d504a87a3b061264630a7ee18ef63477d54c/README-hi.md",
+      "sha256": "3e68e4c15664b2854ce9f0cf56136c0b74a84bf22c3c890a120fba530f7837e6",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-permission-rules",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-permission-rules",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-permission-rules",
+          "command": "dsh plugin --profile web add dsh-permission-rules",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-permission-rules",
+      "version": "0.7.15",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-permission-rules",
+        "commit": "2215d504a87a3b061264630a7ee18ef63477d54c"
+      },
+      "manifestSha256": "3ad06802dff632907a5436f02424217a03cee4f89f1b422dd179015ce553d7a4",
+      "manifestUrl": "https://github.com/PerryLink/dsh-permission-rules/blob/2215d504a87a3b061264630a7ee18ef63477d54c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-permission-rules",
+        "versions": [
+          {
+            "version": "0.7.15",
+            "publishTimestamp": 1791813003,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-permission-rules",
+              "commit": "2215d504a87a3b061264630a7ee18ef63477d54c"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-permission-rules#main",
+      "origin": "git_target",
+      "name": "dsh-permission-rules",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-permission-rules",
+        "title": "dsh-permission-rules",
+        "description": "Declarative Claude Code-style permission rules plus a Codex-style process-level network policy for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), workspace-path, and network-target (domain/ip/port/scheme) matching on the tools/pre-execute waterfall, a built-in local HTTP/CONNECT proxy governing shell subprocess traffic, three network modes mapped onto the official sandbox presets, full session-log audit, HMR rule reload, and a settings page with a rule editor, block counters, and recent interception lists.",
+        "author": "dsh-permission-rules contributors",
+        "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-permission-rules"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "permission",
+            "policy",
+            "allow-deny-ask",
+            "approval",
+            "safety",
+            "network",
+            "network-policy",
+            "proxy"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.15",
+            "publishTimestamp": 1791813003,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-permission-rules",
+              "commit": "2215d504a87a3b061264630a7ee18ef63477d54c"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "2215d504a87a3b061264630a7ee18ef63477d54c",
+          "name": "dsh-permission-rules",
+          "version": "0.7.15",
+          "url": "https://github.com/PerryLink/dsh-permission-rules",
+          "manifestSha256": "3ad06802dff632907a5436f02424217a03cee4f89f1b422dd179015ce553d7a4",
+          "publishTimestamp": 1791813003
+        }
+      ]
+    },
+    {
+      "target": "dsh-permission-rules",
+      "origin": "npm",
+      "name": "dsh-permission-rules",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-permission-rules",
+        "title": "dsh-permission-rules",
+        "description": "Declarative Claude Code-style permission rules plus a Codex-style process-level network policy for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), workspace-path, and network-target (domain/ip/port/scheme) matching on the tools/pre-execute waterfall, a built-in local HTTP/CONNECT proxy governing shell subprocess traffic, three network modes mapped onto the official sandbox presets, full session-log audit, HMR rule reload, and a settings page with a rule editor, block counters, and recent interception lists.",
+        "author": "dsh-permission-rules contributors",
+        "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-permission-rules"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "permission",
+            "policy",
+            "allow-deny-ask",
+            "approval",
+            "safety",
+            "network",
+            "network-policy",
+            "proxy"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.15",
+            "publishTimestamp": 1791595989,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2e5ba2bd84a0c97c194b964f8137777589058e9774238fedad9fc400876c8a4c",
+      "evidence": [
+        {
+          "name": "dsh-permission-rules",
+          "version": "0.7.15",
+          "tarball": "https://registry.npmjs.org/dsh-permission-rules/-/dsh-permission-rules-0.7.15.tgz",
+          "integrity": "sha512-RGC5kDWtt7V2/xdgLC5Er26IeskSzF0vrC85m0OSfUCmsB/TqlXQAcN6UgXTA+BwQoFs34cQRk3GWR/smHXTiQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-permission-rules#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-permission-rules",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-permission-rules",
+    "commit": "2215d504a87a3b061264630a7ee18ef63477d54c",
+    "releaseTags": 51,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:00:57.793Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:56.142Z",
+  "coverageReviewedAt": "2026-10-17T17:12:09.805Z",
+  "contentReviewFlags": []
+}

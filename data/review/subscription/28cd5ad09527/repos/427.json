@@ -1,0 +1,114 @@
+{
+  "full_name": "dingminhua/dsh-subagent-default-model",
+  "originalPosition": 324,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-subagent-default-model"
+  ],
+  "manualNote": null,
+  "ordinal": 427,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:01.779Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fbf69dc1df128d9d978e009c00c857d9d0a29a3adc2a8a1d1a9339596a4fc84d",
+      "url": "https://github.com/dingminhua/dsh-subagent-default-model/blob/efed0ecfd146f28240220a5aac696fad9b518b3d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-subagent-default-model",
+          "command": "dsh plugin --profile desktop add dsh-subagent-default-model",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "plugin/README.md",
+      "url": "https://github.com/dingminhua/dsh-subagent-default-model/blob/efed0ecfd146f28240220a5aac696fad9b518b3d/plugin/README.md",
+      "sha256": "4267779223d08d0433fb809a9102bf8e1b44008982f3f6b0fea53063180d651a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-subagent-default-model",
+          "command": "dsh plugin --profile desktop add dsh-subagent-default-model",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-subagent-default-model",
+      "version": "2.1.6",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dingminhua/dsh-subagent-default-model",
+        "commit": "efed0ecfd146f28240220a5aac696fad9b518b3d",
+        "path": "plugin"
+      },
+      "manifestSha256": "e701deb5b5f819a81bc9f25acd75cf7fad47cbbb3c6e6f06b0111d461e58f0dc",
+      "manifestUrl": "https://github.com/dingminhua/dsh-subagent-default-model/blob/efed0ecfd146f28240220a5aac696fad9b518b3d/plugin/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@aaravarr/dsh-subagent-max",
+      "version": "0.2.0",
+      "path": "vendor/dsh-subagent-max",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dingminhua/dsh-subagent-default-model",
+        "commit": "efed0ecfd146f28240220a5aac696fad9b518b3d",
+        "path": "vendor/dsh-subagent-max"
+      },
+      "manifestSha256": "8d3a47cb4eb87d2890b6f4aedee77da4a4e66c59b9631b300063a89a86d3b358",
+      "manifestUrl": "https://github.com/dingminhua/dsh-subagent-default-model/blob/efed0ecfd146f28240220a5aac696fad9b518b3d/vendor/dsh-subagent-max/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-subagent-default-model",
+      "origin": "npm",
+      "name": "dsh-subagent-default-model",
+      "version": "2.1.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ded305842451785a0284b555f0b77b70c0bb8209da30ed51490952a9cecb778f"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dingminhua/dsh-subagent-default-model",
+    "commit": "efed0ecfd146f28240220a5aac696fad9b518b3d",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:10.937Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "plugin/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "plugin/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:07.443Z",
+  "coverageReviewedAt": "2026-10-17T17:12:22.734Z",
+  "contentReviewFlags": []
+}

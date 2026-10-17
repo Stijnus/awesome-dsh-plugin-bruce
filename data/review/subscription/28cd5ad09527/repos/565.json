@@ -1,0 +1,161 @@
+{
+  "full_name": "AgentDebugX/AgentDebugX",
+  "originalPosition": 528,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-agentdebugx"
+  ],
+  "manualNote": null,
+  "ordinal": 565,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:02.829Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "259787306fd5e2d0179d98caf64f004247b78595eb1e824ec6b28e4af33ed154",
+      "url": "https://github.com/AgentDebugX/AgentDebugX/blob/2437c73c3183e6b6495259dfbb12464a7f07f6b8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-agentdebugx",
+          "command": "dsh plugin --profile web add dsh-agentdebugx",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "integrations/claude-code/README.md",
+      "url": "https://github.com/AgentDebugX/AgentDebugX/blob/2437c73c3183e6b6495259dfbb12464a7f07f6b8/integrations/claude-code/README.md",
+      "sha256": "d397cafa1147c17968ff8b4620e2f2ffdac7b9aa8a7a90804c9f27c96475fe2f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "integrations/codex/README.md",
+      "url": "https://github.com/AgentDebugX/AgentDebugX/blob/2437c73c3183e6b6495259dfbb12464a7f07f6b8/integrations/codex/README.md",
+      "sha256": "fa26993c83e5805f73bb89dd5addb07a64669da2cb6e161e203d50feb09f9902",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "src/agentdebug/capture/README.md",
+      "url": "https://github.com/AgentDebugX/AgentDebugX/blob/2437c73c3183e6b6495259dfbb12464a7f07f6b8/src/agentdebug/capture/README.md",
+      "sha256": "d78f941fd14febd4857b044efadacc3af0ebc76907fca8bb278c3b3dcb2bee11",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "src/agentdebug/workbench/README.md",
+      "url": "https://github.com/AgentDebugX/AgentDebugX/blob/2437c73c3183e6b6495259dfbb12464a7f07f6b8/src/agentdebug/workbench/README.md",
+      "sha256": "a86605d38d8f0f1872178dc77cf0db6e7c11e0a750838a90bbc5d40560a58ebe",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "integrations/dsh-agentdebugx/README.md",
+      "url": "https://github.com/AgentDebugX/AgentDebugX/blob/2437c73c3183e6b6495259dfbb12464a7f07f6b8/integrations/dsh-agentdebugx/README.md",
+      "sha256": "8b390a8794506a81e0f711542554fbdfa91195e791fa0cb1c0b67bb4bf97e56c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-agentdebugx",
+          "command": "dsh plugin --profile web add dsh-agentdebugx",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agentdebugx",
+      "version": "0.1.0",
+      "path": "integrations/dsh-agentdebugx",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AgentDebugX/AgentDebugX",
+        "commit": "2437c73c3183e6b6495259dfbb12464a7f07f6b8",
+        "path": "integrations/dsh-agentdebugx"
+      },
+      "manifestSha256": "e640b50ca8270662739e18b56e693c456e972933fba06aa12468b06def7b1210",
+      "manifestUrl": "https://github.com/AgentDebugX/AgentDebugX/blob/2437c73c3183e6b6495259dfbb12464a7f07f6b8/integrations/dsh-agentdebugx/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-agentdebugx",
+      "origin": "npm",
+      "name": "dsh-agentdebugx",
+      "version": "0.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "06899ba62126c60d242f065c75aa28fbf58545790ac1d32a8897e2a2f8d5dde7"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AgentDebugX/AgentDebugX",
+    "commit": "2437c73c3183e6b6495259dfbb12464a7f07f6b8",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:11.106Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "integrations/claude-code/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "integrations/codex/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "src/agentdebug/capture/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "src/agentdebug/workbench/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "integrations/dsh-agentdebugx/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "integrations/claude-code/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "integrations/codex/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "src/agentdebug/capture/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "src/agentdebug/workbench/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "integrations/dsh-agentdebugx/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:16.776Z",
+  "coverageReviewedAt": "2026-10-17T17:12:33.317Z",
+  "contentReviewFlags": []
+}

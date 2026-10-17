@@ -1,0 +1,61 @@
+{
+  "full_name": "zh667/TokenLedger",
+  "originalPosition": 98,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/zh667/TokenLedger"
+  ],
+  "manualNote": null,
+  "ordinal": 263,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:11.416Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bce69f65d425ef71d1c28ed6de9355e43dfb2abac8df8068e24ddd536e6ab0d1",
+      "url": "https://github.com/zh667/TokenLedger/blob/438d3086249d427e7185a69c5453cb1553c84f0b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/zh667/TokenLedger",
+          "command": "dsh plugin --profile web add \"github:zh667/TokenLedger\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tokenledger",
+      "version": "0.1.1-blue.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zh667/TokenLedger",
+        "commit": "438d3086249d427e7185a69c5453cb1553c84f0b"
+      },
+      "manifestSha256": "166fae09a21956accef9d76631d7850fd8825b1d71133343e921da6095e845f4",
+      "manifestUrl": "https://github.com/zh667/TokenLedger/blob/438d3086249d427e7185a69c5453cb1553c84f0b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zh667/TokenLedger",
+    "commit": "438d3086249d427e7185a69c5453cb1553c84f0b",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:18.962Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:11.057Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,86 @@
+{
+  "full_name": "builtin-pb/dsh-developer",
+  "originalPosition": 379,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/builtin-pb/dsh-developer#v0.1.4"
+  ],
+  "manualNote": null,
+  "ordinal": 465,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:04.534Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "922257b8101e96632e059533b6bda3b4bbd6bd91d30a8bec8fd51b2a2bc1b196",
+      "url": "https://github.com/builtin-pb/dsh-developer/blob/f4fe5506a1960cd8b847096a428025045ee15c86/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/builtin-pb/dsh-developer#v0.1.4",
+          "command": "dsh plugin --profile web add 'github:builtin-pb/dsh-developer#v0.1.4' --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "5be27831b492339ad7f1d1cb02df582d08dc0f6016812095216282439d71734f",
+      "url": "https://github.com/builtin-pb/dsh-developer/blob/f4fe5506a1960cd8b847096a428025045ee15c86/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/builtin-pb/dsh-developer#v0.1.4",
+          "command": "dsh plugin --profile web add 'github:builtin-pb/dsh-developer#v0.1.4' --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-developer",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/builtin-pb/dsh-developer",
+        "commit": "f4fe5506a1960cd8b847096a428025045ee15c86"
+      },
+      "manifestSha256": "3cbb9c1b22160191f50ee5482a991f7d7605682f93ec62de778f51676c229166",
+      "manifestUrl": "https://github.com/builtin-pb/dsh-developer/blob/f4fe5506a1960cd8b847096a428025045ee15c86/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/builtin-pb/dsh-developer#v0.1.4",
+      "origin": "git_target",
+      "path": "",
+      "commit": "f4fe5506a1960cd8b847096a428025045ee15c86",
+      "name": "dsh-developer",
+      "version": "0.1.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/builtin-pb/dsh-developer",
+    "commit": "f4fe5506a1960cd8b847096a428025045ee15c86",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:22.046Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:25.994Z",
+  "contentReviewFlags": []
+}

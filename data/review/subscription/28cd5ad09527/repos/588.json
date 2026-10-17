@@ -1,0 +1,97 @@
+{
+  "full_name": "LeemanCheung/dsh-task-dag",
+  "originalPosition": 573,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/LeemanCheung/dsh-task-dag",
+    "https://github.com/LeemanCheung/dsh-task-dag#8fe407f525823091523cd31bc940342feb83b7d1"
+  ],
+  "manualNote": null,
+  "ordinal": 588,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:46.542Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5ef6e37dd0f029129d179aa36fc87a11194bc6e9cd97e4f3f071a68df4cda832",
+      "url": "https://github.com/LeemanCheung/dsh-task-dag/blob/8959f353bcdad728580062bcffed0763725ad4af/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LeemanCheung/dsh-task-dag",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-task-dag",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/LeemanCheung/dsh-task-dag#8fe407f525823091523cd31bc940342feb83b7d1",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-task-dag#8fe407f525823091523cd31bc940342feb83b7d1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3e63cee16286be41230187e68c236fce81512a279d4502adab01434d714ad3ba",
+      "url": "https://github.com/LeemanCheung/dsh-task-dag/blob/8959f353bcdad728580062bcffed0763725ad4af/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LeemanCheung/dsh-task-dag",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-task-dag",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/LeemanCheung/dsh-task-dag#8fe407f525823091523cd31bc940342feb83b7d1",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-task-dag#8fe407f525823091523cd31bc940342feb83b7d1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-task-dag",
+      "version": "1.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeemanCheung/dsh-task-dag",
+        "commit": "8959f353bcdad728580062bcffed0763725ad4af"
+      },
+      "manifestSha256": "80a348d22e395578b79ed1f93f615ee8562457321729175ba4dcbb5d4f02b440",
+      "manifestUrl": "https://github.com/LeemanCheung/dsh-task-dag/blob/8959f353bcdad728580062bcffed0763725ad4af/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/LeemanCheung/dsh-task-dag#8fe407f525823091523cd31bc940342feb83b7d1",
+      "origin": "git_target",
+      "path": "",
+      "commit": "8fe407f525823091523cd31bc940342feb83b7d1",
+      "name": "dsh-task-dag",
+      "version": "1.5.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeemanCheung/dsh-task-dag",
+    "commit": "8959f353bcdad728580062bcffed0763725ad4af",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:02.090Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.609Z",
+  "contentReviewFlags": []
+}

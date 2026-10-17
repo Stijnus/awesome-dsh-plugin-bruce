@@ -1,0 +1,75 @@
+{
+  "full_name": "A3Boy/dsh-web-tools",
+  "originalPosition": 476,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/A3Boy/dsh-web-tools"
+  ],
+  "manualNote": null,
+  "ordinal": 537,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:15.475Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cfb4418ba9d2c44b0d75a3e6c73e48848ee40330914f268ab6446552390f3ff7",
+      "url": "https://github.com/A3Boy/dsh-web-tools/blob/a3a2ffe7433a883e6cd0f72e632b1330fd15f396/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/A3Boy/dsh-web-tools",
+          "command": "dsh plugin --profile web add github:A3Boy/dsh-web-tools",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "e2b9e9041d38d414854e27d81ced0e0f49c44a548ef2e6ff32124a31b55ca008",
+      "url": "https://github.com/A3Boy/dsh-web-tools/blob/a3a2ffe7433a883e6cd0f72e632b1330fd15f396/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/A3Boy/dsh-web-tools",
+          "command": "dsh plugin --profile web add github:A3Boy/dsh-web-tools",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-tools",
+      "version": "0.3.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/A3Boy/dsh-web-tools",
+        "commit": "a3a2ffe7433a883e6cd0f72e632b1330fd15f396"
+      },
+      "manifestSha256": "696a0975c12ea27f5fd16c0f7cccc0e6575ba1a8250e0213cec28b3a9f91827a",
+      "manifestUrl": "https://github.com/A3Boy/dsh-web-tools/blob/a3a2ffe7433a883e6cd0f72e632b1330fd15f396/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/A3Boy/dsh-web-tools",
+    "commit": "a3a2ffe7433a883e6cd0f72e632b1330fd15f396",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:26.133Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.503Z",
+  "contentReviewFlags": []
+}

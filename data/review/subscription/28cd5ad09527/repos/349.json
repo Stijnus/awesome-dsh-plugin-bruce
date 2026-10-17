@@ -1,0 +1,139 @@
+{
+  "full_name": "universe-st/dsh-game-material-master",
+  "originalPosition": 203,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-game-material-master"
+  ],
+  "manualNote": null,
+  "ordinal": 349,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:47.900Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "66830d327e4a179641090a2b50fdbea8b6da4565f3c44867bbcc9ff25e414f30",
+      "url": "https://github.com/universe-st/dsh-game-material-master/blob/0920a4b30bfb0ae68c7a035716a6f60697335ea6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-game-material-master",
+          "command": "dsh plugin --profile web add dsh-game-material-master",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-game-material-master",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/universe-st/dsh-game-material-master",
+        "commit": "0920a4b30bfb0ae68c7a035716a6f60697335ea6"
+      },
+      "manifestSha256": "64109d5b3933329f06761f4c4687dd483975c7c72e1843b0741090fb61447bd5",
+      "manifestUrl": "https://github.com/universe-st/dsh-game-material-master/blob/0920a4b30bfb0ae68c7a035716a6f60697335ea6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-game-material-master",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1792249138,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/universe-st/dsh-game-material-master",
+              "commit": "0920a4b30bfb0ae68c7a035716a6f60697335ea6"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-game-material-master",
+      "origin": "npm",
+      "name": "dsh-game-material-master",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-game-material-master",
+        "title": "dsh-game-material-master",
+        "description": "游戏素材大师：DSH 插件，包含八方向图生成、图片生成、序列帧生成、地图编辑器、音乐生成编辑五个正式模块（地图编辑器参考 AsLib 的 RPG Map Maker 重做：一屏、纯图标、零术语，地图四周环绕、素材自动识别与自动连接、动画地块、内置素材、一键生成，全本地零计费；音乐生成编辑接谱乐 AI：灵感/歌词 → 不挂靠项目的新对话 → agent 扩写/选引擎生成 → 回界面裁剪/音量/淡入淡出/标准化/导出，生成按平台积分计费；另有谱曲模式：先给方案 → scoremill 本地写 MIDI → 渲染试听 → 逐版修改 → 可选交 Suno，谱曲/试听/导出本地免费），以及实验性的 45° 地图地块生成与骨骼动画生成模块。界面与内置提示词跟随 DSH 语言设置（中 / 英）。八方向图默认「转圈截帧」（一段原地匀速转一圈的绿幕视频 → 按时间轴截出八个方向），也可逐方向生图；45° 地图地块用「几何交给代码、内容交给 AI」的方式拼成整张地图。生图后端可选火山方舟 Seedream，或自定义生图模型（OpenAI API / ComfyUI API / Stable Diffusion WebUI API 三种协议）；图生视频走 MiniMax；抠绿幕合成与音乐后期全部在本地。",
+        "homepage": "https://github.com/universe-st/dsh-game-material-master#readme",
+        "repository": {
+          "url": "https://github.com/universe-st/dsh-game-material-master"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "game-assets",
+            "sprite-sheet",
+            "chroma-key",
+            "seedream",
+            "minimax",
+            "tilemap-editor",
+            "tileset",
+            "autotile",
+            "wraparound",
+            "music-generation",
+            "ai-music",
+            "scoremill",
+            "midi-composition",
+            "audio-editing",
+            "puyue",
+            "suno"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1792249306,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cb2b74857182f249b88c47f7913309188bedb051e85cc27a806f4407494c8409",
+      "evidence": [
+        {
+          "name": "dsh-game-material-master",
+          "version": "0.8.0",
+          "tarball": "https://registry.npmjs.org/dsh-game-material-master/-/dsh-game-material-master-0.8.0.tgz",
+          "integrity": "sha512-j0LFUxtrh0G33jW+yca0dqD6Mwrzv1WzYs2+BXINFT30K0wOkEOVB2+44+KYGLADrthfGFAUmrsgbC/LUrPEpA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/universe-st/dsh-game-material-master",
+    "commit": "0920a4b30bfb0ae68c7a035716a6f60697335ea6",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:05:58.533Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.813Z",
+  "contentReviewFlags": []
+}

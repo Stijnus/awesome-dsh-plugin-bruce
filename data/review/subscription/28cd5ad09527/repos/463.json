@@ -1,0 +1,131 @@
+{
+  "full_name": "MaRi23333/dsh-subagent-library",
+  "originalPosition": 374,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-subagent-library",
+    "https://github.com/MaRi23333/dsh-subagent-library"
+  ],
+  "manualNote": null,
+  "ordinal": 463,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:04.057Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a6a1b85339d1760a0fc56e0745f297e033a54e82f92ccc45098ebd6cb4267572",
+      "url": "https://github.com/MaRi23333/dsh-subagent-library/blob/262aa506449112e5e32734246a8f528a038e38ee/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-subagent-library",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-subagent-library",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/MaRi23333/dsh-subagent-library",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:MaRi23333/dsh-subagent-library",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-subagent-library@latest",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-subagent-library@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/MaRi23333/dsh-subagent-library/blob/262aa506449112e5e32734246a8f528a038e38ee/README.en.md",
+      "sha256": "1d5aa95f0ab848ca21112e9e3237edef1b960019f07c5dbc1ded947c51f3b90d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-subagent-library",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-subagent-library",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/MaRi23333/dsh-subagent-library",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:MaRi23333/dsh-subagent-library",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-subagent-library@latest",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-subagent-library@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-subagent-library",
+      "version": "0.3.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MaRi23333/dsh-subagent-library",
+        "commit": "262aa506449112e5e32734246a8f528a038e38ee"
+      },
+      "manifestSha256": "7574ae2861477e05b7d2b11fc592a3dbb49c4f8ccc8f7f4cdc6d6c53f7870172",
+      "manifestUrl": "https://github.com/MaRi23333/dsh-subagent-library/blob/262aa506449112e5e32734246a8f528a038e38ee/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-subagent-library",
+      "origin": "npm",
+      "name": "dsh-subagent-library",
+      "version": "0.3.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "88fd6cab17be2f8b0aaa305baa72b4aca9b6ed0cf83fc56260341018cdd880d1"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-subagent-library",
+      "version": "0.3.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-subagent-library@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MaRi23333/dsh-subagent-library",
+    "commit": "262aa506449112e5e32734246a8f528a038e38ee",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:12.310Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:09.456Z",
+  "coverageReviewedAt": "2026-10-17T17:12:26.049Z",
+  "contentReviewFlags": []
+}

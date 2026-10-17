@@ -1,0 +1,156 @@
+{
+  "full_name": "corrinehu/dsh-workbuddy-connect",
+  "originalPosition": 16,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-workbuddy-connect",
+    "https://github.com/corrinehu/dsh-workbuddy-connect",
+    "dsh-workbuddy-connect"
+  ],
+  "manualNote": null,
+  "ordinal": 197,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:05:23.674Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "41c345d349e08af71aa37eadf5803dbd7c70838e18eb277de091a5622427e99c",
+      "url": "https://github.com/corrinehu/dsh-workbuddy-connect/blob/93aaecb2248084e2d306323c49f155ba2743a26d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workbuddy-connect@0.7.8",
+          "command": "dsh plugin --profile web add dsh-workbuddy-connect@0.7.8",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-workbuddy-connect@0.6.5",
+          "command": "dsh plugin --profile dsh-tui add dsh-workbuddy-connect@0.6.5",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/corrinehu/dsh-workbuddy-connect/blob/93aaecb2248084e2d306323c49f155ba2743a26d/README.en.md",
+      "sha256": "25589e06092a6848d18a7972961273ecf71b6a342d36d4d2d8e23e8ed5fee4ad",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workbuddy-connect@0.7.8",
+          "command": "dsh plugin --profile web add dsh-workbuddy-connect@0.7.8",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-workbuddy-connect@0.6.5",
+          "command": "dsh plugin --profile dsh-tui add dsh-workbuddy-connect@0.6.5",
+          "profile": "dsh-tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workbuddy-connect",
+      "version": "0.7.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/corrinehu/dsh-workbuddy-connect",
+        "commit": "93aaecb2248084e2d306323c49f155ba2743a26d"
+      },
+      "manifestSha256": "8ecc666621357fa96a83db781d51c8b6cef79c515c94261e81bcd05dd054c999",
+      "manifestUrl": "https://github.com/corrinehu/dsh-workbuddy-connect/blob/93aaecb2248084e2d306323c49f155ba2743a26d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-workbuddy-connect",
+      "origin": "npm",
+      "name": "dsh-workbuddy-connect",
+      "version": "0.7.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "675bfc315d4b4699240ac9d1c55b55e0f3bae5e398a0d62ca386df870ad9c39f"
+    },
+    {
+      "target": "dsh-workbuddy-connect@0.7.8",
+      "origin": "npm",
+      "name": "dsh-workbuddy-connect",
+      "version": "0.7.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "675bfc315d4b4699240ac9d1c55b55e0f3bae5e398a0d62ca386df870ad9c39f"
+    },
+    {
+      "target": "dsh-workbuddy-connect@0.6.5",
+      "origin": "npm",
+      "name": "dsh-workbuddy-connect",
+      "version": "0.6.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "675bfc315d4b4699240ac9d1c55b55e0f3bae5e398a0d62ca386df870ad9c39f"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-workbuddy-connect",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/corrinehu/dsh-workbuddy-connect",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "dsh-workbuddy-connect",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workbuddy-connect@0.7.8",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workbuddy-connect@0.6.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/corrinehu/dsh-workbuddy-connect",
+    "commit": "93aaecb2248084e2d306323c49f155ba2743a26d",
+    "releaseTags": 32,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:33.482Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:54.229Z",
+  "coverageReviewedAt": "2026-10-17T17:12:08.158Z",
+  "contentReviewFlags": []
+}

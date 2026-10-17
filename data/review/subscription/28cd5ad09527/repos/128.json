@@ -1,0 +1,53 @@
+{
+  "full_name": "Bingtang1019/dsh-ppt-fusion",
+  "originalPosition": 530,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:55.106Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2b15c29a4a69d042309d4ec377b1690776d446211d932c4d678af007d9b5e291",
+      "url": "https://github.com/Bingtang1019/dsh-ppt-fusion/blob/a19f4d3832e92b4c722e305c7b9b67cae9ad8153/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ppt-flashmade",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bingtang1019/dsh-ppt-fusion",
+        "commit": "a19f4d3832e92b4c722e305c7b9b67cae9ad8153"
+      },
+      "manifestSha256": "1a120488631e63b945679cbecf61cfec4d4309ff937449f8dc08f76a859f7fda",
+      "manifestUrl": "https://github.com/Bingtang1019/dsh-ppt-fusion/blob/a19f4d3832e92b4c722e305c7b9b67cae9ad8153/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Bingtang1019/dsh-ppt-fusion",
+    "commit": "a19f4d3832e92b4c722e305c7b9b67cae9ad8153",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:02.383Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.588Z",
+  "contentReviewFlags": []
+}

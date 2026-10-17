@@ -1,0 +1,96 @@
+{
+  "full_name": "Laplace-bit/dsh-smooth-stream",
+  "originalPosition": 562,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-smooth-stream"
+  ],
+  "manualNote": null,
+  "ordinal": 582,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:38.654Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a5bb4e299e443fdfd8bcc3e4fb61a9844e7e4b7d2eaac7c1a6156340c8682641",
+      "url": "https://github.com/Laplace-bit/dsh-smooth-stream/blob/bf9c3c54c692d242edb9b86a2e8bf3007b248494/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-smooth-stream",
+          "command": "pnpm dsh plugin --profile web add dsh-smooth-stream",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Laplace-bit/dsh-smooth-stream/blob/bf9c3c54c692d242edb9b86a2e8bf3007b248494/README.en.md",
+      "sha256": "3cebfd2c50688d61d157af5e3e3caf934087a6b380be131f38d59ff5b30aed11",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-smooth-stream",
+          "command": "pnpm dsh plugin --profile web add dsh-smooth-stream",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-smooth-stream",
+      "version": "0.8.0-rc.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Laplace-bit/dsh-smooth-stream",
+        "commit": "bf9c3c54c692d242edb9b86a2e8bf3007b248494"
+      },
+      "manifestSha256": "850a2cf582c852c0fa9e72df3a2fdf5673eacab749ffa58aa526ac4fcbf78153",
+      "manifestUrl": "https://github.com/Laplace-bit/dsh-smooth-stream/blob/bf9c3c54c692d242edb9b86a2e8bf3007b248494/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-smooth-stream",
+      "origin": "npm",
+      "name": "dsh-smooth-stream",
+      "version": "0.7.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "e0c9ed287f866930fec4ad3f536114d8a12f65d6c1afe11086f6b39f9f08aa92"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Laplace-bit/dsh-smooth-stream",
+    "commit": "bf9c3c54c692d242edb9b86a2e8bf3007b248494",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:46.542Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.955Z",
+  "coverageReviewedAt": "2026-10-17T17:12:32.796Z",
+  "contentReviewFlags": []
+}

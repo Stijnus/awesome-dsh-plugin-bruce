@@ -1,0 +1,318 @@
+{
+  "full_name": "PerryLink/dsh-checkpoint-rewind",
+  "originalPosition": 171,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-checkpoint-rewind#main",
+    "dsh-checkpoint-rewind"
+  ],
+  "manualNote": null,
+  "ordinal": 323,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:35.288Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a5ba9a5cc442913109f5079932246347082feb4a1673ea2fec342479ac190352",
+      "url": "https://github.com/PerryLink/dsh-checkpoint-rewind/blob/a9ecd64da0c5c77298b9a8e7406a435d2249e039/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-checkpoint-rewind",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-checkpoint-rewind",
+          "command": "dsh plugin --profile web add dsh-checkpoint-rewind",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-checkpoint-rewind/blob/a9ecd64da0c5c77298b9a8e7406a435d2249e039/README-zh.md",
+      "sha256": "40601bcc771e62c9f9a4c612f900c37d56787f0f63ea61712f2c053efbcabdf7",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-checkpoint-rewind",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-checkpoint-rewind",
+          "command": "dsh plugin --profile web add dsh-checkpoint-rewind",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-checkpoint-rewind/blob/a9ecd64da0c5c77298b9a8e7406a435d2249e039/README-es.md",
+      "sha256": "b3bbc380df26dce0659b83a4b4a022f2583a670a0f7fedb21b71dec12dc6bbb2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-checkpoint-rewind",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-checkpoint-rewind",
+          "command": "dsh plugin --profile web add dsh-checkpoint-rewind",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-checkpoint-rewind/blob/a9ecd64da0c5c77298b9a8e7406a435d2249e039/README-pt.md",
+      "sha256": "a613d6df18739fea24f25734251be75b5827e6b99e87a7b06bdeb147c4b1ffb1",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-checkpoint-rewind",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-checkpoint-rewind",
+          "command": "dsh plugin --profile web add dsh-checkpoint-rewind",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-checkpoint-rewind/blob/a9ecd64da0c5c77298b9a8e7406a435d2249e039/README-hi.md",
+      "sha256": "7accb2c15580b34eb8c7c5decec8983a7caf9618e8a02a18424558e1769de65d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-checkpoint-rewind",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-checkpoint-rewind",
+          "command": "dsh plugin --profile web add dsh-checkpoint-rewind",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-checkpoint-rewind",
+      "version": "0.6.24",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+        "commit": "a9ecd64da0c5c77298b9a8e7406a435d2249e039"
+      },
+      "manifestSha256": "705ce28b575c4f851bba01a3f66762da125813039bece5bd7cc775f826f01d00",
+      "manifestUrl": "https://github.com/PerryLink/dsh-checkpoint-rewind/blob/a9ecd64da0c5c77298b9a8e7406a435d2249e039/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-checkpoint-rewind",
+        "versions": [
+          {
+            "version": "0.6.24",
+            "publishTimestamp": 1791812997,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+              "commit": "a9ecd64da0c5c77298b9a8e7406a435d2249e039"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-checkpoint-rewind#main",
+      "origin": "git_target",
+      "name": "dsh-checkpoint-rewind",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-checkpoint-rewind",
+        "title": "dsh-checkpoint-rewind",
+        "description": "Unified DSH checkpoints: session + workspace + config three-state snapshots with one-shot rollback — /checkpoint and /rewind commands, a checkpoint tool, automatic interval snapshots, a Settings page timeline with pairwise diffs, and seed-replay session rollback via the official sessions.create API",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-checkpoint-rewind"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "rewind",
+            "checkpoint",
+            "snapshot",
+            "session-replay",
+            "session-fork",
+            "config-restore",
+            "workspace-safety",
+            "undo",
+            "cordis-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.24",
+            "publishTimestamp": 1791812997,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+              "commit": "a9ecd64da0c5c77298b9a8e7406a435d2249e039"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "a9ecd64da0c5c77298b9a8e7406a435d2249e039",
+          "name": "dsh-checkpoint-rewind",
+          "version": "0.6.24",
+          "url": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+          "manifestSha256": "705ce28b575c4f851bba01a3f66762da125813039bece5bd7cc775f826f01d00",
+          "publishTimestamp": 1791812997
+        }
+      ]
+    },
+    {
+      "target": "dsh-checkpoint-rewind",
+      "origin": "npm",
+      "name": "dsh-checkpoint-rewind",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-checkpoint-rewind",
+        "title": "dsh-checkpoint-rewind",
+        "description": "Unified DSH checkpoints: session + workspace + config three-state snapshots with one-shot rollback — /checkpoint and /rewind commands, a checkpoint tool, automatic interval snapshots, a Settings page timeline with pairwise diffs, and seed-replay session rollback via the official sessions.create API",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-checkpoint-rewind"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "rewind",
+            "checkpoint",
+            "snapshot",
+            "session-replay",
+            "session-fork",
+            "config-restore",
+            "workspace-safety",
+            "undo",
+            "cordis-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.24",
+            "publishTimestamp": 1791593941,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f601f6ee75cab2c1bb1a45d3990fc9a034d9237dae63a52987003d8774b1c0b3",
+      "evidence": [
+        {
+          "name": "dsh-checkpoint-rewind",
+          "version": "0.6.24",
+          "tarball": "https://registry.npmjs.org/dsh-checkpoint-rewind/-/dsh-checkpoint-rewind-0.6.24.tgz",
+          "integrity": "sha512-gBBh1hiHFNFzCLTZvh7jwyhRjvZl/qVlE7tAF34Pza4WclHT9cvl8W5/YSnx1ZTLM+NuoFCC3xqYxPW8nRKQDQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-checkpoint-rewind#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+    "commit": "a9ecd64da0c5c77298b9a8e7406a435d2249e039",
+    "releaseTags": 34,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:04:51.503Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:03.603Z",
+  "coverageReviewedAt": "2026-10-17T17:12:16.559Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,97 @@
+{
+  "full_name": "AcidGr/dsh-web-lan-access",
+  "originalPosition": 456,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-web-lan-access",
+    "https://github.com/AcidGr/dsh-web-lan-access"
+  ],
+  "manualNote": null,
+  "ordinal": 522,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:48.698Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "50a49fcb9e8049f7332edb6a4c8c99e400461f7104c84d2ef5756bf69534b874",
+      "url": "https://github.com/AcidGr/dsh-web-lan-access/blob/c6ce03ae7616864aec5740fbcc5488ee0e8e2e21/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-lan-access",
+          "command": "dsh plugin --profile web add dsh-web-lan-access",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AcidGr/dsh-web-lan-access",
+          "command": "dsh plugin --profile web add github:AcidGr/dsh-web-lan-access",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ccb4b8b50e81d2e75aad402a8688a67b7b459ea99fb2c7e895601ba37226ee55",
+      "url": "https://github.com/AcidGr/dsh-web-lan-access/blob/c6ce03ae7616864aec5740fbcc5488ee0e8e2e21/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-lan-access",
+          "command": "dsh plugin --profile web add dsh-web-lan-access",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AcidGr/dsh-web-lan-access",
+          "command": "dsh plugin --profile web add github:AcidGr/dsh-web-lan-access",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-lan-access",
+      "version": "1.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AcidGr/dsh-web-lan-access",
+        "commit": "c6ce03ae7616864aec5740fbcc5488ee0e8e2e21"
+      },
+      "manifestSha256": "11614d0bb22a9ed405613e5f62f528e9e8bfe14fc23783c6e693e06accae1e3e",
+      "manifestUrl": "https://github.com/AcidGr/dsh-web-lan-access/blob/c6ce03ae7616864aec5740fbcc5488ee0e8e2e21/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-web-lan-access",
+      "origin": "npm",
+      "name": "dsh-web-lan-access",
+      "version": "1.3.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f3b9c6200c6d49ecbc455e335538bf8d465f4d9caab47eed9b4e9493f0134665"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AcidGr/dsh-web-lan-access",
+    "commit": "c6ce03ae7616864aec5740fbcc5488ee0e8e2e21",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:57.674Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:30.714Z",
+  "contentReviewFlags": []
+}

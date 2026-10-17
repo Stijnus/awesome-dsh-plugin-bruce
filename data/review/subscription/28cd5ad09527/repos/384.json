@@ -1,0 +1,61 @@
+{
+  "full_name": "kingOfSoySauce/dsh-liang-skin",
+  "originalPosition": 262,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/kingOfSoySauce/dsh-liang-skin"
+  ],
+  "manualNote": null,
+  "ordinal": 384,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:07.892Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "35572c730a1525fc91912b8d0169b81c8527addc9fb4dede97e438d451b85276",
+      "url": "https://github.com/kingOfSoySauce/dsh-liang-skin/blob/7d1d3742e58ccdedca2bab6e89539ddd98c442cc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/kingOfSoySauce/dsh-liang-skin",
+          "command": "dsh plugin --profile web add 'github:kingOfSoySauce/dsh-liang-skin'",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@leon___/dsh-client-liang-intensity-skin",
+      "version": "0.1.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kingOfSoySauce/dsh-liang-skin",
+        "commit": "7d1d3742e58ccdedca2bab6e89539ddd98c442cc"
+      },
+      "manifestSha256": "6736fb9728c8068eede2f680952641671791d9b0595f078e34e8dcdf841e85ea",
+      "manifestUrl": "https://github.com/kingOfSoySauce/dsh-liang-skin/blob/7d1d3742e58ccdedca2bab6e89539ddd98c442cc/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kingOfSoySauce/dsh-liang-skin",
+    "commit": "7d1d3742e58ccdedca2bab6e89539ddd98c442cc",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:15.604Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:19.823Z",
+  "contentReviewFlags": []
+}

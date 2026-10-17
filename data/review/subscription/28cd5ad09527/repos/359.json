@@ -1,0 +1,124 @@
+{
+  "full_name": "masknull/dsh-workbuddy-connect",
+  "originalPosition": 225,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/masknull/dsh-workbuddy-connect",
+    "https://github.com/masknull/dsh-workbuddy-connect",
+    "https://github.com/masknull/dsh-workbuddy-connect"
+  ],
+  "manualNote": null,
+  "ordinal": 359,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:12.160Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dd1ca831655b5f9176c8e2aed7251ff866ac85826bb123ab5987832d1bc5d311",
+      "url": "https://github.com/masknull/dsh-workbuddy-connect/blob/4738217d156c46f088d424dedc83a66e7308f64a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/masknull/dsh-workbuddy-connect",
+          "command": "dsh plugin --profile web add github:masknull/dsh-workbuddy-connect",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/masknull/dsh-workbuddy-connect",
+          "command": "dsh plugin --profile desktop add github:masknull/dsh-workbuddy-connect",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/masknull/dsh-workbuddy-connect",
+          "command": "dsh plugin --profile dsh-tui add github:masknull/dsh-workbuddy-connect",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/masknull/dsh-workbuddy-connect/blob/4738217d156c46f088d424dedc83a66e7308f64a/README.en.md",
+      "sha256": "cb90c393703f03ff9158d1208e2b3afd444d36c2cbd82298221901fe73018d63",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/masknull/dsh-workbuddy-connect",
+          "command": "dsh plugin --profile web add github:masknull/dsh-workbuddy-connect",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/masknull/dsh-workbuddy-connect",
+          "command": "dsh plugin --profile desktop add github:masknull/dsh-workbuddy-connect",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/masknull/dsh-workbuddy-connect",
+          "command": "dsh plugin --profile dsh-tui add github:masknull/dsh-workbuddy-connect",
+          "profile": "dsh-tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workbuddy-connect",
+      "version": "0.6.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/masknull/dsh-workbuddy-connect",
+        "commit": "4738217d156c46f088d424dedc83a66e7308f64a"
+      },
+      "manifestSha256": "cdaa2f00f9d95382fbdffbf195ac256b74abd6ce24a1d26a8c84b4dc120bc548",
+      "manifestUrl": "https://github.com/masknull/dsh-workbuddy-connect/blob/4738217d156c46f088d424dedc83a66e7308f64a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-workbuddy-connect",
+        "versions": [
+          {
+            "version": "0.6.10",
+            "publishTimestamp": 1792242551,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/masknull/dsh-workbuddy-connect",
+              "commit": "4738217d156c46f088d424dedc83a66e7308f64a"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/masknull/dsh-workbuddy-connect",
+    "commit": "4738217d156c46f088d424dedc83a66e7308f64a",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:06:21.074Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:04.369Z",
+  "coverageReviewedAt": "2026-10-17T17:12:17.596Z",
+  "contentReviewFlags": []
+}

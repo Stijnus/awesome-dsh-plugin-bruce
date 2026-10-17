@@ -1,0 +1,86 @@
+{
+  "full_name": "Likenttt/garmin-connect-plugin-for-dsh",
+  "originalPosition": 293,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-garmin-connect"
+  ],
+  "manualNote": null,
+  "ordinal": 405,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:21.356Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f3e003ddb914401d8002d10a99f36104eb8777e18384b46655209ce2d051176e",
+      "url": "https://github.com/Likenttt/garmin-connect-plugin-for-dsh/blob/a36af2aaf9065493892fd82065308dd3a15d07a4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-garmin-connect",
+          "command": "npx --legacy-peer-deps=false @deepseek-ai/dsh plugin --profile web add dsh-plugin-garmin-connect",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "24203b2ab1a0279ce4a223b03c8245fa5edc48e1c527f98c3ed03a866d003cc0",
+      "url": "https://github.com/Likenttt/garmin-connect-plugin-for-dsh/blob/a36af2aaf9065493892fd82065308dd3a15d07a4/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-garmin-connect",
+          "command": "npx --legacy-peer-deps=false @deepseek-ai/dsh plugin --profile web add dsh-plugin-garmin-connect",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-garmin-connect",
+      "version": "0.1.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Likenttt/garmin-connect-plugin-for-dsh",
+        "commit": "a36af2aaf9065493892fd82065308dd3a15d07a4"
+      },
+      "manifestSha256": "6beb006ce1aef66722d31011effeadde9fa5016c879a47d1c2134fb0e9589f8b",
+      "manifestUrl": "https://github.com/Likenttt/garmin-connect-plugin-for-dsh/blob/a36af2aaf9065493892fd82065308dd3a15d07a4/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-garmin-connect",
+      "origin": "npm",
+      "name": "dsh-plugin-garmin-connect",
+      "version": "0.1.16",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "e4d0eb217989c033b55dd50eed23992c9f5152376f507416e7ac65015496ba1e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Likenttt/garmin-connect-plugin-for-dsh",
+    "commit": "a36af2aaf9065493892fd82065308dd3a15d07a4",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:33.676Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.990Z",
+  "contentReviewFlags": []
+}

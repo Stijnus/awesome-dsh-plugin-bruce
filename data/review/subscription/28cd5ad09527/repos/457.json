@@ -1,0 +1,87 @@
+{
+  "full_name": "icodesign/orbis",
+  "originalPosition": 365,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@orbisapp/remote-dsh@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 457,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:51.776Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "517f8c21864398969527a6e69c913a860d4574f3dad35e7e8e611b2429886251",
+      "url": "https://github.com/icodesign/orbis/blob/f8c7dbadbf772fe6aa37aa41814d6acfae5061ad/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@orbisapp/remote-dsh@latest",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @orbisapp/remote-dsh@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d31246a4b28eb101f63d093bfbc317fa137ae7cfeea820e9c6fdfd6b195a2efc",
+      "url": "https://github.com/icodesign/orbis/blob/f8c7dbadbf772fe6aa37aa41814d6acfae5061ad/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@orbisapp/remote-dsh@latest",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @orbisapp/remote-dsh@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@orbisapp/remote-dsh",
+      "version": "0.5.1",
+      "path": "packages/orbis-remote-dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/icodesign/orbis",
+        "commit": "f8c7dbadbf772fe6aa37aa41814d6acfae5061ad",
+        "path": "packages/orbis-remote-dsh"
+      },
+      "manifestSha256": "c267f3eb58fe258124a64c087b070f9f67e01c06be4a6ebc0a947652df583b21",
+      "manifestUrl": "https://github.com/icodesign/orbis/blob/f8c7dbadbf772fe6aa37aa41814d6acfae5061ad/packages/orbis-remote-dsh/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@orbisapp/remote-dsh@latest",
+      "origin": "npm",
+      "name": "@orbisapp/remote-dsh",
+      "version": "0.5.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "13fbb3d71a7f365d6641209675255515eb3f1f97d91e41f6d1af5e5bcf469f85"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/icodesign/orbis",
+    "commit": "f8c7dbadbf772fe6aa37aa41814d6acfae5061ad",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:10.192Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:24.938Z",
+  "contentReviewFlags": []
+}

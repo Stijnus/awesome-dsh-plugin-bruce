@@ -1,0 +1,107 @@
+{
+  "full_name": "Andrew111888/dsh-plugin-balance",
+  "originalPosition": 520,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-balance",
+    "dsh-plugin-balance"
+  ],
+  "manualNote": null,
+  "ordinal": 561,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:55.997Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2d3a97abe5a328af70c749d40114a42c9f4f7f01410c50ac4870e74471bb2574",
+      "url": "https://github.com/Andrew111888/dsh-plugin-balance/blob/96bb1592c949456aa37ccc3a296085f59df2ee9c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-balance",
+          "command": "dsh plugin add dsh-plugin-balance",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-plugin-balance",
+          "command": "dsh plugin --profile web add dsh-plugin-balance",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Andrew111888/dsh-plugin-balance/blob/96bb1592c949456aa37ccc3a296085f59df2ee9c/README.en.md",
+      "sha256": "f533d65ee156613e35e30628cac3286c804fd5db0c4cb08eea725ae73c19bb6e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-balance",
+          "command": "dsh plugin add dsh-plugin-balance",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-plugin-balance",
+          "command": "dsh plugin --profile web add dsh-plugin-balance",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-balance",
+      "version": "1.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Andrew111888/dsh-plugin-balance",
+        "commit": "96bb1592c949456aa37ccc3a296085f59df2ee9c"
+      },
+      "manifestSha256": "3f780bf3b53b90ee897ae8ebb321ac0fc40e2b79ad0e5867c2a3a5a50f3f753f",
+      "manifestUrl": "https://github.com/Andrew111888/dsh-plugin-balance/blob/96bb1592c949456aa37ccc3a296085f59df2ee9c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-balance",
+      "origin": "npm",
+      "name": "dsh-plugin-balance",
+      "version": "1.4.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "61e9e208a8014eb4e001474ebde5482a188223a1e185eb45254613cc7a0b0d2f"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Andrew111888/dsh-plugin-balance",
+    "commit": "96bb1592c949456aa37ccc3a296085f59df2ee9c",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:04.280Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.283Z",
+  "coverageReviewedAt": "2026-10-17T17:12:32.272Z",
+  "contentReviewFlags": []
+}

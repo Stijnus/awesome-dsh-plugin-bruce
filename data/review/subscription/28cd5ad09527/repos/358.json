@@ -1,0 +1,128 @@
+{
+  "full_name": "GZX2211/dsh-Visual-Workflow",
+  "originalPosition": 223,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/GZX2211/dsh-Visual-Workflow#main"
+  ],
+  "manualNote": null,
+  "ordinal": 358,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:08.400Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4c9cf302d27ca36f88be7c5e5d2d5bb25ee6340971b274132389c1107d997745",
+      "url": "https://github.com/GZX2211/dsh-Visual-Workflow/blob/01b93d13acc392b66a5bed38cd8fced5323d1510/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/GZX2211/dsh-Visual-Workflow#main",
+          "command": "dsh plugin --profile web add \"github:GZX2211/dsh-Visual-Workflow#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "e2cf6062684e4e702a491ebe2c7f3c1802f476c925cc00857d0c7bb96ed7eb11",
+      "url": "https://github.com/GZX2211/dsh-Visual-Workflow/blob/01b93d13acc392b66a5bed38cd8fced5323d1510/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/GZX2211/dsh-Visual-Workflow#main",
+          "command": "dsh plugin --profile web add \"github:GZX2211/dsh-Visual-Workflow#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-visual-workflow",
+      "version": "0.10.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GZX2211/dsh-Visual-Workflow",
+        "commit": "01b93d13acc392b66a5bed38cd8fced5323d1510"
+      },
+      "manifestSha256": "00f22992713b4724047d284e3478dfc5fa5d92d97b3bccbe499c3e28d171a8c6",
+      "manifestUrl": "https://github.com/GZX2211/dsh-Visual-Workflow/blob/01b93d13acc392b66a5bed38cd8fced5323d1510/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-visual-workflow",
+        "versions": [
+          {
+            "version": "0.10.2",
+            "publishTimestamp": 1792246275,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GZX2211/dsh-Visual-Workflow",
+              "commit": "01b93d13acc392b66a5bed38cd8fced5323d1510"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/GZX2211/dsh-Visual-Workflow#main",
+      "origin": "git_target",
+      "name": "dsh-visual-workflow",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-visual-workflow",
+        "title": "dsh-visual-workflow",
+        "description": "DSH 可视化 Agent 编排平台",
+        "versions": [
+          {
+            "version": "0.10.2",
+            "publishTimestamp": 1792246275,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GZX2211/dsh-Visual-Workflow",
+              "commit": "01b93d13acc392b66a5bed38cd8fced5323d1510"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "01b93d13acc392b66a5bed38cd8fced5323d1510",
+          "name": "dsh-visual-workflow",
+          "version": "0.10.2",
+          "url": "https://github.com/GZX2211/dsh-Visual-Workflow",
+          "manifestSha256": "00f22992713b4724047d284e3478dfc5fa5d92d97b3bccbe499c3e28d171a8c6",
+          "publishTimestamp": 1792246275
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GZX2211/dsh-Visual-Workflow",
+    "commit": "01b93d13acc392b66a5bed38cd8fced5323d1510",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:06:26.459Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:17.282Z",
+  "contentReviewFlags": []
+}

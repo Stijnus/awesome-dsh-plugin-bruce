@@ -1,0 +1,120 @@
+{
+  "full_name": "mingzeng21/dsh-obsidian",
+  "originalPosition": 255,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-obsidian"
+  ],
+  "manualNote": null,
+  "ordinal": 379,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:59.596Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1f9d4be073566638741df67ec296d0d915fbab275a212f47f549857781131c99",
+      "url": "https://github.com/mingzeng21/dsh-obsidian/blob/ff878109d40e2d2b41c7bed05dee25bd2ae52b48/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-obsidian",
+          "command": "dsh plugin --profile web add dsh-obsidian",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-obsidian@0.2.6",
+          "command": "dsh plugin --profile web add dsh-obsidian@0.2.6",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/mingzeng21/dsh-obsidian/blob/ff878109d40e2d2b41c7bed05dee25bd2ae52b48/README.en.md",
+      "sha256": "ce559e582d0c022cfa4917e6ce93018baacc54358fa8c40ede7265b84d63722c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-obsidian",
+          "command": "dsh plugin --profile web add dsh-obsidian",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-obsidian@0.2.6",
+          "command": "dsh plugin --profile web add dsh-obsidian@0.2.6",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-obsidian",
+      "version": "0.2.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mingzeng21/dsh-obsidian",
+        "commit": "ff878109d40e2d2b41c7bed05dee25bd2ae52b48"
+      },
+      "manifestSha256": "24f2b868308091f708363b0a94283964e3eb41ec3c642a12d9f77778ea457876",
+      "manifestUrl": "https://github.com/mingzeng21/dsh-obsidian/blob/ff878109d40e2d2b41c7bed05dee25bd2ae52b48/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-obsidian",
+      "origin": "npm",
+      "name": "dsh-obsidian",
+      "version": "0.2.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f8c367f446862883a41bc3e955847e07dd0299f11d2c92a93d77d9ed6394f991"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-obsidian",
+      "version": "0.2.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-obsidian@0.2.6",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mingzeng21/dsh-obsidian",
+    "commit": "ff878109d40e2d2b41c7bed05dee25bd2ae52b48",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:08.481Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:06.055Z",
+  "coverageReviewedAt": "2026-10-17T17:12:19.466Z",
+  "contentReviewFlags": []
+}

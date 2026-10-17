@@ -1,0 +1,131 @@
+{
+  "full_name": "ZJU-LLMs/OpenStory",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:15.218Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ad656abcdbb0b1f9bcf7ce4e57712e8c13f88f354db4ac2a37f8a22707bbf3c7",
+      "url": "https://github.com/ZJU-LLMs/OpenStory/blob/3e4857a07ec141a9ed6d3be586dd5d3c573ae389/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_en.md",
+      "url": "https://github.com/ZJU-LLMs/OpenStory/blob/3e4857a07ec141a9ed6d3be586dd5d3c573ae389/README_en.md",
+      "sha256": "51501cc73c4ce7620c2743b75a60d0553558e3f1c941d9fa49c41f5a3f1f4375",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-openstory/README.zh.md",
+      "url": "https://github.com/ZJU-LLMs/OpenStory/blob/3e4857a07ec141a9ed6d3be586dd5d3c573ae389/dsh-openstory/README.zh.md",
+      "sha256": "19eb40d417cdb4a5a13b3c12acd9201b62da763c7475f098d5d5074aeffd37c2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-openstory@0.2.0",
+          "command": "dsh plugin --profile web add dsh-openstory@0.2.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/WestWorld/README.md",
+      "url": "https://github.com/ZJU-LLMs/OpenStory/blob/3e4857a07ec141a9ed6d3be586dd5d3c573ae389/examples/WestWorld/README.md",
+      "sha256": "bd6ecc421aa26059455f74baed1ccea2367dcbb88a7793c2276296573ce88ae3",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-openstory/README.md",
+      "url": "https://github.com/ZJU-LLMs/OpenStory/blob/3e4857a07ec141a9ed6d3be586dd5d3c573ae389/dsh-openstory/README.md",
+      "sha256": "64986fe733c1da9d30a2be14c9c43adacbdea773992fedec431ae52e8ea99201",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-openstory@0.2.0",
+          "command": "dsh plugin --profile web add dsh-openstory@0.2.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "linked_readme",
+      "name": "dsh-openstory",
+      "version": "0.2.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-openstory@0.2.0",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZJU-LLMs/OpenStory",
+    "commit": "3e4857a07ec141a9ed6d3be586dd5d3c573ae389",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:22.068Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README_en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-openstory/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/WestWorld/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README_en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-openstory/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/WestWorld/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh-openstory/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:50.001Z",
+  "coverageReviewedAt": "2026-10-17T17:12:05.009Z",
+  "contentReviewFlags": []
+}

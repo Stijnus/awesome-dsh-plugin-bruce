@@ -1,0 +1,54 @@
+{
+  "full_name": "Pheobe-Southwood/dsh-acp-paseo",
+  "originalPosition": 495,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 114,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:26.715Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f200eae497e4c6403cf21c0b05b8ab8f226cde92c1d6c9071e699225fe1b3db2",
+      "url": "https://github.com/Pheobe-Southwood/dsh-acp-paseo/blob/f5a05c37800f5adac06304cc3beb9774cda8f561/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-acp-paseo",
+      "version": "0.1.0",
+      "path": "packages/dsh-acp-paseo",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Pheobe-Southwood/dsh-acp-paseo",
+        "commit": "f5a05c37800f5adac06304cc3beb9774cda8f561",
+        "path": "packages/dsh-acp-paseo"
+      },
+      "manifestSha256": "f44bb25c7fe6c04749058e0109e1fb415dde27dced31f67f376a70886320b27a",
+      "manifestUrl": "https://github.com/Pheobe-Southwood/dsh-acp-paseo/blob/f5a05c37800f5adac06304cc3beb9774cda8f561/packages/dsh-acp-paseo/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Pheobe-Southwood/dsh-acp-paseo",
+    "commit": "f5a05c37800f5adac06304cc3beb9774cda8f561",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:37.590Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.074Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,139 @@
+{
+  "full_name": "sunxin-ai/dsh-design-qa",
+  "originalPosition": 253,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-design-qa",
+    "https://github.com/sunxin-ai/dsh-design-qa"
+  ],
+  "manualNote": null,
+  "ordinal": 378,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:57.838Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "af4312c17b3acdaf1dddaac8b0ad31aef92a974d1eaca99a59cab4a7a507f7b4",
+      "url": "https://github.com/sunxin-ai/dsh-design-qa/blob/4c193104542faa2c80457cf6d9a2e8210b16e89e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-design-qa",
+          "command": "dsh plugin --profile web add dsh-design-qa",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/sunxin-ai/dsh-design-qa",
+          "command": "dsh plugin --profile web add github:sunxin-ai/dsh-design-qa",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/sunxin-ai/dsh-design-qa/blob/4c193104542faa2c80457cf6d9a2e8210b16e89e/README.en.md",
+      "sha256": "6b592f6c220eb9f8295e6d4135c22e5cfda3fac4b1b32616d5ef70b88097ea08",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-design-qa",
+          "command": "dsh plugin --profile web add dsh-design-qa",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/sunxin-ai/dsh-design-qa",
+          "command": "dsh plugin --profile web add github:sunxin-ai/dsh-design-qa",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "patches/README.md",
+      "url": "https://github.com/sunxin-ai/dsh-design-qa/blob/4c193104542faa2c80457cf6d9a2e8210b16e89e/patches/README.md",
+      "sha256": "fe319aef47d24e976f4c1dfecd9ff86ccd5df5fa3f6545850c9b4f057cd92ebd",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "eval/README.md",
+      "url": "https://github.com/sunxin-ai/dsh-design-qa/blob/4c193104542faa2c80457cf6d9a2e8210b16e89e/eval/README.md",
+      "sha256": "07163a5c285cb5d71552ae31f25addcb10cc55de714963689d9671e070773c59",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-design-qa",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sunxin-ai/dsh-design-qa",
+        "commit": "4c193104542faa2c80457cf6d9a2e8210b16e89e"
+      },
+      "manifestSha256": "ffbedc9de72a39333c744d8ef582f1dd201cd0bdf84c8de8bb13347e176c1115",
+      "manifestUrl": "https://github.com/sunxin-ai/dsh-design-qa/blob/4c193104542faa2c80457cf6d9a2e8210b16e89e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-design-qa",
+      "origin": "npm",
+      "name": "dsh-design-qa",
+      "version": "0.1.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9f175a556f19ac46bccc5bbc7b9336e4675ae1dce91300c4c54f801752b991dd"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sunxin-ai/dsh-design-qa",
+    "commit": "4c193104542faa2c80457cf6d9a2e8210b16e89e",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:05.973Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "patches/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "eval/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "patches/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "eval/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:06.230Z",
+  "coverageReviewedAt": "2026-10-17T17:12:19.689Z",
+  "contentReviewFlags": []
+}

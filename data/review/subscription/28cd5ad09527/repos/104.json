@@ -1,0 +1,52 @@
+{
+  "full_name": "loopwithai/LoopWithAI",
+  "originalPosition": 464,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 104,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:03.559Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fe4ea8699d80a084e2d3fe98a5b3f3064d94161eb9036ef3cc7889cc68451938",
+      "url": "https://github.com/loopwithai/LoopWithAI/blob/8754489a31d3d4cc3e0e56f499e7bd2f5a03ae83/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "cd01991ac12ff7210996a35d2fcb0bcb9173c91c8ffe858c2c2f7db2593ce94b",
+      "url": "https://github.com/loopwithai/LoopWithAI/blob/8754489a31d3d4cc3e0e56f499e7bd2f5a03ae83/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/loopwithai/LoopWithAI",
+    "commit": "8754489a31d3d4cc3e0e56f499e7bd2f5a03ae83",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "loopwithai",
+    "version": "0.1.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=24.0.0"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-10-17T17:03:07.867Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.890Z",
+  "contentReviewFlags": []
+}

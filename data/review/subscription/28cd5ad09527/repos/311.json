@@ -1,0 +1,182 @@
+{
+  "full_name": "Blank-not-black/dsh-Remote",
+  "originalPosition": 155,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Blank-not-black/dsh-Remote#main&path:/packages/plugin"
+  ],
+  "manualNote": null,
+  "ordinal": 311,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:00.578Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "795ac038356019c11ad023960d936d153932eec4cdade50b00d5d99fcd480d33",
+      "url": "https://github.com/Blank-not-black/dsh-Remote/blob/5f6d03a6caca01335893f1c21851a70ce2e92e9f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote-plugin@latest",
+          "command": "dsh plugin --profile web add dsh-remote-plugin@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Blank-not-black/dsh-Remote/blob/5f6d03a6caca01335893f1c21851a70ce2e92e9f/README.en.md",
+      "sha256": "1dae56a706cc11259d5877acba15ae819a2a2ed6ff6b9ca54694d9eb8893a728",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote-plugin@latest",
+          "command": "dsh plugin --profile web add dsh-remote-plugin@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/Blank-not-black/dsh-Remote/blob/5f6d03a6caca01335893f1c21851a70ce2e92e9f/docs/README.md",
+      "sha256": "9abc0c220243a4b0eabb19a83aada5e2d000a281843b4d04eb07fed4c78d11f7",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/screenshots/README.md",
+      "url": "https://github.com/Blank-not-black/dsh-Remote/blob/5f6d03a6caca01335893f1c21851a70ce2e92e9f/docs/screenshots/README.md",
+      "sha256": "f562ec5b836d9c00a9957cc85495e8588de4a587eca6dfa2206a27a1146f3499",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/modules/README.md",
+      "url": "https://github.com/Blank-not-black/dsh-Remote/blob/5f6d03a6caca01335893f1c21851a70ce2e92e9f/docs/modules/README.md",
+      "sha256": "150e656905eb7cf49fc42a719d7ace9d34bd1117fbc03856207b3f52ae917bb2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/archive/README.md",
+      "url": "https://github.com/Blank-not-black/dsh-Remote/blob/5f6d03a6caca01335893f1c21851a70ce2e92e9f/docs/archive/README.md",
+      "sha256": "69065d9d73f4bab7516666e4c12d33ce37d812c90c1dc7ef4ff7f9ab533d65a2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote",
+      "version": "0.8.0-rc.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Blank-not-black/dsh-Remote",
+        "commit": "5f6d03a6caca01335893f1c21851a70ce2e92e9f"
+      },
+      "manifestSha256": "b7584f0bae39c978afcd511621e4115b15548e6baad425bb4aa57dfb40430f5d",
+      "manifestUrl": "https://github.com/Blank-not-black/dsh-Remote/blob/5f6d03a6caca01335893f1c21851a70ce2e92e9f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/Blank-not-black/dsh-Remote#main&path:/packages/plugin",
+      "origin": "git_target",
+      "path": "packages/plugin",
+      "commit": "5f6d03a6caca01335893f1c21851a70ce2e92e9f",
+      "name": "dsh-remote-plugin",
+      "version": "0.8.0-rc.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "dsh-remote-plugin@latest",
+      "origin": "npm",
+      "name": "dsh-remote-plugin",
+      "version": "0.8.0-rc.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "22ee8648ef6770f188c38a251c199505d906af0684f973571553072aad8f556e"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Blank-not-black/dsh-Remote#main&path:/packages/plugin",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-remote-plugin@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Blank-not-black/dsh-Remote",
+    "commit": "5f6d03a6caca01335893f1c21851a70ce2e92e9f",
+    "releaseTags": 62,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:15.597Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/screenshots/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/modules/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/archive/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/screenshots/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/modules/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/archive/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:02.050Z",
+  "coverageReviewedAt": "2026-10-17T17:12:14.355Z",
+  "contentReviewFlags": []
+}

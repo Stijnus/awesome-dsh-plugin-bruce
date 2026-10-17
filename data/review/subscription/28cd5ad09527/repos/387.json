@@ -1,0 +1,61 @@
+{
+  "full_name": "Andiii208/dsh-ultramath",
+  "originalPosition": 267,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Andiii208/dsh-ultramath"
+  ],
+  "manualNote": null,
+  "ordinal": 387,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:16.016Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f7b52e1c5dd0a60c2ca8a8e05cc43767e2c80b27a2ac16fcc956fa4c4fac3698",
+      "url": "https://github.com/Andiii208/dsh-ultramath/blob/37d95b1820bb77e97a3efc8fe3cbbeb2e5c7a0d1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Andiii208/dsh-ultramath",
+          "command": "dsh plugin --profile web add github:Andiii208/dsh-ultramath",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ultramath",
+      "version": "0.6.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Andiii208/dsh-ultramath",
+        "commit": "37d95b1820bb77e97a3efc8fe3cbbeb2e5c7a0d1"
+      },
+      "manifestSha256": "0aa441ba702e169d56038b6a3a3ab460df93050b9f137c798c8839a7844f76d4",
+      "manifestUrl": "https://github.com/Andiii208/dsh-ultramath/blob/37d95b1820bb77e97a3efc8fe3cbbeb2e5c7a0d1/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Andiii208/dsh-ultramath",
+    "commit": "37d95b1820bb77e97a3efc8fe3cbbeb2e5c7a0d1",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:24.929Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:19.828Z",
+  "contentReviewFlags": []
+}

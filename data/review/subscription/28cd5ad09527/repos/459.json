@@ -1,0 +1,146 @@
+{
+  "full_name": "lizhiyao/oh-my-knowledge",
+  "originalPosition": 367,
+  "inputMode": "command",
+  "mappedTargets": [
+    "oh-my-knowledge"
+  ],
+  "manualNote": null,
+  "ordinal": 459,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:52.725Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4ee92199deafb8ef0392cb2d270b6484ffb0d41618143bd2e1a9ff6c9d6e7bc5",
+      "url": "https://github.com/lizhiyao/oh-my-knowledge/blob/1c075cc3b2a785f8cfd222900e7e2dd170ef8d76/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "874e031704b1eb63008909a7a07f2d38787572697b6e83f75c8fc12ef5575e20",
+      "url": "https://github.com/lizhiyao/oh-my-knowledge/blob/1c075cc3b2a785f8cfd222900e7e2dd170ef8d76/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/lizhiyao/oh-my-knowledge/blob/1c075cc3b2a785f8cfd222900e7e2dd170ef8d76/docs/README.md",
+      "sha256": "a278200caebf9c468de55cab3853a2ee1274cec87746d51a13a9dc3aec77d742",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/README.md",
+      "url": "https://github.com/lizhiyao/oh-my-knowledge/blob/1c075cc3b2a785f8cfd222900e7e2dd170ef8d76/examples/README.md",
+      "sha256": "c393772f80aa1836fa2f54388b3c4643c35573d690fbe2d060b07882e91de1b0",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/zh/README.md",
+      "url": "https://github.com/lizhiyao/oh-my-knowledge/blob/1c075cc3b2a785f8cfd222900e7e2dd170ef8d76/docs/zh/README.md",
+      "sha256": "a84b1b4b70c2c4134e0fa4052b156e63bd509c1012eeed2ae6e796e891ae570c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/README.zh.md",
+      "url": "https://github.com/lizhiyao/oh-my-knowledge/blob/1c075cc3b2a785f8cfd222900e7e2dd170ef8d76/examples/README.zh.md",
+      "sha256": "f6975a6a79ac219c752bb9ec0eb049c4260d13245bf95422d8258cd9e07aed37",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "oh-my-knowledge",
+      "version": "1.0.0-beta.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lizhiyao/oh-my-knowledge",
+        "commit": "1c075cc3b2a785f8cfd222900e7e2dd170ef8d76"
+      },
+      "manifestSha256": "2319cd840fb8fa19c63e81b1bcfe77b2ccbd40d9df859c54f4609fa148dceb51",
+      "manifestUrl": "https://github.com/lizhiyao/oh-my-knowledge/blob/1c075cc3b2a785f8cfd222900e7e2dd170ef8d76/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "oh-my-knowledge",
+      "origin": "npm",
+      "name": "oh-my-knowledge",
+      "version": "0.54.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "d50ab5f11d88c751f618b969dffb887d895dcf2a48dd7373e3f5a872138b3171"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "oh-my-knowledge",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lizhiyao/oh-my-knowledge",
+    "commit": "1c075cc3b2a785f8cfd222900e7e2dd170ef8d76",
+    "releaseTags": 63,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:04.056Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/zh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/zh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/README.zh.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:10.844Z",
+  "coverageReviewedAt": "2026-10-17T17:12:25.991Z",
+  "contentReviewFlags": []
+}

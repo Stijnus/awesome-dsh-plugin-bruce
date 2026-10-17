@@ -1,0 +1,72 @@
+{
+  "full_name": "webkubor/dsh-env-inspector",
+  "originalPosition": 91,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@dsh-plugins/dsh-env-inspector"
+  ],
+  "manualNote": null,
+  "ordinal": 257,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:57.771Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0e345f0a3c9a4e9ae36763fe39f666a308ca6bd077fa5454375cf9f157ebc07f",
+      "url": "https://github.com/webkubor/dsh-env-inspector/blob/90add59c033a45a46c8cf643613d85b8d48281fb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-plugins/dsh-env-inspector",
+          "command": "npx @deepseek-ai/dsh plugin --profile <你的 profile> add @dsh-plugins/dsh-env-inspector",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-plugins/dsh-env-inspector",
+      "version": "0.2.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/webkubor/dsh-env-inspector",
+        "commit": "90add59c033a45a46c8cf643613d85b8d48281fb"
+      },
+      "manifestSha256": "b673a09de2b9059e39399de208f46e26e6942a9cc1d66732a48087593ba50e6b",
+      "manifestUrl": "https://github.com/webkubor/dsh-env-inspector/blob/90add59c033a45a46c8cf643613d85b8d48281fb/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@dsh-plugins/dsh-env-inspector",
+      "origin": "npm",
+      "name": "@dsh-plugins/dsh-env-inspector",
+      "version": "0.2.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f6f6448c82801dfe0ad5c87cac39d428677e3fffed624ab98f0885c9c5d5435d"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/webkubor/dsh-env-inspector",
+    "commit": "90add59c033a45a46c8cf643613d85b8d48281fb",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:06.515Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.782Z",
+  "contentReviewFlags": []
+}

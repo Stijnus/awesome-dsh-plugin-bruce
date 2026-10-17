@@ -1,0 +1,96 @@
+{
+  "full_name": "GDWhisper/dsh-web-startup-auth",
+  "originalPosition": 366,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-web-startup-auth@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 458,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:52.259Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ffccee911c7ad646be847a1087fce5fc629942b12dea02b9bb6cf71779bf9682",
+      "url": "https://github.com/GDWhisper/dsh-web-startup-auth/blob/684f62d7148747b640bdb155d1d3d5079f3ed489/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-startup-auth@latest",
+          "command": "dsh plugin --profile web add dsh-web-startup-auth@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/GDWhisper/dsh-web-startup-auth/blob/684f62d7148747b640bdb155d1d3d5079f3ed489/README.en.md",
+      "sha256": "75d1da7e82b2927e15e73909124f23eebdcbdd9214030c28d505aa8c2b2d9975",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-startup-auth@latest",
+          "command": "dsh plugin --profile web add dsh-web-startup-auth@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-startup-auth",
+      "version": "0.1.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GDWhisper/dsh-web-startup-auth",
+        "commit": "684f62d7148747b640bdb155d1d3d5079f3ed489"
+      },
+      "manifestSha256": "2bc81b3ba73984934f709f1ede4c2d22b759f4bb22c5acd8bd2201e31f37f36f",
+      "manifestUrl": "https://github.com/GDWhisper/dsh-web-startup-auth/blob/684f62d7148747b640bdb155d1d3d5079f3ed489/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-web-startup-auth@latest",
+      "origin": "npm",
+      "name": "dsh-web-startup-auth",
+      "version": "0.1.13",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9ecab8f3eb1765d1ee0b837093f565ce3efd7722e7e75d4d438ac73c17c4db53"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GDWhisper/dsh-web-startup-auth",
+    "commit": "684f62d7148747b640bdb155d1d3d5079f3ed489",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:59.974Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:09.369Z",
+  "coverageReviewedAt": "2026-10-17T17:12:25.182Z",
+  "contentReviewFlags": []
+}

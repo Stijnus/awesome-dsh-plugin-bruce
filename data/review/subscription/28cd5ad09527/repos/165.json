@@ -1,0 +1,84 @@
+{
+  "full_name": "Chinesezjc/dsh-interconnect",
+  "originalPosition": 215,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-interconnect」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 165,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:07.094Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "47887d8b7cfeed92f384811f976aa284099b409fec5ed8b544270fb74dfaaa86",
+      "url": "https://github.com/Chinesezjc/dsh-interconnect/blob/614ea8dc63a5036778fb8b1e748d3c4f70412f2d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-interconnect",
+          "command": "dsh plugin --profile <name> add dsh-interconnect",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-interconnect",
+      "version": "0.11.24",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chinesezjc/dsh-interconnect",
+        "commit": "614ea8dc63a5036778fb8b1e748d3c4f70412f2d"
+      },
+      "manifestSha256": "15fbf16686b89ebd49802ef408dc7a81dd122107c9a407afb8efa7c2454993af",
+      "manifestUrl": "https://github.com/Chinesezjc/dsh-interconnect/blob/614ea8dc63a5036778fb8b1e748d3c4f70412f2d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-interconnect",
+      "origin": "npm",
+      "name": "dsh-interconnect",
+      "version": "0.11.24",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ebd1b3ba30c543ecbd703ce81cde19068e05fa13ee2f3a6088e97952cab8205d"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-interconnect",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chinesezjc/dsh-interconnect",
+    "commit": "614ea8dc63a5036778fb8b1e748d3c4f70412f2d",
+    "releaseTags": 39,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:15.596Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.153Z",
+  "contentReviewFlags": []
+}

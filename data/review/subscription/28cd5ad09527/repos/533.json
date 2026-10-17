@@ -1,0 +1,96 @@
+{
+  "full_name": "TaurusWood/dsh-plugin-appshot",
+  "originalPosition": 469,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-appshot"
+  ],
+  "manualNote": null,
+  "ordinal": 533,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:06.549Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a1aac8ce6b16bde4c504839362186f5c0271672e2d3bc17435338a8ad8d64afe",
+      "url": "https://github.com/TaurusWood/dsh-plugin-appshot/blob/84ae4d5eea25055437a25e474a591d048547eff7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-appshot",
+          "command": "dsh plugin add dsh-plugin-appshot",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/TaurusWood/dsh-plugin-appshot/blob/84ae4d5eea25055437a25e474a591d048547eff7/README.en.md",
+      "sha256": "00a94c81585444f25b9822c30c49c3b3d34c8b37b4f424c4ae37440a86422908",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-appshot",
+          "command": "dsh plugin add dsh-plugin-appshot",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-appshot",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TaurusWood/dsh-plugin-appshot",
+        "commit": "84ae4d5eea25055437a25e474a591d048547eff7"
+      },
+      "manifestSha256": "e3dc8c4406019a6d2f43cdf3a00219c8020dc341fcf701e0daf34895c689d2bd",
+      "manifestUrl": "https://github.com/TaurusWood/dsh-plugin-appshot/blob/84ae4d5eea25055437a25e474a591d048547eff7/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-appshot",
+      "origin": "npm",
+      "name": "dsh-plugin-appshot",
+      "version": "0.4.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "77c640c65d48e8ceddd8ac13deb73d94608f3f419e48e2f795023098c9826aeb"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TaurusWood/dsh-plugin-appshot",
+    "commit": "84ae4d5eea25055437a25e474a591d048547eff7",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:14.215Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:13.626Z",
+  "coverageReviewedAt": "2026-10-17T17:12:31.744Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,72 @@
+{
+  "full_name": "omdsh-dev/dsh_workflow",
+  "originalPosition": 44,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/dsh-external/dsh_workflow#main"
+  ],
+  "manualNote": null,
+  "ordinal": 218,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:47.195Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2181dedc33894a73dadb42e1f833f4b9a850568910f042063b6b3faee8e2f6b3",
+      "url": "https://github.com/omdsh-dev/dsh_workflow/blob/44b83c182aa02d1be8a0803e8446cb495f93cd8f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dsh-external/dsh_workflow#main",
+          "command": "dsh plugin --profile web add \"github:dsh-external/dsh_workflow#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/workflow",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh_workflow",
+        "commit": "44b83c182aa02d1be8a0803e8446cb495f93cd8f"
+      },
+      "manifestSha256": "c5b1ede620a6fce8baa67deb0633b0ed64894ba22a5eff6f3e1f031a6442e063",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh_workflow/blob/44b83c182aa02d1be8a0803e8446cb495f93cd8f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/dsh-external/dsh_workflow#main",
+      "origin": "git_target",
+      "path": "",
+      "commit": "44b83c182aa02d1be8a0803e8446cb495f93cd8f",
+      "name": "@dsh-external/workflow",
+      "version": "0.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh_workflow",
+    "commit": "44b83c182aa02d1be8a0803e8446cb495f93cd8f",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:03.216Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.691Z",
+  "contentReviewFlags": []
+}

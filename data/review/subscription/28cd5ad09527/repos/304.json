@@ -1,0 +1,238 @@
+{
+  "full_name": "KelaoHu/dsh-lowtide",
+  "originalPosition": 146,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz"
+  ],
+  "manualNote": null,
+  "ordinal": 304,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:43.631Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fcd02c1a841c55baeb1cee6e000b06ba18c0083bd3e4a3b5d67aad048a4a38d1",
+      "url": "https://github.com/KelaoHu/dsh-lowtide/blob/8ef7d254546a4c0e534d80b89a2ccb5d9b00410d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "command": "dsh plugin --profile web add https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "1b061b0da8e7e7162503b708f2ef449861172d57815bedcb39812784e6546705",
+      "url": "https://github.com/KelaoHu/dsh-lowtide/blob/8ef7d254546a4c0e534d80b89a2ccb5d9b00410d/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "command": "dsh plugin --profile web add https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-HK.md",
+      "url": "https://github.com/KelaoHu/dsh-lowtide/blob/8ef7d254546a4c0e534d80b89a2ccb5d9b00410d/README.zh-HK.md",
+      "sha256": "f243bbf530e32c4119d93797ee8b9602c2180d604e37e7a04e4c975e157180c1",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "command": "dsh plugin --profile web add https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.ar.md",
+      "url": "https://github.com/KelaoHu/dsh-lowtide/blob/8ef7d254546a4c0e534d80b89a2ccb5d9b00410d/docs/README.ar.md",
+      "sha256": "bce49ca37d78e82847d19fbb97cd669355a38c6d01a22f033e1f51a1470f72cc",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "command": "dsh plugin --profile web add https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.de.md",
+      "url": "https://github.com/KelaoHu/dsh-lowtide/blob/8ef7d254546a4c0e534d80b89a2ccb5d9b00410d/docs/README.de.md",
+      "sha256": "0d56bf188a5feac088e8fff3537da00f1696f31af862576299e8ab030c7238ef",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "command": "dsh plugin --profile web add https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.es.md",
+      "url": "https://github.com/KelaoHu/dsh-lowtide/blob/8ef7d254546a4c0e534d80b89a2ccb5d9b00410d/docs/README.es.md",
+      "sha256": "aaf14866c7233795572fcaac27a7ef9a3049e2bd61a1ceda27f07df1a29efc90",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "command": "dsh plugin --profile web add https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.fr.md",
+      "url": "https://github.com/KelaoHu/dsh-lowtide/blob/8ef7d254546a4c0e534d80b89a2ccb5d9b00410d/docs/README.fr.md",
+      "sha256": "2ef05b4883af7e0187272d06553bd3a53a8b7177281b1cadc3b37523764473c5",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "command": "dsh plugin --profile web add https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.it.md",
+      "url": "https://github.com/KelaoHu/dsh-lowtide/blob/8ef7d254546a4c0e534d80b89a2ccb5d9b00410d/docs/README.it.md",
+      "sha256": "c28a7750608faffc4e3e1bc165a346de7ec20405b7d7c7b20605f48da99b4f71",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "command": "dsh plugin --profile web add https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.ko.md",
+      "url": "https://github.com/KelaoHu/dsh-lowtide/blob/8ef7d254546a4c0e534d80b89a2ccb5d9b00410d/docs/README.ko.md",
+      "sha256": "a392e4e125f8640ec8db98b7862444349000afcdac7ba3c1c0e14058c78f3808",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "command": "dsh plugin --profile web add https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lowtide",
+      "version": "0.2.8",
+      "path": "packages/dsh-lowtide",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KelaoHu/dsh-lowtide",
+        "commit": "8ef7d254546a4c0e534d80b89a2ccb5d9b00410d",
+        "path": "packages/dsh-lowtide"
+      },
+      "manifestSha256": "b83fed59e6946b4cb00db02e795eb8fee7d0c4694112c213a2f56e45e133d89c",
+      "manifestUrl": "https://github.com/KelaoHu/dsh-lowtide/blob/8ef7d254546a4c0e534d80b89a2ccb5d9b00410d/packages/dsh-lowtide/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KelaoHu/dsh-lowtide",
+    "commit": "8ef7d254546a4c0e534d80b89a2ccb5d9b00410d",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:57.445Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.zh-HK.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.ar.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.de.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.fr.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.it.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.ko.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.zh-HK.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.ar.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.de.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.fr.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.it.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.ko.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:02.782Z",
+  "coverageReviewedAt": "2026-10-17T17:12:14.982Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,171 @@
+{
+  "full_name": "mokuyoaxis/agent-guard",
+  "originalPosition": 231,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为 dsh plugin --profile <p> add github:mokuyoaxis/agent-guard——<p> 需替换为实际 profile（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 166,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:11.182Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "be3667f82778f3184c4ab1272c3de656add7c789721c15faa077f4edd433dd1b",
+      "url": "https://github.com/mokuyoaxis/agent-guard/blob/c1f33e7c2428ff7d6d0bfb04e6d54422e5af91ae/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "7f5179902980e520150a4df85b4dd5f9d2a74513e055875faab1dc40a3613607",
+      "url": "https://github.com/mokuyoaxis/agent-guard/blob/c1f33e7c2428ff7d6d0bfb04e6d54422e5af91ae/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/research/README.md",
+      "url": "https://github.com/mokuyoaxis/agent-guard/blob/c1f33e7c2428ff7d6d0bfb04e6d54422e5af91ae/docs/research/README.md",
+      "sha256": "5c352dab047ce7a8f30bcbcb29ebbe3675e8f530a7960f8887ef9ff279cfc4bf",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "adapters/claude/README.md",
+      "url": "https://github.com/mokuyoaxis/agent-guard/blob/c1f33e7c2428ff7d6d0bfb04e6d54422e5af91ae/adapters/claude/README.md",
+      "sha256": "c06b0860626846485ea70a7d96361888112c6eef64c6f5d79a4500cc5d10f7fe",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "adapters/kimi-code/README.md",
+      "url": "https://github.com/mokuyoaxis/agent-guard/blob/c1f33e7c2428ff7d6d0bfb04e6d54422e5af91ae/adapters/kimi-code/README.md",
+      "sha256": "58b2655063a60590d15d603c01fdde02b2d2b53fc060fabc03d08fb6d6f8d78a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "adapters/dsh/README.md",
+      "url": "https://github.com/mokuyoaxis/agent-guard/blob/c1f33e7c2428ff7d6d0bfb04e6d54422e5af91ae/adapters/dsh/README.md",
+      "sha256": "3288490de72477e5f9a106196477cf6607ac7509ca9e45be9e882f0046a33d61",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mokuyoaxis/agent-guard@0.2.4",
+          "command": "dsh plugin --profile <your-profile> add @mokuyoaxis/agent-guard@0.2.4",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/mokuyoaxis/agent-guard/blob/c1f33e7c2428ff7d6d0bfb04e6d54422e5af91ae/docs/README.md",
+      "sha256": "99c89de23138324805388453ba4351fb068ec0031e45c4ff2c6e7971d68920a4",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mokuyoaxis/agent-guard",
+      "version": "0.2.5-rc3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mokuyoaxis/agent-guard",
+        "commit": "c1f33e7c2428ff7d6d0bfb04e6d54422e5af91ae"
+      },
+      "manifestSha256": "9f6b8470632ca4e5ba69fe6d9c44f7b1121be0d34c55912a0e6a98f61ede0315",
+      "manifestUrl": "https://github.com/mokuyoaxis/agent-guard/blob/c1f33e7c2428ff7d6d0bfb04e6d54422e5af91ae/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@mokuyoaxis/agent-guard",
+      "version": "0.2.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mokuyoaxis/agent-guard@0.2.4",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mokuyoaxis/agent-guard",
+    "commit": "c1f33e7c2428ff7d6d0bfb04e6d54422e5af91ae",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:20.487Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/research/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "adapters/claude/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "adapters/kimi-code/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "adapters/dsh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/research/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "adapters/claude/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "adapters/kimi-code/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "adapters/dsh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:54.826Z",
+  "coverageReviewedAt": "2026-10-17T17:12:08.371Z",
+  "contentReviewFlags": []
+}

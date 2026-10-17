@@ -1,0 +1,86 @@
+{
+  "full_name": "FylarOpen/dsh-fylar-office-editor",
+  "originalPosition": 118,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@fylar/dsh-fylar-office-editor"
+  ],
+  "manualNote": null,
+  "ordinal": 279,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:45.222Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a4360c8b1a5cda669b9695fc242301739979942bfc6559ba4f3a63e5495bc7ba",
+      "url": "https://github.com/FylarOpen/dsh-fylar-office-editor/blob/088962d3e596ace3af977fd0cd0edea1930c9397/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@fylar/dsh-fylar-office-editor",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @fylar/dsh-fylar-office-editor",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "3818904db76c871c17c210cf8f3e28b355c36b731a351a1edf958365d4e4ce5d",
+      "url": "https://github.com/FylarOpen/dsh-fylar-office-editor/blob/088962d3e596ace3af977fd0cd0edea1930c9397/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@fylar/dsh-fylar-office-editor",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @fylar/dsh-fylar-office-editor",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@fylar/dsh-fylar-office-editor",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FylarOpen/dsh-fylar-office-editor",
+        "commit": "088962d3e596ace3af977fd0cd0edea1930c9397"
+      },
+      "manifestSha256": "438f05d4615362422ecb94c64b253833d711cf8db910c31a85f74dc0c448408f",
+      "manifestUrl": "https://github.com/FylarOpen/dsh-fylar-office-editor/blob/088962d3e596ace3af977fd0cd0edea1930c9397/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@fylar/dsh-fylar-office-editor",
+      "origin": "npm",
+      "name": "@fylar/dsh-fylar-office-editor",
+      "version": "0.1.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f5a662b3c6a3191b6fe477f33d5337d507ec2ccfd9738618f5803290424a8f16"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FylarOpen/dsh-fylar-office-editor",
+    "commit": "088962d3e596ace3af977fd0cd0edea1930c9397",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:54.619Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:11.550Z",
+  "contentReviewFlags": []
+}

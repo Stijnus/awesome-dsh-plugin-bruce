@@ -1,0 +1,108 @@
+{
+  "full_name": "Anionex/dsh-vision-toolkit",
+  "originalPosition": 72,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@anionex/dsh-vision-toolkit",
+    "@anionex/dsh-vision-toolkit",
+    "@anionex/dsh-vision-toolkit"
+  ],
+  "manualNote": null,
+  "ordinal": 242,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:35.144Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c357f764e602a739946629a7974b9adab416440219112e8831d093c1f179db30",
+      "url": "https://github.com/Anionex/dsh-vision-toolkit/blob/d4fb7402513cab73be915aa6f54d4e7f63ffc46e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@anionex/dsh-vision-toolkit",
+          "command": "dsh plugin --profile web add @anionex/dsh-vision-toolkit",
+          "profile": "web"
+        },
+        {
+          "install": "@anionex/dsh-vision-toolkit",
+          "command": "dsh plugin --profile headless add @anionex/dsh-vision-toolkit",
+          "profile": "headless"
+        },
+        {
+          "install": "@anionex/dsh-vision-toolkit",
+          "command": "dsh plugin --profile desktop add @anionex/dsh-vision-toolkit",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "916c05a6940bf8d8ffc8060e9cbcb47d104a072a56d81e7d02470d301cfbfecf",
+      "url": "https://github.com/Anionex/dsh-vision-toolkit/blob/d4fb7402513cab73be915aa6f54d4e7f63ffc46e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@anionex/dsh-vision-toolkit",
+          "command": "dsh plugin --profile web add @anionex/dsh-vision-toolkit",
+          "profile": "web"
+        },
+        {
+          "install": "@anionex/dsh-vision-toolkit",
+          "command": "dsh plugin --profile headless add @anionex/dsh-vision-toolkit",
+          "profile": "headless"
+        },
+        {
+          "install": "@anionex/dsh-vision-toolkit",
+          "command": "dsh plugin --profile desktop add @anionex/dsh-vision-toolkit",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@anionex/dsh-vision-toolkit",
+      "version": "0.1.46",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Anionex/dsh-vision-toolkit",
+        "commit": "d4fb7402513cab73be915aa6f54d4e7f63ffc46e"
+      },
+      "manifestSha256": "44005c2a42744d2c82d2c6028361343965669858d346e8aa0a50d1790d71b8d5",
+      "manifestUrl": "https://github.com/Anionex/dsh-vision-toolkit/blob/d4fb7402513cab73be915aa6f54d4e7f63ffc46e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@anionex/dsh-vision-toolkit",
+      "origin": "npm",
+      "name": "@anionex/dsh-vision-toolkit",
+      "version": "0.1.46",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "e6114c50c61be6c6052e6dafcb284665ffd885bcecc80b2e8c1e55cef5c35679"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Anionex/dsh-vision-toolkit",
+    "commit": "d4fb7402513cab73be915aa6f54d4e7f63ffc46e",
+    "releaseTags": 41,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:44.840Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.060Z",
+  "contentReviewFlags": []
+}

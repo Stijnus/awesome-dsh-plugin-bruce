@@ -1,0 +1,107 @@
+{
+  "full_name": "jjxjjjjiik-bot/dsh-chat-timeline",
+  "originalPosition": 536,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-chat-timeline",
+    "dsh-chat-timeline"
+  ],
+  "manualNote": null,
+  "ordinal": 569,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:11.866Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f800494a4b82ac27c62bed36f49afbce50ae5a11169a4b2c85ab50e5ac07f7c5",
+      "url": "https://github.com/jjxjjjjiik-bot/dsh-chat-timeline/blob/8767427f73bf38be84f3063a2c55bbc461e95352/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chat-timeline",
+          "command": "dsh plugin --profile web add dsh-chat-timeline",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-chat-timeline",
+          "command": "dsh plugin add dsh-chat-timeline",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/jjxjjjjiik-bot/dsh-chat-timeline/blob/8767427f73bf38be84f3063a2c55bbc461e95352/README.en.md",
+      "sha256": "cd5bad13921af425cd30e8faffdaf49fec7f0d7038a554619f9058cf25ff95b5",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chat-timeline",
+          "command": "dsh plugin --profile web add dsh-chat-timeline",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-chat-timeline",
+          "command": "dsh plugin add dsh-chat-timeline",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-timeline",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jjxjjjjiik-bot/dsh-chat-timeline",
+        "commit": "8767427f73bf38be84f3063a2c55bbc461e95352"
+      },
+      "manifestSha256": "a5a895b2bb97b071a1d3dbbcfe9745480db9dd35dfbfd56ec151ddcf1346d35e",
+      "manifestUrl": "https://github.com/jjxjjjjiik-bot/dsh-chat-timeline/blob/8767427f73bf38be84f3063a2c55bbc461e95352/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-chat-timeline",
+      "origin": "npm",
+      "name": "dsh-chat-timeline",
+      "version": "0.1.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f35d096f5699630054015ae8343bdd73fbedfbb843714e60bbdc65e621af1b69"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jjxjjjjiik-bot/dsh-chat-timeline",
+    "commit": "8767427f73bf38be84f3063a2c55bbc461e95352",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:19.823Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.632Z",
+  "coverageReviewedAt": "2026-10-17T17:12:32.509Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,216 @@
+{
+  "full_name": "PerryLink/dsh-plugin-guide",
+  "originalPosition": 99,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-plugin-guide#main",
+    "dsh-plugin-guide"
+  ],
+  "manualNote": null,
+  "ordinal": 264,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:14.440Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "008e9de8e1ede1ce91cf100ba55516595825747a2d6b66bd471043ab92fa0be1",
+      "url": "https://github.com/PerryLink/dsh-plugin-guide/blob/4e35e31be5248fb602cd1ca650f93890ba19555a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-guide",
+          "command": "dsh plugin --profile web add dsh-plugin-guide",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-plugin-guide/blob/4e35e31be5248fb602cd1ca650f93890ba19555a/README-zh.md",
+      "sha256": "abfe9b25612e25ed44377bddc953c9cc430012adce68c7701ed7b4b986190f60",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-guide",
+          "command": "dsh plugin --profile web add dsh-plugin-guide",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-plugin-guide",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-plugin-guide",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-plugin-guide/blob/4e35e31be5248fb602cd1ca650f93890ba19555a/README-es.md",
+      "sha256": "77380a41783e11174e3f420591b5e837b27bad49b22e1577bd86879c619ca3f4",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-guide",
+          "command": "dsh plugin --profile web add dsh-plugin-guide",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-plugin-guide",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-plugin-guide",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-plugin-guide/blob/4e35e31be5248fb602cd1ca650f93890ba19555a/README-pt.md",
+      "sha256": "ee5dd94be589ac5cc295ee71e8ea4e921c8466b9aa32482cd360532494787485",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-guide",
+          "command": "dsh plugin --profile web add dsh-plugin-guide",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-plugin-guide",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-plugin-guide",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-plugin-guide/blob/4e35e31be5248fb602cd1ca650f93890ba19555a/README-hi.md",
+      "sha256": "66677326c225c76eec1727f07fe98af717ebe5d04d548324c90561fbce3c8511",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-guide",
+          "command": "dsh plugin --profile web add dsh-plugin-guide",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-plugin-guide",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-plugin-guide",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-guide",
+      "version": "0.3.33",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-plugin-guide",
+        "commit": "4e35e31be5248fb602cd1ca650f93890ba19555a"
+      },
+      "manifestSha256": "83047fa4d9bb7d547820eeb606c18cc3af51b0757b919c5074a6b29d9e29e5cd",
+      "manifestUrl": "https://github.com/PerryLink/dsh-plugin-guide/blob/4e35e31be5248fb602cd1ca650f93890ba19555a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-plugin-guide#main",
+      "origin": "git_target",
+      "path": "",
+      "commit": "4e35e31be5248fb602cd1ca650f93890ba19555a",
+      "name": "dsh-plugin-guide",
+      "version": "0.3.33",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "dsh-plugin-guide",
+      "origin": "npm",
+      "name": "dsh-plugin-guide",
+      "version": "0.3.33",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a4b7d1cc982d075efcb37edd0ab87d828a5ecab37a6640955f8b41f6022df5ed"
+    },
+    {
+      "origin": "linked_readme",
+      "target": "https://github.com/PerryLink/dsh-plugin-guide",
+      "path": "",
+      "commit": "4e35e31be5248fb602cd1ca650f93890ba19555a",
+      "name": "dsh-plugin-guide",
+      "version": "0.3.33",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-plugin-guide#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-plugin-guide",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-plugin-guide",
+    "commit": "4e35e31be5248fb602cd1ca650f93890ba19555a",
+    "releaseTags": 34,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:30.247Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:05.802Z",
+  "coverageReviewedAt": "2026-10-17T17:12:12.088Z",
+  "contentReviewFlags": []
+}

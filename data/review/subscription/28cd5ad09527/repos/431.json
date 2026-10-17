@@ -1,0 +1,96 @@
+{
+  "full_name": "moon09300731/dsh-approval-gate",
+  "originalPosition": 328,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-approval-gate"
+  ],
+  "manualNote": null,
+  "ordinal": 431,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:10.694Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8b4a88eb15f1333a19a4ca3ed93adc904ca6d7b553a70d96787c081b5227367f",
+      "url": "https://github.com/moon09300731/dsh-approval-gate/blob/8419bc3722a237a85c033565be6ac06074f05d92/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-approval-gate",
+          "command": "dsh plugin --profile web add dsh-approval-gate",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/moon09300731/dsh-approval-gate/blob/8419bc3722a237a85c033565be6ac06074f05d92/README.en.md",
+      "sha256": "1b0e17e948dd9146d37eefd6ae278879ce3111ae0adc6f5ee03f1a612f3c1fd8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-approval-gate",
+          "command": "dsh plugin --profile web add dsh-approval-gate",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-approval-gate",
+      "version": "0.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/moon09300731/dsh-approval-gate",
+        "commit": "8419bc3722a237a85c033565be6ac06074f05d92"
+      },
+      "manifestSha256": "8fb33ed734fc70e47843257b30a2a20773a224e6cd43c1824f4dd2a993b5821a",
+      "manifestUrl": "https://github.com/moon09300731/dsh-approval-gate/blob/8419bc3722a237a85c033565be6ac06074f05d92/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-approval-gate",
+      "origin": "npm",
+      "name": "dsh-approval-gate",
+      "version": "0.5.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f4c789eab61e8e4772ad5776f6c2c2634d7b347b1b3580675a9c26ee657dd7c2"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/moon09300731/dsh-approval-gate",
+    "commit": "8419bc3722a237a85c033565be6ac06074f05d92",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:18.447Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:07.848Z",
+  "coverageReviewedAt": "2026-10-17T17:12:23.270Z",
+  "contentReviewFlags": []
+}

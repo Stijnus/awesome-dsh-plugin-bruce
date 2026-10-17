@@ -1,0 +1,314 @@
+{
+  "full_name": "PerryLink/dsh-translate",
+  "originalPosition": 331,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-translate#main",
+    "dsh-translate"
+  ],
+  "manualNote": null,
+  "ordinal": 434,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:12.263Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4696bdfc0509df7686611d9677c1bcfa0f3b9143f93e5cd77ff48a31688f3619",
+      "url": "https://github.com/PerryLink/dsh-translate/blob/3b79b58646d1d17244b3cdc1654da0827c6157f6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-translate",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-translate",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-translate",
+          "command": "dsh plugin --profile web add dsh-translate",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-translate/blob/3b79b58646d1d17244b3cdc1654da0827c6157f6/README-zh.md",
+      "sha256": "ce5a67913485895b3b16e81843def78d1c842ee5fc309f79bec482bf5f55d703",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-translate",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-translate",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-translate",
+          "command": "dsh plugin --profile web add dsh-translate",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-translate/blob/3b79b58646d1d17244b3cdc1654da0827c6157f6/README-es.md",
+      "sha256": "6795cd4a0de85f928e9334e2591661e0dc2ba40b69bb40f1eeb1cc094dca3045",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-translate",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-translate",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-translate",
+          "command": "dsh plugin --profile web add dsh-translate",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-translate/blob/3b79b58646d1d17244b3cdc1654da0827c6157f6/README-pt.md",
+      "sha256": "0f195ce80c46f5950f828ac167b2e15ddc41a337b65bcc6face180767a5b506e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-translate",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-translate",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-translate",
+          "command": "dsh plugin --profile web add dsh-translate",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-translate/blob/3b79b58646d1d17244b3cdc1654da0827c6157f6/README-hi.md",
+      "sha256": "bb1a7c901b55150c9876d39efc743eb617b3706236f77804d256d61ebaab5be7",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-translate",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-translate",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-translate",
+          "command": "dsh plugin --profile web add dsh-translate",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-translate",
+      "version": "0.2.21",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-translate",
+        "commit": "3b79b58646d1d17244b3cdc1654da0827c6157f6"
+      },
+      "manifestSha256": "2bc8010ac5bce6ac329ee796dbcc4e61a55c6e0c272ffef6ed91f9e57d54404b",
+      "manifestUrl": "https://github.com/PerryLink/dsh-translate/blob/3b79b58646d1d17244b3cdc1654da0827c6157f6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-translate",
+        "versions": [
+          {
+            "version": "0.2.21",
+            "publishTimestamp": 1791813008,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-translate",
+              "commit": "3b79b58646d1d17244b3cdc1654da0827c6157f6"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-translate#main",
+      "origin": "git_target",
+      "name": "dsh-translate",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-translate",
+        "title": "dsh-translate",
+        "description": "Vendor parameter translation and deterministic JSON repair for DeepSeek Harness: the /translate command maps temperature/top_p/max_tokens/stop/system across 11 vendors, and the tools/post-execute repair layer (plus the fix_json tool) fixes broken JSON tool output with escape repair, trailing-comma removal, truncation closure, and required-field completion — never fabricating data",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-translate#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-translate"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "json-repair",
+            "schema-validation",
+            "parameter-mapping",
+            "llm-api",
+            "tooling"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.21",
+            "publishTimestamp": 1791813008,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-translate",
+              "commit": "3b79b58646d1d17244b3cdc1654da0827c6157f6"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "3b79b58646d1d17244b3cdc1654da0827c6157f6",
+          "name": "dsh-translate",
+          "version": "0.2.21",
+          "url": "https://github.com/PerryLink/dsh-translate",
+          "manifestSha256": "2bc8010ac5bce6ac329ee796dbcc4e61a55c6e0c272ffef6ed91f9e57d54404b",
+          "publishTimestamp": 1791813008
+        }
+      ]
+    },
+    {
+      "target": "dsh-translate",
+      "origin": "npm",
+      "name": "dsh-translate",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-translate",
+        "title": "dsh-translate",
+        "description": "Vendor parameter translation and deterministic JSON repair for DeepSeek Harness: the /translate command maps temperature/top_p/max_tokens/stop/system across 11 vendors, and the tools/post-execute repair layer (plus the fix_json tool) fixes broken JSON tool output with escape repair, trailing-comma removal, truncation closure, and required-field completion — never fabricating data",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-translate#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-translate"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "json-repair",
+            "schema-validation",
+            "parameter-mapping",
+            "llm-api",
+            "tooling"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.21",
+            "publishTimestamp": 1791594345,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4a47d1eb49b52f0444627ccfc6971adcf1e7603ed5fa0f042ddcc11b532e694d",
+      "evidence": [
+        {
+          "name": "dsh-translate",
+          "version": "0.2.21",
+          "tarball": "https://registry.npmjs.org/dsh-translate/-/dsh-translate-0.2.21.tgz",
+          "integrity": "sha512-oW4QZ3Yh8I5aYBd1Vl7QXoEcJCpHIxjMRN7vIvDnwPOUgPpgy6my1R5ejH7YYRzJ1sSVJtzGNePG8Fww94JS/w=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-translate#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-translate",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-translate",
+    "commit": "3b79b58646d1d17244b3cdc1654da0827c6157f6",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:27.993Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:08.926Z",
+  "coverageReviewedAt": "2026-10-17T17:12:24.412Z",
+  "contentReviewFlags": []
+}

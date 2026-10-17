@@ -1,0 +1,98 @@
+{
+  "full_name": "ZhangFengshun/dsh-remote-ssh",
+  "originalPosition": 526,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add @zhangfengshun/dsh-remote-ssh@2.4.14」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 177,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:34.421Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d925763a98cc2075fbd126b407a419fbf3d004c3d7dab7150238158db069f90a",
+      "url": "https://github.com/ZhangFengshun/dsh-remote-ssh/blob/61ab6bc24666f3607a3cd134fdb35fa0b17d13a0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zhangfengshun/dsh-remote-ssh@2.4.33",
+          "command": "dsh plugin --profile <name> add @zhangfengshun/dsh-remote-ssh@2.4.33",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "a09c9ba6a6a15b25b2c5a256d9e6676f4cf18020485db547c064cf4e3d07e415",
+      "url": "https://github.com/ZhangFengshun/dsh-remote-ssh/blob/61ab6bc24666f3607a3cd134fdb35fa0b17d13a0/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zhangfengshun/dsh-remote-ssh@2.4.33",
+          "command": "dsh plugin --profile <name> add @zhangfengshun/dsh-remote-ssh@2.4.33",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zhangfengshun/dsh-remote-ssh",
+      "version": "2.4.33",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZhangFengshun/dsh-remote-ssh",
+        "commit": "61ab6bc24666f3607a3cd134fdb35fa0b17d13a0"
+      },
+      "manifestSha256": "4c1f841c5fda7900d1b63198ee1920d0f121c8e5118f7f5ba1cafaf243d1b70f",
+      "manifestUrl": "https://github.com/ZhangFengshun/dsh-remote-ssh/blob/61ab6bc24666f3607a3cd134fdb35fa0b17d13a0/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zhangfengshun/dsh-remote-ssh@2.4.33",
+      "origin": "npm",
+      "name": "@zhangfengshun/dsh-remote-ssh",
+      "version": "2.4.33",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "42e1778a1290eed1a0920fb66aec85215c76e5354145b582429e0fab24c322c4"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zhangfengshun/dsh-remote-ssh@2.4.33",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZhangFengshun/dsh-remote-ssh",
+    "commit": "61ab6bc24666f3607a3cd134fdb35fa0b17d13a0",
+    "releaseTags": 31,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:44.603Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.388Z",
+  "contentReviewFlags": []
+}

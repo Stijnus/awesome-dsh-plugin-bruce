@@ -1,0 +1,234 @@
+{
+  "full_name": "lire1131/dsh-undo-savepoint",
+  "originalPosition": 138,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/lire1131/dsh-undo-savepoint#master",
+    "dsh-undo-savepoint"
+  ],
+  "manualNote": null,
+  "ordinal": 296,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:26.883Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "22433f718675b4fdbb2e8b8226e88cea5fd9dcd9cb2f9901d3260e9cd71e91d6",
+      "url": "https://github.com/lire1131/dsh-undo-savepoint/blob/4ac206eef0c0df09a99eb0faa2e9b4d0cb311927/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lire1131/dsh-undo-savepoint#master",
+          "command": "dsh plugin --profile web add github:lire1131/dsh-undo-savepoint#master",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-undo-savepoint",
+          "command": "dsh plugin --profile web add dsh-undo-savepoint",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lire1131/dsh-undo-savepoint#master",
+          "command": "dsh plugin --profile desktop add github:lire1131/dsh-undo-savepoint#master",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/lire1131/dsh-undo-savepoint/blob/4ac206eef0c0df09a99eb0faa2e9b4d0cb311927/README.en.md",
+      "sha256": "230cbcd8f2cd9d6dbef0ff2b6f0c2dd192ce38cfb6ccfd69ee074f285e83b4b5",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lire1131/dsh-undo-savepoint#master",
+          "command": "dsh plugin --profile web add github:lire1131/dsh-undo-savepoint#master",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-undo-savepoint",
+          "command": "dsh plugin --profile web add dsh-undo-savepoint",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lire1131/dsh-undo-savepoint#master",
+          "command": "dsh plugin --profile desktop add github:lire1131/dsh-undo-savepoint#master",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-undo-savepoint",
+      "version": "0.4.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lire1131/dsh-undo-savepoint",
+        "commit": "4ac206eef0c0df09a99eb0faa2e9b4d0cb311927"
+      },
+      "manifestSha256": "2c0062f9b8c03ec7299d23a9576cdc035165c9ed5213203904443292252fcfd0",
+      "manifestUrl": "https://github.com/lire1131/dsh-undo-savepoint/blob/4ac206eef0c0df09a99eb0faa2e9b4d0cb311927/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-0 || >=0.1.0-rc.2 || >=0.1.1-rc.1 || >=0.1.2-alpha.2 || >=0.1.2-rc.1 || >=0.1.5-rc.1 || >=0.1.5-rc.2 || >=0.2.0-rc.2",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-undo-savepoint",
+        "versions": [
+          {
+            "version": "0.4.9",
+            "publishTimestamp": 1791205651,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lire1131/dsh-undo-savepoint",
+              "commit": "4ac206eef0c0df09a99eb0faa2e9b4d0cb311927"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-0 || >=0.1.0-rc.2 || >=0.1.1-rc.1 || >=0.1.2-alpha.2 || >=0.1.2-rc.1 || >=0.1.5-rc.1 || >=0.1.5-rc.2 || >=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/lire1131/dsh-undo-savepoint#master",
+      "origin": "git_target",
+      "name": "dsh-undo-savepoint",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-undo-savepoint",
+        "title": "dsh-undo-savepoint",
+        "description": "DSH undo/rollback system: snapshot config files on change, undo/redo the last action from the WebUI or by chat, and roll back broken plugin trees without reinstalling. Works even when DSH fails to boot (offline CLI + GUI).",
+        "homepage": "https://github.com/lire1131/dsh-undo-savepoint",
+        "repository": {
+          "url": "https://github.com/lire1131/dsh-undo-savepoint"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "undo",
+            "redo",
+            "rollback",
+            "snapshot",
+            "backup",
+            "crash-recovery",
+            "safe-mode",
+            "windows",
+            "powershell"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.9",
+            "publishTimestamp": 1791205651,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lire1131/dsh-undo-savepoint",
+              "commit": "4ac206eef0c0df09a99eb0faa2e9b4d0cb311927"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-0 || >=0.1.0-rc.2 || >=0.1.1-rc.1 || >=0.1.2-alpha.2 || >=0.1.2-rc.1 || >=0.1.5-rc.1 || >=0.1.5-rc.2 || >=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "4ac206eef0c0df09a99eb0faa2e9b4d0cb311927",
+          "name": "dsh-undo-savepoint",
+          "version": "0.4.9",
+          "url": "https://github.com/lire1131/dsh-undo-savepoint",
+          "manifestSha256": "2c0062f9b8c03ec7299d23a9576cdc035165c9ed5213203904443292252fcfd0",
+          "publishTimestamp": 1791205651
+        }
+      ]
+    },
+    {
+      "target": "dsh-undo-savepoint",
+      "origin": "npm",
+      "name": "dsh-undo-savepoint",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-undo-savepoint",
+        "title": "dsh-undo-savepoint",
+        "description": "DSH undo/rollback system: snapshot config files on change, undo/redo the last action from the WebUI or by chat, and roll back broken plugin trees without reinstalling. Works even when DSH fails to boot (offline CLI + GUI).",
+        "homepage": "https://github.com/lire1131/dsh-undo-savepoint",
+        "repository": {
+          "url": "https://github.com/lire1131/dsh-undo-savepoint"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "undo",
+            "redo",
+            "rollback",
+            "snapshot",
+            "backup",
+            "crash-recovery",
+            "safe-mode",
+            "windows",
+            "powershell"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.10",
+            "publishTimestamp": 1791031697,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-0 || >=0.1.0-rc.2 || >=0.1.1-rc.1 || >=0.1.2-alpha.2 || >=0.1.2-rc.1 || >=0.1.5-rc.1 || >=0.1.5-rc.2 || >=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ab86725eeaf4e5fa7dbb5a20a2a2ccc8886cfe699ba6129a3e2ff75e3f02ecbe",
+      "evidence": [
+        {
+          "name": "dsh-undo-savepoint",
+          "version": "0.4.10",
+          "tarball": "https://registry.npmjs.org/dsh-undo-savepoint/-/dsh-undo-savepoint-0.4.10.tgz",
+          "integrity": "sha512-PyXG5SYf/Z5HdiLPZN/yaU6zNgpg9MgBf9O13OxAoYM0fh7QvS/goru9kzxLUVY6oba47RNjteO4a4NHwGyYMA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lire1131/dsh-undo-savepoint",
+    "commit": "4ac206eef0c0df09a99eb0faa2e9b4d0cb311927",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:03:43.629Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:00.209Z",
+  "coverageReviewedAt": "2026-10-17T17:12:13.142Z",
+  "contentReviewFlags": []
+}

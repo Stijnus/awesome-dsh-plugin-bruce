@@ -1,0 +1,274 @@
+{
+  "full_name": "goatliamia/dsh-runtime",
+  "originalPosition": 461,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <your-profile> add dsh-runtime-0.1.0.tgz」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@master"
+    }
+  },
+  "ordinal": 175,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:30.454Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a50c676a81dbebcd8541bfbbf37134ac0df3a241050304a22b1a15efa0439527",
+      "url": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "de7d1ccd56f9d264bde4d97e01c3542b2b75b7e6142110a9208c8ce284b64055",
+      "url": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-runtime-circuit",
+      "version": "0.1.0",
+      "path": "core/runtime-circuit",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "core/runtime-circuit"
+      },
+      "manifestSha256": "ed2e06bed928b3b207b5fa61781ee91dfc4c04630c984aac1e6e9ae48a844062",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/core/runtime-circuit/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-runtime-investigate",
+      "version": "0.1.0",
+      "path": "core/runtime-investigate",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "core/runtime-investigate"
+      },
+      "manifestSha256": "810dec31aca4104b5c18e4fb5e9c4d0d97d827074759bc75109b7ed8a843613e",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/core/runtime-investigate/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-runtime-orchestration",
+      "version": "0.1.0",
+      "path": "core/runtime-orchestration",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "core/runtime-orchestration"
+      },
+      "manifestSha256": "5ce24a863a002c2b5f71e51d33068c89a679c7664f12a6041a506e84ed19e9b4",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/core/runtime-orchestration/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-runtime-progress",
+      "version": "0.1.0",
+      "path": "core/runtime-progress",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "core/runtime-progress"
+      },
+      "manifestSha256": "cb04c90f936179827d7e84be19d9d114f50b8b88b53019a53cdca8e4e4cc38bc",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/core/runtime-progress/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-runtime-reconcile",
+      "version": "0.1.0",
+      "path": "core/runtime-reconcile",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "core/runtime-reconcile"
+      },
+      "manifestSha256": "6c493a8768b64873132ada5755075df5354680b5d52900a9da6ce9ab50326638",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/core/runtime-reconcile/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-runtime-seam",
+      "version": "0.1.0",
+      "path": "core/runtime-seam",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "core/runtime-seam"
+      },
+      "manifestSha256": "cb1e4c97fb5a1482dc24202e4cb848c62d09c3838824b81dcf7a26e76a0df786",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/core/runtime-seam/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-async-spike",
+      "version": "0.1.0",
+      "path": "experiments/async-lifecycle/pkg",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "experiments/async-lifecycle/pkg"
+      },
+      "manifestSha256": "438e27db96e00cd6a7724dd2a1219819ab6cbd96205ed518df4a45981f79699f",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/experiments/async-lifecycle/pkg/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-runtime-fixture",
+      "version": "0.1.0",
+      "path": "experiments/harness/fixture",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "experiments/harness/fixture"
+      },
+      "manifestSha256": "53776e6e99e44aed33c22f51cfd13e65f5b8eb977bf41a4b1acf047f5c218d04",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/experiments/harness/fixture/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-native-pp-fixture",
+      "version": "0.1.0",
+      "path": "experiments/native-pp/fixture",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "experiments/native-pp/fixture"
+      },
+      "manifestSha256": "109b95be661c8ed92ef8543522c762f2eb107c838eb64224fc9f3202a91b59c8",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/experiments/native-pp/fixture/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-native-pp-policy",
+      "version": "0.1.0",
+      "path": "experiments/native-pp/policy",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "experiments/native-pp/policy"
+      },
+      "manifestSha256": "09fd463aea37cd45b9702af0a24a465a62a417c814a406ea690f655d7e5087e4",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/experiments/native-pp/policy/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-native-pp-projection",
+      "version": "0.1.0",
+      "path": "experiments/native-pp/projection",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "experiments/native-pp/projection"
+      },
+      "manifestSha256": "484e5e504dcba45943538a4879eeb8697bf34e4066b6da03a198e489fe918d18",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/experiments/native-pp/projection/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-notify",
+      "version": "0.1.0",
+      "path": "plugins/dsh-notify",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "plugins/dsh-notify"
+      },
+      "manifestSha256": "b834e48574082281576c1fb483082b739c269efcdab880e9a5b5823286e1558c",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/plugins/dsh-notify/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-runtime-progress-legacy",
+      "version": "0.1.0",
+      "path": "plugins/runtime-progress",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/dsh-runtime",
+        "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+        "path": "plugins/runtime-progress"
+      },
+      "manifestSha256": "207091dbaf82dea72810103fbd2aff2fdf17257d8084e0ed5eaaf34ca015fcbf",
+      "manifestUrl": "https://github.com/goatliamia/dsh-runtime/blob/5eabd7b6fd5b710153f73ca625ae4c1ab44938f8/plugins/runtime-progress/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/goatliamia/dsh-runtime",
+    "commit": "5eabd7b6fd5b710153f73ca625ae4c1ab44938f8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:57.201Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.381Z",
+  "contentReviewFlags": []
+}

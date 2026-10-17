@@ -1,0 +1,121 @@
+{
+  "full_name": "feiyang-dev/dsh-usage-plugin",
+  "originalPosition": 131,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@feiyang666/dsh-usage-plugin",
+    "@feiyang666/dsh-usage-plugin"
+  ],
+  "manualNote": null,
+  "ordinal": 289,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:12.334Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f0f8f4bdb6e59bbc90b900ec4f48a88eba38a9aa06f9ebe3c16f14a12cb1d78",
+      "url": "https://github.com/feiyang-dev/dsh-usage-plugin/blob/a7a01981f0d0fa5975065b1a33a4f8de003cc969/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@feiyang666/dsh-usage-plugin",
+          "command": "dsh plugin --profile web add @feiyang666/dsh-usage-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "@feiyang666/dsh-usage-plugin",
+          "command": "dsh plugin --profile headless add @feiyang666/dsh-usage-plugin",
+          "profile": "headless"
+        },
+        {
+          "install": "@feiyang666/dsh-usage-plugin@1.9.3",
+          "command": "dsh plugin --profile web add @feiyang666/dsh-usage-plugin@1.9.3",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "dc51448494ef58a6aead570390f2c208db157e2fb6bdee088b23e24646885a35",
+      "url": "https://github.com/feiyang-dev/dsh-usage-plugin/blob/a7a01981f0d0fa5975065b1a33a4f8de003cc969/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@feiyang666/dsh-usage-plugin",
+          "command": "dsh plugin --profile web add @feiyang666/dsh-usage-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "@feiyang666/dsh-usage-plugin",
+          "command": "dsh plugin --profile headless add @feiyang666/dsh-usage-plugin",
+          "profile": "headless"
+        },
+        {
+          "install": "@feiyang666/dsh-usage-plugin@1.9.3",
+          "command": "dsh plugin --profile web add @feiyang666/dsh-usage-plugin@1.9.3",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@feiyang666/dsh-usage-plugin",
+      "version": "1.18.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/feiyang-dev/dsh-usage-plugin",
+        "commit": "a7a01981f0d0fa5975065b1a33a4f8de003cc969"
+      },
+      "manifestSha256": "92bc9e0316102f74504f06bba7289903e55dc15a2d3fe99702341d0845d9da55",
+      "manifestUrl": "https://github.com/feiyang-dev/dsh-usage-plugin/blob/a7a01981f0d0fa5975065b1a33a4f8de003cc969/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@feiyang666/dsh-usage-plugin",
+      "origin": "npm",
+      "name": "@feiyang666/dsh-usage-plugin",
+      "version": "1.18.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "17c365d6f4c8fba0d6565f675f23715d5e66eac390decd36052213e7ca50b420"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@feiyang666/dsh-usage-plugin",
+      "version": "1.9.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@feiyang666/dsh-usage-plugin@1.9.3",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/feiyang-dev/dsh-usage-plugin",
+    "commit": "a7a01981f0d0fa5975065b1a33a4f8de003cc969",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:22.883Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.935Z",
+  "contentReviewFlags": []
+}

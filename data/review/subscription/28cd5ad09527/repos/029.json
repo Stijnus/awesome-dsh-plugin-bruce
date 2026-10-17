@@ -1,0 +1,79 @@
+{
+  "full_name": "liangdabiao/dsh-plugin-developer-skill",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:51.917Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0a1943f008cbbbb42ef761dcd1d316a47bad51922660df61afc1c9e122c44edc",
+      "url": "https://github.com/liangdabiao/dsh-plugin-developer-skill/blob/79615d507cda28a1cd749c515a8192e9f073dead/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yourscope/your-plugin",
+      "version": "0.1.0",
+      "path": "assets/plugin-skeleton",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liangdabiao/dsh-plugin-developer-skill",
+        "commit": "79615d507cda28a1cd749c515a8192e9f073dead",
+        "path": "assets/plugin-skeleton"
+      },
+      "manifestSha256": "941cf80a02b6162afeed5331a36c22ecf5d86ff3ca699768db0dbafbbef260a9",
+      "manifestUrl": "https://github.com/liangdabiao/dsh-plugin-developer-skill/blob/79615d507cda28a1cd749c515a8192e9f073dead/assets/plugin-skeleton/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@yourscope/your-plugin",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788261453,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liangdabiao/dsh-plugin-developer-skill",
+              "commit": "79615d507cda28a1cd749c515a8192e9f073dead",
+              "path": "assets/plugin-skeleton"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liangdabiao/dsh-plugin-developer-skill",
+    "commit": "79615d507cda28a1cd749c515a8192e9f073dead",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "template_or_example_review",
+  "finishedAt": "2026-10-17T17:00:00.144Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:03.844Z",
+  "contentReviewFlags": [
+    {
+      "code": "template_or_placeholder",
+      "name": "@yourscope/your-plugin",
+      "path": "assets/plugin-skeleton",
+      "reason": "包名或路径具有模板/示例特征；需确认是否是可上架插件，不能仅凭格式合格自动纳入"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "full_name": "amlyczz/dsh-agy-link",
+  "originalPosition": 248,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-agy-link"
+  ],
+  "manualNote": null,
+  "ordinal": 373,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:48.723Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "755e07da4eedbf6046999da690adffb4394a8c454b472ce60bc67d8b0742d17b",
+      "url": "https://github.com/amlyczz/dsh-agy-link/blob/7baa1e39bf3335bf50cee5b150a6607c4a0f3e2a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-agy-link",
+          "command": "dsh plugin --profile web add dsh-agy-link",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-agy-link@latest",
+          "command": "dsh plugin --profile web add dsh-agy-link@latest --registry https://registry.npmjs.org",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agy-link",
+      "version": "0.4.62",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/amlyczz/dsh-agy-link",
+        "commit": "7baa1e39bf3335bf50cee5b150a6607c4a0f3e2a"
+      },
+      "manifestSha256": "99367ba71688c7145f9d2e4e71427ffaed94d57bfb97aeb66532804bae694d34",
+      "manifestUrl": "https://github.com/amlyczz/dsh-agy-link/blob/7baa1e39bf3335bf50cee5b150a6607c4a0f3e2a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-agy-link",
+      "origin": "npm",
+      "name": "dsh-agy-link",
+      "version": "0.4.59",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8be2878965de82d143748dc4fd08c8ce131f2daa3e0e90ff9cca5977caf9faf9"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-agy-link",
+      "version": "0.4.59",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-agy-link@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/amlyczz/dsh-agy-link",
+    "commit": "7baa1e39bf3335bf50cee5b150a6607c4a0f3e2a",
+    "releaseTags": 54,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:57.836Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:18.644Z",
+  "contentReviewFlags": []
+}

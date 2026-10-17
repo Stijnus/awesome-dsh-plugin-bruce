@@ -1,0 +1,94 @@
+{
+  "full_name": "Fishsb/dsh-prompt-enhancer",
+  "originalPosition": 338,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Fishsb/dsh-prompt-enhancer#v3.4.0"
+  ],
+  "manualNote": null,
+  "ordinal": 438,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:20.015Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a0a565c2e1f3f8eef186d198e580dc5f6b872715f6d57ce8b45d4681cb28ccfe",
+      "url": "https://github.com/Fishsb/dsh-prompt-enhancer/blob/43df9518c88a88dee5ab50895d9bd7e5c34f5d21/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Fishsb/dsh-prompt-enhancer#v3.4.2",
+          "command": "dsh plugin --profile web add github:Fishsb/dsh-prompt-enhancer#v3.4.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-enhancer",
+      "version": "3.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fishsb/dsh-prompt-enhancer",
+        "commit": "43df9518c88a88dee5ab50895d9bd7e5c34f5d21"
+      },
+      "manifestSha256": "d60212125ab0a64ce9a5fe673a8d28deb48eb3712737e548f2673ff7e7293853",
+      "manifestUrl": "https://github.com/Fishsb/dsh-prompt-enhancer/blob/43df9518c88a88dee5ab50895d9bd7e5c34f5d21/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/Fishsb/dsh-prompt-enhancer#v3.4.0",
+      "origin": "git_target",
+      "path": "",
+      "commit": "8026fdf418cb13268375e14532a15e89ec831990",
+      "name": "dsh-prompt-enhancer",
+      "version": "3.4.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/Fishsb/dsh-prompt-enhancer#v3.4.2",
+      "origin": "git_target",
+      "path": "",
+      "commit": "64c5e29ebad375387bcaea7790775fa1f3d48f44",
+      "name": "dsh-prompt-enhancer",
+      "version": "3.4.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Fishsb/dsh-prompt-enhancer#v3.4.0",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Fishsb/dsh-prompt-enhancer#v3.4.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fishsb/dsh-prompt-enhancer",
+    "commit": "43df9518c88a88dee5ab50895d9bd7e5c34f5d21",
+    "releaseTags": 53,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:39.891Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:23.654Z",
+  "contentReviewFlags": []
+}

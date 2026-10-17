@@ -1,0 +1,242 @@
+{
+  "full_name": "FeatherHunter/dsh-im-companion",
+  "originalPosition": 104,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-im-companion",
+    "dsh-im-companion"
+  ],
+  "manualNote": null,
+  "ordinal": 268,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:19.537Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8d421885a4846fff69f764942c8004cdb20298f14d66338a8c82093dcbcb225c",
+      "url": "https://github.com/FeatherHunter/dsh-im-companion/blob/3472a8b85d78d229878c78bd32f0ab4bbc2aae22/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-im-companion",
+          "command": "dsh plugin --profile desktop add dsh-im-companion",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-im-companion",
+          "command": "dsh plugin --profile web add dsh-im-companion",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-im-companion@0.2.14",
+          "command": "dsh plugin --profile desktop add dsh-im-companion@0.2.14 --registry https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-im-companion@latest",
+          "command": "dsh plugin --profile desktop add dsh-im-companion@latest --registry https://registry.npmjs.org",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.en.md",
+      "url": "https://github.com/FeatherHunter/dsh-im-companion/blob/3472a8b85d78d229878c78bd32f0ab4bbc2aae22/docs/README.en.md",
+      "sha256": "158b41ef408b355795a5584f84fa555421a01a40d3ac80dab844251ec1ea9bbb",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-im-companion",
+          "command": "dsh plugin --profile desktop add dsh-im-companion",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-im-companion",
+          "command": "dsh plugin --profile web add dsh-im-companion",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-im-companion@0.2.14",
+          "command": "dsh plugin --profile desktop add dsh-im-companion@0.2.14 --registry https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-im-companion@latest",
+          "command": "dsh plugin --profile desktop add dsh-im-companion@latest --registry https://registry.npmjs.org",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-im-companion",
+      "version": "0.2.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FeatherHunter/dsh-im-companion",
+        "commit": "3472a8b85d78d229878c78bd32f0ab4bbc2aae22"
+      },
+      "manifestSha256": "8d135a9d8b4507015c24b8b1bed821a03e63e42660d5aa69206602bea91de54b",
+      "manifestUrl": "https://github.com/FeatherHunter/dsh-im-companion/blob/3472a8b85d78d229878c78bd32f0ab4bbc2aae22/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.2 <0.3.0-0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-im-companion",
+        "versions": [
+          {
+            "version": "0.2.14",
+            "publishTimestamp": 1792254104,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FeatherHunter/dsh-im-companion",
+              "commit": "3472a8b85d78d229878c78bd32f0ab4bbc2aae22"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-im-companion",
+      "origin": "npm",
+      "name": "dsh-im-companion",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-im-companion",
+        "title": "dsh-im-companion",
+        "description": "dsh-im-companion：以助理和家的概念增强 dsh-im——哪个工作区有助理在管、在不在线尽收眼底，搬家拖一下就行。",
+        "homepage": "https://github.com/FeatherHunter/dsh-im-companion",
+        "repository": {
+          "url": "https://github.com/FeatherHunter/dsh-im-companion"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "im",
+            "feishu",
+            "wechat",
+            "agent",
+            "fleet"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.14",
+            "publishTimestamp": 1792254240,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c4d70445d55314e7be80012b03cfa836b2b9ab0ca86a7ba078abc18fac33b7ce",
+      "evidence": [
+        {
+          "name": "dsh-im-companion",
+          "version": "0.2.14",
+          "tarball": "https://registry.npmjs.org/dsh-im-companion/-/dsh-im-companion-0.2.14.tgz",
+          "integrity": "sha512-L2ZK5lUimK7fVqXc2duvtBz0d8AmfvHBa+tSujhYddBg+cvxfefdbv4YEnHyjRiM95PMl4/RPCHlXqYIFYl4Mw=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-im-companion",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-im-companion",
+        "title": "dsh-im-companion",
+        "description": "dsh-im-companion：以助理和家的概念增强 dsh-im——哪个工作区有助理在管、在不在线尽收眼底，搬家拖一下就行。",
+        "homepage": "https://github.com/FeatherHunter/dsh-im-companion",
+        "repository": {
+          "url": "https://github.com/FeatherHunter/dsh-im-companion"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "im",
+            "feishu",
+            "wechat",
+            "agent",
+            "fleet"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.14",
+            "publishTimestamp": 1792254240,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "name": "dsh-im-companion",
+          "version": "0.2.14",
+          "tarball": "https://registry.npmjs.org/dsh-im-companion/-/dsh-im-companion-0.2.14.tgz",
+          "integrity": "sha512-L2ZK5lUimK7fVqXc2duvtBz0d8AmfvHBa+tSujhYddBg+cvxfefdbv4YEnHyjRiM95PMl4/RPCHlXqYIFYl4Mw=="
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-im-companion@0.2.14",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-im-companion@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FeatherHunter/dsh-im-companion",
+    "commit": "3472a8b85d78d229878c78bd32f0ab4bbc2aae22",
+    "releaseTags": 29,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:02:31.119Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:58.206Z",
+  "coverageReviewedAt": "2026-10-17T17:12:14.199Z",
+  "contentReviewFlags": []
+}

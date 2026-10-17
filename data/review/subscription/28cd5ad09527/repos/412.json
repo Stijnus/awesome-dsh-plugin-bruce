@@ -1,0 +1,141 @@
+{
+  "full_name": "Fishquito7/dsh-skill-mcp-panel",
+  "originalPosition": 302,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/download/v2.1.2/dsh-skill-mcp-panel-2.1.2.tgz",
+    "dsh-skill-mcp-panel",
+    "https://github.com/Fishquito7/dsh-skill-mcp-panel"
+  ],
+  "manualNote": null,
+  "ordinal": 412,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:37.671Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "848a95ea5617af534ec3d2b7b1518f2c4489f408e788caef8698de3f0b14b535",
+      "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel/blob/d364362c39df8df6bec1ddb054ad1cfb5c69f9a9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/latest/download/dsh-skill-mcp-panel.tgz",
+          "command": "dsh plugin --profile web add https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/latest/download/dsh-skill-mcp-panel.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-skill-mcp-panel",
+          "command": "dsh plugin --profile web add dsh-skill-mcp-panel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
+          "command": "dsh plugin --profile web add github:Fishquito7/dsh-skill-mcp-panel",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel/blob/d364362c39df8df6bec1ddb054ad1cfb5c69f9a9/README.en.md",
+      "sha256": "398be8ed12aadffd79b5f9b87e371cc30109ddd64f1adcd09f4a85469310e36d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/latest/download/dsh-skill-mcp-panel.tgz",
+          "command": "dsh plugin --profile web add https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/latest/download/dsh-skill-mcp-panel.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-skill-mcp-panel",
+          "command": "dsh plugin --profile web add dsh-skill-mcp-panel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
+          "command": "dsh plugin --profile web add github:Fishquito7/dsh-skill-mcp-panel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skill-mcp-panel",
+      "version": "2.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
+        "commit": "d364362c39df8df6bec1ddb054ad1cfb5c69f9a9"
+      },
+      "manifestSha256": "3d0867fab47ce73638977a2079093cdb81b2fe4db4ce7b8e944e67c12ae035c0",
+      "manifestUrl": "https://github.com/Fishquito7/dsh-skill-mcp-panel/blob/d364362c39df8df6bec1ddb054ad1cfb5c69f9a9/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/download/v2.1.2/dsh-skill-mcp-panel-2.1.2.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "dsh-skill-mcp-panel",
+      "origin": "npm",
+      "name": "dsh-skill-mcp-panel",
+      "version": "2.1.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "2173c122788447088ec30932a9040d8f9437347e6f8be6095dd11128ec7d7006"
+    },
+    {
+      "target": "https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/latest/download/dsh-skill-mcp-panel.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/download/v2.1.2/dsh-skill-mcp-panel-2.1.2.tgz",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/latest/download/dsh-skill-mcp-panel.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
+    "commit": "d364362c39df8df6bec1ddb054ad1cfb5c69f9a9",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:45.525Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:07.275Z",
+  "coverageReviewedAt": "2026-10-17T17:12:21.581Z",
+  "contentReviewFlags": []
+}

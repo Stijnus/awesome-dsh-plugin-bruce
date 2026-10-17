@@ -1,0 +1,118 @@
+{
+  "full_name": "JunNanLYS/dsh-layered-memory",
+  "originalPosition": 427,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-layered-memory",
+    "https://github.com/JunNanLYS/dsh-layered-memory",
+    "dsh-layered-memory"
+  ],
+  "manualNote": null,
+  "ordinal": 501,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:15.094Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5f92d7594dafadc062c4fabc4cfdc7cd868bd63fc1cf88d299d946035902031b",
+      "url": "https://github.com/JunNanLYS/dsh-layered-memory/blob/69028fbee43e9950fffecc578430909fc827527e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-layered-memory",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add dsh-layered-memory",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/JunNanLYS/dsh-layered-memory",
+          "command": "dsh plugin --profile web add https://github.com/JunNanLYS/dsh-layered-memory",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-layered-memory",
+          "command": "dsh plugin --profile dsh-tui add dsh-layered-memory",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/JunNanLYS/dsh-layered-memory/blob/69028fbee43e9950fffecc578430909fc827527e/README.en.md",
+      "sha256": "e6f6e9e6ee9a93814a1c5890de8730d1118391eba32596859e7034d7a8e7f2d3",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-layered-memory",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add dsh-layered-memory",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/JunNanLYS/dsh-layered-memory",
+          "command": "dsh plugin --profile web add https://github.com/JunNanLYS/dsh-layered-memory",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-layered-memory",
+          "command": "dsh plugin --profile dsh-tui add dsh-layered-memory",
+          "profile": "dsh-tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-layered-memory",
+      "version": "0.11.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JunNanLYS/dsh-layered-memory",
+        "commit": "69028fbee43e9950fffecc578430909fc827527e"
+      },
+      "manifestSha256": "6d35604e7515c60d0866b32970d1ee9d42c5055ce105802dffb0a17f6220cfa6",
+      "manifestUrl": "https://github.com/JunNanLYS/dsh-layered-memory/blob/69028fbee43e9950fffecc578430909fc827527e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-layered-memory",
+      "origin": "npm",
+      "name": "dsh-layered-memory",
+      "version": "0.11.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "c26035187482eb84185d9c5d6ff6e4cefb2aaf0b10ce3a1e5a9b2527af6983f8"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JunNanLYS/dsh-layered-memory",
+    "commit": "69028fbee43e9950fffecc578430909fc827527e",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:23.861Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:11.467Z",
+  "coverageReviewedAt": "2026-10-17T17:12:29.654Z",
+  "contentReviewFlags": []
+}

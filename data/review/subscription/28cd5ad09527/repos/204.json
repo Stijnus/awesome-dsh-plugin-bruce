@@ -1,0 +1,81 @@
+{
+  "full_name": "FSMargoo/dsh-at-file",
+  "originalPosition": 28,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.7.0.tar.gz"
+  ],
+  "manualNote": null,
+  "ordinal": 204,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:18.322Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5bf0ae06c814a9585864f81e9de92cbba3589d37e97e632b11e8969c4ed74dd2",
+      "url": "https://github.com/FSMargoo/dsh-at-file/blob/da602d1a8f1b417b8a1d8d4059e0f4cb1c353524/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.7.0.tar.gz",
+          "command": "dsh plugin --profile web add https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.7.0.tar.gz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ab05d9e28cdd8aaab756e257d6818f39a0bfc38a6eca8e59f3cc1bf98d516345",
+      "url": "https://github.com/FSMargoo/dsh-at-file/blob/da602d1a8f1b417b8a1d8d4059e0f4cb1c353524/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.7.0.tar.gz",
+          "command": "dsh plugin --profile web add https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.7.0.tar.gz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-at-file",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FSMargoo/dsh-at-file",
+        "commit": "da602d1a8f1b417b8a1d8d4059e0f4cb1c353524"
+      },
+      "manifestSha256": "8507e8c0f1d7e0d3a813b21d8e3e5cb394030f14adadba862b6481ccbe813dca",
+      "manifestUrl": "https://github.com/FSMargoo/dsh-at-file/blob/da602d1a8f1b417b8a1d8d4059e0f4cb1c353524/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.7.0.tar.gz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FSMargoo/dsh-at-file",
+    "commit": "da602d1a8f1b417b8a1d8d4059e0f4cb1c353524",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:28.497Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.381Z",
+  "contentReviewFlags": []
+}

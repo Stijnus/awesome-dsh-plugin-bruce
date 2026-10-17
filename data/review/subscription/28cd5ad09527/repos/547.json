@@ -1,0 +1,97 @@
+{
+  "full_name": "Punky971210/dsh-punky-swarm",
+  "originalPosition": 494,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-punky-swarm"
+  ],
+  "manualNote": null,
+  "ordinal": 547,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:32.542Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c949c07e8889e4afb309d8f5b0c8f08bcf1081a96584f0acb25f0a111bac6951",
+      "url": "https://github.com/Punky971210/dsh-punky-swarm/blob/c17c5e1db6d96a1164f30f6788b7599f029ad95d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-punky-swarm",
+          "command": "dsh plugin add dsh-punky-swarm",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Punky971210/dsh-punky-swarm/blob/c17c5e1db6d96a1164f30f6788b7599f029ad95d/README.en.md",
+      "sha256": "c00433c2d9ed277fd6f7f61022de91679fcd7358c47920966b442856b8b83f5c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-punky-swarm",
+          "command": "dsh plugin add dsh-punky-swarm",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-punky-swarm",
+      "version": "0.5.1",
+      "path": "packages/dsh-punky-swarm",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Punky971210/dsh-punky-swarm",
+        "commit": "c17c5e1db6d96a1164f30f6788b7599f029ad95d",
+        "path": "packages/dsh-punky-swarm"
+      },
+      "manifestSha256": "2ec38944e60cbfa8bde7893fe18765f6fe4486dc43d8b7b049de02417e9baabc",
+      "manifestUrl": "https://github.com/Punky971210/dsh-punky-swarm/blob/c17c5e1db6d96a1164f30f6788b7599f029ad95d/packages/dsh-punky-swarm/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-punky-swarm",
+      "origin": "npm",
+      "name": "dsh-punky-swarm",
+      "version": "0.5.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "d94c7e00aefbcd72b9d785ec3ddd00e95b0944eace3298ab575348b4f4c272fc"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Punky971210/dsh-punky-swarm",
+    "commit": "c17c5e1db6d96a1164f30f6788b7599f029ad95d",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:41.170Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:13.939Z",
+  "coverageReviewedAt": "2026-10-17T17:12:31.950Z",
+  "contentReviewFlags": []
+}

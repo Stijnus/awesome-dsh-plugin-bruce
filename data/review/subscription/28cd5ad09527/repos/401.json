@@ -1,0 +1,128 @@
+{
+  "full_name": "LayneChai/superpowers-dsh",
+  "originalPosition": 288,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/LayneChai/superpowers-dsh",
+    "superpowers-dsh",
+    "https://github.com/LayneChai/superpowers-dsh.git"
+  ],
+  "manualNote": null,
+  "ordinal": 401,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:21.353Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4ca31b8e4c8467fad55ad11efe8e344989332d45964d3c54df2b4272bee6063c",
+      "url": "https://github.com/LayneChai/superpowers-dsh/blob/426e7c4e727084374616ebd942a7e69567036d3a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LayneChai/superpowers-dsh",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:LayneChai/superpowers-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "superpowers-dsh",
+          "command": "dsh plugin --profile web add superpowers-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/LayneChai/superpowers-dsh.git",
+          "command": "dsh plugin --profile web add https://github.com/LayneChai/superpowers-dsh.git",
+          "profile": "web"
+        },
+        {
+          "install": "superpowers-dsh",
+          "command": "dsh plugin --profile headless add superpowers-dsh",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/LayneChai/superpowers-dsh/blob/426e7c4e727084374616ebd942a7e69567036d3a/README.en.md",
+      "sha256": "a9fe4296ebb3d84edb71910bbe61fe66dc3e51494298b7d2dc8976a864314282",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LayneChai/superpowers-dsh",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:LayneChai/superpowers-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "superpowers-dsh",
+          "command": "dsh plugin --profile web add superpowers-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/LayneChai/superpowers-dsh.git",
+          "command": "dsh plugin --profile web add https://github.com/LayneChai/superpowers-dsh.git",
+          "profile": "web"
+        },
+        {
+          "install": "superpowers-dsh",
+          "command": "dsh plugin --profile headless add superpowers-dsh",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "superpowers-dsh",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LayneChai/superpowers-dsh",
+        "commit": "426e7c4e727084374616ebd942a7e69567036d3a"
+      },
+      "manifestSha256": "12168832e31301941b734e0af168be6884931f31b13787182d7aaaa15fbc787e",
+      "manifestUrl": "https://github.com/LayneChai/superpowers-dsh/blob/426e7c4e727084374616ebd942a7e69567036d3a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "superpowers-dsh",
+      "origin": "npm",
+      "name": "superpowers-dsh",
+      "version": "0.3.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "cdff58bf491f0821e2d5eca33ca94ff8815302a457f9868029bd315239e24c09"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LayneChai/superpowers-dsh",
+    "commit": "426e7c4e727084374616ebd942a7e69567036d3a",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:31.653Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:06.943Z",
+  "coverageReviewedAt": "2026-10-17T17:12:20.977Z",
+  "contentReviewFlags": []
+}

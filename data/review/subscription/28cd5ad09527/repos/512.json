@@ -1,0 +1,72 @@
+{
+  "full_name": "zimzaza4/dsh-bash-win",
+  "originalPosition": 441,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@zimzaza4/dsh-bash-win"
+  ],
+  "manualNote": null,
+  "ordinal": 512,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:34.875Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "35354a59e42692e69bfdcbe8099054992fda7b29ce14bb98c83eadb66652bef1",
+      "url": "https://github.com/zimzaza4/dsh-bash-win/blob/814574a80b31d9de4eb09709dac0230cf4e3ba56/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zimzaza4/dsh-bash-win",
+          "command": "dsh plugin --profile web add @zimzaza4/dsh-bash-win",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zimzaza4/dsh-bash-win",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zimzaza4/dsh-bash-win",
+        "commit": "814574a80b31d9de4eb09709dac0230cf4e3ba56"
+      },
+      "manifestSha256": "d909098346e7e65b9de62683926bc7d91c5468e47ee1b74e06279838264ef916",
+      "manifestUrl": "https://github.com/zimzaza4/dsh-bash-win/blob/814574a80b31d9de4eb09709dac0230cf4e3ba56/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zimzaza4/dsh-bash-win",
+      "origin": "npm",
+      "name": "@zimzaza4/dsh-bash-win",
+      "version": "0.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "13d1525a1f75292ebe9a784efe65b0dec1ad427ac4aaabb23f244b68dd08eb44"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zimzaza4/dsh-bash-win",
+    "commit": "814574a80b31d9de4eb09709dac0230cf4e3ba56",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:42.268Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:29.786Z",
+  "contentReviewFlags": []
+}

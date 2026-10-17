@@ -1,0 +1,140 @@
+{
+  "full_name": "Tyan66666/billion-context-dsh",
+  "originalPosition": 382,
+  "inputMode": "command",
+  "mappedTargets": [
+    "billion-context-dsh",
+    "https://github.com/Tyan66666/billion-context-dsh#v0.2.26"
+  ],
+  "manualNote": null,
+  "ordinal": 467,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:09.277Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5d76e91a475a7355da43e86c89cf142c661b683a95ad37d6f648b56c7534f2d7",
+      "url": "https://github.com/Tyan66666/billion-context-dsh/blob/91a8a1e581927d68511caf0678419a45040f2245/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "billion-context-dsh",
+          "command": "dsh plugin --profile web add billion-context-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Tyan66666/billion-context-dsh#v0.2.27",
+          "command": "dsh plugin --profile web add github:Tyan66666/billion-context-dsh#v0.2.27",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Tyan66666/billion-context-dsh/blob/91a8a1e581927d68511caf0678419a45040f2245/README.en.md",
+      "sha256": "cbb7a4bb065c05703b310308346c0d8fa5f70c910a8e758fe041ec0849b01dde",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "billion-context-dsh",
+          "command": "dsh plugin --profile web add billion-context-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Tyan66666/billion-context-dsh#v0.2.27",
+          "command": "dsh plugin --profile web add github:Tyan66666/billion-context-dsh#v0.2.27",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "billion-context-dsh",
+      "version": "0.2.27",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tyan66666/billion-context-dsh",
+        "commit": "91a8a1e581927d68511caf0678419a45040f2245"
+      },
+      "manifestSha256": "ade567b1cd9d204ccf84552fe5a4b07297790acc7b8f4a103d68c03d44b3f0ea",
+      "manifestUrl": "https://github.com/Tyan66666/billion-context-dsh/blob/91a8a1e581927d68511caf0678419a45040f2245/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "billion-context-dsh",
+      "origin": "npm",
+      "name": "billion-context-dsh",
+      "version": "0.2.27",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0ea721471ddf4948c1bb0aff8a11167739308677f61332e4840fa594dd17b5da"
+    },
+    {
+      "target": "https://github.com/Tyan66666/billion-context-dsh#v0.2.26",
+      "origin": "git_target",
+      "path": "",
+      "commit": "241aaf2d1e3291f2caf357d2dccbf28d7e0e1419",
+      "name": "billion-context-dsh",
+      "version": "0.2.26",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/Tyan66666/billion-context-dsh#v0.2.27",
+      "origin": "git_target",
+      "path": "",
+      "commit": "637d175e3d04e13e5d4df086a52f5529136d97cf",
+      "name": "billion-context-dsh",
+      "version": "0.2.27",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/Tyan66666/billion-context-dsh#v0.2.26",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Tyan66666/billion-context-dsh#v0.2.27",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tyan66666/billion-context-dsh",
+    "commit": "91a8a1e581927d68511caf0678419a45040f2245",
+    "releaseTags": 38,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:30.765Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:09.785Z",
+  "coverageReviewedAt": "2026-10-17T17:12:26.284Z",
+  "contentReviewFlags": []
+}

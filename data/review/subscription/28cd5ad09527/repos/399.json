@@ -1,0 +1,181 @@
+{
+  "full_name": "xiaoyuyu6420/dsh-backup",
+  "originalPosition": 285,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@xiaoyuyu6420/dsh-backup",
+    "https://github.com/xiaoyuyu6420/dsh-backup"
+  ],
+  "manualNote": null,
+  "ordinal": 399,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:36.154Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "96eaa9d53cb13dd3098b91d9d6db2388efcfbfc2624ccc5969971cb0b92b4a6d",
+      "url": "https://github.com/xiaoyuyu6420/dsh-backup/blob/3e8871a9c57d22333754e7ca9e67ef7cfbce08ca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xiaoyuyu6420/dsh-backup",
+          "command": "dsh plugin --profile web add @xiaoyuyu6420/dsh-backup",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/xiaoyuyu6420/dsh-backup",
+          "command": "dsh plugin --profile web add github:xiaoyuyu6420/dsh-backup",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/xiaoyuyu6420/dsh-backup/blob/3e8871a9c57d22333754e7ca9e67ef7cfbce08ca/README.en.md",
+      "sha256": "2201dcb9f264f7ee9b15bb04a4fda7b187fc23aa367ef8196146d4f384b7fcf4",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xiaoyuyu6420/dsh-backup",
+          "command": "dsh plugin --profile web add @xiaoyuyu6420/dsh-backup",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/xiaoyuyu6420/dsh-backup",
+          "command": "dsh plugin --profile web add github:xiaoyuyu6420/dsh-backup",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xiaoyuyu6420/dsh-backup",
+      "version": "0.13.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaoyuyu6420/dsh-backup",
+        "commit": "3e8871a9c57d22333754e7ca9e67ef7cfbce08ca"
+      },
+      "manifestSha256": "66d5f5a8ec88a384b7d789ca8973062214ef0036f68e059c293926f022af7c0d",
+      "manifestUrl": "https://github.com/xiaoyuyu6420/dsh-backup/blob/3e8871a9c57d22333754e7ca9e67ef7cfbce08ca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2 || ^0.1.2-rc.1 || ^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@xiaoyuyu6420/dsh-backup",
+        "versions": [
+          {
+            "version": "0.13.4",
+            "publishTimestamp": 1792184816,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaoyuyu6420/dsh-backup",
+              "commit": "3e8871a9c57d22333754e7ca9e67ef7cfbce08ca"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2 || ^0.1.2-rc.1 || ^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@xiaoyuyu6420/dsh-backup",
+      "origin": "npm",
+      "name": "@xiaoyuyu6420/dsh-backup",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@xiaoyuyu6420/dsh-backup",
+        "title": "@xiaoyuyu6420/dsh-backup",
+        "description": "一条命令备份、恢复与迁移 DeepSeek Harness（dsh）的全部数据（~/.dsh：会话、设置、插件、MCP、技能）：定时自动备份、升级前快照、换机迁移、会话日志体检修复、宿主起不来也能用的进程外救援；凭据默认脱敏只存本机。 Backup, restore & migrate all DeepSeek Harness (~/.dsh) data — sessions, settings, plugins, MCP, skills: scheduled backups, pre-upgrade snapshots, cross-machine migration, session-log doctor, out-of-process rescue console; credentials redacted to a local-only vault.",
+        "homepage": "https://github.com/xiaoyuyu6420/dsh-backup#readme",
+        "repository": {
+          "url": "https://github.com/xiaoyuyu6420/dsh-backup"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "backup",
+            "备份",
+            "restore",
+            "恢复",
+            "migration",
+            "迁移",
+            "换机",
+            "schedule",
+            "自动备份",
+            "cross-platform",
+            "cross-machine",
+            "rescue",
+            "doctor",
+            "upgrade-snapshot",
+            "mcp",
+            "skills",
+            "技能",
+            "sessions",
+            "会话",
+            "workspace",
+            "工作区",
+            "vault",
+            "数据安全"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.13.4",
+            "publishTimestamp": 1791593785,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2 || ^0.1.2-rc.1 || ^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fb06421d257f7ddd75704058e3a0f405c7b88aa2fe050727a748a095419450c7",
+      "evidence": [
+        {
+          "name": "@xiaoyuyu6420/dsh-backup",
+          "version": "0.13.4",
+          "tarball": "https://registry.npmjs.org/@xiaoyuyu6420/dsh-backup/-/dsh-backup-0.13.4.tgz",
+          "integrity": "sha512-QASFqX0sghUNLBBvTlHuZhMS0gjERvmTF83nYvkcqQAnjOt+3Spc9LAUYFWc1u6/iDBJVTK0OyNXQSYhKMPjQQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaoyuyu6420/dsh-backup",
+    "commit": "3e8871a9c57d22333754e7ca9e67ef7cfbce08ca",
+    "releaseTags": 31,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:07:45.487Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "coverageReviewedAt": "2026-10-17T17:12:21.172Z",
+  "contentReviewFlags": []
+}

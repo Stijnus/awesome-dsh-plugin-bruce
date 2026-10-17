@@ -1,0 +1,86 @@
+{
+  "full_name": "MichengAI/dsh-agency-agents",
+  "originalPosition": 198,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@michengai/dsh-agency-agents@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 344,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:31.948Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c0f4681f719dd07b2f86862de6bc8d240d5a4971b436476d32460e611b6ba773",
+      "url": "https://github.com/MichengAI/dsh-agency-agents/blob/e087750c6f8e0d9d09d8171440ef68ff263fde48/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-agency-agents@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-agency-agents@latest --registry=https://registry.npmjs.org/. Then run dsh --profile web --dump-config, confirm the configuration includes",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "49b504ea2319862ce4e1d2ce2c9073cf5c3807ebba34e77092c0012550da9849",
+      "url": "https://github.com/MichengAI/dsh-agency-agents/blob/e087750c6f8e0d9d09d8171440ef68ff263fde48/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-agency-agents@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-agency-agents@latest --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-agency-agents",
+      "version": "1.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-agency-agents",
+        "commit": "e087750c6f8e0d9d09d8171440ef68ff263fde48"
+      },
+      "manifestSha256": "654a91ad4dfbae339ce5bacb8c4d1f7428926ea80378866c92ada3056c7faa69",
+      "manifestUrl": "https://github.com/MichengAI/dsh-agency-agents/blob/e087750c6f8e0d9d09d8171440ef68ff263fde48/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@michengai/dsh-agency-agents@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-agency-agents",
+      "version": "1.2.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a4e7b07433c82c113cb647666515583a23b4e9c9a0882d981ef541c0b74d4b9e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-agency-agents",
+    "commit": "e087750c6f8e0d9d09d8171440ef68ff263fde48",
+    "releaseTags": 66,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:42.802Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.568Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,126 @@
+{
+  "full_name": "limuyang2/agent-team",
+  "originalPosition": 165,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@limuyang2/dsh-agent-team",
+    "@limuyang2/dsh-agent-team@0.1.4"
+  ],
+  "manualNote": null,
+  "ordinal": 317,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:15.597Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0881e505b6049d0b8165479d96f8c667f87bf85337513d81354587b514be559a",
+      "url": "https://github.com/limuyang2/agent-team/blob/3dfc9c29ea3610e2bf9494aaff6b41bae120de9c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@limuyang2/dsh-agent-team",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @limuyang2/dsh-agent-team",
+          "profile": "web"
+        },
+        {
+          "install": "@limuyang2/dsh-agent-team@0.1.4",
+          "command": "dsh plugin add --save-exact @limuyang2/dsh-agent-team@0.1.4",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "3dc97e4a0fe76c0c003c81a7fe355f99452b3a623451fe6533d2c7785da3c31e",
+      "url": "https://github.com/limuyang2/agent-team/blob/3dfc9c29ea3610e2bf9494aaff6b41bae120de9c/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@limuyang2/dsh-agent-team",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @limuyang2/dsh-agent-team",
+          "profile": "web"
+        },
+        {
+          "install": "@limuyang2/dsh-agent-team@0.1.4",
+          "command": "dsh plugin add --save-exact @limuyang2/dsh-agent-team@0.1.4",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/limuyang2/agent-team/blob/3dfc9c29ea3610e2bf9494aaff6b41bae120de9c/docs/README.md",
+      "sha256": "89b6ea0b8a12d005e56b2d7d0dfe4cbbe6270e6828b164bfb6fb181c875f29cd",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@limuyang2/dsh-agent-team",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/limuyang2/agent-team",
+        "commit": "3dfc9c29ea3610e2bf9494aaff6b41bae120de9c"
+      },
+      "manifestSha256": "4d7c8b04a4a3d76846c5f93dd8f69e6c9a7d46072a5db0cd78be16a73eda4520",
+      "manifestUrl": "https://github.com/limuyang2/agent-team/blob/3dfc9c29ea3610e2bf9494aaff6b41bae120de9c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@limuyang2/dsh-agent-team",
+      "origin": "npm",
+      "name": "@limuyang2/dsh-agent-team",
+      "version": "0.1.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "4cd504fa15eca1ec2a9216c6f23f0e3746cb9735bccd86d4beed8c0196b93487"
+    },
+    {
+      "target": "@limuyang2/dsh-agent-team@0.1.4",
+      "origin": "npm",
+      "name": "@limuyang2/dsh-agent-team",
+      "version": "0.1.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "4cd504fa15eca1ec2a9216c6f23f0e3746cb9735bccd86d4beed8c0196b93487"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/limuyang2/agent-team",
+    "commit": "3dfc9c29ea3610e2bf9494aaff6b41bae120de9c",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:26.797Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:01.397Z",
+  "coverageReviewedAt": "2026-10-17T17:12:14.450Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,96 @@
+{
+  "full_name": "sailoumili/novel-writer",
+  "originalPosition": 94,
+  "inputMode": "command",
+  "mappedTargets": [
+    "novel-writer"
+  ],
+  "manualNote": null,
+  "ordinal": 260,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:06.516Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7d31d3565781c2333892ca23fdbe8b828c439a77843b5677c9026975bc498854",
+      "url": "https://github.com/sailoumili/novel-writer/blob/bd0082106998a4737d3428bed334cacde46accd9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "novel-writer",
+          "command": "dsh plugin --profile web add novel-writer",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/sailoumili/novel-writer/blob/bd0082106998a4737d3428bed334cacde46accd9/README.en.md",
+      "sha256": "dc0be71f87daeeed7c3af45b88243c3fb50614cf5a7a2bdb0ad16d35284b9d9a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "novel-writer",
+          "command": "dsh plugin --profile web add novel-writer",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "novel-writer",
+      "version": "1.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sailoumili/novel-writer",
+        "commit": "bd0082106998a4737d3428bed334cacde46accd9"
+      },
+      "manifestSha256": "995ae973c86080e3cf9ba2aa190370c647aa7a82a7f3c564a1c183b9b92edaab",
+      "manifestUrl": "https://github.com/sailoumili/novel-writer/blob/bd0082106998a4737d3428bed334cacde46accd9/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "novel-writer",
+      "origin": "npm",
+      "name": "novel-writer",
+      "version": "1.0.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8dbb2996ccd6441ca178a61f323c41df693f526c30cf0ec29d61aab530487aaf"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sailoumili/novel-writer",
+    "commit": "bd0082106998a4737d3428bed334cacde46accd9",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:14.439Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:57.653Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.053Z",
+  "contentReviewFlags": []
+}

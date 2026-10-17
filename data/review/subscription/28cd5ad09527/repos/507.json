@@ -1,0 +1,96 @@
+{
+  "full_name": "SnowAmberX/dsh-role-router",
+  "originalPosition": 434,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@snowamberx/dsh-role-router"
+  ],
+  "manualNote": null,
+  "ordinal": 507,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:23.862Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9d27299520c34372443ed098117f09ed017716309e47e61b2c50f0d18f381996",
+      "url": "https://github.com/SnowAmberX/dsh-role-router/blob/81ec65b221bcd1147715100af4fd7f4887a4658a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@snowamberx/dsh-role-router",
+          "command": "dsh plugin --profile web add @snowamberx/dsh-role-router",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/SnowAmberX/dsh-role-router/blob/81ec65b221bcd1147715100af4fd7f4887a4658a/README.en.md",
+      "sha256": "7d3cec7398d22e0dabf2cc73617969b1a8dddc16b555c5dd14ba2f14d432fe5a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@snowamberx/dsh-role-router",
+          "command": "dsh plugin --profile web add @snowamberx/dsh-role-router",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@snowamberx/dsh-role-router",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SnowAmberX/dsh-role-router",
+        "commit": "81ec65b221bcd1147715100af4fd7f4887a4658a"
+      },
+      "manifestSha256": "27d102cb1988a2c916beb4aad69b8e44ca911f353a6ef9c5bc7a69cfd79ec182",
+      "manifestUrl": "https://github.com/SnowAmberX/dsh-role-router/blob/81ec65b221bcd1147715100af4fd7f4887a4658a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@snowamberx/dsh-role-router",
+      "origin": "npm",
+      "name": "@snowamberx/dsh-role-router",
+      "version": "0.3.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "5cb147f81386490fb131d15eb2cdade8a90faae56abaa8940f84cf1769f03d88"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SnowAmberX/dsh-role-router",
+    "commit": "81ec65b221bcd1147715100af4fd7f4887a4658a",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:32.068Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:11.792Z",
+  "coverageReviewedAt": "2026-10-17T17:12:29.779Z",
+  "contentReviewFlags": []
+}

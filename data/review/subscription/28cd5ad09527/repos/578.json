@@ -1,0 +1,61 @@
+{
+  "full_name": "ymh0000123/dsh-client-masquerade",
+  "originalPosition": 545,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/ymh0000123/dsh-client-masquerade"
+  ],
+  "manualNote": null,
+  "ordinal": 578,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:31.574Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e387998f61fc191fe239fbc2744081cbead0be7b6d1ca9ec39c0d5b60e30d0d0",
+      "url": "https://github.com/ymh0000123/dsh-client-masquerade/blob/b7e01f6fa148772635df90660add9d34f97e785f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/ymh0000123/dsh-client-masquerade",
+          "command": "dsh plugin --profile web add github:ymh0000123/dsh-client-masquerade",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-client-masquerade",
+      "version": "1.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ymh0000123/dsh-client-masquerade",
+        "commit": "b7e01f6fa148772635df90660add9d34f97e785f"
+      },
+      "manifestSha256": "b5399d7d4c7be8a3f82af72c65adb1bb08634eb9576466e4370be63c5932a383",
+      "manifestUrl": "https://github.com/ymh0000123/dsh-client-masquerade/blob/b7e01f6fa148772635df90660add9d34f97e785f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ymh0000123/dsh-client-masquerade",
+    "commit": "b7e01f6fa148772635df90660add9d34f97e785f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:39.344Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.377Z",
+  "contentReviewFlags": []
+}

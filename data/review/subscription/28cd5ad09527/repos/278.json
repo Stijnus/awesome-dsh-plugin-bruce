@@ -1,0 +1,284 @@
+{
+  "full_name": "ADWMC/helm-d",
+  "originalPosition": 116,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@adwmc/helm-d",
+    "https://github.com/ADWMC/helm-d/releases/latest/download/helmd.tgz"
+  ],
+  "manualNote": null,
+  "ordinal": 278,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:38.950Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "370bf5ce3e0d95cfb1e7a91a18fe616eb6b6fec85fe1254361271d349bb6e6d5",
+      "url": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@adwmc/helm-d",
+          "command": "dsh plugin --profile web add @adwmc/helm-d",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ADWMC/helm-d/releases/latest/download/helmd.tgz",
+          "command": "dsh plugin --profile web add https://github.com/ADWMC/helm-d/releases/latest/download/helmd.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/README.en.md",
+      "sha256": "7952ba3ec9386e1aca8c2bb99a10c11d655d05280818c6a5bd3bec6973806e3b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@adwmc/helm-d",
+          "command": "dsh plugin --profile web add @adwmc/helm-d",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ADWMC/helm-d/releases/latest/download/helmd.tgz",
+          "command": "dsh plugin --profile web add https://github.com/ADWMC/helm-d/releases/latest/download/helmd.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@helm-d/bootstrap",
+      "version": "0.1.2",
+      "path": "packages/bootstrap",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/bootstrap"
+      },
+      "manifestSha256": "eb839b161828be9e7253b1b9d9ff80a0c5268b2ad4e095db1880d1760c435621",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/bootstrap/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@adwmc/helm-d",
+      "version": "0.4.3",
+      "path": "packages/helmd",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/helmd"
+      },
+      "manifestSha256": "44c598c457abb8e0c0bc1e1d846e89f8bc2ef7ff20889f1c9ca9f4e4d449ac00",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/helmd/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@helm-d/router",
+      "version": "0.1.2",
+      "path": "packages/router",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/router"
+      },
+      "manifestSha256": "1c3a41d012d0312c2ccacd5ccb6c96bc1b5f416b49461b01de0050f8282acb29",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/router/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@helm-d/skill-ai-security",
+      "version": "0.1.2",
+      "path": "packages/skill-ai-security",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/skill-ai-security"
+      },
+      "manifestSha256": "3f3d977909461b5b1cb78aff77b4e8eeef7eafc8bdd042b36f4197828347afd7",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/skill-ai-security/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@helm-d/skill-android",
+      "version": "0.1.2",
+      "path": "packages/skill-android",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/skill-android"
+      },
+      "manifestSha256": "a599ef7d8e0fdce31c317b3a42e65f209a5dfa762bad672d98e4ecc4a86368dd",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/skill-android/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@helm-d/skill-evidence",
+      "version": "0.1.2",
+      "path": "packages/skill-evidence",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/skill-evidence"
+      },
+      "manifestSha256": "f2b67d7484eba1eb645e5d2d367c45bd1054dcabbf0fdddb484a23d36842c02f",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/skill-evidence/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@helm-d/skill-malware",
+      "version": "0.1.2",
+      "path": "packages/skill-malware",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/skill-malware"
+      },
+      "manifestSha256": "772b0ce84f55e0896cd8ebd141a45321f325c08fb79f2fd2ebd5d5b81d083823",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/skill-malware/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@helm-d/skill-native",
+      "version": "0.1.2",
+      "path": "packages/skill-native",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/skill-native"
+      },
+      "manifestSha256": "75753514585c0d94d45e7ed80f205dedd2773c3fb0f8a13325a5570828ade85c",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/skill-native/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@helm-d/skill-protocol",
+      "version": "0.1.2",
+      "path": "packages/skill-protocol",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/skill-protocol"
+      },
+      "manifestSha256": "b7a237748562eb35c7d57ccdd9740cdcb7569e337a3598be828524ecea8ff976",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/skill-protocol/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@helm-d/skill-web",
+      "version": "0.1.2",
+      "path": "packages/skill-web",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/skill-web"
+      },
+      "manifestSha256": "3eb5ea8f901409514780a875d6113f2839c61e09d8c8d10089dba0b4b41751ee",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/skill-web/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@helm-d/toolbox",
+      "version": "0.1.2",
+      "path": "packages/toolbox",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ADWMC/helm-d",
+        "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+        "path": "packages/toolbox"
+      },
+      "manifestSha256": "77fc0d1527f94fb64abb5e5bfbe67e76314db402c59d2d86352d86ae8d38c3de",
+      "manifestUrl": "https://github.com/ADWMC/helm-d/blob/fd79c87bc233495016f6f4e2070a705d7a4bb09c/packages/toolbox/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@adwmc/helm-d",
+      "origin": "npm",
+      "name": "@adwmc/helm-d",
+      "version": "0.3.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "53eaa728ac756025eeceacd1ae293d48f4816620881350f780519357cd4d38f8"
+    },
+    {
+      "target": "https://github.com/ADWMC/helm-d/releases/latest/download/helmd.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ADWMC/helm-d",
+    "commit": "fd79c87bc233495016f6f4e2070a705d7a4bb09c",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:05.516Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:58.888Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.827Z",
+  "contentReviewFlags": []
+}

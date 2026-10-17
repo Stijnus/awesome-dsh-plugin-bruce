@@ -1,0 +1,121 @@
+{
+  "full_name": "MrWeiCodes/dsh-fs-encoding",
+  "originalPosition": 511,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-fs-encoding",
+    "https://github.com/MrWeiCodes/dsh-fs-encoding"
+  ],
+  "manualNote": null,
+  "ordinal": 555,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:44.620Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "473ec4c3873ac9af837b6f0b6c4c77baaa0f4fc19c13394755272b950a518231",
+      "url": "https://github.com/MrWeiCodes/dsh-fs-encoding/blob/a4d31cc33bd6f0fab2bf6752f6e50e8301885b94/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fs-encoding",
+          "command": "dsh plugin --profile web add dsh-fs-encoding",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/MrWeiCodes/dsh-fs-encoding",
+          "command": "dsh plugin --profile web add -w github:MrWeiCodes/dsh-fs-encoding",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fs-encoding@latest",
+          "command": "dsh plugin --profile web add dsh-fs-encoding@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "d3049bfbe954e13055f054245a2ea115bed76468358c7d7da2af10cd2696ebdf",
+      "url": "https://github.com/MrWeiCodes/dsh-fs-encoding/blob/a4d31cc33bd6f0fab2bf6752f6e50e8301885b94/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fs-encoding",
+          "command": "dsh plugin --profile web add dsh-fs-encoding",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/MrWeiCodes/dsh-fs-encoding",
+          "command": "dsh plugin --profile web add -w github:MrWeiCodes/dsh-fs-encoding",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fs-encoding@latest",
+          "command": "dsh plugin --profile web add dsh-fs-encoding@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fs-encoding",
+      "version": "1.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MrWeiCodes/dsh-fs-encoding",
+        "commit": "a4d31cc33bd6f0fab2bf6752f6e50e8301885b94"
+      },
+      "manifestSha256": "73878ac55880f94e1ba7c51ce0abc2d0275946ec58625ef3acda0e833c180bf3",
+      "manifestUrl": "https://github.com/MrWeiCodes/dsh-fs-encoding/blob/a4d31cc33bd6f0fab2bf6752f6e50e8301885b94/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-fs-encoding",
+      "origin": "npm",
+      "name": "dsh-fs-encoding",
+      "version": "1.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ad3c98c3522a8d363d6f592d93acacf1489fcfd365e9848c81342c6096ebf043"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-fs-encoding",
+      "version": "1.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-fs-encoding@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MrWeiCodes/dsh-fs-encoding",
+    "commit": "a4d31cc33bd6f0fab2bf6752f6e50e8301885b94",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:54.661Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.055Z",
+  "contentReviewFlags": []
+}

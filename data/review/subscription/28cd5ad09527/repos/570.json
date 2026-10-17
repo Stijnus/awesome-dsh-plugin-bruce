@@ -1,0 +1,72 @@
+{
+  "full_name": "toustifer/dsh-harvest",
+  "originalPosition": 537,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@stifer/dsh-harvest"
+  ],
+  "manualNote": null,
+  "ordinal": 570,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:13.963Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "673160266058e0793d4c9836ff53b871ad630e93c7c4568487f7f2d30c3df627",
+      "url": "https://github.com/toustifer/dsh-harvest/blob/e642718f4488b6b0a1cc3c6501042cde998ed8e5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@stifer/dsh-harvest",
+          "command": "dsh plugin --profile web add @stifer/dsh-harvest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@stifer/dsh-harvest",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/toustifer/dsh-harvest",
+        "commit": "e642718f4488b6b0a1cc3c6501042cde998ed8e5"
+      },
+      "manifestSha256": "41b40a512cd2c51fa167a89b10202e99dea5106b569366b742913cf56c7bdefa",
+      "manifestUrl": "https://github.com/toustifer/dsh-harvest/blob/e642718f4488b6b0a1cc3c6501042cde998ed8e5/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@stifer/dsh-harvest",
+      "origin": "npm",
+      "name": "@stifer/dsh-harvest",
+      "version": "0.2.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "c567360307032ac620a3f5428f812fee956343cbefd904809b21ec41b86e8ce4"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/toustifer/dsh-harvest",
+    "commit": "e642718f4488b6b0a1cc3c6501042cde998ed8e5",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:22.116Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.289Z",
+  "contentReviewFlags": []
+}

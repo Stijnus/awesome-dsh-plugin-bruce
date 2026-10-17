@@ -1,0 +1,89 @@
+{
+  "full_name": "SnowCrescenter-tech/dsh-milestone",
+  "originalPosition": 201,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-milestone",
+    "https://github.com/SnowCrescenter-tech/dsh-milestone#main"
+  ],
+  "manualNote": null,
+  "ordinal": 347,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:42.803Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8b33ae4de481260590947c5c256e7677683a8e94415e668590a7833992f82dc3",
+      "url": "https://github.com/SnowCrescenter-tech/dsh-milestone/blob/3bdd8d1327f30b64a1119aeb62c752ef1e12c713/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-milestone",
+          "command": "dsh plugin --profile demo add dsh-milestone",
+          "profile": "demo"
+        },
+        {
+          "install": "https://github.com/SnowCrescenter-tech/dsh-milestone#main",
+          "command": "dsh plugin --profile demo add \"github:SnowCrescenter-tech/dsh-milestone#main\"",
+          "profile": "demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-milestone",
+      "version": "0.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SnowCrescenter-tech/dsh-milestone",
+        "commit": "3bdd8d1327f30b64a1119aeb62c752ef1e12c713"
+      },
+      "manifestSha256": "5cad24a0e01cbd2d105fd4f8705ef855d25194b1cbcb6441f26a5c5daa97d2b1",
+      "manifestUrl": "https://github.com/SnowCrescenter-tech/dsh-milestone/blob/3bdd8d1327f30b64a1119aeb62c752ef1e12c713/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-milestone",
+      "origin": "npm",
+      "name": "dsh-milestone",
+      "version": "0.7.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "fef7db304eef8fa5bc1d08790b3309ce4f879fa0ab26b3c36c2775fb68fcdb63"
+    },
+    {
+      "target": "https://github.com/SnowCrescenter-tech/dsh-milestone#main",
+      "origin": "git_target",
+      "path": "",
+      "commit": "3bdd8d1327f30b64a1119aeb62c752ef1e12c713",
+      "name": "dsh-milestone",
+      "version": "0.7.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SnowCrescenter-tech/dsh-milestone",
+    "commit": "3bdd8d1327f30b64a1119aeb62c752ef1e12c713",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:58.560Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.808Z",
+  "contentReviewFlags": []
+}

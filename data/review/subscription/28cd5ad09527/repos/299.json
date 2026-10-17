@@ -1,0 +1,148 @@
+{
+  "full_name": "KannaKuron/dsh-gitbash-shell",
+  "originalPosition": 141,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-gitbash-shell"
+  ],
+  "manualNote": null,
+  "ordinal": 299,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:34.952Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0a9710c183c8cd51414ecb34d542229434ab3688ce6376242ca302ab2a776e0c",
+      "url": "https://github.com/KannaKuron/dsh-gitbash-shell/blob/82e3eaff85ee2a6bcfdd119561a9cc89601cfe65/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-gitbash-shell",
+          "command": "dsh plugin --profile web add dsh-gitbash-shell",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "b874c3c041425b0482f9e1210cfa2ef83c57987ffa6b62b190c37e0d79223fa7",
+      "url": "https://github.com/KannaKuron/dsh-gitbash-shell/blob/82e3eaff85ee2a6bcfdd119561a9cc89601cfe65/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-gitbash-shell",
+          "command": "dsh plugin --profile web add dsh-gitbash-shell",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-gitbash-shell",
+      "version": "0.40.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KannaKuron/dsh-gitbash-shell",
+        "commit": "82e3eaff85ee2a6bcfdd119561a9cc89601cfe65"
+      },
+      "manifestSha256": "c4c4d172ce917962d7c7978d6ec4d5bf2a01cc3d85835f239796c83cd8bd5ff5",
+      "manifestUrl": "https://github.com/KannaKuron/dsh-gitbash-shell/blob/82e3eaff85ee2a6bcfdd119561a9cc89601cfe65/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-gitbash-shell",
+        "versions": [
+          {
+            "version": "0.40.4",
+            "publishTimestamp": 1792246034,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KannaKuron/dsh-gitbash-shell",
+              "commit": "82e3eaff85ee2a6bcfdd119561a9cc89601cfe65"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-gitbash-shell",
+      "origin": "npm",
+      "name": "dsh-gitbash-shell",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-gitbash-shell",
+        "title": {
+          "en": "Git Bash Shell",
+          "zh": "Git Bash Shell"
+        },
+        "description": {
+          "en": "Swaps Windows' PowerShell shell for Git for Windows bash: a bash-sandbox-compatible executor, a unified MSYS path dialect across every tool (posixPaths and friends, live-editable), and the four * Git Bash agent presets declared straight onto the roster on dsh 0.1.7+.",
+          "zh": "把 Windows 的 PowerShell shell 换成 Git for Windows bash:兼容 bash-sandbox 的执行器、全工具统一的 MSYS 路径方言(posixPaths 等开关可实时编辑),以及 dsh 0.1.7+ 上直接声明进取的四个 * · Git Bash 预设。"
+        },
+        "homepage": "https://github.com/KannaKuron/dsh-gitbash-shell",
+        "repository": {
+          "url": "https://github.com/KannaKuron/dsh-gitbash-shell"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "git-bash",
+            "windows",
+            "shell",
+            "dsh-plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSI+CiAgPHJlY3QgeD0iNCIgeT0iNiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjI0IiByeD0iMy41IiBzdHJva2U9IiM0NDkzZjgiIHN0cm9rZS13aWR0aD0iMS44Ii8+CiAgPHBhdGggZD0iTTQgMTJoMjgiIHN0cm9rZT0iIzQ0OTNmOCIgc3Ryb2tlLXdpZHRoPSIxLjQiLz4KICA8Y2lyY2xlIGN4PSI3LjYiIGN5PSI5IiByPSIxIiBmaWxsPSIjNDQ5M2Y4Ii8+CiAgPGNpcmNsZSBjeD0iMTEiIGN5PSI5IiByPSIxIiBmaWxsPSIjNDQ5M2Y4Ii8+CiAgPHBhdGggZD0iTTEwIDE4LjVsNCAzLjUtNCAzLjVNMTcgMjUuNWg4IiBzdHJva2U9IiNmMDg4M2UiIHN0cm9rZS13aWR0aD0iMS45IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.40.4",
+            "publishTimestamp": 1792246151,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7ad0f171b8e8ec212f7d7e8eee0fd1d1ab61ece2b8f7d0f22d9fd62109bc9416",
+      "evidence": [
+        {
+          "name": "dsh-gitbash-shell",
+          "version": "0.40.4",
+          "tarball": "https://registry.npmjs.org/dsh-gitbash-shell/-/dsh-gitbash-shell-0.40.4.tgz",
+          "integrity": "sha512-0L6S5b556sLXcGvY6lGBGXGONtCy4E14xwmLAdN5mJd1hHyeyqZX11nv6azF3RfXyhksMsohL5Ha5FBCI48fEg=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KannaKuron/dsh-gitbash-shell",
+    "commit": "82e3eaff85ee2a6bcfdd119561a9cc89601cfe65",
+    "releaseTags": 96,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:03:45.373Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.923Z",
+  "contentReviewFlags": []
+}

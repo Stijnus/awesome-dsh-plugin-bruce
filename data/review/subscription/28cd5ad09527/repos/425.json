@@ -1,0 +1,306 @@
+{
+  "full_name": "PerryLink/dsh-output-styles",
+  "originalPosition": 321,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-output-styles#main",
+    "dsh-output-styles"
+  ],
+  "manualNote": null,
+  "ordinal": 425,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:00.842Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9de8d386d9bb6362539ec7830eca281ff1b4bee9bdc4d343265f0576fe1663a6",
+      "url": "https://github.com/PerryLink/dsh-output-styles/blob/de7420e62232f50950be4ca95bf6aea7ab6a18d7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-output-styles",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-output-styles",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-output-styles",
+          "command": "dsh plugin --profile web add dsh-output-styles",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-output-styles/blob/de7420e62232f50950be4ca95bf6aea7ab6a18d7/README-zh.md",
+      "sha256": "268fde730b6c32273c516326ca1469a0e502d19705d9dd8252a6d75d3869f81b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-output-styles",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-output-styles",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-output-styles",
+          "command": "dsh plugin --profile web add dsh-output-styles",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-output-styles/blob/de7420e62232f50950be4ca95bf6aea7ab6a18d7/README-es.md",
+      "sha256": "e784f09c22224aa96f0ecdc41cabdc9dea7e62a1615066a84abf332152311d71",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-output-styles",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-output-styles",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-output-styles",
+          "command": "dsh plugin --profile web add dsh-output-styles",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-output-styles/blob/de7420e62232f50950be4ca95bf6aea7ab6a18d7/README-pt.md",
+      "sha256": "281c0249018fe4633d8ff73b0de1726a108eb3007f4321b3f4e5304dc0480ef7",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-output-styles",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-output-styles",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-output-styles",
+          "command": "dsh plugin --profile web add dsh-output-styles",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-output-styles/blob/de7420e62232f50950be4ca95bf6aea7ab6a18d7/README-hi.md",
+      "sha256": "f321fa4ca1b528a836bf9802ad3d7f0b619817f6bfcbcf8c3639b2086371aaf4",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-output-styles",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-output-styles",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-output-styles",
+          "command": "dsh plugin --profile web add dsh-output-styles",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-output-styles",
+      "version": "0.6.26",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-output-styles",
+        "commit": "de7420e62232f50950be4ca95bf6aea7ab6a18d7"
+      },
+      "manifestSha256": "0f8cc721f7fc06d741f0d69cc4d62eace3f5a835e79a67a74fe9822c1de71c9c",
+      "manifestUrl": "https://github.com/PerryLink/dsh-output-styles/blob/de7420e62232f50950be4ca95bf6aea7ab6a18d7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-output-styles",
+        "versions": [
+          {
+            "version": "0.6.26",
+            "publishTimestamp": 1791813002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-output-styles",
+              "commit": "de7420e62232f50950be4ca95bf6aea7ab6a18d7"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-output-styles#main",
+      "origin": "git_target",
+      "name": "dsh-output-styles",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-output-styles",
+        "title": "dsh-output-styles",
+        "description": "Claude Code outputStyles-equivalent runtime output-style switching for DeepSeek Harness",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-output-styles#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-output-styles"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "output-style",
+            "output-styles",
+            "claude-code"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.26",
+            "publishTimestamp": 1791813002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-output-styles",
+              "commit": "de7420e62232f50950be4ca95bf6aea7ab6a18d7"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "de7420e62232f50950be4ca95bf6aea7ab6a18d7",
+          "name": "dsh-output-styles",
+          "version": "0.6.26",
+          "url": "https://github.com/PerryLink/dsh-output-styles",
+          "manifestSha256": "0f8cc721f7fc06d741f0d69cc4d62eace3f5a835e79a67a74fe9822c1de71c9c",
+          "publishTimestamp": 1791813002
+        }
+      ]
+    },
+    {
+      "target": "dsh-output-styles",
+      "origin": "npm",
+      "name": "dsh-output-styles",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-output-styles",
+        "title": "dsh-output-styles",
+        "description": "Claude Code outputStyles-equivalent runtime output-style switching for DeepSeek Harness",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-output-styles#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-output-styles"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "output-style",
+            "output-styles",
+            "claude-code"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.26",
+            "publishTimestamp": 1791594110,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "be6eca694f08ca3011b6b03fc8cb0fc0616bf1832744c15d2b95dcf01a20932e",
+      "evidence": [
+        {
+          "name": "dsh-output-styles",
+          "version": "0.6.26",
+          "tarball": "https://registry.npmjs.org/dsh-output-styles/-/dsh-output-styles-0.6.26.tgz",
+          "integrity": "sha512-fLZ+4nrv3AwhXV7Q2rn7oR+YjDCCFaw1TnFA4Stif8VLDyCPlRlUGhAXdu49zlKvbtvzY3yCu2bfVpuJosOMuA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-output-styles#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-output-styles",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-output-styles",
+    "commit": "de7420e62232f50950be4ca95bf6aea7ab6a18d7",
+    "releaseTags": 35,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:16.033Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:09.129Z",
+  "coverageReviewedAt": "2026-10-17T17:12:23.644Z",
+  "contentReviewFlags": []
+}

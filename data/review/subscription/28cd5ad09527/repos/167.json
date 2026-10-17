@@ -1,0 +1,125 @@
+{
+  "full_name": "Weaxs/stock-analysis-plugin",
+  "originalPosition": 245,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <你的profile> add @weaxs/dsh-stock-analysis」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@main"
+    }
+  },
+  "ordinal": 167,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:13.399Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "109295cd22a9da0a090cf79d3b64edc5e1038cc89b96d8368c84c3df5851073f",
+      "url": "https://github.com/Weaxs/stock-analysis-plugin/blob/eb3342f5d694488a55dce12e4d21e36b2f4ea7af/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@weaxs/dsh-stock-analysis",
+          "command": "dsh plugin --profile <profile> add @weaxs/dsh-stock-analysis",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "openclaw/README.md",
+      "url": "https://github.com/Weaxs/stock-analysis-plugin/blob/eb3342f5d694488a55dce12e4d21e36b2f4ea7af/openclaw/README.md",
+      "sha256": "c1e2863238f562a80bd61134cd236fdc81aef33ec62c0efd3d5df4876e0a8ae4",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh/README.md",
+      "url": "https://github.com/Weaxs/stock-analysis-plugin/blob/eb3342f5d694488a55dce12e4d21e36b2f4ea7af/dsh/README.md",
+      "sha256": "fc19a34b3b08ce6c08627649e505f96d41887217fa32a477d57a923d31806778",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@weaxs/dsh-stock-analysis",
+          "command": "dsh plugin --profile <你的profile> add @weaxs/dsh-stock-analysis",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@weaxs/dsh-stock-analysis",
+      "version": "0.1.4",
+      "path": "dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Weaxs/stock-analysis-plugin",
+        "commit": "eb3342f5d694488a55dce12e4d21e36b2f4ea7af",
+        "path": "dsh"
+      },
+      "manifestSha256": "315bafe590358efe95cd8e4009cbec7d5244b9de817629555cc809e2c62afb14",
+      "manifestUrl": "https://github.com/Weaxs/stock-analysis-plugin/blob/eb3342f5d694488a55dce12e4d21e36b2f4ea7af/dsh/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@weaxs/dsh-stock-analysis",
+      "origin": "npm",
+      "name": "@weaxs/dsh-stock-analysis",
+      "version": "0.2.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8ebfff6f5e6103f284b8f56a8fbbde5666a8dc71fad318d37def35d9cdbdadae"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@weaxs/dsh-stock-analysis",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Weaxs/stock-analysis-plugin",
+    "commit": "eb3342f5d694488a55dce12e4d21e36b2f4ea7af",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:26.146Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "openclaw/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "openclaw/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "dsh/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:53.498Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.856Z",
+  "contentReviewFlags": []
+}

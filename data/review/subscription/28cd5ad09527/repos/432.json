@@ -1,0 +1,110 @@
+{
+  "full_name": "Relistencode/dsh-extension-hub",
+  "originalPosition": 329,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-extension-hub"
+  ],
+  "manualNote": null,
+  "ordinal": 432,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:10.938Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "38433e779dd62918b301188c23fe0bc3ca0787299f48634d52844a614278cb07",
+      "url": "https://github.com/Relistencode/dsh-extension-hub/blob/ef7021ce3263f85e7ac981e095d1ba1370529ca6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-extension-hub",
+          "command": "dsh plugin --profile web add dsh-extension-hub",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-extension-hub@0.2.19",
+          "command": "dsh plugin --profile web add dsh-extension-hub@0.2.19",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3843772d2a4e266c3d53ce67d9eb09d37960128be7398bb4e5d572a1d938475b",
+      "url": "https://github.com/Relistencode/dsh-extension-hub/blob/ef7021ce3263f85e7ac981e095d1ba1370529ca6/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-extension-hub",
+          "command": "dsh plugin --profile web add dsh-extension-hub",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-extension-hub@0.2.19",
+          "command": "dsh plugin --profile web add dsh-extension-hub@0.2.19",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-extension-hub",
+      "version": "0.2.19",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Relistencode/dsh-extension-hub",
+        "commit": "ef7021ce3263f85e7ac981e095d1ba1370529ca6"
+      },
+      "manifestSha256": "8f6336a56e21b59dff16f714efb4796101af3b162e69ef170795dd4f6d5d261d",
+      "manifestUrl": "https://github.com/Relistencode/dsh-extension-hub/blob/ef7021ce3263f85e7ac981e095d1ba1370529ca6/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-extension-hub",
+      "origin": "npm",
+      "name": "dsh-extension-hub",
+      "version": "0.2.19",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9b6658b617ecdb7e7fdfee778abd9cf09b52c0a17b0e48781532232b5c8a314a"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-extension-hub",
+      "version": "0.2.19",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-extension-hub@0.2.19",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Relistencode/dsh-extension-hub",
+    "commit": "ef7021ce3263f85e7ac981e095d1ba1370529ca6",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:21.493Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:23.429Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,93 @@
+{
+  "full_name": "btspoony/mstar-harness",
+  "originalPosition": 187,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@mstar-harness/dsh"
+  ],
+  "manualNote": null,
+  "ordinal": 334,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:01.490Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b1fb176ed720423ed2020164ececc701454e4ef54cb7c0af82990312dddd9404",
+      "url": "https://github.com/btspoony/mstar-harness/blob/9b151bda4f4301e5ce7d92db94c44db8801432ae/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mstar-harness/dsh",
+          "command": "dsh plugin --profile web add @mstar-harness/dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "a75d5738d22d5c31566494b661a270cce0a3bdbee9e023adf28b2c30a700c581",
+      "url": "https://github.com/btspoony/mstar-harness/blob/9b151bda4f4301e5ce7d92db94c44db8801432ae/README_CN.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mstar-harness/dsh",
+          "command": "dsh plugin --profile web add @mstar-harness/dsh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mstar-harness/dsh",
+      "version": "4.0.1",
+      "path": "packages/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/btspoony/mstar-harness",
+        "commit": "9b151bda4f4301e5ce7d92db94c44db8801432ae",
+        "path": "packages/dsh"
+      },
+      "manifestSha256": "8f99a93350af79ff5457c3f5f274e0728ef2f75765fe836bf21210c2c87d38dc",
+      "manifestUrl": "https://github.com/btspoony/mstar-harness/blob/9b151bda4f4301e5ce7d92db94c44db8801432ae/packages/dsh/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@mstar-harness/dsh",
+      "origin": "npm",
+      "name": "@mstar-harness/dsh",
+      "version": "4.0.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "92f9d75732afa5ca87cbb31f30455a37421c1abdb36494a735f208ad579bc12d"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@mstar-harness/dsh",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/btspoony/mstar-harness",
+    "commit": "9b151bda4f4301e5ce7d92db94c44db8801432ae",
+    "releaseTags": 128,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:23.463Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:16.128Z",
+  "contentReviewFlags": []
+}

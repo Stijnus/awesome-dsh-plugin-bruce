@@ -1,0 +1,86 @@
+{
+  "full_name": "ZSeven-W/dsh-openpencil",
+  "originalPosition": 83,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@zseven-w/dsh-openpencil@next"
+  ],
+  "manualNote": null,
+  "ordinal": 249,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:47.666Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7553926684ef15b18745e139b941f4fa6c4e4ce46c5b7778f999a6e480ecd59c",
+      "url": "https://github.com/ZSeven-W/dsh-openpencil/blob/34cf7b45ed10fc7de43c3ccb30406e6c40b449ae/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-openpencil@next",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-openpencil@next",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "067d9e4452fe24a05a82f7a8d12260ae31f058d3ac5537c0cf1ba6749f67427d",
+      "url": "https://github.com/ZSeven-W/dsh-openpencil/blob/34cf7b45ed10fc7de43c3ccb30406e6c40b449ae/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-openpencil@next",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-openpencil@next",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zseven-w/dsh-openpencil",
+      "version": "0.1.0-rc.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZSeven-W/dsh-openpencil",
+        "commit": "34cf7b45ed10fc7de43c3ccb30406e6c40b449ae"
+      },
+      "manifestSha256": "688f666e48bb981971c7aeca1f8fd878195c92bcfdcba8499731fdbbd78f870a",
+      "manifestUrl": "https://github.com/ZSeven-W/dsh-openpencil/blob/34cf7b45ed10fc7de43c3ccb30406e6c40b449ae/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zseven-w/dsh-openpencil@next",
+      "origin": "npm",
+      "name": "@zseven-w/dsh-openpencil",
+      "version": "0.1.0-rc.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "73177c80187bbb4ab21f8b1a4fc2191abb5d45617e3bee13d7bbce652b26f50d"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZSeven-W/dsh-openpencil",
+    "commit": "34cf7b45ed10fc7de43c3ccb30406e6c40b449ae",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:57.355Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.609Z",
+  "contentReviewFlags": []
+}

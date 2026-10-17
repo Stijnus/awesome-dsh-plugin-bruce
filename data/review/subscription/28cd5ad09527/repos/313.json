@@ -1,0 +1,72 @@
+{
+  "full_name": "cocofhu/anime-find",
+  "originalPosition": 158,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@cocofhu/anime-find"
+  ],
+  "manualNote": null,
+  "ordinal": 313,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:07.934Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0539f7e7d45143e64363d1743c680904999c89d1a3d07c07fb341b4b209f3125",
+      "url": "https://github.com/cocofhu/anime-find/blob/841cdfa8aebf87c90f0d5a44a4a95710f1cdf493/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cocofhu/anime-find",
+          "command": "dsh plugin --profile web add @cocofhu/anime-find",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@cocofhu/anime-find",
+      "version": "0.1.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cocofhu/anime-find",
+        "commit": "841cdfa8aebf87c90f0d5a44a4a95710f1cdf493"
+      },
+      "manifestSha256": "12161c5a4cbc2ab223b24f4d401bd0cc8919648b090f9749a81d1bdb2de6db91",
+      "manifestUrl": "https://github.com/cocofhu/anime-find/blob/841cdfa8aebf87c90f0d5a44a4a95710f1cdf493/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@cocofhu/anime-find",
+      "origin": "npm",
+      "name": "@cocofhu/anime-find",
+      "version": "0.1.12",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3c4e8818df981bde823131c2dd803c634d6b7e655822ae375124e0f8dbc9c914"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cocofhu/anime-find",
+    "commit": "841cdfa8aebf87c90f0d5a44a4a95710f1cdf493",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:15.910Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:13.414Z",
+  "contentReviewFlags": []
+}

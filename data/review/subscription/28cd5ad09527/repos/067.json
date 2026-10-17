@@ -1,0 +1,89 @@
+{
+  "full_name": "pk14742952-AD/dsh-host-rsi",
+  "originalPosition": 307,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 67,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:57.487Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "34d7c6341df8d7ab6943ee0373f0c39bc6f40634db97eb58b80fb85479ae5d4d",
+      "url": "https://github.com/pk14742952-AD/dsh-host-rsi/blob/57d1a595e6cb6a0881ecc3e406a2962ce1d02253/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/pk14742952-AD/dsh-host-rsi",
+          "command": "dsh plugin add github:pk14742952-AD/dsh-host-rsi",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/pk14742952-AD/dsh-host-rsi/blob/57d1a595e6cb6a0881ecc3e406a2962ce1d02253/README.en.md",
+      "sha256": "469fec41f1a6b27d9ab7f87939513fdd5bc7644ed911c4b6aeb07db05f9408dd",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/pk14742952-AD/dsh-host-rsi",
+          "command": "dsh plugin add github:pk14742952-AD/dsh-host-rsi",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-host-rsi",
+      "version": "0.2.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/pk14742952-AD/dsh-host-rsi",
+        "commit": "57d1a595e6cb6a0881ecc3e406a2962ce1d02253"
+      },
+      "manifestSha256": "039f955b33a082705ccea3bd41925313cacd77013a54905519d094c490b758c4",
+      "manifestUrl": "https://github.com/pk14742952-AD/dsh-host-rsi/blob/57d1a595e6cb6a0881ecc3e406a2962ce1d02253/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/pk14742952-AD/dsh-host-rsi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pk14742952-AD/dsh-host-rsi",
+    "commit": "57d1a595e6cb6a0881ecc3e406a2962ce1d02253",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:05.772Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:50.924Z",
+  "coverageReviewedAt": "2026-10-17T17:12:05.269Z",
+  "contentReviewFlags": []
+}

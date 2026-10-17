@@ -1,0 +1,72 @@
+{
+  "full_name": "xgone/dsh-remote",
+  "originalPosition": 336,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@xgone/dsh-remote"
+  ],
+  "manualNote": null,
+  "ordinal": 437,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:18.448Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "176cad519f29e4fbcf9b9db5fbc7a43d2c475a49d8545afd4200b1c5f7fc96f9",
+      "url": "https://github.com/xgone/dsh-remote/blob/a20492361b7c1465524494143ab4a224ef580dbb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xgone/dsh-remote",
+          "command": "dsh plugin --profile web add @xgone/dsh-remote",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xgone/dsh-remote",
+      "version": "0.3.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xgone/dsh-remote",
+        "commit": "a20492361b7c1465524494143ab4a224ef580dbb"
+      },
+      "manifestSha256": "16f7ca46da25b60dceb3202322b0cf2e2539ee10c167f93d23718441c13b2b73",
+      "manifestUrl": "https://github.com/xgone/dsh-remote/blob/a20492361b7c1465524494143ab4a224ef580dbb/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@xgone/dsh-remote",
+      "origin": "npm",
+      "name": "@xgone/dsh-remote",
+      "version": "0.3.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8dfd03b3a784997379e0a3198c1a6f1ead431ec6a51abd1e948f53b805e2a0c6"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xgone/dsh-remote",
+    "commit": "a20492361b7c1465524494143ab4a224ef580dbb",
+    "releaseTags": 24,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:27.191Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:23.654Z",
+  "contentReviewFlags": []
+}

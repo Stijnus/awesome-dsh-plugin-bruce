@@ -1,0 +1,72 @@
+{
+  "full_name": "Jonah-Wu23/dsh-agy-safe",
+  "originalPosition": 565,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-agy-safe"
+  ],
+  "manualNote": null,
+  "ordinal": 584,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:40.812Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6ca8e087867215bc702ee31b2dc66087a0ee2dbf07fcc8bf7b21be3ba989d369",
+      "url": "https://github.com/Jonah-Wu23/dsh-agy-safe/blob/eff30a94a576bcae62f9c512452f14e9bcc52ded/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-agy-safe",
+          "command": "dsh plugin --profile web add dsh-agy-safe",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agy-safe",
+      "version": "0.1.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jonah-Wu23/dsh-agy-safe",
+        "commit": "eff30a94a576bcae62f9c512452f14e9bcc52ded"
+      },
+      "manifestSha256": "44b37cd35db57b7db35bf66db65e3f1c357977aaa912f06a5feee41c92313f34",
+      "manifestUrl": "https://github.com/Jonah-Wu23/dsh-agy-safe/blob/eff30a94a576bcae62f9c512452f14e9bcc52ded/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-agy-safe",
+      "origin": "npm",
+      "name": "dsh-agy-safe",
+      "version": "0.1.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "5cc07aac6498492d6c9855f1976dc32181efb194059751b591b847e8dc930a6b"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jonah-Wu23/dsh-agy-safe",
+    "commit": "eff30a94a576bcae62f9c512452f14e9bcc52ded",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:48.319Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.590Z",
+  "contentReviewFlags": []
+}

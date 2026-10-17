@@ -1,0 +1,79 @@
+{
+  "full_name": "AITabby/dockyard-dsh",
+  "originalPosition": 438,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/AITabby/dockyard-dsh"
+  ],
+  "manualNote": null,
+  "ordinal": 510,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:27.530Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b23236207c1129c235649ce871fcc4e8c5a89eb81b5ab50d992d630b6007f822",
+      "url": "https://github.com/AITabby/dockyard-dsh/blob/373d945fa52f7ebee6f2c5de6c8dc4315126d334/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AITabby/dockyard-dsh",
+          "command": "dsh plugin --profile web add github:AITabby/dockyard-dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "apps/macos/README.md",
+      "url": "https://github.com/AITabby/dockyard-dsh/blob/373d945fa52f7ebee6f2c5de6c8dc4315126d334/apps/macos/README.md",
+      "sha256": "22bb62a72ad014a0dcb4be12dca4ada15708c804d1b9caceb33ffb66f6574866",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dockyard-dsh/plugin",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AITabby/dockyard-dsh",
+        "commit": "373d945fa52f7ebee6f2c5de6c8dc4315126d334"
+      },
+      "manifestSha256": "1dd67bd39df6e1e16996906ee971b6acefd6f31fd969c4e38168b4ec4614eb67",
+      "manifestUrl": "https://github.com/AITabby/dockyard-dsh/blob/373d945fa52f7ebee6f2c5de6c8dc4315126d334/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AITabby/dockyard-dsh",
+    "commit": "373d945fa52f7ebee6f2c5de6c8dc4315126d334",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:35.692Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "apps/macos/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "apps/macos/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:11.994Z",
+  "coverageReviewedAt": "2026-10-17T17:12:29.883Z",
+  "contentReviewFlags": []
+}

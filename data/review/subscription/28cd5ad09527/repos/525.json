@@ -1,0 +1,146 @@
+{
+  "full_name": "HubaKing/dsh-community-plugins",
+  "originalPosition": 459,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/HubaKing/dsh-community-plugins",
+    "https://gitee.com/HubaKing/dsh-community-plugins.git",
+    "dsh-community-plugins"
+  ],
+  "manualNote": null,
+  "ordinal": 525,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:09:13.359Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "36db75ab513a372a655a92586a2b92b214ef24451e972b1e4614816de4f6d84f",
+      "url": "https://github.com/HubaKing/dsh-community-plugins/blob/6912b1b889d9b1dac88f05ba55351553360718cb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/HubaKing/dsh-community-plugins",
+          "command": "dsh plugin --profile web add github:HubaKing/dsh-community-plugins",
+          "profile": "web"
+        },
+        {
+          "install": "https://gitee.com/HubaKing/dsh-community-plugins.git",
+          "command": "dsh plugin --profile web add https://gitee.com/HubaKing/dsh-community-plugins.git",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-community-plugins",
+          "command": "dsh plugin add dsh-community-plugins",
+          "profile": "default"
+        },
+        {
+          "install": "@hubaking/dsh-community-plugins",
+          "command": "dsh plugin add @hubaking/dsh-community-plugins",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/lang/README_zh.md",
+      "sha256": "611950968c18b076bf423b31c480d77556d454d85e2eefb8f7bed753ef1582b4",
+      "url": "https://github.com/HubaKing/dsh-community-plugins/blob/6912b1b889d9b1dac88f05ba55351553360718cb/docs/lang/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/HubaKing/dsh-community-plugins",
+          "command": "dsh plugin --profile web add github:HubaKing/dsh-community-plugins",
+          "profile": "web"
+        },
+        {
+          "install": "https://gitee.com/HubaKing/dsh-community-plugins.git",
+          "command": "dsh plugin --profile web add https://gitee.com/HubaKing/dsh-community-plugins.git",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-community-plugins",
+          "command": "dsh plugin add dsh-community-plugins",
+          "profile": "default"
+        },
+        {
+          "install": "@hubaking/dsh-community-plugins",
+          "command": "dsh plugin add @hubaking/dsh-community-plugins",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@hubaking/dsh-community-plugins",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HubaKing/dsh-community-plugins",
+        "commit": "6912b1b889d9b1dac88f05ba55351553360718cb"
+      },
+      "manifestSha256": "143b08f452f4e91b8bdc82474bea85e0140ceff4711fe1ef8a720ef1d62bc525",
+      "manifestUrl": "https://github.com/HubaKing/dsh-community-plugins/blob/6912b1b889d9b1dac88f05ba55351553360718cb/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://gitee.com/HubaKing/dsh-community-plugins.git",
+      "origin": "git_target",
+      "path": "",
+      "commit": "77422f56763d54a9d9d4951b2872642b9bfd42d5",
+      "name": "@hubaking/dsh-community-plugins",
+      "version": "0.5.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "dsh-community-plugins",
+      "origin": "npm",
+      "name": "dsh-community-plugins",
+      "version": "0.1.5",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f9ae2bef73ea0d9fff5bceee4e24522955fdf6abcd911154a4d975c6aab2a4d0"
+    },
+    {
+      "target": "@hubaking/dsh-community-plugins",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hubaking/dsh-community-plugins",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HubaKing/dsh-community-plugins",
+    "commit": "6912b1b889d9b1dac88f05ba55351553360718cb",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:09:27.329Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/lang/README_zh.md",
+      "httpStatus": 200
+    }
+  ],
+  "coverageReviewedAt": "2026-10-17T17:12:30.975Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,78 @@
+{
+  "full_name": "bobleer/dsh-acp-for-bitfun",
+  "originalPosition": 585,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/bobleer/dsh-acp-for-bitfun"
+  ],
+  "manualNote": null,
+  "ordinal": 592,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:51.902Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e1d519a41ad0f696e685f6cee2bb1104771c334a551408171377652e70d9ba69",
+      "url": "https://github.com/bobleer/dsh-acp-for-bitfun/blob/8dedce1ee1a463cfb21e2ac0d8518a8d3c67c5aa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-acp-for-bitfun",
+          "command": "dsh plugin --profile web add dsh-acp-for-bitfun",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-acp-for-bitfun",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bobleer/dsh-acp-for-bitfun",
+        "commit": "8dedce1ee1a463cfb21e2ac0d8518a8d3c67c5aa"
+      },
+      "manifestSha256": "cb1a20a6ff6d20be0b92346188e12baefd118e5fa5f9943224155b5ee8e423b8",
+      "manifestUrl": "https://github.com/bobleer/dsh-acp-for-bitfun/blob/8dedce1ee1a463cfb21e2ac0d8518a8d3c67c5aa/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-acp-for-bitfun",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/bobleer/dsh-acp-for-bitfun",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-acp-for-bitfun",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bobleer/dsh-acp-for-bitfun",
+    "commit": "8dedce1ee1a463cfb21e2ac0d8518a8d3c67c5aa",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:59.951Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.863Z",
+  "contentReviewFlags": []
+}

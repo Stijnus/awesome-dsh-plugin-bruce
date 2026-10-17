@@ -1,0 +1,86 @@
+{
+  "full_name": "labmimors/dsh-mcp-lens",
+  "originalPosition": 531,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-mcp-lens@0.1.0-rc.9"
+  ],
+  "manualNote": null,
+  "ordinal": 566,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:04.281Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5f41b56a53be046edd9a7c382f5e16b67a5af355631fcd9ee2ace74c3f51431f",
+      "url": "https://github.com/labmimors/dsh-mcp-lens/blob/53355f9b64c459a512fa264e0068b312ecc222e6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp-lens@0.1.0-rc.9",
+          "command": "dsh plugin --profile web add dsh-mcp-lens@0.1.0-rc.9",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "c2b5ebc4bd88322189230d0168912c76effccbfe1cdbe47c8c2b7abdd20cfab4",
+      "url": "https://github.com/labmimors/dsh-mcp-lens/blob/53355f9b64c459a512fa264e0068b312ecc222e6/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp-lens@0.1.0-rc.9",
+          "command": "dsh plugin --profile web add dsh-mcp-lens@0.1.0-rc.9",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mcp-lens",
+      "version": "0.1.0-rc.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/labmimors/dsh-mcp-lens",
+        "commit": "53355f9b64c459a512fa264e0068b312ecc222e6"
+      },
+      "manifestSha256": "4abbe409973431bb76773abc7cbfb2c33c4150410e02981bfec00c159bc32bb9",
+      "manifestUrl": "https://github.com/labmimors/dsh-mcp-lens/blob/53355f9b64c459a512fa264e0068b312ecc222e6/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-mcp-lens@0.1.0-rc.9",
+      "origin": "npm",
+      "name": "dsh-mcp-lens",
+      "version": "0.1.0-rc.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "164d10d237771664d15866ac67df4178072649b717fc10439afd9902e7333598"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/labmimors/dsh-mcp-lens",
+    "commit": "53355f9b64c459a512fa264e0068b312ecc222e6",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:13.962Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.285Z",
+  "contentReviewFlags": []
+}

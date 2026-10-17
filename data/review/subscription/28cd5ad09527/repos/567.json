@@ -1,0 +1,97 @@
+{
+  "full_name": "WNJXYK/dsh-codex-oauth",
+  "originalPosition": 533,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@wnjxyk/dsh-codex-oauth@latest",
+    "https://github.com/WNJXYK/dsh-codex-oauth"
+  ],
+  "manualNote": null,
+  "ordinal": 567,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:08.995Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f5c290832dceea022de136f7eb5db5fca92051a320f4330087bf6b93ac01626",
+      "url": "https://github.com/WNJXYK/dsh-codex-oauth/blob/06bc69cea6e92f86c59c50d41d785303d38bf51d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wnjxyk/dsh-codex-oauth@latest",
+          "command": "dsh plugin --profile web add -w @wnjxyk/dsh-codex-oauth@latest",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/WNJXYK/dsh-codex-oauth",
+          "command": "dsh plugin --profile web add -w github:WNJXYK/dsh-codex-oauth",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "eff8ce92ddfcb8a4bf8305b6871346c59aab3644495741335d5dfab9db871f31",
+      "url": "https://github.com/WNJXYK/dsh-codex-oauth/blob/06bc69cea6e92f86c59c50d41d785303d38bf51d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wnjxyk/dsh-codex-oauth@latest",
+          "command": "dsh plugin --profile web add -w @wnjxyk/dsh-codex-oauth@latest",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/WNJXYK/dsh-codex-oauth",
+          "command": "dsh plugin --profile web add -w github:WNJXYK/dsh-codex-oauth",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@wnjxyk/dsh-codex-oauth",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WNJXYK/dsh-codex-oauth",
+        "commit": "06bc69cea6e92f86c59c50d41d785303d38bf51d"
+      },
+      "manifestSha256": "4a5ba71fc8ed29cb1ae63050cd2640c693983475ad417a3ef608f2b7402a71ab",
+      "manifestUrl": "https://github.com/WNJXYK/dsh-codex-oauth/blob/06bc69cea6e92f86c59c50d41d785303d38bf51d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@wnjxyk/dsh-codex-oauth@latest",
+      "origin": "npm",
+      "name": "@wnjxyk/dsh-codex-oauth",
+      "version": "0.4.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "4172201952eb2e13152fa8bf999b6beca156bf5ac85ed66bc69f5096b82645fe"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WNJXYK/dsh-codex-oauth",
+    "commit": "06bc69cea6e92f86c59c50d41d785303d38bf51d",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:18.795Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.286Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,258 @@
+{
+  "full_name": "zhu1090093659/dsh-trading",
+  "originalPosition": 106,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@dshtrading/base"
+  ],
+  "manualNote": null,
+  "ordinal": 269,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:20.978Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5a50555b454e28d29ce0a6a85230c4415e5817ab98a8e04d52f582eb8034a54e",
+      "url": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dshtrading/base",
+          "command": "dsh plugin --profile trading-web add @dshtrading/base @dshtrading/crypto @dshtrading/us",
+          "profile": "trading-web"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "b3603999f3452fc8d9d0c6639c132863eb500dac7c348bdf1668030b208b1dc3",
+      "url": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dshtrading/base",
+          "command": "dsh plugin --profile trading-web add @dshtrading/base @dshtrading/crypto @dshtrading/us",
+          "profile": "trading-web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/docs/README.md",
+      "sha256": "ab9cace6d4e66e2ae08c270d79229840473aad9a8e154103b1c0c0e56d512a9a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dshtrading/all",
+      "version": "0.6.1",
+      "path": "packages/all",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-trading",
+        "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+        "path": "packages/all"
+      },
+      "manifestSha256": "5c788fda0b7dc440640df91f4edbef26c54988d6f00175d10669074af3a08fc7",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/packages/all/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dshtrading/base",
+      "version": "0.6.1",
+      "path": "packages/base",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-trading",
+        "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+        "path": "packages/base"
+      },
+      "manifestSha256": "50d8f79d2f04fd660f642ba004fd80158b6aeaba2547382b7c858d0ff68a8bdc",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/packages/base/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dshtrading/bot-api",
+      "version": "0.6.1",
+      "path": "packages/bot-api",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-trading",
+        "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+        "path": "packages/bot-api"
+      },
+      "manifestSha256": "03422d7d800d40a178300d28f3d66fe4c7e59ab4daa38036116f332828842193",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/packages/bot-api/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dshtrading/cn",
+      "version": "0.6.1",
+      "path": "packages/cn",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-trading",
+        "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+        "path": "packages/cn"
+      },
+      "manifestSha256": "c9d8a44cfa7266f6fe20cc7db1378f396398bb4ba5293d0afef890a997199b2b",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/packages/cn/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dshtrading/crypto",
+      "version": "0.6.1",
+      "path": "packages/crypto",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-trading",
+        "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+        "path": "packages/crypto"
+      },
+      "manifestSha256": "6421cfa5ea629c3031437c86a5ec47644469847198e76a64d32869c8f0fd9102",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/packages/crypto/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dshtrading/futures",
+      "version": "0.6.1",
+      "path": "packages/futures",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-trading",
+        "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+        "path": "packages/futures"
+      },
+      "manifestSha256": "37e806abaf67903c5cd31ec201def50d0f0fdfc0079abd3865b2acdd17635347",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/packages/futures/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dshtrading/global",
+      "version": "0.6.1",
+      "path": "packages/global",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-trading",
+        "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+        "path": "packages/global"
+      },
+      "manifestSha256": "f0ec622b924030b530caae5c6ef5448a26ef6ba1752083fb60b77c438e4af6bc",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/packages/global/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dshtrading/gui",
+      "version": "0.6.1",
+      "path": "packages/gui",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-trading",
+        "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+        "path": "packages/gui"
+      },
+      "manifestSha256": "157e1a897fda831fe137bc91df0ce92964009e8f1405f5c03efd5784c254e2a2",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/packages/gui/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dshtrading/hk",
+      "version": "0.6.1",
+      "path": "packages/hk",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-trading",
+        "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+        "path": "packages/hk"
+      },
+      "manifestSha256": "4f92acd5a278f76c9513c4829ee6c9d5209834ce695409dbe3fb95d22de28b98",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/packages/hk/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dshtrading/us",
+      "version": "0.6.1",
+      "path": "packages/us",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-trading",
+        "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+        "path": "packages/us"
+      },
+      "manifestSha256": "5117eda0ca49332932a752772f50619f4ed3b6006399f3e502d1d632ff9534e7",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-trading/blob/0d1f868578ae9169b593ff6a8c457f7a186a6fbb/packages/us/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@dshtrading/base",
+      "origin": "npm",
+      "name": "@dshtrading/base",
+      "version": "0.6.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "da4e46acadc4f7580c9b07f3f44a27ab3a83b8c42ab4870fd908e87fad522cb1"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhu1090093659/dsh-trading",
+    "commit": "0d1f868578ae9169b593ff6a8c457f7a186a6fbb",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:01.646Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:58.358Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.525Z",
+  "contentReviewFlags": []
+}

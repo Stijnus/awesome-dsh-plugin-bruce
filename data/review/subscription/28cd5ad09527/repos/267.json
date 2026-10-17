@@ -1,0 +1,108 @@
+{
+  "full_name": "ZSeven-W/dsh-crew",
+  "originalPosition": 103,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@zseven-w/dsh-crew@latest",
+    "dsh-crew"
+  ],
+  "manualNote": null,
+  "ordinal": 267,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:18.962Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "afa3858790452a4704f3bac98fc4cabd224e373e11ac0cd528afd19f33c093b5",
+      "url": "https://github.com/ZSeven-W/dsh-crew/blob/b0ddd92eeccbd7623c5a5924f0eb61005a2038ec/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-crew@latest",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-crew@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-crew",
+          "command": "dsh plugin add dsh-crew",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "61c961f0619addb3334f3276552619504b7285d6e931fcca803a9f4533b7f2b0",
+      "url": "https://github.com/ZSeven-W/dsh-crew/blob/b0ddd92eeccbd7623c5a5924f0eb61005a2038ec/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-crew@latest",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-crew@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-crew",
+          "command": "dsh plugin add dsh-crew",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zseven-w/dsh-crew",
+      "version": "0.1.0-rc.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZSeven-W/dsh-crew",
+        "commit": "b0ddd92eeccbd7623c5a5924f0eb61005a2038ec"
+      },
+      "manifestSha256": "c9fd9dc7dda7d091f0fd32e698ed2143022ad7cac129cac5344212d14e63ad80",
+      "manifestUrl": "https://github.com/ZSeven-W/dsh-crew/blob/b0ddd92eeccbd7623c5a5924f0eb61005a2038ec/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zseven-w/dsh-crew@latest",
+      "origin": "npm",
+      "name": "@zseven-w/dsh-crew",
+      "version": "0.1.0-rc.14",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "848436c58e092b90cbabb38f3bc6094a72f6e7f1014fd97e7e1df04bc7733135"
+    },
+    {
+      "target": "dsh-crew",
+      "origin": "npm",
+      "name": "dsh-crew",
+      "version": "0.12.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "61e52576aec55e3be7711344f4137f158003bb1785026f32e99079de9a7a8497"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZSeven-W/dsh-crew",
+    "commit": "b0ddd92eeccbd7623c5a5924f0eb61005a2038ec",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:29.113Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:11.186Z",
+  "contentReviewFlags": []
+}

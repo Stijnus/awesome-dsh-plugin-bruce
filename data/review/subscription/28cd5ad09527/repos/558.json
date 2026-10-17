@@ -1,0 +1,130 @@
+{
+  "full_name": "PensiveFei/deep-read-summarize",
+  "originalPosition": 516,
+  "inputMode": "command",
+  "mappedTargets": [
+    "deep-read-summarize@0.3.14"
+  ],
+  "manualNote": null,
+  "ordinal": 558,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:51.846Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "52dc18792036b3c52bfb672d262c2aa375299956ce419efd711c93307131f14b",
+      "url": "https://github.com/PensiveFei/deep-read-summarize/blob/7becfd396d69b39c7fa0831dd8a9a0c519f4428c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deep-read-summarize",
+      "version": "0.3.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PensiveFei/deep-read-summarize",
+        "commit": "7becfd396d69b39c7fa0831dd8a9a0c519f4428c"
+      },
+      "manifestSha256": "af3ee76ca2b6e442021363e2b8be5fe1458ff9074af1faf4d01af5d2f5d0f37e",
+      "manifestUrl": "https://github.com/PensiveFei/deep-read-summarize/blob/7becfd396d69b39c7fa0831dd8a9a0c519f4428c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "deep-read-summarize",
+        "versions": [
+          {
+            "version": "0.3.14",
+            "publishTimestamp": 1792247013,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PensiveFei/deep-read-summarize",
+              "commit": "7becfd396d69b39c7fa0831dd8a9a0c519f4428c"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "deep-read-summarize@0.3.14",
+      "origin": "npm",
+      "name": "deep-read-summarize",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "deep-read-summarize",
+        "title": "deep-read-summarize",
+        "description": "Deep reading & summarization for DSH: books/papers/videos/web → structured Markdown notes (Obsidian / Logseq / static sites). Plugin parsers, MapReduce deep-read, JSON Schema-constrained sub-tasks.",
+        "repository": {
+          "url": "https://github.com/PensiveFei/deep-read-summarize"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "workflow",
+            "summarization",
+            "deep-read",
+            "obsidian",
+            "markdown",
+            "llm",
+            "subagent",
+            "mapreduce",
+            "parsers"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.14",
+            "publishTimestamp": 1792247123,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fc7a9df8ab379beeb3ced793e7c652034f659a3206204f633532179eb78d1c25",
+      "evidence": [
+        {
+          "name": "deep-read-summarize",
+          "version": "0.3.14",
+          "tarball": "https://registry.npmjs.org/deep-read-summarize/-/deep-read-summarize-0.3.14.tgz",
+          "integrity": "sha512-lkeOTPGJ/XPhgzFxdtlJ65OVVwCzPut/gErsvIVHhzbMEEiH7mFAtLPixulxv/F/koBmkNZoDoexZs315JNPhg=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "deep-read-summarize@0.3.14",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PensiveFei/deep-read-summarize",
+    "commit": "7becfd396d69b39c7fa0831dd8a9a0c519f4428c",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:05:00.629Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.773Z",
+  "contentReviewFlags": []
+}

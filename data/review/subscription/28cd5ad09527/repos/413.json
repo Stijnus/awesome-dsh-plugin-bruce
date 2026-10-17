@@ -1,0 +1,97 @@
+{
+  "full_name": "kw78/dsh-office-tools",
+  "originalPosition": 303,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-office-tools",
+    "https://github.com/kw78/dsh-office-tools"
+  ],
+  "manualNote": null,
+  "ordinal": 413,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:41.117Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "27f0bad088b29510836d8671a1c4db907749bd427ed04d3b2dd51a658808a444",
+      "url": "https://github.com/kw78/dsh-office-tools/blob/6c9faa36409961226623480c0ba6ef8fd6313beb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-office-tools",
+          "command": "dsh plugin --profile web add dsh-office-tools",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/kw78/dsh-office-tools",
+          "command": "dsh plugin --profile web add github:kw78/dsh-office-tools",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "fd85346f8a8540263614c516a084f2ae361c23cb99dd46a8b9f11458101828e3",
+      "url": "https://github.com/kw78/dsh-office-tools/blob/6c9faa36409961226623480c0ba6ef8fd6313beb/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-office-tools",
+          "command": "dsh plugin --profile web add dsh-office-tools",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/kw78/dsh-office-tools",
+          "command": "dsh plugin --profile web add github:kw78/dsh-office-tools",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-office-tools",
+      "version": "1.0.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kw78/dsh-office-tools",
+        "commit": "6c9faa36409961226623480c0ba6ef8fd6313beb"
+      },
+      "manifestSha256": "4e88fbd998295a709d4bef87533302a4ea50b5d56b70fbc97e4fed15a890f448",
+      "manifestUrl": "https://github.com/kw78/dsh-office-tools/blob/6c9faa36409961226623480c0ba6ef8fd6313beb/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-office-tools",
+      "origin": "npm",
+      "name": "dsh-office-tools",
+      "version": "1.0.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "b650a4fbdab1d40801ffba0eadfabe20d259546ce2c87c9e4b406fd92b0ceda4"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kw78/dsh-office-tools",
+    "commit": "6c9faa36409961226623480c0ba6ef8fd6313beb",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:51.195Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:21.469Z",
+  "contentReviewFlags": []
+}

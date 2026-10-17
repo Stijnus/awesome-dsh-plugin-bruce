@@ -1,0 +1,208 @@
+{
+  "full_name": "elysia395/dsh-wallpaper-engine",
+  "originalPosition": 62,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/elysia395/dsh-wallpaper-engine"
+  ],
+  "manualNote": null,
+  "ordinal": 232,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:14.726Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2f4d537b18cdf96e1c1c03435b20a0e2d081db3b3e9c7b14445c5266f819413f",
+      "url": "https://github.com/elysia395/dsh-wallpaper-engine/blob/01fbb8b8e66fd7e405e9c878d18dbd456187f111/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-wallpaper-engine",
+          "command": "dsh plugin --profile web add dsh-plugin-wallpaper-engine",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-wallpaper-engine",
+          "command": "dsh plugin --profile desktop add dsh-plugin-wallpaper-engine",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/elysia395/dsh-wallpaper-engine/blob/01fbb8b8e66fd7e405e9c878d18dbd456187f111/README.en.md",
+      "sha256": "4aab5f0993f34ce25a2914fbdbd0c91e13124a21f287a5955737ba280720e8cb",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-wallpaper-engine",
+          "command": "dsh plugin --profile web add dsh-plugin-wallpaper-engine",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.beginner.md",
+      "url": "https://github.com/elysia395/dsh-wallpaper-engine/blob/01fbb8b8e66fd7e405e9c878d18dbd456187f111/README.beginner.md",
+      "sha256": "69ce1a66c82b3cdbaf98491c036381489ad1fcf578c0911656dfff73cb69398f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-wallpaper-engine",
+          "command": "dsh plugin --profile web add dsh-plugin-wallpaper-engine",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "assets/about/README.md",
+      "url": "https://github.com/elysia395/dsh-wallpaper-engine/blob/01fbb8b8e66fd7e405e9c878d18dbd456187f111/assets/about/README.md",
+      "sha256": "c431c1181ceb669386177390819713dd3ae7cc358a5bb759d6a4e6933987e760",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-wallpaper-engine",
+      "version": "1.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/elysia395/dsh-wallpaper-engine",
+        "commit": "01fbb8b8e66fd7e405e9c878d18dbd456187f111"
+      },
+      "manifestSha256": "08416f6a86ed0012827cc9981acdd0f54b1b61aa9844d3c8687ce94c50eb944f",
+      "manifestUrl": "https://github.com/elysia395/dsh-wallpaper-engine/blob/01fbb8b8e66fd7e405e9c878d18dbd456187f111/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-wallpaper-engine",
+        "versions": [
+          {
+            "version": "1.3.3",
+            "publishTimestamp": 1792052566,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/elysia395/dsh-wallpaper-engine",
+              "commit": "01fbb8b8e66fd7e405e9c878d18dbd456187f111"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-wallpaper-engine",
+      "origin": "npm",
+      "name": "dsh-plugin-wallpaper-engine",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-wallpaper-engine",
+        "title": "dsh-plugin-wallpaper-engine",
+        "description": "Wallpaper Engine backgrounds for the DSH web GUI: render your local Wallpaper Engine wallpapers behind the chat — Scene and Web in real time through the bundled WebWallGL engine, Video played directly — with iOS-style liquid glass, adjustable blur/scrim/border/opacity, custom typography and caret, and a liquid-glass makeover of the whole settings window. Prerequisite: DeepSeek Harness kernel >= 0.1.5 (0.1.5-rc.1+ — the official desktop line and DSH Desktop >= 2.0.7 both qualify). No version restriction on dsh-better-sidebar.",
+        "repository": {
+          "url": "https://github.com/elysia395/dsh-wallpaper-engine"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "wallpaper",
+            "wallpaper-engine",
+            "theme",
+            "background"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.3.3",
+            "publishTimestamp": 1792056438,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4cf71676ea94a5a18295eb2ff9179f76bff04a6500c18ac31a96872a3fed3695",
+      "evidence": [
+        {
+          "name": "dsh-plugin-wallpaper-engine",
+          "version": "1.3.3",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-wallpaper-engine/-/dsh-plugin-wallpaper-engine-1.3.3.tgz",
+          "integrity": "sha512-HdG+qaNqNV8R9357ehfmBi6jNCjaEgeZsWvIMidItT/Ba+O1LWVonEUVdQHBHdtrew4zlCw6sL4hQaqzEBhFgg=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-plugin-wallpaper-engine",
+          "code": "metadata_warning",
+          "status": "warning",
+          "reason": "图标超过 32 KiB 内联上限，已省略"
+        }
+      ],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/elysia395/dsh-wallpaper-engine",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-wallpaper-engine",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/elysia395/dsh-wallpaper-engine",
+    "commit": "01fbb8b8e66fd7e405e9c878d18dbd456187f111",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:31.161Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.beginner.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.beginner.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "assets/about/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:56.574Z",
+  "coverageReviewedAt": "2026-10-17T17:12:10.395Z",
+  "contentReviewFlags": []
+}

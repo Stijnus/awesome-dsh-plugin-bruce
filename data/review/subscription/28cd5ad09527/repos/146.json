@@ -1,0 +1,90 @@
+{
+  "full_name": "MichengAI/dsh-simplify",
+  "originalPosition": 571,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:33.454Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1899b370241e6c9263c077a7d06f43bd09f155d6f8de0416baf717198924d02b",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/7b7907bba530b830c05fe974401b92659baa8930/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.1",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.1 --registry=https://registry.npmjs.org/. Then run dsh --profile web --dump-config, confirm the configuration includes",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "3edc64fd1da7448127246601d4d4f5215cddcb64e671c40f07d18bed703d265d",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/7b7907bba530b830c05fe974401b92659baa8930/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.1",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.1 --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-simplify",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-simplify",
+        "commit": "7b7907bba530b830c05fe974401b92659baa8930"
+      },
+      "manifestSha256": "6319deb2ff679df313ba3ad418fb7c59f78d8c72af45a2e7c9e784ae2ae0e4d0",
+      "manifestUrl": "https://github.com/MichengAI/dsh-simplify/blob/7b7907bba530b830c05fe974401b92659baa8930/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@michengai/dsh-simplify@1.0.1",
+      "origin": "npm",
+      "name": "@michengai/dsh-simplify",
+      "version": "1.0.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "996480f45cf57c6e99054310b1c0dc6ab80194e36da37719f7dc565fba3c3dee"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@michengai/dsh-simplify@1.0.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-simplify",
+    "commit": "7b7907bba530b830c05fe974401b92659baa8930",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:42.547Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.923Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,61 @@
+{
+  "full_name": "eri64/dsh-claude-ux",
+  "originalPosition": 296,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/eri64/dsh-claude-ux"
+  ],
+  "manualNote": null,
+  "ordinal": 407,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:29.512Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fc07a56a3e1936053c28522cb3523434623363afb7feb46453e789906421b6bf",
+      "url": "https://github.com/eri64/dsh-claude-ux/blob/23f565aee7ffb55924ee6e36e30259f06a67877c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/eri64/dsh-claude-ux",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:eri64/dsh-claude-ux",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-claude-ux",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/eri64/dsh-claude-ux",
+        "commit": "23f565aee7ffb55924ee6e36e30259f06a67877c"
+      },
+      "manifestSha256": "a30244d25bbcd4d45e51422062a4626e1ffebb43e7be971206e8fe5d89d7d7f0",
+      "manifestUrl": "https://github.com/eri64/dsh-claude-ux/blob/23f565aee7ffb55924ee6e36e30259f06a67877c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/eri64/dsh-claude-ux",
+    "commit": "23f565aee7ffb55924ee6e36e30259f06a67877c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:37.670Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:21.089Z",
+  "contentReviewFlags": []
+}

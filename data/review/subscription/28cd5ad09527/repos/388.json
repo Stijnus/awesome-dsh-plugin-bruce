@@ -1,0 +1,95 @@
+{
+  "full_name": "qkycir-123/dsh-run2skill",
+  "originalPosition": 268,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-run2skill"
+  ],
+  "manualNote": null,
+  "ordinal": 388,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:17.035Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "24c61b7fa44a365aa54423a64bbd39fdc35696dc8ac4d8c87bcdf72274da11fa",
+      "url": "https://github.com/qkycir-123/dsh-run2skill/blob/cfd288ebd0839aa82e65b118d10a85b6b1b61f35/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-run2skill",
+          "command": "dsh plugin --profile desktop add dsh-run2skill",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-run2skill",
+          "command": "dsh plugin --profile web add dsh-run2skill",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "probes/README.md",
+      "url": "https://github.com/qkycir-123/dsh-run2skill/blob/cfd288ebd0839aa82e65b118d10a85b6b1b61f35/probes/README.md",
+      "sha256": "07e68cfc86e769df56fb65b3bd36b23eb7aa9ecd699ab4e965f6464145abfaad",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-run2skill",
+      "version": "0.5.0-alpha.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/qkycir-123/dsh-run2skill",
+        "commit": "cfd288ebd0839aa82e65b118d10a85b6b1b61f35"
+      },
+      "manifestSha256": "1ede21ba4d6820dea4f8ff8805ad7a2930405220940e842074a5ef035bf3187f",
+      "manifestUrl": "https://github.com/qkycir-123/dsh-run2skill/blob/cfd288ebd0839aa82e65b118d10a85b6b1b61f35/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-run2skill",
+      "origin": "npm",
+      "name": "dsh-run2skill",
+      "version": "0.5.0-alpha.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f244618fb47ceaef10a3350f31c066555d201de21b55ab839f3c2fca084e9dca"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/qkycir-123/dsh-run2skill",
+    "commit": "cfd288ebd0839aa82e65b118d10a85b6b1b61f35",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:25.560Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "probes/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "probes/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:06.592Z",
+  "coverageReviewedAt": "2026-10-17T17:12:20.053Z",
+  "contentReviewFlags": []
+}

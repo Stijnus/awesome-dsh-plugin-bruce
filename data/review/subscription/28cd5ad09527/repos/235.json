@@ -1,0 +1,115 @@
+{
+  "full_name": "flymysql/dsh-remote",
+  "originalPosition": 65,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-remote",
+    "dsh-remote"
+  ],
+  "manualNote": null,
+  "ordinal": 235,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:19.467Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7ec6aec7d864645899a7f0301af9a03c47350c785cb88d991421763566f71d6b",
+      "url": "https://github.com/flymysql/dsh-remote/blob/a8ed91e06b26ede33c2ded7bcaf3fc15b28b276f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote",
+          "command": "dsh plugin add dsh-remote",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-remote",
+          "command": "dsh plugin --profile web add dsh-remote",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3055ab69d314f03438c01489cd9628fe084e1cd5ca84ee84ca8cca2c2cd24292",
+      "url": "https://github.com/flymysql/dsh-remote/blob/a8ed91e06b26ede33c2ded7bcaf3fc15b28b276f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/flymysql/dsh-remote/blob/a8ed91e06b26ede33c2ded7bcaf3fc15b28b276f/README.en.md",
+      "sha256": "be09fdd63d919901c181ee8553f49b17c72fd1478deee250b5d37318be49c318",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote",
+          "command": "dsh plugin add dsh-remote",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-remote",
+          "command": "dsh plugin --profile web add dsh-remote",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote",
+      "version": "0.8.46",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/flymysql/dsh-remote",
+        "commit": "a8ed91e06b26ede33c2ded7bcaf3fc15b28b276f"
+      },
+      "manifestSha256": "ec479cc85b5bcfd266625f31a5e83c29c4c433aac131e8d4fe9031eb13ffc9f4",
+      "manifestUrl": "https://github.com/flymysql/dsh-remote/blob/a8ed91e06b26ede33c2ded7bcaf3fc15b28b276f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-remote",
+      "origin": "npm",
+      "name": "dsh-remote",
+      "version": "0.8.46",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "527b1212f0b8b3c30a7c5e7b41a8e6106d7dc05487f934ecb565c1cc515285b5"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/flymysql/dsh-remote",
+    "commit": "a8ed91e06b26ede33c2ded7bcaf3fc15b28b276f",
+    "releaseTags": 57,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:29.798Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:56.024Z",
+  "coverageReviewedAt": "2026-10-17T17:12:09.748Z",
+  "contentReviewFlags": []
+}

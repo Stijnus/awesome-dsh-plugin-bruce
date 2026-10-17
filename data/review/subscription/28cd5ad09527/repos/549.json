@@ -1,0 +1,80 @@
+{
+  "full_name": "raullenchai/rapid-mlx-dsh-provider",
+  "originalPosition": 498,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/raullenchai/rapid-mlx-dsh-provider"
+  ],
+  "manualNote": null,
+  "ordinal": 549,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:36.547Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8df6996d141c757e5cc6ea38f8a69b986c68192d41c686ebbfe3105a43f9b5ad",
+      "url": "https://github.com/raullenchai/rapid-mlx-dsh-provider/blob/88f98e7835989c3a05813e475ada4ce0b3c94267/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/raullenchai/rapid-mlx-dsh-provider",
+          "command": "dsh plugin --profile web add github:raullenchai/rapid-mlx-dsh-provider",
+          "profile": "web"
+        },
+        {
+          "install": "@raullenchai/dsh-provider",
+          "command": "dsh plugin --profile web add @raullenchai/dsh-provider",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@raullenchai/dsh-provider",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/raullenchai/rapid-mlx-dsh-provider",
+        "commit": "88f98e7835989c3a05813e475ada4ce0b3c94267"
+      },
+      "manifestSha256": "1f1a4bbb34cb39b1f8983d5a15f972c2965d162a64020213be8e14215b66b298",
+      "manifestUrl": "https://github.com/raullenchai/rapid-mlx-dsh-provider/blob/88f98e7835989c3a05813e475ada4ce0b3c94267/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@raullenchai/dsh-provider",
+      "version": "0.3.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@raullenchai/dsh-provider",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/raullenchai/rapid-mlx-dsh-provider",
+    "commit": "88f98e7835989c3a05813e475ada4ce0b3c94267",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:44.619Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.380Z",
+  "contentReviewFlags": []
+}

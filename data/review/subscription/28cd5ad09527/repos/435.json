@@ -1,0 +1,96 @@
+{
+  "full_name": "happyren/dsh-agent-messaging",
+  "originalPosition": 334,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-agent-messaging",
+    "https://github.com/happyren/dsh-agent-messaging"
+  ],
+  "manualNote": null,
+  "ordinal": 435,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:14.886Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "09e2fa90dd2acb3253928e0f9119cb2970e8059d3bb0e3dd6d2a7335eaaae155",
+      "url": "https://github.com/happyren/dsh-agent-messaging/blob/80071ff741cc6f189f89b140bd52fd269ed687f3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-agent-messaging",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-agent-messaging",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/happyren/dsh-agent-messaging",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:happyren/dsh-agent-messaging",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "bench/README.md",
+      "url": "https://github.com/happyren/dsh-agent-messaging/blob/80071ff741cc6f189f89b140bd52fd269ed687f3/bench/README.md",
+      "sha256": "137ab6c0e433906bc923f203df75499eb3375692efa624fd3201a016c4dc362a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agent-messaging",
+      "version": "0.13.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/happyren/dsh-agent-messaging",
+        "commit": "80071ff741cc6f189f89b140bd52fd269ed687f3"
+      },
+      "manifestSha256": "9938ea5659f3c2bc5c4c036578cf0ee1398cfb6aa5259ce1a508a4acd9491618",
+      "manifestUrl": "https://github.com/happyren/dsh-agent-messaging/blob/80071ff741cc6f189f89b140bd52fd269ed687f3/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-agent-messaging",
+      "origin": "npm",
+      "name": "dsh-agent-messaging",
+      "version": "0.11.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "aa3819e7cbbcad97df57d9db5c57352aa07f642e31e5eabea0daa593bf37a637"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/happyren/dsh-agent-messaging",
+    "commit": "80071ff741cc6f189f89b140bd52fd269ed687f3",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:23.071Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "bench/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "bench/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:08.007Z",
+  "coverageReviewedAt": "2026-10-17T17:12:23.652Z",
+  "contentReviewFlags": []
+}

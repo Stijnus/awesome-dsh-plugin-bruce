@@ -1,0 +1,71 @@
+{
+  "full_name": "yannicksong0106/dsh-550c-boot",
+  "originalPosition": 372,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 83,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:01:25.372Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "51e4faf54d103664ad2c948f500e81d38d167bed3e81190a357156f531fce40d",
+      "url": "https://github.com/yannicksong0106/dsh-550c-boot/blob/00b41b9fbfa6b5edab3d0e801989ba96e0f0a35f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/yannicksong0106/dsh-550c-boot/blob/00b41b9fbfa6b5edab3d0e801989ba96e0f0a35f/README.en.md",
+      "sha256": "5843b3b2af16dee4fdf045c6bc9cb1651331fa776772142fd8fe4a90640dd3fe",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-550c-boot",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yannicksong0106/dsh-550c-boot",
+        "commit": "00b41b9fbfa6b5edab3d0e801989ba96e0f0a35f"
+      },
+      "manifestSha256": "e5bcf2452078ddea714dd7803ba0df73401d94e67566404dd6aea261affc92a6",
+      "manifestUrl": "https://github.com/yannicksong0106/dsh-550c-boot/blob/00b41b9fbfa6b5edab3d0e801989ba96e0f0a35f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yannicksong0106/dsh-550c-boot",
+    "commit": "00b41b9fbfa6b5edab3d0e801989ba96e0f0a35f",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:33.100Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:51.361Z",
+  "coverageReviewedAt": "2026-10-17T17:12:05.753Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,115 @@
+{
+  "full_name": "xbzbing/dsh-git-panel",
+  "originalPosition": 481,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:12.055Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ac5e3914e9fdaab964e10344b62290afb90e679ac9ce8bfcd12394dae8cef85d",
+      "url": "https://github.com/xbzbing/dsh-git-panel/blob/9e19fe61e9ff7581419d018f3a581546a206717b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xbzbing/dsh-git-panel@latest",
+          "command": "dsh plugin --profile web add @xbzbing/dsh-git-panel@latest",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/xbzbing/dsh-git-panel",
+          "command": "dsh plugin --profile web add github:xbzbing/dsh-git-panel",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/xbzbing/dsh-git-panel/blob/9e19fe61e9ff7581419d018f3a581546a206717b/README.en.md",
+      "sha256": "f480fe80d21bfbba3cdce080b323c3782c1088942f43a48afa998aadcd220fb3",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xbzbing/dsh-git-panel@latest",
+          "command": "dsh plugin --profile web add @xbzbing/dsh-git-panel@latest",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/xbzbing/dsh-git-panel",
+          "command": "dsh plugin --profile web add github:xbzbing/dsh-git-panel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xbzbing/dsh-git-panel",
+      "version": "1.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xbzbing/dsh-git-panel",
+        "commit": "9e19fe61e9ff7581419d018f3a581546a206717b"
+      },
+      "manifestSha256": "bdd2d234d10c56bdd98708394fa15eff0791da4cc826746e67d4b2b5cfe09c36",
+      "manifestUrl": "https://github.com/xbzbing/dsh-git-panel/blob/9e19fe61e9ff7581419d018f3a581546a206717b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@xbzbing/dsh-git-panel@latest",
+      "origin": "npm",
+      "name": "@xbzbing/dsh-git-panel",
+      "version": "1.7.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f6eb98f754c7016e866130244c984cf6fc34e890bd39c73262ac270a430fa421"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@xbzbing/dsh-git-panel@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xbzbing/dsh-git-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xbzbing/dsh-git-panel",
+    "commit": "9e19fe61e9ff7581419d018f3a581546a206717b",
+    "releaseTags": 24,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:19.778Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:51.738Z",
+  "coverageReviewedAt": "2026-10-17T17:12:06.128Z",
+  "contentReviewFlags": []
+}

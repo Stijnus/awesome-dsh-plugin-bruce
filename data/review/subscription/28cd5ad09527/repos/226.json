@@ -1,0 +1,103 @@
+{
+  "full_name": "dingminhua/dsh-connect-workbuddy",
+  "originalPosition": 55,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-connect-workbuddy",
+    "dsh-connect-workbuddy",
+    "dsh-connect-workbuddy"
+  ],
+  "manualNote": null,
+  "ordinal": 226,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:03.217Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "316e833834ecc21f67ac7536685b39f5127c18dce5a3a1bc6edea28c6409f119",
+      "url": "https://github.com/dingminhua/dsh-connect-workbuddy/blob/0a3dfd83df4f203b681c7123a60bb46552d1c20e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-connect-workbuddy",
+          "command": "dsh plugin --profile desktop add dsh-connect-workbuddy",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-connect-workbuddy",
+          "command": "dsh plugin --profile web add dsh-connect-workbuddy",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-connect-workbuddy",
+          "command": "dsh plugin --profile dsh-tui add dsh-connect-workbuddy",
+          "profile": "dsh-tui"
+        },
+        {
+          "install": "dsh-connect-workbuddy@4.4.4",
+          "command": "dsh plugin --profile desktop add dsh-connect-workbuddy@4.4.4",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-connect-workbuddy",
+      "version": "4.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dingminhua/dsh-connect-workbuddy",
+        "commit": "0a3dfd83df4f203b681c7123a60bb46552d1c20e"
+      },
+      "manifestSha256": "9459121742807fd2a0edf38daf267e4d6693dffbd19c280caa20c9cedfd7a679",
+      "manifestUrl": "https://github.com/dingminhua/dsh-connect-workbuddy/blob/0a3dfd83df4f203b681c7123a60bb46552d1c20e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-connect-workbuddy",
+      "origin": "npm",
+      "name": "dsh-connect-workbuddy",
+      "version": "4.7.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "00a8bb239d2e02f8e1c2d2ce1593dc39dada098721e71e302d2b35e17496e916"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-connect-workbuddy",
+      "version": "4.4.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-connect-workbuddy@4.4.4",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dingminhua/dsh-connect-workbuddy",
+    "commit": "0a3dfd83df4f203b681c7123a60bb46552d1c20e",
+    "releaseTags": 69,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:11.792Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.600Z",
+  "contentReviewFlags": []
+}

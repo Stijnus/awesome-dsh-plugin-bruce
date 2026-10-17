@@ -1,0 +1,104 @@
+{
+  "full_name": "whutzefengxie-ops/dsh-shadow-mind",
+  "originalPosition": 234,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/whutzefengxie-ops/dsh-shadow-mind#v0.1.0",
+    "https://github.com/whutzefengxie-ops/dsh-shadow-mind#v0.1.4"
+  ],
+  "manualNote": null,
+  "ordinal": 366,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:30.896Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1974f6c26a95b5702a2a9342a85c209617364970932cc3d793d5b3a6e6fda75a",
+      "url": "https://github.com/whutzefengxie-ops/dsh-shadow-mind/blob/2322ef52da829b848bda70a7c3ca73d9c6a58082/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/whutzefengxie-ops/dsh-shadow-mind#v0.1.0",
+          "command": "dsh plugin --profile web add github:whutzefengxie-ops/dsh-shadow-mind#v0.1.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c2bbffd97e7a9d7cc87a89937bf777f9f288102b1200b38c010b58d1cd03c64f",
+      "url": "https://github.com/whutzefengxie-ops/dsh-shadow-mind/blob/2322ef52da829b848bda70a7c3ca73d9c6a58082/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/whutzefengxie-ops/dsh-shadow-mind#v0.1.0",
+          "command": "dsh plugin --profile web add github:whutzefengxie-ops/dsh-shadow-mind#v0.1.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@whutzefengxie-ops/dsh-shadow-mind",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/whutzefengxie-ops/dsh-shadow-mind",
+        "commit": "2322ef52da829b848bda70a7c3ca73d9c6a58082"
+      },
+      "manifestSha256": "2bf54b05edf583364c4d39dd5c5d9c14f7af0df911fcb8ef60b97971e851ce91",
+      "manifestUrl": "https://github.com/whutzefengxie-ops/dsh-shadow-mind/blob/2322ef52da829b848bda70a7c3ca73d9c6a58082/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/whutzefengxie-ops/dsh-shadow-mind#v0.1.0",
+      "origin": "git_target",
+      "path": "",
+      "commit": "c101d9a50c88d7b7c2bd64c93cd5331c449d526a",
+      "name": "@whutzefengxie-ops/dsh-shadow-mind",
+      "version": "0.1.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/whutzefengxie-ops/dsh-shadow-mind#v0.1.4",
+      "origin": "git_target",
+      "path": "",
+      "commit": "8380e2a9fda3ca2633fd628fe33e6f8b63fb785c",
+      "name": "@whutzefengxie-ops/dsh-shadow-mind",
+      "version": "0.1.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/whutzefengxie-ops/dsh-shadow-mind#v0.1.4",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/whutzefengxie-ops/dsh-shadow-mind",
+    "commit": "2322ef52da829b848bda70a7c3ca73d9c6a58082",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:52.654Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:17.608Z",
+  "contentReviewFlags": []
+}

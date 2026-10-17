@@ -1,0 +1,53 @@
+{
+  "full_name": "Lanxing6480/dsh-galgame",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:42.959Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "48925abd96fd2083363cb201390eb9e97822d74a585156e085b9a27ce60204e5",
+      "url": "https://github.com/Lanxing6480/dsh-galgame/blob/5dba67b691fc024db848db615792d69ef7ba5807/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lanxing/dsh-galgame",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lanxing6480/dsh-galgame",
+        "commit": "5dba67b691fc024db848db615792d69ef7ba5807"
+      },
+      "manifestSha256": "4dd2c92b0bb0da6807e8cef9a6544afd251d48331b985c29b3e6530308bf12c2",
+      "manifestUrl": "https://github.com/Lanxing6480/dsh-galgame/blob/5dba67b691fc024db848db615792d69ef7ba5807/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lanxing6480/dsh-galgame",
+    "commit": "5dba67b691fc024db848db615792d69ef7ba5807",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:51.916Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:03.820Z",
+  "contentReviewFlags": []
+}

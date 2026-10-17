@@ -1,0 +1,86 @@
+{
+  "full_name": "alpacachen/dsh-kanban",
+  "originalPosition": 415,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@alpacachen/dsh-kanban"
+  ],
+  "manualNote": null,
+  "ordinal": 492,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:59.880Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "73b3c72946a46ad5058176c3395898e05d34f79ed84dbd939d9803a60dec99de",
+      "url": "https://github.com/alpacachen/dsh-kanban/blob/3a32deced6f226fcdac1bf0dc2fae7e06189f441/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@alpacachen/dsh-kanban",
+          "command": "dsh plugin --profile web add @alpacachen/dsh-kanban",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "63a92982d5c69a96fea04c5e9296d3607548cc47a5a19a5cb1e7a6dddfc0fb47",
+      "url": "https://github.com/alpacachen/dsh-kanban/blob/3a32deced6f226fcdac1bf0dc2fae7e06189f441/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@alpacachen/dsh-kanban",
+          "command": "dsh plugin --profile web add @alpacachen/dsh-kanban",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@alpacachen/dsh-kanban",
+      "version": "1.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/alpacachen/dsh-kanban",
+        "commit": "3a32deced6f226fcdac1bf0dc2fae7e06189f441"
+      },
+      "manifestSha256": "32233a7fe114c57800604cc12393e003b6036b210d7ec2dfaebe07b3ce130350",
+      "manifestUrl": "https://github.com/alpacachen/dsh-kanban/blob/3a32deced6f226fcdac1bf0dc2fae7e06189f441/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@alpacachen/dsh-kanban",
+      "origin": "npm",
+      "name": "@alpacachen/dsh-kanban",
+      "version": "1.7.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "68257cc6c33eae6a17e25b9a753f9b2aa8af928d60c4b5ce96b84c3e92a5e60d"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/alpacachen/dsh-kanban",
+    "commit": "3a32deced6f226fcdac1bf0dc2fae7e06189f441",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:09.750Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:28.952Z",
+  "contentReviewFlags": []
+}

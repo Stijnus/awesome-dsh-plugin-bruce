@@ -1,0 +1,72 @@
+{
+  "full_name": "yyh-001/dsh-meme",
+  "originalPosition": 282,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-meme"
+  ],
+  "manualNote": null,
+  "ordinal": 396,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:28.080Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8be3772636da7c79b21c22147f010e65a87112c19f39357acb7dcff1164bd0f6",
+      "url": "https://github.com/yyh-001/dsh-meme/blob/2d9424924867cd74facc914cceb152fbe832c3a7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-meme",
+          "command": "dsh plugin --profile web add dsh-meme",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-meme",
+      "version": "0.1.52",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yyh-001/dsh-meme",
+        "commit": "2d9424924867cd74facc914cceb152fbe832c3a7"
+      },
+      "manifestSha256": "588c3df4052a372d996aa31baa14bc4e5540159e4265e9dff5fe23017f18ad98",
+      "manifestUrl": "https://github.com/yyh-001/dsh-meme/blob/2d9424924867cd74facc914cceb152fbe832c3a7/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-meme",
+      "origin": "npm",
+      "name": "dsh-meme",
+      "version": "0.1.52",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ac3e8520f0fc59c88045af2affacc153226455a30dd7ff484aa30d02cea5d9bd"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yyh-001/dsh-meme",
+    "commit": "2d9424924867cd74facc914cceb152fbe832c3a7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:36.166Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.456Z",
+  "contentReviewFlags": []
+}

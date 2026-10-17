@@ -1,0 +1,72 @@
+{
+  "full_name": "Moeblack/dsh-message-edit",
+  "originalPosition": 40,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-message-edit"
+  ],
+  "manualNote": null,
+  "ordinal": 214,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:38.708Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "42812b5e6ce44a2653d99f261560cbac5fa61ea4d0e5e88ca23a2db4e7b78f71",
+      "url": "https://github.com/Moeblack/dsh-message-edit/blob/b78a167064ca612f1c400060d2bfc1dc9bc46436/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-message-edit",
+          "command": "dsh plugin --profile web add dsh-message-edit",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-message-edit",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Moeblack/dsh-message-edit",
+        "commit": "b78a167064ca612f1c400060d2bfc1dc9bc46436"
+      },
+      "manifestSha256": "94cc0f260ce1ee3d2cc93f69c68178a9d34537f68e62ddd9589e6028b250b750",
+      "manifestUrl": "https://github.com/Moeblack/dsh-message-edit/blob/b78a167064ca612f1c400060d2bfc1dc9bc46436/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-message-edit",
+      "origin": "npm",
+      "name": "dsh-message-edit",
+      "version": "0.2.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "bab9448baa8e7d79e2b9632ebf81ace8b099989fa6c713bf06251a652dc38a64"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Moeblack/dsh-message-edit",
+    "commit": "b78a167064ca612f1c400060d2bfc1dc9bc46436",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:47.194Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.576Z",
+  "contentReviewFlags": []
+}

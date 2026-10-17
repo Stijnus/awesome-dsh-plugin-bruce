@@ -1,0 +1,86 @@
+{
+  "full_name": "ZSeven-W/dsh-android",
+  "originalPosition": 322,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@zseven-w/dsh-android@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 426,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:01.255Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2dcd9f74ed7cf9b09d4137ba5840d7eaeecf0848a9e3f9f021fbdfa38a6a96e8",
+      "url": "https://github.com/ZSeven-W/dsh-android/blob/3363a85b1bbeefe994d42d52bd8e792c1527e9ec/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-android@latest",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-android@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c6613189812349f55f5bbd30cf04f8ff2b16b7e52060b39e873d64ca47b35ea9",
+      "url": "https://github.com/ZSeven-W/dsh-android/blob/3363a85b1bbeefe994d42d52bd8e792c1527e9ec/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zseven-w/dsh-android@latest",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-android@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zseven-w/dsh-android",
+      "version": "0.1.0-rc.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZSeven-W/dsh-android",
+        "commit": "3363a85b1bbeefe994d42d52bd8e792c1527e9ec"
+      },
+      "manifestSha256": "429471e73d2e6a647621bf6fea74d0acc666b75706ca1d44412c886f18b615b0",
+      "manifestUrl": "https://github.com/ZSeven-W/dsh-android/blob/3363a85b1bbeefe994d42d52bd8e792c1527e9ec/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zseven-w/dsh-android@latest",
+      "origin": "npm",
+      "name": "@zseven-w/dsh-android",
+      "version": "0.1.0-rc.12",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f8aa4a26cb6fca3415b4e08571d5e219ef7cdc65ab034d5caf0ed157a7516d37"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZSeven-W/dsh-android",
+    "commit": "3363a85b1bbeefe994d42d52bd8e792c1527e9ec",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:11.639Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:22.481Z",
+  "contentReviewFlags": []
+}

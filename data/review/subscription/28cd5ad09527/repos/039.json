@@ -1,0 +1,95 @@
+{
+  "full_name": "sixtysevenlf/dsh-blender-plugin",
+  "originalPosition": 212,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 39,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:09.352Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "33ba4d11409be49e0c3f15a00a99116e09861be90e9c09d7ce8824d653a08426",
+      "url": "https://github.com/sixtysevenlf/dsh-blender-plugin/blob/47a15d9410d6c86ac1ff42d1c68996f86b3c0c3d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "ff03acbf789b94b7e255200fffe358590482fa0989ec163e71e4ed2df7ede046",
+      "url": "https://github.com/sixtysevenlf/dsh-blender-plugin/blob/47a15d9410d6c86ac1ff42d1c68996f86b3c0c3d/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "addon/README.md",
+      "url": "https://github.com/sixtysevenlf/dsh-blender-plugin/blob/47a15d9410d6c86ac1ff42d1c68996f86b3c0c3d/addon/README.md",
+      "sha256": "3711f027a94c3f6607e1d14a100988e53d3e46f384a7fdb778bf49594e9c582d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "tests/README.md",
+      "url": "https://github.com/sixtysevenlf/dsh-blender-plugin/blob/47a15d9410d6c86ac1ff42d1c68996f86b3c0c3d/tests/README.md",
+      "sha256": "8605c614805238294bdb4e87a30c20be43d2d4f56ff19d9d51f8730c2795610c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-blender-plugin",
+      "version": "2.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
+        "commit": "47a15d9410d6c86ac1ff42d1c68996f86b3c0c3d"
+      },
+      "manifestSha256": "f8ae3b1f54df124bab911462282696fe407eb10931149f7a3161efe6636d32ad",
+      "manifestUrl": "https://github.com/sixtysevenlf/dsh-blender-plugin/blob/47a15d9410d6c86ac1ff42d1c68996f86b3c0c3d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
+    "commit": "47a15d9410d6c86ac1ff42d1c68996f86b3c0c3d",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:18.918Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "addon/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "tests/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "addon/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "tests/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:50.157Z",
+  "coverageReviewedAt": "2026-10-17T17:12:04.545Z",
+  "contentReviewFlags": []
+}

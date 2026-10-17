@@ -1,0 +1,104 @@
+{
+  "full_name": "sjh9714/dsh-movein",
+  "originalPosition": 411,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-movein"
+  ],
+  "manualNote": null,
+  "ordinal": 489,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:51.357Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "388d339121ce507ec0db9abc672d650ada2e7730c855dc93cd873469d58dc8e9",
+      "url": "https://github.com/sjh9714/dsh-movein/blob/eac664961b233dcd636e2d6a51943d2258adb46d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-movein",
+          "command": "dsh plugin --profile web add dsh-movein",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d740ca74821e81a2c9023470de2ac85f25c1b375c23859faee29163074257aba",
+      "url": "https://github.com/sjh9714/dsh-movein/blob/eac664961b233dcd636e2d6a51943d2258adb46d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.zh.md",
+      "url": "https://github.com/sjh9714/dsh-movein/blob/eac664961b233dcd636e2d6a51943d2258adb46d/docs/README.zh.md",
+      "sha256": "8dfd7950b2f21400de04a81968b75686c5fd1056e4be0786193b95613c56f966",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-movein",
+          "command": "dsh plugin --profile web add dsh-movein",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-movein",
+      "version": "0.13.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sjh9714/dsh-movein",
+        "commit": "eac664961b233dcd636e2d6a51943d2258adb46d"
+      },
+      "manifestSha256": "cd710d5506af4c56667abce19239f45e1cccf418e4e03e17c3eacd062c30ec70",
+      "manifestUrl": "https://github.com/sjh9714/dsh-movein/blob/eac664961b233dcd636e2d6a51943d2258adb46d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-movein",
+      "origin": "npm",
+      "name": "dsh-movein",
+      "version": "0.13.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "7dc67dda751a44d428a2f97a29eb90207e7a98f25192206a436f8fff5c90b56a"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sjh9714/dsh-movein",
+    "commit": "eac664961b233dcd636e2d6a51943d2258adb46d",
+    "releaseTags": 27,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:01.029Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.zh.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:10.844Z",
+  "coverageReviewedAt": "2026-10-17T17:12:29.129Z",
+  "contentReviewFlags": []
+}

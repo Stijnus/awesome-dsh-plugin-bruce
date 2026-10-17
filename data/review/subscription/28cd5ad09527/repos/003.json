@@ -1,0 +1,53 @@
+{
+  "full_name": "flizzywine/dsh-tavern",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 3,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:05.098Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "26ad3058d019eaf7ee6ef636a7cd2add008c9df69e3c4eba0186441b110a5a6f",
+      "url": "https://github.com/flizzywine/dsh-tavern/blob/4c26545149aab47401dd4f93d95496dd4b5ef948/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-profile-tavern",
+      "version": "2.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/flizzywine/dsh-tavern",
+        "commit": "4c26545149aab47401dd4f93d95496dd4b5ef948"
+      },
+      "manifestSha256": "96c29339e01fa1f7cf0660a8b0d05813dfd727beba6b2f8113a370d4017326f9",
+      "manifestUrl": "https://github.com/flizzywine/dsh-tavern/blob/4c26545149aab47401dd4f93d95496dd4b5ef948/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/flizzywine/dsh-tavern",
+    "commit": "4c26545149aab47401dd4f93d95496dd4b5ef948",
+    "releaseTags": 31,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:15.880Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:01.947Z",
+  "contentReviewFlags": []
+}

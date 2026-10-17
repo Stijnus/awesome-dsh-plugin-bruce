@@ -1,0 +1,72 @@
+{
+  "full_name": "PKUfudawei/dsh-capability-menu",
+  "originalPosition": 368,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@daweifu/capability-menu"
+  ],
+  "manualNote": null,
+  "ordinal": 460,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:56.304Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "70dd67ab78860a1dd7838c65da1087e8b81756c5d1fa8c05dd9ba5a089491af5",
+      "url": "https://github.com/PKUfudawei/dsh-capability-menu/blob/f7febe88d529a7e12efc06159a392887ef634552/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@daweifu/capability-menu",
+          "command": "dsh plugin --profile web add @daweifu/capability-menu",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@daweifu/capability-menu",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PKUfudawei/dsh-capability-menu",
+        "commit": "f7febe88d529a7e12efc06159a392887ef634552"
+      },
+      "manifestSha256": "6f20fd6a04a20e87cee196a6c352a66ec6bc60505e1086bd377ca5ae681acb03",
+      "manifestUrl": "https://github.com/PKUfudawei/dsh-capability-menu/blob/f7febe88d529a7e12efc06159a392887ef634552/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@daweifu/capability-menu",
+      "origin": "npm",
+      "name": "@daweifu/capability-menu",
+      "version": "0.1.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "e8df5b058de716f307a80bf4dc173d2a29aa6099d9d378dfc95331b0ab2ddfdd"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PKUfudawei/dsh-capability-menu",
+    "commit": "f7febe88d529a7e12efc06159a392887ef634552",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:04.212Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:25.183Z",
+  "contentReviewFlags": []
+}

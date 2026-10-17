@@ -1,0 +1,109 @@
+{
+  "full_name": "Nexus-Aethra/Nexus-Terminal",
+  "originalPosition": 560,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:21.637Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "389014e28904ba0694c005e2ed107eb80dd3f2081a86da5c37843f612e4b0e72",
+      "url": "https://github.com/Nexus-Aethra/Nexus-Terminal/blob/600406e0dadb4f8f7a6eacc843ed44245644e056/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nexus-aethra/dshell-bundle@0.1.14-alpha.1",
+          "command": "dsh plugin --profile web add -w @nexus-aethra/dshell-bundle@0.1.14-alpha.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "c5ebd84d22db983bf038ea8f6d88bf5108d259cebd3f86f8927e9344cc004424",
+      "url": "https://github.com/Nexus-Aethra/Nexus-Terminal/blob/600406e0dadb4f8f7a6eacc843ed44245644e056/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nexus-aethra/dshell-bundle@0.1.14-alpha.1",
+          "command": "dsh plugin --profile web add -w @nexus-aethra/dshell-bundle@0.1.14-alpha.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/Nexus-Aethra/Nexus-Terminal/blob/600406e0dadb4f8f7a6eacc843ed44245644e056/docs/README.md",
+      "sha256": "f89cd2418c29899253f55fde5dd122d1f420c9f6cba2d5126c5f4333fdc7b4a0",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@nexus-aethra/dshell-bundle",
+      "version": "0.1.14-alpha.1",
+      "path": "packages/dshell/bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nexus-Aethra/Nexus-Terminal",
+        "commit": "600406e0dadb4f8f7a6eacc843ed44245644e056",
+        "path": "packages/dshell/bundle"
+      },
+      "manifestSha256": "81031754c195010a200a151a1ebf3c9450f8dcfccb9eca7184567520d2d4fdc8",
+      "manifestUrl": "https://github.com/Nexus-Aethra/Nexus-Terminal/blob/600406e0dadb4f8f7a6eacc843ed44245644e056/packages/dshell/bundle/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@nexus-aethra/dshell-bundle@0.1.14-alpha.1",
+      "origin": "npm",
+      "name": "@nexus-aethra/dshell-bundle",
+      "version": "0.1.14-alpha.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "aaca8e733311806b1e314c275640c151a209ac06f863112ef73e6a1fb92c5ba1"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@nexus-aethra/dshell-bundle@0.1.14-alpha.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nexus-Aethra/Nexus-Terminal",
+    "commit": "600406e0dadb4f8f7a6eacc843ed44245644e056",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:52.073Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:52.694Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.111Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,96 @@
+{
+  "full_name": "fan56/dsh-dcp",
+  "originalPosition": 250,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@aiwayds/dsh-dcp"
+  ],
+  "manualNote": null,
+  "ordinal": 375,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:51.324Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3cd092effa7a8a9d76aba1ae265bb49e71f5969e9057738d86db50615acf48c8",
+      "url": "https://github.com/fan56/dsh-dcp/blob/ddcb5b025a425aa3de7b8ba580ab5c058d79f341/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@aiwayds/dsh-dcp",
+          "command": "dsh plugin add @aiwayds/dsh-dcp",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/fan56/dsh-dcp/blob/ddcb5b025a425aa3de7b8ba580ab5c058d79f341/README.en.md",
+      "sha256": "baa0d42b94c9c2a478b336cb3a2a96f1bc8739b9705dc7018d97b6f49babfb57",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@aiwayds/dsh-dcp",
+          "command": "dsh plugin add @aiwayds/dsh-dcp",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@aiwayds/dsh-dcp",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fan56/dsh-dcp",
+        "commit": "ddcb5b025a425aa3de7b8ba580ab5c058d79f341"
+      },
+      "manifestSha256": "a7569b6e15f04b3de7dabd900ea41f83a7db0571f9ad4e01b90ed4e83342108b",
+      "manifestUrl": "https://github.com/fan56/dsh-dcp/blob/ddcb5b025a425aa3de7b8ba580ab5c058d79f341/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@aiwayds/dsh-dcp",
+      "origin": "npm",
+      "name": "@aiwayds/dsh-dcp",
+      "version": "0.13.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "0c6041788e44e9b3180297a24bb312582238429122a2f2319dffafbc6b777a0f"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fan56/dsh-dcp",
+    "commit": "ddcb5b025a425aa3de7b8ba580ab5c058d79f341",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:00.646Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:05.060Z",
+  "coverageReviewedAt": "2026-10-17T17:12:18.640Z",
+  "contentReviewFlags": []
+}

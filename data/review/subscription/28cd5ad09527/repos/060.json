@@ -1,0 +1,53 @@
+{
+  "full_name": "LaplaceYoung/dsh-directorx",
+  "originalPosition": 273,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 60,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:47.449Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "108deab580f94c7ed3fd33096caeef208d892e4c9c885d81c8332179ca753b93",
+      "url": "https://github.com/LaplaceYoung/dsh-directorx/blob/d63c425b4d6c40f3db30ccd433d24ed34947c8af/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-directorx",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LaplaceYoung/dsh-directorx",
+        "commit": "d63c425b4d6c40f3db30ccd433d24ed34947c8af"
+      },
+      "manifestSha256": "b508ba5525ea70f97c610f515c39866f4d980445e32fdae8c3cc4f842e3809b9",
+      "manifestUrl": "https://github.com/LaplaceYoung/dsh-directorx/blob/d63c425b4d6c40f3db30ccd433d24ed34947c8af/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LaplaceYoung/dsh-directorx",
+    "commit": "d63c425b4d6c40f3db30ccd433d24ed34947c8af",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:55.496Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:04.870Z",
+  "contentReviewFlags": []
+}

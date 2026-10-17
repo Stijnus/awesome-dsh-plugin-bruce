@@ -1,0 +1,85 @@
+{
+  "full_name": "csyangwen/dsh-memory-evolve",
+  "originalPosition": 47,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/csyangwen/dsh-memory-evolve"
+  ],
+  "manualNote": null,
+  "ordinal": 221,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:53.961Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e6d1fd404d30864bccbef6407020e6804ad07d6370538baa8b4756338094c4c0",
+      "url": "https://github.com/csyangwen/dsh-memory-evolve/blob/e6f6b84c56f0fc18ba4a6a1a5959fbf86ea9ec8b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/csyangwen/dsh-memory-evolve",
+          "command": "dsh plugin --profile web add github:csyangwen/dsh-memory-evolve",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/csyangwen/dsh-memory-evolve/blob/e6f6b84c56f0fc18ba4a6a1a5959fbf86ea9ec8b/README.en.md",
+      "sha256": "d53508830ce758af676fc37547b3dff573e562d0e3d5e34af276800e68a912d5",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/csyangwen/dsh-memory-evolve",
+          "command": "dsh plugin --profile web add github:csyangwen/dsh-memory-evolve",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-evolve",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/csyangwen/dsh-memory-evolve",
+        "commit": "e6f6b84c56f0fc18ba4a6a1a5959fbf86ea9ec8b"
+      },
+      "manifestSha256": "4d9d8fac7945cf7d18e0d0e0f6f31daecb36acb194d63e63f1600b29f94bf2d1",
+      "manifestUrl": "https://github.com/csyangwen/dsh-memory-evolve/blob/e6f6b84c56f0fc18ba4a6a1a5959fbf86ea9ec8b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/csyangwen/dsh-memory-evolve",
+    "commit": "e6f6b84c56f0fc18ba4a6a1a5959fbf86ea9ec8b",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:01.535Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:55.218Z",
+  "coverageReviewedAt": "2026-10-17T17:12:08.971Z",
+  "contentReviewFlags": []
+}

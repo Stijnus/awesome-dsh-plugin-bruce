@@ -1,0 +1,97 @@
+{
+  "full_name": "AngelosZou/graphlint",
+  "originalPosition": 460,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-graphlint"
+  ],
+  "manualNote": null,
+  "ordinal": 526,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:03:55.690Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "49f1bb4504327323cd5b9174960b120bfb8fc6fa8d50a34c865c782c66fc946c",
+      "url": "https://github.com/AngelosZou/graphlint/blob/4e810d8ff8a380d419316be91ec03936de37393b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-graphlint",
+          "command": "dsh plugin --profile web add dsh-graphlint",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/zh/README.md",
+      "url": "https://github.com/AngelosZou/graphlint/blob/4e810d8ff8a380d419316be91ec03936de37393b/docs/zh/README.md",
+      "sha256": "16b557bb0b298b57507632cc3c022c81017bc2daeea14f8f433da6d89753a645",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-graphlint",
+          "command": "dsh plugin --profile web add dsh-graphlint",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-graphlint",
+      "version": "0.6.0",
+      "path": "integrations/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AngelosZou/graphlint",
+        "commit": "4e810d8ff8a380d419316be91ec03936de37393b",
+        "path": "integrations/dsh"
+      },
+      "manifestSha256": "94f304610038918d27d4a9eeab328f73621eedc5fb9ae6b5b519c75e518a0687",
+      "manifestUrl": "https://github.com/AngelosZou/graphlint/blob/4e810d8ff8a380d419316be91ec03936de37393b/integrations/dsh/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-graphlint",
+      "origin": "npm",
+      "name": "dsh-graphlint",
+      "version": "0.6.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a77bd44d04877a1f7c1c96818f65e5d99d46a93b69acc34109b66623734e5aec"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AngelosZou/graphlint",
+    "commit": "4e810d8ff8a380d419316be91ec03936de37393b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:03.428Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/zh/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/zh/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:12.902Z",
+  "coverageReviewedAt": "2026-10-17T17:12:31.455Z",
+  "contentReviewFlags": []
+}

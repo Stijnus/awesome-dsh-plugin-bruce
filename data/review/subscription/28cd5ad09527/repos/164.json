@@ -1,0 +1,84 @@
+{
+  "full_name": "1225Sakura/oh-my-deepseekharness",
+  "originalPosition": 214,
+  "inputMode": "manual",
+  "mappedTargets": [],
+  "manualNote": {
+    "mode": "manual",
+    "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add @sakura12/oh-my-deepseekharness」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+    "verification": {
+      "status": "readme-verified",
+      "date": "2026-09-26",
+      "via": "README@master"
+    }
+  },
+  "ordinal": 164,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:06.860Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7ec81f3400f85c2c01abe8ff730d82f75f93567584d01852440ec65ffb423eb5",
+      "url": "https://github.com/1225Sakura/oh-my-deepseekharness/blob/f38d8a6cffca4d2beb97e3cdd53208794163b92f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@sakura12/oh-my-deepseekharness",
+          "command": "dsh plugin --profile <name> add @sakura12/oh-my-deepseekharness",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@sakura12/oh-my-deepseekharness",
+      "version": "0.4.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1225Sakura/oh-my-deepseekharness",
+        "commit": "f38d8a6cffca4d2beb97e3cdd53208794163b92f"
+      },
+      "manifestSha256": "1c49e6de0f0e557ae711df377a92c407091bd4f82a518e9e163db513032e2a32",
+      "manifestUrl": "https://github.com/1225Sakura/oh-my-deepseekharness/blob/f38d8a6cffca4d2beb97e3cdd53208794163b92f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@sakura12/oh-my-deepseekharness",
+      "origin": "npm",
+      "name": "@sakura12/oh-my-deepseekharness",
+      "version": "0.4.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f08b8a59f96b2c9e7565826f3e799e2d469b98293896c0b731c3b6332c3d6cf3"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@sakura12/oh-my-deepseekharness",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1225Sakura/oh-my-deepseekharness",
+    "commit": "f38d8a6cffca4d2beb97e3cdd53208794163b92f",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:15.320Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:07.151Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,122 @@
+{
+  "full_name": "Yurzi/dsh-pdf-mineru",
+  "originalPosition": 497,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-pdf-mineru"
+  ],
+  "manualNote": null,
+  "ordinal": 548,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:33.791Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6c7dad77829615f98b85ec069abeeade2d72f1d8de73d3146064f0383c7003ae",
+      "url": "https://github.com/Yurzi/dsh-pdf-mineru/blob/6ab9784f5e5f9389104f4df5ddd014adb1adf7bf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pdf-mineru",
+          "command": "dsh plugin --profile web add dsh-pdf-mineru",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pdf-mineru",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yurzi/dsh-pdf-mineru",
+        "commit": "6ab9784f5e5f9389104f4df5ddd014adb1adf7bf"
+      },
+      "manifestSha256": "35064217c6286a5137c495ef7982dd92ec09005d405127a38434cfdab20a3eff",
+      "manifestUrl": "https://github.com/Yurzi/dsh-pdf-mineru/blob/6ab9784f5e5f9389104f4df5ddd014adb1adf7bf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-pdf-mineru",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791122942,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yurzi/dsh-pdf-mineru",
+              "commit": "6ab9784f5e5f9389104f4df5ddd014adb1adf7bf"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-pdf-mineru",
+      "origin": "npm",
+      "name": "dsh-pdf-mineru",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-pdf-mineru",
+        "title": "dsh-pdf-mineru",
+        "description": "Provider-independent DSH document parsing powered by MinerU, with native background jobs, immutable results, and safe request coalescing.",
+        "homepage": "https://github.com/Yurzi/dsh-pdf-mineru#readme",
+        "repository": {
+          "url": "https://github.com/Yurzi/dsh-pdf-mineru"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791123072,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2c51939cd56d7066d0c572f5ad972f8e8881121890abbdc31880f474fb739dc0",
+      "evidence": [
+        {
+          "name": "dsh-pdf-mineru",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-pdf-mineru/-/dsh-pdf-mineru-0.2.0.tgz",
+          "integrity": "sha512-a18zfPw0pthn+8Oioyxznm/2a3FOeRgW1MWxIna6tu9uxtUMXgcPFwt+0g8XrTGR8BHbHykKkc0FXRGuhS0HhA=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yurzi/dsh-pdf-mineru",
+    "commit": "6ab9784f5e5f9389104f4df5ddd014adb1adf7bf",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:04:44.610Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.746Z",
+  "contentReviewFlags": []
+}

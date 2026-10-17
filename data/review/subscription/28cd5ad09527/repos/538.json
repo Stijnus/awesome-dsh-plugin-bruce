@@ -1,0 +1,96 @@
+{
+  "full_name": "EternalNight996/dsh-memory-eternal",
+  "originalPosition": 477,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-memory-eternal"
+  ],
+  "manualNote": null,
+  "ordinal": 538,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:15.552Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7122ea187ebbb1813798b48a24e0df44043a3747c5083c8da65dbb74c7033751",
+      "url": "https://github.com/EternalNight996/dsh-memory-eternal/blob/604c1aa3dfac0c40e4b9e0a9ae0b85d9f7abe888/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-memory-eternal",
+          "command": "dsh plugin --profile web add dsh-memory-eternal",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/EternalNight996/dsh-memory-eternal/blob/604c1aa3dfac0c40e4b9e0a9ae0b85d9f7abe888/README.en.md",
+      "sha256": "b2d69e287e9f23dcad96458d6e7961536c396a3aa5a7b9c48eca1f90299ba21c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-memory-eternal",
+          "command": "dsh plugin --profile web add dsh-memory-eternal",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-eternal",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EternalNight996/dsh-memory-eternal",
+        "commit": "604c1aa3dfac0c40e4b9e0a9ae0b85d9f7abe888"
+      },
+      "manifestSha256": "cbebb3fb0c4c95d5a0cf4df39b9ce0b357db67eaaea503ef808656cd9b1dedee",
+      "manifestUrl": "https://github.com/EternalNight996/dsh-memory-eternal/blob/604c1aa3dfac0c40e4b9e0a9ae0b85d9f7abe888/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-memory-eternal",
+      "origin": "npm",
+      "name": "dsh-memory-eternal",
+      "version": "0.7.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "4de48b23d458f13ddfc919d754f4624a09efa167aadb271d6a3e4e9120f33fd0"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EternalNight996/dsh-memory-eternal",
+    "commit": "604c1aa3dfac0c40e4b9e0a9ae0b85d9f7abe888",
+    "releaseTags": 69,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:24.399Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:13.876Z",
+  "coverageReviewedAt": "2026-10-17T17:12:31.985Z",
+  "contentReviewFlags": []
+}

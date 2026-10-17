@@ -1,0 +1,75 @@
+{
+  "full_name": "Kytolly/dsh-evolve-in-git",
+  "originalPosition": 71,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Kytolly/dsh-evolve-in-git"
+  ],
+  "manualNote": null,
+  "ordinal": 241,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:34.198Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e229e34c255c2b842fdb1e98d3df103ce1e7a27c60fac3eeee48349e81e614a5",
+      "url": "https://github.com/Kytolly/dsh-evolve-in-git/blob/f9c19adbebe3b1117bdd488a4627302b4f37fc3b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Kytolly/dsh-evolve-in-git",
+          "command": "dsh plugin --profile web add github:Kytolly/dsh-evolve-in-git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "2857a72ba465bb699599554cc3893f9c7856b47e44b729e86ad34a525a95d755",
+      "url": "https://github.com/Kytolly/dsh-evolve-in-git/blob/f9c19adbebe3b1117bdd488a4627302b4f37fc3b/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Kytolly/dsh-evolve-in-git",
+          "command": "dsh plugin --profile web add github:Kytolly/dsh-evolve-in-git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-evolve-in-git",
+      "version": "0.6.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Kytolly/dsh-evolve-in-git",
+        "commit": "f9c19adbebe3b1117bdd488a4627302b4f37fc3b"
+      },
+      "manifestSha256": "dbf44bbd57311c95eea5e815fae39082005181ca8e51cca804703f61b6436016",
+      "manifestUrl": "https://github.com/Kytolly/dsh-evolve-in-git/blob/f9c19adbebe3b1117bdd488a4627302b4f37fc3b/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Kytolly/dsh-evolve-in-git",
+    "commit": "f9c19adbebe3b1117bdd488a4627302b4f37fc3b",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:44.257Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.052Z",
+  "contentReviewFlags": []
+}

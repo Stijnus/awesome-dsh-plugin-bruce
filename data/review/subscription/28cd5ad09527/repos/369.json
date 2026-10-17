@@ -1,0 +1,61 @@
+{
+  "full_name": "02Muller25/dsh-api-balance",
+  "originalPosition": 240,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/02Muller25/dsh-api-balance"
+  ],
+  "manualNote": null,
+  "ordinal": 369,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:35.934Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cdc1c893e8bbe9ecc5302501d5f89e6bbd5534dd2201edac808b48fbc2643447",
+      "url": "https://github.com/02Muller25/dsh-api-balance/blob/c27c8b61acf97714ab08d99f97b7be3a9007e52e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/02Muller25/dsh-api-balance",
+          "command": "dsh plugin --profile web add github:02Muller25/dsh-api-balance",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "api-balance",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/02Muller25/dsh-api-balance",
+        "commit": "c27c8b61acf97714ab08d99f97b7be3a9007e52e"
+      },
+      "manifestSha256": "0056574d7666e92a96c7d6d7a49175f253cb3ed935b268c8e83584dca84bb31a",
+      "manifestUrl": "https://github.com/02Muller25/dsh-api-balance/blob/c27c8b61acf97714ab08d99f97b7be3a9007e52e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/02Muller25/dsh-api-balance",
+    "commit": "c27c8b61acf97714ab08d99f97b7be3a9007e52e",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:43.261Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:17.841Z",
+  "contentReviewFlags": []
+}

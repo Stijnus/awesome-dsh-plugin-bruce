@@ -1,0 +1,107 @@
+{
+  "full_name": "cloader/dsh-taskboard",
+  "originalPosition": 518,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-taskboard",
+    "https://github.com/cloader/dsh-taskboard"
+  ],
+  "manualNote": null,
+  "ordinal": 560,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:54.662Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8c320e67cccda65bfbb31fff89797689135eb4f9a715315f8c8dc548523e8399",
+      "url": "https://github.com/cloader/dsh-taskboard/blob/bf9f35eee24893ac9f4ac10e6783780e0aec9387/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-taskboard",
+          "command": "dsh plugin --profile web add dsh-taskboard",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/cloader/dsh-taskboard",
+          "command": "dsh plugin --profile web add github:cloader/dsh-taskboard",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_en.md",
+      "url": "https://github.com/cloader/dsh-taskboard/blob/bf9f35eee24893ac9f4ac10e6783780e0aec9387/README_en.md",
+      "sha256": "468221c1bd5c7d519a8d7ef3c0e6a0054b1cc042bd9f397677163549a200862e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-taskboard",
+          "command": "dsh plugin --profile web add dsh-taskboard",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/cloader/dsh-taskboard",
+          "command": "dsh plugin --profile web add github:cloader/dsh-taskboard",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-taskboard",
+      "version": "0.9.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cloader/dsh-taskboard",
+        "commit": "bf9f35eee24893ac9f4ac10e6783780e0aec9387"
+      },
+      "manifestSha256": "5c4a12b74a177623b7c4b04cd6fd23144602c223fcc484449e7f276be5451da4",
+      "manifestUrl": "https://github.com/cloader/dsh-taskboard/blob/bf9f35eee24893ac9f4ac10e6783780e0aec9387/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-taskboard",
+      "origin": "npm",
+      "name": "dsh-taskboard",
+      "version": "0.9.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "ba39dbb49d8bd1d218f88d56b11ea16707b2f9d1017964116739fabc7d02d896"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cloader/dsh-taskboard",
+    "commit": "bf9f35eee24893ac9f4ac10e6783780e0aec9387",
+    "releaseTags": 47,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:02.827Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README_en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README_en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:14.297Z",
+  "coverageReviewedAt": "2026-10-17T17:12:32.276Z",
+  "contentReviewFlags": []
+}

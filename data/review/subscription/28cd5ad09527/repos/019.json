@@ -1,0 +1,80 @@
+{
+  "full_name": "omdsh-dev/dsh-browser",
+  "originalPosition": 82,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 19,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:33.386Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3d87f8aec8cd9fbaeb97103b9dbc9a5c1396e7bc7349a5374d613e77e34bbdb9",
+      "url": "https://github.com/omdsh-dev/dsh-browser/blob/23895d7292495f665e5676d2f174d022bb3c3605/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d115e310e0d6415ef1feda54fbe1b110377e81da51a830d802388b929efec01a",
+      "url": "https://github.com/omdsh-dev/dsh-browser/blob/23895d7292495f665e5676d2f174d022bb3c3605/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "benchmark/README.md",
+      "url": "https://github.com/omdsh-dev/dsh-browser/blob/23895d7292495f665e5676d2f174d022bb3c3605/benchmark/README.md",
+      "sha256": "7c4e1d3c9830268faf153c0b0969c8fd4725cbe7c9635f9ec49f8853ad7dc67c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yuxianglin/dsh-bridge-browser",
+      "version": "0.0.7",
+      "path": "packages/browser/bridge-browser",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-browser",
+        "commit": "23895d7292495f665e5676d2f174d022bb3c3605",
+        "path": "packages/browser/bridge-browser"
+      },
+      "manifestSha256": "3e4a34b001fa628780765e80742f1eb966efc6383beffef586309c84119c00fc",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-browser/blob/23895d7292495f665e5676d2f174d022bb3c3605/packages/browser/bridge-browser/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-browser",
+    "commit": "23895d7292495f665e5676d2f174d022bb3c3605",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:48.098Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "benchmark/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "benchmark/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:47.509Z",
+  "coverageReviewedAt": "2026-10-17T17:12:03.144Z",
+  "contentReviewFlags": []
+}

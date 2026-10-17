@@ -1,0 +1,116 @@
+{
+  "full_name": "rison114514/dsh-endfield-ui",
+  "originalPosition": 552,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 137,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:10.304Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c1d10900fd9ef2db1c6c33557d7e1e50742f8027beb182c8ccc9b63fcf1439c8",
+      "url": "https://github.com/rison114514/dsh-endfield-ui/blob/d9d5c722cdb63e8c78d455af5a4896f7c3817cc8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-sidebar@0.24.1",
+          "command": "dsh plugin --profile desktop add dsh-better-sidebar@0.24.1",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-better-sidebar@0.24.1",
+          "command": "dsh plugin --profile web add dsh-better-sidebar@0.24.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@rison/dsh-endfield-ui",
+      "version": "1.1.0",
+      "path": "endfield-ui-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rison114514/dsh-endfield-ui",
+        "commit": "d9d5c722cdb63e8c78d455af5a4896f7c3817cc8",
+        "path": "endfield-ui-plugin"
+      },
+      "manifestSha256": "52a94e97ece91d1c940f7a6622852084286661ec6d191789032c8352b8c1529d",
+      "manifestUrl": "https://github.com/rison114514/dsh-endfield-ui/blob/d9d5c722cdb63e8c78d455af5a4896f7c3817cc8/endfield-ui-plugin/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@rison/dsh-connector-github",
+      "version": "0.1.0",
+      "path": "github-connector",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rison114514/dsh-endfield-ui",
+        "commit": "d9d5c722cdb63e8c78d455af5a4896f7c3817cc8",
+        "path": "github-connector"
+      },
+      "manifestSha256": "9a9b06eedefc72851dfd5189b4b7b6263c4dd35fdc4065d2ecd19130d69aeb84",
+      "manifestUrl": "https://github.com/rison114514/dsh-endfield-ui/blob/d9d5c722cdb63e8c78d455af5a4896f7c3817cc8/github-connector/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@rison/dsh-connector-github-local",
+      "version": "0.1.0",
+      "path": "github-connector-local",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rison114514/dsh-endfield-ui",
+        "commit": "d9d5c722cdb63e8c78d455af5a4896f7c3817cc8",
+        "path": "github-connector-local"
+      },
+      "manifestSha256": "46e5b7674eb2c624b7a5d84068e40341e7f0e7ad6853c50a5bf7b1a1e947b19a",
+      "manifestUrl": "https://github.com/rison114514/dsh-endfield-ui/blob/d9d5c722cdb63e8c78d455af5a4896f7c3817cc8/github-connector-local/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-better-sidebar@0.24.1",
+      "origin": "npm",
+      "name": "dsh-better-sidebar",
+      "version": "0.24.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "a98cd854de0f96359b1e3e36f8bc1d6d0f92e86327904b49ee3551cb19467792"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-sidebar@0.24.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/rison114514/dsh-endfield-ui",
+    "commit": "d9d5c722cdb63e8c78d455af5a4896f7c3817cc8",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:21.636Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.689Z",
+  "contentReviewFlags": []
+}

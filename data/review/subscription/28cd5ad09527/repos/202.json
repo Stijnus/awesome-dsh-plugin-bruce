@@ -1,0 +1,107 @@
+{
+  "full_name": "omdsh-dev/dsh-data-agent",
+  "originalPosition": 25,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@yejiming/dsh-data-agent",
+    "@yejiming/dsh-data-agent"
+  ],
+  "manualNote": null,
+  "ordinal": 202,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:18.321Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "18e0b0370b18ac98165908f5ea4db98bacc8b6eb102f758f98697931be4f38c5",
+      "url": "https://github.com/omdsh-dev/dsh-data-agent/blob/6a649fe930aeab4247d3e8b936b6bf393aa71e8c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yejiming/dsh-data-agent",
+          "command": "dsh plugin --profile web add @yejiming/dsh-data-agent",
+          "profile": "web"
+        },
+        {
+          "install": "@yejiming/dsh-data-agent",
+          "command": "dsh plugin --profile dsh-tui add @yejiming/dsh-data-agent",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/omdsh-dev/dsh-data-agent/blob/6a649fe930aeab4247d3e8b936b6bf393aa71e8c/README.en.md",
+      "sha256": "59bf94c1a31dea2f0fe3550e2aafc7d9e714af446957b98f3d5afc4fa49bb9fe",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yejiming/dsh-data-agent",
+          "command": "dsh plugin --profile web add @yejiming/dsh-data-agent",
+          "profile": "web"
+        },
+        {
+          "install": "@yejiming/dsh-data-agent",
+          "command": "dsh plugin --profile dsh-tui add @yejiming/dsh-data-agent",
+          "profile": "dsh-tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yejiming/dsh-data-agent",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-data-agent",
+        "commit": "6a649fe930aeab4247d3e8b936b6bf393aa71e8c"
+      },
+      "manifestSha256": "195b56656760558cf3c1d227bdcef6337543c55e03c0b6e5cb168898db236000",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-data-agent/blob/6a649fe930aeab4247d3e8b936b6bf393aa71e8c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@yejiming/dsh-data-agent",
+      "origin": "npm",
+      "name": "@yejiming/dsh-data-agent",
+      "version": "0.2.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "2ae50a87d174a8b5de7da0b0f77518719f697dd83ebaeae7c3ef88b03f6f17c7"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-data-agent",
+    "commit": "6a649fe930aeab4247d3e8b936b6bf393aa71e8c",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:28.783Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:54.370Z",
+  "coverageReviewedAt": "2026-10-17T17:12:08.563Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,136 @@
+{
+  "full_name": "HanaAyane/dsh-reasoning-effort",
+  "originalPosition": 58,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/HanaAyane/dsh-reasoning-effort#v0.8.0"
+  ],
+  "manualNote": null,
+  "ordinal": 229,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:09.119Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cd864c3dd287d7795fd8c39dd28f36151f6130235567c5e7e2f4123c028f3b73",
+      "url": "https://github.com/HanaAyane/dsh-reasoning-effort/blob/13e9b7e4a114897b63f749dbec6c35eeb8594ad9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/HanaAyane/dsh-reasoning-effort#v0.8.1",
+          "command": "dsh plugin --profile web add github:HanaAyane/dsh-reasoning-effort#v0.8.1",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/HanaAyane/dsh-reasoning-effort#v0.8.1",
+          "command": "dsh plugin --profile desktop add github:HanaAyane/dsh-reasoning-effort#v0.8.1",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6850fc95dce7527add9df197cc6c3b1d241399909f486c26db05baa3960c2543",
+      "url": "https://github.com/HanaAyane/dsh-reasoning-effort/blob/13e9b7e4a114897b63f749dbec6c35eeb8594ad9/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/HanaAyane/dsh-reasoning-effort/blob/13e9b7e4a114897b63f749dbec6c35eeb8594ad9/README.en.md",
+      "sha256": "348a12e0f8963df71a764ee0e165f301232ce71046bc3a376c33705ab56930c8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/HanaAyane/dsh-reasoning-effort#v0.8.1",
+          "command": "dsh plugin --profile web add github:HanaAyane/dsh-reasoning-effort#v0.8.1",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/HanaAyane/dsh-reasoning-effort#v0.8.1",
+          "command": "dsh plugin --profile desktop add github:HanaAyane/dsh-reasoning-effort#v0.8.1",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-reasoning-effort",
+      "version": "0.8.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HanaAyane/dsh-reasoning-effort",
+        "commit": "13e9b7e4a114897b63f749dbec6c35eeb8594ad9"
+      },
+      "manifestSha256": "4aa606b7237a33674704c16f92ffd50739beb5826fed0550deb399a570ee9618",
+      "manifestUrl": "https://github.com/HanaAyane/dsh-reasoning-effort/blob/13e9b7e4a114897b63f749dbec6c35eeb8594ad9/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/HanaAyane/dsh-reasoning-effort#v0.8.0",
+      "origin": "git_target",
+      "path": "",
+      "commit": "3c3fbc6ed59d61480e01fcae73ae460d39c5794c",
+      "name": "dsh-reasoning-effort",
+      "version": "0.8.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/HanaAyane/dsh-reasoning-effort#v0.8.1",
+      "origin": "git_target",
+      "path": "",
+      "commit": "3b28e605b45df98048c03ad65917a48e37a5b624",
+      "name": "dsh-reasoning-effort",
+      "version": "0.8.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/HanaAyane/dsh-reasoning-effort#v0.8.0",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/HanaAyane/dsh-reasoning-effort#v0.8.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HanaAyane/dsh-reasoning-effort",
+    "commit": "13e9b7e4a114897b63f749dbec6c35eeb8594ad9",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:34.197Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:55.619Z",
+  "coverageReviewedAt": "2026-10-17T17:12:09.490Z",
+  "contentReviewFlags": []
+}

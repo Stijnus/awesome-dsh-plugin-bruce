@@ -1,0 +1,86 @@
+{
+  "full_name": "songoao25/dsh-bottom-info-bar",
+  "originalPosition": 119,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-bottom-info-bar"
+  ],
+  "manualNote": null,
+  "ordinal": 280,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:48.858Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "411a3aba670bc4eb94353a1f7a2d12f7891d5bc17a04ebd1e1f3d269345717b7",
+      "url": "https://github.com/songoao25/dsh-bottom-info-bar/blob/04a901a2b19264b7600862b027693a5ddb08fb3c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bottom-info-bar",
+          "command": "dsh plugin --profile web add dsh-bottom-info-bar",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "7522c88c38ab41334c32b83fd88369970ea9d6bcffcb1e0f171a975f060e0d37",
+      "url": "https://github.com/songoao25/dsh-bottom-info-bar/blob/04a901a2b19264b7600862b027693a5ddb08fb3c/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bottom-info-bar",
+          "command": "dsh plugin --profile web add dsh-bottom-info-bar",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bottom-info-bar",
+      "version": "1.21.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/songoao25/dsh-bottom-info-bar",
+        "commit": "04a901a2b19264b7600862b027693a5ddb08fb3c"
+      },
+      "manifestSha256": "265295af875a311cc2720d486337386b0555189c2d57de129ae278845221299c",
+      "manifestUrl": "https://github.com/songoao25/dsh-bottom-info-bar/blob/04a901a2b19264b7600862b027693a5ddb08fb3c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-bottom-info-bar",
+      "origin": "npm",
+      "name": "dsh-bottom-info-bar",
+      "version": "1.21.8",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "b7d21a4cc39ce08e4c8ecee123fa64b5cd71c62219bcc5df81ff1de9f5432ce5"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/songoao25/dsh-bottom-info-bar",
+    "commit": "04a901a2b19264b7600862b027693a5ddb08fb3c",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:58.562Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:11.551Z",
+  "contentReviewFlags": []
+}

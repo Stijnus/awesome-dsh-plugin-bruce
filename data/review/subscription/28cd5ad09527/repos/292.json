@@ -1,0 +1,97 @@
+{
+  "full_name": "omdsh-dev/dsh-llm-fallbacks",
+  "originalPosition": 134,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-llm-fallbacks",
+    "dsh-llm-fallbacks"
+  ],
+  "manualNote": null,
+  "ordinal": 292,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:17.870Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "243b4b646889484746803a6669f400deb4225692b7aaf7533e1b9ee91995586d",
+      "url": "https://github.com/omdsh-dev/dsh-llm-fallbacks/blob/48529a3adc3dd1e7354d3bf7816183b3fa4eb9f5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-fallbacks",
+          "command": "dsh plugin --profile web add dsh-llm-fallbacks",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-llm-fallbacks",
+          "command": "dsh plugin --profile dsh-tui add dsh-llm-fallbacks",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "cb5a9ba31ecbf8712c4d31e7f338704eab44cb1da76d7d3c8c0f8694226a6461",
+      "url": "https://github.com/omdsh-dev/dsh-llm-fallbacks/blob/48529a3adc3dd1e7354d3bf7816183b3fa4eb9f5/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-fallbacks",
+          "command": "dsh plugin --profile web add dsh-llm-fallbacks",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-llm-fallbacks",
+          "command": "dsh plugin --profile dsh-tui add dsh-llm-fallbacks",
+          "profile": "dsh-tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-fallbacks",
+      "version": "0.6.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-llm-fallbacks",
+        "commit": "48529a3adc3dd1e7354d3bf7816183b3fa4eb9f5"
+      },
+      "manifestSha256": "79deca95d4330d87477975139da7bb0b634aa459cea4843652fd1454467cb493",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-llm-fallbacks/blob/48529a3adc3dd1e7354d3bf7816183b3fa4eb9f5/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-llm-fallbacks",
+      "origin": "npm",
+      "name": "dsh-llm-fallbacks",
+      "version": "0.6.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "66dcab60d9f45866ae76fff15f20cf8537935d6f3bfafa8bfd556d42cb04025d"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-llm-fallbacks",
+    "commit": "48529a3adc3dd1e7354d3bf7816183b3fa4eb9f5",
+    "releaseTags": 34,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:28.055Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.678Z",
+  "contentReviewFlags": []
+}

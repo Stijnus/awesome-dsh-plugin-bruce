@@ -1,0 +1,72 @@
+{
+  "full_name": "HuanLinOTO/dsh-plugin-d399",
+  "originalPosition": 310,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@huanlin/dsh-plugin-d399"
+  ],
+  "manualNote": null,
+  "ordinal": 418,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:45.526Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bef334e63e958b8ccd1aa69be8911f2aa2b1fc2735e03eb031c146b76311b4ce",
+      "url": "https://github.com/HuanLinOTO/dsh-plugin-d399/blob/3832d04b6f64812e50fff2b521f6e13783ba3108/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@huanlin/dsh-plugin-d399",
+          "command": "dsh plugin --profile web add @huanlin/dsh-plugin-d399",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huanlin/dsh-plugin-d399",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuanLinOTO/dsh-plugin-d399",
+        "commit": "3832d04b6f64812e50fff2b521f6e13783ba3108"
+      },
+      "manifestSha256": "57b69898d6c7b4ad0db178e01a636f92c4ed9cc0aa06c08fe46a9a32bfccb59c",
+      "manifestUrl": "https://github.com/HuanLinOTO/dsh-plugin-d399/blob/3832d04b6f64812e50fff2b521f6e13783ba3108/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@huanlin/dsh-plugin-d399",
+      "origin": "npm",
+      "name": "@huanlin/dsh-plugin-d399",
+      "version": "0.2.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "28032a3fac1784928040c7a598d7f5634d9e9e11b0a413fd328616d03d734848"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HuanLinOTO/dsh-plugin-d399",
+    "commit": "3832d04b6f64812e50fff2b521f6e13783ba3108",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:54.309Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:21.585Z",
+  "contentReviewFlags": []
+}

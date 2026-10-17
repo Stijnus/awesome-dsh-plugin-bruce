@@ -1,0 +1,112 @@
+{
+  "full_name": "anweat/dsh-browser",
+  "originalPosition": 566,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@anweat/dsh-browser@0.1.15"
+  ],
+  "manualNote": null,
+  "ordinal": 585,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:05:42.379Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f3a4883fe9b8d68dbb463a992e5f301443d200582d686f60addca3a137d51fb4",
+      "url": "https://github.com/anweat/dsh-browser/blob/e19672d23036ff7e5b5803532f103cbce0228924/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@anweat/dsh-browser@0.2.1",
+          "command": "dsh plugin --profile web add @anweat/dsh-browser@0.2.1",
+          "profile": "web"
+        },
+        {
+          "install": "@anweat/dsh-browser@0.1.17",
+          "command": "dsh plugin --profile web add @anweat/dsh-browser@0.1.17",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@anweat/dsh-browser",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/anweat/dsh-browser",
+        "commit": "e19672d23036ff7e5b5803532f103cbce0228924"
+      },
+      "manifestSha256": "199338b3b7a24a145e58c5df9e1526f0a44e1d79d1a07a46943b95ac89c00d35",
+      "manifestUrl": "https://github.com/anweat/dsh-browser/blob/e19672d23036ff7e5b5803532f103cbce0228924/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@anweat/dsh-browser@0.1.15",
+      "origin": "npm",
+      "name": "@anweat/dsh-browser",
+      "version": "0.1.15",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "b1c9b37e25b534544dfb127d5139a903ab634423c01d866b0152c71a99ccb5c4"
+    },
+    {
+      "target": "@anweat/dsh-browser@0.2.1",
+      "origin": "npm",
+      "name": "@anweat/dsh-browser",
+      "version": "0.2.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "b1c9b37e25b534544dfb127d5139a903ab634423c01d866b0152c71a99ccb5c4"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@anweat/dsh-browser",
+      "version": "0.1.17",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@anweat/dsh-browser@0.1.15",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@anweat/dsh-browser@0.2.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@anweat/dsh-browser@0.1.17",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/anweat/dsh-browser",
+    "commit": "e19672d23036ff7e5b5803532f103cbce0228924",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:51.079Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:32.862Z",
+  "contentReviewFlags": []
+}

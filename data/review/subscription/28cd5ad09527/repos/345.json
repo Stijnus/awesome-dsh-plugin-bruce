@@ -1,0 +1,586 @@
+{
+  "full_name": "wingsky-1/dsh-plugin-hub",
+  "originalPosition": 199,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@wingsky-1/dsh-plugins-all"
+  ],
+  "manualNote": null,
+  "ordinal": 345,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:05:36.528Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ace5c30e4d40dd400ea321ab9f8ec1047df1c4b1c60e113a4659c2f1d4a1c748",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-plugins-all",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-plugins-all",
+          "profile": "web"
+        },
+        {
+          "install": "@wingsky-1/dsh-notifier",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-notifier",
+          "profile": "web"
+        },
+        {
+          "install": "@wingsky-1/dsh-lan-proxy",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-lan-proxy",
+          "profile": "web"
+        },
+        {
+          "install": "@wingsky-1/dsh-provider-usage",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-provider-usage",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/README.en.md",
+      "sha256": "84efb5793eb887c48a5a794c585adfac65587b26604fbd895c9a3c278ea64426",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-plugins-all",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-plugins-all",
+          "profile": "web"
+        },
+        {
+          "install": "@wingsky-1/dsh-notifier",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-notifier",
+          "profile": "web"
+        },
+        {
+          "install": "@wingsky-1/dsh-lan-proxy",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-lan-proxy",
+          "profile": "web"
+        },
+        {
+          "install": "@wingsky-1/dsh-provider-usage",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-provider-usage",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-lan-proxy/README.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-lan-proxy/README.md",
+      "sha256": "50bab985d4483d412324bd131ab97a4eddf5554e3ff147b52a8dfd0fb81f10b5",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-lan-proxy",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-lan-proxy",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-notifier/README.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-notifier/README.md",
+      "sha256": "5e74d191e101612857f9a488b6ecb1f74b03e9b59cdb660989e836ad550eb9d8",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-notifier",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-notifier",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-provider-usage/README.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-provider-usage/README.md",
+      "sha256": "5277158f4bac6b4173a215a39eaa7f077f5ee8e92a4d759e68515c80fc3b53b2",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-provider-usage",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-provider-usage",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-mcp-manager/README.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-mcp-manager/README.md",
+      "sha256": "b3d9ad516af55e614da5fec4ed638d25e7b5ad3539a10db9181c64e3703b021a",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-mcp-manager",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-mcp-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-verify-isolated/README.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-verify-isolated/README.md",
+      "sha256": "6557dbb80767c57b67a7d69dc7451866a11ceececddc128f3396db5e98e3f576",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-verify-isolated",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-verify-isolated",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-worktree-sidebar/README.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-worktree-sidebar/README.md",
+      "sha256": "33fe7a128631398f4fa5213fe4f0998e7b242b88c8aa3c741957b6ed39bdef38",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-worktree-sidebar",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-worktree-sidebar",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/docs/architecture/README.md",
+      "sha256": "fc876681f291e85d3fc86cbbf0348b4949864e1fca15bc006575dd5b1800944a",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/dsh-lan-proxy/README.en.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-lan-proxy/README.en.md",
+      "sha256": "b73017ad9c868b4721b23209e7b877b2b4921b1954a606b4ab111d2a775154a9",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-lan-proxy",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-lan-proxy",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-notifier/README.en.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-notifier/README.en.md",
+      "sha256": "c89f3056a7617088c307be4a656467d9bd3db73c33803db2449d2a29c009f042",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-notifier",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-notifier",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-provider-usage/README.en.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-provider-usage/README.en.md",
+      "sha256": "6dd4ce7ae5e2b4e91c58db55adf2ba353bced7cb58568065f0b201df62bf5edc",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-provider-usage",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-provider-usage",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-mcp-manager/README.en.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-mcp-manager/README.en.md",
+      "sha256": "ca82263ea8b4ae0599dd67db0b62739484fb6fd872c2f07e794552aaf72cd129",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-mcp-manager",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-mcp-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-verify-isolated/README.en.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-verify-isolated/README.en.md",
+      "sha256": "bb1690e606852bdcb9ad3abac7bb5663d8efe355feaad76ed0085d18b797fb29",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-verify-isolated",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-verify-isolated",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-worktree-sidebar/README.en.md",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-worktree-sidebar/README.en.md",
+      "sha256": "49197e3d5751d9e4b3ac5a032d3df8b33575e4cc6a78ea9e7cbbf1f122bc9c75",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@wingsky-1/dsh-worktree-sidebar",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-worktree-sidebar",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@wingsky-1/dsh-decision-gateway",
+      "version": "0.2.9",
+      "path": "packages/dsh-decision-gateway",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wingsky-1/dsh-plugin-hub",
+        "commit": "97cc69f0add5f4e999461df4590737c33b0376fc",
+        "path": "packages/dsh-decision-gateway"
+      },
+      "manifestSha256": "74a176aeadc042e2e5fb40fefdd907689a23d1b2471ee1732c479940cc17661b",
+      "manifestUrl": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-decision-gateway/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@wingsky-1/dsh-lan-proxy",
+      "version": "0.2.9",
+      "path": "packages/dsh-lan-proxy",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wingsky-1/dsh-plugin-hub",
+        "commit": "97cc69f0add5f4e999461df4590737c33b0376fc",
+        "path": "packages/dsh-lan-proxy"
+      },
+      "manifestSha256": "4f1f2bd0a2e6a26c240248cc1efb1637b6dd990490be19bdcdac778a2d2ff434",
+      "manifestUrl": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-lan-proxy/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@wingsky-1/dsh-mcp-manager",
+      "version": "0.2.9",
+      "path": "packages/dsh-mcp-manager",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wingsky-1/dsh-plugin-hub",
+        "commit": "97cc69f0add5f4e999461df4590737c33b0376fc",
+        "path": "packages/dsh-mcp-manager"
+      },
+      "manifestSha256": "cfbb78aae5385531368816a6bee8428e57012cd492b799b77c6cb134ba71ae41",
+      "manifestUrl": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-mcp-manager/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@wingsky-1/dsh-notifier",
+      "version": "0.2.9",
+      "path": "packages/dsh-notifier",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wingsky-1/dsh-plugin-hub",
+        "commit": "97cc69f0add5f4e999461df4590737c33b0376fc",
+        "path": "packages/dsh-notifier"
+      },
+      "manifestSha256": "10f13238e4f482156f7065c37938e6bb211c04a8aef7af8318dfba229329d26d",
+      "manifestUrl": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-notifier/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@wingsky-1/dsh-plugins-all",
+      "version": "0.2.9",
+      "path": "packages/dsh-plugins-all",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wingsky-1/dsh-plugin-hub",
+        "commit": "97cc69f0add5f4e999461df4590737c33b0376fc",
+        "path": "packages/dsh-plugins-all"
+      },
+      "manifestSha256": "c55dc642fc88a200ad97d9311f4ff2b7109dd6b941cb1570795eae095df37f70",
+      "manifestUrl": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-plugins-all/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@wingsky-1/dsh-provider-usage",
+      "version": "0.2.9",
+      "path": "packages/dsh-provider-usage",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wingsky-1/dsh-plugin-hub",
+        "commit": "97cc69f0add5f4e999461df4590737c33b0376fc",
+        "path": "packages/dsh-provider-usage"
+      },
+      "manifestSha256": "90b07d01e60169dbbf14ac92d433f91c67101a54e6c7d0090e47d354c1fec0c3",
+      "manifestUrl": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-provider-usage/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@wingsky-1/dsh-verify-isolated",
+      "version": "0.2.9",
+      "path": "packages/dsh-verify-isolated",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wingsky-1/dsh-plugin-hub",
+        "commit": "97cc69f0add5f4e999461df4590737c33b0376fc",
+        "path": "packages/dsh-verify-isolated"
+      },
+      "manifestSha256": "eae060422211e274fd5056640136ecba5a7c74042af16437dda0dd64f48364e0",
+      "manifestUrl": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-verify-isolated/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@wingsky-1/dsh-worktree-sidebar",
+      "version": "0.2.9",
+      "path": "packages/dsh-worktree-sidebar",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wingsky-1/dsh-plugin-hub",
+        "commit": "97cc69f0add5f4e999461df4590737c33b0376fc",
+        "path": "packages/dsh-worktree-sidebar"
+      },
+      "manifestSha256": "6ddf471de7c8e10e9226be83d891dbfc7274de776e3af48bc7ed8d58110e5122",
+      "manifestUrl": "https://github.com/wingsky-1/dsh-plugin-hub/blob/97cc69f0add5f4e999461df4590737c33b0376fc/packages/dsh-worktree-sidebar/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@wingsky-1/dsh-plugins-all",
+      "origin": "npm",
+      "name": "@wingsky-1/dsh-plugins-all",
+      "version": "0.2.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "5981260a7548d9100da327f34573700d43ec90792002977addd06abaee0c50e6"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@wingsky-1/dsh-lan-proxy",
+      "version": "0.2.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@wingsky-1/dsh-notifier",
+      "version": "0.2.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@wingsky-1/dsh-provider-usage",
+      "version": "0.2.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@wingsky-1/dsh-mcp-manager",
+      "version": "0.2.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@wingsky-1/dsh-verify-isolated",
+      "version": "0.2.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@wingsky-1/dsh-worktree-sidebar",
+      "version": "0.2.9",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "@wingsky-1/dsh-plugins-all",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@wingsky-1/dsh-lan-proxy",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@wingsky-1/dsh-notifier",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@wingsky-1/dsh-provider-usage",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@wingsky-1/dsh-mcp-manager",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@wingsky-1/dsh-verify-isolated",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@wingsky-1/dsh-worktree-sidebar",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wingsky-1/dsh-plugin-hub",
+    "commit": "97cc69f0add5f4e999461df4590737c33b0376fc",
+    "releaseTags": 32,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:02.209Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-lan-proxy/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-notifier/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-provider-usage/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-mcp-manager/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-verify-isolated/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-worktree-sidebar/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-lan-proxy/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-notifier/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-provider-usage/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-mcp-manager/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-verify-isolated/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-worktree-sidebar/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-lan-proxy/README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-notifier/README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-provider-usage/README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-mcp-manager/README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-verify-isolated/README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "packages/dsh-worktree-sidebar/README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:09.576Z",
+  "coverageReviewedAt": "2026-10-17T17:12:20.751Z",
+  "contentReviewFlags": []
+}

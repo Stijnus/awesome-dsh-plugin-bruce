@@ -1,0 +1,125 @@
+{
+  "full_name": "Small-tailqwq/dsh-deepcel",
+  "originalPosition": 180,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+    "https://github.com/Small-tailqwq/dsh-deepcel"
+  ],
+  "manualNote": null,
+  "ordinal": 328,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:46.175Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ada96ce0babad00a4f2798a43fae8a97e6384a55caf576f9c0e47a6309394570",
+      "url": "https://github.com/Small-tailqwq/dsh-deepcel/blob/17a93e3c1248f1c11951fc73daa0e2a51059fbb3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#path:/skin-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deepcel",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deepcel'",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Small-tailqwq/dsh-deepcel/blob/17a93e3c1248f1c11951fc73daa0e2a51059fbb3/README.en.md",
+      "sha256": "b8b9c89aee24012fb5cc400022895c77120f9719bfefdc0f23d055c98af93b85",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#path:/skin-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deepcel",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deepcel'",
+          "profile": "web"
+        },
+        {
+          "install": "@smalltailqwq/dsh-client-ui-skin-deepcel",
+          "command": "dsh plugin --profile web add @smalltailqwq/dsh-client-ui-skin-deepcel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@smalltailqwq/dsh-client-ui-skin-deepcel",
+      "version": "0.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Small-tailqwq/dsh-deepcel",
+        "commit": "17a93e3c1248f1c11951fc73daa0e2a51059fbb3"
+      },
+      "manifestSha256": "0c1a5b749e65653cadec1d9d7d0fb49ad7d2260d3973c0f0da8ed9aa6a420c9f",
+      "manifestUrl": "https://github.com/Small-tailqwq/dsh-deepcel/blob/17a93e3c1248f1c11951fc73daa0e2a51059fbb3/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+      "origin": "git_target",
+      "path": "skin-manager",
+      "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
+      "name": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+      "version": "0.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "@smalltailqwq/dsh-client-ui-skin-deepcel",
+      "code": "npm_fetch_failed",
+      "status": "source_not_found",
+      "reason": "Registry HTTP 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@smalltailqwq/dsh-client-ui-skin-deepcel",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Small-tailqwq/dsh-deepcel",
+    "commit": "17a93e3c1248f1c11951fc73daa0e2a51059fbb3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:59.683Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:03.305Z",
+  "coverageReviewedAt": "2026-10-17T17:12:16.040Z",
+  "contentReviewFlags": []
+}

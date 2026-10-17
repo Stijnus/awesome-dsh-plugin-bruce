@@ -1,0 +1,86 @@
+{
+  "full_name": "xuzhougeng/ScientificFigureLibrary",
+  "originalPosition": 39,
+  "inputMode": "command",
+  "mappedTargets": [
+    "scientific-figure-library",
+    "scientific-figure-library"
+  ],
+  "manualNote": null,
+  "ordinal": 213,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:37.239Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1a4c606dde892ffb4eb3099e10083062b6ab43c34ef711041f9c0aaf3d514439",
+      "url": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/3291e4dc6cc6e88506e494180576a617280cf14f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "scientific-figure-library",
+          "command": "dsh plugin --profile web add scientific-figure-library",
+          "profile": "web"
+        },
+        {
+          "install": "scientific-figure-library",
+          "command": "dsh plugin add scientific-figure-library",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "fac722beae659a17347ac0d978534f5066d9778add3c05ab12f144e670f20747",
+      "url": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/3291e4dc6cc6e88506e494180576a617280cf14f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "scientific-figure-library",
+      "version": "0.9.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xuzhougeng/ScientificFigureLibrary",
+        "commit": "3291e4dc6cc6e88506e494180576a617280cf14f"
+      },
+      "manifestSha256": "eec91c6cae4cc45874a86b0672e7d7750ec84e39c00c65ecf1d73a7898317835",
+      "manifestUrl": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/3291e4dc6cc6e88506e494180576a617280cf14f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "scientific-figure-library",
+      "origin": "npm",
+      "name": "scientific-figure-library",
+      "version": "0.8.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "771bd49842fb21c885f2b6fd221b941cc59a2d9f9d0ee6ea661d8477c1c30b42"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xuzhougeng/ScientificFigureLibrary",
+    "commit": "3291e4dc6cc6e88506e494180576a617280cf14f",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:47.810Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.573Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,170 @@
+{
+  "full_name": "Breeze136/dsh-kb-rag",
+  "originalPosition": 405,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-kb-rag"
+  ],
+  "manualNote": null,
+  "ordinal": 484,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:41.713Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "164a084e9de5b1d6c280326c5db2b278942ecae9bb3dce23066c2431bb5774ce",
+      "url": "https://github.com/Breeze136/dsh-kb-rag/blob/56d34e052de39287e7fa268239adb8f176d6101d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-kb-rag",
+          "command": "dsh plugin --profile web add dsh-kb-rag",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-kb-rag@1.6.7",
+          "command": "dsh plugin --profile web add dsh-kb-rag@1.6.7",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "7ac0225aee13879f642db839663db3fcfffc97600367506196bfdfb8eceba495",
+      "url": "https://github.com/Breeze136/dsh-kb-rag/blob/56d34e052de39287e7fa268239adb8f176d6101d/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-kb-rag",
+          "command": "dsh plugin --profile web add dsh-kb-rag",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-kb-rag@1.6.7",
+          "command": "dsh plugin --profile web add dsh-kb-rag@1.6.7",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "npm-package/README.md",
+      "url": "https://github.com/Breeze136/dsh-kb-rag/blob/56d34e052de39287e7fa268239adb8f176d6101d/npm-package/README.md",
+      "sha256": "c483a278cecacc0ea08a723292c94f41f011dbe832c424ec046b3b6ca2106c12",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-kb-rag",
+          "command": "dsh plugin --profile web add dsh-kb-rag",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-kb-rag",
+          "command": "dsh plugin --profile <name> add dsh-kb-rag",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-kb-rag@latest",
+          "command": "dsh plugin --profile web add dsh-kb-rag@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-kb-rag@1.6.7",
+          "command": "dsh plugin --profile web add dsh-kb-rag@1.6.7",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "mcp-server/README.md",
+      "url": "https://github.com/Breeze136/dsh-kb-rag/blob/56d34e052de39287e7fa268239adb8f176d6101d/mcp-server/README.md",
+      "sha256": "ae9398a980d0b885a0e3ac9bb150b8463b4ba3bc0a8e5eadfddade932f8efb2b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-kb-rag",
+      "version": "0.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Breeze136/dsh-kb-rag",
+        "commit": "56d34e052de39287e7fa268239adb8f176d6101d"
+      },
+      "manifestSha256": "66cecfb3f1020f778f03d41e0c8565eed20b76bbcc8d1d326c1437b6776868a2",
+      "manifestUrl": "https://github.com/Breeze136/dsh-kb-rag/blob/56d34e052de39287e7fa268239adb8f176d6101d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-kb-rag",
+      "origin": "npm",
+      "name": "dsh-kb-rag",
+      "version": "1.6.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "bb0634b5ddb98db577f7b934fe916cfb52c80e98613b329ba2b95fe2e46acb62"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-kb-rag",
+      "version": "1.6.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-kb-rag@1.6.7",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-kb-rag@latest",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Breeze136/dsh-kb-rag",
+    "commit": "56d34e052de39287e7fa268239adb8f176d6101d",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:51.356Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "npm-package/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "mcp-server/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "npm-package/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "mcp-server/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:10.978Z",
+  "coverageReviewedAt": "2026-10-17T17:12:28.943Z",
+  "contentReviewFlags": []
+}

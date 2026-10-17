@@ -1,0 +1,72 @@
+{
+  "full_name": "Noelune/dsh-agent-relay",
+  "originalPosition": 484,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-agent-relay"
+  ],
+  "manualNote": null,
+  "ordinal": 541,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:24.400Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "98bc9bd3ad2b937b8b9b3126a8db0905de77eb079548b50f7685f7bc6bcfda10",
+      "url": "https://github.com/Noelune/dsh-agent-relay/blob/07d0d5bfa07ce4e6b495b5cfd840a2f331bd6316/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-agent-relay",
+          "command": "dsh plugin --profile web add dsh-agent-relay",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agent-relay",
+      "version": "0.8.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Noelune/dsh-agent-relay",
+        "commit": "07d0d5bfa07ce4e6b495b5cfd840a2f331bd6316"
+      },
+      "manifestSha256": "7f47cf4249de40e3a426cfbb051b68ef93106f2ea233d71e5f5efa53d8b9f5a4",
+      "manifestUrl": "https://github.com/Noelune/dsh-agent-relay/blob/07d0d5bfa07ce4e6b495b5cfd840a2f331bd6316/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-agent-relay",
+      "origin": "npm",
+      "name": "dsh-agent-relay",
+      "version": "0.5.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "df70ae59751190a9f6e85dd2cb200a1c3edbf4b233bc213c0bcad3227600f14c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Noelune/dsh-agent-relay",
+    "commit": "07d0d5bfa07ce4e6b495b5cfd840a2f331bd6316",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:32.542Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.720Z",
+  "contentReviewFlags": []
+}

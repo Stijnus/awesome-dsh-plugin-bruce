@@ -1,0 +1,99 @@
+{
+  "full_name": "TOBYCAI/dsh-sessions-manager",
+  "originalPosition": 596,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 160,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:59.516Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "990f3bde4daa8fe33581aeab44c0a6a70b3c6ae2c6a4bd8c24605c5bfe7788e3",
+      "url": "https://github.com/TOBYCAI/dsh-sessions-manager/blob/b4bf3d311942ef21b2b0670d0c0275eba17f5e9a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TOBYCAI/dsh-sessions-manager",
+          "command": "dsh plugin --profile desktop add \"github:TOBYCAI/dsh-sessions-manager\"",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/TOBYCAI/dsh-sessions-manager",
+          "command": "dsh plugin --profile web add \"github:TOBYCAI/dsh-sessions-manager\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/TOBYCAI/dsh-sessions-manager/blob/b4bf3d311942ef21b2b0670d0c0275eba17f5e9a/README.en.md",
+      "sha256": "8b6d03c6b918c7176c8fc8014d75e2df509c7aceb42d6d4f729c77286c70502b",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TOBYCAI/dsh-sessions-manager",
+          "command": "dsh plugin --profile desktop add \"github:TOBYCAI/dsh-sessions-manager\"",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/TOBYCAI/dsh-sessions-manager",
+          "command": "dsh plugin --profile web add \"github:TOBYCAI/dsh-sessions-manager\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sessions-manager",
+      "version": "3.7.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TOBYCAI/dsh-sessions-manager",
+        "commit": "b4bf3d311942ef21b2b0670d0c0275eba17f5e9a"
+      },
+      "manifestSha256": "642a8f6da8b5394933e60d0ee0d0eba8bb4a4ed9e65a23b473c80b54382cc236",
+      "manifestUrl": "https://github.com/TOBYCAI/dsh-sessions-manager/blob/b4bf3d311942ef21b2b0670d0c0275eba17f5e9a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TOBYCAI/dsh-sessions-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TOBYCAI/dsh-sessions-manager",
+    "commit": "b4bf3d311942ef21b2b0670d0c0275eba17f5e9a",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:07.093Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:53.124Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.407Z",
+  "contentReviewFlags": []
+}

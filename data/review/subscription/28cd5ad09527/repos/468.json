@@ -1,0 +1,72 @@
+{
+  "full_name": "BlockRunAI/dsh-clawrouter",
+  "originalPosition": 383,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-clawrouter"
+  ],
+  "manualNote": null,
+  "ordinal": 468,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:10.193Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2ee1d593bd05a83aa74e51ddd8e4c5741bfdfae93ea27ad727da05183bf8299f",
+      "url": "https://github.com/BlockRunAI/dsh-clawrouter/blob/5192ec9d12e1d7e8e16ba494e165e0f7efcb2ccc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-clawrouter",
+          "command": "dsh plugin --profile web add dsh-clawrouter",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-clawrouter",
+      "version": "0.12.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BlockRunAI/dsh-clawrouter",
+        "commit": "5192ec9d12e1d7e8e16ba494e165e0f7efcb2ccc"
+      },
+      "manifestSha256": "f23059b98146c6f812d9bd1d6ba281e37a491dbb925e4663126a4bcabbf8d5c7",
+      "manifestUrl": "https://github.com/BlockRunAI/dsh-clawrouter/blob/5192ec9d12e1d7e8e16ba494e165e0f7efcb2ccc/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-clawrouter",
+      "origin": "npm",
+      "name": "dsh-clawrouter",
+      "version": "0.12.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "4491924bcd096e001b959bd3ff269595dd15fefb4ba0a2a190f0361d2176d7bf"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BlockRunAI/dsh-clawrouter",
+    "commit": "5192ec9d12e1d7e8e16ba494e165e0f7efcb2ccc",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:18.146Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:26.289Z",
+  "contentReviewFlags": []
+}

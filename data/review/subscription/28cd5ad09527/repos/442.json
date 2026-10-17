@@ -1,0 +1,78 @@
+{
+  "full_name": "THU-MAIC/dsh-openmaic",
+  "originalPosition": 348,
+  "inputMode": "command",
+  "mappedTargets": [
+    "git+https://github.com/THU-MAIC/dsh-openmaic.git"
+  ],
+  "manualNote": null,
+  "ordinal": 442,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:27.192Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8fb1a07cd0082c80fb80a032fa568de18eb79076d1e7abdc7fa16d9cedda553d",
+      "url": "https://github.com/THU-MAIC/dsh-openmaic/blob/09c1693cfe83224db89fdd4abd245ac9174d3a05/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/THU-MAIC/dsh-openmaic.git",
+          "command": "dsh plugin --profile web add git+https://github.com/THU-MAIC/dsh-openmaic.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@openmaic/dsh-openmaic",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/THU-MAIC/dsh-openmaic",
+        "commit": "09c1693cfe83224db89fdd4abd245ac9174d3a05"
+      },
+      "manifestSha256": "b82dd92b707312a33465a1a363fd907484da7966065be9506bcb1db9313baa5c",
+      "manifestUrl": "https://github.com/THU-MAIC/dsh-openmaic/blob/09c1693cfe83224db89fdd4abd245ac9174d3a05/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@openmaic/dsh-openmaic",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1786627669,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/THU-MAIC/dsh-openmaic",
+              "commit": "09c1693cfe83224db89fdd4abd245ac9174d3a05"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/THU-MAIC/dsh-openmaic",
+    "commit": "09c1693cfe83224db89fdd4abd245ac9174d3a05",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:01:35.256Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:23.662Z",
+  "contentReviewFlags": []
+}

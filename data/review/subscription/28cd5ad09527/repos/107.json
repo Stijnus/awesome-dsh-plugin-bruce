@@ -1,0 +1,86 @@
+{
+  "full_name": "shuxidemosheng/dsh-tool-todo-plus",
+  "originalPosition": 478,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:08.395Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5e42d43074b7f5b9d4abdae30c157130e77fe0b208da77e579c7f142738515a4",
+      "url": "https://github.com/shuxidemosheng/dsh-tool-todo-plus/blob/c5216b02461e380cd765700bf5db62d7875dbd9d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tool-todo-plus",
+          "command": "dsh plugin --profile <你的profile名> add dsh-tool-todo-plus",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/shuxidemosheng/dsh-tool-todo-plus.git",
+          "command": "dsh plugin --profile <你的profile名> add https://github.com/shuxidemosheng/dsh-tool-todo-plus.git",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tool-todo-plus",
+      "version": "0.7.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shuxidemosheng/dsh-tool-todo-plus",
+        "commit": "c5216b02461e380cd765700bf5db62d7875dbd9d"
+      },
+      "manifestSha256": "35ff870f0a9bc94cb6a70e01ca5e77d0e9cd5862f1dc4ca2dd850d2916ff499e",
+      "manifestUrl": "https://github.com/shuxidemosheng/dsh-tool-todo-plus/blob/c5216b02461e380cd765700bf5db62d7875dbd9d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-tool-todo-plus",
+      "origin": "npm",
+      "name": "dsh-tool-todo-plus",
+      "version": "0.7.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "52422e78366648e24037968e6038a39cecaf7dd8963f03c3ca983d83d2b655fe"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tool-todo-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/shuxidemosheng/dsh-tool-todo-plus.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shuxidemosheng/dsh-tool-todo-plus",
+    "commit": "c5216b02461e380cd765700bf5db62d7875dbd9d",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:16.582Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:05.897Z",
+  "contentReviewFlags": []
+}

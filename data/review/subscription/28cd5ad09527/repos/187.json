@@ -1,0 +1,90 @@
+{
+  "full_name": "ccch1mneyyy/dsh-TUI",
+  "originalPosition": 2,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@deepseek-harness-tui/dsh-tui"
+  ],
+  "manualNote": null,
+  "ordinal": 187,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:04:59.288Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ece85127309df327e33e783f8e098feab2fb3da1d64df65ccdb5a35e3af1a79f",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI/blob/e7089e5d11391cf0f889a31c9f9522f2e7011386/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@deepseek-harness-tui/dsh-tui",
+          "command": "dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI/blob/e7089e5d11391cf0f889a31c9f9522f2e7011386/docs/README.md",
+      "sha256": "0637f6f8b238f5795bed764c173d128c37a98742ac2f91e5bd90a329d28e213d",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-harness-tui/dsh-tui",
+      "version": "0.16.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+        "commit": "e7089e5d11391cf0f889a31c9f9522f2e7011386"
+      },
+      "manifestSha256": "5432076ba95780b8c1291f80f81c61e43417dff26f704c98cdecd7ec748ac6bb",
+      "manifestUrl": "https://github.com/ccch1mneyyy/dsh-TUI/blob/e7089e5d11391cf0f889a31c9f9522f2e7011386/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@deepseek-harness-tui/dsh-tui",
+      "origin": "npm",
+      "name": "@deepseek-harness-tui/dsh-tui",
+      "version": "0.16.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "364ce67f64b8afd08b91faca74b666f5a2fe67da106c3a967c1b948deac35b7e"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+    "commit": "e7089e5d11391cf0f889a31c9f9522f2e7011386",
+    "releaseTags": 44,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:05:09.667Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:53.794Z",
+  "coverageReviewedAt": "2026-10-17T17:12:07.847Z",
+  "contentReviewFlags": []
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "398894496-arch/KRouter",
+  "originalPosition": 145,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/398894496-arch/KRouter"
+  ],
+  "manualNote": null,
+  "ordinal": 303,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:43.169Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ec27715dc0e0c73adea83c249680a77de8b44663f33d55f37d9c52d60450c0b1",
+      "url": "https://github.com/398894496-arch/KRouter/blob/d60ca9d0107c9680eb0df9abe4e6dbc09bfa00de/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e7e0b0ab45a273e8e653b9de15796332dd118ab6f972f8d606729eed3b8bfc96",
+      "url": "https://github.com/398894496-arch/KRouter/blob/d60ca9d0107c9680eb0df9abe4e6dbc09bfa00de/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-krouter",
+      "version": "1.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/398894496-arch/KRouter",
+        "commit": "d60ca9d0107c9680eb0df9abe4e6dbc09bfa00de"
+      },
+      "manifestSha256": "9d6ce660025f4a21f43d9b3ad45757a556e33422877ecf9c55fc7f04cbfa3fd8",
+      "manifestUrl": "https://github.com/398894496-arch/KRouter/blob/d60ca9d0107c9680eb0df9abe4e6dbc09bfa00de/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/398894496-arch/KRouter",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/398894496-arch/KRouter",
+    "commit": "d60ca9d0107c9680eb0df9abe4e6dbc09bfa00de",
+    "releaseTags": 32,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:52.178Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:12.936Z",
+  "contentReviewFlags": []
+}

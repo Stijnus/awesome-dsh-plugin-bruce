@@ -1,0 +1,129 @@
+{
+  "full_name": "omdsh-dev/dsh-toolkit",
+  "originalPosition": 161,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/omdsh-dev/dsh-tool-csv",
+    "https://github.com/omdsh-dev/dsh-tool-diff",
+    "https://github.com/omdsh-dev/dsh-toolkit"
+  ],
+  "manualNote": null,
+  "ordinal": 314,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:11.592Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2494932b31ddc0c5bf0d3c6d615b60848b12692e4867b51eeb8a00a20ca73153",
+      "url": "https://github.com/omdsh-dev/dsh-toolkit/blob/c3319d9d3e78a18191e1381461b69e84bc547575/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-tool-csv",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-tool-csv",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-tool-diff",
+          "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-tool-diff",
+          "profile": "headless"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-toolkit",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-toolkit",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/omdsh-dev/dsh-toolkit/blob/c3319d9d3e78a18191e1381461b69e84bc547575/README.en.md",
+      "sha256": "3f21eb548eeadc241ee5963e61e847a45ff075bda09695c8f2e875cc0470239e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-tool-csv",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-tool-csv",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-tool-diff",
+          "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-tool-diff",
+          "profile": "headless"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-toolkit",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-toolkit",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-toolkit",
+      "version": "0.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-toolkit",
+        "commit": "c3319d9d3e78a18191e1381461b69e84bc547575"
+      },
+      "manifestSha256": "e35ded8a9ebc85b9e75720d89f5610776d594b8f67185606957fdd6529726ff9",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-toolkit/blob/c3319d9d3e78a18191e1381461b69e84bc547575/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/omdsh-dev/dsh-tool-csv",
+      "origin": "git_target",
+      "path": "",
+      "commit": "b41022b81e944cc0429ac013757a1deedd4a780f",
+      "name": "@deepseek-ai/dsh-tool-csv",
+      "version": "0.0.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    },
+    {
+      "target": "https://github.com/omdsh-dev/dsh-tool-diff",
+      "origin": "git_target",
+      "path": "",
+      "commit": "f5ca7c4a4e04c0f8cfbe7c51acc510615391aef9",
+      "name": "@deepseek-ai/dsh-tool-diff",
+      "version": "0.0.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-toolkit",
+    "commit": "c3319d9d3e78a18191e1381461b69e84bc547575",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:33.146Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:01.020Z",
+  "coverageReviewedAt": "2026-10-17T17:12:13.925Z",
+  "contentReviewFlags": []
+}

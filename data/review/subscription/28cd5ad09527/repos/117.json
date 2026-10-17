@@ -1,0 +1,90 @@
+{
+  "full_name": "Letter2025/dsh-tool-search",
+  "originalPosition": 501,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 117,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:33.039Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2d65ade51c6adf7f12c355e719f9824484735bdfd71cb1e94362d2a4be22a22d",
+      "url": "https://github.com/Letter2025/dsh-tool-search/blob/12b9721d8c61ccf08d0295ecc1ca369f8682532f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tool-search",
+          "command": "dsh plugin --profile web add dsh-tool-search",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8bc5112d2209a7028526d569d2f9f49f897519240ed0fb4f1920bbe4bcaa8fd3",
+      "url": "https://github.com/Letter2025/dsh-tool-search/blob/12b9721d8c61ccf08d0295ecc1ca369f8682532f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tool-search",
+          "command": "dsh plugin --profile web add dsh-tool-search",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tool-search",
+      "version": "0.1.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Letter2025/dsh-tool-search",
+        "commit": "12b9721d8c61ccf08d0295ecc1ca369f8682532f"
+      },
+      "manifestSha256": "224026ccc766df666106c76cf377bb33c37cd113edd475cb146fa2d0e5526823",
+      "manifestUrl": "https://github.com/Letter2025/dsh-tool-search/blob/12b9721d8c61ccf08d0295ecc1ca369f8682532f/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-tool-search",
+      "origin": "npm",
+      "name": "dsh-tool-search",
+      "version": "0.1.7",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3e3a7ebcf788998ed4c5a6e3520c8d994a3aef3f048a9fc8633c1f38c0688037"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tool-search",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Letter2025/dsh-tool-search",
+    "commit": "12b9721d8c61ccf08d0295ecc1ca369f8682532f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:43.123Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.205Z",
+  "contentReviewFlags": []
+}

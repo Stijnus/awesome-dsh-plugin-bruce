@@ -1,0 +1,72 @@
+{
+  "full_name": "liceses/dsh-gitbash-preset",
+  "originalPosition": 31,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@icelily/dsh-gitbash-preset"
+  ],
+  "manualNote": null,
+  "ordinal": 207,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:00:27.756Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8094e3b5debe73d14da1858da97b4cbff63546a36842c71ca31009d37a347c5b",
+      "url": "https://github.com/liceses/dsh-gitbash-preset/blob/6e873bb6a1ee3add78f8e2ecce42dabaeb445e09/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@icelily/dsh-gitbash-preset",
+          "command": "dsh plugin --profile web add @icelily/dsh-gitbash-preset",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@icelily/dsh-gitbash-preset",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liceses/dsh-gitbash-preset",
+        "commit": "6e873bb6a1ee3add78f8e2ecce42dabaeb445e09"
+      },
+      "manifestSha256": "9fc4a3bd5f10e72da5caf78977381c7c71d6fa792f1ce9cf64c065dda76152b2",
+      "manifestUrl": "https://github.com/liceses/dsh-gitbash-preset/blob/6e873bb6a1ee3add78f8e2ecce42dabaeb445e09/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@icelily/dsh-gitbash-preset",
+      "origin": "npm",
+      "name": "@icelily/dsh-gitbash-preset",
+      "version": "0.1.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "b055cf764e54efb22dde16b56c5fb540b3270f281fdf3898274860212d3be8c7"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liceses/dsh-gitbash-preset",
+    "commit": "6e873bb6a1ee3add78f8e2ecce42dabaeb445e09",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:38.708Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:08.401Z",
+  "contentReviewFlags": []
+}

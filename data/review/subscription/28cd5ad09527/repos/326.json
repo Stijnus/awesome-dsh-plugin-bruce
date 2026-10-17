@@ -1,0 +1,252 @@
+{
+  "full_name": "PerryLink/dsh-fund-research",
+  "originalPosition": 177,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-fund-research"
+  ],
+  "manualNote": null,
+  "ordinal": 326,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:42.069Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c647a9cf1d05ec8bb8a55619e8cb534fa9324d81ad8ced18c3002cc49f94d253",
+      "url": "https://github.com/PerryLink/dsh-fund-research/blob/508a04d06407aa1553c8a45c2d3e69c9bbd9f6ac/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-fund-research",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-fund-research",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fund-research",
+          "command": "dsh plugin --profile web add dsh-fund-research",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-fund-research/blob/508a04d06407aa1553c8a45c2d3e69c9bbd9f6ac/README-zh.md",
+      "sha256": "e47ade2b2a67437ebe20e57a75d16ec22a0711da123635917adbe5441c96b19c",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-fund-research",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-fund-research",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fund-research",
+          "command": "dsh plugin --profile web add dsh-fund-research",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-fund-research/blob/508a04d06407aa1553c8a45c2d3e69c9bbd9f6ac/README-es.md",
+      "sha256": "93c4e7caac86c7f0bd2afd102fcb93609d331f20fafc70be22721d01743f8a0f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-fund-research",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-fund-research",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fund-research",
+          "command": "dsh plugin --profile web add dsh-fund-research",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-fund-research/blob/508a04d06407aa1553c8a45c2d3e69c9bbd9f6ac/README-pt.md",
+      "sha256": "61377ebb1177cc5107ae42db9d05867f93fdb0b029223a4ed5882d4655a50866",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-fund-research",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-fund-research",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fund-research",
+          "command": "dsh plugin --profile web add dsh-fund-research",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-fund-research/blob/508a04d06407aa1553c8a45c2d3e69c9bbd9f6ac/README-hi.md",
+      "sha256": "c18187659b8f50605321e6733c43c097fa12e75fe6dcd53ca5584904bf72d047",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-fund-research",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-fund-research",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fund-research",
+          "command": "dsh plugin --profile web add dsh-fund-research",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fund-research",
+      "version": "0.4.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-fund-research",
+        "commit": "508a04d06407aa1553c8a45c2d3e69c9bbd9f6ac"
+      },
+      "manifestSha256": "0e94fbe937052a94ccea53ff4581fad3ac06dc2e4d9b7708d1e1769e383c12b0",
+      "manifestUrl": "https://github.com/PerryLink/dsh-fund-research/blob/508a04d06407aa1553c8a45c2d3e69c9bbd9f6ac/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-fund-research",
+        "versions": [
+          {
+            "version": "0.4.20",
+            "publishTimestamp": 1791812999,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-fund-research",
+              "commit": "508a04d06407aa1553c8a45c2d3e69c9bbd9f6ac"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-fund-research",
+      "origin": "npm",
+      "name": "dsh-fund-research",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fund-research",
+        "title": "dsh-fund-research",
+        "description": "Research plugin for Chinese public mutual funds on DeepSeek Harness: collects fund data from public sources (Tiantian Fund / Eastmoney), computes deterministic metrics (manager profile, holdings penetration, style attribution, performance decomposition), and seals versioned Markdown research reports whose every key number traces back to a hashed source snapshot. Research only — no trading, no investment advice.",
+        "author": "dsh-fund-research contributors",
+        "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-fund-research"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "fund-research",
+            "mutual-fund",
+            "investment-research",
+            "finance",
+            "research-report"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.20",
+            "publishTimestamp": 1791594054,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9a936be8fab0a63306e249747ad335712360858d9ded878ef61bbea182a3eff6",
+      "evidence": [
+        {
+          "name": "dsh-fund-research",
+          "version": "0.4.20",
+          "tarball": "https://registry.npmjs.org/dsh-fund-research/-/dsh-fund-research-0.4.20.tgz",
+          "integrity": "sha512-Kui9EU3dnfAEvNh1kbgfq+4eIn+0ODgqFlNEOsy6dvtCgADRKM07m08TlpRKfJOkDvEk7XshroA/ETRwA+7HJg=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-fund-research",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-fund-research",
+    "commit": "508a04d06407aa1553c8a45c2d3e69c9bbd9f6ac",
+    "releaseTags": 28,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:04:59.838Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:03.826Z",
+  "coverageReviewedAt": "2026-10-17T17:12:16.805Z",
+  "contentReviewFlags": []
+}

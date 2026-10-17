@@ -1,0 +1,91 @@
+{
+  "full_name": "inmny/dsh-git-bash",
+  "originalPosition": 291,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-plugin-git-bash"
+  ],
+  "manualNote": null,
+  "ordinal": 403,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:21.355Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e5522c51cf799fac995a9389d942417e12a61cc239cc96d15709e3b9f6ed3237",
+      "url": "https://github.com/inmny/dsh-git-bash/blob/3a254f6e74e65ef6bb249852216e5ac9004c1636/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-git-bash",
+          "command": "dsh plugin --profile web add dsh-plugin-git-bash",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-git-bash@0.3.3",
+          "command": "dsh plugin --profile web add dsh-plugin-git-bash@0.3.3",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-git-bash",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/inmny/dsh-git-bash",
+        "commit": "3a254f6e74e65ef6bb249852216e5ac9004c1636"
+      },
+      "manifestSha256": "a20dc772681457d4c6a49e6ac9904b0440075ae938f7c80a4a696efa7a61251c",
+      "manifestUrl": "https://github.com/inmny/dsh-git-bash/blob/3a254f6e74e65ef6bb249852216e5ac9004c1636/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-plugin-git-bash",
+      "origin": "npm",
+      "name": "dsh-plugin-git-bash",
+      "version": "0.3.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "c492d9db3a20f36e75ddeedc5addd61834707462e6bd1862fd512e6c8e5ba3c6"
+    },
+    {
+      "origin": "linked_readme",
+      "name": "dsh-plugin-git-bash",
+      "version": "0.3.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-git-bash@0.3.3",
+      "action": "子目录安装指南新发现的目标；按来源取证和分发方式判断，不自动替换映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/inmny/dsh-git-bash",
+    "commit": "3a254f6e74e65ef6bb249852216e5ac9004c1636",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:30.465Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:21.086Z",
+  "contentReviewFlags": []
+}

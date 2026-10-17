@@ -1,0 +1,76 @@
+{
+  "full_name": "Imzl-zl/dsh-toolbox-ui",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 34,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:00.146Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "84b6711b96f29cf7a8f16d7dfaa2d7d5c0fa6878651cc1bc1b75bba23c7599b6",
+      "url": "https://github.com/Imzl-zl/dsh-toolbox-ui/blob/3c2a26d1de27bfba2b1b1ad7fcc9c1d431b8ac4c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Imzl-zl/dsh-toolbox-ui#v1.7.2",
+          "command": "dsh plugin --profile web add github:Imzl-zl/dsh-toolbox-ui#v1.7.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-toolbox-ui",
+      "version": "1.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Imzl-zl/dsh-toolbox-ui",
+        "commit": "3c2a26d1de27bfba2b1b1ad7fcc9c1d431b8ac4c"
+      },
+      "manifestSha256": "aef883ea7cbb03fae661c976e1ab940f1274d25ea33dcc03844114f9151ab876",
+      "manifestUrl": "https://github.com/Imzl-zl/dsh-toolbox-ui/blob/3c2a26d1de27bfba2b1b1ad7fcc9c1d431b8ac4c/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/Imzl-zl/dsh-toolbox-ui#v1.7.2",
+      "origin": "git_target",
+      "path": "",
+      "commit": "3c2a26d1de27bfba2b1b1ad7fcc9c1d431b8ac4c",
+      "name": "dsh-toolbox-ui",
+      "version": "1.7.2",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Imzl-zl/dsh-toolbox-ui#v1.7.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Imzl-zl/dsh-toolbox-ui",
+    "commit": "3c2a26d1de27bfba2b1b1ad7fcc9c1d431b8ac4c",
+    "releaseTags": 33,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:16.551Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:03.967Z",
+  "contentReviewFlags": []
+}

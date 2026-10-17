@@ -1,0 +1,54 @@
+{
+  "full_name": "Tlyer233/dsh-vscode-review",
+  "originalPosition": 521,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:02:45.849Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "035cd19522923eba538a14047be4296e979458d09e1aae488f6045572d3e1615",
+      "url": "https://github.com/Tlyer233/dsh-vscode-review/blob/18ed68705376feea97ffc76260948648efc2701d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-review",
+      "version": "0.1.66",
+      "path": "dsh-review",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tlyer233/dsh-vscode-review",
+        "commit": "18ed68705376feea97ffc76260948648efc2701d",
+        "path": "dsh-review"
+      },
+      "manifestSha256": "a0d1e1a10081d00595cc775199e9964fb91c17575d87a6a4033a15982f8e8c07",
+      "manifestUrl": "https://github.com/Tlyer233/dsh-vscode-review/blob/18ed68705376feea97ffc76260948648efc2701d/dsh-review/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tlyer233/dsh-vscode-review",
+    "commit": "18ed68705376feea97ffc76260948648efc2701d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:55.106Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.363Z",
+  "contentReviewFlags": []
+}

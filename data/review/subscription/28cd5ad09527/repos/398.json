@@ -1,0 +1,72 @@
+{
+  "full_name": "Fayelin12/dsh-office",
+  "originalPosition": 284,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-office"
+  ],
+  "manualNote": null,
+  "ordinal": 398,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:07:34.308Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0e5f7eba232d544af9ff9d3763f14232b29e6910a8714dc2e5189997e4c3d500",
+      "url": "https://github.com/Fayelin12/dsh-office/blob/3fd29e7489d221c3e4b2d40f7c961423f33e73fe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-office",
+          "command": "dsh plugin --profile web add dsh-office",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-office",
+      "version": "0.4.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fayelin12/dsh-office",
+        "commit": "3fd29e7489d221c3e4b2d40f7c961423f33e73fe"
+      },
+      "manifestSha256": "f4459636158533268c436d0b02750ac4162765db581470188d9d7a6c7f2d68b4",
+      "manifestUrl": "https://github.com/Fayelin12/dsh-office/blob/3fd29e7489d221c3e4b2d40f7c961423f33e73fe/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-office",
+      "origin": "npm",
+      "name": "dsh-office",
+      "version": "0.4.6",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "d1370c479f7dd55389d24d3038b9e0c7123271b6b98131da9c210e8106ee10fa"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fayelin12/dsh-office",
+    "commit": "3fd29e7489d221c3e4b2d40f7c961423f33e73fe",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:07:42.594Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:20.461Z",
+  "contentReviewFlags": []
+}

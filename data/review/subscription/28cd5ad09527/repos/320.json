@@ -1,0 +1,61 @@
+{
+  "full_name": "yjh051108/dsh-super-injector",
+  "originalPosition": 168,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/yjh051108/dsh-super-injector"
+  ],
+  "manualNote": null,
+  "ordinal": 320,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:04:26.798Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6575264f60a036f0bc6d7493b96b1a6ed531c6d13150371504c3aabbddc889d9",
+      "url": "https://github.com/yjh051108/dsh-super-injector/blob/e2fca6e2dc5d926bb33fbd1376780bb5e93f4974/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yjh051108/dsh-super-injector",
+          "command": "dsh plugin --profile web add github:yjh051108/dsh-super-injector",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-super-injector",
+      "version": "0.3.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yjh051108/dsh-super-injector",
+        "commit": "e2fca6e2dc5d926bb33fbd1376780bb5e93f4974"
+      },
+      "manifestSha256": "4aa619edd3fbf39bf1ea7e72acc122ac4e412dbd4e0652025908646c393eab2c",
+      "manifestUrl": "https://github.com/yjh051108/dsh-super-injector/blob/e2fca6e2dc5d926bb33fbd1376780bb5e93f4974/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yjh051108/dsh-super-injector",
+    "commit": "e2fca6e2dc5d926bb33fbd1376780bb5e93f4974",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:35.288Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:14.692Z",
+  "contentReviewFlags": []
+}

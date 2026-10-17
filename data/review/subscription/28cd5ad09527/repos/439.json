@@ -1,0 +1,86 @@
+{
+  "full_name": "MichengAI/dsh-codex-ui",
+  "originalPosition": 342,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@michengai/dsh-codex-ui@latest"
+  ],
+  "manualNote": null,
+  "ordinal": 439,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:21.494Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b14f9717361e29493ab383bbdf4687eb0ecb47ccce5eb9701eb1d273323c0b44",
+      "url": "https://github.com/MichengAI/dsh-codex-ui/blob/cda6771458ce8e157774e18b033b1c97c909dab1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-ui@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-ui@latest --registry=https://registry.npmjs.org/. Then run dsh --profile web --dump-config, confirm the configuration includes",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "f5c92f724ff30c57880d381e5d738d8974f8f1f4a381cc2f84a42f3d997ba13b",
+      "url": "https://github.com/MichengAI/dsh-codex-ui/blob/cda6771458ce8e157774e18b033b1c97c909dab1/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-ui@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-ui@latest --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-codex-ui",
+      "version": "1.1.42",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-codex-ui",
+        "commit": "cda6771458ce8e157774e18b033b1c97c909dab1"
+      },
+      "manifestSha256": "cc3b74b0680d104c8b911005a0191608fae49b5fe23fe90b028398439a6d42f8",
+      "manifestUrl": "https://github.com/MichengAI/dsh-codex-ui/blob/cda6771458ce8e157774e18b033b1c97c909dab1/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@michengai/dsh-codex-ui@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-codex-ui",
+      "version": "1.1.40",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "8640e57e1ec45bf8697fc9a5a60e4b3c669c5f74fef406f19aa59853c7710208"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-codex-ui",
+    "commit": "cda6771458ce8e157774e18b033b1c97c909dab1",
+    "releaseTags": 159,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:31.255Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:23.660Z",
+  "contentReviewFlags": []
+}

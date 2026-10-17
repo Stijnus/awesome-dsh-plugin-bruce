@@ -1,0 +1,53 @@
+{
+  "full_name": "988hj7tczd-oss/dsh-computer-use",
+  "originalPosition": 213,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 40,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:14.101Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c0175e2d81496c6f3e0d2b391ef35f6349f17793d3af2c5086cb66583e386a57",
+      "url": "https://github.com/988hj7tczd-oss/dsh-computer-use/blob/3cf9bd8ae60271512f263bfa75485cb242ca0892/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-computer-use",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-computer-use",
+        "commit": "3cf9bd8ae60271512f263bfa75485cb242ca0892"
+      },
+      "manifestSha256": "469da8e23cd2da0c41e6099e1fffec98b1894a0819dc45c8d4a17155a1404f40",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-computer-use/blob/3cf9bd8ae60271512f263bfa75485cb242ca0892/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/988hj7tczd-oss/dsh-computer-use",
+    "commit": "3cf9bd8ae60271512f263bfa75485cb242ca0892",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:22.013Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:04.184Z",
+  "contentReviewFlags": []
+}

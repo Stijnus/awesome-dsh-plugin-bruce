@@ -1,0 +1,100 @@
+{
+  "full_name": "T-Auto/dsh-ops",
+  "originalPosition": 3,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "startedAt": "2026-10-17T16:59:05.096Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1c90724392115c286c7446f311af479d1f3144bb2be1b098aa4d5ecb7b96ee9c",
+      "url": "https://github.com/T-Auto/dsh-ops/blob/9c2ced59f5f58a759f6a74c4e1a655dfb62c4cbd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ops",
+          "command": "dsh plugin --profile web add dsh-ops",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ops",
+          "command": "dsh plugin --profile dsh-tui add dsh-ops",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1c90724392115c286c7446f311af479d1f3144bb2be1b098aa4d5ecb7b96ee9c",
+      "url": "https://github.com/T-Auto/dsh-ops/blob/9c2ced59f5f58a759f6a74c4e1a655dfb62c4cbd/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ops",
+          "command": "dsh plugin --profile web add dsh-ops",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ops",
+          "command": "dsh plugin --profile dsh-tui add dsh-ops",
+          "profile": "dsh-tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ops",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T-Auto/dsh-ops",
+        "commit": "9c2ced59f5f58a759f6a74c4e1a655dfb62c4cbd"
+      },
+      "manifestSha256": "9871c20abdfea5176fe177e6a1411eaccbdd9c90b283c7dba163777c098b918f",
+      "manifestUrl": "https://github.com/T-Auto/dsh-ops/blob/9c2ced59f5f58a759f6a74c4e1a655dfb62c4cbd/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-ops",
+      "origin": "npm",
+      "name": "dsh-ops",
+      "version": "0.3.0",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "f464ffe0fd8d185f3ac2034b307a1bbbac04c8cc93cc1ffba97e1a51c7c2929b"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ops",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/T-Auto/dsh-ops",
+    "commit": "9c2ced59f5f58a759f6a74c4e1a655dfb62c4cbd",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T16:59:17.974Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:01.949Z",
+  "contentReviewFlags": []
+}

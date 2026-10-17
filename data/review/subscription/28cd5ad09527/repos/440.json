@@ -1,0 +1,78 @@
+{
+  "full_name": "linkbag/dsh-swarm-orchestrator",
+  "originalPosition": 344,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/linkbag/dsh-swarm-orchestrator",
+    "dsh-swarm-orchestrator"
+  ],
+  "manualNote": null,
+  "ordinal": 440,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:01:23.072Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f7dc2d0e4c6d1e1b520bb4703448e45aaf58cb8e8870843ce9387f39c38a8856",
+      "url": "https://github.com/linkbag/dsh-swarm-orchestrator/blob/3034008eb7bbc98ef10672de35bac450deae4f2a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/linkbag/dsh-swarm-orchestrator",
+          "command": "dsh plugin --profile web add github:linkbag/dsh-swarm-orchestrator",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-swarm-orchestrator",
+          "command": "dsh plugin --profile web add dsh-swarm-orchestrator",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-swarm-orchestrator",
+      "version": "0.6.31",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/linkbag/dsh-swarm-orchestrator",
+        "commit": "3034008eb7bbc98ef10672de35bac450deae4f2a"
+      },
+      "manifestSha256": "b2e9df8da0d513d8d2582dbb098532df8bebda2eb1276ea8cafc8b60a6790cd1",
+      "manifestUrl": "https://github.com/linkbag/dsh-swarm-orchestrator/blob/3034008eb7bbc98ef10672de35bac450deae4f2a/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-swarm-orchestrator",
+      "origin": "npm",
+      "name": "dsh-swarm-orchestrator",
+      "version": "0.6.31",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "416fe52a4c716a03e91d49b9b47ba1fd4b4c7ed67842fbad7402cd4974eeb34a"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/linkbag/dsh-swarm-orchestrator",
+    "commit": "3034008eb7bbc98ef10672de35bac450deae4f2a",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:30.849Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:23.658Z",
+  "contentReviewFlags": []
+}

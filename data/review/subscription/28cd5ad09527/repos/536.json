@@ -1,0 +1,86 @@
+{
+  "full_name": "muzyLink/dsh-subagent-profile",
+  "originalPosition": 474,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-subagent-profile"
+  ],
+  "manualNote": null,
+  "ordinal": 536,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:14.215Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5e507c381661d416caac8ae76365b8cd15a0fb9abb78c62c230206d1f1d30048",
+      "url": "https://github.com/muzyLink/dsh-subagent-profile/blob/9f7deb79fafd8e639ee87400f30a1a340a803332/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-subagent-profile",
+          "command": "dsh plugin --profile web add dsh-subagent-profile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "bed5c8e7a60fcc7c36df59a62acceb05ed60d706bd4f873211154384c4ecd6d0",
+      "url": "https://github.com/muzyLink/dsh-subagent-profile/blob/9f7deb79fafd8e639ee87400f30a1a340a803332/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-subagent-profile",
+          "command": "dsh plugin --profile web add dsh-subagent-profile",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-subagent-profile",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/muzyLink/dsh-subagent-profile",
+        "commit": "9f7deb79fafd8e639ee87400f30a1a340a803332"
+      },
+      "manifestSha256": "1fd0dd319a7390041a445d0f175dd7ff6a76fed8b34966c90e9c453f20a49912",
+      "manifestUrl": "https://github.com/muzyLink/dsh-subagent-profile/blob/9f7deb79fafd8e639ee87400f30a1a340a803332/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-subagent-profile",
+      "origin": "npm",
+      "name": "dsh-subagent-profile",
+      "version": "0.5.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "9619ec041bab86847953171e234dccd1b650415e9e419ea0a9089e0b7999db03"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/muzyLink/dsh-subagent-profile",
+    "commit": "9f7deb79fafd8e639ee87400f30a1a340a803332",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:04:25.430Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.500Z",
+  "contentReviewFlags": []
+}

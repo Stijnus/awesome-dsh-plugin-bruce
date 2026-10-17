@@ -1,0 +1,85 @@
+{
+  "full_name": "AKS1st/dsh-cyber-particle",
+  "originalPosition": 403,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/AKS1st/dsh-cyber-particle"
+  ],
+  "manualNote": null,
+  "ordinal": 483,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:02:41.394Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9dfd9e085ffdf6b154c87fd9062d50326330497e701cd1156b203d211fc0632a",
+      "url": "https://github.com/AKS1st/dsh-cyber-particle/blob/e08111d59df009454d9de6b8384907f697e038f6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AKS1st/dsh-cyber-particle",
+          "command": "dsh plugin --profile web add github:AKS1st/dsh-cyber-particle",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/AKS1st/dsh-cyber-particle/blob/e08111d59df009454d9de6b8384907f697e038f6/README.en.md",
+      "sha256": "7da40cd22bed92eb8ccc3ca727f92d2260bd85d3e1e0b73a122917f62c87960f",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AKS1st/dsh-cyber-particle",
+          "command": "dsh plugin --profile web add github:AKS1st/dsh-cyber-particle",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "cyber-particle",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AKS1st/dsh-cyber-particle",
+        "commit": "e08111d59df009454d9de6b8384907f697e038f6"
+      },
+      "manifestSha256": "51c36a2c6da8e609e76529ea4d20a1f4d6e7f488159d7fe68c4f5ffd49159695",
+      "manifestUrl": "https://github.com/AKS1st/dsh-cyber-particle/blob/e08111d59df009454d9de6b8384907f697e038f6/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AKS1st/dsh-cyber-particle",
+    "commit": "e08111d59df009454d9de6b8384907f697e038f6",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:50.162Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:10.225Z",
+  "coverageReviewedAt": "2026-10-17T17:12:28.076Z",
+  "contentReviewFlags": []
+}

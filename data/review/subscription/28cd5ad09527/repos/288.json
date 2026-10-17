@@ -1,0 +1,79 @@
+{
+  "full_name": "hherosoul/dsh-smart-charts",
+  "originalPosition": 130,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/hherosoul/dsh-smart-charts"
+  ],
+  "manualNote": null,
+  "ordinal": 288,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:03:11.834Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "321bd2b3db719559ab0ee8aaa0709e053a1f153d865f0b37fe8e0b34d0b10c39",
+      "url": "https://github.com/hherosoul/dsh-smart-charts/blob/0595787f346e53c81d617ce3f86888ebbd58b5d8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/hherosoul/dsh-smart-charts",
+          "command": "dsh plugin --profile web add github:hherosoul/dsh-smart-charts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/README.md",
+      "url": "https://github.com/hherosoul/dsh-smart-charts/blob/0595787f346e53c81d617ce3f86888ebbd58b5d8/examples/README.md",
+      "sha256": "074b7861f87913d475761c27483b3909469b7fac4e179b05bb05c8fa4ab7b8ef",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-smart-charts",
+      "version": "8.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hherosoul/dsh-smart-charts",
+        "commit": "0595787f346e53c81d617ce3f86888ebbd58b5d8"
+      },
+      "manifestSha256": "e6b3f5c7a9dfd60108578c6548c32baf576d7a17fbdc215babc05a68791fe7d7",
+      "manifestUrl": "https://github.com/hherosoul/dsh-smart-charts/blob/0595787f346e53c81d617ce3f86888ebbd58b5d8/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hherosoul/dsh-smart-charts",
+    "commit": "0595787f346e53c81d617ce3f86888ebbd58b5d8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:19.504Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "examples/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "examples/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:59.630Z",
+  "coverageReviewedAt": "2026-10-17T17:12:12.413Z",
+  "contentReviewFlags": []
+}

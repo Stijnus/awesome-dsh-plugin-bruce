@@ -1,0 +1,54 @@
+{
+  "full_name": "Ricketts-Guo/dsh-off-peak-message",
+  "originalPosition": 570,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:03:31.618Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f77c11f671f7231ec582a1e6c9e2024aae5725094007ce33d8bfbed1163399c2",
+      "url": "https://github.com/Ricketts-Guo/dsh-off-peak-message/blob/9a3374e1e2c84376c5668229ec8ff33320448ee0/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-offpeak-send",
+      "version": "2.1.0",
+      "path": "dsh-offpeak-send",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ricketts-Guo/dsh-off-peak-message",
+        "commit": "9a3374e1e2c84376c5668229ec8ff33320448ee0",
+        "path": "dsh-offpeak-send"
+      },
+      "manifestSha256": "42ac841e6ebdc5b26aa69a652f6d97382b621f99c6a904f1b3656590b9519d9c",
+      "manifestUrl": "https://github.com/Ricketts-Guo/dsh-off-peak-message/blob/9a3374e1e2c84376c5668229ec8ff33320448ee0/dsh-offpeak-send/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ricketts-Guo/dsh-off-peak-message",
+    "commit": "9a3374e1e2c84376c5668229ec8ff33320448ee0",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:03:40.727Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:06.920Z",
+  "contentReviewFlags": []
+}

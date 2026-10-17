@@ -1,0 +1,173 @@
+{
+  "full_name": "1841220388zzzcccxxx-star/dsh-git-graph",
+  "originalPosition": 493,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph#ec1a867b88358e2984249cc858690eea8501a1ce"
+  ],
+  "manualNote": null,
+  "ordinal": 546,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:04:29.402Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e775af86b378d9fb9bc9a46836e14f4289311f78a6c528c0f81b7ae7a0e0e830",
+      "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph/blob/ec1a867b88358e2984249cc858690eea8501a1ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph",
+          "command": "dsh plugin --profile web add github:1841220388zzzcccxxx-star/dsh-git-graph",
+          "profile": "web"
+        },
+        {
+          "install": "@1841220388zzzcccxxx-star/dsh-git-graph",
+          "command": "dsh plugin --profile web add @1841220388zzzcccxxx-star/dsh-git-graph",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "25723d58686a63a645408365fadf65fdd73edcb849e78d9a900f56bb29852b9d",
+      "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph/blob/ec1a867b88358e2984249cc858690eea8501a1ce/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph",
+          "command": "dsh plugin --profile web add github:1841220388zzzcccxxx-star/dsh-git-graph",
+          "profile": "web"
+        },
+        {
+          "install": "@1841220388zzzcccxxx-star/dsh-git-graph",
+          "command": "dsh plugin --profile web add @1841220388zzzcccxxx-star/dsh-git-graph",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-git-graph",
+      "version": "0.14.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph",
+        "commit": "ec1a867b88358e2984249cc858690eea8501a1ce"
+      },
+      "manifestSha256": "13b2723ceff3bf03817a654de547d6458b25f0a5bf95afdffa105e94d32eafcd",
+      "manifestUrl": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph/blob/ec1a867b88358e2984249cc858690eea8501a1ce/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-git-graph",
+        "versions": [
+          {
+            "version": "0.14.0",
+            "publishTimestamp": 1790650317,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph",
+              "commit": "ec1a867b88358e2984249cc858690eea8501a1ce"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph#ec1a867b88358e2984249cc858690eea8501a1ce",
+      "origin": "git_target",
+      "name": "dsh-git-graph",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-git-graph",
+        "title": "dsh-git-graph",
+        "description": "DSH plugin: embedded git repository graph visualizer for the DeepSeek Harness web GUI - commit history graph, branch filtering, code diffs, VSCode-style uncommitted changes panel",
+        "repository": {
+          "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "git",
+            "graph",
+            "visualization"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.14.0",
+            "publishTimestamp": 1790650317,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph",
+              "commit": "ec1a867b88358e2984249cc858690eea8501a1ce"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "ec1a867b88358e2984249cc858690eea8501a1ce",
+          "name": "dsh-git-graph",
+          "version": "0.14.0",
+          "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph",
+          "manifestSha256": "13b2723ceff3bf03817a654de547d6458b25f0a5bf95afdffa105e94d32eafcd",
+          "publishTimestamp": 1790650317
+        }
+      ]
+    },
+    {
+      "target": "@1841220388zzzcccxxx-star/dsh-git-graph",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph#ec1a867b88358e2984249cc858690eea8501a1ce",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@1841220388zzzcccxxx-star/dsh-git-graph",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph",
+    "commit": "ec1a867b88358e2984249cc858690eea8501a1ce",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:04:43.554Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:31.726Z",
+  "contentReviewFlags": []
+}

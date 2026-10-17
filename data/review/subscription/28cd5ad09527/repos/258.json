@@ -1,0 +1,106 @@
+{
+  "full_name": "Aisland-SJL/dsh-worktable",
+  "originalPosition": 92,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz"
+  ],
+  "manualNote": null,
+  "ordinal": 258,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:02:02.502Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f8a60ec86dc0514827c32f9764505c552c5dc69a380bc2868e8bed3e5800cdea",
+      "url": "https://github.com/Aisland-SJL/dsh-worktable/blob/6cb86b6c73b3c356373e06cd81e08952542ea040/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ddbaea8bf096a01a3118c661d0165034de37946a9ce42cc4332c5f8edffd56bc",
+      "url": "https://github.com/Aisland-SJL/dsh-worktable/blob/6cb86b6c73b3c356373e06cd81e08952542ea040/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "01_content/README.md",
+      "url": "https://github.com/Aisland-SJL/dsh-worktable/blob/6cb86b6c73b3c356373e06cd81e08952542ea040/01_content/README.md",
+      "sha256": "c449a0bd641ad9cb943bcf447fd71cebefdaac6f1506780b3d00daef471a0dcb",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-worktable",
+      "version": "0.4.0",
+      "path": "01_content",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Aisland-SJL/dsh-worktable",
+        "commit": "6cb86b6c73b3c356373e06cd81e08952542ea040",
+        "path": "01_content"
+      },
+      "manifestSha256": "bec421e514613e25704f5f118cf49cf44c21e5fec81c7f6ca95653aa0535c980",
+      "manifestUrl": "https://github.com/Aisland-SJL/dsh-worktable/blob/6cb86b6c73b3c356373e06cd81e08952542ea040/01_content/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Aisland-SJL/dsh-worktable",
+    "commit": "6cb86b6c73b3c356373e06cd81e08952542ea040",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:02:11.415Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "01_content/README.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "01_content/README.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:08:57.312Z",
+  "coverageReviewedAt": "2026-10-17T17:12:11.000Z",
+  "contentReviewFlags": []
+}

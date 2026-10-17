@@ -1,0 +1,61 @@
+{
+  "full_name": "memorax-ai/dsh-harmony",
+  "originalPosition": 261,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 54,
+  "batch": 1,
+  "startedAt": "2026-10-17T17:00:37.689Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3ee5eb5b87bf43213e640eb918223fe6975248b3c8cdfce829321b82ccee0e6f",
+      "url": "https://github.com/memorax-ai/dsh-harmony/blob/98079df6bf2cae311cd67269daa9664dcd682f64/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "72066fc70bb708208d91e0b59d82a8180a5dc26ca5e5b30e5dc6ef8b679e4735",
+      "url": "https://github.com/memorax-ai/dsh-harmony/blob/98079df6bf2cae311cd67269daa9664dcd682f64/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-harmony",
+      "version": "0.8.18",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/memorax-ai/dsh-harmony",
+        "commit": "98079df6bf2cae311cd67269daa9664dcd682f64"
+      },
+      "manifestSha256": "84f348ed45f6b7892df640c03f23532aeba5a3152ce419160abcd43765398914",
+      "manifestUrl": "https://github.com/memorax-ai/dsh-harmony/blob/98079df6bf2cae311cd67269daa9664dcd682f64/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/memorax-ai/dsh-harmony",
+    "commit": "98079df6bf2cae311cd67269daa9664dcd682f64",
+    "releaseTags": 50,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:00:47.448Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:04.772Z",
+  "contentReviewFlags": []
+}

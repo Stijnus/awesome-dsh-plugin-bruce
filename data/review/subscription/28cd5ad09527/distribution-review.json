@@ -1,0 +1,454 @@
+{
+  "scope": "人工复核分发形式；固定提交证据，不执行安装，不是安全认证",
+  "reviewedAt": "2026-10-17T17:03:57.540Z",
+  "entries": [
+    {
+      "repository": "ZJU-LLMs/OpenStory",
+      "decision": "needs_upstream_declaration",
+      "reason": "子目录安装指南明确指向 dsh-openstory@0.2.0；根 README 提取漏掉该入口。注册表版本声明 bundle，但缺少 engines.dsh；还需 Python、Redis 和本地 OpenStory 源码配置。",
+      "commit": "3e4857a07ec141a9ed6d3be586dd5d3c573ae389",
+      "readmes": [
+        {
+          "url": "https://github.com/ZJU-LLMs/OpenStory/blob/3e4857a07ec141a9ed6d3be586dd5d3c573ae389/README.md",
+          "sha256": "ad656abcdbb0b1f9bcf7ce4e57712e8c13f88f354db4ac2a37f8a22707bbf3c7"
+        }
+      ],
+      "supplementaryEvidence": [
+        {
+          "repo": "ZJU-LLMs/OpenStory",
+          "commit": "3e4857a07ec141a9ed6d3be586dd5d3c573ae389",
+          "path": "dsh-openstory/package.json",
+          "url": "https://raw.githubusercontent.com/ZJU-LLMs/OpenStory/3e4857a07ec141a9ed6d3be586dd5d3c573ae389/dsh-openstory/package.json",
+          "status": 404,
+          "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+        },
+        {
+          "repo": "ZJU-LLMs/OpenStory",
+          "commit": "3e4857a07ec141a9ed6d3be586dd5d3c573ae389",
+          "path": "dsh-openstory/README.zh.md",
+          "url": "https://raw.githubusercontent.com/ZJU-LLMs/OpenStory/3e4857a07ec141a9ed6d3be586dd5d3c573ae389/dsh-openstory/README.zh.md",
+          "status": 200,
+          "sha256": "19eb40d417cdb4a5a13b3c12acd9201b62da763c7475f098d5d5074aeffd37c2"
+        }
+      ]
+    },
+    {
+      "repository": "SepineTam/cnki-mcp",
+      "decision": "non_bundle_distribution",
+      "reason": "分发形式为 Python CLI、MCP 和 Skill，使用 uv 初始化；当前没有标准 DSH bundle 发行入口。",
+      "commit": "5d69959b7501aa4f23dda356ae1d11143ebf6796",
+      "readmes": [
+        {
+          "url": "https://github.com/SepineTam/cnki-mcp/blob/5d69959b7501aa4f23dda356ae1d11143ebf6796/README.md",
+          "sha256": "b318b6d30f8b6504ecceb45054d77e6c8430939219a6e5e5d086265685a05b5c"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "bugmaker2/dsh-plugin-template",
+      "decision": "development_template",
+      "reason": "仓库是插件开发模板，README 要求替换 github:you 等占位身份；保留开发资源目录，不作为成品插件订阅。",
+      "commit": "31af7ebeb8d07cff73253f52f9a9f530cde9de9a",
+      "readmes": [
+        {
+          "url": "https://github.com/bugmaker2/dsh-plugin-template/blob/31af7ebeb8d07cff73253f52f9a9f530cde9de9a/README.md",
+          "sha256": "b90f52b0b719794d3970c2d1c3ae7dfd28d51d28fb6d0f35d3ea2e02abbaba45"
+        },
+        {
+          "url": "https://github.com/bugmaker2/dsh-plugin-template/blob/31af7ebeb8d07cff73253f52f9a9f530cde9de9a/README.zh.md",
+          "sha256": "16f6ecfd48ea2abbd97c7fb1365adf06e56e25a6ef6249e6ac540ac3946eb2ac"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "daha1216/dsh-adult-tension",
+      "decision": "non_bundle_distribution",
+      "reason": "原生 Agent Skill，安装方式为复制 skill/adult-tension 到技能目录，不是 npm/Git bundle 安装。",
+      "commit": "021173d81a3cf174f5d78c48e5995f89e20b5858",
+      "readmes": [
+        {
+          "url": "https://github.com/daha1216/dsh-adult-tension/blob/021173d81a3cf174f5d78c48e5995f89e20b5858/README.md",
+          "sha256": "210789672eb02391249508c122ed4808a5930d90abe0db4c475f3626d8b0665c"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "liangdabiao/dsh-plugin-developer-skill",
+      "decision": "development_template",
+      "reason": "插件开发 Skill 内嵌 plugin-skeleton 和 examples；合格 manifest 来自骨架，不代表此技能仓库可作为成品 bundle 安装。",
+      "commit": "79615d507cda28a1cd749c515a8192e9f073dead",
+      "readmes": [
+        {
+          "url": "https://github.com/liangdabiao/dsh-plugin-developer-skill/blob/79615d507cda28a1cd749c515a8192e9f073dead/README.md",
+          "sha256": "0a1943f008cbbbb42ef761dcd1d316a47bad51922660df61afc1c9e122c44edc"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "lna-lab/distill-kura",
+      "decision": "bundle_packaging_required",
+      "reason": "包含 dsh-plugin/package.json，但只声明普通模块及 engines.node，没有 dsh.bundle.patch 或 engines.dsh；主体为 Python 记忆服务。",
+      "commit": "3a02c04e5155cd66d49cfd95d11b09239499c97d",
+      "readmes": [
+        {
+          "url": "https://github.com/lna-lab/distill-kura/blob/3a02c04e5155cd66d49cfd95d11b09239499c97d/README.md",
+          "sha256": "5977d5de1c72a17dd4e0b3935580104531feec7c193a81ca16b3ccc9ed38ef0d"
+        }
+      ],
+      "supplementaryEvidence": [
+        {
+          "repo": "lna-lab/distill-kura",
+          "commit": "3a02c04e5155cd66d49cfd95d11b09239499c97d",
+          "path": "dsh-plugin/package.json",
+          "url": "https://raw.githubusercontent.com/lna-lab/distill-kura/3a02c04e5155cd66d49cfd95d11b09239499c97d/dsh-plugin/package.json",
+          "status": 200,
+          "sha256": "866d66a7137979036c3a01b5b853fc634c08f89a29a4ab86c49041390f3e45d5"
+        },
+        {
+          "repo": "lna-lab/distill-kura",
+          "commit": "3a02c04e5155cd66d49cfd95d11b09239499c97d",
+          "path": "dsh-plugin/README.md",
+          "url": "https://raw.githubusercontent.com/lna-lab/distill-kura/3a02c04e5155cd66d49cfd95d11b09239499c97d/dsh-plugin/README.md",
+          "status": 404,
+          "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+        }
+      ]
+    },
+    {
+      "repository": "hchao3335-maker/dsh-lan-gate",
+      "decision": "manual_mount_required",
+      "reason": "README 要求复制单文件 lan-gate.mjs 并向实际 profile 追加 file URL 挂载，尚未封装标准 bundle。",
+      "commit": "0c58b6099960bcdb5954295116b33a12c20b80a4",
+      "readmes": [
+        {
+          "url": "https://github.com/hchao3335-maker/dsh-lan-gate/blob/0c58b6099960bcdb5954295116b33a12c20b80a4/README.md",
+          "sha256": "b1f85844cbbb378d049d14597e760f0b7ded6f394659b30108784d009f07323c"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "dclichang2022/dsh-green-meter",
+      "decision": "non_bundle_distribution",
+      "reason": "当前项目发行独立 Green DSH Desktop Windows 安装器，不能将整个桌面应用当作宿主订阅插件。",
+      "commit": "73b61dd3b5e0fc165310d0dfb85ff8673b87958c",
+      "readmes": [
+        {
+          "url": "https://github.com/dclichang2022/dsh-green-meter/blob/73b61dd3b5e0fc165310d0dfb85ff8673b87958c/README.md",
+          "sha256": "84a8bc85b3157415bca7b0e0e1970c497967259ab2adf43fe458eb2f97ae36d2"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "Yts1919/dsh-vision-complete",
+      "decision": "manual_mount_required",
+      "reason": "通过 install.bat/PowerShell 安装 Skill、注册多个 MCP 和截图工具，不能以单一 bundle 安装替代该流程。",
+      "commit": "9526ccd4ddeb50ba245b693f137ff4ee0432d5a4",
+      "readmes": [
+        {
+          "url": "https://github.com/Yts1919/dsh-vision-complete/blob/9526ccd4ddeb50ba245b693f137ff4ee0432d5a4/README.md",
+          "sha256": "34f52602ebb11b2b27a4d65da5bc4270f08a9e30cb61951209f0334161c093b4"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "darker2016/WorkbuddySkillGroups4DSH",
+      "decision": "bundle_packaging_required",
+      "reason": "主要为 Skill 目录，package.json 使用 dsh.plugin 而非 dsh.bundle.patch；npm 安装示例标注发布后使用，需手动注册。",
+      "commit": "d813e89e40335e6531bcfc1489b67a48cec20e6c",
+      "readmes": [
+        {
+          "url": "https://github.com/darker2016/WorkbuddySkillGroups4DSH/blob/d813e89e40335e6531bcfc1489b67a48cec20e6c/README.md",
+          "sha256": "e5c72cfcb45beb5c219b9b6b98779d52441ab563075def4870f99b65b2228a1c"
+        }
+      ],
+      "supplementaryEvidence": [
+        {
+          "repo": "darker2016/WorkbuddySkillGroups4DSH",
+          "commit": "d813e89e40335e6531bcfc1489b67a48cec20e6c",
+          "path": "package.json",
+          "url": "https://raw.githubusercontent.com/darker2016/WorkbuddySkillGroups4DSH/d813e89e40335e6531bcfc1489b67a48cec20e6c/package.json",
+          "status": 200,
+          "sha256": "484d6699a93e4c8c8438cf70584cb7387c709cb9a047dd9465021bce82384719"
+        }
+      ]
+    },
+    {
+      "repository": "zimodzh/dsh-plugin-dev-skills",
+      "decision": "non_bundle_distribution",
+      "reason": "Agent Skills 形式的插件开发文档与工作流，应按技能方式安装，不是宿主 bundle。",
+      "commit": "71e911327a9e0160d014c87530e8e3836c2b38db",
+      "readmes": [
+        {
+          "url": "https://github.com/zimodzh/dsh-plugin-dev-skills/blob/71e911327a9e0160d014c87530e8e3836c2b38db/README.md",
+          "sha256": "a52782c0d26eb89e40dd087b95f7589953bb971fcf0e636b149866517f3ea591"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "omdsh-dev/plugin-template",
+      "decision": "development_template",
+      "reason": "开发模板明确要求改包名、实现功能并在准备完成后设置 private:false，不能直接作为成品市场插件。",
+      "commit": "644ac11934e0b71fb21a55e0fa2c2743222c7c3c",
+      "readmes": [
+        {
+          "url": "https://github.com/omdsh-dev/plugin-template/blob/644ac11934e0b71fb21a55e0fa2c2743222c7c3c/README.md",
+          "sha256": "43f1b7e274ab09eade8116c52dd0c37b676129b87c602ea533a72e04e53821fb"
+        },
+        {
+          "url": "https://github.com/omdsh-dev/plugin-template/blob/644ac11934e0b71fb21a55e0fa2c2743222c7c3c/README.zh.md",
+          "sha256": "3ffa03974c79a81993a042781489d78914c8c9318f919b6094f3ecc233a8f313"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "JayZz210l/deepseek-harness-for-ide",
+      "decision": "non_bundle_distribution",
+      "reason": "发行渠道为 JetBrains Marketplace 或 IDE ZIP，目标宿主是 JetBrains，不是 DSH bundle 安装器。",
+      "commit": "16d2b4aba382c1ae41fcafdf05f3c4945b9afb5f",
+      "readmes": [
+        {
+          "url": "https://github.com/JayZz210l/deepseek-harness-for-ide/blob/16d2b4aba382c1ae41fcafdf05f3c4945b9afb5f/README.md",
+          "sha256": "a59c1b8004a8761cce6601a89e377a43924c584a8ad0d8264ce76db631fed75a"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "william-jin-cmu/dsh-vision",
+      "decision": "manual_mount_required",
+      "reason": "README 使用软链接接入本地 DSH checkout 并手动挂载 lib/index.js；缺少可直接订阅的标准 bundle 安装入口。",
+      "commit": "72978aa176df8e01a685bf270a1b1d016660c492",
+      "readmes": [
+        {
+          "url": "https://github.com/william-jin-cmu/dsh-vision/blob/72978aa176df8e01a685bf270a1b1d016660c492/README.md",
+          "sha256": "771e6192395ad055adf2b627141655a4d698b72cd0058af828b4b491b7edaaaf"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "cpj-dev/dsh-plugin-cc",
+      "decision": "non_bundle_distribution",
+      "reason": "这是 Claude Code marketplace 插件，使用 /plugin marketplace add 和 /plugin install，再调用 DSH；不属于 DSH 原生 bundle。",
+      "commit": "ffa8e8599d45582b1c73062cefcb9fcd40c69a72",
+      "readmes": [
+        {
+          "url": "https://github.com/cpj-dev/dsh-plugin-cc/blob/ffa8e8599d45582b1c73062cefcb9fcd40c69a72/README.md",
+          "sha256": "d233cd73cf6f9b94ca634288e2d86711c93d774737a04e2ee1e9dc4f0493052c"
+        },
+        {
+          "url": "https://github.com/cpj-dev/dsh-plugin-cc/blob/ffa8e8599d45582b1c73062cefcb9fcd40c69a72/README.zh-CN.md",
+          "sha256": "37b6e63f1fea1051484001967d067ca4d1844dbb502f447c899e4c31bbf9e8b2"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "bloodtmai-cmyk/dsh-ai-hub",
+      "decision": "non_bundle_distribution",
+      "reason": "README 定位为企业 Harness 控制面，当前根目录没有 package.json，宿主规则内未发现可安装 bundle；不将控制面项目整体转换成插件。",
+      "commit": "3682721d488caae72e17daa47243e0616e301d06",
+      "readmes": [
+        {
+          "url": "https://github.com/bloodtmai-cmyk/dsh-ai-hub/blob/3682721d488caae72e17daa47243e0616e301d06/README.md",
+          "sha256": "6fc2ccabef5d27297db717d5e2324bf3289f83419a2e4cd66c44547be9a17882"
+        }
+      ],
+      "supplementaryEvidence": [
+        {
+          "repo": "bloodtmai-cmyk/dsh-ai-hub",
+          "commit": "3682721d488caae72e17daa47243e0616e301d06",
+          "path": "package.json",
+          "url": "https://raw.githubusercontent.com/bloodtmai-cmyk/dsh-ai-hub/3682721d488caae72e17daa47243e0616e301d06/package.json",
+          "status": 404,
+          "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+        }
+      ]
+    },
+    {
+      "repository": "pazz11/Jnpz",
+      "decision": "manual_mount_required",
+      "reason": "install.ps1 打包到本地 profile 并手写 cordis.patch.yml；当前未声明标准 bundle，不能用 Git add 替代这些步骤。",
+      "commit": "e4a1b72756ec786a5f750bc75a1131eeefe7d6cb",
+      "readmes": [
+        {
+          "url": "https://github.com/pazz11/Jnpz/blob/e4a1b72756ec786a5f750bc75a1131eeefe7d6cb/README.md",
+          "sha256": "d4fd95d5ab215936d7f86e9aa568cb6673dd11b909878df6430696665f089be1"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "morluto/gitcontribute",
+      "decision": "non_bundle_distribution",
+      "reason": "项目分发 CLI、TUI 和 MCP 服务，使用 npx setup；未提供标准 DSH bundle。",
+      "commit": "2c719afc0b0ebd34e3fcf833076bdd82c4ac6443",
+      "readmes": [
+        {
+          "url": "https://github.com/morluto/gitcontribute/blob/2c719afc0b0ebd34e3fcf833076bdd82c4ac6443/README.md",
+          "sha256": "69f85df6d110a85e9d1d445f808886e2a2e50750badb53170f9c1643165e37d8"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "gtaifu/dsh-wechat-bridge",
+      "decision": "non_bundle_distribution",
+      "reason": "独立 Node CLI 桥接调用 DSH headless，npm -g/Git 全局安装不等于 profile bundle 安装。",
+      "commit": "425f5d221065f953eba75190d935576bdfb6e55d",
+      "readmes": [
+        {
+          "url": "https://github.com/gtaifu/dsh-wechat-bridge/blob/425f5d221065f953eba75190d935576bdfb6e55d/README.md",
+          "sha256": "883fb0e79ef96c75ed35135bf2d6f3a08f6c1d28010c0826168b108ad27660cc"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "loopwithai/LoopWithAI",
+      "decision": "non_bundle_distribution",
+      "reason": "独立多运行时工作台，npm install/npm run dev 启动完整应用，不是宿主 bundle。",
+      "commit": "8754489a31d3d4cc3e0e56f499e7bd2f5a03ae83",
+      "readmes": [
+        {
+          "url": "https://github.com/loopwithai/LoopWithAI/blob/8754489a31d3d4cc3e0e56f499e7bd2f5a03ae83/README.md",
+          "sha256": "fe4ea8699d80a084e2d3fe98a5b3f3064d94161eb9036ef3cc7889cc68451938"
+        },
+        {
+          "url": "https://github.com/loopwithai/LoopWithAI/blob/8754489a31d3d4cc3e0e56f499e7bd2f5a03ae83/README.zh-CN.md",
+          "sha256": "cd01991ac12ff7210996a35d2fcb0bcb9173c91c8ffe858c2c2f7db2593ce94b"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "green-dalii/dsh-plugin-dev-skill",
+      "decision": "non_bundle_distribution",
+      "reason": "提供 SKILL.md 与插件开发参考资料，应按 Agent Skill 安装，不是标准 bundle。",
+      "commit": "d280cbb701c06fb0aee457fb3edc28a67562bcf0",
+      "readmes": [
+        {
+          "url": "https://github.com/green-dalii/dsh-plugin-dev-skill/blob/d280cbb701c06fb0aee457fb3edc28a67562bcf0/README.md",
+          "sha256": "179907c73c1781e58f7cc75e11daf99e2fe514428482f88a4f0fa81e8d184016"
+        },
+        {
+          "url": "https://github.com/green-dalii/dsh-plugin-dev-skill/blob/d280cbb701c06fb0aee457fb3edc28a67562bcf0/README.zh-CN.md",
+          "sha256": "68f84a42d971815dcd87745e887e0ad8e0d3975820a09e7698d6337a96433db4"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "liyupi/dsh-kun-like-pet",
+      "decision": "manual_mount_required",
+      "reason": "通过 cordis_define 动态插件载荷安装，先修改本地素材绝对路径；该载荷不是 npm package bundle。",
+      "commit": "87bb6e1762618dd7727d285ffeeadd86a3799425",
+      "readmes": [
+        {
+          "url": "https://github.com/liyupi/dsh-kun-like-pet/blob/87bb6e1762618dd7727d285ffeeadd86a3799425/README.md",
+          "sha256": "f52235c868b3d243251d503464a919d7f93550d0191fa67d16780cdd3383a33f"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "XieRW/dsh-beauty-skins",
+      "decision": "manual_mount_required",
+      "reason": "安装脚本修改本地宿主 checkout 并要求重建宿主，不属于可直接订阅的独立 bundle。",
+      "commit": "28e4e38e99c8f8636f3d220891816a0899a93084",
+      "readmes": [
+        {
+          "url": "https://github.com/XieRW/dsh-beauty-skins/blob/28e4e38e99c8f8636f3d220891816a0899a93084/README.md",
+          "sha256": "d5159b5fc8511510163bec974562cbf74f1123342d69763d70d1f3fc1ffc278a"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "Haniubub/seo-toolkit",
+      "decision": "non_bundle_distribution",
+      "reason": "工作区 Python 工具、Skill 与子智能体组合，通过 setup.sh 配置运行环境；未声明标准 bundle。",
+      "commit": "2d54ba327992ed555bfdf42c0e2c79b69eebe185",
+      "readmes": [
+        {
+          "url": "https://github.com/Haniubub/seo-toolkit/blob/2d54ba327992ed555bfdf42c0e2c79b69eebe185/README.md",
+          "sha256": "3227d40282c661855216ae881e65a7cd1ff4d9f62c570e264429130eade6f4bd"
+        },
+        {
+          "url": "https://github.com/Haniubub/seo-toolkit/blob/2d54ba327992ed555bfdf42c0e2c79b69eebe185/README.zh.md",
+          "sha256": "5b176794d4a641d18b56df9b2307616259dfe9ce7f83351a58e9684f9a9967b4"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "clearkurt/dsh-win-terminal-inspector",
+      "decision": "manual_mount_required",
+      "reason": "复制插件到 profile/plugins 并手动追加 index.js 挂载，需先封装 bundle 才能作为订阅来源。",
+      "commit": "c8c5e5afb50a7fd04aa0db8c313eb150cb7bc5b6",
+      "readmes": [
+        {
+          "url": "https://github.com/clearkurt/dsh-win-terminal-inspector/blob/c8c5e5afb50a7fd04aa0db8c313eb150cb7bc5b6/README.md",
+          "sha256": "65f5f4e913cb88389aa2e4542156344ec881d421338668a75d98c52de0a9e71a"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "AllDurham/foreman-dsh",
+      "decision": "manual_mount_required",
+      "reason": "需要复制 preset、修改绝对路径、挂载配置插件并声明本地模型端点，单个 Git bundle 不能覆盖此流程。",
+      "commit": "7b359c38ec98c6533f215f51bf807f768680a84f",
+      "readmes": [
+        {
+          "url": "https://github.com/AllDurham/foreman-dsh/blob/7b359c38ec98c6533f215f51bf807f768680a84f/README.md",
+          "sha256": "1219ac1b1ee71267ed2438e3ea2bf9b349e19125895a6b0d32041721c636b682"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "imlishiyuan/deepseek-harness-zh-cn",
+      "decision": "bundle_packaging_required",
+      "reason": "README 提供 npm 安装与手动挂载，但已核验版本未声明标准 dsh.bundle.patch；需要包维护者补齐 bundle 发行结构。",
+      "commit": "06c6821afc133fee5fecf3b7138730afa12de44d",
+      "readmes": [
+        {
+          "url": "https://github.com/imlishiyuan/deepseek-harness-zh-cn/blob/06c6821afc133fee5fecf3b7138730afa12de44d/README.md",
+          "sha256": "a2923795c43e30825841a3ef5eb7cc97e3306eda03fffacc556425ab2b60ea67"
+        },
+        {
+          "url": "https://github.com/imlishiyuan/deepseek-harness-zh-cn/blob/06c6821afc133fee5fecf3b7138730afa12de44d/README.zh.md",
+          "sha256": "c711fec0dd52d3c4b9683b3fd6b09e9c2376ca9ec0acc0000b581266f3438f5e"
+        }
+      ],
+      "supplementaryEvidence": []
+    },
+    {
+      "repository": "Roarpeng/GraphFlow",
+      "decision": "non_bundle_distribution",
+      "reason": "独立 CLI/MCP/Skill/IDE 扩展，使用 graphflow install 注册到多种 Agent；不能作为 DSH profile bundle 直接订阅。",
+      "commit": "7ed06a58e513d55d352198adb93139bca1af2e72",
+      "readmes": [
+        {
+          "url": "https://github.com/Roarpeng/GraphFlow/blob/7ed06a58e513d55d352198adb93139bca1af2e72/README.md",
+          "sha256": "e8259dc6635162b65c0cfbe5811f2e2f16eec693ad6504bcbe53d3f177a1ce08"
+        },
+        {
+          "url": "https://github.com/Roarpeng/GraphFlow/blob/7ed06a58e513d55d352198adb93139bca1af2e72/README.zh.md",
+          "sha256": "7891d45053ce1b3097e4e745781c809a3804b99cd228714d5766ba1a34c5046c"
+        }
+      ],
+      "supplementaryEvidence": []
+    }
+  ]
+}

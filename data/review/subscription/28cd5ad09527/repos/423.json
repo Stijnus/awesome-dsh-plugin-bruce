@@ -1,0 +1,72 @@
+{
+  "full_name": "Zoria-Lind/dsh-behavior-enhancer",
+  "originalPosition": 319,
+  "inputMode": "command",
+  "mappedTargets": [
+    "@zoria-lind/dsh-behavior-enhancer"
+  ],
+  "manualNote": null,
+  "ordinal": 423,
+  "batch": 3,
+  "startedAt": "2026-10-17T17:00:54.309Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b76727c0d22f5a90eb065a620b637bbcabca7929d15bd27bd4fc260b7abe1548",
+      "url": "https://github.com/Zoria-Lind/dsh-behavior-enhancer/blob/13599b12a052f525305537ba7a3c3228ee6e445d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zoria-lind/dsh-behavior-enhancer",
+          "command": "dsh plugin --profile web add @zoria-lind/dsh-behavior-enhancer",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zoria-lind/dsh-behavior-enhancer",
+      "version": "1.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zoria-Lind/dsh-behavior-enhancer",
+        "commit": "13599b12a052f525305537ba7a3c3228ee6e445d"
+      },
+      "manifestSha256": "1de8f4b60b2936b3a699e7069549ccf73d7aa1dbb13f38fbe984dc924c879912",
+      "manifestUrl": "https://github.com/Zoria-Lind/dsh-behavior-enhancer/blob/13599b12a052f525305537ba7a3c3228ee6e445d/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "@zoria-lind/dsh-behavior-enhancer",
+      "origin": "npm",
+      "name": "@zoria-lind/dsh-behavior-enhancer",
+      "version": "1.2.3",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "74092a41de4f156c723074c526bc92e611891ea03705730ba5c2ebf6b6562ecd"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zoria-Lind/dsh-behavior-enhancer",
+    "commit": "13599b12a052f525305537ba7a3c3228ee6e445d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:02.414Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:22.435Z",
+  "contentReviewFlags": []
+}

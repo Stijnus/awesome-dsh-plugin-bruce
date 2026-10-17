@@ -1,0 +1,314 @@
+{
+  "full_name": "PerryLink/dsh-session-sync",
+  "originalPosition": 251,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/PerryLink/dsh-session-sync#main",
+    "dsh-session-sync"
+  ],
+  "manualNote": null,
+  "ordinal": 376,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:52.655Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "caa807d04d84ac90bc2a1605a12fb4953b10d2b3c3e9fef511c3bc95a7a8f453",
+      "url": "https://github.com/PerryLink/dsh-session-sync/blob/c5f0c929685aafae94749868b07e874035b18ba4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-session-sync",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-session-sync",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-session-sync",
+          "command": "dsh plugin --profile web add dsh-session-sync",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "url": "https://github.com/PerryLink/dsh-session-sync/blob/c5f0c929685aafae94749868b07e874035b18ba4/README-zh.md",
+      "sha256": "4d7b227cb82d0bec1b2dd96124bc7a7e04b9985362bfeb7c46cb8d7d8f2094df",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-session-sync",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-session-sync",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-session-sync",
+          "command": "dsh plugin --profile web add dsh-session-sync",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "url": "https://github.com/PerryLink/dsh-session-sync/blob/c5f0c929685aafae94749868b07e874035b18ba4/README-es.md",
+      "sha256": "209587553555ac1a83e63f62b6f66b6d6bdbf5c245d323909c562bd0b5546412",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-session-sync",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-session-sync",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-session-sync",
+          "command": "dsh plugin --profile web add dsh-session-sync",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "url": "https://github.com/PerryLink/dsh-session-sync/blob/c5f0c929685aafae94749868b07e874035b18ba4/README-pt.md",
+      "sha256": "aa9859445d3328f82150de919bc820d1c0cc88236ce0071f09b137ef0db2690e",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-session-sync",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-session-sync",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-session-sync",
+          "command": "dsh plugin --profile web add dsh-session-sync",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "url": "https://github.com/PerryLink/dsh-session-sync/blob/c5f0c929685aafae94749868b07e874035b18ba4/README-hi.md",
+      "sha256": "f0a229cbe8e4a7576675e7beb712e3ef5762db4732f02753a0ac0b19b884e074",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-session-sync",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-session-sync",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-session-sync",
+          "command": "dsh plugin --profile web add dsh-session-sync",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-sync",
+      "version": "0.2.24",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-session-sync",
+        "commit": "c5f0c929685aafae94749868b07e874035b18ba4"
+      },
+      "manifestSha256": "38eaa18bfe7b9adeba2304700fb880bb780874798d2de427b055d24e9b23b60d",
+      "manifestUrl": "https://github.com/PerryLink/dsh-session-sync/blob/c5f0c929685aafae94749868b07e874035b18ba4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-session-sync",
+        "versions": [
+          {
+            "version": "0.2.24",
+            "publishTimestamp": 1791813006,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-session-sync",
+              "commit": "c5f0c929685aafae94749868b07e874035b18ba4"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/PerryLink/dsh-session-sync#main",
+      "origin": "git_target",
+      "name": "dsh-session-sync",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-sync",
+        "title": "dsh-session-sync",
+        "description": "Cross-device sync for DeepSeek Harness sessions: a dedicated git mirror of the session store, append-only three-way merge with keep-both + fork conflict resolution, /sync command, sync_pull/sync_push/sync_status tools, and configurable auto push/pull",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-session-sync"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "session-sync",
+            "session",
+            "git",
+            "sync",
+            "cross-device"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.24",
+            "publishTimestamp": 1791813006,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-session-sync",
+              "commit": "c5f0c929685aafae94749868b07e874035b18ba4"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "c5f0c929685aafae94749868b07e874035b18ba4",
+          "name": "dsh-session-sync",
+          "version": "0.2.24",
+          "url": "https://github.com/PerryLink/dsh-session-sync",
+          "manifestSha256": "38eaa18bfe7b9adeba2304700fb880bb780874798d2de427b055d24e9b23b60d",
+          "publishTimestamp": 1791813006
+        }
+      ]
+    },
+    {
+      "target": "dsh-session-sync",
+      "origin": "npm",
+      "name": "dsh-session-sync",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-sync",
+        "title": "dsh-session-sync",
+        "description": "Cross-device sync for DeepSeek Harness sessions: a dedicated git mirror of the session store, append-only three-way merge with keep-both + fork conflict resolution, /sync command, sync_pull/sync_push/sync_status tools, and configurable auto push/pull",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-session-sync"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "session-sync",
+            "session",
+            "git",
+            "sync",
+            "cross-device"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.24",
+            "publishTimestamp": 1791594644,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "20cc745083fdd95c7d105d8c18c23c10eaabd046c905095fc49786e85775a201",
+      "evidence": [
+        {
+          "name": "dsh-session-sync",
+          "version": "0.2.24",
+          "tarball": "https://registry.npmjs.org/dsh-session-sync/-/dsh-session-sync-0.2.24.tgz",
+          "integrity": "sha512-eugoquIZMDO3oUC43Gqeis2ykp0QzZvydxz3+PCLke8/zPDMo53JdX0YdzGgSi7eCEfGpeTsqM1pkBwcdGtnBQ=="
+        }
+      ],
+      "diagnostics": [],
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "mapped_target_not_extracted_from_readme",
+      "target": "https://github.com/PerryLink/dsh-session-sync#main",
+      "action": "核对 README 中的替代命令或旧版本；提取器没找到不等于目标无效，不自动删除"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-session-sync",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-session-sync",
+    "commit": "c5f0c929685aafae94749868b07e874035b18ba4",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "eligible_source_verified",
+  "finishedAt": "2026-10-17T17:07:07.736Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-zh.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-es.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-pt.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README-hi.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:06.788Z",
+  "coverageReviewedAt": "2026-10-17T17:12:19.694Z",
+  "contentReviewFlags": []
+}

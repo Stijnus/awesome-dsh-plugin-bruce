@@ -1,0 +1,97 @@
+{
+  "full_name": "rootkiller6788/dsh-flow",
+  "originalPosition": 84,
+  "inputMode": "command",
+  "mappedTargets": [
+    "https://github.com/rootkiller6788/dsh-flow",
+    "dsh-flow"
+  ],
+  "manualNote": null,
+  "ordinal": 250,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:01:47.993Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c76c1b7c1e04cb66556a692b7cb43e72993a2ab00eb1c0e53345805b2947b03d",
+      "url": "https://github.com/rootkiller6788/dsh-flow/blob/d11ad4f04400fda9c58cf2b9b5a11fa971818eed/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/rootkiller6788/dsh-flow",
+          "command": "dsh plugin --profile web add github:rootkiller6788/dsh-flow",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-flow",
+          "command": "dsh plugin add dsh-flow",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "cbe9c8cc733774f941012a535c6a007fefccc678f0e2d29b357aac0521c55462",
+      "url": "https://github.com/rootkiller6788/dsh-flow/blob/d11ad4f04400fda9c58cf2b9b5a11fa971818eed/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/rootkiller6788/dsh-flow",
+          "command": "dsh plugin --profile web add github:rootkiller6788/dsh-flow",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-flow",
+          "command": "dsh plugin add dsh-flow",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-flow",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rootkiller6788/dsh-flow",
+        "commit": "d11ad4f04400fda9c58cf2b9b5a11fa971818eed"
+      },
+      "manifestSha256": "aa9db5012d2061c622b2b120d50cd1537797c6e92d60091c17bf79aee7da67b1",
+      "manifestUrl": "https://github.com/rootkiller6788/dsh-flow/blob/d11ad4f04400fda9c58cf2b9b5a11fa971818eed/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-flow",
+      "origin": "npm",
+      "name": "dsh-flow",
+      "version": "0.0.1",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "3f924af5d44d1fa7a649911f2c7dea6999fc52821eb160ebeea5e6258028225c"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/rootkiller6788/dsh-flow",
+    "commit": "d11ad4f04400fda9c58cf2b9b5a11fa971818eed",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:01:57.771Z",
+  "linkedReadmeChecks": [],
+  "coverageReviewedAt": "2026-10-17T17:12:10.623Z",
+  "contentReviewFlags": []
+}

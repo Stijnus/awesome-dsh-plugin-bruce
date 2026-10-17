@@ -1,0 +1,96 @@
+{
+  "full_name": "Saktawdi/dsh-ha-orchestrator",
+  "originalPosition": 244,
+  "inputMode": "command",
+  "mappedTargets": [
+    "dsh-ha-orchestrator"
+  ],
+  "manualNote": null,
+  "ordinal": 371,
+  "batch": 2,
+  "startedAt": "2026-10-17T17:06:43.262Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件；补查根 README 显式链接的同仓库 README（固定原提交）；补查根 README 显式链接的同仓库 README（固定原提交）",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2390ef4bc919434b92587e5e40177e09bea7d80b0165df2a96c0fefde0c56805",
+      "url": "https://github.com/Saktawdi/dsh-ha-orchestrator/blob/86ace1f8ad84eaa7079bd0d36f17b37645a8a903/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ha-orchestrator",
+          "command": "dsh plugin --profile web add dsh-ha-orchestrator",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "url": "https://github.com/Saktawdi/dsh-ha-orchestrator/blob/86ace1f8ad84eaa7079bd0d36f17b37645a8a903/README.en.md",
+      "sha256": "dc0f6d264898ac3d3fcf953e14eff8356a6b0e9be91ab1dd090703379fa617d5",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ha-orchestrator",
+          "command": "dsh plugin --profile web add dsh-ha-orchestrator",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ha-orchestrator",
+      "version": "0.12.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Saktawdi/dsh-ha-orchestrator",
+        "commit": "86ace1f8ad84eaa7079bd0d36f17b37645a8a903"
+      },
+      "manifestSha256": "cc9e0ca72589102268bec8fb97450c9c5b823df3d56fae448dc46f28aef9a7a1",
+      "manifestUrl": "https://github.com/Saktawdi/dsh-ha-orchestrator/blob/86ace1f8ad84eaa7079bd0d36f17b37645a8a903/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "缺少或无效的显式 engines.dsh",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-ha-orchestrator",
+      "origin": "npm",
+      "name": "dsh-ha-orchestrator",
+      "version": "0.12.4",
+      "code": "invalid_host_range",
+      "status": "needs_upstream_declaration",
+      "reason": "missing or invalid engines.dsh",
+      "statusCode": "invalid_host_range",
+      "registrySha256": "1045404f3c7c64e63ad16c7f93fce6cabd3a040c62caa22139259183ff4f38ca"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Saktawdi/dsh-ha-orchestrator",
+    "commit": "86ace1f8ad84eaa7079bd0d36f17b37645a8a903",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-10-17T17:06:51.324Z",
+  "linkedReadmeChecks": [
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    },
+    {
+      "path": "README.en.md",
+      "httpStatus": 200
+    }
+  ],
+  "linkedReadmeReviewCompletedAt": "2026-10-17T17:09:05.033Z",
+  "coverageReviewedAt": "2026-10-17T17:12:18.364Z",
+  "contentReviewFlags": []
+}
