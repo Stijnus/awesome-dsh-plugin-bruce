@@ -43,6 +43,10 @@ jobs:
           scripts/test-readme-install.mjs
           scripts/test-render.mjs
           scripts/test-star-anomaly.mjs
+      - name: Test the DSH subscription generator
+        run: |
+          npm ci --ignore-scripts --prefix scripts/host-market
+          npm test --prefix scripts/host-market
       - name: Validate data/curated.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

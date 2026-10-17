@@ -1,9 +1,12 @@
-/** Build an auditable DSH format-1 index from curated npm targets; never execute packages. */
+/** Build a validated DSH format-1 index from curated npm and Git targets without executing packages. */
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import { pathToFileURL } from 'node:url'
 import { createHash } from 'node:crypto'
 import semver from 'semver'
+import { verifyNpmPlugin } from './npm.mjs'
+import { classifyTarget, readGitTarget } from './git.mjs'
+import { isBundle } from './vendor/packages.ts'
 import { assertPublishable } from './policy.mjs'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
 
@@ -13,10 +16,14 @@ const INDEX_URL = 'https://bruc3van.com/markets/dsh/index.json'
 /** Only registry targets are resolved here. Git requires separate commit/manifest evidence. */
 export function npmTarget(spec) {
   if (typeof spec !== 'string') return null
-  const match = /^(@[a-z0-9._-]+\/[a-z0-9._-]+|[a-z0-9][a-z0-9._-]*)(?:@([^\s]+))?$/.exec(spec)
+  const match =
+    /^(@[a-z0-9._-]+\/[a-z0-9._-]+|[a-z0-9][a-z0-9._-]*)(?:@([^\s]+))?$/.exec(
+      spec,
+    )
   if (!match) return null
   const selector = match[2] ?? 'latest'
-  if (!semver.valid(selector) && !/^[a-zA-Z][a-zA-Z0-9._-]*$/.test(selector)) return null
+  if (!semver.valid(selector) && !/^[a-zA-Z][a-zA-Z0-9._-]*$/.test(selector))
+    return null
   return { name: match[1], selector }
 }
 
@@ -24,44 +31,118 @@ export function npmTarget(spec) {
 export function projectPackage(name, selectors, packument) {
   const diagnostics = []
   const versions = []
-  const wanted = [...new Set(selectors.map(selector => semver.valid(selector) ? selector : packument['dist-tags']?.[selector]))]
+  const wanted = [
+    ...new Set(
+      selectors.map((selector) =>
+        semver.valid(selector) ? selector : packument['dist-tags']?.[selector],
+      ),
+    ),
+  ]
   for (const version of wanted) {
     const manifest = packument.versions?.[version]
-    const reason = !semver.valid(version) || manifest?.name !== name || manifest.version !== version ? 'missing or mismatched manifest'
-      : !manifest.dsh?.bundle?.patch || typeof manifest.dsh.bundle.patch !== 'string' ? 'not a declared DSH bundle'
-      : typeof manifest.engines?.dsh !== 'string' || !manifest.engines.dsh.trim() || manifest.engines.dsh.startsWith('workspace:') || !semver.validRange(manifest.engines.dsh) ? 'missing or invalid engines.dsh'
-      : !Number.isFinite(Date.parse(packument.time?.[version])) ? 'missing registry publish time' : null
-    if (reason) { diagnostics.push({ name, version: version ?? null, reason }); continue }
-    versions.push({ version, publishTimestamp: Math.floor(Date.parse(packument.time[version]) / 1000),
-      source: { type: 'npm', registry: REGISTRY }, engines: { dsh: manifest.engines.dsh } })
+    const reason =
+      !semver.valid(version) ||
+      manifest?.name !== name ||
+      manifest.version !== version
+        ? 'missing or mismatched manifest'
+        : !isBundle(manifest)
+          ? 'not a declared DSH bundle'
+          : typeof manifest.engines?.dsh !== 'string' ||
+              !manifest.engines.dsh.trim() ||
+              manifest.engines.dsh.startsWith('workspace:') ||
+              !semver.validRange(manifest.engines.dsh)
+            ? 'missing or invalid engines.dsh'
+            : !Number.isFinite(Date.parse(packument.time?.[version]))
+              ? 'missing registry publish time'
+              : null
+    if (reason) {
+      diagnostics.push({
+        name,
+        version: version ?? null,
+        code: {
+          'missing or mismatched manifest': 'invalid_manifest',
+          'not a declared DSH bundle': 'not_dsh_bundle',
+          'missing or invalid engines.dsh': 'invalid_host_range',
+          'missing registry publish time': 'missing_publish_time',
+        }[reason],
+        status: 'excluded',
+        reason,
+      })
+      continue
+    }
+    versions.push({
+      version,
+      publishTimestamp: Math.floor(Date.parse(packument.time[version]) / 1000),
+      source: { type: 'npm', registry: REGISTRY },
+      engines: { dsh: manifest.engines.dsh },
+    })
   }
   versions.sort((a, b) => semver.rcompare(a.version, b.version))
   if (!versions.length) return { diagnostics }
   const manifest = packument.versions[versions[0].version]
-  const plugin = { name, ...(typeof manifest.description === 'string' && manifest.description.trim() ? { description: manifest.description } : {}), versions }
+  const plugin = {
+    name,
+    ...(typeof manifest.description === 'string' && manifest.description.trim()
+      ? { description: manifest.description }
+      : {}),
+    versions,
+  }
   // Optional presentation fields are omitted unless their package form is unambiguous.
-  if (typeof manifest.author?.name === 'string' && manifest.author.name.trim()) plugin.author = manifest.author.name
+  if (typeof manifest.author?.name === 'string' && manifest.author.name.trim())
+    plugin.author = manifest.author.name
   if (typeof manifest.homepage === 'string') {
     try {
       const url = new URL(manifest.homepage)
-      if (['http:', 'https:'].includes(url.protocol) && !url.username && !url.password) plugin.homepage = url.href
-    } catch { /* Invalid optional presentation metadata is not an install target. */ }
+      if (
+        ['http:', 'https:'].includes(url.protocol) &&
+        !url.username &&
+        !url.password
+      )
+        plugin.homepage = url.href
+    } catch {
+      /* Invalid optional presentation metadata is not an install target. */
+    }
   }
   // Use the actual host validator before accepting even one row.
-  parseMarketIndex({ format: 1, title: 'Validation', plugins: [plugin] }, INDEX_URL)
+  parseMarketIndex(
+    { format: 1, title: 'Validation', plugins: [plugin] },
+    INDEX_URL,
+  )
   return { plugin, diagnostics }
 }
 
-export async function generateIndex(feed, fetchPackument) {
-  if (feed?.schema_version !== 2 || !Array.isArray(feed.entries)) throw new Error('Expected a curated market-v2 feed')
+export async function generateIndex(
+  feed,
+  fetchPackument,
+  fetchGit = readGitTarget,
+  verifyNpm,
+) {
+  if (feed?.schema_version !== 2 || !Array.isArray(feed.entries))
+    throw new Error('Expected a curated market-v2 feed')
   const targets = new Map()
+  const gitTargets = new Map()
+  const sourceTargets = new Set()
   const diagnostics = []
   const rows = [...feed.entries, ...(feed.featured?.entries ?? [])]
   for (const row of rows) {
     if (row.packages?.mode !== 'command') continue
     for (const target of row.packages.targets ?? []) {
       const parsed = npmTarget(target.install)
-      if (!parsed) { diagnostics.push({ target: target.install, reason: 'requires Git commit evidence or unsupported target' }); continue }
+      sourceTargets.add(target.install)
+      if (!parsed) {
+        const classified = classifyTarget(target.install)
+        if (classified.kind === 'git') {
+          const key = JSON.stringify(classified)
+          if (!gitTargets.has(key))
+            gitTargets.set(key, { ...classified, target: target.install })
+        } else if (!diagnostics.some((d) => d.target === target.install))
+          diagnostics.push({
+            target: target.install,
+            status: 'unsupported',
+            ...classified,
+          })
+        continue
+      }
       if (!targets.has(parsed.name)) targets.set(parsed.name, new Set())
       targets.get(parsed.name).add(parsed.selector)
     }
@@ -69,45 +150,228 @@ export async function generateIndex(feed, fetchPackument) {
   const entries = [...targets]
   const results = new Array(entries.length)
   let cursor = 0
-  await Promise.all(Array.from({ length: Math.min(6, entries.length) }, async () => {
-    while (cursor < entries.length) {
-      const i = cursor++
-      const [name, selectors] = entries[i]
-      try { results[i] = projectPackage(name, [...selectors], await fetchPackument(name)) }
-      catch (error) { results[i] = { fetchFailed: true, diagnostics: [{ name, reason: error.message }] } }
+  await Promise.all(
+    Array.from({ length: Math.min(6, entries.length) }, async () => {
+      while (cursor < entries.length) {
+        const i = cursor++
+        const [name, selectors] = entries[i]
+        try {
+          const packument = await fetchPackument(name)
+          const result = projectPackage(name, [...selectors], packument)
+          if (result.plugin && verifyNpm) {
+            const verified = await verifyNpm(result.plugin, packument)
+            results[i] = {
+              ...verified,
+              diagnostics: [...result.diagnostics, ...verified.diagnostics],
+            }
+          } else results[i] = result
+        } catch (error) {
+          results[i] = {
+            fetchFailed: true,
+            diagnostics: [
+              {
+                name,
+                code: 'npm_fetch_failed',
+                status: 'error',
+                reason: error.message,
+              },
+            ],
+          }
+        }
+      }
+    }),
+  )
+  const plugins = results.flatMap((result) =>
+    result.plugin ? [result.plugin] : [],
+  )
+  diagnostics.push(...results.flatMap((result) => result.diagnostics))
+  const gitEntries = [...gitTargets.values()]
+  const gitResults = new Array(gitEntries.length)
+  let nextGit = 0
+  await Promise.all(
+    Array.from({ length: Math.min(4, gitEntries.length) }, async () => {
+      while (nextGit < gitEntries.length) {
+        const i = nextGit++,
+          target = gitEntries[i]
+        try {
+          gitResults[i] = await fetchGit(target)
+        } catch (error) {
+          const permanent = [
+            'ambiguous_short_commit',
+            'ambiguous_git_ref',
+            'git_ref_not_found',
+          ].includes(error.code)
+          gitResults[i] = {
+            plugins: [],
+            evidence: [],
+            fetchFailed: !permanent,
+            diagnostics: [
+              {
+                code: permanent ? error.code : 'git_fetch_failed',
+                status: permanent ? 'excluded' : 'error',
+                reason: error.message,
+              },
+            ],
+          }
+        }
+      }
+    }),
+  )
+  const seen = new Set(plugins.map((p) => p.name))
+  for (let i = 0; i < gitResults.length; i++) {
+    const result = gitResults[i],
+      target = gitEntries[i].target
+    diagnostics.push(...result.diagnostics.map((d) => ({ target, ...d })))
+    for (const plugin of result.plugins) {
+      if (seen.has(plugin.name)) {
+        diagnostics.push({
+          target,
+          name: plugin.name,
+          code: 'duplicate_package',
+          status: 'excluded',
+          reason: '同名包已收录；优先 npm，再按目录来源顺序，避免来源替换',
+        })
+        continue
+      }
+      seen.add(plugin.name)
+      plugins.push(plugin)
     }
-  }))
-  const plugins = results.flatMap(result => result.plugin ? [result.plugin] : [])
-  diagnostics.push(...results.flatMap(result => result.diagnostics))
-  const index = { format: 1, title: { en: 'DSH Community Market', zh: 'DSH 社区市场' },
-    description: { en: 'Verified npm metadata from the curated community catalog. Inclusion is not a security review.', zh: '从社区精选目录核实 npm 元数据；收录不代表安全审查。' }, plugins }
+  }
+  const index = {
+    format: 1,
+    title: { en: 'DSH Community Market', zh: 'DSH 社区市场' },
+    description: {
+      en: 'Verified npm metadata and commit-pinned Git bundles from the community catalog. Inclusion is not a security review.',
+      zh: '从社区精选目录核实 npm 元数据及固定提交的 Git 组合包；收录不代表安全审查。',
+    },
+    plugins,
+  }
   parseMarketIndex(index, INDEX_URL)
-  return { index, diagnostics, candidates: entries.length, fetchFailures: results.filter(result => result.fetchFailed).length }
+  return {
+    index,
+    diagnostics,
+    candidates: entries.length + gitEntries.length,
+    npmCandidates: entries.length,
+    gitCandidates: gitEntries.length,
+    uniqueTargets: sourceTargets.size,
+    npmEvidence: results.flatMap((r) => r.evidence ?? []),
+    gitEvidence: gitResults.flatMap((r) => r.evidence),
+    fetchFailures: [...results, ...gitResults].filter(
+      (result) => result.fetchFailed,
+    ).length,
+  }
 }
 
 async function main() {
   const [feedPath, outputPath] = process.argv.slice(2)
-  if (!feedPath || !outputPath) throw new Error('Usage: node scripts/host-market/generate.mjs <market-v2.json> <output.json>')
+  if (!feedPath || !outputPath)
+    throw new Error(
+      'Usage: node scripts/host-market/generate.mjs <market-v2.json> <output.json>',
+    )
   const raw = await readFile(feedPath)
   const evidence = []
-  const result = await generateIndex(JSON.parse(raw), async name => {
-    const url = `${REGISTRY}${encodeURIComponent(name)}`
-    const response = await fetch(url, { redirect: 'error', signal: AbortSignal.timeout(20_000), headers: { accept: 'application/json' } })
-    if (!response.ok) throw new Error(`Registry HTTP ${response.status}`)
-    const body = await response.text()
-    evidence.push({ name, url, sha256: createHash('sha256').update(body).digest('hex'), fetchedAt: new Date().toISOString() })
-    return JSON.parse(body)
-  })
+  const result = await generateIndex(
+    JSON.parse(raw),
+    async (name) => {
+      const url = `${REGISTRY}${encodeURIComponent(name)}`
+      const response = await fetch(url, {
+        redirect: 'error',
+        signal: AbortSignal.timeout(20_000),
+        headers: { accept: 'application/json' },
+      })
+      if (!response.ok) throw new Error(`Registry HTTP ${response.status}`)
+      const body = await response.text()
+      evidence.push({
+        name,
+        url,
+        sha256: createHash('sha256').update(body).digest('hex'),
+        fetchedAt: new Date().toISOString(),
+      })
+      return JSON.parse(body)
+    },
+    readGitTarget,
+    verifyNpmPlugin,
+  )
   await mkdir(dirname(resolve(outputPath)), { recursive: true })
   const serialized = JSON.stringify(result.index, null, 2) + '\n'
-  const report = { indexSha256: createHash('sha256').update(serialized).digest('hex'), fetchFailures: result.fetchFailures, generatedAt: new Date().toISOString(), feedSha256: createHash('sha256').update(raw).digest('hex'),
-    candidates: result.candidates, included: result.index.plugins.length, diagnostics: result.diagnostics, evidence }
-  await writeFile(`${outputPath}.report.json`, JSON.stringify(report, null, 2) + '\n')
+  const reasons = Object.fromEntries(
+    [...new Set(result.diagnostics.map((d) => d.code))]
+      .sort()
+      .map((code) => [
+        code,
+        result.diagnostics.filter((d) => d.code === code).length,
+      ]),
+  )
+  const report = {
+    reportVersion: 2,
+    title: '索引生成与排除报告',
+    scope:
+      '生成取证与收录诊断；非 DSH 官方审计认证、非安全审查、非实机兼容验收',
+    remediation: {
+      invalid_host_range:
+        '插件作者需在对应版本 package.json 中显式声明有效 engines.dsh 并发布新版本；市场不代填范围。',
+      unsupported_tarball:
+        '提供已发布 npm 包名或 HTTPS Git 仓库及固定引用，不能直接将下载链接作为 format-1 来源。',
+      ambiguous_short_commit: '提供完整的 40 位 commit SHA。',
+      git_ref_not_found: '修正目录中的分支或标签；不会自动换成默认分支。',
+      duplicate_package:
+        '同名包优先 npm，其次按目录顺序；需要人工核实身份后调整来源。',
+      not_dsh_bundle:
+        '确认该版本或子目录声明 dsh.bundle.patch，而非普通库或尚未打包的源码。',
+      npm_fetch_failed:
+        '检查网络、registry 和安装包完整性；失败时保留已发布索引。',
+      git_fetch_failed:
+        '检查仓库访问权限和网络；不能据此判断插件兼容性或安全性。',
+    },
+    generator: {
+      hostVersion: '0.2.1-alpha.5',
+      gitReaderCommit: '1517a4dbca0a2789ff1d41ba439600f8547d23fa',
+    },
+    summary: {
+      npmCandidates: result.npmCandidates,
+      gitCandidates: result.gitCandidates,
+      uniqueTargets: result.uniqueTargets,
+      includedNpm: result.index.plugins.filter(
+        (p) => p.versions[0].source.type === 'npm',
+      ).length,
+      includedGit: result.index.plugins.filter(
+        (p) => p.versions[0].source.type === 'git',
+      ).length,
+      diagnosticsByCode: reasons,
+      counting:
+        '候选按 npm 包或 Git 目标去重；诊断可按版本/路径多条记录，不等于独立插件数量',
+    },
+    indexSha256: createHash('sha256').update(serialized).digest('hex'),
+    fetchFailures: result.fetchFailures,
+    generatedAt: new Date().toISOString(),
+    feedSha256: createHash('sha256').update(raw).digest('hex'),
+    candidates: result.candidates,
+    included: result.index.plugins.length,
+    diagnostics: result.diagnostics,
+    evidence,
+    gitEvidence: result.gitEvidence,
+    npmEvidence: result.npmEvidence,
+  }
+  const reportText = JSON.stringify(report, null, 2) + '\n'
+  if (
+    Buffer.byteLength(serialized) > 5 * 1024 * 1024 ||
+    Buffer.byteLength(reportText) > 5 * 1024 * 1024
+  )
+    throw new Error('Generated JSON exceeds the HTTPS route size limit')
+  await writeFile(`${outputPath}.report.json`, reportText)
   assertPublishable(result)
   await writeFile(outputPath, serialized)
-  console.log(`Generated ${result.index.plugins.length}/${result.candidates} npm bundles; ${result.diagnostics.length} diagnostics. ${outputPath}`)
+  console.log(
+    `Generated ${result.index.plugins.length}/${result.candidates} sources; ${result.diagnostics.length} diagnostics. ${outputPath}`,
+  )
 }
 
-if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
-  main().catch(error => { console.error(error.message); process.exitCode = 1 })
+if (
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(resolve(process.argv[1])).href
+) {
+  main().catch((error) => {
+    console.error(error.message)
+    process.exitCode = 1
+  })
 }

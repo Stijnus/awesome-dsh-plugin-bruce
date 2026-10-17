@@ -18,9 +18,9 @@ https://bruc3van.com/markets/dsh/index.json
 
 With the third-party market feature enabled in DSH `0.2.1-alpha.5`, open **Plugins → Discover → Manage index sources → Add index source**, paste the URL, and save. You can then browse and install indexed plugins. Subscribing in Discover does not require `safer-dsh-market`; install the market plugin separately for its standalone interface, multiple-target installation, and optional post-install AI review.
 
-[awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) generates the index automatically; `bruc3van.com` serves JSON through Cloudflare without redirects. Only npm targets with verifiable versions, bundle declarations, publish dates, and explicit host compatibility ranges are included. This is a subset of the repository catalog, and inclusion is not a security audit or proof of runtime compatibility.
+[awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) generates the index automatically; `bruc3van.com` serves JSON through Cloudflare without redirects. The index verifies npm metadata and Git bundles pinned to full commits, including bundle declarations, timestamps, and explicit host compatibility ranges. This is a subset of the repository catalog, and inclusion is not a security audit or proof of runtime compatibility.
 
-[Generation audit report](https://bruc3van.com/markets/dsh/audit.json) · [Latest market plugin](https://www.npmjs.com/package/safer-dsh-market)
+[Index generation and exclusions report](https://bruc3van.com/markets/dsh/audit.json) · [Latest market plugin](https://www.npmjs.com/package/safer-dsh-market)
 
 ## 🗺️ Ecosystem at a glance
 
@@ -403,6 +403,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
 This list is published under the [MIT License](./LICENSE); each listed project remains under its own license.
 
-## Official DSH Discover index
+## Community index for DSH Discover
 
-This repository also owns a format-1 index and its audit report, served through a fixed HTTPS route on bruc3van.com. See [generation and delivery details](scripts/host-market/README.md). Existing market-v2 and npm feed publication remain independent.
+This repository also owns a format-1 index and its generation and exclusions report, served through a fixed HTTPS route on bruc3van.com. See [generation and delivery details](scripts/host-market/README.md). Existing market-v2 and npm feed publication remain independent.
