@@ -188,3 +188,26 @@ test('npm tarball verification checks integrity, identity and declared compatibi
     await rm(dir, { recursive: true, force: true })
   }
 })
+
+
+test('size policy excludes an oversized package but keeps integrity and network errors fatal', async () => {
+  for (const [message, excluded] of [
+    ['demo@1.2.3: tarball exceeds 67108864 bytes', true],
+    ['unpacked tarball exceeds 67108864 bytes', true],
+    ['demo@1.2.3: integrity mismatch', false],
+    ['fetch failed', false],
+  ]) {
+    const result = await generateIndex(
+      { schema_version: 2, entries: [{ packages: {
+        mode: 'command', targets: [{ install: 'demo' }],
+      } }] },
+      async () => metadata(),
+      undefined,
+      async () => { throw new Error(message) },
+    )
+    assert.equal(result.index.plugins.length, 0)
+    assert.equal(result.fetchFailures, excluded ? 0 : 1)
+    assert.equal(result.diagnostics[0].code, excluded ? 'package_size_limit' : 'npm_fetch_failed')
+    assert.equal(result.diagnostics[0].status, excluded ? 'excluded' : 'error')
+  }
+})

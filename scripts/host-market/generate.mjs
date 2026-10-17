@@ -166,13 +166,17 @@ export async function generateIndex(
             }
           } else results[i] = result
         } catch (error) {
+          // The pinned reader's bounded size rejection is a policy exclusion,
+          // not a transient lookup failure. Integrity/network errors stay fatal.
+          const sizeLimited =
+            /^(?:[^\n]+: tarball|unpacked tarball) exceeds \d+ bytes$/.test(error.message)
           results[i] = {
-            fetchFailed: true,
+            fetchFailed: !sizeLimited,
             diagnostics: [
               {
                 name,
-                code: 'npm_fetch_failed',
-                status: 'error',
+                code: sizeLimited ? 'package_size_limit' : 'npm_fetch_failed',
+                status: sizeLimited ? 'excluded' : 'error',
                 reason: error.message,
               },
             ],
@@ -318,6 +322,8 @@ async function main() {
         '同名包优先 npm，其次按目录顺序；需要人工核实身份后调整来源。',
       not_dsh_bundle:
         '确认该版本或子目录声明 dsh.bundle.patch，而非普通库或尚未打包的源码。',
+      package_size_limit:
+        '压缩包或解压文件总量超过生成器 64 MiB 上限；请精简发布产物后发布新版本，再重新核验。',
       npm_fetch_failed:
         '检查网络、registry 和安装包完整性；失败时保留已发布索引。',
       git_fetch_failed:
