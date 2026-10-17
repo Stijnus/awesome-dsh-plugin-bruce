@@ -338,6 +338,41 @@
       ]
     },
     {
+      "name": "dsh-industry-research",
+      "title": "dsh-industry-research",
+      "description": "Industry and company research domain pack for DeepSeek Harness: methodology skills, an industry-chain structure model (industry_map), public-source policy/news tracking over ctx.web (industry_track), company scan cards (company_scan), and auditable research reports with an optional ctx.researchReport sealing bridge and a builtin Markdown fallback (industry_report). Research only — not investment advice.",
+      "author": "dsh-industry-research contributors",
+      "homepage": "https://github.com/PerryLink/dsh-industry-research#readme",
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-industry-research"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "cordis",
+          "industry-research",
+          "company-research",
+          "research",
+          "report"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.19",
+          "publishTimestamp": 1791594201,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-research-report",
       "title": "dsh-research-report",
       "description": "Verifiable research-report engine for DeepSeek Harness: a content-addressed evidence ledger (claim — snapshot binding, tamper-evident) plus versioned sealed reports where every claim carries a verification verdict and the manifest hash seals the directory. Retrieval orchestration reuses the official ctx.web / ctx.jobs seams — no deep-research loop.",
@@ -369,41 +404,6 @@
           },
           "engines": {
             "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "dsh-industry-research",
-      "title": "dsh-industry-research",
-      "description": "Industry and company research domain pack for DeepSeek Harness: methodology skills, an industry-chain structure model (industry_map), public-source policy/news tracking over ctx.web (industry_track), company scan cards (company_scan), and auditable research reports with an optional ctx.researchReport sealing bridge and a builtin Markdown fallback (industry_report). Research only — not investment advice.",
-      "author": "dsh-industry-research contributors",
-      "homepage": "https://github.com/PerryLink/dsh-industry-research#readme",
-      "repository": {
-        "url": "https://github.com/PerryLink/dsh-industry-research"
-      },
-      "metadata": {
-        "keywords": [
-          "dsh",
-          "dsh-plugin",
-          "deepseek-harness",
-          "cordis",
-          "industry-research",
-          "company-research",
-          "research",
-          "report"
-        ]
-      },
-      "versions": [
-        {
-          "version": "0.3.19",
-          "publishTimestamp": 1791594201,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          },
-          "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
           }
         }
       ]
@@ -626,6 +626,40 @@
       ]
     },
     {
+      "name": "dsh-xdpool",
+      "title": "dsh-xdpool",
+      "description": "One DSH model pool for every free quota you have: merge all locally signed-in WorkBuddy accounts with auto-failover, sign in to 13 vendors by QR/web, aggregate 76 vendors' free tiers, plus a usage dashboard, model routing, a local OpenAI-compatible gateway and a points-automation suite.",
+      "author": "XDTrees",
+      "homepage": "https://github.com/XDTrees/dsh-xdpool#readme",
+      "repository": {
+        "url": "https://github.com/XDTrees/dsh-xdpool"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "workbuddy",
+          "codebuddy",
+          "model-provider",
+          "multi-account",
+          "failover"
+        ]
+      },
+      "versions": [
+        {
+          "version": "2.3.0",
+          "publishTimestamp": 1792247715,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-permission-rules",
       "title": "dsh-permission-rules",
       "description": "Declarative Claude Code-style permission rules plus a Codex-style process-level network policy for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), workspace-path, and network-target (domain/ip/port/scheme) matching on the tools/pre-execute waterfall, a built-in local HTTP/CONNECT proxy governing shell subprocess traffic, three network modes mapped onto the official sandbox presets, full session-log audit, HMR rule reload, and a settings page with a rule editor, block counters, and recent interception lists.",
@@ -694,40 +728,6 @@
       ]
     },
     {
-      "name": "dsh-xdpool",
-      "title": "dsh-xdpool",
-      "description": "One DSH model pool for every free quota you have: merge all locally signed-in WorkBuddy accounts with auto-failover, sign in to 13 vendors by QR/web, aggregate 76 vendors' free tiers, plus a usage dashboard, model routing, a local OpenAI-compatible gateway and a points-automation suite.",
-      "author": "XDTrees",
-      "homepage": "https://github.com/XDTrees/dsh-xdpool#readme",
-      "repository": {
-        "url": "https://github.com/XDTrees/dsh-xdpool"
-      },
-      "metadata": {
-        "keywords": [
-          "dsh-plugin",
-          "deepseek-harness",
-          "workbuddy",
-          "codebuddy",
-          "model-provider",
-          "multi-account",
-          "failover"
-        ]
-      },
-      "versions": [
-        {
-          "version": "2.3.0",
-          "publishTimestamp": 1792247715,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          },
-          "engines": {
-            "dsh": ">=0.1.5-rc.1 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
       "name": "jevcore-dsh",
       "title": "jevcore-dsh",
       "description": "TypeSafe Jev as a first-class Cordis service and three model-visible tools for DeepSeek Harness — offline by default, egress disclosed, never default-on.",
@@ -776,6 +776,38 @@
           },
           "engines": {
             "dsh": ">=0.0.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-bili-scroll",
+      "title": "dsh-bili-scroll",
+      "description": "DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你",
+      "homepage": "https://github.com/c1overzz/dsh-bili-scroll#readme",
+      "repository": {
+        "url": "https://github.com/c1overzz/dsh-bili-scroll"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "bilibili",
+          "mcp",
+          "duty"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.7",
+          "publishTimestamp": 1792251306,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1"
           }
         }
       ]
@@ -1054,30 +1086,38 @@
       ]
     },
     {
-      "name": "dsh-bili-scroll",
-      "title": "dsh-bili-scroll",
-      "description": "DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你",
-      "homepage": "https://github.com/c1overzz/dsh-bili-scroll#readme",
+      "name": "dsh-workbuddy-connect",
+      "title": {
+        "en": "WorkBuddy Connector",
+        "zh": "WorkBuddy 连接器"
+      },
+      "description": {
+        "en": "Connect WorkBuddy's model service: per-region model toggles, context windows, quota lookup, and daily check-in.",
+        "zh": "接入 WorkBuddy 的模型服务：双区域模型开关、上下文窗口、额度查询与每日签到。"
+      },
+      "author": "corrinehu",
+      "homepage": "https://github.com/masknull/dsh-workbuddy-connect#readme",
       "repository": {
-        "url": "https://github.com/c1overzz/dsh-bili-scroll"
+        "url": "https://github.com/masknull/dsh-workbuddy-connect"
       },
       "metadata": {
         "keywords": [
-          "dsh",
           "dsh-plugin",
           "deepseek-harness",
-          "bilibili",
-          "mcp",
-          "duty"
+          "deepseek",
+          "workbuddy",
+          "model-provider"
         ]
       },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHJ4PSI4IiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxwYXRoIGQ9Ik0xOS42IDcuNSAxMSAyMGg1LjZsLTEuNCA4LjVMMjQuNSAxNmgtNS42bC43LTguNVoiIGZpbGw9IiNGRkZGRkYiLz4KICA8cGF0aCBkPSJNMjQuMiAyMS41IDIwLjQgMjdoMy4ybC0uOCA0LjkgNC42LTZoLTMuMWwuNy00LjRaIiBmaWxsPSIjRjJBRjYzIi8+CiAgPGNpcmNsZSBjeD0iMjUuNSIgY3k9IjI1LjUiIHI9IjMuMiIgZmlsbD0iIzQ1RDlFNyIvPgogIDxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjE4IiB5MT0iMSIgeDI9IjE4IiB5Mj0iMzUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjN0NCN0ZGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTQ1QUYzIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "0.1.7",
-          "publishTimestamp": 1792251306,
+          "version": "0.6.10",
+          "publishTimestamp": 1792242551,
           "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
+            "type": "git",
+            "url": "https://github.com/masknull/dsh-workbuddy-connect",
+            "commit": "4738217d156c46f088d424dedc83a66e7308f64a"
           },
           "engines": {
             "dsh": ">=0.1.7-rc.1"
@@ -1124,44 +1164,6 @@
       ]
     },
     {
-      "name": "dsh-zotero",
-      "title": {
-        "en": "dsh-zotero",
-        "zh": "dsh-zotero"
-      },
-      "description": {
-        "en": "Let agents search, read, and cite your local Zotero library: find papers, browse notes and annotations, pull evidence by question, open the source document, generate citations.",
-        "zh": "让智能体搜索、阅读并引用本地 Zotero 知识库：检索论文、浏览笔记与批注、按问题提取证据片段、打开本地文献原文、生成多格式引文。"
-      },
-      "author": "Wenjie Xu",
-      "repository": {
-        "url": "https://github.com/Vncntvx/dsh-zotero"
-      },
-      "metadata": {
-        "keywords": [
-          "zotero",
-          "dsh",
-          "deepseek-harness",
-          "plugin",
-          "research",
-          "literature"
-        ]
-      },
-      "versions": [
-        {
-          "version": "0.12.1",
-          "publishTimestamp": 1790883369,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          },
-          "engines": {
-            "dsh": ">=0.2.0-rc.2"
-          }
-        }
-      ]
-    },
-    {
       "name": "dsh-gitbash-shell",
       "title": {
         "en": "Git Bash Shell",
@@ -1201,41 +1203,67 @@
       ]
     },
     {
-      "name": "dsh-workbuddy-connect",
+      "name": "dsh-zotero",
       "title": {
-        "en": "WorkBuddy Connector",
-        "zh": "WorkBuddy 连接器"
+        "en": "dsh-zotero",
+        "zh": "dsh-zotero"
       },
       "description": {
-        "en": "Connect WorkBuddy's model service: per-region model toggles, context windows, quota lookup, and daily check-in.",
-        "zh": "接入 WorkBuddy 的模型服务：双区域模型开关、上下文窗口、额度查询与每日签到。"
+        "en": "Let agents search, read, and cite your local Zotero library: find papers, browse notes and annotations, pull evidence by question, open the source document, generate citations.",
+        "zh": "让智能体搜索、阅读并引用本地 Zotero 知识库：检索论文、浏览笔记与批注、按问题提取证据片段、打开本地文献原文、生成多格式引文。"
       },
-      "author": "corrinehu",
-      "homepage": "https://github.com/masknull/dsh-workbuddy-connect#readme",
+      "author": "Wenjie Xu",
       "repository": {
-        "url": "https://github.com/masknull/dsh-workbuddy-connect"
+        "url": "https://github.com/Vncntvx/dsh-zotero"
+      },
+      "metadata": {
+        "keywords": [
+          "zotero",
+          "dsh",
+          "deepseek-harness",
+          "plugin",
+          "research",
+          "literature"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.12.1",
+          "publishTimestamp": 1790883369,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-web-search-free",
+      "title": "dsh-web-search-free",
+      "description": "Free web search & fetch plugin for DeepSeek Harness (dsh) with multi-engine fallback (Tavily, Exa, Brave, Baidu, SearXNG and more)",
+      "homepage": "https://github.com/MochiNek0/dsh-web-search-free#readme",
+      "repository": {
+        "url": "https://github.com/MochiNek0/dsh-web-search-free"
       },
       "metadata": {
         "keywords": [
           "dsh-plugin",
-          "deepseek-harness",
-          "deepseek",
-          "workbuddy",
-          "model-provider"
+          "web-search"
         ]
       },
-      "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHJ4PSI4IiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxwYXRoIGQ9Ik0xOS42IDcuNSAxMSAyMGg1LjZsLTEuNCA4LjVMMjQuNSAxNmgtNS42bC43LTguNVoiIGZpbGw9IiNGRkZGRkYiLz4KICA8cGF0aCBkPSJNMjQuMiAyMS41IDIwLjQgMjdoMy4ybC0uOCA0LjkgNC42LTZoLTMuMWwuNy00LjRaIiBmaWxsPSIjRjJBRjYzIi8+CiAgPGNpcmNsZSBjeD0iMjUuNSIgY3k9IjI1LjUiIHI9IjMuMiIgZmlsbD0iIzQ1RDlFNyIvPgogIDxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjE4IiB5MT0iMSIgeDI9IjE4IiB5Mj0iMzUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjN0NCN0ZGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTQ1QUYzIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "0.6.10",
-          "publishTimestamp": 1792242551,
+          "version": "1.8.1",
+          "publishTimestamp": 1792256427,
           "source": {
-            "type": "git",
-            "url": "https://github.com/masknull/dsh-workbuddy-connect",
-            "commit": "4738217d156c46f088d424dedc83a66e7308f64a"
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.7-rc.1"
+            "dsh": ">=0.1.2-rc.1"
           }
         }
       ]
@@ -1271,34 +1299,6 @@
           },
           "engines": {
             "dsh": ">=0.1.0-rc.6"
-          }
-        }
-      ]
-    },
-    {
-      "name": "dsh-web-search-free",
-      "title": "dsh-web-search-free",
-      "description": "Free web search & fetch plugin for DeepSeek Harness (dsh) with multi-engine fallback (Tavily, Exa, Brave, Baidu, SearXNG and more)",
-      "homepage": "https://github.com/MochiNek0/dsh-web-search-free#readme",
-      "repository": {
-        "url": "https://github.com/MochiNek0/dsh-web-search-free"
-      },
-      "metadata": {
-        "keywords": [
-          "dsh-plugin",
-          "web-search"
-        ]
-      },
-      "versions": [
-        {
-          "version": "1.8.1",
-          "publishTimestamp": 1792256427,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          },
-          "engines": {
-            "dsh": ">=0.1.2-rc.1"
           }
         }
       ]
@@ -1345,6 +1345,45 @@
           },
           "engines": {
             "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0-0 || >=0.2.1-0 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-qoder-connect",
+      "title": {
+        "en": "Qoder Connector",
+        "zh": "Qoder 连接器"
+      },
+      "description": {
+        "en": "Connect Qoder CLI's model service: per-region model toggles, context windows, quota lookup, and daily check-in.",
+        "zh": "接入 Qoder CLI 的模型服务：双区域模型开关、上下文窗口、额度查询与每日签到。"
+      },
+      "author": "corrinehu",
+      "homepage": "https://github.com/masknull/dsh-qoder-connect#readme",
+      "repository": {
+        "url": "https://github.com/masknull/dsh-qoder-connect"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "deepseek",
+          "qoder",
+          "model-provider"
+        ]
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHJ4PSI4IiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxwYXRoIGQ9Ik0xOS42IDcuNSAxMSAyMGg1LjZsLTEuNCA4LjVMMjQuNSAxNmgtNS42bC43LTguNVoiIGZpbGw9IiNGRkZGRkYiLz4KICA8Y2lyY2xlIGN4PSIyNS41IiBjeT0iMjUuNSIgcj0iMy4yIiBmaWxsPSIjNDVEOUU3Ii8+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMTgiIHkxPSIxIiB4Mj0iMTgiIHkyPSIzNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiM3Q0I3RkYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNDVBRjMiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KPC9zdmc+",
+      "versions": [
+        {
+          "version": "0.2.6",
+          "publishTimestamp": 1792237446,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1"
           }
         }
       ]
@@ -1436,40 +1475,40 @@
       ]
     },
     {
-      "name": "dsh-qoder-connect",
-      "title": {
-        "en": "Qoder Connector",
-        "zh": "Qoder 连接器"
-      },
-      "description": {
-        "en": "Connect Qoder CLI's model service: per-region model toggles, context windows, quota lookup, and daily check-in.",
-        "zh": "接入 Qoder CLI 的模型服务：双区域模型开关、上下文窗口、额度查询与每日签到。"
-      },
-      "author": "corrinehu",
-      "homepage": "https://github.com/masknull/dsh-qoder-connect#readme",
+      "name": "dsh-checkpoint-rewind",
+      "title": "dsh-checkpoint-rewind",
+      "description": "Unified DSH checkpoints: session + workspace + config three-state snapshots with one-shot rollback — /checkpoint and /rewind commands, a checkpoint tool, automatic interval snapshots, a Settings page timeline with pairwise diffs, and seed-replay session rollback via the official sessions.create API",
+      "author": "PerryLink",
+      "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
       "repository": {
-        "url": "https://github.com/masknull/dsh-qoder-connect"
+        "url": "https://github.com/PerryLink/dsh-checkpoint-rewind"
       },
       "metadata": {
         "keywords": [
-          "dsh-plugin",
           "deepseek-harness",
-          "deepseek",
-          "qoder",
-          "model-provider"
+          "dsh",
+          "dsh-plugin",
+          "rewind",
+          "checkpoint",
+          "snapshot",
+          "session-replay",
+          "session-fork",
+          "config-restore",
+          "workspace-safety",
+          "undo",
+          "cordis-plugin"
         ]
       },
-      "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHJ4PSI4IiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxwYXRoIGQ9Ik0xOS42IDcuNSAxMSAyMGg1LjZsLTEuNCA4LjVMMjQuNSAxNmgtNS42bC43LTguNVoiIGZpbGw9IiNGRkZGRkYiLz4KICA8Y2lyY2xlIGN4PSIyNS41IiBjeT0iMjUuNSIgcj0iMy4yIiBmaWxsPSIjNDVEOUU3Ii8+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMTgiIHkxPSIxIiB4Mj0iMTgiIHkyPSIzNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiM3Q0I3RkYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNDVBRjMiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KPC9zdmc+",
       "versions": [
         {
-          "version": "0.2.6",
-          "publishTimestamp": 1792237446,
+          "version": "0.6.24",
+          "publishTimestamp": 1791593941,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-rc.1"
+            "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0"
           }
         }
       ]
@@ -1510,45 +1549,6 @@
           },
           "engines": {
             "dsh": ">=0.2.0-rc.2 <0.3.0-0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "dsh-checkpoint-rewind",
-      "title": "dsh-checkpoint-rewind",
-      "description": "Unified DSH checkpoints: session + workspace + config three-state snapshots with one-shot rollback — /checkpoint and /rewind commands, a checkpoint tool, automatic interval snapshots, a Settings page timeline with pairwise diffs, and seed-replay session rollback via the official sessions.create API",
-      "author": "PerryLink",
-      "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
-      "repository": {
-        "url": "https://github.com/PerryLink/dsh-checkpoint-rewind"
-      },
-      "metadata": {
-        "keywords": [
-          "deepseek-harness",
-          "dsh",
-          "dsh-plugin",
-          "rewind",
-          "checkpoint",
-          "snapshot",
-          "session-replay",
-          "session-fork",
-          "config-restore",
-          "workspace-safety",
-          "undo",
-          "cordis-plugin"
-        ]
-      },
-      "versions": [
-        {
-          "version": "0.6.24",
-          "publishTimestamp": 1791593941,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          },
-          "engines": {
-            "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0"
           }
         }
       ]
@@ -1686,44 +1686,6 @@
       ]
     },
     {
-      "name": "memory-eternal",
-      "title": "memory-eternal",
-      "description": "记忆核心（Memory Eternal）：自研的 DeepSeek Harness 记忆插件，不移植任何既有记忆框架——对话结束后自动沉淀知识卡到本地 Markdown Vault（自研去重、自研 CJK 检索、可 git 管理），设置页提供图形化知识库（统计 / 搜索 / 知识图谱 + 侧边栏一键弹窗），Agent 通过 memory_recall 工具按需召回历史上下文。零人工干预。",
-      "author": "EternalNight996",
-      "homepage": "https://github.com/EternalNight996/memory-eternal",
-      "repository": {
-        "url": "https://github.com/EternalNight996/memory-eternal"
-      },
-      "metadata": {
-        "keywords": [
-          "deepseek-harness",
-          "dsh",
-          "dsh-plugin",
-          "plugin",
-          "memory",
-          "knowledge-base",
-          "vault",
-          "markdown",
-          "knowledge-graph",
-          "rag",
-          "second-brain"
-        ]
-      },
-      "versions": [
-        {
-          "version": "0.10.38",
-          "publishTimestamp": 1792228756,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          },
-          "engines": {
-            "dsh": ">=0.1.5-alpha.2 <0.3.0-0"
-          }
-        }
-      ]
-    },
-    {
       "name": "dsh-xiaomi-tts",
       "title": {
         "en": "Xiaomi MiMo TTS",
@@ -1758,6 +1720,44 @@
           },
           "engines": {
             "dsh": ">=0.1.7-0 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "memory-eternal",
+      "title": "memory-eternal",
+      "description": "记忆核心（Memory Eternal）：自研的 DeepSeek Harness 记忆插件，不移植任何既有记忆框架——对话结束后自动沉淀知识卡到本地 Markdown Vault（自研去重、自研 CJK 检索、可 git 管理），设置页提供图形化知识库（统计 / 搜索 / 知识图谱 + 侧边栏一键弹窗），Agent 通过 memory_recall 工具按需召回历史上下文。零人工干预。",
+      "author": "EternalNight996",
+      "homepage": "https://github.com/EternalNight996/memory-eternal",
+      "repository": {
+        "url": "https://github.com/EternalNight996/memory-eternal"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "plugin",
+          "memory",
+          "knowledge-base",
+          "vault",
+          "markdown",
+          "knowledge-graph",
+          "rag",
+          "second-brain"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.10.38",
+          "publishTimestamp": 1792228756,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-alpha.2 <0.3.0-0"
           }
         }
       ]
@@ -2085,6 +2085,43 @@
       ]
     },
     {
+      "name": "dsh-fast",
+      "title": "dsh-fast",
+      "description": "Read-only performance diagnostics for DeepSeek Harness: session load (open/restore) timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via the /fast command and the fast_report tool, persisted as reconstructable fast/* session events with async sampling off the model path.",
+      "author": "dsh-fast contributors",
+      "homepage": "https://github.com/PerryLink/dsh-fast#readme",
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-fast"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "deepseek",
+          "cordis",
+          "performance",
+          "diagnostics",
+          "profiling",
+          "context-engineering",
+          "llm-cache"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.21",
+          "publishTimestamp": 1791593993,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
       "name": "@yangdcm/dsh-expert-team",
       "title": "@yangdcm/dsh-expert-team",
       "description": "dsh「专家团」bundle：一句自然语言组建角色化多智能体「数字员工」团队，按九阶段门控流水线协作交付，实现者直接改代码并产出持久工件；带 live 团队浮层。 · Role-based multi-agent expert team for DeepSeek Harness: one sentence in, a staged and gated team delivery out.",
@@ -2158,43 +2195,6 @@
           },
           "engines": {
             "dsh": ">=0.2.1-alpha.2 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "dsh-fast",
-      "title": "dsh-fast",
-      "description": "Read-only performance diagnostics for DeepSeek Harness: session load (open/restore) timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via the /fast command and the fast_report tool, persisted as reconstructable fast/* session events with async sampling off the model path.",
-      "author": "dsh-fast contributors",
-      "homepage": "https://github.com/PerryLink/dsh-fast#readme",
-      "repository": {
-        "url": "https://github.com/PerryLink/dsh-fast"
-      },
-      "metadata": {
-        "keywords": [
-          "dsh",
-          "dsh-plugin",
-          "deepseek-harness",
-          "deepseek",
-          "cordis",
-          "performance",
-          "diagnostics",
-          "profiling",
-          "context-engineering",
-          "llm-cache"
-        ]
-      },
-      "versions": [
-        {
-          "version": "0.2.21",
-          "publishTimestamp": 1791593993,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          },
-          "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
           }
         }
       ]
