@@ -30,6 +30,8 @@ export function classifyTarget(spec) {
     }
   try {
     const url = new URL(spec.replace(/^git\+/, ''))
+    if (url.hostname === 'codeload.github.com')
+      return { code: 'unsupported_tarball', reason: 'GitHub codeload 是归档下载地址，不是 Git 仓库；format-1 需要 npm 包或经核实的 Git 来源' }
     const fragment = decodeURIComponent(url.hash.slice(1))
     url.hash = ''
     const parts = fragment.split('&')

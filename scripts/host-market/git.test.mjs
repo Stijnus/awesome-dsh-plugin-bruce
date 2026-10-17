@@ -12,6 +12,7 @@ test('classifies tarballs separately and validates refs and package paths', () =
     classifyTarget('https://github.com/a/b/releases/download/v1/a.tgz').code,
     'unsupported_tarball',
   )
+  assert.equal(classifyTarget('https://codeload.github.com/a/b/tar.gz/refs/heads/main').code, 'unsupported_tarball')
   assert.deepEqual(
     classifyTarget('git+https://github.com/a/b.git#main&path:/packages/demo'),
     {
