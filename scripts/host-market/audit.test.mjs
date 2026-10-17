@@ -33,7 +33,7 @@ test('batch plan covers every repository once and prioritizes coverage gaps', ()
   )
   assert.throws(() => planAudit(feed, { diagnostics: [] }, 201), /Batch size/)
 })
-test('source inspection never infers a host range from peers', () => {
+test('source inspection follows official peer and unrestricted compatibility rules', () => {
   const m = {
     name: 'fixture',
     version: '1.0.0',
@@ -47,7 +47,7 @@ test('source inspection never infers a host range from peers', () => {
   }
   assert.equal(
     evaluateManifest(m, source, 1).status,
-    'needs_upstream_declaration',
+    'eligible_metadata',
   )
   m.engines = { dsh: '>=0.2.1-alpha.5' }
   assert.equal(evaluateManifest(m, source, 1).status, 'eligible_metadata')

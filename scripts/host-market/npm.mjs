@@ -1,6 +1,6 @@
 /** Verify the installable tarball before publishing its identity and display fields. */
 import { npmTarball } from './vendor/fetchers.ts'
-import { isBundle } from './vendor/packages.ts'
+import { isBundle, dshRange } from './vendor/packages.ts'
 import { readDisplayMetadata } from './vendor/metadata.ts'
 export async function verifyNpmPlugin(
   plugin,
@@ -18,7 +18,8 @@ export async function verifyNpmPlugin(
       registryManifest.dist,
       limits,
     )
-    if (!isBundle(manifest) || manifest.engines?.dsh !== version.engines.dsh)
+    const range = dshRange(manifest)
+    if (!isBundle(manifest) || range instanceof Error || range !== version.engines?.dsh)
       throw Error(
         `${plugin.name}@${version.version}: tarball bundle/engines differ from registry metadata`,
       )

@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto'
 import semver from 'semver'
 import { verifyNpmPlugin } from './npm.mjs'
 import { classifyTarget, readGitTarget } from './git.mjs'
-import { isBundle } from './vendor/packages.ts'
+import { isBundle, dshRange } from './vendor/packages.ts'
 import { assertPublishable } from './policy.mjs'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
 
@@ -27,7 +27,7 @@ export function npmTarget(spec) {
   return { name: match[1], selector }
 }
 
-/** Project registry evidence, preserving the author's declared host range verbatim. */
+/** Project registry evidence, using the official host compatibility resolver. */
 export function projectPackage(name, selectors, packument) {
   const diagnostics = []
   const versions = []
@@ -40,6 +40,7 @@ export function projectPackage(name, selectors, packument) {
   ]
   for (const version of wanted) {
     const manifest = packument.versions?.[version]
+    const range = manifest ? dshRange(manifest) : undefined
     const reason =
       !semver.valid(version) ||
       manifest?.name !== name ||
@@ -47,11 +48,8 @@ export function projectPackage(name, selectors, packument) {
         ? 'missing or mismatched manifest'
         : !isBundle(manifest)
           ? 'not a declared DSH bundle'
-          : typeof manifest.engines?.dsh !== 'string' ||
-              !manifest.engines.dsh.trim() ||
-              manifest.engines.dsh.startsWith('workspace:') ||
-              !semver.validRange(manifest.engines.dsh)
-            ? 'missing or invalid engines.dsh'
+          : range instanceof Error
+            ? 'invalid DSH compatibility range'
             : !Number.isFinite(Date.parse(packument.time?.[version]))
               ? 'missing registry publish time'
               : null
@@ -62,11 +60,11 @@ export function projectPackage(name, selectors, packument) {
         code: {
           'missing or mismatched manifest': 'invalid_manifest',
           'not a declared DSH bundle': 'not_dsh_bundle',
-          'missing or invalid engines.dsh': 'invalid_host_range',
+          'invalid DSH compatibility range': 'invalid_host_range',
           'missing registry publish time': 'missing_publish_time',
         }[reason],
         status: 'excluded',
-        reason,
+        reason: range instanceof Error ? range.message : reason,
       })
       continue
     }
@@ -74,7 +72,7 @@ export function projectPackage(name, selectors, packument) {
       version,
       publishTimestamp: Math.floor(Date.parse(packument.time[version]) / 1000),
       source: { type: 'npm', registry: REGISTRY },
-      engines: { dsh: manifest.engines.dsh },
+      ...(typeof range === 'string' ? { engines: { dsh: range } } : {}),
     })
   }
   versions.sort((a, b) => semver.rcompare(a.version, b.version))
@@ -333,7 +331,7 @@ async function main() {
       '生成取证与收录诊断；非 DSH 官方审计认证、非安全审查、非实机兼容验收',
     remediation: {
       invalid_host_range:
-        '插件作者需在对应版本 package.json 中显式声明有效 engines.dsh 并发布新版本；市场不代填范围。',
+        '修正无效的 engines.dsh 或相互冲突的 DSH peer 范围；遵循官方 dshRange 规则，不代填兼容范围。',
       unsupported_tarball:
         '提供已发布 npm 包名或 HTTPS Git 仓库及固定引用，不能直接将下载链接作为 format-1 来源。',
       ambiguous_short_commit: '提供完整的 40 位 commit SHA。',
@@ -351,6 +349,7 @@ async function main() {
     },
     generator: {
       hostVersion: '0.2.1-alpha.5',
+      compatibilityPolicy: 'official-dshRange-v1',
       gitReaderCommit: '1517a4dbca0a2789ff1d41ba439600f8547d23fa',
     },
     summary: {

@@ -11,6 +11,7 @@ import {
   readManifest,
   findBundlePackages,
   isBundle,
+  dshRange,
 } from './vendor/packages.ts'
 import { extractInstallTargets, npmBase, installRef } from '../readme-install.mjs'
 import { npmTarget, projectPackage } from './generate.mjs'
@@ -92,17 +93,12 @@ export function evaluateManifest(manifest, source, publishTimestamp) {
     return { status: 'not_bundle', reason: '该目录没有可读取的 package.json' }
   if (!isBundle(manifest))
     return { status: 'not_bundle', reason: '未声明标准 dsh.bundle.patch' }
-  const range = manifest.engines?.dsh
-  if (
-    typeof range !== 'string' ||
-    !range.trim() ||
-    range.startsWith('workspace:') ||
-    !semver.validRange(range)
-  )
+  const range = dshRange(manifest)
+  if (range instanceof Error)
     return {
       status: 'needs_upstream_declaration',
-      reason: '缺少或无效的显式 engines.dsh',
-      declaredRange: range ?? null,
+      reason: range.message,
+      declaredRange: null,
     }
   const plugin = {
     name: manifest.name,
@@ -111,7 +107,7 @@ export function evaluateManifest(manifest, source, publishTimestamp) {
         version: manifest.version,
         publishTimestamp,
         source,
-        engines: { dsh: range },
+        ...(typeof range === 'string' ? { engines: { dsh: range } } : {}),
       },
     ],
   }
@@ -125,8 +121,9 @@ export function evaluateManifest(manifest, source, publishTimestamp) {
   }
   return {
     status: 'eligible_metadata',
-    declaredRange: range,
-    declaredCompatibleWithHost: semver.satisfies(HOST, range, {
+    declaredRange: range ?? null,
+    compatibilityUnconstrained: range === undefined,
+    declaredCompatibleWithHost: range === undefined ? null : semver.satisfies(HOST, range, {
       includePrerelease: true,
     }),
     plugin,
@@ -368,9 +365,12 @@ export async function inspectRepository(row) {
           registrySha256: hash(body),
           evidence: verified.evidence,
           diagnostics: verified.diagnostics,
-          declaredCompatibleWithHost: verified.plugin.versions.every((v) =>
-            semver.satisfies(HOST, v.engines.dsh, { includePrerelease: true }),
-          ),
+          compatibilityUnconstrained: verified.plugin.versions.some((v) => !v.engines),
+          declaredCompatibleWithHost: verified.plugin.versions.some((v) => !v.engines)
+            ? null
+            : verified.plugin.versions.every((v) =>
+                semver.satisfies(HOST, v.engines.dsh, { includePrerelease: true }),
+              ),
         })
       } else {
         const git = classifyTarget(target)

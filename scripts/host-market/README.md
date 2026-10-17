@@ -16,14 +16,14 @@ npm test --prefix scripts/host-market
 node scripts/host-market/refresh.mjs
 ```
 
-输入为社区 `data/market-v2.json`（含精选条目），输出使用固定 `@deepseek-ai/dsh-plugin-market-index@0.2.1-alpha.5` 校验。来源始终需要显式、有效的 `engines.dsh`；不从 peerDependencies 合成范围、不填造 `*`。
+输入为社区 `data/market-v2.json`（含精选条目），输出使用固定 `@deepseek-ai/dsh-plugin-market-index@0.2.1-alpha.5` 校验。兼容范围复用官方 `dshRange`：优先使用显式 `engines.dsh`，否则求 DSH peerDependencies 范围交集；无约束时省略 engines，不填造 `*`。无效范围或空交集仍排除。
 
 - **npm**：合并重复包名，按 feed 指定的版本或标签解析精确版本；核实 registry 名称、版本、发布时间和 bundle，下载对应 tarball 并校验完整性及实际 manifest，核实 bundle/宿主范围一致。展示信息来自最高收录版本的包文件。不是完整历史版本列表。
 - **Git**：只处理 HTTPS 仓库，支持默认分支、明确分支/标签、完整 40 位 commit，以及 `&path:/目录`。引用解析到完整提交后，只从临时裸仓库读取对象；没有检出、安装、生命周期脚本、Git hooks、子模块或 LFS 下载。记录该提交的包 manifest SHA-256 和提交者时间。未指定子目录时按宿主规则发现根包、workspace 或有限深度的组合包。只收录所选提交中的版本，不把仓库历史自动扩展为安装目标。
 - **冲突**：同名包优先 npm，其次按目录来源顺序取首个；不混合不同来源的同名包版本。报告标注被排除的重复来源。
 - **不支持**：直接 tarball 安装地址、短 commit、无效 URL/目录分别给出明确原因。短 commit 不猜测补全。手动安装说明不转换。
 
-图标最多内联 32 KiB，更大的图标省略并给出警告，现有站点无需新增文件路由。底层文件读取组件来自固定宿主提交，许可证和文件摘要见 [vendor](vendor/README.md)。不调用参考生成器中的 peer 范围推断逻辑。
+图标最多内联 32 KiB，更大的图标省略并给出警告，现有站点无需新增文件路由。底层文件读取组件来自固定宿主提交，许可证和文件摘要见 [vendor](vendor/README.md)。npm、Git 和核验工具均调用同一官方兼容范围解析器；无范围限制不代表已通过实机兼容验证。
 
 ## 报告含义
 

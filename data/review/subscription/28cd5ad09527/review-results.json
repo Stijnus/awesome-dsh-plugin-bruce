@@ -9902,5 +9902,11 @@
       "mappingChanges": null,
       "mappingFindings": []
     }
-  ]
+  ],
+  "compatibilityPolicy": "legacy-explicit-engines-only",
+  "compatibilityConclusionsSuperseded": {
+    "policy": "official-dshRange-v1",
+    "reason": "旧规则错误地排除了缺少显式 engines.dsh 的 bundle；497 个 needs_upstream_declaration 不是不兼容结论。保留历史取证记录，当前收录与诊断见最新生成报告。",
+    "currentReport": "../../../dsh-market-index.report.json"
+  }
 }

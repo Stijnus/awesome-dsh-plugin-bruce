@@ -20,7 +20,7 @@ node --import ./scripts/host-market/node_modules/tsx/dist/loader.mjs scripts/hos
 ## 检查范围
 
 1. 解析仓库当前默认分支为完整 commit，在临时裸仓库读取对象，不检出、安装或执行插件。
-2. 按宿主规则检查根 bundle、声明的 workspace，以及不超过三层的备用包目录。记录 manifest 地址、摘要、包名、版本与显式 `engines.dsh`。不从 peers 推导范围。
+2. 按宿主规则检查根 bundle、声明的 workspace，以及不超过三层的备用包目录。记录 manifest 地址、摘要、包名、版本与官方 dshRange 解析结果（显式 engines 优先，否则采用 DSH peers 交集，无约束则省略）。
 3. 读取当前提交中存在的中英文 README，并补查根 README 显式链接的同仓库 README（最多 40 个路径，拒绝外链和父目录路径）。记录摘要，按已发现 manifest 包名补充安装目标，避免仓库名与 npm 包名不同造成遗漏；保留命令但不执行。
 4. 对已有映射与提取到的 npm 目标核实版本、bundle、发布时间、宿主声明和 tarball 完整性；对明确的 Git 引用与子目录核实固定提交。
 5. 比较 README 提取结果与现有映射。没提取到旧命令只产生复核建议，不能单凭提取器结果删除映射。
@@ -33,7 +33,7 @@ node --import ./scripts/host-market/node_modules/tsx/dist/loader.mjs scripts/hos
 | --- | --- | --- |
 | `mapping_can_be_added` | 原本无标准映射，但发现元数据合格来源 | 数据源维护者核对安装步骤后补映射 |
 | `eligible_source_verified` | 至少一个来源通过元数据取证 | 查看映射差异，核对能否由当前订阅生成器覆盖 |
-| `needs_upstream_declaration` | 找到 bundle，但显式宿主声明缺失或无效 | 查看具体 manifest；由对应包维护者确认并声明兼容范围 |
+| `needs_upstream_declaration` | 找到 bundle，但宿主范围无效或 DSH peers 交集为空 | 查看具体 manifest；由对应包维护者确认并声明兼容范围 |
 | `template_or_example_review` | 包名或路径显示模板/示例特征 | 人工确认其用途，不能仅凭元数据格式合格上架 |
 | `manual_install_review` | 仅有手动步骤或本地安装形式 | 维护者区分可标准化 bundle 与额外配置/拷贝步骤 |
 | `no_eligible_bundle_found` | 在明确检查范围内未找到合格 bundle | 核查根 manifest、README 和路径，不能推断整个历史都不存在 |

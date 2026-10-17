@@ -9,6 +9,7 @@ import {
   findBundlePackages,
   readManifest,
   isBundle,
+  dshRange,
 } from './vendor/packages.ts'
 import { readDisplayMetadata } from './vendor/metadata.ts'
 const run = promisify(execFile)
@@ -183,16 +184,11 @@ export async function readGitTarget(
         exclude('not_dsh_bundle', '所选目录未声明有效的 dsh.bundle.patch')
         continue
       }
-      const range = manifest.engines?.dsh
-      if (
-        typeof range !== 'string' ||
-        !range.trim() ||
-        range.startsWith('workspace:') ||
-        !semver.validRange(range)
-      ) {
+      const range = dshRange(manifest)
+      if (range instanceof Error) {
         exclude(
           'invalid_host_range',
-          '缺少或无效的显式 engines.dsh；不从 peerDependencies 推断',
+          range.message,
         )
         continue
       }
@@ -221,7 +217,7 @@ export async function readGitTarget(
           commit: refs.head,
           ...(path ? { path } : {}),
         },
-        engines: { dsh: range },
+        ...(typeof range === 'string' ? { engines: { dsh: range } } : {}),
       }
       const plugin = { name: manifest.name, ...display, versions: [version] }
       try {

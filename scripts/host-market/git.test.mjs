@@ -92,13 +92,15 @@ test('reads pinned Git objects and subdirectory bundles without executing script
     git('add', '.')
     git('commit', '-qm', 'missing range')
     const missing = await readGitTarget(
-      { ...target, url: dir },
+      target,
       {
         transports: ['file'],
         resolve: async () => resolveRef(dir, '', ['file']),
+        openObjects: (_url, ...args) => withGitObjects(dir, ...args),
       },
     )
-    assert.equal(missing.diagnostics[0].code, 'invalid_host_range')
+    assert.equal(missing.plugins.length, 1)
+    assert.equal(Object.hasOwn(missing.plugins[0].versions[0], 'engines'), false)
     const { existsSync } = await import('node:fs')
     assert.equal(existsSync(join(dir, 'SHOULD_NOT_EXIST')), false)
     await assert.rejects(

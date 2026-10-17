@@ -44,7 +44,7 @@ test('official index pins registry tags to manifest versions and preserves host 
 test('missing evidence is excluded rather than assigned fabricated compatibility or dates', () => {
   for (const alter of [
     (p) => {
-      delete p.versions['1.2.3'].engines
+      p.versions['1.2.3'].engines.dsh = ''
     },
     (p) => {
       p.versions['1.2.3'].engines.dsh = 'workspace:*'
@@ -163,6 +163,8 @@ test('npm tarball verification checks integrity, identity and declared compatibi
   try {
     const p = metadata(),
       manifest = p.versions['1.2.3']
+    manifest.peerDependencies = { '@deepseek-ai/dsh': manifest.engines.dsh }
+    delete manifest.engines
     await mkdir(join(dir, 'package'))
     await writeFile(join(dir, 'package/package.json'), JSON.stringify(manifest))
     execFileSync('tar', ['-czf', join(dir, 'test.tgz'), '-C', dir, 'package'])
@@ -227,4 +229,21 @@ test('default order mixes npm and Git by repository stars with stable repository
     evidence: [], diagnostics: [] }))
   assert.deepEqual(result.index.plugins.map(p => p.name),
     ['git-high', 'tie-a', 'tie-z', 'tie-b', 'low', 'unknown'])
+})
+
+
+test('official compatibility rules resolve peers and omit unrestricted engines', () => {
+  const p = metadata(), m = p.versions['1.2.3']
+  const result = () => projectPackage('demo', ['latest'], p)
+  delete m.engines
+  assert.equal(Object.hasOwn(result().plugin.versions[0], 'engines'), false)
+  m.peerDependencies = { '@deepseek-ai/dsh': '>=0.2.1-alpha.5', '@deepseek-ai/dsh-tools': '<0.3.0' }
+  assert.equal(result().plugin.versions[0].engines.dsh, '>=0.2.1-alpha.5 <0.3.0')
+  m.peerDependencies['@deepseek-ai/dsh-tools'] = '<0.2.0'
+  assert.equal(result().diagnostics[0].code, 'invalid_host_range')
+  m.engines = { dsh: '>=0.2.1-alpha.5' }
+  assert.equal(result().plugin.versions[0].engines.dsh, '>=0.2.1-alpha.5')
+  delete m.engines
+  m.peerDependencies = { '@deepseek-ai/dsh': 'workspace:*', '@deepseek-ai/dsh-tools': '*' }
+  assert.equal(Object.hasOwn(result().plugin.versions[0], 'engines'), false)
 })
