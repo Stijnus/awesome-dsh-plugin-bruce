@@ -119,6 +119,8 @@ export async function generateIndex(
 ) {
   if (feed?.schema_version !== 2 || !Array.isArray(feed.entries))
     throw new Error('Expected a curated market-v2 feed')
+  const compareText = (a, b) => a < b ? -1 : a > b ? 1 : 0
+  const npmRanks = new Map(), gitRanks = new Map(), ranks = new Map()
   const targets = new Map()
   const gitTargets = new Map()
   const sourceTargets = new Set()
@@ -126,6 +128,11 @@ export async function generateIndex(
   const rows = [...feed.entries, ...(feed.featured?.entries ?? [])]
   for (const row of rows) {
     if (row.packages?.mode !== 'command') continue
+    const rank = {
+      stars: Number.isFinite(row.stargazers_count) && row.stargazers_count >= 0
+        ? row.stargazers_count : -1,
+      repo: row.full_name ?? '',
+    }
     for (const target of row.packages.targets ?? []) {
       const parsed = npmTarget(target.install)
       sourceTargets.add(target.install)
@@ -133,8 +140,10 @@ export async function generateIndex(
         const classified = classifyTarget(target.install)
         if (classified.kind === 'git') {
           const key = JSON.stringify(classified)
-          if (!gitTargets.has(key))
+          if (!gitTargets.has(key)) {
             gitTargets.set(key, { ...classified, target: target.install })
+            gitRanks.set(key, rank)
+          }
         } else if (!diagnostics.some((d) => d.target === target.install))
           diagnostics.push({
             target: target.install,
@@ -143,7 +152,10 @@ export async function generateIndex(
           })
         continue
       }
-      if (!targets.has(parsed.name)) targets.set(parsed.name, new Set())
+      if (!targets.has(parsed.name)) {
+        targets.set(parsed.name, new Set())
+        npmRanks.set(parsed.name, rank)
+      }
       targets.get(parsed.name).add(parsed.selector)
     }
   }
@@ -188,7 +200,9 @@ export async function generateIndex(
   const plugins = results.flatMap((result) =>
     result.plugin ? [result.plugin] : [],
   )
+  for (const plugin of plugins) ranks.set(plugin.name, npmRanks.get(plugin.name))
   diagnostics.push(...results.flatMap((result) => result.diagnostics))
+  const gitKeys = [...gitTargets.keys()]
   const gitEntries = [...gitTargets.values()]
   const gitResults = new Array(gitEntries.length)
   let nextGit = 0
@@ -239,8 +253,14 @@ export async function generateIndex(
       }
       seen.add(plugin.name)
       plugins.push(plugin)
+      ranks.set(plugin.name, gitRanks.get(gitKeys[i]))
     }
   }
+  // Sort presentation only after source selection; npm identity precedence is unchanged.
+  plugins.sort((a, b) => {
+    const left = ranks.get(a.name), right = ranks.get(b.name)
+    return right.stars - left.stars || compareText(left.repo, right.repo) || compareText(a.name, b.name)
+  })
   const index = {
     format: 1,
     title: { en: 'DSH Community Market', zh: 'DSH 社区市场' },

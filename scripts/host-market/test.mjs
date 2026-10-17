@@ -211,3 +211,20 @@ test('size policy excludes an oversized package but keeps integrity and network 
     assert.equal(result.diagnostics[0].status, excluded ? 'excluded' : 'error')
   }
 })
+
+
+test('default order mixes npm and Git by repository stars with stable repository and package ties', async () => {
+  const row = (repo, stars, install) => ({ full_name: repo, stargazers_count: stars,
+    packages: { mode: 'command', targets: [{ install }] } })
+  const result = await generateIndex({ schema_version: 2, entries: [
+    row('z/low', 1, 'low'), row('b/tie', 10, 'tie-b'),
+    row('a/tie', 10, 'tie-z'), row('a/tie', 10, 'tie-a'),
+    row('g/high', 100, 'https://github.com/g/high#main'),
+    row('u/unknown', undefined, 'unknown'),
+  ], featured: { entries: [row('z/low', 999, 'low')] } },
+  async name => metadata(name),
+  async () => ({ plugins: [projectPackage('git-high', ['latest'], metadata('git-high')).plugin],
+    evidence: [], diagnostics: [] }))
+  assert.deepEqual(result.index.plugins.map(p => p.name),
+    ['git-high', 'tie-a', 'tie-z', 'tie-b', 'low', 'unknown'])
+})
