@@ -8,6 +8,20 @@
 
 [中文](./README.md) · [Full catalog](./CATALOG.md) · [Star Top 200](./TOP200.md) · [Author showcase](./SHOWCASE.md) · [Recommend a plugin](./CONTRIBUTING.md) · [Machine-readable data](./data/repositories.json)
 
+## Subscribe in DSH Discover
+
+**Subscription URL: [https://bruc3van.com/markets/dsh/index.json](https://bruc3van.com/markets/dsh/index.json)**
+
+```text
+https://bruc3van.com/markets/dsh/index.json
+```
+
+With the third-party market feature enabled in DSH `0.2.1-alpha.5`, open **Plugins → Discover → Manage index sources → Add index source**, paste the URL, and save. You can then browse and install indexed plugins. Subscribing in Discover does not require `safer-dsh-market`; install the market plugin separately for its standalone interface, multiple-target installation, and optional post-install AI review.
+
+[awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) generates the index automatically; `bruc3van.com` serves JSON through Cloudflare without redirects. Only npm targets with verifiable versions, bundle declarations, publish dates, and explicit host compatibility ranges are included. This is a subset of the repository catalog, and inclusion is not a security audit or proof of runtime compatibility.
+
+[Generation audit report](https://bruc3van.com/markets/dsh/audit.json) · [Latest market plugin](https://www.npmjs.com/package/safer-dsh-market)
+
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
