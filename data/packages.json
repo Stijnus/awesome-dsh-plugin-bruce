@@ -5297,14 +5297,15 @@
       "packages": [
         {
           "profile": "web",
-          "install": "https://github.com/Player-MINEPIG/dsh-tavern#v2.4.3",
-          "source": "github:Player-MINEPIG/dsh-tavern#v2.4.3",
-          "command": "dsh plugin --profile web add github:Player-MINEPIG/dsh-tavern#v2.4.3"
+          "install": "pmp-dsh-tavern@3.0.4",
+          "source": "npm:pmp-dsh-tavern@3.0.4",
+          "command": "dsh plugin --profile web add pmp-dsh-tavern@3.0.4"
         }
       ],
       "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_date": "2026-10-17",
+      "verified_via": "README@31d8c42a + npm tarball integrity",
+      "note": "要求 DSH 0.2.1-rc.2；安装前停止目标 Host，安装后重启。从数据仍存于旧插件包内的版本升级时，应先使用上游安装脚本迁移/保留数据，不能直接覆盖。"
     },
     "plolpl789/dsh-raw-html-v2": {
       "packages": [
@@ -7951,34 +7952,6 @@
         "使用实际 profile；web 仅为命令示例。元数据与安装说明已核实，未进行实机安装验收。"
       ]
     },
-    "MochiNek0/dsh-web-search-free": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-web-search-free@1.8.1",
-          "source": "npm:dsh-web-search-free@1.8.1",
-          "command": "dsh plugin --profile web add dsh-web-search-free@1.8.1"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-17",
-      "verified_via": "README@4ca9a197 + npm tarball integrity",
-      "note": "需 pnpm；安装后接管网页搜索和抓取，至少配置一个搜索引擎的密钥或自建 SearXNG 地址。"
-    },
-    "ZJU-LLMs/OpenStory": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-openstory@0.2.0",
-          "source": "npm:dsh-openstory@0.2.0",
-          "command": "dsh plugin --profile web add dsh-openstory@0.2.0"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-17",
-      "verified_via": "dsh-openstory/README.zh.md + npm manifest",
-      "note": "需 Python 3.11–3.13、Redis、本地 OpenStory 源码和模型配置；在设置中指定 Python 与 projectDir 后重启。该版本缺少 engines.dsh，暂不能进入订阅索引。"
-    },
     "morlay/dsh-plugin": {
       "packages": [
         {
@@ -7993,19 +7966,33 @@
       "verified_via": "better-session/README@923d2b55 + npm integrity",
       "note": "仅收录有独立安装说明并核实 npm 产物的 better-session 聚合包；提供会话编辑、重试、撤回和分支。要求 DSH >=0.2.1-rc.1 <0.2.2，不支持 alpha.5；其余 profile 子包暂不批量映射。"
     },
-    "Player-MINEPIG/dsh-tavern": {
+    "mochinek0/dsh-web-search-free": {
       "packages": [
         {
           "profile": "web",
-          "install": "pmp-dsh-tavern@3.0.4",
-          "source": "npm:pmp-dsh-tavern@3.0.4",
-          "command": "dsh plugin --profile web add pmp-dsh-tavern@3.0.4"
+          "install": "dsh-web-search-free@1.8.1",
+          "source": "npm:dsh-web-search-free@1.8.1",
+          "command": "dsh plugin --profile web add dsh-web-search-free@1.8.1"
         }
       ],
       "status": "readme-verified",
       "verified_date": "2026-10-17",
-      "verified_via": "README@31d8c42a + npm tarball integrity",
-      "note": "要求 DSH 0.2.1-rc.2；安装前停止目标 Host，安装后重启。从数据仍存于旧插件包内的版本升级时，应先使用上游安装脚本迁移/保留数据，不能直接覆盖。"
+      "verified_via": "README@4ca9a197 + npm tarball integrity",
+      "note": "需 pnpm；安装后接管网页搜索和抓取，至少配置一个搜索引擎的密钥或自建 SearXNG 地址。"
+    },
+    "zju-llms/openstory": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-openstory@0.2.0",
+          "source": "npm:dsh-openstory@0.2.0",
+          "command": "dsh plugin --profile web add dsh-openstory@0.2.0"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-17",
+      "verified_via": "dsh-openstory/README.zh.md + npm manifest",
+      "note": "需 Python 3.11–3.13、Redis、本地 OpenStory 源码和模型配置；在设置中指定 Python 与 projectDir 后重启。该版本缺少 engines.dsh，暂不能进入订阅索引。"
     }
   }
 }
