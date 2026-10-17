@@ -504,8 +504,8 @@
       },
       "versions": [
         {
-          "version": "1.9.0-beta.3",
-          "publishTimestamp": 1792254207,
+          "version": "1.9.0-beta.4",
+          "publishTimestamp": 1792256562,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -1276,6 +1276,34 @@
       ]
     },
     {
+      "name": "dsh-web-search-free",
+      "title": "dsh-web-search-free",
+      "description": "Free web search & fetch plugin for DeepSeek Harness (dsh) with multi-engine fallback (Tavily, Exa, Brave, Baidu, SearXNG and more)",
+      "homepage": "https://github.com/MochiNek0/dsh-web-search-free#readme",
+      "repository": {
+        "url": "https://github.com/MochiNek0/dsh-web-search-free"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "web-search"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.8.1",
+          "publishTimestamp": 1792256427,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-lsp-actions",
       "title": "dsh-lsp-actions",
       "description": "LSP action surface for DeepSeek Harness: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints, and rename tools over language servers, plus the editor action protocol (lsp.actions.*) that makes the plugin the IDE integration backend",
@@ -1557,6 +1585,27 @@
           },
           "engines": {
             "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pmp-dsh-tavern",
+      "title": "pmp-dsh-tavern",
+      "description": "A SillyTavern compatibility plugin that keeps DSH authoritative over sessions and execution, with frontend and backend APIs for composing Tavern capabilities with native DSH features.",
+      "repository": {
+        "url": "https://github.com/Player-MINEPIG/dsh-tavern"
+      },
+      "versions": [
+        {
+          "version": "3.0.4",
+          "publishTimestamp": 1792251323,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.2"
           }
         }
       ]
@@ -2210,6 +2259,46 @@
       ]
     },
     {
+      "name": "@morlay/better-session",
+      "title": {
+        "en": "Session Editing",
+        "zh": "会话编辑装配"
+      },
+      "description": {
+        "en": "dsh profile bundle: assembles @morlay/session-branch, @morlay/session-rdb, @morlay/ui-conversation-message-actions, @morlay/ui-conversation-manager and @morlay/dsh-reference into a web profile — the rewind / retry / recall / fork closed loop on RDB persistence; the conversation shell stays on the official ui-conversation row and our extensions only register on its slots.",
+        "zh": "profile 聚合 bundle：把 @morlay/session-branch、@morlay/session-rdb、@morlay/ui-conversation-message-actions、@morlay/ui-conversation-manager 与 @morlay/dsh-reference 装进 web profile，提供就地编辑 / 重试 / 撤回 / 分支（rewind / retry / recall / fork）闭环；对话外壳走官方 ui-conversation 行，扩展只注册在它的槽位上。"
+      },
+      "repository": {
+        "url": "https://github.com/morlay/dsh-plugin"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-bundle",
+          "dsh-plugin",
+          "fork",
+          "retry",
+          "rewind",
+          "session-rdb",
+          "ui-conversation-message-actions"
+        ]
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZWxsaXBzZSBjeD0iMTgiIGN5PSIxMC40IiByeD0iMTAiIHJ5PSI0IiBzdHJva2U9InVybCgjY2FwKSIgc3Ryb2tlLXdpZHRoPSIzIiAvPgogIDxwYXRoIGQ9Ik04IDEwLjR2MTVjMCAyLjIgNC41IDQgMTAgNHMxMC0xLjggMTAtNHYtMTUiIHN0cm9rZT0idXJsKCN2YXVsdCkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik04IDE3LjljMCAyLjIgNC41IDQgMTAgNHMxMC0xLjggMTAtNCIgc3Ryb2tlPSJ1cmwoI3RpZXIpIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgLz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iY2FwIiB4MT0iOCIgeTE9IjYuNCIgeDI9IjI4IiB5Mj0iMTQuNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjQThENkZGIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1Qjc4RjAiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ2YXVsdCIgeDE9IjgiIHkxPSIxMC40IiB4Mj0iMjgiIHkyPSIyOS40IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM4Q0M2RkYiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzRBNjVFOCIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InRpZXIiIHgxPSI4IiB5MT0iMTcuOSIgeDI9IjI4IiB5Mj0iMjEuOSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjQjREQkZGIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2RjhCRUUiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KPC9zdmc+Cg==",
+      "versions": [
+        {
+          "version": "0.1.8",
+          "publishTimestamp": 1792228532,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">= 0.2.1-rc.1 < 0.2.2"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-codebuddy-cli",
       "title": "dsh-codebuddy-cli",
       "description": "复用 CodeBuddy CLI 的登录态，把 CodeBuddy 包含的模型自动接入 DeepSeek Harness — reuse the CodeBuddy CLI sign-in to bring its models into DeepSeek Harness with zero configuration.",
@@ -2230,8 +2319,8 @@
       },
       "versions": [
         {
-          "version": "0.4.0",
-          "publishTimestamp": 1792255340,
+          "version": "0.4.1",
+          "publishTimestamp": 1792257202,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
