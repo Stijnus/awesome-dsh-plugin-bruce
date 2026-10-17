@@ -1,0 +1,438 @@
+{
+  "reviewedAt": "2026-10-18",
+  "scope": "第一批 200 中 20 个 mapping_can_be_added 仓库的安装方式复核",
+  "runtimeInstallTested": false,
+  "decisions": [
+    {
+      "ordinal": 16,
+      "repository": "c1overzz/dsh-bili-scroll",
+      "readmeEvidence": "https://github.com/c1overzz/dsh-bili-scroll/blob/430f42e95ab3842e095321d765b8562fff182717/README.md",
+      "packageEvidence": {
+        "id": 16,
+        "name": "dsh-bili-scroll",
+        "version": "0.1.7",
+        "engines": {
+          "dsh": ">=0.1.7-rc.1"
+        },
+        "evidence": [
+          {
+            "name": "dsh-bili-scroll",
+            "version": "0.1.7",
+            "tarball": "https://registry.npmjs.org/dsh-bili-scroll/-/dsh-bili-scroll-0.1.7.tgz",
+            "integrity": "sha512-yeDAnMpfYwlQZwPu8ltch7wZEZM2Ytara+LFlIUXP+JNlAvNDRHKfIpszywoJ0719aKY4oWj3II6gh7aSd1ViQ=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/c1overzz/dsh-bili-scroll"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "dsh-bili-scroll@0.1.7",
+      "reason": "安装后重启，在设置页安装 Python 主依赖并扫码登录 B 站；自动运行和评论需用户自行配置。"
+    },
+    {
+      "ordinal": 28,
+      "repository": "HerTa-st/Herta-dsh",
+      "readmeEvidence": "https://github.com/HerTa-st/Herta-dsh/blob/9b388425647a6584bdc37d1d241468a1537b56c7/README.md",
+      "packageEvidence": {
+        "id": 28,
+        "name": "dsh-herta",
+        "version": "0.1.11",
+        "engines": {
+          "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+        },
+        "evidence": [
+          {
+            "name": "dsh-herta",
+            "version": "0.1.11",
+            "tarball": "https://registry.npmjs.org/dsh-herta/-/dsh-herta-0.1.11.tgz",
+            "integrity": "sha512-Q38ZGj3SGGaszHZxxLeAH8HlXYN6K4g7IA+I7lUXd+aN337TbJbGvOtDCffuY6j423vZSz5fifIbuz8gzf/OEA=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/HerTa-st/Herta-dsh"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "dsh-herta@0.1.11",
+      "reason": "npm 包已包含主题和 preset；安装后完整重启。语音模型或云端密钥按需单独配置。"
+    },
+    {
+      "ordinal": 29,
+      "repository": "yan-mc/dsh-normify",
+      "readmeEvidence": "https://github.com/yan-mc/dsh-normify/blob/ed404e5b8db0010ff57ec8486ec8749421072545/README.md",
+      "decision": "deferred",
+      "reason": "只文档化本地构建、压缩包和路径安装；声明 <0.2.0，不把源码 bundle 自动转为 alpha.5 可用远程安装。"
+    },
+    {
+      "ordinal": 36,
+      "repository": "SiriLee/dsh-rewind",
+      "readmeEvidence": "https://github.com/SiriLee/dsh-rewind/blob/d4062a966f90c28e1d698b44aa56f6f3bed0da05/README.md",
+      "packageEvidence": {
+        "id": 36,
+        "name": "dsh-rewind-plugin",
+        "version": "0.16.0",
+        "engines": {
+          "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+        },
+        "evidence": [
+          {
+            "name": "dsh-rewind-plugin",
+            "version": "0.16.0",
+            "tarball": "https://registry.npmjs.org/dsh-rewind-plugin/-/dsh-rewind-plugin-0.16.0.tgz",
+            "integrity": "sha512-6xCGmJ+qDC2rfeLxRpDrUCPyPlycyIo2JBnn3MK05wehOy4GkwATBRAe0JIJnndW6b9QILAH+qiXWSBsunxapQ=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/SiriLee/dsh-rewind"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "dsh-rewind-plugin@0.16.0",
+      "reason": "上游要求选择匹配宿主的明确版本；0.16.0 声明 >=0.2.1-rc.1，不能视为支持 alpha.5。"
+    },
+    {
+      "ordinal": 64,
+      "repository": "PerryLink/jevcore",
+      "readmeEvidence": "https://github.com/PerryLink/jevcore/blob/da5bd49a60c93a86f8b7c261f88ac5f9b736c66a/README.md",
+      "packageEvidence": {
+        "id": 64,
+        "name": "jevcore-dsh",
+        "version": "0.4.1",
+        "engines": {
+          "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0"
+        },
+        "evidence": [
+          {
+            "name": "jevcore-dsh",
+            "version": "0.4.1",
+            "tarball": "https://registry.npmjs.org/jevcore-dsh/-/jevcore-dsh-0.4.1.tgz",
+            "integrity": "sha512-Hmew30SHpnxYBzqC6GspLN8y743OOP9j3C7CWM5tc2dtFzvzeWqcwskDZ+iPw6J09z5epxDG0P5U0LBa+XHaYg=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/PerryLink/jevcore"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "jevcore-dsh@0.4.1",
+      "reason": "采用 README 推荐的 npm 包；0.4.1 的宿主声明不包含 alpha.5。源码子包还依赖 jevcore，不作为单独 Git 安装入口。"
+    },
+    {
+      "ordinal": 69,
+      "repository": "gulagala001/oh-my-dsh",
+      "readmeEvidence": "https://github.com/gulagala001/oh-my-dsh/blob/ca394bd336bc596b9ce589cbc8d21dd6528f3332/README.md",
+      "decision": "deferred",
+      "reason": "必须按宿主完整版本选择专用发布包；涉及 profile 权限默认值和额外安装说明，当前 rc.2 源码不能当作 alpha.5 通用入口。"
+    },
+    {
+      "ordinal": 94,
+      "repository": "mrRisega/dsh-remote",
+      "readmeEvidence": "https://github.com/mrRisega/dsh-remote/blob/02abc6902a1d30a31cea40783428d6a4362b7333/README.md",
+      "decision": "deferred",
+      "reason": "官方使用 npx 专用安装器完成 bridge/账号/中继配置，单独安装发现的 web 子包不是完整方案。"
+    },
+    {
+      "ordinal": 95,
+      "repository": "liceses/dsh-memes-reply",
+      "readmeEvidence": "https://github.com/liceses/dsh-memes-reply/blob/e6e551e1867e4e6554af8e529c272631bd925d4a/README.md",
+      "packageEvidence": {
+        "id": 95,
+        "repo": "liceses/dsh-memes-reply",
+        "commit": "e6e551e1867e4e6554af8e529c272631bd925d4a",
+        "name": "dsh-memes-reply",
+        "scripts": {
+          "build": "node scripts/build-client-vocab.mjs && tsc -p tsconfig.build.json && tsdown",
+          "build:client": "node scripts/build-client-vocab.mjs && tsdown",
+          "typecheck": "tsc --noEmit",
+          "check:client": "node scripts/check-client-purity.mjs",
+          "pretest": "npm run build && npm run check:client",
+          "test": "node --test \"test/*.test.mjs\"",
+          "import-assets": "node scripts/import-assets.mjs",
+          "assets:pack": "node scripts/pack-assets.mjs",
+          "assets:fetch": "node scripts/fetch-assets.mjs",
+          "pack": "npm pack",
+          "prepack": "npm run build"
+        },
+        "checked": [
+          {
+            "path": "./cordis.patch.yml",
+            "present": true
+          },
+          {
+            "path": "lib/index.js",
+            "present": true
+          }
+        ]
+      },
+      "decision": "mapping_added",
+      "target": "https://github.com/liceses/dsh-memes-reply#e6e551e1867e4e6554af8e529c272631bd925d4a",
+      "reason": "采用已提交构建产物的固定 Git 提交；npm 命令在 README 中明确标为尚未发布。安装后需下载约 87 MB 素材并重启，桌面版使用应用内插件管理器。"
+    },
+    {
+      "ordinal": 99,
+      "repository": "morlay/dsh-plugin",
+      "readmeEvidence": "https://github.com/morlay/dsh-plugin/blob/923d2b556730625d7392b31b15b7252a94970d5f/README.md",
+      "decision": "deferred",
+      "reason": "多 bundle 工作区，根 README 将安装说明分散到各子包；需逐子包核实发布与装配，不能把六个源码 bundle 批量当成单一插件。"
+    },
+    {
+      "ordinal": 119,
+      "repository": "1841220388zzzcccxxx-star/dsh-git-graph",
+      "readmeEvidence": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph/blob/ec1a867b88358e2984249cc858690eea8501a1ce/README.md",
+      "packageEvidence": {
+        "id": 119,
+        "repo": "1841220388zzzcccxxx-star/dsh-git-graph",
+        "commit": "ec1a867b88358e2984249cc858690eea8501a1ce",
+        "name": "dsh-git-graph",
+        "scripts": {
+          "check:compat": "node scripts/check-compat.mjs",
+          "publish:npm": "node scripts/publish.mjs"
+        },
+        "checked": [
+          {
+            "path": "./cordis.patch.yml",
+            "present": true
+          },
+          {
+            "path": "index.js",
+            "present": true
+          }
+        ]
+      },
+      "decision": "mapping_added",
+      "target": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph#ec1a867b88358e2984249cc858690eea8501a1ce",
+      "reason": "采用 README 的 Git 安装渠道并固定完整提交；README 中的 scoped npm 包返回 404，未收录该 npm 目标。"
+    },
+    {
+      "ordinal": 129,
+      "repository": "PensiveFei/deep-read-summarize",
+      "readmeEvidence": "https://github.com/PensiveFei/deep-read-summarize/blob/25f5bcdbe4ffa20aff01b5caa97e5ce51d0fdc36/README.md",
+      "packageEvidence": {
+        "id": 129,
+        "name": "deep-read-summarize",
+        "version": "0.3.14",
+        "engines": {
+          "dsh": ">=0.1.0-rc.6"
+        },
+        "evidence": [
+          {
+            "name": "deep-read-summarize",
+            "version": "0.3.14",
+            "tarball": "https://registry.npmjs.org/deep-read-summarize/-/deep-read-summarize-0.3.14.tgz",
+            "integrity": "sha512-lkeOTPGJ/XPhgzFxdtlJ65OVVwCzPut/gErsvIVHhzbMEEiH7mFAtLPixulxv/F/koBmkNZoDoexZs315JNPhg=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/PensiveFei/deep-read-summarize"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "deep-read-summarize@0.3.14",
+      "reason": "把 README 的 npm 安装并手动登记 bundle 步骤规范为宿主 plugin add；按输入类型配置 poppler、yt-dlp 或 uv 等工具。"
+    },
+    {
+      "ordinal": 142,
+      "repository": "MoonlitDropOfBlood/dsh-token-stats",
+      "readmeEvidence": "https://github.com/MoonlitDropOfBlood/dsh-token-stats/blob/d2af3ab9bf9c1ec3219ed991e0358fcb482832b7/README.md",
+      "decision": "deferred",
+      "reason": "正式渠道只文档化 Release tarball；format-1 不支持直接 tarball，尚无已核实的等价 npm/Git 发行渠道。"
+    },
+    {
+      "ordinal": 154,
+      "repository": "kenz1117/dsh-ui-usage-billing",
+      "readmeEvidence": "https://github.com/kenz1117/dsh-ui-usage-billing/blob/a656a0b50ded792fd2dc10bd298225d7258fd9f9/README.md",
+      "packageEvidence": {
+        "id": 154,
+        "name": "@kenz1117/dsh-ui-usage-billing",
+        "version": "1.5.0",
+        "engines": {
+          "dsh": ">=0.1.2-alpha.1"
+        },
+        "evidence": [
+          {
+            "name": "@kenz1117/dsh-ui-usage-billing",
+            "version": "1.5.0",
+            "tarball": "https://registry.npmjs.org/@kenz1117/dsh-ui-usage-billing/-/dsh-ui-usage-billing-1.5.0.tgz",
+            "integrity": "sha512-7R5fng3D3NsPuCON+jO3UQL3n6PkVRJa4l6A6C1rrKn777dyFDgPtSPMWb6akbg6MBcIMYPBTKs2CLVk9QTyuA=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/kenz1117/dsh-ui-usage-billing"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "@kenz1117/dsh-ui-usage-billing@1.5.0",
+      "reason": "采用 README 指向的 npm 预览线并固定核实版本；旧 stable 线已冻结，安装前核对宿主版本。"
+    },
+    {
+      "ordinal": 156,
+      "repository": "PerryLink/dsh-fast",
+      "readmeEvidence": "https://github.com/PerryLink/dsh-fast/blob/73ae9154323c09de833b5b419bacb946fb491c04/README.md",
+      "packageEvidence": {
+        "id": 156,
+        "name": "dsh-fast",
+        "version": "0.2.21",
+        "engines": {
+          "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
+        },
+        "evidence": [
+          {
+            "name": "dsh-fast",
+            "version": "0.2.21",
+            "tarball": "https://registry.npmjs.org/dsh-fast/-/dsh-fast-0.2.21.tgz",
+            "integrity": "sha512-J1yA/HL6pfsQk3FhXIrq1mzCi9BOrnhC9xJ9+/KWRUYvxPMf8IEXZj+j1YKPz9/QLtgVWPgM9LbwpJQXY8/JmA=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-fast"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "dsh-fast@0.2.21",
+      "reason": "采用已发布 npm 包，避免 Git prepare 构建步骤；安装后重启，配置由插件提供。"
+    },
+    {
+      "ordinal": 162,
+      "repository": "Across2005/harness-self-evolution-plugin",
+      "readmeEvidence": "https://github.com/Across2005/harness-self-evolution-plugin/blob/167d15d6dbcc80ff1cd5571c632add1bd1fac6af/README.md",
+      "decision": "deferred",
+      "reason": "安装脚本按实际 DSH_HOME 注入配置，出厂 mount row 为 disabled；另声明 <0.2.0，直接安装源码不能替代脚本。"
+    },
+    {
+      "ordinal": 166,
+      "repository": "SpookyWaste/dsh-bash-native",
+      "readmeEvidence": "https://github.com/SpookyWaste/dsh-bash-native/blob/6e363eecbcd91b439692fdc80d1aa81a396998d7/README.md",
+      "packageEvidence": {
+        "id": 166,
+        "name": "dsh-bash-native",
+        "version": "0.2.0",
+        "engines": {
+          "dsh": ">=0.1.7-rc.2 <0.3.0-0"
+        },
+        "evidence": [
+          {
+            "name": "dsh-bash-native",
+            "version": "0.2.0",
+            "tarball": "https://registry.npmjs.org/dsh-bash-native/-/dsh-bash-native-0.2.0.tgz",
+            "integrity": "sha512-7puBvcooQJAI3j37ySiGhwn9pntmzyGj1NbTN279l+LAon3MqIYF3SZxWv8UQe3JWctcD4DRTSwu7DQp28usOg=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/SpookyWaste/dsh-bash-native"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "dsh-bash-native@0.2.0",
+      "reason": "仅适用于 Windows x64；安装后选择 Native Bash (Windows) preset，持久终端默认关闭。"
+    },
+    {
+      "ordinal": 172,
+      "repository": "miuzel/dsh-graph",
+      "readmeEvidence": "https://github.com/miuzel/dsh-graph/blob/86d2bed3c937acbd1917eb0cf17440e02a675a12/README.md",
+      "packageEvidence": {
+        "id": 172,
+        "name": "dsh-graph",
+        "version": "0.21.0",
+        "engines": {
+          "dsh": ">=0.1.5-rc.2 <0.2.2-0"
+        },
+        "evidence": [
+          {
+            "name": "dsh-graph",
+            "version": "0.21.0",
+            "tarball": "https://registry.npmjs.org/dsh-graph/-/dsh-graph-0.21.0.tgz",
+            "integrity": "sha512-dwiGek+JEz8mIb/ejvPMmA3can8QW2iZ+Mn4xb8xUTQthmNEtJ1E7uO2LW/0bGqHrRTCyKwF+N4j9YqoWij2YQ=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/miuzel/dsh-graph"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "dsh-graph@0.21.0",
+      "reason": "README 的 <name> 仅是 profile 占位符，web 是可替换示例；需要 Node >=22。"
+    },
+    {
+      "ordinal": 175,
+      "repository": "Vncntvx/dsh-zotero",
+      "readmeEvidence": "https://github.com/Vncntvx/dsh-zotero/blob/2cd3d6f923f12794ab6a9161b27c0540f3c395e2/README.md",
+      "packageEvidence": {
+        "id": 175,
+        "name": "dsh-zotero",
+        "version": "0.12.1",
+        "engines": {
+          "dsh": ">=0.2.0-rc.2"
+        },
+        "evidence": [
+          {
+            "name": "dsh-zotero",
+            "version": "0.12.1",
+            "tarball": "https://registry.npmjs.org/dsh-zotero/-/dsh-zotero-0.12.1.tgz",
+            "integrity": "sha512-RmUK8LWXUNHUG2i1zbLmCUNKf4F1Wee2fv7fgIJm1p+ak8h3BJA6A0+5xdTnmAIGtg9jOlGVFJKmWrkG4PUSvg=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/Vncntvx/dsh-zotero"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "dsh-zotero@0.12.1",
+      "reason": "需要 Zotero 7+ 并开启本地 API，写入需要 Zotero 10；采用 npm 包，不采用需本地构建的 main。"
+    },
+    {
+      "ordinal": 178,
+      "repository": "SeverusZh/dsh-plugin-subagent-director",
+      "readmeEvidence": "https://github.com/SeverusZh/dsh-plugin-subagent-director/blob/ba4d46a8c40eca3c4b3ea892d720139e29388123/README.md",
+      "packageEvidence": {
+        "id": 178,
+        "name": "dsh-plugin-subagent-director",
+        "version": "0.6.0-beta.1",
+        "engines": {
+          "dsh": ">=0.2.1-rc.1"
+        },
+        "evidence": [
+          {
+            "name": "dsh-plugin-subagent-director",
+            "version": "0.6.0-beta.1",
+            "tarball": "https://registry.npmjs.org/dsh-plugin-subagent-director/-/dsh-plugin-subagent-director-0.6.0-beta.1.tgz",
+            "integrity": "sha512-ckpzC8mZo6y6YJTQjov6QWfOFq3RgFntt7UfLxkx3+rYVNruyUpLnsAhvHFHF3JiA97dddxIWfxrlkBNwCsZJA=="
+          }
+        ],
+        "repository": {
+          "url": "https://github.com/SeverusZh/dsh-plugin-subagent-director"
+        }
+      },
+      "decision": "mapping_added",
+      "target": "dsh-plugin-subagent-director@0.6.0-beta.1",
+      "reason": "采用含构建产物的 npm 包；0.6.0-beta.1 声明 >=0.2.1-rc.1，不代表支持 alpha.5。使用 /orchestrate 的会话卸载后存在恢复限制，见上游 README。"
+    },
+    {
+      "ordinal": 181,
+      "repository": "ChongCyrus/Vibe-Mathematics",
+      "readmeEvidence": "https://github.com/ChongCyrus/Vibe-Mathematics/blob/afe629e6a4e005bb61fc9fda8743846f5411971c/README.md",
+      "packageEvidence": {
+        "id": 181,
+        "repo": "ChongCyrus/Vibe-Mathematics",
+        "commit": "afe629e6a4e005bb61fc9fda8743846f5411971c",
+        "name": "dsh-vibe-math",
+        "scripts": {
+          "build:presets": "node scripts/build-preset-rows.mjs"
+        },
+        "checked": [
+          {
+            "path": "./cordis.patch.yml",
+            "present": true
+          },
+          {
+            "path": "installer.js",
+            "present": true
+          }
+        ]
+      },
+      "decision": "mapping_added",
+      "target": "https://github.com/ChongCyrus/Vibe-Mathematics#afe629e6a4e005bb61fc9fda8743846f5411971c",
+      "reason": "采用上游明确支持的 Git 入口并固定完整提交；需要 pnpm，安装后重启。预设升级会替换受管内容，按上游说明保留手动修改。"
+    }
+  ]
+}
