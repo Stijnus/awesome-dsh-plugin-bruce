@@ -10,6 +10,11 @@ on:
       - 'scripts/host-market/**'
       - '.github/workflows/refresh-host-market.yml'
       - 'data/market-v2.json'
+      - 'data/packages.json'
+      - 'data/approved.json'
+      - 'data/curated.json'
+      - 'scripts/market.mjs'
+      - 'scripts/market-v2.mjs'
   workflow_dispatch:
 
 permissions:
@@ -33,6 +38,7 @@ jobs:
           node-version: 22
       - run: npm ci --ignore-scripts --prefix scripts/host-market
       - run: npm test --prefix scripts/host-market
+      - run: node scripts/validate-packages.mjs
       - name: Generate and publish validated repository data
         shell: bash
         run: |

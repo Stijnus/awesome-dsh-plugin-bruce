@@ -18,7 +18,7 @@ https://bruc3van.com/markets/dsh/index.json
 
 在 DSH `0.2.1-alpha.5` 中启用第三方市场功能后，打开 **插件 → 发现 → 管理索引源 → 添加索引源**，粘贴上面的地址并保存，即可浏览和安装索引中的插件。仅订阅官方「发现」页无需安装 `safer-dsh-market`；如需独立市场界面、多选安装和安装后 AI 审查，可另行安装市场插件。
 
-索引由 [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) 自动生成，通过 Cloudflare 上的 `bruc3van.com` 提供无重定向 JSON。收录经过核实的 npm 目标及固定完整提交的 Git 组合包，核实 bundle 声明、时间及官方宿主兼容范围规则，因此不是完整仓库目录；收录不代表安全审查或实机兼容保证。
+索引由 [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) 自动生成，通过 Cloudflare 上的 `bruc3van.com` 提供无重定向 JSON。收录经过核实的 npm 目标及固定完整提交的 Git 组合包，核实 bundle 声明、时间及官方宿主兼容范围规则，因此不是完整仓库目录；收录不代表安全审查或实机兼容保证。 订阅候选不受社区目录 600 条上限限制，自动补充已批准且有安装映射的仓库；官方发现页支持中英文分类、npm/Git 标签、关键词搜索及 Star/仓库更新时间排序。
 
 [查看索引生成与排除报告](https://bruc3van.com/markets/dsh/audit.json) · [最新版市场插件](https://www.npmjs.com/package/safer-dsh-market)
 

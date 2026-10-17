@@ -4,6 +4,7 @@ import { dirname, resolve } from 'node:path'
 import { pathToFileURL } from 'node:url'
 import { createHash } from 'node:crypto'
 import semver from 'semver'
+import { applyDiscovery } from './discovery.mjs'
 import { verifyNpmPlugin } from './npm.mjs'
 import { classifyTarget, readGitTarget } from './git.mjs'
 import { isBundle, dshRange } from './vendor/packages.ts'
@@ -130,6 +131,7 @@ export async function generateIndex(
       stars: Number.isFinite(row.stargazers_count) && row.stargazers_count >= 0
         ? row.stargazers_count : -1,
       repo: row.full_name ?? '',
+      row,
     }
     for (const target of row.packages.targets ?? []) {
       const parsed = npmTarget(target.install)
@@ -266,6 +268,7 @@ export async function generateIndex(
       en: 'Verified npm metadata and commit-pinned Git bundles from the community catalog. Inclusion is not a security review.',
       zh: '从社区精选目录核实 npm 元数据及固定提交的 Git 组合包；收录不代表安全审查。',
     },
+    metadata: applyDiscovery(plugins, ranks),
     plugins,
   }
   parseMarketIndex(index, INDEX_URL)
@@ -369,6 +372,7 @@ async function main() {
     indexSha256: createHash('sha256').update(serialized).digest('hex'),
     fetchFailures: result.fetchFailures,
     generatedAt: new Date().toISOString(),
+    ...(JSON.parse(raw).subscriptionCandidates ? { candidateSelection: JSON.parse(raw).subscriptionCandidates } : {}),
     feedSha256: createHash('sha256').update(raw).digest('hex'),
     candidates: result.candidates,
     included: result.index.plugins.length,
