@@ -9,6 +9,7 @@
     "git_ref_not_found": "修正目录中的分支或标签；不会自动换成默认分支。",
     "duplicate_package": "同名包优先 npm，其次按目录顺序；需要人工核实身份后调整来源。",
     "not_dsh_bundle": "确认该版本或子目录声明 dsh.bundle.patch，而非普通库或尚未打包的源码。",
+    "package_size_limit": "压缩包或解压文件总量超过生成器 64 MiB 上限；请精简发布产物后发布新版本，再重新核验。",
     "npm_fetch_failed": "检查网络、registry 和安装包完整性；失败时保留已发布索引。",
     "git_fetch_failed": "检查仓库访问权限和网络；不能据此判断插件兼容性或安全性。"
   },
@@ -17,29 +18,30 @@
     "gitReaderCommit": "1517a4dbca0a2789ff1d41ba439600f8547d23fa"
   },
   "summary": {
-    "npmCandidates": 296,
-    "gitCandidates": 199,
-    "uniqueTargets": 516,
-    "includedNpm": 35,
-    "includedGit": 7,
+    "npmCandidates": 306,
+    "gitCandidates": 202,
+    "uniqueTargets": 530,
+    "includedNpm": 51,
+    "includedGit": 12,
     "diagnosticsByCode": {
       "ambiguous_short_commit": 1,
       "duplicate_package": 19,
       "git_ref_not_found": 2,
-      "invalid_host_range": 424,
+      "invalid_host_range": 415,
       "invalid_manifest": 3,
-      "metadata_warning": 2,
+      "metadata_warning": 3,
       "not_dsh_bundle": 4,
+      "package_size_limit": 1,
       "unsupported_tarball": 18
     },
     "counting": "候选按 npm 包或 Git 目标去重；诊断可按版本/路径多条记录，不等于独立插件数量"
   },
-  "indexSha256": "36b70d32a410d782224a28b0566b76a32b92541af76463fdd8d1caf50ed32249",
+  "indexSha256": "b078352e16cdbdfb456444905ca529bfbdc1c282158f05548af9ce8bffbfa612",
   "fetchFailures": 0,
-  "generatedAt": "2026-10-17T06:10:44.762Z",
-  "feedSha256": "949e71545d9a2fa3961669320eecfec9b21cb1e9b7afa9112e316a2bb2f3214f",
-  "candidates": 495,
-  "included": 42,
+  "generatedAt": "2026-10-17T16:22:58.822Z",
+  "feedSha256": "28cd5ad095279591ebea4cf6c2c0b1c24412d5dc51f80267791a92b0d97d1b23",
+  "candidates": 508,
+  "included": 63,
   "diagnostics": [
     {
       "target": "https://github.com/zenstory-ai/oh-story-dsh/releases/download/v0.1.12/oh-story-dsh-0.1.12.tgz",
@@ -172,7 +174,7 @@
     },
     {
       "name": "dsh-pocket",
-      "version": "2.11.0",
+      "version": "2.12.0",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -193,14 +195,14 @@
     },
     {
       "name": "dsh-chat-import",
-      "version": "0.25.2",
+      "version": "0.26.1",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
     },
     {
       "name": "dsh-workbuddy-connect",
-      "version": "0.7.6",
+      "version": "0.7.8",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -221,7 +223,7 @@
     },
     {
       "name": "dsh-better-sidebar",
-      "version": "0.26.1",
+      "version": "0.28.0",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -256,7 +258,7 @@
     },
     {
       "name": "dsh-damage-pulse",
-      "version": "4.2.5",
+      "version": "4.2.6",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -319,7 +321,7 @@
     },
     {
       "name": "dsh-connect-workbuddy",
-      "version": "4.6.7",
+      "version": "4.7.0",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -340,7 +342,7 @@
     },
     {
       "name": "@nagi-ovo/dsh-visualize",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -403,14 +405,7 @@
     },
     {
       "name": "dsh-mobile",
-      "version": "0.6.10",
-      "code": "invalid_host_range",
-      "status": "excluded",
-      "reason": "missing or invalid engines.dsh"
-    },
-    {
-      "name": "martty",
-      "version": "0.3.1",
+      "version": "0.6.11",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -438,7 +433,7 @@
     },
     {
       "name": "dsh-connect-trae",
-      "version": "3.6.1",
+      "version": "3.7.0",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -459,7 +454,7 @@
     },
     {
       "name": "dsh-codex-subscription",
-      "version": "2.7.1",
+      "version": "3.0.0",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -536,21 +531,21 @@
     },
     {
       "name": "@hyzyn/dsh-plugin-kit",
-      "version": "0.1.54",
+      "version": "0.1.55",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
     },
     {
       "name": "@wenaixi/dsh-superpower",
-      "version": "7.7.2",
+      "version": "8.0.0",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
     },
     {
       "name": "@michengai/dsh-im-connect",
-      "version": "0.1.77",
+      "version": "1.0.0",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -571,14 +566,7 @@
     },
     {
       "name": "dsh-bottom-info-bar",
-      "version": "1.21.6",
-      "code": "invalid_host_range",
-      "status": "excluded",
-      "reason": "missing or invalid engines.dsh"
-    },
-    {
-      "name": "@changfenhuang/dsh-genui",
-      "version": "0.12.0",
+      "version": "1.21.8",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -606,14 +594,14 @@
     },
     {
       "name": "@michengai/dsh-skills-manager",
-      "version": "1.2.0",
+      "version": "1.2.5",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
     },
     {
       "name": "dsh-prompt",
-      "version": "0.4.29",
+      "version": "0.4.31",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -621,13 +609,6 @@
     {
       "name": "@feiyang666/dsh-usage-plugin",
       "version": "1.18.0",
-      "code": "invalid_host_range",
-      "status": "excluded",
-      "reason": "missing or invalid engines.dsh"
-    },
-    {
-      "name": "dsh-mnemon",
-      "version": "0.5.30",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -641,7 +622,7 @@
     },
     {
       "name": "dsh-llm-fallbacks",
-      "version": "0.6.5",
+      "version": "0.6.6",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -696,6 +677,12 @@
       "reason": "missing or invalid engines.dsh"
     },
     {
+      "name": "dsh-herta",
+      "code": "metadata_warning",
+      "status": "warning",
+      "reason": "图标超过 32 KiB 内联上限，已省略"
+    },
+    {
       "name": "@cerbur/clutch-dsh-worktree",
       "version": "0.1.18",
       "code": "invalid_host_range",
@@ -731,13 +718,6 @@
       "reason": "missing or invalid engines.dsh"
     },
     {
-      "name": "dsh-cost-meter",
-      "version": "1.8.35",
-      "code": "invalid_host_range",
-      "status": "excluded",
-      "reason": "missing or invalid engines.dsh"
-    },
-    {
       "name": "dsh-expert-mode",
       "version": "0.9.2",
       "code": "invalid_host_range",
@@ -753,7 +733,7 @@
     },
     {
       "name": "@michengai/dsh-archive-manager",
-      "version": "1.0.20",
+      "version": "1.1.0",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -802,10 +782,9 @@
     },
     {
       "name": "@openma/deepseek-harness-acp",
-      "version": "0.4.37",
-      "code": "invalid_host_range",
+      "code": "package_size_limit",
       "status": "excluded",
-      "reason": "missing or invalid engines.dsh"
+      "reason": "@openma/deepseek-harness-acp@0.4.39: tarball exceeds 67108864 bytes"
     },
     {
       "name": "@mstar-harness/dsh",
@@ -829,6 +808,12 @@
       "reason": "missing or invalid engines.dsh"
     },
     {
+      "name": "dsh-zotero",
+      "code": "metadata_warning",
+      "status": "warning",
+      "reason": "图标超过 32 KiB 内联上限，已省略"
+    },
+    {
       "name": "dsh-deepread",
       "version": "1.0.1",
       "code": "invalid_host_range",
@@ -837,7 +822,7 @@
     },
     {
       "name": "@michengai/dsh-agency-agents",
-      "version": "1.0.20",
+      "version": "1.2.1",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -857,13 +842,6 @@
       "reason": "missing or invalid engines.dsh"
     },
     {
-      "name": "dsh-game-material-master",
-      "version": "0.7.0",
-      "code": "invalid_host_range",
-      "status": "excluded",
-      "reason": "missing or invalid engines.dsh"
-    },
-    {
       "name": "@carljia/omd-dsh",
       "version": "0.1.9",
       "code": "invalid_host_range",
@@ -873,13 +851,6 @@
     {
       "name": "dsh-share",
       "version": "0.5.0",
-      "code": "invalid_host_range",
-      "status": "excluded",
-      "reason": "missing or invalid engines.dsh"
-    },
-    {
-      "name": "dsh-builtin-browser",
-      "version": "0.4.11",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -1033,14 +1004,14 @@
     },
     {
       "name": "dsh-remote-mobile",
-      "version": "1.9.0",
+      "version": "1.9.1",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
     },
     {
       "name": "dsh-plugin-mobile-gateway",
-      "version": "0.10.2",
+      "version": "0.10.3",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -1061,7 +1032,7 @@
     },
     {
       "name": "dsh-approve-for-me",
-      "version": "0.2.4",
+      "version": "0.3.2",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -1110,7 +1081,7 @@
     },
     {
       "name": "dsh-plugin-garmin-connect",
-      "version": "0.1.13",
+      "version": "0.1.16",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -1222,7 +1193,7 @@
     },
     {
       "name": "dsh-subagent-default-model",
-      "version": "2.1.4",
+      "version": "2.1.5",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -1340,12 +1311,6 @@
       "reason": "missing or invalid engines.dsh"
     },
     {
-      "name": "dsh-zotero",
-      "code": "metadata_warning",
-      "status": "warning",
-      "reason": "图标超过 32 KiB 内联上限，已省略"
-    },
-    {
       "name": "dsh-better-reasoning-effort",
       "version": "0.5.3",
       "code": "invalid_host_range",
@@ -1368,7 +1333,7 @@
     },
     {
       "name": "dsh-web-startup-auth",
-      "version": "0.1.12",
+      "version": "0.1.13",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -1396,7 +1361,7 @@
     },
     {
       "name": "dsh-subagent-library",
-      "version": "0.3.4",
+      "version": "0.3.5",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -1459,28 +1424,28 @@
     },
     {
       "name": "dsh-file-activity",
-      "version": "0.5.14",
+      "version": "0.5.15",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
     },
     {
       "name": "dsh-shared",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "code": "not_dsh_bundle",
       "status": "excluded",
       "reason": "not a declared DSH bundle"
     },
     {
       "name": "dsh-md-render",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
     },
     {
       "name": "@yolk_vat-y/dsh-project-memory",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -1711,7 +1676,7 @@
     },
     {
       "name": "dsh-roleplay",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -1823,7 +1788,7 @@
     },
     {
       "name": "dsh-fs-encoding",
-      "version": "1.5.1",
+      "version": "1.5.2",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "missing or invalid engines.dsh"
@@ -2002,9 +1967,9 @@
     {
       "target": "https://github.com/corrinehu/dsh-workbuddy-connect",
       "path": "",
-      "commit": "8497ebe160cf0f825ec6896d7d653b3abd5c54cd",
+      "commit": "93aaecb2248084e2d306323c49f155ba2743a26d",
       "name": "dsh-workbuddy-connect",
-      "version": "0.7.6",
+      "version": "0.7.8",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
@@ -2052,7 +2017,7 @@
     {
       "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
       "path": "skin-manager",
-      "commit": "15e9aa0bb3a6281d80cee62185c5482b10d46d19",
+      "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
       "name": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
       "version": "0.1.7",
       "code": "invalid_host_range",
@@ -2062,7 +2027,7 @@
     {
       "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/maid-atelier",
       "path": "maid-atelier",
-      "commit": "15e9aa0bb3a6281d80cee62185c5482b10d46d19",
+      "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
       "name": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
       "version": "0.1.8",
       "code": "invalid_host_range",
@@ -2072,7 +2037,7 @@
     {
       "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/orca-link",
       "path": "orca-link",
-      "commit": "15e9aa0bb3a6281d80cee62185c5482b10d46d19",
+      "commit": "8f213d08f18ff664c2122a001af4455a9e05fa6d",
       "name": "@smalltailqwq/dsh-client-ui-skin-orca-link",
       "version": "0.1.8",
       "code": "invalid_host_range",
@@ -2165,9 +2130,9 @@
     {
       "target": "https://github.com/Nagi-ovo/dsh-visualize",
       "path": "",
-      "commit": "db54992331d98af68390796d0de4b57bc76453ca",
+      "commit": "bb22760689739cfa961c94a5d82ef5f4ce7d17d5",
       "name": "@nagi-ovo/dsh-visualize",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
@@ -2242,7 +2207,7 @@
     {
       "target": "https://github.com/Phant0Meow/dsh-meow-memory",
       "path": "",
-      "commit": "90b642b4851aa1751506b2f295dc1316976b5ca4",
+      "commit": "43501e4539288f823c018d707d1561db11982bfe",
       "name": "meow-memory",
       "version": "0.31.0",
       "code": "invalid_host_range",
@@ -2292,7 +2257,7 @@
     {
       "target": "https://github.com/Nagi-ovo/dsh-ads",
       "path": "",
-      "commit": "c24ca58a978bd7770f8129c906ad777090b4c0c6",
+      "commit": "1aabe11d712bfd28aa889998bff783b5050340e2",
       "name": "@nagi-ovo/dsh-ads",
       "version": "0.1.2",
       "code": "invalid_host_range",
@@ -2325,16 +2290,6 @@
       "code": "duplicate_package",
       "status": "excluded",
       "reason": "同名包已收录；优先 npm，再按目录来源顺序，避免来源替换"
-    },
-    {
-      "target": "https://github.com/Wenaixi/dsh-superpower",
-      "path": "",
-      "commit": "ed29f5d65985169fa6c5e2b93df86e257541b1f1",
-      "name": "@wenaixi/dsh-superpower",
-      "version": "7.7.2",
-      "code": "invalid_host_range",
-      "status": "excluded",
-      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
     },
     {
       "target": "https://github.com/hherosoul/dsh-smart-charts",
@@ -2436,9 +2391,9 @@
     {
       "target": "https://github.com/Blank-not-black/dsh-Remote#main&path:/packages/plugin",
       "path": "packages/plugin",
-      "commit": "7d284b3382a1550d661bb630258abe40372d58f6",
+      "commit": "5f6d03a6caca01335893f1c21851a70ce2e92e9f",
       "name": "dsh-remote-plugin",
-      "version": "0.8.0-rc.2",
+      "version": "0.8.0-rc.3",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
@@ -2703,16 +2658,6 @@
       "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
     },
     {
-      "target": "https://github.com/GZX2211/dsh-Visual-Workflow#main",
-      "path": "",
-      "commit": "7df346385a87e4bcb411337a559704d9b6fc4c71",
-      "name": "dsh-visual-workflow",
-      "version": "0.10.1",
-      "code": "invalid_host_range",
-      "status": "excluded",
-      "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
-    },
-    {
       "target": "https://github.com/titanwings/dsh-automation#v0.1.7",
       "path": "",
       "commit": "5ae28f209c0253461131613fc1b2ea27920bec67",
@@ -2950,7 +2895,7 @@
     {
       "target": "https://github.com/1475505/miliastra-beyond-simulator",
       "path": "",
-      "commit": "3d267c8c188e8f7d89f839daf2f90209e486b874",
+      "commit": "a74a8736069fc983fbdbcb01c46e208ac8571b10",
       "name": "dsh-plugin-beyond-simulator",
       "version": "2.1.1",
       "code": "invalid_host_range",
@@ -3111,9 +3056,9 @@
     {
       "target": "https://github.com/MaRi23333/dsh-subagent-library",
       "path": "",
-      "commit": "4bf39818cd560a81a9c13897941acad1fcd02fc2",
+      "commit": "262aa506449112e5e32734246a8f528a038e38ee",
       "name": "dsh-subagent-library",
-      "version": "0.3.4",
+      "version": "0.3.5",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
@@ -3234,9 +3179,9 @@
     {
       "target": "https://github.com/ymh0000123/dsh-theme-endfield",
       "path": "",
-      "commit": "90f8119750b3fe3b6f89147783bf0b9d465c7fa2",
+      "commit": "b760d9aa477e938596d6c0dfa50a0f43464d3ad5",
       "name": "dsh-theme-endfield",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
@@ -3254,9 +3199,9 @@
     {
       "target": "https://github.com/hkkz9522/dsh-session-manager",
       "path": "",
-      "commit": "625cdf823c6cc7f8a0d00e59327af0c612d07f5d",
+      "commit": "daf5e73dfbec459cb37c659406579e155d038476",
       "name": "dsh-session-manager",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
@@ -3284,7 +3229,7 @@
     {
       "target": "https://github.com/mexiaosqwq/dsh-web-mobile",
       "path": "",
-      "commit": "398f9365aa2634292f42783f02f09e939f85adff",
+      "commit": "a7c4532cc910bcf1bf90fc1ecc9cafb3d0f1153d",
       "name": "dsh-web-mobile",
       "version": "3.1.0",
       "code": "invalid_host_range",
@@ -3398,7 +3343,7 @@
     {
       "target": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
       "path": "",
-      "commit": "a37f3a4531004db412eb6dce8374cbc34d4a807c",
+      "commit": "7d9c4cd6fb56f9135f6874d995e1f4e57e3d2622",
       "name": "dsh-whale-musume",
       "version": "2.3.0",
       "code": "invalid_host_range",
@@ -3455,9 +3400,9 @@
     {
       "target": "https://github.com/HubaKing/dsh-community-plugins",
       "path": "",
-      "commit": "77422f56763d54a9d9d4951b2872642b9bfd42d5",
+      "commit": "6912b1b889d9b1dac88f05ba55351553360718cb",
       "name": "@hubaking/dsh-community-plugins",
-      "version": "0.5.2",
+      "version": "0.6.0",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
@@ -3505,9 +3450,9 @@
     {
       "target": "https://github.com/chinosk6/dsh-roleplay",
       "path": "",
-      "commit": "84eff23911b03f7c1d6493d3b77e34204086921f",
+      "commit": "ebe57737327de196b4625b7f9a45b0bf042673ad",
       "name": "dsh-roleplay",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
@@ -3611,9 +3556,9 @@
     {
       "target": "https://github.com/MrWeiCodes/dsh-fs-encoding",
       "path": "",
-      "commit": "56d39b1246d2158ad15c047bd339dc27a950d2ae",
+      "commit": "a4d31cc33bd6f0fab2bf6752f6e50e8301885b94",
       "name": "dsh-fs-encoding",
-      "version": "1.5.1",
+      "version": "1.5.2",
       "code": "invalid_host_range",
       "status": "excluded",
       "reason": "缺少或无效的显式 engines.dsh；不从 peerDependencies 推断"
@@ -3838,1780 +3783,1840 @@
   ],
   "evidence": [
     {
-      "name": "dsh-opencode-go",
-      "url": "https://registry.npmjs.org/dsh-opencode-go",
-      "sha256": "9a5c323c1848cb88eebcc67dc60ad7fcd2d6cef1c874fc0973b83a0f5b89f6cd",
-      "fetchedAt": "2026-10-17T06:10:06.996Z"
+      "name": "@nanmicoder/dsh-agent-teams",
+      "url": "https://registry.npmjs.org/%40nanmicoder%2Fdsh-agent-teams",
+      "sha256": "bb2d92da358ec169e1ce38ee07316b996972f6b41e6d472f81bba7eeeb3fb4c7",
+      "fetchedAt": "2026-10-17T16:21:45.754Z"
     },
     {
       "name": "dsh-auto-review",
       "url": "https://registry.npmjs.org/dsh-auto-review",
       "sha256": "c05693530518a20d8c38947bb035b2f0450758499883f82fae85f24b8e837a04",
-      "fetchedAt": "2026-10-17T06:10:07.004Z"
+      "fetchedAt": "2026-10-17T16:21:45.759Z"
     },
     {
       "name": "dsh-pocket",
       "url": "https://registry.npmjs.org/dsh-pocket",
-      "sha256": "2cf4cc3be03b4dce5975e1a70dee0c1167ef7644e4dcae35060bb5423eef1a57",
-      "fetchedAt": "2026-10-17T06:10:07.008Z"
-    },
-    {
-      "name": "@nanmicoder/dsh-agent-teams",
-      "url": "https://registry.npmjs.org/%40nanmicoder%2Fdsh-agent-teams",
-      "sha256": "5aa1c4335076490a698344287db5727ca6ff946f36f6340e3aeffee991ee7466",
-      "fetchedAt": "2026-10-17T06:10:07.122Z"
+      "sha256": "0d930440b8b09767ecad536930b0b6f0f0e41449e92db6390e505d1e8bfa049e",
+      "fetchedAt": "2026-10-17T16:21:45.764Z"
     },
     {
       "name": "@xmanrui/dsh-im",
       "url": "https://registry.npmjs.org/%40xmanrui%2Fdsh-im",
       "sha256": "5bffef00cb8ef0858addce537dc709c685086d1c9039a40a9ebcd9d5c2fb39dc",
-      "fetchedAt": "2026-10-17T06:10:07.129Z"
+      "fetchedAt": "2026-10-17T16:21:45.772Z"
     },
     {
       "name": "@deepseek-harness-tui/dsh-tui",
       "url": "https://registry.npmjs.org/%40deepseek-harness-tui%2Fdsh-tui",
       "sha256": "759fa5f70b1fc87fb6749391134ab1e579e6c29c6246f8f555edf8873c796aaf",
-      "fetchedAt": "2026-10-17T06:10:07.136Z"
-    },
-    {
-      "name": "deepseek-idesign",
-      "url": "https://registry.npmjs.org/deepseek-idesign",
-      "sha256": "9840e713fb62ed6165c2ebcaf56d79fe1ed354fd1704d85c761e0b29d9f3e59f",
-      "fetchedAt": "2026-10-17T06:10:07.169Z"
-    },
-    {
-      "name": "dsh-workbuddy-connect",
-      "url": "https://registry.npmjs.org/dsh-workbuddy-connect",
-      "sha256": "9d727fa61918d5e626a67ae932b1acc2f796e1a215bfe56956ad720968305c3b",
-      "fetchedAt": "2026-10-17T06:10:07.207Z"
+      "fetchedAt": "2026-10-17T16:21:45.779Z"
     },
     {
       "name": "@liustack/modlens",
       "url": "https://registry.npmjs.org/%40liustack%2Fmodlens",
       "sha256": "70c805c362c22fc533d9ba466b0ea4d45729219249e8b46b9c1b40f7d3224986",
-      "fetchedAt": "2026-10-17T06:10:07.223Z"
+      "fetchedAt": "2026-10-17T16:21:45.794Z"
     },
     {
-      "name": "dsh-chat-import",
-      "url": "https://registry.npmjs.org/dsh-chat-import",
-      "sha256": "f553c0ec93b40277d6ad01bbf2f6b28a9ae8e30cd0d590c8ceaf5d9d4ad07273",
-      "fetchedAt": "2026-10-17T06:10:07.228Z"
+      "name": "dsh-workbuddy-connect",
+      "url": "https://registry.npmjs.org/dsh-workbuddy-connect",
+      "sha256": "675bfc315d4b4699240ac9d1c55b55e0f3bae5e398a0d62ca386df870ad9c39f",
+      "fetchedAt": "2026-10-17T16:21:45.807Z"
     },
     {
-      "name": "dsh-mimir",
-      "url": "https://registry.npmjs.org/dsh-mimir",
-      "sha256": "9c8849ceeb7415fda7977587b6aac1c852de9d23bdbeebecd83ad2f7a36c04c9",
-      "fetchedAt": "2026-10-17T06:10:07.257Z"
-    },
-    {
-      "name": "dsh-better-sidebar",
-      "url": "https://registry.npmjs.org/dsh-better-sidebar",
-      "sha256": "f71386d7e2adf78b41c680d81a77fd13eb9566829536487a0c653670f682dd35",
-      "fetchedAt": "2026-10-17T06:10:07.265Z"
-    },
-    {
-      "name": "dsh-vision-router",
-      "url": "https://registry.npmjs.org/dsh-vision-router",
-      "sha256": "7c9252416d5542a507ed9d49800e963c2cc54728f9b191262babf0a4117b7cc3",
-      "fetchedAt": "2026-10-17T06:10:07.310Z"
-    },
-    {
-      "name": "dsh-image-gen",
-      "url": "https://registry.npmjs.org/dsh-image-gen",
-      "sha256": "b06364520500066ebebecd6a9744a54adf12aaea8f554fa28c2a297510bd8c38",
-      "fetchedAt": "2026-10-17T06:10:07.397Z"
+      "name": "deepseek-idesign",
+      "url": "https://registry.npmjs.org/deepseek-idesign",
+      "sha256": "9840e713fb62ed6165c2ebcaf56d79fe1ed354fd1704d85c761e0b29d9f3e59f",
+      "fetchedAt": "2026-10-17T16:21:45.855Z"
     },
     {
       "name": "@ychris12138/dsh-usage-stats",
       "url": "https://registry.npmjs.org/%40ychris12138%2Fdsh-usage-stats",
       "sha256": "41451ebb2ffe3c4068956419a500ac7383cc3c787b8b0047812c76ab9a7da6c3",
-      "fetchedAt": "2026-10-17T06:10:07.399Z"
+      "fetchedAt": "2026-10-17T16:21:45.857Z"
     },
     {
-      "name": "@icelily/dsh-gitbash-preset",
-      "url": "https://registry.npmjs.org/%40icelily%2Fdsh-gitbash-preset",
-      "sha256": "b055cf764e54efb22dde16b56c5fb540b3270f281fdf3898274860212d3be8c7",
-      "fetchedAt": "2026-10-17T06:10:07.462Z"
+      "name": "dsh-opencode-go",
+      "url": "https://registry.npmjs.org/dsh-opencode-go",
+      "sha256": "9a5c323c1848cb88eebcc67dc60ad7fcd2d6cef1c874fc0973b83a0f5b89f6cd",
+      "fetchedAt": "2026-10-17T16:21:45.858Z"
+    },
+    {
+      "name": "dsh-chat-import",
+      "url": "https://registry.npmjs.org/dsh-chat-import",
+      "sha256": "343b32011d60e78bbb337a6c12e219f14e7c5269940559713c7bd5241d98d8e0",
+      "fetchedAt": "2026-10-17T16:21:45.876Z"
+    },
+    {
+      "name": "dsh-vision-router",
+      "url": "https://registry.npmjs.org/dsh-vision-router",
+      "sha256": "7c9252416d5542a507ed9d49800e963c2cc54728f9b191262babf0a4117b7cc3",
+      "fetchedAt": "2026-10-17T16:21:45.888Z"
+    },
+    {
+      "name": "dsh-mimir",
+      "url": "https://registry.npmjs.org/dsh-mimir",
+      "sha256": "9c8849ceeb7415fda7977587b6aac1c852de9d23bdbeebecd83ad2f7a36c04c9",
+      "fetchedAt": "2026-10-17T16:21:45.898Z"
+    },
+    {
+      "name": "dsh-better-sidebar",
+      "url": "https://registry.npmjs.org/dsh-better-sidebar",
+      "sha256": "a98cd854de0f96359b1e3e36f8bc1d6d0f92e86327904b49ee3551cb19467792",
+      "fetchedAt": "2026-10-17T16:21:45.910Z"
     },
     {
       "name": "@liustack/modsearch",
       "url": "https://registry.npmjs.org/%40liustack%2Fmodsearch",
       "sha256": "46b5313af96114bb814a05ef36d229658655d10ed8a8bfbf83ebcc0f30c9b6e0",
-      "fetchedAt": "2026-10-17T06:10:07.479Z"
-    },
-    {
-      "name": "dsh-damage-pulse",
-      "url": "https://registry.npmjs.org/dsh-damage-pulse",
-      "sha256": "86453ad6d23abe2d4586813403e8fcfc55f46841df4d1d5a60d45cc15f2cfa48",
-      "fetchedAt": "2026-10-17T06:10:07.483Z"
-    },
-    {
-      "name": "dsh-message-edit",
-      "url": "https://registry.npmjs.org/dsh-message-edit",
-      "sha256": "bab9448baa8e7d79e2b9632ebf81ace8b099989fa6c713bf06251a652dc38a64",
-      "fetchedAt": "2026-10-17T06:10:07.519Z"
-    },
-    {
-      "name": "scientific-figure-library",
-      "url": "https://registry.npmjs.org/scientific-figure-library",
-      "sha256": "771bd49842fb21c885f2b6fd221b941cc59a2d9f9d0ee6ea661d8477c1c30b42",
-      "fetchedAt": "2026-10-17T06:10:07.523Z"
-    },
-    {
-      "name": "dsh-permission-rules",
-      "url": "https://registry.npmjs.org/dsh-permission-rules",
-      "sha256": "2e5ba2bd84a0c97c194b964f8137777589058e9774238fedad9fc400876c8a4c",
-      "fetchedAt": "2026-10-17T06:10:07.551Z"
+      "fetchedAt": "2026-10-17T16:21:45.948Z"
     },
     {
       "name": "@yejiming/dsh-data-agent",
       "url": "https://registry.npmjs.org/%40yejiming%2Fdsh-data-agent",
       "sha256": "2ae50a87d174a8b5de7da0b0f77518719f697dd83ebaeae7c3ef88b03f6f17c7",
-      "fetchedAt": "2026-10-17T06:10:07.554Z"
+      "fetchedAt": "2026-10-17T16:21:45.993Z"
+    },
+    {
+      "name": "dsh-image-gen",
+      "url": "https://registry.npmjs.org/dsh-image-gen",
+      "sha256": "b06364520500066ebebecd6a9744a54adf12aaea8f554fa28c2a297510bd8c38",
+      "fetchedAt": "2026-10-17T16:21:45.995Z"
+    },
+    {
+      "name": "dsh-permission-rules",
+      "url": "https://registry.npmjs.org/dsh-permission-rules",
+      "sha256": "2e5ba2bd84a0c97c194b964f8137777589058e9774238fedad9fc400876c8a4c",
+      "fetchedAt": "2026-10-17T16:21:46.028Z"
     },
     {
       "name": "dsh-context",
       "url": "https://registry.npmjs.org/dsh-context",
       "sha256": "d859b459a57dc81039850105573ac08e33b6139abc6f187f1772c60a39737753",
-      "fetchedAt": "2026-10-17T06:10:07.576Z"
+      "fetchedAt": "2026-10-17T16:21:46.031Z"
+    },
+    {
+      "name": "scientific-figure-library",
+      "url": "https://registry.npmjs.org/scientific-figure-library",
+      "sha256": "771bd49842fb21c885f2b6fd221b941cc59a2d9f9d0ee6ea661d8477c1c30b42",
+      "fetchedAt": "2026-10-17T16:21:46.034Z"
+    },
+    {
+      "name": "dsh-damage-pulse",
+      "url": "https://registry.npmjs.org/dsh-damage-pulse",
+      "sha256": "cbdcde574e8997bc172eed1081c75935d56d32918d76a3c9c4e6a3c085c60644",
+      "fetchedAt": "2026-10-17T16:21:46.037Z"
+    },
+    {
+      "name": "dsh-message-edit",
+      "url": "https://registry.npmjs.org/dsh-message-edit",
+      "sha256": "bab9448baa8e7d79e2b9632ebf81ace8b099989fa6c713bf06251a652dc38a64",
+      "fetchedAt": "2026-10-17T16:21:46.038Z"
     },
     {
       "name": "dsh-univer-office",
       "url": "https://registry.npmjs.org/dsh-univer-office",
       "sha256": "4198252ab5e065a1a7104f3f554a9a5c4c32ac2788509eeeba463eed648e1921",
-      "fetchedAt": "2026-10-17T06:10:07.598Z"
-    },
-    {
-      "name": "dsh-win32",
-      "url": "https://registry.npmjs.org/dsh-win32",
-      "sha256": "deccf7db7178a60fd880df2521d2ea86174f6b2f3b175aeb9280525988999eb3",
-      "fetchedAt": "2026-10-17T06:10:07.647Z"
+      "fetchedAt": "2026-10-17T16:21:46.066Z"
     },
     {
       "name": "dsh-pet",
       "url": "https://registry.npmjs.org/dsh-pet",
       "sha256": "78d6c00269fda06b6a9295338523da1a7d85004a5b9767b4c541017258fb7190",
-      "fetchedAt": "2026-10-17T06:10:07.673Z"
+      "fetchedAt": "2026-10-17T16:21:46.089Z"
     },
     {
-      "name": "dsh-synapse",
-      "url": "https://registry.npmjs.org/dsh-synapse",
-      "sha256": "0e00f475413f440a18b355bbc26212507d8dffdb400803885311a4ce8210d497",
-      "fetchedAt": "2026-10-17T06:10:07.676Z"
+      "name": "@icelily/dsh-gitbash-preset",
+      "url": "https://registry.npmjs.org/%40icelily%2Fdsh-gitbash-preset",
+      "sha256": "b055cf764e54efb22dde16b56c5fb540b3270f281fdf3898274860212d3be8c7",
+      "fetchedAt": "2026-10-17T16:21:46.118Z"
     },
     {
-      "name": "dsh-connect-workbuddy",
-      "url": "https://registry.npmjs.org/dsh-connect-workbuddy",
-      "sha256": "cba35dde7d329c4c8a1d2a38f10eda2e456ee6cffffd46331660fb868ce23be8",
-      "fetchedAt": "2026-10-17T06:10:07.701Z"
-    },
-    {
-      "name": "@opencode2dsh/dsh-plugin",
-      "url": "https://registry.npmjs.org/%40opencode2dsh%2Fdsh-plugin",
-      "sha256": "a9ba5fc5412ecdba456337409c0ba137033c3f21e5912144d168bb566823cc87",
-      "fetchedAt": "2026-10-17T06:10:07.728Z"
+      "name": "dsh-win32",
+      "url": "https://registry.npmjs.org/dsh-win32",
+      "sha256": "deccf7db7178a60fd880df2521d2ea86174f6b2f3b175aeb9280525988999eb3",
+      "fetchedAt": "2026-10-17T16:21:46.124Z"
     },
     {
       "name": "@wenbin_wb/dsh-bridge",
       "url": "https://registry.npmjs.org/%40wenbin_wb%2Fdsh-bridge",
       "sha256": "60e1da7130a7cb401fdc03757a7c7e1ab9388a965a7c0866e77fa30d0f3d0854",
-      "fetchedAt": "2026-10-17T06:10:07.738Z"
+      "fetchedAt": "2026-10-17T16:21:46.133Z"
     },
     {
-      "name": "dsh-maze",
-      "url": "https://registry.npmjs.org/dsh-maze",
-      "sha256": "ca55b5ec9ef3253e833453a4406c347b57ef0f719f7a6fa25ca6224fea989ea4",
-      "fetchedAt": "2026-10-17T06:10:07.765Z"
+      "name": "dsh-bili-scroll",
+      "url": "https://registry.npmjs.org/dsh-bili-scroll",
+      "sha256": "752934f3bb69dde0ab701be8e80f2e727881aed4356de70c1d92e03bc1781db3",
+      "fetchedAt": "2026-10-17T16:21:46.148Z"
     },
     {
-      "name": "@ethanyoq/dsh-invoice-downloader",
-      "url": "https://registry.npmjs.org/%40ethanyoq%2Fdsh-invoice-downloader",
-      "sha256": "bb26578645b723d001c80c8a78de50bf57c8f34947c717424e6f48747edf7750",
-      "fetchedAt": "2026-10-17T06:10:07.767Z"
+      "name": "dsh-synapse",
+      "url": "https://registry.npmjs.org/dsh-synapse",
+      "sha256": "0e00f475413f440a18b355bbc26212507d8dffdb400803885311a4ce8210d497",
+      "fetchedAt": "2026-10-17T16:21:46.150Z"
+    },
+    {
+      "name": "dsh-connect-workbuddy",
+      "url": "https://registry.npmjs.org/dsh-connect-workbuddy",
+      "sha256": "00a8bb239d2e02f8e1c2d2ce1593dc39dada098721e71e302d2b35e17496e916",
+      "fetchedAt": "2026-10-17T16:21:46.165Z"
+    },
+    {
+      "name": "@nagi-ovo/dsh-visualize",
+      "url": "https://registry.npmjs.org/%40nagi-ovo%2Fdsh-visualize",
+      "sha256": "0f8db3566139e8327be0a9f2f20c0594e0e23b50f92f0cbabb676441b7d7b434",
+      "fetchedAt": "2026-10-17T16:21:46.181Z"
     },
     {
       "name": "dsh-pentester",
       "url": "https://registry.npmjs.org/dsh-pentester",
       "sha256": "ccb13b80837f97bd4b61c5cadeb8d4cc2acedd673d3eced9c043311cf0c120ab",
-      "fetchedAt": "2026-10-17T06:10:07.788Z"
-    },
-    {
-      "name": "@nagi-ovo/dsh-visualize",
-      "url": "https://registry.npmjs.org/%40nagi-ovo%2Fdsh-visualize",
-      "sha256": "adf4d75c9cf67c95785cb60301962bc123f90b94dea55ad86c22ad0f8865b23b",
-      "fetchedAt": "2026-10-17T06:10:07.936Z"
+      "fetchedAt": "2026-10-17T16:21:46.192Z"
     },
     {
       "name": "dsh-remote",
       "url": "https://registry.npmjs.org/dsh-remote",
       "sha256": "527b1212f0b8b3c30a7c5e7b41a8e6106d7dc05487f934ecb565c1cc515285b5",
-      "fetchedAt": "2026-10-17T06:10:07.941Z"
-    },
-    {
-      "name": "dsh-research-report",
-      "url": "https://registry.npmjs.org/dsh-research-report",
-      "sha256": "48bb7aa6c8100710689efacc6b4fc9f300d165ef0040f9fa4e99be198a4f2fd6",
-      "fetchedAt": "2026-10-17T06:10:07.944Z"
-    },
-    {
-      "name": "pi2dsh",
-      "url": "https://registry.npmjs.org/pi2dsh",
-      "sha256": "3d3c03e994e51c1594eefc60f77fb11d45e8841586f4301ba45c99ee0dc492e1",
-      "fetchedAt": "2026-10-17T06:10:07.946Z"
-    },
-    {
-      "name": "dsh-tabbit",
-      "url": "https://registry.npmjs.org/dsh-tabbit",
-      "sha256": "a5ac636971cbdb328e8b67f86c42ea5afeb4b027c4dee7867eaf63f51599663c",
-      "fetchedAt": "2026-10-17T06:10:08.013Z"
+      "fetchedAt": "2026-10-17T16:21:46.203Z"
     },
     {
       "name": "@anysearch/anysearch-dsh",
       "url": "https://registry.npmjs.org/%40anysearch%2Fanysearch-dsh",
       "sha256": "87569684cb0820605f86acbe236d5b5ce3d466dfba1af78049c880f91e5bbee0",
-      "fetchedAt": "2026-10-17T06:10:08.053Z"
+      "fetchedAt": "2026-10-17T16:21:46.224Z"
     },
     {
-      "name": "dsh-sticky-note",
-      "url": "https://registry.npmjs.org/dsh-sticky-note",
-      "sha256": "fce5868d075903f05fab424bdef47b71665c1254a84526178453a825b79fc66c",
-      "fetchedAt": "2026-10-17T06:10:08.070Z"
+      "name": "dsh-research-report",
+      "url": "https://registry.npmjs.org/dsh-research-report",
+      "sha256": "48bb7aa6c8100710689efacc6b4fc9f300d165ef0040f9fa4e99be198a4f2fd6",
+      "fetchedAt": "2026-10-17T16:21:46.230Z"
+    },
+    {
+      "name": "@ethanyoq/dsh-invoice-downloader",
+      "url": "https://registry.npmjs.org/%40ethanyoq%2Fdsh-invoice-downloader",
+      "sha256": "bb26578645b723d001c80c8a78de50bf57c8f34947c717424e6f48747edf7750",
+      "fetchedAt": "2026-10-17T16:21:46.342Z"
+    },
+    {
+      "name": "@opencode2dsh/dsh-plugin",
+      "url": "https://registry.npmjs.org/%40opencode2dsh%2Fdsh-plugin",
+      "sha256": "a9ba5fc5412ecdba456337409c0ba137033c3f21e5912144d168bb566823cc87",
+      "fetchedAt": "2026-10-17T16:21:46.343Z"
+    },
+    {
+      "name": "dsh-maze",
+      "url": "https://registry.npmjs.org/dsh-maze",
+      "sha256": "ca55b5ec9ef3253e833453a4406c347b57ef0f719f7a6fa25ca6224fea989ea4",
+      "fetchedAt": "2026-10-17T16:21:46.344Z"
+    },
+    {
+      "name": "pi2dsh",
+      "url": "https://registry.npmjs.org/pi2dsh",
+      "sha256": "3d3c03e994e51c1594eefc60f77fb11d45e8841586f4301ba45c99ee0dc492e1",
+      "fetchedAt": "2026-10-17T16:21:46.389Z"
     },
     {
       "name": "dsh-code",
       "url": "https://registry.npmjs.org/dsh-code",
       "sha256": "be73a736e91acda6ef72d6ffa5ffe6f05e015cf80358b89751d5aa0e2e59cceb",
-      "fetchedAt": "2026-10-17T06:10:08.094Z"
+      "fetchedAt": "2026-10-17T16:21:46.433Z"
     },
     {
-      "name": "dsh-mobile",
-      "url": "https://registry.npmjs.org/dsh-mobile",
-      "sha256": "3a6374bf00085b648d89d8e68b21f65a69e55b46dcec83a841b4ac191676f9c1",
-      "fetchedAt": "2026-10-17T06:10:08.114Z"
+      "name": "dsh-sticky-note",
+      "url": "https://registry.npmjs.org/dsh-sticky-note",
+      "sha256": "fce5868d075903f05fab424bdef47b71665c1254a84526178453a825b79fc66c",
+      "fetchedAt": "2026-10-17T16:21:46.435Z"
+    },
+    {
+      "name": "dsh-tabbit",
+      "url": "https://registry.npmjs.org/dsh-tabbit",
+      "sha256": "a5ac636971cbdb328e8b67f86c42ea5afeb4b027c4dee7867eaf63f51599663c",
+      "fetchedAt": "2026-10-17T16:21:46.456Z"
     },
     {
       "name": "@anionex/dsh-vision-toolkit",
       "url": "https://registry.npmjs.org/%40anionex%2Fdsh-vision-toolkit",
       "sha256": "e6114c50c61be6c6052e6dafcb284665ffd885bcecc80b2e8c1e55cef5c35679",
-      "fetchedAt": "2026-10-17T06:10:08.139Z"
-    },
-    {
-      "name": "dsh-industry-research",
-      "url": "https://registry.npmjs.org/dsh-industry-research",
-      "sha256": "1d5bb6f78ddbe64640fc7d29da4ce5e784af214ed9cca9739cddd4dfdc6c29c1",
-      "fetchedAt": "2026-10-17T06:10:08.146Z"
+      "fetchedAt": "2026-10-17T16:21:46.507Z"
     },
     {
       "name": "martty",
       "url": "https://registry.npmjs.org/martty",
-      "sha256": "b7433333536a18061c9ee931ea1cedc716f6d8a967936cece7f8b417f91c89ea",
-      "fetchedAt": "2026-10-17T06:10:08.159Z"
+      "sha256": "6cd72229097b9b91521bdf6b77dd62951c833479cacc3742ca0d58bb6ca610f8",
+      "fetchedAt": "2026-10-17T16:21:46.509Z"
     },
     {
-      "name": "@tencent-connect/dsh-qqbot",
-      "url": "https://registry.npmjs.org/%40tencent-connect%2Fdsh-qqbot",
-      "sha256": "3f5ab516fb201085b08108e70ad748470ba70f75fd9421fa2d3ab1c062c14294",
-      "fetchedAt": "2026-10-17T06:10:08.164Z"
+      "name": "dsh-mobile",
+      "url": "https://registry.npmjs.org/dsh-mobile",
+      "sha256": "c762cf6be5b67e0c0a2df47e813e18c02e6c21df40feeb2ddad9159591fa407c",
+      "fetchedAt": "2026-10-17T16:21:46.512Z"
     },
     {
       "name": "dsh-sandbox-escalation-fix",
       "url": "https://registry.npmjs.org/dsh-sandbox-escalation-fix",
       "sha256": "55c3b72618c18c3f40be2558c5a9dca0963361de4dfdc3f180e9dfade25130f9",
-      "fetchedAt": "2026-10-17T06:10:08.231Z"
+      "fetchedAt": "2026-10-17T16:21:46.514Z"
     },
     {
       "name": "dsh-connect-trae",
       "url": "https://registry.npmjs.org/dsh-connect-trae",
-      "sha256": "6aa30969e4c54c912c042bfc26ebb3660209b15476bab0f66465d228c4cddf19",
-      "fetchedAt": "2026-10-17T06:10:08.253Z"
+      "sha256": "f1c47eeb3199f747c04c3bc628668b337d80533491d422e550f6bb5f75184974",
+      "fetchedAt": "2026-10-17T16:21:46.539Z"
+    },
+    {
+      "name": "dsh-industry-research",
+      "url": "https://registry.npmjs.org/dsh-industry-research",
+      "sha256": "1d5bb6f78ddbe64640fc7d29da4ce5e784af214ed9cca9739cddd4dfdc6c29c1",
+      "fetchedAt": "2026-10-17T16:21:46.552Z"
     },
     {
       "name": "dsh-flow",
       "url": "https://registry.npmjs.org/dsh-flow",
       "sha256": "3f924af5d44d1fa7a649911f2c7dea6999fc52821eb160ebeea5e6258028225c",
-      "fetchedAt": "2026-10-17T06:10:08.264Z"
+      "fetchedAt": "2026-10-17T16:21:46.641Z"
+    },
+    {
+      "name": "@tencent-connect/dsh-qqbot",
+      "url": "https://registry.npmjs.org/%40tencent-connect%2Fdsh-qqbot",
+      "sha256": "3f5ab516fb201085b08108e70ad748470ba70f75fd9421fa2d3ab1c062c14294",
+      "fetchedAt": "2026-10-17T16:21:46.649Z"
+    },
+    {
+      "name": "dsh-codex-subscription",
+      "url": "https://registry.npmjs.org/dsh-codex-subscription",
+      "sha256": "7eee53b078c9dfe801eecf85273a04163b1da7550932b9e27f013a7f20c56f52",
+      "fetchedAt": "2026-10-17T16:21:46.656Z"
+    },
+    {
+      "name": "ds-harness-remote",
+      "url": "https://registry.npmjs.org/ds-harness-remote",
+      "sha256": "91e3681acd07841d57280c7300f7202eab2d3f2ae4cc42101e107d2c63fc9afe",
+      "fetchedAt": "2026-10-17T16:21:46.688Z"
     },
     {
       "name": "@deepseek-ai/dsh-web-app",
       "url": "https://registry.npmjs.org/%40deepseek-ai%2Fdsh-web-app",
-      "sha256": "e18e3a0adf86e3d52a6b007b39fb5a61894aae06d58a6c94835278daf1748c6b",
-      "fetchedAt": "2026-10-17T06:10:08.295Z"
+      "sha256": "4ff716fb9d6f08fb4ae6197af7ac340b0048c7a038593a6abd1bbcd321432dc2",
+      "fetchedAt": "2026-10-17T16:21:46.724Z"
     },
     {
       "name": "novel-writer",
       "url": "https://registry.npmjs.org/novel-writer",
       "sha256": "8dbb2996ccd6441ca178a61f323c41df693f526c30cf0ec29d61aab530487aaf",
-      "fetchedAt": "2026-10-17T06:10:08.337Z"
-    },
-    {
-      "name": "dsh-codex-subscription",
-      "url": "https://registry.npmjs.org/dsh-codex-subscription",
-      "sha256": "d42d59c597f2e2e82d453554d87c368863e4964dbcbab96ecf0abeff162e3afc",
-      "fetchedAt": "2026-10-17T06:10:08.344Z"
+      "fetchedAt": "2026-10-17T16:21:46.746Z"
     },
     {
       "name": "@zseven-w/dsh-openpencil",
       "url": "https://registry.npmjs.org/%40zseven-w%2Fdsh-openpencil",
       "sha256": "73177c80187bbb4ab21f8b1a4fc2191abb5d45617e3bee13d7bbce652b26f50d",
-      "fetchedAt": "2026-10-17T06:10:08.350Z"
-    },
-    {
-      "name": "ds-harness-remote",
-      "url": "https://registry.npmjs.org/ds-harness-remote",
-      "sha256": "d9ed83fcddf5ab16232c30291683e4587253f95c7951323970833a941837bf5d",
-      "fetchedAt": "2026-10-17T06:10:08.383Z"
-    },
-    {
-      "name": "dsh-plugin-guide",
-      "url": "https://registry.npmjs.org/dsh-plugin-guide",
-      "sha256": "a4b7d1cc982d075efcb37edd0ab87d828a5ecab37a6640955f8b41f6022df5ed",
-      "fetchedAt": "2026-10-17T06:10:08.425Z"
+      "fetchedAt": "2026-10-17T16:21:46.782Z"
     },
     {
       "name": "@dsh-plugins/dsh-llm-hub",
       "url": "https://registry.npmjs.org/%40dsh-plugins%2Fdsh-llm-hub",
       "sha256": "329ab74f6db042deef5ad0f363de3e925941cb53284886b812fe8e94b0c1ad08",
-      "fetchedAt": "2026-10-17T06:10:08.434Z"
+      "fetchedAt": "2026-10-17T16:21:46.818Z"
     },
     {
       "name": "dsh-filesnap",
       "url": "https://registry.npmjs.org/dsh-filesnap",
       "sha256": "93e7a6be683640d7547d72a02103a9aec63ae6ba3616e69da1b04ce48743122d",
-      "fetchedAt": "2026-10-17T06:10:08.481Z"
+      "fetchedAt": "2026-10-17T16:21:46.833Z"
+    },
+    {
+      "name": "dsh-im-companion",
+      "url": "https://registry.npmjs.org/dsh-im-companion",
+      "sha256": "c33a4e2e116d486568b5c951643f1aff0ec35d67c31ab1cbc5a9116ec08513c3",
+      "fetchedAt": "2026-10-17T16:21:46.856Z"
     },
     {
       "name": "@dsh-plugins/dsh-env-inspector",
       "url": "https://registry.npmjs.org/%40dsh-plugins%2Fdsh-env-inspector",
       "sha256": "f6f6448c82801dfe0ad5c87cac39d428677e3fffed624ab98f0885c9c5d5435d",
-      "fetchedAt": "2026-10-17T06:10:08.511Z"
-    },
-    {
-      "name": "dsh-im-companion",
-      "url": "https://registry.npmjs.org/dsh-im-companion",
-      "sha256": "a17934b7ee10af029cb883d81e03af2c1a377e7718cd8a6549d938f47865dc79",
-      "fetchedAt": "2026-10-17T06:10:08.534Z"
-    },
-    {
-      "name": "dsh-crew",
-      "url": "https://registry.npmjs.org/dsh-crew",
-      "sha256": "61e52576aec55e3be7711344f4137f158003bb1785026f32e99079de9a7a8497",
-      "fetchedAt": "2026-10-17T06:10:08.551Z"
-    },
-    {
-      "name": "@nagi-ovo/dsh-ads",
-      "url": "https://registry.npmjs.org/%40nagi-ovo%2Fdsh-ads",
-      "sha256": "cdb18396461906a76b94121fa068c7ba4a8c9415237daa3fcf4727b8ab33d054",
-      "fetchedAt": "2026-10-17T06:10:08.602Z"
-    },
-    {
-      "name": "@zseven-w/dsh-crew",
-      "url": "https://registry.npmjs.org/%40zseven-w%2Fdsh-crew",
-      "sha256": "848436c58e092b90cbabb38f3bc6094a72f6e7f1014fd97e7e1df04bc7733135",
-      "fetchedAt": "2026-10-17T06:10:08.632Z"
-    },
-    {
-      "name": "dsh-plugin-bridge",
-      "url": "https://registry.npmjs.org/dsh-plugin-bridge",
-      "sha256": "c86e40c9a290361d915e52ba7824f7315ea85a448fd29570016d8621506493ad",
-      "fetchedAt": "2026-10-17T06:10:08.670Z"
+      "fetchedAt": "2026-10-17T16:21:46.866Z"
     },
     {
       "name": "@zseven-w/dsh-noema",
       "url": "https://registry.npmjs.org/%40zseven-w%2Fdsh-noema",
       "sha256": "71426f5b62553821c859c9301ea326a077b3df4cdc23ade12eccb7c7d18d9618",
-      "fetchedAt": "2026-10-17T06:10:08.764Z"
+      "fetchedAt": "2026-10-17T16:21:46.932Z"
     },
     {
-      "name": "@hyzyn/dsh-plugin-kit",
-      "url": "https://registry.npmjs.org/%40hyzyn%2Fdsh-plugin-kit",
-      "sha256": "952ac72fb840266ad589429de6d2a63e23ceb4e38cc1591c596d25033d300482",
-      "fetchedAt": "2026-10-17T06:10:08.813Z"
+      "name": "dsh-crew",
+      "url": "https://registry.npmjs.org/dsh-crew",
+      "sha256": "61e52576aec55e3be7711344f4137f158003bb1785026f32e99079de9a7a8497",
+      "fetchedAt": "2026-10-17T16:21:46.935Z"
     },
     {
-      "name": "@dshtrading/base",
-      "url": "https://registry.npmjs.org/%40dshtrading%2Fbase",
-      "sha256": "da4e46acadc4f7580c9b07f3f44a27ab3a83b8c42ab4870fd908e87fad522cb1",
-      "fetchedAt": "2026-10-17T06:10:08.816Z"
+      "name": "@nagi-ovo/dsh-ads",
+      "url": "https://registry.npmjs.org/%40nagi-ovo%2Fdsh-ads",
+      "sha256": "cdb18396461906a76b94121fa068c7ba4a8c9415237daa3fcf4727b8ab33d054",
+      "fetchedAt": "2026-10-17T16:21:46.973Z"
+    },
+    {
+      "name": "@wenaixi/dsh-superpower",
+      "url": "https://registry.npmjs.org/%40wenaixi%2Fdsh-superpower",
+      "sha256": "367e0e2c274671358fcd68cd84d74be1f9b4c15ca129282c91584110b281ab0c",
+      "fetchedAt": "2026-10-17T16:21:47.010Z"
+    },
+    {
+      "name": "dsh-plugin-bridge",
+      "url": "https://registry.npmjs.org/dsh-plugin-bridge",
+      "sha256": "c86e40c9a290361d915e52ba7824f7315ea85a448fd29570016d8621506493ad",
+      "fetchedAt": "2026-10-17T16:21:47.055Z"
     },
     {
       "name": "@michengai/dsh-im-connect",
       "url": "https://registry.npmjs.org/%40michengai%2Fdsh-im-connect",
-      "sha256": "4ba7ecf67eb8cd0a8e18eee49e645ce55b46b752956c76f3f473ae926b3f1d83",
-      "fetchedAt": "2026-10-17T06:10:08.846Z"
+      "sha256": "1e11c99235963d3a3ee61acf081d68dd5e3eb4221fe61addd00e3dc0cf9dc997",
+      "fetchedAt": "2026-10-17T16:21:47.057Z"
+    },
+    {
+      "name": "@zseven-w/dsh-crew",
+      "url": "https://registry.npmjs.org/%40zseven-w%2Fdsh-crew",
+      "sha256": "848436c58e092b90cbabb38f3bc6094a72f6e7f1014fd97e7e1df04bc7733135",
+      "fetchedAt": "2026-10-17T16:21:47.061Z"
+    },
+    {
+      "name": "dsh-plugin-guide",
+      "url": "https://registry.npmjs.org/dsh-plugin-guide",
+      "sha256": "a4b7d1cc982d075efcb37edd0ab87d828a5ecab37a6640955f8b41f6022df5ed",
+      "fetchedAt": "2026-10-17T16:21:47.102Z"
     },
     {
       "name": "dsh-bottom-info-bar",
       "url": "https://registry.npmjs.org/dsh-bottom-info-bar",
-      "sha256": "490ea41e520e180fd1f7848fe52a7c6216587d5738a144029b6e0eb8fe879865",
-      "fetchedAt": "2026-10-17T06:10:08.902Z"
-    },
-    {
-      "name": "@adwmc/helm-d",
-      "url": "https://registry.npmjs.org/%40adwmc%2Fhelm-d",
-      "sha256": "53eaa728ac756025eeceacd1ae293d48f4816620881350f780519357cd4d38f8",
-      "fetchedAt": "2026-10-17T06:10:08.947Z"
-    },
-    {
-      "name": "dsh-plugin-tether",
-      "url": "https://registry.npmjs.org/dsh-plugin-tether",
-      "sha256": "3c41e06f7c396e2b84599a623c658dbab9ad323b9e67119d9ba97b66565961c9",
-      "fetchedAt": "2026-10-17T06:10:08.994Z"
+      "sha256": "b7d21a4cc39ce08e4c8ecee123fa64b5cd71c62219bcc5df81ff1de9f5432ce5",
+      "fetchedAt": "2026-10-17T16:21:47.112Z"
     },
     {
       "name": "@changfenhuang/dsh-genui",
       "url": "https://registry.npmjs.org/%40changfenhuang%2Fdsh-genui",
-      "sha256": "7fdfddd832679b9f524f1ceee040a4524d4d1ff43eb151be6b79684772554296",
-      "fetchedAt": "2026-10-17T06:10:09.015Z"
-    },
-    {
-      "name": "dsh-prompt",
-      "url": "https://registry.npmjs.org/dsh-prompt",
-      "sha256": "7036d8e4af5e887ec32154b40d1e3c7d1dd10cbacfaea3c4b88fbfadaed2b670",
-      "fetchedAt": "2026-10-17T06:10:09.041Z"
-    },
-    {
-      "name": "@fylar/dsh-fylar-office-editor",
-      "url": "https://registry.npmjs.org/%40fylar%2Fdsh-fylar-office-editor",
-      "sha256": "f5a662b3c6a3191b6fe477f33d5337d507ec2ccfd9738618f5803290424a8f16",
-      "fetchedAt": "2026-10-17T06:10:09.092Z"
+      "sha256": "3bfd1dee1fd8990eaa4a7092a13ddcb408e6041b6dbb25d33b73e0c53e3ec6ec",
+      "fetchedAt": "2026-10-17T16:21:47.141Z"
     },
     {
       "name": "@modusensus/dsh-mneme",
       "url": "https://registry.npmjs.org/%40modusensus%2Fdsh-mneme",
       "sha256": "c289fad6457c97429fd005ad2353f15fae6fb3068050c1eb0329580ca20b0c4d",
-      "fetchedAt": "2026-10-17T06:10:09.100Z"
+      "fetchedAt": "2026-10-17T16:21:47.174Z"
     },
     {
-      "name": "@wenaixi/dsh-superpower",
-      "url": "https://registry.npmjs.org/%40wenaixi%2Fdsh-superpower",
-      "sha256": "513de3e4abf33ec3cc5cb2ee6ff1b8b960349f929852b6d755b7e8ecea44f640",
-      "fetchedAt": "2026-10-17T06:10:09.147Z"
+      "name": "@dshtrading/base",
+      "url": "https://registry.npmjs.org/%40dshtrading%2Fbase",
+      "sha256": "da4e46acadc4f7580c9b07f3f44a27ab3a83b8c42ab4870fd908e87fad522cb1",
+      "fetchedAt": "2026-10-17T16:21:47.176Z"
     },
     {
-      "name": "@graysilver/dsh-evolve-modes",
-      "url": "https://registry.npmjs.org/%40graysilver%2Fdsh-evolve-modes",
-      "sha256": "40e8b61d8b3041083651893b2717ba0dda0f7756c8efd8004c6ac6c53e7242a6",
-      "fetchedAt": "2026-10-17T06:10:09.191Z"
+      "name": "@hyzyn/dsh-plugin-kit",
+      "url": "https://registry.npmjs.org/%40hyzyn%2Fdsh-plugin-kit",
+      "sha256": "769c47a27528c1843d63646a7add53ca1abdf936fdea910cedb95c55d61c1e4a",
+      "fetchedAt": "2026-10-17T16:21:47.204Z"
     },
     {
       "name": "@michengai/dsh-skills-manager",
       "url": "https://registry.npmjs.org/%40michengai%2Fdsh-skills-manager",
-      "sha256": "10a5f4b1fbe4b75270cb27593b7efb3c67e88ef442954b315e5fac594bb1cb55",
-      "fetchedAt": "2026-10-17T06:10:09.195Z"
+      "sha256": "2c4a46ec939a7f761f6df1405a7f41831eb22662eed7a13121468ef3a4115347",
+      "fetchedAt": "2026-10-17T16:21:47.250Z"
     },
     {
-      "name": "dsh-mnemon",
-      "url": "https://registry.npmjs.org/dsh-mnemon",
-      "sha256": "4a89e8664d84bad80b51b2d71669214f3b37ce2b37825136159ec9b565cee3a9",
-      "fetchedAt": "2026-10-17T06:10:09.204Z"
+      "name": "dsh-prompt",
+      "url": "https://registry.npmjs.org/dsh-prompt",
+      "sha256": "079d4541e7fa3c240486a1a3e7c3a8362bd815e3f3efa975bac251037bd0d49f",
+      "fetchedAt": "2026-10-17T16:21:47.273Z"
+    },
+    {
+      "name": "dsh-plugin-tether",
+      "url": "https://registry.npmjs.org/dsh-plugin-tether",
+      "sha256": "3c41e06f7c396e2b84599a623c658dbab9ad323b9e67119d9ba97b66565961c9",
+      "fetchedAt": "2026-10-17T16:21:47.275Z"
     },
     {
       "name": "dsh-codex-connect",
       "url": "https://registry.npmjs.org/dsh-codex-connect",
-      "sha256": "447b7f2431ea516f3af77ed467fd7df2069de546e86023286d9f5e0c633b2ae0",
-      "fetchedAt": "2026-10-17T06:10:09.208Z"
+      "sha256": "3b96ae90564ba959b52d7bb05f930a63fc97e6de6e4e6636c8a81923e8b9c6d0",
+      "fetchedAt": "2026-10-17T16:21:47.304Z"
+    },
+    {
+      "name": "dsh-mnemon",
+      "url": "https://registry.npmjs.org/dsh-mnemon",
+      "sha256": "b7c4189611756d462bcdc18ecfe7f768b9579e2318f0bbeba1e34c388fa9fcbb",
+      "fetchedAt": "2026-10-17T16:21:47.307Z"
     },
     {
       "name": "dsh-llm-fallbacks",
       "url": "https://registry.npmjs.org/dsh-llm-fallbacks",
-      "sha256": "c6882f2ef5e52d1f181e6841d37a728340bc275bd6cfa1ebb1e631ece0083b90",
-      "fetchedAt": "2026-10-17T06:10:09.283Z"
+      "sha256": "66dcab60d9f45866ae76fff15f20cf8537935d6f3bfafa8bfd556d42cb04025d",
+      "fetchedAt": "2026-10-17T16:21:47.334Z"
     },
     {
-      "name": "dsh-undo-savepoint",
-      "url": "https://registry.npmjs.org/dsh-undo-savepoint",
-      "sha256": "ab86725eeaf4e5fa7dbb5a20a2a2ccc8886cfe699ba6129a3e2ff75e3f02ecbe",
-      "fetchedAt": "2026-10-17T06:10:09.296Z"
-    },
-    {
-      "name": "dsh-auto-memory",
-      "url": "https://registry.npmjs.org/dsh-auto-memory",
-      "sha256": "185e9705a91c46769522abd8564427e5f77750f2f87a36aa173f186fb23a6607",
-      "fetchedAt": "2026-10-17T06:10:09.297Z"
+      "name": "@adwmc/helm-d",
+      "url": "https://registry.npmjs.org/%40adwmc%2Fhelm-d",
+      "sha256": "53eaa728ac756025eeceacd1ae293d48f4816620881350f780519357cd4d38f8",
+      "fetchedAt": "2026-10-17T16:21:47.349Z"
     },
     {
       "name": "dsh-im-gateway",
       "url": "https://registry.npmjs.org/dsh-im-gateway",
       "sha256": "2b194b7cbfa997c0355aa5da02e0675f0696866da3d7997bf3e1d086ff61e0e1",
-      "fetchedAt": "2026-10-17T06:10:09.323Z"
+      "fetchedAt": "2026-10-17T16:21:47.446Z"
+    },
+    {
+      "name": "dsh-auto-memory",
+      "url": "https://registry.npmjs.org/dsh-auto-memory",
+      "sha256": "185e9705a91c46769522abd8564427e5f77750f2f87a36aa173f186fb23a6607",
+      "fetchedAt": "2026-10-17T16:21:47.458Z"
+    },
+    {
+      "name": "dsh-undo-savepoint",
+      "url": "https://registry.npmjs.org/dsh-undo-savepoint",
+      "sha256": "ab86725eeaf4e5fa7dbb5a20a2a2ccc8886cfe699ba6129a3e2ff75e3f02ecbe",
+      "fetchedAt": "2026-10-17T16:21:47.468Z"
+    },
+    {
+      "name": "@graysilver/dsh-evolve-modes",
+      "url": "https://registry.npmjs.org/%40graysilver%2Fdsh-evolve-modes",
+      "sha256": "40e8b61d8b3041083651893b2717ba0dda0f7756c8efd8004c6ac6c53e7242a6",
+      "fetchedAt": "2026-10-17T16:21:47.473Z"
     },
     {
       "name": "dsh-config-manager",
       "url": "https://registry.npmjs.org/dsh-config-manager",
       "sha256": "935f5cdb6308b1dc77bd242c3e765b312e3e9c7e6329120f6f767fc8b37f5a4e",
-      "fetchedAt": "2026-10-17T06:10:09.342Z"
+      "fetchedAt": "2026-10-17T16:21:47.496Z"
     },
     {
-      "name": "@feiyang666/dsh-usage-plugin",
-      "url": "https://registry.npmjs.org/%40feiyang666%2Fdsh-usage-plugin",
-      "sha256": "17c365d6f4c8fba0d6565f675f23715d5e66eac390decd36052213e7ca50b420",
-      "fetchedAt": "2026-10-17T06:10:09.377Z"
+      "name": "dsh-gitbash-shell",
+      "url": "https://registry.npmjs.org/dsh-gitbash-shell",
+      "sha256": "7ad0f171b8e8ec212f7d7e8eee0fd1d1ab61ece2b8f7d0f22d9fd62109bc9416",
+      "fetchedAt": "2026-10-17T16:21:47.510Z"
+    },
+    {
+      "name": "@fylar/dsh-fylar-office-editor",
+      "url": "https://registry.npmjs.org/%40fylar%2Fdsh-fylar-office-editor",
+      "sha256": "f5a662b3c6a3191b6fe477f33d5337d507ec2ccfd9738618f5803290424a8f16",
+      "fetchedAt": "2026-10-17T16:21:47.512Z"
     },
     {
       "name": "dsh-plugin-subscriptions",
       "url": "https://registry.npmjs.org/dsh-plugin-subscriptions",
       "sha256": "1b7c52ab50d660a1cbefac9a8d7e4b6916888792f72129c6dc127c46cd445673",
-      "fetchedAt": "2026-10-17T06:10:09.408Z"
+      "fetchedAt": "2026-10-17T16:21:47.530Z"
     },
     {
-      "name": "dsh-gitbash-shell",
-      "url": "https://registry.npmjs.org/dsh-gitbash-shell",
-      "sha256": "4ed0bc591c05313d516a69238ec453fa77de1a6d787c851f6e4a15c40324690e",
-      "fetchedAt": "2026-10-17T06:10:09.437Z"
+      "name": "dsh-herta",
+      "url": "https://registry.npmjs.org/dsh-herta",
+      "sha256": "cd5996b604b237084d9056f251e8511f3c25df5347499b41e511193aceee3dca",
+      "fetchedAt": "2026-10-17T16:21:47.591Z"
     },
     {
-      "name": "@rain-kl/dsh-preset-plus",
-      "url": "https://registry.npmjs.org/%40rain-kl%2Fdsh-preset-plus",
-      "sha256": "4251fdb0bab6d91184501d1b13fa3d0837035dc0ffe807774bec153349c44415",
-      "fetchedAt": "2026-10-17T06:10:09.585Z"
+      "name": "@feiyang666/dsh-usage-plugin",
+      "url": "https://registry.npmjs.org/%40feiyang666%2Fdsh-usage-plugin",
+      "sha256": "17c365d6f4c8fba0d6565f675f23715d5e66eac390decd36052213e7ca50b420",
+      "fetchedAt": "2026-10-17T16:21:47.593Z"
     },
     {
-      "name": "@dickpy/dsh-imagegen",
-      "url": "https://registry.npmjs.org/%40dickpy%2Fdsh-imagegen",
-      "sha256": "9c97c7b01e2ec7c10aa31897fd54601e38de0628f15caab63accdb602def1948",
-      "fetchedAt": "2026-10-17T06:10:09.589Z"
+      "name": "dsh-graph",
+      "url": "https://registry.npmjs.org/dsh-graph",
+      "sha256": "0204b7300aaa7f09ff8fc61efb4a3bd090ce0fd938a20b7d36420249dacfdf6f",
+      "fetchedAt": "2026-10-17T16:21:47.594Z"
     },
     {
       "name": "@oh-my-dsh/stent-pack",
       "url": "https://registry.npmjs.org/%40oh-my-dsh%2Fstent-pack",
       "sha256": "1d37244a3d6cb863041116ba371ce7c393d4a7b11237c6acfcc8fac8c5c55d55",
-      "fetchedAt": "2026-10-17T06:10:09.645Z"
+      "fetchedAt": "2026-10-17T16:21:47.855Z"
+    },
+    {
+      "name": "@rain-kl/dsh-preset-plus",
+      "url": "https://registry.npmjs.org/%40rain-kl%2Fdsh-preset-plus",
+      "sha256": "4251fdb0bab6d91184501d1b13fa3d0837035dc0ffe807774bec153349c44415",
+      "fetchedAt": "2026-10-17T16:21:47.856Z"
+    },
+    {
+      "name": "@dickpy/dsh-imagegen",
+      "url": "https://registry.npmjs.org/%40dickpy%2Fdsh-imagegen",
+      "sha256": "9c97c7b01e2ec7c10aa31897fd54601e38de0628f15caab63accdb602def1948",
+      "fetchedAt": "2026-10-17T16:21:47.859Z"
     },
     {
       "name": "@cerbur/clutch-dsh-worktree",
       "url": "https://registry.npmjs.org/%40cerbur%2Fclutch-dsh-worktree",
       "sha256": "a1e8af7739333554461dcabcb619082935f119f294b384e5e5ac6f7f4c44b11d",
-      "fetchedAt": "2026-10-17T06:10:09.662Z"
-    },
-    {
-      "name": "@cerbur/clutch-dsh-fireworks",
-      "url": "https://registry.npmjs.org/%40cerbur%2Fclutch-dsh-fireworks",
-      "sha256": "6c5c997dffc675bb36061ae2565a7938cdad3c665224a397d68803a9e1fc6c5d",
-      "fetchedAt": "2026-10-17T06:10:09.674Z"
-    },
-    {
-      "name": "@cerbur/clutch-dsh-title",
-      "url": "https://registry.npmjs.org/%40cerbur%2Fclutch-dsh-title",
-      "sha256": "380e1b4bdce514f552c65b60bff00779a0548a3e9b64312c16f61a4909c3e05a",
-      "fetchedAt": "2026-10-17T06:10:09.705Z"
+      "fetchedAt": "2026-10-17T16:21:47.861Z"
     },
     {
       "name": "dsh-remote-web-gateway",
       "url": "https://registry.npmjs.org/dsh-remote-web-gateway",
       "sha256": "480918e81aa73d2f99f6c162885825559e51b54eb89d90b68796dda75cbb8def",
-      "fetchedAt": "2026-10-17T06:10:09.708Z"
-    },
-    {
-      "name": "dsh-cost-meter",
-      "url": "https://registry.npmjs.org/dsh-cost-meter",
-      "sha256": "61c0c79b38e9eb887029da3c4c5fbfead9ecbb104d206ee5eb60bcf2818f734e",
-      "fetchedAt": "2026-10-17T06:10:09.744Z"
-    },
-    {
-      "name": "@cocofhu/anime-find",
-      "url": "https://registry.npmjs.org/%40cocofhu%2Fanime-find",
-      "sha256": "3c4e8818df981bde823131c2dd803c634d6b7e655822ae375124e0f8dbc9c914",
-      "fetchedAt": "2026-10-17T06:10:09.787Z"
+      "fetchedAt": "2026-10-17T16:21:47.967Z"
     },
     {
       "name": "dsh-expert-mode",
       "url": "https://registry.npmjs.org/dsh-expert-mode",
       "sha256": "ac4970a2bce61ccdf18d235f94f0cdddbd3fe15a21068b63d8e2302237eba817",
-      "fetchedAt": "2026-10-17T06:10:09.804Z"
+      "fetchedAt": "2026-10-17T16:21:47.989Z"
+    },
+    {
+      "name": "dsh-cost-meter",
+      "url": "https://registry.npmjs.org/dsh-cost-meter",
+      "sha256": "8629a0b79c1a9bafc6b2aa1a4abbf8107bd04b183b5bc8c26f3750a3d321ad31",
+      "fetchedAt": "2026-10-17T16:21:48.006Z"
+    },
+    {
+      "name": "@michengai/dsh-archive-manager",
+      "url": "https://registry.npmjs.org/%40michengai%2Fdsh-archive-manager",
+      "sha256": "098035edc9b2febde0a32f508d6bf5589d4f71cf752dc238c10dd7a015ee373e",
+      "fetchedAt": "2026-10-17T16:21:48.029Z"
+    },
+    {
+      "name": "@cerbur/clutch-dsh-fireworks",
+      "url": "https://registry.npmjs.org/%40cerbur%2Fclutch-dsh-fireworks",
+      "sha256": "6c5c997dffc675bb36061ae2565a7938cdad3c665224a397d68803a9e1fc6c5d",
+      "fetchedAt": "2026-10-17T16:21:48.055Z"
     },
     {
       "name": "dsh-free-models-hub",
       "url": "https://registry.npmjs.org/dsh-free-models-hub",
       "sha256": "56b0f624d4a7dddf97fdd00ae39f802661691e1084fa76c84bc882f306c4cca3",
-      "fetchedAt": "2026-10-17T06:10:09.833Z"
+      "fetchedAt": "2026-10-17T16:21:48.076Z"
+    },
+    {
+      "name": "@cocofhu/anime-find",
+      "url": "https://registry.npmjs.org/%40cocofhu%2Fanime-find",
+      "sha256": "3c4e8818df981bde823131c2dd803c634d6b7e655822ae375124e0f8dbc9c914",
+      "fetchedAt": "2026-10-17T16:21:48.171Z"
     },
     {
       "name": "dsh-checkpoint-rewind",
       "url": "https://registry.npmjs.org/dsh-checkpoint-rewind",
       "sha256": "f601f6ee75cab2c1bb1a45d3990fc9a034d9237dae63a52987003d8774b1c0b3",
-      "fetchedAt": "2026-10-17T06:10:09.901Z"
+      "fetchedAt": "2026-10-17T16:21:48.180Z"
     },
     {
-      "name": "@michengai/dsh-archive-manager",
-      "url": "https://registry.npmjs.org/%40michengai%2Fdsh-archive-manager",
-      "sha256": "e1bccd0705d4bdcd63d3d99bfd06a5108f6b943e2b438eb7ce55895bded8ffbb",
-      "fetchedAt": "2026-10-17T06:10:09.912Z"
-    },
-    {
-      "name": "dsh-client-ui-aqua",
-      "url": "https://registry.npmjs.org/dsh-client-ui-aqua",
-      "sha256": "7ddd875cd7e3fcb3bdbd90582914b48c456f62989d5dc091e1d6622b7c9d1132",
-      "fetchedAt": "2026-10-17T06:10:09.917Z"
-    },
-    {
-      "name": "@limuyang2/dsh-agent-team",
-      "url": "https://registry.npmjs.org/%40limuyang2%2Fdsh-agent-team",
-      "sha256": "4cd504fa15eca1ec2a9216c6f23f0e3746cb9735bccd86d4beed8c0196b93487",
-      "fetchedAt": "2026-10-17T06:10:09.941Z"
-    },
-    {
-      "name": "dsh-portable-tavern",
-      "url": "https://registry.npmjs.org/dsh-portable-tavern",
-      "sha256": "a6080b38d1458e32192f6ce535626581e0963c9ae52aab1ec23e94cf7b47913b",
-      "fetchedAt": "2026-10-17T06:10:10.002Z"
-    },
-    {
-      "name": "dsh-fund-research",
-      "url": "https://registry.npmjs.org/dsh-fund-research",
-      "sha256": "9a936be8fab0a63306e249747ad335712360858d9ded878ef61bbea182a3eff6",
-      "fetchedAt": "2026-10-17T06:10:10.004Z"
-    },
-    {
-      "name": "open-sea-skin",
-      "url": "https://registry.npmjs.org/open-sea-skin",
-      "sha256": "a8b1c849179c995733dd510bae157bba76d2e35028675ab3e50abbdae2857dfc",
-      "fetchedAt": "2026-10-17T06:10:10.012Z"
+      "name": "@cerbur/clutch-dsh-title",
+      "url": "https://registry.npmjs.org/%40cerbur%2Fclutch-dsh-title",
+      "sha256": "380e1b4bdce514f552c65b60bff00779a0548a3e9b64312c16f61a4909c3e05a",
+      "fetchedAt": "2026-10-17T16:21:48.187Z"
     },
     {
       "name": "@springbrand/dsh-plugin-marketplace",
       "url": "https://registry.npmjs.org/%40springbrand%2Fdsh-plugin-marketplace",
       "sha256": "d91ca91e0c55fdf55abe24336f130682c3d50cce5d4c5de1e172b5c915ac756a",
-      "fetchedAt": "2026-10-17T06:10:10.033Z"
+      "fetchedAt": "2026-10-17T16:21:48.232Z"
     },
     {
-      "name": "@contexera/dsh-agent-team",
-      "url": "https://registry.npmjs.org/%40contexera%2Fdsh-agent-team",
-      "sha256": "a081d7cbb518592a9525c705015c35f166358a10559bacbbadf893b2e63ec8f4",
-      "fetchedAt": "2026-10-17T06:10:10.048Z"
+      "name": "dsh-rewind-plugin",
+      "url": "https://registry.npmjs.org/dsh-rewind-plugin",
+      "sha256": "b4092706abfeeb930046ee5ceb53821928874366c230a3f93f2d65a7c840708b",
+      "fetchedAt": "2026-10-17T16:21:48.236Z"
     },
     {
-      "name": "@openma/deepseek-harness-acp",
-      "url": "https://registry.npmjs.org/%40openma%2Fdeepseek-harness-acp",
-      "sha256": "bfdb4f872f7a161396a685e0ef94cad077f9c94f694d27da227566bd5bea31d6",
-      "fetchedAt": "2026-10-17T06:10:10.167Z"
+      "name": "@limuyang2/dsh-agent-team",
+      "url": "https://registry.npmjs.org/%40limuyang2%2Fdsh-agent-team",
+      "sha256": "4cd504fa15eca1ec2a9216c6f23f0e3746cb9735bccd86d4beed8c0196b93487",
+      "fetchedAt": "2026-10-17T16:21:48.243Z"
     },
     {
-      "name": "@mars-sea/dsh-commandcode-provider",
-      "url": "https://registry.npmjs.org/%40mars-sea%2Fdsh-commandcode-provider",
-      "sha256": "757d3297f6c67c4e1c42f06b321ee86bd9cbda94186584d78cc653dc27006506",
-      "fetchedAt": "2026-10-17T06:10:10.242Z"
+      "name": "dsh-fund-research",
+      "url": "https://registry.npmjs.org/dsh-fund-research",
+      "sha256": "9a936be8fab0a63306e249747ad335712360858d9ded878ef61bbea182a3eff6",
+      "fetchedAt": "2026-10-17T16:21:48.245Z"
     },
     {
-      "name": "dsh-plugin-teamflow",
-      "url": "https://registry.npmjs.org/dsh-plugin-teamflow",
-      "sha256": "0078eae832f7b561639588b7e96ac58906706e52178858cde888f70ae8563481",
-      "fetchedAt": "2026-10-17T06:10:10.257Z"
+      "name": "dsh-client-ui-aqua",
+      "url": "https://registry.npmjs.org/dsh-client-ui-aqua",
+      "sha256": "7ddd875cd7e3fcb3bdbd90582914b48c456f62989d5dc091e1d6622b7c9d1132",
+      "fetchedAt": "2026-10-17T16:21:48.267Z"
     },
     {
-      "name": "dsh-deepread",
-      "url": "https://registry.npmjs.org/dsh-deepread",
-      "sha256": "258e393cd5c224f8f6361a76ab183c925aa235c5896e19d68c5ca9dcc5c2c253",
-      "fetchedAt": "2026-10-17T06:10:10.267Z"
-    },
-    {
-      "name": "@mstar-harness/dsh",
-      "url": "https://registry.npmjs.org/%40mstar-harness%2Fdsh",
-      "sha256": "92f9d75732afa5ca87cbb31f30455a37421c1abdb36494a735f208ad579bc12d",
-      "fetchedAt": "2026-10-17T06:10:10.292Z"
+      "name": "open-sea-skin",
+      "url": "https://registry.npmjs.org/open-sea-skin",
+      "sha256": "a8b1c849179c995733dd510bae157bba76d2e35028675ab3e50abbdae2857dfc",
+      "fetchedAt": "2026-10-17T16:21:48.270Z"
     },
     {
       "name": "@anionex/dsh-turn-rewind",
       "url": "https://registry.npmjs.org/%40anionex%2Fdsh-turn-rewind",
       "sha256": "513d749c9eec8e5e927061dbcd08739ba5fa8a42af0317c0248770ad34d7ba5e",
-      "fetchedAt": "2026-10-17T06:10:10.316Z"
+      "fetchedAt": "2026-10-17T16:21:48.302Z"
     },
     {
-      "name": "@zseven-w/dsh-harbor",
-      "url": "https://registry.npmjs.org/%40zseven-w%2Fdsh-harbor",
-      "sha256": "fab2d86248b6e1a6e07865c75d2e3d2ab879aa8dfb3db4c73686408283f05a89",
-      "fetchedAt": "2026-10-17T06:10:10.357Z"
+      "name": "dsh-portable-tavern",
+      "url": "https://registry.npmjs.org/dsh-portable-tavern",
+      "sha256": "a6080b38d1458e32192f6ce535626581e0963c9ae52aab1ec23e94cf7b47913b",
+      "fetchedAt": "2026-10-17T16:21:48.330Z"
     },
     {
-      "name": "dsh-game-material-master",
-      "url": "https://registry.npmjs.org/dsh-game-material-master",
-      "sha256": "adeeb26d0a634bec6202d47bb38c140360ddc1596e8ee395afa103a14196e3eb",
-      "fetchedAt": "2026-10-17T06:10:10.404Z"
+      "name": "@openma/deepseek-harness-acp",
+      "url": "https://registry.npmjs.org/%40openma%2Fdeepseek-harness-acp",
+      "sha256": "b0f2ad10dbc97d2782b88c7b8890e04c8ba7353c97d2105283e96a397b350568",
+      "fetchedAt": "2026-10-17T16:21:48.344Z"
     },
     {
-      "name": "dsh-milestone",
-      "url": "https://registry.npmjs.org/dsh-milestone",
-      "sha256": "fef7db304eef8fa5bc1d08790b3309ce4f879fa0ab26b3c36c2775fb68fcdb63",
-      "fetchedAt": "2026-10-17T06:10:10.423Z"
+      "name": "@mars-sea/dsh-commandcode-provider",
+      "url": "https://registry.npmjs.org/%40mars-sea%2Fdsh-commandcode-provider",
+      "sha256": "757d3297f6c67c4e1c42f06b321ee86bd9cbda94186584d78cc653dc27006506",
+      "fetchedAt": "2026-10-17T16:21:48.430Z"
     },
     {
-      "name": "@michengai/dsh-agency-agents",
-      "url": "https://registry.npmjs.org/%40michengai%2Fdsh-agency-agents",
-      "sha256": "a6c8fc171a3e5b0ff0d68f62175a9f0e6e2241630170771ef667a0ab2854853a",
-      "fetchedAt": "2026-10-17T06:10:10.427Z"
+      "name": "dsh-plugin-teamflow",
+      "url": "https://registry.npmjs.org/dsh-plugin-teamflow",
+      "sha256": "02e4d39999c641891498fa14aa36c0f2833500bdcde1d38c322ff80596ff3fe4",
+      "fetchedAt": "2026-10-17T16:21:48.441Z"
     },
     {
-      "name": "dsh-share",
-      "url": "https://registry.npmjs.org/dsh-share",
-      "sha256": "2d005227e6095aee9f67988088dc3613461797d920149831965f48a10ea23a84",
-      "fetchedAt": "2026-10-17T06:10:10.475Z"
-    },
-    {
-      "name": "dsh-builtin-browser",
-      "url": "https://registry.npmjs.org/dsh-builtin-browser",
-      "sha256": "0a7eb134a3b7b0257c94537c4be21420b27d227eab3726bc68d09ee05af38f50",
-      "fetchedAt": "2026-10-17T06:10:10.491Z"
-    },
-    {
-      "name": "dsh-plugin-yolo",
-      "url": "https://registry.npmjs.org/dsh-plugin-yolo",
-      "sha256": "e005de3231912b59871de0f22e6d92d0f702846ff5a303248baa622b2cd2e5c1",
-      "fetchedAt": "2026-10-17T06:10:10.543Z"
-    },
-    {
-      "name": "dsh-strata",
-      "url": "https://registry.npmjs.org/dsh-strata",
-      "sha256": "767b8ac9e9aaf9f53780a7af52ca23062d2f3b2e4d9e35e33223a7d7333b576f",
-      "fetchedAt": "2026-10-17T06:10:10.561Z"
-    },
-    {
-      "name": "deepseek-harness-zh-cn",
-      "url": "https://registry.npmjs.org/deepseek-harness-zh-cn",
-      "sha256": "0744701d66d260d629b48ef188ba8d445815e6e721171cbd4d87e98af7844be8",
-      "fetchedAt": "2026-10-17T06:10:10.567Z"
-    },
-    {
-      "name": "@wingsky-1/dsh-plugins-all",
-      "url": "https://registry.npmjs.org/%40wingsky-1%2Fdsh-plugins-all",
-      "sha256": "5981260a7548d9100da327f34573700d43ec90792002977addd06abaee0c50e6",
-      "fetchedAt": "2026-10-17T06:10:10.604Z"
-    },
-    {
-      "name": "dsh-session-workbench",
-      "url": "https://registry.npmjs.org/dsh-session-workbench",
-      "sha256": "9c996f6a7ac0f60e5319ef52c542e9d28d440f72dff8a96bcbf8babc81f52cc4",
-      "fetchedAt": "2026-10-17T06:10:10.612Z"
-    },
-    {
-      "name": "dsh-lsp-actions",
-      "url": "https://registry.npmjs.org/dsh-lsp-actions",
-      "sha256": "9e28b4e888ba76dda83b5c286591d0e9425ef89b1e15b8c8c1102aabcebf2e7b",
-      "fetchedAt": "2026-10-17T06:10:10.669Z"
-    },
-    {
-      "name": "@carljia/omd-dsh",
-      "url": "https://registry.npmjs.org/%40carljia%2Fomd-dsh",
-      "sha256": "5575c2011d5003ed4bcd6a0c76f7bfcd5f5fd99d4a3f865ead2a1eca5845259c",
-      "fetchedAt": "2026-10-17T06:10:10.671Z"
-    },
-    {
-      "name": "dsh-comfyui",
-      "url": "https://registry.npmjs.org/dsh-comfyui",
-      "sha256": "adfde84b02011fd166e0b6c997fd3fb3aa18ecdb05230293c3b4e22c4eaeed17",
-      "fetchedAt": "2026-10-17T06:10:10.692Z"
-    },
-    {
-      "name": "dsh-ha-orchestrator",
-      "url": "https://registry.npmjs.org/dsh-ha-orchestrator",
-      "sha256": "1045404f3c7c64e63ad16c7f93fce6cabd3a040c62caa22139259183ff4f38ca",
-      "fetchedAt": "2026-10-17T06:10:10.754Z"
-    },
-    {
-      "name": "@zseven-w/dsh-ios",
-      "url": "https://registry.npmjs.org/%40zseven-w%2Fdsh-ios",
-      "sha256": "3b304b595c8a9e15ea9471b8688d82c230afc2e7f7a06d1150265209d7524f6b",
-      "fetchedAt": "2026-10-17T06:10:10.785Z"
-    },
-    {
-      "name": "dsh-agy-link",
-      "url": "https://registry.npmjs.org/dsh-agy-link",
-      "sha256": "8be2878965de82d143748dc4fd08c8ce131f2daa3e0e90ff9cca5977caf9faf9",
-      "fetchedAt": "2026-10-17T06:10:10.796Z"
-    },
-    {
-      "name": "@huanlin/dsh-plugin-mineru",
-      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-mineru",
-      "sha256": "87292d6279b394883857efdd3baeee873ea307de0c1a396fa4935246ccdad77c",
-      "fetchedAt": "2026-10-17T06:10:10.814Z"
-    },
-    {
-      "name": "@huiliyi37/dsh-tianshu-tui",
-      "url": "https://registry.npmjs.org/%40huiliyi37%2Fdsh-tianshu-tui",
-      "sha256": "e67ab3bee504dd534884d01a7e0ab242f3f48d3e0625f84c370aeedadf5c6d8c",
-      "fetchedAt": "2026-10-17T06:10:10.868Z"
-    },
-    {
-      "name": "dsh-plugin-lookatstudy",
-      "url": "https://registry.npmjs.org/dsh-plugin-lookatstudy",
-      "sha256": "5fd86abd9a29b2417ba60d8cdad1bbed01a89285ffcb68407b8bc939f078b837",
-      "fetchedAt": "2026-10-17T06:10:10.884Z"
-    },
-    {
-      "name": "dsh-session-sync",
-      "url": "https://registry.npmjs.org/dsh-session-sync",
-      "sha256": "20cc745083fdd95c7d105d8c18c23c10eaabd046c905095fc49786e85775a201",
-      "fetchedAt": "2026-10-17T06:10:10.896Z"
-    },
-    {
-      "name": "dsh-dream-skin",
-      "url": "https://registry.npmjs.org/dsh-dream-skin",
-      "sha256": "003f1b17f8b8cd7f4892deab1e6df7f9fe276f6d7752a76c1e575e5a810b404d",
-      "fetchedAt": "2026-10-17T06:10:10.911Z"
-    },
-    {
-      "name": "dsh-design-qa",
-      "url": "https://registry.npmjs.org/dsh-design-qa",
-      "sha256": "9f175a556f19ac46bccc5bbc7b9336e4675ae1dce91300c4c54f801752b991dd",
-      "fetchedAt": "2026-10-17T06:10:10.955Z"
-    },
-    {
-      "name": "dsh-obsidian",
-      "url": "https://registry.npmjs.org/dsh-obsidian",
-      "sha256": "f8c367f446862883a41bc3e955847e07dd0299f11d2c92a93d77d9ed6394f991",
-      "fetchedAt": "2026-10-17T06:10:10.967Z"
-    },
-    {
-      "name": "dsh-xdpool",
-      "url": "https://registry.npmjs.org/dsh-xdpool",
-      "sha256": "692f0ae2f6ac723189c10d1441ed5c196957309c45815d9c9c6c60a361678339",
-      "fetchedAt": "2026-10-17T06:10:11.009Z"
-    },
-    {
-      "name": "@dsh-trading/bundle",
-      "url": "https://registry.npmjs.org/%40dsh-trading%2Fbundle",
-      "sha256": "3d75da90d7a79ca858185d5fc253c6a591c4d9a1a2178ce762867e78d9f40dd9",
-      "fetchedAt": "2026-10-17T06:10:11.020Z"
-    },
-    {
-      "name": "@aiwayds/dsh-dcp",
-      "url": "https://registry.npmjs.org/%40aiwayds%2Fdsh-dcp",
-      "sha256": "0c6041788e44e9b3180297a24bb312582238429122a2f2319dffafbc6b777a0f",
-      "fetchedAt": "2026-10-17T06:10:11.059Z"
-    },
-    {
-      "name": "dsh-usage-stats",
-      "url": "https://registry.npmjs.org/dsh-usage-stats",
-      "sha256": "8fbf5fcbb9f8f586cfc94215d3287999fe3a0200d0e662464253e5e804e6b90f",
-      "fetchedAt": "2026-10-17T06:10:11.062Z"
-    },
-    {
-      "name": "dsh-stock-watch",
-      "url": "https://registry.npmjs.org/dsh-stock-watch",
-      "sha256": "8ab7686af8f8cfe91315237871190a4bf52c3a017b68894dc1b0463d6e9a1f3d",
-      "fetchedAt": "2026-10-17T06:10:11.091Z"
-    },
-    {
-      "name": "dsh-run2skill",
-      "url": "https://registry.npmjs.org/dsh-run2skill",
-      "sha256": "f244618fb47ceaef10a3350f31c066555d201de21b55ab839f3c2fca084e9dca",
-      "fetchedAt": "2026-10-17T06:10:11.112Z"
-    },
-    {
-      "name": "dsh-plugin-mobile-gateway",
-      "url": "https://registry.npmjs.org/dsh-plugin-mobile-gateway",
-      "sha256": "8c08c6d04e8cfd4546ec43ea0dd36919ab891e7d42dff2eae19b1fdb493ad854",
-      "fetchedAt": "2026-10-17T06:10:11.153Z"
-    },
-    {
-      "name": "dsh-ai4scholar",
-      "url": "https://registry.npmjs.org/dsh-ai4scholar",
-      "sha256": "7c1c1e7274c5b52fda4346c73cbd1aa59032b9ee6a6a82a1ed99f61c7d56eb18",
-      "fetchedAt": "2026-10-17T06:10:11.174Z"
-    },
-    {
-      "name": "dsh-git-worktree",
-      "url": "https://registry.npmjs.org/dsh-git-worktree",
-      "sha256": "53400a009226018704f5ef2b3a1a5b60f8b8e298f1f7463a920133d7473b7664",
-      "fetchedAt": "2026-10-17T06:10:11.182Z"
-    },
-    {
-      "name": "dsh-remote-mobile",
-      "url": "https://registry.npmjs.org/dsh-remote-mobile",
-      "sha256": "d2c93ae842d41fa6230cee63377e502ab0142a00e468e563416eb59db7e2fcf0",
-      "fetchedAt": "2026-10-17T06:10:11.200Z"
-    },
-    {
-      "name": "@youdotcom-oss/dsh-plugin",
-      "url": "https://registry.npmjs.org/%40youdotcom-oss%2Fdsh-plugin",
-      "sha256": "f7eb7617fc5bf6787f5f1eec8886044e0f32ac1f805857772e6db180b8141179",
-      "fetchedAt": "2026-10-17T06:10:11.256Z"
-    },
-    {
-      "name": "picturereader",
-      "url": "https://registry.npmjs.org/picturereader",
-      "sha256": "2206e72697218922a9997d5a0cecbfb11fdfb4b221b0a45ce1ad4acc3d973740",
-      "fetchedAt": "2026-10-17T06:10:11.273Z"
-    },
-    {
-      "name": "dsh-approve-for-me",
-      "url": "https://registry.npmjs.org/dsh-approve-for-me",
-      "sha256": "4d80a56333eb65052665d51a89cecf078f337b3ba1e6813612230cb7ad942052",
-      "fetchedAt": "2026-10-17T06:10:11.295Z"
-    },
-    {
-      "name": "dsh-meme",
-      "url": "https://registry.npmjs.org/dsh-meme",
-      "sha256": "ac3e8520f0fc59c88045af2affacc153226455a30dd7ff484aa30d02cea5d9bd",
-      "fetchedAt": "2026-10-17T06:10:11.302Z"
-    },
-    {
-      "name": "@huanlin/dsh-plugin-auto-blame",
-      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-auto-blame",
-      "sha256": "8f73125e5014a3df8d2f5a47ee741113282efe28074ac4e1026c8524f1d1ea4c",
-      "fetchedAt": "2026-10-17T06:10:11.359Z"
-    },
-    {
-      "name": "superpowers-dsh",
-      "url": "https://registry.npmjs.org/superpowers-dsh",
-      "sha256": "cdff58bf491f0821e2d5eca33ca94ff8815302a457f9868029bd315239e24c09",
-      "fetchedAt": "2026-10-17T06:10:11.375Z"
-    },
-    {
-      "name": "dsh-office",
-      "url": "https://registry.npmjs.org/dsh-office",
-      "sha256": "d1370c479f7dd55389d24d3038b9e0c7123271b6b98131da9c210e8106ee10fa",
-      "fetchedAt": "2026-10-17T06:10:11.429Z"
-    },
-    {
-      "name": "dsh-plugin-git-bash",
-      "url": "https://registry.npmjs.org/dsh-plugin-git-bash",
-      "sha256": "c492d9db3a20f36e75ddeedc5addd61834707462e6bd1862fd512e6c8e5ba3c6",
-      "fetchedAt": "2026-10-17T06:10:11.446Z"
-    },
-    {
-      "name": "@xiaoyuyu6420/dsh-backup",
-      "url": "https://registry.npmjs.org/%40xiaoyuyu6420%2Fdsh-backup",
-      "sha256": "fb06421d257f7ddd75704058e3a0f405c7b88aa2fe050727a748a095419450c7",
-      "fetchedAt": "2026-10-17T06:10:11.453Z"
-    },
-    {
-      "name": "dsh-qoder-connect",
-      "url": "https://registry.npmjs.org/dsh-qoder-connect",
-      "sha256": "cb45505873511617bb56547b9f31e43b67d7e2a10e310830afbfef6f4672ab72",
-      "fetchedAt": "2026-10-17T06:10:11.472Z"
-    },
-    {
-      "name": "dsh-plugin-garmin-connect",
-      "url": "https://registry.npmjs.org/dsh-plugin-garmin-connect",
-      "sha256": "139757692ae5c8f65adaf12c80bb66d0cff39c13ec1e96652df2fb34e7c4cbcd",
-      "fetchedAt": "2026-10-17T06:10:11.481Z"
-    },
-    {
-      "name": "@anweat/dsh-browser",
-      "url": "https://registry.npmjs.org/%40anweat%2Fdsh-browser",
-      "sha256": "b1c9b37e25b534544dfb127d5139a903ab634423c01d866b0152c71a99ccb5c4",
-      "fetchedAt": "2026-10-17T06:10:11.511Z"
-    },
-    {
-      "name": "dsh-turn-delete",
-      "url": "https://registry.npmjs.org/dsh-turn-delete",
-      "sha256": "08f88544d45c046a8ac644f14d7045a6c091fe9c255046e2e9358b2314c4d796",
-      "fetchedAt": "2026-10-17T06:10:11.560Z"
-    },
-    {
-      "name": "dsh-skill-mcp-panel",
-      "url": "https://registry.npmjs.org/dsh-skill-mcp-panel",
-      "sha256": "2173c122788447088ec30932a9040d8f9437347e6f8be6095dd11128ec7d7006",
-      "fetchedAt": "2026-10-17T06:10:11.585Z"
-    },
-    {
-      "name": "dsh-office-tools",
-      "url": "https://registry.npmjs.org/dsh-office-tools",
-      "sha256": "b650a4fbdab1d40801ffba0eadfabe20d259546ce2c87c9e4b406fd92b0ceda4",
-      "fetchedAt": "2026-10-17T06:10:11.602Z"
-    },
-    {
-      "name": "dsh-plugin-sandbox-escalation-fix",
-      "url": "https://registry.npmjs.org/dsh-plugin-sandbox-escalation-fix",
-      "sha256": "0edc7de05cbc880ea149accca9734edfe7764e2d1fbeeb3ba728ca50da880748",
-      "fetchedAt": "2026-10-17T06:10:11.614Z"
-    },
-    {
-      "name": "femo-plugin",
-      "url": "https://registry.npmjs.org/femo-plugin",
-      "sha256": "b4854fdd11f0fc28b8a1b2b76944fdfbd809f20bbf950aa226e2779959f54656",
-      "fetchedAt": "2026-10-17T06:10:11.682Z"
-    },
-    {
-      "name": "dsh-network-settings",
-      "url": "https://registry.npmjs.org/dsh-network-settings",
-      "sha256": "560964b08332cb6f4f9fa8b6763c841a67c8973ff17a85032298ef63a2a9d73b",
-      "fetchedAt": "2026-10-17T06:10:11.698Z"
-    },
-    {
-      "name": "dsh-md-notes",
-      "url": "https://registry.npmjs.org/dsh-md-notes",
-      "sha256": "b096b9a2e4b118b5f4062d63e41346ef79c2875dbaef95ee1362c452abde4006",
-      "fetchedAt": "2026-10-17T06:10:11.702Z"
-    },
-    {
-      "name": "@cocofhu/skillhub",
-      "url": "https://registry.npmjs.org/%40cocofhu%2Fskillhub",
-      "sha256": "6d8356ea88de37b97bf5a56e997b1cc9e1f3853fac6fdce24dae8027ab38a3e1",
-      "fetchedAt": "2026-10-17T06:10:11.707Z"
-    },
-    {
-      "name": "dsh-usage-chart",
-      "url": "https://registry.npmjs.org/dsh-usage-chart",
-      "sha256": "54964d0ee8a9e4ca345cabf39d1694713ceb506f5e0b95a1541cfca35732607a",
-      "fetchedAt": "2026-10-17T06:10:11.712Z"
-    },
-    {
-      "name": "seektty",
-      "url": "https://registry.npmjs.org/seektty",
-      "sha256": "ecd3cd4af94c8ce92eeb63940d31e6effd361ae2fd1149cde4c206c653d79bfb",
-      "fetchedAt": "2026-10-17T06:10:11.773Z"
-    },
-    {
-      "name": "@huanlin/dsh-plugin-d399",
-      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-d399",
-      "sha256": "28032a3fac1784928040c7a598d7f5634d9e9e11b0a413fd328616d03d734848",
-      "fetchedAt": "2026-10-17T06:10:11.845Z"
-    },
-    {
-      "name": "dsh-output-styles",
-      "url": "https://registry.npmjs.org/dsh-output-styles",
-      "sha256": "be6eca694f08ca3011b6b03fc8cb0fc0616bf1832744c15d2b95dcf01a20932e",
-      "fetchedAt": "2026-10-17T06:10:11.901Z"
-    },
-    {
-      "name": "@dingtalk-real-ai/dsh-dingtalk",
-      "url": "https://registry.npmjs.org/%40dingtalk-real-ai%2Fdsh-dingtalk",
-      "sha256": "fb10e6756dd0bfd12c468d6f2ec900687f6681ffcf644ed14b2738cbf929a87c",
-      "fetchedAt": "2026-10-17T06:10:11.960Z"
-    },
-    {
-      "name": "@zoria-lind/dsh-behavior-enhancer",
-      "url": "https://registry.npmjs.org/%40zoria-lind%2Fdsh-behavior-enhancer",
-      "sha256": "74092a41de4f156c723074c526bc92e611891ea03705730ba5c2ebf6b6562ecd",
-      "fetchedAt": "2026-10-17T06:10:11.995Z"
-    },
-    {
-      "name": "@huanlin/dsh-plugin-interpreters",
-      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-interpreters",
-      "sha256": "561fd7b35e41eb8e39e257d28ef7fa1663f15401b5978dfaa238a456ab16499c",
-      "fetchedAt": "2026-10-17T06:10:11.996Z"
-    },
-    {
-      "name": "dsh-subagent-default-model",
-      "url": "https://registry.npmjs.org/dsh-subagent-default-model",
-      "sha256": "43d39be928440f7b7273701b7d78eeceb72cfce4355a44eb67ff220f3743a0f8",
-      "fetchedAt": "2026-10-17T06:10:12.016Z"
-    },
-    {
-      "name": "dsh-plugin-product-subagents",
-      "url": "https://registry.npmjs.org/dsh-plugin-product-subagents",
-      "sha256": "8355f0754c53b0cba397d84897f8b221a28629ea154528ae063b034dc3ed567d",
-      "fetchedAt": "2026-10-17T06:10:12.044Z"
-    },
-    {
-      "name": "@beforewave/dsh-with-chatgpt",
-      "url": "https://registry.npmjs.org/%40beforewave%2Fdsh-with-chatgpt",
-      "sha256": "82b13a774d8fa6663379574fc7e737b505587aecc0febde94486f47c868e4b45",
-      "fetchedAt": "2026-10-17T06:10:12.065Z"
-    },
-    {
-      "name": "@zseven-w/dsh-android",
-      "url": "https://registry.npmjs.org/%40zseven-w%2Fdsh-android",
-      "sha256": "f8aa4a26cb6fca3415b4e08571d5e219ef7cdc65ab034d5caf0ed157a7516d37",
-      "fetchedAt": "2026-10-17T06:10:12.091Z"
-    },
-    {
-      "name": "dsh-approval-gate",
-      "url": "https://registry.npmjs.org/dsh-approval-gate",
-      "sha256": "f4c789eab61e8e4772ad5776f6c2c2634d7b347b1b3580675a9c26ee657dd7c2",
-      "fetchedAt": "2026-10-17T06:10:12.102Z"
-    },
-    {
-      "name": "dsh-balance-plugin",
-      "url": "https://registry.npmjs.org/dsh-balance-plugin",
-      "sha256": "dd09f51c26c03bbbd4a5847ab86b0d4a193efd8b08c2b180af4a8ad715317d03",
-      "fetchedAt": "2026-10-17T06:10:12.125Z"
-    },
-    {
-      "name": "dsh-extension-hub",
-      "url": "https://registry.npmjs.org/dsh-extension-hub",
-      "sha256": "9b6658b617ecdb7e7fdfee778abd9cf09b52c0a17b0e48781532232b5c8a314a",
-      "fetchedAt": "2026-10-17T06:10:12.136Z"
-    },
-    {
-      "name": "dsh-translate",
-      "url": "https://registry.npmjs.org/dsh-translate",
-      "sha256": "4a47d1eb49b52f0444627ccfc6971adcf1e7603ed5fa0f042ddcc11b532e694d",
-      "fetchedAt": "2026-10-17T06:10:12.214Z"
-    },
-    {
-      "name": "dsh-agent-messaging",
-      "url": "https://registry.npmjs.org/dsh-agent-messaging",
-      "sha256": "aa3819e7cbbcad97df57d9db5c57352aa07f642e31e5eabea0daa593bf37a637",
-      "fetchedAt": "2026-10-17T06:10:12.234Z"
-    },
-    {
-      "name": "@hr98w/dsh-memory",
-      "url": "https://registry.npmjs.org/%40hr98w%2Fdsh-memory",
-      "sha256": "9b2149df7accff4af9cbf14ed489b10d9840755e4f3116499eddabde399567e9",
-      "fetchedAt": "2026-10-17T06:10:12.258Z"
-    },
-    {
-      "name": "@huanlin/dsh-plugin-sleep",
-      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-sleep",
-      "sha256": "0acbffbfda0bd3328d6224f2fa5605e734d1ff319c192b2c21763f13c354322e",
-      "fetchedAt": "2026-10-17T06:10:12.314Z"
-    },
-    {
-      "name": "dsh-swarm-orchestrator",
-      "url": "https://registry.npmjs.org/dsh-swarm-orchestrator",
-      "sha256": "416fe52a4c716a03e91d49b9b47ba1fd4b4c7ed67842fbad7402cd4974eeb34a",
-      "fetchedAt": "2026-10-17T06:10:12.323Z"
-    },
-    {
-      "name": "dsh-agy",
-      "url": "https://registry.npmjs.org/dsh-agy",
-      "sha256": "8cf8dea0a265bed420e30bf13efaa3cdaf580a22560df840bec99c40663dd1b7",
-      "fetchedAt": "2026-10-17T06:10:12.388Z"
-    },
-    {
-      "name": "@awiki/dsh-plugin",
-      "url": "https://registry.npmjs.org/%40awiki%2Fdsh-plugin",
-      "sha256": "b2ac482b1406d510603f42ed54fe185c8178b3c4a6151aad291324fe77685087",
-      "fetchedAt": "2026-10-17T06:10:12.390Z"
-    },
-    {
-      "name": "dsh-relay",
-      "url": "https://registry.npmjs.org/dsh-relay",
-      "sha256": "c1043f8f39415bf038b0dddeed5c00e7525302f0fc506c5b251c2efd55eff531",
-      "fetchedAt": "2026-10-17T06:10:12.412Z"
-    },
-    {
-      "name": "dsh-local-llm-controller",
-      "url": "https://registry.npmjs.org/dsh-local-llm-controller",
-      "sha256": "a5b707333b527cffaced0d73db1cb385a2cad53c23317aad6e0b24c6242465fd",
-      "fetchedAt": "2026-10-17T06:10:12.431Z"
-    },
-    {
-      "name": "@michengai/dsh-codex-ui",
-      "url": "https://registry.npmjs.org/%40michengai%2Fdsh-codex-ui",
-      "sha256": "8640e57e1ec45bf8697fc9a5a60e4b3c669c5f74fef406f19aa59853c7710208",
-      "fetchedAt": "2026-10-17T06:10:12.437Z"
-    },
-    {
-      "name": "@xgone/dsh-remote",
-      "url": "https://registry.npmjs.org/%40xgone%2Fdsh-remote",
-      "sha256": "8dfd03b3a784997379e0a3198c1a6f1ead431ec6a51abd1e948f53b805e2a0c6",
-      "fetchedAt": "2026-10-17T06:10:12.455Z"
-    },
-    {
-      "name": "dsh-devices",
-      "url": "https://registry.npmjs.org/dsh-devices",
-      "sha256": "06efa0cddc14029b1c34f0fe357936b225b68857cf76fd0c10aa95fe953910aa",
-      "fetchedAt": "2026-10-17T06:10:12.482Z"
-    },
-    {
-      "name": "dsh-origin-plugin",
-      "url": "https://registry.npmjs.org/dsh-origin-plugin",
-      "sha256": "8a33665b34c812917044b9ccdc92814b0686a5be44aa9728ffb528d6955e5d97",
-      "fetchedAt": "2026-10-17T06:10:12.483Z"
+      "name": "@mstar-harness/dsh",
+      "url": "https://registry.npmjs.org/%40mstar-harness%2Fdsh",
+      "sha256": "92f9d75732afa5ca87cbb31f30455a37421c1abdb36494a735f208ad579bc12d",
+      "fetchedAt": "2026-10-17T16:21:48.501Z"
     },
     {
       "name": "dsh-zotero",
       "url": "https://registry.npmjs.org/dsh-zotero",
       "sha256": "5a3589026ef3fd8e46401c2263f027bb5ceebc2b2970331a2c6263eedd0378af",
-      "fetchedAt": "2026-10-17T06:10:12.504Z"
+      "fetchedAt": "2026-10-17T16:21:48.523Z"
+    },
+    {
+      "name": "dsh-deepread",
+      "url": "https://registry.npmjs.org/dsh-deepread",
+      "sha256": "258e393cd5c224f8f6361a76ab183c925aa235c5896e19d68c5ca9dcc5c2c253",
+      "fetchedAt": "2026-10-17T16:21:48.531Z"
+    },
+    {
+      "name": "@michengai/dsh-agency-agents",
+      "url": "https://registry.npmjs.org/%40michengai%2Fdsh-agency-agents",
+      "sha256": "a4e7b07433c82c113cb647666515583a23b4e9c9a0882d981ef541c0b74d4b9e",
+      "fetchedAt": "2026-10-17T16:21:48.583Z"
+    },
+    {
+      "name": "@zseven-w/dsh-harbor",
+      "url": "https://registry.npmjs.org/%40zseven-w%2Fdsh-harbor",
+      "sha256": "fab2d86248b6e1a6e07865c75d2e3d2ab879aa8dfb3db4c73686408283f05a89",
+      "fetchedAt": "2026-10-17T16:21:48.593Z"
+    },
+    {
+      "name": "dsh-game-material-master",
+      "url": "https://registry.npmjs.org/dsh-game-material-master",
+      "sha256": "cb2b74857182f249b88c47f7913309188bedb051e85cc27a806f4407494c8409",
+      "fetchedAt": "2026-10-17T16:21:48.634Z"
+    },
+    {
+      "name": "@contexera/dsh-agent-team",
+      "url": "https://registry.npmjs.org/%40contexera%2Fdsh-agent-team",
+      "sha256": "a081d7cbb518592a9525c705015c35f166358a10559bacbbadf893b2e63ec8f4",
+      "fetchedAt": "2026-10-17T16:21:48.687Z"
+    },
+    {
+      "name": "dsh-milestone",
+      "url": "https://registry.npmjs.org/dsh-milestone",
+      "sha256": "fef7db304eef8fa5bc1d08790b3309ce4f879fa0ab26b3c36c2775fb68fcdb63",
+      "fetchedAt": "2026-10-17T16:21:48.688Z"
+    },
+    {
+      "name": "dsh-builtin-browser",
+      "url": "https://registry.npmjs.org/dsh-builtin-browser",
+      "sha256": "f4d8d1f124b7a50f9955aa6dac718b9159674d69ccf681aecb75ffe548c4bf32",
+      "fetchedAt": "2026-10-17T16:21:48.717Z"
+    },
+    {
+      "name": "dsh-plugin-yolo",
+      "url": "https://registry.npmjs.org/dsh-plugin-yolo",
+      "sha256": "e005de3231912b59871de0f22e6d92d0f702846ff5a303248baa622b2cd2e5c1",
+      "fetchedAt": "2026-10-17T16:21:48.783Z"
+    },
+    {
+      "name": "dsh-share",
+      "url": "https://registry.npmjs.org/dsh-share",
+      "sha256": "2d005227e6095aee9f67988088dc3613461797d920149831965f48a10ea23a84",
+      "fetchedAt": "2026-10-17T16:21:48.784Z"
+    },
+    {
+      "name": "deepseek-harness-zh-cn",
+      "url": "https://registry.npmjs.org/deepseek-harness-zh-cn",
+      "sha256": "0744701d66d260d629b48ef188ba8d445815e6e721171cbd4d87e98af7844be8",
+      "fetchedAt": "2026-10-17T16:21:48.870Z"
+    },
+    {
+      "name": "dsh-strata",
+      "url": "https://registry.npmjs.org/dsh-strata",
+      "sha256": "767b8ac9e9aaf9f53780a7af52ca23062d2f3b2e4d9e35e33223a7d7333b576f",
+      "fetchedAt": "2026-10-17T16:21:48.872Z"
+    },
+    {
+      "name": "dsh-plugin-subagent-director",
+      "url": "https://registry.npmjs.org/dsh-plugin-subagent-director",
+      "sha256": "faebfb7edb8b5b914096734a329cc9959c5508b8388618c59173f3af89dd8d27",
+      "fetchedAt": "2026-10-17T16:21:48.882Z"
+    },
+    {
+      "name": "dsh-session-workbench",
+      "url": "https://registry.npmjs.org/dsh-session-workbench",
+      "sha256": "9c996f6a7ac0f60e5319ef52c542e9d28d440f72dff8a96bcbf8babc81f52cc4",
+      "fetchedAt": "2026-10-17T16:21:48.897Z"
+    },
+    {
+      "name": "@carljia/omd-dsh",
+      "url": "https://registry.npmjs.org/%40carljia%2Fomd-dsh",
+      "sha256": "5575c2011d5003ed4bcd6a0c76f7bfcd5f5fd99d4a3f865ead2a1eca5845259c",
+      "fetchedAt": "2026-10-17T16:21:48.904Z"
+    },
+    {
+      "name": "dsh-comfyui",
+      "url": "https://registry.npmjs.org/dsh-comfyui",
+      "sha256": "adfde84b02011fd166e0b6c997fd3fb3aa18ecdb05230293c3b4e22c4eaeed17",
+      "fetchedAt": "2026-10-17T16:21:48.926Z"
+    },
+    {
+      "name": "@wingsky-1/dsh-plugins-all",
+      "url": "https://registry.npmjs.org/%40wingsky-1%2Fdsh-plugins-all",
+      "sha256": "5981260a7548d9100da327f34573700d43ec90792002977addd06abaee0c50e6",
+      "fetchedAt": "2026-10-17T16:21:48.939Z"
+    },
+    {
+      "name": "dsh-ha-orchestrator",
+      "url": "https://registry.npmjs.org/dsh-ha-orchestrator",
+      "sha256": "1045404f3c7c64e63ad16c7f93fce6cabd3a040c62caa22139259183ff4f38ca",
+      "fetchedAt": "2026-10-17T16:21:48.989Z"
+    },
+    {
+      "name": "dsh-lsp-actions",
+      "url": "https://registry.npmjs.org/dsh-lsp-actions",
+      "sha256": "9e28b4e888ba76dda83b5c286591d0e9425ef89b1e15b8c8c1102aabcebf2e7b",
+      "fetchedAt": "2026-10-17T16:21:49.001Z"
+    },
+    {
+      "name": "dsh-agy-link",
+      "url": "https://registry.npmjs.org/dsh-agy-link",
+      "sha256": "8be2878965de82d143748dc4fd08c8ce131f2daa3e0e90ff9cca5977caf9faf9",
+      "fetchedAt": "2026-10-17T16:21:49.015Z"
+    },
+    {
+      "name": "dsh-plugin-lookatstudy",
+      "url": "https://registry.npmjs.org/dsh-plugin-lookatstudy",
+      "sha256": "5fd86abd9a29b2417ba60d8cdad1bbed01a89285ffcb68407b8bc939f078b837",
+      "fetchedAt": "2026-10-17T16:21:49.076Z"
+    },
+    {
+      "name": "@huiliyi37/dsh-tianshu-tui",
+      "url": "https://registry.npmjs.org/%40huiliyi37%2Fdsh-tianshu-tui",
+      "sha256": "e67ab3bee504dd534884d01a7e0ab242f3f48d3e0625f84c370aeedadf5c6d8c",
+      "fetchedAt": "2026-10-17T16:21:49.109Z"
+    },
+    {
+      "name": "dsh-dream-skin",
+      "url": "https://registry.npmjs.org/dsh-dream-skin",
+      "sha256": "003f1b17f8b8cd7f4892deab1e6df7f9fe276f6d7752a76c1e575e5a810b404d",
+      "fetchedAt": "2026-10-17T16:21:49.145Z"
+    },
+    {
+      "name": "@huanlin/dsh-plugin-mineru",
+      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-mineru",
+      "sha256": "87292d6279b394883857efdd3baeee873ea307de0c1a396fa4935246ccdad77c",
+      "fetchedAt": "2026-10-17T16:21:49.147Z"
+    },
+    {
+      "name": "dsh-session-sync",
+      "url": "https://registry.npmjs.org/dsh-session-sync",
+      "sha256": "20cc745083fdd95c7d105d8c18c23c10eaabd046c905095fc49786e85775a201",
+      "fetchedAt": "2026-10-17T16:21:49.184Z"
+    },
+    {
+      "name": "dsh-design-qa",
+      "url": "https://registry.npmjs.org/dsh-design-qa",
+      "sha256": "9f175a556f19ac46bccc5bbc7b9336e4675ae1dce91300c4c54f801752b991dd",
+      "fetchedAt": "2026-10-17T16:21:49.200Z"
+    },
+    {
+      "name": "@zseven-w/dsh-ios",
+      "url": "https://registry.npmjs.org/%40zseven-w%2Fdsh-ios",
+      "sha256": "3b304b595c8a9e15ea9471b8688d82c230afc2e7f7a06d1150265209d7524f6b",
+      "fetchedAt": "2026-10-17T16:21:49.220Z"
+    },
+    {
+      "name": "@dsh-trading/bundle",
+      "url": "https://registry.npmjs.org/%40dsh-trading%2Fbundle",
+      "sha256": "3d75da90d7a79ca858185d5fc253c6a591c4d9a1a2178ce762867e78d9f40dd9",
+      "fetchedAt": "2026-10-17T16:21:49.265Z"
+    },
+    {
+      "name": "dsh-obsidian",
+      "url": "https://registry.npmjs.org/dsh-obsidian",
+      "sha256": "f8c367f446862883a41bc3e955847e07dd0299f11d2c92a93d77d9ed6394f991",
+      "fetchedAt": "2026-10-17T16:21:49.278Z"
+    },
+    {
+      "name": "dsh-usage-stats",
+      "url": "https://registry.npmjs.org/dsh-usage-stats",
+      "sha256": "8fbf5fcbb9f8f586cfc94215d3287999fe3a0200d0e662464253e5e804e6b90f",
+      "fetchedAt": "2026-10-17T16:21:49.323Z"
+    },
+    {
+      "name": "dsh-xdpool",
+      "url": "https://registry.npmjs.org/dsh-xdpool",
+      "sha256": "036ae48655ab8892f12938d6700f5d7196ed9f91ef3b67d3d34fb5bb501d53f2",
+      "fetchedAt": "2026-10-17T16:21:49.332Z"
+    },
+    {
+      "name": "@aiwayds/dsh-dcp",
+      "url": "https://registry.npmjs.org/%40aiwayds%2Fdsh-dcp",
+      "sha256": "0c6041788e44e9b3180297a24bb312582238429122a2f2319dffafbc6b777a0f",
+      "fetchedAt": "2026-10-17T16:21:49.364Z"
+    },
+    {
+      "name": "dsh-run2skill",
+      "url": "https://registry.npmjs.org/dsh-run2skill",
+      "sha256": "f244618fb47ceaef10a3350f31c066555d201de21b55ab839f3c2fca084e9dca",
+      "fetchedAt": "2026-10-17T16:21:49.370Z"
+    },
+    {
+      "name": "dsh-stock-watch",
+      "url": "https://registry.npmjs.org/dsh-stock-watch",
+      "sha256": "8ab7686af8f8cfe91315237871190a4bf52c3a017b68894dc1b0463d6e9a1f3d",
+      "fetchedAt": "2026-10-17T16:21:49.410Z"
+    },
+    {
+      "name": "dsh-remote-mobile",
+      "url": "https://registry.npmjs.org/dsh-remote-mobile",
+      "sha256": "74bfeb6e2f631eebccf34e6e49d48c2c0cec7251f05e7df8ca4d973cf967776d",
+      "fetchedAt": "2026-10-17T16:21:49.441Z"
+    },
+    {
+      "name": "dsh-ai4scholar",
+      "url": "https://registry.npmjs.org/dsh-ai4scholar",
+      "sha256": "7c1c1e7274c5b52fda4346c73cbd1aa59032b9ee6a6a82a1ed99f61c7d56eb18",
+      "fetchedAt": "2026-10-17T16:21:49.443Z"
+    },
+    {
+      "name": "dsh-git-worktree",
+      "url": "https://registry.npmjs.org/dsh-git-worktree",
+      "sha256": "53400a009226018704f5ef2b3a1a5b60f8b8e298f1f7463a920133d7473b7664",
+      "fetchedAt": "2026-10-17T16:21:49.445Z"
+    },
+    {
+      "name": "dsh-plugin-mobile-gateway",
+      "url": "https://registry.npmjs.org/dsh-plugin-mobile-gateway",
+      "sha256": "2283b9f5aef5e36f5aa7acfea315b91ad3f7ca5b4628dca96b2f02f5d8df1ab1",
+      "fetchedAt": "2026-10-17T16:21:49.446Z"
+    },
+    {
+      "name": "dsh-approve-for-me",
+      "url": "https://registry.npmjs.org/dsh-approve-for-me",
+      "sha256": "ebeb97699adf565c10632d54b88d5233dae90245e7a95dc53bd3a8fc8eb5f2bd",
+      "fetchedAt": "2026-10-17T16:21:49.465Z"
+    },
+    {
+      "name": "dsh-meme",
+      "url": "https://registry.npmjs.org/dsh-meme",
+      "sha256": "ac3e8520f0fc59c88045af2affacc153226455a30dd7ff484aa30d02cea5d9bd",
+      "fetchedAt": "2026-10-17T16:21:49.469Z"
+    },
+    {
+      "name": "picturereader",
+      "url": "https://registry.npmjs.org/picturereader",
+      "sha256": "2206e72697218922a9997d5a0cecbfb11fdfb4b221b0a45ce1ad4acc3d973740",
+      "fetchedAt": "2026-10-17T16:21:49.471Z"
+    },
+    {
+      "name": "@youdotcom-oss/dsh-plugin",
+      "url": "https://registry.npmjs.org/%40youdotcom-oss%2Fdsh-plugin",
+      "sha256": "f7eb7617fc5bf6787f5f1eec8886044e0f32ac1f805857772e6db180b8141179",
+      "fetchedAt": "2026-10-17T16:21:49.475Z"
+    },
+    {
+      "name": "@anweat/dsh-browser",
+      "url": "https://registry.npmjs.org/%40anweat%2Fdsh-browser",
+      "sha256": "b1c9b37e25b534544dfb127d5139a903ab634423c01d866b0152c71a99ccb5c4",
+      "fetchedAt": "2026-10-17T16:21:49.507Z"
+    },
+    {
+      "name": "jevcore-dsh",
+      "url": "https://registry.npmjs.org/jevcore-dsh",
+      "sha256": "34a5054d4aa2fe3acb1e35a57f049488c72eb71d468de1fa3d2f8536b8f23742",
+      "fetchedAt": "2026-10-17T16:21:49.544Z"
+    },
+    {
+      "name": "superpowers-dsh",
+      "url": "https://registry.npmjs.org/superpowers-dsh",
+      "sha256": "cdff58bf491f0821e2d5eca33ca94ff8815302a457f9868029bd315239e24c09",
+      "fetchedAt": "2026-10-17T16:21:49.575Z"
+    },
+    {
+      "name": "dsh-office",
+      "url": "https://registry.npmjs.org/dsh-office",
+      "sha256": "d1370c479f7dd55389d24d3038b9e0c7123271b6b98131da9c210e8106ee10fa",
+      "fetchedAt": "2026-10-17T16:21:49.578Z"
+    },
+    {
+      "name": "dsh-qoder-connect",
+      "url": "https://registry.npmjs.org/dsh-qoder-connect",
+      "sha256": "152c5944fb06d172989969d36fe63142caeaa59aaeebd96118699da9f4e00095",
+      "fetchedAt": "2026-10-17T16:21:49.636Z"
+    },
+    {
+      "name": "dsh-plugin-git-bash",
+      "url": "https://registry.npmjs.org/dsh-plugin-git-bash",
+      "sha256": "c492d9db3a20f36e75ddeedc5addd61834707462e6bd1862fd512e6c8e5ba3c6",
+      "fetchedAt": "2026-10-17T16:21:49.637Z"
+    },
+    {
+      "name": "dsh-turn-delete",
+      "url": "https://registry.npmjs.org/dsh-turn-delete",
+      "sha256": "08f88544d45c046a8ac644f14d7045a6c091fe9c255046e2e9358b2314c4d796",
+      "fetchedAt": "2026-10-17T16:21:49.680Z"
+    },
+    {
+      "name": "dsh-plugin-garmin-connect",
+      "url": "https://registry.npmjs.org/dsh-plugin-garmin-connect",
+      "sha256": "e4d0eb217989c033b55dd50eed23992c9f5152376f507416e7ac65015496ba1e",
+      "fetchedAt": "2026-10-17T16:21:49.688Z"
+    },
+    {
+      "name": "@xiaoyuyu6420/dsh-backup",
+      "url": "https://registry.npmjs.org/%40xiaoyuyu6420%2Fdsh-backup",
+      "sha256": "fb06421d257f7ddd75704058e3a0f405c7b88aa2fe050727a748a095419450c7",
+      "fetchedAt": "2026-10-17T16:21:49.704Z"
+    },
+    {
+      "name": "dsh-office-tools",
+      "url": "https://registry.npmjs.org/dsh-office-tools",
+      "sha256": "b650a4fbdab1d40801ffba0eadfabe20d259546ce2c87c9e4b406fd92b0ceda4",
+      "fetchedAt": "2026-10-17T16:21:49.715Z"
+    },
+    {
+      "name": "dsh-plugin-sandbox-escalation-fix",
+      "url": "https://registry.npmjs.org/dsh-plugin-sandbox-escalation-fix",
+      "sha256": "0edc7de05cbc880ea149accca9734edfe7764e2d1fbeeb3ba728ca50da880748",
+      "fetchedAt": "2026-10-17T16:21:49.776Z"
+    },
+    {
+      "name": "dsh-skill-mcp-panel",
+      "url": "https://registry.npmjs.org/dsh-skill-mcp-panel",
+      "sha256": "2173c122788447088ec30932a9040d8f9437347e6f8be6095dd11128ec7d7006",
+      "fetchedAt": "2026-10-17T16:21:49.779Z"
+    },
+    {
+      "name": "@huanlin/dsh-plugin-auto-blame",
+      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-auto-blame",
+      "sha256": "8f73125e5014a3df8d2f5a47ee741113282efe28074ac4e1026c8524f1d1ea4c",
+      "fetchedAt": "2026-10-17T16:21:49.807Z"
+    },
+    {
+      "name": "@cocofhu/skillhub",
+      "url": "https://registry.npmjs.org/%40cocofhu%2Fskillhub",
+      "sha256": "6d8356ea88de37b97bf5a56e997b1cc9e1f3853fac6fdce24dae8027ab38a3e1",
+      "fetchedAt": "2026-10-17T16:21:49.827Z"
+    },
+    {
+      "name": "dsh-usage-chart",
+      "url": "https://registry.npmjs.org/dsh-usage-chart",
+      "sha256": "54964d0ee8a9e4ca345cabf39d1694713ceb506f5e0b95a1541cfca35732607a",
+      "fetchedAt": "2026-10-17T16:21:49.839Z"
+    },
+    {
+      "name": "femo-plugin",
+      "url": "https://registry.npmjs.org/femo-plugin",
+      "sha256": "b4854fdd11f0fc28b8a1b2b76944fdfbd809f20bbf950aa226e2779959f54656",
+      "fetchedAt": "2026-10-17T16:21:49.840Z"
+    },
+    {
+      "name": "seektty",
+      "url": "https://registry.npmjs.org/seektty",
+      "sha256": "ecd3cd4af94c8ce92eeb63940d31e6effd361ae2fd1149cde4c206c653d79bfb",
+      "fetchedAt": "2026-10-17T16:21:49.852Z"
+    },
+    {
+      "name": "dsh-network-settings",
+      "url": "https://registry.npmjs.org/dsh-network-settings",
+      "sha256": "560964b08332cb6f4f9fa8b6763c841a67c8973ff17a85032298ef63a2a9d73b",
+      "fetchedAt": "2026-10-17T16:21:49.876Z"
+    },
+    {
+      "name": "dsh-md-notes",
+      "url": "https://registry.npmjs.org/dsh-md-notes",
+      "sha256": "b096b9a2e4b118b5f4062d63e41346ef79c2875dbaef95ee1362c452abde4006",
+      "fetchedAt": "2026-10-17T16:21:49.921Z"
+    },
+    {
+      "name": "dsh-output-styles",
+      "url": "https://registry.npmjs.org/dsh-output-styles",
+      "sha256": "be6eca694f08ca3011b6b03fc8cb0fc0616bf1832744c15d2b95dcf01a20932e",
+      "fetchedAt": "2026-10-17T16:21:49.989Z"
+    },
+    {
+      "name": "@zoria-lind/dsh-behavior-enhancer",
+      "url": "https://registry.npmjs.org/%40zoria-lind%2Fdsh-behavior-enhancer",
+      "sha256": "74092a41de4f156c723074c526bc92e611891ea03705730ba5c2ebf6b6562ecd",
+      "fetchedAt": "2026-10-17T16:21:50.016Z"
+    },
+    {
+      "name": "@dingtalk-real-ai/dsh-dingtalk",
+      "url": "https://registry.npmjs.org/%40dingtalk-real-ai%2Fdsh-dingtalk",
+      "sha256": "fb10e6756dd0bfd12c468d6f2ec900687f6681ffcf644ed14b2738cbf929a87c",
+      "fetchedAt": "2026-10-17T16:21:50.035Z"
+    },
+    {
+      "name": "dsh-subagent-default-model",
+      "url": "https://registry.npmjs.org/dsh-subagent-default-model",
+      "sha256": "ab8ec45357c2ce653e5815762d65e850c74a17e99cc4b92294b060abd95c197d",
+      "fetchedAt": "2026-10-17T16:21:50.064Z"
+    },
+    {
+      "name": "@huanlin/dsh-plugin-d399",
+      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-d399",
+      "sha256": "28032a3fac1784928040c7a598d7f5634d9e9e11b0a413fd328616d03d734848",
+      "fetchedAt": "2026-10-17T16:21:50.097Z"
+    },
+    {
+      "name": "dsh-plugin-product-subagents",
+      "url": "https://registry.npmjs.org/dsh-plugin-product-subagents",
+      "sha256": "8355f0754c53b0cba397d84897f8b221a28629ea154528ae063b034dc3ed567d",
+      "fetchedAt": "2026-10-17T16:21:50.143Z"
+    },
+    {
+      "name": "dsh-approval-gate",
+      "url": "https://registry.npmjs.org/dsh-approval-gate",
+      "sha256": "f4c789eab61e8e4772ad5776f6c2c2634d7b347b1b3580675a9c26ee657dd7c2",
+      "fetchedAt": "2026-10-17T16:21:50.168Z"
+    },
+    {
+      "name": "@huanlin/dsh-plugin-interpreters",
+      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-interpreters",
+      "sha256": "561fd7b35e41eb8e39e257d28ef7fa1663f15401b5978dfaa238a456ab16499c",
+      "fetchedAt": "2026-10-17T16:21:50.177Z"
+    },
+    {
+      "name": "dsh-extension-hub",
+      "url": "https://registry.npmjs.org/dsh-extension-hub",
+      "sha256": "9b6658b617ecdb7e7fdfee778abd9cf09b52c0a17b0e48781532232b5c8a314a",
+      "fetchedAt": "2026-10-17T16:21:50.190Z"
+    },
+    {
+      "name": "dsh-balance-plugin",
+      "url": "https://registry.npmjs.org/dsh-balance-plugin",
+      "sha256": "dd09f51c26c03bbbd4a5847ab86b0d4a193efd8b08c2b180af4a8ad715317d03",
+      "fetchedAt": "2026-10-17T16:21:50.211Z"
+    },
+    {
+      "name": "@beforewave/dsh-with-chatgpt",
+      "url": "https://registry.npmjs.org/%40beforewave%2Fdsh-with-chatgpt",
+      "sha256": "82b13a774d8fa6663379574fc7e737b505587aecc0febde94486f47c868e4b45",
+      "fetchedAt": "2026-10-17T16:21:50.240Z"
+    },
+    {
+      "name": "dsh-translate",
+      "url": "https://registry.npmjs.org/dsh-translate",
+      "sha256": "4a47d1eb49b52f0444627ccfc6971adcf1e7603ed5fa0f042ddcc11b532e694d",
+      "fetchedAt": "2026-10-17T16:21:50.252Z"
+    },
+    {
+      "name": "@zseven-w/dsh-android",
+      "url": "https://registry.npmjs.org/%40zseven-w%2Fdsh-android",
+      "sha256": "f8aa4a26cb6fca3415b4e08571d5e219ef7cdc65ab034d5caf0ed157a7516d37",
+      "fetchedAt": "2026-10-17T16:21:50.293Z"
+    },
+    {
+      "name": "dsh-agent-messaging",
+      "url": "https://registry.npmjs.org/dsh-agent-messaging",
+      "sha256": "aa3819e7cbbcad97df57d9db5c57352aa07f642e31e5eabea0daa593bf37a637",
+      "fetchedAt": "2026-10-17T16:21:50.305Z"
+    },
+    {
+      "name": "@michengai/dsh-codex-ui",
+      "url": "https://registry.npmjs.org/%40michengai%2Fdsh-codex-ui",
+      "sha256": "8640e57e1ec45bf8697fc9a5a60e4b3c669c5f74fef406f19aa59853c7710208",
+      "fetchedAt": "2026-10-17T16:21:50.332Z"
+    },
+    {
+      "name": "dsh-swarm-orchestrator",
+      "url": "https://registry.npmjs.org/dsh-swarm-orchestrator",
+      "sha256": "416fe52a4c716a03e91d49b9b47ba1fd4b4c7ed67842fbad7402cd4974eeb34a",
+      "fetchedAt": "2026-10-17T16:21:50.341Z"
+    },
+    {
+      "name": "dsh-agy",
+      "url": "https://registry.npmjs.org/dsh-agy",
+      "sha256": "8cf8dea0a265bed420e30bf13efaa3cdaf580a22560df840bec99c40663dd1b7",
+      "fetchedAt": "2026-10-17T16:21:50.437Z"
+    },
+    {
+      "name": "@hr98w/dsh-memory",
+      "url": "https://registry.npmjs.org/%40hr98w%2Fdsh-memory",
+      "sha256": "9b2149df7accff4af9cbf14ed489b10d9840755e4f3116499eddabde399567e9",
+      "fetchedAt": "2026-10-17T16:21:50.440Z"
+    },
+    {
+      "name": "@huanlin/dsh-plugin-sleep",
+      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-sleep",
+      "sha256": "0acbffbfda0bd3328d6224f2fa5605e734d1ff319c192b2c21763f13c354322e",
+      "fetchedAt": "2026-10-17T16:21:50.451Z"
+    },
+    {
+      "name": "dsh-local-llm-controller",
+      "url": "https://registry.npmjs.org/dsh-local-llm-controller",
+      "sha256": "a5b707333b527cffaced0d73db1cb385a2cad53c23317aad6e0b24c6242465fd",
+      "fetchedAt": "2026-10-17T16:21:50.452Z"
+    },
+    {
+      "name": "@xgone/dsh-remote",
+      "url": "https://registry.npmjs.org/%40xgone%2Fdsh-remote",
+      "sha256": "8dfd03b3a784997379e0a3198c1a6f1ead431ec6a51abd1e948f53b805e2a0c6",
+      "fetchedAt": "2026-10-17T16:21:50.455Z"
     },
     {
       "name": "dsh-better-reasoning-effort",
       "url": "https://registry.npmjs.org/dsh-better-reasoning-effort",
       "sha256": "372b5a1512c3cc6a4754eb5425e5318787ed9992667294270fb77d6451d379fd",
-      "fetchedAt": "2026-10-17T06:10:12.514Z"
+      "fetchedAt": "2026-10-17T16:21:50.477Z"
+    },
+    {
+      "name": "@awiki/dsh-plugin",
+      "url": "https://registry.npmjs.org/%40awiki%2Fdsh-plugin",
+      "sha256": "b2ac482b1406d510603f42ed54fe185c8178b3c4a6151aad291324fe77685087",
+      "fetchedAt": "2026-10-17T16:21:50.487Z"
     },
     {
       "name": "dsh-mattpocock-skills-deck",
       "url": "https://registry.npmjs.org/dsh-mattpocock-skills-deck",
       "sha256": "9ec51c767361e9ecb22c400b19e93b2041095142117f9b2c38dbcc77e92ea99b",
-      "fetchedAt": "2026-10-17T06:10:12.550Z"
+      "fetchedAt": "2026-10-17T16:21:50.502Z"
+    },
+    {
+      "name": "dsh-relay",
+      "url": "https://registry.npmjs.org/dsh-relay",
+      "sha256": "c1043f8f39415bf038b0dddeed5c00e7525302f0fc506c5b251c2efd55eff531",
+      "fetchedAt": "2026-10-17T16:21:50.506Z"
+    },
+    {
+      "name": "dsh-devices",
+      "url": "https://registry.npmjs.org/dsh-devices",
+      "sha256": "06efa0cddc14029b1c34f0fe357936b225b68857cf76fd0c10aa95fe953910aa",
+      "fetchedAt": "2026-10-17T16:21:50.509Z"
+    },
+    {
+      "name": "dsh-origin-plugin",
+      "url": "https://registry.npmjs.org/dsh-origin-plugin",
+      "sha256": "8a33665b34c812917044b9ccdc92814b0686a5be44aa9728ffb528d6955e5d97",
+      "fetchedAt": "2026-10-17T16:21:50.517Z"
     },
     {
       "name": "dsh-memgas",
       "url": "https://registry.npmjs.org/dsh-memgas",
       "sha256": "6fb7311070c22ae964ee79b774c24b74663b04205f8e49027d0ebcc26fa12058",
-      "fetchedAt": "2026-10-17T06:10:12.563Z"
+      "fetchedAt": "2026-10-17T16:21:50.566Z"
+    },
+    {
+      "name": "dsh-web-startup-auth",
+      "url": "https://registry.npmjs.org/dsh-web-startup-auth",
+      "sha256": "9ecab8f3eb1765d1ee0b837093f565ce3efd7722e7e75d4d438ac73c17c4db53",
+      "fetchedAt": "2026-10-17T16:21:50.572Z"
     },
     {
       "name": "dsh-agent-message",
       "url": "https://registry.npmjs.org/dsh-agent-message",
       "sha256": "f90a975c5fe59640937bc811671551b48e9ceaa3d92df9b9eb2095b28a68beae",
-      "fetchedAt": "2026-10-17T06:10:12.602Z"
-    },
-    {
-      "name": "dsh-web-startup-auth",
-      "url": "https://registry.npmjs.org/dsh-web-startup-auth",
-      "sha256": "b5baf49c66fa5dd75a6b8a1a142c58e7cd178adac75a4254bbcda6cdee97b0b7",
-      "fetchedAt": "2026-10-17T06:10:12.636Z"
-    },
-    {
-      "name": "oh-my-knowledge",
-      "url": "https://registry.npmjs.org/oh-my-knowledge",
-      "sha256": "d50ab5f11d88c751f618b969dffb887d895dcf2a48dd7373e3f5a872138b3171",
-      "fetchedAt": "2026-10-17T06:10:12.666Z"
+      "fetchedAt": "2026-10-17T16:21:50.582Z"
     },
     {
       "name": "dsh-duet",
       "url": "https://registry.npmjs.org/dsh-duet",
       "sha256": "107289b0dffa1efa0409e9e718af21638e62195049ec844a3e96b4febe62a3a9",
-      "fetchedAt": "2026-10-17T06:10:12.679Z"
+      "fetchedAt": "2026-10-17T16:21:50.588Z"
     },
     {
       "name": "dsh-subagent-library",
       "url": "https://registry.npmjs.org/dsh-subagent-library",
-      "sha256": "d9431f35714014172ee2ca6fbd4cc08c69a095ea76ab171862bd26d5b4aca5d3",
-      "fetchedAt": "2026-10-17T06:10:12.701Z"
+      "sha256": "88fd6cab17be2f8b0aaa305baa72b4aca9b6ed0cf83fc56260341018cdd880d1",
+      "fetchedAt": "2026-10-17T16:21:50.594Z"
+    },
+    {
+      "name": "oh-my-knowledge",
+      "url": "https://registry.npmjs.org/oh-my-knowledge",
+      "sha256": "d50ab5f11d88c751f618b969dffb887d895dcf2a48dd7373e3f5a872138b3171",
+      "fetchedAt": "2026-10-17T16:21:50.633Z"
     },
     {
       "name": "dsh-wsl-workspace",
       "url": "https://registry.npmjs.org/dsh-wsl-workspace",
       "sha256": "148810961c49dd26cadaea41f7eab16c36855e841cc6ba4acbc6c5f2d5981739",
-      "fetchedAt": "2026-10-17T06:10:12.721Z"
-    },
-    {
-      "name": "@daweifu/capability-menu",
-      "url": "https://registry.npmjs.org/%40daweifu%2Fcapability-menu",
-      "sha256": "e8df5b058de716f307a80bf4dc173d2a29aa6099d9d378dfc95331b0ab2ddfdd",
-      "fetchedAt": "2026-10-17T06:10:12.756Z"
-    },
-    {
-      "name": "billion-context-dsh",
-      "url": "https://registry.npmjs.org/billion-context-dsh",
-      "sha256": "0ea721471ddf4948c1bb0aff8a11167739308677f61332e4840fa594dd17b5da",
-      "fetchedAt": "2026-10-17T06:10:12.758Z"
-    },
-    {
-      "name": "dsh-status-rotator",
-      "url": "https://registry.npmjs.org/dsh-status-rotator",
-      "sha256": "82da9228a32dcc2291ddee2a8416fb7c4b82c56c3551d6b17bceecdd81f0596c",
-      "fetchedAt": "2026-10-17T06:10:12.784Z"
+      "fetchedAt": "2026-10-17T16:21:50.641Z"
     },
     {
       "name": "dsh-auth-gateway",
       "url": "https://registry.npmjs.org/dsh-auth-gateway",
       "sha256": "f4c47bd8fc51fe96259da3fa395ef3b202332599b320abfb1281fed9ba4a60fb",
-      "fetchedAt": "2026-10-17T06:10:12.787Z"
-    },
-    {
-      "name": "dsh-clawrouter",
-      "url": "https://registry.npmjs.org/dsh-clawrouter",
-      "sha256": "4491924bcd096e001b959bd3ff269595dd15fefb4ba0a2a190f0361d2176d7bf",
-      "fetchedAt": "2026-10-17T06:10:12.807Z"
-    },
-    {
-      "name": "dsh-secure-audit",
-      "url": "https://registry.npmjs.org/dsh-secure-audit",
-      "sha256": "cc687eaa15aa95396fa30da384f49a157d89eb7f6c98c66dcaba690d6f6279e3",
-      "fetchedAt": "2026-10-17T06:10:12.843Z"
+      "fetchedAt": "2026-10-17T16:21:50.657Z"
     },
     {
       "name": "@orbisapp/remote-dsh",
       "url": "https://registry.npmjs.org/%40orbisapp%2Fremote-dsh",
       "sha256": "13fbb3d71a7f365d6641209675255515eb3f1f97d91e41f6d1af5e5bcf469f85",
-      "fetchedAt": "2026-10-17T06:10:12.845Z"
-    },
-    {
-      "name": "dsh-file-activity",
-      "url": "https://registry.npmjs.org/dsh-file-activity",
-      "sha256": "ed5e2bbad2a495d1badb8d777b88aba6a354de38df08f2e880a240aed5ff7cb6",
-      "fetchedAt": "2026-10-17T06:10:12.874Z"
-    },
-    {
-      "name": "dsh-shared",
-      "url": "https://registry.npmjs.org/dsh-shared",
-      "sha256": "0907033e5aabf59e4e78c75a18068c674b0a677ad1c0979eaa3b96f61f478aba",
-      "fetchedAt": "2026-10-17T06:10:12.893Z"
+      "fetchedAt": "2026-10-17T16:21:50.682Z"
     },
     {
       "name": "@roarpeng/graphflow",
       "url": "https://registry.npmjs.org/%40roarpeng%2Fgraphflow",
       "sha256": "b4b3929fe281d97936563dd83dcce5f1afe943e5c2f2ae074189620c14b6b384",
-      "fetchedAt": "2026-10-17T06:10:12.923Z"
+      "fetchedAt": "2026-10-17T16:21:50.687Z"
+    },
+    {
+      "name": "billion-context-dsh",
+      "url": "https://registry.npmjs.org/billion-context-dsh",
+      "sha256": "0ea721471ddf4948c1bb0aff8a11167739308677f61332e4840fa594dd17b5da",
+      "fetchedAt": "2026-10-17T16:21:50.694Z"
+    },
+    {
+      "name": "dsh-status-rotator",
+      "url": "https://registry.npmjs.org/dsh-status-rotator",
+      "sha256": "82da9228a32dcc2291ddee2a8416fb7c4b82c56c3551d6b17bceecdd81f0596c",
+      "fetchedAt": "2026-10-17T16:21:50.713Z"
+    },
+    {
+      "name": "@daweifu/capability-menu",
+      "url": "https://registry.npmjs.org/%40daweifu%2Fcapability-menu",
+      "sha256": "e8df5b058de716f307a80bf4dc173d2a29aa6099d9d378dfc95331b0ab2ddfdd",
+      "fetchedAt": "2026-10-17T16:21:50.715Z"
+    },
+    {
+      "name": "dsh-clawrouter",
+      "url": "https://registry.npmjs.org/dsh-clawrouter",
+      "sha256": "4491924bcd096e001b959bd3ff269595dd15fefb4ba0a2a190f0361d2176d7bf",
+      "fetchedAt": "2026-10-17T16:21:50.720Z"
+    },
+    {
+      "name": "dsh-shared",
+      "url": "https://registry.npmjs.org/dsh-shared",
+      "sha256": "9742da672a68b5ec6da697daa520e11966492797c95c6da8186b6c993080566c",
+      "fetchedAt": "2026-10-17T16:21:50.735Z"
+    },
+    {
+      "name": "dsh-secure-audit",
+      "url": "https://registry.npmjs.org/dsh-secure-audit",
+      "sha256": "cc687eaa15aa95396fa30da384f49a157d89eb7f6c98c66dcaba690d6f6279e3",
+      "fetchedAt": "2026-10-17T16:21:50.800Z"
+    },
+    {
+      "name": "dsh-file-activity",
+      "url": "https://registry.npmjs.org/dsh-file-activity",
+      "sha256": "dac42bac7e5a516e7c73bddd5d3ed6ed31f204a58277487597398d0a7d440560",
+      "fetchedAt": "2026-10-17T16:21:50.811Z"
+    },
+    {
+      "name": "@yolk_vat-y/dsh-project-memory",
+      "url": "https://registry.npmjs.org/%40yolk_vat-y%2Fdsh-project-memory",
+      "sha256": "66c16289cff0268e5658c37a2d0009988bc4ea975320c5a3515ca64859c733b3",
+      "fetchedAt": "2026-10-17T16:21:50.842Z"
+    },
+    {
+      "name": "dsh-md-render",
+      "url": "https://registry.npmjs.org/dsh-md-render",
+      "sha256": "7225d92ec038a8ced1441aef0e0620b1b08c4928f0464f5fd19ee0084954bc56",
+      "fetchedAt": "2026-10-17T16:21:50.846Z"
     },
     {
       "name": "dsh-msg-hub",
       "url": "https://registry.npmjs.org/dsh-msg-hub",
       "sha256": "32d05f7d329eb267372e14ff0cb8c316a13ff325c1aa724edfda089b14722287",
-      "fetchedAt": "2026-10-17T06:10:12.960Z"
-    },
-    {
-      "name": "dsh-md-render",
-      "url": "https://registry.npmjs.org/dsh-md-render",
-      "sha256": "5aae06ac78d30094e1efa606ba0d42521a732a3f446e65c0804f9eb41a31b82d",
-      "fetchedAt": "2026-10-17T06:10:12.970Z"
+      "fetchedAt": "2026-10-17T16:21:50.865Z"
     },
     {
       "name": "dsh-kb-rag",
       "url": "https://registry.npmjs.org/dsh-kb-rag",
       "sha256": "bb0634b5ddb98db577f7b934fe916cfb52c80e98613b329ba2b95fe2e46acb62",
-      "fetchedAt": "2026-10-17T06:10:13.046Z"
-    },
-    {
-      "name": "@huanlin/dsh-plugin-aigc-canvas",
-      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-aigc-canvas",
-      "sha256": "9d6096080babffaf306fe7e3b4947a2290440243adf4fa1ccc21dbb6a4e1fe71",
-      "fetchedAt": "2026-10-17T06:10:13.052Z"
-    },
-    {
-      "name": "prts-terrarchive",
-      "url": "https://registry.npmjs.org/prts-terrarchive",
-      "sha256": "42cbb28d2125c21fed2fd653829021f265e05052caf966c868630ef0b7aa0024",
-      "fetchedAt": "2026-10-17T06:10:13.072Z"
-    },
-    {
-      "name": "@yolk_vat-y/dsh-project-memory",
-      "url": "https://registry.npmjs.org/%40yolk_vat-y%2Fdsh-project-memory",
-      "sha256": "4230584f4b8a1e9a43a22b2b966a8c07cc1bb939f55b3060cd68b46e180817c7",
-      "fetchedAt": "2026-10-17T06:10:13.124Z"
-    },
-    {
-      "name": "dsh-library",
-      "url": "https://registry.npmjs.org/dsh-library",
-      "sha256": "9f514b2fc983c1f8e478b0e5886eecd656613dfff26eab2c9a60259c329e118b",
-      "fetchedAt": "2026-10-17T06:10:13.134Z"
-    },
-    {
-      "name": "@ryubyte/dsh-a2a",
-      "url": "https://registry.npmjs.org/%40ryubyte%2Fdsh-a2a",
-      "sha256": "831dd03b521c92fa62a11cd99e84c94aa2ceaf4d0005dbb227a22227d96ccb44",
-      "fetchedAt": "2026-10-17T06:10:13.136Z"
-    },
-    {
-      "name": "@changfenhuang/dsh-annotation",
-      "url": "https://registry.npmjs.org/%40changfenhuang%2Fdsh-annotation",
-      "sha256": "ae3e1bc3b85801962a1fbdb2db52869feff60ea1e338a0409043ecc9ae0da4e0",
-      "fetchedAt": "2026-10-17T06:10:13.153Z"
-    },
-    {
-      "name": "dsh-movein",
-      "url": "https://registry.npmjs.org/dsh-movein",
-      "sha256": "7dc67dda751a44d428a2f97a29eb90207e7a98f25192206a436f8fff5c90b56a",
-      "fetchedAt": "2026-10-17T06:10:13.203Z"
-    },
-    {
-      "name": "memory-eternal",
-      "url": "https://registry.npmjs.org/memory-eternal",
-      "sha256": "1869bcfef4ea4fdc38094c3044874e98dc70e8fac0f9a90fb31739dd1858feea",
-      "fetchedAt": "2026-10-17T06:10:13.233Z"
-    },
-    {
-      "name": "dsh-web-mobile",
-      "url": "https://registry.npmjs.org/dsh-web-mobile",
-      "sha256": "a1499694db7f2d1f68e22c7f44aaec6cc2117008cde188a46a877a7d793f6150",
-      "fetchedAt": "2026-10-17T06:10:13.237Z"
-    },
-    {
-      "name": "gongwen-skill",
-      "url": "https://registry.npmjs.org/gongwen-skill",
-      "sha256": "0b69a34c800a98cffaa34fb3c8d07d7eb4af3842ea80f09f57c451638802d49b",
-      "fetchedAt": "2026-10-17T06:10:13.243Z"
-    },
-    {
-      "name": "dsh-layered-memory",
-      "url": "https://registry.npmjs.org/dsh-layered-memory",
-      "sha256": "c26035187482eb84185d9c5d6ff6e4cefb2aaf0b10ce3a1e5a9b2527af6983f8",
-      "fetchedAt": "2026-10-17T06:10:13.338Z"
-    },
-    {
-      "name": "dsh-codex",
-      "url": "https://registry.npmjs.org/dsh-codex",
-      "sha256": "7a7f0dabf116b0a8fdd0b822d1f5ee404b04618abfde629b815fa28a0c065df8",
-      "fetchedAt": "2026-10-17T06:10:13.356Z"
+      "fetchedAt": "2026-10-17T16:21:50.898Z"
     },
     {
       "name": "@zoria-lind/dsh-ecolink-adapter",
       "url": "https://registry.npmjs.org/%40zoria-lind%2Fdsh-ecolink-adapter",
       "sha256": "8210535fd320116595faa989dca2134a2b54bbf2c9f45e4deecbceaafc6036a0",
-      "fetchedAt": "2026-10-17T06:10:13.365Z"
+      "fetchedAt": "2026-10-17T16:21:50.929Z"
+    },
+    {
+      "name": "prts-terrarchive",
+      "url": "https://registry.npmjs.org/prts-terrarchive",
+      "sha256": "42cbb28d2125c21fed2fd653829021f265e05052caf966c868630ef0b7aa0024",
+      "fetchedAt": "2026-10-17T16:21:50.967Z"
+    },
+    {
+      "name": "dsh-library",
+      "url": "https://registry.npmjs.org/dsh-library",
+      "sha256": "9f514b2fc983c1f8e478b0e5886eecd656613dfff26eab2c9a60259c329e118b",
+      "fetchedAt": "2026-10-17T16:21:50.974Z"
+    },
+    {
+      "name": "dsh-movein",
+      "url": "https://registry.npmjs.org/dsh-movein",
+      "sha256": "7dc67dda751a44d428a2f97a29eb90207e7a98f25192206a436f8fff5c90b56a",
+      "fetchedAt": "2026-10-17T16:21:51.021Z"
+    },
+    {
+      "name": "@changfenhuang/dsh-annotation",
+      "url": "https://registry.npmjs.org/%40changfenhuang%2Fdsh-annotation",
+      "sha256": "ae3e1bc3b85801962a1fbdb2db52869feff60ea1e338a0409043ecc9ae0da4e0",
+      "fetchedAt": "2026-10-17T16:21:51.024Z"
+    },
+    {
+      "name": "memory-eternal",
+      "url": "https://registry.npmjs.org/memory-eternal",
+      "sha256": "b4e628068782bcff149495f056a6615dbf73a37a55344edf086f93cb758959e4",
+      "fetchedAt": "2026-10-17T16:21:51.045Z"
+    },
+    {
+      "name": "gongwen-skill",
+      "url": "https://registry.npmjs.org/gongwen-skill",
+      "sha256": "0b69a34c800a98cffaa34fb3c8d07d7eb4af3842ea80f09f57c451638802d49b",
+      "fetchedAt": "2026-10-17T16:21:51.047Z"
+    },
+    {
+      "name": "dsh-web-mobile",
+      "url": "https://registry.npmjs.org/dsh-web-mobile",
+      "sha256": "a1499694db7f2d1f68e22c7f44aaec6cc2117008cde188a46a877a7d793f6150",
+      "fetchedAt": "2026-10-17T16:21:51.049Z"
     },
     {
       "name": "@alpacachen/dsh-kanban",
       "url": "https://registry.npmjs.org/%40alpacachen%2Fdsh-kanban",
       "sha256": "68257cc6c33eae6a17e25b9a753f9b2aa8af928d60c4b5ce96b84c3e92a5e60d",
-      "fetchedAt": "2026-10-17T06:10:13.384Z"
+      "fetchedAt": "2026-10-17T16:21:51.094Z"
+    },
+    {
+      "name": "dsh-layered-memory",
+      "url": "https://registry.npmjs.org/dsh-layered-memory",
+      "sha256": "c26035187482eb84185d9c5d6ff6e4cefb2aaf0b10ce3a1e5a9b2527af6983f8",
+      "fetchedAt": "2026-10-17T16:21:51.120Z"
+    },
+    {
+      "name": "@ryubyte/dsh-a2a",
+      "url": "https://registry.npmjs.org/%40ryubyte%2Fdsh-a2a",
+      "sha256": "831dd03b521c92fa62a11cd99e84c94aa2ceaf4d0005dbb227a22227d96ccb44",
+      "fetchedAt": "2026-10-17T16:21:51.124Z"
     },
     {
       "name": "dsh-memento",
       "url": "https://registry.npmjs.org/dsh-memento",
       "sha256": "fd7267c573c1db0fb264ad156431582b0435a45f3094ddbcb55e60a1fb4125ca",
-      "fetchedAt": "2026-10-17T06:10:13.433Z"
+      "fetchedAt": "2026-10-17T16:21:51.143Z"
     },
     {
-      "name": "dsh-lark-link",
-      "url": "https://registry.npmjs.org/dsh-lark-link",
-      "sha256": "343295a89baa596171a134478552aff7afff54aed13ddcdd0f6538142e6017df",
-      "fetchedAt": "2026-10-17T06:10:13.452Z"
+      "name": "@huanlin/dsh-plugin-aigc-canvas",
+      "url": "https://registry.npmjs.org/%40huanlin%2Fdsh-plugin-aigc-canvas",
+      "sha256": "9d6096080babffaf306fe7e3b4947a2290440243adf4fa1ccc21dbb6a4e1fe71",
+      "fetchedAt": "2026-10-17T16:21:51.182Z"
     },
     {
-      "name": "@xlight-oss/visionary-dsh",
-      "url": "https://registry.npmjs.org/%40xlight-oss%2Fvisionary-dsh",
-      "sha256": "8374b1a6d7fd4ce65b2e6d5168fedf0dbd3dfa4f4906ee3158d8a6d0daf0f143",
-      "fetchedAt": "2026-10-17T06:10:13.525Z"
+      "name": "dsh-codex",
+      "url": "https://registry.npmjs.org/dsh-codex",
+      "sha256": "7a7f0dabf116b0a8fdd0b822d1f5ee404b04618abfde629b815fa28a0c065df8",
+      "fetchedAt": "2026-10-17T16:21:51.186Z"
     },
     {
       "name": "dsh-vision-proxy",
       "url": "https://registry.npmjs.org/dsh-vision-proxy",
       "sha256": "212609e03eb805f70de4e21197696a50468d67683aa41fdb2a66e935ec319d57",
-      "fetchedAt": "2026-10-17T06:10:13.548Z"
+      "fetchedAt": "2026-10-17T16:21:51.242Z"
+    },
+    {
+      "name": "dsh-lark-link",
+      "url": "https://registry.npmjs.org/dsh-lark-link",
+      "sha256": "343295a89baa596171a134478552aff7afff54aed13ddcdd0f6538142e6017df",
+      "fetchedAt": "2026-10-17T16:21:51.281Z"
     },
     {
       "name": "oh-my-deepseek-harness",
       "url": "https://registry.npmjs.org/oh-my-deepseek-harness",
       "sha256": "688b01376072db05b4de50434e612c32cd8c2a4437cdb30021cd20b9733f91c6",
-      "fetchedAt": "2026-10-17T06:10:13.612Z"
+      "fetchedAt": "2026-10-17T16:21:51.361Z"
     },
     {
       "name": "@yachangchang/dsh-qq-bridge",
       "url": "https://registry.npmjs.org/%40yachangchang%2Fdsh-qq-bridge",
       "sha256": "e04b4a956bac23cad2b9cfd0228b096a0db6ed09b86c0980db207ef9baefaaf4",
-      "fetchedAt": "2026-10-17T06:10:13.613Z"
+      "fetchedAt": "2026-10-17T16:21:51.377Z"
     },
     {
-      "name": "dsh-mcp-panel",
-      "url": "https://registry.npmjs.org/dsh-mcp-panel",
-      "sha256": "87b8155f51498457f351b772679f37ff26d48ace11ae2617498742400dd0dfe2",
-      "fetchedAt": "2026-10-17T06:10:13.615Z"
-    },
-    {
-      "name": "@snowamberx/dsh-role-router",
-      "url": "https://registry.npmjs.org/%40snowamberx%2Fdsh-role-router",
-      "sha256": "5cb147f81386490fb131d15eb2cdade8a90faae56abaa8940f84cf1769f03d88",
-      "fetchedAt": "2026-10-17T06:10:13.617Z"
+      "name": "@xlight-oss/visionary-dsh",
+      "url": "https://registry.npmjs.org/%40xlight-oss%2Fvisionary-dsh",
+      "sha256": "8374b1a6d7fd4ce65b2e6d5168fedf0dbd3dfa4f4906ee3158d8a6d0daf0f143",
+      "fetchedAt": "2026-10-17T16:21:51.378Z"
     },
     {
       "name": "@zimzaza4/dsh-bash-win",
       "url": "https://registry.npmjs.org/%40zimzaza4%2Fdsh-bash-win",
       "sha256": "13d1525a1f75292ebe9a784efe65b0dec1ad427ac4aaabb23f244b68dd08eb44",
-      "fetchedAt": "2026-10-17T06:10:13.647Z"
-    },
-    {
-      "name": "dsh-session-hub",
-      "url": "https://registry.npmjs.org/dsh-session-hub",
-      "sha256": "7bfaebd68a0b9d3b04a3cbc1f86e5e17b75699dbeaef1951ea2e89b3c19d9954",
-      "fetchedAt": "2026-10-17T06:10:13.690Z"
+      "fetchedAt": "2026-10-17T16:21:51.402Z"
     },
     {
       "name": "dsh-easyrewrite",
       "url": "https://registry.npmjs.org/dsh-easyrewrite",
       "sha256": "b1e1cf10d5680965e544db0798b26b145e1e564b191016a971af1b7ccc04720c",
-      "fetchedAt": "2026-10-17T06:10:13.695Z"
+      "fetchedAt": "2026-10-17T16:21:51.407Z"
+    },
+    {
+      "name": "dsh-mcp-panel",
+      "url": "https://registry.npmjs.org/dsh-mcp-panel",
+      "sha256": "87b8155f51498457f351b772679f37ff26d48ace11ae2617498742400dd0dfe2",
+      "fetchedAt": "2026-10-17T16:21:51.418Z"
+    },
+    {
+      "name": "dsh-session-hub",
+      "url": "https://registry.npmjs.org/dsh-session-hub",
+      "sha256": "7bfaebd68a0b9d3b04a3cbc1f86e5e17b75699dbeaef1951ea2e89b3c19d9954",
+      "fetchedAt": "2026-10-17T16:21:51.473Z"
+    },
+    {
+      "name": "@snowamberx/dsh-role-router",
+      "url": "https://registry.npmjs.org/%40snowamberx%2Fdsh-role-router",
+      "sha256": "5cb147f81386490fb131d15eb2cdade8a90faae56abaa8940f84cf1769f03d88",
+      "fetchedAt": "2026-10-17T16:21:51.490Z"
     },
     {
       "name": "dsh-web-lan-access",
       "url": "https://registry.npmjs.org/dsh-web-lan-access",
       "sha256": "f3b9c6200c6d49ecbc455e335538bf8d465f4d9caab47eed9b4e9493f0134665",
-      "fetchedAt": "2026-10-17T06:10:13.724Z"
-    },
-    {
-      "name": "dsh-omi-voice",
-      "url": "https://registry.npmjs.org/dsh-omi-voice",
-      "sha256": "1ceadbc791a666f8e07aef55ff4335738d20cd107a1cde7f505351c9ce798307",
-      "fetchedAt": "2026-10-17T06:10:13.732Z"
+      "fetchedAt": "2026-10-17T16:21:51.512Z"
     },
     {
       "name": "dsh-team",
       "url": "https://registry.npmjs.org/dsh-team",
       "sha256": "405cafc4c824e99d935c2bc21d70eaeaca149726055e19a3f1e582599a1f8a10",
-      "fetchedAt": "2026-10-17T06:10:13.760Z"
+      "fetchedAt": "2026-10-17T16:21:51.516Z"
     },
     {
       "name": "dsh-graphlint",
       "url": "https://registry.npmjs.org/dsh-graphlint",
       "sha256": "a77bd44d04877a1f7c1c96818f65e5d99d46a93b69acc34109b66623734e5aec",
-      "fetchedAt": "2026-10-17T06:10:13.808Z"
+      "fetchedAt": "2026-10-17T16:21:51.516Z"
     },
     {
       "name": "dsh-community-plugins",
       "url": "https://registry.npmjs.org/dsh-community-plugins",
       "sha256": "f9ae2bef73ea0d9fff5bceee4e24522955fdf6abcd911154a4d975c6aab2a4d0",
-      "fetchedAt": "2026-10-17T06:10:13.814Z"
+      "fetchedAt": "2026-10-17T16:21:51.528Z"
     },
     {
-      "name": "@hanxuanliang/dsh-chaos",
-      "url": "https://registry.npmjs.org/%40hanxuanliang%2Fdsh-chaos",
-      "sha256": "f27d17cb2d03fcbd5fd36b225f01e78377c691ea7c5575b34c25455d8c9237fc",
-      "fetchedAt": "2026-10-17T06:10:13.850Z"
-    },
-    {
-      "name": "dsh-doc",
-      "url": "https://registry.npmjs.org/dsh-doc",
-      "sha256": "d9e8ddf13fddfe2a730ab18a676455d40af3c12de7efcb6ed5b4519bce175c79",
-      "fetchedAt": "2026-10-17T06:10:13.861Z"
-    },
-    {
-      "name": "dsh-cursor-subscription",
-      "url": "https://registry.npmjs.org/dsh-cursor-subscription",
-      "sha256": "cb8061447e43251eb084e7f94b728f5b9f9fd9f0b078c67d025feaa54e7e3346",
-      "fetchedAt": "2026-10-17T06:10:13.863Z"
-    },
-    {
-      "name": "dsh-plugin-appshot",
-      "url": "https://registry.npmjs.org/dsh-plugin-appshot",
-      "sha256": "77c640c65d48e8ceddd8ac13deb73d94608f3f419e48e2f795023098c9826aeb",
-      "fetchedAt": "2026-10-17T06:10:13.904Z"
-    },
-    {
-      "name": "dsh-plugin-genui",
-      "url": "https://registry.npmjs.org/dsh-plugin-genui",
-      "sha256": "48c1ad3703ba36a84875ce4dbb42bd7913522ce85a847725e585a99b3452c91b",
-      "fetchedAt": "2026-10-17T06:10:13.941Z"
-    },
-    {
-      "name": "dsh-roleplay",
-      "url": "https://registry.npmjs.org/dsh-roleplay",
-      "sha256": "d7565134a473e8a98370cda00aa8fdd2ff019959148b913c76f6eb633f4619da",
-      "fetchedAt": "2026-10-17T06:10:13.949Z"
+      "name": "dsh-omi-voice",
+      "url": "https://registry.npmjs.org/dsh-omi-voice",
+      "sha256": "1ceadbc791a666f8e07aef55ff4335738d20cd107a1cde7f505351c9ce798307",
+      "fetchedAt": "2026-10-17T16:21:51.552Z"
     },
     {
       "name": "@caob23/dsh-browser-control",
       "url": "https://registry.npmjs.org/%40caob23%2Fdsh-browser-control",
       "sha256": "0309a7b0b2c9d26624f24042bdde5edc16a5ceb2f50c27c84ba28d76eb89d87b",
-      "fetchedAt": "2026-10-17T06:10:13.955Z"
+      "fetchedAt": "2026-10-17T16:21:51.558Z"
+    },
+    {
+      "name": "dsh-plugin-appshot",
+      "url": "https://registry.npmjs.org/dsh-plugin-appshot",
+      "sha256": "77c640c65d48e8ceddd8ac13deb73d94608f3f419e48e2f795023098c9826aeb",
+      "fetchedAt": "2026-10-17T16:21:51.573Z"
+    },
+    {
+      "name": "dsh-cursor-subscription",
+      "url": "https://registry.npmjs.org/dsh-cursor-subscription",
+      "sha256": "cb8061447e43251eb084e7f94b728f5b9f9fd9f0b078c67d025feaa54e7e3346",
+      "fetchedAt": "2026-10-17T16:21:51.574Z"
+    },
+    {
+      "name": "@hanxuanliang/dsh-chaos",
+      "url": "https://registry.npmjs.org/%40hanxuanliang%2Fdsh-chaos",
+      "sha256": "f27d17cb2d03fcbd5fd36b225f01e78377c691ea7c5575b34c25455d8c9237fc",
+      "fetchedAt": "2026-10-17T16:21:51.591Z"
+    },
+    {
+      "name": "dsh-roleplay",
+      "url": "https://registry.npmjs.org/dsh-roleplay",
+      "sha256": "f7607071dbaff394a71d1b5830b3b7afb55b63e49e4913769b522e0bc5604d8a",
+      "fetchedAt": "2026-10-17T16:21:51.596Z"
     },
     {
       "name": "dsh-memory-eternal",
       "url": "https://registry.npmjs.org/dsh-memory-eternal",
       "sha256": "4de48b23d458f13ddfc919d754f4624a09efa167aadb271d6a3e4e9120f33fd0",
-      "fetchedAt": "2026-10-17T06:10:13.989Z"
-    },
-    {
-      "name": "dsh-agent-relay",
-      "url": "https://registry.npmjs.org/dsh-agent-relay",
-      "sha256": "df70ae59751190a9f6e85dd2cb200a1c3edbf4b233bc213c0bcad3227600f14c",
-      "fetchedAt": "2026-10-17T06:10:14.038Z"
-    },
-    {
-      "name": "@lemoncat7/dsh-knowledge",
-      "url": "https://registry.npmjs.org/%40lemoncat7%2Fdsh-knowledge",
-      "sha256": "606f8026f7d8190bf1bcc270071e97ea042ee60b3efd0daac60ec5c41f0b8577",
-      "fetchedAt": "2026-10-17T06:10:14.053Z"
-    },
-    {
-      "name": "dsh-codebuddy-cli",
-      "url": "https://registry.npmjs.org/dsh-codebuddy-cli",
-      "sha256": "44fc0e5df252b46ec904b1eebed07c055552e930a9e397455ef26c1b6849ef6a",
-      "fetchedAt": "2026-10-17T06:10:14.076Z"
+      "fetchedAt": "2026-10-17T16:21:51.620Z"
     },
     {
       "name": "dsh-subagent-profile",
       "url": "https://registry.npmjs.org/dsh-subagent-profile",
       "sha256": "9619ec041bab86847953171e234dccd1b650415e9e419ea0a9089e0b7999db03",
-      "fetchedAt": "2026-10-17T06:10:14.085Z"
+      "fetchedAt": "2026-10-17T16:21:51.626Z"
     },
     {
-      "name": "dsh-diff-approval",
-      "url": "https://registry.npmjs.org/dsh-diff-approval",
-      "sha256": "0ca8e49a945e0814c96322a76ebf54879b46c3eadf4e07aa1376ae56c20a075e",
-      "fetchedAt": "2026-10-17T06:10:14.134Z"
+      "name": "dsh-doc",
+      "url": "https://registry.npmjs.org/dsh-doc",
+      "sha256": "d9e8ddf13fddfe2a730ab18a676455d40af3c12de7efcb6ed5b4519bce175c79",
+      "fetchedAt": "2026-10-17T16:21:51.631Z"
     },
     {
-      "name": "dsh-punky-swarm",
-      "url": "https://registry.npmjs.org/dsh-punky-swarm",
-      "sha256": "d94c7e00aefbcd72b9d785ec3ddd00e95b0944eace3298ab575348b4f4c272fc",
-      "fetchedAt": "2026-10-17T06:10:14.140Z"
+      "name": "dsh-codebuddy-cli",
+      "url": "https://registry.npmjs.org/dsh-codebuddy-cli",
+      "sha256": "44fc0e5df252b46ec904b1eebed07c055552e930a9e397455ef26c1b6849ef6a",
+      "fetchedAt": "2026-10-17T16:21:51.637Z"
     },
     {
-      "name": "dsh-pdf-mineru",
-      "url": "https://registry.npmjs.org/dsh-pdf-mineru",
-      "sha256": "2c51939cd56d7066d0c572f5ad972f8e8881121890abbdc31880f474fb739dc0",
-      "fetchedAt": "2026-10-17T06:10:14.166Z"
+      "name": "dsh-plugin-genui",
+      "url": "https://registry.npmjs.org/dsh-plugin-genui",
+      "sha256": "48c1ad3703ba36a84875ce4dbb42bd7913522ce85a847725e585a99b3452c91b",
+      "fetchedAt": "2026-10-17T16:21:51.651Z"
     },
     {
       "name": "@dely0/dsh-personal-workbench",
       "url": "https://registry.npmjs.org/%40dely0%2Fdsh-personal-workbench",
       "sha256": "cc6376eeb4c88b71083a26b0a7bd777d15ffbfd97183823501890d028c9d8a1d",
-      "fetchedAt": "2026-10-17T06:10:14.204Z"
+      "fetchedAt": "2026-10-17T16:21:51.656Z"
+    },
+    {
+      "name": "dsh-diff-approval",
+      "url": "https://registry.npmjs.org/dsh-diff-approval",
+      "sha256": "0ca8e49a945e0814c96322a76ebf54879b46c3eadf4e07aa1376ae56c20a075e",
+      "fetchedAt": "2026-10-17T16:21:51.661Z"
+    },
+    {
+      "name": "dsh-punky-swarm",
+      "url": "https://registry.npmjs.org/dsh-punky-swarm",
+      "sha256": "d94c7e00aefbcd72b9d785ec3ddd00e95b0944eace3298ab575348b4f4c272fc",
+      "fetchedAt": "2026-10-17T16:21:51.673Z"
+    },
+    {
+      "name": "dsh-pdf-mineru",
+      "url": "https://registry.npmjs.org/dsh-pdf-mineru",
+      "sha256": "2c51939cd56d7066d0c572f5ad972f8e8881121890abbdc31880f474fb739dc0",
+      "fetchedAt": "2026-10-17T16:21:51.677Z"
+    },
+    {
+      "name": "@lemoncat7/dsh-knowledge",
+      "url": "https://registry.npmjs.org/%40lemoncat7%2Fdsh-knowledge",
+      "sha256": "606f8026f7d8190bf1bcc270071e97ea042ee60b3efd0daac60ec5c41f0b8577",
+      "fetchedAt": "2026-10-17T16:21:51.691Z"
+    },
+    {
+      "name": "dsh-agent-relay",
+      "url": "https://registry.npmjs.org/dsh-agent-relay",
+      "sha256": "df70ae59751190a9f6e85dd2cb200a1c3edbf4b233bc213c0bcad3227600f14c",
+      "fetchedAt": "2026-10-17T16:21:51.717Z"
     },
     {
       "name": "dsh-remote-ssh",
       "url": "https://registry.npmjs.org/dsh-remote-ssh",
       "sha256": "57213c6e06a307b4b6d559f0dc8a9e0e5701ebd0a73dfb6942e93fc811913d5e",
-      "fetchedAt": "2026-10-17T06:10:14.268Z"
+      "fetchedAt": "2026-10-17T16:21:51.725Z"
     },
     {
       "name": "dsh-scholar-desk",
       "url": "https://registry.npmjs.org/dsh-scholar-desk",
       "sha256": "3c9060a181a339f608944cbc25e57704a8204cdfae5b6e61bfe04a7c17898095",
-      "fetchedAt": "2026-10-17T06:10:14.271Z"
-    },
-    {
-      "name": "@wxkingstar/specfusion-dsh",
-      "url": "https://registry.npmjs.org/%40wxkingstar%2Fspecfusion-dsh",
-      "sha256": "2fd14026ee7389cd33e774b83ccbfd866b043ec958c780635883b7ed548b099f",
-      "fetchedAt": "2026-10-17T06:10:14.311Z"
+      "fetchedAt": "2026-10-17T16:21:51.749Z"
     },
     {
       "name": "dsh-server-dashboard",
       "url": "https://registry.npmjs.org/dsh-server-dashboard",
       "sha256": "91fc601c907216726f4b23ee037e93d4694c7b2eb4eaabfe16714039b5097be8",
-      "fetchedAt": "2026-10-17T06:10:14.317Z"
+      "fetchedAt": "2026-10-17T16:21:51.759Z"
     },
     {
       "name": "dsh-trajectory",
       "url": "https://registry.npmjs.org/dsh-trajectory",
       "sha256": "4ac1ae74b460b445973e1e5a168456bac4c8d47ff64f3f2e8e297a99513f78cc",
-      "fetchedAt": "2026-10-17T06:10:14.330Z"
-    },
-    {
-      "name": "dsh-balance-float",
-      "url": "https://registry.npmjs.org/dsh-balance-float",
-      "sha256": "f85b4e5c2d245e62cf220d21e151b5076fb7f5e5280a6f55944848675b0fa3c2",
-      "fetchedAt": "2026-10-17T06:10:14.358Z"
+      "fetchedAt": "2026-10-17T16:21:51.769Z"
     },
     {
       "name": "dsh-fs-encoding",
       "url": "https://registry.npmjs.org/dsh-fs-encoding",
-      "sha256": "9a5d17d7ef67af447d77b6ebafb07aa465cf0b51483f994a516c6ce26e5d32d4",
-      "fetchedAt": "2026-10-17T06:10:14.397Z"
+      "sha256": "ad3c98c3522a8d363d6f592d93acacf1489fcfd365e9848c81342c6096ebf043",
+      "fetchedAt": "2026-10-17T16:21:51.818Z"
     },
     {
       "name": "dsh-overleaf",
       "url": "https://registry.npmjs.org/dsh-overleaf",
       "sha256": "c33b475f9c9745813cb78dc1b180df51a6973abab2433659d81f80463e43fec7",
-      "fetchedAt": "2026-10-17T06:10:14.404Z"
+      "fetchedAt": "2026-10-17T16:21:51.822Z"
     },
     {
-      "name": "@dsh-std/adapter-dsh",
-      "url": "https://registry.npmjs.org/%40dsh-std%2Fadapter-dsh",
-      "sha256": "ca3c9f77e926f4ec3514baf15ca5ed154fd9f078e55f501811fcf85684e9c47f",
-      "fetchedAt": "2026-10-17T06:10:14.428Z"
+      "name": "deep-read-summarize",
+      "url": "https://registry.npmjs.org/deep-read-summarize",
+      "sha256": "fc7a9df8ab379beeb3ced793e7c652034f659a3206204f633532179eb78d1c25",
+      "fetchedAt": "2026-10-17T16:21:51.842Z"
+    },
+    {
+      "name": "@wxkingstar/specfusion-dsh",
+      "url": "https://registry.npmjs.org/%40wxkingstar%2Fspecfusion-dsh",
+      "sha256": "2fd14026ee7389cd33e774b83ccbfd866b043ec958c780635883b7ed548b099f",
+      "fetchedAt": "2026-10-17T16:21:51.853Z"
     },
     {
       "name": "dsh-taskboard",
       "url": "https://registry.npmjs.org/dsh-taskboard",
       "sha256": "ba39dbb49d8bd1d218f88d56b11ea16707b2f9d1017964116739fabc7d02d896",
-      "fetchedAt": "2026-10-17T06:10:14.430Z"
+      "fetchedAt": "2026-10-17T16:21:51.854Z"
+    },
+    {
+      "name": "dsh-balance-float",
+      "url": "https://registry.npmjs.org/dsh-balance-float",
+      "sha256": "f85b4e5c2d245e62cf220d21e151b5076fb7f5e5280a6f55944848675b0fa3c2",
+      "fetchedAt": "2026-10-17T16:21:51.864Z"
     },
     {
       "name": "dsh-plugin-balance",
       "url": "https://registry.npmjs.org/dsh-plugin-balance",
       "sha256": "61e9e208a8014eb4e001474ebde5482a188223a1e185eb45254613cc7a0b0d2f",
-      "fetchedAt": "2026-10-17T06:10:14.448Z"
+      "fetchedAt": "2026-10-17T16:21:51.874Z"
     },
     {
       "name": "beauticode-dsh",
       "url": "https://registry.npmjs.org/beauticode-dsh",
       "sha256": "ab637267a82656956898fca5b447bb2fd8d9618f34a0614d94411cc7da2dfcbd",
-      "fetchedAt": "2026-10-17T06:10:14.483Z"
+      "fetchedAt": "2026-10-17T16:21:51.876Z"
+    },
+    {
+      "name": "@dsh-std/adapter-dsh",
+      "url": "https://registry.npmjs.org/%40dsh-std%2Fadapter-dsh",
+      "sha256": "ca3c9f77e926f4ec3514baf15ca5ed154fd9f078e55f501811fcf85684e9c47f",
+      "fetchedAt": "2026-10-17T16:21:51.887Z"
     },
     {
       "name": "dsh-kimicode-swarm",
       "url": "https://registry.npmjs.org/dsh-kimicode-swarm",
       "sha256": "0dccdf36cf88ec37f40981011b7426cf68fdf62d7609066f5c66486c440a1d4a",
-      "fetchedAt": "2026-10-17T06:10:14.490Z"
-    },
-    {
-      "name": "@opencues/dsh",
-      "url": "https://registry.npmjs.org/%40opencues%2Fdsh",
-      "sha256": "f168ad631abf7aaad1c77c2b47c3e893fc88895a6a3d1f3842c187d05bfe738b",
-      "fetchedAt": "2026-10-17T06:10:14.513Z"
-    },
-    {
-      "name": "dsh-agentdebugx",
-      "url": "https://registry.npmjs.org/dsh-agentdebugx",
-      "sha256": "06899ba62126c60d242f065c75aa28fbf58545790ac1d32a8897e2a2f8d5dde7",
-      "fetchedAt": "2026-10-17T06:10:14.521Z"
-    },
-    {
-      "name": "dsh-mcp-lens",
-      "url": "https://registry.npmjs.org/dsh-mcp-lens",
-      "sha256": "164d10d237771664d15866ac67df4178072649b717fc10439afd9902e7333598",
-      "fetchedAt": "2026-10-17T06:10:14.530Z"
-    },
-    {
-      "name": "dsh-chat-timeline",
-      "url": "https://registry.npmjs.org/dsh-chat-timeline",
-      "sha256": "f35d096f5699630054015ae8343bdd73fbedfbb843714e60bbdc65e621af1b69",
-      "fetchedAt": "2026-10-17T06:10:14.601Z"
-    },
-    {
-      "name": "@wsz987/dsh-channels",
-      "url": "https://registry.npmjs.org/%40wsz987%2Fdsh-channels",
-      "sha256": "ef4660e2f151dc72e3126c3b083c483ac501cf7cdc292ec46c39c083f72897ec",
-      "fetchedAt": "2026-10-17T06:10:14.637Z"
-    },
-    {
-      "name": "@wnjxyk/dsh-codex-oauth",
-      "url": "https://registry.npmjs.org/%40wnjxyk%2Fdsh-codex-oauth",
-      "sha256": "4172201952eb2e13152fa8bf999b6beca156bf5ac85ed66bc69f5096b82645fe",
-      "fetchedAt": "2026-10-17T06:10:14.728Z"
-    },
-    {
-      "name": "dsh-archived-chats",
-      "url": "https://registry.npmjs.org/dsh-archived-chats",
-      "sha256": "0af960a02d11d11d87d5f508193a405011fa7d24a98ed6226577713f150bf55c",
-      "fetchedAt": "2026-10-17T06:10:14.750Z"
-    },
-    {
-      "name": "dsh-factory",
-      "url": "https://registry.npmjs.org/dsh-factory",
-      "sha256": "44ee4132f4939e8667d73ecbb5743b14e36550977adb4597246e5c938a9b551a",
-      "fetchedAt": "2026-10-17T06:10:14.752Z"
+      "fetchedAt": "2026-10-17T16:21:51.888Z"
     },
     {
       "name": "@yangdcm/dsh-expert-team",
       "url": "https://registry.npmjs.org/%40yangdcm%2Fdsh-expert-team",
       "sha256": "eab193c0f7c4201e40709d333737a202f69901bc7c92e7e7b3d81b2d4c1ad8ba",
-      "fetchedAt": "2026-10-17T06:10:14.759Z"
+      "fetchedAt": "2026-10-17T16:21:51.926Z"
     },
     {
-      "name": "@axiaohungry/dsh-llm-workbuddy",
-      "url": "https://registry.npmjs.org/%40axiaohungry%2Fdsh-llm-workbuddy",
-      "sha256": "ccdfcb8729f7e2850068cbd19b265b8cee3643d7d83dd4433023cbad91d8d7b1",
-      "fetchedAt": "2026-10-17T06:10:14.773Z"
+      "name": "dsh-mcp-lens",
+      "url": "https://registry.npmjs.org/dsh-mcp-lens",
+      "sha256": "164d10d237771664d15866ac67df4178072649b717fc10439afd9902e7333598",
+      "fetchedAt": "2026-10-17T16:21:51.930Z"
     },
     {
-      "name": "@stifer/dsh-harvest",
-      "url": "https://registry.npmjs.org/%40stifer%2Fdsh-harvest",
-      "sha256": "c567360307032ac620a3f5428f812fee956343cbefd904809b21ec41b86e8ce4",
-      "fetchedAt": "2026-10-17T06:10:14.792Z"
+      "name": "dsh-agentdebugx",
+      "url": "https://registry.npmjs.org/dsh-agentdebugx",
+      "sha256": "06899ba62126c60d242f065c75aa28fbf58545790ac1d32a8897e2a2f8d5dde7",
+      "fetchedAt": "2026-10-17T16:21:51.930Z"
     },
     {
-      "name": "dsh-smooth-stream",
-      "url": "https://registry.npmjs.org/dsh-smooth-stream",
-      "sha256": "e0c9ed287f866930fec4ad3f536114d8a12f65d6c1afe11086f6b39f9f08aa92",
-      "fetchedAt": "2026-10-17T06:10:14.814Z"
+      "name": "@opencues/dsh",
+      "url": "https://registry.npmjs.org/%40opencues%2Fdsh",
+      "sha256": "f168ad631abf7aaad1c77c2b47c3e893fc88895a6a3d1f3842c187d05bfe738b",
+      "fetchedAt": "2026-10-17T16:21:52.039Z"
+    },
+    {
+      "name": "dsh-chat-timeline",
+      "url": "https://registry.npmjs.org/dsh-chat-timeline",
+      "sha256": "f35d096f5699630054015ae8343bdd73fbedfbb843714e60bbdc65e621af1b69",
+      "fetchedAt": "2026-10-17T16:21:52.065Z"
+    },
+    {
+      "name": "@wsz987/dsh-channels",
+      "url": "https://registry.npmjs.org/%40wsz987%2Fdsh-channels",
+      "sha256": "ef4660e2f151dc72e3126c3b083c483ac501cf7cdc292ec46c39c083f72897ec",
+      "fetchedAt": "2026-10-17T16:21:52.071Z"
+    },
+    {
+      "name": "dsh-factory",
+      "url": "https://registry.npmjs.org/dsh-factory",
+      "sha256": "44ee4132f4939e8667d73ecbb5743b14e36550977adb4597246e5c938a9b551a",
+      "fetchedAt": "2026-10-17T16:21:52.101Z"
+    },
+    {
+      "name": "dsh-archived-chats",
+      "url": "https://registry.npmjs.org/dsh-archived-chats",
+      "sha256": "0af960a02d11d11d87d5f508193a405011fa7d24a98ed6226577713f150bf55c",
+      "fetchedAt": "2026-10-17T16:21:52.144Z"
     },
     {
       "name": "dsh-agy-safe",
       "url": "https://registry.npmjs.org/dsh-agy-safe",
       "sha256": "5cc07aac6498492d6c9855f1976dc32181efb194059751b591b847e8dc930a6b",
-      "fetchedAt": "2026-10-17T06:10:14.838Z"
+      "fetchedAt": "2026-10-17T16:21:52.162Z"
     },
     {
-      "name": "dsh-lark-channel",
-      "url": "https://registry.npmjs.org/dsh-lark-channel",
-      "sha256": "0b9027bfa8d4cddfccdaa00789f542a6ab1ab0433281824f102ff1f9923794fb",
-      "fetchedAt": "2026-10-17T06:10:14.859Z"
+      "name": "@axiaohungry/dsh-llm-workbuddy",
+      "url": "https://registry.npmjs.org/%40axiaohungry%2Fdsh-llm-workbuddy",
+      "sha256": "ccdfcb8729f7e2850068cbd19b265b8cee3643d7d83dd4433023cbad91d8d7b1",
+      "fetchedAt": "2026-10-17T16:21:52.168Z"
     },
     {
       "name": "dsh-self-improved",
       "url": "https://registry.npmjs.org/dsh-self-improved",
       "sha256": "094c1226b4d4c8a8f7e4a7e0ace94cbd617fb99004a6a4eb4b4cdc5fece4d3d6",
-      "fetchedAt": "2026-10-17T06:10:14.883Z"
+      "fetchedAt": "2026-10-17T16:21:52.170Z"
+    },
+    {
+      "name": "@wnjxyk/dsh-codex-oauth",
+      "url": "https://registry.npmjs.org/%40wnjxyk%2Fdsh-codex-oauth",
+      "sha256": "4172201952eb2e13152fa8bf999b6beca156bf5ac85ed66bc69f5096b82645fe",
+      "fetchedAt": "2026-10-17T16:21:52.175Z"
+    },
+    {
+      "name": "dsh-smooth-stream",
+      "url": "https://registry.npmjs.org/dsh-smooth-stream",
+      "sha256": "e0c9ed287f866930fec4ad3f536114d8a12f65d6c1afe11086f6b39f9f08aa92",
+      "fetchedAt": "2026-10-17T16:21:52.188Z"
+    },
+    {
+      "name": "dsh-fast",
+      "url": "https://registry.npmjs.org/dsh-fast",
+      "sha256": "d0c135b8217deefe0533601587e33857c7421658c89d50cd028037bef4becb35",
+      "fetchedAt": "2026-10-17T16:21:52.191Z"
     },
     {
       "name": "dsh-doublecheck",
       "url": "https://registry.npmjs.org/dsh-doublecheck",
       "sha256": "ee5a9a6afcd0b6a2ae90f17815211e81e4b49f7ecf43dd96cf52f58ccdbecadf",
-      "fetchedAt": "2026-10-17T06:10:14.891Z"
+      "fetchedAt": "2026-10-17T16:21:52.201Z"
     },
     {
-      "name": "weshop-dsh-plugin",
-      "url": "https://registry.npmjs.org/weshop-dsh-plugin",
-      "sha256": "9f13bdfc67dd5d5d1c282cba2e81588e1b445834dd45b801472bf673be66a16b",
-      "fetchedAt": "2026-10-17T06:10:14.898Z"
+      "name": "dsh-bash-native",
+      "url": "https://registry.npmjs.org/dsh-bash-native",
+      "sha256": "89469cd2e0264a6828ca2490ce9966fa6b21e5cbe7eaf6d509b5ef37d9bcbf1b",
+      "fetchedAt": "2026-10-17T16:21:52.211Z"
     },
     {
-      "name": "dsh-oomol",
-      "url": "https://registry.npmjs.org/dsh-oomol",
-      "sha256": "5f50c5dde43e4c762c6bac15e0bf8c6f6ff73921bbf66e911e7dd51fcc8b282e",
-      "fetchedAt": "2026-10-17T06:10:14.932Z"
+      "name": "@kenz1117/dsh-ui-usage-billing",
+      "url": "https://registry.npmjs.org/%40kenz1117%2Fdsh-ui-usage-billing",
+      "sha256": "99a34290ff654b3b22db5bddfbccde26399cabdf1e649fff0b9cb610f3035b06",
+      "fetchedAt": "2026-10-17T16:21:52.220Z"
+    },
+    {
+      "name": "@stifer/dsh-harvest",
+      "url": "https://registry.npmjs.org/%40stifer%2Fdsh-harvest",
+      "sha256": "c567360307032ac620a3f5428f812fee956343cbefd904809b21ec41b86e8ce4",
+      "fetchedAt": "2026-10-17T16:21:52.224Z"
+    },
+    {
+      "name": "dsh-lark-channel",
+      "url": "https://registry.npmjs.org/dsh-lark-channel",
+      "sha256": "0b9027bfa8d4cddfccdaa00789f542a6ab1ab0433281824f102ff1f9923794fb",
+      "fetchedAt": "2026-10-17T16:21:52.272Z"
     },
     {
       "name": "task-passport",
       "url": "https://registry.npmjs.org/task-passport",
       "sha256": "47b41d9548ffdcd0a856999f532f9a18f3f16d7a1f1adf02db525ccf658637cd",
-      "fetchedAt": "2026-10-17T06:10:14.944Z"
+      "fetchedAt": "2026-10-17T16:21:52.276Z"
+    },
+    {
+      "name": "dsh-oomol",
+      "url": "https://registry.npmjs.org/dsh-oomol",
+      "sha256": "5f50c5dde43e4c762c6bac15e0bf8c6f6ff73921bbf66e911e7dd51fcc8b282e",
+      "fetchedAt": "2026-10-17T16:21:52.279Z"
+    },
+    {
+      "name": "weshop-dsh-plugin",
+      "url": "https://registry.npmjs.org/weshop-dsh-plugin",
+      "sha256": "9f13bdfc67dd5d5d1c282cba2e81588e1b445834dd45b801472bf673be66a16b",
+      "fetchedAt": "2026-10-17T16:21:52.490Z"
     },
     {
       "name": "bruce-md2word",
       "url": "https://registry.npmjs.org/bruce-md2word",
       "sha256": "06ccc6be1a77403569eb148e69fe5b15663f58fa3b3b3e7e044821817e484290",
-      "fetchedAt": "2026-10-17T06:10:15.001Z"
+      "fetchedAt": "2026-10-17T16:21:52.491Z"
     }
   ],
   "gitEvidence": [
@@ -5653,12 +5658,12 @@
     },
     {
       "path": "",
-      "commit": "2b1f80a0562edfcdd69c3af972eb5a74c0a8cdc7",
+      "commit": "2483177eb3899a04a1a85ad89c0f3e0c4d5fe8f6",
       "name": "dsh-xiaomi-tts",
       "version": "3.0.9",
       "url": "https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts",
-      "manifestSha256": "eb1b5f03b19bedbee2852be081a986853150464cd3e06e18ee2724e3f071c1e3",
-      "publishTimestamp": 1792145331
+      "manifestSha256": "e04a338ca1e7e2c04e0f9d58b6b5f0d30aafc86dd34800a70671273f3ccd7746",
+      "publishTimestamp": 1792221776
     },
     {
       "path": "",
@@ -5668,6 +5673,15 @@
       "url": "https://github.com/Totoro-qaq/dsh-plugin-bridge",
       "manifestSha256": "36ba7e61a0e6da7e25fdb44837532280a43b5bf91111bb23e2f7ca3b907df4e0",
       "publishTimestamp": 1790154241
+    },
+    {
+      "path": "",
+      "commit": "629dfff09b2808255b0e407913f86b5b3cdcd30a",
+      "name": "@wenaixi/dsh-superpower",
+      "version": "8.0.0",
+      "url": "https://github.com/Wenaixi/dsh-superpower",
+      "manifestSha256": "d63d4314c3d3796e729f85d716e9327ae6c2d00c79122709f14df81b1c490d78",
+      "publishTimestamp": 1792251895
     },
     {
       "path": "",
@@ -5698,12 +5712,21 @@
     },
     {
       "path": "",
-      "commit": "e4af09c566cb3434e274ab8e988a66ce456375ec",
+      "commit": "01b93d13acc392b66a5bed38cd8fced5323d1510",
+      "name": "dsh-visual-workflow",
+      "version": "0.10.2",
+      "url": "https://github.com/GZX2211/dsh-Visual-Workflow",
+      "manifestSha256": "00f22992713b4724047d284e3478dfc5fa5d92d97b3bccbe499c3e28d171a8c6",
+      "publishTimestamp": 1792246275
+    },
+    {
+      "path": "",
+      "commit": "4738217d156c46f088d424dedc83a66e7308f64a",
       "name": "dsh-workbuddy-connect",
-      "version": "0.6.9",
+      "version": "0.6.10",
       "url": "https://github.com/masknull/dsh-workbuddy-connect",
-      "manifestSha256": "d22285d8f2dea85796c9e363ec788740df9aaa5c93592f35c8eac89a8dec2d3e",
-      "publishTimestamp": 1791890929
+      "manifestSha256": "cdaa2f00f9d95382fbdffbf195ac256b74abd6ce24a1d26a8c84b4dc120bc548",
+      "publishTimestamp": 1792242551
     },
     {
       "path": "",
@@ -5725,12 +5748,21 @@
     },
     {
       "path": "",
-      "commit": "839b94d2dbca60572c26acb11a0b47c734985f9f",
+      "commit": "afe629e6a4e005bb61fc9fda8743846f5411971c",
+      "name": "dsh-vibe-math",
+      "version": "2.8.5",
+      "url": "https://github.com/ChongCyrus/Vibe-Mathematics",
+      "manifestSha256": "91a37950dd55db06d8fc51ef26812a7dfb2d0157a1a6f7fb2da85f3b5c3a6201",
+      "publishTimestamp": 1792235158
+    },
+    {
+      "path": "",
+      "commit": "2def4d01509784c7ebc4fe9b5d860f12a398a64f",
       "name": "dsh-xdpool",
-      "version": "2.2.1",
+      "version": "2.3.0",
       "url": "https://github.com/XDTrees/dsh-xdpool",
-      "manifestSha256": "406ac6fa111b3707e251b1e966536b64a11a445085603ba5f470d65e6e393bb6",
-      "publishTimestamp": 1792124186
+      "manifestSha256": "99c3cbe87138a25a61280f09b0b9a93fde5dd2cf1db8c6a333f595bc77a2f753",
+      "publishTimestamp": 1792247551
     },
     {
       "path": "",
@@ -5743,12 +5775,12 @@
     },
     {
       "path": "",
-      "commit": "e5903e3c6e4e85e249923b136d070f144eeeea90",
+      "commit": "e60da7dc7b95373845a2c40911522e78e8fe5994",
       "name": "dsh-qoder-connect",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "url": "https://github.com/masknull/dsh-qoder-connect",
-      "manifestSha256": "09e31858989840161accc3748c0162edae501b6c0d05591e71a41c6fcb398cdb",
-      "publishTimestamp": 1792153862
+      "manifestSha256": "c2f78da34238179c9063c4a3a266a11d3463e3f88fd9e021df2c3167fba10bcf",
+      "publishTimestamp": 1792237256
     },
     {
       "path": "",
@@ -5806,6 +5838,15 @@
     },
     {
       "path": "",
+      "commit": "e6e551e1867e4e6554af8e529c272631bd925d4a",
+      "name": "dsh-memes-reply",
+      "version": "0.1.4",
+      "url": "https://github.com/liceses/dsh-memes-reply",
+      "manifestSha256": "81b714e64f9919daff7a3919281a3279810b3ee87d9423e7db5c6f4323862901",
+      "publishTimestamp": 1791378991
+    },
+    {
+      "path": "",
       "commit": "d23c93fe873d9712f8ed625e4032ce62a7c9c04b",
       "name": "dsh-library",
       "version": "0.2.20",
@@ -5839,6 +5880,15 @@
       "url": "https://github.com/PerryLink/dsh-mcp-panel",
       "manifestSha256": "663e86dc79e4b614bc9b4cbff2ac749f49a251916eb9b8e7b53778ec579abedf",
       "publishTimestamp": 1791813001
+    },
+    {
+      "path": "",
+      "commit": "ec1a867b88358e2984249cc858690eea8501a1ce",
+      "name": "dsh-git-graph",
+      "version": "0.14.0",
+      "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph",
+      "manifestSha256": "13b2723ceff3bf03817a654de547d6458b25f0a5bf95afdffa105e94d32eafcd",
+      "publishTimestamp": 1790650317
     },
     {
       "path": "",
@@ -5882,6 +5932,12 @@
       "integrity": "sha512-kDgiLcq2ZzVQOTGw08M1e4k3ALOSch88nTV7w4wWNYYGtZDAbl7nm+FLjPpQ5YlKOS7hGeFw6o9xJIKY6sFWsg=="
     },
     {
+      "name": "dsh-bili-scroll",
+      "version": "0.1.7",
+      "tarball": "https://registry.npmjs.org/dsh-bili-scroll/-/dsh-bili-scroll-0.1.7.tgz",
+      "integrity": "sha512-yeDAnMpfYwlQZwPu8ltch7wZEZM2Ytara+LFlIUXP+JNlAvNDRHKfIpszywoJ0719aKY4oWj3II6gh7aSd1ViQ=="
+    },
+    {
       "name": "dsh-pentester",
       "version": "6.5.0",
       "tarball": "https://registry.npmjs.org/dsh-pentester/-/dsh-pentester-6.5.0.tgz",
@@ -5900,16 +5956,34 @@
       "integrity": "sha512-IqG7nEhdOrnfakCqmZe8OnIWri3jxX/lTS4+GbGgW1iogizbU3sCh98Sc0Z9RgNv5jM0aechgaIWP+yUu8mzeQ=="
     },
     {
+      "name": "martty",
+      "version": "0.3.3",
+      "tarball": "https://registry.npmjs.org/martty/-/martty-0.3.3.tgz",
+      "integrity": "sha512-yTEfqj4os2j0MD0RYrMiEPwqaJegUbly0RMit5yQD0KumvATlTfp4dBsrdjA696otk36ZTsb62PKWR0Ii2Au7Q=="
+    },
+    {
       "name": "dsh-im-companion",
-      "version": "0.2.11",
-      "tarball": "https://registry.npmjs.org/dsh-im-companion/-/dsh-im-companion-0.2.11.tgz",
-      "integrity": "sha512-wTXQKgcYEeidaHN+UhLW87+7Z+WDFwyrdE+0vpw/O9thgBAsIL9Wyhu7K05l9ztJhsRcJwdT5ao9YLtNcSJuEQ=="
+      "version": "0.2.13",
+      "tarball": "https://registry.npmjs.org/dsh-im-companion/-/dsh-im-companion-0.2.13.tgz",
+      "integrity": "sha512-mPEwwPhGfI45qwDOZbFCzRYxRai81KfXhYC4JY+H2elh40Z/PS8lMoz+N7JPfkLvcas/AAQ4rkK/RNHnAfU3uA=="
     },
     {
       "name": "dsh-plugin-bridge",
       "version": "0.4.7",
       "tarball": "https://registry.npmjs.org/dsh-plugin-bridge/-/dsh-plugin-bridge-0.4.7.tgz",
       "integrity": "sha512-adB5EBP3t+2rZsh++SpJzyhutYI0aoxK683+gvPs39sWt/TNSkxk9wROhU10udHUffn7lJ2IENh9g1SrNoiD7w=="
+    },
+    {
+      "name": "@changfenhuang/dsh-genui",
+      "version": "0.13.0",
+      "tarball": "https://registry.npmjs.org/@changfenhuang/dsh-genui/-/dsh-genui-0.13.0.tgz",
+      "integrity": "sha512-UyBAmOBpGlpGF45nDu0kMEq3gnKc94UDuRDChbuKS+YIXRKnMPRt3YpwBIdDStzHSAfbC+m+LPME+e3HC/O1BA=="
+    },
+    {
+      "name": "dsh-mnemon",
+      "version": "0.5.31",
+      "tarball": "https://registry.npmjs.org/dsh-mnemon/-/dsh-mnemon-0.5.31.tgz",
+      "integrity": "sha512-k37owzI6lOP9NUWBsV/uA34fX5FunQ6zt7WGIcl3gcoZx2ivF6RqsTFNZ9WzXHSFXfipPZypNPknqHmlth8RYQ=="
     },
     {
       "name": "dsh-undo-savepoint",
@@ -5919,9 +5993,27 @@
     },
     {
       "name": "dsh-gitbash-shell",
-      "version": "0.40.1",
-      "tarball": "https://registry.npmjs.org/dsh-gitbash-shell/-/dsh-gitbash-shell-0.40.1.tgz",
-      "integrity": "sha512-WEStsJusZ/ojibxN68gYToQvwIn1kXUCmm7pMyRnvpwaVHpX0l2lIOVmLxb+CS20NGGtxRmBiBXXn/c3mYb/Xg=="
+      "version": "0.40.4",
+      "tarball": "https://registry.npmjs.org/dsh-gitbash-shell/-/dsh-gitbash-shell-0.40.4.tgz",
+      "integrity": "sha512-0L6S5b556sLXcGvY6lGBGXGONtCy4E14xwmLAdN5mJd1hHyeyqZX11nv6azF3RfXyhksMsohL5Ha5FBCI48fEg=="
+    },
+    {
+      "name": "dsh-graph",
+      "version": "0.21.0",
+      "tarball": "https://registry.npmjs.org/dsh-graph/-/dsh-graph-0.21.0.tgz",
+      "integrity": "sha512-dwiGek+JEz8mIb/ejvPMmA3can8QW2iZ+Mn4xb8xUTQthmNEtJ1E7uO2LW/0bGqHrRTCyKwF+N4j9YqoWij2YQ=="
+    },
+    {
+      "name": "dsh-herta",
+      "version": "0.1.11",
+      "tarball": "https://registry.npmjs.org/dsh-herta/-/dsh-herta-0.1.11.tgz",
+      "integrity": "sha512-Q38ZGj3SGGaszHZxxLeAH8HlXYN6K4g7IA+I7lUXd+aN337TbJbGvOtDCffuY6j423vZSz5fifIbuz8gzf/OEA=="
+    },
+    {
+      "name": "dsh-cost-meter",
+      "version": "1.8.36",
+      "tarball": "https://registry.npmjs.org/dsh-cost-meter/-/dsh-cost-meter-1.8.36.tgz",
+      "integrity": "sha512-5i3zJ4wJMpkCxHpayISKyYUloE+/f2PVDKc4s8B7Lpaf99ji4A4af9SZvKe6CXiqDb4aM5kb691U903beDRoSQ=="
     },
     {
       "name": "dsh-checkpoint-rewind",
@@ -5936,6 +6028,12 @@
       "integrity": "sha512-Kui9EU3dnfAEvNh1kbgfq+4eIn+0ODgqFlNEOsy6dvtCgADRKM07m08TlpRKfJOkDvEk7XshroA/ETRwA+7HJg=="
     },
     {
+      "name": "dsh-rewind-plugin",
+      "version": "0.16.0",
+      "tarball": "https://registry.npmjs.org/dsh-rewind-plugin/-/dsh-rewind-plugin-0.16.0.tgz",
+      "integrity": "sha512-6xCGmJ+qDC2rfeLxRpDrUCPyPlycyIo2JBnn3MK05wehOy4GkwATBRAe0JIJnndW6b9QILAH+qiXWSBsunxapQ=="
+    },
+    {
       "name": "@mars-sea/dsh-commandcode-provider",
       "version": "0.13.4",
       "tarball": "https://registry.npmjs.org/@mars-sea/dsh-commandcode-provider/-/dsh-commandcode-provider-0.13.4.tgz",
@@ -5943,9 +6041,33 @@
     },
     {
       "name": "dsh-plugin-teamflow",
-      "version": "0.2.9",
-      "tarball": "https://registry.npmjs.org/dsh-plugin-teamflow/-/dsh-plugin-teamflow-0.2.9.tgz",
-      "integrity": "sha512-QQgcZ3XvXaeif5tgYpprVXnyEqY9Y46aemNf46GTyUYUSwsnWkNhp01FOSC8Q5whDiQavGt70mFmV5shJZIQow=="
+      "version": "0.3.0",
+      "tarball": "https://registry.npmjs.org/dsh-plugin-teamflow/-/dsh-plugin-teamflow-0.3.0.tgz",
+      "integrity": "sha512-C7SLrB1epL3CWsWof9hQzz8vWvWbn7ercAVuYEUvLOSIAUL/xEXCwMwbZu6MEZhLj1hpn6k0+T/UlntLJYC3dA=="
+    },
+    {
+      "name": "dsh-zotero",
+      "version": "0.12.1",
+      "tarball": "https://registry.npmjs.org/dsh-zotero/-/dsh-zotero-0.12.1.tgz",
+      "integrity": "sha512-RmUK8LWXUNHUG2i1zbLmCUNKf4F1Wee2fv7fgIJm1p+ak8h3BJA6A0+5xdTnmAIGtg9jOlGVFJKmWrkG4PUSvg=="
+    },
+    {
+      "name": "dsh-game-material-master",
+      "version": "0.8.0",
+      "tarball": "https://registry.npmjs.org/dsh-game-material-master/-/dsh-game-material-master-0.8.0.tgz",
+      "integrity": "sha512-j0LFUxtrh0G33jW+yca0dqD6Mwrzv1WzYs2+BXINFT30K0wOkEOVB2+44+KYGLADrthfGFAUmrsgbC/LUrPEpA=="
+    },
+    {
+      "name": "dsh-builtin-browser",
+      "version": "0.4.13",
+      "tarball": "https://registry.npmjs.org/dsh-builtin-browser/-/dsh-builtin-browser-0.4.13.tgz",
+      "integrity": "sha512-G2FdCfcmjNsDaOBO2azw0zCFrfSBpaTKqVoAUPO0fTuVYTA7hKeUtsli0z2uCuGKvfrwSGPvUN/Ws7m0GkndnA=="
+    },
+    {
+      "name": "dsh-plugin-subagent-director",
+      "version": "0.6.0-beta.1",
+      "tarball": "https://registry.npmjs.org/dsh-plugin-subagent-director/-/dsh-plugin-subagent-director-0.6.0-beta.1.tgz",
+      "integrity": "sha512-ckpzC8mZo6y6YJTQjov6QWfOFq3RgFntt7UfLxkx3+rYVNruyUpLnsAhvHFHF3JiA97dddxIWfxrlkBNwCsZJA=="
     },
     {
       "name": "dsh-lsp-actions",
@@ -5961,9 +6083,15 @@
     },
     {
       "name": "dsh-xdpool",
-      "version": "2.2.1",
-      "tarball": "https://registry.npmjs.org/dsh-xdpool/-/dsh-xdpool-2.2.1.tgz",
-      "integrity": "sha512-J0ivPEioHkBePgIyOJ17cxj/rNl3HbzZ+BX49PjvBRjec/3h705bDdYlmuDEgyuqQcq1THMMhAVGBq7guLFtQA=="
+      "version": "2.3.0",
+      "tarball": "https://registry.npmjs.org/dsh-xdpool/-/dsh-xdpool-2.3.0.tgz",
+      "integrity": "sha512-YW8B8WxjEjXqeSur7lXc7GeLbAkNCJwrcSq8wpILFuGLAVxkowm4dDIxPzzYfQ0ZExlzZpOVmpg5dvmImSL5fA=="
+    },
+    {
+      "name": "jevcore-dsh",
+      "version": "0.4.1",
+      "tarball": "https://registry.npmjs.org/jevcore-dsh/-/jevcore-dsh-0.4.1.tgz",
+      "integrity": "sha512-Hmew30SHpnxYBzqC6GspLN8y743OOP9j3C7CWM5tc2dtFzvzeWqcwskDZ+iPw6J09z5epxDG0P5U0LBa+XHaYg=="
     },
     {
       "name": "@xiaoyuyu6420/dsh-backup",
@@ -5973,9 +6101,9 @@
     },
     {
       "name": "dsh-qoder-connect",
-      "version": "0.2.5",
-      "tarball": "https://registry.npmjs.org/dsh-qoder-connect/-/dsh-qoder-connect-0.2.5.tgz",
-      "integrity": "sha512-DNbP2gFryOxp6/Q+aZU8Jm4PKT0k3OJdEh8CS2oBRS8w8WRw3EJNtrk+VZrBfZh4bTmOz9Sez/jJ7hYms2F3LQ=="
+      "version": "0.2.6",
+      "tarball": "https://registry.npmjs.org/dsh-qoder-connect/-/dsh-qoder-connect-0.2.6.tgz",
+      "integrity": "sha512-KIYLF01I8MNkWlG2IfBbo/tBfIew9Yv6LgMOj5fK6JxxupFwHzb4izf3duv8zHLHVADAertPYwjT6hZ8m93S5w=="
     },
     {
       "name": "dsh-md-notes",
@@ -5994,12 +6122,6 @@
       "version": "0.2.21",
       "tarball": "https://registry.npmjs.org/dsh-translate/-/dsh-translate-0.2.21.tgz",
       "integrity": "sha512-oW4QZ3Yh8I5aYBd1Vl7QXoEcJCpHIxjMRN7vIvDnwPOUgPpgy6my1R5ejH7YYRzJ1sSVJtzGNePG8Fww94JS/w=="
-    },
-    {
-      "name": "dsh-zotero",
-      "version": "0.12.1",
-      "tarball": "https://registry.npmjs.org/dsh-zotero/-/dsh-zotero-0.12.1.tgz",
-      "integrity": "sha512-RmUK8LWXUNHUG2i1zbLmCUNKf4F1Wee2fv7fgIJm1p+ak8h3BJA6A0+5xdTnmAIGtg9jOlGVFJKmWrkG4PUSvg=="
     },
     {
       "name": "dsh-mattpocock-skills-deck",
@@ -6021,9 +6143,9 @@
     },
     {
       "name": "memory-eternal",
-      "version": "0.10.36",
-      "tarball": "https://registry.npmjs.org/memory-eternal/-/memory-eternal-0.10.36.tgz",
-      "integrity": "sha512-Wq1MaV8dVCeWNIuVdAihfVTxn1Z8hGXRfzSOvnpAdhpM8XODT/c0tiBbvzx17N8lbpDG/sA5u3xU8ceQ8Af1pA=="
+      "version": "0.10.38",
+      "tarball": "https://registry.npmjs.org/memory-eternal/-/memory-eternal-0.10.38.tgz",
+      "integrity": "sha512-ZkP96OE84yHZTfyxzSFoboyPq0m1Om/9EZrmV6+H9chdDPiIDX8VfqIcFjUa4QYGIqd8jpL80SAbqKGybJjIDA=="
     },
     {
       "name": "dsh-memento",
@@ -6050,16 +6172,40 @@
       "integrity": "sha512-a18zfPw0pthn+8Oioyxznm/2a3FOeRgW1MWxIna6tu9uxtUMXgcPFwt+0g8XrTGR8BHbHykKkc0FXRGuhS0HhA=="
     },
     {
+      "name": "deep-read-summarize",
+      "version": "0.3.14",
+      "tarball": "https://registry.npmjs.org/deep-read-summarize/-/deep-read-summarize-0.3.14.tgz",
+      "integrity": "sha512-lkeOTPGJ/XPhgzFxdtlJ65OVVwCzPut/gErsvIVHhzbMEEiH7mFAtLPixulxv/F/koBmkNZoDoexZs315JNPhg=="
+    },
+    {
       "name": "@yangdcm/dsh-expert-team",
       "version": "1.5.3",
       "tarball": "https://registry.npmjs.org/@yangdcm/dsh-expert-team/-/dsh-expert-team-1.5.3.tgz",
       "integrity": "sha512-uWloBKFcX7ktYyZr8glLvnx8I1xWGYRd5Uj3ANMYB1Bz4jnq1P8SRGYw91V63DC1JPKj2b+d/pHIzuwasCuN6A=="
     },
     {
+      "name": "@kenz1117/dsh-ui-usage-billing",
+      "version": "1.5.0",
+      "tarball": "https://registry.npmjs.org/@kenz1117/dsh-ui-usage-billing/-/dsh-ui-usage-billing-1.5.0.tgz",
+      "integrity": "sha512-7R5fng3D3NsPuCON+jO3UQL3n6PkVRJa4l6A6C1rrKn777dyFDgPtSPMWb6akbg6MBcIMYPBTKs2CLVk9QTyuA=="
+    },
+    {
+      "name": "dsh-fast",
+      "version": "0.2.21",
+      "tarball": "https://registry.npmjs.org/dsh-fast/-/dsh-fast-0.2.21.tgz",
+      "integrity": "sha512-J1yA/HL6pfsQk3FhXIrq1mzCi9BOrnhC9xJ9+/KWRUYvxPMf8IEXZj+j1YKPz9/QLtgVWPgM9LbwpJQXY8/JmA=="
+    },
+    {
       "name": "dsh-doublecheck",
       "version": "0.9.24",
       "tarball": "https://registry.npmjs.org/dsh-doublecheck/-/dsh-doublecheck-0.9.24.tgz",
       "integrity": "sha512-N7amcZuyGX/0M7IQ1tdLAGbdClFvMvUjMHmX0FdTTvamShCi+JolcCsFxb8OAE7XBnT42j5rbsmFTIDWc3Bw5Q=="
+    },
+    {
+      "name": "dsh-bash-native",
+      "version": "0.2.0",
+      "tarball": "https://registry.npmjs.org/dsh-bash-native/-/dsh-bash-native-0.2.0.tgz",
+      "integrity": "sha512-7puBvcooQJAI3j37ySiGhwn9pntmzyGj1NbTN279l+LAon3MqIYF3SZxWv8UQe3JWctcD4DRTSwu7DQp28usOg=="
     }
   ]
 }

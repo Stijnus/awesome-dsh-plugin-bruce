@@ -195,6 +195,38 @@
       ]
     },
     {
+      "name": "dsh-bili-scroll",
+      "title": "dsh-bili-scroll",
+      "description": "DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你",
+      "homepage": "https://github.com/c1overzz/dsh-bili-scroll#readme",
+      "repository": {
+        "url": "https://github.com/c1overzz/dsh-bili-scroll"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "bilibili",
+          "mcp",
+          "duty"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.7",
+          "publishTimestamp": 1792251306,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-pentester",
       "title": "dsh-pentester",
       "description": "Minimal Root-Orchestrator PTES pentesting plugin for DeepSeek Harness",
@@ -299,6 +331,38 @@
       ]
     },
     {
+      "name": "martty",
+      "title": "martty",
+      "description": "Terminal-native ACP client UI; Cordis client tree, any ACP agent",
+      "homepage": "https://martty.sh",
+      "repository": {
+        "url": "https://github.com/openma-ai/Martty"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "harness",
+          "tui",
+          "agent",
+          "acp",
+          "agent-client-protocol"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.3",
+          "publishTimestamp": 1792249283,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.2"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-im-companion",
       "title": "dsh-im-companion",
       "description": "dsh-im-companion：以助理和家的概念增强 dsh-im——哪个工作区有助理在管、在不在线尽收眼底，搬家拖一下就行。",
@@ -320,8 +384,8 @@
       },
       "versions": [
         {
-          "version": "0.2.11",
-          "publishTimestamp": 1792133982,
+          "version": "0.2.13",
+          "publishTimestamp": 1792253938,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -360,6 +424,99 @@
           },
           "engines": {
             "dsh": ">=0.1.0-rc.7 <0.2.0-0 || 0.2.0-rc.2 || >=0.2.1-alpha.1 <0.2.2-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@changfenhuang/dsh-genui",
+      "title": "@changfenhuang/dsh-genui",
+      "description": "GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the ```dsh-ui fence — layout, charts, plots, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model. Ships the fence-teaching host plugin, the browser renderer (client half), and the genui skill.",
+      "homepage": "https://github.com/omdsh-dev/dsh-genui",
+      "repository": {
+        "url": "https://github.com/omdsh-dev/dsh-genui"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "deepseek-harness",
+          "generative-ui",
+          "plugin",
+          "ui"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.13.0",
+          "publishTimestamp": 1792253293,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.1 || ^0.2.1-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-mnemon",
+      "title": {
+        "en": "dsh-mnemon",
+        "zh": "可组合记忆 (dsh-mnemon)"
+      },
+      "description": {
+        "en": "Composable, view-based memory for DeepSeek Harness. Pluggable sources and strategies, with layered memory out of the box.",
+        "zh": "面向 DeepSeek Harness 的可组合视图记忆。记忆来源与策略可插拔，开箱即用提供分层记忆。"
+      },
+      "homepage": "https://github.com/omdsh-dev/dsh-mnemon#readme",
+      "repository": {
+        "url": "https://github.com/omdsh-dev/dsh-mnemon"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "deepseek-harness-plugin",
+          "dsh-plugin",
+          "agent-memory",
+          "llm-memory",
+          "persistent-memory",
+          "long-term-memory",
+          "runtime-memory",
+          "working-memory",
+          "cross-session-memory",
+          "multi-agent-memory",
+          "shared-agent-memory",
+          "memory-orchestration",
+          "memory-provider",
+          "pluggable-memory",
+          "context-management",
+          "project-memory",
+          "project-documents",
+          "document-search",
+          "semantic-recall",
+          "local-first",
+          "mnemon",
+          "openviking",
+          "honcho",
+          "mem0",
+          "hindsight",
+          "holographic-memory",
+          "retaindb",
+          "byterover",
+          "supermemory"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.5.31",
+          "publishTimestamp": 1792224137,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0"
           }
         }
       ]
@@ -429,14 +586,136 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSI+CiAgPHJlY3QgeD0iNCIgeT0iNiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjI0IiByeD0iMy41IiBzdHJva2U9IiM0NDkzZjgiIHN0cm9rZS13aWR0aD0iMS44Ii8+CiAgPHBhdGggZD0iTTQgMTJoMjgiIHN0cm9rZT0iIzQ0OTNmOCIgc3Ryb2tlLXdpZHRoPSIxLjQiLz4KICA8Y2lyY2xlIGN4PSI3LjYiIGN5PSI5IiByPSIxIiBmaWxsPSIjNDQ5M2Y4Ii8+CiAgPGNpcmNsZSBjeD0iMTEiIGN5PSI5IiByPSIxIiBmaWxsPSIjNDQ5M2Y4Ii8+CiAgPHBhdGggZD0iTTEwIDE4LjVsNCAzLjUtNCAzLjVNMTcgMjUuNWg4IiBzdHJva2U9IiNmMDg4M2UiIHN0cm9rZS13aWR0aD0iMS45IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==",
       "versions": [
         {
-          "version": "0.40.1",
-          "publishTimestamp": 1792055834,
+          "version": "0.40.4",
+          "publishTimestamp": 1792246151,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
             "dsh": ">=0.1.7-rc"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-graph",
+      "title": "dsh-graph",
+      "description": "A DeepSeek Harness plugin for graph-based goal management and kanban visualization.",
+      "repository": {
+        "url": "https://github.com/miuzel/dsh-graph"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "plugin",
+          "goals",
+          "kanban",
+          "graph",
+          "ui"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.21.0",
+          "publishTimestamp": 1792058822,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.2.2-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-herta",
+      "title": {
+        "en": "Herta",
+        "zh": "黑塔"
+      },
+      "description": {
+        "en": "Installs Herta as a DeepSeek Harness agent: a preset carrying her persona and memory prompt sections, six memory and voice tools, a narrative layer that separates her thinking from what she says, 80 bundled voice clips, offline and MiniMax speech synthesis, and two conversation views rendered with her own components.",
+        "zh": "把黑塔作为 DeepSeek Harness 智能体装入：携带人格与记忆提示词段的 preset、六个记忆与语音工具、区分内心与发言的叙述层、80 条随包语音、本地与 MiniMax 两条语音合成链路，以及两个用她自己的组件渲染会话的对话视图。"
+      },
+      "repository": {
+        "url": "https://github.com/HerTa-st/Herta-dsh"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "harness",
+          "dsh",
+          "dsh-plugin",
+          "herta",
+          "agent",
+          "persona",
+          "memory",
+          "tts",
+          "voice",
+          "preset",
+          "cordis"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.11",
+          "publishTimestamp": 1792238179,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-cost-meter",
+      "title": {
+        "en": "dsh-cost-meter",
+        "zh": "费用计量 (dsh-cost-meter)"
+      },
+      "description": {
+        "en": "DeepSeek Harness 会话费用统计插件:本会话成本、当日费用、历史记录与官方价格同步,支持多厂商多模型价格计费(内置 170+ 模型 ID 价格目录与自动匹配)、主流 Coding Plan 订阅额度查询与显示(13 家,含 OpenDesign 工作区查询、含小米 MiMo Token Plan 控制台 Cookie 查询、SCNet Token Plan 本地 Credits 计量与火山方舟 Volcano Ark Coding Plan AK/SK 签名查询)、自定义 Provider 余额查询(可配任意 HTTP 端点)与余额进度条、峰谷计价时段显示与切换前弹窗/系统通知提醒(位置/提前量/类型可配),界面中英双语。Session cost tracking plugin for DeepSeek Harness: per-conversation cost, daily totals, history and official price sync, with multi-vendor model pricing (built-in 170+ model-ID catalog with auto-matching), Coding Plan quota queries & display for 13 vendors (incl. OpenDesign workspace queries, Xiaomi MiMo Token Plan via console cookie, local credits metering for the SCNet Token Plan and Volcano Ark Coding Plan via AK/SK signature), plan/API dual-track billing with per-1% & full-window Token Plan usage estimates, custom provider balance lookup (configurable HTTP endpoint) and balance progress bar, plus peak/off-peak pricing display with pre-switch popup & system-notification alerts (position / lead time / type configurable), in a bilingual (Chinese/English) UI.",
+        "zh": "费用计量：按会话统计 token 与成本，含各厂商余额与峰谷计价提醒"
+      },
+      "homepage": "https://github.com/Han-1413141/dsh-cost-meter#readme",
+      "repository": {
+        "url": "https://github.com/Han-1413141/dsh-cost-meter"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "client-plugin",
+          "cost",
+          "usage",
+          "billing",
+          "budget",
+          "i18n",
+          "bilingual",
+          "zh",
+          "en",
+          "language"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.8.36",
+          "publishTimestamp": 1792250157,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
           }
         }
       ]
@@ -517,6 +796,46 @@
       ]
     },
     {
+      "name": "dsh-rewind-plugin",
+      "title": {
+        "en": "Conversation rewind",
+        "zh": "对话回退"
+      },
+      "description": {
+        "en": "Rewind to an earlier message, optionally restoring workspace files.",
+        "zh": "把对话回退到更早的消息，可选一并还原工作区文件。"
+      },
+      "homepage": "https://github.com/SiriLee/dsh-rewind#readme",
+      "repository": {
+        "url": "https://github.com/SiriLee/dsh-rewind"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "cordis",
+          "plugin",
+          "rewind",
+          "session",
+          "ui"
+        ]
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIExheW91dCBmb2xsb3dzIHRoZSB0ZXJtaW5hbCBjYXJkIGdseXBoIChwYWNrYWdlcy9jbGllbnQvdWktc2lkZWJhci10ZXJtaW5hbCk6CiAgICAgICBhIHJvdW5kZWQgdGlsZSBpbnNldCBmcm9tIHRoZSBjYW52YXMgd2l0aCBhIHdoaXRlIHJvdW5kLWNhcHBlZCBwcm9tcHQuIFRoZQogICAgICAgZmlsbCBmb2xsb3dzIHRoZSBTdWJhZ2VudCBwbHVnaW4gYXJ0d29yawogICAgICAgKHBhY2thZ2VzL2NsaWVudC91aS1wcmltaXRpdmVzL3NyYy9wbHVnaW4tYXJ0d29yay50c3gpLCB3aG9zZSBibHVlIHNxdWFyZQogICAgICAgY2FycmllcyB0aGUgc2FtZSB2ZXJ0aWNhbCBsaWdodC10by1kYXJrIGdyYWRpZW50OiAjNjlCOUZGIGF0IHRoZSB0b3AsCiAgICAgICAjMzI0REUyIGF0IHRoZSBib3R0b20uCiAgICAgICBUaGUgcmV3aW5kIG1hcmsgaXMgdGhlIGluLWFwcCBiYWNrLWFycm93IChzcmMvY2xpZW50L3N0eWxlcy50cywgMTYtdW5pdAogICAgICAgZ3JpZCkgc2NhbGVkIDEuNHguIEl0cyBpbmsgYm94IGluY2x1ZGluZyB0aGUgMC43NSBzdHJva2UgcmVhY2hlcwogICAgICAgKDEuNzUsMS43NSktKDE0LjI1LDEyLjc1KSBvbiB0aGF0IGdyaWQsIHNvIHRoZSB0cmFuc2xhdGUgbGFuZHMgaXRzIGNlbnRyZQogICAgICAgb24gdGhlIHRpbGUgY2VudHJlICgxOCwxOCksIGFuZCB0aGUgaW5rIHNwYW5zIDYyLjUlIG9mIHRoZSB0aWxlIHdpZHRoIOKAlAogICAgICAgdGhlIHRlcm1pbmFsIGdseXBoJ3Mgb3duIHJhdGlvLgogICAgICAgVGhlIGNhbnZhcyBzdGF5cyAzNngzNiwgdGhlIHNpemUgdGhlIGhhcm5lc3MgYW5kIHRoZSBvZmZpY2lhbCBhcnR3b3JrIHVzZSwKICAgICAgIHNvIHRoZSBjb25zdW1lcidzIGBzaXplYCBhdHRyaWJ1dGUga2VlcHMgdGhlIGF1dGhvcml0eSBvdmVyIGRpc3BsYXkgc2l6ZTsKICAgICAgIHRoZSBpbm5lciBncm91cCBzaHJpbmtzIHRoZSBmaW5pc2hlZCBkcmF3aW5nIHRvIDI2LzI4IG9mIHRoZSBjYW52YXMgYXJvdW5kCiAgICAgICBpdHMgY2VudHJlIOKAlCBvbmUgdW5pZm9ybSBzY2FsZSBvdmVyIGNvb3JkaW5hdGVzIHRoYXQgYXJlIGFscmVhZHkgY29ycmVjdCwKICAgICAgIHNvIHRoZSB0aWxlLCBpdHMgcmFkaXVzLCB0aGUgbWFyayBhbmQgdGhlIHN0cm9rZSByYXRpbyBzdGF5IGluIHByb3BvcnRpb24uIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE4IDE4KSBzY2FsZSgwLjkyODYpIHRyYW5zbGF0ZSgtMTggLTE4KSI+CiAgICA8cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHJ4PSI4IiBmaWxsPSJ1cmwoI3Jld2luZF9ibHVlKSIgLz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYuOCA3Ljg1KSBzY2FsZSgxLjQpIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgICA8cGF0aCBkPSJNNi41IDIuNSAyLjUgNi41bDQgNCIgLz4KICAgICAgPHBhdGggZD0iTTIuNSA2LjVoN2E0IDQgMCAwIDEgNCA0djEuNSIgLz4KICAgIDwvZz4KICA8L2c+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InJld2luZF9ibHVlIiB4MT0iMTgiIHkxPSI0IiB4Mj0iMTgiIHkyPSIzMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNjlCOUZGIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzMjRERTIiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KPC9zdmc+Cg==",
+      "versions": [
+        {
+          "version": "0.16.0",
+          "publishTimestamp": 1792220348,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
       "name": "@mars-sea/dsh-commandcode-provider",
       "title": {
         "en": "Command Code",
@@ -582,14 +901,162 @@
       },
       "versions": [
         {
-          "version": "0.2.9",
-          "publishTimestamp": 1792174061,
+          "version": "0.3.0",
+          "publishTimestamp": 1792242279,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
             "dsh": ">=0.2.1-alpha.2 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-zotero",
+      "title": {
+        "en": "dsh-zotero",
+        "zh": "dsh-zotero"
+      },
+      "description": {
+        "en": "Let agents search, read, and cite your local Zotero library: find papers, browse notes and annotations, pull evidence by question, open the source document, generate citations.",
+        "zh": "让智能体搜索、阅读并引用本地 Zotero 知识库：检索论文、浏览笔记与批注、按问题提取证据片段、打开本地文献原文、生成多格式引文。"
+      },
+      "author": "Wenjie Xu",
+      "repository": {
+        "url": "https://github.com/Vncntvx/dsh-zotero"
+      },
+      "metadata": {
+        "keywords": [
+          "zotero",
+          "dsh",
+          "deepseek-harness",
+          "plugin",
+          "research",
+          "literature"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.12.1",
+          "publishTimestamp": 1790883369,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-game-material-master",
+      "title": "dsh-game-material-master",
+      "description": "游戏素材大师：DSH 插件，包含八方向图生成、图片生成、序列帧生成、地图编辑器、音乐生成编辑五个正式模块（地图编辑器参考 AsLib 的 RPG Map Maker 重做：一屏、纯图标、零术语，地图四周环绕、素材自动识别与自动连接、动画地块、内置素材、一键生成，全本地零计费；音乐生成编辑接谱乐 AI：灵感/歌词 → 不挂靠项目的新对话 → agent 扩写/选引擎生成 → 回界面裁剪/音量/淡入淡出/标准化/导出，生成按平台积分计费；另有谱曲模式：先给方案 → scoremill 本地写 MIDI → 渲染试听 → 逐版修改 → 可选交 Suno，谱曲/试听/导出本地免费），以及实验性的 45° 地图地块生成与骨骼动画生成模块。界面与内置提示词跟随 DSH 语言设置（中 / 英）。八方向图默认「转圈截帧」（一段原地匀速转一圈的绿幕视频 → 按时间轴截出八个方向），也可逐方向生图；45° 地图地块用「几何交给代码、内容交给 AI」的方式拼成整张地图。生图后端可选火山方舟 Seedream，或自定义生图模型（OpenAI API / ComfyUI API / Stable Diffusion WebUI API 三种协议）；图生视频走 MiniMax；抠绿幕合成与音乐后期全部在本地。",
+      "homepage": "https://github.com/universe-st/dsh-game-material-master#readme",
+      "repository": {
+        "url": "https://github.com/universe-st/dsh-game-material-master"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "game-assets",
+          "sprite-sheet",
+          "chroma-key",
+          "seedream",
+          "minimax",
+          "tilemap-editor",
+          "tileset",
+          "autotile",
+          "wraparound",
+          "music-generation",
+          "ai-music",
+          "scoremill",
+          "midi-composition",
+          "audio-editing",
+          "puyue",
+          "suno"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.8.0",
+          "publishTimestamp": 1792249306,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-builtin-browser",
+      "title": "dsh-builtin-browser",
+      "description": "Shared real browser plugin for DeepSeek Harness: install-and-use — a visible native browser the human can take over, driven by the agent over CDP. DOM-level interaction (React/Vue safe), per-task session isolation, cookie persistence (dsh_browser_auth), CAPTCHA detection, batch form fill (dsh_browser_fill), authenticated download, history/replay, action restriction",
+      "homepage": "https://github.com/wqty123/dsh-browser",
+      "repository": {
+        "url": "https://github.com/wqty123/dsh-browser"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "browser",
+          "cdp"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.4.13",
+          "publishTimestamp": 1792236028,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-subagent-director",
+      "title": "dsh-plugin-subagent-director",
+      "description": "Subagent Director: choose an LLM provider/model for each subagent (call args > role binding > plugin default > inherit parent) and plan main-agent/subagent responsibilities with role templates, plus a settings UI.",
+      "homepage": "https://github.com/SeverusZh/dsh-plugin-subagent-director",
+      "repository": {
+        "url": "https://github.com/SeverusZh/dsh-plugin-subagent-director"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "deepseek-harness",
+          "cordis",
+          "plugin",
+          "subagent",
+          "subagent-director",
+          "llm",
+          "provider",
+          "model",
+          "role-template"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.6.0-beta.1",
+          "publishTimestamp": 1792240877,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1"
           }
         }
       ]
@@ -699,14 +1166,48 @@
       },
       "versions": [
         {
-          "version": "2.2.1",
-          "publishTimestamp": 1792124328,
+          "version": "2.3.0",
+          "publishTimestamp": 1792247715,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
             "dsh": ">=0.1.5-rc.1 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "jevcore-dsh",
+      "title": "jevcore-dsh",
+      "description": "TypeSafe Jev as a first-class Cordis service and three model-visible tools for DeepSeek Harness — offline by default, egress disclosed, never default-on.",
+      "homepage": "https://github.com/PerryLink/jevcore#readme",
+      "repository": {
+        "url": "https://github.com/PerryLink/jevcore"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "jev",
+          "typesafe",
+          "typesafe-ai",
+          "system-one",
+          "decision-model",
+          "cordis"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1789924195,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0"
           }
         }
       ]
@@ -790,14 +1291,14 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHJ4PSI4IiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxwYXRoIGQ9Ik0xOS42IDcuNSAxMSAyMGg1LjZsLTEuNCA4LjVMMjQuNSAxNmgtNS42bC43LTguNVoiIGZpbGw9IiNGRkZGRkYiLz4KICA8Y2lyY2xlIGN4PSIyNS41IiBjeT0iMjUuNSIgcj0iMy4yIiBmaWxsPSIjNDVEOUU3Ii8+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMTgiIHkxPSIxIiB4Mj0iMTgiIHkyPSIzNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiM3Q0I3RkYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNDVBRjMiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KPC9zdmc+",
       "versions": [
         {
-          "version": "0.2.5",
-          "publishTimestamp": 1792154061,
+          "version": "0.2.6",
+          "publishTimestamp": 1792237446,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.7-rc.1"
+            "dsh": ">=0.2.1-rc.1"
           }
         }
       ]
@@ -890,44 +1391,6 @@
           },
           "engines": {
             "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "dsh-zotero",
-      "title": {
-        "en": "dsh-zotero",
-        "zh": "dsh-zotero"
-      },
-      "description": {
-        "en": "Let agents search, read, and cite your local Zotero library: find papers, browse notes and annotations, pull evidence by question, open the source document, generate citations.",
-        "zh": "让智能体搜索、阅读并引用本地 Zotero 知识库：检索论文、浏览笔记与批注、按问题提取证据片段、打开本地文献原文、生成多格式引文。"
-      },
-      "author": "Wenjie Xu",
-      "repository": {
-        "url": "https://github.com/Vncntvx/dsh-zotero"
-      },
-      "metadata": {
-        "keywords": [
-          "zotero",
-          "dsh",
-          "deepseek-harness",
-          "plugin",
-          "research",
-          "literature"
-        ]
-      },
-      "versions": [
-        {
-          "version": "0.12.1",
-          "publishTimestamp": 1790883369,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          },
-          "engines": {
-            "dsh": ">=0.2.0-rc.2"
           }
         }
       ]
@@ -1066,8 +1529,8 @@
       },
       "versions": [
         {
-          "version": "0.10.36",
-          "publishTimestamp": 1792139895,
+          "version": "0.10.38",
+          "publishTimestamp": 1792228756,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -1219,6 +1682,41 @@
       ]
     },
     {
+      "name": "deep-read-summarize",
+      "title": "deep-read-summarize",
+      "description": "Deep reading & summarization for DSH: books/papers/videos/web → structured Markdown notes (Obsidian / Logseq / static sites). Plugin parsers, MapReduce deep-read, JSON Schema-constrained sub-tasks.",
+      "repository": {
+        "url": "https://github.com/PensiveFei/deep-read-summarize"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "workflow",
+          "summarization",
+          "deep-read",
+          "obsidian",
+          "markdown",
+          "llm",
+          "subagent",
+          "mapreduce",
+          "parsers"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.14",
+          "publishTimestamp": 1792247123,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6"
+          }
+        }
+      ]
+    },
+    {
       "name": "@yangdcm/dsh-expert-team",
       "title": "@yangdcm/dsh-expert-team",
       "description": "dsh「专家团」bundle：一句自然语言组建角色化多智能体「数字员工」团队，按九阶段门控流水线协作交付，实现者直接改代码并产出持久工件；带 live 团队浮层。 · Role-based multi-agent expert team for DeepSeek Harness: one sentence in, a staged and gated team delivery out.",
@@ -1261,6 +1759,78 @@
       ]
     },
     {
+      "name": "@kenz1117/dsh-ui-usage-billing",
+      "title": "@kenz1117/dsh-ui-usage-billing",
+      "description": "Usage billing dashboard for DeepSeek Harness: sidebar cost metrics plus a full dashboard modal, priced from a current multi-provider catalog with real usage aggregated from session logs.",
+      "repository": {
+        "url": "https://github.com/kenz1117/dsh-ui-usage-billing"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "deepseek",
+          "dsh",
+          "dsh-plugin",
+          "billing",
+          "cost-tracking",
+          "token-usage",
+          "usage-stats",
+          "llm",
+          "dashboard"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.5.0",
+          "publishTimestamp": 1792212897,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-alpha.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-fast",
+      "title": "dsh-fast",
+      "description": "Read-only performance diagnostics for DeepSeek Harness: session load (open/restore) timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via the /fast command and the fast_report tool, persisted as reconstructable fast/* session events with async sampling off the model path.",
+      "author": "dsh-fast contributors",
+      "homepage": "https://github.com/PerryLink/dsh-fast#readme",
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-fast"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "deepseek",
+          "cordis",
+          "performance",
+          "diagnostics",
+          "profiling",
+          "context-engineering",
+          "llm-cache"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.21",
+          "publishTimestamp": 1791593993,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-doublecheck",
       "title": "dsh-doublecheck",
       "description": "Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.",
@@ -1292,6 +1862,40 @@
           },
           "engines": {
             "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-bash-native",
+      "title": "dsh-bash-native",
+      "description": "dsh-bash-native: a Windows-native POSIX bash executor for the DSH shell seam, with engine resolution and DSH's three-tier file sandbox honored.",
+      "author": "SpookyWaste",
+      "homepage": "https://github.com/SpookyWaste/dsh-bash-native#readme",
+      "repository": {
+        "url": "https://github.com/SpookyWaste/dsh-bash-native"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "bash",
+          "windows",
+          "brush",
+          "sandbox"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1792128818,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.2 <0.3.0-0"
           }
         }
       ]
@@ -1356,14 +1960,54 @@
       "versions": [
         {
           "version": "3.0.9",
-          "publishTimestamp": 1792145331,
+          "publishTimestamp": 1792221776,
           "source": {
             "type": "git",
             "url": "https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts",
-            "commit": "2b1f80a0562edfcdd69c3af972eb5a74c0a8cdc7"
+            "commit": "2483177eb3899a04a1a85ad89c0f3e0c4d5fe8f6"
           },
           "engines": {
             "dsh": ">=0.1.7-0 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@wenaixi/dsh-superpower",
+      "title": {
+        "en": "Superpowers Skill Suite",
+        "zh": "Superpowers 技能套件"
+      },
+      "description": {
+        "en": "DeepSeek Harness plugin: 15 obra/superpowers engineering skills, bilingual descriptions, per-skill toggles",
+        "zh": "DeepSeek Harness 插件：15 个 obra/superpowers 工程纪律技能，技能描述中英双语自由切换，每一个技能本身自由开关"
+      },
+      "homepage": "https://github.com/Wenaixi/dsh-superpower",
+      "repository": {
+        "url": "https://github.com/Wenaixi/dsh-superpower"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "superpowers",
+          "skills",
+          "agent",
+          "methodology"
+        ]
+      },
+      "icon": "data:image/png;base64,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",
+      "versions": [
+        {
+          "version": "8.0.0",
+          "publishTimestamp": 1792251895,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Wenaixi/dsh-superpower",
+            "commit": "629dfff09b2808255b0e407913f86b5b3cdcd30a"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0-0"
           }
         }
       ]
@@ -1405,6 +2049,25 @@
       ]
     },
     {
+      "name": "dsh-visual-workflow",
+      "title": "dsh-visual-workflow",
+      "description": "DSH 可视化 Agent 编排平台",
+      "versions": [
+        {
+          "version": "0.10.2",
+          "publishTimestamp": 1792246275,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/GZX2211/dsh-Visual-Workflow",
+            "commit": "01b93d13acc392b66a5bed38cd8fced5323d1510"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-workbuddy-connect",
       "title": {
         "en": "WorkBuddy Connector",
@@ -1431,15 +2094,53 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHJ4PSI4IiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxwYXRoIGQ9Ik0xOS42IDcuNSAxMSAyMGg1LjZsLTEuNCA4LjVMMjQuNSAxNmgtNS42bC43LTguNVoiIGZpbGw9IiNGRkZGRkYiLz4KICA8cGF0aCBkPSJNMjQuMiAyMS41IDIwLjQgMjdoMy4ybC0uOCA0LjkgNC42LTZoLTMuMWwuNy00LjRaIiBmaWxsPSIjRjJBRjYzIi8+CiAgPGNpcmNsZSBjeD0iMjUuNSIgY3k9IjI1LjUiIHI9IjMuMiIgZmlsbD0iIzQ1RDlFNyIvPgogIDxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjE4IiB5MT0iMSIgeDI9IjE4IiB5Mj0iMzUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjN0NCN0ZGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTQ1QUYzIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "0.6.9",
-          "publishTimestamp": 1791890929,
+          "version": "0.6.10",
+          "publishTimestamp": 1792242551,
           "source": {
             "type": "git",
             "url": "https://github.com/masknull/dsh-workbuddy-connect",
-            "commit": "e4af09c566cb3434e274ab8e988a66ce456375ec"
+            "commit": "4738217d156c46f088d424dedc83a66e7308f64a"
           },
           "engines": {
             "dsh": ">=0.1.7-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-vibe-math",
+      "title": "dsh-vibe-math",
+      "description": "Multi-agent mathematical problem-solving & verification frameworks for DeepSeek Harness — FOUR agent presets in one install: vibe-math-v2 (probability-driven, classic: qs.json + Propos knowledge base + explorer→solver→review/debate verdict), vibe-math-v3 (THIRD-generation, classic: paper-style Markdown knowledge base with Problems/Progress/Propos/Methods/Verified + planner-agent scheduling that decides the next N actions + universal theory/method invention library + agents write their own Markdown directly via a per-file write lock), and vibe-math-v4 (FOURTH-generation: persistent self-organizing resident subagents that message & meet to decide all tasks, verify only by unanimous consensus, /compact at a context threshold, and stop only when all agree the problem is solved), and vibe-math-v5 (FIFTH-generation research institute: an academician as the organizational centre who decomposes and ASSIGNS work and chairs meetings; permanent researchers who hold the vote and may hire/fire their own temp workers; temp workers with no vote; a group chat and meetings; a durable per-recipient mailbox; a compare-and-set task DAG; and a boolean m-vote consensus rule where an object enters Verified/ only when at least m voting members agree AND every one of them returns exactly 1 or exactly 0). Installing this bundle auto-installs all four presets (v1 was removed at v2.0.0). Each preset also writes a FINAL PAPER by default when its run concludes — and does so BEFORE the run is marked complete: on v4/v5 the team co-authors its parts, merges them, cross-reviews, and the editor named by paperEditor finalises; the output is Paper/<run or institute id>/{paper.md,paper.tex,paper.pdf when a LaTeX engine is detected,paper.meta.json,paper.log.md} (params finalPaper/paperFormat/paperLanguage/paperCompilePdf/paperLatexCommand, plus paperEditor on v4/v5; see docs/final-paper.md).",
+      "homepage": "https://github.com/ChongCyrus/Vibe-Mathematics#readme",
+      "repository": {
+        "url": "https://github.com/ChongCyrus/Vibe-Mathematics"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "agent-preset",
+          "multi-agent",
+          "mathematics",
+          "math",
+          "theorem-proving",
+          "verification",
+          "solver",
+          "llm-agents"
+        ]
+      },
+      "versions": [
+        {
+          "version": "2.8.5",
+          "publishTimestamp": 1792235158,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/ChongCyrus/Vibe-Mathematics",
+            "commit": "afe629e6a4e005bb61fc9fda8743846f5411971c"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-alpha.4 <0.1.3-0 || >=0.1.3-alpha.2 <0.1.5-0 || >=0.1.5-alpha.1 <0.1.6-0 || >=0.1.6-alpha.1 <0.1.7-0 || >=0.1.7-alpha.1 <0.2.0-0 || >=0.2.0-alpha.1 <0.3.0-0"
           }
         }
       ]
@@ -1511,6 +2212,61 @@
             "type": "git",
             "url": "https://github.com/buhuikongpan/dsh-win-gitbash",
             "commit": "a8b7e0a013bcb1515c620fb5f0a0e69f39b95cd6"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-memes-reply",
+      "title": "dsh-memes-reply",
+      "description": "蓝色大肥鱼表情包回复插件：模型按语境在回复里贴一张会动的大肥鱼，配置面板画在插件管理页里本插件自己的页面上（预览墙 + 下一轮指定）。素材经插件自有 HTTP 路由直出，不经过附件流水线（那会把动画压成静图）。",
+      "homepage": "https://github.com/liceses/dsh-memes-reply#readme",
+      "repository": {
+        "url": "https://github.com/liceses/dsh-memes-reply"
+      },
+      "versions": [
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1791378991,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/liceses/dsh-memes-reply",
+            "commit": "e6e551e1867e4e6554af8e529c272631bd925d4a"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-git-graph",
+      "title": "dsh-git-graph",
+      "description": "DSH plugin: embedded git repository graph visualizer for the DeepSeek Harness web GUI - commit history graph, branch filtering, code diffs, VSCode-style uncommitted changes panel",
+      "repository": {
+        "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "git",
+          "graph",
+          "visualization"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.14.0",
+          "publishTimestamp": 1790650317,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/1841220388zzzcccxxx-star/dsh-git-graph",
+            "commit": "ec1a867b88358e2984249cc858690eea8501a1ce"
           },
           "engines": {
             "dsh": ">=0.1.0-rc.6 <0.3.0"
