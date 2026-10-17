@@ -388,3 +388,7 @@ mindmap
 ## License
 
 本列表采用 [MIT License](./LICENSE) 发布；各收录项目遵循其各自许可证。
+
+## 官方 DSH「发现」索引
+
+本仓库同时维护官方 format-1 索引及审计报告，供个人站点的固定 HTTPS 路由分发。接入地址、生成和更新规则见 [官方索引说明](scripts/host-market/README.md)。现有 market-v2 与 npm feed 保持独立。

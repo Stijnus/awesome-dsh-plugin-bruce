@@ -1,0 +1,61 @@
+name: Refresh the official DSH market index
+
+on:
+  workflow_run:
+    workflows: ['Refresh the v2 market feed']
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/host-market/**'
+      - '.github/workflows/refresh-host-market.yml'
+      - 'data/market-v2.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh-host-market
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - run: npm ci --ignore-scripts --prefix scripts/host-market
+      - run: npm test --prefix scripts/host-market
+      - name: Generate and publish validated repository data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            node scripts/host-market/refresh.mjs
+            git add data/dsh-market-index.json data/dsh-market-index.report.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "data: refresh official DSH market index and audit"
+            if git push origin HEAD:main; then exit 0; fi
+            # Generated data is rebuilt against the newest approved feed, never rebased.
+            git fetch --depth=1 origin main
+            git reset --hard FETCH_HEAD
+            npm ci --ignore-scripts --prefix scripts/host-market
+          done
+          echo "Push rejected after three regeneration attempts."
+          exit 1
+      - name: Retain generation diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: host-market-audit
+          path: .output/host-market/
+          retention-days: 7
+          if-no-files-found: ignore

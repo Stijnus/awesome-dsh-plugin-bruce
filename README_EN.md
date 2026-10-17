@@ -388,3 +388,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 ## License
 
 This list is published under the [MIT License](./LICENSE); each listed project remains under its own license.
+
+## Official DSH Discover index
+
+This repository also owns a format-1 index and its audit report, served through a fixed HTTPS route on bruc3van.com. See [generation and delivery details](scripts/host-market/README.md). Existing market-v2 and npm feed publication remain independent.

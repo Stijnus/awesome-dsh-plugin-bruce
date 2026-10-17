@@ -97,7 +97,8 @@ const isCatalogPage = (path) =>
   path === 'CATALOG.md' || path === 'TOP200.md' || path === 'catalog' || path.startsWith('catalog/');
 const isFeedFile = (path) =>
   path === 'MARKET.md' || path === 'data/market.json' || path === 'data/market-v2.json' ||
-  path === 'data/review/packages-pending.md';
+  path === 'data/review/packages-pending.md' ||
+  path === 'data/dsh-market-index.json' || path === 'data/dsh-market-index.report.json';
 const isPipeline = (path) =>
   path === 'data/repositories.json' ||
   path === 'data/review/pending.json' || path === 'data/review/pending.md';

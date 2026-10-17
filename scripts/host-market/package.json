@@ -1,0 +1,12 @@
+{
+  "name": "awesome-dsh-host-market-generator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test.mjs"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-plugin-market-index": "0.2.1-alpha.5",
+    "semver": "7.8.5"
+  }
+}
