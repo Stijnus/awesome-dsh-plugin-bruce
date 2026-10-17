@@ -179,7 +179,7 @@ export async function generateIndex(
           // The pinned reader's bounded size rejection is a policy exclusion,
           // not a transient lookup failure. Integrity/network errors stay fatal.
           const sizeLimited =
-            /^(?:[^\n]+: tarball|unpacked tarball) exceeds \d+ bytes$/.test(error.message)
+            /^(?:[^\n]+: )?(?:unpacked )?tarball exceeds \d+ bytes$/.test(error.message)
           results[i] = {
             fetchFailed: !sizeLimited,
             diagnostics: [

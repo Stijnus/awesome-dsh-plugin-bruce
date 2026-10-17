@@ -163,7 +163,7 @@ test('npm tarball verification checks integrity, identity and declared compatibi
   try {
     const p = metadata(),
       manifest = p.versions['1.2.3']
-    manifest.peerDependencies = { '@deepseek-ai/dsh': manifest.engines.dsh }
+    manifest.peerDependencies = { '@deepseek-ai/dsh': '>=0.2.1-alpha.5', '@deepseek-ai/dsh-tools': '<0.3.0' }
     delete manifest.engines
     await mkdir(join(dir, 'package'))
     await writeFile(join(dir, 'package/package.json'), JSON.stringify(manifest))
@@ -178,6 +178,7 @@ test('npm tarball verification checks integrity, identity and declared compatibi
       integrity:
         'sha512-' + createHash('sha512').update(bytes).digest('base64'),
     }
+    manifest.peerDependencies = { '@deepseek-ai/dsh-tools': '<0.3.0', '@deepseek-ai/dsh': '>=0.2.1-alpha.5' }
     const { plugin } = projectPackage('demo', ['latest'], p)
     assert.equal((await verifyNpmPlugin(plugin, p)).plugin.name, 'demo')
     const bad = structuredClone(plugin)
@@ -196,6 +197,7 @@ test('size policy excludes an oversized package but keeps integrity and network 
   for (const [message, excluded] of [
     ['demo@1.2.3: tarball exceeds 67108864 bytes', true],
     ['unpacked tarball exceeds 67108864 bytes', true],
+    ['demo@1.2.3: unpacked tarball exceeds 67108864 bytes', true],
     ['demo@1.2.3: integrity mismatch', false],
     ['fetch failed', false],
   ]) {

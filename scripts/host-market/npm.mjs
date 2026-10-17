@@ -1,4 +1,5 @@
 /** Verify the installable tarball before publishing its identity and display fields. */
+import semver from 'semver'
 import { npmTarball } from './vendor/fetchers.ts'
 import { isBundle, dshRange } from './vendor/packages.ts'
 import { readDisplayMetadata } from './vendor/metadata.ts'
@@ -19,7 +20,14 @@ export async function verifyNpmPlugin(
       limits,
     )
     const range = dshRange(manifest)
-    if (!isBundle(manifest) || range instanceof Error || range !== version.engines?.dsh)
+    const expected = version.engines?.dsh
+    // npm can reorder peer keys; intersected ranges must match semantically.
+    const matches = range === expected || (
+      typeof range === 'string' && typeof expected === 'string' &&
+      semver.subset(range, expected, { includePrerelease: true }) &&
+      semver.subset(expected, range, { includePrerelease: true })
+    )
+    if (!isBundle(manifest) || range instanceof Error || !matches)
       throw Error(
         `${plugin.name}@${version.version}: tarball bundle/engines differ from registry metadata`,
       )
