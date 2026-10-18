@@ -1,0 +1,155 @@
+{
+  "full_name": "BaronCyrus/dsh-packycode-api",
+  "originalPosition": 191,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 191,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:37.248Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ca91740b24370d46c09f820bb589cd1c15e73ac9dfbb2b3603585ad2159f95ee",
+      "url": "https://github.com/BaronCyrus/dsh-packycode-api/blob/08f69d4c3cf1b63bafb508ac917a2470b2881e60/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-packycode-api@1.3.4",
+          "command": "dsh plugin --profile <name> add dsh-packycode-api@1.3.4",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "459f65cab71888be25d730719e46834dd3e1ac514cd84ba1d04126fc0f6a10d9",
+      "url": "https://github.com/BaronCyrus/dsh-packycode-api/blob/08f69d4c3cf1b63bafb508ac917a2470b2881e60/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-packycode-api@1.3.4",
+          "command": "dsh plugin --profile <name> add dsh-packycode-api@1.3.4",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-packycode-api",
+      "version": "1.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BaronCyrus/dsh-packycode-api",
+        "commit": "08f69d4c3cf1b63bafb508ac917a2470b2881e60"
+      },
+      "manifestSha256": "9633531f884755c85a5d8bd3a5f02d78db8cd0590912eae3597e74fd6d44e4c2",
+      "manifestUrl": "https://github.com/BaronCyrus/dsh-packycode-api/blob/08f69d4c3cf1b63bafb508ac917a2470b2881e60/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-packycode-api",
+        "versions": [
+          {
+            "version": "1.3.4",
+            "publishTimestamp": 1792239816,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BaronCyrus/dsh-packycode-api",
+              "commit": "08f69d4c3cf1b63bafb508ac917a2470b2881e60"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-packycode-api@1.3.4",
+      "origin": "npm",
+      "name": "dsh-packycode-api",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-packycode-api",
+        "title": "dsh-packycode-api",
+        "description": "Use PackyCode API keys in DeepSeek Harness with multi-protocol models, image generation and editing, separate key rings, and balance display",
+        "author": "BaronCyrus",
+        "homepage": "https://github.com/BaronCyrus/dsh-packycode-api#readme",
+        "repository": {
+          "url": "https://github.com/BaronCyrus/dsh-packycode-api"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "packycode",
+            "packyapi",
+            "api-key",
+            "balance",
+            "llm",
+            "image-generation",
+            "image-editing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.3.4",
+            "publishTimestamp": 1792239002,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7bea423fc2f5afa24a607c275500d22115670d27d17c6d7361372562a1fdcdb3",
+      "evidence": [
+        {
+          "name": "dsh-packycode-api",
+          "version": "1.3.4",
+          "tarball": "https://registry.npmjs.org/dsh-packycode-api/-/dsh-packycode-api-1.3.4.tgz",
+          "integrity": "sha512-66YnM2903lA99d5gQ/tReEbfcFfkey2kCJGk2ttdgM/5JplgmbpXJ8BwkltJgwejxS/zIcPCt2+FL6BfbdjoAQ=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-packycode-api",
+          "code": "metadata_warning",
+          "status": "warning",
+          "reason": "图标超过 32 KiB 内联上限，已省略"
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-packycode-api@1.3.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BaronCyrus/dsh-packycode-api",
+    "commit": "08f69d4c3cf1b63bafb508ac917a2470b2881e60",
+    "releaseTags": 35,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:47.039Z"
+}

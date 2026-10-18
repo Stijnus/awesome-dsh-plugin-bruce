@@ -1,0 +1,83 @@
+{
+  "full_name": "culture-flask/dsh-aemeath-pet",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:17.519Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2d9dd848159e366f03a5fbc1c18da80214fb87054cfd44a690f712ebd6dc37e1",
+      "url": "https://github.com/culture-flask/dsh-aemeath-pet/blob/15e9c830b993e2ca6e4ba1b92b41109ce0c4ab31/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/culture-flask/dsh-aemeath-pet/archive/refs/tags/v0.1.0.tar.gz",
+          "command": "dsh plugin --profile web add https://github.com/culture-flask/dsh-aemeath-pet/archive/refs/tags/v0.1.0.tar.gz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-aemeath-pet",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/culture-flask/dsh-aemeath-pet",
+        "commit": "15e9c830b993e2ca6e4ba1b92b41109ce0c4ab31"
+      },
+      "manifestSha256": "da0ce2644893a5198fa497ded6ac571a1295ea04b9b459489ff057f3f5ee8d3c",
+      "manifestUrl": "https://github.com/culture-flask/dsh-aemeath-pet/blob/15e9c830b993e2ca6e4ba1b92b41109ce0c4ab31/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-aemeath-pet",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787075353,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/culture-flask/dsh-aemeath-pet",
+              "commit": "15e9c830b993e2ca6e4ba1b92b41109ce0c4ab31"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/culture-flask/dsh-aemeath-pet/archive/refs/tags/v0.1.0.tar.gz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/culture-flask/dsh-aemeath-pet/archive/refs/tags/v0.1.0.tar.gz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/culture-flask/dsh-aemeath-pet",
+    "commit": "15e9c830b993e2ca6e4ba1b92b41109ce0c4ab31",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:23.188Z"
+}

@@ -1,0 +1,348 @@
+{
+  "full_name": "Ephemeral-AI-Lab/mayfly",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:08.492Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4bc633f376acc146ef0fe6cce1ca4022e16ce96c553e704f744f3fc2f6a29700",
+      "url": "https://github.com/Ephemeral-AI-Lab/mayfly/blob/7e7abd2df00fdd3927281dec3f6cd55348f1a75e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ephemeral-ai/mayfly",
+          "command": "dsh plugin --profile mayfly add @ephemeral-ai/mayfly",
+          "profile": "mayfly"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "80d0a744741dcc658d0fc436b091e18e128add3994af766b230f3d19913a6b8f",
+      "url": "https://github.com/Ephemeral-AI-Lab/mayfly/blob/7e7abd2df00fdd3927281dec3f6cd55348f1a75e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ephemeral-ai/mayfly",
+          "command": "dsh plugin --profile mayfly add @ephemeral-ai/mayfly",
+          "profile": "mayfly"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mayfly-example/bottom-log",
+      "version": "0.1.0",
+      "path": "examples/bottom-log",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+        "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+        "path": "examples/bottom-log"
+      },
+      "manifestSha256": "0be0cd9d4d3d95e9b5fdea9b27e24bfb751f821bc89d1b7bdb10ad12ee779a9b",
+      "manifestUrl": "https://github.com/Ephemeral-AI-Lab/mayfly/blob/7e7abd2df00fdd3927281dec3f6cd55348f1a75e/examples/bottom-log/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@mayfly-example/bottom-log",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791545540,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+              "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+              "path": "examples/bottom-log"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@mayfly-example/header",
+      "version": "0.1.0",
+      "path": "examples/header",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+        "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+        "path": "examples/header"
+      },
+      "manifestSha256": "ce48e90401421125ffbfa6f82fa763607d7c696dd0062c8bd321791554c2a34c",
+      "manifestUrl": "https://github.com/Ephemeral-AI-Lab/mayfly/blob/7e7abd2df00fdd3927281dec3f6cd55348f1a75e/examples/header/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@mayfly-example/header",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791545540,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+              "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+              "path": "examples/header"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@mayfly-example/ecosystem",
+      "version": "0.1.0",
+      "path": "examples/mayfly-ecosystem",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+        "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+        "path": "examples/mayfly-ecosystem"
+      },
+      "manifestSha256": "7835ad8c03ccbfa9b7165fe164599a5d1f3a310fa4858d6a5de37ce961a83b60",
+      "manifestUrl": "https://github.com/Ephemeral-AI-Lab/mayfly/blob/7e7abd2df00fdd3927281dec3f6cd55348f1a75e/examples/mayfly-ecosystem/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@mayfly-example/ecosystem",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791545540,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+              "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+              "path": "examples/mayfly-ecosystem"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@mayfly-example/overlay",
+      "version": "0.1.0",
+      "path": "examples/overlay",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+        "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+        "path": "examples/overlay"
+      },
+      "manifestSha256": "6edcf39d53e543834258e2bdb4df6ff8378bc1bf2e7710659e8dff270c8941d5",
+      "manifestUrl": "https://github.com/Ephemeral-AI-Lab/mayfly/blob/7e7abd2df00fdd3927281dec3f6cd55348f1a75e/examples/overlay/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@mayfly-example/overlay",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791545540,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+              "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+              "path": "examples/overlay"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@mayfly-example/right-inspector",
+      "version": "0.1.0",
+      "path": "examples/right-inspector",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+        "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+        "path": "examples/right-inspector"
+      },
+      "manifestSha256": "ee26db900c1da86f8b71ae6550611aac85b299c934d0e87e2c779c94ce48122d",
+      "manifestUrl": "https://github.com/Ephemeral-AI-Lab/mayfly/blob/7e7abd2df00fdd3927281dec3f6cd55348f1a75e/examples/right-inspector/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@mayfly-example/right-inspector",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791545540,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+              "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+              "path": "examples/right-inspector"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@mayfly-example/ui-gallery",
+      "version": "0.1.0",
+      "path": "examples/ui-gallery",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+        "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+        "path": "examples/ui-gallery"
+      },
+      "manifestSha256": "5a68a63c6c79cd62eabc03fa878ec31629444913ced8b998dde119f2d3b07e30",
+      "manifestUrl": "https://github.com/Ephemeral-AI-Lab/mayfly/blob/7e7abd2df00fdd3927281dec3f6cd55348f1a75e/examples/ui-gallery/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@mayfly-example/ui-gallery",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791545540,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+              "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+              "path": "examples/ui-gallery"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@ephemeral-ai/mayfly",
+      "version": "0.1.3-rc.2",
+      "path": "packages/mayfly",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+        "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+        "path": "packages/mayfly"
+      },
+      "manifestSha256": "3ed6b1d67dbf550d00780b549a2de64d3959aa58b33e067fed95bdeab8d7162d",
+      "manifestUrl": "https://github.com/Ephemeral-AI-Lab/mayfly/blob/7e7abd2df00fdd3927281dec3f6cd55348f1a75e/packages/mayfly/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@ephemeral-ai/mayfly",
+        "versions": [
+          {
+            "version": "0.1.3-rc.2",
+            "publishTimestamp": 1791545540,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+              "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+              "path": "packages/mayfly"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@ephemeral-ai/mayfly",
+      "origin": "npm",
+      "name": "@ephemeral-ai/mayfly",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@ephemeral-ai/mayfly",
+        "title": "@ephemeral-ai/mayfly",
+        "description": "The Mayfly terminal UI bundle for DeepSeek Harness",
+        "homepage": "https://may-fly.dev",
+        "repository": {
+          "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+          "directory": "packages/mayfly"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "mayfly",
+            "tui",
+            "terminal-ui",
+            "cordis",
+            "pi-tui",
+            "coding-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3-rc.2",
+            "publishTimestamp": 1790707420,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "065dc575dfb87b4102e4d5293ca9f575024e38c2a63948c3ddf80ee6c8ae9e73",
+      "evidence": [
+        {
+          "name": "@ephemeral-ai/mayfly",
+          "version": "0.1.3-rc.2",
+          "tarball": "https://registry.npmjs.org/@ephemeral-ai/mayfly/-/mayfly-0.1.3-rc.2.tgz",
+          "integrity": "sha512-Zrs3EM4L5tba3UcShQmGDYbKs1dRTQgcES7itGOgPDtS0h/kMQDZP6ZPwBXNC0ehFGNEBtkaF1hAnZ1ZPXzTVw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@ephemeral-ai/mayfly",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ephemeral-AI-Lab/mayfly",
+    "commit": "7e7abd2df00fdd3927281dec3f6cd55348f1a75e",
+    "releaseTags": 13,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:16.592Z"
+}

@@ -1,0 +1,88 @@
+{
+  "full_name": "Tommy00748/dsh-theme-cyberpunk2077",
+  "originalPosition": 61,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 61,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:59.772Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a1a6c387aadee2c83e8a2ef525f2692317e35ddf527a3063eedecbbeb5be7f60",
+      "url": "https://github.com/Tommy00748/dsh-theme-cyberpunk2077/blob/a3681ee431f59c64b8bf37d34ee609ddc7811278/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-theme-cyberpunk2077",
+          "command": "dsh plugin --profile web add dsh-theme-cyberpunk2077",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-cyberpunk2077",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tommy00748/dsh-theme-cyberpunk2077",
+        "commit": "a3681ee431f59c64b8bf37d34ee609ddc7811278"
+      },
+      "manifestSha256": "a9b853e01b61ab5a415204c48ff27f2a2eeb9172f0cf77febf4a6d5a7bc7c961",
+      "manifestUrl": "https://github.com/Tommy00748/dsh-theme-cyberpunk2077/blob/a3681ee431f59c64b8bf37d34ee609ddc7811278/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-theme-cyberpunk2077",
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1786873268,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tommy00748/dsh-theme-cyberpunk2077",
+              "commit": "a3681ee431f59c64b8bf37d34ee609ddc7811278"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-theme-cyberpunk2077",
+      "origin": "npm",
+      "name": "dsh-theme-cyberpunk2077",
+      "version": "0.1.3",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "84b08dc14d7310b1dfff8051713c7c6494232f0995da05ba584597b532986ceb"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-theme-cyberpunk2077",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tommy00748/dsh-theme-cyberpunk2077",
+    "commit": "a3681ee431f59c64b8bf37d34ee609ddc7811278",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:05.027Z"
+}

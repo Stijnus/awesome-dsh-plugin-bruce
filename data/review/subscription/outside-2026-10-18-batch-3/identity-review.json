@@ -1,0 +1,32 @@
+{
+  "host": "0.2.1-alpha.5",
+  "reviewed_at": "2026-10-18",
+  "policy": "人工复核 npm 身份；只有仓库归属、包名、README 目标及发布版本形成可追溯对应关系时才接受。身份确认不代表安全审查或实机兼容验收。",
+  "decisions": [
+    {
+      "repository": "xiaozhuyuqing/dsh-repeat-guard",
+      "decision": "accepted",
+      "basis": "npm maintainer xiao-zhu-yuqing corresponds to the GitHub owner, npm author is yuqing, and the package name, latest version, description and README target agree. npm omits repository/homepage."
+    },
+    {
+      "repository": "pbwheel/dsh-workbuddy-expert",
+      "decision": "accepted",
+      "basis": "The npm maintainer is exactly pbwheel, and the package name, latest version, description and README target agree. npm omits repository/homepage."
+    },
+    {
+      "repository": "ly6170/dsh-messager",
+      "decision": "accepted",
+      "basis": "The npm maintainer is exactly ly6170, and the package name, latest version, description and README target agree. npm omits repository/homepage."
+    },
+    {
+      "repository": "Victor-770/dsh-commandcode-provider",
+      "decision": "accepted",
+      "basis": "GitHub reports that the npm-recorded Kristin130 owner redirects to the current canonical Victor-770 repository; package name, version and README target agree."
+    },
+    {
+      "repository": "dsh-plugin-lab/dsh-workbuddy-bridge",
+      "decision": "accepted",
+      "basis": "GitHub reports that the npm-recorded zlZayn owner redirects to the current canonical dsh-plugin-lab repository; package name, version and README target agree."
+    }
+  ]
+}

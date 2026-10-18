@@ -1,0 +1,142 @@
+{
+  "full_name": "whitefirer/dsh-niulai-pet",
+  "originalPosition": 38,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 38,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:56.357Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a29f408201dc9371ad14c4646e73bbe8f170736a43a589e0bf861391a2c7001a",
+      "url": "https://github.com/whitefirer/dsh-niulai-pet/blob/0f1ffcd0c79ea313812bd2bd9591827f95994ada/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-niulai-pet",
+          "command": "dsh plugin --profile web add dsh-niulai-pet",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/whitefirer/dsh-niulai-pet",
+          "command": "dsh plugin --profile web add github:whitefirer/dsh-niulai-pet",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "6037d128389d435d2fa44f194c7399c800ce4c29d85999aa0e162337fe928055",
+      "url": "https://github.com/whitefirer/dsh-niulai-pet/blob/0f1ffcd0c79ea313812bd2bd9591827f95994ada/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-niulai-pet",
+          "command": "dsh plugin --profile web add dsh-niulai-pet",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/whitefirer/dsh-niulai-pet",
+          "command": "dsh plugin --profile web add github:whitefirer/dsh-niulai-pet",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-niulai-pet",
+      "version": "0.4.15",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/whitefirer/dsh-niulai-pet",
+        "commit": "0f1ffcd0c79ea313812bd2bd9591827f95994ada"
+      },
+      "manifestSha256": "2ecbe9460a526a41a7b9a6b9a42c74598d43555161f24e5993b4c50f930fd07c",
+      "manifestUrl": "https://github.com/whitefirer/dsh-niulai-pet/blob/0f1ffcd0c79ea313812bd2bd9591827f95994ada/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-niulai-pet",
+        "versions": [
+          {
+            "version": "0.4.15",
+            "publishTimestamp": 1792243542,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/whitefirer/dsh-niulai-pet",
+              "commit": "0f1ffcd0c79ea313812bd2bd9591827f95994ada"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-niulai-pet",
+      "origin": "npm",
+      "name": "dsh-niulai-pet",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-niulai-pet",
+        "title": "dsh-niulai-pet",
+        "description": "dsh web desktop pet: a Niulai calf that lives in the corner, hops around, and moos \"mama\" when an agent task completes (client-only plugin)",
+        "repository": {
+          "url": "https://github.com/whitefirer/dsh-niulai-pet"
+        },
+        "versions": [
+          {
+            "version": "0.4.15",
+            "publishTimestamp": 1792242595,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "41df2400d26568e82bd60b821646bdb24ee03d3973abf60995044857807c7813",
+      "evidence": [
+        {
+          "name": "dsh-niulai-pet",
+          "version": "0.4.15",
+          "tarball": "https://registry.npmjs.org/dsh-niulai-pet/-/dsh-niulai-pet-0.4.15.tgz",
+          "integrity": "sha512-AwMU9cD7BbSItBQ/VtHO8QaSQTWom+8gKshSTiLAddnv8vQCvR25eO1nNmresmeQMlMaJopSqP449G4I8ZTG2g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-niulai-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/whitefirer/dsh-niulai-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/whitefirer/dsh-niulai-pet",
+    "commit": "0f1ffcd0c79ea313812bd2bd9591827f95994ada",
+    "releaseTags": 11,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:31.430Z"
+}

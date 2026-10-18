@@ -1,0 +1,116 @@
+[
+  {
+    "repository": "x2802490130-prog/dsh-tool-writing",
+    "commit": "08a3e41164f94cde3de6f64ec42ac11c1cbf406e",
+    "outcome": "retry_required",
+    "eligibleRows": 0,
+    "explicitCompatible": false,
+    "unconstrained": false,
+    "decision": "no_eligible_bundle",
+    "note": "npm tarball dsh-tool-writing@0.8.1 的 package.json 名称与包名不一致；README 目标没有其它合格来源。",
+    "candidates": [],
+    "evidence": "repos/037.json"
+  },
+  {
+    "repository": "Horizon215/dsh-plugins",
+    "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+    "outcome": "template_or_example_review",
+    "eligibleRows": 5,
+    "explicitCompatible": false,
+    "unconstrained": true,
+    "decision": "template_or_example_review",
+    "note": "候选包名仍是 @your-scope/... 模板占位名，不能作为真实安装目标。",
+    "candidates": [
+      {
+        "name": "@your-scope/dsh-mode-switcher",
+        "target": null,
+        "origin": "repository_discovery",
+        "version": "0.1.0",
+        "range": null,
+        "path": "packages/mode-switcher",
+        "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1"
+      },
+      {
+        "name": "@your-scope/dsh-previously-on",
+        "target": null,
+        "origin": "repository_discovery",
+        "version": "0.2.5",
+        "range": null,
+        "path": "packages/previously-on",
+        "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1"
+      },
+      {
+        "name": "@your-scope/dsh-prompt-templates",
+        "target": null,
+        "origin": "repository_discovery",
+        "version": "0.1.0",
+        "range": null,
+        "path": "packages/prompt-templates",
+        "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1"
+      },
+      {
+        "name": "@your-scope/dsh-quest-mascot",
+        "target": null,
+        "origin": "repository_discovery",
+        "version": "0.1.1",
+        "range": null,
+        "path": "packages/quest-mascot",
+        "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1"
+      },
+      {
+        "name": "@your-scope/dsh-token-stats",
+        "target": null,
+        "origin": "repository_discovery",
+        "version": "0.1.0",
+        "range": null,
+        "path": "packages/token-stats",
+        "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1"
+      }
+    ],
+    "evidence": "repos/052.json"
+  },
+  {
+    "repository": "turtle1999/turtle-ui",
+    "commit": "b08ed69e4c4edbd0dcaba556fa7b5ea6cd0f91e2",
+    "outcome": "retry_required",
+    "eligibleRows": 1,
+    "explicitCompatible": false,
+    "unconstrained": false,
+    "decision": "incompatible_declared",
+    "note": "README 指向 deepseek-harness/turtle-ui（404）；仓库候选声明 ^0.0.1，不含 0.2.1-alpha.5。",
+    "candidates": [
+      {
+        "name": "@deepseek-ai/dsh-tui",
+        "target": null,
+        "origin": "repository_discovery",
+        "version": "0.0.1",
+        "range": "^0.0.1",
+        "path": null,
+        "commit": "b08ed69e4c4edbd0dcaba556fa7b5ea6cd0f91e2"
+      }
+    ],
+    "evidence": "repos/097.json"
+  },
+  {
+    "repository": "omdsh-dev/dsh-tool-calculator",
+    "commit": "b2007a13f06bcf75bf07b9d277ee8d434a316490",
+    "outcome": "retry_required",
+    "eligibleRows": 1,
+    "explicitCompatible": false,
+    "unconstrained": false,
+    "decision": "incompatible_declared",
+    "note": "README 中 https://github.com/omdsh-dev/... 为占位链接且不可访问；仓库候选声明 >=0.0.1-rc.1 <0.2.0，不含 0.2.1-alpha.5。",
+    "candidates": [
+      {
+        "name": "@deepseek-ai/dsh-tool-calculator",
+        "target": null,
+        "origin": "repository_discovery",
+        "version": "0.0.1",
+        "range": ">=0.0.1-rc.1 <0.2.0",
+        "path": null,
+        "commit": "b2007a13f06bcf75bf07b9d277ee8d434a316490"
+      }
+    ],
+    "evidence": "repos/159.json"
+  }
+]

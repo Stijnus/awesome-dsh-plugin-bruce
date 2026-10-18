@@ -1,0 +1,175 @@
+{
+  "full_name": "jingyi0605/Codingns4DSH",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:50.751Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "32b7daecb3d3fb0c06085b4c159496baa8977bd88d9fae688e431c5b916e570b",
+      "url": "https://github.com/jingyi0605/Codingns4DSH/blob/27b4c95065e9f3ae01d513c60673a871487257f3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jingyi0605/codingns4dsh@0.2.1-beta.14",
+          "command": "dsh plugin --profile web add @jingyi0605/codingns4dsh@0.2.1-beta.14",
+          "profile": "web"
+        },
+        {
+          "install": "@jingyi0605/codingns4dsh@0.2.1-beta.14",
+          "command": "dsh plugin --profile codingns add @jingyi0605/codingns4dsh@0.2.1-beta.14",
+          "profile": "codingns"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "03090a3a2669108ce3de4cc05bd273d3e25b81716f1c33695c85995b7f336d9a",
+      "url": "https://github.com/jingyi0605/Codingns4DSH/blob/27b4c95065e9f3ae01d513c60673a871487257f3/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jingyi0605/codingns4dsh@0.2.1-beta.14",
+          "command": "dsh plugin --profile web add @jingyi0605/codingns4dsh@0.2.1-beta.14",
+          "profile": "web"
+        },
+        {
+          "install": "@jingyi0605/codingns4dsh@0.2.1-beta.14",
+          "command": "dsh plugin --profile codingns add @jingyi0605/codingns4dsh@0.2.1-beta.14",
+          "profile": "codingns"
+        }
+      ]
+    },
+    {
+      "path": "specs/spec007.1-外部Agent适配器扩展/README.md",
+      "sha256": "a5565c89f2ec9dd3760ab771a200b10a362c3bb0508c923f1ebf88c86dd0d7af",
+      "url": "https://github.com/jingyi0605/Codingns4DSH/blob/27b4c95065e9f3ae01d513c60673a871487257f3/specs/spec007.1-外部Agent适配器扩展/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "sha256": "86865f700835a63bd7994b0eccee5def52e8a37f5b35a71d10f8b7ca2ce59f01",
+      "url": "https://github.com/jingyi0605/Codingns4DSH/blob/27b4c95065e9f3ae01d513c60673a871487257f3/assets/screenshots/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "specs/spec007.4-外部Agent团队协作与管理/README.md",
+      "sha256": "b47566e8c72bfbc8bb996c6a6643faa4b27e9985683f37ba0e1cdaf380c3c91a",
+      "url": "https://github.com/jingyi0605/Codingns4DSH/blob/27b4c95065e9f3ae01d513c60673a871487257f3/specs/spec007.4-外部Agent团队协作与管理/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "specs/spec016-快捷应用与受控静态HTTP托管/README.md",
+      "sha256": "b91f9cec619518e0af7501fbacf800b04ce34ede5623a6d9514d511137c39f4a",
+      "url": "https://github.com/jingyi0605/Codingns4DSH/blob/27b4c95065e9f3ae01d513c60673a871487257f3/specs/spec016-快捷应用与受控静态HTTP托管/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@jingyi0605/codingns4dsh",
+      "version": "0.2.1-beta.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jingyi0605/Codingns4DSH",
+        "commit": "27b4c95065e9f3ae01d513c60673a871487257f3"
+      },
+      "manifestSha256": "04c92d950aae943016c74c05095a6f5f8614a72ab4d5de70a168b70824d106c3",
+      "manifestUrl": "https://github.com/jingyi0605/Codingns4DSH/blob/27b4c95065e9f3ae01d513c60673a871487257f3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@jingyi0605/codingns4dsh",
+        "versions": [
+          {
+            "version": "0.2.1-beta.14",
+            "publishTimestamp": 1792235227,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jingyi0605/Codingns4DSH",
+              "commit": "27b4c95065e9f3ae01d513c60673a871487257f3"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@jingyi0605/codingns4dsh@0.2.1-beta.14",
+      "origin": "npm",
+      "name": "@jingyi0605/codingns4dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jingyi0605/codingns4dsh",
+        "title": "@jingyi0605/codingns4dsh",
+        "description": "为 DSH 集成多种编程 Agent、项目管理、智能助理与远程访问。",
+        "repository": {
+          "url": "https://github.com/jingyi0605/Codingns4DSH"
+        },
+        "versions": [
+          {
+            "version": "0.2.1-beta.14",
+            "publishTimestamp": 1792235879,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4948d5e4ef034ba9c882230becb5505edb35401b10d18356d4393d187ebf4a44",
+      "evidence": [
+        {
+          "name": "@jingyi0605/codingns4dsh",
+          "version": "0.2.1-beta.14",
+          "tarball": "https://registry.npmjs.org/@jingyi0605/codingns4dsh/-/codingns4dsh-0.2.1-beta.14.tgz",
+          "integrity": "sha512-hDzAAKgsBT+DmRETBD8LYAZaW1sSaulJey3TIxxDXQJAarPUJUCuUwuYr8Tro7Tp59rfMcVzxkEJlX3ZQ03EMA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jingyi0605/codingns4dsh@0.2.1-beta.14",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jingyi0605/Codingns4DSH",
+    "commit": "27b4c95065e9f3ae01d513c60673a871487257f3",
+    "releaseTags": 23,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:23.332Z"
+}

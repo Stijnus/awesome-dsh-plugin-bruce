@@ -1,0 +1,130 @@
+{
+  "full_name": "WeiyangPro/dsh-deepseek-usage-panel",
+  "originalPosition": 197,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 197,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:42.527Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bddffd323f0ecf50da56580bf79f96f47e58434439aac9c678bd816c7883d87e",
+      "url": "https://github.com/WeiyangPro/dsh-deepseek-usage-panel/blob/a2cba96e9a3ff495a68a8ad9ede025123710281b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepseek-usage-panel",
+          "command": "dsh plugin --profile web add dsh-deepseek-usage-panel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepseek-usage-panel",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WeiyangPro/dsh-deepseek-usage-panel",
+        "commit": "a2cba96e9a3ff495a68a8ad9ede025123710281b"
+      },
+      "manifestSha256": "57bf976593707e581a84bb368adb3c3c5c620031ee6377c08edfa358e4294667",
+      "manifestUrl": "https://github.com/WeiyangPro/dsh-deepseek-usage-panel/blob/a2cba96e9a3ff495a68a8ad9ede025123710281b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-deepseek-usage-panel",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1789659038,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WeiyangPro/dsh-deepseek-usage-panel",
+              "commit": "a2cba96e9a3ff495a68a8ad9ede025123710281b"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-deepseek-usage-panel",
+      "origin": "npm",
+      "name": "dsh-deepseek-usage-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-deepseek-usage-panel",
+        "title": "dsh-deepseek-usage-panel",
+        "description": "Floating macOS-glass DeepSeek usage panel for the DSH web UI: live official balance + token usage (today, session, 24 h smooth trend, per model) without opening platform.deepseek.com/usage. · DSH 毛玻璃用量面板：官方余额 + Token 用量",
+        "homepage": "https://github.com/WeiyangPro/dsh-usage-panel",
+        "repository": {
+          "url": "https://github.com/WeiyangPro/dsh-usage-panel"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "usage",
+            "balance",
+            "tokens",
+            "quota",
+            "panel",
+            "deepseek-harness",
+            "dsh-usage",
+            "web"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1789659012,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c7db6b5413288f79dfbc2030a3c8b4f0ce3d43f44a35bc905299f4c998e36111",
+      "evidence": [
+        {
+          "name": "dsh-deepseek-usage-panel",
+          "version": "0.2.3",
+          "tarball": "https://registry.npmjs.org/dsh-deepseek-usage-panel/-/dsh-deepseek-usage-panel-0.2.3.tgz",
+          "integrity": "sha512-QzAt6gtV/u4umkykBd0tiQATbkLWlaZ2zUvHdQSgQmMqRjBGIG81hVhwbvFgoYd5IbGcKKw4poQQ1BHIu3Oz7g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-deepseek-usage-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WeiyangPro/dsh-deepseek-usage-panel",
+    "commit": "a2cba96e9a3ff495a68a8ad9ede025123710281b",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:48.495Z"
+}

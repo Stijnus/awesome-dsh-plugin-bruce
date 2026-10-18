@@ -1,0 +1,124 @@
+{
+  "full_name": "dragonbaba/dsh-routing-suite",
+  "originalPosition": 13,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 13,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:17.771Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "07099e3a9c908f72ea12cc641b75df660e2324036899b54a82d33645144a9d18",
+      "url": "https://github.com/dragonbaba/dsh-routing-suite/blob/436bab5ff0a2346602591dbc67a43f723f6b67a8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-routing-suite",
+          "command": "dsh plugin --profile web add dsh-routing-suite",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-routing-suite",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dragonbaba/dsh-routing-suite",
+        "commit": "436bab5ff0a2346602591dbc67a43f723f6b67a8"
+      },
+      "manifestSha256": "7881ec4051caec03d58e7a8825c22e88d57d3d7a563e1624f50d3e4284d5cab8",
+      "manifestUrl": "https://github.com/dragonbaba/dsh-routing-suite/blob/436bab5ff0a2346602591dbc67a43f723f6b67a8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-routing-suite",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786816047,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dragonbaba/dsh-routing-suite",
+              "commit": "436bab5ff0a2346602591dbc67a43f723f6b67a8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-routing-suite",
+      "origin": "npm",
+      "name": "dsh-routing-suite",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-routing-suite",
+        "title": "dsh-routing-suite",
+        "description": "A lightweight, selectable smart-routing mode for DeepSeek Harness.",
+        "author": "rpg_zaun",
+        "homepage": "https://github.com/dragonbaba/dsh-routing-suite#readme",
+        "repository": {
+          "url": "https://github.com/dragonbaba/dsh-routing-suite"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh-plugin",
+            "agent",
+            "routing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786816164,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b96005fa8621cd9276543c918676af4d09588025295bcc5c57c7317e560fbc3b",
+      "evidence": [
+        {
+          "name": "dsh-routing-suite",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-routing-suite/-/dsh-routing-suite-0.1.2.tgz",
+          "integrity": "sha512-jo7SG3xlgsQ/D3Z+Rj/tzz5p+nE/40dFqr0t4csuWlYwz6HP2aa7vFl4oY8sl4gYflJCpscBTqIU7UZGbDZvkg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-routing-suite",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dragonbaba/dsh-routing-suite",
+    "commit": "436bab5ff0a2346602591dbc67a43f723f6b67a8",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:22.673Z"
+}

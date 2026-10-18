@@ -1,0 +1,65 @@
+{
+  "full_name": "KurohaneKaoruko/DSH-Novelist",
+  "originalPosition": 55,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 55,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:25.836Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b28955db8ae2a94a0c54e546c33e4709af64de73356bff626fa2a6a3a9f5f82d",
+      "url": "https://github.com/KurohaneKaoruko/DSH-Novelist/blob/b6433d3281351046cf381f1149a1c5cc3bcaf791/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-novelist",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KurohaneKaoruko/DSH-Novelist",
+        "commit": "b6433d3281351046cf381f1149a1c5cc3bcaf791"
+      },
+      "manifestSha256": "d7bcad993ea9416db5dfebdd30c548e0a6fadcfe0de19c9c84d85a7f92f5606e",
+      "manifestUrl": "https://github.com/KurohaneKaoruko/DSH-Novelist/blob/b6433d3281351046cf381f1149a1c5cc3bcaf791/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-novelist",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792253125,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KurohaneKaoruko/DSH-Novelist",
+              "commit": "b6433d3281351046cf381f1149a1c5cc3bcaf791"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KurohaneKaoruko/DSH-Novelist",
+    "commit": "b6433d3281351046cf381f1149a1c5cc3bcaf791",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:30.593Z"
+}

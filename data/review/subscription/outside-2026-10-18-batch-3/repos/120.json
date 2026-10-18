@@ -1,0 +1,160 @@
+{
+  "full_name": "Machine-126/dsh-alert-sound",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:45.664Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "80353189e001d1d7015b292dd8b8efd30f11c753211cbe3e4f6632133cdaa098",
+      "url": "https://github.com/Machine-126/dsh-alert-sound/blob/8ad6a3f45d74fdbb7066a8aeb753d6d1eef67f1a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@machine-126/dsh-alert-sound",
+          "command": "dsh plugin --profile web add @machine-126/dsh-alert-sound",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Machine-126/dsh-alert-sound",
+          "command": "dsh plugin --profile web add github:Machine-126/dsh-alert-sound",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "28d4cb48b892d00884ce8124f445a4e2275640a24d0ce657ee49de2e40df2ec5",
+      "url": "https://github.com/Machine-126/dsh-alert-sound/blob/8ad6a3f45d74fdbb7066a8aeb753d6d1eef67f1a/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@machine-126/dsh-alert-sound",
+          "command": "dsh plugin --profile web add @machine-126/dsh-alert-sound",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Machine-126/dsh-alert-sound",
+          "command": "dsh plugin --profile web add github:Machine-126/dsh-alert-sound",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@machine-126/dsh-alert-sound",
+      "version": "0.3.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Machine-126/dsh-alert-sound",
+        "commit": "8ad6a3f45d74fdbb7066a8aeb753d6d1eef67f1a"
+      },
+      "manifestSha256": "2766c2b419eec870e521d0b27772664ab03b112db982d90d9e9de4501e85e8a5",
+      "manifestUrl": "https://github.com/Machine-126/dsh-alert-sound/blob/8ad6a3f45d74fdbb7066a8aeb753d6d1eef67f1a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@machine-126/dsh-alert-sound",
+        "versions": [
+          {
+            "version": "0.3.16",
+            "publishTimestamp": 1791267810,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Machine-126/dsh-alert-sound",
+              "commit": "8ad6a3f45d74fdbb7066a8aeb753d6d1eef67f1a"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@machine-126/dsh-alert-sound",
+      "origin": "npm",
+      "name": "@machine-126/dsh-alert-sound",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@machine-126/dsh-alert-sound",
+        "title": "@machine-126/dsh-alert-sound",
+        "description": "DSH web GUI notification alerts: distinct synthesized tones or a spoken voice (zh/en) for 'needs approval', 'needs answer', 'output complete', 'error' and an experimental 'stalled' — with per-kind enable/sound/volume/preview, repeat-until-answered, do-not-disturb hours, browser system notifications, read-aloud of the final reply, uploaded custom sounds and an i18n (zh/en) settings page.",
+        "homepage": "https://github.com/Machine-126/dsh-alert-sound#readme",
+        "repository": {
+          "url": "https://github.com/Machine-126/dsh-alert-sound"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "notification",
+            "sound",
+            "chime",
+            "voice",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.16",
+            "publishTimestamp": 1791267313,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7ee4d83424962e10a1ec6b01985051382e00026742ee780b7771894bc626ed83",
+      "evidence": [
+        {
+          "name": "@machine-126/dsh-alert-sound",
+          "version": "0.3.16",
+          "tarball": "https://registry.npmjs.org/@machine-126/dsh-alert-sound/-/dsh-alert-sound-0.3.16.tgz",
+          "integrity": "sha512-FAZB67iDzQbtZKCKWUcZV1YtJPU3O0eBODPmS22L8/0efErOieeNN3mKisB+UX58XUNTL82IZ0hVb1lBKLbIGQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@machine-126/dsh-alert-sound",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Machine-126/dsh-alert-sound",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Machine-126/dsh-alert-sound",
+    "commit": "8ad6a3f45d74fdbb7066a8aeb753d6d1eef67f1a",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:50.883Z"
+}

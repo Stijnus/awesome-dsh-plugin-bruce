@@ -1,0 +1,121 @@
+{
+  "full_name": "starslittle/dsh-queue-plus",
+  "originalPosition": 108,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:30.714Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "441badf395cc44af187579b1ffb4f59b21b4387acdcfb2eeaf84e3d51c2c9964",
+      "url": "https://github.com/starslittle/dsh-queue-plus/blob/ed6448d4828d5fd5c3933dc3c1e08340b9fbc2f9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/starslittle/dsh-queue-plus/releases/download/v0.3.0/dsh-queue-plus-0.3.0.tgz",
+          "command": "dsh plugin --profile web add -w https://github.com/starslittle/dsh-queue-plus/releases/download/v0.3.0/dsh-queue-plus-0.3.0.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/starslittle/dsh-queue-plus#v0.3.0",
+          "command": "dsh plugin --profile web add github:starslittle/dsh-queue-plus#v0.3.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d3362aafa4e4d1bc7709f4ee0078af3dbc97b3a8e536b874c67c650fe952608e",
+      "url": "https://github.com/starslittle/dsh-queue-plus/blob/ed6448d4828d5fd5c3933dc3c1e08340b9fbc2f9/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/starslittle/dsh-queue-plus/releases/download/v0.3.0/dsh-queue-plus-0.3.0.tgz",
+          "command": "dsh plugin --profile web add -w https://github.com/starslittle/dsh-queue-plus/releases/download/v0.3.0/dsh-queue-plus-0.3.0.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/starslittle/dsh-queue-plus#v0.3.0",
+          "command": "dsh plugin --profile web add github:starslittle/dsh-queue-plus#v0.3.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-queue-plus",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/starslittle/dsh-queue-plus",
+        "commit": "ed6448d4828d5fd5c3933dc3c1e08340b9fbc2f9"
+      },
+      "manifestSha256": "102652f5e8a7a7cf9cd98ffc94e2fa0f57b4d3ed048e6da4010bd17204b3f08f",
+      "manifestUrl": "https://github.com/starslittle/dsh-queue-plus/blob/ed6448d4828d5fd5c3933dc3c1e08340b9fbc2f9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-queue-plus",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1786863675,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/starslittle/dsh-queue-plus",
+              "commit": "ed6448d4828d5fd5c3933dc3c1e08340b9fbc2f9"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/starslittle/dsh-queue-plus/releases/download/v0.3.0/dsh-queue-plus-0.3.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/starslittle/dsh-queue-plus#v0.3.0",
+      "status": "mapping_needs_review",
+      "code": "git_ref_not_found",
+      "reason": "指定 Git 引用不存在"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/starslittle/dsh-queue-plus/releases/download/v0.3.0/dsh-queue-plus-0.3.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/starslittle/dsh-queue-plus#v0.3.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/starslittle/dsh-queue-plus",
+    "commit": "ed6448d4828d5fd5c3933dc3c1e08340b9fbc2f9",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:37.521Z"
+}

@@ -1,0 +1,217 @@
+{
+  "full_name": "LAN-TINA-WS/dsh-gui-customization",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:44.482Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d16a5ffacf87b4d4607b769c565516d2048fef08ebaef143764815ed37bd4d4c",
+      "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization/blob/ddfa614695b4b5d5eb49dbb832134048162318c1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LAN-TINA-WS/dsh-gui-customization#path:packages/dsh-gui-customization",
+          "command": "dsh plugin --profile web add github:LAN-TINA-WS/dsh-gui-customization#path:packages/dsh-gui-customization",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-gui-customization",
+          "command": "dsh plugin --profile web add dsh-gui-customization",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "01380b1ed7d385b9b577c2861fab6da0c49d3aca1bf2134bdb4c3d5f32749c34",
+      "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization/blob/ddfa614695b4b5d5eb49dbb832134048162318c1/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LAN-TINA-WS/dsh-gui-customization#path:packages/dsh-gui-customization",
+          "command": "dsh plugin --profile web add github:LAN-TINA-WS/dsh-gui-customization#path:packages/dsh-gui-customization",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-gui-customization",
+          "command": "dsh plugin --profile web add dsh-gui-customization",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-gui-customization/README.md",
+      "sha256": "88526ff7f89f187cdb940f0e385a02dada0cc099ebdd8514efdba38897ca17dc",
+      "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization/blob/ddfa614695b4b5d5eb49dbb832134048162318c1/packages/dsh-gui-customization/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-gui-customization",
+      "version": "0.6.5",
+      "path": "packages/dsh-gui-customization",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization",
+        "commit": "ddfa614695b4b5d5eb49dbb832134048162318c1",
+        "path": "packages/dsh-gui-customization"
+      },
+      "manifestSha256": "06d4415c69b0d822f3c4dc3a1200fa9dc1b1a716d51e235048b946c4d2216fb0",
+      "manifestUrl": "https://github.com/LAN-TINA-WS/dsh-gui-customization/blob/ddfa614695b4b5d5eb49dbb832134048162318c1/packages/dsh-gui-customization/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-gui-customization",
+        "versions": [
+          {
+            "version": "0.6.5",
+            "publishTimestamp": 1790737938,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization",
+              "commit": "ddfa614695b4b5d5eb49dbb832134048162318c1",
+              "path": "packages/dsh-gui-customization"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/LAN-TINA-WS/dsh-gui-customization#path:packages/dsh-gui-customization",
+      "origin": "git_target",
+      "name": "dsh-gui-customization",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-gui-customization",
+        "title": "dsh-gui-customization",
+        "description": "DSH theme plugin for the DeepSeek Harness Web UI: Nous Blue palette, ambient glow, dynamic image/video backgrounds. DSH 界面设定插件：配色 / 氛围光 / 动态背景（中英双语）",
+        "homepage": "https://github.com/LAN-TINA-WS/dsh-gui-customization#readme",
+        "repository": {
+          "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization",
+          "directory": "packages/dsh-gui-customization"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "theme",
+            "skin",
+            "gui",
+            "background",
+            "video"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.5",
+            "publishTimestamp": 1790737938,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization",
+              "commit": "ddfa614695b4b5d5eb49dbb832134048162318c1",
+              "path": "packages/dsh-gui-customization"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "packages/dsh-gui-customization",
+          "commit": "ddfa614695b4b5d5eb49dbb832134048162318c1",
+          "name": "dsh-gui-customization",
+          "version": "0.6.5",
+          "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization",
+          "manifestSha256": "06d4415c69b0d822f3c4dc3a1200fa9dc1b1a716d51e235048b946c4d2216fb0",
+          "publishTimestamp": 1790737938
+        }
+      ]
+    },
+    {
+      "target": "dsh-gui-customization",
+      "origin": "npm",
+      "name": "dsh-gui-customization",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-gui-customization",
+        "title": "dsh-gui-customization",
+        "description": "DSH theme plugin for the DeepSeek Harness Web UI: Nous Blue palette, ambient glow, dynamic image/video backgrounds. DSH 界面设定插件：配色 / 氛围光 / 动态背景（中英双语）",
+        "homepage": "https://github.com/LAN-TINA-WS/dsh-gui-customization#readme",
+        "repository": {
+          "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization",
+          "directory": "packages/dsh-gui-customization"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "theme",
+            "skin",
+            "gui",
+            "background",
+            "video"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.5",
+            "publishTimestamp": 1790740562,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1ec656633be045087d8174cda6161464884e2a3e1209d0d301aabc8fe637bbbd",
+      "evidence": [
+        {
+          "name": "dsh-gui-customization",
+          "version": "0.6.5",
+          "tarball": "https://registry.npmjs.org/dsh-gui-customization/-/dsh-gui-customization-0.6.5.tgz",
+          "integrity": "sha512-E8VCkfaR0VKEcYYloIyDAPjiYfyUng/LMlsoXLYileKP/qg5wAt5wUS+5W6R0kv1JYlGAIxXsspPzZKA/BE+UA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LAN-TINA-WS/dsh-gui-customization#path:packages/dsh-gui-customization",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-gui-customization",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization",
+    "commit": "ddfa614695b4b5d5eb49dbb832134048162318c1",
+    "releaseTags": 16,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:01.002Z"
+}

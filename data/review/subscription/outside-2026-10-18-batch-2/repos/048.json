@@ -1,0 +1,73 @@
+{
+  "full_name": "amplifthq/oh-my-dsh",
+  "originalPosition": 48,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 48,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:15.181Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b978a78d7dafe61f22cc8f5a74d65312eb6fcef945607d35523ad6d5c39cd90a",
+      "url": "https://github.com/amplifthq/oh-my-dsh/blob/ff620e9a498778174966a4066389bdb8cf9121ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "fdb5a3dba26623de682e3e13b9bf70ce8fcd8ba4606047d959794d055580d02e",
+      "url": "https://github.com/amplifthq/oh-my-dsh/blob/ff620e9a498778174966a4066389bdb8cf9121ce/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "oh-my-dsh",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/amplifthq/oh-my-dsh",
+        "commit": "ff620e9a498778174966a4066389bdb8cf9121ce"
+      },
+      "manifestSha256": "3f578b49e11a6b1fb8e823d6a53287557c3669c14bcb8a9074c23f3a9f816850",
+      "manifestUrl": "https://github.com/amplifthq/oh-my-dsh/blob/ff620e9a498778174966a4066389bdb8cf9121ce/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "oh-my-dsh",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1787246031,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/amplifthq/oh-my-dsh",
+              "commit": "ff620e9a498778174966a4066389bdb8cf9121ce"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/amplifthq/oh-my-dsh",
+    "commit": "ff620e9a498778174966a4066389bdb8cf9121ce",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:20.808Z"
+}

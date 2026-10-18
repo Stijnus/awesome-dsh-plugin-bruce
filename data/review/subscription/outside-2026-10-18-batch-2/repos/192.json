@@ -1,0 +1,142 @@
+{
+  "full_name": "ChenYiming-aaa/dsh-ui-ux-pro-max",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:37.522Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7f5326a8be1c74aff2839407fdfc72e3e517db9078d8cc8579e8ceb644ad861b",
+      "url": "https://github.com/ChenYiming-aaa/dsh-ui-ux-pro-max/blob/29aba59dac68dca5c8d6bf285abe70157344f99f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ui-ux-pro-max@1.1.1",
+          "command": "dsh plugin --profile desktop add --save-exact dsh-ui-ux-pro-max@1.1.1",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-ui-ux-pro-max@1.1.1",
+          "command": "dsh plugin --profile web add --save-exact dsh-ui-ux-pro-max@1.1.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ui-ux-pro-max",
+      "version": "1.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ChenYiming-aaa/dsh-ui-ux-pro-max",
+        "commit": "29aba59dac68dca5c8d6bf285abe70157344f99f"
+      },
+      "manifestSha256": "b4dda53a0aec3b0a668a0bd6b89593adfbc21987afe2f89c0ea97ea63bcf76eb",
+      "manifestUrl": "https://github.com/ChenYiming-aaa/dsh-ui-ux-pro-max/blob/29aba59dac68dca5c8d6bf285abe70157344f99f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.1 <0.2.0-0 || >=0.1.1-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ui-ux-pro-max",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1792249441,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ChenYiming-aaa/dsh-ui-ux-pro-max",
+              "commit": "29aba59dac68dca5c8d6bf285abe70157344f99f"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1 <0.2.0-0 || >=0.1.1-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ui-ux-pro-max@1.1.1",
+      "origin": "npm",
+      "name": "dsh-ui-ux-pro-max",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ui-ux-pro-max",
+        "title": "dsh-ui-ux-pro-max",
+        "description": "UI/UX 设计智能库插件：内置 84 种设计风格、192 个调色板、74 组字体搭配、99 条 UX 规范、25 种图表类型与 22 个技术栈，提供 design_recommend / design_review / design_search 三个模型工具。数据库完全内置、离线可用、中文优先。 / UI/UX design intelligence plugin for DeepSeek Harness: 84 styles, 192 palettes, 74 font pairings, 99 UX guidelines, 25 chart types, 22 stacks. Offline-first, Chinese-first design_recommend / design_review / design_search tools.",
+        "homepage": "https://github.com/ChenYiming-aaa/dsh-ui-ux-pro-max",
+        "repository": {
+          "url": "https://github.com/ChenYiming-aaa/dsh-ui-ux-pro-max"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "ui-ux-pro-max",
+            "design-system",
+            "ui-ux",
+            "design-tokens",
+            "ux-review",
+            "color-palette",
+            "typography",
+            "accessibility",
+            "charts",
+            "offline",
+            "中文"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1792251965,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1 <0.2.0-0 || >=0.1.1-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1c66170bfa296fc3f97528f7654cac2dea440352b1490fc892df87421d6ee446",
+      "evidence": [
+        {
+          "name": "dsh-ui-ux-pro-max",
+          "version": "1.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-ui-ux-pro-max/-/dsh-ui-ux-pro-max-1.1.1.tgz",
+          "integrity": "sha512-CDMcPKVjmNsj0Kh9UEvY+4jcbkLczjZ//4IKZbd3JWjm13JIgdPSyWR//Wti3KGJ/4kga/SgbX8kSsnWYLEv/w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ui-ux-pro-max@1.1.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ChenYiming-aaa/dsh-ui-ux-pro-max",
+    "commit": "29aba59dac68dca5c8d6bf285abe70157344f99f",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:45.727Z"
+}

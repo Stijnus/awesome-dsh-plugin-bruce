@@ -1,0 +1,91 @@
+{
+  "full_name": "hackerFish/dsh-video-studio",
+  "originalPosition": 79,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 79,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:56.261Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "948a72ed4712b6c584e99f9a9789d17f866098f7903fcdf4c695e8525a788c54",
+      "url": "https://github.com/hackerFish/dsh-video-studio/blob/36198b88de34899083be8def3b97b25afe84b153/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/hackerFish/dsh-video-studio",
+          "command": "dsh plugin --profile web add github:hackerFish/dsh-video-studio --ignore-workspace-root-check",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "bbd3720a3bae6dd483d51086f900b9b83b0b718a4cc5c3d1cd45e50d83906aa2",
+      "url": "https://github.com/hackerFish/dsh-video-studio/blob/36198b88de34899083be8def3b97b25afe84b153/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/hackerFish/dsh-video-studio",
+          "command": "dsh plugin --profile web add github:hackerFish/dsh-video-studio --ignore-workspace-root-check",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@hackerfish/dsh-video-studio",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hackerFish/dsh-video-studio",
+        "commit": "36198b88de34899083be8def3b97b25afe84b153"
+      },
+      "manifestSha256": "261461b6fd64cd6cace68faca9bf6d831254ac0c312b118ad7684f3d8b05ffb5",
+      "manifestUrl": "https://github.com/hackerFish/dsh-video-studio/blob/36198b88de34899083be8def3b97b25afe84b153/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@hackerfish/dsh-video-studio",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788535846,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hackerFish/dsh-video-studio",
+              "commit": "36198b88de34899083be8def3b97b25afe84b153"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/hackerFish/dsh-video-studio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hackerFish/dsh-video-studio",
+    "commit": "36198b88de34899083be8def3b97b25afe84b153",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:02.707Z"
+}

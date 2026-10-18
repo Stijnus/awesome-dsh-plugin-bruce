@@ -1,0 +1,91 @@
+{
+  "full_name": "Yiheng-guo/dsh-boot-animation-pro",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:42.797Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d2162e49407730a132859cfabce21d160ecaa44c058dfb1ccf010f35e0304fc8",
+      "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro/blob/0e6a9287fa9c92af569e9f7ad95683a77bf6a1e9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
+          "command": "dsh plugin --profile web add github:Yiheng-guo/dsh-boot-animation-pro",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "50f54525d36fcc2ab7f859dcbe64b57742a2f39755aa76c2c43802db78f99b83",
+      "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro/blob/0e6a9287fa9c92af569e9f7ad95683a77bf6a1e9/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
+          "command": "dsh plugin --profile web add github:Yiheng-guo/dsh-boot-animation-pro",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-boot-animation-pro",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
+        "commit": "0e6a9287fa9c92af569e9f7ad95683a77bf6a1e9"
+      },
+      "manifestSha256": "594bb77ed78cbf5650b9dc6f2973185b3d3da73b4dd38208392bfcc0c3883167",
+      "manifestUrl": "https://github.com/Yiheng-guo/dsh-boot-animation-pro/blob/0e6a9287fa9c92af569e9f7ad95683a77bf6a1e9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-boot-animation-pro",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1790777233,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
+              "commit": "0e6a9287fa9c92af569e9f7ad95683a77bf6a1e9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
+    "commit": "0e6a9287fa9c92af569e9f7ad95683a77bf6a1e9",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:51.019Z"
+}

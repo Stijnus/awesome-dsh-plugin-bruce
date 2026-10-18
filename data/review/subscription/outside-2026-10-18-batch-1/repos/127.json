@@ -1,0 +1,155 @@
+{
+  "full_name": "hyqhyq3/dsh-mcp-manager",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:01.822Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dff499294b7289274e899d64b9a514311dcfd10bfefe2578d8237008d473e6f2",
+      "url": "https://github.com/hyqhyq3/dsh-mcp-manager/blob/ac6e43089aba96b693a84829c3b7199f6eed63b5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/hyqhyq3/dsh-mcp-manager",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:hyqhyq3/dsh-mcp-manager",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hyqhyq3/dsh-mcp-manager#v0.13.0",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:hyqhyq3/dsh-mcp-manager#v0.13.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "667a245274175cdce7d54e889490a97c43b09a0748ad8a8074f8c80c64e262ea",
+      "url": "https://github.com/hyqhyq3/dsh-mcp-manager/blob/ac6e43089aba96b693a84829c3b7199f6eed63b5/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/hyqhyq3/dsh-mcp-manager",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:hyqhyq3/dsh-mcp-manager",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hyqhyq3/dsh-mcp-manager#v0.13.0",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:hyqhyq3/dsh-mcp-manager#v0.13.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mcp-manager",
+      "version": "0.13.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hyqhyq3/dsh-mcp-manager",
+        "commit": "ac6e43089aba96b693a84829c3b7199f6eed63b5"
+      },
+      "manifestSha256": "f0bbb989ce58d6c68476af1215e942a1779324301b16b305ba4c71f5ab8b00c0",
+      "manifestUrl": "https://github.com/hyqhyq3/dsh-mcp-manager/blob/ac6e43089aba96b693a84829c3b7199f6eed63b5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-mcp-manager",
+        "versions": [
+          {
+            "version": "0.13.0",
+            "publishTimestamp": 1791684944,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hyqhyq3/dsh-mcp-manager",
+              "commit": "ac6e43089aba96b693a84829c3b7199f6eed63b5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/hyqhyq3/dsh-mcp-manager#v0.13.0",
+      "origin": "git_target",
+      "name": "dsh-mcp-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mcp-manager",
+        "title": "dsh-mcp-manager",
+        "description": "MCP server manager for DeepSeek Harness: OAuth/stdio servers, workspace isolation, and an opt-in on-demand tool broker",
+        "repository": {
+          "url": "https://github.com/hyqhyq3/dsh-mcp-manager"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "deepseek",
+            "mcp",
+            "model-context-protocol",
+            "oauth",
+            "stdio",
+            "dsh-plugin",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.13.0",
+            "publishTimestamp": 1791432879,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hyqhyq3/dsh-mcp-manager",
+              "commit": "d1af71528683751b0b610035c9dcbd4a29d7414b"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "d1af71528683751b0b610035c9dcbd4a29d7414b",
+          "name": "dsh-mcp-manager",
+          "version": "0.13.0",
+          "url": "https://github.com/hyqhyq3/dsh-mcp-manager",
+          "manifestSha256": "f0bbb989ce58d6c68476af1215e942a1779324301b16b305ba4c71f5ab8b00c0",
+          "publishTimestamp": 1791432879
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/hyqhyq3/dsh-mcp-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/hyqhyq3/dsh-mcp-manager#v0.13.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hyqhyq3/dsh-mcp-manager",
+    "commit": "ac6e43089aba96b693a84829c3b7199f6eed63b5",
+    "releaseTags": 17,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:10.883Z"
+}

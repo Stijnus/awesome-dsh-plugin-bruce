@@ -1,0 +1,125 @@
+{
+  "full_name": "MrMu666/dsh-lan-tool",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:15.795Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f6364b7c29bf3c4387d583ae910016703cfe54f1d037e287ed02513bf59b81b5",
+      "url": "https://github.com/MrMu666/dsh-lan-tool/blob/5fa452de627fbc9feb42e5f8e11dc5cc869960db/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-lan-tool",
+          "command": "dsh plugin --profile desktop add dsh-lan-tool",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lan-tool",
+      "version": "1.5.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MrMu666/dsh-lan-tool",
+        "commit": "5fa452de627fbc9feb42e5f8e11dc5cc869960db"
+      },
+      "manifestSha256": "b3ca74fe7fb0cdfe88a6d4bc91f207adb283dabd25481ea2994101e5df5e913f",
+      "manifestUrl": "https://github.com/MrMu666/dsh-lan-tool/blob/5fa452de627fbc9feb42e5f8e11dc5cc869960db/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-lan-tool",
+        "versions": [
+          {
+            "version": "1.5.6",
+            "publishTimestamp": 1792246686,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MrMu666/dsh-lan-tool",
+              "commit": "5fa452de627fbc9feb42e5f8e11dc5cc869960db"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-lan-tool",
+      "origin": "npm",
+      "name": "dsh-lan-tool",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-lan-tool",
+        "title": "dsh-lan-tool",
+        "description": "LAN access for the DeepSeek Harness Web GUI: a password-gated LAN channel whose on/off switch lives in Settings (no install scripts, no password prompt at install time). Serves the LAN from the plugin's own reverse proxy, so DSH's listener stays on loopback.",
+        "homepage": "https://github.com/MrMu666/dsh-lan-tool#readme",
+        "repository": {
+          "url": "https://github.com/MrMu666/dsh-lan-tool"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "bundle",
+            "lan",
+            "remote",
+            "web-gui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.5.6",
+            "publishTimestamp": 1792246774,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "862ea0a0e88eab874c9500bb719e784cae1984a2175b944ea1871c0fd93796d6",
+      "evidence": [
+        {
+          "name": "dsh-lan-tool",
+          "version": "1.5.6",
+          "tarball": "https://registry.npmjs.org/dsh-lan-tool/-/dsh-lan-tool-1.5.6.tgz",
+          "integrity": "sha512-JYWcNjbukaL3MuDuNb6I+FGI+ENld0eXKjhMPe04SUu7anuxpFSYhRzODLt60PHfhgrTNaK6QCvfsuNJeqBgLA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-lan-tool",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MrMu666/dsh-lan-tool",
+    "commit": "5fa452de627fbc9feb42e5f8e11dc5cc869960db",
+    "releaseTags": 31,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:22.811Z"
+}

@@ -1,0 +1,85 @@
+{
+  "full_name": "Tisitan/dsh-live2d-companion",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:45.089Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0d7b3e706fb9caabd2c44573a875cf05953b60187900e137c08450460a433d2e",
+      "url": "https://github.com/Tisitan/dsh-live2d-companion/blob/f434346e13a42a2d1e9f063c1e837f577f268997/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Tisitan/dsh-live2d-companion",
+          "command": "dsh plugin --profile web add github:Tisitan/dsh-live2d-companion",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "standalone/README.md",
+      "sha256": "06a4057484fb8eda2a9bbedd254074d0a3b0434ad9634b3bd8dad434cdfd235e",
+      "url": "https://github.com/Tisitan/dsh-live2d-companion/blob/f434346e13a42a2d1e9f063c1e837f577f268997/standalone/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-live2d-companion",
+      "version": "1.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tisitan/dsh-live2d-companion",
+        "commit": "f434346e13a42a2d1e9f063c1e837f577f268997"
+      },
+      "manifestSha256": "6b1e7eebefda9b55593334646fd92be4b2b7195996d22fd4933927b7187e23a5",
+      "manifestUrl": "https://github.com/Tisitan/dsh-live2d-companion/blob/f434346e13a42a2d1e9f063c1e837f577f268997/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-live2d-companion",
+        "versions": [
+          {
+            "version": "1.2.1",
+            "publishTimestamp": 1790258968,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tisitan/dsh-live2d-companion",
+              "commit": "f434346e13a42a2d1e9f063c1e837f577f268997"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Tisitan/dsh-live2d-companion",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tisitan/dsh-live2d-companion",
+    "commit": "f434346e13a42a2d1e9f063c1e837f577f268997",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:50.462Z"
+}

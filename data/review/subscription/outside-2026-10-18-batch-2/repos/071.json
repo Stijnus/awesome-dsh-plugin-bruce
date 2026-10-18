@@ -1,0 +1,145 @@
+{
+  "full_name": "beihzb/dsh-opencode-session-header",
+  "originalPosition": 71,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 71,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:47.643Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "09fdc7067c2bac748afbd9f949473b80a2bd8aaed11fc69ac8eb90d3cf8c8375",
+      "url": "https://github.com/beihzb/dsh-opencode-session-header/blob/e471b82a3ef26aeba8b4a5fa45e188733c14e720/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-opencode-session-header",
+          "command": "dsh plugin --profile web add dsh-opencode-session-header",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "82fec1fd13c7a1c718dac99227f1f9e051dd5af2f9361763d0886b3bf9328cec",
+      "url": "https://github.com/beihzb/dsh-opencode-session-header/blob/e471b82a3ef26aeba8b4a5fa45e188733c14e720/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-opencode-session-header",
+          "command": "dsh plugin --profile web add dsh-opencode-session-header",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-session-header",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/beihzb/dsh-opencode-session-header",
+        "commit": "e471b82a3ef26aeba8b4a5fa45e188733c14e720"
+      },
+      "manifestSha256": "738444d09407edb1f8daa03a45e68870b3ae81140de1eaab8c65e67bb95206fc",
+      "manifestUrl": "https://github.com/beihzb/dsh-opencode-session-header/blob/e471b82a3ef26aeba8b4a5fa45e188733c14e720/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-opencode-session-header",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788785519,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/beihzb/dsh-opencode-session-header",
+              "commit": "e471b82a3ef26aeba8b4a5fa45e188733c14e720"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-opencode-session-header",
+      "origin": "npm",
+      "name": "dsh-opencode-session-header",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-opencode-session-header",
+        "title": "dsh-opencode-session-header",
+        "description": "Per-conversation x-opencode-session header injection for OpenCode Go in DeepSeek Harness (DSH). Fixes 400 MissingSessionID, keeps prompt-cache routing optimal, scoped strictly to opencode.ai, runtime-switchable without restart.",
+        "author": "beihzb",
+        "homepage": "https://github.com/beihzb/dsh-opencode-session-header#readme",
+        "repository": {
+          "url": "https://github.com/beihzb/dsh-opencode-session-header"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "opencode",
+            "opencode-go",
+            "opencode-zen",
+            "x-opencode-session",
+            "missing-session-id",
+            "prompt-caching",
+            "header-injection",
+            "coding-agent",
+            "llm-gateway"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788785758,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ef7c04f6a2de56cea4ebf24eb58105a9abc9059167c293570241c5bf39f33acd",
+      "evidence": [
+        {
+          "name": "dsh-opencode-session-header",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-opencode-session-header/-/dsh-opencode-session-header-0.1.0.tgz",
+          "integrity": "sha512-F0JUVoXs5/z8L2gLperzTbzcletIXSw0+jHiZduhkWz3WR6RE9wz6STSIM4MmvqtBnXJroKsPJXZt4hif2oYNA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-opencode-session-header",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/beihzb/dsh-opencode-session-header",
+    "commit": "e471b82a3ef26aeba8b4a5fa45e188733c14e720",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:52.492Z"
+}

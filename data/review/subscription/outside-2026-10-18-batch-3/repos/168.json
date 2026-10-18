@@ -1,0 +1,142 @@
+{
+  "full_name": "stuarthu/dsh-chrome",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:47.073Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eb712c1544b27b30511670a21c7b9ccf45d8ef045ecededb53eac4d9ae417a59",
+      "url": "https://github.com/stuarthu/dsh-chrome/blob/1c15b3caa4d4c2ceac74a2bf049a590186a3f88f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chrome",
+          "command": "dsh plugin --profile web add dsh-chrome",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "642ced42eb3aa284b2b4845b676dc7951021e98ad33df7e55aeb8ca5f89bc0cf",
+      "url": "https://github.com/stuarthu/dsh-chrome/blob/1c15b3caa4d4c2ceac74a2bf049a590186a3f88f/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chrome",
+          "command": "dsh plugin --profile web add dsh-chrome",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chrome",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/stuarthu/dsh-chrome",
+        "commit": "1c15b3caa4d4c2ceac74a2bf049a590186a3f88f"
+      },
+      "manifestSha256": "73a594b4373625a6a8a7d675ee929467171c07d26b8077db4db14500f3dfc20e",
+      "manifestUrl": "https://github.com/stuarthu/dsh-chrome/blob/1c15b3caa4d4c2ceac74a2bf049a590186a3f88f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chrome",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1787384993,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/stuarthu/dsh-chrome",
+              "commit": "1c15b3caa4d4c2ceac74a2bf049a590186a3f88f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-chrome",
+      "origin": "npm",
+      "name": "dsh-chrome",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-chrome",
+        "title": "dsh-chrome",
+        "description": "DeepSeek Harness (dsh) browser companion: a Chrome side panel that embeds the full dsh web UI and lets the dsh agent read the current page, capture HTTP traffic, and drive the browser.",
+        "author": "Stuart Hu",
+        "homepage": "https://github.com/stuarthu/dsh-chrome#readme",
+        "repository": {
+          "url": "https://github.com/stuarthu/dsh-chrome"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek-harness-plugin",
+            "chrome",
+            "chrome-extension",
+            "browser",
+            "browser-agent",
+            "browser-automation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1786865598,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b61993d2da3085536791f69cf577a9d5b16cb500cb113b0f2f63acd52f0f022d",
+      "evidence": [
+        {
+          "name": "dsh-chrome",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-chrome/-/dsh-chrome-0.1.3.tgz",
+          "integrity": "sha512-wv+mkQ30Y2S9TWSqkTqlKK+UC2TOt1TVysAoFImtwUzZAPb+HudcxKyvY3yks0lcZIj2o7zfr2SMtdkfb7/Xfw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-chrome",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/stuarthu/dsh-chrome",
+    "commit": "1c15b3caa4d4c2ceac74a2bf049a590186a3f88f",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:52.246Z"
+}

@@ -1,0 +1,219 @@
+{
+  "full_name": "XMoon/dsh-pi-tui",
+  "originalPosition": 198,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 198,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:48.054Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "92afc6c0d8249cd94938df218b374f2cac0b8eedbf5ab23f1bf6ada317704407",
+      "url": "https://github.com/XMoon/dsh-pi-tui/blob/ab0b45715c678d0a12b8eb6f347875e0139b0085/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xmoon76/dsh-pi-tui@latest",
+          "command": "dsh plugin --profile pi-tui -- add @xmoon76/dsh-pi-tui@latest",
+          "profile": "pi-tui"
+        },
+        {
+          "install": "@xmoon76/dsh-pi-tui@next",
+          "command": "dsh plugin --profile pi-tui -- add @xmoon76/dsh-pi-tui@next",
+          "profile": "pi-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "fe806585267a49aca3390aa3fb0d99ff792d6c71c0c79fb8c9aae8c820668cca",
+      "url": "https://github.com/XMoon/dsh-pi-tui/blob/ab0b45715c678d0a12b8eb6f347875e0139b0085/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xmoon76/dsh-pi-tui@latest",
+          "command": "dsh plugin --profile pi-tui -- add @xmoon76/dsh-pi-tui@latest",
+          "profile": "pi-tui"
+        },
+        {
+          "install": "@xmoon76/dsh-pi-tui@next",
+          "command": "dsh plugin --profile pi-tui -- add @xmoon76/dsh-pi-tui@next",
+          "profile": "pi-tui"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "cadf3a45f2fb203a931ee4e0680d1503e8c8863994dad401c7c2698c9bb50ec6",
+      "url": "https://github.com/XMoon/dsh-pi-tui/blob/ab0b45715c678d0a12b8eb6f347875e0139b0085/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xmoon76/dsh-pi-tui",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XMoon/dsh-pi-tui",
+        "commit": "ab0b45715c678d0a12b8eb6f347875e0139b0085"
+      },
+      "manifestSha256": "ef80d1207fada642a2ee01921f5eeffb0ae351601eb29bffc0843da0ef551635",
+      "manifestUrl": "https://github.com/XMoon/dsh-pi-tui/blob/ab0b45715c678d0a12b8eb6f347875e0139b0085/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@xmoon76/dsh-pi-tui",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1791457736,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XMoon/dsh-pi-tui",
+              "commit": "ab0b45715c678d0a12b8eb6f347875e0139b0085"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@xmoon76/dsh-pi-tui@latest",
+      "origin": "npm",
+      "name": "@xmoon76/dsh-pi-tui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@xmoon76/dsh-pi-tui",
+        "title": "@xmoon76/dsh-pi-tui",
+        "description": "The dsh-pi-tui bundle: a TUI surface for DeepSeek Harness profiles (dsh --profile pi-tui)",
+        "author": "XMoon",
+        "homepage": "https://github.com/XMoon/dsh-pi-tui#readme",
+        "repository": {
+          "url": "https://github.com/XMoon/dsh-pi-tui"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "tui",
+            "terminal",
+            "cordis",
+            "cli"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1791457560,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "689715435b0e2d559d40b2cc4e16e0da5bb55cf2c8e9cee91d74fb7a7b448a3f",
+      "evidence": [
+        {
+          "name": "@xmoon76/dsh-pi-tui",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/@xmoon76/dsh-pi-tui/-/dsh-pi-tui-0.5.1.tgz",
+          "integrity": "sha512-DujR8KAzoXQnoiiDDoN1Q5SxxQ+9wrwjlmuQwulwRoWxD33B0HqbHfmiNjg0iA5HrpE4cx5qzRNHKy4LhMG+6Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@xmoon76/dsh-pi-tui@next",
+      "origin": "npm",
+      "name": "@xmoon76/dsh-pi-tui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@xmoon76/dsh-pi-tui",
+        "title": "@xmoon76/dsh-pi-tui",
+        "description": "The dsh-pi-tui bundle: a TUI surface for DeepSeek Harness profiles (dsh --profile pi-tui)",
+        "author": "XMoon",
+        "homepage": "https://github.com/XMoon/dsh-pi-tui#readme",
+        "repository": {
+          "url": "https://github.com/XMoon/dsh-pi-tui"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "tui",
+            "terminal",
+            "cordis",
+            "cli"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.2-rc.1",
+            "publishTimestamp": 1792238656,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "689715435b0e2d559d40b2cc4e16e0da5bb55cf2c8e9cee91d74fb7a7b448a3f",
+      "evidence": [
+        {
+          "name": "@xmoon76/dsh-pi-tui",
+          "version": "0.5.2-rc.1",
+          "tarball": "https://registry.npmjs.org/@xmoon76/dsh-pi-tui/-/dsh-pi-tui-0.5.2-rc.1.tgz",
+          "integrity": "sha512-k7QDE3J5Xurw92seLm9EPYR1czRQ+h5dSg1TE/HeS8uzYJYgczdR68ATrhmhBLXQF51EfFib5V/aCT81f0TLww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@xmoon76/dsh-pi-tui@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@xmoon76/dsh-pi-tui@next",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XMoon/dsh-pi-tui",
+    "commit": "ab0b45715c678d0a12b8eb6f347875e0139b0085",
+    "releaseTags": 33,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:20:00.605Z"
+}

@@ -1,0 +1,152 @@
+{
+  "full_name": "JohnnyTing/dsh-official-homepage-theme",
+  "originalPosition": 44,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 44,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:08.293Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "854412f4a35c8deaecdf11563ef599638c0792b95dc766c0d638ff5970397125",
+      "url": "https://github.com/JohnnyTing/dsh-official-homepage-theme/blob/838a882162cdcfb2e72a601905c1f9a08cebbb72/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-official-homepage-theme",
+          "command": "dsh plugin --profile web add dsh-official-homepage-theme",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/JohnnyTing/dsh-official-homepage-theme",
+          "command": "dsh plugin --profile web add github:JohnnyTing/dsh-official-homepage-theme",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "dd004742e50af141711366ac4a5225e2b48c2ba26ba413e2a815c17f8f8f4d4c",
+      "url": "https://github.com/JohnnyTing/dsh-official-homepage-theme/blob/838a882162cdcfb2e72a601905c1f9a08cebbb72/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-official-homepage-theme",
+          "command": "dsh plugin --profile web add dsh-official-homepage-theme",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/JohnnyTing/dsh-official-homepage-theme",
+          "command": "dsh plugin --profile web add github:JohnnyTing/dsh-official-homepage-theme",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-official-homepage-theme",
+      "version": "1.0.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JohnnyTing/dsh-official-homepage-theme",
+        "commit": "838a882162cdcfb2e72a601905c1f9a08cebbb72"
+      },
+      "manifestSha256": "9841c29712d6f287cedb8f53aff66fed3ed2218ec0aa39285e0f801dc99121c4",
+      "manifestUrl": "https://github.com/JohnnyTing/dsh-official-homepage-theme/blob/838a882162cdcfb2e72a601905c1f9a08cebbb72/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-official-homepage-theme",
+        "versions": [
+          {
+            "version": "1.0.10",
+            "publishTimestamp": 1790482909,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JohnnyTing/dsh-official-homepage-theme",
+              "commit": "838a882162cdcfb2e72a601905c1f9a08cebbb72"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-official-homepage-theme",
+      "origin": "npm",
+      "name": "dsh-official-homepage-theme",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-official-homepage-theme",
+        "title": "dsh-official-homepage-theme",
+        "description": "DeepSeek Harness官方首页主题插件，包含流体鼠标效果、弹性网格与动态小鱼。",
+        "homepage": "https://github.com/JohnnyTing/dsh-official-homepage-theme",
+        "repository": {
+          "url": "https://github.com/JohnnyTing/dsh-official-homepage-theme"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "deepseek",
+            "dsh-plugin",
+            "dsh-theme"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.10",
+            "publishTimestamp": 1790483291,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e3799e9cd09c71b2e29d6c7410113f64689ae3ae7ba231ccab13aad42482fd6e",
+      "evidence": [
+        {
+          "name": "dsh-official-homepage-theme",
+          "version": "1.0.10",
+          "tarball": "https://registry.npmjs.org/dsh-official-homepage-theme/-/dsh-official-homepage-theme-1.0.10.tgz",
+          "integrity": "sha512-CWs1PXSUDXyVFvJXWJmyD844TcQuzcFBnF+2l16dQl4nWZlRviSevRWl0HEd31u2g7bfiANYhrJ2yqijsEhtbw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-official-homepage-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/JohnnyTing/dsh-official-homepage-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JohnnyTing/dsh-official-homepage-theme",
+    "commit": "838a882162cdcfb2e72a601905c1f9a08cebbb72",
+    "releaseTags": 11,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:35.623Z"
+}

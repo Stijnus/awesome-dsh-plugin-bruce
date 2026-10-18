@@ -1,0 +1,156 @@
+{
+  "full_name": "Physicolor/dsh-ui-harmonizer",
+  "originalPosition": 62,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 62,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:34.804Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "308e5431c4edfb80975bd05154cb9cd3f6c3b6ba81de0755dc0137dcc010d3b5",
+      "url": "https://github.com/Physicolor/dsh-ui-harmonizer/blob/99ab31aa8809c08d887ece531382ee33bc063cbc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ui-harmonizer",
+          "command": "dsh plugin --profile web add dsh-ui-harmonizer",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "22ad85c13d4bf77fb95d66d853d83158bcc3acf1030fb9705a07e0cce068dc8d",
+      "url": "https://github.com/Physicolor/dsh-ui-harmonizer/blob/99ab31aa8809c08d887ece531382ee33bc063cbc/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ui-harmonizer",
+          "command": "dsh plugin --profile web add dsh-ui-harmonizer",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ui-harmonizer",
+      "version": "0.9.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Physicolor/dsh-ui-harmonizer",
+        "commit": "99ab31aa8809c08d887ece531382ee33bc063cbc"
+      },
+      "manifestSha256": "4e898b1c4ac1c7a7aa623e0c67c98b197089970d133ef412fa739a4f7592269b",
+      "manifestUrl": "https://github.com/Physicolor/dsh-ui-harmonizer/blob/99ab31aa8809c08d887ece531382ee33bc063cbc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ui-harmonizer",
+        "versions": [
+          {
+            "version": "0.9.1",
+            "publishTimestamp": 1791209685,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Physicolor/dsh-ui-harmonizer",
+              "commit": "99ab31aa8809c08d887ece531382ee33bc063cbc"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ui-harmonizer",
+      "origin": "npm",
+      "name": "dsh-ui-harmonizer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ui-harmonizer",
+        "title": {
+          "en": "DeepSeek Design Spec",
+          "zh": "DeepSeek 设计规范"
+        },
+        "description": {
+          "en": "One interface language for the Harness, plus per-plugin reconciliation and a read-only compatibility audit.",
+          "zh": "统一 Harness 界面语言，并为社区插件做针对性适配，附只读兼容性审计。"
+        },
+        "author": "Physicolor",
+        "homepage": "https://github.com/Physicolor/dsh-ui-harmonizer#readme",
+        "repository": {
+          "url": "https://github.com/Physicolor/dsh-ui-harmonizer"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "cordis",
+            "plugin",
+            "web-ui",
+            "ui-enhancement",
+            "harmonizer",
+            "ui-polish",
+            "browser-plugin",
+            "css"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC11aS1oYXJtb25pemVyIC0gYWxpZ24gcmFpbCI+CiAgPHRpdGxlPmRzaC11aS1oYXJtb25pemVyIC0gYWxpZ24gcmFpbDwvdGl0bGU+CiAgPHJlY3QgeD0iOCIgeT0iMTAiIHdpZHRoPSI1LjMzIiBoZWlnaHQ9IjYuNjciIHJ4PSIxLjk2IiBmaWxsPSIjN0NCN0ZGIi8+CiAgPHJlY3QgeD0iOCIgeT0iMTkuMzMiIHdpZHRoPSI3LjExIiBoZWlnaHQ9IjYuNjciIHJ4PSIxLjk2IiBmaWxsPSIjNDVEOUU3Ii8+CiAgPHJlY3QgeD0iMTYuOCIgeT0iOC4yMiIgd2lkdGg9IjIuODQiIGhlaWdodD0iMTkuNTYiIHJ4PSIxLjQyIiBmaWxsPSJ1cmwoI3JhaWwpIi8+CiAgPHJlY3QgeD0iMjEuNzgiIHk9IjEwIiB3aWR0aD0iNi4yMiIgaGVpZ2h0PSI2LjY3IiByeD0iMS45NiIgZmlsbD0iIzRBOENGNyIvPgogIDxyZWN0IHg9IjIxLjc4IiB5PSIxOS4zMyIgd2lkdGg9IjYuMjIiIGhlaWdodD0iNi42NyIgcng9IjEuOTYiIGZpbGw9InVybCgjcmFpbCkiLz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icmFpbCIgeDE9IjE5LjY0IiB5MT0iOC4yMiIgeDI9IjE2LjgiIHkyPSIyNy43OCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjOEZDMkZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzE0NUFGMyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.9.1",
+            "publishTimestamp": 1791209921,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5feae8440a9ba13121c133fbd98f0196b3d627618965b32cc770b5aa12dc40ff",
+      "evidence": [
+        {
+          "name": "dsh-ui-harmonizer",
+          "version": "0.9.1",
+          "tarball": "https://registry.npmjs.org/dsh-ui-harmonizer/-/dsh-ui-harmonizer-0.9.1.tgz",
+          "integrity": "sha512-xvLAsgJGxU/UhrOvFXOP3trZydI8gIhVEJM5Ft7KFgv1zZ9Yn9yJSKFOsknrXQA40AJh5Y25YiXbyqiN8sz6uA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ui-harmonizer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Physicolor/dsh-ui-harmonizer",
+    "commit": "99ab31aa8809c08d887ece531382ee33bc063cbc",
+    "releaseTags": 14,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:45.574Z"
+}

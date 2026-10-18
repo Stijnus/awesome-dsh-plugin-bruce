@@ -1,0 +1,94 @@
+{
+  "full_name": "Smalldy/godot-bridge",
+  "originalPosition": 54,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 54,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:53.295Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c103294bcc3ccfbed44492f896961b24e7a1d5c013192baa47ca7e3e9a83f94d",
+      "url": "https://github.com/Smalldy/godot-bridge/blob/2ee9368d7d63cb2bb4d1f21ab1a022154fd8706a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Smalldy/godot-bridge",
+          "command": "dsh plugin --profile web add github:Smalldy/godot-bridge",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "45adad9adb2e40c4654f78aa604b1d21ed1507fe163ce521be3a04b70c6eaf1c",
+      "url": "https://github.com/Smalldy/godot-bridge/blob/2ee9368d7d63cb2bb4d1f21ab1a022154fd8706a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Smalldy/godot-bridge",
+          "command": "dsh plugin --profile web add github:Smalldy/godot-bridge",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "godot-bridge",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Smalldy/godot-bridge",
+        "commit": "2ee9368d7d63cb2bb4d1f21ab1a022154fd8706a"
+      },
+      "manifestSha256": "1c5314ef762d7f8047295f1ecad3cdd7991f119555d48c48f406fcb7e3c2221b",
+      "manifestUrl": "https://github.com/Smalldy/godot-bridge/blob/2ee9368d7d63cb2bb4d1f21ab1a022154fd8706a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "godot-bridge",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790849577,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Smalldy/godot-bridge",
+              "commit": "2ee9368d7d63cb2bb4d1f21ab1a022154fd8706a"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Smalldy/godot-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Smalldy/godot-bridge",
+    "commit": "2ee9368d7d63cb2bb4d1f21ab1a022154fd8706a",
+    "releaseTags": 10,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:58.604Z"
+}

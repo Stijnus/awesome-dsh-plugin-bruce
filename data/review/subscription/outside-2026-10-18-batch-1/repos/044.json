@@ -1,0 +1,117 @@
+{
+  "full_name": "EdgeTypE/dsh-better-deepseek",
+  "originalPosition": 44,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 44,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:39.849Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5552287381f00f24d89ac25dbe8f5cbfa76944366103f770181e03e36c26a549",
+      "url": "https://github.com/EdgeTypE/dsh-better-deepseek/blob/b1043860f5f10fd7ed12664ebe32ca4fd6445aca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-deepseek",
+          "command": "dsh plugin --profile web add -w dsh-better-deepseek",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-deepseek",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EdgeTypE/dsh-better-deepseek",
+        "commit": "b1043860f5f10fd7ed12664ebe32ca4fd6445aca"
+      },
+      "manifestSha256": "6c50f2a75464ac11498ace7b03830d48d8c262c344fa2c9204cbaab85eb37ce2",
+      "manifestUrl": "https://github.com/EdgeTypE/dsh-better-deepseek/blob/b1043860f5f10fd7ed12664ebe32ca4fd6445aca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-better-deepseek",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786731365,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/EdgeTypE/dsh-better-deepseek",
+              "commit": "b1043860f5f10fd7ed12664ebe32ca4fd6445aca"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-better-deepseek",
+      "origin": "npm",
+      "name": "dsh-better-deepseek",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-better-deepseek",
+        "title": "dsh-better-deepseek",
+        "description": "DeepSeek Harness bridge plugin for Better-DeepSeek Chrome extension integration",
+        "repository": {
+          "url": "https://github.com/EdgeTypE/better-deepseek",
+          "directory": "packages/extensions/better-deepseek"
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786717378,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "49e78421c59bf627f09fd06f1bd4c74dd2ec692b446e7293b23e95dac46f406b",
+      "evidence": [
+        {
+          "name": "dsh-better-deepseek",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-better-deepseek/-/dsh-better-deepseek-0.1.0.tgz",
+          "integrity": "sha512-gvvQz6olx3wuoyxNh4kN5oZWrSlGIpKO6DfalaLwepP1mCiNzN1h+NRhzsYj3B+IH9othUBruDxltm2goS8ULA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-deepseek",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EdgeTypE/dsh-better-deepseek",
+    "commit": "b1043860f5f10fd7ed12664ebe32ca4fd6445aca",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:44.041Z"
+}

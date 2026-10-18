@@ -1,0 +1,124 @@
+{
+  "full_name": "yequ172672/dsh-codex-subscription",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:57.528Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "80da4068118fa54edfcb38202e61f890a7bb0c2adc2332b9ae3d6dd57cfb5860",
+      "url": "https://github.com/yequ172672/dsh-codex-subscription/blob/255db85103ca88e665af5215c031c9b169f6132c/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-codex",
+          "command": "dsh plugin --profile web add dsh-llm-codex",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-codex",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yequ172672/dsh-codex-subscription",
+        "commit": "255db85103ca88e665af5215c031c9b169f6132c"
+      },
+      "manifestSha256": "2f114de1c228dfb340f9b5570dabead3ad3ce80eafd7cf10248f4e839e75d32f",
+      "manifestUrl": "https://github.com/yequ172672/dsh-codex-subscription/blob/255db85103ca88e665af5215c031c9b169f6132c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-llm-codex",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791336090,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yequ172672/dsh-codex-subscription",
+              "commit": "255db85103ca88e665af5215c031c9b169f6132c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-llm-codex",
+      "origin": "npm",
+      "name": "dsh-llm-codex",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-llm-codex",
+        "title": "dsh-llm-codex",
+        "description": "DSH LLM 适配器插件:复用 Codex CLI 本地登录凭证(~/.codex/auth.json)在 DSH 中直接使用 ChatGPT 订阅模型",
+        "repository": {
+          "url": "https://github.com/yequ172672/dsh-codex-subscription"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "llm",
+            "adapter",
+            "codex",
+            "chatgpt"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786955218,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3e61658aaae136586c6911ca2e868377d69bf7028ecd6542a5238b456656e1bc",
+      "evidence": [
+        {
+          "name": "dsh-llm-codex",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-llm-codex/-/dsh-llm-codex-0.1.2.tgz",
+          "integrity": "sha512-zk5Xfl/GXIgMvXOpdAD/eQTI23F9MBEmwfEGzws9rQLJwVmB2b/YW7rUOCCp7XwZTNFC1p0k32NDNL8TfPoaYA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-llm-codex",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yequ172672/dsh-codex-subscription",
+    "commit": "255db85103ca88e665af5215c031c9b169f6132c",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:02.263Z"
+}

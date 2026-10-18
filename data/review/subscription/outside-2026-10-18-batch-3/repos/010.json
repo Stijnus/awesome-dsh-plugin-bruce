@@ -1,0 +1,141 @@
+{
+  "full_name": "SpookySandwich/dsh-plugin-smooth-stream",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:22.812Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a8f5736ab8989aade57e8668460655253ffb86acc3986022af1f1a859cf1c283",
+      "url": "https://github.com/SpookySandwich/dsh-plugin-smooth-stream/blob/02ca036718d922ec46c477fb0a97a122c2768256/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-smooth-stream",
+          "command": "dsh plugin --profile web add dsh-plugin-smooth-stream",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "0d6d9a4d660c44dd3d6f7bc9017a4333be6bdbeb4d43c3cb439dba5f16e34974",
+      "url": "https://github.com/SpookySandwich/dsh-plugin-smooth-stream/blob/02ca036718d922ec46c477fb0a97a122c2768256/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-smooth-stream",
+          "command": "dsh plugin --profile web add dsh-plugin-smooth-stream",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-smooth-stream",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SpookySandwich/dsh-plugin-smooth-stream",
+        "commit": "02ca036718d922ec46c477fb0a97a122c2768256"
+      },
+      "manifestSha256": "1e26fb9977e9df8af6f303ef8826701db3a8bd68e20daf3319f2479954dcd88e",
+      "manifestUrl": "https://github.com/SpookySandwich/dsh-plugin-smooth-stream/blob/02ca036718d922ec46c477fb0a97a122c2768256/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-smooth-stream",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1790706893,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SpookySandwich/dsh-plugin-smooth-stream",
+              "commit": "02ca036718d922ec46c477fb0a97a122c2768256"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-smooth-stream",
+      "origin": "npm",
+      "name": "dsh-plugin-smooth-stream",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-smooth-stream",
+        "title": "dsh-plugin-smooth-stream",
+        "description": "DeepSeek Harness plugin: paragraph-batched streaming reveals with 8 designed animations, smooth scroll-follow and a settings panel.",
+        "repository": {
+          "url": "https://github.com/SpookySandwich/dsh-plugin-smooth-stream"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1790707858,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f1b55350ee55978317393268a08af643a4f6808e39ac29f91085cbb37aa1b23c",
+      "evidence": [
+        {
+          "name": "dsh-plugin-smooth-stream",
+          "version": "1.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-smooth-stream/-/dsh-plugin-smooth-stream-1.3.0.tgz",
+          "integrity": "sha512-+lTSzfT8wvaLC2DgRNt1qN/Frnk+efN4zxd9j/IZq//Nw9lE3iilL23LLES9Zg8OJQKeotd0nj4O4J+gfhJuiw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-smooth-stream",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SpookySandwich/dsh-plugin-smooth-stream",
+    "commit": "02ca036718d922ec46c477fb0a97a122c2768256",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:39.059Z"
+}

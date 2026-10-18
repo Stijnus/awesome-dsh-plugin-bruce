@@ -1,0 +1,155 @@
+{
+  "full_name": "TencentCloud/tencentcloud-agentobs-sdk-dsh",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:11.353Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3249b112d047cabe3aabd149236dbec091070850e5d724f0de780375f78e0e47",
+      "url": "https://github.com/TencentCloud/tencentcloud-agentobs-sdk-dsh/blob/e46575d2432367990de8fd3937758eaa78b0731e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "tencentcloud-agentobs-sdk-dsh",
+          "command": "dsh plugin --profile web add tencentcloud-agentobs-sdk-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "tencentcloud-agentobs-sdk-dsh",
+          "command": "dsh plugin --profile headless add tencentcloud-agentobs-sdk-dsh",
+          "profile": "headless"
+        },
+        {
+          "install": "tencentcloud-agentobs-sdk-dsh",
+          "command": "dsh plugin --profile harness add tencentcloud-agentobs-sdk-dsh",
+          "profile": "harness"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2f6bd9274b4148d90d0298f6c67f395c324556a5144a1b64df7f7e088c4626e3",
+      "url": "https://github.com/TencentCloud/tencentcloud-agentobs-sdk-dsh/blob/e46575d2432367990de8fd3937758eaa78b0731e/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "tencentcloud-agentobs-sdk-dsh",
+          "command": "dsh plugin --profile web add tencentcloud-agentobs-sdk-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "tencentcloud-agentobs-sdk-dsh",
+          "command": "dsh plugin --profile headless add tencentcloud-agentobs-sdk-dsh",
+          "profile": "headless"
+        },
+        {
+          "install": "tencentcloud-agentobs-sdk-dsh",
+          "command": "dsh plugin --profile harness add tencentcloud-agentobs-sdk-dsh",
+          "profile": "harness"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "tencentcloud-agentobs-sdk-dsh",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TencentCloud/tencentcloud-agentobs-sdk-dsh",
+        "commit": "e46575d2432367990de8fd3937758eaa78b0731e"
+      },
+      "manifestSha256": "71fc232f36febf9b1eefc1800fb756712d8568fdded5be19df69d95f75bb54b5",
+      "manifestUrl": "https://github.com/TencentCloud/tencentcloud-agentobs-sdk-dsh/blob/e46575d2432367990de8fd3937758eaa78b0731e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "tencentcloud-agentobs-sdk-dsh",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787725340,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TencentCloud/tencentcloud-agentobs-sdk-dsh",
+              "commit": "e46575d2432367990de8fd3937758eaa78b0731e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "tencentcloud-agentobs-sdk-dsh",
+      "origin": "npm",
+      "name": "tencentcloud-agentobs-sdk-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "tencentcloud-agentobs-sdk-dsh",
+        "title": "tencentcloud-agentobs-sdk-dsh",
+        "description": "Tencent Cloud Service CLS observability plugin for DeepSeek Harness — direct upload to Tencent Cloud CLS",
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "tencent",
+            "cls",
+            "observability",
+            "genai"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787725458,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "dd4514414147399067146ef2e70684fa2c8627c4d203aa4e599938a989b7c730",
+      "evidence": [
+        {
+          "name": "tencentcloud-agentobs-sdk-dsh",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/tencentcloud-agentobs-sdk-dsh/-/tencentcloud-agentobs-sdk-dsh-0.1.0.tgz",
+          "integrity": "sha512-k/rWu8ee8wGIhmo5AB35p/EjrjwE9YICWuSSJKT5tDYad8/+3p7dTWtpTNj/+TTJcl/V6aVhwvNfwnx2+lIBIQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "tencentcloud-agentobs-sdk-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TencentCloud/tencentcloud-agentobs-sdk-dsh",
+    "commit": "e46575d2432367990de8fd3937758eaa78b0731e",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:17.782Z"
+}

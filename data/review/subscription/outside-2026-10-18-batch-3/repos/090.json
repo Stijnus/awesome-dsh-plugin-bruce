@@ -1,0 +1,161 @@
+{
+  "full_name": "pbwheel/dsh-workbuddy-expert",
+  "originalPosition": 90,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 90,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:09.180Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a8c89ed1a16a8ac8f690e4ecd2eb7bf4179e8a43d721f17568337543fdbfce6b",
+      "url": "https://github.com/pbwheel/dsh-workbuddy-expert/blob/17abcb35bad974dd86bee586d1dbf391fbd9db91/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workbuddy-expert",
+          "command": "dsh plugin --profile web add dsh-workbuddy-expert",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pbwheel/dsh-workbuddy-expert",
+          "command": "dsh plugin --profile web add github:pbwheel/dsh-workbuddy-expert",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a717eeb0c4090eb674f6a1e0b3223998a9f74e832ce44a092a623c1d733a6cdf",
+      "url": "https://github.com/pbwheel/dsh-workbuddy-expert/blob/17abcb35bad974dd86bee586d1dbf391fbd9db91/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workbuddy-expert",
+          "command": "dsh plugin --profile web add dsh-workbuddy-expert",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pbwheel/dsh-workbuddy-expert",
+          "command": "dsh plugin --profile web add github:pbwheel/dsh-workbuddy-expert",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workbuddy-expert",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/pbwheel/dsh-workbuddy-expert",
+        "commit": "17abcb35bad974dd86bee586d1dbf391fbd9db91"
+      },
+      "manifestSha256": "8957c0e00e071f9c81b89e6945cf5886261909a0e7846118c432d8e7a5da2204",
+      "manifestUrl": "https://github.com/pbwheel/dsh-workbuddy-expert/blob/17abcb35bad974dd86bee586d1dbf391fbd9db91/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-workbuddy-expert",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790859112,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/pbwheel/dsh-workbuddy-expert",
+              "commit": "17abcb35bad974dd86bee586d1dbf391fbd9db91"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-workbuddy-expert",
+      "origin": "npm",
+      "name": "dsh-workbuddy-expert",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workbuddy-expert",
+        "title": {
+          "en": "WorkBuddy Experts",
+          "zh": "WorkBuddy 专家"
+        },
+        "description": {
+          "en": "Import WorkBuddy experts as local expert folders and switch the current session's expert from the composer",
+          "zh": "把 WorkBuddy 专家导入本地专家文件夹，在输入框旁切换当前会话的专家"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "experts",
+            "workbuddy"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMTRiOGE2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzBmNzY2ZSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9InVybCgjYmcpIi8+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTEwIDI4IDM2KSI+CiAgICA8cmVjdCB4PSIxNCIgeT0iMjAiIHdpZHRoPSIyOCIgaGVpZ2h0PSIzMiIgcng9IjciIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9Ii4zOCIvPgogICAgPHBhdGggZD0iTTI0IDIwbDQtOSA0IDl6IiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIuNTUiLz4KICA8L2c+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoNyAzNiAzOCkiPgogICAgPHJlY3QgeD0iMjIiIHk9IjIyIiB3aWR0aD0iMjgiIGhlaWdodD0iMzIiIHJ4PSI3IiBmaWxsPSIjZmZmZmZmIi8+CiAgICA8cGF0aCBkPSJNMzAgMjJsNy0zLjUgNyAzLjUtNyAzLjV6IiBmaWxsPSIjMTM0ZTRhIi8+CiAgICA8cGF0aCBkPSJNMzcgMjUuNXYzIiBzdHJva2U9IiMxMzRlNGEiIHN0cm9rZS13aWR0aD0iMS42IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxwYXRoIGQ9Ik00NCAyMnYzLjUiIHN0cm9rZT0iIzEzNGU0YSIgc3Ryb2tlLXdpZHRoPSIxLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPGNpcmNsZSBjeD0iNDQiIGN5PSIyNyIgcj0iMS4yIiBmaWxsPSIjZmJiZjI0Ii8+CiAgICA8Y2lyY2xlIGN4PSIzMSIgY3k9IjM1IiByPSIyLjEiIGZpbGw9IiMwZjc2NmUiLz4KICAgIDxjaXJjbGUgY3g9IjQxIiBjeT0iMzUiIHI9IjIuMSIgZmlsbD0iIzBmNzY2ZSIvPgogICAgPHBhdGggZD0iTTMwLjUgNDFjMS41IDEuNyAzLjUgMi41IDUuNSAyLjVzNC0uOCA1LjUtMi41IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBmaWxsPSJub25lIi8+CiAgPC9nPgogIDxjaXJjbGUgY3g9IjQ4IiBjeT0iNDgiIHI9IjguNSIgZmlsbD0iI2ZiYmYyNCIvPgogIDxwYXRoIGQ9Ik00NC4yIDQ2LjJoNmwtMS44LTEuOE01MS44IDQ5LjhoLTZsMS44IDEuOCIgc3Ryb2tlPSIjNzgzNTBmIiBzdHJva2Utd2lkdGg9IjEuOCIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1790861953,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ce8d67111652643e780e15cd1d10505fee7d70a49246b91630f5a0e84dc9880a",
+      "evidence": [
+        {
+          "name": "dsh-workbuddy-expert",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-workbuddy-expert/-/dsh-workbuddy-expert-0.2.1.tgz",
+          "integrity": "sha512-buyjKrVPGzTlGNu8ksF5bb7sQQdRZ9NPsr1yeZZ0XN5MXxOgWvZbykavX8Tjdv7zrcuzLZVSh+9Te19FFw26IQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workbuddy-expert",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/pbwheel/dsh-workbuddy-expert",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pbwheel/dsh-workbuddy-expert",
+    "commit": "17abcb35bad974dd86bee586d1dbf391fbd9db91",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:16.363Z"
+}

@@ -1,0 +1,221 @@
+{
+  "full_name": "PerryLink/dsh-budget",
+  "originalPosition": 61,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 61,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:34.364Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f4e914a162de697bc9bfb850afcde829341539a1119b53e83c271dc4d9360de5",
+      "url": "https://github.com/PerryLink/dsh-budget/blob/f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-budget",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-budget",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-budget",
+          "command": "dsh plugin --profile web add dsh-budget",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "6800d8af44a811dab80deed93b80181e35946ad49f4a807f362562f20c0d9117",
+      "url": "https://github.com/PerryLink/dsh-budget/blob/f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-budget",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-budget",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-budget",
+          "command": "dsh plugin --profile web add dsh-budget",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "e2e97b371ad273c8b44387756d195bc5c554d316a7e8c7346943f2fd614c8708",
+      "url": "https://github.com/PerryLink/dsh-budget/blob/f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd/README-es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-budget",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-budget",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-budget",
+          "command": "dsh plugin --profile web add dsh-budget",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "d53171e22cc5cb282a38d6e8320574150cee76a3f06c92302f8815afa1d0cff0",
+      "url": "https://github.com/PerryLink/dsh-budget/blob/f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd/README-pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-budget",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-budget",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-budget",
+          "command": "dsh plugin --profile web add dsh-budget",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "bf9d672f89da1b8977b6376a5d280a5c1bd7a93339f5193fe0b062b9af797ef9",
+      "url": "https://github.com/PerryLink/dsh-budget/blob/f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd/README-hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-budget",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-budget",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-budget",
+          "command": "dsh plugin --profile web add dsh-budget",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-budget",
+      "version": "0.4.17",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-budget",
+        "commit": "f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd"
+      },
+      "manifestSha256": "32fcdd6e0c171117531d13c16f99e0506848ca394ac7e340baebeebcde4ddc22",
+      "manifestUrl": "https://github.com/PerryLink/dsh-budget/blob/f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-budget",
+        "versions": [
+          {
+            "version": "0.4.17",
+            "publishTimestamp": 1791812996,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-budget",
+              "commit": "f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-budget",
+      "origin": "npm",
+      "name": "dsh-budget",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-budget",
+        "title": "dsh-budget",
+        "description": "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, session/daily/monthly budget caps with threshold alerts (desktop notification + webhook) and alert/block/degrade over-limit policies, built-in carbon footprint estimation and per-model latency benchmarks, a Settings budget tab, and the /budget command",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-budget#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-budget"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "budget",
+            "cost-tracking",
+            "carbon-footprint",
+            "latency-benchmark",
+            "token-usage"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.17",
+            "publishTimestamp": 1791594517,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "70d376989075ebb6b26d583decfd69ce48d9da07922099bd877b833e84e4dbda",
+      "evidence": [
+        {
+          "name": "dsh-budget",
+          "version": "0.4.17",
+          "tarball": "https://registry.npmjs.org/dsh-budget/-/dsh-budget-0.4.17.tgz",
+          "integrity": "sha512-liU0sBao9dpgmZ5fBYEYTLSY+Myd7W6TnYxZ9t4pXVML+WkoD2w1VXEJ97uukNbTLfkCxNCDV7C0fuKBFGyJOw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-budget",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-budget",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-budget",
+    "commit": "f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd",
+    "releaseTags": 24,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:40.439Z"
+}

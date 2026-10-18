@@ -1,0 +1,67 @@
+{
+  "full_name": "yu-wenchao/dsh-opencode-free-models",
+  "originalPosition": 56,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 56,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:30.413Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1e69f47cc9c38abc2d29428c2bb4443818422f151413fef2e57383252d5aba2b",
+      "url": "https://github.com/yu-wenchao/dsh-opencode-free-models/blob/8adb3ae3d4dcfd9399eb4f720e1261ca85bdf0e9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-free-models",
+      "version": "0.1.0",
+      "path": "plugin/dsh-opencode-free-models",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yu-wenchao/dsh-opencode-free-models",
+        "commit": "8adb3ae3d4dcfd9399eb4f720e1261ca85bdf0e9",
+        "path": "plugin/dsh-opencode-free-models"
+      },
+      "manifestSha256": "b4da9654abdb5ffe16e671d867d03eabaa7591f2e03cb7d3c9e2b6852a3b5f4e",
+      "manifestUrl": "https://github.com/yu-wenchao/dsh-opencode-free-models/blob/8adb3ae3d4dcfd9399eb4f720e1261ca85bdf0e9/plugin/dsh-opencode-free-models/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-opencode-free-models",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788440081,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yu-wenchao/dsh-opencode-free-models",
+              "commit": "8adb3ae3d4dcfd9399eb4f720e1261ca85bdf0e9",
+              "path": "plugin/dsh-opencode-free-models"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yu-wenchao/dsh-opencode-free-models",
+    "commit": "8adb3ae3d4dcfd9399eb4f720e1261ca85bdf0e9",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:34.860Z"
+}

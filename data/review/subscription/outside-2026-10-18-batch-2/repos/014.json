@@ -1,0 +1,175 @@
+{
+  "full_name": "fuhefei/dsh-sentinel",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:20.360Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1df5303e08973bd427b062afa4edf456453a7ca3256d346085bc63f52cfac459",
+      "url": "https://github.com/fuhefei/dsh-sentinel/blob/a51bd5c758b2228e6e79607f3640b472a7c68a7c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sentinel",
+          "command": "dsh plugin --profile web add dsh-sentinel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/fuhefei/dsh-sentinel#v0.11.0",
+          "command": "dsh plugin --profile web add \"github:fuhefei/dsh-sentinel#v0.11.0\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3a23b7fc2e115960ffe3a7678bd60b1aafc9fe114a9ea640c5e6a9b816f61617",
+      "url": "https://github.com/fuhefei/dsh-sentinel/blob/a51bd5c758b2228e6e79607f3640b472a7c68a7c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sentinel",
+          "command": "dsh plugin --profile web add dsh-sentinel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/fuhefei/dsh-sentinel#v0.11.0",
+          "command": "dsh plugin --profile web add \"github:fuhefei/dsh-sentinel#v0.11.0\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sentinel",
+      "version": "0.13.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fuhefei/dsh-sentinel",
+        "commit": "a51bd5c758b2228e6e79607f3640b472a7c68a7c"
+      },
+      "manifestSha256": "c821f5e1fb874697a9b6ec72203fb5cdeea71ccfbc67b027239cbd98f7b9fca0",
+      "manifestUrl": "https://github.com/fuhefei/dsh-sentinel/blob/a51bd5c758b2228e6e79607f3640b472a7c68a7c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-sentinel",
+        "versions": [
+          {
+            "version": "0.13.1",
+            "publishTimestamp": 1791383708,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fuhefei/dsh-sentinel",
+              "commit": "a51bd5c758b2228e6e79607f3640b472a7c68a7c"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-sentinel",
+      "origin": "npm",
+      "name": "dsh-sentinel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-sentinel",
+        "title": "dsh-sentinel",
+        "description": "DSH 哨兵：条件驱动的 agent 唤醒系统——文件/进程/端口/命令传感器，订阅存为会话事件，重启自动复活；每个订阅、每次触发对用户完全可见",
+        "versions": [
+          {
+            "version": "0.11.1",
+            "publishTimestamp": 1788790701,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d921beeb2bb31318367cf98d91091818605576a0862a79a8fabef74fb4e72340",
+      "evidence": [
+        {
+          "name": "dsh-sentinel",
+          "version": "0.11.1",
+          "tarball": "https://registry.npmjs.org/dsh-sentinel/-/dsh-sentinel-0.11.1.tgz",
+          "integrity": "sha512-wCs5LHmiG9ktOaJj8KWhurOlvs7IEXyPvlxOTSSN4FEaEzF9eKBNRXIKLll5VXt2Vrd/lUXVzm8Hwd9aPTUclg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/fuhefei/dsh-sentinel#v0.11.0",
+      "origin": "git_target",
+      "name": "dsh-sentinel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-sentinel",
+        "title": "dsh-sentinel",
+        "description": "DSH 哨兵：条件驱动的 agent 唤醒系统——文件/进程/端口/命令传感器，订阅存为会话事件，重启自动复活；每个订阅、每次触发对用户完全可见",
+        "versions": [
+          {
+            "version": "0.11.0",
+            "publishTimestamp": 1786935165,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fuhefei/dsh-sentinel",
+              "commit": "5d4c1bf66062f5a76387cd68b37b0befd21766ff"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "5d4c1bf66062f5a76387cd68b37b0befd21766ff",
+          "name": "dsh-sentinel",
+          "version": "0.11.0",
+          "url": "https://github.com/fuhefei/dsh-sentinel",
+          "manifestSha256": "bc24f24c45ef3432576e4615c7af7b34dc39b1fbeea1625df9409b2d0c6cc89a",
+          "publishTimestamp": 1786935165
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sentinel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/fuhefei/dsh-sentinel#v0.11.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fuhefei/dsh-sentinel",
+    "commit": "a51bd5c758b2228e6e79607f3640b472a7c68a7c",
+    "releaseTags": 14,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:33.201Z"
+}

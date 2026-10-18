@@ -1,0 +1,134 @@
+{
+  "full_name": "suntianc/dsh-antigravity-auth",
+  "originalPosition": 180,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 180,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:17.682Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8b3dd8af7a2e878a9166d5021e5733f1190bc165801d456c6f748c506a089f89",
+      "url": "https://github.com/suntianc/dsh-antigravity-auth/blob/b74b6d60bd3992d13cb94b0b2ee727a120528409/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-antigravity-auth@0.1.4-rc.6",
+          "command": "dsh plugin --profile web add --save-exact dsh-antigravity-auth@0.1.4-rc.6",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f97e2bfe27c24f941253daf6dc7f5566da2096ca09542508b94b0c9b0426cd45",
+      "url": "https://github.com/suntianc/dsh-antigravity-auth/blob/b74b6d60bd3992d13cb94b0b2ee727a120528409/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-antigravity-auth@0.1.4-rc.6",
+          "command": "dsh plugin --profile web add --save-exact dsh-antigravity-auth@0.1.4-rc.6",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-antigravity-auth",
+      "version": "0.1.4-rc.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/suntianc/dsh-antigravity-auth",
+        "commit": "b74b6d60bd3992d13cb94b0b2ee727a120528409"
+      },
+      "manifestSha256": "ce513d33f0b03d52e4a3bf7b7e74fd18f9dc650edb481e97a79f71915f959ca3",
+      "manifestUrl": "https://github.com/suntianc/dsh-antigravity-auth/blob/b74b6d60bd3992d13cb94b0b2ee727a120528409/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-antigravity-auth",
+        "versions": [
+          {
+            "version": "0.1.4-rc.6",
+            "publishTimestamp": 1791883396,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/suntianc/dsh-antigravity-auth",
+              "commit": "b74b6d60bd3992d13cb94b0b2ee727a120528409"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-antigravity-auth@0.1.4-rc.6",
+      "origin": "npm",
+      "name": "dsh-antigravity-auth",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-antigravity-auth",
+        "title": "dsh-antigravity-auth",
+        "description": "Unofficial Antigravity OAuth capability bundle with local account caching and manual switching for DeepSeek Harness",
+        "homepage": "https://github.com/suntianc/dsh-antigravity-auth#readme",
+        "repository": {
+          "url": "https://github.com/suntianc/dsh-antigravity-auth"
+        },
+        "versions": [
+          {
+            "version": "0.1.4-rc.6",
+            "publishTimestamp": 1791883825,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "085dd4d8a8a81f558b3d4baffe18079e2ad8cf6f53397bf39fda2a1002901225",
+      "evidence": [
+        {
+          "name": "dsh-antigravity-auth",
+          "version": "0.1.4-rc.6",
+          "tarball": "https://registry.npmjs.org/dsh-antigravity-auth/-/dsh-antigravity-auth-0.1.4-rc.6.tgz",
+          "integrity": "sha512-h8gE3sRCBucuMNOkiKXM+QizaYbIfAgp/tqyyaV/b5MiZB5h+tDhRkj8jgeIraseNFllTPHjY/1/amgdpXx5Ww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-antigravity-auth@0.1.4-rc.6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/suntianc/dsh-antigravity-auth",
+    "commit": "b74b6d60bd3992d13cb94b0b2ee727a120528409",
+    "releaseTags": 12,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:23.645Z"
+}

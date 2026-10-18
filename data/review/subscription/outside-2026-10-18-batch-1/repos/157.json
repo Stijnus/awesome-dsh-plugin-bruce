@@ -1,0 +1,100 @@
+{
+  "full_name": "renat3u/tonghuashun-webui",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:49.290Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d09076cdf85e0c112e07ed74bee8f9948990c4958e6d964be4375e35b7834737",
+      "url": "https://github.com/renat3u/tonghuashun-webui/blob/c3817d6ab35da06e1cca40af5d8e377031a6e0dd/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-client-tonghuashun",
+      "version": "0.1.0",
+      "path": "client-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/renat3u/tonghuashun-webui",
+        "commit": "c3817d6ab35da06e1cca40af5d8e377031a6e0dd",
+        "path": "client-plugin"
+      },
+      "manifestSha256": "b57fa39ef92874d01b3c7db7bb310cbd5880f68e5da52185776adbdcd83634ff",
+      "manifestUrl": "https://github.com/renat3u/tonghuashun-webui/blob/c3817d6ab35da06e1cca40af5d8e377031a6e0dd/client-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-client-tonghuashun",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788268587,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/renat3u/tonghuashun-webui",
+              "commit": "c3817d6ab35da06e1cca40af5d8e377031a6e0dd",
+              "path": "client-plugin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-tonghuashun-meter",
+      "version": "0.1.0",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/renat3u/tonghuashun-webui",
+        "commit": "c3817d6ab35da06e1cca40af5d8e377031a6e0dd",
+        "path": "plugin"
+      },
+      "manifestSha256": "f3748b7ce8273cd21000ed0f70f117e0f47ffb22f8e468713f48744e47ae4bf6",
+      "manifestUrl": "https://github.com/renat3u/tonghuashun-webui/blob/c3817d6ab35da06e1cca40af5d8e377031a6e0dd/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-tonghuashun-meter",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788268587,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/renat3u/tonghuashun-webui",
+              "commit": "c3817d6ab35da06e1cca40af5d8e377031a6e0dd",
+              "path": "plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/renat3u/tonghuashun-webui",
+    "commit": "c3817d6ab35da06e1cca40af5d8e377031a6e0dd",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:54.867Z"
+}

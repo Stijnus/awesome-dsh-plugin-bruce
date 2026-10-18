@@ -1,0 +1,133 @@
+{
+  "full_name": "huaizhuanghub/dsh-persona-dafeiyu",
+  "originalPosition": 37,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 37,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:33.837Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "398bab00eb4ef932b0f2e945497a8b2fe113249570f01af1b03e3ed5c53e53a8",
+      "url": "https://github.com/huaizhuanghub/dsh-persona-dafeiyu/blob/d8e9245728996d2d7e04c3732e8d635790e7d387/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-persona-dafeiyu",
+          "command": "dsh plugin --profile <profile> add dsh-persona-dafeiyu",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-persona-dafeiyu",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huaizhuanghub/dsh-persona-dafeiyu",
+        "commit": "d8e9245728996d2d7e04c3732e8d635790e7d387"
+      },
+      "manifestSha256": "0e1dee76372c77af16b95d39faf8d2acfaa0b87346b65c4c409e9525be1303a7",
+      "manifestUrl": "https://github.com/huaizhuanghub/dsh-persona-dafeiyu/blob/d8e9245728996d2d7e04c3732e8d635790e7d387/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-persona-dafeiyu",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1791802692,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/huaizhuanghub/dsh-persona-dafeiyu",
+              "commit": "d8e9245728996d2d7e04c3732e8d635790e7d387"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-persona-dafeiyu",
+      "origin": "npm",
+      "name": "dsh-persona-dafeiyu",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-persona-dafeiyu",
+        "title": "dsh-persona-dafeiyu",
+        "description": "人设插件 for DeepSeek Harness：内置大肥鱼、阿茶与听澜，支持导入自定义人设（文件或粘贴）、在设置页里切换 / 启停 / 重命名 / 删除，切换后下一个请求即时生效、无需重启；界面中英双语。",
+        "homepage": "https://github.com/huaizhuanghub/dsh-persona-dafeiyu#readme",
+        "repository": {
+          "url": "https://github.com/huaizhuanghub/dsh-persona-dafeiyu"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "persona",
+            "system-prompt",
+            "i18n",
+            "大肥鱼",
+            "阿茶",
+            "听澜"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1791803233,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5ce3ee5e345b9bd4c110beff4a349cf74ed9a43c0c0dac740cbd2f7e6f00b917",
+      "evidence": [
+        {
+          "name": "dsh-persona-dafeiyu",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-persona-dafeiyu/-/dsh-persona-dafeiyu-0.4.1.tgz",
+          "integrity": "sha512-mmkb/mG2BiMx14ph8pwvLEL6lEap+NGncDxyzaQ+3k2ZTNBKPdsXgM0ihFpMfUwKGbiD4bpOStEloMixzaMKVQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-persona-dafeiyu",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huaizhuanghub/dsh-persona-dafeiyu",
+    "commit": "d8e9245728996d2d7e04c3732e8d635790e7d387",
+    "releaseTags": 6,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:39.625Z"
+}

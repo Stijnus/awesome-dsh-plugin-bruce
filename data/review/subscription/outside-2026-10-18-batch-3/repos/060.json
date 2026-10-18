@@ -1,0 +1,136 @@
+{
+  "full_name": "Owen718/snapgrep",
+  "originalPosition": 60,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 60,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:33.033Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2bdf760f1b32055063985aa2bfbe8c429acde882add8e0f485417302cb0b16f2",
+      "url": "https://github.com/Owen718/snapgrep/blob/5760762aaccecd20641399725bf79b4b33b818bc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "snapgrep",
+          "command": "dsh plugin --profile headless add snapgrep",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "snapgrep",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Owen718/snapgrep",
+        "commit": "5760762aaccecd20641399725bf79b4b33b818bc"
+      },
+      "manifestSha256": "194a89e94b8d4c0bb9bdaea7fcc09fc1cdfccbb8b03304f678e2ec0fa8272f08",
+      "manifestUrl": "https://github.com/Owen718/snapgrep/blob/5760762aaccecd20641399725bf79b4b33b818bc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "snapgrep",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786791703,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Owen718/snapgrep",
+              "commit": "5760762aaccecd20641399725bf79b4b33b818bc"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "snapgrep",
+      "origin": "npm",
+      "name": "snapgrep",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "snapgrep",
+        "title": "snapgrep",
+        "description": "An in-process trigram index that makes code search in Pi and DeepSeek Harness 20-90x faster than ripgrep, with identical results.",
+        "homepage": "https://github.com/Owen718/snapgrep#readme",
+        "repository": {
+          "url": "https://github.com/Owen718/snapgrep"
+        },
+        "metadata": {
+          "keywords": [
+            "grep",
+            "ripgrep",
+            "code-search",
+            "trigram",
+            "index",
+            "pi",
+            "pi-coding-agent",
+            "dsh",
+            "deepseek-harness",
+            "oh-my-pi",
+            "coding-agent",
+            "napi-rs"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786791435,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6e7dde4d7c55c85a7a481f276bbefa2a988919c868bb3a398736ded4181c00a7",
+      "evidence": [
+        {
+          "name": "snapgrep",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/snapgrep/-/snapgrep-0.1.1.tgz",
+          "integrity": "sha512-sb5Ey5xVfNzZ4Q0aYLEUlSLPFSv17oApWyVgZ5VlvceUrRYY6AbRBQBbvzEYfH5p+mTakAP7BMr7M84Wr1n86A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "snapgrep",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Owen718/snapgrep",
+    "commit": "5760762aaccecd20641399725bf79b4b33b818bc",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:40.494Z"
+}

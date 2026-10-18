@@ -1,0 +1,140 @@
+{
+  "full_name": "bill9109/dsh-drag-and-drop",
+  "originalPosition": 153,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 153,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:41.945Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e48510077e81a0531ad0258848b9986563c023eed94f01ab236d32815f561335",
+      "url": "https://github.com/bill9109/dsh-drag-and-drop/blob/6119a2cbe3cc4267b9d0ef56df54e0c416f7a3db/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-drag-and-drop",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-drag-and-drop",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f542947981d9c56a07bda47d724e9ab202c53b89c7ee4024c2a739ad7de6df10",
+      "url": "https://github.com/bill9109/dsh-drag-and-drop/blob/6119a2cbe3cc4267b9d0ef56df54e0c416f7a3db/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-drag-and-drop",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-drag-and-drop",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-drag-and-drop",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bill9109/dsh-drag-and-drop",
+        "commit": "6119a2cbe3cc4267b9d0ef56df54e0c416f7a3db"
+      },
+      "manifestSha256": "81633ffcfbc0ea86184d243a2fdd909b0607197b98861a853972ad8ca93a0613",
+      "manifestUrl": "https://github.com/bill9109/dsh-drag-and-drop/blob/6119a2cbe3cc4267b9d0ef56df54e0c416f7a3db/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-drag-and-drop",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1792248180,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bill9109/dsh-drag-and-drop",
+              "commit": "6119a2cbe3cc4267b9d0ef56df54e0c416f7a3db"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/omdsh-dev/dsh-drag-and-drop",
+      "origin": "git_target",
+      "name": "dsh-drag-and-drop",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-drag-and-drop",
+        "title": "dsh-drag-and-drop",
+        "description": "Drag local files into the DSH Web UI and insert their original filesystem paths without uploading or copying them",
+        "homepage": "https://github.com/omdsh-dev/dsh-drag-and-drop#readme",
+        "repository": {
+          "url": "https://github.com/omdsh-dev/dsh-drag-and-drop"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh-bundle",
+            "web-ui",
+            "drag-and-drop",
+            "file-path",
+            "filesystem"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1792248180,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/omdsh-dev/dsh-drag-and-drop",
+              "commit": "6119a2cbe3cc4267b9d0ef56df54e0c416f7a3db"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "6119a2cbe3cc4267b9d0ef56df54e0c416f7a3db",
+          "name": "dsh-drag-and-drop",
+          "version": "0.1.7",
+          "url": "https://github.com/omdsh-dev/dsh-drag-and-drop",
+          "manifestSha256": "81633ffcfbc0ea86184d243a2fdd909b0607197b98861a853972ad8ca93a0613",
+          "publishTimestamp": 1792248180
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/omdsh-dev/dsh-drag-and-drop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bill9109/dsh-drag-and-drop",
+    "commit": "6119a2cbe3cc4267b9d0ef56df54e0c416f7a3db",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:50.988Z"
+}

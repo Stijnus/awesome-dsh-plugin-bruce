@@ -1,0 +1,422 @@
+{
+  "full_name": "chumingjun/dsh-harness-one",
+  "originalPosition": 95,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 95,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:03.580Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1adcd828165919389ceef04ed71aef587438d3d2915836e8efe0e8fc5665a49c",
+      "url": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-harness-one",
+          "command": "dsh plugin --profile web add dsh-harness-one",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-harness-one",
+          "command": "dsh plugin --profile <name> add dsh-harness-one",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "dsh-plugins/README.md",
+      "sha256": "3106ee4b6b7fb28b5843b97a54a7292104544b62a15d3c8f6bdde7629f38082b",
+      "url": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/dsh-plugins/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-harness-one",
+          "command": "dsh plugin add dsh-harness-one",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-harness-one",
+          "command": "dsh plugin --profile myprofile add dsh-harness-one",
+          "profile": "myprofile"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ccpg-brand",
+      "version": "0.12.0",
+      "path": "dsh-plugins/dsh-ccpg-brand",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chumingjun/dsh-harness-one",
+        "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+        "path": "dsh-plugins/dsh-ccpg-brand"
+      },
+      "manifestSha256": "88ed9302ac43af87749dc4725953a7a857753c079f4676109b47b50759ded1e1",
+      "manifestUrl": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/dsh-plugins/dsh-ccpg-brand/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ccpg-brand",
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1791621998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chumingjun/dsh-harness-one",
+              "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+              "path": "dsh-plugins/dsh-ccpg-brand"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ccpg-canvasui",
+      "version": "0.12.0",
+      "path": "dsh-plugins/dsh-ccpg-canvasui",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chumingjun/dsh-harness-one",
+        "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+        "path": "dsh-plugins/dsh-ccpg-canvasui"
+      },
+      "manifestSha256": "6160462c3f3a9aea75a501225ed7fa4eb97207a19f4833c2f114137ef9b647f4",
+      "manifestUrl": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/dsh-plugins/dsh-ccpg-canvasui/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ccpg-canvasui",
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1791621998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chumingjun/dsh-harness-one",
+              "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+              "path": "dsh-plugins/dsh-ccpg-canvasui"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ccpg-document-preview",
+      "version": "0.12.0",
+      "path": "dsh-plugins/dsh-ccpg-document-preview",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chumingjun/dsh-harness-one",
+        "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+        "path": "dsh-plugins/dsh-ccpg-document-preview"
+      },
+      "manifestSha256": "b8c98d17368c2f65f97e5009369e9fb6b0645cd27170fea255a428e47fbccab0",
+      "manifestUrl": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/dsh-plugins/dsh-ccpg-document-preview/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ccpg-document-preview",
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1791621998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chumingjun/dsh-harness-one",
+              "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+              "path": "dsh-plugins/dsh-ccpg-document-preview"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ccpg-larkauth",
+      "version": "0.12.0",
+      "path": "dsh-plugins/dsh-ccpg-larkauth",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chumingjun/dsh-harness-one",
+        "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+        "path": "dsh-plugins/dsh-ccpg-larkauth"
+      },
+      "manifestSha256": "bddf1df25165141b1f20e3dbbd5e8ab8436e45b786e46bb4cbbd6e85d0a2e5b9",
+      "manifestUrl": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/dsh-plugins/dsh-ccpg-larkauth/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ccpg-larkauth",
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1791621998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chumingjun/dsh-harness-one",
+              "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+              "path": "dsh-plugins/dsh-ccpg-larkauth"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ccpg-llm-guard",
+      "version": "0.12.0",
+      "path": "dsh-plugins/dsh-ccpg-llm-guard",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chumingjun/dsh-harness-one",
+        "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+        "path": "dsh-plugins/dsh-ccpg-llm-guard"
+      },
+      "manifestSha256": "167744c8e56ff8b59dc6bc48a72a7cdf4b865483c2cc90ec3ee95d4e3384d75c",
+      "manifestUrl": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/dsh-plugins/dsh-ccpg-llm-guard/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ccpg-llm-guard",
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1791621998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chumingjun/dsh-harness-one",
+              "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+              "path": "dsh-plugins/dsh-ccpg-llm-guard"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-harness-one",
+      "version": "0.12.0",
+      "path": "dsh-plugins/dsh-ccpg-one",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chumingjun/dsh-harness-one",
+        "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+        "path": "dsh-plugins/dsh-ccpg-one"
+      },
+      "manifestSha256": "fff85152dbf8f78eb7b6fb238cd9efa571e351fc2e487cb25955e7692aeaa16c",
+      "manifestUrl": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/dsh-plugins/dsh-ccpg-one/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-harness-one",
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1791621998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chumingjun/dsh-harness-one",
+              "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+              "path": "dsh-plugins/dsh-ccpg-one"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ccpg-orchestrator",
+      "version": "0.12.0",
+      "path": "dsh-plugins/dsh-ccpg-orchestrator",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chumingjun/dsh-harness-one",
+        "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+        "path": "dsh-plugins/dsh-ccpg-orchestrator"
+      },
+      "manifestSha256": "dea59a522573b07bc85e31767743ecb63a2a91414f5616b30b137ee6196f6b19",
+      "manifestUrl": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/dsh-plugins/dsh-ccpg-orchestrator/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ccpg-orchestrator",
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1791621998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chumingjun/dsh-harness-one",
+              "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+              "path": "dsh-plugins/dsh-ccpg-orchestrator"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ccpg-tools",
+      "version": "0.12.0",
+      "path": "dsh-plugins/dsh-ccpg-tools",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chumingjun/dsh-harness-one",
+        "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+        "path": "dsh-plugins/dsh-ccpg-tools"
+      },
+      "manifestSha256": "3dc337fc8dfaf4303772d7955174f5c6dff054f0ca6fce0cd8c37f447e6aee2c",
+      "manifestUrl": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/dsh-plugins/dsh-ccpg-tools/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ccpg-tools",
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1791621998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chumingjun/dsh-harness-one",
+              "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+              "path": "dsh-plugins/dsh-ccpg-tools"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ccpg-web",
+      "version": "0.12.0",
+      "path": "dsh-plugins/dsh-ccpg-web",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chumingjun/dsh-harness-one",
+        "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+        "path": "dsh-plugins/dsh-ccpg-web"
+      },
+      "manifestSha256": "d21da68b1f7279d28296fa37df39b8713bf5d96c999e92ef090d2bd8a765e574",
+      "manifestUrl": "https://github.com/chumingjun/dsh-harness-one/blob/08aef04761e8c6586efaa4077b49d349d4f0f920/dsh-plugins/dsh-ccpg-web/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ccpg-web",
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1791621998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chumingjun/dsh-harness-one",
+              "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+              "path": "dsh-plugins/dsh-ccpg-web"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-harness-one",
+      "origin": "npm",
+      "name": "dsh-harness-one",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-harness-one",
+        "title": "dsh-harness-one",
+        "description": "Workflow One - Visual AI workflow orchestrator for DeepSeek Harness (dsh): multi-agent DAGs, live execution, recovery, and Feishu integration (single-package edition)",
+        "homepage": "https://github.com/chumingjun/dsh-harness-one#readme",
+        "repository": {
+          "url": "https://github.com/chumingjun/dsh-harness-one",
+          "directory": "dsh-plugins"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "dsh-plugin",
+            "ai-agents",
+            "agentic-workflow",
+            "workflow-automation",
+            "visual-workflow",
+            "multi-agent",
+            "dag",
+            "react-flow",
+            "feishu",
+            "lark",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1791622555,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3d851ab28d13c119dc6d7698469994e2dac5ab43c9ef1d474972c24cda807ca7",
+      "evidence": [
+        {
+          "name": "dsh-harness-one",
+          "version": "0.12.0",
+          "tarball": "https://registry.npmjs.org/dsh-harness-one/-/dsh-harness-one-0.12.0.tgz",
+          "integrity": "sha512-fsGbgbKGEgBjxy8GKYVDDQg/wfgifeMgcGqoJ0v7bezwgQXDtmmQ4cADoeU96m9RptroxgHADW4XDo5EFwhBrQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-harness-one",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chumingjun/dsh-harness-one",
+    "commit": "08aef04761e8c6586efaa4077b49d349d4f0f920",
+    "releaseTags": 27,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:23.218Z"
+}

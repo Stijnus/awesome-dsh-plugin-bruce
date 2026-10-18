@@ -1,0 +1,139 @@
+{
+  "full_name": "gausszhou/dsh-opencode-session-id",
+  "originalPosition": 173,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 173,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:09.337Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "54f22abc786a5eacb467490c2dff927c287c9bf57a7b61a49245af7626a614e0",
+      "url": "https://github.com/gausszhou/dsh-opencode-session-id/blob/ec4b9ca952e359b6b0120b35cc3b9de01ba3d668/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@gausszhou/dsh-opencode-session-id",
+          "command": "dsh plugin --profile web add \"@gausszhou/dsh-opencode-session-id\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "8c3a872cb5af1223eb8492507df43c385ba24eaedb6768e33eb3fb89ff71a375",
+      "url": "https://github.com/gausszhou/dsh-opencode-session-id/blob/ec4b9ca952e359b6b0120b35cc3b9de01ba3d668/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@gausszhou/dsh-opencode-session-id",
+          "command": "dsh plugin --profile web add \"@gausszhou/dsh-opencode-session-id\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@gausszhou/dsh-opencode-session-id",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gausszhou/dsh-opencode-session-id",
+        "commit": "ec4b9ca952e359b6b0120b35cc3b9de01ba3d668"
+      },
+      "manifestSha256": "ad56de5d3dd37495b67d2c995d7b9f3570af108a3f6a23ebc6de3df02edbe50d",
+      "manifestUrl": "https://github.com/gausszhou/dsh-opencode-session-id/blob/ec4b9ca952e359b6b0120b35cc3b9de01ba3d668/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@gausszhou/dsh-opencode-session-id",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1789367789,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gausszhou/dsh-opencode-session-id",
+              "commit": "ec4b9ca952e359b6b0120b35cc3b9de01ba3d668"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@gausszhou/dsh-opencode-session-id",
+      "origin": "npm",
+      "name": "@gausszhou/dsh-opencode-session-id",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@gausszhou/dsh-opencode-session-id",
+        "title": "@gausszhou/dsh-opencode-session-id",
+        "description": "dsh session IDs for opencode, zero config.",
+        "author": "gausszhou",
+        "repository": {
+          "url": "https://github.com/gausszhou/dsh-opencode-session-id"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "opencode",
+            "session-id",
+            "session-affinity",
+            "cordis",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1789367440,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6c5105a3474016531e8749b3d2d28fc1a1b0437c283a312e5c26c90d7bf64035",
+      "evidence": [
+        {
+          "name": "@gausszhou/dsh-opencode-session-id",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/@gausszhou/dsh-opencode-session-id/-/dsh-opencode-session-id-0.1.1.tgz",
+          "integrity": "sha512-Xz5WnAs3PwlSlAFKZG0WpSvqfsxY6mny48xVi3qgni7AvRg7uLzb+3607UNyki+3MejsmZTQ0D2+L+5kEHSPQw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@gausszhou/dsh-opencode-session-id",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gausszhou/dsh-opencode-session-id",
+    "commit": "ec4b9ca952e359b6b0120b35cc3b9de01ba3d668",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:14.281Z"
+}

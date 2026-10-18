@@ -1,0 +1,99 @@
+{
+  "full_name": "Tianbuyu-wwx/dsh-hermes-link",
+  "originalPosition": 125,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 125,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:50.885Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a0ea1015f6f1eda459321990870817da894e3060b1012a00dc04b34815f8e654",
+      "url": "https://github.com/Tianbuyu-wwx/dsh-hermes-link/blob/1c63009c138d6e46d43c4f154b9cc017cab5ae4a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@Tianbuyu-wwx/dsh-hermes-link",
+          "command": "dsh plugin --profile web add @Tianbuyu-wwx/dsh-hermes-link",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6c7781b8bd78937bc467c5896d45666351bd07da9134a3cd67ecf21332f3cb89",
+      "url": "https://github.com/Tianbuyu-wwx/dsh-hermes-link/blob/1c63009c138d6e46d43c4f154b9cc017cab5ae4a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@Tianbuyu-wwx/dsh-hermes-link",
+          "command": "dsh plugin --profile web add @Tianbuyu-wwx/dsh-hermes-link",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tianbuyu-wwx/dsh-hermes-link",
+      "version": "0.6.11",
+      "path": "packages/dsh-hermes-link",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tianbuyu-wwx/dsh-hermes-link",
+        "commit": "1c63009c138d6e46d43c4f154b9cc017cab5ae4a",
+        "path": "packages/dsh-hermes-link"
+      },
+      "manifestSha256": "b8346461b9a627e7b00c7d39cca3d5a73d45faf86d5f3ebb9e82f3093d53d501",
+      "manifestUrl": "https://github.com/Tianbuyu-wwx/dsh-hermes-link/blob/1c63009c138d6e46d43c4f154b9cc017cab5ae4a/packages/dsh-hermes-link/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@tianbuyu-wwx/dsh-hermes-link",
+        "versions": [
+          {
+            "version": "0.6.11",
+            "publishTimestamp": 1789664948,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tianbuyu-wwx/dsh-hermes-link",
+              "commit": "1c63009c138d6e46d43c4f154b9cc017cab5ae4a",
+              "path": "packages/dsh-hermes-link"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@Tianbuyu-wwx/dsh-hermes-link",
+      "status": "unsupported_source",
+      "code": "unsupported_target",
+      "reason": "不是受支持的 npm 精确版本、标签或 HTTPS Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@Tianbuyu-wwx/dsh-hermes-link",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tianbuyu-wwx/dsh-hermes-link",
+    "commit": "1c63009c138d6e46d43c4f154b9cc017cab5ae4a",
+    "releaseTags": 17,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:58.572Z"
+}

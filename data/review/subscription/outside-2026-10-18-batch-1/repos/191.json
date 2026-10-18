@@ -1,0 +1,146 @@
+{
+  "full_name": "HarmlessFunny/dsh-background-by-model",
+  "originalPosition": 191,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 191,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:36.039Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0d9cce251461d79ba1dce7858531003b36e70e106e38874e5867291c2b0f5626",
+      "url": "https://github.com/HarmlessFunny/dsh-background-by-model/blob/893d1b7e3204d826de692f536e7dac97029d8d64/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-background-by-model",
+          "command": "dsh plugin --profile web add dsh-background-by-model",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "66ea35cd370b940299ea93d8f474002caa895f67b959f7b284d14f9f53b39b37",
+      "url": "https://github.com/HarmlessFunny/dsh-background-by-model/blob/893d1b7e3204d826de692f536e7dac97029d8d64/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-background-by-model",
+          "command": "dsh plugin --profile web add dsh-background-by-model",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-background-by-model",
+      "version": "0.8.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HarmlessFunny/dsh-background-by-model",
+        "commit": "893d1b7e3204d826de692f536e7dac97029d8d64"
+      },
+      "manifestSha256": "6cef5d8ba8a5c321bd2cd89fe54c7df49741d39aa10222d4ab3668dccb7e61d8",
+      "manifestUrl": "https://github.com/HarmlessFunny/dsh-background-by-model/blob/893d1b7e3204d826de692f536e7dac97029d8d64/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-background-by-model",
+        "versions": [
+          {
+            "version": "0.8.2",
+            "publishTimestamp": 1791685214,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HarmlessFunny/dsh-background-by-model",
+              "commit": "893d1b7e3204d826de692f536e7dac97029d8d64"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-background-by-model",
+      "origin": "npm",
+      "name": "dsh-background-by-model",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-background-by-model",
+        "title": "dsh-background-by-model",
+        "description": "Appearance plugin for DeepSeek Harness: an ordered list of model rules, each carrying its own wallpapers — every image with its own framing and theme color — plus layout mode, opacity, brightness and blur; the background follows the model you switch to, and a rule can rotate through several images on its own rhythm.",
+        "author": "Tkingxiao",
+        "homepage": "https://github.com/HarmlessFunny/dsh-background-by-model#readme",
+        "repository": {
+          "url": "https://github.com/HarmlessFunny/dsh-background-by-model"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "dsh-plugin",
+            "theme",
+            "wallpaper",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.2",
+            "publishTimestamp": 1791685325,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ac0e75e932a50ba0ffc16ecbd0ff4e0f91c3cbb51d18a51c04a6d18886d9791e",
+      "evidence": [
+        {
+          "name": "dsh-background-by-model",
+          "version": "0.8.2",
+          "tarball": "https://registry.npmjs.org/dsh-background-by-model/-/dsh-background-by-model-0.8.2.tgz",
+          "integrity": "sha512-C5xcyyxl+Z41OpXvOYpxCA39GVDhAIO2KVoUMgoJ9R99EE09W4AbN3YfMPbfvgguobjJiqLzs5PN4yhn8h4oxg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-background-by-model",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HarmlessFunny/dsh-background-by-model",
+    "commit": "893d1b7e3204d826de692f536e7dac97029d8d64",
+    "releaseTags": 30,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:42.220Z"
+}

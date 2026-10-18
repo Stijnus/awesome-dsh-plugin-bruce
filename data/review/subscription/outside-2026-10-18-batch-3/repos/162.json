@@ -1,0 +1,194 @@
+{
+  "full_name": "rayafriandion/dsh-oc-tui",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:40.776Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e5a693777f34ca26e37bee646be6ffab33d443d4a5983bcfbedf71829d98b6cb",
+      "url": "https://github.com/rayafriandion/dsh-oc-tui/blob/75f224dd6d46558078521688b1bf0725cfdc02ba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-oc-tui",
+          "command": "dsh plugin --profile tui add -w dsh-oc-tui",
+          "profile": "tui"
+        },
+        {
+          "install": "dsh-oc-tui",
+          "command": "dsh plugin … add -w dsh-oc-tui",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-oc-tui@next",
+          "command": "dsh plugin --profile tui add -w dsh-oc-tui@next",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-oc-tui",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rayafriandion/dsh-oc-tui",
+        "commit": "75f224dd6d46558078521688b1bf0725cfdc02ba"
+      },
+      "manifestSha256": "669cad12c4e9a9a9039f43f6f4f7dc09176c95e2b038e7200c70d00283ffc4d7",
+      "manifestUrl": "https://github.com/rayafriandion/dsh-oc-tui/blob/75f224dd6d46558078521688b1bf0725cfdc02ba/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-oc-tui",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1791206294,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/rayafriandion/dsh-oc-tui",
+              "commit": "75f224dd6d46558078521688b1bf0725cfdc02ba"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-oc-tui",
+      "origin": "npm",
+      "name": "dsh-oc-tui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-oc-tui",
+        "title": "dsh-oc-tui",
+        "description": "A terminal UI (TUI) for DeepSeek Harness — an opencode-inspired chat client that boots as a dsh profile app plugin. ｜ DeepSeek Harness 的终端界面（TUI），受 opencode 启发，以 dsh profile 应用插件形式启动。",
+        "author": "rayafriandion",
+        "homepage": "https://github.com/rayafriandion/dsh-oc-tui#readme",
+        "repository": {
+          "url": "https://github.com/rayafriandion/dsh-oc-tui"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "tui",
+            "terminal",
+            "cli",
+            "opencode",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1790845693,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b7911033b05d3c0ea3dc21c5c0d54883817599e18ef423b6594d5ded1cf06e25",
+      "evidence": [
+        {
+          "name": "dsh-oc-tui",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/dsh-oc-tui/-/dsh-oc-tui-0.1.5.tgz",
+          "integrity": "sha512-lEYhl1o0fM25/MH2sii6F7PW0dyS+ab2bWQjtkbIza7VMlm5doVNARaqOtI3j4r1LnxAArjFfHKAOIuI7dQG+Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-oc-tui@next",
+      "origin": "npm",
+      "name": "dsh-oc-tui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-oc-tui",
+        "title": "dsh-oc-tui",
+        "description": "A terminal UI (TUI) for DeepSeek Harness — an opencode-inspired chat client that boots as a dsh profile app plugin. ｜ DeepSeek Harness 的终端界面（TUI），受 opencode 启发，以 dsh profile 应用插件形式启动。",
+        "author": "rayafriandion",
+        "homepage": "https://github.com/rayafriandion/dsh-oc-tui#readme",
+        "repository": {
+          "url": "https://github.com/rayafriandion/dsh-oc-tui"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "tui",
+            "terminal",
+            "cli",
+            "opencode",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0-pre.9",
+            "publishTimestamp": 1791201333,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b7911033b05d3c0ea3dc21c5c0d54883817599e18ef423b6594d5ded1cf06e25",
+      "evidence": [
+        {
+          "name": "dsh-oc-tui",
+          "version": "0.2.0-pre.9",
+          "tarball": "https://registry.npmjs.org/dsh-oc-tui/-/dsh-oc-tui-0.2.0-pre.9.tgz",
+          "integrity": "sha512-thnmsKhFl9JN3g/xRStNCsSOdzX+NtRc3VG/b3d+ZJZS2D1DfMzpUBj1vsP+zL6Lh40HgBqALpbsEFfc0eak3w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-oc-tui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-oc-tui@next",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/rayafriandion/dsh-oc-tui",
+    "commit": "75f224dd6d46558078521688b1bf0725cfdc02ba",
+    "releaseTags": 7,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:47.500Z"
+}

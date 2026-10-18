@@ -1,0 +1,274 @@
+{
+  "full_name": "a903067276-rgb/dsh-file-upload",
+  "originalPosition": 69,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 69,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:42.819Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b2da3efef5d66e881ec48d9b137c9447444b9c8593403cb09f3bacaeb2e8db88",
+      "url": "https://github.com/a903067276-rgb/dsh-file-upload/blob/8c7a17e6399f205620e9c3ebc5080c28d02fa705/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-upload#main",
+          "command": "dsh plugin --profile web add \"github:a903067276-rgb/dsh-file-upload#main\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-upload#v0.1.4",
+          "command": "dsh plugin add github:a903067276-rgb/dsh-file-upload#v0.1.4",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-upload#v0.1.2",
+          "command": "dsh plugin add github:a903067276-rgb/dsh-file-upload#v0.1.2",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "ed2abfb839ccaa06ffa485c4146d5035ec845959173c76c75ae991705b8871c8",
+      "url": "https://github.com/a903067276-rgb/dsh-file-upload/blob/8c7a17e6399f205620e9c3ebc5080c28d02fa705/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-upload#main",
+          "command": "dsh plugin --profile web add \"github:a903067276-rgb/dsh-file-upload#main\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-upload#v0.1.4",
+          "command": "dsh plugin add github:a903067276-rgb/dsh-file-upload#v0.1.4",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-upload#v0.1.2",
+          "command": "dsh plugin add github:a903067276-rgb/dsh-file-upload#v0.1.2",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-file-upload",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/a903067276-rgb/dsh-file-upload",
+        "commit": "8c7a17e6399f205620e9c3ebc5080c28d02fa705"
+      },
+      "manifestSha256": "a8600194d0f7044e94e78d10ee389c9961a6c0b674649abdbf379ef275dd7eba",
+      "manifestUrl": "https://github.com/a903067276-rgb/dsh-file-upload/blob/8c7a17e6399f205620e9c3ebc5080c28d02fa705/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-file-upload",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1790380638,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-file-upload",
+              "commit": "8c7a17e6399f205620e9c3ebc5080c28d02fa705"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/a903067276-rgb/dsh-file-upload#main",
+      "origin": "git_target",
+      "name": "dsh-file-upload",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-file-upload",
+        "title": "dsh-file-upload",
+        "description": "Upload button + drag-and-drop files into DSH conversation as local paths (works with any vision plugin)",
+        "repository": {
+          "url": "https://github.com/a903067276-rgb/dsh-file-upload"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "file-upload",
+            "drag-drop",
+            "vision",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1790380638,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-file-upload",
+              "commit": "8c7a17e6399f205620e9c3ebc5080c28d02fa705"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "8c7a17e6399f205620e9c3ebc5080c28d02fa705",
+          "name": "dsh-file-upload",
+          "version": "0.1.7",
+          "url": "https://github.com/a903067276-rgb/dsh-file-upload",
+          "manifestSha256": "a8600194d0f7044e94e78d10ee389c9961a6c0b674649abdbf379ef275dd7eba",
+          "publishTimestamp": 1790380638
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/a903067276-rgb/dsh-file-upload#v0.1.4",
+      "origin": "git_target",
+      "name": "dsh-file-upload",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-file-upload",
+        "title": "dsh-file-upload",
+        "description": "Upload button + drag-and-drop files into DSH conversation as local paths (works with any vision plugin)",
+        "repository": {
+          "url": "https://github.com/a903067276-rgb/dsh-file-upload"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "file-upload",
+            "drag-drop",
+            "vision",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1787326367,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-file-upload",
+              "commit": "4d8c83280983bfdd57647fbfb7f7455adbf01a74"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "4d8c83280983bfdd57647fbfb7f7455adbf01a74",
+          "name": "dsh-file-upload",
+          "version": "0.1.4",
+          "url": "https://github.com/a903067276-rgb/dsh-file-upload",
+          "manifestSha256": "badbca2e955f2fe61d56b4a9734266377bf9b3956a104fc340ccb56b45ecb9f2",
+          "publishTimestamp": 1787326367
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/a903067276-rgb/dsh-file-upload#v0.1.2",
+      "origin": "git_target",
+      "name": "dsh-file-upload",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-file-upload",
+        "title": "dsh-file-upload",
+        "description": "Upload button + drag-and-drop files into DSH conversation as local paths (works with any vision plugin)",
+        "repository": {
+          "url": "https://github.com/a903067276-rgb/dsh-file-upload"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "file-upload",
+            "drag-drop",
+            "vision",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1787284854,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-file-upload",
+              "commit": "7a38a158dd05d1aded3b34b9915013519ea61169"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "7a38a158dd05d1aded3b34b9915013519ea61169",
+          "name": "dsh-file-upload",
+          "version": "0.1.2",
+          "url": "https://github.com/a903067276-rgb/dsh-file-upload",
+          "manifestSha256": "de94c30f5eadb06908e733461ef913086fc59bf21ef059136b78e47c03530a2a",
+          "publishTimestamp": 1787284854
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a903067276-rgb/dsh-file-upload#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a903067276-rgb/dsh-file-upload#v0.1.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a903067276-rgb/dsh-file-upload#v0.1.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/a903067276-rgb/dsh-file-upload",
+    "commit": "8c7a17e6399f205620e9c3ebc5080c28d02fa705",
+    "releaseTags": 8,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:01.270Z"
+}

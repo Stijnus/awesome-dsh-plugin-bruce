@@ -1,0 +1,77 @@
+{
+  "full_name": "Chu-Xin-r/wanjiqi-meme",
+  "originalPosition": 87,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 87,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:05.635Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4a8cc4515b335ee6084197bd038961878575741c7ec50c3413cdbd9a93e20b80",
+      "url": "https://github.com/Chu-Xin-r/wanjiqi-meme/blob/de4eac5ba5275ba08012fa71619298b19e9dcae6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Chu-Xin-r/wanjiqi-meme",
+          "command": "dsh plugin --profile web add \"github:Chu-Xin-r/wanjiqi-meme\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "wanjiqi-meme",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chu-Xin-r/wanjiqi-meme",
+        "commit": "de4eac5ba5275ba08012fa71619298b19e9dcae6"
+      },
+      "manifestSha256": "d8e588d26daff4777324f5c0ffdc39930413fb66340b708cc56b9d9deadfb277",
+      "manifestUrl": "https://github.com/Chu-Xin-r/wanjiqi-meme/blob/de4eac5ba5275ba08012fa71619298b19e9dcae6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "wanjiqi-meme",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786785573,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Chu-Xin-r/wanjiqi-meme",
+              "commit": "de4eac5ba5275ba08012fa71619298b19e9dcae6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Chu-Xin-r/wanjiqi-meme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chu-Xin-r/wanjiqi-meme",
+    "commit": "de4eac5ba5275ba08012fa71619298b19e9dcae6",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:11.353Z"
+}

@@ -1,0 +1,146 @@
+{
+  "full_name": "FeatherHunter/dsh-opencode-palette",
+  "originalPosition": 1,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:38.905Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "edf7f20acb58037542e2cd586ba2befbcab1afbe4cdd2bd172e96e0fa0e59415",
+      "url": "https://github.com/FeatherHunter/dsh-opencode-palette/blob/dbcc93ae447fc255097594f20d674664cc2da4ff/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-opencode-palette",
+          "command": "dsh plugin --profile web add dsh-opencode-palette",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.en.md",
+      "sha256": "3aaac91c06dc4d0f5e5a59e659cd9b52fa62486fd8aa4d459459a95ba1026ceb",
+      "url": "https://github.com/FeatherHunter/dsh-opencode-palette/blob/dbcc93ae447fc255097594f20d674664cc2da4ff/docs/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-opencode-palette",
+          "command": "dsh plugin --profile web add dsh-opencode-palette",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-palette",
+      "version": "2.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FeatherHunter/dsh-opencode-palette",
+        "commit": "dbcc93ae447fc255097594f20d674664cc2da4ff"
+      },
+      "manifestSha256": "f0da2803be5124dfd296fcedfb8dfe804c7a32962fe19d7355184697f1c41002",
+      "manifestUrl": "https://github.com/FeatherHunter/dsh-opencode-palette/blob/dbcc93ae447fc255097594f20d674664cc2da4ff/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-opencode-palette",
+        "versions": [
+          {
+            "version": "2.1.3",
+            "publishTimestamp": 1792253358,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FeatherHunter/dsh-opencode-palette",
+              "commit": "dbcc93ae447fc255097594f20d674664cc2da4ff"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-opencode-palette",
+      "origin": "npm",
+      "name": "dsh-opencode-palette",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-opencode-palette",
+        "title": "dsh-opencode-palette",
+        "description": "让 DeepSeek Harness 穿上 38 款经典皮肤——东京的霓虹夜色、德古拉的暗红月光、复古工坊的暖黄灯火、黑客帝国的数字雨、玫瑰松林间的风……一键换肤，即点即换，重启不丢。38 legendary skins for DeepSeek Harness — tokyonight's neon dusk, dracula's crimson moon, gruvbox's retro glow, the matrix's digital rain, rose-pine's rosewood calm… one click, instant, persisted.",
+        "homepage": "https://github.com/FeatherHunter/dsh-opencode-palette",
+        "repository": {
+          "url": "https://github.com/FeatherHunter/dsh-opencode-palette"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "theme",
+            "opencode",
+            "tui",
+            "dark",
+            "multi-theme"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.1.3",
+            "publishTimestamp": 1792253272,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ce51ffa7cfc926729e7f0894cbd22177f32b1bfcf3f01a723a9c4149efb49067",
+      "evidence": [
+        {
+          "name": "dsh-opencode-palette",
+          "version": "2.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-opencode-palette/-/dsh-opencode-palette-2.1.3.tgz",
+          "integrity": "sha512-bWGnCZgwG/Z2VOnrMima+xZwpqXrjMZoZEWXAxO6IlKJdmRIvZNaZEM64jFDTST1nwxvoFmH0wGkgOvM5oTc+A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-opencode-palette",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FeatherHunter/dsh-opencode-palette",
+    "commit": "dbcc93ae447fc255097594f20d674664cc2da4ff",
+    "releaseTags": 42,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:14:48.131Z"
+}

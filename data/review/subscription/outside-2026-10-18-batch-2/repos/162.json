@@ -1,0 +1,97 @@
+{
+  "full_name": "bpc-oss/dsh-web-billing",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:48.917Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2c6c79570c16bca11917356d67bea5931d4335c571209026f76d303756258d24",
+      "url": "https://github.com/bpc-oss/dsh-web-billing/blob/2f6d979e65a5b8fc666cc0feea0a6b7e5954889f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-billing",
+          "command": "dsh plugin --profile web add dsh-web-billing",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1ae5650022309b85f436a866450efacd58c95a81593f2a2d9b73a339c82618a9",
+      "url": "https://github.com/bpc-oss/dsh-web-billing/blob/2f6d979e65a5b8fc666cc0feea0a6b7e5954889f/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-billing",
+          "command": "dsh plugin --profile web add dsh-web-billing",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-billing",
+      "version": "2.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bpc-oss/dsh-web-billing",
+        "commit": "2f6d979e65a5b8fc666cc0feea0a6b7e5954889f"
+      },
+      "manifestSha256": "4084c95ada905c24b1b0e691a73b8695f00b9038f0aeeb9ff4885f25b5cfa237",
+      "manifestUrl": "https://github.com/bpc-oss/dsh-web-billing/blob/2f6d979e65a5b8fc666cc0feea0a6b7e5954889f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-web-billing",
+        "versions": [
+          {
+            "version": "2.3.2",
+            "publishTimestamp": 1787393389,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bpc-oss/dsh-web-billing",
+              "commit": "2f6d979e65a5b8fc666cc0feea0a6b7e5954889f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-web-billing",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-web-billing",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bpc-oss/dsh-web-billing",
+    "commit": "2f6d979e65a5b8fc666cc0feea0a6b7e5954889f",
+    "releaseTags": 8,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:54.527Z"
+}

@@ -1,0 +1,67 @@
+{
+  "full_name": "Elave-66/dsh-blue-sea-launcher",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:38.700Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "02f52030f4e4bb956dc207b61e49b511eb4ef05e8b7b1269abce3d799bded50f",
+      "url": "https://github.com/Elave-66/dsh-blue-sea-launcher/blob/471c6f790181a57720a9fc3430b01b51fbfb001a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-blue-sea-launcher",
+      "version": "0.1.5",
+      "path": "dsh-blue-sea-launcher",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Elave-66/dsh-blue-sea-launcher",
+        "commit": "471c6f790181a57720a9fc3430b01b51fbfb001a",
+        "path": "dsh-blue-sea-launcher"
+      },
+      "manifestSha256": "1c04fe9edeedfdc98239b837c0f46e68862b4be80d97e2f4ecc576f0cfa140e7",
+      "manifestUrl": "https://github.com/Elave-66/dsh-blue-sea-launcher/blob/471c6f790181a57720a9fc3430b01b51fbfb001a/dsh-blue-sea-launcher/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-blue-sea-launcher",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1789293244,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Elave-66/dsh-blue-sea-launcher",
+              "commit": "471c6f790181a57720a9fc3430b01b51fbfb001a",
+              "path": "dsh-blue-sea-launcher"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Elave-66/dsh-blue-sea-launcher",
+    "commit": "471c6f790181a57720a9fc3430b01b51fbfb001a",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:43.736Z"
+}

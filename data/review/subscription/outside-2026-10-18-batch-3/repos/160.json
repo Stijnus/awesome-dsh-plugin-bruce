@@ -1,0 +1,157 @@
+{
+  "full_name": "platonai/dsh-browser4",
+  "originalPosition": 160,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 160,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:38.521Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c1c24989ec42e4fb713b17e1b0a7dfe25f2cfa2a5b1552b90ea59b33f566ef3d",
+      "url": "https://github.com/platonai/dsh-browser4/blob/fb1c490d0536c33123026876f54b5ae3482aea89/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-browser4",
+          "command": "dsh plugin --profile web add dsh-browser4",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/platonai/dsh-browser4",
+          "command": "dsh plugin --profile web add github:platonai/dsh-browser4",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "832726d5937ed8a93c1f8ed9c48de9fdc1c5bb9955f238666f6031e9f1e6cdc0",
+      "url": "https://github.com/platonai/dsh-browser4/blob/fb1c490d0536c33123026876f54b5ae3482aea89/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-browser4",
+          "command": "dsh plugin --profile web add dsh-browser4",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/platonai/dsh-browser4",
+          "command": "dsh plugin --profile web add github:platonai/dsh-browser4",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-browser4",
+      "version": "0.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/platonai/dsh-browser4",
+        "commit": "fb1c490d0536c33123026876f54b5ae3482aea89"
+      },
+      "manifestSha256": "1d2b90ac8218999e8d57f91ff6c02bc3596c70265e77a294cb1782e86d444e0f",
+      "manifestUrl": "https://github.com/platonai/dsh-browser4/blob/fb1c490d0536c33123026876f54b5ae3482aea89/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-browser4",
+        "versions": [
+          {
+            "version": "0.0.1",
+            "publishTimestamp": 1792219582,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/platonai/dsh-browser4",
+              "commit": "fb1c490d0536c33123026876f54b5ae3482aea89"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-browser4",
+      "origin": "npm",
+      "name": "dsh-browser4",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-browser4",
+        "title": "dsh-browser4",
+        "description": "Browser4 skills bundle for DeepSeek Harness — AI-native browser automation (browser4-cli) for autonomous agents, intelligent extraction, and large-scale web automation. Registers the Browser4 skills (browser4-cli, browser4-experience, browser4-plugin, scent-miner) into the DSH skill registry.",
+        "homepage": "https://github.com/platonai/dsh-browser4",
+        "repository": {
+          "url": "https://github.com/platonai/dsh-browser4"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "bundle",
+            "skill",
+            "browser4",
+            "browser4-cli",
+            "browser automation",
+            "web automation",
+            "ai agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.0.1",
+            "publishTimestamp": 1786993069,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6630cfcc1e3a648fd208acdbcd76fdf99bc5de81fd9d1b502150bdb17af74e4c",
+      "evidence": [
+        {
+          "name": "dsh-browser4",
+          "version": "0.0.1",
+          "tarball": "https://registry.npmjs.org/dsh-browser4/-/dsh-browser4-0.0.1.tgz",
+          "integrity": "sha512-8wx9yUKGSuTPyEccf5MdybA9ou+hSw2NlvW+lukZsWcupVtJw64sUYuKETjltKQooQtBqZ7lrVjrZI8lhO6pkA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-browser4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/platonai/dsh-browser4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/platonai/dsh-browser4",
+    "commit": "fb1c490d0536c33123026876f54b5ae3482aea89",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:43.921Z"
+}

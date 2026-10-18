@@ -1,0 +1,201 @@
+{
+  "full_name": "pure-craft/dsh-capability-panel",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:12.460Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d09305534070d75273afc2bf668f66af9419f8499d041788e462eb6e84a4cd2f",
+      "url": "https://github.com/pure-craft/dsh-capability-panel/blob/04b3bd2aa6feb4a7c14eadf0ee36f1ece367d11d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-capability-panel",
+          "command": "dsh plugin --profile web add dsh-capability-panel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pure-craft/dsh-capability-panel",
+          "command": "dsh plugin --profile web add github:pure-craft/dsh-capability-panel",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6bcd89a5dd087d6e96802a6f4ba21b693e59134c805ee88ac1c4af146cc863be",
+      "url": "https://github.com/pure-craft/dsh-capability-panel/blob/04b3bd2aa6feb4a7c14eadf0ee36f1ece367d11d/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-capability-panel",
+          "command": "dsh plugin --profile web add dsh-capability-panel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pure-craft/dsh-capability-panel",
+          "command": "dsh plugin --profile web add github:pure-craft/dsh-capability-panel",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "59ba125e247bf25792ea67f656b89457bbe6e35b3c851c9fc1e54a9de37bbc50",
+      "url": "https://github.com/pure-craft/dsh-capability-panel/blob/04b3bd2aa6feb4a7c14eadf0ee36f1ece367d11d/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-capability-panel",
+          "command": "dsh plugin --profile web add dsh-capability-panel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pure-craft/dsh-capability-panel",
+          "command": "dsh plugin --profile web add github:pure-craft/dsh-capability-panel",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "2ff7f8340b3d5cace1606b811d74e0108e64dbb973329020ae3d02813aab0810",
+      "url": "https://github.com/pure-craft/dsh-capability-panel/blob/04b3bd2aa6feb4a7c14eadf0ee36f1ece367d11d/README.ko.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-capability-panel",
+          "command": "dsh plugin --profile web add dsh-capability-panel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pure-craft/dsh-capability-panel",
+          "command": "dsh plugin --profile web add github:pure-craft/dsh-capability-panel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-capability-panel",
+      "version": "1.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/pure-craft/dsh-capability-panel",
+        "commit": "04b3bd2aa6feb4a7c14eadf0ee36f1ece367d11d"
+      },
+      "manifestSha256": "a2e9508c5ae942f99c48ca8c7d29d5f3956831bc26e50130f4d43c7b4d29d2d0",
+      "manifestUrl": "https://github.com/pure-craft/dsh-capability-panel/blob/04b3bd2aa6feb4a7c14eadf0ee36f1ece367d11d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0-0 >=0.1.5-alpha.1 || >=0.1.3-alpha.2 <0.2.0-0 >=0.1.5-alpha.1 || >=0.1.5-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-capability-panel",
+        "versions": [
+          {
+            "version": "1.4.1",
+            "publishTimestamp": 1792117793,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/pure-craft/dsh-capability-panel",
+              "commit": "04b3bd2aa6feb4a7c14eadf0ee36f1ece367d11d"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0-0 >=0.1.5-alpha.1 || >=0.1.3-alpha.2 <0.2.0-0 >=0.1.5-alpha.1 || >=0.1.5-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-capability-panel",
+      "origin": "npm",
+      "name": "dsh-capability-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-capability-panel",
+        "title": "dsh-capability-panel",
+        "description": "Manage MCP servers, skills, and tools for your DeepSeek Harness agent — true in-context state (loaded/truncated/evicted) and per-session switches for every capability.",
+        "author": "PureCraft",
+        "homepage": "https://github.com/pure-craft/dsh-capability-panel",
+        "repository": {
+          "url": "https://github.com/pure-craft/dsh-capability-panel"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "agent",
+            "skills",
+            "mcp",
+            "tools",
+            "context"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIFRoZSBIb3N0J3Mgc2xpZGVycyBhcnR3b3JrIChwcmltaXRpdmVzJyBJY29uUGVyc29uYWxpemF0aW9uT3V0bGluZSopLCBzY2FsZWQKICAgICAgIGZyb20gaXRzIDE2LXVuaXQgZ3JpZCBhbmQgcGFpbnRlZCBsaWtlIHRoZSBzaGlwcGVkIGJ1bmRsZSBpY29uczogb25lIGRpYWdvbmFsCiAgICAgICBncmFkaWVudCwgbm8gYmFja2dyb3VuZC4gR2VuZXJhdGVkIGZyb20gdGhlIGluc3RhbGxlZCBwYWNrYWdlLCBub3QgZHJhd24gaGVyZS4gLS0+CiAgPGcgdHJhbnNmb3JtPSJzY2FsZSgyLjI1KSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgPHBhdGggZD0iTTMuMjUgNy4xNjM1N0MzLjIwNDE3IDcuMzIyNDcgMy4xNzc3OCA3LjQ4OTkzIDMuMTc3NzMgNy42NjM1N0MzLjE3NzczIDcuODM2OTggMy4yMDMzNiA4LjAwNDg2IDMuMjQ5MDIgOC4xNjM1N0gxLjg1NzQyVjcuMTYzNTdIMy4yNVpNMTQuMTQyNiA4LjE2MzU3SDYuNzE0ODRDNi43NjA1MiA4LjAwNDg1IDYuNzg2MTMgNy44MzcgNi43ODYxMyA3LjY2MzU3QzYuNzg2MDkgNy40ODk5MSA2Ljc1OTcxIDcuMzIyNDkgNi43MTM4NyA3LjE2MzU3SDE0LjE0MjZWOC4xNjM1N1oiIGZpbGw9InVybCgjcmFpbHMpIi8+CiAgICA8cGF0aCBkPSJNOS4xMzc3IDExLjkwOTJDOS4wODU5NiAxMi4wNjY2IDkuMDU2NjggMTIuMjM0NCA5LjA1NjY0IDEyLjQwOTJDOS4wNTY2NCAxMi41ODM4IDkuMDg2MDYgMTIuNzUxOCA5LjEzNzcgMTIuOTA5MkgxLjg1NzQyVjExLjkwOTJIOS4xMzc3Wk0xNC4xNDI2IDEyLjkwOTJIMTIuMTgxNkMxMi4yMzMyIDEyLjc1MTkgMTIuMjYxNyAxMi41ODM4IDEyLjI2MTcgMTIuNDA5MkMxMi4yNjE3IDEyLjIzNDUgMTIuMjMzMyAxMi4wNjY2IDEyLjE4MTYgMTEuOTA5MkgxNC4xNDI2VjEyLjkwOTJaIiBmaWxsPSJ1cmwoI3JhaWxzKSIvPgogICAgPHBhdGggZD0iTTkuMTEyMyAzLjA5MTA2QzkuMDYxMzggMy4yNDg2NSA5LjAzMzI0IDMuNDE2NTMgOS4wMzMyIDMuNTkxMDZDOS4wMzMyIDMuNzY1NDkgOS4wNjE0OCAzLjkzMzU1IDkuMTEyMyA0LjA5MTA2SDEuODU3NDJWMy4wOTEwNkg5LjExMjNaTTE0LjE0MjYgNC4wOTEwNkgxMi4yMDdDMTIuMjU3OCAzLjkzMzU4IDEyLjI4NjEgMy43NjU0NSAxMi4yODYxIDMuNTkxMDZDMTIuMjg2MSAzLjQxNjU3IDEyLjI1NzkgMy4yNDg2MiAxMi4yMDcgMy4wOTEwNkgxNC4xNDI2VjQuMDkxMDZaIiBmaWxsPSJ1cmwoI3JhaWxzKSIvPgogICAgPGNpcmNsZSBjeD0iNC45NzA2NSIgY3k9IjcuNjY0MDEiIHI9IjEuMzUxNTEiIHN0cm9rZT0idXJsKCNyYWlscykiLz4KICAgIDxjaXJjbGUgY3g9IjEwLjY1OTYiIGN5PSIxMi40MDkxIiByPSIxLjM1MTUxIiBzdHJva2U9InVybCgjcmFpbHMpIi8+CiAgICA8Y2lyY2xlIGN4PSIxMC42NTk2IiBjeT0iMy41OTEwMSIgcj0iMS4zNTE1MSIgc3Ryb2tlPSJ1cmwoI3JhaWxzKSIvPgogIDwvZz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icmFpbHMiIHgxPSIzLjc1IiB5MT0iMi4yNSIgeDI9IjI4LjgiIHkyPSIzMy43NSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNThCQ0M4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY1OEVGRiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "1.4.1",
+            "publishTimestamp": 1792151738,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0-0 >=0.1.5-alpha.1 || >=0.1.3-alpha.2 <0.2.0-0 >=0.1.5-alpha.1 || >=0.1.5-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ad2f56d3aed4de26a5c20f3adc7b31634c1ca77e5dcb4ec7a2e4c4a6996f3f4f",
+      "evidence": [
+        {
+          "name": "dsh-capability-panel",
+          "version": "1.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-capability-panel/-/dsh-capability-panel-1.4.1.tgz",
+          "integrity": "sha512-1CZN+oQ7f4brbgvak6LnxirdJmc9u7poFLU2XEwMmOuUaxdaO9j5sEDuefBjEilUC909njTcc/2bIjh5023ddA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-capability-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/pure-craft/dsh-capability-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pure-craft/dsh-capability-panel",
+    "commit": "04b3bd2aa6feb4a7c14eadf0ee36f1ece367d11d",
+    "releaseTags": 8,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:19.138Z"
+}

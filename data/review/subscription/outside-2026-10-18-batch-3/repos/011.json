@@ -1,0 +1,91 @@
+{
+  "full_name": "Tencent-TDS/dsh-kuikly-expert",
+  "originalPosition": 11,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 11,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:24.512Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5fc3aa9532d98c2bc6d0f03c49afa18309d2391cb7e79917036703626056a829",
+      "url": "https://github.com/Tencent-TDS/dsh-kuikly-expert/blob/e4969568984a20ce7af0be53ef6c3002e9fdfb27/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Tencent-TDS/dsh-kuikly-expert",
+          "command": "dsh plugin --profile <your-profile> add github:Tencent-TDS/dsh-kuikly-expert",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6cc0811d2f490f1e3157a20b12fd2eae89aa51aa0c632cdae71584dd0985f006",
+      "url": "https://github.com/Tencent-TDS/dsh-kuikly-expert/blob/e4969568984a20ce7af0be53ef6c3002e9fdfb27/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Tencent-TDS/dsh-kuikly-expert",
+          "command": "dsh plugin --profile <your-profile> add github:Tencent-TDS/dsh-kuikly-expert",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-kuikly-expert",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tencent-TDS/dsh-kuikly-expert",
+        "commit": "e4969568984a20ce7af0be53ef6c3002e9fdfb27"
+      },
+      "manifestSha256": "1ec997403d6e99bd6983ae03a3f0803e835eb4350c3433e29a7698b4b49a9913",
+      "manifestUrl": "https://github.com/Tencent-TDS/dsh-kuikly-expert/blob/e4969568984a20ce7af0be53ef6c3002e9fdfb27/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-kuikly-expert",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787110782,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tencent-TDS/dsh-kuikly-expert",
+              "commit": "e4969568984a20ce7af0be53ef6c3002e9fdfb27"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Tencent-TDS/dsh-kuikly-expert",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tencent-TDS/dsh-kuikly-expert",
+    "commit": "e4969568984a20ce7af0be53ef6c3002e9fdfb27",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:29.618Z"
+}

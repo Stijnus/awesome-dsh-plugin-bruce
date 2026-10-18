@@ -1,0 +1,83 @@
+{
+  "full_name": "xiaoxiaosrm/dsh-mattpocock-skills",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:25.100Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d2756b20cb2b66d0d09898ce92696e31fb4be53c89fd80e777911bfce317e4f",
+      "url": "https://github.com/xiaoxiaosrm/dsh-mattpocock-skills/blob/a46a2abbdacf3416b91b5bb4570b611fa7017559/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xiaoxiaosrm/dsh-mattpocock-skills/releases/download/v0.4.0/mattpocock-community-dsh-engineering-skills-0.4.0.tgz",
+          "command": "dsh plugin --profile web add https://github.com/xiaoxiaosrm/dsh-mattpocock-skills/releases/download/v0.4.0/mattpocock-community-dsh-engineering-skills-0.4.0.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mattpocock-community/dsh-engineering-skills",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaoxiaosrm/dsh-mattpocock-skills",
+        "commit": "a46a2abbdacf3416b91b5bb4570b611fa7017559"
+      },
+      "manifestSha256": "b1843f736e1ec943361bd97367aef77ae3bfc9cccb7613bafe45ea96db51dac1",
+      "manifestUrl": "https://github.com/xiaoxiaosrm/dsh-mattpocock-skills/blob/a46a2abbdacf3416b91b5bb4570b611fa7017559/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@mattpocock-community/dsh-engineering-skills",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1788618141,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaoxiaosrm/dsh-mattpocock-skills",
+              "commit": "a46a2abbdacf3416b91b5bb4570b611fa7017559"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/xiaoxiaosrm/dsh-mattpocock-skills/releases/download/v0.4.0/mattpocock-community-dsh-engineering-skills-0.4.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xiaoxiaosrm/dsh-mattpocock-skills/releases/download/v0.4.0/mattpocock-community-dsh-engineering-skills-0.4.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaoxiaosrm/dsh-mattpocock-skills",
+    "commit": "a46a2abbdacf3416b91b5bb4570b611fa7017559",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:29.804Z"
+}

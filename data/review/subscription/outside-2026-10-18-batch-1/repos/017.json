@@ -1,0 +1,139 @@
+{
+  "full_name": "houyanchao/dsh-timeline",
+  "originalPosition": 17,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 17,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:58.946Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eb090af6f4328d406da936e43b76596fb2cdff19cdd1afead182c5670df29c13",
+      "url": "https://github.com/houyanchao/dsh-timeline/blob/599dfb47934a2afb00c29e00d303acfb966ad2cd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-timeline",
+          "command": "dsh plugin --profile web add dsh-timeline",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "958359e0b0403a11dd8e218bd36ad0210aaf8cf2dc444c1e66b1fedc36edbcb8",
+      "url": "https://github.com/houyanchao/dsh-timeline/blob/599dfb47934a2afb00c29e00d303acfb966ad2cd/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-timeline",
+          "command": "dsh plugin --profile web add dsh-timeline",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-timeline",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/houyanchao/dsh-timeline",
+        "commit": "599dfb47934a2afb00c29e00d303acfb966ad2cd"
+      },
+      "manifestSha256": "3419f8fb35b953d25b56ced94ad38e4b9b13e2dfeeea12723a24ffbcb6d5aff9",
+      "manifestUrl": "https://github.com/houyanchao/dsh-timeline/blob/599dfb47934a2afb00c29e00d303acfb966ad2cd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-timeline",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1787236874,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/houyanchao/dsh-timeline",
+              "commit": "599dfb47934a2afb00c29e00d303acfb966ad2cd"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-timeline",
+      "origin": "npm",
+      "name": "dsh-timeline",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-timeline",
+        "title": "dsh-timeline",
+        "description": "DeepSeek Harness (DSH) plugin: timeline navigation, starred folders, conversation export, prompt library, and quick notes in one.",
+        "homepage": "https://github.com/houyanchao/dsh-timeline#readme",
+        "repository": {
+          "url": "https://github.com/houyanchao/dsh-timeline"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "timeline",
+            "conversation",
+            "export",
+            "bookmark"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1789056387,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "57d6786e6a4969cdbc03e2db785f3d2c83015c038e839344bcc6abdea3577dd5",
+      "evidence": [
+        {
+          "name": "dsh-timeline",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/dsh-timeline/-/dsh-timeline-0.1.5.tgz",
+          "integrity": "sha512-1lNJjvt5ATXKdTMXnkZ7LCRrj4AiKQPvXh7K3B4q7vFnPunaqSNx32p7wwU1tDpiVHnoay7ozxG0/vn55khBvg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-timeline",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/houyanchao/dsh-timeline",
+    "commit": "599dfb47934a2afb00c29e00d303acfb966ad2cd",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:07.380Z"
+}

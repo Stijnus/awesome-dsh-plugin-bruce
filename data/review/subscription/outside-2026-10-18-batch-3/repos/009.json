@@ -1,0 +1,157 @@
+{
+  "full_name": "Shiye-10Pages/dsh-whale-meter",
+  "originalPosition": 9,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 9,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:22.397Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "35069019ff70beba6f592175e574427cd345e0a4b1bad0e4f54f0f05ef37dbfc",
+      "url": "https://github.com/Shiye-10Pages/dsh-whale-meter/blob/c484500e6a00d26317dc71ee854ced26df6f2aaa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-whale-meter",
+          "command": "dsh plugin --profile <你的profile> add dsh-whale-meter",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/Shiye-10Pages/dsh-whale-meter",
+          "command": "dsh plugin --profile <你的profile> add github:Shiye-10Pages/dsh-whale-meter",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d393a7f5a6e8320f59fd4257a31f9fc81119e68434a574da3173a6ab81987c6d",
+      "url": "https://github.com/Shiye-10Pages/dsh-whale-meter/blob/c484500e6a00d26317dc71ee854ced26df6f2aaa/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-whale-meter",
+          "command": "dsh plugin --profile <your-profile> add dsh-whale-meter",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/Shiye-10Pages/dsh-whale-meter",
+          "command": "dsh plugin --profile <your-profile> add github:Shiye-10Pages/dsh-whale-meter",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-meter",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Shiye-10Pages/dsh-whale-meter",
+        "commit": "c484500e6a00d26317dc71ee854ced26df6f2aaa"
+      },
+      "manifestSha256": "7799fcacb51e6be09721afaf4a014715ce01ef2ddf7ca5f45455c1d6d7372149",
+      "manifestUrl": "https://github.com/Shiye-10Pages/dsh-whale-meter/blob/c484500e6a00d26317dc71ee854ced26df6f2aaa/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-whale-meter",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786922972,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Shiye-10Pages/dsh-whale-meter",
+              "commit": "c484500e6a00d26317dc71ee854ced26df6f2aaa"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-whale-meter",
+      "origin": "npm",
+      "name": "dsh-whale-meter",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-whale-meter",
+        "title": "dsh-whale-meter",
+        "description": "鲸鱼电表：DeepSeek Harness 用量与费用面板 —— 人民币账单、错峰计价、可分享的 AI 账单卡片 | Token usage & cost dashboard for DeepSeek Harness (DSH), with peak/off-peak pricing and shareable bill cards",
+        "author": "shiye",
+        "homepage": "https://github.com/Shiye-10Pages/dsh-whale-meter#readme",
+        "repository": {
+          "url": "https://github.com/Shiye-10Pages/dsh-whale-meter"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "deepseek",
+            "usage",
+            "cost",
+            "token",
+            "billing",
+            "dashboard"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786921958,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "24ab035adb48aaef9fc178d4ac681926dcb52b2fc93ec233b29fd59460b45eb3",
+      "evidence": [
+        {
+          "name": "dsh-whale-meter",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-whale-meter/-/dsh-whale-meter-0.1.0.tgz",
+          "integrity": "sha512-Ha++mbQNhtsvh+SYsci0vkim4iREYOf3KO66MkTLAOElyPLXp92ldxOFFNhCGKNogx2KUMvyyED/Oy8OsgTPUA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-whale-meter",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Shiye-10Pages/dsh-whale-meter",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Shiye-10Pages/dsh-whale-meter",
+    "commit": "c484500e6a00d26317dc71ee854ced26df6f2aaa",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:28.513Z"
+}

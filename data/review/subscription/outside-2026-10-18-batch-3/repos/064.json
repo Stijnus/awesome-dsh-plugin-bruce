@@ -1,0 +1,65 @@
+{
+  "full_name": "Soulize/hard-flash",
+  "originalPosition": 64,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 64,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:36.717Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "76b860276e9242e70cfba144a01f4722547d7acdaccfc03ec5781a3eac594703",
+      "url": "https://github.com/Soulize/hard-flash/blob/06c20ded45e6a3cf80db91717c9e0e2928d04e74/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agent-preset-standard-plus",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Soulize/hard-flash",
+        "commit": "06c20ded45e6a3cf80db91717c9e0e2928d04e74"
+      },
+      "manifestSha256": "5d6564ac590775cd05776b53e68523a234a3bf2ec9108ae6f8508702674ede42",
+      "manifestUrl": "https://github.com/Soulize/hard-flash/blob/06c20ded45e6a3cf80db91717c9e0e2928d04e74/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-agent-preset-standard-plus",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1790592055,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Soulize/hard-flash",
+              "commit": "06c20ded45e6a3cf80db91717c9e0e2928d04e74"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Soulize/hard-flash",
+    "commit": "06c20ded45e6a3cf80db91717c9e0e2928d04e74",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:42.818Z"
+}

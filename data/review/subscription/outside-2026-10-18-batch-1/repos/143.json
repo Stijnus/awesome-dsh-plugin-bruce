@@ -1,0 +1,73 @@
+{
+  "full_name": "liustack/pptwise",
+  "originalPosition": 143,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 143,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:23.926Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ca717a725eaf6db966dead933535975bd9ef97b73b6b6946ce7255a476449e13",
+      "url": "https://github.com/liustack/pptwise/blob/1c6549235cd0fea60ae999f6f156333aa4ce3ccf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b8833bfcd7f1fd3d6adf1797060d7bad1f993457cd7829d78ab482bea6bca124",
+      "url": "https://github.com/liustack/pptwise/blob/1c6549235cd0fea60ae999f6f156333aa4ce3ccf/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@liustack/pptwise",
+      "version": "0.48.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liustack/pptwise",
+        "commit": "1c6549235cd0fea60ae999f6f156333aa4ce3ccf"
+      },
+      "manifestSha256": "54064909fbd1f40cb966847645baefd6583ac050e3afeb8d0b35a690a309bafb",
+      "manifestUrl": "https://github.com/liustack/pptwise/blob/1c6549235cd0fea60ae999f6f156333aa4ce3ccf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@liustack/pptwise",
+        "versions": [
+          {
+            "version": "0.48.0",
+            "publishTimestamp": 1792189163,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liustack/pptwise",
+              "commit": "1c6549235cd0fea60ae999f6f156333aa4ce3ccf"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liustack/pptwise",
+    "commit": "1c6549235cd0fea60ae999f6f156333aa4ce3ccf",
+    "releaseTags": 44,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:55.182Z"
+}

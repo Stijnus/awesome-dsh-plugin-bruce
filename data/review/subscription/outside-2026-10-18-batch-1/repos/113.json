@@ -1,0 +1,246 @@
+{
+  "full_name": "MrWeiCodes/dsh-loop-guard",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:30.970Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ab3729cd89e3e2d0852ce059f2c1e474103191decbc35ecb90fbb416b8d7adf8",
+      "url": "https://github.com/MrWeiCodes/dsh-loop-guard/blob/fd5b9b65af7135129fb3c5d78b4f4fc3dc6362ea/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mrweicodes/dsh-loop-guard",
+          "command": "dsh plugin --profile web add @mrweicodes/dsh-loop-guard",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/MrWeiCodes/dsh-loop-guard",
+          "command": "dsh plugin --profile web add -w github:MrWeiCodes/dsh-loop-guard",
+          "profile": "web"
+        },
+        {
+          "install": "@mrweicodes/dsh-loop-guard@latest",
+          "command": "dsh plugin --profile web add @mrweicodes/dsh-loop-guard@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "711b31c9aea694268972245f3eb4f237e74a382344ff2a85a0d91b38f7816ce3",
+      "url": "https://github.com/MrWeiCodes/dsh-loop-guard/blob/fd5b9b65af7135129fb3c5d78b4f4fc3dc6362ea/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mrweicodes/dsh-loop-guard",
+          "command": "dsh plugin --profile web add @mrweicodes/dsh-loop-guard",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/MrWeiCodes/dsh-loop-guard",
+          "command": "dsh plugin --profile web add -w github:MrWeiCodes/dsh-loop-guard",
+          "profile": "web"
+        },
+        {
+          "install": "@mrweicodes/dsh-loop-guard@latest",
+          "command": "dsh plugin --profile web add @mrweicodes/dsh-loop-guard@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mrweicodes/dsh-loop-guard",
+      "version": "1.0.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MrWeiCodes/dsh-loop-guard",
+        "commit": "fd5b9b65af7135129fb3c5d78b4f4fc3dc6362ea"
+      },
+      "manifestSha256": "2fb22b8f68ad8269cd225b71da4c835ac0c28f3e0ebd5eed70d585f0b8ff5235",
+      "manifestUrl": "https://github.com/MrWeiCodes/dsh-loop-guard/blob/fd5b9b65af7135129fb3c5d78b4f4fc3dc6362ea/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.1.3 || >=0.1.3-alpha.2 <0.1.4 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-alpha.1 <0.2.0 || >=0.1.7-alpha.1 <0.2.0 || >=0.2.0-alpha.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@mrweicodes/dsh-loop-guard",
+        "versions": [
+          {
+            "version": "1.0.9",
+            "publishTimestamp": 1791558153,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MrWeiCodes/dsh-loop-guard",
+              "commit": "fd5b9b65af7135129fb3c5d78b4f4fc3dc6362ea"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.1.3 || >=0.1.3-alpha.2 <0.1.4 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-alpha.1 <0.2.0 || >=0.1.7-alpha.1 <0.2.0 || >=0.2.0-alpha.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@mrweicodes/dsh-loop-guard",
+      "origin": "npm",
+      "name": "@mrweicodes/dsh-loop-guard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@mrweicodes/dsh-loop-guard",
+        "title": {
+          "en": "Loop guard",
+          "zh": "循环守护"
+        },
+        "description": {
+          "en": "Detects the repetition loops a model can degenerate into, cuts the call mid-stream, and injects a correction so the task carries on.",
+          "zh": "检测模型退化成的重复循环，在流中截断并注入纠正提示，让任务继续往下走。"
+        },
+        "homepage": "https://github.com/MrWeiCodes/dsh-loop-guard#readme",
+        "repository": {
+          "url": "https://github.com/MrWeiCodes/dsh-loop-guard"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "plugin",
+            "guard",
+            "thinking-loop",
+            "reasoning",
+            "repetition",
+            "circuit-breaker",
+            "output-guard"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMjQuOTAgNi41MUExMy40IDEzLjQgMCAxIDEgMTEuMTAgNi41MSIgc3Ryb2tlPSJ1cmwoI2EpIiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0xNS4wNCA0LjE0TDEyLjQ5IDguODNMOS43MSA0LjIwWiIgZmlsbD0idXJsKCNhKSIgLz4KICA8cGF0aCBkPSJNMTUuMSAxMS45TDE5LjQgMjAuOU0yMC45IDExLjlMMTYuNiAyMC45IiBzdHJva2U9InVybCgjYSkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogIDxlbGxpcHNlIGN4PSIxNS45IiBjeT0iMjIuOSIgcng9IjEuNjIiIHJ5PSIxLjk1IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTYgMTUuOSAyMi45KSIgc3Ryb2tlPSJ1cmwoI2EpIiBzdHJva2Utd2lkdGg9IjEuNyIgLz4KICA8ZWxsaXBzZSBjeD0iMjAuMSIgY3k9IjIyLjkiIHJ4PSIxLjYyIiByeT0iMS45NSIgdHJhbnNmb3JtPSJyb3RhdGUoMTYgMjAuMSAyMi45KSIgc3Ryb2tlPSJ1cmwoI2EpIiBzdHJva2Utd2lkdGg9IjEuNyIgLz4KICA8Y2lyY2xlIGN4PSIxOCIgY3k9IjE2LjYiIHI9IjEuMDUiIGZpbGw9InVybCgjYSkiIC8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI1IiB5MT0iNCIgeDI9IjMxIiB5Mj0iMzMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzhFOUJGRiIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNUI1QkQ2IiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "1.0.9",
+            "publishTimestamp": 1791558243,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.1.3 || >=0.1.3-alpha.2 <0.1.4 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-alpha.1 <0.2.0 || >=0.1.7-alpha.1 <0.2.0 || >=0.2.0-alpha.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "52b1af59385e215d068636b807768487c4e6c02be843e0b332b30a74d3349fd9",
+      "evidence": [
+        {
+          "name": "@mrweicodes/dsh-loop-guard",
+          "version": "1.0.9",
+          "tarball": "https://registry.npmjs.org/@mrweicodes/dsh-loop-guard/-/dsh-loop-guard-1.0.9.tgz",
+          "integrity": "sha512-IczHyI9YpkyckUupQ9wx1BvIpy7WH+CuMSo1LALL6RSu0ZabLijzpEaOeW4JxR0mM/jsVoGYMB+MRB3uIL2xRg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@mrweicodes/dsh-loop-guard@latest",
+      "origin": "npm",
+      "name": "@mrweicodes/dsh-loop-guard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@mrweicodes/dsh-loop-guard",
+        "title": {
+          "en": "Loop guard",
+          "zh": "循环守护"
+        },
+        "description": {
+          "en": "Detects the repetition loops a model can degenerate into, cuts the call mid-stream, and injects a correction so the task carries on.",
+          "zh": "检测模型退化成的重复循环，在流中截断并注入纠正提示，让任务继续往下走。"
+        },
+        "homepage": "https://github.com/MrWeiCodes/dsh-loop-guard#readme",
+        "repository": {
+          "url": "https://github.com/MrWeiCodes/dsh-loop-guard"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "plugin",
+            "guard",
+            "thinking-loop",
+            "reasoning",
+            "repetition",
+            "circuit-breaker",
+            "output-guard"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMjQuOTAgNi41MUExMy40IDEzLjQgMCAxIDEgMTEuMTAgNi41MSIgc3Ryb2tlPSJ1cmwoI2EpIiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0xNS4wNCA0LjE0TDEyLjQ5IDguODNMOS43MSA0LjIwWiIgZmlsbD0idXJsKCNhKSIgLz4KICA8cGF0aCBkPSJNMTUuMSAxMS45TDE5LjQgMjAuOU0yMC45IDExLjlMMTYuNiAyMC45IiBzdHJva2U9InVybCgjYSkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogIDxlbGxpcHNlIGN4PSIxNS45IiBjeT0iMjIuOSIgcng9IjEuNjIiIHJ5PSIxLjk1IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTYgMTUuOSAyMi45KSIgc3Ryb2tlPSJ1cmwoI2EpIiBzdHJva2Utd2lkdGg9IjEuNyIgLz4KICA8ZWxsaXBzZSBjeD0iMjAuMSIgY3k9IjIyLjkiIHJ4PSIxLjYyIiByeT0iMS45NSIgdHJhbnNmb3JtPSJyb3RhdGUoMTYgMjAuMSAyMi45KSIgc3Ryb2tlPSJ1cmwoI2EpIiBzdHJva2Utd2lkdGg9IjEuNyIgLz4KICA8Y2lyY2xlIGN4PSIxOCIgY3k9IjE2LjYiIHI9IjEuMDUiIGZpbGw9InVybCgjYSkiIC8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI1IiB5MT0iNCIgeDI9IjMxIiB5Mj0iMzMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzhFOUJGRiIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNUI1QkQ2IiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "1.0.9",
+            "publishTimestamp": 1791558243,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.1.3 || >=0.1.3-alpha.2 <0.1.4 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-alpha.1 <0.2.0 || >=0.1.7-alpha.1 <0.2.0 || >=0.2.0-alpha.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "52b1af59385e215d068636b807768487c4e6c02be843e0b332b30a74d3349fd9",
+      "evidence": [
+        {
+          "name": "@mrweicodes/dsh-loop-guard",
+          "version": "1.0.9",
+          "tarball": "https://registry.npmjs.org/@mrweicodes/dsh-loop-guard/-/dsh-loop-guard-1.0.9.tgz",
+          "integrity": "sha512-IczHyI9YpkyckUupQ9wx1BvIpy7WH+CuMSo1LALL6RSu0ZabLijzpEaOeW4JxR0mM/jsVoGYMB+MRB3uIL2xRg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mrweicodes/dsh-loop-guard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/MrWeiCodes/dsh-loop-guard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mrweicodes/dsh-loop-guard@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MrWeiCodes/dsh-loop-guard",
+    "commit": "fd5b9b65af7135129fb3c5d78b4f4fc3dc6362ea",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:37.357Z"
+}

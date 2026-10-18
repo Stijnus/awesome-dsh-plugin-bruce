@@ -1,0 +1,83 @@
+{
+  "full_name": "Dalizi2026/dsh-factory-provider",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:51.019Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f05e1c5e3df780908a276b620c44e8bd3443464a2709b0e61838cc8e82be9db",
+      "url": "https://github.com/Dalizi2026/dsh-factory-provider/blob/a8ac34d929b4f7171a25b221db37ad4bf79ccf2d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Dalizi2026/dsh-factory-provider/releases/download/v1.3.9/dsh-factory-provider-1.3.9.tgz",
+          "command": "dsh plugin --profile desktop add https://github.com/Dalizi2026/dsh-factory-provider/releases/download/v1.3.9/dsh-factory-provider-1.3.9.tgz",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-factory-provider",
+      "version": "1.3.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Dalizi2026/dsh-factory-provider",
+        "commit": "a8ac34d929b4f7171a25b221db37ad4bf79ccf2d"
+      },
+      "manifestSha256": "db6552f87912df09abc544f569a6a078521ee207bb55aa807ee0f33e628e81b9",
+      "manifestUrl": "https://github.com/Dalizi2026/dsh-factory-provider/blob/a8ac34d929b4f7171a25b221db37ad4bf79ccf2d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-factory-provider",
+        "versions": [
+          {
+            "version": "1.3.9",
+            "publishTimestamp": 1792231217,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Dalizi2026/dsh-factory-provider",
+              "commit": "a8ac34d929b4f7171a25b221db37ad4bf79ccf2d"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Dalizi2026/dsh-factory-provider/releases/download/v1.3.9/dsh-factory-provider-1.3.9.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Dalizi2026/dsh-factory-provider/releases/download/v1.3.9/dsh-factory-provider-1.3.9.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Dalizi2026/dsh-factory-provider",
+    "commit": "a8ac34d929b4f7171a25b221db37ad4bf79ccf2d",
+    "releaseTags": 12,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:55.985Z"
+}

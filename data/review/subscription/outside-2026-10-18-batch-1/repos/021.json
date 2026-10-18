@@ -1,0 +1,113 @@
+{
+  "full_name": "xiaoshihou514/dsh-desktop-pet",
+  "originalPosition": 21,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:07.183Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "951e45df6b8ae692a6458041bf5c4235114b1cd14e8af0936e619ac80de47b74",
+      "url": "https://github.com/xiaoshihou514/dsh-desktop-pet/blob/5f0060620d3b25c37c1d725af877f78708672ef5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/vlln/whale-girl#main",
+          "command": "dsh plugin --profile web add \"github:vlln/whale-girl#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-desktop-pet",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaoshihou514/dsh-desktop-pet",
+        "commit": "5f0060620d3b25c37c1d725af877f78708672ef5"
+      },
+      "manifestSha256": "f07877c58012803e941ee23f0029d23b00f3854063eac447bb28237eff71e3c6",
+      "manifestUrl": "https://github.com/xiaoshihou514/dsh-desktop-pet/blob/5f0060620d3b25c37c1d725af877f78708672ef5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-desktop-pet",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787300831,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaoshihou514/dsh-desktop-pet",
+              "commit": "5f0060620d3b25c37c1d725af877f78708672ef5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/vlln/whale-girl#main",
+      "origin": "git_target",
+      "name": "whale-girl",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "whale-girl",
+        "title": "whale-girl",
+        "description": "DSH Web GUI 内的桌面宠物（QQ 宠物形态）",
+        "repository": {
+          "url": "https://github.com/vlln/whale-girl"
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792149973,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/vlln/whale-girl",
+              "commit": "38e2721ff9f1e8aedff8fc73b8d4455118116924"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "38e2721ff9f1e8aedff8fc73b8d4455118116924",
+          "name": "whale-girl",
+          "version": "0.2.0",
+          "url": "https://github.com/vlln/whale-girl",
+          "manifestSha256": "ed819c381158c6b9f8240ebd48d6f7299948a4f2989a5544d60a93fe1a203add",
+          "publishTimestamp": 1792149973
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/vlln/whale-girl#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaoshihou514/dsh-desktop-pet",
+    "commit": "5f0060620d3b25c37c1d725af877f78708672ef5",
+    "releaseTags": 10,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:20.674Z"
+}

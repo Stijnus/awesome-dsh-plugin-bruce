@@ -1,0 +1,138 @@
+{
+  "full_name": "fengyungithub/dsh-short-video-studio",
+  "originalPosition": 88,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 88,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:51.752Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0f634fd4540ac925a10e704613c9c836c76c64f8b5efbd159845babd60c39a59",
+      "url": "https://github.com/fengyungithub/dsh-short-video-studio/blob/7c0ef9a4af1e6a5c223605f0e5607be8c2d8b42c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-short-video-studio",
+          "command": "dsh plugin --profile web add dsh-short-video-studio",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/fengyungithub/dsh-short-video-studio",
+          "command": "dsh plugin --profile web add github:fengyungithub/dsh-short-video-studio",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-short-video-studio",
+      "version": "1.10.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fengyungithub/dsh-short-video-studio",
+        "commit": "7c0ef9a4af1e6a5c223605f0e5607be8c2d8b42c"
+      },
+      "manifestSha256": "08619b20423ffe4208ab0c0ad280b614793aa284cdee0cde73c6fbbaea3e84d7",
+      "manifestUrl": "https://github.com/fengyungithub/dsh-short-video-studio/blob/7c0ef9a4af1e6a5c223605f0e5607be8c2d8b42c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-short-video-studio",
+        "versions": [
+          {
+            "version": "1.10.0",
+            "publishTimestamp": 1791620917,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fengyungithub/dsh-short-video-studio",
+              "commit": "7c0ef9a4af1e6a5c223605f0e5607be8c2d8b42c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-short-video-studio",
+      "origin": "npm",
+      "name": "dsh-short-video-studio",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-short-video-studio",
+        "title": "dsh-short-video-studio",
+        "description": "基于deepseek harness的短剧/动画画布工作室：画布可挂会话视图页或右侧栏（边看对话边生成，由 canvasHome 配置）+ ComfyUI 生成服务（图片 FLUX / 视频 MiniMax H3 音视频，带声音/参考绑定/原生字幕/fast·balanced·quality 三档）+ Agent 画布工具 + 自带 skill。双面 DSH 插件。",
+        "homepage": "https://github.com/fengyungithub/dsh-short-video-studio#readme",
+        "repository": {
+          "url": "https://github.com/fengyungithub/dsh-short-video-studio"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "comfyui",
+            "minimax-h3",
+            "dsh-plugin",
+            "flux",
+            "short-video",
+            "animation",
+            "canvas",
+            "skill"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.10.0",
+            "publishTimestamp": 1791621083,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "11710351349fb52be2ef1252ae6fef29ccea0147bb32736e915f2ecf83aad5c6",
+      "evidence": [
+        {
+          "name": "dsh-short-video-studio",
+          "version": "1.10.0",
+          "tarball": "https://registry.npmjs.org/dsh-short-video-studio/-/dsh-short-video-studio-1.10.0.tgz",
+          "integrity": "sha512-DML1K+iIp7iqEGlCWj6aQrrI3jMTCvEZQqyETjBu916tf8arQIWY3Gv015br2rY/qfZiia7CfMs9s+/ShjkXkQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-short-video-studio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/fengyungithub/dsh-short-video-studio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fengyungithub/dsh-short-video-studio",
+    "commit": "7c0ef9a4af1e6a5c223605f0e5607be8c2d8b42c",
+    "releaseTags": 14,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:03.716Z"
+}

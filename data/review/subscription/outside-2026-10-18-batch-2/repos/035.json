@@ -1,0 +1,142 @@
+{
+  "full_name": "fyjgtddco/DSH-SW-and-CAD",
+  "originalPosition": 35,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 35,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:53.298Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c80b417ca3bbd46f2f1251810bbc55b9a166f69966bc7a3fb372e16483b9b842",
+      "url": "https://github.com/fyjgtddco/DSH-SW-and-CAD/blob/b2a11b1b71bd5aa0ee09b1324ef657c176411341/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-engineering-ui",
+      "version": "1.2.0",
+      "path": "engineering/plugins/dsh-engineering-ui",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fyjgtddco/DSH-SW-and-CAD",
+        "commit": "b2a11b1b71bd5aa0ee09b1324ef657c176411341",
+        "path": "engineering/plugins/dsh-engineering-ui"
+      },
+      "manifestSha256": "a254b5e64de8136c9fad3ead2ced34e309c031fbdbc27de665a98f08c65f97ca",
+      "manifestUrl": "https://github.com/fyjgtddco/DSH-SW-and-CAD/blob/b2a11b1b71bd5aa0ee09b1324ef657c176411341/engineering/plugins/dsh-engineering-ui/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-engineering-ui",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1792251376,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fyjgtddco/DSH-SW-and-CAD",
+              "commit": "b2a11b1b71bd5aa0ee09b1324ef657c176411341",
+              "path": "engineering/plugins/dsh-engineering-ui"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codearts-auth",
+      "version": "0.1.0",
+      "path": "third-party-patched/dsh-codearts-auth",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fyjgtddco/DSH-SW-and-CAD",
+        "commit": "b2a11b1b71bd5aa0ee09b1324ef657c176411341",
+        "path": "third-party-patched/dsh-codearts-auth"
+      },
+      "manifestSha256": "bd5707a007b998c171b4b63179d31d0898d10c5f09ad1a1d17507f76911434c3",
+      "manifestUrl": "https://github.com/fyjgtddco/DSH-SW-and-CAD/blob/b2a11b1b71bd5aa0ee09b1324ef657c176411341/third-party-patched/dsh-codearts-auth/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-codearts-auth",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792251376,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fyjgtddco/DSH-SW-and-CAD",
+              "commit": "b2a11b1b71bd5aa0ee09b1324ef657c176411341",
+              "path": "third-party-patched/dsh-codearts-auth"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dshmarket",
+      "version": "1.66.6",
+      "path": "third-party-patched/dshmarket",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fyjgtddco/DSH-SW-and-CAD",
+        "commit": "b2a11b1b71bd5aa0ee09b1324ef657c176411341",
+        "path": "third-party-patched/dshmarket"
+      },
+      "manifestSha256": "2e5f3be72175840e5e02b349fd2b9a30a7bb545f24370966de960ecba34fbf2a",
+      "manifestUrl": "https://github.com/fyjgtddco/DSH-SW-and-CAD/blob/b2a11b1b71bd5aa0ee09b1324ef657c176411341/third-party-patched/dshmarket/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dshmarket",
+        "versions": [
+          {
+            "version": "1.66.6",
+            "publishTimestamp": 1792251376,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fyjgtddco/DSH-SW-and-CAD",
+              "commit": "b2a11b1b71bd5aa0ee09b1324ef657c176411341",
+              "path": "third-party-patched/dshmarket"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fyjgtddco/DSH-SW-and-CAD",
+    "commit": "b2a11b1b71bd5aa0ee09b1324ef657c176411341",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:03.270Z"
+}

@@ -1,0 +1,140 @@
+{
+  "full_name": "nevertoday/dsh-theme-plugin",
+  "originalPosition": 83,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 83,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:47.408Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b7389f432893e38fac17d4d3ba90d113459f02fcc0267adcb39d2dd15e64893b",
+      "url": "https://github.com/nevertoday/dsh-theme-plugin/blob/de545f9d305dacc64de172b9fd13ae28d87a7409/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-theme-plugin@latest",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add dsh-theme-plugin@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "2b99e8e67c189fc5d1c123611858891e0558fa68e93d5b040e46035f07f29d2b",
+      "url": "https://github.com/nevertoday/dsh-theme-plugin/blob/de545f9d305dacc64de172b9fd13ae28d87a7409/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-theme-plugin@latest",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add dsh-theme-plugin@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-plugin",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/nevertoday/dsh-theme-plugin",
+        "commit": "de545f9d305dacc64de172b9fd13ae28d87a7409"
+      },
+      "manifestSha256": "90c9b1e8c17ca4187c2f05c216aba33167fe54d768992699a733a4deac668702",
+      "manifestUrl": "https://github.com/nevertoday/dsh-theme-plugin/blob/de545f9d305dacc64de172b9fd13ae28d87a7409/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-theme-plugin",
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1788836824,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/nevertoday/dsh-theme-plugin",
+              "commit": "de545f9d305dacc64de172b9fd13ae28d87a7409"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-theme-plugin@latest",
+      "origin": "npm",
+      "name": "dsh-theme-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-theme-plugin",
+        "title": "dsh-theme-plugin",
+        "description": "中国传统色 DeepSeek Harness 主题包 · Chinese traditional color themes for DeepSeek Harness",
+        "author": "xiaoxiaodong",
+        "homepage": "https://github.com/nevertoday/dsh-theme-plugin#readme",
+        "repository": {
+          "url": "https://github.com/nevertoday/dsh-theme-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "theme",
+            "design-tokens",
+            "chinese-traditional-colors",
+            "wcag"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1786794071,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6bf14d8e9a81220dd3398faf4e965fac6d1de72c41f635448e8c5d3abf645db0",
+      "evidence": [
+        {
+          "name": "dsh-theme-plugin",
+          "version": "0.3.3",
+          "tarball": "https://registry.npmjs.org/dsh-theme-plugin/-/dsh-theme-plugin-0.3.3.tgz",
+          "integrity": "sha512-zza5CvWNyVyvvvWKsjoODer+lqOmxOqNtdfGOwAxSi4inkWyyo2Uc2XhNKxGD1stCLgZxqCe17QbjfPEP/CXMQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-theme-plugin@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/nevertoday/dsh-theme-plugin",
+    "commit": "de545f9d305dacc64de172b9fd13ae28d87a7409",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:54.217Z"
+}

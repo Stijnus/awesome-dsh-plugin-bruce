@@ -1,0 +1,235 @@
+{
+  "full_name": "Jiao-XXX/dsh-auto-approve",
+  "originalPosition": 43,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 43,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:06.294Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cb8d7c3152082e52f4069790691199de234ffe53580517998371b205d7b054b8",
+      "url": "https://github.com/Jiao-XXX/dsh-auto-approve/blob/c6d4222746fef089de4e40063d05d26a4191bc66/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-auto-approve",
+          "command": "dsh plugin --profile web add dsh-auto-approve",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Jiao-XXX/dsh-auto-approve",
+          "command": "dsh plugin --profile web add github:Jiao-XXX/dsh-auto-approve",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auto-approve@0.7.1",
+          "command": "dsh plugin --profile web add dsh-auto-approve@0.7.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "e45f333f7844eb4b5023f52fe77ff7bd52da9db4e7d56e5431f211a427242439",
+      "url": "https://github.com/Jiao-XXX/dsh-auto-approve/blob/c6d4222746fef089de4e40063d05d26a4191bc66/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-auto-approve",
+          "command": "dsh plugin --profile web add dsh-auto-approve",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Jiao-XXX/dsh-auto-approve",
+          "command": "dsh plugin --profile web add github:Jiao-XXX/dsh-auto-approve",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auto-approve@0.7.1",
+          "command": "dsh plugin --profile web add dsh-auto-approve@0.7.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-auto-approve",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jiao-XXX/dsh-auto-approve",
+        "commit": "c6d4222746fef089de4e40063d05d26a4191bc66"
+      },
+      "manifestSha256": "9dc9a795ba043200713161b9829f6853e0d5f1522fa7e49ea24d7fb04df3eb48",
+      "manifestUrl": "https://github.com/Jiao-XXX/dsh-auto-approve/blob/c6d4222746fef089de4e40063d05d26a4191bc66/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-auto-approve",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1790914726,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jiao-XXX/dsh-auto-approve",
+              "commit": "c6d4222746fef089de4e40063d05d26a4191bc66"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-auto-approve",
+      "origin": "npm",
+      "name": "dsh-auto-approve",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auto-approve",
+        "title": "dsh-auto-approve",
+        "description": "为 DeepSeek Harness 增加介于 Workspace Write 与 Full access 之间的自动批准权限档：例行沙箱升级由分类模型一次性放行，危险或不确定的操作仍转人工审批。An auto-approval permission preset for DeepSeek Harness between workspace-write and full access: routine sandbox escalations are granted once by a classifier, while dangerous or uncertain requests still go to a human.",
+        "homepage": "https://github.com/Jiao-XXX/dsh-auto-approve#readme",
+        "repository": {
+          "url": "https://github.com/Jiao-XXX/dsh-auto-approve"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "permissions",
+            "permission-preset",
+            "approval",
+            "auto-approve",
+            "sandbox",
+            "escalation",
+            "security",
+            "自动批准",
+            "权限预设",
+            "沙箱",
+            "审批",
+            "安全"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1790914836,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9cac849d85fb5912b3046e8c6bcf2a4bea92a15839baae65a76f3315adf351a8",
+      "evidence": [
+        {
+          "name": "dsh-auto-approve",
+          "version": "0.7.1",
+          "tarball": "https://registry.npmjs.org/dsh-auto-approve/-/dsh-auto-approve-0.7.1.tgz",
+          "integrity": "sha512-XLgfGwqIiquAzaXIGGMcTYEgwIQ3j63zTVxK7jsSWcB1OoKNHdAzc3t7NN9NZByQ+PG9Q1DI65ZiDJjb0GQIQQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-auto-approve@0.7.1",
+      "origin": "npm",
+      "name": "dsh-auto-approve",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auto-approve",
+        "title": "dsh-auto-approve",
+        "description": "为 DeepSeek Harness 增加介于 Workspace Write 与 Full access 之间的自动批准权限档：例行沙箱升级由分类模型一次性放行，危险或不确定的操作仍转人工审批。An auto-approval permission preset for DeepSeek Harness between workspace-write and full access: routine sandbox escalations are granted once by a classifier, while dangerous or uncertain requests still go to a human.",
+        "homepage": "https://github.com/Jiao-XXX/dsh-auto-approve#readme",
+        "repository": {
+          "url": "https://github.com/Jiao-XXX/dsh-auto-approve"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "permissions",
+            "permission-preset",
+            "approval",
+            "auto-approve",
+            "sandbox",
+            "escalation",
+            "security",
+            "自动批准",
+            "权限预设",
+            "沙箱",
+            "审批",
+            "安全"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1790914836,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9cac849d85fb5912b3046e8c6bcf2a4bea92a15839baae65a76f3315adf351a8",
+      "evidence": [
+        {
+          "name": "dsh-auto-approve",
+          "version": "0.7.1",
+          "tarball": "https://registry.npmjs.org/dsh-auto-approve/-/dsh-auto-approve-0.7.1.tgz",
+          "integrity": "sha512-XLgfGwqIiquAzaXIGGMcTYEgwIQ3j63zTVxK7jsSWcB1OoKNHdAzc3t7NN9NZByQ+PG9Q1DI65ZiDJjb0GQIQQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-auto-approve",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Jiao-XXX/dsh-auto-approve",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-auto-approve@0.7.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jiao-XXX/dsh-auto-approve",
+    "commit": "c6d4222746fef089de4e40063d05d26a4191bc66",
+    "releaseTags": 14,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:11.810Z"
+}

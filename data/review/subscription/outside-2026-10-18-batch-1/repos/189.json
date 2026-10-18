@@ -1,0 +1,132 @@
+{
+  "full_name": "Aa728848/dsh-llm-verifier",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:27.574Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "755b5445452e9f28a54414894f92e43132f4fa2550520ad7b0dbc6509f054d8c",
+      "url": "https://github.com/Aa728848/dsh-llm-verifier/blob/a058b3a61144369fad0a8ab5a277fb3396ec5ba4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-verifier",
+          "command": "dsh plugin --profile web add dsh-llm-verifier",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-verifier",
+      "version": "0.10.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Aa728848/dsh-llm-verifier",
+        "commit": "a058b3a61144369fad0a8ab5a277fb3396ec5ba4"
+      },
+      "manifestSha256": "fb3313f50394c454e7b43a910242d4b5b46771d8cf6f425b43bc3878a5108b91",
+      "manifestUrl": "https://github.com/Aa728848/dsh-llm-verifier/blob/a058b3a61144369fad0a8ab5a277fb3396ec5ba4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2 || ^0.1.2-alpha.1 || ^0.1.2-alpha.2 || ^0.1.2-alpha.3 || ^0.1.2-alpha.4 || ^0.1.2-alpha.5 || ^0.1.2-rc.1 || ~0.1.2 || ^0.1.3 || ^0.1.4 || ^0.1.5-alpha.1 || ^0.1.5-rc.1 || ~0.1.5 || ^0.1.6-alpha.1 || ^0.1.6-alpha.2 || ~0.1.6 || ^0.1.7-alpha.1 || ^0.1.7-alpha.2 || ^0.1.7-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.0-rc.2 || ^0.2.1-alpha.1 || ^0.2.1-alpha.2 || ^0.2.1-alpha.3 || ^0.2.1-alpha.4 || ^0.2.1-alpha.5 || ^0.2.1-rc.1 || ^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-llm-verifier",
+        "versions": [
+          {
+            "version": "0.10.1",
+            "publishTimestamp": 1792226250,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Aa728848/dsh-llm-verifier",
+              "commit": "a058b3a61144369fad0a8ab5a277fb3396ec5ba4"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2 || ^0.1.2-alpha.1 || ^0.1.2-alpha.2 || ^0.1.2-alpha.3 || ^0.1.2-alpha.4 || ^0.1.2-alpha.5 || ^0.1.2-rc.1 || ~0.1.2 || ^0.1.3 || ^0.1.4 || ^0.1.5-alpha.1 || ^0.1.5-rc.1 || ~0.1.5 || ^0.1.6-alpha.1 || ^0.1.6-alpha.2 || ~0.1.6 || ^0.1.7-alpha.1 || ^0.1.7-alpha.2 || ^0.1.7-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.0-rc.2 || ^0.2.1-alpha.1 || ^0.2.1-alpha.2 || ^0.2.1-alpha.3 || ^0.2.1-alpha.4 || ^0.2.1-alpha.5 || ^0.2.1-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-llm-verifier",
+      "origin": "npm",
+      "name": "dsh-llm-verifier",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-llm-verifier",
+        "title": "dsh-llm-verifier",
+        "description": "Configurable DSH-native LLM verifier with a Web settings page",
+        "author": "eddyskywalker",
+        "homepage": "https://github.com/Aa728848/dsh-llm-verifier#readme",
+        "repository": {
+          "url": "https://github.com/Aa728848/dsh-llm-verifier"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "verifier",
+            "llm",
+            "cordis",
+            "plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkRTSCBMTE0gVmVyaWZpZXIiPgogIDx0aXRsZT5EU0ggTExNIFZlcmlmaWVyPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGxtLXZlcmlmaWVyLWljb24iIHgxPSIzIiB5MT0iMiIgeDI9IjQ1IiB5Mj0iNDYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzhBNjNGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iIzRGN0JGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyRkM1QzkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgcng9IjE1IiBmaWxsPSJ1cmwoI2xsbS12ZXJpZmllci1pY29uKSIvPgogIDxwYXRoIGQ9Ik0yNCA4LjggMzYuOCAxMy44djEwLjRjMCA3LjItNS40IDEyLjgtMTIuOCAxNS4yQzE2LjYgMzcgMTEuMiAzMS40IDExLjIgMjQuMlYxMy44TDI0IDguOFoiIGZpbGw9IiNGRkZGRkYiIGZpbGwtb3BhY2l0eT0iMC45NCIvPgogIDxwYXRoIGQ9Ik0xNy42IDI0LjYgMjIgMjlsOC42LTkuNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2xsbS12ZXJpZmllci1pY29uKSIgc3Ryb2tlLXdpZHRoPSI0LjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.10.1",
+            "publishTimestamp": 1792226405,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2 || ^0.1.2-alpha.1 || ^0.1.2-alpha.2 || ^0.1.2-alpha.3 || ^0.1.2-alpha.4 || ^0.1.2-alpha.5 || ^0.1.2-rc.1 || ~0.1.2 || ^0.1.3 || ^0.1.4 || ^0.1.5-alpha.1 || ^0.1.5-rc.1 || ~0.1.5 || ^0.1.6-alpha.1 || ^0.1.6-alpha.2 || ~0.1.6 || ^0.1.7-alpha.1 || ^0.1.7-alpha.2 || ^0.1.7-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.0-rc.2 || ^0.2.1-alpha.1 || ^0.2.1-alpha.2 || ^0.2.1-alpha.3 || ^0.2.1-alpha.4 || ^0.2.1-alpha.5 || ^0.2.1-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5bc20cc3b55d55f9b32a26a95d45e8c82eabc79e4009136954ff600ed4c7bb6a",
+      "evidence": [
+        {
+          "name": "dsh-llm-verifier",
+          "version": "0.10.1",
+          "tarball": "https://registry.npmjs.org/dsh-llm-verifier/-/dsh-llm-verifier-0.10.1.tgz",
+          "integrity": "sha512-2QSTIhwDMn0Owb+hIn6DdLNUbUyv1EY2E/4Y4oXM9oAcQqCNv1ELE0pBaEshErhHO2yYOfG1i0dN7FdnMLEVDQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-llm-verifier",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Aa728848/dsh-llm-verifier",
+    "commit": "a058b3a61144369fad0a8ab5a277fb3396ec5ba4",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:37.155Z"
+}

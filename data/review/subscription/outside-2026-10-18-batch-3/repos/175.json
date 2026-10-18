@@ -1,0 +1,132 @@
+{
+  "full_name": "weibaohui/hermes-loop",
+  "originalPosition": 175,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 175,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:53.789Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8042d8b2b34e0cc6d36446f17b92462d94641804031c31d76eaff8fd866c6ce7",
+      "url": "https://github.com/weibaohui/hermes-loop/blob/97d39677bebfb25d2bda9936375b05ffe7fde57a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@weibaohui/hermes-loop",
+          "command": "dsh plugin --profile web add @weibaohui/hermes-loop -w",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@weibaohui/hermes-loop",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weibaohui/hermes-loop",
+        "commit": "97d39677bebfb25d2bda9936375b05ffe7fde57a"
+      },
+      "manifestSha256": "2e43216cd8ec2c9bf6188917466d904d9fb551fca1090c6f5df79c4117f8dfee",
+      "manifestUrl": "https://github.com/weibaohui/hermes-loop/blob/97d39677bebfb25d2bda9936375b05ffe7fde57a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@weibaohui/hermes-loop",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1791856999,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/weibaohui/hermes-loop",
+              "commit": "97d39677bebfb25d2bda9936375b05ffe7fde57a"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@weibaohui/hermes-loop",
+      "origin": "npm",
+      "name": "@weibaohui/hermes-loop",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@weibaohui/hermes-loop",
+        "title": "@weibaohui/hermes-loop",
+        "description": "dsh 插件 · 自动复盘：对话收尾后自动复盘，把有价值的经验蒸馏成可复用的技能（skill）存入技能库，模型可直接调用；同时把环境事实与用户偏好写入跨会话记忆（MEMORY.md / USER.md，首冻结注入每个对话）；支持信号加速触发、手动立即复盘、审批模式与技能库治理（归档/恢复，永不直接删除）。",
+        "homepage": "https://github.com/weibaohui/hermes-loop#readme",
+        "repository": {
+          "url": "https://github.com/weibaohui/hermes-loop"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "skills",
+            "hermes",
+            "learning-loop",
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1791857142,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "086df9067dd2afb3e7037b34faa6577e6974e732e2ee00699261e0b6617ea7af",
+      "evidence": [
+        {
+          "name": "@weibaohui/hermes-loop",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/@weibaohui/hermes-loop/-/hermes-loop-0.3.0.tgz",
+          "integrity": "sha512-i6B7BnXqUbwdC4AAB9U80b/r8jrSl4Y7yrOta4To3MWBG8/xNLXUkQ8SElZ+SznvpIt5XlIFyRiaANKVYCsTzQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@weibaohui/hermes-loop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/weibaohui/hermes-loop",
+    "commit": "97d39677bebfb25d2bda9936375b05ffe7fde57a",
+    "releaseTags": 20,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:59.706Z"
+}

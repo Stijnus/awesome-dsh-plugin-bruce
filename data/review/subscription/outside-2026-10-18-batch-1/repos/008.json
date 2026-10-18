@@ -1,0 +1,133 @@
+{
+  "full_name": "ChenRuoT/dsh-sidebar-qa",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:48.138Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "417d7bf01e56f49565d833943a3b3a554a04a37f57ac75497fa8c1243ed2b91c",
+      "url": "https://github.com/ChenRuoT/dsh-sidebar-qa/blob/3c671f3db0acb67e8cf6d0a320b469766b08d7ad/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sidebar-qa",
+          "command": "dsh plugin --profile web add dsh-sidebar-qa",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "423d093e8816a65108b58a71fab5b10860cd42267cd537f166283edc224fbdbb",
+      "url": "https://github.com/ChenRuoT/dsh-sidebar-qa/blob/3c671f3db0acb67e8cf6d0a320b469766b08d7ad/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sidebar-qa",
+          "command": "dsh plugin --profile web add dsh-sidebar-qa",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sidebar-qa",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ChenRuoT/dsh-sidebar-qa",
+        "commit": "3c671f3db0acb67e8cf6d0a320b469766b08d7ad"
+      },
+      "manifestSha256": "10a431f1bb385bf5d18581daf36342b7792e978d819a3c8e7f52629809e916e0",
+      "manifestUrl": "https://github.com/ChenRuoT/dsh-sidebar-qa/blob/3c671f3db0acb67e8cf6d0a320b469766b08d7ad/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-sidebar-qa",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1792068193,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ChenRuoT/dsh-sidebar-qa",
+              "commit": "3c671f3db0acb67e8cf6d0a320b469766b08d7ad"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-sidebar-qa",
+      "origin": "npm",
+      "name": "dsh-sidebar-qa",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-sidebar-qa",
+        "title": "dsh-sidebar-qa",
+        "description": "DSH web plugin: select conversation text -> ask in a right-side panel -> a dedicated follow-up session (❓<topic>) in the same workspace, without interrupting the main conversation. Runs on DSH's own right sidebar, with no extra dependencies.",
+        "repository": {
+          "url": "https://github.com/ChenRuoT/dsh-sidebar-qa"
+        },
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1792068313,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bab7e9b4a367918a8b7681b51746ebcf0fe0c28574bb84b1b2847e83a7f77daf",
+      "evidence": [
+        {
+          "name": "dsh-sidebar-qa",
+          "version": "1.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-sidebar-qa/-/dsh-sidebar-qa-1.2.0.tgz",
+          "integrity": "sha512-hRbSoR1O8QTmi3sdGkB0gUgK9ZLl9m9HRjtLNkMqexUJTfVw+xi1B2pRkLcbyd4aXvStgEphO7gqa/1rR1oqQA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sidebar-qa",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ChenRuoT/dsh-sidebar-qa",
+    "commit": "3c671f3db0acb67e8cf6d0a320b469766b08d7ad",
+    "releaseTags": 14,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:14:53.861Z"
+}

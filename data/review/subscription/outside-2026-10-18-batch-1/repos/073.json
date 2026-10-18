@@ -1,0 +1,88 @@
+{
+  "full_name": "LaplaceYoung/dsh-qq2006",
+  "originalPosition": 73,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 73,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:20.149Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6e1fd4d2da644985d045560a33fade741a3f23dc68283cfb6b7de1967399c0cd",
+      "url": "https://github.com/LaplaceYoung/dsh-qq2006/blob/ddde58e2cb8d1ff62543cc195f58a507605b7845/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LaplaceYoung/dsh-qq2006",
+          "command": "dsh plugin --profile web add https://github.com/LaplaceYoung/dsh-qq2006",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.package.md",
+      "sha256": "77f8a605ea6b1d59a5fcfc5dfc33566e9af2ac2e7ef8179706303ac5acdf7645",
+      "url": "https://github.com/LaplaceYoung/dsh-qq2006/blob/ddde58e2cb8d1ff62543cc195f58a507605b7845/README.package.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-qq2006",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LaplaceYoung/dsh-qq2006",
+        "commit": "ddde58e2cb8d1ff62543cc195f58a507605b7845"
+      },
+      "manifestSha256": "19ac35289895bf9f239d4db72c0e588f39083f41ab0754d284b43bfdf66c260a",
+      "manifestUrl": "https://github.com/LaplaceYoung/dsh-qq2006/blob/ddde58e2cb8d1ff62543cc195f58a507605b7845/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1 >=0.1.0-rc.7 >=0.0.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-external/dsh-qq2006",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1787853594,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LaplaceYoung/dsh-qq2006",
+              "commit": "ddde58e2cb8d1ff62543cc195f58a507605b7845"
+            },
+            "engines": {
+              "dsh": ">=0.0.1 >=0.1.0-rc.7 >=0.0.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LaplaceYoung/dsh-qq2006",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LaplaceYoung/dsh-qq2006",
+    "commit": "ddde58e2cb8d1ff62543cc195f58a507605b7845",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:27.025Z"
+}

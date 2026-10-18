@@ -1,0 +1,157 @@
+{
+  "full_name": "functy23/dsh-mcp-studio",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:19.454Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5cb7bd594b72b1de59388c0ad070d52c71625c78c8ff01ce12d3eaf6022a45e2",
+      "url": "https://github.com/functy23/dsh-mcp-studio/blob/6b4f5dd2c0de5f20d4625940060f714054bddbe3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp-studio@latest",
+          "command": "dsh plugin --profile web add dsh-mcp-studio@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp-studio@latest",
+          "command": "dsh plugin --profile desktop add dsh-mcp-studio@latest",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "8363c72b04a3a51e63a237e70d898ac768032e3a53b4a3bb261154caa1c6d5dd",
+      "url": "https://github.com/functy23/dsh-mcp-studio/blob/6b4f5dd2c0de5f20d4625940060f714054bddbe3/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp-studio@latest",
+          "command": "dsh plugin --profile web add dsh-mcp-studio@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp-studio@latest",
+          "command": "dsh plugin --profile desktop add dsh-mcp-studio@latest",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mcp-studio",
+      "version": "1.0.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/functy23/dsh-mcp-studio",
+        "commit": "6b4f5dd2c0de5f20d4625940060f714054bddbe3"
+      },
+      "manifestSha256": "40e235645decff4cddd61986976f8a3628b414a5ccf3796ecb196cdb8e5cc18e",
+      "manifestUrl": "https://github.com/functy23/dsh-mcp-studio/blob/6b4f5dd2c0de5f20d4625940060f714054bddbe3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-mcp-studio",
+        "versions": [
+          {
+            "version": "1.0.6",
+            "publishTimestamp": 1791015551,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/functy23/dsh-mcp-studio",
+              "commit": "6b4f5dd2c0de5f20d4625940060f714054bddbe3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mcp-studio@latest",
+      "origin": "npm",
+      "name": "dsh-mcp-studio",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mcp-studio",
+        "title": {
+          "en": "MCP & Skills Studio",
+          "zh": "MCP 与 Skills 管理器"
+        },
+        "description": {
+          "en": "Manage MCP servers and skills from a panel in the DSH sidebar; embeds the plugin market when dshmarket is installed.",
+          "zh": "在 DSH 侧边栏面板里管理 MCP 服务器与技能；装了 dshmarket 时内嵌插件市场。"
+        },
+        "author": "functy23",
+        "homepage": "https://github.com/functy23/dsh-mcp-studio#readme",
+        "repository": {
+          "url": "https://github.com/functy23/dsh-mcp-studio"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "mcp",
+            "mcp-server",
+            "skills",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNTAwcHgiIGhlaWdodD0iNTAwcHgiIHZpZXdCb3g9IjAgMCA1MDAgNTAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPHRpdGxlPue8lue7hDwvdGl0bGU+CiAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iOTQuMzAwODgwOCUiIGlkPSJsaW5lYXJHcmFkaWVudC0xIj4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0FFQzRGQiIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMkY1N0ZGIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgaWQ9Iumhtemdoi0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0i57yW57uEIj4KICAgICAgICAgICAgPHBhdGggZD0iTTE2MCwwIEwzNDAsMCBDMzk2LjAwNTI1MSwwIDQyNC4wMDc4NzYsMCA0NDUuMzk5MDUsMTAuODk5MzQ3NiBDNDY0LjIxNTI1OSwyMC40ODY2ODUxIDQ3OS41MTMzMTUsMzUuNzg0NzQwNyA0ODkuMTAwNjUyLDU0LjYwMDk1IEM1MDAsNzUuOTkyMTI0MSA1MDAsMTAzLjk5NDc0OSA1MDAsMTYwIEw1MDAsMzQwIEM1MDAsMzk2LjAwNTI1MSA1MDAsNDI0LjAwNzg3NiA0ODkuMTAwNjUyLDQ0NS4zOTkwNSBDNDc5LjUxMzMxNSw0NjQuMjE1MjU5IDQ2NC4yMTUyNTksNDc5LjUxMzMxNSA0NDUuMzk5MDUsNDg5LjEwMDY1MiBDNDI0LjAwNzg3Niw1MDAgMzk2LjAwNTI1MSw1MDAgMzQwLDUwMCBMMTYwLDUwMCBDMTAzLjk5NDc0OSw1MDAgNzUuOTkyMTI0MSw1MDAgNTQuNjAwOTUsNDg5LjEwMDY1MiBDMzUuNzg0NzQwNyw0NzkuNTEzMzE1IDIwLjQ4NjY4NTEsNDY0LjIxNTI1OSAxMC44OTkzNDc2LDQ0NS4zOTkwNSBDMCw0MjQuMDA3ODc2IDAsMzk2LjAwNTI1MSAwLDM0MCBMMCwxNjAgQzAsMTAzLjk5NDc0OSAwLDc1Ljk5MjEyNDEgMTAuODk5MzQ3Niw1NC42MDA5NSBDMjAuNDg2Njg1MSwzNS43ODQ3NDA3IDM1Ljc4NDc0MDcsMjAuNDg2Njg1MSA1NC42MDA5NSwxMC44OTkzNDc2IEM3NS45OTIxMjQxLDAgMTAzLjk5NDc0OSwwIDE2MCwwIFoiIGlkPSLnn6nlvaIiIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQtMSkiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTIwNy4wNDg2NzEsNjAgQzIwOS40OTMzNTYsNjAgMjExLjczMTM3Myw2MS4zNzE0NTkgMjEyLjg0MTIzNyw2My41NDk2ODkzIEMyMTMuNTQ5ODIsNjQuOTQwMzYxNSAyMTMuNTQ5ODIsNjYuNzYwODU0MSAyMTMuNTQ5ODIsNzAuNDAxODM5MSBMMjEzLjU0OTgyLDQyOS41OTgxNjEgQzIxMy41NDk4Miw0MzMuMjM5MTQ2IDIxMy41NDk4Miw0MzUuMDU5NjM4IDIxMi44NDEyMzcsNDM2LjQ1MDMxMSBDMjExLjczMTM3Myw0MzguNjI4NTQxIDIwOS40OTMzNTYsNDQwIDIwNy4wNDg2NzEsNDQwIEMyMDQuNjAzOTg2LDQ0MCAyMDIuMzY1OTY4LDQzOC42Mjg1NDEgMjAxLjI1NjEwNCw0MzYuNDUwMzExIEMyMDAuNTQ3NTIxLDQzNS4wNTk2MzggMjAwLjU0NzUyMSw0MzMuMjM5MTQ2IDIwMC41NDc1MjEsNDI5LjU5ODE2MSBMMjAwLjU0NzUyMSw3MC40MDE4MzkxIEMyMDAuNTQ3NTIxLDY2Ljc2MDg1NDEgMjAwLjU0NzUyMSw2NC45NDAzNjE1IDIwMS4yNTYxMDQsNjMuNTQ5Njg5MyBDMjAyLjM2NTk2OCw2MS4zNzE0NTkgMjA0LjYwMzk4Niw2MCAyMDcuMDQ4NjcxLDYwIFoiIGlkPSLnn6nlvaItMiIgZmlsbC1vcGFjaXR5PSIwLjgiIGZpbGw9IiNDRUQ4RkYiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTc4LjQsODguOTAyNDg2OCBMMTU3LjgzOTA4LDg4LjkwMjQ4NjggQzE2OC40ODAwNzgsODguOTAyNDg2OCAxNzMuODAwNTc3LDg4LjkwMjQ4NjggMTc3Ljg2NDksOTAuOTczMzYyOCBDMTgyLjUzMjk2NCw5My4zNTE4NjAzIDE4Ni4wMTE3NDMsOTcuNTUyMzIzOCAxODcuNDc4ODc5LDEwMi41ODE3OTUgQzE4OC4yMzkwOCwxMDUuMTg3ODM0IDE4OC4yMzkwOCwxMDguMzgxNDk3IDE4OC4yMzkwOCwxMTQuNzY4ODIzIEMxODguMjM5MDgsMTIxLjE1NjE1IDE4OC4yMzkwOCwxMjQuMzQ5ODEzIDE4Ny40Nzg4NzksMTI2Ljk1NTg1MSBDMTg2LjAxMTc0MywxMzEuOTg1MzIzIDE4Mi41MzI5NjQsMTM2LjE4NTc4NiAxNzcuODY0OSwxMzguNTY0Mjg0IEMxNzMuODAwNTc3LDE0MC42MzUxNiAxNjguNDgwMDc4LDE0MC42MzUxNiAxNTcuODM5MDgsMTQwLjYzNTE2IEw3OC40LDE0MC42MzUxNiBDNjcuNzU5MDAyNCwxNDAuNjM1MTYgNjIuNDM4NTAzNiwxNDAuNjM1MTYgNTguMzc0MTgwNSwxMzguNTY0Mjg0IEM1My43MDYxMTYzLDEzNi4xODU3ODYgNTAuMjI3MzM3NywxMzEuOTg1MzIzIDQ4Ljc2MDIwMTYsMTI2Ljk1NTg1MSBDNDgsMTI0LjM0OTgxMyA0OCwxMjEuMTU2MTUgNDgsMTE0Ljc2ODgyMyBDNDgsMTA4LjM4MTQ5NyA0OCwxMDUuMTg3ODM0IDQ4Ljc2MDIwMTYsMTAyLjU4MTc5NSBDNTAuMjI3MzM3Nyw5Ny41NTIzMjM4IDUzLjcwNjExNjMsOTMuMzUxODYwMyA1OC4zNzQxODA1LDkwLjk3MzM2MjggQzYyLjQzODUwMzYsODguOTAyNDg2OCA2Ny43NTkwMDI0LDg4LjkwMjQ4NjggNzguNCw4OC45MDI0ODY4IFoiIGlkPSLnn6nlvaItMiIgZmlsbC1vcGFjaXR5PSIwLjgiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTI3My40NDU0NDksNzkuMTA3MTg0IEwyOTYuNTM1MTA0LDc5LjEwNzE4NCBDMzEwLjUzNjQxNyw3OS4xMDcxODQgMzE3LjUzNzA3Myw3OS4xMDcxODQgMzIyLjg4NDg2Nyw4MS44MzIwMjA5IEMzMjguNDk5MDQsODQuNjkyNTg1MSAzMzIuODI2MDAxLDg5LjU2NzYwMDIgMzM0Ljk5OTk2NSw5NS40ODE2MjE5IEMzMzYuNTM1MTA0LDk5LjY1Nzc5NDIgMzM2LjUzNTEwNCwxMDQuODc4NTQ4IDMzNi41MzUxMDQsMTE1LjMyMDA1NSBDMzM2LjUzNTEwNCwxMjUuNzYxNTYzIDMzNi41MzUxMDQsMTMwLjk4MjMxNiAzMzQuOTk5OTY1LDEzNS4xNTg0ODkgQzMzMi44MjYwMDEsMTQxLjA3MjUxIDMyOC40OTkwNCwxNDUuOTQ3NTI1IDMyMi44ODQ4NjcsMTQ4LjgwODA5IEMzMTcuNTM3MDczLDE1MS41MzI5MjcgMzEwLjUzNjQxNywxNTEuNTMyOTI3IDI5Ni41MzUxMDQsMTUxLjUzMjkyNyBMMjczLjQ0NTQ0OSwxNTEuNTMyOTI3IEMyNTkuNDQ0MTM2LDE1MS41MzI5MjcgMjUyLjQ0MzQ4LDE1MS41MzI5MjcgMjQ3LjA5NTY4NiwxNDguODA4MDkgQzI0MS40ODE1MTMsMTQ1Ljk0NzUyNSAyMzcuMTU0NTUyLDE0MS4wNzI1MSAyMzQuOTgwNTg4LDEzNS4xNTg0ODkgQzIzMy40NDU0NDksMTMwLjk4MjMxNiAyMzMuNDQ1NDQ5LDEyNS43NjE1NjMgMjMzLjQ0NTQ0OSwxMTUuMzIwMDU1IEMyMzMuNDQ1NDQ5LDEwNC44Nzg1NDggMjMzLjQ0NTQ0OSw5OS42NTc3OTQyIDIzNC45ODA1ODgsOTUuNDgxNjIxOSBDMjM3LjE1NDU1Miw4OS41Njc2MDAyIDI0MS40ODE1MTMsODQuNjkyNTg1MSAyNDcuMDk1Njg2LDgxLjgzMjAyMDkgQzI1Mi40NDM0OCw3OS4xMDcxODQgMjU5LjQ0NDEzNiw3OS4xMDcxODQgMjczLjQ0NTQ0OSw3OS4xMDcxODQgWiIgaWQ9IuefqeW9oi0yIiBmaWxsLW9wYWNpdHk9IjAuOCIgZmlsbD0iI0NFRDhGRiI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMjczLjc0NzEyNiw3OC44MTE4ODEyIEwyOTYuODM2NzgyLDc4LjgxMTg4MTIgQzMxMC44MzgwOTQsNzguODExODgxMiAzMTcuODM4NzUxLDc4LjgxMTg4MTIgMzIzLjE4NjU0NCw4MS41MzY3MTgxIEMzMjguODAwNzE4LDg0LjM5NzI4MjQgMzMzLjEyNzY3OCw4OS4yNzIyOTc0IDMzNS4zMDE2NDIsOTUuMTg2MzE5MSBDMzM2LjgzNjc4Miw5OS4zNjI0OTE1IDMzNi44MzY3ODIsMTA0LjU4MzI0NSAzMzYuODM2NzgyLDExNS4wMjQ3NTIgQzMzNi44MzY3ODIsMTI1LjQ2NjI2IDMzNi44MzY3ODIsMTMwLjY4NzAxMyAzMzUuMzAxNjQyLDEzNC44NjMxODYgQzMzMy4xMjc2NzgsMTQwLjc3NzIwOCAzMjguODAwNzE4LDE0NS42NTIyMjMgMzIzLjE4NjU0NCwxNDguNTEyNzg3IEMzMTcuODM4NzUxLDE1MS4yMzc2MjQgMzEwLjgzODA5NCwxNTEuMjM3NjI0IDI5Ni44MzY3ODIsMTUxLjIzNzYyNCBMMjczLjc0NzEyNiwxNTEuMjM3NjI0IEMyNTkuNzQ1ODE0LDE1MS4yMzc2MjQgMjUyLjc0NTE1NywxNTEuMjM3NjI0IDI0Ny4zOTczNjQsMTQ4LjUxMjc4NyBDMjQxLjc4MzE5LDE0NS42NTIyMjMgMjM3LjQ1NjIzLDE0MC43NzcyMDggMjM1LjI4MjI2NiwxMzQuODYzMTg2IEMyMzMuNzQ3MTI2LDEzMC42ODcwMTMgMjMzLjc0NzEyNiwxMjUuNDY2MjYgMjMzLjc0NzEyNiwxMTUuMDI0NzUyIEMyMzMuNzQ3MTI2LDEwNC41ODMyNDUgMjMzLjc0NzEyNiw5OS4zNjI0OTE1IDIzNS4yODIyNjYsOTUuMTg2MzE5MSBDMjM3LjQ1NjIzLDg5LjI3MjI5NzQgMjQxLjc4MzE5LDg0LjM5NzI4MjQgMjQ3LjM5NzM2NCw4MS41MzY3MTgxIEMyNTIuNzQ1MTU3LDc4LjgxMTg4MTIgMjU5Ljc0NTgxNCw3OC44MTE4ODEyIDI3My43NDcxMjYsNzguODExODgxMiBaIiBpZD0i55+p5b2iLTIiIGZpbGwtb3BhY2l0eT0iMC44IiBmaWxsPSIjQ0VEOEZGIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zODguOTEwMzQ1LDc4LjgxMTg4MTIgTDQxMiw3OC44MTE4ODEyIEM0MjYuMDAxMzEzLDc4LjgxMTg4MTIgNDMzLjAwMTk2OSw3OC44MTE4ODEyIDQzOC4zNDk3NjIsODEuNTM2NzE4MSBDNDQzLjk2MzkzNiw4NC4zOTcyODI0IDQ0OC4yOTA4OTcsODkuMjcyMjk3NCA0NTAuNDY0ODYsOTUuMTg2MzE5MSBDNDUyLDk5LjM2MjQ5MTUgNDUyLDEwNC41ODMyNDUgNDUyLDExNS4wMjQ3NTIgQzQ1MiwxMjUuNDY2MjYgNDUyLDEzMC42ODcwMTMgNDUwLjQ2NDg2LDEzNC44NjMxODYgQzQ0OC4yOTA4OTcsMTQwLjc3NzIwOCA0NDMuOTYzOTM2LDE0NS42NTIyMjMgNDM4LjM0OTc2MiwxNDguNTEyNzg3IEM0MzMuMDAxOTY5LDE1MS4yMzc2MjQgNDI2LjAwMTMxMywxNTEuMjM3NjI0IDQxMiwxNTEuMjM3NjI0IEwzODguOTEwMzQ1LDE1MS4yMzc2MjQgQzM3NC45MDkwMzIsMTUxLjIzNzYyNCAzNjcuOTA4Mzc2LDE1MS4yMzc2MjQgMzYyLjU2MDU4MiwxNDguNTEyNzg3IEMzNTYuOTQ2NDA5LDE0NS42NTIyMjMgMzUyLjYxOTQ0OCwxNDAuNzc3MjA4IDM1MC40NDU0ODQsMTM0Ljg2MzE4NiBDMzQ4LjkxMDM0NSwxMzAuNjg3MDEzIDM0OC45MTAzNDUsMTI1LjQ2NjI2IDM0OC45MTAzNDUsMTE1LjAyNDc1MiBDMzQ4LjkxMDM0NSwxMDQuNTgzMjQ1IDM0OC45MTAzNDUsOTkuMzYyNDkxNSAzNTAuNDQ1NDg0LDk1LjE4NjMxOTEgQzM1Mi42MTk0NDgsODkuMjcyMjk3NCAzNTYuOTQ2NDA5LDg0LjM5NzI4MjQgMzYyLjU2MDU4Miw4MS41MzY3MTgxIEMzNjcuOTA4Mzc2LDc4LjgxMTg4MTIgMzc0LjkwOTAzMiw3OC44MTE4ODEyIDM4OC45MTAzNDUsNzguODExODgxMiBaIiBpZD0i55+p5b2iLTIiIGZpbGwtb3BhY2l0eT0iMC44IiBmaWxsPSIjQ0VEOEZGIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNzMuNzQ3MTI2LDE3MC4wNDk1MDUgTDI5Ni44MzY3ODIsMTcwLjA0OTUwNSBDMzEwLjgzODA5NCwxNzAuMDQ5NTA1IDMxNy44Mzg3NTEsMTcwLjA0OTUwNSAzMjMuMTg2NTQ0LDE3Mi43NzQzNDIgQzMyOC44MDA3MTgsMTc1LjYzNDkwNiAzMzMuMTI3Njc4LDE4MC41MDk5MjEgMzM1LjMwMTY0MiwxODYuNDIzOTQzIEMzMzYuODM2NzgyLDE5MC42MDAxMTUgMzM2LjgzNjc4MiwxOTUuODIwODY5IDMzNi44MzY3ODIsMjA2LjI2MjM3NiBDMzM2LjgzNjc4MiwyMTYuNzAzODg0IDMzNi44MzY3ODIsMjIxLjkyNDYzNyAzMzUuMzAxNjQyLDIyNi4xMDA4MSBDMzMzLjEyNzY3OCwyMzIuMDE0ODMxIDMyOC44MDA3MTgsMjM2Ljg4OTg0NiAzMjMuMTg2NTQ0LDIzOS43NTA0MTEgQzMxNy44Mzg3NTEsMjQyLjQ3NTI0OCAzMTAuODM4MDk0LDI0Mi40NzUyNDggMjk2LjgzNjc4MiwyNDIuNDc1MjQ4IEwyNzMuNzQ3MTI2LDI0Mi40NzUyNDggQzI1OS43NDU4MTQsMjQyLjQ3NTI0OCAyNTIuNzQ1MTU3LDI0Mi40NzUyNDggMjQ3LjM5NzM2NCwyMzkuNzUwNDExIEMyNDEuNzgzMTksMjM2Ljg4OTg0NiAyMzcuNDU2MjMsMjMyLjAxNDgzMSAyMzUuMjgyMjY2LDIyNi4xMDA4MSBDMjMzLjc0NzEyNiwyMjEuOTI0NjM3IDIzMy43NDcxMjYsMjE2LjcwMzg4NCAyMzMuNzQ3MTI2LDIwNi4yNjIzNzYgQzIzMy43NDcxMjYsMTk1LjgyMDg2OSAyMzMuNzQ3MTI2LDE5MC42MDAxMTUgMjM1LjI4MjI2NiwxODYuNDIzOTQzIEMyMzcuNDU2MjMsMTgwLjUwOTkyMSAyNDEuNzgzMTksMTc1LjYzNDkwNiAyNDcuMzk3MzY0LDE3Mi43NzQzNDIgQzI1Mi43NDUxNTcsMTcwLjA0OTUwNSAyNTkuNzQ1ODE0LDE3MC4wNDk1MDUgMjczLjc0NzEyNiwxNzAuMDQ5NTA1IFoiIGlkPSLnn6nlvaItMiIgZmlsbC1vcGFjaXR5PSIwLjgiIGZpbGw9IiNDRUQ4RkYiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTM4OC45MTAzNDUsMTcwLjA0OTUwNSBMNDEyLDE3MC4wNDk1MDUgQzQyNi4wMDEzMTMsMTcwLjA0OTUwNSA0MzMuMDAxOTY5LDE3MC4wNDk1MDUgNDM4LjM0OTc2MiwxNzIuNzc0MzQyIEM0NDMuOTYzOTM2LDE3NS42MzQ5MDYgNDQ4LjI5MDg5NywxODAuNTA5OTIxIDQ1MC40NjQ4NiwxODYuNDIzOTQzIEM0NTIsMTkwLjYwMDExNSA0NTIsMTk1LjgyMDg2OSA0NTIsMjA2LjI2MjM3NiBDNDUyLDIxNi43MDM4ODQgNDUyLDIyMS45MjQ2MzcgNDUwLjQ2NDg2LDIyNi4xMDA4MSBDNDQ4LjI5MDg5NywyMzIuMDE0ODMxIDQ0My45NjM5MzYsMjM2Ljg4OTg0NiA0MzguMzQ5NzYyLDIzOS43NTA0MTEgQzQzMy4wMDE5NjksMjQyLjQ3NTI0OCA0MjYuMDAxMzEzLDI0Mi40NzUyNDggNDEyLDI0Mi40NzUyNDggTDM4OC45MTAzNDUsMjQyLjQ3NTI0OCBDMzc0LjkwOTAzMiwyNDIuNDc1MjQ4IDM2Ny45MDgzNzYsMjQyLjQ3NTI0OCAzNjIuNTYwNTgyLDIzOS43NTA0MTEgQzM1Ni45NDY0MDksMjM2Ljg4OTg0NiAzNTIuNjE5NDQ4LDIzMi4wMTQ4MzEgMzUwLjQ0NTQ4NCwyMjYuMTAwODEgQzM0OC45MTAzNDUsMjIxLjkyNDYzNyAzNDguOTEwMzQ1LDIxNi43MDM4ODQgMzQ4LjkxMDM0NSwyMDYuMjYyMzc2IEMzNDguOTEwMzQ1LDE5NS44MjA4NjkgMzQ4LjkxMDM0NSwxOTAuNjAwMTE1IDM1MC40NDU0ODQsMTg2LjQyMzk0MyBDMzUyLjYxOTQ0OCwxODAuNTA5OTIxIDM1Ni45NDY0MDksMTc1LjYzNDkwNiAzNjIuNTYwNTgyLDE3Mi43NzQzNDIgQzM2Ny45MDgzNzYsMTcwLjA0OTUwNSAzNzQuOTA5MDMyLDE3MC4wNDk1MDUgMzg4LjkxMDM0NSwxNzAuMDQ5NTA1IFoiIGlkPSLnn6nlvaItMiIgZmlsbC1vcGFjaXR5PSIwLjgiIGZpbGw9IiNDRUQ4RkYiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==",
+        "versions": [
+          {
+            "version": "1.0.6",
+            "publishTimestamp": 1791020363,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bc6ac8df8570a35d24c7f5cbd1ba8b040f664463ca84c48782071393e5498021",
+      "evidence": [
+        {
+          "name": "dsh-mcp-studio",
+          "version": "1.0.6",
+          "tarball": "https://registry.npmjs.org/dsh-mcp-studio/-/dsh-mcp-studio-1.0.6.tgz",
+          "integrity": "sha512-DpRUJEPuPdfBUKnDjY2pKQSkcZQgTb1wT8cDd6YwiGw8axn+1qzqtvD1QwEYPn0JbOC/1XxLc2dMZzt0rRn6Kg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mcp-studio@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/functy23/dsh-mcp-studio",
+    "commit": "6b4f5dd2c0de5f20d4625940060f714054bddbe3",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:27.525Z"
+}

@@ -1,0 +1,161 @@
+{
+  "full_name": "gongyijie85/dsh-ponytail",
+  "originalPosition": 15,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 15,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:21.827Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a75a8d559415c318ece7f1950664fa7d6207e6924d7166005d8d90976ae5271f",
+      "url": "https://github.com/gongyijie85/dsh-ponytail/blob/0a837a6bc5849955dc07b4be7d40ca95e60fa459/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/gongyijie85/dsh-ponytail",
+          "command": "dsh plugin --profile web add github:gongyijie85/dsh-ponytail",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ponytail-skills",
+          "command": "dsh plugin --profile web add dsh-ponytail-skills",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "05eddaa811a5c996505a56456e87700f1d81787d45de1f5b5f1f9a5fb44daff5",
+      "url": "https://github.com/gongyijie85/dsh-ponytail/blob/0a837a6bc5849955dc07b4be7d40ca95e60fa459/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/gongyijie85/dsh-ponytail",
+          "command": "dsh plugin --profile web add github:gongyijie85/dsh-ponytail",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ponytail-skills",
+          "command": "dsh plugin --profile web add dsh-ponytail-skills",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ponytail-skills",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gongyijie85/dsh-ponytail",
+        "commit": "0a837a6bc5849955dc07b4be7d40ca95e60fa459"
+      },
+      "manifestSha256": "7e5cb6eb74e22e48202c10d157101414f6d5734020693752b14511644450edad",
+      "manifestUrl": "https://github.com/gongyijie85/dsh-ponytail/blob/0a837a6bc5849955dc07b4be7d40ca95e60fa459/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ponytail-skills",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1789061080,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gongyijie85/dsh-ponytail",
+              "commit": "0a837a6bc5849955dc07b4be7d40ca95e60fa459"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ponytail-skills",
+      "origin": "npm",
+      "name": "dsh-ponytail-skills",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ponytail-skills",
+        "title": "dsh-ponytail-skills",
+        "description": "Ponytail, lazy senior dev mode, for DeepSeek Harness: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT)",
+        "homepage": "https://github.com/gongyijie85/dsh-ponytail",
+        "repository": {
+          "url": "https://github.com/gongyijie85/dsh-ponytail"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "plugin",
+            "skills",
+            "ponytail",
+            "yagni",
+            "minimal"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1790779203,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cb0a332732ea5daad75e575cbeae7bfe2eed04e9089e9d2ad644ee9334fb3d51",
+      "evidence": [
+        {
+          "name": "dsh-ponytail-skills",
+          "version": "0.1.7",
+          "tarball": "https://registry.npmjs.org/dsh-ponytail-skills/-/dsh-ponytail-skills-0.1.7.tgz",
+          "integrity": "sha512-8zVFX8RLn7hf8FPRNg6BVePrWTqM+P9Uspr0s62KXTMESlWVPfadGyw2bN2ZEiswx1hIBOhOacEplYR0sHQczA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/gongyijie85/dsh-ponytail",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ponytail-skills",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gongyijie85/dsh-ponytail",
+    "commit": "0a837a6bc5849955dc07b4be7d40ca95e60fa459",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:27.892Z"
+}

@@ -1,0 +1,129 @@
+{
+  "full_name": "Jaylor-Wang/dsh-tool-antigravity",
+  "originalPosition": 54,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 54,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:25.698Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a09a216c5116cc442bdba86e185cb0f8498fd71126ee7cf4fea79809d197bd2d",
+      "url": "https://github.com/Jaylor-Wang/dsh-tool-antigravity/blob/c7563d1fe0dd85b2f315e240e236fc34e53b6331/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tool-antigravity",
+          "command": "dsh plugin --profile web add dsh-tool-antigravity",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ca07470ae1e047e0ee3a292a60d0013f96ebabda15bb22bb4f923139a696fcc3",
+      "url": "https://github.com/Jaylor-Wang/dsh-tool-antigravity/blob/c7563d1fe0dd85b2f315e240e236fc34e53b6331/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tool-antigravity",
+          "command": "dsh plugin --profile web add dsh-tool-antigravity",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tool-antigravity",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jaylor-Wang/dsh-tool-antigravity",
+        "commit": "c7563d1fe0dd85b2f315e240e236fc34e53b6331"
+      },
+      "manifestSha256": "ba72f50a91bd89bf7736a2663630bbd29a4c879bb2a7dadd2eb25b51e448f49a",
+      "manifestUrl": "https://github.com/Jaylor-Wang/dsh-tool-antigravity/blob/c7563d1fe0dd85b2f315e240e236fc34e53b6331/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tool-antigravity",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1792160437,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jaylor-Wang/dsh-tool-antigravity",
+              "commit": "c7563d1fe0dd85b2f315e240e236fc34e53b6331"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tool-antigravity",
+      "origin": "npm",
+      "name": "dsh-tool-antigravity",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tool-antigravity",
+        "title": "dsh-tool-antigravity",
+        "description": "High-performance, streamlined Antigravity OAuth LLM routing and Nano Banana 2 image generation capability bundle for DeepSeek Harness",
+        "author": "Jaylor-Wang",
+        "homepage": "https://github.com/Jaylor-Wang/dsh-tool-antigravity#readme",
+        "repository": {
+          "url": "https://github.com/Jaylor-Wang/dsh-tool-antigravity"
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1792160872,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9574367eaa7df2b96d86ce69b41d2b0b3a2a7ec2cebf5e09359577be9910026f",
+      "evidence": [
+        {
+          "name": "dsh-tool-antigravity",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-tool-antigravity/-/dsh-tool-antigravity-0.4.1.tgz",
+          "integrity": "sha512-B6L9md4TW+KoFaAlJMK/GWlAgD4jCn4Dr4SEJLXg1rzCLxzeE5vBVPqIIrN7VcprUb01OdPlU9nFIzb3ipOpmw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tool-antigravity",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jaylor-Wang/dsh-tool-antigravity",
+    "commit": "c7563d1fe0dd85b2f315e240e236fc34e53b6331",
+    "releaseTags": 12,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:31.365Z"
+}

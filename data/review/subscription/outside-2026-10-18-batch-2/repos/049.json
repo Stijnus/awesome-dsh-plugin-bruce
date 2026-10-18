@@ -1,0 +1,65 @@
+{
+  "full_name": "baisama-cloud/dsh-galgame-generator",
+  "originalPosition": 49,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 49,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:16.664Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b8193196e701112c6e813fbe1fb91b3aa9e81fa29291ab13b1f1319b856a4ccd",
+      "url": "https://github.com/baisama-cloud/dsh-galgame-generator/blob/276974e36a89dbaf07d9a7d4208d980088741160/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-galgame-generator",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baisama-cloud/dsh-galgame-generator",
+        "commit": "276974e36a89dbaf07d9a7d4208d980088741160"
+      },
+      "manifestSha256": "a807d4ce6794cbdd25d0512816b2f7c27a87edebaa2936891e91b5e66e3ee74d",
+      "manifestUrl": "https://github.com/baisama-cloud/dsh-galgame-generator/blob/276974e36a89dbaf07d9a7d4208d980088741160/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-galgame-generator",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1789050265,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/baisama-cloud/dsh-galgame-generator",
+              "commit": "276974e36a89dbaf07d9a7d4208d980088741160"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/baisama-cloud/dsh-galgame-generator",
+    "commit": "276974e36a89dbaf07d9a7d4208d980088741160",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:21.383Z"
+}

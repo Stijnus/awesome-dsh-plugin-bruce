@@ -1,0 +1,115 @@
+{
+  "full_name": "HuanLinOTO/dsh-plugin-anti-ads",
+  "originalPosition": 53,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 53,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:22.394Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a3df856a4968130ac7356898d5251601ce50af33133dc7c279ff2cc9071feab2",
+      "url": "https://github.com/HuanLinOTO/dsh-plugin-anti-ads/blob/ca25ccf697b4633c30e9aaa9a2cadd6139a73207/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@huanlin/dsh-plugin-anti-ads",
+          "command": "dsh plugin --profile web add @huanlin/dsh-plugin-anti-ads",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huanlin/dsh-plugin-anti-ads",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuanLinOTO/dsh-plugin-anti-ads",
+        "commit": "ca25ccf697b4633c30e9aaa9a2cadd6139a73207"
+      },
+      "manifestSha256": "47c22dc6aa20b235c92c5fc893e7f71c0d7e7c848ab627a9030d0ae3f4dbf58b",
+      "manifestUrl": "https://github.com/HuanLinOTO/dsh-plugin-anti-ads/blob/ca25ccf697b4633c30e9aaa9a2cadd6139a73207/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@huanlin/dsh-plugin-anti-ads",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1787477675,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HuanLinOTO/dsh-plugin-anti-ads",
+              "commit": "ca25ccf697b4633c30e9aaa9a2cadd6139a73207"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@huanlin/dsh-plugin-anti-ads",
+      "origin": "npm",
+      "name": "@huanlin/dsh-plugin-anti-ads",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@huanlin/dsh-plugin-anti-ads",
+        "title": "@huanlin/dsh-plugin-anti-ads",
+        "description": "DSH ad-suppression plugin: writes dsh-ads's own settings key to all-false, broadcasts its retire event, scrubs its portal from the DOM, and short-circuits its dynamic-tier fetch. Four layers, all client-side, all removable from a settings page of its own.",
+        "metadata": {
+          "keywords": [
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1788521007,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "65e95bea97dc01be02a15d9ba6f3bf8909c329bc3253a2a250794cb6d41c0fd7",
+      "evidence": [
+        {
+          "name": "@huanlin/dsh-plugin-anti-ads",
+          "version": "0.2.3",
+          "tarball": "https://registry.npmjs.org/@huanlin/dsh-plugin-anti-ads/-/dsh-plugin-anti-ads-0.2.3.tgz",
+          "integrity": "sha512-fVSrcd2hWhXk2aFg9vv7hWYdebF9LHhQxRcOK6dmOrhN4lLom6eKitzxZGJ56VcqZMSFuMnQzCrUn/7/pffK+A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@huanlin/dsh-plugin-anti-ads",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HuanLinOTO/dsh-plugin-anti-ads",
+    "commit": "ca25ccf697b4633c30e9aaa9a2cadd6139a73207",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:28.109Z"
+}

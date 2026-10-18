@@ -1,0 +1,91 @@
+{
+  "full_name": "BillCx330/dsh-plugin-notify-sounds",
+  "originalPosition": 86,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 86,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:05.266Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "65bb3170b32390f2b4b31192b22bb290020823b6b912b229e84b9b9f8ed1d590",
+      "url": "https://github.com/BillCx330/dsh-plugin-notify-sounds/blob/dbd2062baa858e30e72e859d869c8093b2930a4f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/BillCx330/dsh-plugin-notify-sounds",
+          "command": "dsh plugin --profile <your profile> add github:BillCx330/dsh-plugin-notify-sounds",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "5ab82b0dd9047548327778cc3ec50c48a0a345e69ff5562ee05a72cda549fc79",
+      "url": "https://github.com/BillCx330/dsh-plugin-notify-sounds/blob/dbd2062baa858e30e72e859d869c8093b2930a4f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/BillCx330/dsh-plugin-notify-sounds",
+          "command": "dsh plugin --profile <你的 profile> add github:BillCx330/dsh-plugin-notify-sounds",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-notify-sounds",
+      "version": "1.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BillCx330/dsh-plugin-notify-sounds",
+        "commit": "dbd2062baa858e30e72e859d869c8093b2930a4f"
+      },
+      "manifestSha256": "943dfeeb71214c154f4fb91a40f17ab42e84b2317e6511123283d15a9610c42a",
+      "manifestUrl": "https://github.com/BillCx330/dsh-plugin-notify-sounds/blob/dbd2062baa858e30e72e859d869c8093b2930a4f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-notify-sounds",
+        "versions": [
+          {
+            "version": "1.7.0",
+            "publishTimestamp": 1792243853,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BillCx330/dsh-plugin-notify-sounds",
+              "commit": "dbd2062baa858e30e72e859d869c8093b2930a4f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/BillCx330/dsh-plugin-notify-sounds",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BillCx330/dsh-plugin-notify-sounds",
+    "commit": "dbd2062baa858e30e72e859d869c8093b2930a4f",
+    "releaseTags": 25,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:10.076Z"
+}

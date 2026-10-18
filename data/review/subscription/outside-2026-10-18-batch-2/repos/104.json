@@ -1,0 +1,203 @@
+{
+  "full_name": "muyuanjin/dsh-ptc-plus",
+  "originalPosition": 104,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 104,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:24.091Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "79b129e7abc4daac1260c678e7ad060613b3cb5d5526f9b22f5ef7ab514ecd66",
+      "url": "https://github.com/muyuanjin/dsh-ptc-plus/blob/ddbe34cd8d456ee4606cd2547f261b0fcb14cf73/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ptc-plus",
+          "command": "dsh plugin --profile <profile> add dsh-ptc-plus",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-ptc-plus@latest",
+          "command": "dsh plugin --profile <profile> add dsh-ptc-plus@latest",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "b50b0fa75cdcb597f19cced2e69a5502207ed9f484b5570c5419105362cfb7cf",
+      "url": "https://github.com/muyuanjin/dsh-ptc-plus/blob/ddbe34cd8d456ee4606cd2547f261b0fcb14cf73/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ptc-plus",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/muyuanjin/dsh-ptc-plus",
+        "commit": "ddbe34cd8d456ee4606cd2547f261b0fcb14cf73"
+      },
+      "manifestSha256": "7bcac64e014f40fbb3550e2c1778beae1a4a5a6a5ea1fa6ce0a85cb6c29cdaee",
+      "manifestUrl": "https://github.com/muyuanjin/dsh-ptc-plus/blob/ddbe34cd8d456ee4606cd2547f261b0fcb14cf73/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ptc-plus",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1792160481,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/muyuanjin/dsh-ptc-plus",
+              "commit": "ddbe34cd8d456ee4606cd2547f261b0fcb14cf73"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ptc-plus",
+      "origin": "npm",
+      "name": "dsh-ptc-plus",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ptc-plus",
+        "title": {
+          "en": "PTC Plus",
+          "zh": "PTC Plus"
+        },
+        "description": {
+          "en": "A session-bound agent-native REPL for DeepSeek Harness PTC mode.",
+          "zh": "面向 DeepSeek Harness PTC 模式的会话级 Agent 原生 REPL。"
+        },
+        "homepage": "https://github.com/muyuanjin/dsh-ptc-plus#readme",
+        "repository": {
+          "url": "https://github.com/muyuanjin/dsh-ptc-plus"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "ptc",
+            "ptc-mode",
+            "repl"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTYiIGZpbGw9IiMwODdmNWIiLz4KICA8cGF0aCBkPSJtMjMgMjAtMTIgMTIgMTIgMTJtMTgtMjQgMTIgMTItMTIgMTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMzIgMjV2MTRtLTctN2gxNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYjdmN2Q3IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1792178213,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a035611b236f9c89f33c167441fe08dcccf2e53f37825e012321187c03265147",
+      "evidence": [
+        {
+          "name": "dsh-ptc-plus",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/dsh-ptc-plus/-/dsh-ptc-plus-0.5.1.tgz",
+          "integrity": "sha512-j72xeMnjErsxGE/bNfz80LTmEn6DBdgO0z+ICGnvbf6AQHQzPSkSQ3HccvZ/bSxjSuvE5aDEGAMP++cd1KwvaQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-ptc-plus@latest",
+      "origin": "npm",
+      "name": "dsh-ptc-plus",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ptc-plus",
+        "title": {
+          "en": "PTC Plus",
+          "zh": "PTC Plus"
+        },
+        "description": {
+          "en": "A session-bound agent-native REPL for DeepSeek Harness PTC mode.",
+          "zh": "面向 DeepSeek Harness PTC 模式的会话级 Agent 原生 REPL。"
+        },
+        "homepage": "https://github.com/muyuanjin/dsh-ptc-plus#readme",
+        "repository": {
+          "url": "https://github.com/muyuanjin/dsh-ptc-plus"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "ptc",
+            "ptc-mode",
+            "repl"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTYiIGZpbGw9IiMwODdmNWIiLz4KICA8cGF0aCBkPSJtMjMgMjAtMTIgMTIgMTIgMTJtMTgtMjQgMTIgMTItMTIgMTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMzIgMjV2MTRtLTctN2gxNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYjdmN2Q3IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1792178213,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a035611b236f9c89f33c167441fe08dcccf2e53f37825e012321187c03265147",
+      "evidence": [
+        {
+          "name": "dsh-ptc-plus",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/dsh-ptc-plus/-/dsh-ptc-plus-0.5.1.tgz",
+          "integrity": "sha512-j72xeMnjErsxGE/bNfz80LTmEn6DBdgO0z+ICGnvbf6AQHQzPSkSQ3HccvZ/bSxjSuvE5aDEGAMP++cd1KwvaQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ptc-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ptc-plus@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/muyuanjin/dsh-ptc-plus",
+    "commit": "ddbe34cd8d456ee4606cd2547f261b0fcb14cf73",
+    "releaseTags": 18,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:03.977Z"
+}

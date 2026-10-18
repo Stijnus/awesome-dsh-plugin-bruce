@@ -1,0 +1,167 @@
+{
+  "full_name": "AlexPeng07/dsh-custom-plugin",
+  "originalPosition": 196,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 196,
+  "batch": 1,
+  "startedAt": "2026-10-18T02:00:21.945Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8243c0a2b1a7eb655e4179c0aa014cf334a03e53b66d0ada80755761a58ef183",
+      "url": "https://github.com/AlexPeng07/dsh-custom-plugin/blob/901a665fd0ed6c50e9ed873bcc1b55cc6d16cb8f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@alexpeng/dsh-custom-plugin",
+          "command": "dsh plugin --profile web add @alexpeng/dsh-custom-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "@alexpeng/dsh-custom-plugin",
+          "command": "dsh plugin --profile desktop add @alexpeng/dsh-custom-plugin",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/AlexPeng07/dsh-custom-plugin",
+          "command": "dsh plugin --profile web add github:AlexPeng07/dsh-custom-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "34dfd1bf64735dc940f5b2d4039f64411cdb89404065cd92d04d9ac663e8dba3",
+      "url": "https://github.com/AlexPeng07/dsh-custom-plugin/blob/901a665fd0ed6c50e9ed873bcc1b55cc6d16cb8f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@alexpeng/dsh-custom-plugin",
+          "command": "dsh plugin --profile web add @alexpeng/dsh-custom-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "@alexpeng/dsh-custom-plugin",
+          "command": "dsh plugin --profile desktop add @alexpeng/dsh-custom-plugin",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/AlexPeng07/dsh-custom-plugin",
+          "command": "dsh plugin --profile web add github:AlexPeng07/dsh-custom-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@alexpeng/dsh-custom-plugin",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AlexPeng07/dsh-custom-plugin",
+        "commit": "901a665fd0ed6c50e9ed873bcc1b55cc6d16cb8f"
+      },
+      "manifestSha256": "e9f2f11ac4dd4e403ec497128cf38bcfcc965915f1be57f7f5994c5163d8e0ed",
+      "manifestUrl": "https://github.com/AlexPeng07/dsh-custom-plugin/blob/901a665fd0ed6c50e9ed873bcc1b55cc6d16cb8f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.2.0-0 || >=0.2.0-rc.2 <0.2.0-rc.3 || >=0.2.1-rc.2 <0.2.1-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@alexpeng/dsh-custom-plugin",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1792240165,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AlexPeng07/dsh-custom-plugin",
+              "commit": "901a665fd0ed6c50e9ed873bcc1b55cc6d16cb8f"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0-0 || >=0.2.0-rc.2 <0.2.0-rc.3 || >=0.2.1-rc.2 <0.2.1-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@alexpeng/dsh-custom-plugin",
+      "origin": "npm",
+      "name": "@alexpeng/dsh-custom-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@alexpeng/dsh-custom-plugin",
+        "title": {
+          "en": "Custom Suite",
+          "zh": "Custom 便利套件"
+        },
+        "description": {
+          "en": "Personalization, message timeline, project folders, prompt library, export and search, Mermaid, quote reply, and DeepSeek balance / token usage for the DSH Web GUI.",
+          "zh": "为 DSH Web GUI 提供外观个性化、消息时间线、项目文件夹、提示词库、会话导出与搜索、Mermaid 渲染、引用回复，以及 DeepSeek 余额与 token 用量。"
+        },
+        "author": "AlexPeng",
+        "homepage": "https://github.com/AlexPeng07/dsh-custom-plugin#readme",
+        "repository": {
+          "url": "https://github.com/AlexPeng07/dsh-custom-plugin"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJDdXN0b20g5L6/5Yip5aWX5Lu2Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMjYzMDRhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzFhMjEzNSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9InVybCgjYmcpIi8+CiAgPGcgc3Ryb2tlPSIjOGZhNGM4IiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0zNCAyMGgxNCIvPgogICAgPHBhdGggZD0iTTM0IDMyaDEwIi8+CiAgICA8cGF0aCBkPSJNMzQgNDRoMTQiLz4KICA8L2c+CiAgPGcgZmlsbD0iI2U5ZWJlZSI+CiAgICA8Y2lyY2xlIGN4PSI0NCIgY3k9IjIwIiByPSI0Ii8+CiAgICA8Y2lyY2xlIGN4PSI0MCIgY3k9IjMyIiByPSI0Ii8+CiAgICA8Y2lyY2xlIGN4PSI0NiIgY3k9IjQ0IiByPSI0Ii8+CiAgPC9nPgogIDxnIHN0cm9rZT0iI2M5ZDNlNCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgPHBhdGggZD0iTTE4IDE2djMyIi8+CiAgPC9nPgogIDxnIGZpbGw9IiNmMmI1NDQiPgogICAgPGNpcmNsZSBjeD0iMTgiIGN5PSIyMiIgcj0iMy41Ii8+CiAgPC9nPgogIDxnIGZpbGw9IiM3ZjkzYjgiPgogICAgPGNpcmNsZSBjeD0iMTgiIGN5PSIzMiIgcj0iMi41Ii8+CiAgICA8Y2lyY2xlIGN4PSIxOCIgY3k9IjQyIiByPSIyLjUiLz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1792243304,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0-0 || >=0.2.0-rc.2 <0.2.0-rc.3 || >=0.2.1-rc.2 <0.2.1-rc.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1a247f0251bbbc1ba2d75abfa5e5fdf921047f6eee675e8a129d2e0628dc175e",
+      "evidence": [
+        {
+          "name": "@alexpeng/dsh-custom-plugin",
+          "version": "0.8.0",
+          "tarball": "https://registry.npmjs.org/@alexpeng/dsh-custom-plugin/-/dsh-custom-plugin-0.8.0.tgz",
+          "integrity": "sha512-9UjhikyvWBaEmvsXPI3SrdPMRnyY9/BxNr7oOOTF2yTkIZSASw1v9Wd1PV+pyNKPlasAvuoh1m+qLDo2l33HmQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@alexpeng/dsh-custom-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AlexPeng07/dsh-custom-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AlexPeng07/dsh-custom-plugin",
+    "commit": "901a665fd0ed6c50e9ed873bcc1b55cc6d16cb8f",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T02:00:29.216Z"
+}

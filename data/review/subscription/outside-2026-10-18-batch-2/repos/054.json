@@ -1,0 +1,130 @@
+{
+  "full_name": "qinyre/dsh-plugin-capabilities",
+  "originalPosition": 54,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 54,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:25.950Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cd25597aa9520c0d86a2ccbc5285fe23541bdea6ab74aec195a50c0daecf767d",
+      "url": "https://github.com/qinyre/dsh-plugin-capabilities/blob/be9af1a742258a45f4d1fdb1b96f61a7443d4833/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-capabilities",
+          "command": "dsh plugin --profile web add dsh-plugin-capabilities",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-capabilities",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/qinyre/dsh-plugin-capabilities",
+        "commit": "be9af1a742258a45f4d1fdb1b96f61a7443d4833"
+      },
+      "manifestSha256": "aa2b80848a5af6159bb77bfa47d565b8612936f37fed1dcc164b6d32e386c873",
+      "manifestUrl": "https://github.com/qinyre/dsh-plugin-capabilities/blob/be9af1a742258a45f4d1fdb1b96f61a7443d4833/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-capabilities",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1792139378,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/qinyre/dsh-plugin-capabilities",
+              "commit": "be9af1a742258a45f4d1fdb1b96f61a7443d4833"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-capabilities",
+      "origin": "npm",
+      "name": "dsh-plugin-capabilities",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-capabilities",
+        "title": {
+          "en": "Skills & MCP",
+          "zh": "Skills与MCP"
+        },
+        "description": {
+          "en": "Manage skills and MCP servers from Settings.",
+          "zh": "在设置页管理技能与 MCP 服务器。"
+        },
+        "homepage": "https://github.com/qinyre/dsh-plugin-capabilities#readme",
+        "repository": {
+          "url": "https://github.com/qinyre/dsh-plugin-capabilities"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "skills",
+            "mcp"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1792139865,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "973fb85640ce4cb55875fd9e99dd00b88185d2382dd4df949b9cdc0456c48c35",
+      "evidence": [
+        {
+          "name": "dsh-plugin-capabilities",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-capabilities/-/dsh-plugin-capabilities-0.4.1.tgz",
+          "integrity": "sha512-9QYXrr+Ep0cBbhKVmWdYemBL95PblgzgDD4aH6d1uPCBRyRcK3InBVULmXcZ/i7vHK2VL1H18JgX7mwcnNbOzQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-capabilities",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/qinyre/dsh-plugin-capabilities",
+    "commit": "be9af1a742258a45f4d1fdb1b96f61a7443d4833",
+    "releaseTags": 9,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:32.470Z"
+}

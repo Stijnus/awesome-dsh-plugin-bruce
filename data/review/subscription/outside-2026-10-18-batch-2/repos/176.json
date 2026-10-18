@@ -1,0 +1,77 @@
+{
+  "full_name": "rinDBeans/dsh-miraculous-standard",
+  "originalPosition": 176,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 176,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:18.738Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "42e4fe76f9682b69d8ed05778919d301ec5de6e61132fcb9f699012a5d126b09",
+      "url": "https://github.com/rinDBeans/dsh-miraculous-standard/blob/9b54d1768143709f0718db944e2b01d010874581/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/rinDBeans/dsh-miraculous-standard",
+          "command": "dsh plugin --profile web add github:rinDBeans/dsh-miraculous-standard",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-miraculous-standard",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rinDBeans/dsh-miraculous-standard",
+        "commit": "9b54d1768143709f0718db944e2b01d010874581"
+      },
+      "manifestSha256": "8b4f1c657bf05e07e66c5d94dfd4ff5bd09a9fd62be8e2eef0fcec0556ec61c6",
+      "manifestUrl": "https://github.com/rinDBeans/dsh-miraculous-standard/blob/9b54d1768143709f0718db944e2b01d010874581/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-miraculous-standard",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1786974087,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/rinDBeans/dsh-miraculous-standard",
+              "commit": "9b54d1768143709f0718db944e2b01d010874581"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/rinDBeans/dsh-miraculous-standard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/rinDBeans/dsh-miraculous-standard",
+    "commit": "9b54d1768143709f0718db944e2b01d010874581",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:23.243Z"
+}

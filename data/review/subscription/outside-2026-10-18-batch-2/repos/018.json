@@ -1,0 +1,143 @@
+{
+  "full_name": "mo-n/dsh-provider-qoder",
+  "originalPosition": 18,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 18,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:22.819Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e8a06ece68464b602e0a1c9690468e9bd0a0755f10fac6aa74d993ef185a1bf4",
+      "url": "https://github.com/mo-n/dsh-provider-qoder/blob/0f2d96d507701a51947c8ac60067e5c3f807ed3b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-provider-qoder",
+          "command": "dsh plugin --profile web add dsh-provider-qoder",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "ff90ace21113c9f69e353dd7bedfdd69a681e9e76e68f7730b8b953b512da7b4",
+      "url": "https://github.com/mo-n/dsh-provider-qoder/blob/0f2d96d507701a51947c8ac60067e5c3f807ed3b/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-provider-qoder",
+          "command": "dsh plugin --profile web add dsh-provider-qoder",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-provider-qoder",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mo-n/dsh-provider-qoder",
+        "commit": "0f2d96d507701a51947c8ac60067e5c3f807ed3b"
+      },
+      "manifestSha256": "a07aafc057df0c4ff6027ea831cf42cf2a1138c33da8912974381442b75bbfe1",
+      "manifestUrl": "https://github.com/mo-n/dsh-provider-qoder/blob/0f2d96d507701a51947c8ac60067e5c3f807ed3b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-provider-qoder",
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1790866627,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mo-n/dsh-provider-qoder",
+              "commit": "0f2d96d507701a51947c8ac60067e5c3f807ed3b"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-provider-qoder",
+      "origin": "npm",
+      "name": "dsh-provider-qoder",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-provider-qoder",
+        "title": "dsh-provider-qoder",
+        "description": "Global Qoder subscription adapter for the DeepSeek Harness LLM seam",
+        "homepage": "https://github.com/mo-n/dsh-provider-qoder#readme",
+        "repository": {
+          "url": "https://github.com/mo-n/dsh-provider-qoder"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "qoder"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1790764919,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "298e522ca2e0789197eb70d3b9ee046f4dcea51544ec3bbf53abc02d4de7374d",
+      "evidence": [
+        {
+          "name": "dsh-provider-qoder",
+          "version": "0.4.2",
+          "tarball": "https://registry.npmjs.org/dsh-provider-qoder/-/dsh-provider-qoder-0.4.2.tgz",
+          "integrity": "sha512-XqaK0pPjeHwR7VpsvSwjICpo3g3cKBxP3nhNYb4iP5r0dBTda5Axk7vHr/stGrk2pnA0daMaGObewJogH2z2sw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-provider-qoder",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mo-n/dsh-provider-qoder",
+    "commit": "0f2d96d507701a51947c8ac60067e5c3f807ed3b",
+    "releaseTags": 9,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:28.994Z"
+}

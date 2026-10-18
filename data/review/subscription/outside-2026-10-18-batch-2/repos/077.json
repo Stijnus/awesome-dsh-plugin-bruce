@@ -1,0 +1,94 @@
+{
+  "full_name": "memorax-ai/dsh-turn-fold",
+  "originalPosition": 77,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 77,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:56.962Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "04b4681580dbe489d32b49e0c42884bb10eac5afccf3fd4102910d05ac54b3e8",
+      "url": "https://github.com/memorax-ai/dsh-turn-fold/blob/2bcd4091055dc327fe31a87f2898404ff228ad90/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/memorax-ai/dsh-turn-fold",
+          "command": "dsh plugin --profile web add github:memorax-ai/dsh-turn-fold",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "c37e46c96c08106510e40a72c2dc7f2d30bdeb549af50549c9141138c430d5b6",
+      "url": "https://github.com/memorax-ai/dsh-turn-fold/blob/2bcd4091055dc327fe31a87f2898404ff228ad90/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/memorax-ai/dsh-turn-fold",
+          "command": "dsh plugin --profile web add github:memorax-ai/dsh-turn-fold",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ch4acko3/dsh-turn-fold",
+      "version": "0.6.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/memorax-ai/dsh-turn-fold",
+        "commit": "2bcd4091055dc327fe31a87f2898404ff228ad90"
+      },
+      "manifestSha256": "634ed1387022bce6e8e7c224b37ae5473a1d68e3738499c31ab2f0e333c4dd5f",
+      "manifestUrl": "https://github.com/memorax-ai/dsh-turn-fold/blob/2bcd4091055dc327fe31a87f2898404ff228ad90/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.5 <0.1.3-0 || >=0.1.3-0 <0.1.4-0 || >=0.1.4-0 <0.1.5-0 || >=0.1.5-0 <0.1.6-0 || >=0.1.6-0 <0.1.7-0 || >=0.1.7-0 <0.1.8-0 || 0.2.0-rc.2 || >=0.2.1-alpha.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@ch4acko3/dsh-turn-fold",
+        "versions": [
+          {
+            "version": "0.6.5",
+            "publishTimestamp": 1792075440,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/memorax-ai/dsh-turn-fold",
+              "commit": "2bcd4091055dc327fe31a87f2898404ff228ad90"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.5 <0.1.3-0 || >=0.1.3-0 <0.1.4-0 || >=0.1.4-0 <0.1.5-0 || >=0.1.5-0 <0.1.6-0 || >=0.1.6-0 <0.1.7-0 || >=0.1.7-0 <0.1.8-0 || 0.2.0-rc.2 || >=0.2.1-alpha.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/memorax-ai/dsh-turn-fold",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/memorax-ai/dsh-turn-fold",
+    "commit": "2bcd4091055dc327fe31a87f2898404ff228ad90",
+    "releaseTags": 16,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:01.331Z"
+}

@@ -1,0 +1,84 @@
+{
+  "full_name": "lemonxiny55/dsh-code-index",
+  "originalPosition": 85,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 85,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:02.400Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d45373fe122862c09b50d86827688af574c15b62bdfa7c3ad1b51917fc277b1f",
+      "url": "https://github.com/lemonxiny55/dsh-code-index/blob/cc46057b87cf6e9bed6d317e982ed555ec4a1a34/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "24b43caadf26a43966c776edacee5a4cc9eff8c797f7dac04ca24fbf7d34d419",
+      "url": "https://github.com/lemonxiny55/dsh-code-index/blob/cc46057b87cf6e9bed6d317e982ed555ec4a1a34/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "grammars/README.md",
+      "sha256": "f36fc7157e5bd091acaa57b7b9bb05180ee9c1fe62c29805e58b9fee23f37a79",
+      "url": "https://github.com/lemonxiny55/dsh-code-index/blob/cc46057b87cf6e9bed6d317e982ed555ec4a1a34/grammars/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-code-index",
+      "version": "0.10.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lemonxiny55/dsh-code-index",
+        "commit": "cc46057b87cf6e9bed6d317e982ed555ec4a1a34"
+      },
+      "manifestSha256": "bb5b250bbbcea09273d9125f3a2c2d435e733f84f8b4d9d892e6df84aad5ccf1",
+      "manifestUrl": "https://github.com/lemonxiny55/dsh-code-index/blob/cc46057b87cf6e9bed6d317e982ed555ec4a1a34/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-code-index",
+        "versions": [
+          {
+            "version": "0.10.0",
+            "publishTimestamp": 1791881076,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lemonxiny55/dsh-code-index",
+              "commit": "cc46057b87cf6e9bed6d317e982ed555ec4a1a34"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lemonxiny55/dsh-code-index",
+    "commit": "cc46057b87cf6e9bed6d317e982ed555ec4a1a34",
+    "releaseTags": 12,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:08.801Z"
+}

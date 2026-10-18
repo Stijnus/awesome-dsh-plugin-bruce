@@ -1,0 +1,201 @@
+{
+  "full_name": "sueccku/dsh-plugin-wps-office-next",
+  "originalPosition": 109,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 109,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:31.843Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ddb70c9bd45a1e214fb5f53ba5c912f653484c8dd4f83fa18f0cbe8841654d92",
+      "url": "https://github.com/sueccku/dsh-plugin-wps-office-next/blob/bc69b96fca0c30e63680a151ebf96a093404d2da/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-wps-office-next",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-wps-office-next",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/sueccku/dsh-plugin-wps-office-next#v0.8.2",
+          "command": "dsh plugin --profile <profile> add github:sueccku/dsh-plugin-wps-office-next#v0.8.2",
+          "profile": "default"
+        },
+        {
+          "install": "https://codeload.github.com/sueccku/dsh-plugin-wps-office-next/tar.gz/refs/tags/v0.8.2",
+          "command": "dsh plugin --profile <profile> add https://codeload.github.com/sueccku/dsh-plugin-wps-office-next/tar.gz/refs/tags/v0.8.2",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-wps-office-next",
+      "version": "0.8.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sueccku/dsh-plugin-wps-office-next",
+        "commit": "bc69b96fca0c30e63680a151ebf96a093404d2da"
+      },
+      "manifestSha256": "b0b921d0203ad0d7020443791433f7f1f67559471df7d73ffde55441bbd1eafe",
+      "manifestUrl": "https://github.com/sueccku/dsh-plugin-wps-office-next/blob/bc69b96fca0c30e63680a151ebf96a093404d2da/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-wps-office-next",
+        "versions": [
+          {
+            "version": "0.8.2",
+            "publishTimestamp": 1791800936,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sueccku/dsh-plugin-wps-office-next",
+              "commit": "bc69b96fca0c30e63680a151ebf96a093404d2da"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-wps-office-next",
+      "origin": "npm",
+      "name": "dsh-plugin-wps-office-next",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-wps-office-next",
+        "title": "dsh-plugin-wps-office-next",
+        "description": "用中文对话操控 WPS 表格 / 文字 / 演示的 DeepSeek Harness 插件（仅 Windows x64 / COM）。自带 MCP server、常驻 COM 宿主与技能文档，免装 WPS 加载项、免配环境变量。",
+        "author": "sueccku",
+        "homepage": "https://github.com/sueccku/dsh-plugin-wps-office-next#readme",
+        "repository": {
+          "url": "https://github.com/sueccku/dsh-plugin-wps-office-next"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "wps-office",
+            "mcp",
+            "com",
+            "windows",
+            "agent-skill"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.2",
+            "publishTimestamp": 1791800388,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "63a57d500530b7c65940812c11191c61bfdd42cfc8691837596117bfa3a9de1c",
+      "evidence": [
+        {
+          "name": "dsh-plugin-wps-office-next",
+          "version": "0.8.2",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-wps-office-next/-/dsh-plugin-wps-office-next-0.8.2.tgz",
+          "integrity": "sha512-DpgubEJXCTMkFRa8SjUlC0d/m9QtfmKXQ6kP4Owmri7yP8QAzrelrOfDuRzF7MtCQqrUdc3Fu1SETOp3lhrzBQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/sueccku/dsh-plugin-wps-office-next#v0.8.2",
+      "origin": "git_target",
+      "name": "dsh-plugin-wps-office-next",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-wps-office-next",
+        "title": "dsh-plugin-wps-office-next",
+        "description": "用中文对话操控 WPS 表格 / 文字 / 演示的 DeepSeek Harness 插件（仅 Windows x64 / COM）。自带 MCP server、常驻 COM 宿主与技能文档，免装 WPS 加载项、免配环境变量。",
+        "author": "sueccku",
+        "homepage": "https://github.com/sueccku/dsh-plugin-wps-office-next#readme",
+        "repository": {
+          "url": "https://github.com/sueccku/dsh-plugin-wps-office-next"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "wps-office",
+            "mcp",
+            "com",
+            "windows",
+            "agent-skill"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.2",
+            "publishTimestamp": 1791800244,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sueccku/dsh-plugin-wps-office-next",
+              "commit": "59ce5901a3cd796a6683c76fe682734c4c4783ad"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "59ce5901a3cd796a6683c76fe682734c4c4783ad",
+          "name": "dsh-plugin-wps-office-next",
+          "version": "0.8.2",
+          "url": "https://github.com/sueccku/dsh-plugin-wps-office-next",
+          "manifestSha256": "b0b921d0203ad0d7020443791433f7f1f67559471df7d73ffde55441bbd1eafe",
+          "publishTimestamp": 1791800244
+        }
+      ]
+    },
+    {
+      "target": "https://codeload.github.com/sueccku/dsh-plugin-wps-office-next/tar.gz/refs/tags/v0.8.2",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "GitHub codeload 是归档下载地址，不是 Git 仓库；format-1 需要 npm 包或经核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-wps-office-next",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/sueccku/dsh-plugin-wps-office-next#v0.8.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://codeload.github.com/sueccku/dsh-plugin-wps-office-next/tar.gz/refs/tags/v0.8.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sueccku/dsh-plugin-wps-office-next",
+    "commit": "bc69b96fca0c30e63680a151ebf96a093404d2da",
+    "releaseTags": 16,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:46.272Z"
+}

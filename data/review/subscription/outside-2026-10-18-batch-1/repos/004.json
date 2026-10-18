@@ -1,0 +1,80 @@
+{
+  "full_name": "keleus/deepseek-pet",
+  "originalPosition": 4,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:38.909Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5b5ba87c88d1856cfcb440a513e417f1dc30192de548e5a3779b25dbf3e5e86e",
+      "url": "https://github.com/keleus/deepseek-pet/blob/b9b61a35c3b2443ecdeab0ed442d6b33c603d343/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/keleus/deepseek-pet",
+          "command": "dsh plugin --profile web add github:keleus/deepseek-pet",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@keleus/deepseek-pet",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/keleus/deepseek-pet",
+        "commit": "b9b61a35c3b2443ecdeab0ed442d6b33c603d343"
+      },
+      "manifestSha256": "c95ca6aebf5e70da46fa544dfe8fca53b7e3fd23b3c5f834ea58c41608f16e29",
+      "manifestUrl": "https://github.com/keleus/deepseek-pet/blob/b9b61a35c3b2443ecdeab0ed442d6b33c603d343/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@keleus/deepseek-pet",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1792115789,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/keleus/deepseek-pet",
+              "commit": "b9b61a35c3b2443ecdeab0ed442d6b33c603d343"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/keleus/deepseek-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/keleus/deepseek-pet",
+    "commit": "b9b61a35c3b2443ecdeab0ed442d6b33c603d343",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:14:50.249Z"
+}

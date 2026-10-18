@@ -1,0 +1,119 @@
+{
+  "full_name": "sikadi233-hub/minecraft-dev",
+  "originalPosition": 107,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:23.219Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3acc1d30f6d98ecd11e9612b934524e9b05dfb221aa796d25ef2c7d0418f3d0a",
+      "url": "https://github.com/sikadi233-hub/minecraft-dev/blob/3a61559d1829fe6283265f18f6136debd6aa850c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "minecraft-dev",
+          "command": "dsh plugin --profile web add minecraft-dev",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "minecraft-dev",
+      "version": "0.9.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sikadi233-hub/minecraft-dev",
+        "commit": "3a61559d1829fe6283265f18f6136debd6aa850c"
+      },
+      "manifestSha256": "fa28e300897bff61ab2bc34cebce3afe415952ad2b26a32c259af2c980158a29",
+      "manifestUrl": "https://github.com/sikadi233-hub/minecraft-dev/blob/3a61559d1829fe6283265f18f6136debd6aa850c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1 || ^0.1.7-rc.1 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "minecraft-dev",
+        "versions": [
+          {
+            "version": "0.9.1",
+            "publishTimestamp": 1790736098,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sikadi233-hub/minecraft-dev",
+              "commit": "3a61559d1829fe6283265f18f6136debd6aa850c"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.1.7-rc.1 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "minecraft-dev",
+      "origin": "npm",
+      "name": "minecraft-dev",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "minecraft-dev",
+        "title": "minecraft-dev",
+        "description": "Minecraft development skills and tools for DeepSeek Harness: Paper/Spigot server plugins (modern and legacy lines), Fabric, Forge and NeoForge mods, MC 1.7.10 through 26.3, plus the mc_gradle Gradle runner, a second agent preset (Minecraft 架构师 / Astra神的瞥视) whose mc_codex tool drives the user's own Codex CLI as a transparent architect and hands content back through [TODO: Agent B] markers + FILL-SPEC.md, modern major-mod references (Create/Botania/AE2/Mekanism/Ars Nouveau/Farmer's Delight/Curios/JEI/REI/Patchouli), the minecraft-intake task-clarification skill (batch-ask when version/platform/loader details are missing), the check-doc-links link verifier, and a built-in A/B/C/D four-subagent team (subagent_mc_plan/skeleton/content/verify). Supports both dsh preset models: the 0.1.5/0.1.6 directory install and the 0.1.7+ agentPresets declaration",
+        "repository": {
+          "url": "https://github.com/sikadi233-hub/minecraft-dev"
+        },
+        "versions": [
+          {
+            "version": "0.9.1",
+            "publishTimestamp": 1790736339,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.1.7-rc.1 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5504ef80e0b5951ce743c0eb2e0b1642d4f79717cae8b4460d1f23649da7836b",
+      "evidence": [
+        {
+          "name": "minecraft-dev",
+          "version": "0.9.1",
+          "tarball": "https://registry.npmjs.org/minecraft-dev/-/minecraft-dev-0.9.1.tgz",
+          "integrity": "sha512-0gRUMufuT5g7RS7HfhaFyqoSMzOeoQoypVSqZlt+azhzjdxesTUFXgsC/7cO59KevJWNGZc8cf/9uXr7Dm/AKg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "minecraft-dev",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sikadi233-hub/minecraft-dev",
+    "commit": "3a61559d1829fe6283265f18f6136debd6aa850c",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:28.829Z"
+}

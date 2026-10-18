@@ -1,0 +1,76 @@
+{
+  "full_name": "LouisHaoL/dsh-timer-agent",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:51.866Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "308f60cf3b15d0bc7580f73f72f0d9a50e87c00b1817faa441b73cca15bfe1a1",
+      "url": "https://github.com/LouisHaoL/dsh-timer-agent/blob/5bd2b983ebc651f02544fee8e31f80f920a27e01/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "0573faf6beb23911172e1e71bcd6e68ae3a3dfd98a4134c8f8a7ac1ed57864b1",
+      "url": "https://github.com/LouisHaoL/dsh-timer-agent/blob/5bd2b983ebc651f02544fee8e31f80f920a27e01/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-timer-agent",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LouisHaoL/dsh-timer-agent",
+        "commit": "5bd2b983ebc651f02544fee8e31f80f920a27e01"
+      },
+      "manifestSha256": "4da41d5d21dfc8d1c139ed4f0d6d3719756e1fb5a8e689fa079988d4deacdf3e",
+      "manifestUrl": "https://github.com/LouisHaoL/dsh-timer-agent/blob/5bd2b983ebc651f02544fee8e31f80f920a27e01/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-timer-agent",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1791529840,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LouisHaoL/dsh-timer-agent",
+              "commit": "5bd2b983ebc651f02544fee8e31f80f920a27e01"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LouisHaoL/dsh-timer-agent",
+    "commit": "5bd2b983ebc651f02544fee8e31f80f920a27e01",
+    "releaseTags": 11,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:56.944Z"
+}

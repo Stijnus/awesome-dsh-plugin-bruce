@@ -1,0 +1,126 @@
+{
+  "full_name": "lyhue1991/dsh-soup",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:54.293Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b01d8e94cd828d4755c314d31d20a3fb0dd79b9a177bbdd0f87a2e4ddba4938b",
+      "url": "https://github.com/lyhue1991/dsh-soup/blob/af736f8a60be9aa6d131a2675c645c82a9bb416e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@lyhue1991/dsh-soup",
+          "command": "dsh plugin add @lyhue1991/dsh-soup",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lyhue1991/dsh-soup",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lyhue1991/dsh-soup",
+        "commit": "af736f8a60be9aa6d131a2675c645c82a9bb416e"
+      },
+      "manifestSha256": "6fdab4c77e1485cdf9b9adcde5b6f848da9f74fa080ae2585dc60cc7d6d52985",
+      "manifestUrl": "https://github.com/lyhue1991/dsh-soup/blob/af736f8a60be9aa6d131a2675c645c82a9bb416e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@lyhue1991/dsh-soup",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1791620712,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lyhue1991/dsh-soup",
+              "commit": "af736f8a60be9aa6d131a2675c645c82a9bb416e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@lyhue1991/dsh-soup",
+      "origin": "npm",
+      "name": "@lyhue1991/dsh-soup",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@lyhue1991/dsh-soup",
+        "title": "@lyhue1991/dsh-soup",
+        "description": "dsh 体验增强四件套 = Jupyter风格SideBar + 中央文件预览Tab + 多行GoalBar + 实时Token流速徽标",
+        "homepage": "https://github.com/lyhue1991/dsh-soup",
+        "repository": {
+          "url": "https://github.com/lyhue1991/dsh-soup"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "plugin",
+            "file-explorer",
+            "tree",
+            "speed",
+            "tps",
+            "throughput",
+            "deepseek-harness"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1791620934,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ee66aa0c0a6df88bb1c38eceb37a53c49507666605afc81b55d4629b6433126c",
+      "evidence": [
+        {
+          "name": "@lyhue1991/dsh-soup",
+          "version": "0.7.1",
+          "tarball": "https://registry.npmjs.org/@lyhue1991/dsh-soup/-/dsh-soup-0.7.1.tgz",
+          "integrity": "sha512-hwSY0MZPlCg//NSVt0iC0+S0Hrdc9BadW4pPHMhr7v6HJHgQjrFUrDNXAFIxI4FMX0lc0eLoDWVcFzXXOZYrpw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@lyhue1991/dsh-soup",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lyhue1991/dsh-soup",
+    "commit": "af736f8a60be9aa6d131a2675c645c82a9bb416e",
+    "releaseTags": 8,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:01.220Z"
+}

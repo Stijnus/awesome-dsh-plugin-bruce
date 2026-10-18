@@ -1,0 +1,129 @@
+{
+  "full_name": "HOWILLMAKEIT/dsh-model-context-catalog",
+  "originalPosition": 56,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 56,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:53.926Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ed42acc500cd8307a45882c79bff53d37b8af4be717d4f1c8a4afb468d6bc29b",
+      "url": "https://github.com/HOWILLMAKEIT/dsh-model-context-catalog/blob/8a6b637d720ae7721164fae9afe610d294c65914/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-model-context-catalog",
+          "command": "dsh plugin --profile web add dsh-model-context-catalog",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-model-context-catalog",
+      "version": "0.4.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HOWILLMAKEIT/dsh-model-context-catalog",
+        "commit": "8a6b637d720ae7721164fae9afe610d294c65914"
+      },
+      "manifestSha256": "d54648b59006cbc142d71146b0bb43f19141811effb98851fcd9f2f5f05f6b58",
+      "manifestUrl": "https://github.com/HOWILLMAKEIT/dsh-model-context-catalog/blob/8a6b637d720ae7721164fae9afe610d294c65914/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "~0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-model-context-catalog",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1792223285,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HOWILLMAKEIT/dsh-model-context-catalog",
+              "commit": "8a6b637d720ae7721164fae9afe610d294c65914"
+            },
+            "engines": {
+              "dsh": "~0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-model-context-catalog",
+      "origin": "npm",
+      "name": "dsh-model-context-catalog",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-model-context-catalog",
+        "title": "dsh-model-context-catalog",
+        "description": "One-click context window matching and selective bulk configuration for DeepSeek Harness models, with source references and manual management.",
+        "repository": {
+          "url": "https://github.com/HOWILLMAKEIT/dsh-model-context-catalog"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "context-window",
+            "model-metadata",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1791779548,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "~0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "83a8e1fe8c0ddcdbf91f891e8866ee80cf8fbfcd8b00eb5fd8590a015fdeea35",
+      "evidence": [
+        {
+          "name": "dsh-model-context-catalog",
+          "version": "0.4.3",
+          "tarball": "https://registry.npmjs.org/dsh-model-context-catalog/-/dsh-model-context-catalog-0.4.3.tgz",
+          "integrity": "sha512-DduXiQGoSvnEzvpVMUiOtt1X1s6BVdOuLURn+ju6mevC0/6wJR/RHGB6C0xjfhgkzN5sMH/qISmKGMDhHRXXxA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-model-context-catalog",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HOWILLMAKEIT/dsh-model-context-catalog",
+    "commit": "8a6b637d720ae7721164fae9afe610d294c65914",
+    "releaseTags": 7,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:59.694Z"
+}

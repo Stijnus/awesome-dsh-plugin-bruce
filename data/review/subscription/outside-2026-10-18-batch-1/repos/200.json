@@ -1,0 +1,202 @@
+{
+  "full_name": "dhicoc/dsh-theme-mineradio",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:48.296Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aaaa0fcb1696bbcc81ac32cb3f6beafd7f3bacf439f57c40863273a439c1b2db",
+      "url": "https://github.com/dhicoc/dsh-theme-mineradio/blob/60ac976b9fb761ba6ded8f0ddf3a51459b82ffea/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-theme-mineradio",
+          "command": "dsh plugin --profile web add dsh-theme-mineradio",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dhicoc/dsh-theme-mineradio",
+          "command": "dsh plugin add https://github.com/dhicoc/dsh-theme-mineradio",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-theme-mineradio@latest",
+          "command": "dsh plugin --profile web add dsh-theme-mineradio@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "83ef6860d89261890d3e9a84d9aa073aecbb7bf36dac33d8c48f0601f69a4316",
+      "url": "https://github.com/dhicoc/dsh-theme-mineradio/blob/60ac976b9fb761ba6ded8f0ddf3a51459b82ffea/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-theme-mineradio",
+          "command": "dsh plugin --profile web add dsh-theme-mineradio",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/dhicoc/dsh-theme-mineradio",
+          "command": "dsh plugin add https://github.com/dhicoc/dsh-theme-mineradio",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-theme-mineradio@latest",
+          "command": "dsh plugin --profile web add dsh-theme-mineradio@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-mineradio",
+      "version": "3.0.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dhicoc/dsh-theme-mineradio",
+        "commit": "60ac976b9fb761ba6ded8f0ddf3a51459b82ffea"
+      },
+      "manifestSha256": "ba945eb0788aa77c3bae20757812d1a8f0bccf802e1d79178ed89e848fc0857b",
+      "manifestUrl": "https://github.com/dhicoc/dsh-theme-mineradio/blob/60ac976b9fb761ba6ded8f0ddf3a51459b82ffea/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.2 <0.2.0-0 >=0.1.2-alpha.1 || >=0.1.2-alpha.1 <0.2.0-0 >=0.1.1-rc.2 || >=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-theme-mineradio",
+        "versions": [
+          {
+            "version": "3.0.5",
+            "publishTimestamp": 1791872730,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dhicoc/dsh-theme-mineradio",
+              "commit": "60ac976b9fb761ba6ded8f0ddf3a51459b82ffea"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.2.0-0 >=0.1.2-alpha.1 || >=0.1.2-alpha.1 <0.2.0-0 >=0.1.1-rc.2 || >=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-theme-mineradio",
+      "origin": "npm",
+      "name": "dsh-theme-mineradio",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-theme-mineradio",
+        "title": "dsh-theme-mineradio",
+        "description": "Mineradio: a cinematic private-visual-radio glass theme for the Web surface — champagne glow, fluid or wallpaper backdrop, unified corners, and motion",
+        "repository": {
+          "url": "https://github.com/dhicoc/dsh-theme-mineradio"
+        },
+        "versions": [
+          {
+            "version": "3.0.5",
+            "publishTimestamp": 1791872810,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.2.0-0 >=0.1.2-alpha.1 || >=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "25801c76268396cfd8e035f21736a7c01bad3bb1eb3d47c41f5321be7fdd7ea3",
+      "evidence": [
+        {
+          "name": "dsh-theme-mineradio",
+          "version": "3.0.5",
+          "tarball": "https://registry.npmjs.org/dsh-theme-mineradio/-/dsh-theme-mineradio-3.0.5.tgz",
+          "integrity": "sha512-PU8shoC2C+zIkLvnD0Ol1Xp9Tr4BzL3udabxhYPPR7f51RX9JF8NQHu0Q3G34M/54RR68wqo3stkovLpYUCa5A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-theme-mineradio@latest",
+      "origin": "npm",
+      "name": "dsh-theme-mineradio",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-theme-mineradio",
+        "title": "dsh-theme-mineradio",
+        "description": "Mineradio: a cinematic private-visual-radio glass theme for the Web surface — champagne glow, fluid or wallpaper backdrop, unified corners, and motion",
+        "repository": {
+          "url": "https://github.com/dhicoc/dsh-theme-mineradio"
+        },
+        "versions": [
+          {
+            "version": "3.0.5",
+            "publishTimestamp": 1791872810,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.2.0-0 >=0.1.2-alpha.1 || >=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "25801c76268396cfd8e035f21736a7c01bad3bb1eb3d47c41f5321be7fdd7ea3",
+      "evidence": [
+        {
+          "name": "dsh-theme-mineradio",
+          "version": "3.0.5",
+          "tarball": "https://registry.npmjs.org/dsh-theme-mineradio/-/dsh-theme-mineradio-3.0.5.tgz",
+          "integrity": "sha512-PU8shoC2C+zIkLvnD0Ol1Xp9Tr4BzL3udabxhYPPR7f51RX9JF8NQHu0Q3G34M/54RR68wqo3stkovLpYUCa5A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-theme-mineradio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/dhicoc/dsh-theme-mineradio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-theme-mineradio@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dhicoc/dsh-theme-mineradio",
+    "commit": "60ac976b9fb761ba6ded8f0ddf3a51459b82ffea",
+    "releaseTags": 30,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:55.447Z"
+}

@@ -1,0 +1,91 @@
+{
+  "full_name": "wushi2333/dsh-computer-use_codex-style",
+  "originalPosition": 160,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 160,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:54.658Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ea99ee3c2e249d986b08713e4e0dd038662fac3b0900ca4202e73a271be8b2ec",
+      "url": "https://github.com/wushi2333/dsh-computer-use_codex-style/blob/72f390ae076948968370510ea7f5b44dcf3e6015/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/wushi2333/dsh-computer-use_codex-style",
+          "command": "dsh plugin --profile web add github:wushi2333/dsh-computer-use_codex-style",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "3347aaa45724204c0fb3a142fd0c425a2a55362498ebb6315103ec99735cb8a2",
+      "url": "https://github.com/wushi2333/dsh-computer-use_codex-style/blob/72f390ae076948968370510ea7f5b44dcf3e6015/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/wushi2333/dsh-computer-use_codex-style",
+          "command": "dsh plugin --profile web add github:wushi2333/dsh-computer-use_codex-style",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-computer-use",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wushi2333/dsh-computer-use_codex-style",
+        "commit": "72f390ae076948968370510ea7f5b44dcf3e6015"
+      },
+      "manifestSha256": "c62d5c73ef4ac7853dae564aa589839838b386726de0889b5696c73fc8262a1c",
+      "manifestUrl": "https://github.com/wushi2333/dsh-computer-use_codex-style/blob/72f390ae076948968370510ea7f5b44dcf3e6015/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-computer-use",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789474194,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wushi2333/dsh-computer-use_codex-style",
+              "commit": "72f390ae076948968370510ea7f5b44dcf3e6015"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/wushi2333/dsh-computer-use_codex-style",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wushi2333/dsh-computer-use_codex-style",
+    "commit": "72f390ae076948968370510ea7f5b44dcf3e6015",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:00.645Z"
+}

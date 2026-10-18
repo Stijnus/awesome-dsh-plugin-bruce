@@ -1,0 +1,1796 @@
+{
+  "full_name": "klarkxy/dsh-plugins",
+  "originalPosition": 172,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 172,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:00.351Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ef38e8bc979c849676aeed1e09d59bb65b96dfd701e695745db0e49ea653263f",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-current-title",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-current-title",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "6a7df831f87eb0405d8bed13008a61a973da5e9fec5de2ffb130050b8ffd3717",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-current-title",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-current-title",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-current-title/README.md",
+      "sha256": "3eef8e40b8e562819212f50765b39d26b78d1d576a76def8cf6534e5bfeb6ed4",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-current-title/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-current-title",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-current-title",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-git-commit/README.md",
+      "sha256": "265f4910bb3c24865d81f3483e40d46ca4153cfeb027919ede107b91811f45f8",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-git-commit/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-git-commit",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-git-commit",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-safe-auto/README.md",
+      "sha256": "7921f9c3b8b66d93326b0b44ab4e19200412a0ef7cfb0a4fc403eb22a30c8fd5",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-safe-auto/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-safe-auto",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-safe-auto",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-session-manager/README.md",
+      "sha256": "19f0216bbe0d5af201fa55aa65589600d856c916d5f90e796e6cf5d867111f04",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-session-manager/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-session-manager",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-session-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-model-hub/README.md",
+      "sha256": "d0a513e4f4263043283442d2a187c47047fcc0aa088e1ff0dd72a039e5f41db0",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-model-hub/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-model-hub",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-model-hub",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-web-search-manager/README.md",
+      "sha256": "6877efe56f6a0ad34fbe759896feae002f1c35c8a770c1fd9dc1df6f55422db1",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-web-search-manager/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-web-search-manager",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-web-search-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-zhihu/README.md",
+      "sha256": "9669fc1b3af681bfe65a440fcbcae9893948e20b0aebaf6719fb1859daeca008",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-zhihu/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-zhihu",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-zhihu",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-chatgpt/README.md",
+      "sha256": "5b25cea5fd179d3fe6e5d0ccafb695a528ee7d6b50528e48c658e4a2ff50f97e",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-chatgpt/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-chatgpt",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-chatgpt",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-grok-build/README.md",
+      "sha256": "1d6dff0acc7e3b291794139d8efe0d230757d9b3718517d3e666a4d83d17ae58",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-grok-build/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-grok-build",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-grok-build",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-minimax-code/README.md",
+      "sha256": "f00d46e1451e22398c39396b3f5d9df3a454640bce866f6b37d449d74c5d4af0",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-minimax-code/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-minimax-code",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-minimax-code",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-font/README.md",
+      "sha256": "c491c544df6dfb8c05a0fbbe426ac155c6a3382bf31a84554eccbc8fda9d0e46",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-font/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-font",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-font",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-unrestricted/README.md",
+      "sha256": "f7275be796b5909248e6787dc377da41545501d96f049ba664d6e33096698e17",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-unrestricted/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-unrestricted",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-unrestricted",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-dev-index/README.md",
+      "sha256": "4306f58e3d532b4fb902d98ccc593711e75c8d9c8dcc0b37fb369ed31770824d",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-dev-index/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/klarkxy/dsh-plugins#path:/plugins/dsh-dev-index",
+          "command": "dsh plugin --profile web add \"github:klarkxy/dsh-plugins#path:/plugins/dsh-dev-index\"",
+          "profile": "web"
+        },
+        {
+          "install": "@klarkxy/dsh-dev-index",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-dev-index",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-model-route/README.md",
+      "sha256": "c880e1fcc9e072f3ce903f8266f91c898f759333017831d5b8915819a3817a5d",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-model-route/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-plugin-kit/README.md",
+      "sha256": "83a930c1d6ff1338c9998feec4dff46c5159f4add4ab1e2d6996f2f342a9b39c",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-plugin-kit/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-shortcuts/README.md",
+      "sha256": "6bdf850417005e956dbf9442bfa37f67b113f1fe9b95f01fdaa7ab6b84e3526c",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-shortcuts/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-current-title/docs/README.zh-CN.md",
+      "sha256": "5ea0f48036922e037a1cb02bda4bb162b31766ac48cf398ccb8be263a57ea697",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-current-title/docs/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-current-title",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-current-title",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-git-commit/docs/README.zh-CN.md",
+      "sha256": "5a36d68885b94d492000cb75c96c7a56791904617b84fede9ab7d704b1791ecd",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-git-commit/docs/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-git-commit",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-git-commit",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-safe-auto/README.zh-CN.md",
+      "sha256": "4beb59b3ec87efcd614145d34e5e621602b8601be00fd6c4c2dafb8a1a529801",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-safe-auto/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-safe-auto",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-safe-auto",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-session-manager/README.zh-CN.md",
+      "sha256": "5255db4f35cbcd02be3981be078985da3452c05a653e6985d507679fa1b084c1",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-session-manager/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-session-manager",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-session-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-model-hub/docs/README.zh-CN.md",
+      "sha256": "6d939212d3641eaa6c433283111712c45654fdf155a462ad3b603e58b996b4a3",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-model-hub/docs/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-model-hub",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-model-hub",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-web-search-manager/docs/README.zh-CN.md",
+      "sha256": "6aa38532ec497ca6270353c0608f96fb99e60c09435341f805c5f0d0e3b48eab",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-web-search-manager/docs/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-web-search-manager",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-web-search-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-zhihu/docs/README.zh-CN.md",
+      "sha256": "9c18ec24a7686569e209b5d86a3e74d939bd767240a95d6ff77c1431e7ab9fca",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-zhihu/docs/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-zhihu",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-zhihu",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-chatgpt/README.zh-CN.md",
+      "sha256": "371a43f6ebafd129e17e1b2f3612f50d91f3625cf5b8b06f475d265032fe3750",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-chatgpt/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-chatgpt",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-chatgpt",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-grok-build/README.zh-CN.md",
+      "sha256": "3b9cc30c7bd19916fb233fac90fa91d2cbca21be30591d8e316311372075402a",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-grok-build/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-grok-build",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-grok-build",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-minimax-code/README.zh-CN.md",
+      "sha256": "3760b8682b6a733a5e98027b7da23bba2e61a2b08517dd7977b2d6743b1a74ee",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-minimax-code/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-minimax-code",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-minimax-code",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-font/docs/README.zh-CN.md",
+      "sha256": "14773d742bf27b14198ea7415d1a4684d058397e3e459ce8024a3a0951bbe50f",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-font/docs/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-font",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-font",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-unrestricted/README.zh-CN.md",
+      "sha256": "ad953bf8a21208b9ae79cef251e4d037a4a7b62c1f2cf22b0ef125446404a7cf",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-unrestricted/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@klarkxy/dsh-unrestricted",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-unrestricted",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-dev-index/README.zh-CN.md",
+      "sha256": "6d7dcaae0412df1a74559041e1b27a95363c6b8ca00aec3d5fc3ceb86292ca2b",
+      "url": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-dev-index/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/klarkxy/dsh-plugins#path:/plugins/dsh-dev-index",
+          "command": "dsh plugin --profile web add \"github:klarkxy/dsh-plugins#path:/plugins/dsh-dev-index\"",
+          "profile": "web"
+        },
+        {
+          "install": "@klarkxy/dsh-dev-index",
+          "command": "dsh plugin --profile web add @klarkxy/dsh-dev-index",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-chatgpt",
+      "version": "0.1.3",
+      "path": "plugins/dsh-chatgpt",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-chatgpt"
+      },
+      "manifestSha256": "55bcc6fb3ff646a3958d4232c5106e59b1ed3caf05fd45020bbb6e551f165bfb",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-chatgpt/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-chatgpt",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-chatgpt"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-current-title",
+      "version": "0.2.5",
+      "path": "plugins/dsh-current-title",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-current-title"
+      },
+      "manifestSha256": "ba529e18a9122c8740721d1df252df19f93c0f2b6b5571ff8c998658a0268fdf",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-current-title/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-current-title",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-current-title"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-dev-index",
+      "version": "0.2.5",
+      "path": "plugins/dsh-dev-index",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-dev-index"
+      },
+      "manifestSha256": "14c32c7a511305cbb20d26becf904233728e1e954956e27e6d9e700eda75e84a",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-dev-index/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-dev-index",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-dev-index"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-font",
+      "version": "0.1.3",
+      "path": "plugins/dsh-font",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-font"
+      },
+      "manifestSha256": "66fc59367fa0c9b916dd2067e6a3e213bfbcd56dbe07b4de850252d231bbac69",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-font/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-font",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-font"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-git-commit",
+      "version": "0.2.5",
+      "path": "plugins/dsh-git-commit",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-git-commit"
+      },
+      "manifestSha256": "cb0aa9e796416f6728bdffa0588afb3f728094f65f9373fe89cab1a9eebee3e6",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-git-commit/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-git-commit",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-git-commit"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-grok-build",
+      "version": "0.1.3",
+      "path": "plugins/dsh-grok-build",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-grok-build"
+      },
+      "manifestSha256": "36c2d41c5947219b7c730deda18e0701c87be770a654c7603ea64f3545d8c8b1",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-grok-build/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-grok-build",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-grok-build"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-minimax-code",
+      "version": "0.1.3",
+      "path": "plugins/dsh-minimax-code",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-minimax-code"
+      },
+      "manifestSha256": "05b3562f7d68e5f5f8c662574733a939a404c64850c8f67b829484223f7dae19",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-minimax-code/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-minimax-code",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-minimax-code"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-model-hub",
+      "version": "0.1.3",
+      "path": "plugins/dsh-model-hub",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-model-hub"
+      },
+      "manifestSha256": "831e702378b913f1519eb4f565e2a63fd9be661e50f41e2be296a7fbd450032b",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-model-hub/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-model-hub",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-model-hub"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-safe-auto",
+      "version": "0.3.0",
+      "path": "plugins/dsh-safe-auto",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-safe-auto"
+      },
+      "manifestSha256": "52f22b4723d63509c21502e8439231c8f9f18c4021dc9263aeca8ffe1af135ac",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-safe-auto/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-safe-auto",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-safe-auto"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-session-manager",
+      "version": "0.2.1",
+      "path": "plugins/dsh-session-manager",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-session-manager"
+      },
+      "manifestSha256": "e0a47316cd5f63e6e821c4b018dfe5db9ebc798a8f3c9f48e1fa1a4cc5abdb89",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-session-manager/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-session-manager",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-session-manager"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-shortcuts",
+      "version": "0.1.0",
+      "path": "plugins/dsh-shortcuts",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-shortcuts"
+      },
+      "manifestSha256": "41b9da43fe266d8ae5e545745c9e90e1181423d8e20e582393a89dd661ee4348",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-shortcuts/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-shortcuts",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-shortcuts"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-unrestricted",
+      "version": "0.1.2",
+      "path": "plugins/dsh-unrestricted",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-unrestricted"
+      },
+      "manifestSha256": "fc94eb79aaf817b0b574f930e633ca76d8a15c70c8318771f04abc4c3d897ff3",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-unrestricted/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-unrestricted",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-unrestricted"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-web-search-manager",
+      "version": "0.2.5",
+      "path": "plugins/dsh-web-search-manager",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-web-search-manager"
+      },
+      "manifestSha256": "734d98dcf0fc7b175482a0fb2cea6b7b23a89aa77272b9a578462c33e93f11c1",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-web-search-manager/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-web-search-manager",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-web-search-manager"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@klarkxy/dsh-zhihu",
+      "version": "0.2.5",
+      "path": "plugins/dsh-zhihu",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/klarkxy/dsh-plugins",
+        "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+        "path": "plugins/dsh-zhihu"
+      },
+      "manifestSha256": "bce7977643a2cbcc8619abad4f4ad927552bbbeb603b647ef8498c4fff0b624e",
+      "manifestUrl": "https://github.com/klarkxy/dsh-plugins/blob/6f750489705ef82acac4ea0dc55a6e570538c07d/plugins/dsh-zhihu/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@klarkxy/dsh-zhihu",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-zhihu"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@klarkxy/dsh-current-title",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-current-title",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-current-title",
+        "title": {
+          "en": "Auto Title",
+          "zh": "自动标题"
+        },
+        "description": {
+          "en": "Session titles follow the latest task automatically; names you set by hand stay put.",
+          "zh": "会话标题跟随最新任务自动更新，你手动改过的名字不会被覆盖。"
+        },
+        "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/current-title/",
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-current-title"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-plugins",
+            "deepseek-harness",
+            "session-title",
+            "title-generation"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0idGFnIiB4MT0iNiIgeTE9IjkiIHgyPSIyNiIgeTI9IjI0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM0RDc1RjUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOEVCNkZGIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzLjYgMy42KSBzY2FsZSguOCkiPgogIDxwYXRoIGQ9Ik02IDEwQzYgOC45IDYuOSA4IDggOEgxOEwyNiAxNkwxOSAyM0w2IDEyVjEwWiIgZmlsbD0idXJsKCN0YWcpIi8+CiAgPGNpcmNsZSBjeD0iMTEiIGN5PSIxMi41IiByPSIyIiBmaWxsPSIjRTBFQkZGIi8+CiAgPHBhdGggZD0iTTEzIDE2LjVIMjBNMTUgMTkuOEgxOC41IiBzdHJva2U9IiNCOEQ3RkYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTIxLjUgMjlMMjIuNyAyNS43TDI5LjMgMTkuMUMzMC4xIDE4LjMgMzAuMSAxNyAyOS4zIDE2LjJDMjguNSAxNS40IDI3LjIgMTUuNCAyNi40IDE2LjJMMTkuOCAyMi44TDE4LjUgMjlIMjEuNVoiIGZpbGw9IiMzOUFCQTkiLz4KICA8cGF0aCBkPSJNMjUuNSAxNy41TDI4IDIwIiBzdHJva2U9IiM2NURFRDAiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152489,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "70ed73e7ea11b4e47a920f72cbd35c5222b328a8aba43d8b5588fac9c8c060de",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-current-title",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-current-title/-/dsh-current-title-0.2.5.tgz",
+          "integrity": "sha512-WQE3yrgl6DSxP0neffMMljP0FsbPKon9jRiIeZVZW/HipeQMIMdvAfLH8Db4d/CzxlFAzapXwpygBJx/yg3YGg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-git-commit",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-git-commit",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-git-commit",
+        "title": {
+          "en": "Git Commit",
+          "zh": "Git 提交"
+        },
+        "description": {
+          "en": "Commit workspace changes from the conversation header, with the model grouping the commits.",
+          "zh": "从会话顶栏提交工作区改动，由模型分组。"
+        },
+        "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/git-commit/",
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-git-commit"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-plugins",
+            "deepseek-harness",
+            "git",
+            "commit"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibm9kZSIgeDE9IjgiIHkxPSI2IiB4Mj0iMjgiIHkyPSIzMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNEQ3NUY1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzhFQjZGRiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy42IDMuNikgc2NhbGUoLjgpIj4KICA8cGF0aCBkPSJNMTEgMTJWMjRNMTEgMTJDMTEgMTQgMTQgMTYgMTkgMTZIMjUiIHN0cm9rZT0iIzYzOTJGRiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjExIiBjeT0iOSIgcj0iMy42IiBmaWxsPSJ1cmwoI25vZGUpIi8+CiAgPGNpcmNsZSBjeD0iMTEiIGN5PSIyNyIgcj0iMy42IiBmaWxsPSJ1cmwoI25vZGUpIi8+CiAgPGNpcmNsZSBjeD0iMjUiIGN5PSIxNiIgcj0iMy42IiBmaWxsPSIjMzlBQkE5Ii8+CiAgPHBhdGggZD0iTTIzLjYgMTZMMjQuOCAxNy4yTDI2LjYgMTUiIHN0cm9rZT0iI0UwRkJGNiIgc3Ryb2tlLXdpZHRoPSIxLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0yMCAyNUwyMi41IDI3LjVMMjggMjIiIHN0cm9rZT0iIzU1RDlDRSIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152484,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8aab25bed699dd1f0c589ab9e32cbac012c4fe3de36a9eb57ba8d763e3d4b249",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-git-commit",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-git-commit/-/dsh-git-commit-0.2.5.tgz",
+          "integrity": "sha512-ggcPbjS96xmG+CukDpbEuKZMTBQrBd6vzHDLEtkTsEgxzzKZTSofZ50HiNvvwhlMGXZuCIMDEEYZoDeg6ekJ0A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-safe-auto",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-safe-auto",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-safe-auto",
+        "title": {
+          "en": "Safe Auto",
+          "zh": "安全自动"
+        },
+        "description": {
+          "en": "A reviewer model answers approval requests; only calls that pass go ahead, one call at a time.",
+          "zh": "需要审批的请求交给审核模型判断，通过才放行这一次调用。"
+        },
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-safe-auto"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "approval",
+            "security"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2hpZWxkIiB4MT0iOSIgeTE9IjUiIHgyPSIyNyIgeTI9IjMwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM0RDc1RjUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOEVCNkZGIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzLjYgMy42KSBzY2FsZSguOCkiPgogIDxwYXRoIGQ9Ik0xOCA0TDI5IDguNVYxNkMyOSAyMy41IDI0LjUgMjkuNSAxOCAzMkMxMS41IDI5LjUgNyAyMy41IDcgMTZWOC41TDE4IDRaIiBmaWxsPSJ1cmwoI3NoaWVsZCkiLz4KICA8cGF0aCBkPSJNMTIuNSAxNy41TDE2LjUgMjEuNUwyNCAxMy41IiBzdHJva2U9IiNFMEVCRkYiIHN0cm9rZS13aWR0aD0iMi44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMTggNFYzMiIgc3Ryb2tlPSIjQjhEN0ZGIiBzdHJva2Utb3BhY2l0eT0iLjQ1IiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDxjaXJjbGUgY3g9IjE4IiBjeT0iMTcuNSIgcj0iOS41IiBzdHJva2U9IiM2NURFRDAiIHN0cm9rZS1vcGFjaXR5PSIuOCIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1kYXNoYXJyYXk9IjMgMyIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792152605,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c40e911e61419cb55ec9470e2bc4c4cddfdf0b5e843059d1e6ce39162a477561",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-safe-auto",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-safe-auto/-/dsh-safe-auto-0.3.0.tgz",
+          "integrity": "sha512-dI7+AedUY6EbAPQTn0ieoTLt1yBZGlr2KygthGGUsE6ZdpwfUOTjEeNlIh3/MJMHw70gm+KUhH/KAzNtlXlgPQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-session-manager",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-session-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-session-manager",
+        "title": {
+          "en": "Sessions",
+          "zh": "会话"
+        },
+        "description": {
+          "en": "Find and read sessions, copy thread IDs, and use temporary workspaces; continue with one tap on an empty composer and get a welcome-back recap after time away.",
+          "zh": "查找和阅读会话，复制线程 ID，使用临时工作区；空输入一键继续，久离回来给出摘要与压缩建议。"
+        },
+        "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/session-manager/",
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-session-manager"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8dGl0bGU+U2Vzc2lvbiBNYW5hZ2VyPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2Vzc2lvbi1mcm9udCIgeDE9IjUiIHkxPSIxMiIgeDI9IjI2IiB5Mj0iMjkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzRENzVGNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4RUI2RkYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InNlc3Npb24tYmFjayIgeDE9IjEzIiB5MT0iNSIgeDI9IjMxIiB5Mj0iMjIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzM5QUJBOSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2NURFRDAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMuNiAzLjYpIHNjYWxlKC44KSI+CiAgICA8cGF0aCBkPSJNMTYgNUgyOEE0IDQgMCAwIDEgMzIgOVYxN0E0IDQgMCAwIDEgMjggMjFIMjdWMjVMMjIgMjFIMTZBNCA0IDAgMCAxIDEyIDE3VjlBNCA0IDAgMCAxIDE2IDVaIiBmaWxsPSJ1cmwoI3Nlc3Npb24tYmFjaykiLz4KICAgIDxwYXRoIGQ9Ik0xOCAxMEgyNiIgc3Ryb2tlPSIjRDlGRkY1IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPHBhdGggZD0iTTggMTJIMjJBNCA0IDAgMCAxIDI2IDE2VjI0QTQgNCAwIDAgMSAyMiAyOEgxM0w3IDMyVjI4QTQgNCAwIDAgMSA0IDI0VjE2QTQgNCAwIDAgMSA4IDEyWiIgZmlsbD0idXJsKCNzZXNzaW9uLWZyb250KSIvPgogICAgPHBhdGggZD0iTTEwIDE4SDIwTTEwIDIzSDE2IiBzdHJva2U9IiNFMEVCRkYiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1792152506,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c5df41a60f6594623b231c9d5813cfffe397a53b038cdfb30d628b489ad20992",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-session-manager",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-session-manager/-/dsh-session-manager-0.2.1.tgz",
+          "integrity": "sha512-2dxi59ZX2PmuTIVydF3YLnvmbzumJ1Msji9COiIgnU3koarxgt5CDuvt6J/TfAn6RBrVOGAHlye8+RRwVYIuJQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-model-hub",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-model-hub",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-model-hub",
+        "title": {
+          "en": "Model Settings",
+          "zh": "模型设置"
+        },
+        "description": {
+          "en": "Change the models used by plugins and subagents from one page, and see each running subagent's model and reasoning effort.",
+          "zh": "在一个页面修改各插件和子代理使用的模型，并查看运行中子代理的模型与思考强度。"
+        },
+        "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/model-hub/",
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-model-hub"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "model-route",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792152693,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "59b2418ac57202118e7bde2d6d9f327354531c436d421c21d400176c384c2c0e",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-model-hub",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-model-hub/-/dsh-model-hub-0.1.3.tgz",
+          "integrity": "sha512-6eTDm7sKAw8YLNP9XZoVsDAmHT6SOtkS98o84rvqcP3lrsgkRKeWrmG91Uh8QQpgGNsLDc4N73nNWT1k2dfwLQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-web-search-manager",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-web-search-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-web-search-manager",
+        "title": {
+          "en": "Web Search",
+          "zh": "网页搜索"
+        },
+        "description": {
+          "en": "Manage web search providers and public-page fetching from one settings page.",
+          "zh": "在一个设置页管理搜索供应商与公开页面抓取。"
+        },
+        "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/web-search-manager/",
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-web-search-manager"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-plugins",
+            "deepseek-harness",
+            "web-search",
+            "search-provider",
+            "page-fetching",
+            "duckduckgo",
+            "tavily"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ2xvYmUiIHgxPSI2IiB5MT0iNiIgeDI9IjI2IiB5Mj0iMjYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzRENzVGNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4RUI2RkYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMuNiAzLjYpIHNjYWxlKC44KSI+CiAgPGNpcmNsZSBjeD0iMTUiIGN5PSIxNSIgcj0iMTAiIGZpbGw9InVybCgjZ2xvYmUpIi8+CiAgPHBhdGggZD0iTTUuNSAxNUgyNC41TTE1IDUuMkMxMS41IDggMTEuNSAyMiAxNSAyNC44QzE4LjUgMjIgMTguNSA4IDE1IDUuMloiIHN0cm9rZT0iI0I4RDdGRiIgc3Ryb2tlLXdpZHRoPSIxLjgiLz4KICA8Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSI2LjUiIGZpbGw9IiMwRTJBNTYiIGZpbGwtb3BhY2l0eT0iLjMiLz4KICA8Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSI1LjUiIHN0cm9rZT0iIzY1REVEMCIgc3Ryb2tlLXdpZHRoPSIyLjYiLz4KICA8cGF0aCBkPSJNMjcuMiAyNy4yTDMxIDMxIiBzdHJva2U9IiM1NUQ5Q0UiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPC9nPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152584,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "994f16f91ace3b04b6b3135970ff80bf5fbdecd293ca8c662af310b0d21b7a11",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-web-search-manager",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-web-search-manager/-/dsh-web-search-manager-0.2.5.tgz",
+          "integrity": "sha512-5MQaRhivOG2Fv+mSbl749lSQX2FqDX32mR/iqbKtZ3H4dbF9o3LkTDRbOSRFpL8OUoTvs7cluX/WCSlfgGL6jQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-zhihu",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-zhihu",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-zhihu",
+        "title": {
+          "en": "Zhihu",
+          "zh": "知乎"
+        },
+        "description": {
+          "en": "Zhihu search, agent tools, knowledge bases, and usage tracking.",
+          "zh": "知乎搜索、智能体工具、知识库和用量统计。"
+        },
+        "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/zhihu/",
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-zhihu"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-plugins",
+            "deepseek-harness",
+            "zhihu",
+            "zhihu-search",
+            "knowledge-base",
+            "web-search"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iemJ1YmJsZSIgeDE9IjYiIHkxPSI2IiB4Mj0iMzAiIHkyPSIyOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNEQ3NUY1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzhFQjZGRiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy42IDMuNikgc2NhbGUoLjgpIj4KICA8cGF0aCBkPSJNNiA5QzYgNy4zIDcuMyA2IDkgNkgyN0MyOC43IDYgMzAgNy4zIDMwIDlWMjFDMzAgMjIuNyAyOC43IDI0IDI3IDI0SDIwTDEzIDMwVjI0SDlDNy4zIDI0IDYgMjIuNyA2IDIxVjlaIiBmaWxsPSJ1cmwoI3pidWJibGUpIi8+CiAgPHBhdGggZD0iTTExIDEySDI1TTExIDEyVjE5TTI1IDEyVjE5TTExIDE5SDI1TTE4IDEyVjE5IiBzdHJva2U9IiNFMEVCRkYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iMTQuNSIgY3k9IjE1LjUiIHI9IjEuNCIgZmlsbD0iIzY1REVEMCIvPgogIDxjaXJjbGUgY3g9IjIxLjUiIGN5PSIxNS41IiByPSIxLjQiIGZpbGw9IiM2NURFRDAiLz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152556,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6f02118278a4271c9c5f14c0183b7a4916f32340df180aab886f76bcdd039e27",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-zhihu",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-zhihu/-/dsh-zhihu-0.2.5.tgz",
+          "integrity": "sha512-1Wr95EcG3dOH4biNch9oJyrsxxmlfLZKPI/boCOm0FyqdN8nmBOijW/GPDRStoTqq5qaVtjvEwQKsAg9JLVV4A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-chatgpt",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-chatgpt",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-chatgpt",
+        "title": {
+          "en": "ChatGPT",
+          "zh": "ChatGPT"
+        },
+        "description": {
+          "en": "Use ChatGPT web search, image generation, editing, and image analysis through local Codex.",
+          "zh": "借助本机 Codex 使用 ChatGPT 网络搜索、生图、改图和图片分析。"
+        },
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-chatgpt"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3QgeD0iOCIgeT0iOCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQyIiByeD0iMTIiIGZpbGw9IiMxNjc3NmQiLz48cGF0aCBkPSJNMTkgNTB2OGwxMi04TTIyIDI0aDIwTTIyIDM0aDE0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792152464,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "963a24b2e670f1c9391f6ef661d90e875298e63cab26c5e2f0ef306934f8be70",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-chatgpt",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-chatgpt/-/dsh-chatgpt-0.1.3.tgz",
+          "integrity": "sha512-dlVFt/T5VXqewP7M6tQG2/BR3ZA4bUAyR2OFE48h3t5aHtjAejOylXfEegyEyFr1WnpplhgPDHIq39ZCfRj83Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-grok-build",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-grok-build",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-grok-build",
+        "title": {
+          "en": "Grok Build",
+          "zh": "Grok Build"
+        },
+        "description": {
+          "en": "Search the web and create images and videos with the local Grok Build CLI.",
+          "zh": "通过本机 Grok Build 搜索网页、生成和编辑图片、生成视频。"
+        },
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-grok-build"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTYiIGZpbGw9IiMxNzI4MzkiLz48cGF0aCBkPSJNNDMgMjJhMTYgMTYgMCAxIDAgNCAxN0gzMnYtOGgyM3Y0QTI0IDI0IDAgMSAxIDQ3IDE2eiIgZmlsbD0iI2RmZWVmNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNSA3KSBzY2FsZSguNzgpIi8+PHBhdGggZD0ibTQxIDE2IDggNC05IDEwIiBmaWxsPSJub25lIiBzdHJva2U9IiM3MGM0ZTgiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792152681,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "53ee1afcb17baddfca7496e8dd430f4c562f79632c397cbcad6cb0567e8ee602",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-grok-build",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-grok-build/-/dsh-grok-build-0.1.3.tgz",
+          "integrity": "sha512-mWWb6S4iVwdEWM75h1U3GzykwK1KaQUaLXv6gupanWxqBHU1CSqfqND/uH/E3FISX0RE0LTjV0Zt116UYjMaNg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-minimax-code",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-minimax-code",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-minimax-code",
+        "title": {
+          "en": "MiniMax Code",
+          "zh": "MiniMax Code"
+        },
+        "description": {
+          "en": "Search, create images, video and speech, and understand audio and video through MiniMax Code.",
+          "zh": "通过 MiniMax Code 搜索资料、生成图片视频和配音、转写及理解音视频。"
+        },
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-minimax-code"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTYiIGZpbGw9IiMyNDMxNDIiLz48cGF0aCBkPSJNMTYgNDRWMjFsMTYgMTQgMTYtMTR2MjMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U2ZWRmMyIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48Y2lyY2xlIGN4PSIzMiIgY3k9IjE5IiByPSI0IiBmaWxsPSIjZWFhYjc3Ii8+PC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792152539,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2f3ace708545b84def69011b2812917546bbcfa35d539f73e1fb582f2cba0f6b",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-minimax-code",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-minimax-code/-/dsh-minimax-code-0.1.3.tgz",
+          "integrity": "sha512-C8X6a19ntv04hYiETNmehunBIFJTkjUqJkadMIF2CE6//rQ8XRR1Pj001r+X23zyXE8Djw98cJbOXXDPJy7wKA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-font",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-font",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-font",
+        "title": {
+          "en": "Font",
+          "zh": "字体"
+        },
+        "description": {
+          "en": "Customize the interface font, code font, and conversation font size of the Web GUI.",
+          "zh": "自定义 Web GUI 的界面字体、代码字体与会话字号。"
+        },
+        "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/font/",
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-font"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-plugins",
+            "deepseek-harness",
+            "font",
+            "font-family",
+            "font-size",
+            "theme"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ2x5cGgiIHgxPSI4IiB5MT0iOCIgeDI9IjI4IiB5Mj0iMjgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzRENzVGNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4RUI2RkYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMuNiAzLjYpIHNjYWxlKC44KSI+CiAgPHBhdGggZD0iTTkgOEgyN1YxMi41SDI0LjVWMTFIMTkuNVYyNkgyMlYyOC41SDE0VjI2SDE2LjVWMTFIMTEuNVYxMi41SDlWOFoiIGZpbGw9InVybCgjZ2x5cGgpIi8+CiAgPHBhdGggZD0iTTYgMzBIMzAiIHN0cm9rZT0iIzM5QUJBOSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792152914,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8a89cb413f488b14ea8935fe143ee6b5c91df75a801790380690b00c943027bb",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-font",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-font/-/dsh-font-0.1.3.tgz",
+          "integrity": "sha512-hxAzCDoEtgjpqvgz37H2c0QqgK7um7qON2sBIm2tUnE3873DnhWLG4c5sONPTbvzzvSJgzE2W0kTlqkriKHVnQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@klarkxy/dsh-unrestricted",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-unrestricted",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-unrestricted",
+        "title": {
+          "en": "Unrestricted",
+          "zh": "破限"
+        },
+        "description": {
+          "en": "A session preset that delivers complete results; every other session stays untouched.",
+          "zh": "直接交付完整成果的会话 Preset；其他会话保持原样。"
+        },
+        "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/unrestricted/",
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-unrestricted"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-preset",
+            "unrestricted"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYm9keSIgeDE9IjgiIHkxPSIxNyIgeDI9IjI4IiB5Mj0iMzIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzRENzVGNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4RUI2RkYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxwYXRoIGQ9Ik0xMy41IDE3LjVWMTNhNi41IDYuNSAwIDAgMSAxMi4zLTIuNiIgc3Ryb2tlPSIjNjJEQUQxIiBzdHJva2Utd2lkdGg9IjMuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBmaWxsPSJub25lIi8+CiAgPHJlY3QgeD0iOCIgeT0iMTciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgcng9IjMuNSIgZmlsbD0idXJsKCNib2R5KSIvPgogIDxjaXJjbGUgY3g9IjE4IiBjeT0iMjMuNSIgcj0iMi43IiBmaWxsPSIjQ0VFNEZGIi8+CiAgPHJlY3QgeD0iMTYuOSIgeT0iMjQuNiIgd2lkdGg9IjIuMiIgaGVpZ2h0PSI0LjIiIHJ4PSIxLjEiIGZpbGw9IiNDRUU0RkYiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1791982898,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5cf2c93b48bdf56f8e0bd5a3f593bfdf50389463e22624d98ab0a5e0714f3bdf",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-unrestricted",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-unrestricted/-/dsh-unrestricted-0.1.2.tgz",
+          "integrity": "sha512-qHtBA/ZbKFMAXVSXXI+Ram3A47b4R8K4kwe7uMQtpen2R+DINVvlhjbYU8h8afnhe487Rswsg7DUp3SKJAmW1g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/klarkxy/dsh-plugins#path:/plugins/dsh-dev-index",
+      "origin": "git_target",
+      "name": "@klarkxy/dsh-dev-index",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-dev-index",
+        "title": {
+          "en": "DSH Docs",
+          "zh": "DSH 文档"
+        },
+        "description": {
+          "en": "Read official DSH docs in the Plugins page; Creator mode searches docs and checks plugins on npm and GitHub with native tools.",
+          "zh": "在插件页读 DSH 官方文档；创造模式用原生工具查文档，查核 npm 与 GitHub 上的插件。"
+        },
+        "author": "klarkxy",
+        "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/dev-index/",
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-dev-index"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh-plugins",
+            "dsh-dev-index",
+            "creator-mode"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icGFnZXMiIHgxPSI4IiB5MT0iNyIgeDI9IjI3IiB5Mj0iMjkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzc5QUJGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0ODY4RUYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMuNiAzLjYpIHNjYWxlKC44KSI+CiAgPHJlY3QgeD0iOSIgeT0iOSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIxIiByeD0iMyIgZmlsbD0iIzI4NkU5OSIvPgogIDxyZWN0IHg9IjYiIHk9IjYiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMiIgcng9IjMiIGZpbGw9InVybCgjcGFnZXMpIi8+CiAgPHBhdGggZD0iTTEwIDdWMjciIHN0cm9rZT0iI0I4RDdGRiIgc3Ryb2tlLW9wYWNpdHk9Ii41IiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDxwYXRoIGQ9Ik0xOSA2SDIzVjE2TDIxIDE0LjVMMTkgMTZWNloiIGZpbGw9IiM2NURFRDAiLz4KICA8cGF0aCBkPSJNMTQgMTlIMjFNMTQgMjNIMTkiIHN0cm9rZT0iI0UwRUJGRiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/klarkxy/dsh-plugins",
+              "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+              "path": "plugins/dsh-dev-index"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "plugins/dsh-dev-index",
+          "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+          "name": "@klarkxy/dsh-dev-index",
+          "version": "0.2.5",
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "manifestSha256": "14c32c7a511305cbb20d26becf904233728e1e954956e27e6d9e700eda75e84a",
+          "publishTimestamp": 1792152931
+        }
+      ]
+    },
+    {
+      "target": "@klarkxy/dsh-dev-index",
+      "origin": "npm",
+      "name": "@klarkxy/dsh-dev-index",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@klarkxy/dsh-dev-index",
+        "title": {
+          "en": "DSH Docs",
+          "zh": "DSH 文档"
+        },
+        "description": {
+          "en": "Read official DSH docs in the Plugins page; Creator mode searches docs and checks plugins on npm and GitHub with native tools.",
+          "zh": "在插件页读 DSH 官方文档；创造模式用原生工具查文档，查核 npm 与 GitHub 上的插件。"
+        },
+        "author": "klarkxy",
+        "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/dev-index/",
+        "repository": {
+          "url": "https://github.com/klarkxy/dsh-plugins",
+          "directory": "plugins/dsh-dev-index"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh-plugins",
+            "dsh-dev-index",
+            "creator-mode"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icGFnZXMiIHgxPSI4IiB5MT0iNyIgeDI9IjI3IiB5Mj0iMjkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzc5QUJGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0ODY4RUYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMuNiAzLjYpIHNjYWxlKC44KSI+CiAgPHJlY3QgeD0iOSIgeT0iOSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIxIiByeD0iMyIgZmlsbD0iIzI4NkU5OSIvPgogIDxyZWN0IHg9IjYiIHk9IjYiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMiIgcng9IjMiIGZpbGw9InVybCgjcGFnZXMpIi8+CiAgPHBhdGggZD0iTTEwIDdWMjciIHN0cm9rZT0iI0I4RDdGRiIgc3Ryb2tlLW9wYWNpdHk9Ii41IiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDxwYXRoIGQ9Ik0xOSA2SDIzVjE2TDIxIDE0LjVMMTkgMTZWNloiIGZpbGw9IiM2NURFRDAiLz4KICA8cGF0aCBkPSJNMTQgMTlIMjFNMTQgMjNIMTkiIHN0cm9rZT0iI0UwRUJGRiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1792152515,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6db2830752950f4e2a0c227f74068c5b9d6a7e40051db7397fe07634aa2edb5d",
+      "evidence": [
+        {
+          "name": "@klarkxy/dsh-dev-index",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/@klarkxy/dsh-dev-index/-/dsh-dev-index-0.2.5.tgz",
+          "integrity": "sha512-tuDP3XBzw1xgoBuX0dlhL2oGJGSN5wg3MXLaMYmrk73npP5ckz/PR+2hAPIC4a7MfShsm0yjUJp6fYGGygox7w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-current-title",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-git-commit",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-safe-auto",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-session-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-model-hub",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-web-search-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-zhihu",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-chatgpt",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-grok-build",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-minimax-code",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-font",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-unrestricted",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/klarkxy/dsh-plugins#path:/plugins/dsh-dev-index",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@klarkxy/dsh-dev-index",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/klarkxy/dsh-plugins",
+    "commit": "6f750489705ef82acac4ea0dc55a6e570538c07d",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:37.244Z"
+}

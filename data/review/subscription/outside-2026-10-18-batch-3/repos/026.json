@@ -1,0 +1,146 @@
+{
+  "full_name": "kunjinkao-os/dsh-mobile-gui-agent",
+  "originalPosition": 26,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 26,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:41.649Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f4d14f882b7789375b4ed4f0c2c67e422340c2db807b8406145ac07224b7075",
+      "url": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent/blob/8083e27f877a4b6290bb34a65586200750151ce1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent#v0.2.1",
+          "command": "dsh plugin --profile web add github:kunjinkao-os/dsh-mobile-gui-agent#v0.2.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.zh.md",
+      "sha256": "94b7d0ac1d7ae82a679c7698b3ce95108db48ec7fbe166639cf038c2d25c5052",
+      "url": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent/blob/8083e27f877a4b6290bb34a65586200750151ce1/docs/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent#v0.2.1",
+          "command": "dsh plugin --profile web add github:kunjinkao-os/dsh-mobile-gui-agent#v0.2.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mobile-gui-agent",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent",
+        "commit": "8083e27f877a4b6290bb34a65586200750151ce1"
+      },
+      "manifestSha256": "b876897b5f8cd6a7596a06bfc2cffb46fbd89c0f18c5e86117d3af7b9de477e7",
+      "manifestUrl": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent/blob/8083e27f877a4b6290bb34a65586200750151ce1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-mobile-gui-agent",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787214654,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent",
+              "commit": "8083e27f877a4b6290bb34a65586200750151ce1"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent#v0.2.1",
+      "origin": "git_target",
+      "name": "dsh-mobile-gui-agent",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mobile-gui-agent",
+        "title": "dsh-mobile-gui-agent",
+        "description": "Android Mobile GUI Agent plugin for DeepSeek Harness with ADB control, verified iterative actions, approval, and a Web mobile view",
+        "homepage": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent#readme",
+        "repository": {
+          "url": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "android",
+            "adb",
+            "gui-agent",
+            "mobile-automation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787213832,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent",
+              "commit": "7a77944755263b12caa1a0be48c0e6403340b96b"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "7a77944755263b12caa1a0be48c0e6403340b96b",
+          "name": "dsh-mobile-gui-agent",
+          "version": "0.2.1",
+          "url": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent",
+          "manifestSha256": "b876897b5f8cd6a7596a06bfc2cffb46fbd89c0f18c5e86117d3af7b9de477e7",
+          "publishTimestamp": 1787213832
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent#v0.2.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent",
+    "commit": "8083e27f877a4b6290bb34a65586200750151ce1",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:53.838Z"
+}

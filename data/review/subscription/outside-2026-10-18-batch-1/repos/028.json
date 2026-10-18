@@ -1,0 +1,161 @@
+{
+  "full_name": "niiang/dsh-kimino-theme",
+  "originalPosition": 28,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 28,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:20.674Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7cb411656151b653761f638fc0333222f7ecbfad7cbae98d50dfc248c179ee3a",
+      "url": "https://github.com/niiang/dsh-kimino-theme/blob/d7d597404b6994c6f2e9880c3a094eb05d7d7adc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-kimino-theme",
+          "command": "dsh plugin --profile web add dsh-kimino-theme",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/niiang/dsh-kimino-theme",
+          "command": "dsh plugin --profile web add github:niiang/dsh-kimino-theme",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b1a02ced866ec0cb530b7f2195ec8ad6080531b2a5804c63ff6074a1ac114d10",
+      "url": "https://github.com/niiang/dsh-kimino-theme/blob/d7d597404b6994c6f2e9880c3a094eb05d7d7adc/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-kimino-theme",
+          "command": "dsh plugin --profile web add dsh-kimino-theme",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/niiang/dsh-kimino-theme",
+          "command": "dsh plugin --profile web add github:niiang/dsh-kimino-theme",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-kimino-theme",
+      "version": "68.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/niiang/dsh-kimino-theme",
+        "commit": "d7d597404b6994c6f2e9880c3a094eb05d7d7adc"
+      },
+      "manifestSha256": "8008ea92aa924c6a9ead14a91b1504b112594c93c4ce493d7fb697a48b7187b1",
+      "manifestUrl": "https://github.com/niiang/dsh-kimino-theme/blob/d7d597404b6994c6f2e9880c3a094eb05d7d7adc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-kimino-theme",
+        "versions": [
+          {
+            "version": "68.1.0",
+            "publishTimestamp": 1792215442,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/niiang/dsh-kimino-theme",
+              "commit": "d7d597404b6994c6f2e9880c3a094eb05d7d7adc"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-kimino-theme",
+      "origin": "npm",
+      "name": "dsh-kimino-theme",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-kimino-theme",
+        "title": "dsh-kimino-theme",
+        "description": "Kimi no Na wa (Your Name) theme for DeepSeek Harness Web GUI — dynamic Cordis plugin source (host + client halves) plus an installable dsh bundle, with wallpaper/logo assets",
+        "author": "niiang",
+        "homepage": "https://github.com/niiang/dsh-kimino-theme#readme",
+        "repository": {
+          "url": "https://github.com/niiang/dsh-kimino-theme"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "theme",
+            "your-name",
+            "kimi-no-na-wa"
+          ]
+        },
+        "versions": [
+          {
+            "version": "68.1.0",
+            "publishTimestamp": 1791250541,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "05ddf18cfbd9ed39f6cae97e957edbd3e6e42c3da2986606a422031ed38258ef",
+      "evidence": [
+        {
+          "name": "dsh-kimino-theme",
+          "version": "68.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-kimino-theme/-/dsh-kimino-theme-68.1.0.tgz",
+          "integrity": "sha512-NSql8lxpl3+pC/jn26RsGGSf4+2oEMTogMtV0coVKuTGCt9GZCphGno0G+w0SEg/oXi793l8H24A/fuoH+j5uw=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-kimino-theme",
+          "code": "metadata_warning",
+          "status": "warning",
+          "reason": "package.json repository.directory \".\" is not a relative directory; it is omitted"
+        }
+      ],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-kimino-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/niiang/dsh-kimino-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/niiang/dsh-kimino-theme",
+    "commit": "d7d597404b6994c6f2e9880c3a094eb05d7d7adc",
+    "releaseTags": 17,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:35.736Z"
+}

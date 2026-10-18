@@ -1,0 +1,161 @@
+{
+  "full_name": "dushaobindoudou/dsh-acp",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:23.188Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3e272af99ea7fa4b32cd10d2537250ef91a080cf25ba9b607126b13eb3604732",
+      "url": "https://github.com/dushaobindoudou/dsh-acp/blob/44511216c30df99c5ab573edffca3a676f1cad24/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dushaobindoudou/dsh-acp",
+          "command": "dsh plugin --profile acp add github:dushaobindoudou/dsh-acp",
+          "profile": "acp"
+        },
+        {
+          "install": "dsh-acp-server",
+          "command": "dsh plugin --profile acp add dsh-acp-server",
+          "profile": "acp"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "222c819a23925389942f45143bd7990122d1e4298cf24d8364cb5e540376aa8e",
+      "url": "https://github.com/dushaobindoudou/dsh-acp/blob/44511216c30df99c5ab573edffca3a676f1cad24/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dushaobindoudou/dsh-acp",
+          "command": "dsh plugin --profile acp add github:dushaobindoudou/dsh-acp",
+          "profile": "acp"
+        },
+        {
+          "install": "dsh-acp-server",
+          "command": "dsh plugin --profile acp add dsh-acp-server",
+          "profile": "acp"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-acp-server",
+      "version": "0.14.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dushaobindoudou/dsh-acp",
+        "commit": "44511216c30df99c5ab573edffca3a676f1cad24"
+      },
+      "manifestSha256": "b7e110e94cff0ca424d5707d95885e73babbae2628b453cf224f1f9a6fa53170",
+      "manifestUrl": "https://github.com/dushaobindoudou/dsh-acp/blob/44511216c30df99c5ab573edffca3a676f1cad24/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-acp-server",
+        "versions": [
+          {
+            "version": "0.14.2",
+            "publishTimestamp": 1791965118,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dushaobindoudou/dsh-acp",
+              "commit": "44511216c30df99c5ab573edffca3a676f1cad24"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-acp-server",
+      "origin": "npm",
+      "name": "dsh-acp-server",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-acp-server",
+        "title": {
+          "en": "ACP Server",
+          "zh": "ACP 服务"
+        },
+        "description": {
+          "en": "Drive dsh agents over the Agent Client Protocol from Zed and any ACP client",
+          "zh": "通过 Agent Client Protocol 让 Zed 等外部客户端驱动 dsh 代理"
+        },
+        "homepage": "https://github.com/dushaobindoudou/dsh-acp#readme",
+        "repository": {
+          "url": "https://github.com/dushaobindoudou/dsh-acp"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-client-protocol",
+            "acp",
+            "zed",
+            "coding-agent",
+            "cordis-plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI1IiB5PSIxNCIgd2lkdGg9IjExIiBoZWlnaHQ9IjgiIHJ4PSIzIiBmaWxsPSJ1cmwoI2FjcF9sKSIgLz4KICA8cmVjdCB4PSIyMCIgeT0iMTQiIHdpZHRoPSIxMSIgaGVpZ2h0PSI4IiByeD0iMyIgZmlsbD0idXJsKCNhY3BfcikiIC8+CiAgPHBhdGggZD0iTTE2IDE4aDQiIHN0cm9rZT0iI0YyQUY2MyIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgLz4KICA8cGF0aCBkPSJNOC42IDE0di0yLjRhMy42IDMuNiAwIDAgMSAzLjYtMy42aDExLjZhMy42IDMuNiAwIDAgMSAzLjYgMy42VjE0IiBzdHJva2U9IiM2N0M3RkUiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIC8+CiAgPHBhdGggZD0iTTEwLjUgMjJ2My42YTMuNiAzLjYgMCAwIDAgMy42IDMuNmg3LjhhMy42IDMuNiAwIDAgMCAzLjYtMy42VjIyIiBzdHJva2U9IiMzRjc3RDgiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIC8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImFjcF9sIiB4MT0iNSIgeTE9IjE0IiB4Mj0iMTYiIHkyPSIyMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNjdDN0ZFIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzRjc3RDgiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJhY3BfciIgeDE9IjIwIiB5MT0iMTQiIHgyPSIzMSIgeTI9IjIyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM0NUQ5RTciIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzNGNzdEOCIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.14.2",
+            "publishTimestamp": 1791965372,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ead89be437332ea058fc3351ada75510b971f8febc62468139bcb3082f06d6da",
+      "evidence": [
+        {
+          "name": "dsh-acp-server",
+          "version": "0.14.2",
+          "tarball": "https://registry.npmjs.org/dsh-acp-server/-/dsh-acp-server-0.14.2.tgz",
+          "integrity": "sha512-HLlcJb9GVLAEvX3IHX/XA7Tj6CnpyWA/WIT+763XD7cPwNmxcgqBGRAzAn1GrlAmrLxdsNrl/YWZQtTv6W6Gdw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/dushaobindoudou/dsh-acp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-acp-server",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dushaobindoudou/dsh-acp",
+    "commit": "44511216c30df99c5ab573edffca3a676f1cad24",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:29.020Z"
+}

@@ -1,0 +1,68 @@
+{
+  "full_name": "pengpengyi92/dsh-quant",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:49.823Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "89f75076416ff1a21a9276ab4417687ba8e2a4fd04cffab4266d6870e7d18791",
+      "url": "https://github.com/pengpengyi92/dsh-quant/blob/29401154b45d5620e052276b60fb5d0279226a75/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-quant",
+      "version": "0.91.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/pengpengyi92/dsh-quant",
+        "commit": "29401154b45d5620e052276b60fb5d0279226a75"
+      },
+      "manifestSha256": "4a633ff2029c7a2a88183e17ca26d2e20a1e3659920c2976ca64886331ca7467",
+      "manifestUrl": "https://github.com/pengpengyi92/dsh-quant/blob/29401154b45d5620e052276b60fb5d0279226a75/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-quant",
+        "versions": [
+          {
+            "version": "0.91.0",
+            "publishTimestamp": 1791051682,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/pengpengyi92/dsh-quant",
+              "commit": "29401154b45d5620e052276b60fb5d0279226a75"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pengpengyi92/dsh-quant",
+    "commit": "29401154b45d5620e052276b60fb5d0279226a75",
+    "releaseTags": 113,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:14:55.560Z"
+}

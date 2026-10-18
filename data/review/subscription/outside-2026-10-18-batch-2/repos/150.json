@@ -1,0 +1,91 @@
+{
+  "full_name": "MJorgin/dsh-agent-conductor",
+  "originalPosition": 150,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 150,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:33.329Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4dab541a55a5bb7742e91727d7d59fc419130e51efff7c9636e3f2e75bb40da8",
+      "url": "https://github.com/MJorgin/dsh-agent-conductor/blob/0637ab03f26446795c548d81f858707936e4af6e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MJorgin/dsh-agent-conductor",
+          "command": "dsh plugin --profile web add github:MJorgin/dsh-agent-conductor",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/lang/README_ZH.md",
+      "sha256": "b25389806a6582357245152057c95ba6a8ed841974b5e9ce70e5df08aa1c98ac",
+      "url": "https://github.com/MJorgin/dsh-agent-conductor/blob/0637ab03f26446795c548d81f858707936e4af6e/docs/lang/README_ZH.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MJorgin/dsh-agent-conductor",
+          "command": "dsh plugin --profile web add github:MJorgin/dsh-agent-conductor",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agent-conductor",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MJorgin/dsh-agent-conductor",
+        "commit": "0637ab03f26446795c548d81f858707936e4af6e"
+      },
+      "manifestSha256": "f8c00d08f13d8592da55db41b6cbad57ae58e0c9b8cb53d862480e3196a0eb9c",
+      "manifestUrl": "https://github.com/MJorgin/dsh-agent-conductor/blob/0637ab03f26446795c548d81f858707936e4af6e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-agent-conductor",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1790736159,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MJorgin/dsh-agent-conductor",
+              "commit": "0637ab03f26446795c548d81f858707936e4af6e"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/MJorgin/dsh-agent-conductor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MJorgin/dsh-agent-conductor",
+    "commit": "0637ab03f26446795c548d81f858707936e4af6e",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:37.742Z"
+}

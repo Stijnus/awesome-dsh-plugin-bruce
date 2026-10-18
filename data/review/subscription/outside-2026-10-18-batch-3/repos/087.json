@@ -1,0 +1,94 @@
+{
+  "full_name": "lincong1987/dsh-model-switch",
+  "originalPosition": 87,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 87,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:06.364Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7d0fb725c5b022e4089e99257fcacfd944f56215aeb568962c80d569c4dbbe87",
+      "url": "https://github.com/lincong1987/dsh-model-switch/blob/388de8a36cb3f6514a161e9e9dcc45ca04cd3a08/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lincong1987/dsh-model-switch",
+          "command": "dsh plugin --profile web add github:lincong1987/dsh-model-switch",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8757dc9555667f2391a5ad5b87c3ce90de7e4ab4dd87f9161376e8a2a304e4a7",
+      "url": "https://github.com/lincong1987/dsh-model-switch/blob/388de8a36cb3f6514a161e9e9dcc45ca04cd3a08/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lincong1987/dsh-model-switch",
+          "command": "dsh plugin --profile web add github:lincong1987/dsh-model-switch",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-model-switch",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lincong1987/dsh-model-switch",
+        "commit": "388de8a36cb3f6514a161e9e9dcc45ca04cd3a08"
+      },
+      "manifestSha256": "1f478cd12b778c62f3b42a5ca773c32b2442f22aeab83a5391e0b5109f869bba",
+      "manifestUrl": "https://github.com/lincong1987/dsh-model-switch/blob/388de8a36cb3f6514a161e9e9dcc45ca04cd3a08/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-model-switch",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1789055487,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lincong1987/dsh-model-switch",
+              "commit": "388de8a36cb3f6514a161e9e9dcc45ca04cd3a08"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lincong1987/dsh-model-switch",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lincong1987/dsh-model-switch",
+    "commit": "388de8a36cb3f6514a161e9e9dcc45ca04cd3a08",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:12.460Z"
+}

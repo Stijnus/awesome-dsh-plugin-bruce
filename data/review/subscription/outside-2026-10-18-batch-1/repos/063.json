@@ -1,0 +1,140 @@
+{
+  "full_name": "bill9109/dsh-web-ui-notify",
+  "originalPosition": 63,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 63,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:03.711Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7079e0ae33a4800ed0a95b792bc515e65f21b426a54c3833883724e809ddad6c",
+      "url": "https://github.com/bill9109/dsh-web-ui-notify/blob/9130800a2553e3a64937e426ea4a5346d3f99a88/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-web-ui-notify",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-web-ui-notify",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c846d90e3caa7b6a8301eb97054c14339da25af9005ee230a621a96d19fe7cf0",
+      "url": "https://github.com/bill9109/dsh-web-ui-notify/blob/9130800a2553e3a64937e426ea4a5346d3f99a88/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-web-ui-notify",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-web-ui-notify",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-ui-notify",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bill9109/dsh-web-ui-notify",
+        "commit": "9130800a2553e3a64937e426ea4a5346d3f99a88"
+      },
+      "manifestSha256": "2aaaedb2a99c0e4070d4c334657e90c6833fc04ac20a1abdcce6018f569728fa",
+      "manifestUrl": "https://github.com/bill9109/dsh-web-ui-notify/blob/9130800a2553e3a64937e426ea4a5346d3f99a88/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-web-ui-notify",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1792248325,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bill9109/dsh-web-ui-notify",
+              "commit": "9130800a2553e3a64937e426ea4a5346d3f99a88"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/omdsh-dev/dsh-web-ui-notify",
+      "origin": "git_target",
+      "name": "dsh-web-ui-notify",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-web-ui-notify",
+        "title": "dsh-web-ui-notify",
+        "description": "Desktop notifications for DeepSeek Harness approvals, questions, and turn completion — so neither DSH nor you end up waiting while you browse another tab.",
+        "homepage": "https://github.com/omdsh-dev/dsh-web-ui-notify#readme",
+        "repository": {
+          "url": "https://github.com/omdsh-dev/dsh-web-ui-notify"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh-bundle",
+            "web-ui",
+            "desktop-notification",
+            "approval",
+            "notify"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1792248325,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/omdsh-dev/dsh-web-ui-notify",
+              "commit": "9130800a2553e3a64937e426ea4a5346d3f99a88"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "9130800a2553e3a64937e426ea4a5346d3f99a88",
+          "name": "dsh-web-ui-notify",
+          "version": "0.1.7",
+          "url": "https://github.com/omdsh-dev/dsh-web-ui-notify",
+          "manifestSha256": "2aaaedb2a99c0e4070d4c334657e90c6833fc04ac20a1abdcce6018f569728fa",
+          "publishTimestamp": 1792248325
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/omdsh-dev/dsh-web-ui-notify",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bill9109/dsh-web-ui-notify",
+    "commit": "9130800a2553e3a64937e426ea4a5346d3f99a88",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:13.154Z"
+}

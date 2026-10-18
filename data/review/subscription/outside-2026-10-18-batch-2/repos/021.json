@@ -1,0 +1,130 @@
+{
+  "full_name": "133563825as-ai/dsh-api-dashboard",
+  "originalPosition": 21,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:30.323Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d9d8425e98ebab29137078a5809111b2d8a0fd18c2facd456fd48f9aef1d1d6c",
+      "url": "https://github.com/133563825as-ai/dsh-api-dashboard/blob/b57f9535c55aa39026931813e09834fa9f4f4d82/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-api-dashboard",
+          "command": "dsh plugin --profile web add dsh-api-dashboard",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-api-dashboard",
+      "version": "1.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/133563825as-ai/dsh-api-dashboard",
+        "commit": "b57f9535c55aa39026931813e09834fa9f4f4d82"
+      },
+      "manifestSha256": "ccd7d9877137c1faf4f741729ac79d87a8f9d0b6cd5a87bb850b0d297e39ec1b",
+      "manifestUrl": "https://github.com/133563825as-ai/dsh-api-dashboard/blob/b57f9535c55aa39026931813e09834fa9f4f4d82/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-api-dashboard",
+        "versions": [
+          {
+            "version": "1.7.0",
+            "publishTimestamp": 1791610913,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/133563825as-ai/dsh-api-dashboard",
+              "commit": "b57f9535c55aa39026931813e09834fa9f4f4d82"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-api-dashboard",
+      "origin": "npm",
+      "name": "dsh-api-dashboard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-api-dashboard",
+        "title": "dsh-api-dashboard",
+        "description": "DeepSeek Harness 多平台 API 余额 / 用量看板：输入框下方实时显示各平台余额与本会话估算消耗",
+        "homepage": "https://github.com/133563825as-ai/dsh-api-dashboard#readme",
+        "repository": {
+          "url": "https://github.com/133563825as-ai/dsh-api-dashboard"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "balance",
+            "dashboard",
+            "api-balance"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.7.0",
+            "publishTimestamp": 1791611720,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "00c82963f085a347b8e3e381d6ee46971387efd99074d4e91579db177afba9b0",
+      "evidence": [
+        {
+          "name": "dsh-api-dashboard",
+          "version": "1.7.0",
+          "tarball": "https://registry.npmjs.org/dsh-api-dashboard/-/dsh-api-dashboard-1.7.0.tgz",
+          "integrity": "sha512-3CenzXY1ap30Q/MF8rlFqrNiO43/qU7HcyS5h1IZlkGfnTHT8LkoMJvu4q7FHwUXMNeEwGI4jP/+FBK4lHuhNw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-api-dashboard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/133563825as-ai/dsh-api-dashboard",
+    "commit": "b57f9535c55aa39026931813e09834fa9f4f4d82",
+    "releaseTags": 24,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:38.699Z"
+}

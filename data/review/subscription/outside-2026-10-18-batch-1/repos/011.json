@@ -1,0 +1,158 @@
+{
+  "full_name": "youbaiyun/dsh-browser-crossplatform",
+  "originalPosition": 11,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 11,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:50.249Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a0b4e44712d691c2bd86355a08a02899b2eaeb570d12dd7b3f6d2d191326eeed",
+      "url": "https://github.com/youbaiyun/dsh-browser-crossplatform/blob/4c4e32d9a845652bad6735ba9191b666725b1c8a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-browser-crossplatform",
+          "command": "dsh plugin --profile desktop add dsh-browser-crossplatform",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c07298602d2a89c1b064209cd46bbbc6f47c3a24d3ba4df8efb4a27630df4421",
+      "url": "https://github.com/youbaiyun/dsh-browser-crossplatform/blob/4c4e32d9a845652bad6735ba9191b666725b1c8a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-browser-crossplatform",
+          "command": "dsh plugin --profile desktop add dsh-browser-crossplatform",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-browser-crossplatform",
+      "version": "0.38.7",
+      "path": "packages/bridge",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/youbaiyun/dsh-browser-crossplatform",
+        "commit": "4c4e32d9a845652bad6735ba9191b666725b1c8a",
+        "path": "packages/bridge"
+      },
+      "manifestSha256": "99a596217a758a522915a67d5a4537b9dd859ef1cbd82d4cfe227c0930df9890",
+      "manifestUrl": "https://github.com/youbaiyun/dsh-browser-crossplatform/blob/4c4e32d9a845652bad6735ba9191b666725b1c8a/packages/bridge/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-browser-crossplatform",
+        "versions": [
+          {
+            "version": "0.38.7",
+            "publishTimestamp": 1792252332,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/youbaiyun/dsh-browser-crossplatform",
+              "commit": "4c4e32d9a845652bad6735ba9191b666725b1c8a",
+              "path": "packages/bridge"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-browser-crossplatform",
+      "origin": "npm",
+      "name": "dsh-browser-crossplatform",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-browser-crossplatform",
+        "title": "dsh-browser-crossplatform",
+        "description": "dsh 浏览器扩展（全平台）的桌面端一半：把浏览器扩展连到 dsh，提供 browser_* 工具，并在需要时替你识别页面上的图片。这是它的全部配置项。",
+        "homepage": "https://github.com/youbaiyun/dsh-browser-crossplatform#readme",
+        "repository": {
+          "url": "https://github.com/youbaiyun/dsh-browser-crossplatform",
+          "directory": "packages/bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "deepseek",
+            "browser-extension",
+            "cross-platform",
+            "multiplatform",
+            "windows",
+            "macos",
+            "linux",
+            "side-panel",
+            "ai-agent",
+            "browser-automation",
+            "websocket",
+            "dsh-plugin",
+            "dsh-market",
+            "plugin-manager",
+            "marketplace"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.38.7",
+            "publishTimestamp": 1792252221,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8646d53ff7caa7f84a9e3dc91a6ff55ff46c0527eae6d9672c4a2a1b83d9d1cf",
+      "evidence": [
+        {
+          "name": "dsh-browser-crossplatform",
+          "version": "0.38.7",
+          "tarball": "https://registry.npmjs.org/dsh-browser-crossplatform/-/dsh-browser-crossplatform-0.38.7.tgz",
+          "integrity": "sha512-fepDMOxdrTRCqq87mk+IzesBcKzOFRvkCQb7b19ky9Hg9ibwkRdwnlVvuqXBV47bVgkmi7E6zah8R0Gbh7aTQw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-browser-crossplatform",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/youbaiyun/dsh-browser-crossplatform",
+    "commit": "4c4e32d9a845652bad6735ba9191b666725b1c8a",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:14:55.841Z"
+}

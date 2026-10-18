@@ -1,0 +1,77 @@
+{
+  "full_name": "aceice01/dsh-whale-pet",
+  "originalPosition": 69,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 69,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:46.209Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "134eec91643851428befa7a8daa12657d7f288e10b5df351a4b4099d4700687f",
+      "url": "https://github.com/aceice01/dsh-whale-pet/blob/18fec904ec3b4fd3958b6fb8c2fa9c209679328f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/aceice01/dsh-whale-pet",
+          "command": "dsh plugin --profile web add github:aceice01/dsh-whale-pet",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-pet",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aceice01/dsh-whale-pet",
+        "commit": "18fec904ec3b4fd3958b6fb8c2fa9c209679328f"
+      },
+      "manifestSha256": "999e98f55139763bd8adc89e009eba29111c7a5f498af3909c9af8fe4538a001",
+      "manifestUrl": "https://github.com/aceice01/dsh-whale-pet/blob/18fec904ec3b4fd3958b6fb8c2fa9c209679328f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-whale-pet",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1786779388,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/aceice01/dsh-whale-pet",
+              "commit": "18fec904ec3b4fd3958b6fb8c2fa9c209679328f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/aceice01/dsh-whale-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aceice01/dsh-whale-pet",
+    "commit": "18fec904ec3b4fd3958b6fb8c2fa9c209679328f",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:51.922Z"
+}

@@ -1,0 +1,274 @@
+{
+  "full_name": "YRN-playmaker/dsh-wallpaper_share",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:05.317Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3dca34c92d423dc5c22650e5a197c0792c658c4a2ae35d356218c8138fe3c419",
+      "url": "https://github.com/YRN-playmaker/dsh-wallpaper_share/blob/fc005d16489db2628f175a9e445d711b028ccf0b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/YRN-playmaker/dsh-wallpaper_share",
+          "command": "dsh plugin --profile web add github:YRN-playmaker/dsh-wallpaper_share",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wallpaper_share",
+          "command": "dsh plugin --profile web add dsh-wallpaper_share",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wallpaper_share@desktop",
+          "command": "dsh plugin --profile web add dsh-wallpaper_share@desktop",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wallpaper_share@web",
+          "command": "dsh plugin --profile web add dsh-wallpaper_share@web",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "f330dc772c79c5bc3913c2506e91722325c8a236ebc2e073e46dac47157147cf",
+      "url": "https://github.com/YRN-playmaker/dsh-wallpaper_share/blob/fc005d16489db2628f175a9e445d711b028ccf0b/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/YRN-playmaker/dsh-wallpaper_share",
+          "command": "dsh plugin --profile web add github:YRN-playmaker/dsh-wallpaper_share",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wallpaper_share",
+          "command": "dsh plugin --profile web add dsh-wallpaper_share",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wallpaper_share@desktop",
+          "command": "dsh plugin --profile web add dsh-wallpaper_share@desktop",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wallpaper_share@web",
+          "command": "dsh plugin --profile web add dsh-wallpaper_share@web",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wallpaper_share",
+      "version": "26.10.13-D",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YRN-playmaker/dsh-wallpaper_share",
+        "commit": "fc005d16489db2628f175a9e445d711b028ccf0b"
+      },
+      "manifestSha256": "2076d3bcf32b7db48a5af285b6acb1df0f51ed7d9471d8db7587bbdcd0ee331d",
+      "manifestUrl": "https://github.com/YRN-playmaker/dsh-wallpaper_share/blob/fc005d16489db2628f175a9e445d711b028ccf0b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-wallpaper_share",
+        "versions": [
+          {
+            "version": "26.10.13-D",
+            "publishTimestamp": 1791854764,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YRN-playmaker/dsh-wallpaper_share",
+              "commit": "fc005d16489db2628f175a9e445d711b028ccf0b"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-wallpaper_share",
+      "origin": "npm",
+      "name": "dsh-wallpaper_share",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-wallpaper_share",
+        "title": "dsh-wallpaper_share",
+        "description": "Sync active Wallpaper Engine wallpapers(image/video/scence/app)to DeepSeek Harness Web UI as a customizable dynamic background.",
+        "repository": {
+          "url": "https://github.com/YRN-playmaker/dsh-wallpaper_share"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "wallpaper-engine",
+            "wallpaper",
+            "background",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "26.10.13-D",
+            "publishTimestamp": 1791828105,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b19ffd28e05b42b08e4d034423a354c0f372de3b01ce452d59ac9fe18db5bb6c",
+      "evidence": [
+        {
+          "name": "dsh-wallpaper_share",
+          "version": "26.10.13-D",
+          "tarball": "https://registry.npmjs.org/dsh-wallpaper_share/-/dsh-wallpaper_share-26.10.13-D.tgz",
+          "integrity": "sha512-XdqYHAcgw7SwRi9mzWX3wS1qpFZr3ch5BTJZ7ohEtaLm9vINuvB5ByWjCgpPQhw0DGjRPSPnY8Qu24GOmIwLjg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-wallpaper_share@desktop",
+      "origin": "npm",
+      "name": "dsh-wallpaper_share",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-wallpaper_share",
+        "title": "dsh-wallpaper_share",
+        "description": "Sync active Wallpaper Engine wallpapers(image/video/scence/app)to DeepSeek Harness Web UI as a customizable dynamic background.",
+        "repository": {
+          "url": "https://github.com/YRN-playmaker/dsh-wallpaper_share"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "wallpaper-engine",
+            "wallpaper",
+            "background",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "26.10.13-D",
+            "publishTimestamp": 1791828105,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b19ffd28e05b42b08e4d034423a354c0f372de3b01ce452d59ac9fe18db5bb6c",
+      "evidence": [
+        {
+          "name": "dsh-wallpaper_share",
+          "version": "26.10.13-D",
+          "tarball": "https://registry.npmjs.org/dsh-wallpaper_share/-/dsh-wallpaper_share-26.10.13-D.tgz",
+          "integrity": "sha512-XdqYHAcgw7SwRi9mzWX3wS1qpFZr3ch5BTJZ7ohEtaLm9vINuvB5ByWjCgpPQhw0DGjRPSPnY8Qu24GOmIwLjg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-wallpaper_share@web",
+      "origin": "npm",
+      "name": "dsh-wallpaper_share",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-wallpaper_share",
+        "title": "dsh-wallpaper_share",
+        "description": "Sync active Wallpaper Engine wallpapers(image/video/scence/app)to DeepSeek Harness Web UI as a customizable dynamic background.",
+        "repository": {
+          "url": "https://github.com/YRN-playmaker/dsh-wallpaper_share"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "wallpaper-engine",
+            "wallpaper",
+            "background",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "26.10.3",
+            "publishTimestamp": 1791045225,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b19ffd28e05b42b08e4d034423a354c0f372de3b01ce452d59ac9fe18db5bb6c",
+      "evidence": [
+        {
+          "name": "dsh-wallpaper_share",
+          "version": "26.10.3",
+          "tarball": "https://registry.npmjs.org/dsh-wallpaper_share/-/dsh-wallpaper_share-26.10.3.tgz",
+          "integrity": "sha512-+8/Qlsna3AfPQINlrZnAvv5OEncUmlfFoILDTuSoQynEu+bsoqO8nta3E6OmC5GJv1scFYLQ66xDo54wYrJwoA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/YRN-playmaker/dsh-wallpaper_share",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-wallpaper_share",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-wallpaper_share@desktop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-wallpaper_share@web",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YRN-playmaker/dsh-wallpaper_share",
+    "commit": "fc005d16489db2628f175a9e445d711b028ccf0b",
+    "releaseTags": 13,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:49.795Z"
+}

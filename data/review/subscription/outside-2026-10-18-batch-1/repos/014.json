@@ -1,0 +1,65 @@
+{
+  "full_name": "Ewnscat-ya/dsh-client-ui-skin-denia",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:53.862Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8715a9da0b483451567270b8cb02d6daab4c929c9c7cdf39b5dbbe244fb03622",
+      "url": "https://github.com/Ewnscat-ya/dsh-client-ui-skin-denia/blob/217a5cbb6034917c0176f5bc0c6843855e9a7309/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-client-ui-skin-denia",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ewnscat-ya/dsh-client-ui-skin-denia",
+        "commit": "217a5cbb6034917c0176f5bc0c6843855e9a7309"
+      },
+      "manifestSha256": "23ebaf621824cb170dbe91dfd4af6a6849a49d534f3efb89f4b9026b7d58944b",
+      "manifestUrl": "https://github.com/Ewnscat-ya/dsh-client-ui-skin-denia/blob/217a5cbb6034917c0176f5bc0c6843855e9a7309/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-external/dsh-client-ui-skin-denia",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1791487752,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ewnscat-ya/dsh-client-ui-skin-denia",
+              "commit": "217a5cbb6034917c0176f5bc0c6843855e9a7309"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ewnscat-ya/dsh-client-ui-skin-denia",
+    "commit": "217a5cbb6034917c0176f5bc0c6843855e9a7309",
+    "releaseTags": 7,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:14:59.576Z"
+}

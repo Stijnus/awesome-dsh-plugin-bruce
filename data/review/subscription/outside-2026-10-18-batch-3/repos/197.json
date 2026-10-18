@@ -1,0 +1,168 @@
+{
+  "full_name": "Alm-Allen/dsh-chat-ux",
+  "originalPosition": 197,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 197,
+  "batch": 1,
+  "startedAt": "2026-10-18T02:00:24.755Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "44cc475fff7050401f18f4eca9d37b6d0558162d44cddc6fdb0c2b43d8695509",
+      "url": "https://github.com/Alm-Allen/dsh-chat-ux/blob/64bdd9e28b0b7870ee1f4fa3fe68dbba001baeca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@alm-allen/dsh-chat-ux",
+          "command": "dsh plugin --profile web add @alm-allen/dsh-chat-ux",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Alm-Allen/dsh-chat-ux",
+          "command": "dsh plugin --profile web add github:Alm-Allen/dsh-chat-ux",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b7aedb810c7eb60d891ccc7b27961b5addd339549777bd298ae8254b88c6d21c",
+      "url": "https://github.com/Alm-Allen/dsh-chat-ux/blob/64bdd9e28b0b7870ee1f4fa3fe68dbba001baeca/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@alm-allen/dsh-chat-ux",
+          "command": "dsh plugin --profile web add @alm-allen/dsh-chat-ux",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Alm-Allen/dsh-chat-ux",
+          "command": "dsh plugin --profile web add github:Alm-Allen/dsh-chat-ux",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@alm-allen/dsh-chat-ux",
+      "version": "0.2.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Alm-Allen/dsh-chat-ux",
+        "commit": "64bdd9e28b0b7870ee1f4fa3fe68dbba001baeca"
+      },
+      "manifestSha256": "3bb5b1861af376e6f2ba03a396fb7ab66db3ffc0b5751d370114ecd610e51013",
+      "manifestUrl": "https://github.com/Alm-Allen/dsh-chat-ux/blob/64bdd9e28b0b7870ee1f4fa3fe68dbba001baeca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@alm-allen/dsh-chat-ux",
+        "versions": [
+          {
+            "version": "0.2.8",
+            "publishTimestamp": 1792238600,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Alm-Allen/dsh-chat-ux",
+              "commit": "64bdd9e28b0b7870ee1f4fa3fe68dbba001baeca"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@alm-allen/dsh-chat-ux",
+      "origin": "npm",
+      "name": "@alm-allen/dsh-chat-ux",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@alm-allen/dsh-chat-ux",
+        "title": {
+          "en": "Chat-area UX",
+          "zh": "更优雅的交互体验"
+        },
+        "description": {
+          "en": "Chat-area UX plugin for the DeepSeek Harness (dsh) web GUI.",
+          "zh": "面向 DeepSeek Harness（dsh）Web GUI 聊天区的 UX 优化插件。"
+        },
+        "homepage": "https://github.com/Alm-Allen/dsh-chat-ux#readme",
+        "repository": {
+          "url": "https://github.com/Alm-Allen/dsh-chat-ux"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dsh-chat-ux",
+            "cordis",
+            "deepseek",
+            "chat-ui",
+            "chat-ux",
+            "dsh-web",
+            "web-ui",
+            "plugin",
+            "typescript",
+            "react",
+            "glassmorphism",
+            "ui-animation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.8",
+            "publishTimestamp": 1792238867,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e4aa177d5c5717fe8db82ce15b5e0872ebb6ae17905270479c9329910fa2b424",
+      "evidence": [
+        {
+          "name": "@alm-allen/dsh-chat-ux",
+          "version": "0.2.8",
+          "tarball": "https://registry.npmjs.org/@alm-allen/dsh-chat-ux/-/dsh-chat-ux-0.2.8.tgz",
+          "integrity": "sha512-DOOFkpQWnOfdaVR32EsxiecSz9CZynjCYoxlLh5rU236aUkZIhxw6LJRWRjTRr74iEik4IQkzvSph1bhTW78Jg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@alm-allen/dsh-chat-ux",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Alm-Allen/dsh-chat-ux",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Alm-Allen/dsh-chat-ux",
+    "commit": "64bdd9e28b0b7870ee1f4fa3fe68dbba001baeca",
+    "releaseTags": 6,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T02:00:30.886Z"
+}

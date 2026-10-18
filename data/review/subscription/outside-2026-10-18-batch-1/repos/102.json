@@ -1,0 +1,148 @@
+{
+  "full_name": "yejiming/dsh-museai-tavern",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:13.693Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "af898a214dcb2aed662371a5e53467d7166c93d24c64bd92c62ee1789fef712f",
+      "url": "https://github.com/yejiming/dsh-museai-tavern/blob/caec6f9fc6e608e3c80befed1e81cfa15c9f910a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yejiming/dsh-museai-tavern",
+          "command": "dsh plugin --profile web add @yejiming/dsh-museai-tavern",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/yejiming/dsh-museai-tavern",
+          "command": "dsh plugin --profile web add github:yejiming/dsh-museai-tavern",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "9e6624b4f546ff501744c95466a4fca1c487eea77afca237dddae2b504e1d2e7",
+      "url": "https://github.com/yejiming/dsh-museai-tavern/blob/caec6f9fc6e608e3c80befed1e81cfa15c9f910a/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yejiming/dsh-museai-tavern",
+          "command": "dsh plugin --profile web add @yejiming/dsh-museai-tavern",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/yejiming/dsh-museai-tavern",
+          "command": "dsh plugin --profile web add github:yejiming/dsh-museai-tavern",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yejiming/dsh-museai-tavern",
+      "version": "0.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yejiming/dsh-museai-tavern",
+        "commit": "caec6f9fc6e608e3c80befed1e81cfa15c9f910a"
+      },
+      "manifestSha256": "6712de22ff398d995a6c6066d4c6fc8569c0f81076028b3d828a6d023106cd85",
+      "manifestUrl": "https://github.com/yejiming/dsh-museai-tavern/blob/caec6f9fc6e608e3c80befed1e81cfa15c9f910a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@yejiming/dsh-museai-tavern",
+        "versions": [
+          {
+            "version": "0.0.2",
+            "publishTimestamp": 1790755495,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yejiming/dsh-museai-tavern",
+              "commit": "caec6f9fc6e608e3c80befed1e81cfa15c9f910a"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@yejiming/dsh-museai-tavern",
+      "origin": "npm",
+      "name": "@yejiming/dsh-museai-tavern",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@yejiming/dsh-museai-tavern",
+        "title": "@yejiming/dsh-museai-tavern",
+        "description": "MuseAI tavern for the dsh web GUI: a MuseAI conversation-view tab (right of Trajectory) with background / chat / adventure / bond / settings pages ported from MuseAI, running entirely on models configured in DeepSeek Harness (no separate API config)",
+        "repository": {
+          "url": "https://github.com/yejiming/dsh-museai-tavern"
+        },
+        "versions": [
+          {
+            "version": "0.0.2",
+            "publishTimestamp": 1790755548,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b977a881301cbcbcdca0cd1a30489de0d3efa8fc3a0e55101d31b6fdfd66816f",
+      "evidence": [
+        {
+          "name": "@yejiming/dsh-museai-tavern",
+          "version": "0.0.2",
+          "tarball": "https://registry.npmjs.org/@yejiming/dsh-museai-tavern/-/dsh-museai-tavern-0.0.2.tgz",
+          "integrity": "sha512-QIgAdSKQNd+EByqSM7fYktBwzlpFjr2dcUvEmQJIDdIyRU6WXXP3bXLy6DTW2AsPGG7L1zdO7pUQqQSy5gTytw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@yejiming/dsh-museai-tavern",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yejiming/dsh-museai-tavern",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yejiming/dsh-museai-tavern",
+    "commit": "caec6f9fc6e608e3c80befed1e81cfa15c9f910a",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:26.456Z"
+}

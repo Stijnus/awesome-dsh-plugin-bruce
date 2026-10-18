@@ -1,0 +1,77 @@
+{
+  "full_name": "SakalioLabs/dsh-code-ide",
+  "originalPosition": 63,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 63,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:35.116Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7c124141ff85dfca8aa646e8d7c70a56878d0bfaf24f7cf4311a845b0678d5dd",
+      "url": "https://github.com/SakalioLabs/dsh-code-ide/blob/ce33753295a3f8e269f92cd0037e54cce75ed300/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/SakalioLabs/dsh-code-ide",
+          "command": "dsh plugin --profile web add github:SakalioLabs/dsh-code-ide",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-code-ide",
+      "version": "0.1.0-alpha.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SakalioLabs/dsh-code-ide",
+        "commit": "ce33753295a3f8e269f92cd0037e54cce75ed300"
+      },
+      "manifestSha256": "486e60420d61a00d233996c287da3e78dc39917b9a3e313075340a318cb9ca23",
+      "manifestUrl": "https://github.com/SakalioLabs/dsh-code-ide/blob/ce33753295a3f8e269f92cd0037e54cce75ed300/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-code-ide",
+        "versions": [
+          {
+            "version": "0.1.0-alpha.1",
+            "publishTimestamp": 1788010279,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SakalioLabs/dsh-code-ide",
+              "commit": "ce33753295a3f8e269f92cd0037e54cce75ed300"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/SakalioLabs/dsh-code-ide",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SakalioLabs/dsh-code-ide",
+    "commit": "ce33753295a3f8e269f92cd0037e54cce75ed300",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:40.888Z"
+}

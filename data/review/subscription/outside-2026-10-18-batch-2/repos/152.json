@@ -1,0 +1,128 @@
+{
+  "full_name": "Nono-neko/dsh-browser",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:35.792Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8f16d24524b035a922cc882ea12982230810add4102939217daa17dbf050891c",
+      "url": "https://github.com/Nono-neko/dsh-browser/blob/8cee0e63839eabc59cf331e36c6503ebd4ce5ccf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nono-neko/dsh-browser",
+          "command": "dsh plugin --profile <name> add @nono-neko/dsh-browser",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "44072e46c03a6a7c2afc2a7d4c109d9d5976b2ed75e0e7c9f3ec5ef611fc745a",
+      "url": "https://github.com/Nono-neko/dsh-browser/blob/8cee0e63839eabc59cf331e36c6503ebd4ce5ccf/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nono-neko/dsh-browser",
+          "command": "dsh plugin --profile <name> add @nono-neko/dsh-browser",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@nono-neko/dsh-browser",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nono-neko/dsh-browser",
+        "commit": "8cee0e63839eabc59cf331e36c6503ebd4ce5ccf"
+      },
+      "manifestSha256": "e14a44b52caad461f77d3c5e204729b5275d9d9d761f8ebe2ecf024738d32da2",
+      "manifestUrl": "https://github.com/Nono-neko/dsh-browser/blob/8cee0e63839eabc59cf331e36c6503ebd4ce5ccf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@nono-neko/dsh-browser",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1790905681,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Nono-neko/dsh-browser",
+              "commit": "8cee0e63839eabc59cf331e36c6503ebd4ce5ccf"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@nono-neko/dsh-browser",
+      "origin": "npm",
+      "name": "@nono-neko/dsh-browser",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@nono-neko/dsh-browser",
+        "title": "@nono-neko/dsh-browser",
+        "description": "Embedded browser for the DSH web and desktop GUI with multi-tab browsing, frontend review comments, a CodeMirror editor, and agent tools. Standalone cordis bundle using ConfigForms and live settings. Requires DSH v0.2.0-rc.1 or later.",
+        "homepage": "https://github.com/Nono-neko/dsh-browser#readme",
+        "repository": {
+          "url": "https://github.com/Nono-neko/dsh-browser"
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1790905922,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "db49708af6d12079c1ba51290d1a72d3a64a0db6a68d4d1cf15cc63990e0923c",
+      "evidence": [
+        {
+          "name": "@nono-neko/dsh-browser",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/@nono-neko/dsh-browser/-/dsh-browser-0.4.0.tgz",
+          "integrity": "sha512-YL2SAribrH+thycF7pY7iNt5Id+5FVTHxihk0kMJyMLfp6YInwu+x56yJLadcZiKxZa6dtIoQmSQgmOOEDLP0g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@nono-neko/dsh-browser",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nono-neko/dsh-browser",
+    "commit": "8cee0e63839eabc59cf331e36c6503ebd4ce5ccf",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:44.838Z"
+}

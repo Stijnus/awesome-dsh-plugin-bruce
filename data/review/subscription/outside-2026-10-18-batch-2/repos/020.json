@@ -1,0 +1,263 @@
+{
+  "full_name": "wlj521/dsh-ui-tweaks",
+  "originalPosition": 20,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 20,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:28.995Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7a5b725875d9b6fc62d1330e165168ac34f6f59d6bbbcc7251a4906e1697fe88",
+      "url": "https://github.com/wlj521/dsh-ui-tweaks/blob/e0186824ff1f45ee62c9d3ab37ad5ef06264e1e2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ui-tweaks",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile desktop add dsh-ui-tweaks",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/wlj521/dsh-ui-tweaks",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile desktop add github:wlj521/dsh-ui-tweaks",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/wlj521/dsh-ui-tweaks#v0.20.1",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile desktop add github:wlj521/dsh-ui-tweaks#v0.20.1",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-ui-tweaks@0.20.1",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile desktop add dsh-ui-tweaks@0.20.1",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ui-tweaks",
+      "version": "0.20.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wlj521/dsh-ui-tweaks",
+        "commit": "e0186824ff1f45ee62c9d3ab37ad5ef06264e1e2"
+      },
+      "manifestSha256": "794737320805c534fc6ed9bfa6aa2e552bc4e3711687061111af6b518ccdd246",
+      "manifestUrl": "https://github.com/wlj521/dsh-ui-tweaks/blob/e0186824ff1f45ee62c9d3ab37ad5ef06264e1e2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ui-tweaks",
+        "versions": [
+          {
+            "version": "0.20.3",
+            "publishTimestamp": 1791870090,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wlj521/dsh-ui-tweaks",
+              "commit": "e0186824ff1f45ee62c9d3ab37ad5ef06264e1e2"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ui-tweaks",
+      "origin": "npm",
+      "name": "dsh-ui-tweaks",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ui-tweaks",
+        "title": "dsh-ui-tweaks",
+        "description": "DeepSeek Harness(DSH) 插件：在设置面板中实时调整对话界面——代码字号、主题皮肤、时间线切换、GitBar 分支胶囊、归档 / MCP 管理、任务提醒、网络搜索与 /init 命令。",
+        "repository": {
+          "url": "https://github.com/wlj521/dsh-ui-tweaks"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "deepseek",
+            "deepseek-ai",
+            "cordis",
+            "plugin",
+            "ui-tweaks",
+            "chat-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.20.3",
+            "publishTimestamp": 1791870277,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "27948be83709d8318967e423a6aaa9914952158e516f82e70f057057b3054c12",
+      "evidence": [
+        {
+          "name": "dsh-ui-tweaks",
+          "version": "0.20.3",
+          "tarball": "https://registry.npmjs.org/dsh-ui-tweaks/-/dsh-ui-tweaks-0.20.3.tgz",
+          "integrity": "sha512-0mbZk0qQrEWfZrMTZokAOPcm5Bv+ZVvv8aPzZPqhiIHOKnic4cperPB7nT1SqbNdG7zqj8VzflWnGZwUvqJ1hA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/wlj521/dsh-ui-tweaks#v0.20.1",
+      "origin": "git_target",
+      "name": "dsh-ui-tweaks",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ui-tweaks",
+        "title": "dsh-ui-tweaks",
+        "description": "DeepSeek Harness(DSH) 插件：在设置面板中实时调整对话界面——代码字号、主题皮肤、时间线切换、GitBar 分支胶囊、归档 / MCP 管理、任务提醒、网络搜索与 /init 命令。",
+        "repository": {
+          "url": "https://github.com/wlj521/dsh-ui-tweaks"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "deepseek",
+            "deepseek-ai",
+            "cordis",
+            "plugin",
+            "ui-tweaks",
+            "chat-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.20.1",
+            "publishTimestamp": 1791252869,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wlj521/dsh-ui-tweaks",
+              "commit": "87fa2630a66bf4d8f0e88cc9b1027f6358fe9b67"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "87fa2630a66bf4d8f0e88cc9b1027f6358fe9b67",
+          "name": "dsh-ui-tweaks",
+          "version": "0.20.1",
+          "url": "https://github.com/wlj521/dsh-ui-tweaks",
+          "manifestSha256": "0b27fd19ebc1c42fe746033aa7d5afe1e971d73a9aaea9cbbffef47c5ede79db",
+          "publishTimestamp": 1791252869
+        }
+      ]
+    },
+    {
+      "target": "dsh-ui-tweaks@0.20.1",
+      "origin": "npm",
+      "name": "dsh-ui-tweaks",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ui-tweaks",
+        "title": "dsh-ui-tweaks",
+        "description": "DeepSeek Harness(DSH) 插件：在设置面板中实时调整对话界面——代码字号、主题皮肤、时间线切换、GitBar 分支胶囊、归档 / MCP 管理、任务提醒、网络搜索与 /init 命令。",
+        "repository": {
+          "url": "https://github.com/wlj521/dsh-ui-tweaks"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "deepseek",
+            "deepseek-ai",
+            "cordis",
+            "plugin",
+            "ui-tweaks",
+            "chat-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.20.1",
+            "publishTimestamp": 1791253096,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "27948be83709d8318967e423a6aaa9914952158e516f82e70f057057b3054c12",
+      "evidence": [
+        {
+          "name": "dsh-ui-tweaks",
+          "version": "0.20.1",
+          "tarball": "https://registry.npmjs.org/dsh-ui-tweaks/-/dsh-ui-tweaks-0.20.1.tgz",
+          "integrity": "sha512-3NwMNdqGqwdTwmJigt+CgnLm5IELunIeq6t6Jy9gQBmLgvANIdLTEEGF+k5mFMLa6gkHYnNerxvIqiF9STUyqA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ui-tweaks",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/wlj521/dsh-ui-tweaks",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/wlj521/dsh-ui-tweaks#v0.20.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ui-tweaks@0.20.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wlj521/dsh-ui-tweaks",
+    "commit": "e0186824ff1f45ee62c9d3ab37ad5ef06264e1e2",
+    "releaseTags": 47,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:44.469Z"
+}

@@ -1,0 +1,91 @@
+{
+  "full_name": "Phant0Meow/dsh-meow-cachebilling",
+  "originalPosition": 16,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 16,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:55.842Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1abded59032f282a3bab5c3a374da0333529b1505eee4ef0e95a90e23434fb3e",
+      "url": "https://github.com/Phant0Meow/dsh-meow-cachebilling/blob/bc0d9204813d9106215f30cc31ca7b7fd3f179b7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Phant0Meow/dsh-meow-cachebilling",
+          "command": "dsh plugin --profile web add github:Phant0Meow/dsh-meow-cachebilling",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "9fae3ed3633f37052001d17aa7c67b54e33aae832c9b8140c2728c65a01ee5c8",
+      "url": "https://github.com/Phant0Meow/dsh-meow-cachebilling/blob/bc0d9204813d9106215f30cc31ca7b7fd3f179b7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Phant0Meow/dsh-meow-cachebilling",
+          "command": "dsh plugin --profile web add github:Phant0Meow/dsh-meow-cachebilling",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "meow-cachebilling",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Phant0Meow/dsh-meow-cachebilling",
+        "commit": "bc0d9204813d9106215f30cc31ca7b7fd3f179b7"
+      },
+      "manifestSha256": "7fc1ab9ecefc01ac97985bb580bd1811a7820eef2be6e2e82b346362ef7f23ab",
+      "manifestUrl": "https://github.com/Phant0Meow/dsh-meow-cachebilling/blob/bc0d9204813d9106215f30cc31ca7b7fd3f179b7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "meow-cachebilling",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1791342898,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Phant0Meow/dsh-meow-cachebilling",
+              "commit": "bc0d9204813d9106215f30cc31ca7b7fd3f179b7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Phant0Meow/dsh-meow-cachebilling",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Phant0Meow/dsh-meow-cachebilling",
+    "commit": "bc0d9204813d9106215f30cc31ca7b7fd3f179b7",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:01.301Z"
+}

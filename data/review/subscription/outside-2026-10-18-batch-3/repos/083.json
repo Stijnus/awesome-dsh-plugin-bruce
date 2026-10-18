@@ -1,0 +1,141 @@
+{
+  "full_name": "lee259/dsh-workbench",
+  "originalPosition": 83,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 83,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:01.270Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "97df48b61b12d7c27800ce1a0927bd22a3a4e430e4eec4e2a0ba2a704b1f7e2c",
+      "url": "https://github.com/lee259/dsh-workbench/blob/0dbeb0d76b5a6a50983ee087b1a442c2c81ea9c0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workbench",
+          "command": "dsh plugin --profile web add dsh-workbench",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "a75b3de5d568e2ad722ccfc8a2f70a32e233b6e19c64d36ba74eb82c981972c2",
+      "url": "https://github.com/lee259/dsh-workbench/blob/0dbeb0d76b5a6a50983ee087b1a442c2c81ea9c0/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workbench",
+          "command": "dsh plugin --profile web add dsh-workbench",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workbench",
+      "version": "0.16.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lee259/dsh-workbench",
+        "commit": "0dbeb0d76b5a6a50983ee087b1a442c2c81ea9c0"
+      },
+      "manifestSha256": "6f04641222751056b9fe5c58735ab63e91f34bde9b50a229bb744eb03727fef6",
+      "manifestUrl": "https://github.com/lee259/dsh-workbench/blob/0dbeb0d76b5a6a50983ee087b1a442c2c81ea9c0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-workbench",
+        "versions": [
+          {
+            "version": "0.16.1",
+            "publishTimestamp": 1790762557,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lee259/dsh-workbench",
+              "commit": "0dbeb0d76b5a6a50983ee087b1a442c2c81ea9c0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-workbench",
+      "origin": "npm",
+      "name": "dsh-workbench",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workbench",
+        "title": "dsh-workbench",
+        "description": "A right-side file workspace for DeepSeek Harness Web.",
+        "author": "lee259",
+        "homepage": "https://github.com/lee259/dsh-workbench#readme",
+        "repository": {
+          "url": "https://github.com/lee259/dsh-workbench"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "workbench",
+            "file-preview",
+            "file-tree",
+            "diff"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.16.1",
+            "publishTimestamp": 1790762761,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bc00786952dc86cdac595fe5ccd2afc105263a49b807ef43055b9b9a2e4cef8b",
+      "evidence": [
+        {
+          "name": "dsh-workbench",
+          "version": "0.16.1",
+          "tarball": "https://registry.npmjs.org/dsh-workbench/-/dsh-workbench-0.16.1.tgz",
+          "integrity": "sha512-MXVjnuEjDh339yvSTfL9VLKPcteYKnYaXvxmriM1Bzbb6wDpZ3R2miXjmZsI/TrXSxLGX8RUdO4KS+vCSrmNXw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lee259/dsh-workbench",
+    "commit": "0dbeb0d76b5a6a50983ee087b1a442c2c81ea9c0",
+    "releaseTags": 37,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:09.179Z"
+}

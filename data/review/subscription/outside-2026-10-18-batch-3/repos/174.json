@@ -1,0 +1,132 @@
+{
+  "full_name": "weibaohui/dsh-tasks",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:53.141Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ed1c4898d37b2b626735e77c5a0ccc08a13b49be0d7dcb9b4d3c6876ab673135",
+      "url": "https://github.com/weibaohui/dsh-tasks/blob/25a3860903b991bfc36bd7430bcfb4565c553451/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@weibaohui/dsh-tasks",
+          "command": "dsh plugin --profile web add @weibaohui/dsh-tasks -w",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@weibaohui/dsh-tasks",
+      "version": "0.5.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weibaohui/dsh-tasks",
+        "commit": "25a3860903b991bfc36bd7430bcfb4565c553451"
+      },
+      "manifestSha256": "0f51f465316577c606727a7a456cd349d390db95bf248bbbc8390dae52677031",
+      "manifestUrl": "https://github.com/weibaohui/dsh-tasks/blob/25a3860903b991bfc36bd7430bcfb4565c553451/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@weibaohui/dsh-tasks",
+        "versions": [
+          {
+            "version": "0.5.9",
+            "publishTimestamp": 1791537079,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/weibaohui/dsh-tasks",
+              "commit": "25a3860903b991bfc36bd7430bcfb4565c553451"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@weibaohui/dsh-tasks",
+      "origin": "npm",
+      "name": "@weibaohui/dsh-tasks",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@weibaohui/dsh-tasks",
+        "title": "@weibaohui/dsh-tasks",
+        "description": "dsh 插件 · 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，也可随时手动立即执行；可视化选择器实时预览最近 5 次执行时间，支持绑定工作区、指定模型、会话按任务自动命名、cron 即时校验与全屏管理页，执行记录可一键打开对应会话；任务开始/完成/失败可推送到 IM 投递插件绑定的聊天渠道，执行结论可随通知一并推送；支持免打扰时段（跨零点友好），时段内推送自动跳过。",
+        "homepage": "https://github.com/weibaohui/dsh-tasks#readme",
+        "repository": {
+          "url": "https://github.com/weibaohui/dsh-tasks"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "cron",
+            "schedule",
+            "scheduled-items",
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.9",
+            "publishTimestamp": 1790435031,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a493149c5f521622911e682438d6add49903a3f0ddf8363be9454237872b8b0b",
+      "evidence": [
+        {
+          "name": "@weibaohui/dsh-tasks",
+          "version": "0.5.9",
+          "tarball": "https://registry.npmjs.org/@weibaohui/dsh-tasks/-/dsh-tasks-0.5.9.tgz",
+          "integrity": "sha512-AvzTH8+5XrTZ7ajz04YdtOPj3NEDLXCSTjVxXp1Ube1E8ABBrjsgVURIBJ8jgAfAyPljmmMYj0ZuJCmfN8u3hw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@weibaohui/dsh-tasks",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/weibaohui/dsh-tasks",
+    "commit": "25a3860903b991bfc36bd7430bcfb4565c553451",
+    "releaseTags": 23,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:59.166Z"
+}

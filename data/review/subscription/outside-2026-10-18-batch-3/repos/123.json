@@ -1,0 +1,161 @@
+{
+  "full_name": "PianoPrince/dsh-workspace-mover",
+  "originalPosition": 123,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 123,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:49.073Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "528ae9715b1193d0159c3989fd9c2f2bba7f0fde7aab6c7f06d992434628b52f",
+      "url": "https://github.com/PianoPrince/dsh-workspace-mover/blob/6623639581c943d2f3e295e0c5d8ee383c33436c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PianoPrince/dsh-workspace-mover",
+          "command": "dsh plugin --profile web add \"github:PianoPrince/dsh-workspace-mover\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-workspace-mover",
+          "command": "dsh plugin --profile web add dsh-workspace-mover",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "9e1dba6c0266f5ac12b7926a11e0386ab0a96337971b209b41a936a924009fe0",
+      "url": "https://github.com/PianoPrince/dsh-workspace-mover/blob/6623639581c943d2f3e295e0c5d8ee383c33436c/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PianoPrince/dsh-workspace-mover",
+          "command": "dsh plugin --profile web add \"github:PianoPrince/dsh-workspace-mover\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-workspace-mover",
+          "command": "dsh plugin --profile web add dsh-workspace-mover",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workspace-mover",
+      "version": "2.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PianoPrince/dsh-workspace-mover",
+        "commit": "6623639581c943d2f3e295e0c5d8ee383c33436c"
+      },
+      "manifestSha256": "16a697c0428c6c452e5ad91c5ad1b2c5962eb2c9e9cc5e7bbfe1b675c1536746",
+      "manifestUrl": "https://github.com/PianoPrince/dsh-workspace-mover/blob/6623639581c943d2f3e295e0c5d8ee383c33436c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-workspace-mover",
+        "versions": [
+          {
+            "version": "2.3.0",
+            "publishTimestamp": 1791904636,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PianoPrince/dsh-workspace-mover",
+              "commit": "6623639581c943d2f3e295e0c5d8ee383c33436c"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-workspace-mover",
+      "origin": "npm",
+      "name": "dsh-workspace-mover",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workspace-mover",
+        "title": "dsh-workspace-mover",
+        "description": "在 DSH 侧边栏安全迁移会话：真迁移原始档案，支持失联会话恢复、移动历史、一键撤回和 agent 工具。",
+        "homepage": "https://github.com/PianoPrince/dsh-workspace-mover#readme",
+        "repository": {
+          "url": "https://github.com/PianoPrince/dsh-workspace-mover"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "workspace",
+            "session",
+            "session-migration",
+            "drag-and-drop",
+            "agent-tools"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.3.0",
+            "publishTimestamp": 1791904824,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7c7713f587812d93ac9deff5c2cda076fe1b00dd79c4930cea44f62bdcf22a59",
+      "evidence": [
+        {
+          "name": "dsh-workspace-mover",
+          "version": "2.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-workspace-mover/-/dsh-workspace-mover-2.3.0.tgz",
+          "integrity": "sha512-wIWpJyFfWW1DajWXZpP8unVaY9P62JSotVK39gkwNkGVx6qZEZy2vvNnjr0crA94xMA8yivmgHsWw9vmiV2VQw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PianoPrince/dsh-workspace-mover",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workspace-mover",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PianoPrince/dsh-workspace-mover",
+    "commit": "6623639581c943d2f3e295e0c5d8ee383c33436c",
+    "releaseTags": 19,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:55.144Z"
+}

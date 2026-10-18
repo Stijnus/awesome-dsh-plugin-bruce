@@ -1,0 +1,139 @@
+{
+  "full_name": "dsh-plugin-lab/dsh-workbuddy-bridge",
+  "originalPosition": 145,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:18.264Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5aa62ad5d45fd0a4f4372cf3d62c429d1a795a37db8719ffb857376e745dd9fa",
+      "url": "https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge/blob/c8021e1bac0e0703f6c6f8d58935be0405cc637e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workbuddy-bridge",
+          "command": "dsh plugin --profile web add dsh-workbuddy-bridge",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workbuddy-bridge",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge",
+        "commit": "c8021e1bac0e0703f6c6f8d58935be0405cc637e"
+      },
+      "manifestSha256": "69d9ddfada76d5237c4efa4e8045dd69069d8aad33921582c66cc98c20536201",
+      "manifestUrl": "https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge/blob/c8021e1bac0e0703f6c6f8d58935be0405cc637e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.1 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-workbuddy-bridge",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1791987183,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge",
+              "commit": "c8021e1bac0e0703f6c6f8d58935be0405cc637e"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-workbuddy-bridge",
+      "origin": "npm",
+      "name": "dsh-workbuddy-bridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workbuddy-bridge",
+        "title": {
+          "en": "DSH WorkBuddy Bridge",
+          "zh": "DSH WorkBuddy Bridge"
+        },
+        "description": {
+          "en": "Bring the WorkBuddy desktop app's models into DSH: whichever app you have shows up as its own model group, usable with no configuration.",
+          "zh": "把 WorkBuddy 桌面 App 的模型接进 DSH：装哪个 App 就出现哪个模型分组，零配置直接使用。"
+        },
+        "author": "zlZayn",
+        "homepage": "https://github.com/zlZayn/dsh-workbuddy-bridge#readme",
+        "repository": {
+          "url": "https://github.com/zlZayn/dsh-workbuddy-bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "workbuddy",
+            "models",
+            "llm",
+            "bridge"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tCiAgICBkc2gtd29ya2J1ZGR5LWJyaWRnZSDnmoTmj5Lku7bpobXlm77moIfjgIIKCiAgICDmupDlm77mmK/nu7TmiqTogIXnu5nnmoTkuIDmnpogMjgwIOagvOW+veeroO+8iOWchuinkuaWueWdlyArIOmdkue7v+a4kOWPmOW6lSArIOS4pOWbouaflOWFiSArIOeZveiJsuagh+iusO+8ie+8jAogICAg6L+Z6YeM5pW057uE5pCs6L+b5a6Y5pa5IDM2IOagvO+8mnRyYW5zZm9ybSg3IDcpIHNjYWxlKDIyLzI4MCkg4oCU4oCUCiAgICDloqjov7nlpJbmjqXmoYYgNy4uMjnvvIzlm5vlkajlkITnlZkgN++8jOiQveWcqOWumOaWueS4ieS4quWbvuagh+eahCA24oCTOSDovrnot53nqpflj6Pph4zjgIIKCiAgICDpopzoibLmmK/ng5jmrbvnmoTvvJrlrr/kuLvmjInlm77niYfmuLLmn5PvvIxjdXJyZW50Q29sb3Ig5LiO5Li76aKY5Y+Y6YeP6YO95LiN6LW35L2c55SoCiAgICDvvIjnkIbnlLHkuI7lj5boibLliKTmja7lkIwgZHNoLWRzLWJhbGFuY2UvaWNvbi5zdmfvvInjgILov5nph4zkv53nlZnmupDlm77oh6rluKbnmoTlk4HniYzpnZLnu7/muJDlj5jjgIIKCiAgICDms6jmhI/vvJpYTUwg5rOo6YeK6YeM5LiN6K645Ye6546w6L+e57ut5Lik5Liq6L+e5a2X56ym77yI5rWP6KeI5Zmo5Lya5b2T5Zu+54mH6Kej5p6Q5aSx6LSl77yM5o+S5Lu26aG16Z2Z6buY5Zue6JC95oiQ6buY6K6k5Zu+5b2i77yJ44CCCiAgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNyA3KSBzY2FsZSgwLjA3ODU3MTQyODU3MTQyODU3KSI+CiAgICA8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDApIj4KICAgICAgPHJlY3Qgd2lkdGg9IjI4MCIgaGVpZ2h0PSIyODAiIHJ4PSI2MC40MjExIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXIpIi8+CiAgICAgIDxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2YpIj4KICAgICAgICA8Y2lyY2xlIGN4PSI4OC4yNTA0IiBjeT0iMjQ0Ljg2IiByPSI5OC41NjY4IiBmaWxsPSIjMzJFNkI5IiBmaWxsLW9wYWNpdHk9IjAuNCIvPgogICAgICA8L2c+CiAgICAgIDxnIGZpbHRlcj0idXJsKCNmaWx0ZXIxX2YpIj4KICAgICAgICA8Y2lyY2xlIGN4PSIyMjMuMzg0IiBjeT0iMjkwLjMyOCIgcj0iOTAuMDkzMSIgZmlsbD0iI0ZGRTM1NSIgZmlsbC1vcGFjaXR5PSIwLjQ5Ii8+CiAgICAgIDwvZz4KICAgICAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMDQuMTUgNi44OTM1MkMyMDYuODk2IDQuNDMxMTEgMjA3LjA2MSA0LjMzNjExIDIwOS4wNzQgNC4yMTUyNEMyMTIuMzM2IDMuOTc2OTIgMjE1LjMyNCA1LjU0MjQ4IDIyMC40MSAxMC4xNzI5QzIzMi4yOTEgMjAuOTY5MiAyNDguODM0IDQzLjE2NTQgMjU5LjExOSA2Mi4xMjA1TDI2My4wOTMgNjkuNDc2OEwyNjguNzA3IDcyLjI2NzJDMjc0LjEyNiA3NS4wMDU1IDI4My4wMTUgODAuNjE5OCAyODYuNzI4IDgzLjYzMDhDMjg4LjQwNyA4NS4wMTkxIDI4OC42NDIgODUuMDQ4MyAyOTAuMzg4IDg0LjM2OTJDMjk4LjI2NyA4MS4zMDA4IDMwOS41NTMgODUuMzY3NSAzMTkuNTA4IDk0LjkxNzhDMzI4LjQ3IDEwMy41MDcgMzM3LjA1MiAxMTguMTgxIDM0MC4zNCAxMzAuNDI5QzM0MC44MiAxMzIuNCAzNDEuNDU4IDEzNi42MzggMzQxLjY5IDEzOS43OTRDMzQyLjQ0IDE1MC44NzYgMzM4Ljg4NiAxNTkuNzI2IDMzMi4wNDIgMTYzLjczM0MzMzAuNjQ0IDE2NC41NCAzMzAuNTUxIDE2NC43NTkgMzMwLjU5IDE2OC4yNDVDMzMwLjkwNSAxODQuODQxIDMyNi40MzIgMjAxLjQwNiAzMTcuNDQ1IDIxNy41NjFDMzA3LjMwMSAyMzUuNyAyODkuMjM4IDI1NC40NjQgMjY0Ljc5MSAyNzIuMTQyQzI1MS42NjMgMjgxLjY5NSAyMjAuNjA0IDI5OS43OTIgMjA2LjU2MSAzMDYuMTQ1QzE3Mi45MiAzMjEuMjkgMTQ1Ljk1MiAzMjcuMSAxMjIuNTI3IDMyNC4yM0MxMDguNTU0IDMyMi41MzcgOTIuNzM5NyAzMTcuMDgzIDgzLjM4MTkgMzEwLjc1MkM4MC45MTgyIDMwOS4wNDkgODAuNTI4NiAzMDguOTQ0IDc4LjY0NjIgMzA5LjQ4M0M2OC42Mjg1IDMxMi4zNiA1NS41MDg2IDMwNi40NDcgNDQuMzYyOCAyOTQuMDc1QzM5LjkxNzQgMjg5LjEyOSAzMi43NDMgMjc2Ljk4NiAzMC40MTcgMjcwLjQ4OEMyNS4wMzY1IDI1NS4yODEgMjYuMTA2MSAyNDEuNTU4IDMzLjI3MyAyMzMuMzYzQzM1LjEyNDUgMjMxLjI1MiAzNS4xODM1IDIzMS4xNjMgMzQuNzc5MSAyMjcuNjE0QzM0LjExMTIgMjIxLjgwNCAzMy44MDggMjEzLjIwNiAzNC4xMTMxIDIwNy42NTZMMzQuMzU0MSAyMDIuNDcyTDI2LjU3MTMgMTg4LjcwNkMxNC41MTk0IDE2Ny4yNjIgNi44NjQ4IDE0OS4yNTUgMy45MTE1MiAxMzUuNDk3QzIuMzUyNDkgMTI3Ljk1NCAyLjQ0OTIzIDEyNC42MDcgNC4zNjQwMSAxMjIuMTMxQzUuNTI5NDUgMTIwLjYzNSA5LjM1MTkxIDExOS4wODcgMTMuOTU5OSAxMTguMjM2QzI1LjU2MDIgMTE2LjE5OSA1MC44NTk2IDExOC4wNDMgNzkuMDA1OSAxMjMuMDEyTDgxLjkyOTUgMTIzLjUxN0w4OC4zNTM3IDExNy44MzRDOTkuMDE5NCAxMDguMzg2IDEwNi4xMDUgMTAzLjA4OSAxMTkuMTY4IDk0Ljk0MzlDMTMyLjc4MyA4Ni40MjU0IDE0OC4xNDggNzkuNDE4MSAxNjUuNDUyIDczLjg2OTNMMTcxLjAwNCA3Mi4wOUwxNzQuMDU0IDY0LjA3NzVDMTg0Ljk4MSAzNS4yMzMgMTk2LjE3MiAxMy45Njc1IDIwNC4xNSA2Ljg5MzUyWk0xMTIuNjI1IDE1NC43MDJDMTAwLjI3NSAxNjEuODMyIDk0LjA5OTkgMTY1LjM5NyA4OS41NjI3IDE2OS4zOTNDNzEuMTg5NCAxODUuNTcyIDY0LjMyMjggMjExLjE5OCA3Mi4xNDUgMjM0LjM5NkM3NC4wNzY3IDI0MC4xMjUgNzcuNjQyIDI0Ni4zIDg0Ljc3MTkgMjU4LjY1QzkxLjkwMTggMjcwLjk5OSA5NS40NjY3IDI3Ny4xNzMgOTkuNDYxOSAyODEuNzExQzExNS42NDEgMzAwLjA4NCAxNDEuMjY3IDMwNi45NSAxNjQuNDY2IDI5OS4xMjhDMTcwLjE5NCAyOTcuMTk3IDE3Ni4zNjkgMjkzLjYzMSAxODguNzE5IDI4Ni41MDFMMjU5Ljc2IDI0NS40ODZDMjcyLjEwOSAyMzguMzU2IDI3OC4yODQgMjM0Ljc5MSAyODIuODIxIDIzMC43OTZDMzAxLjE5NCAyMTQuNjE3IDMwOC4wNjEgMTg4Ljk5IDMwMC4yMzkgMTY1Ljc5MkMyOTguMzA3IDE2MC4wNjMgMjk0Ljc0MiAxNTMuODg5IDI4Ny42MTIgMTQxLjU0QzI4MC40ODIgMTI5LjE5IDI3Ni45MTcgMTIzLjAxNSAyNzIuOTIyIDExOC40NzhDMjU2Ljc0MyAxMDAuMTA0IDIzMS4xMTYgOTMuMjM3OCAyMDcuOTE4IDEwMS4wNkMyMDIuMTkgMTAyLjk5MiAxOTYuMDE1IDEwNi41NTcgMTgzLjY2NiAxMTMuNjg3TDExMi42MjUgMTU0LjcwMloiIGZpbGw9InVybCgjcGFpbnQxX2xpbmVhcikiLz4KICAgICAgPHJlY3QgeD0iMTE5LjQ3MyIgeT0iMjA0LjM0MSIgd2lkdGg9IjI4LjA2MzMiIGhlaWdodD0iNTguMjg1MiIgcng9IjE0LjAzMTYiIHRyYW5zZm9ybT0icm90YXRlKC0zMCAxMTkuNDczIDIwNC4zNDEpIiBmaWxsPSJ3aGl0ZSIvPgogICAgICA8cmVjdCB4PSIxOTUuMTg2IiB5PSIxNjAuNjI3IiB3aWR0aD0iMjguMDYzMyIgaGVpZ2h0PSI1OC4yODUyIiByeD0iMTQuMDMxNiIgdHJhbnNmb3JtPSJyb3RhdGUoLTMwIDE5NS4xODYgMTYwLjYyNykiIGZpbGw9IndoaXRlIi8+CiAgICA8L2c+CiAgPC9nPgogIDxkZWZzPgogICAgPGZpbHRlciBpZD0iZmlsdGVyMF9mIiB4PSItMTA0LjQxNCIgeT0iNTIuMTk1OCIgd2lkdGg9IjM4NS4zMjciIGhlaWdodD0iMzg1LjMyOCIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgogICAgICA8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgogICAgICA8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgogICAgICA8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI0Ny4wNDg2IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXIiLz4KICAgIDwvZmlsdGVyPgogICAgPGZpbHRlciBpZD0iZmlsdGVyMV9mIiB4PSI1Ni4yODg0IiB5PSIxMjMuMjMzIiB3aWR0aD0iMzM0LjE5MSIgaGVpZ2h0PSIzMzQuMTkyIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CiAgICAgIDxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CiAgICAgIDxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CiAgICAgIDxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjM4LjUwMTMiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1ciIvPgogICAgPC9maWx0ZXI+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXIiIHgxPSIxNDAiIHkxPSIwIiB4Mj0iMTQwIiB5Mj0iMjgwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMwRUM4QTkiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDFDODg2Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDFfbGluZWFyIiB4MT0iMTA2LjY0NyIgeTE9IjYyLjU0ODIiIHgyPSIyMzcuNjMyIiB5Mj0iMjg5LjQyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IndoaXRlIiBzdG9wLW9wYWNpdHk9IjAuOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNDM3Njg5IiBzdG9wLWNvbG9yPSJ3aGl0ZSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxjbGlwUGF0aCBpZD0iY2xpcDAiPgogICAgICA8cmVjdCB3aWR0aD0iMjgwIiBoZWlnaHQ9IjI4MCIgcng9IjYwLjQyMTEiIGZpbGw9IndoaXRlIi8+CiAgICA8L2NsaXBQYXRoPgogIDwvZGVmcz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1791731767,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c5da0e58b37b139df08ff3eccbcd70ebc5c03500f3b3e4bd1dbd0b0d38c83e4a",
+      "evidence": [
+        {
+          "name": "dsh-workbuddy-bridge",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-workbuddy-bridge/-/dsh-workbuddy-bridge-0.4.0.tgz",
+          "integrity": "sha512-0cp8aD6PV9/n4nEoadsD5FTqxvUfRicOZWvxz0gdyLfb8K5hDKIb8BoyAaOdTQWBsxagEBhkBnRF6/wUTPbEZQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workbuddy-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge",
+    "commit": "c8021e1bac0e0703f6c6f8d58935be0405cc637e",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:24.432Z"
+}

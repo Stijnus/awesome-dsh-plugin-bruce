@@ -1,0 +1,200 @@
+{
+  "full_name": "WilliamShi666/dsh-multiple-chat-panels",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:03.978Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2a2c4d2190631be0de3232e8b7ac8e6eca2368b74debc2ea306d32bfd24f3b2f",
+      "url": "https://github.com/WilliamShi666/dsh-multiple-chat-panels/blob/46809e207ff500777fd2a36901428ca1cb56e670/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/WilliamShi666/dsh-multiple-chat-panels",
+          "command": "dsh plugin --profile web add github:WilliamShi666/dsh-multiple-chat-panels",
+          "profile": "web"
+        },
+        {
+          "install": "multiple-chat-panels",
+          "command": "dsh plugin --profile web add multiple-chat-panels",
+          "profile": "web"
+        },
+        {
+          "install": "multiple-chat-panels@0.1.1",
+          "command": "dsh plugin --profile web add multiple-chat-panels@0.1.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "multiple-chat-panels",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WilliamShi666/dsh-multiple-chat-panels",
+        "commit": "46809e207ff500777fd2a36901428ca1cb56e670"
+      },
+      "manifestSha256": "801e27a22e3838d6519f278e6c2b39a1890516f16239ef57191fca91cd36a2dd",
+      "manifestUrl": "https://github.com/WilliamShi666/dsh-multiple-chat-panels/blob/46809e207ff500777fd2a36901428ca1cb56e670/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc <2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "multiple-chat-panels",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790365744,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WilliamShi666/dsh-multiple-chat-panels",
+              "commit": "46809e207ff500777fd2a36901428ca1cb56e670"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc <2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "multiple-chat-panels",
+      "origin": "npm",
+      "name": "multiple-chat-panels",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "multiple-chat-panels",
+        "title": "multiple-chat-panels",
+        "description": "Multiple chat panels for DeepSeek Harness: view and interact with several agent sessions side by side in a Mission Control grid",
+        "author": "WilliamShi666",
+        "homepage": "https://github.com/WilliamShi666/dsh-multiple-chat-panels#readme",
+        "repository": {
+          "url": "https://github.com/WilliamShi666/dsh-multiple-chat-panels"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "multi-pane",
+            "chat",
+            "mission-control"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790364392,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc <2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7232d7a035f704cc74c8a32812e2b6a796dff3d181011b2e41bdc13ef998c7f0",
+      "evidence": [
+        {
+          "name": "multiple-chat-panels",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/multiple-chat-panels/-/multiple-chat-panels-0.1.2.tgz",
+          "integrity": "sha512-0TkIrPG5OQUznZRvtUBvfrbCgdv40cHn4mGEpjpCOrft6MimWqYkHA1RswwY/TWS3CMKPinOad8ce3Lz5sIYhA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "multiple-chat-panels@0.1.1",
+      "origin": "npm",
+      "name": "multiple-chat-panels",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "multiple-chat-panels",
+        "title": "multiple-chat-panels",
+        "description": "Multiple chat panels for DeepSeek Harness: view and interact with several agent sessions side by side in a Mission Control grid",
+        "author": "WilliamShi666",
+        "homepage": "https://github.com/WilliamShi666/dsh-multiple-chat-panels#readme",
+        "repository": {
+          "url": "https://github.com/WilliamShi666/dsh-multiple-chat-panels"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "multi-pane",
+            "chat",
+            "mission-control"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787339633,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc <2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7232d7a035f704cc74c8a32812e2b6a796dff3d181011b2e41bdc13ef998c7f0",
+      "evidence": [
+        {
+          "name": "multiple-chat-panels",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/multiple-chat-panels/-/multiple-chat-panels-0.1.1.tgz",
+          "integrity": "sha512-3vhEPis7CA3g3OHQFzBIiZWDhNlwQOsp9uIXh1fI9PeW5kTnvIAUBA2eYcUzIKqIH2l9CEvwZr+pv+9zfgF/Vw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/WilliamShi666/dsh-multiple-chat-panels",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "multiple-chat-panels",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "multiple-chat-panels@0.1.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WilliamShi666/dsh-multiple-chat-panels",
+    "commit": "46809e207ff500777fd2a36901428ca1cb56e670",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:11.433Z"
+}

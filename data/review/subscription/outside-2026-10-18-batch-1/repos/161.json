@@ -1,0 +1,91 @@
+{
+  "full_name": "xxww0098/dsh-plugin-oauth-subs",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:54.867Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "343a3c0f8f360a494e08d2653befdd6b770605cddf4f63d56fcd617450e871c2",
+      "url": "https://github.com/xxww0098/dsh-plugin-oauth-subs/blob/66eb2706fb638bd47fe49379726f16ac837be2d5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xxww0098/dsh-plugin-oauth-subs",
+          "command": "dsh plugin --profile web add https://github.com/xxww0098/dsh-plugin-oauth-subs",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c508a71e490a38c956b2d455ca6b065c8789036e916bf597f15bfcfe02670bed",
+      "url": "https://github.com/xxww0098/dsh-plugin-oauth-subs/blob/66eb2706fb638bd47fe49379726f16ac837be2d5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xxww0098/dsh-plugin-oauth-subs",
+          "command": "dsh plugin --profile web add https://github.com/xxww0098/dsh-plugin-oauth-subs",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-oauth-subs",
+      "version": "0.0.123",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xxww0098/dsh-plugin-oauth-subs",
+        "commit": "66eb2706fb638bd47fe49379726f16ac837be2d5"
+      },
+      "manifestSha256": "d8d97985ef87c1a561632b4e0b1bae0414d9a542cbdb3a82ba3913f8c050e99d",
+      "manifestUrl": "https://github.com/xxww0098/dsh-plugin-oauth-subs/blob/66eb2706fb638bd47fe49379726f16ac837be2d5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-oauth-subs",
+        "versions": [
+          {
+            "version": "0.0.123",
+            "publishTimestamp": 1792059614,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xxww0098/dsh-plugin-oauth-subs",
+              "commit": "66eb2706fb638bd47fe49379726f16ac837be2d5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xxww0098/dsh-plugin-oauth-subs",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xxww0098/dsh-plugin-oauth-subs",
+    "commit": "66eb2706fb638bd47fe49379726f16ac837be2d5",
+    "releaseTags": 108,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:02.987Z"
+}

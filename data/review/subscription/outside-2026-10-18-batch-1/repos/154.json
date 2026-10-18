@@ -1,0 +1,154 @@
+{
+  "full_name": "gongyijie85/mattpocock-skills-dsh",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 154,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:42.492Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "05d1b26c100ebdb4970e43d2c22beb99a7be4731fea0fde7d4b7a0cd7f56f0cb",
+      "url": "https://github.com/gongyijie85/mattpocock-skills-dsh/blob/cddededbbb2ed38f0e0b26b46be8455c59d78ab1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/gongyijie85/mattpocock-skills-dsh",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:gongyijie85/mattpocock-skills-dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e0109432ea1b5689f8a41e32952889649ccef6c6f9c3a56f9a998a66e56e510f",
+      "url": "https://github.com/gongyijie85/mattpocock-skills-dsh/blob/cddededbbb2ed38f0e0b26b46be8455c59d78ab1/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/gongyijie85/mattpocock-skills-dsh",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:gongyijie85/mattpocock-skills-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "mattpocock-skills-dsh",
+          "command": "dsh plugin --profile web add mattpocock-skills-dsh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "mattpocock-skills-dsh",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gongyijie85/mattpocock-skills-dsh",
+        "commit": "cddededbbb2ed38f0e0b26b46be8455c59d78ab1"
+      },
+      "manifestSha256": "8ad1c749aac7ac73bd70662425c69ea1e3f7c155aacdb2127f0afc42429c4521",
+      "manifestUrl": "https://github.com/gongyijie85/mattpocock-skills-dsh/blob/cddededbbb2ed38f0e0b26b46be8455c59d78ab1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "mattpocock-skills-dsh",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1789116407,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gongyijie85/mattpocock-skills-dsh",
+              "commit": "cddededbbb2ed38f0e0b26b46be8455c59d78ab1"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "mattpocock-skills-dsh",
+      "origin": "npm",
+      "name": "mattpocock-skills-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "mattpocock-skills-dsh",
+        "title": "mattpocock-skills-dsh",
+        "description": "Matt Pocock's skills for the DeepSeek Harness: grilling, writing-for-agents, wait-what and more — adapted from https://github.com/mattpocock/skills",
+        "homepage": "https://github.com/gongyijie85/mattpocock-skills-dsh",
+        "repository": {
+          "url": "https://github.com/gongyijie85/mattpocock-skills-dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "skills",
+            "mattpocock",
+            "aihero"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1790779238,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "be0979f7031aac18f53ee85cedf9ad5380c4ce1ffb218ffc3ea5ec029ec02532",
+      "evidence": [
+        {
+          "name": "mattpocock-skills-dsh",
+          "version": "0.1.8",
+          "tarball": "https://registry.npmjs.org/mattpocock-skills-dsh/-/mattpocock-skills-dsh-0.1.8.tgz",
+          "integrity": "sha512-hDpI0WKFqzJfCtExyoStdj2CYJS25Wi8jFF5QDhsTthsSn24+xJoFoqFYTfUWc5FLV11snUzugvpGfUP4vpO2A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/gongyijie85/mattpocock-skills-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "mattpocock-skills-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gongyijie85/mattpocock-skills-dsh",
+    "commit": "cddededbbb2ed38f0e0b26b46be8455c59d78ab1",
+    "releaseTags": 6,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:47.856Z"
+}

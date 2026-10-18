@@ -1,0 +1,158 @@
+{
+  "full_name": "yxy050208/multisim-mcp",
+  "originalPosition": 183,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:20.758Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e065577462ab5aff0bb4a926f9cca4e18cad643e5ad694d051bfa5de45a3bff4",
+      "url": "https://github.com/yxy050208/multisim-mcp/blob/2afb893e72b0b6f9603055ec906a73e41e0feeb6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "multisim-mcp-dsh-plugin@1.1.0",
+          "command": "dsh plugin --profile web add multisim-mcp-dsh-plugin@1.1.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "f689d0a0ba652151dc3c9d15ddda25e367e1799a3ff42a288029eb4f3c60ec11",
+      "url": "https://github.com/yxy050208/multisim-mcp/blob/2afb893e72b0b6f9603055ec906a73e41e0feeb6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "multisim-mcp-dsh-plugin@1.1.0",
+          "command": "dsh plugin --profile web add multisim-mcp-dsh-plugin@1.1.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "mcp_server/README.md",
+      "sha256": "9b4806e7f874f5475c7902920ac2d7566c4daf18fa72d0bf9579b309eb3acb9b",
+      "url": "https://github.com/yxy050208/multisim-mcp/blob/2afb893e72b0b6f9603055ec906a73e41e0feeb6/mcp_server/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "multisim-mcp-dsh-plugin@1.1.0",
+          "command": "dsh plugin --profile web add multisim-mcp-dsh-plugin@1.1.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "multisim-mcp-dsh-plugin",
+      "version": "1.3.0-rc.3",
+      "path": "integrations/deepseek-harness",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yxy050208/multisim-mcp",
+        "commit": "2afb893e72b0b6f9603055ec906a73e41e0feeb6",
+        "path": "integrations/deepseek-harness"
+      },
+      "manifestSha256": "75e367ef2ed0b986715ba973261863d9fb0f22944853a6caa1ef6a400062d5c6",
+      "manifestUrl": "https://github.com/yxy050208/multisim-mcp/blob/2afb893e72b0b6f9603055ec906a73e41e0feeb6/integrations/deepseek-harness/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "multisim-mcp-dsh-plugin",
+        "versions": [
+          {
+            "version": "1.3.0-rc.3",
+            "publishTimestamp": 1791496892,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yxy050208/multisim-mcp",
+              "commit": "2afb893e72b0b6f9603055ec906a73e41e0feeb6",
+              "path": "integrations/deepseek-harness"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "multisim-mcp-dsh-plugin@1.1.0",
+      "origin": "npm",
+      "name": "multisim-mcp-dsh-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "multisim-mcp-dsh-plugin",
+        "title": "multisim-mcp-dsh-plugin",
+        "description": "DeepSeek Harness plugin for NI Multisim circuit generation, simulation, optimization, and lab reports via MCP",
+        "homepage": "https://github.com/yxy050208/multisim-mcp/tree/main/integrations/deepseek-harness",
+        "repository": {
+          "url": "https://github.com/yxy050208/multisim-mcp",
+          "directory": "integrations/deepseek-harness"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek",
+            "deepseek-harness",
+            "mcp",
+            "multisim",
+            "ni-multisim",
+            "circuit-simulation",
+            "electronics",
+            "eda"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1787480054,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "72c03aa99501902dbcef93b8b9875f5e52caf7f80ad5b42ba84672ae5392bc55",
+      "evidence": [
+        {
+          "name": "multisim-mcp-dsh-plugin",
+          "version": "1.1.0",
+          "tarball": "https://registry.npmjs.org/multisim-mcp-dsh-plugin/-/multisim-mcp-dsh-plugin-1.1.0.tgz",
+          "integrity": "sha512-tdZ2d3tw5lxe7Dg5aCTEZekw8tIb0jqk3d8j8o39BylKrEs+aPOiuXka1mNT4pYVLLdkzAZ6gEiRUHzf0pMEqQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "multisim-mcp-dsh-plugin@1.1.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yxy050208/multisim-mcp",
+    "commit": "2afb893e72b0b6f9603055ec906a73e41e0feeb6",
+    "releaseTags": 9,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:27.193Z"
+}

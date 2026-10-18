@@ -1,0 +1,93 @@
+{
+  "full_name": "Shaky77/weiwen-law-dsh",
+  "originalPosition": 64,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 64,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:40.419Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5b899d178a613349a52ba1855bfc8bca89dc0dbb8806937d35c96b087d046c16",
+      "url": "https://github.com/Shaky77/weiwen-law-dsh/blob/3c6ee8a451f177d376661b1b82006637c9f24358/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Shaky77/weiwen-law-dsh",
+          "command": "dsh plugin --profile web add \"github:Shaky77/weiwen-law-dsh\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-weiwen-law",
+          "command": "dsh plugin --profile web add \"dsh-weiwen-law\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-weiwen-law",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Shaky77/weiwen-law-dsh",
+        "commit": "3c6ee8a451f177d376661b1b82006637c9f24358"
+      },
+      "manifestSha256": "7f470b7a96dbf02881c8ddeb0fcf11196827c3b5dae1eee11010824ae52d0412",
+      "manifestUrl": "https://github.com/Shaky77/weiwen-law-dsh/blob/3c6ee8a451f177d376661b1b82006637c9f24358/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-weiwen-law",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791478369,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Shaky77/weiwen-law-dsh",
+              "commit": "3c6ee8a451f177d376661b1b82006637c9f24358"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-weiwen-law",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Shaky77/weiwen-law-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-weiwen-law",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Shaky77/weiwen-law-dsh",
+    "commit": "3c6ee8a451f177d376661b1b82006637c9f24358",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:46.208Z"
+}

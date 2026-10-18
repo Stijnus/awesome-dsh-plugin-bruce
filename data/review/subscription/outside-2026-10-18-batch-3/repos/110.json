@@ -1,0 +1,153 @@
+{
+  "full_name": "AcidGr/dsh-web-mobile-fix",
+  "originalPosition": 110,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:34.192Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8518197571578429ad207d0dee53d1bebc1823121e81f2085d9e231d3b1eb764",
+      "url": "https://github.com/AcidGr/dsh-web-mobile-fix/blob/bba4d83bfb1aac90c209fb5602428cbb9bb3fcc7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-mobile-fix",
+          "command": "dsh plugin --profile web add dsh-web-mobile-fix",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AcidGr/dsh-web-mobile-fix",
+          "command": "dsh plugin --profile web add github:AcidGr/dsh-web-mobile-fix",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d6b240d924285f670d4f6026935bdea01981af2d26501ce71e4c804962abaf7a",
+      "url": "https://github.com/AcidGr/dsh-web-mobile-fix/blob/bba4d83bfb1aac90c209fb5602428cbb9bb3fcc7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-mobile-fix",
+          "command": "dsh plugin --profile web add dsh-web-mobile-fix",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AcidGr/dsh-web-mobile-fix",
+          "command": "dsh plugin --profile web add github:AcidGr/dsh-web-mobile-fix",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-mobile-fix",
+      "version": "1.0.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AcidGr/dsh-web-mobile-fix",
+        "commit": "bba4d83bfb1aac90c209fb5602428cbb9bb3fcc7"
+      },
+      "manifestSha256": "d08dd2c113c2797996fe3152ab5d13de9fb948b4864b516e8a588594097699cb",
+      "manifestUrl": "https://github.com/AcidGr/dsh-web-mobile-fix/blob/bba4d83bfb1aac90c209fb5602428cbb9bb3fcc7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-web-mobile-fix",
+        "versions": [
+          {
+            "version": "1.0.8",
+            "publishTimestamp": 1790256371,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AcidGr/dsh-web-mobile-fix",
+              "commit": "bba4d83bfb1aac90c209fb5602428cbb9bb3fcc7"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-web-mobile-fix",
+      "origin": "npm",
+      "name": "dsh-web-mobile-fix",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-web-mobile-fix",
+        "title": "dsh-web-mobile-fix",
+        "description": "Mobile layout fixes for the DeepSeek Harness Web UI: settings panel and sidebar on narrow (≤700px) screens. Pure client-side CSS overlay.",
+        "homepage": "https://github.com/AcidGr/dsh-web-mobile-fix",
+        "repository": {
+          "url": "https://github.com/AcidGr/dsh-web-mobile-fix"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "mobile",
+            "web-ui",
+            "css"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.6",
+            "publishTimestamp": 1789115423,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "02b4bbcc4cd5bb2877e7831e161aa1951f5637c4352da5cd4933873d524d55bf",
+      "evidence": [
+        {
+          "name": "dsh-web-mobile-fix",
+          "version": "1.0.6",
+          "tarball": "https://registry.npmjs.org/dsh-web-mobile-fix/-/dsh-web-mobile-fix-1.0.6.tgz",
+          "integrity": "sha512-Q+OAYAe268FhPe/915RDEWdVmln1H6QzJiJ+NN86/S4cC1q+7sAhFWblZUhhKVMbQEmSJDI+GQC0dQoMpXFJ2Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-web-mobile-fix",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AcidGr/dsh-web-mobile-fix",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AcidGr/dsh-web-mobile-fix",
+    "commit": "bba4d83bfb1aac90c209fb5602428cbb9bb3fcc7",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:39.587Z"
+}

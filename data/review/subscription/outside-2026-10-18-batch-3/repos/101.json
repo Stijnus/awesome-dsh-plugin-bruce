@@ -1,0 +1,165 @@
+{
+  "full_name": "xiaoso456/dsh-tool-plus",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:23.437Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b9d9f91fc605b02314d70dac999210db5ff10a2d6c8ed449ef6872a5d0ad8ebb",
+      "url": "https://github.com/xiaoso456/dsh-tool-plus/blob/353ac0a17a71f160d29afe75a1de15cf0af406ba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xiaoso/dsh-tool-plus",
+          "command": "dsh plugin --profile web add --allow-build=@xiaoso/dsh-tool-plus --allow-build=koffi @xiaoso/dsh-tool-plus",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c1b626b7d438ac0945b41bf3529ee1ffebe5fc5b1327fb0a8caa1408e7fe27d6",
+      "url": "https://github.com/xiaoso456/dsh-tool-plus/blob/353ac0a17a71f160d29afe75a1de15cf0af406ba/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xiaoso/dsh-tool-plus",
+          "command": "dsh plugin --profile web add --allow-build=@xiaoso/dsh-tool-plus --allow-build=koffi @xiaoso/dsh-tool-plus",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xiaoso/dsh-tool-plus",
+      "version": "0.1.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaoso456/dsh-tool-plus",
+        "commit": "353ac0a17a71f160d29afe75a1de15cf0af406ba"
+      },
+      "manifestSha256": "b158fc0f549ec499433b55426e54fe08c050345baa942e23c32607952ef0576c",
+      "manifestUrl": "https://github.com/xiaoso456/dsh-tool-plus/blob/353ac0a17a71f160d29afe75a1de15cf0af406ba/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@xiaoso/dsh-tool-plus",
+        "versions": [
+          {
+            "version": "0.1.14",
+            "publishTimestamp": 1792225577,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaoso456/dsh-tool-plus",
+              "commit": "353ac0a17a71f160d29afe75a1de15cf0af406ba"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@xiaoso/dsh-tool-plus",
+      "origin": "npm",
+      "name": "@xiaoso/dsh-tool-plus",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@xiaoso/dsh-tool-plus",
+        "title": {
+          "en": "Oh My Pi Tools",
+          "zh": "Oh My Pi 工具增强"
+        },
+        "description": {
+          "en": "Persistent bash, structured read, multi-mode edit, atomic write and safe delete — one plugin that takes over the stock file and shell tools.",
+          "zh": "持久 bash、结构化 read、多模式 edit、原子 write、安全删除，一套插件接管官方基础工具。"
+        },
+        "homepage": "https://github.com/xiaoso456/dsh-tool-plus#readme",
+        "repository": {
+          "url": "https://github.com/xiaoso456/dsh-tool-plus"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cli",
+            "coding-agent",
+            "agent-tools",
+            "bash",
+            "persistent-shell",
+            "file-tools",
+            "code-search",
+            "code-editing",
+            "ast-grep",
+            "tool-enhancement",
+            "oh-my-pi"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.14",
+            "publishTimestamp": 1792224673,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f07e02e430e033062e23d3ad9ff6c6e362da47ff02f3f44d3b909755c21fc990",
+      "evidence": [
+        {
+          "name": "@xiaoso/dsh-tool-plus",
+          "version": "0.1.14",
+          "tarball": "https://registry.npmjs.org/@xiaoso/dsh-tool-plus/-/dsh-tool-plus-0.1.14.tgz",
+          "integrity": "sha512-+toVA2IyNL/F2n8Fjddj7LlUKmsVMzcjpiiPX1AUDhbHBZt2fnNvihnLMaPlA9kikW/w5KeEJJshIkGI/sQ4Uw=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "@xiaoso/dsh-tool-plus",
+          "code": "metadata_warning",
+          "status": "warning",
+          "reason": "图标超过 32 KiB 内联上限，已省略"
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@xiaoso/dsh-tool-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaoso456/dsh-tool-plus",
+    "commit": "353ac0a17a71f160d29afe75a1de15cf0af406ba",
+    "releaseTags": 50,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:34.352Z"
+}

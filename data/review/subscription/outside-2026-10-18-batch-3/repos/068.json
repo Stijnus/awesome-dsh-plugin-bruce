@@ -1,0 +1,229 @@
+{
+  "full_name": "WindyPro-rourou/dsh-logcat",
+  "originalPosition": 68,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 68,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:40.888Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fc876e968e849faea8d09ed6fc1f0fe446a9082490a5bd9fc92b245c0712a81d",
+      "url": "https://github.com/WindyPro-rourou/dsh-logcat/blob/5f0fe50e754e4ac27cfa45091d45ce44604ffc30/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@windypro-rourou/dsh-logcat",
+          "command": "dsh plugin --profile web add @windypro-rourou/dsh-logcat",
+          "profile": "web"
+        },
+        {
+          "install": "@windypro-rourou/dsh-logcat@latest",
+          "command": "dsh plugin --profile web add @windypro-rourou/dsh-logcat@latest",
+          "profile": "web"
+        },
+        {
+          "install": "@windypro-rourou/dsh-logcat@preview",
+          "command": "dsh plugin --profile web add @windypro-rourou/dsh-logcat@preview",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "f77712c9205e3e819a2f67131e868afa241c1424c51e65c5c6cb16e6bb5c515f",
+      "url": "https://github.com/WindyPro-rourou/dsh-logcat/blob/5f0fe50e754e4ac27cfa45091d45ce44604ffc30/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@windypro-rourou/dsh-logcat",
+          "command": "dsh plugin --profile web add @windypro-rourou/dsh-logcat",
+          "profile": "web"
+        },
+        {
+          "install": "@windypro-rourou/dsh-logcat@latest",
+          "command": "dsh plugin --profile web add @windypro-rourou/dsh-logcat@latest",
+          "profile": "web"
+        },
+        {
+          "install": "@windypro-rourou/dsh-logcat@preview",
+          "command": "dsh plugin --profile web add @windypro-rourou/dsh-logcat@preview",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@windypro-rourou/dsh-logcat",
+      "version": "0.8.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WindyPro-rourou/dsh-logcat",
+        "commit": "5f0fe50e754e4ac27cfa45091d45ce44604ffc30"
+      },
+      "manifestSha256": "ba0dc9a002773d7f3a4f70211eaef742c8257e678103e1efa23d41758ee6bfbf",
+      "manifestUrl": "https://github.com/WindyPro-rourou/dsh-logcat/blob/5f0fe50e754e4ac27cfa45091d45ce44604ffc30/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@windypro-rourou/dsh-logcat",
+        "versions": [
+          {
+            "version": "0.8.3",
+            "publishTimestamp": 1792264826,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WindyPro-rourou/dsh-logcat",
+              "commit": "5f0fe50e754e4ac27cfa45091d45ce44604ffc30"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@windypro-rourou/dsh-logcat",
+      "origin": "npm",
+      "name": "@windypro-rourou/dsh-logcat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@windypro-rourou/dsh-logcat",
+        "title": "@windypro-rourou/dsh-logcat",
+        "description": "Android Logcat viewer for the dsh web GUI: auto-connects to any adb device in debug mode, live logcat stream with level/keyword filters, pause/clear/export, plus agent tools (logcat_recent). Hot-pluggable — mounted via ~/.dsh/cordis.patch.yml + a profile node_modules copy, no dsh source changes.",
+        "repository": {
+          "url": "https://github.com/WindyPro-rourou/dsh-logcat"
+        },
+        "versions": [
+          {
+            "version": "0.8.3",
+            "publishTimestamp": 1792259650,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "33cfdfdcebf8f50addc745af378814af7a8aa22547ad58acc47f92cb7f497908",
+      "evidence": [
+        {
+          "name": "@windypro-rourou/dsh-logcat",
+          "version": "0.8.3",
+          "tarball": "https://registry.npmjs.org/@windypro-rourou/dsh-logcat/-/dsh-logcat-0.8.3.tgz",
+          "integrity": "sha512-lRivm0cI6nmDmATUQ5IEOokkCaOU/RqMhw7j2pgRAUsVmpiPDzwhoQzEvAKgeRvnf3zIIwZmAlU+LhRw7K5v+w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@windypro-rourou/dsh-logcat@latest",
+      "origin": "npm",
+      "name": "@windypro-rourou/dsh-logcat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@windypro-rourou/dsh-logcat",
+        "title": "@windypro-rourou/dsh-logcat",
+        "description": "Android Logcat viewer for the dsh web GUI: auto-connects to any adb device in debug mode, live logcat stream with level/keyword filters, pause/clear/export, plus agent tools (logcat_recent). Hot-pluggable — mounted via ~/.dsh/cordis.patch.yml + a profile node_modules copy, no dsh source changes.",
+        "repository": {
+          "url": "https://github.com/WindyPro-rourou/dsh-logcat"
+        },
+        "versions": [
+          {
+            "version": "0.8.3",
+            "publishTimestamp": 1792259650,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "33cfdfdcebf8f50addc745af378814af7a8aa22547ad58acc47f92cb7f497908",
+      "evidence": [
+        {
+          "name": "@windypro-rourou/dsh-logcat",
+          "version": "0.8.3",
+          "tarball": "https://registry.npmjs.org/@windypro-rourou/dsh-logcat/-/dsh-logcat-0.8.3.tgz",
+          "integrity": "sha512-lRivm0cI6nmDmATUQ5IEOokkCaOU/RqMhw7j2pgRAUsVmpiPDzwhoQzEvAKgeRvnf3zIIwZmAlU+LhRw7K5v+w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@windypro-rourou/dsh-logcat@preview",
+      "origin": "npm",
+      "name": "@windypro-rourou/dsh-logcat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@windypro-rourou/dsh-logcat",
+        "title": "@windypro-rourou/dsh-logcat",
+        "description": "Android Logcat viewer for the dsh web GUI: auto-connects to any adb device in debug mode, live logcat stream with level/keyword filters, pause/clear/export, plus agent tools (logcat_recent). Hot-pluggable — mounted via ~/.dsh/cordis.patch.yml + a profile node_modules copy, no dsh source changes.",
+        "repository": {
+          "url": "https://github.com/WindyPro-rourou/dsh-logcat"
+        },
+        "versions": [
+          {
+            "version": "0.6.0-preview.5",
+            "publishTimestamp": 1787525504,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "33cfdfdcebf8f50addc745af378814af7a8aa22547ad58acc47f92cb7f497908",
+      "evidence": [
+        {
+          "name": "@windypro-rourou/dsh-logcat",
+          "version": "0.6.0-preview.5",
+          "tarball": "https://registry.npmjs.org/@windypro-rourou/dsh-logcat/-/dsh-logcat-0.6.0-preview.5.tgz",
+          "integrity": "sha512-D5MIRwMSe4bExxWZ4oxs5/V8BsGYUdw5jTsLInDlzRD80NuKhYhzpeERX0Lxq6h4hFm7KLcdEuaEPRaTCO9VTA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@windypro-rourou/dsh-logcat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@windypro-rourou/dsh-logcat@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@windypro-rourou/dsh-logcat@preview",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WindyPro-rourou/dsh-logcat",
+    "commit": "5f0fe50e754e4ac27cfa45091d45ce44604ffc30",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:47.819Z"
+}

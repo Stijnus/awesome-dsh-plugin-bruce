@@ -1,0 +1,223 @@
+{
+  "full_name": "PerryLink/dsh-composer-history",
+  "originalPosition": 30,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 30,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:45.690Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9341ff10d638f18ff28563919d8672465ee07fef6dc28a8cec2cc281129352de",
+      "url": "https://github.com/PerryLink/dsh-composer-history/blob/131cefa81d916da5fd2856c8b6aaae9c57658c55/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-composer-history",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-composer-history",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-composer-history",
+          "command": "dsh plugin --profile web add dsh-composer-history",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "26a8825688d62f0436378e27d5a71ed6cc20e140241e29191b1f702e65bc0285",
+      "url": "https://github.com/PerryLink/dsh-composer-history/blob/131cefa81d916da5fd2856c8b6aaae9c57658c55/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-composer-history",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-composer-history",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-composer-history",
+          "command": "dsh plugin --profile web add dsh-composer-history",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "0050c115250ac0915f5bdcb9c2cd210b25ee3ef766f6dbf3a97e6f5b9e085b0d",
+      "url": "https://github.com/PerryLink/dsh-composer-history/blob/131cefa81d916da5fd2856c8b6aaae9c57658c55/README-es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-composer-history",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-composer-history",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-composer-history",
+          "command": "dsh plugin --profile web add dsh-composer-history",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "34362fd8fe3a27c7c438f84986eab9acfc29ec93e28bee781a20c58a07eb82f3",
+      "url": "https://github.com/PerryLink/dsh-composer-history/blob/131cefa81d916da5fd2856c8b6aaae9c57658c55/README-pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-composer-history",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-composer-history",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-composer-history",
+          "command": "dsh plugin --profile web add dsh-composer-history",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "3ae6d794d2d367ffc42938a6207718a201a27f2d864345ecf13043986bb50f7b",
+      "url": "https://github.com/PerryLink/dsh-composer-history/blob/131cefa81d916da5fd2856c8b6aaae9c57658c55/README-hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-composer-history",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-composer-history",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-composer-history",
+          "command": "dsh plugin --profile web add dsh-composer-history",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-composer-history",
+      "version": "0.8.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-composer-history",
+        "commit": "131cefa81d916da5fd2856c8b6aaae9c57658c55"
+      },
+      "manifestSha256": "0969140f43597564a55e08ce5b3f8b4077ab9cfcdd9341ebb25f90e709bcb3a3",
+      "manifestUrl": "https://github.com/PerryLink/dsh-composer-history/blob/131cefa81d916da5fd2856c8b6aaae9c57658c55/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-composer-history",
+        "versions": [
+          {
+            "version": "0.8.12",
+            "publishTimestamp": 1791812998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-composer-history",
+              "commit": "131cefa81d916da5fd2856c8b6aaae9c57658c55"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-composer-history",
+      "origin": "npm",
+      "name": "dsh-composer-history",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-composer-history",
+        "title": "dsh-composer-history",
+        "description": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace-scoped recall, and fully configurable keys — plus sliding-context awareness (compaction summaries join recall/search, a compaction notice with one-click /compact fill) layered on the ordinary composer draft only.",
+        "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-composer-history"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "web-gui",
+            "composer",
+            "input-history",
+            "keyboard-shortcuts",
+            "terminal",
+            "compaction",
+            "sliding-context",
+            "context-window",
+            "typescript",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.12",
+            "publishTimestamp": 1791610610,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "33527d024aedbfeaaada08c3c42b11cfc6ddf242e5187c39266e8aa67ee8321d",
+      "evidence": [
+        {
+          "name": "dsh-composer-history",
+          "version": "0.8.12",
+          "tarball": "https://registry.npmjs.org/dsh-composer-history/-/dsh-composer-history-0.8.12.tgz",
+          "integrity": "sha512-gToU7ZGgbZoEA7ofxjMoV+1hKUn6+Gn3tOFW1vslrx0/mw879IDs6+TVGA81ppceDPYZr9HpnLMa7tgYJy+f4g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-composer-history",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-composer-history",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-composer-history",
+    "commit": "131cefa81d916da5fd2856c8b6aaae9c57658c55",
+    "releaseTags": 30,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:51.530Z"
+}

@@ -1,0 +1,91 @@
+{
+  "full_name": "Ayase34/wallpaper-plugin",
+  "originalPosition": 84,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 84,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:02.900Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1b54d429862f3ba9dfa33471e574eae22c644b5c383ac3265f8547fbfe31f3db",
+      "url": "https://github.com/Ayase34/wallpaper-plugin/blob/e0d2389f9be0858b83bab1ab645ee7d29b4881cc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ayase34/wallpaper-plugin",
+          "command": "dsh plugin --profile <name> add github:Ayase34/wallpaper-plugin",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "543d0348c07ea013124720707e8f273e28e90f1c68fb2adf53fb376525c7f888",
+      "url": "https://github.com/Ayase34/wallpaper-plugin/blob/e0d2389f9be0858b83bab1ab645ee7d29b4881cc/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ayase34/wallpaper-plugin",
+          "command": "dsh plugin --profile <name> add github:Ayase34/wallpaper-plugin",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "wallpaper-plugin",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ayase34/wallpaper-plugin",
+        "commit": "e0d2389f9be0858b83bab1ab645ee7d29b4881cc"
+      },
+      "manifestSha256": "fa6cb60a2ed8927fc2f81112f381c4ab50740e48c9a5bd5d86e8cfa89f0387cd",
+      "manifestUrl": "https://github.com/Ayase34/wallpaper-plugin/blob/e0d2389f9be0858b83bab1ab645ee7d29b4881cc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "wallpaper-plugin",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792251771,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ayase34/wallpaper-plugin",
+              "commit": "e0d2389f9be0858b83bab1ab645ee7d29b4881cc"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Ayase34/wallpaper-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ayase34/wallpaper-plugin",
+    "commit": "e0d2389f9be0858b83bab1ab645ee7d29b4881cc",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:09.234Z"
+}

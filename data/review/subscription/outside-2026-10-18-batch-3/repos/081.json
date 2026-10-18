@@ -1,0 +1,143 @@
+{
+  "full_name": "huashenglian/dsh-livechat",
+  "originalPosition": 81,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 81,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:59.195Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ee00cb0db39fa0878b06bdcf6ea6d1713b42cb946a0f2bdd67bb69d8c378efa4",
+      "url": "https://github.com/huashenglian/dsh-livechat/blob/9ab4501aa32bbeb1475027c69f3a48a0a4301f9a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-livechat",
+          "command": "dsh plugin --profile web add dsh-livechat",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/huashenglian/dsh-livechat",
+          "command": "dsh plugin --profile web add github:huashenglian/dsh-livechat",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "99b9a7218aa4d16395ae23f8a0df4765259e01c07c3c29457e1c2e2cd1b908b0",
+      "url": "https://github.com/huashenglian/dsh-livechat/blob/9ab4501aa32bbeb1475027c69f3a48a0a4301f9a/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-livechat",
+          "command": "dsh plugin --profile web add dsh-livechat",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/huashenglian/dsh-livechat",
+          "command": "dsh plugin --profile web add github:huashenglian/dsh-livechat",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-livechat",
+      "version": "0.6.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huashenglian/dsh-livechat",
+        "commit": "9ab4501aa32bbeb1475027c69f3a48a0a4301f9a"
+      },
+      "manifestSha256": "abcc71d97bf1645a4f92d7b94fc7a81f23763c9a35b695ca030b3f54f1438d7b",
+      "manifestUrl": "https://github.com/huashenglian/dsh-livechat/blob/9ab4501aa32bbeb1475027c69f3a48a0a4301f9a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-livechat",
+        "versions": [
+          {
+            "version": "0.6.10",
+            "publishTimestamp": 1791823290,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/huashenglian/dsh-livechat",
+              "commit": "9ab4501aa32bbeb1475027c69f3a48a0a4301f9a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-livechat",
+      "origin": "npm",
+      "name": "dsh-livechat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-livechat",
+        "title": "dsh-livechat",
+        "description": "Bilibili-style live-chat danmaku overlay for DeepSeek Harness Web: preset packs (general/coding/casual), optional LLM-generated quips with smart/interval/tool-call wake modes, draggable control ball, per-session danmaku pools with history replay + archive/restore, heat bar, and a full settings card. / 给 DeepSeek Harness Web 对话区叠加 B 站风格弹幕：预设包、可选 LLM 吐槽（智能/间隔/工具调用唤醒）、拖球、分会话弹幕库（历史回放+归档/恢复）、热度条与完整设置卡。",
+        "homepage": "https://github.com/huashenglian/dsh-livechat",
+        "repository": {
+          "url": "https://github.com/huashenglian/dsh-livechat"
+        },
+        "versions": [
+          {
+            "version": "0.6.10",
+            "publishTimestamp": 1791823718,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7acff33c5c1172d5ccca422bc4c9ceffe3b0d17eb9fd33366fda4779c7c96fe7",
+      "evidence": [
+        {
+          "name": "dsh-livechat",
+          "version": "0.6.10",
+          "tarball": "https://registry.npmjs.org/dsh-livechat/-/dsh-livechat-0.6.10.tgz",
+          "integrity": "sha512-C66B4OP1L5wxYyYhwmpVPvM2NjPOUjZJ/dzvtbKX5aaq/tNuo5q2dBCv/nVNtV8tZmYXQVxHdE8aVStJjzAxSA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-livechat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/huashenglian/dsh-livechat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huashenglian/dsh-livechat",
+    "commit": "9ab4501aa32bbeb1475027c69f3a48a0a4301f9a",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:08.161Z"
+}

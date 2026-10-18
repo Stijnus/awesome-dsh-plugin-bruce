@@ -1,0 +1,140 @@
+{
+  "full_name": "MichengAI/dsh-btw",
+  "originalPosition": 194,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 194,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:41.239Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "363d7b2c35f93c7146379f754af1a5921ab3ea2fcca42ee01b249a0d6d59bb4b",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/24285a1dbbae648da497cc9694d98fe63fb67020/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/. Then run dsh --profile web --dump-config, confirm the configuration includes",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "216269d9b907dcffa1b80b16b7bc9ebf5bab4e0a4929a821f9b61128b04bed11",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/24285a1dbbae648da497cc9694d98fe63fb67020/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-btw",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-btw",
+        "commit": "24285a1dbbae648da497cc9694d98fe63fb67020"
+      },
+      "manifestSha256": "459710a77488367339539eedb3d1ccf2c2ea145df6fb568595f561cdf9f7e848",
+      "manifestUrl": "https://github.com/MichengAI/dsh-btw/blob/24285a1dbbae648da497cc9694d98fe63fb67020/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@michengai/dsh-btw",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792227112,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MichengAI/dsh-btw",
+              "commit": "24285a1dbbae648da497cc9694d98fe63fb67020"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@michengai/dsh-btw@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-btw",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@michengai/dsh-btw",
+        "title": {
+          "en": "BTW",
+          "zh": "BTW"
+        },
+        "description": {
+          "en": "Answers from the current context in an independent bubble, without running tools.",
+          "zh": "基于当前上下文回答，独立气泡，不执行工具。"
+        },
+        "homepage": "https://github.com/MichengAI/dsh-btw#readme",
+        "repository": {
+          "url": "https://github.com/MichengAI/dsh-btw"
+        },
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792228127,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "962cefc0f27ee1bceba81584a28579a24b99a6de7c21d4b2df4435f6aeb212b4",
+      "evidence": [
+        {
+          "name": "@michengai/dsh-btw",
+          "version": "1.0.0",
+          "tarball": "https://registry.npmjs.org/@michengai/dsh-btw/-/dsh-btw-1.0.0.tgz",
+          "integrity": "sha512-GuPk6t0635ls6zjWjwGhJr0YhZ7LKME0G7+df5I3qIpkGJUow9dENTSrUHcin9WpSuFUNNYdclEq/dial8E28g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@michengai/dsh-btw@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-btw",
+    "commit": "24285a1dbbae648da497cc9694d98fe63fb67020",
+    "releaseTags": 26,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:48.092Z"
+}

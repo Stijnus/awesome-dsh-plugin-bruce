@@ -1,5 +1,10 @@
-/** Subscription candidates are independent of the community directory's size cap. */
-import { filterPool, buildEntry, categoryForRepo } from '../market.mjs'
+/** Build the verified candidate pool; the generator applies the final 600-plugin cap. */
+import {
+  SELF_EXCLUDED_REPOS,
+  buildEntry,
+  categoryForRepo,
+  filterPool,
+} from '../market.mjs'
 import { packagesBlockFor } from '../market-v2.mjs'
 const compare = (a, b) => b.stargazers_count - a.stargazers_count || (a.full_name < b.full_name ? -1 : a.full_name > b.full_name ? 1 : 0)
 export function buildCandidates({ market, snapshot, curated, approved, packages }) {
@@ -9,6 +14,12 @@ export function buildCandidates({ market, snapshot, curated, approved, packages 
   const seen = new Set(existing.map(row => row.full_name.toLowerCase()))
   const mappings = new Map(Object.entries(packages.entries).map(([key, value]) => [key.toLowerCase(), value]))
   const { repos } = filterPool(snapshot, curated, approved)
+  const excludedRepositories = [...new Set([
+    ...Object.keys(curated.excluded_repos || {}),
+    ...Object.keys(curated.leaderboard_exclusions || {}),
+    ...Object.keys(curated.market_exclusions || {}),
+    ...SELF_EXCLUDED_REPOS,
+  ].map((name) => name.toLowerCase()))].sort()
   const extra = [], pending = []
   let manual = 0
   for (const { repo, category } of repos) {
@@ -38,10 +49,12 @@ export function buildCandidates({ market, snapshot, curated, approved, packages 
   }
   return {
     ...market,
+    excludedRepositories,
     entries: [...unique.values(), ...extra].sort(compare),
     featured: { ...market.featured, entries: [] },
     subscriptionCandidates: {
       policy: 'approved-mapped-pool-v1',
+      selectionPolicy: 'top-600-verified-plugins-by-stars-v1',
       communityRepositories: market.entries.length,
       eligiblePoolRepositories: repos.length,
       additionalMappedRepositories: extra.map(row => row.full_name),
@@ -49,7 +62,7 @@ export function buildCandidates({ market, snapshot, curated, approved, packages 
       outsideDirectoryWithoutMapping: pending.length,
       pendingPreview: pending.slice(0, 200),
       pendingPreviewLimit: 200,
-      note: 'Missing mappings are pending evidence, not incompatibility. Candidates still require source verification; repository and package counts differ.',
+      note: 'Missing mappings are pending evidence, not incompatibility. Every candidate is source-verified before the final top-600-by-stars selection; repository and package counts differ.',
     },
   }
 }

@@ -1,0 +1,172 @@
+{
+  "full_name": "chromoany/dsh-notify-me",
+  "originalPosition": 55,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 55,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:53.768Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7fccf4ee361df7ce93f3f8e4066f630888fa0aac4fa221070f5f941cc0946bee",
+      "url": "https://github.com/chromoany/dsh-notify-me/blob/ca8493fad24f57cca7835c5d7070e474430d1a84/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-notify-me",
+          "command": "dsh plugin --profile web add dsh-notify-me",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b2a14bcda85df1264804e560fde4a050b6fea13b4145e6c49adb2032243ac2fd",
+      "url": "https://github.com/chromoany/dsh-notify-me/blob/ca8493fad24f57cca7835c5d7070e474430d1a84/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-notify-me",
+          "command": "dsh plugin --profile web add dsh-notify-me",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-notify-me",
+      "version": "1.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chromoany/dsh-notify-me",
+        "commit": "ca8493fad24f57cca7835c5d7070e474430d1a84"
+      },
+      "manifestSha256": "7f8b4123ce48842a9d21bcb15448a8d4692cf763ddb269be4d1092cb7e8c422e",
+      "manifestUrl": "https://github.com/chromoany/dsh-notify-me/blob/ca8493fad24f57cca7835c5d7070e474430d1a84/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.1.1-rc.2 || ^0.1.2-rc.1 || ^0.1.5-rc.1 || >=0.1.6-alpha.2 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-notify-me",
+        "versions": [
+          {
+            "version": "1.7.0",
+            "publishTimestamp": 1792112366,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chromoany/dsh-notify-me",
+              "commit": "ca8493fad24f57cca7835c5d7070e474430d1a84"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.2 || ^0.1.2-rc.1 || ^0.1.5-rc.1 || >=0.1.6-alpha.2 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-notify-me",
+      "origin": "npm",
+      "name": "dsh-notify-me",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-notify-me",
+        "title": "dsh-notify-me",
+        "description": "DSH 桌面消息提醒插件：模型需要你操作（审批/方案确认/提问的可操作提醒）或回复在后台完成时，系统通知+提示音+标签页标题提醒你；权限审批的通知上可直接点「同意/拒绝」完成裁决；可把提醒转发到 Discord Webhook / Bark / Gotify / 自定义 Webhook 等外部通知；可在设置页开关并切换通知语言。Desktop notification & message alerts for DeepSeek Harness web — toasts, sounds and a tab-title marker when the agent needs your input (approval / plan review / question) or a reply finishes in the background, Approve/Reject buttons on approval toasts to decide right from the notification, forwarding to external webhooks (Discord / Bark / Gotify / custom); toggleable from Settings with zh/en notification language.",
+        "author": "chromoany",
+        "homepage": "https://github.com/chromoany/dsh-notify-me#readme",
+        "repository": {
+          "url": "https://github.com/chromoany/dsh-notify-me"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dsh-web",
+            "notification",
+            "desktop-notification",
+            "notify",
+            "notifications",
+            "alerts",
+            "reminder",
+            "reminders",
+            "message-alert",
+            "needs-your-input",
+            "approval-alert",
+            "approval-actions",
+            "background-alert",
+            "external-notification",
+            "webhook",
+            "discord",
+            "bark",
+            "gotify",
+            "push-notification",
+            "桌面通知",
+            "消息提醒",
+            "可操作提醒",
+            "审批提醒",
+            "提醒插件",
+            "需要你操作",
+            "回复完成提醒",
+            "后台完成提醒",
+            "外部通知",
+            "推送提醒",
+            "提醒"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.7.0",
+            "publishTimestamp": 1792085002,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.2 || ^0.1.2-rc.1 || ^0.1.5-rc.1 || >=0.1.6-alpha.2 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6b6af43a1980d8e5c34bb0896bfd9c8ab9a36050708168d1c32048f4c1ddeec5",
+      "evidence": [
+        {
+          "name": "dsh-notify-me",
+          "version": "1.7.0",
+          "tarball": "https://registry.npmjs.org/dsh-notify-me/-/dsh-notify-me-1.7.0.tgz",
+          "integrity": "sha512-QDGHTuq3eQeAYzmlRPlhTe9QOmkFn5jHF2J8pJj2LJI1lxTNqeJD4NFpVu2IMvsdCPuBrGgYM2ZrEDgWO8fHcw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-notify-me",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chromoany/dsh-notify-me",
+    "commit": "ca8493fad24f57cca7835c5d7070e474430d1a84",
+    "releaseTags": 21,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:59.489Z"
+}

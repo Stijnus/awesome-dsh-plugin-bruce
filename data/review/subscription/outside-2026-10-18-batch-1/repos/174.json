@@ -1,0 +1,159 @@
+{
+  "full_name": "jiesou/dsh-commandcode-go-provider",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:10.170Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e0658c82229e205d42aab772f99525f23b17a3e261a1311f453894b22dbdac0f",
+      "url": "https://github.com/jiesou/dsh-commandcode-go-provider/blob/2b1702b1ff53116da5819ab50bf56d1b590f7df4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jiesou/dsh-commandcode-go-provider",
+          "command": "dsh plugin --profile web add @jiesou/dsh-commandcode-go-provider",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/jiesou/dsh-commandcode-go-provider",
+          "command": "dsh plugin --profile web add github:jiesou/dsh-commandcode-go-provider",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "f0d31fa829f8230846c1c64adc9d906392d081c6663555d9f62cc9918fe6446f",
+      "url": "https://github.com/jiesou/dsh-commandcode-go-provider/blob/2b1702b1ff53116da5819ab50bf56d1b590f7df4/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jiesou/dsh-commandcode-go-provider",
+          "command": "dsh plugin --profile web add @jiesou/dsh-commandcode-go-provider",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/jiesou/dsh-commandcode-go-provider",
+          "command": "dsh plugin --profile web add github:jiesou/dsh-commandcode-go-provider",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@jiesou/dsh-commandcode-go-provider",
+      "version": "0.1.15",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiesou/dsh-commandcode-go-provider",
+        "commit": "2b1702b1ff53116da5819ab50bf56d1b590f7df4"
+      },
+      "manifestSha256": "6054f66c4a845153013f868629151fb252424f4dadef96c9ba6cc14e0d2273fa",
+      "manifestUrl": "https://github.com/jiesou/dsh-commandcode-go-provider/blob/2b1702b1ff53116da5819ab50bf56d1b590f7df4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@jiesou/dsh-commandcode-go-provider",
+        "versions": [
+          {
+            "version": "0.1.15",
+            "publishTimestamp": 1791008122,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiesou/dsh-commandcode-go-provider",
+              "commit": "2b1702b1ff53116da5819ab50bf56d1b590f7df4"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@jiesou/dsh-commandcode-go-provider",
+      "origin": "npm",
+      "name": "@jiesou/dsh-commandcode-go-provider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jiesou/dsh-commandcode-go-provider",
+        "title": "@jiesou/dsh-commandcode-go-provider",
+        "description": "Command Code Go provider adapter for dsh: scan the Go-plan model catalog dynamically and serve /alpha/generate through the harness LLM seam",
+        "repository": {
+          "url": "https://github.com/jiesou/dsh-commandcode-go-provider"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "commandcode",
+            "commandcode-go",
+            "llm-provider",
+            "dsh-bundle"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.15",
+            "publishTimestamp": 1791008326,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "989e21fd24d496a9e938c73e5e4fd0faafa300136a02b0b6ca2dc8de5c83f3ac",
+      "evidence": [
+        {
+          "name": "@jiesou/dsh-commandcode-go-provider",
+          "version": "0.1.15",
+          "tarball": "https://registry.npmjs.org/@jiesou/dsh-commandcode-go-provider/-/dsh-commandcode-go-provider-0.1.15.tgz",
+          "integrity": "sha512-ODlhkDst+WXd2r+ibFvlt2Tz89AFtlXPFS0hsBk3rygL1u6jRa8bt6RuqcZZjYnQFWn4v9FXV0h71hGNXsZRfw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jiesou/dsh-commandcode-go-provider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/jiesou/dsh-commandcode-go-provider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jiesou/dsh-commandcode-go-provider",
+    "commit": "2b1702b1ff53116da5819ab50bf56d1b590f7df4",
+    "releaseTags": 14,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:15.311Z"
+}

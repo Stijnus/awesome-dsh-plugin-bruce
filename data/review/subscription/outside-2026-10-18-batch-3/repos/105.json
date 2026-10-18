@@ -1,0 +1,134 @@
+{
+  "full_name": "131CDA1/dsh-scrape-webpage",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:28.161Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "472fa529dc4021f0360de69b32f26f7e33e9f18b86a088278d05b5d8cba58b17",
+      "url": "https://github.com/131CDA1/dsh-scrape-webpage/blob/7485af10c063579323058583c7f13e69c4c8bd21/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-scrape-webpage",
+          "command": "dsh plugin --profile web add dsh-scrape-webpage",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/131CDA1/dsh-scrape-webpage",
+          "command": "dsh plugin --profile web add \"github:131CDA1/dsh-scrape-webpage\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-scrape-webpage",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/131CDA1/dsh-scrape-webpage",
+        "commit": "7485af10c063579323058583c7f13e69c4c8bd21"
+      },
+      "manifestSha256": "4b0c8c003ae8e0a3f8ded6cd74b724c8c6613f4778c175ed84e791e423e468cf",
+      "manifestUrl": "https://github.com/131CDA1/dsh-scrape-webpage/blob/7485af10c063579323058583c7f13e69c4c8bd21/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-scrape-webpage",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1787207159,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/131CDA1/dsh-scrape-webpage",
+              "commit": "7485af10c063579323058583c7f13e69c4c8bd21"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-scrape-webpage",
+      "origin": "npm",
+      "name": "dsh-scrape-webpage",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-scrape-webpage",
+        "title": "dsh-scrape-webpage",
+        "description": "网页抓取与分析插件：抓取网页正文并给出统计与关键词分析，支持内容图片下载与识图分析器扩展接口。",
+        "author": "131CDA1",
+        "homepage": "https://github.com/131CDA1/dsh-scrape-webpage#readme",
+        "repository": {
+          "url": "https://github.com/131CDA1/dsh-scrape-webpage"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "plugin",
+            "scrape",
+            "web",
+            "web-scraper"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1787206685,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "930ab327ef7c0a34b311070d83e9e03d87e729f032d89845bf24009243988ad6",
+      "evidence": [
+        {
+          "name": "dsh-scrape-webpage",
+          "version": "1.0.0",
+          "tarball": "https://registry.npmjs.org/dsh-scrape-webpage/-/dsh-scrape-webpage-1.0.0.tgz",
+          "integrity": "sha512-80IRvkm4WCZH8jpEmtAPLLYCkxrHgcMMUAoc7UGn8mZUY09KA6BpjhuHeLs81gquCym7vrU1tlBjVYNlJhdMOQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-scrape-webpage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/131CDA1/dsh-scrape-webpage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/131CDA1/dsh-scrape-webpage",
+    "commit": "7485af10c063579323058583c7f13e69c4c8bd21",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:33.099Z"
+}

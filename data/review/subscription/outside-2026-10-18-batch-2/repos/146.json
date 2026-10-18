@@ -1,0 +1,132 @@
+{
+  "full_name": "DDDMUC/dsh-delete-session",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:27.766Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0d293177794aaa6e0fbfbac8ed2884a8418fd5d3e149f892279ab5f708b2d82f",
+      "url": "https://github.com/DDDMUC/dsh-delete-session/blob/2b652a6c9c7a0b016b3d863b59ec9cfe1d4f04c4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-delete-session",
+          "command": "dsh plugin --profile web add dsh-delete-session",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/DDDMUC/dsh-delete-session",
+          "command": "dsh plugin --profile web add github:DDDMUC/dsh-delete-session",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-delete-session",
+      "version": "0.1.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DDDMUC/dsh-delete-session",
+        "commit": "2b652a6c9c7a0b016b3d863b59ec9cfe1d4f04c4"
+      },
+      "manifestSha256": "b7520acfc349f5e8ba4324848a8cd708076578ec151e706c3ad4901a38bbd970",
+      "manifestUrl": "https://github.com/DDDMUC/dsh-delete-session/blob/2b652a6c9c7a0b016b3d863b59ec9cfe1d4f04c4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-delete-session",
+        "versions": [
+          {
+            "version": "0.1.10",
+            "publishTimestamp": 1791399440,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DDDMUC/dsh-delete-session",
+              "commit": "2b652a6c9c7a0b016b3d863b59ec9cfe1d4f04c4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-delete-session",
+      "origin": "npm",
+      "name": "dsh-delete-session",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-delete-session",
+        "title": "dsh-delete-session",
+        "description": "Delete sessions from the DSH Web sidebar: adds a Delete action to the session row menu with a risk-consent dialog, then removes the session log, workspace accounting and live session state.",
+        "repository": {
+          "url": "https://github.com/DDDMUC/dsh-delete-session"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "session",
+            "delete"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.10",
+            "publishTimestamp": 1791399627,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "37bcade0d5b0bf41cd127b1a22cfbe3235fa49ca90076da413f3697a62833b66",
+      "evidence": [
+        {
+          "name": "dsh-delete-session",
+          "version": "0.1.10",
+          "tarball": "https://registry.npmjs.org/dsh-delete-session/-/dsh-delete-session-0.1.10.tgz",
+          "integrity": "sha512-h2txZQ/75XcN6IkL4Un2vRV8UJ1l+pzYcAceftMtEq8vRtA3HyazYF3yPFNAOaLcPmWAiEp8vQP+/T+crnKU2A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-delete-session",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/DDDMUC/dsh-delete-session",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DDDMUC/dsh-delete-session",
+    "commit": "2b652a6c9c7a0b016b3d863b59ec9cfe1d4f04c4",
+    "releaseTags": 10,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:33.327Z"
+}

@@ -1,0 +1,145 @@
+{
+  "full_name": "ly6170/dsh-messager",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:35.276Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "83e65a6f7c0c7530bd76f01304ab8281a80857a79d4a397c116bcb1a0ff28701",
+      "url": "https://github.com/ly6170/dsh-messager/blob/50e004ff33edab46025ba1a3fe3bfb47d8427d28/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-messager",
+          "command": "dsh plugin --profile web add dsh-messager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "7145319dade1cb9bd2da90d3b292491855e371cdec416edcc57803f1fec4239c",
+      "url": "https://github.com/ly6170/dsh-messager/blob/50e004ff33edab46025ba1a3fe3bfb47d8427d28/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-messager",
+          "command": "dsh plugin --profile web add dsh-messager",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-messager",
+      "version": "0.3.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ly6170/dsh-messager",
+        "commit": "50e004ff33edab46025ba1a3fe3bfb47d8427d28"
+      },
+      "manifestSha256": "c0b95e77ce515958771355604ff03beb62f64cbb36555b1d6372ed7b27c04a14",
+      "manifestUrl": "https://github.com/ly6170/dsh-messager/blob/50e004ff33edab46025ba1a3fe3bfb47d8427d28/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-messager",
+        "versions": [
+          {
+            "version": "0.3.6",
+            "publishTimestamp": 1790742927,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ly6170/dsh-messager",
+              "commit": "50e004ff33edab46025ba1a3fe3bfb47d8427d28"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-messager",
+      "origin": "npm",
+      "name": "dsh-messager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-messager",
+        "title": "dsh-messager",
+        "description": "DeepSeek Harness 通知插件：会话交互/任务完成/出错时通过系统通知、浏览器通知、飞书/企业微信/Discord/钉钉/Telegram 推送提醒",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek-harness-plugin",
+            "notification",
+            "feishu",
+            "wecom",
+            "discord",
+            "dingtalk",
+            "telegram",
+            "webhook"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.6",
+            "publishTimestamp": 1790744163,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "dd5b15804866175debcbb24bd40d3b89befcf03753dbcaa3d44939587c79f840",
+      "evidence": [
+        {
+          "name": "dsh-messager",
+          "version": "0.3.6",
+          "tarball": "https://registry.npmjs.org/dsh-messager/-/dsh-messager-0.3.6.tgz",
+          "integrity": "sha512-M9vVP1XkZvfpEkF6M2nwrIWpOj5fXdJW80C7L6CnocEK3MJt9f1//oZE5pI7bv5/kXD03W6UFmou5EsZPhKAIg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-messager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ly6170/dsh-messager",
+    "commit": "50e004ff33edab46025ba1a3fe3bfb47d8427d28",
+    "releaseTags": 14,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:40.775Z"
+}

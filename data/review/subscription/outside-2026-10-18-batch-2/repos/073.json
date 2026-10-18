@@ -1,0 +1,144 @@
+{
+  "full_name": "detongz/dsh-client-ui-obsidian-memory",
+  "originalPosition": 73,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 73,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:49.027Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "74f5913e33ce3ed4250d76eda05cce136027b914c8e8de2f300666c60b01b0a2",
+      "url": "https://github.com/detongz/dsh-client-ui-obsidian-memory/blob/7e672618cdc7907092b3d020f08506a7fe5f7e18/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-client-ui-obsidian-memory",
+          "command": "dsh plugin add dsh-client-ui-obsidian-memory",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "712e4d7378c26c0598b06dd67d07f519c6dd92219c0417d9fa60df599e3ba86b",
+      "url": "https://github.com/detongz/dsh-client-ui-obsidian-memory/blob/7e672618cdc7907092b3d020f08506a7fe5f7e18/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-client-ui-obsidian-memory",
+          "command": "dsh plugin add dsh-client-ui-obsidian-memory",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-client-ui-obsidian-memory",
+      "version": "0.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/detongz/dsh-client-ui-obsidian-memory",
+        "commit": "7e672618cdc7907092b3d020f08506a7fe5f7e18"
+      },
+      "manifestSha256": "67328c0d566b811547b8374e9ab0fe54953ec027c15139403d8a342aa2c8ce13",
+      "manifestUrl": "https://github.com/detongz/dsh-client-ui-obsidian-memory/blob/7e672618cdc7907092b3d020f08506a7fe5f7e18/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-client-ui-obsidian-memory",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1789641226,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/detongz/dsh-client-ui-obsidian-memory",
+              "commit": "7e672618cdc7907092b3d020f08506a7fe5f7e18"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-client-ui-obsidian-memory",
+      "origin": "npm",
+      "name": "dsh-client-ui-obsidian-memory",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-client-ui-obsidian-memory",
+        "title": "dsh-client-ui-obsidian-memory",
+        "description": "Obsidian Memory plugin for DeepSeek Harness — persistent memory via local Markdown vault",
+        "repository": {
+          "url": "https://github.com/detongz/dsh-client-ui-obsidian-memory"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "obsidian",
+            "memory",
+            "codex",
+            "plugin",
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1786962525,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "461e4cbf0292faef86b2efad5ae7c8f77adcf515af2c6d81a4e54c85ce48baa8",
+      "evidence": [
+        {
+          "name": "dsh-client-ui-obsidian-memory",
+          "version": "0.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-client-ui-obsidian-memory/-/dsh-client-ui-obsidian-memory-0.3.2.tgz",
+          "integrity": "sha512-o571s1GdNPuzoDuARko3OF2IZ1QhJJeUCZFuX3diwr7+lhmx/I07AxIjhYkde9zOaFMak6k2rE5vItjOiNRYHA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-client-ui-obsidian-memory",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/detongz/dsh-client-ui-obsidian-memory",
+    "commit": "7e672618cdc7907092b3d020f08506a7fe5f7e18",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:54.292Z"
+}

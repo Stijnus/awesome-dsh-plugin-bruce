@@ -1,0 +1,129 @@
+{
+  "full_name": "dingyi222666/dsh-session-notification",
+  "originalPosition": 77,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 77,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:33.313Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7d6ed316f37404828607635a5d4bfa90d6eeca3fce68c895521b4b1e2d541c86",
+      "url": "https://github.com/dingyi222666/dsh-session-notification/blob/6e2fabf7cf27fcfd74d2f4f1aab6bd3df4764c64/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dingyi222666/dsh-session-notification",
+          "command": "dsh plugin --profile web add @dingyi222666/dsh-session-notification",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "791743f95b92cd2a6e3d4923c3bcfaf9a532c3f70594fa4587354430c8c872bf",
+      "url": "https://github.com/dingyi222666/dsh-session-notification/blob/6e2fabf7cf27fcfd74d2f4f1aab6bd3df4764c64/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dingyi222666/dsh-session-notification",
+          "command": "dsh plugin --profile web add @dingyi222666/dsh-session-notification",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dingyi222666/dsh-session-notification",
+      "version": "0.2.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dingyi222666/dsh-session-notification",
+        "commit": "6e2fabf7cf27fcfd74d2f4f1aab6bd3df4764c64"
+      },
+      "manifestSha256": "871421fda9fa9906181b5aa0e5918d1870e5894b295b5ca67ce41203aea7ff5c",
+      "manifestUrl": "https://github.com/dingyi222666/dsh-session-notification/blob/6e2fabf7cf27fcfd74d2f4f1aab6bd3df4764c64/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dingyi222666/dsh-session-notification",
+        "versions": [
+          {
+            "version": "0.2.6",
+            "publishTimestamp": 1791660334,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dingyi222666/dsh-session-notification",
+              "commit": "6e2fabf7cf27fcfd74d2f4f1aab6bd3df4764c64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@dingyi222666/dsh-session-notification",
+      "origin": "npm",
+      "name": "@dingyi222666/dsh-session-notification",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dingyi222666/dsh-session-notification",
+        "title": "@dingyi222666/dsh-session-notification",
+        "description": "Session-state notification plugin for the dsh web GUI: session completed/failed, question-asked, and permission-requested alerts with configurable built-in or custom sounds and browser notifications, plus a Notifications settings section",
+        "author": "dingyi222666",
+        "homepage": "https://github.com/dingyi222666/dsh-session-notification#readme",
+        "repository": {
+          "url": "https://github.com/dingyi222666/dsh-session-notification"
+        },
+        "versions": [
+          {
+            "version": "0.2.6",
+            "publishTimestamp": 1791660394,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "209f7846c81e37e7e6263df08fde16dc2b233ff66a2ef70ea383fc930473208d",
+      "evidence": [
+        {
+          "name": "@dingyi222666/dsh-session-notification",
+          "version": "0.2.6",
+          "tarball": "https://registry.npmjs.org/@dingyi222666/dsh-session-notification/-/dsh-session-notification-0.2.6.tgz",
+          "integrity": "sha512-cyepeRFg376HRHaxaeUEFe/PVUxjb56oPVciE29LnXXk2+Yf1K+ha+9U5MFiPp88l1oaDXDabKv4MrdFbihF1g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dingyi222666/dsh-session-notification",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dingyi222666/dsh-session-notification",
+    "commit": "6e2fabf7cf27fcfd74d2f4f1aab6bd3df4764c64",
+    "releaseTags": 23,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:39.952Z"
+}

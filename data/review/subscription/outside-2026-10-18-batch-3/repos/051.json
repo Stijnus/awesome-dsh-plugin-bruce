@@ -1,0 +1,221 @@
+{
+  "full_name": "GooDAnDReaDY/dsh-image-gen",
+  "originalPosition": 51,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 51,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:19.010Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c3800a13d9fad2f0cd9aa0c815ebc11631f5f866fb89acd901916237fc10cd44",
+      "url": "https://github.com/GooDAnDReaDY/dsh-image-gen/blob/63430cdc2f044c127343b7bb68959ed11f369f94/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-image-gen@latest",
+          "command": "dsh plugin add @goodandready/dsh-image-gen@latest",
+          "profile": "default"
+        },
+        {
+          "install": "@goodandready/dsh-image-gen",
+          "command": "dsh plugin --profile web add @goodandready/dsh-image-gen",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b43e71674078a26985391b79fc086b1eec5f4ca0c8650284ce90c3be51713470",
+      "url": "https://github.com/GooDAnDReaDY/dsh-image-gen/blob/63430cdc2f044c127343b7bb68959ed11f369f94/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-image-gen@latest",
+          "command": "dsh plugin add @goodandready/dsh-image-gen@latest",
+          "profile": "default"
+        },
+        {
+          "install": "@goodandready/dsh-image-gen",
+          "command": "dsh plugin --profile web add @goodandready/dsh-image-gen",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@goodandready/dsh-image-gen",
+      "version": "0.12.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GooDAnDReaDY/dsh-image-gen",
+        "commit": "63430cdc2f044c127343b7bb68959ed11f369f94"
+      },
+      "manifestSha256": "7e65595b86caa00fe1c1548b4d0cd9f5a4943785314d7776491572f55be10b26",
+      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-image-gen/blob/63430cdc2f044c127343b7bb68959ed11f369f94/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@goodandready/dsh-image-gen",
+        "versions": [
+          {
+            "version": "0.12.2",
+            "publishTimestamp": 1792052515,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GooDAnDReaDY/dsh-image-gen",
+              "commit": "63430cdc2f044c127343b7bb68959ed11f369f94"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@goodandready/dsh-image-gen@latest",
+      "origin": "npm",
+      "name": "@goodandready/dsh-image-gen",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@goodandready/dsh-image-gen",
+        "title": "@goodandready/dsh-image-gen",
+        "description": "Image generation for DeepSeek Harness: a generate_image tool with pluggable providers — the FAL queue, any OpenAI-compatible images API, or a ChatGPT/Grok subscription with no API key at all. The picture is shown inline in the conversation; the model receives either a link (works with any chat model) or the image itself (needs dsh-vision-bridge or a vision-capable model).",
+        "homepage": "https://github.com/GooDAnDReaDY/dsh-image-gen",
+        "repository": {
+          "url": "https://github.com/GooDAnDReaDY/dsh-image-gen"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "image-generation",
+            "text-to-image",
+            "fal",
+            "fal.ai",
+            "flux",
+            "openai",
+            "gpt-image",
+            "grok",
+            "aigc"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.12.2",
+            "publishTimestamp": 1792052604,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "196766342ba6abb7046881b08a40fd596cfaf553b7c07dcff3154d1d51e1b5dc",
+      "evidence": [
+        {
+          "name": "@goodandready/dsh-image-gen",
+          "version": "0.12.2",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-image-gen/-/dsh-image-gen-0.12.2.tgz",
+          "integrity": "sha512-pBCJzsOCJ0zCUKR0Kqb36urvgNtMXxBZhquNtCDxkYHonUAOouxn65FduFHSJOiuskOd2dUZsXsQpKZXWv+SWw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@goodandready/dsh-image-gen",
+      "origin": "npm",
+      "name": "@goodandready/dsh-image-gen",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@goodandready/dsh-image-gen",
+        "title": "@goodandready/dsh-image-gen",
+        "description": "Image generation for DeepSeek Harness: a generate_image tool with pluggable providers — the FAL queue, any OpenAI-compatible images API, or a ChatGPT/Grok subscription with no API key at all. The picture is shown inline in the conversation; the model receives either a link (works with any chat model) or the image itself (needs dsh-vision-bridge or a vision-capable model).",
+        "homepage": "https://github.com/GooDAnDReaDY/dsh-image-gen",
+        "repository": {
+          "url": "https://github.com/GooDAnDReaDY/dsh-image-gen"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "image-generation",
+            "text-to-image",
+            "fal",
+            "fal.ai",
+            "flux",
+            "openai",
+            "gpt-image",
+            "grok",
+            "aigc"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.12.2",
+            "publishTimestamp": 1792052604,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "196766342ba6abb7046881b08a40fd596cfaf553b7c07dcff3154d1d51e1b5dc",
+      "evidence": [
+        {
+          "name": "@goodandready/dsh-image-gen",
+          "version": "0.12.2",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-image-gen/-/dsh-image-gen-0.12.2.tgz",
+          "integrity": "sha512-pBCJzsOCJ0zCUKR0Kqb36urvgNtMXxBZhquNtCDxkYHonUAOouxn65FduFHSJOiuskOd2dUZsXsQpKZXWv+SWw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@goodandready/dsh-image-gen@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@goodandready/dsh-image-gen",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GooDAnDReaDY/dsh-image-gen",
+    "commit": "63430cdc2f044c127343b7bb68959ed11f369f94",
+    "releaseTags": 107,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:25.836Z"
+}

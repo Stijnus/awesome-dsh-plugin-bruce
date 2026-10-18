@@ -1,0 +1,99 @@
+{
+  "full_name": "yuhub233/dsh-effort-slider",
+  "originalPosition": 59,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 59,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:59.490Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b65da48c644da5cc7985fe7b8f5d09c3c02149e2e48226cde7e32c328059af71",
+      "url": "https://github.com/yuhub233/dsh-effort-slider/blob/6f08315d16d4dd542b27c2f380a91c9e74295a59/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yuhub233/dsh-effort-slider",
+          "command": "dsh plugin add github:yuhub233/dsh-effort-slider",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d5d9d4ddefa01036d47d1e02866281a0a748ed37df274d5718162886c9b8e680",
+      "url": "https://github.com/yuhub233/dsh-effort-slider/blob/6f08315d16d4dd542b27c2f380a91c9e74295a59/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yuhub233/dsh-effort-slider",
+          "command": "dsh plugin add github:yuhub233/dsh-effort-slider",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "skills/README.md",
+      "sha256": "d6d290764df83ee7bed69f6d22d3d7358c16569d09e05eea31ad1d410c2e6356",
+      "url": "https://github.com/yuhub233/dsh-effort-slider/blob/6f08315d16d4dd542b27c2f380a91c9e74295a59/skills/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-effort-slider",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yuhub233/dsh-effort-slider",
+        "commit": "6f08315d16d4dd542b27c2f380a91c9e74295a59"
+      },
+      "manifestSha256": "b620643168310f68627550a7ec1f406e12e858ed1b3138e98e64772e51ecb5cd",
+      "manifestUrl": "https://github.com/yuhub233/dsh-effort-slider/blob/6f08315d16d4dd542b27c2f380a91c9e74295a59/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-effort-slider",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1791175464,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yuhub233/dsh-effort-slider",
+              "commit": "6f08315d16d4dd542b27c2f380a91c9e74295a59"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yuhub233/dsh-effort-slider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yuhub233/dsh-effort-slider",
+    "commit": "6f08315d16d4dd542b27c2f380a91c9e74295a59",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:05.317Z"
+}

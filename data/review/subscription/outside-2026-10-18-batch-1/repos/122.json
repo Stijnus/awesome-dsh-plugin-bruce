@@ -1,0 +1,73 @@
+{
+  "full_name": "Something11235/dsh-video-skin",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:52.106Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3e0530b2c065cebd55f31df673933a41c37486ee298d657d7228709a15e9794d",
+      "url": "https://github.com/Something11235/dsh-video-skin/blob/f5b69ee2d8aaa16088990ac59460d52388295735/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "368b5fe1e61362ad1e9817feca9ae5397b9fa100182f89c246964f07dc40d92e",
+      "url": "https://github.com/Something11235/dsh-video-skin/blob/f5b69ee2d8aaa16088990ac59460d52388295735/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-video-skin",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Something11235/dsh-video-skin",
+        "commit": "f5b69ee2d8aaa16088990ac59460d52388295735"
+      },
+      "manifestSha256": "6d3c7aa0a95cbefce601bf1b98294486428fcaa9c9216fb78e5f3bd76a1dd050",
+      "manifestUrl": "https://github.com/Something11235/dsh-video-skin/blob/f5b69ee2d8aaa16088990ac59460d52388295735/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-video-skin",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1790950388,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Something11235/dsh-video-skin",
+              "commit": "f5b69ee2d8aaa16088990ac59460d52388295735"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Something11235/dsh-video-skin",
+    "commit": "f5b69ee2d8aaa16088990ac59460d52388295735",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:01.821Z"
+}

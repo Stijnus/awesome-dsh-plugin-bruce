@@ -1,0 +1,91 @@
+{
+  "full_name": "lilwhich/dsh-plugin-gather",
+  "originalPosition": 156,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 156,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:33.512Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "63234f30af263db7bfe323a8b988aac22c7939d937c062e03a4dac314f6c95eb",
+      "url": "https://github.com/lilwhich/dsh-plugin-gather/blob/93b0b0d2a9baa5cd5d2a438721de10a6154410c1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lilwhich/dsh-plugin-gather",
+          "command": "dsh plugin --profile web add https://github.com/lilwhich/dsh-plugin-gather --config.block-exotic-subdeps=false --config.strict-dep-builds=false --config.minimum-release-age=0 --config.auto-install-peers=false",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "9b14b8704ec577ace6821b4db16bd7d68f7343b8539becb078aa986637e51393",
+      "url": "https://github.com/lilwhich/dsh-plugin-gather/blob/93b0b0d2a9baa5cd5d2a438721de10a6154410c1/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lilwhich/dsh-plugin-gather",
+          "command": "dsh plugin --profile web add https://github.com/lilwhich/dsh-plugin-gather --config.block-exotic-subdeps=false --config.strict-dep-builds=false --config.minimum-release-age=0 --config.auto-install-peers=false",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "my_better-dsh",
+      "version": "0.9.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lilwhich/dsh-plugin-gather",
+        "commit": "93b0b0d2a9baa5cd5d2a438721de10a6154410c1"
+      },
+      "manifestSha256": "626eedbecb556dcd0cadff62adf5199ad00d1b2f08f9d07b23e9c3fe3a6f17a5",
+      "manifestUrl": "https://github.com/lilwhich/dsh-plugin-gather/blob/93b0b0d2a9baa5cd5d2a438721de10a6154410c1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "my_better-dsh",
+        "versions": [
+          {
+            "version": "0.9.6",
+            "publishTimestamp": 1788963388,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lilwhich/dsh-plugin-gather",
+              "commit": "93b0b0d2a9baa5cd5d2a438721de10a6154410c1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lilwhich/dsh-plugin-gather",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lilwhich/dsh-plugin-gather",
+    "commit": "93b0b0d2a9baa5cd5d2a438721de10a6154410c1",
+    "releaseTags": 30,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:38.521Z"
+}

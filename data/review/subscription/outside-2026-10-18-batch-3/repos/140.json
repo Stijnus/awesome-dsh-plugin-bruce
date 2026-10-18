@@ -1,0 +1,202 @@
+{
+  "full_name": "codeAnqiang-ma/dsh-superpowers",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:10.045Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0eca17e589fa5171fdbef396ae4314e75e8491560370c8d042a18592ce896ea7",
+      "url": "https://github.com/codeAnqiang-ma/dsh-superpowers/blob/9511c7b961faafb35f31e6b0e297524bf377aeaf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-superpowers",
+          "command": "dsh plugin --profile web add dsh-superpowers",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/codeAnqiang-ma/dsh-superpowers#master",
+          "command": "dsh plugin --profile web add \"github:codeAnqiang-ma/dsh-superpowers#master\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "24d8199f5eaf6ed48400987c9e04134093f276386601c8b76b3fc7d9361c4fea",
+      "url": "https://github.com/codeAnqiang-ma/dsh-superpowers/blob/9511c7b961faafb35f31e6b0e297524bf377aeaf/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-superpowers",
+          "command": "dsh plugin --profile web add dsh-superpowers",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/codeAnqiang-ma/dsh-superpowers#master",
+          "command": "dsh plugin --profile web add \"github:codeAnqiang-ma/dsh-superpowers#master\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-superpowers",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/codeAnqiang-ma/dsh-superpowers",
+        "commit": "9511c7b961faafb35f31e6b0e297524bf377aeaf"
+      },
+      "manifestSha256": "2508a517bd3ae611bf9b40c3b25cb154dd5a3498a4895f202c82801e30607062",
+      "manifestUrl": "https://github.com/codeAnqiang-ma/dsh-superpowers/blob/9511c7b961faafb35f31e6b0e297524bf377aeaf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-superpowers",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786639689,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/codeAnqiang-ma/dsh-superpowers",
+              "commit": "9511c7b961faafb35f31e6b0e297524bf377aeaf"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-superpowers",
+      "origin": "npm",
+      "name": "dsh-superpowers",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-superpowers",
+        "title": "dsh-superpowers",
+        "description": "Superpowers (obra/superpowers) for DeepSeek Harness: the software-development methodology skills plus their session bootstrap, as a dsh plugin",
+        "author": "codeAnqiang-ma",
+        "homepage": "https://github.com/codeAnqiang-ma/dsh-superpowers#readme",
+        "repository": {
+          "url": "https://github.com/codeAnqiang-ma/dsh-superpowers"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "superpowers",
+            "skills",
+            "tdd",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786637124,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "407d45712ecf9a576fca7efadc2a4a503b36d0a9ee45b14f13466440ccbb589b",
+      "evidence": [
+        {
+          "name": "dsh-superpowers",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-superpowers/-/dsh-superpowers-0.1.0.tgz",
+          "integrity": "sha512-/BT4/Kb93rav1sgcw67Kz40BHyA6oL9t91JyL6Eubs3oSBYIN0BQpRXwmz1cMBY2HidTmee8XfPHEmRsd9xHjQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/codeAnqiang-ma/dsh-superpowers#master",
+      "origin": "git_target",
+      "name": "dsh-superpowers",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-superpowers",
+        "title": "dsh-superpowers",
+        "description": "Superpowers (obra/superpowers) for DeepSeek Harness: the software-development methodology skills plus their session bootstrap, as a dsh plugin",
+        "author": "codeAnqiang-ma",
+        "homepage": "https://github.com/codeAnqiang-ma/dsh-superpowers#readme",
+        "repository": {
+          "url": "https://github.com/codeAnqiang-ma/dsh-superpowers"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "superpowers",
+            "skills",
+            "tdd",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786639689,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/codeAnqiang-ma/dsh-superpowers",
+              "commit": "9511c7b961faafb35f31e6b0e297524bf377aeaf"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "9511c7b961faafb35f31e6b0e297524bf377aeaf",
+          "name": "dsh-superpowers",
+          "version": "0.1.0",
+          "url": "https://github.com/codeAnqiang-ma/dsh-superpowers",
+          "manifestSha256": "2508a517bd3ae611bf9b40c3b25cb154dd5a3498a4895f202c82801e30607062",
+          "publishTimestamp": 1786639689
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-superpowers",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/codeAnqiang-ma/dsh-superpowers#master",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/codeAnqiang-ma/dsh-superpowers",
+    "commit": "9511c7b961faafb35f31e6b0e297524bf377aeaf",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:24.051Z"
+}

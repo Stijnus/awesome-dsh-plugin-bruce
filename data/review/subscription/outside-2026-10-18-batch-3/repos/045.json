@@ -1,0 +1,265 @@
+{
+  "full_name": "Areium/dsh-fail-logger",
+  "originalPosition": 45,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 45,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:07.113Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "00a3fa42a043958b811ad8167fe612a82d28a47619dd5525cd82c223ac7c5847",
+      "url": "https://github.com/Areium/dsh-fail-logger/blob/bce6c992d67485475caeed00b8997704b3657d93/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fail-logger",
+          "command": "dsh plugin --profile web add dsh-fail-logger",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Areium/dsh-fail-logger#v0.5.2",
+          "command": "dsh plugin --profile web add \"github:Areium/dsh-fail-logger#v0.5.2\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fail-logger@0.5.2",
+          "command": "dsh plugin --profile web add dsh-fail-logger@0.5.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "9a06cf0da751fb4cca73e7d185edffbf340b5ba398f062c54cba9e3a5836ea91",
+      "url": "https://github.com/Areium/dsh-fail-logger/blob/bce6c992d67485475caeed00b8997704b3657d93/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fail-logger",
+          "command": "dsh plugin --profile web add dsh-fail-logger",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Areium/dsh-fail-logger#v0.5.2",
+          "command": "dsh plugin --profile web add \"github:Areium/dsh-fail-logger#v0.5.2\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-fail-logger@0.5.2",
+          "command": "dsh plugin --profile web add dsh-fail-logger@0.5.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fail-logger",
+      "version": "0.5.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Areium/dsh-fail-logger",
+        "commit": "bce6c992d67485475caeed00b8997704b3657d93"
+      },
+      "manifestSha256": "ceef710ec5b5c7c02ebebe47369a758f2093824ed94ba72ec0c3c7df05e9b8b4",
+      "manifestUrl": "https://github.com/Areium/dsh-fail-logger/blob/bce6c992d67485475caeed00b8997704b3657d93/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-fail-logger",
+        "versions": [
+          {
+            "version": "0.5.5",
+            "publishTimestamp": 1789945462,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Areium/dsh-fail-logger",
+              "commit": "bce6c992d67485475caeed00b8997704b3657d93"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-fail-logger",
+      "origin": "npm",
+      "name": "dsh-fail-logger",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fail-logger",
+        "title": "dsh-fail-logger",
+        "description": "DSH 插件：全模式工具失败自动实录——把原生工具、PTC(Code Mode) run_code、代码内嵌工具调用的失败按错因去重计数，自动写入 skill 的机器维护区段，越用越少错。Auto-record tool failures from every execution mode into a skill's machine-maintained section (dedup + counts).",
+        "repository": {
+          "url": "https://github.com/Areium/dsh-fail-logger"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "code-mode",
+            "ptc",
+            "fail-logger",
+            "tool-error",
+            "skill"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1787069558,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a1b312a115275ebd004cd1c479038bb4ef7f49f1c28fb7cc354176ecb32d3c51",
+      "evidence": [
+        {
+          "name": "dsh-fail-logger",
+          "version": "0.5.2",
+          "tarball": "https://registry.npmjs.org/dsh-fail-logger/-/dsh-fail-logger-0.5.2.tgz",
+          "integrity": "sha512-QCACymdu+0PGCGPAgzuycAn7Sv2+/9zVAnpgtMlhUwQyZr0OiVvQ9qVqcgqJgPm4oLYaRSaPpR6BPYEWBDWFuQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/Areium/dsh-fail-logger#v0.5.2",
+      "origin": "git_target",
+      "name": "dsh-fail-logger",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fail-logger",
+        "title": "dsh-fail-logger",
+        "description": "DSH 插件：全模式工具失败自动实录——把原生工具、PTC(Code Mode) run_code、代码内嵌工具调用的失败按错因去重计数，自动写入 skill 的机器维护区段，越用越少错。Auto-record tool failures from every execution mode into a skill's machine-maintained section (dedup + counts).",
+        "repository": {
+          "url": "https://github.com/Areium/dsh-fail-logger"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "code-mode",
+            "ptc",
+            "fail-logger",
+            "tool-error",
+            "skill"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1787069405,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Areium/dsh-fail-logger",
+              "commit": "dd9d62f611aa2f41ef27488340db60797625ab42"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "dd9d62f611aa2f41ef27488340db60797625ab42",
+          "name": "dsh-fail-logger",
+          "version": "0.5.2",
+          "url": "https://github.com/Areium/dsh-fail-logger",
+          "manifestSha256": "00d8aef12b67370a22d4ee3ec955d61d4464e98a5abd5affc464c81e28a51d84",
+          "publishTimestamp": 1787069405
+        }
+      ]
+    },
+    {
+      "target": "dsh-fail-logger@0.5.2",
+      "origin": "npm",
+      "name": "dsh-fail-logger",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fail-logger",
+        "title": "dsh-fail-logger",
+        "description": "DSH 插件：全模式工具失败自动实录——把原生工具、PTC(Code Mode) run_code、代码内嵌工具调用的失败按错因去重计数，自动写入 skill 的机器维护区段，越用越少错。Auto-record tool failures from every execution mode into a skill's machine-maintained section (dedup + counts).",
+        "repository": {
+          "url": "https://github.com/Areium/dsh-fail-logger"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "code-mode",
+            "ptc",
+            "fail-logger",
+            "tool-error",
+            "skill"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1787069558,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a1b312a115275ebd004cd1c479038bb4ef7f49f1c28fb7cc354176ecb32d3c51",
+      "evidence": [
+        {
+          "name": "dsh-fail-logger",
+          "version": "0.5.2",
+          "tarball": "https://registry.npmjs.org/dsh-fail-logger/-/dsh-fail-logger-0.5.2.tgz",
+          "integrity": "sha512-QCACymdu+0PGCGPAgzuycAn7Sv2+/9zVAnpgtMlhUwQyZr0OiVvQ9qVqcgqJgPm4oLYaRSaPpR6BPYEWBDWFuQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-fail-logger",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Areium/dsh-fail-logger#v0.5.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-fail-logger@0.5.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Areium/dsh-fail-logger",
+    "commit": "bce6c992d67485475caeed00b8997704b3657d93",
+    "releaseTags": 7,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:18.181Z"
+}

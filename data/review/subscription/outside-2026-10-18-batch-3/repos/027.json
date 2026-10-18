@@ -1,0 +1,102 @@
+{
+  "full_name": "litestartup-com/dsh-api-gateway",
+  "originalPosition": 27,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 27,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:43.712Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "56107c74e061119a7e508e95a9b3476f6ca9923060aa0b7d95989469b5cf50c6",
+      "url": "https://github.com/litestartup-com/dsh-api-gateway/blob/15faa6f3f022549549db70534707abbad6cbd4dd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/litestartup-com/dsh-api-gateway",
+          "command": "dsh plugin --profile web add github:litestartup-com/dsh-api-gateway",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "80f69f8e1309da643f0441b4a3a190f24ee05c3f60f6fc1ca2e5d923868a5591",
+      "url": "https://github.com/litestartup-com/dsh-api-gateway/blob/15faa6f3f022549549db70534707abbad6cbd4dd/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/litestartup-com/dsh-api-gateway",
+          "command": "dsh plugin --profile web add github:litestartup-com/dsh-api-gateway",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/demos/README.md",
+      "sha256": "9d3756916feca98f205da79d0837f2702c995f7bfd7fa247d5590e5f33ef9eb4",
+      "url": "https://github.com/litestartup-com/dsh-api-gateway/blob/15faa6f3f022549549db70534707abbad6cbd4dd/examples/demos/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "ohdsh-api-facade",
+      "version": "0.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/litestartup-com/dsh-api-gateway",
+        "commit": "15faa6f3f022549549db70534707abbad6cbd4dd"
+      },
+      "manifestSha256": "d17cf5836e3f7c3022324882315b5d6c2a3e3a69360f719cf329bb20e7c7f0f2",
+      "manifestUrl": "https://github.com/litestartup-com/dsh-api-gateway/blob/15faa6f3f022549549db70534707abbad6cbd4dd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-rc.1 || ^0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "ohdsh-api-facade",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1791295069,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/litestartup-com/dsh-api-gateway",
+              "commit": "15faa6f3f022549549db70534707abbad6cbd4dd"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1 || ^0.2.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/litestartup-com/dsh-api-gateway",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/litestartup-com/dsh-api-gateway",
+    "commit": "15faa6f3f022549549db70534707abbad6cbd4dd",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:49.101Z"
+}

@@ -1,0 +1,201 @@
+{
+  "full_name": "hikarioyama/Smart-DSH",
+  "originalPosition": 66,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 66,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:05.762Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f34eacf8b76f75f8f72d4de996a3ee76511ca31ae83ee712afa51e87a017c680",
+      "url": "https://github.com/hikarioyama/Smart-DSH/blob/63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "patches/dsh-client-hmr-0.1.2-rc.1/README.md",
+      "sha256": "47b87700e331829528d14e1aa4e0eee48787b5340fc2920d815948c4d5504af4",
+      "url": "https://github.com/hikarioyama/Smart-DSH/blob/63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac/patches/dsh-client-hmr-0.1.2-rc.1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-esc-stop/README.md",
+      "sha256": "f1bba727017ad03d519ccb75c4e41726664d35638bf2d6de00cf4140efcaa7f1",
+      "url": "https://github.com/hikarioyama/Smart-DSH/blob/63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac/dsh-esc-stop/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "dsh-tasks/README.md",
+      "sha256": "29c1228515b3571eb1abed1511cd3deb956a57882c9a8028e94a46f169a59be7",
+      "url": "https://github.com/hikarioyama/Smart-DSH/blob/63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac/dsh-tasks/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "opencode-go/README.md",
+      "sha256": "b6b10d212a7ca1ef7b1f47411cbcffe2c3e87aa9cb181b5f9b5de4d856c24a6d",
+      "url": "https://github.com/hikarioyama/Smart-DSH/blob/63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac/opencode-go/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-btw",
+      "version": "0.4.0-smart.4",
+      "path": "dsh-btw",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hikarioyama/Smart-DSH",
+        "commit": "63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac",
+        "path": "dsh-btw"
+      },
+      "manifestSha256": "5efbeabb56a62280e634d8dc99095ffa5cd663b011e0ce51b8494a87f2f9d184",
+      "manifestUrl": "https://github.com/hikarioyama/Smart-DSH/blob/63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac/dsh-btw/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-btw",
+        "versions": [
+          {
+            "version": "0.4.0-smart.4",
+            "publishTimestamp": 1790713088,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hikarioyama/Smart-DSH",
+              "commit": "63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac",
+              "path": "dsh-btw"
+            },
+            "engines": {
+              "dsh": "0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-esc-stop",
+      "version": "0.1.0",
+      "path": "dsh-esc-stop",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hikarioyama/Smart-DSH",
+        "commit": "63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac",
+        "path": "dsh-esc-stop"
+      },
+      "manifestSha256": "a2b09c8202995c15b54820a74e4b02306e051aaaad2b0b1022a40957f3625934",
+      "manifestUrl": "https://github.com/hikarioyama/Smart-DSH/blob/63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac/dsh-esc-stop/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-esc-stop",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790713088,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hikarioyama/Smart-DSH",
+              "commit": "63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac",
+              "path": "dsh-esc-stop"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-notify-push",
+      "version": "0.1.0",
+      "path": "dsh-notify-push",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hikarioyama/Smart-DSH",
+        "commit": "63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac",
+        "path": "dsh-notify-push"
+      },
+      "manifestSha256": "15a4d1ccf97e28ac772f624ff8027c786726eb6e09ca0c799ffd53b1830bbc98",
+      "manifestUrl": "https://github.com/hikarioyama/Smart-DSH/blob/63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac/dsh-notify-push/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-notify-push",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790713088,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hikarioyama/Smart-DSH",
+              "commit": "63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac",
+              "path": "dsh-notify-push"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tasks",
+      "version": "0.1.0",
+      "path": "dsh-tasks",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hikarioyama/Smart-DSH",
+        "commit": "63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac",
+        "path": "dsh-tasks"
+      },
+      "manifestSha256": "a41451c7b0b27f7860fe70d48494753b32385b0c8f6fedbec3fec316f4599fe8",
+      "manifestUrl": "https://github.com/hikarioyama/Smart-DSH/blob/63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac/dsh-tasks/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tasks",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790713088,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hikarioyama/Smart-DSH",
+              "commit": "63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac",
+              "path": "dsh-tasks"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hikarioyama/Smart-DSH",
+    "commit": "63d6d9ca3d4a5bda7a8d39c3ecafca2a76772eac",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:10.863Z"
+}

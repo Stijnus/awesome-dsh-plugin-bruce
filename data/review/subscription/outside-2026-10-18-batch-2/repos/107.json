@@ -1,0 +1,91 @@
+{
+  "full_name": "plyflai/dsh-ux-plus",
+  "originalPosition": 107,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:29.070Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d423977ef7d5198ef9f3b0dd19c88c2bc108c7c591dd4dda534211b6c77e4116",
+      "url": "https://github.com/plyflai/dsh-ux-plus/blob/d19d93d871b4a19231108e8bec7311cbb75a62ec/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/plyflai/dsh-ux-plus",
+          "command": "dsh plugin --profile <name> add github:plyflai/dsh-ux-plus",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "1e2be68693cec0c32d65b073adf9b510a8352931b00732c184986d65d98e66e2",
+      "url": "https://github.com/plyflai/dsh-ux-plus/blob/d19d93d871b4a19231108e8bec7311cbb75a62ec/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/plyflai/dsh-ux-plus",
+          "command": "dsh plugin --profile <name> add github:plyflai/dsh-ux-plus",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ux-plus",
+      "version": "0.4.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/plyflai/dsh-ux-plus",
+        "commit": "d19d93d871b4a19231108e8bec7311cbb75a62ec"
+      },
+      "manifestSha256": "59472c05a97cb5af950b0227932ade7546a5c80155bfb93771e6b14cf97c6aea",
+      "manifestUrl": "https://github.com/plyflai/dsh-ux-plus/blob/d19d93d871b4a19231108e8bec7311cbb75a62ec/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ux-plus",
+        "versions": [
+          {
+            "version": "0.4.5",
+            "publishTimestamp": 1792263470,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/plyflai/dsh-ux-plus",
+              "commit": "d19d93d871b4a19231108e8bec7311cbb75a62ec"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/plyflai/dsh-ux-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/plyflai/dsh-ux-plus",
+    "commit": "d19d93d871b4a19231108e8bec7311cbb75a62ec",
+    "releaseTags": 10,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:34.436Z"
+}

@@ -1,0 +1,94 @@
+{
+  "full_name": "dat-lequoc/dsh-kiro",
+  "originalPosition": 72,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 72,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:45.745Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "afee93b8d986caa2c6a7b15794f0a5f7eccc10d08ce37ad5b1058836a3f9284b",
+      "url": "https://github.com/dat-lequoc/dsh-kiro/blob/6988643ea250d16e3dd20053f4ab679c90f7a68c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dat-lequoc/dsh-kiro",
+          "command": "dsh plugin --profile web add github:dat-lequoc/dsh-kiro",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2f8709cb847878a98129998060c5764684e8d50e50f27fd98f0164d726973c21",
+      "url": "https://github.com/dat-lequoc/dsh-kiro/blob/6988643ea250d16e3dd20053f4ab679c90f7a68c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dat-lequoc/dsh-kiro",
+          "command": "dsh plugin --profile web add github:dat-lequoc/dsh-kiro",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-kiro",
+      "version": "0.1.19",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dat-lequoc/dsh-kiro",
+        "commit": "6988643ea250d16e3dd20053f4ab679c90f7a68c"
+      },
+      "manifestSha256": "2a1a317c750c2d40fa75f3f857c9990e511bb04a28a006f8e68ff5850f168b54",
+      "manifestUrl": "https://github.com/dat-lequoc/dsh-kiro/blob/6988643ea250d16e3dd20053f4ab679c90f7a68c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-kiro",
+        "versions": [
+          {
+            "version": "0.1.19",
+            "publishTimestamp": 1791628021,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dat-lequoc/dsh-kiro",
+              "commit": "6988643ea250d16e3dd20053f4ab679c90f7a68c"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/dat-lequoc/dsh-kiro",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dat-lequoc/dsh-kiro",
+    "commit": "6988643ea250d16e3dd20053f4ab679c90f7a68c",
+    "releaseTags": 15,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:51.028Z"
+}

@@ -1,0 +1,229 @@
+{
+  "full_name": "kirkchinese/CiteCiter",
+  "originalPosition": 41,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 41,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:36.692Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "82842e53d9e4be487dabc950af76965af9f717cebfb777f6adc8493fcc6c9398",
+      "url": "https://github.com/kirkchinese/CiteCiter/blob/f84ae837cde50668dbfb2493ad769643d0fc24e7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/kirkchinese/CiteCiter.git#v0.9.0-beta.2",
+          "command": "dsh plugin --profile web add \"git+https://github.com/kirkchinese/CiteCiter.git#v0.9.0-beta.2\"",
+          "profile": "web"
+        },
+        {
+          "install": "@kirkchinese/dsh-citeciter@0.9.0-beta.2",
+          "command": "dsh plugin --profile web add @kirkchinese/dsh-citeciter@0.9.0-beta.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c0af6c8091112e7230988be15390fb7dfd427a573a004fd7a30aba29dc8285ad",
+      "url": "https://github.com/kirkchinese/CiteCiter/blob/f84ae837cde50668dbfb2493ad769643d0fc24e7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/kirkchinese/CiteCiter.git#v0.9.0-beta.2",
+          "command": "dsh plugin --profile web add \"git+https://github.com/kirkchinese/CiteCiter.git#v0.9.0-beta.2\"",
+          "profile": "web"
+        },
+        {
+          "install": "@kirkchinese/dsh-citeciter@0.9.0-beta.2",
+          "command": "dsh plugin --profile web add @kirkchinese/dsh-citeciter@0.9.0-beta.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@kirkchinese/dsh-citeciter",
+      "version": "0.9.0-beta.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kirkchinese/CiteCiter",
+        "commit": "f84ae837cde50668dbfb2493ad769643d0fc24e7"
+      },
+      "manifestSha256": "6ea1302e123112127af51f64f0ff8f7d1daa03653bb754372b4b34f53da8a37c",
+      "manifestUrl": "https://github.com/kirkchinese/CiteCiter/blob/f84ae837cde50668dbfb2493ad769643d0fc24e7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@kirkchinese/dsh-citeciter",
+        "versions": [
+          {
+            "version": "0.9.0-beta.2",
+            "publishTimestamp": 1791995263,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kirkchinese/CiteCiter",
+              "commit": "f84ae837cde50668dbfb2493ad769643d0fc24e7"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "git+https://github.com/kirkchinese/CiteCiter.git#v0.9.0-beta.2",
+      "origin": "git_target",
+      "name": "@kirkchinese/dsh-citeciter",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@kirkchinese/dsh-citeciter",
+        "title": "@kirkchinese/dsh-citeciter",
+        "description": "Source-aware native DSH Topics with manual drafts, permissions, visual boards and learning cards",
+        "author": "kirkchinese",
+        "homepage": "https://github.com/kirkchinese/CiteCiter#readme",
+        "repository": {
+          "url": "https://github.com/kirkchinese/CiteCiter",
+          "directory": "packages/citeciter"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "citation",
+            "source-bound",
+            "verification",
+            "evidence",
+            "investigation",
+            "context-management",
+            "read-only",
+            "explanation",
+            "observer",
+            "topic"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.9.0-beta.2",
+            "publishTimestamp": 1791995263,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kirkchinese/CiteCiter",
+              "commit": "f84ae837cde50668dbfb2493ad769643d0fc24e7"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "f84ae837cde50668dbfb2493ad769643d0fc24e7",
+          "name": "@kirkchinese/dsh-citeciter",
+          "version": "0.9.0-beta.2",
+          "url": "https://github.com/kirkchinese/CiteCiter",
+          "manifestSha256": "6ea1302e123112127af51f64f0ff8f7d1daa03653bb754372b4b34f53da8a37c",
+          "publishTimestamp": 1791995263
+        }
+      ]
+    },
+    {
+      "target": "@kirkchinese/dsh-citeciter@0.9.0-beta.2",
+      "origin": "npm",
+      "name": "@kirkchinese/dsh-citeciter",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@kirkchinese/dsh-citeciter",
+        "title": "@kirkchinese/dsh-citeciter",
+        "description": "Source-aware native DSH Topics with manual drafts, permissions, visual boards and learning cards",
+        "author": "kirkchinese",
+        "homepage": "https://github.com/kirkchinese/CiteCiter#readme",
+        "repository": {
+          "url": "https://github.com/kirkchinese/CiteCiter",
+          "directory": "packages/citeciter"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "citation",
+            "source-bound",
+            "verification",
+            "evidence",
+            "investigation",
+            "context-management",
+            "read-only",
+            "explanation",
+            "observer",
+            "topic"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.9.0-beta.2",
+            "publishTimestamp": 1791995100,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "45f9d1548d9bb4af63d55cb1c6b5ad5abeb8c9d86439c230af6b14255fdcdcd6",
+      "evidence": [
+        {
+          "name": "@kirkchinese/dsh-citeciter",
+          "version": "0.9.0-beta.2",
+          "tarball": "https://registry.npmjs.org/@kirkchinese/dsh-citeciter/-/dsh-citeciter-0.9.0-beta.2.tgz",
+          "integrity": "sha512-DF3bOTqAUx5F/GaatOHQJ1IgdpB0AZEpvkKpirmSLHRcFvI/SbxbrlChPbXJspBcd9ocB2VzLEE/RgDtGy7Anw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/kirkchinese/CiteCiter.git#v0.9.0-beta.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@kirkchinese/dsh-citeciter@0.9.0-beta.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kirkchinese/CiteCiter",
+    "commit": "f84ae837cde50668dbfb2493ad769643d0fc24e7",
+    "releaseTags": 21,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:51.035Z"
+}

@@ -1,0 +1,157 @@
+{
+  "full_name": "caoyiwei850/dsh-ssh-ops",
+  "originalPosition": 46,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 46,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:41.638Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "66afb2347038edbfd212bf84cef22c5dc99b9660ab5043b37d39eb9e8666111b",
+      "url": "https://github.com/caoyiwei850/dsh-ssh-ops/blob/f7216b847f2c47fe6cde1cc95d6093921a20980d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/caoyiwei850/dsh-ssh-ops#v0.3.22",
+          "command": "dsh plugin --profile web add github:caoyiwei850/dsh-ssh-ops#v0.3.22",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "7323427799ab23c244948820dfc7b2e54a719b8a78b483529a0bd007a03cc548",
+      "url": "https://github.com/caoyiwei850/dsh-ssh-ops/blob/f7216b847f2c47fe6cde1cc95d6093921a20980d/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/caoyiwei850/dsh-ssh-ops#v0.3.22",
+          "command": "dsh plugin --profile web add github:caoyiwei850/dsh-ssh-ops#v0.3.22",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ssh-ops",
+      "version": "0.3.22",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
+        "commit": "f7216b847f2c47fe6cde1cc95d6093921a20980d"
+      },
+      "manifestSha256": "19fee0305743a2c55a0abbca56cb84ef3dbf1177d5b86ebc6e0a9701b437a6dc",
+      "manifestUrl": "https://github.com/caoyiwei850/dsh-ssh-ops/blob/f7216b847f2c47fe6cde1cc95d6093921a20980d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ssh-ops",
+        "versions": [
+          {
+            "version": "0.3.22",
+            "publishTimestamp": 1792132238,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
+              "commit": "f7216b847f2c47fe6cde1cc95d6093921a20980d"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-alpha.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/caoyiwei850/dsh-ssh-ops#v0.3.22",
+      "origin": "git_target",
+      "name": "dsh-ssh-ops",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ssh-ops",
+        "title": {
+          "en": "SSH Ops",
+          "zh": "SSH 运维"
+        },
+        "description": {
+          "en": "Drive remote servers from the conversation: interactive terminal, SFTP file management, port forwarding and database management.",
+          "zh": "在对话中驱动远程服务器：交互式终端、SFTP 文件管理、端口转发与数据库管理。"
+        },
+        "homepage": "https://github.com/caoyiwei850/dsh-ssh-ops#readme",
+        "repository": {
+          "url": "https://github.com/caoyiwei850/dsh-ssh-ops"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "ssh",
+            "terminal",
+            "xterm",
+            "ops",
+            "sftp",
+            "database",
+            "mysql",
+            "redis",
+            "mongodb"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNDE3NmU2IiBzdHJva2Utd2lkdGg9IjEuMyI+CiAgPCEtLSBTYW1lIHRlcm1pbmFsIG1hcmsgdGhlIHBsdWdpbiBkcmF3cyBuZXh0IHRvIGl0cyBTZXR0aW5ncyBuYXYgcm93IChzZWUKICAgICAgIHNyYy9jbGllbnQvbmF2LWljb24uanMpLCBpbmxpbmVkIHdpdGggYSBsaXRlcmFsIHN0cm9rZSBjb2xvdXIgYmVjYXVzZSB0aGUKICAgICAgIEhvc3QgcmVuZGVycyB0aGlzIGZpbGUgYXMgYW4gaW1hZ2U6IGBjdXJyZW50Q29sb3JgIGFuZCBDU1MgdmFyaWFibGVzIGRvCiAgICAgICBub3QgcmVzb2x2ZS4gQnJhbmQgYmx1ZSByZWFkcyBvbiBib3RoIGxpZ2h0IGFuZCBkYXJrIHN1cmZhY2VzLiAtLT4KICA8cmVjdCB4PSIxLjYiIHk9IjMiIHdpZHRoPSIxMi44IiBoZWlnaHQ9IjEwIiByeD0iMi40Ii8+CiAgPHBhdGggZD0iTTUgNi4xN0w2Ljk0IDhMNSA5LjgzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNOC40NiA5Ljg2SDExLjAzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.3.22",
+            "publishTimestamp": 1792132238,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
+              "commit": "f7216b847f2c47fe6cde1cc95d6093921a20980d"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-alpha.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "f7216b847f2c47fe6cde1cc95d6093921a20980d",
+          "name": "dsh-ssh-ops",
+          "version": "0.3.22",
+          "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
+          "manifestSha256": "19fee0305743a2c55a0abbca56cb84ef3dbf1177d5b86ebc6e0a9701b437a6dc",
+          "publishTimestamp": 1792132238
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/caoyiwei850/dsh-ssh-ops#v0.3.22",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
+    "commit": "f7216b847f2c47fe6cde1cc95d6093921a20980d",
+    "releaseTags": 46,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:53.294Z"
+}

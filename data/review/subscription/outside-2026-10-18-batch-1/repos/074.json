@@ -1,0 +1,65 @@
+{
+  "full_name": "louke6572/dsh-whale-widget-plus",
+  "originalPosition": 74,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 74,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:20.968Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5fcbf3a5e309c7956d95084806370ffa8867790a9e4bc972cda5bb8044414cb2",
+      "url": "https://github.com/louke6572/dsh-whale-widget-plus/blob/200bf165aad0de391c22d4c48efe292bf580b66a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-widget-plus",
+      "version": "0.3.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/louke6572/dsh-whale-widget-plus",
+        "commit": "200bf165aad0de391c22d4c48efe292bf580b66a"
+      },
+      "manifestSha256": "6295c88c91fd03fe9cd2a3d70377b66cf601f5cffc451cf09c3ed6d0a64ca8e5",
+      "manifestUrl": "https://github.com/louke6572/dsh-whale-widget-plus/blob/200bf165aad0de391c22d4c48efe292bf580b66a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-whale-widget-plus",
+        "versions": [
+          {
+            "version": "0.3.5",
+            "publishTimestamp": 1790645571,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/louke6572/dsh-whale-widget-plus",
+              "commit": "200bf165aad0de391c22d4c48efe292bf580b66a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/louke6572/dsh-whale-widget-plus",
+    "commit": "200bf165aad0de391c22d4c48efe292bf580b66a",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:39.865Z"
+}

@@ -1,0 +1,221 @@
+{
+  "full_name": "PerryLink/dsh-defend",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:12.800Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "61a298f1ae79043eab1dfe6e96d41a27c823e494e194ab6bcc2b6b17b150c455",
+      "url": "https://github.com/PerryLink/dsh-defend/blob/8e210305eee24cb80bcccabab3647221a3def552/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-defend",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-defend",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-defend",
+          "command": "dsh plugin --profile web add dsh-defend",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "17b904d39c4c52898484ffcaa65d53b54278323519aba8682b5c51de799969e4",
+      "url": "https://github.com/PerryLink/dsh-defend/blob/8e210305eee24cb80bcccabab3647221a3def552/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-defend",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-defend",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-defend",
+          "command": "dsh plugin --profile web add dsh-defend",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "bf89d57673c9af9ce84322673166475fe54260128d6ba8de742820a01415f9f7",
+      "url": "https://github.com/PerryLink/dsh-defend/blob/8e210305eee24cb80bcccabab3647221a3def552/README-es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-defend",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-defend",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-defend",
+          "command": "dsh plugin --profile web add dsh-defend",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "1184d8e4ed3009f622c41db01aab48c81599a3d2fd3a046aa62366b594d44abb",
+      "url": "https://github.com/PerryLink/dsh-defend/blob/8e210305eee24cb80bcccabab3647221a3def552/README-pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-defend",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-defend",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-defend",
+          "command": "dsh plugin --profile web add dsh-defend",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "6f19af615e73d696456bff324e5424220e7ad2a64e4b54121f3212cfe58b5781",
+      "url": "https://github.com/PerryLink/dsh-defend/blob/8e210305eee24cb80bcccabab3647221a3def552/README-hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-defend",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-defend",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-defend",
+          "command": "dsh plugin --profile web add dsh-defend",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-defend",
+      "version": "0.3.21",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-defend",
+        "commit": "8e210305eee24cb80bcccabab3647221a3def552"
+      },
+      "manifestSha256": "faa7cfb14608f9d17584526075085864e79c6a5745c62063a77b240db362960f",
+      "manifestUrl": "https://github.com/PerryLink/dsh-defend/blob/8e210305eee24cb80bcccabab3647221a3def552/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-defend",
+        "versions": [
+          {
+            "version": "0.3.21",
+            "publishTimestamp": 1791812998,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-defend",
+              "commit": "8e210305eee24cb80bcccabab3647221a3def552"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-defend",
+      "origin": "npm",
+      "name": "dsh-defend",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-defend",
+        "title": "dsh-defend",
+        "description": "Prompt-injection, jailbreak, and secret-leak detection with allow/ask/block interception for DeepSeek Harness: an Aho-Corasick pattern engine and heuristics ported from the Prompt-Injection-Payloads, Jailbreak-Detector, and Secret-Key-Leaker-Detect assets, gating user messages on agent/pre-step, tool arguments on tools/pre-execute, and tool results on tools/post-execute, with sanitized defend/* session audit events, a defend_report tool, and a /defend command.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-defend#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-defend"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "security",
+            "prompt-injection",
+            "jailbreak",
+            "secret-scanning",
+            "llm-security"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.21",
+            "publishTimestamp": 1791594565,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2d71a3fd1c38de3711184e764aaefead2120986c8eec94e1fab0a057b1057e02",
+      "evidence": [
+        {
+          "name": "dsh-defend",
+          "version": "0.3.21",
+          "tarball": "https://registry.npmjs.org/dsh-defend/-/dsh-defend-0.3.21.tgz",
+          "integrity": "sha512-md4keZi86kUKsadXt2++HlA/caYIGhV9eDB2dYJru6cB5FQqIT/H1oBgjKgEJgZGjPu01rgBay7ODDHJS/6Ixw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-defend",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-defend",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-defend",
+    "commit": "8e210305eee24cb80bcccabab3647221a3def552",
+    "releaseTags": 28,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:18.885Z"
+}

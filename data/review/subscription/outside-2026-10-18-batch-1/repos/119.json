@@ -1,0 +1,65 @@
+{
+  "full_name": "william-jin-cmu/dsh-stickers",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:46.675Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bc6a7cb5e69ea0634d39a1efd1699ca86b6a385950d70074ce1aa12c4d095599",
+      "url": "https://github.com/william-jin-cmu/dsh-stickers/blob/1703f09915db1058b6031b31e52fd404560e0a78/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-stickers",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/william-jin-cmu/dsh-stickers",
+        "commit": "1703f09915db1058b6031b31e52fd404560e0a78"
+      },
+      "manifestSha256": "b82f877e74e70acc7428cb6ce494755c6377b10df6cce9c4e229c5689b383524",
+      "manifestUrl": "https://github.com/william-jin-cmu/dsh-stickers/blob/1703f09915db1058b6031b31e52fd404560e0a78/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-external/dsh-stickers",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786588017,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/william-jin-cmu/dsh-stickers",
+              "commit": "1703f09915db1058b6031b31e52fd404560e0a78"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/william-jin-cmu/dsh-stickers",
+    "commit": "1703f09915db1058b6031b31e52fd404560e0a78",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:06.899Z"
+}

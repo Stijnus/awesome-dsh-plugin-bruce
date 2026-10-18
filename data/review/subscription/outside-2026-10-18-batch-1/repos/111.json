@@ -1,0 +1,142 @@
+{
+  "full_name": "CLICGGER-TYPES/dsh-piggy",
+  "originalPosition": 111,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 111,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:28.572Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3c1bfc855df6ad65cfcc4caffadbf6e62a2ac3d33d416164f0864ab750666f0a",
+      "url": "https://github.com/CLICGGER-TYPES/dsh-piggy/blob/b8f6c928ec800b56a08d9738a02b2ab21576d28f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-piggy",
+          "command": "dsh plugin --profile web add dsh-piggy",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/screenshots/readme-rc-capture.md",
+      "sha256": "4185cdf3720e4531546102e5c8823658f2b9e5786a404a4699f75d8a0fb39db0",
+      "url": "https://github.com/CLICGGER-TYPES/dsh-piggy/blob/b8f6c928ec800b56a08d9738a02b2ab21576d28f/docs/screenshots/readme-rc-capture.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "2e63760431d952a686a162917c50283871d79e6b8e66638dbae0f798566badae",
+      "url": "https://github.com/CLICGGER-TYPES/dsh-piggy/blob/b8f6c928ec800b56a08d9738a02b2ab21576d28f/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-piggy",
+      "version": "0.37.1-rc.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CLICGGER-TYPES/dsh-piggy",
+        "commit": "b8f6c928ec800b56a08d9738a02b2ab21576d28f"
+      },
+      "manifestSha256": "b4099832ec1215a86432dc68289570fe5ef0c75d96d0ad8d9b7c332ea01468cd",
+      "manifestUrl": "https://github.com/CLICGGER-TYPES/dsh-piggy/blob/b8f6c928ec800b56a08d9738a02b2ab21576d28f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-piggy",
+        "versions": [
+          {
+            "version": "0.37.1-rc.2",
+            "publishTimestamp": 1792258745,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CLICGGER-TYPES/dsh-piggy",
+              "commit": "b8f6c928ec800b56a08d9738a02b2ab21576d28f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-piggy",
+      "origin": "npm",
+      "name": "dsh-piggy",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-piggy",
+        "title": "dsh-piggy",
+        "description": "🐖 一只住在 DeepSeek Harness 里的猪：吃你的真实工作长大，会学习、打工、旅行、生病、需要照顾",
+        "author": "clicgger",
+        "homepage": "https://github.com/CLICGGER-TYPES/dsh-piggy#readme",
+        "repository": {
+          "url": "https://github.com/CLICGGER-TYPES/dsh-piggy"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "pet",
+            "pig",
+            "tamagotchi",
+            "desktop-pet"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.37.0",
+            "publishTimestamp": 1792027980,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "65904a0d2b9a1dc4d0d44d42ee9e3a58b9fa88c70cd15763c4f918c9fe6f8856",
+      "evidence": [
+        {
+          "name": "dsh-piggy",
+          "version": "0.37.0",
+          "tarball": "https://registry.npmjs.org/dsh-piggy/-/dsh-piggy-0.37.0.tgz",
+          "integrity": "sha512-dW4/cCS3Ni2v9iBv2WKIcv96TztFaZ87f8KgkfmvJir8JMjcjRz8nYD9uhxVK0dOR2Zd3c33cvXVPhfeV522Wg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-piggy",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CLICGGER-TYPES/dsh-piggy",
+    "commit": "b8f6c928ec800b56a08d9738a02b2ab21576d28f",
+    "releaseTags": 58,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:46.674Z"
+}

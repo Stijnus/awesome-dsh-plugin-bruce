@@ -1,0 +1,134 @@
+{
+  "full_name": "goodrain/rainskills",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:58.516Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5171a58847396199157e55d3bdb52af43383b25986b899742cd418a19e3d5126",
+      "url": "https://github.com/goodrain/rainskills/blob/93eaf32dfb6f3dd9af2c6c203a73e7b01dd0c8e8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "rainskills",
+          "command": "dsh plugin --profile web add rainskills",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "rainskills",
+      "version": "0.1.45",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goodrain/rainskills",
+        "commit": "93eaf32dfb6f3dd9af2c6c203a73e7b01dd0c8e8"
+      },
+      "manifestSha256": "8ebcc8d514cf850320007b71d72c53db99ba53c5b08b090672847e2cbee78a11",
+      "manifestUrl": "https://github.com/goodrain/rainskills/blob/93eaf32dfb6f3dd9af2c6c203a73e7b01dd0c8e8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "rainskills",
+        "versions": [
+          {
+            "version": "0.1.45",
+            "publishTimestamp": 1791954949,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/goodrain/rainskills",
+              "commit": "93eaf32dfb6f3dd9af2c6c203a73e7b01dd0c8e8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "rainskills",
+      "origin": "npm",
+      "name": "rainskills",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "rainskills",
+        "title": "rainskills",
+        "description": "Agent Skills for deploying, troubleshooting, and verifying applications on Rainbond from Codex, Claude Code, and other AI coding agents",
+        "homepage": "https://www.rainbond.com/rainskills",
+        "repository": {
+          "url": "https://github.com/goodrain/rainskills"
+        },
+        "metadata": {
+          "keywords": [
+            "rainbond",
+            "ai-agent",
+            "agent-skills",
+            "deployment",
+            "application-delivery",
+            "self-hosted",
+            "kubernetes",
+            "devops",
+            "vibe-coding",
+            "codex",
+            "claude-code",
+            "pi-agent",
+            "deepseek-harness",
+            "dsh-plugin",
+            "workbuddy",
+            "hermes-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.45",
+            "publishTimestamp": 1791955645,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d58a001b7180923efbf1dd2823e167019b87446a2ae2c776f582f2a5ad16b8fd",
+      "evidence": [
+        {
+          "name": "rainskills",
+          "version": "0.1.45",
+          "tarball": "https://registry.npmjs.org/rainskills/-/rainskills-0.1.45.tgz",
+          "integrity": "sha512-qKflKwZ3VBN/c3Hwyh/yTj2J/dd72zy809uxTjCUN4ugemChD/x7OZPJwYy5WUwvK/6I6RLJkQ9t9xDuDceQUg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "rainskills",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/goodrain/rainskills",
+    "commit": "93eaf32dfb6f3dd9af2c6c203a73e7b01dd0c8e8",
+    "releaseTags": 20,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:06.857Z"
+}

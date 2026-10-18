@@ -1,0 +1,221 @@
+{
+  "full_name": "PerryLink/dsh-mask",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:10.076Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "776eadf4cd28e983e1c82a71e76d0727dd99296c8dc93ed772f3bb0ab2453cfe",
+      "url": "https://github.com/PerryLink/dsh-mask/blob/0b3adb6befa72b754833992cd5d7ffaa51bd1af1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-mask",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-mask",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mask",
+          "command": "dsh plugin --profile web add dsh-mask",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "8a732ac592915b42f5ad867b5f2f4ffe6e95029601e276cfd75802aff94eed8f",
+      "url": "https://github.com/PerryLink/dsh-mask/blob/0b3adb6befa72b754833992cd5d7ffaa51bd1af1/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-mask",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-mask",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mask",
+          "command": "dsh plugin --profile web add dsh-mask",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "2600c30621a74a41df9ab373aefcdf21b51489f23f75691636145d004a706bce",
+      "url": "https://github.com/PerryLink/dsh-mask/blob/0b3adb6befa72b754833992cd5d7ffaa51bd1af1/README-es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-mask",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-mask",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mask",
+          "command": "dsh plugin --profile web add dsh-mask",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "7d298199b8900822e1a67aff237d8c6280f2339c85b59c8a92efbba40e7c2511",
+      "url": "https://github.com/PerryLink/dsh-mask/blob/0b3adb6befa72b754833992cd5d7ffaa51bd1af1/README-pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-mask",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-mask",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mask",
+          "command": "dsh plugin --profile web add dsh-mask",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "ddd374e543eac776233bec0d76158bce9db3ea4fe43ca49bf6584e806b321fa0",
+      "url": "https://github.com/PerryLink/dsh-mask/blob/0b3adb6befa72b754833992cd5d7ffaa51bd1af1/README-hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-mask",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-mask",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mask",
+          "command": "dsh plugin --profile web add dsh-mask",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mask",
+      "version": "0.2.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-mask",
+        "commit": "0b3adb6befa72b754833992cd5d7ffaa51bd1af1"
+      },
+      "manifestSha256": "1a30c1bd395aaa6a1aba438f809222aa039679f734870067e003bec6503267f0",
+      "manifestUrl": "https://github.com/PerryLink/dsh-mask/blob/0b3adb6befa72b754833992cd5d7ffaa51bd1af1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-mask",
+        "versions": [
+          {
+            "version": "0.2.20",
+            "publishTimestamp": 1791813001,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-mask",
+              "commit": "0b3adb6befa72b754833992cd5d7ffaa51bd1af1"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mask",
+      "origin": "npm",
+      "name": "dsh-mask",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mask",
+        "title": "dsh-mask",
+        "description": "PII masking middleware for DeepSeek Harness: regex-detect and replace phones, emails, ID cards, bank cards, keys, and (opt-in) IPs with placeholders before they reach the model, keep the restore table host-side (memory plus a controlled storage domain, never the session log) with the /mask restore command and the exported RestoreStore seam, and expose /mask status and the mask_test tool. Name and address recognition needs an external NER recognizer, which this pure-host form does not bundle: mode \"regex+ner\" and the person/address entities fail loudly at load. The phone and ID-card detectors match mainland-China formats only.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-mask#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-mask"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "pii",
+            "mask",
+            "privacy",
+            "anonymization",
+            "security"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.20",
+            "publishTimestamp": 1791594177,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f7dd64bd4f14738b26a322fce467252d28916946c2e1bea3292df65ee7245ce5",
+      "evidence": [
+        {
+          "name": "dsh-mask",
+          "version": "0.2.20",
+          "tarball": "https://registry.npmjs.org/dsh-mask/-/dsh-mask-0.2.20.tgz",
+          "integrity": "sha512-mNEcvTAqmxAe5MhFPjeSrZNy/M9ZQCDLFndmW48M35b/z6PD3ZXVQKkCc7L7MC8Z8/n5kD594tLUINn/1wIjzA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-mask",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mask",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-mask",
+    "commit": "0b3adb6befa72b754833992cd5d7ffaa51bd1af1",
+    "releaseTags": 26,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:15.755Z"
+}

@@ -1,0 +1,219 @@
+{
+  "full_name": "LaoYueHanNi/dsh-git-worktree",
+  "originalPosition": 2,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:15.793Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d3d7bfa24ce11e9dc63683355027089c5d63d6082851e18d9f3b2699dd8ae272",
+      "url": "https://github.com/LaoYueHanNi/dsh-git-worktree/blob/a7f34bb8185b9a4835762865003f7bac185fce68/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@laoyuehanni/dsh-git-worktree",
+          "command": "dsh plugin --profile web add @laoyuehanni/dsh-git-worktree",
+          "profile": "web"
+        },
+        {
+          "install": "@laoyuehanni/dsh-git-worktree@dsh-alpha",
+          "command": "dsh plugin --profile web add @laoyuehanni/dsh-git-worktree@dsh-alpha",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "add6bd090833bf272aa7ee3c1b3a8d555f9d2ad126e7af81ac146526c655dec8",
+      "url": "https://github.com/LaoYueHanNi/dsh-git-worktree/blob/a7f34bb8185b9a4835762865003f7bac185fce68/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@laoyuehanni/dsh-git-worktree",
+          "command": "dsh plugin --profile web add @laoyuehanni/dsh-git-worktree",
+          "profile": "web"
+        },
+        {
+          "install": "@laoyuehanni/dsh-git-worktree@dsh-alpha",
+          "command": "dsh plugin --profile web add @laoyuehanni/dsh-git-worktree@dsh-alpha",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@laoyuehanni/dsh-git-worktree",
+      "version": "0.4.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LaoYueHanNi/dsh-git-worktree",
+        "commit": "a7f34bb8185b9a4835762865003f7bac185fce68"
+      },
+      "manifestSha256": "ddf70767d423a2cc121393cc60f44dc2ed166ce420bee1643e7a40ebde7222f9",
+      "manifestUrl": "https://github.com/LaoYueHanNi/dsh-git-worktree/blob/a7f34bb8185b9a4835762865003f7bac185fce68/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@laoyuehanni/dsh-git-worktree",
+        "versions": [
+          {
+            "version": "0.4.9",
+            "publishTimestamp": 1792154331,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LaoYueHanNi/dsh-git-worktree",
+              "commit": "a7f34bb8185b9a4835762865003f7bac185fce68"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@laoyuehanni/dsh-git-worktree",
+      "origin": "npm",
+      "name": "@laoyuehanni/dsh-git-worktree",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@laoyuehanni/dsh-git-worktree",
+        "title": {
+          "en": "@laoyuehanni/dsh-git-worktree",
+          "zh": "dsh git 工作树"
+        },
+        "description": {
+          "en": "DSH plugin: branch visibility and git worktree isolation for Web UI sessions",
+          "zh": "支持分支操作与工作树功能的dsh插件"
+        },
+        "author": "LaoYueHanNi",
+        "homepage": "https://github.com/LaoYueHanNi/dsh-git-worktree#readme",
+        "repository": {
+          "url": "https://github.com/LaoYueHanNi/dsh-git-worktree"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "cordis",
+            "plugin",
+            "git",
+            "worktree",
+            "branch"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.9",
+            "publishTimestamp": 1792154946,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ea828cc894d65f646242fc423b296a23666102768386359a177c237be4507aeb",
+      "evidence": [
+        {
+          "name": "@laoyuehanni/dsh-git-worktree",
+          "version": "0.4.9",
+          "tarball": "https://registry.npmjs.org/@laoyuehanni/dsh-git-worktree/-/dsh-git-worktree-0.4.9.tgz",
+          "integrity": "sha512-CtMKn/teiC07bCMcQ6bh+i/Psdch75CC8eWnuq4M0Gb0WcU03E2OOcSpnjeDzBXV9kEY70KKrtNJ2T6TtP18Qw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@laoyuehanni/dsh-git-worktree@dsh-alpha",
+      "origin": "npm",
+      "name": "@laoyuehanni/dsh-git-worktree",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@laoyuehanni/dsh-git-worktree",
+        "title": "@laoyuehanni/dsh-git-worktree",
+        "description": "DSH plugin: branch visibility and git worktree isolation for Web UI sessions",
+        "author": "LaoYueHanNi",
+        "homepage": "https://github.com/LaoYueHanNi/dsh-git-worktree#readme",
+        "repository": {
+          "url": "https://github.com/LaoYueHanNi/dsh-git-worktree"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "cordis",
+            "plugin",
+            "git",
+            "worktree",
+            "branch"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.3-dsh-0.1.2-alpha.5",
+            "publishTimestamp": 1788364328,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.4 <0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ea828cc894d65f646242fc423b296a23666102768386359a177c237be4507aeb",
+      "evidence": [
+        {
+          "name": "@laoyuehanni/dsh-git-worktree",
+          "version": "0.4.3-dsh-0.1.2-alpha.5",
+          "tarball": "https://registry.npmjs.org/@laoyuehanni/dsh-git-worktree/-/dsh-git-worktree-0.4.3-dsh-0.1.2-alpha.5.tgz",
+          "integrity": "sha512-6QdhcgU0fuAn5XjZwwDzxzU08+GUYosuCEMLCEvcEsCNjZ4nmJSsoasmtdTJeFyvwMDsySnFkIDbvWnzh1oKbA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@laoyuehanni/dsh-git-worktree",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@laoyuehanni/dsh-git-worktree@dsh-alpha",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LaoYueHanNi/dsh-git-worktree",
+    "commit": "a7f34bb8185b9a4835762865003f7bac185fce68",
+    "releaseTags": 17,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:24.622Z"
+}

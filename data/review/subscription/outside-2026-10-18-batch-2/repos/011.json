@@ -1,0 +1,65 @@
+{
+  "full_name": "Yoshino-JF/dsh-deepseek-pet",
+  "originalPosition": 11,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 11,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:14.595Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "850c0992867f9d1b59feaedf41f9571b535b8441629240fdb8fc4da49b378c65",
+      "url": "https://github.com/Yoshino-JF/dsh-deepseek-pet/blob/36d383e6a39306ef97698c4b41595fd4771bd12f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseekstudio/dsh-deepseek-pet",
+      "version": "0.2.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yoshino-JF/dsh-deepseek-pet",
+        "commit": "36d383e6a39306ef97698c4b41595fd4771bd12f"
+      },
+      "manifestSha256": "05888ab2745d613ca4149f003118587b8a372aea3d7e81b8e4cdd9dacf89d9ee",
+      "manifestUrl": "https://github.com/Yoshino-JF/dsh-deepseek-pet/blob/36d383e6a39306ef97698c4b41595fd4771bd12f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseekstudio/dsh-deepseek-pet",
+        "versions": [
+          {
+            "version": "0.2.14",
+            "publishTimestamp": 1791365485,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yoshino-JF/dsh-deepseek-pet",
+              "commit": "36d383e6a39306ef97698c4b41595fd4771bd12f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yoshino-JF/dsh-deepseek-pet",
+    "commit": "36d383e6a39306ef97698c4b41595fd4771bd12f",
+    "releaseTags": 12,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:22.304Z"
+}

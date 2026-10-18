@@ -1,0 +1,245 @@
+{
+  "full_name": "zangxx66/dsh-prompt-setting",
+  "originalPosition": 184,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 184,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:21.552Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c5e23b50b5ed49841000374bef3b4c7bc7471cd77a85057f1dc7d4c59914664e",
+      "url": "https://github.com/zangxx66/dsh-prompt-setting/blob/1d2543ae1de1bf2e247a8637da7e41dea34bd5cb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-setting",
+          "command": "dsh plugin --profile <name> add dsh-prompt-setting",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-prompt-setting",
+          "command": "dsh plugin --profile web add dsh-prompt-setting",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/zangxx66/dsh-prompt-setting#path:/packages/dsh-prompt-setting",
+          "command": "dsh plugin --profile web add 'github:zangxx66/dsh-prompt-setting#path:/packages/dsh-prompt-setting'",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "1acaafcfeec85b01579d42722ea3a7b4f8b03b108f6574e60214f9e7ce291417",
+      "url": "https://github.com/zangxx66/dsh-prompt-setting/blob/1d2543ae1de1bf2e247a8637da7e41dea34bd5cb/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-setting",
+          "command": "dsh plugin --profile <profile 名> add dsh-prompt-setting",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-prompt-setting",
+          "command": "dsh plugin --profile web add dsh-prompt-setting",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/zangxx66/dsh-prompt-setting#path:/packages/dsh-prompt-setting",
+          "command": "dsh plugin --profile web add 'github:zangxx66/dsh-prompt-setting#path:/packages/dsh-prompt-setting'",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-prompt-setting/README.md",
+      "sha256": "de974241e04fd6d189565e4988b2e2c4269cdfef85ce33b3cd652957ed89b7e9",
+      "url": "https://github.com/zangxx66/dsh-prompt-setting/blob/1d2543ae1de1bf2e247a8637da7e41dea34bd5cb/packages/dsh-prompt-setting/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-setting",
+          "command": "dsh plugin --profile <profile> add dsh-prompt-setting",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/zangxx66/dsh-prompt-setting#path:/packages/dsh-prompt-setting",
+          "command": "dsh plugin --profile <profile> add 'github:zangxx66/dsh-prompt-setting#path:/packages/dsh-prompt-setting'",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-setting",
+      "version": "0.2.2",
+      "path": "packages/dsh-prompt-setting",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zangxx66/dsh-prompt-setting",
+        "commit": "1d2543ae1de1bf2e247a8637da7e41dea34bd5cb",
+        "path": "packages/dsh-prompt-setting"
+      },
+      "manifestSha256": "5bc60d1308772571cddad227e2ee1a42621bd7c24b3a223e1e27f73007f9e792",
+      "manifestUrl": "https://github.com/zangxx66/dsh-prompt-setting/blob/1d2543ae1de1bf2e247a8637da7e41dea34bd5cb/packages/dsh-prompt-setting/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.2.0 || >=0.2.0-0 <0.2.1-0 || >=0.2.1-0 <0.2.2-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-prompt-setting",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1791902533,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zangxx66/dsh-prompt-setting",
+              "commit": "1d2543ae1de1bf2e247a8637da7e41dea34bd5cb",
+              "path": "packages/dsh-prompt-setting"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0 || >=0.2.0-0 <0.2.1-0 || >=0.2.1-0 <0.2.2-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-prompt-setting",
+      "origin": "npm",
+      "name": "dsh-prompt-setting",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-prompt-setting",
+        "title": "dsh-prompt-setting",
+        "description": "DeepSeek Harness 默认 System Prompt 管理插件：在 Web GUI「设置」里浏览、检索并覆盖最终装配进每轮会话的系统提示词。",
+        "homepage": "https://github.com/zangxx66/dsh-prompt-setting#readme",
+        "repository": {
+          "url": "https://github.com/zangxx66/dsh-prompt-setting",
+          "directory": "packages/dsh-prompt-setting"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "system-prompt",
+            "prompt",
+            "settings",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1791903271,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0 || >=0.2.0-0 <0.2.1-0 || >=0.2.1-0 <0.2.2-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2a430c77d01adc33651be32bfa1389eaa2ac1d2e55a5248fafe15669835d1015",
+      "evidence": [
+        {
+          "name": "dsh-prompt-setting",
+          "version": "0.2.2",
+          "tarball": "https://registry.npmjs.org/dsh-prompt-setting/-/dsh-prompt-setting-0.2.2.tgz",
+          "integrity": "sha512-5mc1b/Ci8f71GsdDCty0ZoUF++XNLSpiSvV8yroWafMKKqKvOFZjEAQQBvZnbvD82eZsgbH/0UvCC5qmrMTW5w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/zangxx66/dsh-prompt-setting#path:/packages/dsh-prompt-setting",
+      "origin": "git_target",
+      "name": "dsh-prompt-setting",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-prompt-setting",
+        "title": "dsh-prompt-setting",
+        "description": "DeepSeek Harness 默认 System Prompt 管理插件：在 Web GUI「设置」里浏览、检索并覆盖最终装配进每轮会话的系统提示词。",
+        "homepage": "https://github.com/zangxx66/dsh-prompt-setting#readme",
+        "repository": {
+          "url": "https://github.com/zangxx66/dsh-prompt-setting",
+          "directory": "packages/dsh-prompt-setting"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "system-prompt",
+            "prompt",
+            "settings",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1791902533,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zangxx66/dsh-prompt-setting",
+              "commit": "1d2543ae1de1bf2e247a8637da7e41dea34bd5cb",
+              "path": "packages/dsh-prompt-setting"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0 || >=0.2.0-0 <0.2.1-0 || >=0.2.1-0 <0.2.2-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "packages/dsh-prompt-setting",
+          "commit": "1d2543ae1de1bf2e247a8637da7e41dea34bd5cb",
+          "name": "dsh-prompt-setting",
+          "version": "0.2.2",
+          "url": "https://github.com/zangxx66/dsh-prompt-setting",
+          "manifestSha256": "5bc60d1308772571cddad227e2ee1a42621bd7c24b3a223e1e27f73007f9e792",
+          "publishTimestamp": 1791902533
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-prompt-setting",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/zangxx66/dsh-prompt-setting#path:/packages/dsh-prompt-setting",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zangxx66/dsh-prompt-setting",
+    "commit": "1d2543ae1de1bf2e247a8637da7e41dea34bd5cb",
+    "releaseTags": 8,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:36.547Z"
+}

@@ -1,0 +1,141 @@
+{
+  "full_name": "ayuanwong/dsh-ux",
+  "originalPosition": 96,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 96,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:15.756Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "51fd07bbcf257ddcd6473f73831576c082c0f27561056ff21964d693808a3e0f",
+      "url": "https://github.com/ayuanwong/dsh-ux/blob/e106de3719b0f636ce723ea981ca1b2ff7d51fbf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1a8bb8c470eef91855b6894b93fee75194b6d6a1ce04a0f47024d806c6eb4c5c",
+      "url": "https://github.com/ayuanwong/dsh-ux/blob/e106de3719b0f636ce723ea981ca1b2ff7d51fbf/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-base",
+      "version": "0.0.1-rc.2",
+      "path": "packages/bundle/base",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ayuanwong/dsh-ux",
+        "commit": "e106de3719b0f636ce723ea981ca1b2ff7d51fbf",
+        "path": "packages/bundle/base"
+      },
+      "manifestSha256": "b8272d89d2b181ee770c5f8a94a50ec5d08961411af7d6a36807f1de99a75968",
+      "manifestUrl": "https://github.com/ayuanwong/dsh-ux/blob/e106de3719b0f636ce723ea981ca1b2ff7d51fbf/packages/bundle/base/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-base",
+        "versions": [
+          {
+            "version": "0.0.1-rc.2",
+            "publishTimestamp": 1786914258,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ayuanwong/dsh-ux",
+              "commit": "e106de3719b0f636ce723ea981ca1b2ff7d51fbf",
+              "path": "packages/bundle/base"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-headless",
+      "version": "0.0.1-rc.2",
+      "path": "packages/bundle/headless",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ayuanwong/dsh-ux",
+        "commit": "e106de3719b0f636ce723ea981ca1b2ff7d51fbf",
+        "path": "packages/bundle/headless"
+      },
+      "manifestSha256": "78084badd022cb3d5451b902dfafb38ef1736f98b03ed40353a6af6bae1c574e",
+      "manifestUrl": "https://github.com/ayuanwong/dsh-ux/blob/e106de3719b0f636ce723ea981ca1b2ff7d51fbf/packages/bundle/headless/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-headless",
+        "versions": [
+          {
+            "version": "0.0.1-rc.2",
+            "publishTimestamp": 1786914258,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ayuanwong/dsh-ux",
+              "commit": "e106de3719b0f636ce723ea981ca1b2ff7d51fbf",
+              "path": "packages/bundle/headless"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-web-app",
+      "version": "0.0.1-rc.2",
+      "path": "packages/bundle/web-app",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ayuanwong/dsh-ux",
+        "commit": "e106de3719b0f636ce723ea981ca1b2ff7d51fbf",
+        "path": "packages/bundle/web-app"
+      },
+      "manifestSha256": "7ceec5791bfb7d689945d17eabe0d8c17aad06d360e92124b563f474725dd4f5",
+      "manifestUrl": "https://github.com/ayuanwong/dsh-ux/blob/e106de3719b0f636ce723ea981ca1b2ff7d51fbf/packages/bundle/web-app/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-web-app",
+        "versions": [
+          {
+            "version": "0.0.1-rc.2",
+            "publishTimestamp": 1786914258,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ayuanwong/dsh-ux",
+              "commit": "e106de3719b0f636ce723ea981ca1b2ff7d51fbf",
+              "path": "packages/bundle/web-app"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ayuanwong/dsh-ux",
+    "commit": "e106de3719b0f636ce723ea981ca1b2ff7d51fbf",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:24.856Z"
+}

@@ -1,0 +1,130 @@
+{
+  "full_name": "Kanadego/dsh-heartbeat",
+  "originalPosition": 61,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 61,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:34.860Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b1bd89a9021c0e33828d08d999ecfa270759aaae3acbe2fc848f49be0d825b2b",
+      "url": "https://github.com/Kanadego/dsh-heartbeat/blob/8880365836fc4247839122aee7b542d73403a532/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@kanadego/dsh-heartbeat",
+          "command": "dsh plugin --profile web add @kanadego/dsh-heartbeat",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@kanadego/dsh-heartbeat",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Kanadego/dsh-heartbeat",
+        "commit": "8880365836fc4247839122aee7b542d73403a532"
+      },
+      "manifestSha256": "26582b8a27744907c077776a34e1fe3348daee731de3e35e538c178e7d29d8fc",
+      "manifestUrl": "https://github.com/Kanadego/dsh-heartbeat/blob/8880365836fc4247839122aee7b542d73403a532/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2 || ^0.1.5-rc.2 || ^0.1.7-rc.1 || ^0.2.0-rc.1 || ^0.2.1-rc.1 || ^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@kanadego/dsh-heartbeat",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1792253256,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Kanadego/dsh-heartbeat",
+              "commit": "8880365836fc4247839122aee7b542d73403a532"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2 || ^0.1.5-rc.2 || ^0.1.7-rc.1 || ^0.2.0-rc.1 || ^0.2.1-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@kanadego/dsh-heartbeat",
+      "origin": "npm",
+      "name": "@kanadego/dsh-heartbeat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@kanadego/dsh-heartbeat",
+        "title": "@kanadego/dsh-heartbeat",
+        "description": "Heartbeat plugin for DeepSeek Harness: scheduled autonomous reflection loop with user profile, material pool, pace gate, and gated proactive expression.",
+        "homepage": "https://github.com/Kanadego/dsh-heartbeat",
+        "repository": {
+          "url": "https://github.com/Kanadego/dsh-heartbeat"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "heartbeat",
+            "proactive",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1792253530,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2 || ^0.1.5-rc.2 || ^0.1.7-rc.1 || ^0.2.0-rc.1 || ^0.2.1-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "217af80569017ce07ce9787ae725616c80eed97a28dca472165ecd902deff6f7",
+      "evidence": [
+        {
+          "name": "@kanadego/dsh-heartbeat",
+          "version": "2.0.0",
+          "tarball": "https://registry.npmjs.org/@kanadego/dsh-heartbeat/-/dsh-heartbeat-2.0.0.tgz",
+          "integrity": "sha512-fNmtGubwT9J9mJazNkRAX/9S2CsWmkhP7uR3WCUF54eNX9Pzsqhiqi0lTrvwCJmpECCzrDMEh5i9OEgIQxJdJA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@kanadego/dsh-heartbeat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Kanadego/dsh-heartbeat",
+    "commit": "8880365836fc4247839122aee7b542d73403a532",
+    "releaseTags": 25,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:42.135Z"
+}

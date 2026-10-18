@@ -1,0 +1,127 @@
+{
+  "full_name": "cuddly-guacamole/dsh-auto-approval-llm",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:11.435Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8b6bc63b928347fa43e1537f465d47290d3ae7a7015bfbcf1f02d8bf8c50e6de",
+      "url": "https://github.com/cuddly-guacamole/dsh-auto-approval-llm/blob/66753b73b1f6ab5130ab993e9fd4ebcca2aa6349/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@quill507/dsh-auto-approval-llm",
+          "command": "dsh plugin --profile web add @quill507/dsh-auto-approval-llm",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@quill507/dsh-auto-approval-llm",
+      "version": "0.0.42",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cuddly-guacamole/dsh-auto-approval-llm",
+        "commit": "66753b73b1f6ab5130ab993e9fd4ebcca2aa6349"
+      },
+      "manifestSha256": "5b2cd74ceab3015d97567431adcfb2584f24e1cf25603daa9f15a25f6e89fd0e",
+      "manifestUrl": "https://github.com/cuddly-guacamole/dsh-auto-approval-llm/blob/66753b73b1f6ab5130ab993e9fd4ebcca2aa6349/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <2 || >=0.2.1-alpha.4 <2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@quill507/dsh-auto-approval-llm",
+        "versions": [
+          {
+            "version": "0.0.42",
+            "publishTimestamp": 1792174459,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cuddly-guacamole/dsh-auto-approval-llm",
+              "commit": "66753b73b1f6ab5130ab993e9fd4ebcca2aa6349"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <2 || >=0.2.1-alpha.4 <2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@quill507/dsh-auto-approval-llm",
+      "origin": "npm",
+      "name": "@quill507/dsh-auto-approval-llm",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@quill507/dsh-auto-approval-llm",
+        "title": {
+          "en": "Auto Approval",
+          "zh": "自动审批"
+        },
+        "description": {
+          "en": "LLM-assisted auto approval with timeout fallback for DeepSeek Harness",
+          "zh": "DSH 的 LLM 辅助自动审批插件，带超时兜底护栏：仅接管 auto-approval 档，工具调用前经静态评估与在线评审裁决，超时按配置动作处理，默认拒绝。"
+        },
+        "author": "quill507",
+        "homepage": "https://github.com/cuddly-guacamole/dsh-auto-approval-llm#readme",
+        "repository": {
+          "url": "https://github.com/cuddly-guacamole/dsh-auto-approval-llm"
+        },
+        "versions": [
+          {
+            "version": "0.0.42",
+            "publishTimestamp": 1792174704,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <2 || >=0.2.1-alpha.4 <2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2a1ba16b7f8c12af8ac46d0f6953774536d358df6a92f9c391120731d5a33c7a",
+      "evidence": [
+        {
+          "name": "@quill507/dsh-auto-approval-llm",
+          "version": "0.0.42",
+          "tarball": "https://registry.npmjs.org/@quill507/dsh-auto-approval-llm/-/dsh-auto-approval-llm-0.0.42.tgz",
+          "integrity": "sha512-W62eUl5pnCCl8IdamClUkpmY3y3JUh3t1yvt2lqN/mxJeVeRyJRs0j/wmrAhCPF67V1E58lWtzSiWL1BKB268w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@quill507/dsh-auto-approval-llm",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cuddly-guacamole/dsh-auto-approval-llm",
+    "commit": "66753b73b1f6ab5130ab993e9fd4ebcca2aa6349",
+    "releaseTags": 42,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:18.633Z"
+}

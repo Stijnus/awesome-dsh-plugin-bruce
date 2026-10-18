@@ -1,0 +1,130 @@
+{
+  "full_name": "asukasec/dsh-message-preview",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:03.009Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "89d5014d566ac9c3efaf6586b14a5e4c3bbd1248018ad8ebb5b11efb19bee75d",
+      "url": "https://github.com/asukasec/dsh-message-preview/blob/dfdb543e3982ed5d3f5612b3b0b2e2f6be0f0ed7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/asukasec/dsh-message-preview#main",
+          "command": "dsh plugin --profile web add \"github:asukasec/dsh-message-preview#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-message-preview",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/asukasec/dsh-message-preview",
+        "commit": "dfdb543e3982ed5d3f5612b3b0b2e2f6be0f0ed7"
+      },
+      "manifestSha256": "a2f5f6867860c1b0d654fb6a0e5ea9d21455579c7331f5c98dd9bb46b5267359",
+      "manifestUrl": "https://github.com/asukasec/dsh-message-preview/blob/dfdb543e3982ed5d3f5612b3b0b2e2f6be0f0ed7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-message-preview",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786700396,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/asukasec/dsh-message-preview",
+              "commit": "dfdb543e3982ed5d3f5612b3b0b2e2f6be0f0ed7"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/asukasec/dsh-message-preview#main",
+      "origin": "git_target",
+      "name": "dsh-message-preview",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-message-preview",
+        "title": "dsh-message-preview",
+        "description": "Sidebar message-history preview for DeepSeek Harness web UI: lists the current session's sent messages with previews; click to jump the chat to that message.",
+        "homepage": "https://github.com/asukasec/dsh-message-preview#readme",
+        "repository": {
+          "url": "https://github.com/asukasec/dsh-message-preview"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "conversation",
+            "navigation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786700396,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/asukasec/dsh-message-preview",
+              "commit": "dfdb543e3982ed5d3f5612b3b0b2e2f6be0f0ed7"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "dfdb543e3982ed5d3f5612b3b0b2e2f6be0f0ed7",
+          "name": "dsh-message-preview",
+          "version": "0.1.1",
+          "url": "https://github.com/asukasec/dsh-message-preview",
+          "manifestSha256": "a2f5f6867860c1b0d654fb6a0e5ea9d21455579c7331f5c98dd9bb46b5267359",
+          "publishTimestamp": 1786700396
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/asukasec/dsh-message-preview#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/asukasec/dsh-message-preview",
+    "commit": "dfdb543e3982ed5d3f5612b3b0b2e2f6be0f0ed7",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:11.036Z"
+}

@@ -1,0 +1,77 @@
+{
+  "full_name": "Moon-shiyue/dsh-github-connect",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:48.676Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "44cd4cbf7d24b9ef5c2c08f904bbf1da3b37e0a7155b6a0e6360b2cbffd7996f",
+      "url": "https://github.com/Moon-shiyue/dsh-github-connect/blob/89f8258fcca57fdd017bea64e2682f275302f813/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Moon-shiyue/dsh-github-connect",
+          "command": "dsh plugin --profile desktop add github:Moon-shiyue/dsh-github-connect",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-github-connect",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Moon-shiyue/dsh-github-connect",
+        "commit": "89f8258fcca57fdd017bea64e2682f275302f813"
+      },
+      "manifestSha256": "1fe81714e6a2bb045ccfb92074d90efc8f9a66e1b05a5ba27ea8ea67cf23dfde",
+      "manifestUrl": "https://github.com/Moon-shiyue/dsh-github-connect/blob/89f8258fcca57fdd017bea64e2682f275302f813/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-github-connect",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791294975,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Moon-shiyue/dsh-github-connect",
+              "commit": "89f8258fcca57fdd017bea64e2682f275302f813"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Moon-shiyue/dsh-github-connect",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Moon-shiyue/dsh-github-connect",
+    "commit": "89f8258fcca57fdd017bea64e2682f275302f813",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:53.106Z"
+}

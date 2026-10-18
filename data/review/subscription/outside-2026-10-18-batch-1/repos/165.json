@@ -1,0 +1,68 @@
+{
+  "full_name": "HapyRain/dsh-router-laya",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:00.645Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4e74ebebb8fd1b35952f05f92e56b1c87447262a304f03d30a8be77e8498c2b4",
+      "url": "https://github.com/HapyRain/dsh-router-laya/blob/29624e7e89d64d25ba0e6d8b3a6d79a1823c357e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-router-laya",
+      "version": "2.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HapyRain/dsh-router-laya",
+        "commit": "29624e7e89d64d25ba0e6d8b3a6d79a1823c357e"
+      },
+      "manifestSha256": "bd281f9742fff71e8892852d86bd4a21ce9b2197740065149fdf67be64d3a716",
+      "manifestUrl": "https://github.com/HapyRain/dsh-router-laya/blob/29624e7e89d64d25ba0e6d8b3a6d79a1823c357e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-router-laya",
+        "versions": [
+          {
+            "version": "2.2.1",
+            "publishTimestamp": 1792218295,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HapyRain/dsh-router-laya",
+              "commit": "29624e7e89d64d25ba0e6d8b3a6d79a1823c357e"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HapyRain/dsh-router-laya",
+    "commit": "29624e7e89d64d25ba0e6d8b3a6d79a1823c357e",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:05.379Z"
+}

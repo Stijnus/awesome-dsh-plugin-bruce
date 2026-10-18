@@ -1,0 +1,77 @@
+{
+  "full_name": "xohmai/dsh-session-delete",
+  "originalPosition": 108,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:26.457Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "385a51b6e5c5fb57d318e62ff7a9e528db6b5e6267d1548f579038eef6a14cb2",
+      "url": "https://github.com/xohmai/dsh-session-delete/blob/e508fe106bf8854ed9fb89ce6c10cb05a180a3b7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xohmai/dsh-session-delete",
+          "command": "dsh plugin --profile web add github:xohmai/dsh-session-delete",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-delete",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xohmai/dsh-session-delete",
+        "commit": "e508fe106bf8854ed9fb89ce6c10cb05a180a3b7"
+      },
+      "manifestSha256": "731054dea7bc1ae369abec3c4a660bd515ed5bce18fcdd91eacd8a7d5647b064",
+      "manifestUrl": "https://github.com/xohmai/dsh-session-delete/blob/e508fe106bf8854ed9fb89ce6c10cb05a180a3b7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-session-delete",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1791885070,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xohmai/dsh-session-delete",
+              "commit": "e508fe106bf8854ed9fb89ce6c10cb05a180a3b7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xohmai/dsh-session-delete",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xohmai/dsh-session-delete",
+    "commit": "e508fe106bf8854ed9fb89ce6c10cb05a180a3b7",
+    "releaseTags": 8,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:30.969Z"
+}

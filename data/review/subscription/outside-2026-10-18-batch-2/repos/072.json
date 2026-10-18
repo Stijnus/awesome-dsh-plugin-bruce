@@ -1,0 +1,110 @@
+{
+  "full_name": "ccq1/dsh-side-panel",
+  "originalPosition": 72,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 72,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:48.266Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8846caed91ad49a8d3bef0b44df01240187a9f72e24a082756e6c7ef810cca97",
+      "url": "https://github.com/ccq1/dsh-side-panel/blob/baca7806714ac577ac529647f105d58a2a10b228/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dsh-external/dsh-side-panel",
+          "command": "dsh plugin --profile web add github:dsh-external/dsh-side-panel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-side-panel",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ccq1/dsh-side-panel",
+        "commit": "baca7806714ac577ac529647f105d58a2a10b228"
+      },
+      "manifestSha256": "410d16fae36693eb269dd54c150b3cc3f52823c38212b635152f51b373afa322",
+      "manifestUrl": "https://github.com/ccq1/dsh-side-panel/blob/baca7806714ac577ac529647f105d58a2a10b228/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-external/dsh-side-panel",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1786729530,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ccq1/dsh-side-panel",
+              "commit": "baca7806714ac577ac529647f105d58a2a10b228"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/dsh-external/dsh-side-panel",
+      "origin": "git_target",
+      "name": "@dsh-external/dsh-side-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-external/dsh-side-panel",
+        "title": "@dsh-external/dsh-side-panel",
+        "description": "Git review, terminal, and file workspace panel for DSH Web",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1786729530,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dsh-external/dsh-side-panel",
+              "commit": "baca7806714ac577ac529647f105d58a2a10b228"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "baca7806714ac577ac529647f105d58a2a10b228",
+          "name": "@dsh-external/dsh-side-panel",
+          "version": "0.2.0",
+          "url": "https://github.com/dsh-external/dsh-side-panel",
+          "manifestSha256": "410d16fae36693eb269dd54c150b3cc3f52823c38212b635152f51b373afa322",
+          "publishTimestamp": 1786729530
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/dsh-external/dsh-side-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ccq1/dsh-side-panel",
+    "commit": "baca7806714ac577ac529647f105d58a2a10b228",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:59.583Z"
+}

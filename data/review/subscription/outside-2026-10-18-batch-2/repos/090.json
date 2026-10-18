@@ -1,0 +1,147 @@
+{
+  "full_name": "HorusJiang/dsh-jev-tools",
+  "originalPosition": 90,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 90,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:08.659Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3463c463fea58e6d13c53126946c66d5c0970f07ccaa516050140c91d14c2ff2",
+      "url": "https://github.com/HorusJiang/dsh-jev-tools/blob/10ea6068fc15db7d8bf86efd151e82d55e83c376/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-jev-tools",
+          "command": "dsh plugin --profile web add dsh-jev-tools",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "679d3ed3ce624ad0b7cff5dc692c9773e9b30c60a9172d1d7d8b1115bf245447",
+      "url": "https://github.com/HorusJiang/dsh-jev-tools/blob/10ea6068fc15db7d8bf86efd151e82d55e83c376/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-jev-tools",
+          "command": "dsh plugin --profile web add dsh-jev-tools",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-jev-tools",
+      "version": "0.1.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HorusJiang/dsh-jev-tools",
+        "commit": "10ea6068fc15db7d8bf86efd151e82d55e83c376"
+      },
+      "manifestSha256": "9ad1c3c3fcb64b5550a03a11968ed4526b3af52e13de2c6a475a0f454213f206",
+      "manifestUrl": "https://github.com/HorusJiang/dsh-jev-tools/blob/10ea6068fc15db7d8bf86efd151e82d55e83c376/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-jev-tools",
+        "versions": [
+          {
+            "version": "0.1.13",
+            "publishTimestamp": 1791046295,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HorusJiang/dsh-jev-tools",
+              "commit": "10ea6068fc15db7d8bf86efd151e82d55e83c376"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-jev-tools",
+      "origin": "npm",
+      "name": "dsh-jev-tools",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-jev-tools",
+        "title": "dsh-jev-tools",
+        "description": "Gives DeepSeek Harness three automatic Jev judgments — prune oversized tool output, screen fetched pages for injected instructions, suggest which skill to use — plus the jev_ask and jev_gate tools, a persistent judgment ledger, and a /jev-status diagnosis command. Requires a TypeSafe API key; with none configured it is completely inert and makes no network request.",
+        "author": "HorusJiang",
+        "homepage": "https://github.com/HorusJiang/dsh-jev-tools#readme",
+        "repository": {
+          "url": "https://github.com/HorusJiang/dsh-jev-tools"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "jev",
+            "typesafe",
+            "decision",
+            "classification",
+            "context",
+            "prompt-injection",
+            "guardrails",
+            "context-engineering",
+            "context-window"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1qZXYtdG9vbHMiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJqZXZQYXRoIiB4MT0iMTkiIHkxPSI4IiB4Mj0iMzMiIHkyPSIyOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMyMkM5RTYiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzhCNUNGNiIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDwhLS0gVGhlIGNoZWNrbGlzdDogZXZlcnkgY2FsbCBpcyBqdWRnZWQsIGFuZCB0aGUganVkZ2VtZW50IGlzIGEgeWVzIG9yIGEgbm8uIC0tPgogIDxwYXRoIGQ9Ik00LjIgMTFIMTEuNiIgc3Ryb2tlPSIjNkI3QTkwIiBzdHJva2Utb3BhY2l0eT0iMC41NSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIC8+CiAgPHBhdGggZD0iTTEzLjggOC45bDQuMiA0LjJNMTggOC45bC00LjIgNC4yIiBmaWxsPSJub25lIiBzdHJva2U9IiNGODcxNzEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogIDwhLS0gVGhlIG5vIGlzIGRyb3BwZWQgaGVyZTsgdGhlIHllcyBiZWNvbWVzIHRoZSBkZWNpc2lvbiBwYXRoLiAtLT4KICA8cGF0aCBkPSJNNC4yIDI1SDExLjYiIHN0cm9rZT0iIzdFOENBMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIC8+CiAgPHBhdGggZD0iTTEzLjYgMjVsMi4xIDIuMiAzLjgtNC4zIiBmaWxsPSJub25lIiBzdHJva2U9IiM0QURFODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0xOS44IDI1SDMyLjIiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNqZXZQYXRoKSIgc3Ryb2tlLXdpZHRoPSIyLjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgLz4KICA8cGF0aCBkPSJNMjkuMyAyMi4zIDMyLjIgMjVsLTIuOSAyLjciIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNqZXZQYXRoKSIgc3Ryb2tlLXdpZHRoPSIyLjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.1.13",
+            "publishTimestamp": 1790780069,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c3d939a553ee537d3ff34bec705cf91b27b34f3d26ecffba44263d5362735c58",
+      "evidence": [
+        {
+          "name": "dsh-jev-tools",
+          "version": "0.1.13",
+          "tarball": "https://registry.npmjs.org/dsh-jev-tools/-/dsh-jev-tools-0.1.13.tgz",
+          "integrity": "sha512-TnFb5nUcRyfFIK20fzgcj43g14ebzhK34sK0dn4jBswNuhb1Q/cpFoED0UDtjE14xEmcUVP3OlM97the8oDQRg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-jev-tools",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HorusJiang/dsh-jev-tools",
+    "commit": "10ea6068fc15db7d8bf86efd151e82d55e83c376",
+    "releaseTags": 12,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:18.845Z"
+}

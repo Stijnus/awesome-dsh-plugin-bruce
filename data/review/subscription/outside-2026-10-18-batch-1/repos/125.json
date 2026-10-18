@@ -1,0 +1,146 @@
+{
+  "full_name": "fredalxin/dsh-solo-thinking",
+  "originalPosition": 125,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 125,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:55.985Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f105c4c871d30196668c125234e27c2775754907baa6b4c7f51cf84a5bf691fb",
+      "url": "https://github.com/fredalxin/dsh-solo-thinking/blob/a77f3bb45ae8557df8a849e03ca0ed0b2d1a9e5d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/fredalxin/dsh-solo-thinking#v0.1.19",
+          "command": "dsh plugin --profile web add github:fredalxin/dsh-solo-thinking#v0.1.19",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "patches/README.md",
+      "sha256": "b64ed1f415ad604e3a5f031b13e945155e99ce367d3b0643620d87b7cfde1d44",
+      "url": "https://github.com/fredalxin/dsh-solo-thinking/blob/a77f3bb45ae8557df8a849e03ca0ed0b2d1a9e5d/patches/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/fredalxin/dsh-solo-thinking#v0.1.19",
+          "command": "pnpm dsh plugin --profile web add github:fredalxin/dsh-solo-thinking#v0.1.19",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-solo-thinking",
+      "version": "0.1.19",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fredalxin/dsh-solo-thinking",
+        "commit": "a77f3bb45ae8557df8a849e03ca0ed0b2d1a9e5d"
+      },
+      "manifestSha256": "f57bd0779a483e7664c91fb24a30d966cb0e5e73b11183fb038afb5dc672f625",
+      "manifestUrl": "https://github.com/fredalxin/dsh-solo-thinking/blob/a77f3bb45ae8557df8a849e03ca0ed0b2d1a9e5d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-solo-thinking",
+        "versions": [
+          {
+            "version": "0.1.19",
+            "publishTimestamp": 1787295631,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fredalxin/dsh-solo-thinking",
+              "commit": "a77f3bb45ae8557df8a849e03ca0ed0b2d1a9e5d"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/fredalxin/dsh-solo-thinking#v0.1.19",
+      "origin": "git_target",
+      "name": "dsh-plugin-solo-thinking",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-solo-thinking",
+        "title": "dsh-plugin-solo-thinking",
+        "description": "Solo-style isolated brainstorm branches and Handoffs for DeepSeek Harness",
+        "author": "fredalxin",
+        "homepage": "https://github.com/fredalxin/dsh-solo-thinking#readme",
+        "repository": {
+          "url": "https://github.com/fredalxin/dsh-solo-thinking"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "brainstorm",
+            "solo-thinking",
+            "handoff",
+            "multi-agent",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.19",
+            "publishTimestamp": 1787295631,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fredalxin/dsh-solo-thinking",
+              "commit": "a77f3bb45ae8557df8a849e03ca0ed0b2d1a9e5d"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "a77f3bb45ae8557df8a849e03ca0ed0b2d1a9e5d",
+          "name": "dsh-plugin-solo-thinking",
+          "version": "0.1.19",
+          "url": "https://github.com/fredalxin/dsh-solo-thinking",
+          "manifestSha256": "f57bd0779a483e7664c91fb24a30d966cb0e5e73b11183fb038afb5dc672f625",
+          "publishTimestamp": 1787295631
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/fredalxin/dsh-solo-thinking#v0.1.19",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fredalxin/dsh-solo-thinking",
+    "commit": "a77f3bb45ae8557df8a849e03ca0ed0b2d1a9e5d",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:08.491Z"
+}

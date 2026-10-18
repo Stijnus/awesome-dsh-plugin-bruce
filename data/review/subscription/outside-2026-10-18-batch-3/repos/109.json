@@ -1,0 +1,77 @@
+{
+  "full_name": "AKS1st/ikun-theme-skin",
+  "originalPosition": 109,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 109,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:33.100Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f28bc5e57056f972b4931d96715965ecfc25d99e490595a7f9152287b4d1d54",
+      "url": "https://github.com/AKS1st/ikun-theme-skin/blob/c0e59e61332a5e3317365848f73240308d9d9345/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AKS1st/ikun-theme-skin",
+          "command": "dsh plugin --profile web add github:AKS1st/ikun-theme-skin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "ikun-theme-skin",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AKS1st/ikun-theme-skin",
+        "commit": "c0e59e61332a5e3317365848f73240308d9d9345"
+      },
+      "manifestSha256": "af62bd83718b578d68fdde2623c59fa8815c90bac92f44dcee7e78eab7fd8fdf",
+      "manifestUrl": "https://github.com/AKS1st/ikun-theme-skin/blob/c0e59e61332a5e3317365848f73240308d9d9345/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "ikun-theme-skin",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1786805617,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AKS1st/ikun-theme-skin",
+              "commit": "c0e59e61332a5e3317365848f73240308d9d9345"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AKS1st/ikun-theme-skin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AKS1st/ikun-theme-skin",
+    "commit": "c0e59e61332a5e3317365848f73240308d9d9345",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:37.317Z"
+}

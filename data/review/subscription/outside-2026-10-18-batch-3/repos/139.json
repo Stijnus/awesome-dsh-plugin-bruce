@@ -1,0 +1,110 @@
+{
+  "full_name": "chengzhi43/dsh-file",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:09.533Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d8df4435f9f3f7ca954956f0b5c87706ab400b8e861e96faee7e0c65d85a3958",
+      "url": "https://github.com/chengzhi43/dsh-file/blob/4ace98226b5bf25075beedbdd7f62bcce51f90cd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@rose43/dsh-file",
+          "command": "dsh plugin --profile web add @rose43/dsh-file",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@rose43/dsh-file",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chengzhi43/dsh-file",
+        "commit": "4ace98226b5bf25075beedbdd7f62bcce51f90cd"
+      },
+      "manifestSha256": "bb830e4e5ad691f428d0c1e58c113a43035e309e9e4caf553faae7ce62366ce6",
+      "manifestUrl": "https://github.com/chengzhi43/dsh-file/blob/4ace98226b5bf25075beedbdd7f62bcce51f90cd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@rose43/dsh-file",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1788490248,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chengzhi43/dsh-file",
+              "commit": "4ace98226b5bf25075beedbdd7f62bcce51f90cd"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@rose43/dsh-file",
+      "origin": "npm",
+      "name": "@rose43/dsh-file",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@rose43/dsh-file",
+        "title": "@rose43/dsh-file",
+        "description": "A VS Code-style file manager plugin for DeepSeek Harness Web — DeepSeek Harness 的 VS Code 风格文件管理器插件（浏览、打开、编辑当前对话工作区的文件）.",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1788490562,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3997c0cb4653074780ad2ca983ac0ed8315fef62e6449fb76d5079251286c11b",
+      "evidence": [
+        {
+          "name": "@rose43/dsh-file",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/@rose43/dsh-file/-/dsh-file-0.2.1.tgz",
+          "integrity": "sha512-DYkqdhi8S4rZCzk+w27RVSldBdw5JxE7gbbTcDEUZdHv9IWG+eaKzeKJWOpJbXwCxXNyZri3XmttYcMXHW9UVA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@rose43/dsh-file",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chengzhi43/dsh-file",
+    "commit": "4ace98226b5bf25075beedbdd7f62bcce51f90cd",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:16.171Z"
+}

@@ -1,0 +1,172 @@
+{
+  "full_name": "lcestou/dsh-oh-my-claude",
+  "originalPosition": 138,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 138,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:17.630Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "77329942cc662ceece0822dbaa5ac1955c58713eb4759ba4ef6147167894c067",
+      "url": "https://github.com/lcestou/dsh-oh-my-claude/blob/4cd33ec6aabd76c1d5443283dc080f8e6048f54e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-oh-my-claude",
+          "command": "dsh plugin --profile web add dsh-oh-my-claude",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lcestou/dsh-oh-my-claude",
+          "command": "dsh plugin --profile web add github:lcestou/dsh-oh-my-claude",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "253f85c648fe38971761db63dda6f879f6f818ee2523e767163129941090ce93",
+      "url": "https://github.com/lcestou/dsh-oh-my-claude/blob/4cd33ec6aabd76c1d5443283dc080f8e6048f54e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-oh-my-claude",
+          "command": "dsh plugin --profile web add dsh-oh-my-claude",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lcestou/dsh-oh-my-claude",
+          "command": "dsh plugin --profile web add github:lcestou/dsh-oh-my-claude",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-oh-my-claude",
+      "version": "1.5.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lcestou/dsh-oh-my-claude",
+        "commit": "4cd33ec6aabd76c1d5443283dc080f8e6048f54e"
+      },
+      "manifestSha256": "b135baf7df63a29d4e50d25a67ba4c2f75d02d8ba21a9f565f6e484127550e19",
+      "manifestUrl": "https://github.com/lcestou/dsh-oh-my-claude/blob/4cd33ec6aabd76c1d5443283dc080f8e6048f54e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-oh-my-claude",
+        "versions": [
+          {
+            "version": "1.5.3",
+            "publishTimestamp": 1791924491,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lcestou/dsh-oh-my-claude",
+              "commit": "4cd33ec6aabd76c1d5443283dc080f8e6048f54e"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-oh-my-claude",
+      "origin": "npm",
+      "name": "dsh-oh-my-claude",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-oh-my-claude",
+        "title": "dsh-oh-my-claude",
+        "description": "Claude Code CLI as an LLM provider for dsh (DeepSeek Harness): live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes",
+        "author": "lcestou",
+        "homepage": "https://github.com/lcestou/dsh-oh-my-claude#readme",
+        "repository": {
+          "url": "https://github.com/lcestou/dsh-oh-my-claude"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "cordis",
+            "deepseek-harness",
+            "claude",
+            "claude-code",
+            "anthropic",
+            "llm",
+            "llm-provider",
+            "ai-agent",
+            "coding-agent",
+            "plugin",
+            "stream-json",
+            "cli",
+            "typescript",
+            "bun"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PCEtLSBUaGUgbWFyayB0aGUgcGx1Z2luIGRyYXdzIGV2ZXJ5d2hlcmUgZWxzZSAoc3JjL2NsaWVudC9zcGFyay50c3gpLCBhcyBhIGZpbGUgZHNoIGNhbiByZWFkCiAgICAgZm9yIHRoZSBQbHVnaW4gTWFuYWdlciBjYXJkLiBPbmUgcGF0aCwgQ2xhdWRlIG9yYW5nZSwgbm8gQ1NTIHZhcmlhYmxlOiB0aGUgY2FyZCByZW5kZXJzIGl0CiAgICAgYXMgYW4gPGltZz4sIHdoZXJlIGEgdmFyKCkgd291bGQgbm90IHJlc29sdmUuIEtlZXAgdGhlIHBhdGggaW4gc3RlcCB3aXRoIHNwYXJrLnRzeC4gLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iT2ggTXkgQ2xhdWRlIj4KICA8IS0tIFRoZSBtYXJrIHNpdHMgaW5zZXQsIGF0IDYyJSBvZiB0aGUgYm94OiBkc2ggZHJhd3MgdGhpcyBpbnNpZGUgYSA0OHB4IHRpbGUgd2l0aCBhIGJvcmRlciwKICAgICAgIGFuZCB0aGUgcGF0aCBhbG9uZSBmaWxscyB0aGF0IHRpbGUgZWRnZSB0byBlZGdlLCB3aGljaCByZWFkcyBhcyBjcm9wcGVkIGJlc2lkZSBkc2gncyBvd24KICAgICAgIGFydHdvcmsuIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE5IDE5KSBzY2FsZSgwLjYyKSI+CiAgICA8cGF0aCBmaWxsPSIjRDk3NzU3IiBkPSJtMTkuNiA2Ni41IDE5LjctMTEgLjMtMS0uMy0uNWgtMWwtMy4zLS4yLTExLjItLjNMMTQgNTNsLTkuNS0uNS0yLjQtLjVMMCA0OWwuMi0xLjUgMi0xLjMgMi45LjIgNi4zLjUgOS41LjYgNi45LjRMMzggNDkuMWgxLjZsLjItLjctLjUtLjQtLjQtLjRMMjkgNDFsLTEwLjYtNy01LjYtNC4xLTMtMi0xLjUtMi0uNi00LjIgMi43LTMgMy43LjMuOS4yIDMuNyAyLjkgOCA2LjFMMzcgMzZsMS41IDEuMi42LS40LjEtLjMtLjctMS4xTDMzIDI1bC02LTEwLjQtMi43LTQuMy0uNy0yLjZjLS4zLTEtLjQtMi0uNC0zbDMtNC4yTDI4IDBsNC4yLjZMMzMuOCAybDIuNiA2IDQuMSA5LjNMNDcgMjkuOWwyIDMuOCAxIDMuNC4zIDFoLjd2LS41bC41LTcuMiAxLTguNyAxLTExLjIuMy0zLjIgMS42LTMuOCAzLTJMNjEgMi42bDIgMi45LS4zIDEuOC0xLjEgNy43TDU5IDI3LjFsLTEuNSA4LjJoLjlsMS0xLjEgNC4xLTUuNCA2LjktOC42IDMtMy41TDc3IDEzbDIuMy0xLjhoNC4zbDMuMSA0LjctMS40IDQuOS00LjQgNS42LTMuNyA0LjctNS4zIDcuMS0zLjIgNS43LjMuNGguN2wxMi0yLjYgNi40LTEuMSA3LjYtMS4zIDMuNSAxLjYuNCAxLjYtMS40IDMuNC04LjIgMi05LjYgMi0xNC4zIDMuMy0uMi4xLjIuMyA2LjQuNiAyLjguMmg2LjhsMTIuNiAxIDMuMyAyIDEuOSAyLjctLjMgMi01LjEgMi42LTYuOC0xLjYtMTYtMy44LTUuNC0xLjNoLS44di40bDQuNiA0LjUgOC4zIDcuNUw4OSA4MC4xbC41IDIuNC0xLjMgMi0xLjQtLjItOS4yLTctMy42LTMtOC02LjhoLS41di43bDEuOCAyLjcgOS44IDE0LjcuNSA0LjUtLjcgMS40LTIuNiAxLTIuNy0uNi01LjgtOC02LTktNC43LTguMi0uNS40LTIuOSAzMC4yLTEuMyAxLjUtMyAxLjItMi41LTItMS40LTMgMS40LTYuMiAxLjYtOCAxLjMtNi40IDEuMi03LjkuNy0yLjZ2LS4ySDQ5TDQzIDcybC05IDEyLjMtNy4yIDcuNi0xLjcuNy0zLTEuNS4zLTIuOEwyNCA4NmwxMC0xMi44IDYtNy45IDQtNC42LS4xLS41aC0uM0wxNy4yIDc3LjRsLTQuNy42LTItMiAuMi0zIDEtMSA4LTUuNVoiLz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "1.5.3",
+            "publishTimestamp": 1791470531,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "34b59a8b672c7249e2e1caa56a7a958dae86668524b60243ca2c0f2997bf7188",
+      "evidence": [
+        {
+          "name": "dsh-oh-my-claude",
+          "version": "1.5.3",
+          "tarball": "https://registry.npmjs.org/dsh-oh-my-claude/-/dsh-oh-my-claude-1.5.3.tgz",
+          "integrity": "sha512-UrifQmxVTT2XUrCKKMjjJAp+8OO5M+KSR4a3JJ4WYfAwnel+WtVad6CUQA7sXVRHppkp1sa/J4HyrJQRttT5eA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-oh-my-claude",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lcestou/dsh-oh-my-claude",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lcestou/dsh-oh-my-claude",
+    "commit": "4cd33ec6aabd76c1d5443283dc080f8e6048f54e",
+    "releaseTags": 14,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:26.711Z"
+}

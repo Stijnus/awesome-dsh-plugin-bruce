@@ -1,0 +1,129 @@
+{
+  "full_name": "photon-hq/dsh-imessage",
+  "originalPosition": 91,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 91,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:09.763Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bd07da986d0a9efd724c09e695c6bc8ffac2d49bb7416c27aec0db7c535fa472",
+      "url": "https://github.com/photon-hq/dsh-imessage/blob/a644183adf332bff12b2fe359b3326ca1c066846/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-imessage",
+          "command": "dsh plugin --profile web add dsh-imessage",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-imessage",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/photon-hq/dsh-imessage",
+        "commit": "a644183adf332bff12b2fe359b3326ca1c066846"
+      },
+      "manifestSha256": "e720d6d70a5a1f5dce1995b24c4d1a2dd238d9986b9580526d6aaa4c82fb14a7",
+      "manifestUrl": "https://github.com/photon-hq/dsh-imessage/blob/a644183adf332bff12b2fe359b3326ca1c066846/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-imessage",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787105522,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/photon-hq/dsh-imessage",
+              "commit": "a644183adf332bff12b2fe359b3326ca1c066846"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-imessage",
+      "origin": "npm",
+      "name": "dsh-imessage",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-imessage",
+        "title": "dsh-imessage",
+        "description": "Photon-hosted iMessage transport and configuration UI for DeepSeek Harness",
+        "homepage": "https://github.com/photon-hq/dsh-imessage#readme",
+        "repository": {
+          "url": "https://github.com/photon-hq/dsh-imessage"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "imessage",
+            "photon",
+            "spectrum"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787105575,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "db348c13d44993a3b6fa29beb91abc4de08cd5289f5d63d0090b9fc2f878a2fe",
+      "evidence": [
+        {
+          "name": "dsh-imessage",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-imessage/-/dsh-imessage-0.2.0.tgz",
+          "integrity": "sha512-RRVnDE/VkRxPWePfhreIPnw9I/j5SFqCeiEri3uj53uIv1MxQlnyhe7ahnkfERhyL8oSu76GZvOcIgMNtjjy9A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-imessage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/photon-hq/dsh-imessage",
+    "commit": "a644183adf332bff12b2fe359b3326ca1c066846",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:15.543Z"
+}

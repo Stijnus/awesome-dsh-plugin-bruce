@@ -1,4 +1,6 @@
-/** Refuse publishing incomplete reads or a suspiciously collapsed catalog. */
+export const MAX_PLUGINS = 600
+
+/** Refuse publishing incomplete reads, an oversized index, or a suspiciously collapsed catalog. */
 export function assertPublishable({ index, fetchFailures = 0 }, previous) {
   if (fetchFailures)
     throw new Error(
@@ -8,7 +10,15 @@ export function assertPublishable({ index, fetchFailures = 0 }, previous) {
     throw new Error(
       'No eligible bundles; see staging report. Published data was not replaced.',
     )
-  if (previous && index.plugins.length < previous.plugins.length * 0.8) {
+  if (index.plugins.length > MAX_PLUGINS) {
+    throw new Error(
+      `Index contains ${index.plugins.length} plugins; the published cap is ${MAX_PLUGINS}.`,
+    )
+  }
+  const previousCount = previous
+    ? Math.min(previous.plugins.length, MAX_PLUGINS)
+    : 0
+  if (previous && index.plugins.length < previousCount * 0.8) {
     throw new Error(
       `Index collapsed from ${previous.plugins.length} to ${index.plugins.length}; review staging diagnostics before replacing published data`,
     )

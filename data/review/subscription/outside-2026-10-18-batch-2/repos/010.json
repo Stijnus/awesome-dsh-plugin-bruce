@@ -1,0 +1,139 @@
+{
+  "full_name": "STARDUSTLC666/dsh-remotion",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:14.121Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dcd5662c0b5b66bc0fc127feb3d440dd7229241d359d7ccf1ef9fb5fa2fe7bfc",
+      "url": "https://github.com/STARDUSTLC666/dsh-remotion/blob/e59d7d1e0ae5ab72de4a1b293a5be65794c9b320/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remotion",
+          "command": "dsh plugin --profile desktop add dsh-remotion",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "31c37f114bc34648cbdea6675baf49ae9cbc06cd1bdbd261bf46d720698e47fb",
+      "url": "https://github.com/STARDUSTLC666/dsh-remotion/blob/e59d7d1e0ae5ab72de4a1b293a5be65794c9b320/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remotion",
+          "command": "dsh plugin --profile desktop add dsh-remotion",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remotion",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/STARDUSTLC666/dsh-remotion",
+        "commit": "e59d7d1e0ae5ab72de4a1b293a5be65794c9b320"
+      },
+      "manifestSha256": "75b07ff507dd7aeebd7dc621e4b9a0685ca495007b46bc7b2c6cbf576efde9b7",
+      "manifestUrl": "https://github.com/STARDUSTLC666/dsh-remotion/blob/e59d7d1e0ae5ab72de4a1b293a5be65794c9b320/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-remotion",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1792250143,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/STARDUSTLC666/dsh-remotion",
+              "commit": "e59d7d1e0ae5ab72de4a1b293a5be65794c9b320"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-remotion",
+      "origin": "npm",
+      "name": "dsh-remotion",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-remotion",
+        "title": "dsh-remotion",
+        "description": "DSH 视频插件：Remotion 技能、模板与素材工作台、官方 Studio 预览和本地 MP4 导出。",
+        "author": "stardustlc",
+        "homepage": "https://github.com/STARDUSTLC666/dsh-remotion#readme",
+        "repository": {
+          "url": "https://github.com/STARDUSTLC666/dsh-remotion"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "skills",
+            "video",
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1792250666,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e91b529ccc397d05d92aa331d717bb6d00dbd4521c8d4bc82cbaf299abb5102c",
+      "evidence": [
+        {
+          "name": "dsh-remotion",
+          "version": "0.6.0",
+          "tarball": "https://registry.npmjs.org/dsh-remotion/-/dsh-remotion-0.6.0.tgz",
+          "integrity": "sha512-j/kuPvgBQQ4urxMOEj6rynxDpAEW4Cv/NKPrtcrR3Bb20BXFwHhKY34V/zdXDt3acz90VgQ5eBQZ+fW2jT3wTA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-remotion",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/STARDUSTLC666/dsh-remotion",
+    "commit": "e59d7d1e0ae5ab72de4a1b293a5be65794c9b320",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:21.826Z"
+}

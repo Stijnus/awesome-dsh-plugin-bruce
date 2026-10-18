@@ -1,0 +1,234 @@
+{
+  "full_name": "siweina/dsh-novel-writer",
+  "originalPosition": 129,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 129,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:01.957Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c747d38571a7479541fbb76a9eadc9eaf38d9c8dcec9fd1d75e545416d4cf74f",
+      "url": "https://github.com/siweina/dsh-novel-writer/blob/0408091c6a189d965b55bbb22a156523cd3cb189/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-novel-writer",
+          "command": "dsh plugin add dsh-novel-writer",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/siweina/dsh-novel-writer#main",
+          "command": "dsh plugin add github:siweina/dsh-novel-writer#main",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c23644b69963de44d8762bdc8f47be5bbf4b1d1632cb6334549126b3b9274f98",
+      "url": "https://github.com/siweina/dsh-novel-writer/blob/0408091c6a189d965b55bbb22a156523cd3cb189/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-novel-writer",
+          "command": "dsh plugin add dsh-novel-writer",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/siweina/dsh-novel-writer#main",
+          "command": "dsh plugin add github:siweina/dsh-novel-writer#main",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "mcp/README.md",
+      "sha256": "4fbbc47bc134ddec6ef97b06f913b04ce586de2253c59171e63f7fc943c27b90",
+      "url": "https://github.com/siweina/dsh-novel-writer/blob/0408091c6a189d965b55bbb22a156523cd3cb189/mcp/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-novel-writer",
+      "version": "6.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/siweina/dsh-novel-writer",
+        "commit": "0408091c6a189d965b55bbb22a156523cd3cb189"
+      },
+      "manifestSha256": "a9dcf7d2571ada8a8b6cbe4560277937aefa9b0fc9064e77c8b587844fc1e278",
+      "manifestUrl": "https://github.com/siweina/dsh-novel-writer/blob/0408091c6a189d965b55bbb22a156523cd3cb189/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-novel-writer",
+        "versions": [
+          {
+            "version": "6.6.0",
+            "publishTimestamp": 1792065135,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/siweina/dsh-novel-writer",
+              "commit": "0408091c6a189d965b55bbb22a156523cd3cb189"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-novel-writer",
+      "origin": "npm",
+      "name": "dsh-novel-writer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-novel-writer",
+        "title": "dsh-novel-writer",
+        "description": "小说写作助手插件（20 个工具）：覆盖「动笔前取材料 → 写完量化自检 → 改稿按优先级复测 → 跨章结构体检」整条流程。含句式模式分析、情感量化与氛围光谱、风格画像报告、文笔六维基线带、本地语义检索（离线）、章节库浏览与摘要、设定表与伏笔登记、原创模式创作资料、连贯性审计（衔接/OOC/大纲对照）、开写包与改稿台；必用词表支持书级+全局两层登记、批量导入、开写包硬清单注入与成稿用词审计；用语规范按作品文化基准（欧式/中式/现代）自动选表，并支持逐词静音。界面为官方侧栏面板（右侧栏标签 + 页脚入口）。附 stdio MCP 服务器（Claude Desktop / Cursor 可用）。",
+        "homepage": "https://siweina.github.io/dsh-novel-writer/",
+        "repository": {
+          "url": "https://github.com/siweina/dsh-novel-writer"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "novel-writing",
+            "chinese-novel",
+            "writing-assistant",
+            "creative-writing",
+            "fiction",
+            "webnovel",
+            "ai-writing",
+            "text-analysis",
+            "semantic-search",
+            "style-analysis",
+            "sentence-analysis",
+            "emotion-analysis",
+            "vibe",
+            "quantification",
+            "story-plot",
+            "writing-tool"
+          ]
+        },
+        "versions": [
+          {
+            "version": "6.6.0",
+            "publishTimestamp": 1792065340,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3420ff183c0c38f6ed0f69b923882b76212d6727f4834b71cf02bdd9eb92c363",
+      "evidence": [
+        {
+          "name": "dsh-novel-writer",
+          "version": "6.6.0",
+          "tarball": "https://registry.npmjs.org/dsh-novel-writer/-/dsh-novel-writer-6.6.0.tgz",
+          "integrity": "sha512-FHwHZcQvlPLVcIDI/aZEJvRz5fokf9QJ7Tb4BiE/ArN8fLV3qxdSmGSgucT8YhvRaEo6cqeOz7DRLMtNz/99mQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/siweina/dsh-novel-writer#main",
+      "origin": "git_target",
+      "name": "dsh-novel-writer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-novel-writer",
+        "title": "dsh-novel-writer",
+        "description": "小说写作助手插件（20 个工具）：覆盖「动笔前取材料 → 写完量化自检 → 改稿按优先级复测 → 跨章结构体检」整条流程。含句式模式分析、情感量化与氛围光谱、风格画像报告、文笔六维基线带、本地语义检索（离线）、章节库浏览与摘要、设定表与伏笔登记、原创模式创作资料、连贯性审计（衔接/OOC/大纲对照）、开写包与改稿台；必用词表支持书级+全局两层登记、批量导入、开写包硬清单注入与成稿用词审计；用语规范按作品文化基准（欧式/中式/现代）自动选表，并支持逐词静音。界面为官方侧栏面板（右侧栏标签 + 页脚入口）。附 stdio MCP 服务器（Claude Desktop / Cursor 可用）。",
+        "homepage": "https://siweina.github.io/dsh-novel-writer/",
+        "repository": {
+          "url": "https://github.com/siweina/dsh-novel-writer"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "novel-writing",
+            "chinese-novel",
+            "writing-assistant",
+            "creative-writing",
+            "fiction",
+            "webnovel",
+            "ai-writing",
+            "text-analysis",
+            "semantic-search",
+            "style-analysis",
+            "sentence-analysis",
+            "emotion-analysis",
+            "vibe",
+            "quantification",
+            "story-plot",
+            "writing-tool"
+          ]
+        },
+        "versions": [
+          {
+            "version": "6.6.0",
+            "publishTimestamp": 1792065135,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/siweina/dsh-novel-writer",
+              "commit": "0408091c6a189d965b55bbb22a156523cd3cb189"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "0408091c6a189d965b55bbb22a156523cd3cb189",
+          "name": "dsh-novel-writer",
+          "version": "6.6.0",
+          "url": "https://github.com/siweina/dsh-novel-writer",
+          "manifestSha256": "a9dcf7d2571ada8a8b6cbe4560277937aefa9b0fc9064e77c8b587844fc1e278",
+          "publishTimestamp": 1792065135
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-novel-writer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/siweina/dsh-novel-writer#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/siweina/dsh-novel-writer",
+    "commit": "0408091c6a189d965b55bbb22a156523cd3cb189",
+    "releaseTags": 49,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:54.658Z"
+}

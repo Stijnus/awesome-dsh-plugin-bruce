@@ -1,0 +1,68 @@
+{
+  "full_name": "yinhong-zhou/jevdo",
+  "originalPosition": 90,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 90,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:54.218Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "916b2eb70685b9533b18162805752a95075be75ecf8de269c1374905a51769fc",
+      "url": "https://github.com/yinhong-zhou/jevdo/blob/360b662d9ba72a362cb3eb81ffa89b2709fa4d7c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "jevaction",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yinhong-zhou/jevdo",
+        "commit": "360b662d9ba72a362cb3eb81ffa89b2709fa4d7c"
+      },
+      "manifestSha256": "a916b01292e30b09c84b846594a82d5b6e35035a77abd446e7459f8253a69140",
+      "manifestUrl": "https://github.com/yinhong-zhou/jevdo/blob/360b662d9ba72a362cb3eb81ffa89b2709fa4d7c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "jevaction",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791009419,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yinhong-zhou/jevdo",
+              "commit": "360b662d9ba72a362cb3eb81ffa89b2709fa4d7c"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yinhong-zhou/jevdo",
+    "commit": "360b662d9ba72a362cb3eb81ffa89b2709fa4d7c",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:02.193Z"
+}

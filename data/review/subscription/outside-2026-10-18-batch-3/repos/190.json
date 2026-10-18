@@ -1,0 +1,434 @@
+{
+  "full_name": "0x7A7A6572/dsh-forge-studio",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "startedAt": "2026-10-18T02:00:13.424Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0e9fba8bb4997d14ff6476fe52f5a3ac263ee4023641f1c735d0252242818cce",
+      "url": "https://github.com/0x7A7A6572/dsh-forge-studio/blob/acb136c0dbbf8e984bdffea9de48b6ed73d0103e/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zzerx/dsh-plugin-notes",
+          "command": "dsh plugin --profile web add @zzerx/dsh-plugin-notes",
+          "profile": "web"
+        },
+        {
+          "install": "@zzerx/dsh-plugin-daily-log",
+          "command": "dsh plugin --profile web add @zzerx/dsh-plugin-daily-log",
+          "profile": "web"
+        },
+        {
+          "install": "@zzerx/dsh-plugin-memory",
+          "command": "dsh plugin --profile web add @zzerx/dsh-plugin-memory",
+          "profile": "web"
+        },
+        {
+          "install": "@zzerx/dsh-plugin-usage-billing",
+          "command": "dsh plugin --profile web add @zzerx/dsh-plugin-usage-billing",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zzerx/dsh-plugin-daily-log",
+      "version": "0.4.3",
+      "path": "packages/plugin-daily-log",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+        "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e",
+        "path": "packages/plugin-daily-log"
+      },
+      "manifestSha256": "5d4ee3bfdb2b76bf013e278e02a9e6728841d9eea016e3e1e7e8784fcb2bf93c",
+      "manifestUrl": "https://github.com/0x7A7A6572/dsh-forge-studio/blob/acb136c0dbbf8e984bdffea9de48b6ed73d0103e/packages/plugin-daily-log/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@zzerx/dsh-plugin-daily-log",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1792121250,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+              "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e",
+              "path": "packages/plugin-daily-log"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@zzerx/dsh-plugin-memory",
+      "version": "0.4.3",
+      "path": "packages/plugin-memory",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+        "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e",
+        "path": "packages/plugin-memory"
+      },
+      "manifestSha256": "9df9bec83ecc19c7872f5f4a24f60caf80742f49d8f38aaec634ffb9ddb08321",
+      "manifestUrl": "https://github.com/0x7A7A6572/dsh-forge-studio/blob/acb136c0dbbf8e984bdffea9de48b6ed73d0103e/packages/plugin-memory/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@zzerx/dsh-plugin-memory",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1792121250,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+              "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e",
+              "path": "packages/plugin-memory"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@zzerx/dsh-plugin-notes",
+      "version": "0.4.3",
+      "path": "packages/plugin-notes",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+        "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e",
+        "path": "packages/plugin-notes"
+      },
+      "manifestSha256": "a5c27534caf9fef0f5c3ab89cfe9f28e1d6c2c8249bd17fef377c023c3da1155",
+      "manifestUrl": "https://github.com/0x7A7A6572/dsh-forge-studio/blob/acb136c0dbbf8e984bdffea9de48b6ed73d0103e/packages/plugin-notes/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@zzerx/dsh-plugin-notes",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1792121250,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+              "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e",
+              "path": "packages/plugin-notes"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@zzerx/dsh-plugin-usage-billing",
+      "version": "1.3.0",
+      "path": "packages/plugin-usage-billing",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+        "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e",
+        "path": "packages/plugin-usage-billing"
+      },
+      "manifestSha256": "48e14df09b563ddce6d16b2513db05952b0da91ca8e716993abc7718072e1064",
+      "manifestUrl": "https://github.com/0x7A7A6572/dsh-forge-studio/blob/acb136c0dbbf8e984bdffea9de48b6ed73d0103e/packages/plugin-usage-billing/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@zzerx/dsh-plugin-usage-billing",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1792121250,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+              "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e",
+              "path": "packages/plugin-usage-billing"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@zzerx/dsh-plugin-notes",
+      "origin": "npm",
+      "name": "@zzerx/dsh-plugin-notes",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@zzerx/dsh-plugin-notes",
+        "title": "@zzerx/dsh-plugin-notes",
+        "description": "dsh 便签插件：纸卡墙便签板 + Markdown 编辑器，便签能变任务——拖进泳道、交给 AI 在指定工作区执行、按日程定时跑；支持 WebDAV 备份与 agent 工具读写。",
+        "author": "0x7A7A",
+        "homepage": "https://github.com/0x7A7A6572/dsh-forge-studio/tree/main/packages/plugin-notes#readme",
+        "repository": {
+          "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+          "directory": "packages/plugin-notes"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "notes",
+            "sticky-notes",
+            "markdown",
+            "tiptap",
+            "task-board"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1791438878,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5902215a4b2253b38a763b9d562137e74b336d6d539c412802a3f16e36d0e505",
+      "evidence": [
+        {
+          "name": "@zzerx/dsh-plugin-notes",
+          "version": "0.4.3",
+          "tarball": "https://registry.npmjs.org/@zzerx/dsh-plugin-notes/-/dsh-plugin-notes-0.4.3.tgz",
+          "integrity": "sha512-58nA68ApaPpTA3sRhnHM5x7f++WcbKklIYOpMdmyvMP90ARdGlTvxCWsnQufr4ZejBs0REYB0x2Ia3nTpqmssQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@zzerx/dsh-plugin-daily-log",
+      "origin": "npm",
+      "name": "@zzerx/dsh-plugin-daily-log",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@zzerx/dsh-plugin-daily-log",
+        "title": "@zzerx/dsh-plugin-daily-log",
+        "description": "每日工作日志：聚合 Git 提交与本地 agent 对话（deepseek/claude/codex），按自定义模板生成日报/周报/月报；agent 工具按需注入，默认只挂一个 daily_log 派发器。",
+        "author": "0x7A7A",
+        "homepage": "https://github.com/0x7A7A6572/dsh-forge-studio/tree/main/packages/plugin-daily-log#readme",
+        "repository": {
+          "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+          "directory": "packages/plugin-daily-log"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "daily-log",
+            "work-report",
+            "git",
+            "weekly-report",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1792121691,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "beb68e2868849d83cc6b3688ce452c34b1c47fc9bf0b7e2c5a91843b8b7c5b3b",
+      "evidence": [
+        {
+          "name": "@zzerx/dsh-plugin-daily-log",
+          "version": "0.4.3",
+          "tarball": "https://registry.npmjs.org/@zzerx/dsh-plugin-daily-log/-/dsh-plugin-daily-log-0.4.3.tgz",
+          "integrity": "sha512-duKhOIf9y8B4T62k8sI2by6TJVRmR/yY+0d8/wV400rR7z2n1YQbs0Z5u7CFZ0CZELWwUO++dLk5KhjuQfCpQw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@zzerx/dsh-plugin-memory",
+      "origin": "npm",
+      "name": "@zzerx/dsh-plugin-memory",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@zzerx/dsh-plugin-memory",
+        "title": "@zzerx/dsh-plugin-memory",
+        "description": "dsh 记忆与进化插件：跨会话记住你的偏好与项目习惯（全局 / 项目双作用域），自动注入、自动整理，设置面板一级「记忆」分区可视化管理。",
+        "author": "0x7A7A",
+        "homepage": "https://github.com/0x7A7A6572/dsh-forge-studio/tree/main/packages/plugin-memory#readme",
+        "repository": {
+          "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+          "directory": "packages/plugin-memory"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "memory",
+            "agent-memory",
+            "context",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1791438865,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "71ae48d8062085fe010f6133f75a203d7de8295675a3997aad22c9195d248132",
+      "evidence": [
+        {
+          "name": "@zzerx/dsh-plugin-memory",
+          "version": "0.4.3",
+          "tarball": "https://registry.npmjs.org/@zzerx/dsh-plugin-memory/-/dsh-plugin-memory-0.4.3.tgz",
+          "integrity": "sha512-TpPWdvP9d2Mwne+pJfWGQoL7aaAno3fNT20/Eoi63AIsK6z9zn/mKUrmXmNhvm/xn/2mR7sFUaYT/r1dB3NYFg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@zzerx/dsh-plugin-usage-billing",
+      "origin": "npm",
+      "name": "@zzerx/dsh-plugin-usage-billing",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@zzerx/dsh-plugin-usage-billing",
+        "title": "@zzerx/dsh-plugin-usage-billing",
+        "description": "计费显示：从既有会话日志聚合真实 token 用量，按事件时刻价格写时锁定费用；侧栏 / 输入框下方入口 + 点击弹层 + 设置页用量视图。",
+        "author": "0x7A7A",
+        "homepage": "https://github.com/0x7A7A6572/dsh-forge-studio/tree/main/packages/plugin-usage-billing#readme",
+        "repository": {
+          "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+          "directory": "packages/plugin-usage-billing"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "usage-billing",
+            "token-usage",
+            "billing",
+            "cost"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1791439029,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7934f1228f18c3e3fb6f57416e1e40242f236e82666742dc7cc3da6388229cd9",
+      "evidence": [
+        {
+          "name": "@zzerx/dsh-plugin-usage-billing",
+          "version": "1.3.0",
+          "tarball": "https://registry.npmjs.org/@zzerx/dsh-plugin-usage-billing/-/dsh-plugin-usage-billing-1.3.0.tgz",
+          "integrity": "sha512-9Z6HR016btqhl1djyLLeSoY3tvYfRQQlK0Y1vucjDKfVri3PB9srTFVevwLfe1qTCT1WpvcvoVPgZ4lqPXwB6w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zzerx/dsh-plugin-notes",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zzerx/dsh-plugin-daily-log",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zzerx/dsh-plugin-memory",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zzerx/dsh-plugin-usage-billing",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/0x7A7A6572/dsh-forge-studio",
+    "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T02:00:24.753Z"
+}

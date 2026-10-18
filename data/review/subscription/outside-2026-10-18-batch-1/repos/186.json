@@ -1,0 +1,97 @@
+{
+  "full_name": "zhaiyateng/dsh-design-skills",
+  "originalPosition": 186,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 186,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:24.817Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f896c910ba990af24e06c7d40f2cd29acbe21ee1a6ec9e97cef0e948c8aed11",
+      "url": "https://github.com/zhaiyateng/dsh-design-skills/blob/741272753c257c9b48fb60b015b4ecdb438d86e3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-design-skills",
+          "command": "dsh plugin --profile web add dsh-design-skills",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "518cdfd78dcfb496bd075ef427ca1f2165a74ad41070812a9685b54b713caeb7",
+      "url": "https://github.com/zhaiyateng/dsh-design-skills/blob/741272753c257c9b48fb60b015b4ecdb438d86e3/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-design-skills",
+          "command": "dsh plugin --profile web add dsh-design-skills",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-design-skills",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhaiyateng/dsh-design-skills",
+        "commit": "741272753c257c9b48fb60b015b4ecdb438d86e3"
+      },
+      "manifestSha256": "a9f06574440467ce93b46cc84c0b729d16bb2b2376ddffcc8c620cf28ef010d4",
+      "manifestUrl": "https://github.com/zhaiyateng/dsh-design-skills/blob/741272753c257c9b48fb60b015b4ecdb438d86e3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-design-skills",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786728113,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhaiyateng/dsh-design-skills",
+              "commit": "741272753c257c9b48fb60b015b4ecdb438d86e3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-design-skills",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-design-skills",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhaiyateng/dsh-design-skills",
+    "commit": "741272753c257c9b48fb60b015b4ecdb438d86e3",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:30.980Z"
+}

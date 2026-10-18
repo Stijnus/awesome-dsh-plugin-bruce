@@ -1,0 +1,80 @@
+{
+  "full_name": "zxmqq1234/dsh-auto-retry",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "startedAt": "2026-10-18T02:00:08.527Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dd3bcfd3a6b6d2af7edb4637468905a16fee2d1bd4e0887db4e2793c380811d3",
+      "url": "https://github.com/zxmqq1234/dsh-auto-retry/blob/3eaade311307e5e7e3c6ba31ad29d06671cdac3f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/zxmqq1234/dsh-auto-retry",
+          "command": "dsh plugin add github:zxmqq1234/dsh-auto-retry",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-auto-retry",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zxmqq1234/dsh-auto-retry",
+        "commit": "3eaade311307e5e7e3c6ba31ad29d06671cdac3f"
+      },
+      "manifestSha256": "9c97ec70d3f82d834a8d6e7dd9a623b33eb9aa6a0fac35d2276cec5a46fbc943",
+      "manifestUrl": "https://github.com/zxmqq1234/dsh-auto-retry/blob/3eaade311307e5e7e3c6ba31ad29d06671cdac3f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-alpha.1 || ^0.2.0-rc.1 || ^0.2.0-rc.2 || ^0.2.1-alpha.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-auto-retry",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792054247,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zxmqq1234/dsh-auto-retry",
+              "commit": "3eaade311307e5e7e3c6ba31ad29d06671cdac3f"
+            },
+            "engines": {
+              "dsh": "^0.1.7-alpha.1 || ^0.2.0-rc.1 || ^0.2.0-rc.2 || ^0.2.1-alpha.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/zxmqq1234/dsh-auto-retry",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zxmqq1234/dsh-auto-retry",
+    "commit": "3eaade311307e5e7e3c6ba31ad29d06671cdac3f",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T02:00:13.570Z"
+}

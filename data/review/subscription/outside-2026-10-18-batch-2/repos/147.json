@@ -1,0 +1,70 @@
+{
+  "full_name": "Innocent-children/TaskBelay",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:29.523Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bd16c18b655dc6784475570d3f615549fe96b3efb7463c3f25b41e0c8d30ec9f",
+      "url": "https://github.com/Innocent-children/TaskBelay/blob/9f46885e259f62cf1cd2adddc6edcc4eb1eac897/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "taskbelay-deepseek",
+      "version": "0.10.5",
+      "path": "packages/deepseek",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Innocent-children/TaskBelay",
+        "commit": "9f46885e259f62cf1cd2adddc6edcc4eb1eac897",
+        "path": "packages/deepseek"
+      },
+      "manifestSha256": "b0d5ead729beefb4249c6d0707eb70f5e1f8fa8192ead7014b1830377f1e8a25",
+      "manifestUrl": "https://github.com/Innocent-children/TaskBelay/blob/9f46885e259f62cf1cd2adddc6edcc4eb1eac897/packages/deepseek/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "taskbelay-deepseek",
+        "versions": [
+          {
+            "version": "0.10.5",
+            "publishTimestamp": 1790575042,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Innocent-children/TaskBelay",
+              "commit": "9f46885e259f62cf1cd2adddc6edcc4eb1eac897",
+              "path": "packages/deepseek"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Innocent-children/TaskBelay",
+    "commit": "9f46885e259f62cf1cd2adddc6edcc4eb1eac897",
+    "releaseTags": 119,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:35.791Z"
+}

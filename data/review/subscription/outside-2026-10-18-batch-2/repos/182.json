@@ -1,0 +1,68 @@
+{
+  "full_name": "william-jin-cmu/dsh-evolve",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:24.464Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "172a37fd45cad014a7b586e7167b4acccebfe06be43d349a568bb9184e175c99",
+      "url": "https://github.com/william-jin-cmu/dsh-evolve/blob/37462647f89612ab89b18fadb88299e550748200/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-evolve",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/william-jin-cmu/dsh-evolve",
+        "commit": "37462647f89612ab89b18fadb88299e550748200"
+      },
+      "manifestSha256": "5e5d8d9be59dab46bc029d493267c5871cc467a6de264bf450036c6170f1a4bb",
+      "manifestUrl": "https://github.com/william-jin-cmu/dsh-evolve/blob/37462647f89612ab89b18fadb88299e550748200/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-external/dsh-evolve",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786588000,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/william-jin-cmu/dsh-evolve",
+              "commit": "37462647f89612ab89b18fadb88299e550748200"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/william-jin-cmu/dsh-evolve",
+    "commit": "37462647f89612ab89b18fadb88299e550748200",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:30.743Z"
+}

@@ -1,0 +1,139 @@
+{
+  "full_name": "Jiyr0119/dsh-workspace-explorer",
+  "originalPosition": 31,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 31,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:23.334Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8acf2e05932c4a73b10339ba80b0c0073876ebe6735faddf826a18c2a62235fd",
+      "url": "https://github.com/Jiyr0119/dsh-workspace-explorer/blob/b7dfc30ea37ba8ee5774a845c8a08a737df16326/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jiyr0119/dsh-workspace-explorer@latest",
+          "command": "dsh plugin --profile web add -w @jiyr0119/dsh-workspace-explorer@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6f962007ba35cb34089298eb141f534805fd164292a2a3aa720144b2a9b2b3b0",
+      "url": "https://github.com/Jiyr0119/dsh-workspace-explorer/blob/b7dfc30ea37ba8ee5774a845c8a08a737df16326/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jiyr0119/dsh-workspace-explorer@latest",
+          "command": "dsh plugin --profile web add -w @jiyr0119/dsh-workspace-explorer@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@jiyr0119/dsh-workspace-explorer",
+      "version": "0.10.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jiyr0119/dsh-workspace-explorer",
+        "commit": "b7dfc30ea37ba8ee5774a845c8a08a737df16326"
+      },
+      "manifestSha256": "3cb2728c2e768a9e2e3fa8437dbe6479b40451b463747ff37137488b76371774",
+      "manifestUrl": "https://github.com/Jiyr0119/dsh-workspace-explorer/blob/b7dfc30ea37ba8ee5774a845c8a08a737df16326/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@jiyr0119/dsh-workspace-explorer",
+        "versions": [
+          {
+            "version": "0.10.0",
+            "publishTimestamp": 1791944835,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jiyr0119/dsh-workspace-explorer",
+              "commit": "b7dfc30ea37ba8ee5774a845c8a08a737df16326"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@jiyr0119/dsh-workspace-explorer@latest",
+      "origin": "npm",
+      "name": "@jiyr0119/dsh-workspace-explorer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jiyr0119/dsh-workspace-explorer",
+        "title": "@jiyr0119/dsh-workspace-explorer",
+        "description": "DeepSeek Harness 工作区文件资源管理器(原生插件):右侧面板展示工作区目录树,点击/拖拽插入文件引用,含搜索/预览/国际化 | Native DSH plugin: workspace file-tree panel with click/drag references, search, preview, i18n.",
+        "homepage": "https://github.com/Jiyr0119/dsh-workspace-explorer",
+        "repository": {
+          "url": "https://github.com/Jiyr0119/dsh-workspace-explorer"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "workspace",
+            "explorer",
+            "file-tree",
+            "ai-tools"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.10.0",
+            "publishTimestamp": 1791945910,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "49758164fc41c985e4f363b5c54a3cdca90fa645c9812c81fdc44ffcb8052b1a",
+      "evidence": [
+        {
+          "name": "@jiyr0119/dsh-workspace-explorer",
+          "version": "0.10.0",
+          "tarball": "https://registry.npmjs.org/@jiyr0119/dsh-workspace-explorer/-/dsh-workspace-explorer-0.10.0.tgz",
+          "integrity": "sha512-g1TGorOapZJfWGDZiSqlfYAVgvHjA9pJTgR8NJgtaSP3nu8Aq2BT1jy7dhY/MIQ3x03arjRIxnRYK07ciMn40A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jiyr0119/dsh-workspace-explorer@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jiyr0119/dsh-workspace-explorer",
+    "commit": "b7dfc30ea37ba8ee5774a845c8a08a737df16326",
+    "releaseTags": 17,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:29.809Z"
+}

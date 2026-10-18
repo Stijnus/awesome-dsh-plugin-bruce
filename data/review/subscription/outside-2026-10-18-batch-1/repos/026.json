@@ -1,0 +1,235 @@
+{
+  "full_name": "A8Chann/dsh-pet-live2d",
+  "originalPosition": 26,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 26,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:15.249Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bc7f816f89f316e1133ce0cc593702c8a4bf2c7f1893eee7d6d367c298280be0",
+      "url": "https://github.com/A8Chann/dsh-pet-live2d/blob/c118e318692bb24c197c834e218c28953ded91bc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pet-live2d",
+          "command": "dsh plugin --profile web add dsh-pet-live2d",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/A8Chann/dsh-pet-live2d#path:/dsh-live2d-pet",
+          "command": "dsh plugin --profile web add \"github:A8Chann/dsh-pet-live2d#path:/dsh-live2d-pet\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-live2d-pet-desktop/README.md",
+      "sha256": "5b9ac1b0db06e1320639b1c447d277260fe06a1f1bc686eeeecdb31e4ca5d2a3",
+      "url": "https://github.com/A8Chann/dsh-pet-live2d/blob/c118e318692bb24c197c834e218c28953ded91bc/dsh-live2d-pet-desktop/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-live2d-pet/README.md",
+      "sha256": "c46ae64e892229e716aa8e4beaa355ab3a79f70ecfbdda6ca2a50bdb56822453",
+      "url": "https://github.com/A8Chann/dsh-pet-live2d/blob/c118e318692bb24c197c834e218c28953ded91bc/dsh-live2d-pet/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pet-live2d",
+          "command": "dsh plugin --profile web add dsh-pet-live2d",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/A8Chann/dsh-pet-live2d#path:/dsh-live2d-pet",
+          "command": "dsh plugin --profile web add \"github:A8Chann/dsh-pet-live2d#path:/dsh-live2d-pet\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-pet-live2d",
+          "command": "dsh plugin --profile desktop add dsh-pet-live2d",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pet-live2d",
+      "version": "3.3.2",
+      "path": "dsh-live2d-pet",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/A8Chann/dsh-pet-live2d",
+        "commit": "c118e318692bb24c197c834e218c28953ded91bc",
+        "path": "dsh-live2d-pet"
+      },
+      "manifestSha256": "8a1a7c06df4f81a5c7b3d13cb475870e3d0f4708bb8f14d850640d528dd9af14",
+      "manifestUrl": "https://github.com/A8Chann/dsh-pet-live2d/blob/c118e318692bb24c197c834e218c28953ded91bc/dsh-live2d-pet/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pet-live2d",
+        "versions": [
+          {
+            "version": "3.3.2",
+            "publishTimestamp": 1792134831,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/A8Chann/dsh-pet-live2d",
+              "commit": "c118e318692bb24c197c834e218c28953ded91bc",
+              "path": "dsh-live2d-pet"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-pet-live2d",
+      "origin": "npm",
+      "name": "dsh-pet-live2d",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-pet-live2d",
+        "title": {
+          "en": "Live2D Pet",
+          "zh": "Live2D 桌宠"
+        },
+        "description": {
+          "en": "A Live2D pet docked in the DSH interface: she follows the pointer, reacts to clicks and changes expressions with each session phase, with configurable motions, expressions and lines.",
+          "zh": "在 DSH 界面里挂一只 Live2D 宠物：会跟着鼠标看、点一下有反应、按会话相位换表情，动作 / 表情 / 台词都能配。"
+        },
+        "homepage": "https://github.com/A8Chann/dsh-pet-live2d#readme",
+        "repository": {
+          "url": "https://github.com/A8Chann/dsh-pet-live2d"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "live2d",
+            "desktop-pet",
+            "桌宠"
+          ]
+        },
+        "versions": [
+          {
+            "version": "3.3.2",
+            "publishTimestamp": 1792127423,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "17a075a0043490a97aa63233fbde823d85b205694c05e4ef04fe4d8aa74aaeeb",
+      "evidence": [
+        {
+          "name": "dsh-pet-live2d",
+          "version": "3.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-pet-live2d/-/dsh-pet-live2d-3.3.2.tgz",
+          "integrity": "sha512-53RC5yFrmFJqeI2as6v4jKY0h57qWX+Ke4zP1IqQZ0Zdp7WGcTjQAI9oSCN/RL3n7J1WcuKNwnzLBTAAX22lmw=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-pet-live2d",
+          "code": "metadata_warning",
+          "status": "warning",
+          "reason": "图标超过 32 KiB 内联上限，已省略"
+        }
+      ],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/A8Chann/dsh-pet-live2d#path:/dsh-live2d-pet",
+      "origin": "git_target",
+      "name": "dsh-pet-live2d",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-pet-live2d",
+        "title": {
+          "en": "Live2D Pet",
+          "zh": "Live2D 桌宠"
+        },
+        "description": {
+          "en": "A Live2D pet docked in the DSH interface: she follows the pointer, reacts to clicks and changes expressions with each session phase, with configurable motions, expressions and lines.",
+          "zh": "在 DSH 界面里挂一只 Live2D 宠物：会跟着鼠标看、点一下有反应、按会话相位换表情，动作 / 表情 / 台词都能配。"
+        },
+        "homepage": "https://github.com/A8Chann/dsh-pet-live2d#readme",
+        "repository": {
+          "url": "https://github.com/A8Chann/dsh-pet-live2d"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "live2d",
+            "desktop-pet",
+            "桌宠"
+          ]
+        },
+        "versions": [
+          {
+            "version": "3.3.2",
+            "publishTimestamp": 1792134831,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/A8Chann/dsh-pet-live2d",
+              "commit": "c118e318692bb24c197c834e218c28953ded91bc",
+              "path": "dsh-live2d-pet"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "dsh-live2d-pet",
+          "commit": "c118e318692bb24c197c834e218c28953ded91bc",
+          "name": "dsh-pet-live2d",
+          "version": "3.3.2",
+          "url": "https://github.com/A8Chann/dsh-pet-live2d",
+          "manifestSha256": "8a1a7c06df4f81a5c7b3d13cb475870e3d0f4708bb8f14d850640d528dd9af14",
+          "publishTimestamp": 1792134831
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-pet-live2d",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/A8Chann/dsh-pet-live2d#path:/dsh-live2d-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/A8Chann/dsh-pet-live2d",
+    "commit": "c118e318692bb24c197c834e218c28953ded91bc",
+    "releaseTags": 20,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:36.692Z"
+}

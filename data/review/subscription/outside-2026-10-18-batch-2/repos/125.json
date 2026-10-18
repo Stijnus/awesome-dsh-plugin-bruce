@@ -1,0 +1,77 @@
+{
+  "full_name": "Sky-lll27/DSH-chat-keeper",
+  "originalPosition": 125,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 125,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:01.824Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7154df37bfb4306bc812a88b593951e6daa37ca5c4fcba65bf198d4326d6cb3a",
+      "url": "https://github.com/Sky-lll27/DSH-chat-keeper/blob/84e53d921c3f62c8ce437bc87251237eb8a761f5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Sky-lll27/DSH-chat-keeper",
+          "command": "dsh plugin --profile <你的 profile> add https://github.com/Sky-lll27/DSH-chat-keeper",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-conversation-manager",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Sky-lll27/DSH-chat-keeper",
+        "commit": "84e53d921c3f62c8ce437bc87251237eb8a761f5"
+      },
+      "manifestSha256": "a7c7975933f26313ba25cc219d45e8c2e55fc301a1f1fcfa9d6405e5c3ade049",
+      "manifestUrl": "https://github.com/Sky-lll27/DSH-chat-keeper/blob/84e53d921c3f62c8ce437bc87251237eb8a761f5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-conversation-manager",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1791701466,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Sky-lll27/DSH-chat-keeper",
+              "commit": "84e53d921c3f62c8ce437bc87251237eb8a761f5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Sky-lll27/DSH-chat-keeper",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Sky-lll27/DSH-chat-keeper",
+    "commit": "84e53d921c3f62c8ce437bc87251237eb8a761f5",
+    "releaseTags": 11,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:07.441Z"
+}

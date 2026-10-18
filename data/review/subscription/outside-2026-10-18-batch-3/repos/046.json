@@ -1,0 +1,138 @@
+{
+  "full_name": "Cassius0924/dsh-usage-dashboard",
+  "originalPosition": 46,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 46,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:08.448Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e35edeb138448fd8b760a9409474c8c3e70525dc1205a0156c7a6f58d43e26cd",
+      "url": "https://github.com/Cassius0924/dsh-usage-dashboard/blob/68edd43a8de475aef149899a2cfa7c86d4cb0dd1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cassius0924/dsh-usage-dashboard",
+          "command": "dsh plugin --profile web add @cassius0924/dsh-usage-dashboard",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Cassius0924/dsh-usage-dashboard",
+          "command": "dsh plugin --profile web add github:Cassius0924/dsh-usage-dashboard",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@cassius0924/dsh-usage-dashboard",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Cassius0924/dsh-usage-dashboard",
+        "commit": "68edd43a8de475aef149899a2cfa7c86d4cb0dd1"
+      },
+      "manifestSha256": "a0cdb6b228c6f5082c4662b732395c5b1bfbf07554caec985f9fbb21ed3f2756",
+      "manifestUrl": "https://github.com/Cassius0924/dsh-usage-dashboard/blob/68edd43a8de475aef149899a2cfa7c86d4cb0dd1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@cassius0924/dsh-usage-dashboard",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1790738388,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Cassius0924/dsh-usage-dashboard",
+              "commit": "68edd43a8de475aef149899a2cfa7c86d4cb0dd1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@cassius0924/dsh-usage-dashboard",
+      "origin": "npm",
+      "name": "@cassius0924/dsh-usage-dashboard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@cassius0924/dsh-usage-dashboard",
+        "title": "@cassius0924/dsh-usage-dashboard",
+        "description": "DeepSeek 额度与用量仪表盘 —— DSH (DeepSeek Harness) Web 插件：余额还能撑几天、今日/本月花了多少、哪个模型和哪个会话最贵、图片/多模态用量、缓存省了多少、高峰挪到闲时能省多少",
+        "author": "Cassius0924",
+        "homepage": "https://github.com/Cassius0924/dsh-usage-dashboard#readme",
+        "repository": {
+          "url": "https://github.com/Cassius0924/dsh-usage-dashboard"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "dashboard",
+            "usage",
+            "quota",
+            "cost",
+            "tokens"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1789034417,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "55aa9c33771480ffafe25e60600013e033e854a94ad92fcbe6b31c86361c8ec7",
+      "evidence": [
+        {
+          "name": "@cassius0924/dsh-usage-dashboard",
+          "version": "0.6.0",
+          "tarball": "https://registry.npmjs.org/@cassius0924/dsh-usage-dashboard/-/dsh-usage-dashboard-0.6.0.tgz",
+          "integrity": "sha512-dHNoE4Xi6PckYePBbZOQgZNSAJ21jsUQPoAajGNQt4a0s0mB07zErnmSetYkLkvgUH2Nox9/+idO2C3yoK1iOA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@cassius0924/dsh-usage-dashboard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Cassius0924/dsh-usage-dashboard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Cassius0924/dsh-usage-dashboard",
+    "commit": "68edd43a8de475aef149899a2cfa7c86d4cb0dd1",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:14.931Z"
+}

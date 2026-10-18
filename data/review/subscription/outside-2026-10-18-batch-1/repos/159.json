@@ -1,0 +1,132 @@
+{
+  "full_name": "tpmoonchefryan/dsh-joi-channel-theme",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:52.796Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "219a18d693b3acf020fca19d62739c9f85e70730a74ef7175473a2146153153c",
+      "url": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme/blob/5879e04fbc75251d50b0bb6416fb0f691d608a20/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-joi-channel-theme",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-joi-channel-theme",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-joi-channel-theme",
+      "version": "0.1.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme",
+        "commit": "5879e04fbc75251d50b0bb6416fb0f691d608a20"
+      },
+      "manifestSha256": "f4ea6e651391d4461b8d74429a8097fb575d25974b544273cfc7043bd7720645",
+      "manifestUrl": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme/blob/5879e04fbc75251d50b0bb6416fb0f691d608a20/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.1 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-joi-channel-theme",
+        "versions": [
+          {
+            "version": "0.1.14",
+            "publishTimestamp": 1791724144,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme",
+              "commit": "5879e04fbc75251d50b0bb6416fb0f691d608a20"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-joi-channel-theme",
+      "origin": "npm",
+      "name": "dsh-joi-channel-theme",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-joi-channel-theme",
+        "title": "dsh-joi-channel-theme",
+        "description": "轴伊 Joi 双衣装主题（Joi-Flowers / Joi-Library）for DeepSeek Harness — unofficial, non-commercial fan theme plugin（0.1.14：修复 macOS 桌面版底纹多层叠印并盖在最上层、移除侧栏左缘竖条；0.1.13：peer 声明扩至 ^0.2.0-rc.1，适配 dsh 0.2.0-rc.1 起的启动版本门禁；0.1.12 起设置段改由宿主 Config + 客户端 ctx.configForms 承载，primitives 图标改用按笔画命名的 Medium 名，移除已下线包的类型依赖）",
+        "author": "tpmoonchefryan",
+        "homepage": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme#readme",
+        "repository": {
+          "url": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "theme",
+            "vtuber",
+            "joi",
+            "virtuareal"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.14",
+            "publishTimestamp": 1791728104,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ccc9fe1436284859e6e296cf4775cdb99f8a5a386f74554678de1a483157f2e2",
+      "evidence": [
+        {
+          "name": "dsh-joi-channel-theme",
+          "version": "0.1.14",
+          "tarball": "https://registry.npmjs.org/dsh-joi-channel-theme/-/dsh-joi-channel-theme-0.1.14.tgz",
+          "integrity": "sha512-Yho/mcJlaJyp29ZYMvwNtICvOIPmXZQbFQZAqU21tFAHrBIU/dFNq9rZM0nm1bmS7SSocsmS4ZlPwdcxRQgLxg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-joi-channel-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme",
+    "commit": "5879e04fbc75251d50b0bb6416fb0f691d608a20",
+    "releaseTags": 11,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:08.223Z"
+}

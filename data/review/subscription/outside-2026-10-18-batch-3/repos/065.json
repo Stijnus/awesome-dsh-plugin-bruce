@@ -1,0 +1,135 @@
+{
+  "full_name": "Tianbuyu-wwx/DSH-FormatForge",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:38.009Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "72018544fe5d3141dbf6de7fc353d5b741ad6987002c9f8fdd2626fa34a99086",
+      "url": "https://github.com/Tianbuyu-wwx/DSH-FormatForge/blob/ce14eed72e5fc44937075f639318a91c33c25571/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@tianbuyu-wwx/dsh-formatforge",
+          "command": "npx @deepseek-ai/dsh plugin --profile desktop add @tianbuyu-wwx/dsh-formatforge",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tianbuyu-wwx/dsh-formatforge",
+      "version": "3.0.1",
+      "path": "packages/dsh-formatforge",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tianbuyu-wwx/DSH-FormatForge",
+        "commit": "ce14eed72e5fc44937075f639318a91c33c25571",
+        "path": "packages/dsh-formatforge"
+      },
+      "manifestSha256": "81914162669a392fe485b641bf18180b5648e28182b4f11dcfeb48c5513ba475",
+      "manifestUrl": "https://github.com/Tianbuyu-wwx/DSH-FormatForge/blob/ce14eed72e5fc44937075f639318a91c33c25571/packages/dsh-formatforge/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@tianbuyu-wwx/dsh-formatforge",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "publishTimestamp": 1791365132,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tianbuyu-wwx/DSH-FormatForge",
+              "commit": "ce14eed72e5fc44937075f639318a91c33c25571",
+              "path": "packages/dsh-formatforge"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@tianbuyu-wwx/dsh-formatforge",
+      "origin": "npm",
+      "name": "@tianbuyu-wwx/dsh-formatforge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@tianbuyu-wwx/dsh-formatforge",
+        "title": "@tianbuyu-wwx/dsh-formatforge",
+        "description": "FormatForge for DeepSeek Harness: forge any file format (pdf/docx/xlsx/pptx/eml/toml/...) into AI-readable structured data. v3.0.0: 收件箱升级为 SQLite 索引库（元数据/全文检索 trigram/内容去重/会话溯源）+ 宿主右侧栏面板（搜索、预览、重转）+ 只读 API/SSE；顺带修好 ff_result 字段错配。v2.0.2: 拖拽文件夹不再卡死。协议仍为 v1。Thin bundle spawns local Python CLI (`python -m formatforge`) returning protocol JSON; enhancement delegated to current session model via enhance hints.",
+        "homepage": "https://github.com/Tianbuyu-wwx/DSH-FormatForge/tree/main/packages/dsh-formatforge",
+        "repository": {
+          "url": "https://github.com/Tianbuyu-wwx/DSH-FormatForge",
+          "directory": "packages/dsh-formatforge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "cordis",
+            "deepseek-harness",
+            "formatforge",
+            "file-conversion",
+            "document-parsing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "3.0.0",
+            "publishTimestamp": 1790922439,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6be33e54f0747a08e3d1f768cc83ecc0f77c5a30c179e3e2deb64751f4f4a093",
+      "evidence": [
+        {
+          "name": "@tianbuyu-wwx/dsh-formatforge",
+          "version": "3.0.0",
+          "tarball": "https://registry.npmjs.org/@tianbuyu-wwx/dsh-formatforge/-/dsh-formatforge-3.0.0.tgz",
+          "integrity": "sha512-qbbJ+1KfXCiAvT+u9SFWMS5nnS5LcWo6zuqfrBIwrJ2H1dLj5zUJSe+lTiRSOvFXg91asHpa97zji4nZc6l7EA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@tianbuyu-wwx/dsh-formatforge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tianbuyu-wwx/DSH-FormatForge",
+    "commit": "ce14eed72e5fc44937075f639318a91c33c25571",
+    "releaseTags": 25,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:44.387Z"
+}

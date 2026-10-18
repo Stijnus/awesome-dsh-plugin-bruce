@@ -1,0 +1,124 @@
+{
+  "full_name": "yanglongyun/ramify-dsh",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:55.182Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "762a066d9352c67870a3b2720e59794e8a5ad754ba34f4a8ddf3540e61221caa",
+      "url": "https://github.com/yanglongyun/ramify-dsh/blob/044d9a68f482fa98bc9da77d7bbbb37366d02387/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-ramify",
+          "command": "dsh plugin --profile web add dsh-plugin-ramify",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-ramify",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanglongyun/ramify-dsh",
+        "commit": "044d9a68f482fa98bc9da77d7bbbb37366d02387"
+      },
+      "manifestSha256": "5f01731620a9c774434a887cc4f2dcdacacc89e4c1325368c3e9b036b591d1f2",
+      "manifestUrl": "https://github.com/yanglongyun/ramify-dsh/blob/044d9a68f482fa98bc9da77d7bbbb37366d02387/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-ramify",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790820288,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yanglongyun/ramify-dsh",
+              "commit": "044d9a68f482fa98bc9da77d7bbbb37366d02387"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-ramify",
+      "origin": "npm",
+      "name": "dsh-plugin-ramify",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-ramify",
+        "title": "dsh-plugin-ramify",
+        "description": "Creative branching canvas plugin for DeepSeek Harness",
+        "homepage": "https://github.com/yanglongyun/ramify-dsh#readme",
+        "repository": {
+          "url": "https://github.com/yanglongyun/ramify-dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "dsh-plugin",
+            "agent",
+            "canvas",
+            "creative"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790820494,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2d71d4a702d6030e76774159db960ad431ae0060e04f57e98f3b576b0a0eee1f",
+      "evidence": [
+        {
+          "name": "dsh-plugin-ramify",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-ramify/-/dsh-plugin-ramify-0.1.0.tgz",
+          "integrity": "sha512-iQsNDWO1jwbRi8mw9SMz96ECpPaXe4ui1Fsde6lEe5eiuPx/WriVdc+jH2BldX09/GgArvrTUEEyqgDq314Y3A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-ramify",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yanglongyun/ramify-dsh",
+    "commit": "044d9a68f482fa98bc9da77d7bbbb37366d02387",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:03.742Z"
+}

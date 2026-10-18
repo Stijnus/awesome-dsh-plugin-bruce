@@ -1,0 +1,5881 @@
+{
+  "host": "0.2.1-alpha.5",
+  "counts": {
+    "explicit_compatible": 61,
+    "unconstrained_pending": 87,
+    "no_eligible_bundle": 9,
+    "incompatible_declared": 42,
+    "template_or_example_review": 1
+  },
+  "rows": [
+    {
+      "repository": "JerryLiu369/agent-web-search",
+      "commit": "c549bf3eb8681e347833a3d927c79231294236ed",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-agent-web-search",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.8.0",
+          "range": ">=0.1.0-rc.6 <0.2.0 || >=0.1.1-rc.1 <1",
+          "path": null,
+          "commit": "c549bf3eb8681e347833a3d927c79231294236ed"
+        }
+      ],
+      "evidence": "repos/001.json"
+    },
+    {
+      "repository": "LaoYueHanNi/dsh-git-worktree",
+      "commit": "a7f34bb8185b9a4835762865003f7bac185fce68",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@laoyuehanni/dsh-git-worktree",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.9",
+          "range": "^0.2.0-rc.1",
+          "path": null,
+          "commit": "a7f34bb8185b9a4835762865003f7bac185fce68"
+        },
+        {
+          "name": "@laoyuehanni/dsh-git-worktree",
+          "target": "@laoyuehanni/dsh-git-worktree",
+          "origin": "npm",
+          "version": "0.4.9",
+          "range": "^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "@laoyuehanni/dsh-git-worktree",
+          "target": "@laoyuehanni/dsh-git-worktree@dsh-alpha",
+          "origin": "npm",
+          "version": "0.4.3-dsh-0.1.2-alpha.5",
+          "range": ">=0.1.2-alpha.4 <0.2.0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/002.json"
+    },
+    {
+      "repository": "Max-Null/dsh-chinese-thinking",
+      "commit": "a46614c2d39eae06dae347905982ebbfb9a235a2",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@max-null/dsh-chinese-thinking",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.1",
+          "range": ">=0.1.1-rc.1 <0.3.0",
+          "path": null,
+          "commit": "a46614c2d39eae06dae347905982ebbfb9a235a2"
+        }
+      ],
+      "evidence": "repos/003.json"
+    },
+    {
+      "repository": "MicroMilo/upstream-radar",
+      "commit": "53757f4681a143315706d6ebf8350a2cb4f609dc",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "upstream-radar",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.45.0",
+          "range": null,
+          "path": null,
+          "commit": "53757f4681a143315706d6ebf8350a2cb4f609dc"
+        }
+      ],
+      "evidence": "repos/004.json"
+    },
+    {
+      "repository": "MrMu666/dsh-lan-tool",
+      "commit": "5fa452de627fbc9feb42e5f8e11dc5cc869960db",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-lan-tool",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.5.6",
+          "range": null,
+          "path": null,
+          "commit": "5fa452de627fbc9feb42e5f8e11dc5cc869960db"
+        },
+        {
+          "name": "dsh-lan-tool",
+          "target": "dsh-lan-tool",
+          "origin": "npm",
+          "version": "1.5.6",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/005.json"
+    },
+    {
+      "repository": "MrWeiCodes/dsh-permgate",
+      "commit": "cb1236863d322f63b3e438f5cd72c459f2ad1f63",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@mrweicodes/dsh-permgate",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.7.1",
+          "range": ">=0.1.0-rc <2",
+          "path": null,
+          "commit": "cb1236863d322f63b3e438f5cd72c459f2ad1f63"
+        },
+        {
+          "name": "@mrweicodes/dsh-permgate",
+          "target": "@mrweicodes/dsh-permgate",
+          "origin": "npm",
+          "version": "1.7.1",
+          "range": ">=0.1.0-rc <2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/006.json"
+    },
+    {
+      "repository": "PerryLink/dsh-kit",
+      "commit": "a0195b348c39a8d70a8a4a25d3b5a22cf40e0d5e",
+      "outcome": "no_eligible_bundle_found",
+      "eligibleRows": 0,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "no_eligible_bundle",
+      "candidates": [],
+      "evidence": "repos/007.json"
+    },
+    {
+      "repository": "Seetraum/harness-session-delete",
+      "commit": "3f41dd29221b6a844f9682a835551568a4b49f89",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-session-recycle-bin",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.5.0",
+          "range": null,
+          "path": null,
+          "commit": "3f41dd29221b6a844f9682a835551568a4b49f89"
+        },
+        {
+          "name": "dsh-session-recycle-bin",
+          "target": "dsh-session-recycle-bin",
+          "origin": "npm",
+          "version": "0.5.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/008.json"
+    },
+    {
+      "repository": "Shiye-10Pages/dsh-whale-meter",
+      "commit": "c484500e6a00d26317dc71ee854ced26df6f2aaa",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-whale-meter",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "c484500e6a00d26317dc71ee854ced26df6f2aaa"
+        },
+        {
+          "name": "dsh-whale-meter",
+          "target": "dsh-whale-meter",
+          "origin": "npm",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/009.json"
+    },
+    {
+      "repository": "SpookySandwich/dsh-plugin-smooth-stream",
+      "commit": "02ca036718d922ec46c477fb0a97a122c2768256",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-plugin-smooth-stream",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.3.0",
+          "range": ">=0.2.0-rc.2 <0.3.0-0",
+          "path": null,
+          "commit": "02ca036718d922ec46c477fb0a97a122c2768256"
+        },
+        {
+          "name": "dsh-plugin-smooth-stream",
+          "target": "dsh-plugin-smooth-stream",
+          "origin": "npm",
+          "version": "1.3.0",
+          "range": ">=0.2.0-rc.2 <0.3.0-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/010.json"
+    },
+    {
+      "repository": "Tencent-TDS/dsh-kuikly-expert",
+      "commit": "e4969568984a20ce7af0be53ef6c3002e9fdfb27",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-kuikly-expert",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "e4969568984a20ce7af0be53ef6c3002e9fdfb27"
+        }
+      ],
+      "evidence": "repos/011.json"
+    },
+    {
+      "repository": "Tkingxiao/dsh-novel-solo",
+      "commit": "c7fc43a088d22b3c0c68f0aacf9bd68534e99188",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-novel-solo",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.1",
+          "range": "0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.3 || 0.2.1-rc.2 || >=0.1.7-alpha.1",
+          "path": null,
+          "commit": "c7fc43a088d22b3c0c68f0aacf9bd68534e99188"
+        },
+        {
+          "name": "dsh-novel-solo",
+          "target": "dsh-novel-solo",
+          "origin": "npm",
+          "version": "0.2.1",
+          "range": "0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.3 || 0.2.1-rc.2 || >=0.1.7-alpha.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/012.json"
+    },
+    {
+      "repository": "TwotwoPiggy/dsh-balance",
+      "commit": "52fd7de39598132cbdccf2a5d97736c440514efc",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-balance",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.7",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": "52fd7de39598132cbdccf2a5d97736c440514efc"
+        },
+        {
+          "name": "dsh-balance",
+          "target": "dsh-balance",
+          "origin": "npm",
+          "version": "0.2.7",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-balance",
+          "target": "dsh-balance@latest",
+          "origin": "npm",
+          "version": "0.2.7",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/013.json"
+    },
+    {
+      "repository": "U1s1-king/dsh-live2d-mygo",
+      "commit": "ff1072895d1ea52ed39271a1ed982d305a9188a6",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-live2d-mygo",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "ff1072895d1ea52ed39271a1ed982d305a9188a6"
+        }
+      ],
+      "evidence": "repos/014.json"
+    },
+    {
+      "repository": "WangPaoPaoLab/dsh-font",
+      "commit": "d299f56bde1e10e7fef152848e74cff2eecd7917",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-font",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.1.0",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": "d299f56bde1e10e7fef152848e74cff2eecd7917"
+        }
+      ],
+      "evidence": "repos/015.json"
+    },
+    {
+      "repository": "XSJUSTC/dsh-rewind",
+      "commit": "bff8664a5b6165122b75af253a350b36b77533ce",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@xsj/dsh-rewind",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "2.4.0",
+          "range": null,
+          "path": null,
+          "commit": "bff8664a5b6165122b75af253a350b36b77533ce"
+        }
+      ],
+      "evidence": "repos/016.json"
+    },
+    {
+      "repository": "Xenia0922/dsh-opencode-go-usage",
+      "commit": "c25bf52019b38bd983c5dd484e06a5a1565c246c",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-opencode-go-usage",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.7.1",
+          "range": null,
+          "path": null,
+          "commit": "c25bf52019b38bd983c5dd484e06a5a1565c246c"
+        }
+      ],
+      "evidence": "repos/017.json"
+    },
+    {
+      "repository": "Zai-G/dsh-preset-workshop",
+      "commit": "ec317c19acfd5f3fcb74f61cafd02b51c6f8f224",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-preset-workshop",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": "0.2.0-rc.2",
+          "path": null,
+          "commit": "ec317c19acfd5f3fcb74f61cafd02b51c6f8f224"
+        },
+        {
+          "name": "dsh-preset-workshop",
+          "target": "dsh-preset-workshop",
+          "origin": "npm",
+          "version": "0.1.0",
+          "range": "0.2.0-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/018.json"
+    },
+    {
+      "repository": "chen-001/dsh-grok-tui",
+      "commit": "389d4a73c96375196af7f67784cd234bcb6bf54d",
+      "outcome": "no_eligible_bundle_found",
+      "eligibleRows": 0,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "no_eligible_bundle",
+      "candidates": [],
+      "evidence": "repos/019.json"
+    },
+    {
+      "repository": "dpskh/dsh-a2a",
+      "commit": "1618e5519681d11cd159e396c2defbd203ab60be",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@dpskh/a2a",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.0",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": "1618e5519681d11cd159e396c2defbd203ab60be"
+        }
+      ],
+      "evidence": "repos/020.json"
+    },
+    {
+      "repository": "drscrewdriver/dsh-thinking-levels",
+      "commit": "154faecf8e22ea13269cda436ea69b24a8ac9e2f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-thinking-levels",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "4.3.1",
+          "range": "0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1",
+          "path": null,
+          "commit": "154faecf8e22ea13269cda436ea69b24a8ac9e2f"
+        },
+        {
+          "name": "dsh-thinking-levels",
+          "target": "dsh-thinking-levels",
+          "origin": "npm",
+          "version": "4.3.1",
+          "range": "0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/021.json"
+    },
+    {
+      "repository": "errorcode7/dsh-prompt-manager",
+      "commit": "c3623ad4a9a8f28167ca43169b4ddf3dd9bc1708",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-prompt-manager",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": "c3623ad4a9a8f28167ca43169b4ddf3dd9bc1708"
+        },
+        {
+          "name": "dsh-prompt-manager",
+          "target": "dsh-prompt-manager",
+          "origin": "npm",
+          "version": "1.5.2",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/022.json"
+    },
+    {
+      "repository": "fang2hou/dsh-locale-ja",
+      "commit": "8729021616a16abf054f2ef37a9ad18dc16faaa3",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@fang2hou/dsh-locale-ja",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.0",
+          "range": "^0.2.1-rc.2",
+          "path": null,
+          "commit": "8729021616a16abf054f2ef37a9ad18dc16faaa3"
+        },
+        {
+          "name": "@fang2hou/dsh-locale-ja",
+          "target": "@fang2hou/dsh-locale-ja",
+          "origin": "npm",
+          "version": "0.7.0",
+          "range": "^0.2.1-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/023.json"
+    },
+    {
+      "repository": "gxinxing/deepseek-harness-tui",
+      "commit": "0c251a26a3228ffc6d4195f9dd31db45ddbc557f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "deepseek-harness-tui",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "0c251a26a3228ffc6d4195f9dd31db45ddbc557f"
+        },
+        {
+          "name": "@deepseek-ai/dsh-headless",
+          "target": "@deepseek-ai/dsh-headless",
+          "origin": "npm",
+          "version": "0.0.1-rc.1",
+          "range": "^0.0.1-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/024.json"
+    },
+    {
+      "repository": "hccccc01333/dsh-excel-chat",
+      "commit": "d040afccb540c14bd2bff52e5a1ea6bcbde82ed3",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-excel-chat",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.43.0",
+          "range": ">=0.1.0-rc.5 <0.3.0-0",
+          "path": "bundle",
+          "commit": "d040afccb540c14bd2bff52e5a1ea6bcbde82ed3"
+        },
+        {
+          "name": "dsh-excel-chat",
+          "target": "dsh-excel-chat",
+          "origin": "npm",
+          "version": "0.43.0",
+          "range": ">=0.1.0-rc.5 <0.3.0",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-excel-chat",
+          "target": "dsh-excel-chat@0.43.0",
+          "origin": "npm",
+          "version": "0.43.0",
+          "range": ">=0.1.0-rc.5 <0.3.0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/025.json"
+    },
+    {
+      "repository": "kunjinkao-os/dsh-mobile-gui-agent",
+      "commit": "8083e27f877a4b6290bb34a65586200750151ce1",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-mobile-gui-agent",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.1",
+          "range": "^0.1.0-rc.5",
+          "path": null,
+          "commit": "8083e27f877a4b6290bb34a65586200750151ce1"
+        },
+        {
+          "name": "dsh-mobile-gui-agent",
+          "target": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent#v0.2.1",
+          "origin": "git_target",
+          "version": "0.2.1",
+          "range": "^0.1.0-rc.5",
+          "path": null,
+          "commit": "7a77944755263b12caa1a0be48c0e6403340b96b"
+        }
+      ],
+      "evidence": "repos/026.json"
+    },
+    {
+      "repository": "litestartup-com/dsh-api-gateway",
+      "commit": "15faa6f3f022549549db70534707abbad6cbd4dd",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "ohdsh-api-facade",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.5",
+          "range": "^0.1.2-rc.1 || ^0.2.0-0",
+          "path": null,
+          "commit": "15faa6f3f022549549db70534707abbad6cbd4dd"
+        }
+      ],
+      "evidence": "repos/027.json"
+    },
+    {
+      "repository": "lw-storm/dsh-plugin-masterprompt",
+      "commit": "ddd0ff617a6a8e7a12d968a0c92e2cc66656be2c",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-plugin-masterprompt",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.0",
+          "range": null,
+          "path": null,
+          "commit": "ddd0ff617a6a8e7a12d968a0c92e2cc66656be2c"
+        }
+      ],
+      "evidence": "repos/028.json"
+    },
+    {
+      "repository": "penguin-oo/dsh-bookmarks",
+      "commit": "56f6767e9fb8b825f975923ef499e4cf88c50942",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-bookmarks",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.5",
+          "range": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": "56f6767e9fb8b825f975923ef499e4cf88c50942"
+        },
+        {
+          "name": "dsh-bookmarks",
+          "target": "dsh-bookmarks",
+          "origin": "npm",
+          "version": "0.1.5",
+          "range": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/029.json"
+    },
+    {
+      "repository": "poplarity/dsh-science-workbench",
+      "commit": "387961cd2c26defcb388ee4776dc2605c40cda73",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-science-workbench",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.1",
+          "range": ">=0.1.0-rc.6",
+          "path": null,
+          "commit": "387961cd2c26defcb388ee4776dc2605c40cda73"
+        },
+        {
+          "name": "dsh-science-workbench",
+          "target": "dsh-science-workbench",
+          "origin": "npm",
+          "version": "0.3.1",
+          "range": ">=0.1.0-rc.6",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/030.json"
+    },
+    {
+      "repository": "rottenpen/agent-stardew",
+      "commit": "d1f8934351a0b50506cfc0c5f1149dd0bbc5d87f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-stardew",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": "0.1.5-rc.1",
+          "path": "packages/dsh-plugin",
+          "commit": "d1f8934351a0b50506cfc0c5f1149dd0bbc5d87f"
+        }
+      ],
+      "evidence": "repos/031.json"
+    },
+    {
+      "repository": "taoser258/dsh-client-ui-skin-qingxiao",
+      "commit": "ccaaaa0708384c457c17c771942d0255a03be9f1",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@taosee258/dsh-client-ui-skin-qingxiao",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.0",
+          "range": ">=0.1.0-rc.6 <0.1.1-0 || >=0.1.1-rc.1 <0.2.0-0 || >=0.2.0-rc.0 <0.2.1-0",
+          "path": null,
+          "commit": "ccaaaa0708384c457c17c771942d0255a03be9f1"
+        },
+        {
+          "name": "@taosee258/dsh-client-ui-skin-qingxiao",
+          "target": "@taosee258/dsh-client-ui-skin-qingxiao",
+          "origin": "npm",
+          "version": "0.3.0",
+          "range": ">=0.1.0-rc.6 <0.1.1-0 || >=0.1.1-rc.1 <0.2.0-0 || >=0.2.0-rc.0 <0.2.1-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/032.json"
+    },
+    {
+      "repository": "titanwings/dsh-better-browser",
+      "commit": "506493224a21510c3f9cc7329a17e84af20879dc",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@dsh-external/dsh-better-browser",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.6",
+          "range": "^0.0.1",
+          "path": null,
+          "commit": "506493224a21510c3f9cc7329a17e84af20879dc"
+        },
+        {
+          "name": "@dsh-external/dsh-better-browser",
+          "target": "https://github.com/titanwings/dsh-better-browser#v0.3.6",
+          "origin": "git_target",
+          "version": "0.3.6",
+          "range": "^0.0.1",
+          "path": null,
+          "commit": "506493224a21510c3f9cc7329a17e84af20879dc"
+        }
+      ],
+      "evidence": "repos/033.json"
+    },
+    {
+      "repository": "titanwings/dsh-plannotator",
+      "commit": "053c982f96b77fd750360ee66384bf90d5c1e603",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@dsh-external/dsh-plannotator",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.4",
+          "range": null,
+          "path": null,
+          "commit": "053c982f96b77fd750360ee66384bf90d5c1e603"
+        }
+      ],
+      "evidence": "repos/034.json"
+    },
+    {
+      "repository": "v587d/dsh-opencode-go-usage",
+      "commit": "682a7872e6a3bf9313f08b9337319678b8a25895",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-ocgo-usage",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.1",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": "682a7872e6a3bf9313f08b9337319678b8a25895"
+        },
+        {
+          "name": "dsh-ocgo-usage",
+          "target": "dsh-ocgo-usage",
+          "origin": "npm",
+          "version": "0.1.1",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/035.json"
+    },
+    {
+      "repository": "wally8-8/dsh-done-whale",
+      "commit": "39055c5ed43906fe35a7e49465e074ecc9aa0755",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-done-whale",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.0",
+          "range": null,
+          "path": null,
+          "commit": "39055c5ed43906fe35a7e49465e074ecc9aa0755"
+        }
+      ],
+      "evidence": "repos/036.json"
+    },
+    {
+      "repository": "x2802490130-prog/dsh-tool-writing",
+      "commit": "08a3e41164f94cde3de6f64ec42ac11c1cbf406e",
+      "outcome": "retry_required",
+      "eligibleRows": 0,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "no_eligible_bundle",
+      "note": "npm tarball dsh-tool-writing@0.8.1 的 package.json 名称与包名不一致；README 目标没有其它合格来源。",
+      "candidates": [],
+      "evidence": "repos/037.json"
+    },
+    {
+      "repository": "xiaoksio/dsh-solution-explorer",
+      "commit": "b8349cf4c6adb4d200d5898ab454d602411b86c2",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-solution-explorer",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.2",
+          "range": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.3.0-0",
+          "path": null,
+          "commit": "b8349cf4c6adb4d200d5898ab454d602411b86c2"
+        },
+        {
+          "name": "dsh-solution-explorer",
+          "target": "dsh-solution-explorer",
+          "origin": "npm",
+          "version": "1.0.2",
+          "range": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.3.0-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/038.json"
+    },
+    {
+      "repository": "xiaozhuyuqing/dsh-repeat-guard",
+      "commit": "b4e180b8da71b2449fbef18b2bc3869605aa6c9f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-repeat-guard",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.2",
+          "range": ">=0.1.7-0 || >=0.2.0-0",
+          "path": null,
+          "commit": "b4e180b8da71b2449fbef18b2bc3869605aa6c9f"
+        },
+        {
+          "name": "dsh-repeat-guard",
+          "target": "dsh-repeat-guard",
+          "origin": "npm",
+          "version": "0.2.2",
+          "range": ">=0.1.7-0 || >=0.2.0-0",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-repeat-guard",
+          "target": "dsh-repeat-guard@0.1.5",
+          "origin": "npm",
+          "version": "0.1.5",
+          "range": ">=0.1.0-rc.8 <0.1.1-0 || >=0.1.1-0 <0.1.2-0 || >=0.1.2-0 <0.1.3-0 || >=0.1.3-0 <0.1.4-0 || >=0.1.4-0 <0.1.5-0 || >=0.1.5-0 <0.1.6-0 || >=0.1.6-0 <0.1.7-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/039.json"
+    },
+    {
+      "repository": "xinchen03/minta",
+      "commit": "4255d6eec620361e76a52b5eb24608478a3c6835",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@xxinchen/dsh-plugin",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.2",
+          "range": null,
+          "path": "dsh-plugin",
+          "commit": "4255d6eec620361e76a52b5eb24608478a3c6835"
+        },
+        {
+          "name": "@xxinchen/dsh-plugin",
+          "target": "@xxinchen/dsh-plugin",
+          "origin": "npm",
+          "version": "0.2.2",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/040.json"
+    },
+    {
+      "repository": "yoza10635/dsh-argp",
+      "commit": "825760bc394d8bf5ea44dcbdb7dae4ff5e4dec5a",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-argp",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.10.1",
+          "range": ">=0.2.0-rc.1 <0.3.0-0",
+          "path": null,
+          "commit": "825760bc394d8bf5ea44dcbdb7dae4ff5e4dec5a"
+        },
+        {
+          "name": "dsh-argp",
+          "target": "dsh-argp",
+          "origin": "npm",
+          "version": "1.10.1",
+          "range": ">=0.2.0-rc.1 <0.3.0-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/041.json"
+    },
+    {
+      "repository": "AKS1st/dock",
+      "commit": "8535f6e24670931d9e93fb087ab474e38aa01856",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 7,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dock-base",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.4",
+          "range": ">=0.1.3-alpha.2",
+          "path": null,
+          "commit": "8535f6e24670931d9e93fb087ab474e38aa01856"
+        },
+        {
+          "name": "dock-files",
+          "target": "https://github.com/AKS1st/dock-files",
+          "origin": "git_target",
+          "version": "0.4.0",
+          "range": ">=0.1.3-alpha.2",
+          "path": null,
+          "commit": "d24224beb8cf024a9c6e79fe97445001d73150b8"
+        },
+        {
+          "name": "dock-editor",
+          "target": "https://github.com/AKS1st/dock-editor",
+          "origin": "git_target",
+          "version": "0.2.2",
+          "range": null,
+          "path": null,
+          "commit": "f6e5e0845c42e2b09a7a8d671a66b331fe094634"
+        },
+        {
+          "name": "dock-images",
+          "target": "https://github.com/AKS1st/dock-images",
+          "origin": "git_target",
+          "version": "0.1.3",
+          "range": null,
+          "path": null,
+          "commit": "b98f3910c59af6f30c742b0ddc001315c2c176ee"
+        },
+        {
+          "name": "dock-markdown",
+          "target": "https://github.com/AKS1st/dock-markdown",
+          "origin": "git_target",
+          "version": "0.1.2",
+          "range": null,
+          "path": null,
+          "commit": "64cbfd89b2e008ca3bd2c42a8f167e46ee7b3b54"
+        },
+        {
+          "name": "dock-git",
+          "target": "https://github.com/AKS1st/dock-git",
+          "origin": "git_target",
+          "version": "0.3.4",
+          "range": null,
+          "path": null,
+          "commit": "961c203dd87a3dc2940f7c7a3df51d6a00e37b5e"
+        },
+        {
+          "name": "dock-base",
+          "target": "dock-base",
+          "origin": "npm",
+          "version": "0.2.4",
+          "range": ">=0.1.3-alpha.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/042.json"
+    },
+    {
+      "repository": "AcidGr/dsh-web-whale-maid",
+      "commit": "7389222e2176603b197076ab3823e44d85547b3b",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-web-whale-maid",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.8",
+          "range": null,
+          "path": null,
+          "commit": "7389222e2176603b197076ab3823e44d85547b3b"
+        },
+        {
+          "name": "dsh-web-whale-maid",
+          "target": "dsh-web-whale-maid",
+          "origin": "npm",
+          "version": "1.0.7",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/043.json"
+    },
+    {
+      "repository": "AngelosZou/dsh-multi-folder",
+      "commit": "5921c0e2fd2623bc0757b8f13feaf73cee3648ca",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-multi-folder",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.3",
+          "range": null,
+          "path": null,
+          "commit": "5921c0e2fd2623bc0757b8f13feaf73cee3648ca"
+        },
+        {
+          "name": "dsh-multi-folder",
+          "target": "dsh-multi-folder",
+          "origin": "npm",
+          "version": "0.3.3",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/044.json"
+    },
+    {
+      "repository": "Areium/dsh-fail-logger",
+      "commit": "bce6c992d67485475caeed00b8997704b3657d93",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 4,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-fail-logger",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.5.5",
+          "range": null,
+          "path": null,
+          "commit": "bce6c992d67485475caeed00b8997704b3657d93"
+        },
+        {
+          "name": "dsh-fail-logger",
+          "target": "dsh-fail-logger",
+          "origin": "npm",
+          "version": "0.5.2",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-fail-logger",
+          "target": "https://github.com/Areium/dsh-fail-logger#v0.5.2",
+          "origin": "git_target",
+          "version": "0.5.2",
+          "range": null,
+          "path": null,
+          "commit": "dd9d62f611aa2f41ef27488340db60797625ab42"
+        },
+        {
+          "name": "dsh-fail-logger",
+          "target": "dsh-fail-logger@0.5.2",
+          "origin": "npm",
+          "version": "0.5.2",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/045.json"
+    },
+    {
+      "repository": "Cassius0924/dsh-usage-dashboard",
+      "commit": "68edd43a8de475aef149899a2cfa7c86d4cb0dd1",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@cassius0924/dsh-usage-dashboard",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.6.0",
+          "range": null,
+          "path": null,
+          "commit": "68edd43a8de475aef149899a2cfa7c86d4cb0dd1"
+        },
+        {
+          "name": "@cassius0924/dsh-usage-dashboard",
+          "target": "@cassius0924/dsh-usage-dashboard",
+          "origin": "npm",
+          "version": "0.6.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/046.json"
+    },
+    {
+      "repository": "Cyrene-xl/DSH-Cyrene",
+      "commit": "dfd24ad74243043b3d38396f92dda8c4619ac812",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-cyrene",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.0",
+          "range": null,
+          "path": null,
+          "commit": "dfd24ad74243043b3d38396f92dda8c4619ac812"
+        },
+        {
+          "name": "dsh-cyrene",
+          "target": "dsh-cyrene",
+          "origin": "npm",
+          "version": "0.4.1",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/047.json"
+    },
+    {
+      "repository": "EchoUser005/dsh-fate-spectrum",
+      "commit": "b5adfca0fedf27a9ee7ce53cb4d07b634b43b05b",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-fate-spectrum",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": "0.1.0-rc.6",
+          "path": null,
+          "commit": "b5adfca0fedf27a9ee7ce53cb4d07b634b43b05b"
+        },
+        {
+          "name": "dsh-fate-spectrum",
+          "target": "dsh-fate-spectrum@0.1.0",
+          "origin": "npm",
+          "version": "0.1.0",
+          "range": "0.1.0-rc.6",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/048.json"
+    },
+    {
+      "repository": "Electricitysheep/dsh-tool-turbo",
+      "commit": "d29e7d9d73032516e37797ea69592ce18e0fe05f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-tool-turbo",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": "d29e7d9d73032516e37797ea69592ce18e0fe05f"
+        }
+      ],
+      "evidence": "repos/049.json"
+    },
+    {
+      "repository": "GLFzr/dsh-file-upload",
+      "commit": "dc23ac42271fd93814924cd5822992501f7fb654",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-file-upload",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "2.1.0",
+          "range": null,
+          "path": null,
+          "commit": "dc23ac42271fd93814924cd5822992501f7fb654"
+        }
+      ],
+      "evidence": "repos/050.json"
+    },
+    {
+      "repository": "GooDAnDReaDY/dsh-image-gen",
+      "commit": "63430cdc2f044c127343b7bb68959ed11f369f94",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@goodandready/dsh-image-gen",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.12.2",
+          "range": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": "63430cdc2f044c127343b7bb68959ed11f369f94"
+        },
+        {
+          "name": "@goodandready/dsh-image-gen",
+          "target": "@goodandready/dsh-image-gen@latest",
+          "origin": "npm",
+          "version": "0.12.2",
+          "range": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "@goodandready/dsh-image-gen",
+          "target": "@goodandready/dsh-image-gen",
+          "origin": "npm",
+          "version": "0.12.2",
+          "range": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/051.json"
+    },
+    {
+      "repository": "Horizon215/dsh-plugins",
+      "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+      "outcome": "template_or_example_review",
+      "eligibleRows": 5,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "template_or_example_review",
+      "note": "候选包名仍是 @your-scope/... 模板占位名，不能作为真实安装目标。",
+      "candidates": [
+        {
+          "name": "@your-scope/dsh-mode-switcher",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": "packages/mode-switcher",
+          "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1"
+        },
+        {
+          "name": "@your-scope/dsh-previously-on",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.5",
+          "range": null,
+          "path": "packages/previously-on",
+          "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1"
+        },
+        {
+          "name": "@your-scope/dsh-prompt-templates",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": "packages/prompt-templates",
+          "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1"
+        },
+        {
+          "name": "@your-scope/dsh-quest-mascot",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.1",
+          "range": null,
+          "path": "packages/quest-mascot",
+          "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1"
+        },
+        {
+          "name": "@your-scope/dsh-token-stats",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": "packages/token-stats",
+          "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1"
+        }
+      ],
+      "evidence": "repos/052.json"
+    },
+    {
+      "repository": "HuanLinOTO/dsh-plugin-anti-ads",
+      "commit": "ca25ccf697b4633c30e9aaa9a2cadd6139a73207",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@huanlin/dsh-plugin-anti-ads",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.2",
+          "range": null,
+          "path": null,
+          "commit": "ca25ccf697b4633c30e9aaa9a2cadd6139a73207"
+        },
+        {
+          "name": "@huanlin/dsh-plugin-anti-ads",
+          "target": "@huanlin/dsh-plugin-anti-ads",
+          "origin": "npm",
+          "version": "0.2.3",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/053.json"
+    },
+    {
+      "repository": "Jaylor-Wang/dsh-tool-antigravity",
+      "commit": "c7563d1fe0dd85b2f315e240e236fc34e53b6331",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-tool-antigravity",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.1",
+          "range": null,
+          "path": null,
+          "commit": "c7563d1fe0dd85b2f315e240e236fc34e53b6331"
+        },
+        {
+          "name": "dsh-tool-antigravity",
+          "target": "dsh-tool-antigravity",
+          "origin": "npm",
+          "version": "0.4.1",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/054.json"
+    },
+    {
+      "repository": "KurohaneKaoruko/DSH-Novelist",
+      "commit": "b6433d3281351046cf381f1149a1c5cc3bcaf791",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-novelist",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.0",
+          "range": null,
+          "path": null,
+          "commit": "b6433d3281351046cf381f1149a1c5cc3bcaf791"
+        }
+      ],
+      "evidence": "repos/055.json"
+    },
+    {
+      "repository": "MichengAI/dsh-code-review",
+      "commit": "29fde5fd2a51f42d1e98df488bf4284b82dd54e4",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@michengai/dsh-code-review",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.1",
+          "range": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2",
+          "path": null,
+          "commit": "29fde5fd2a51f42d1e98df488bf4284b82dd54e4"
+        },
+        {
+          "name": "@michengai/dsh-code-review",
+          "target": "@michengai/dsh-code-review@latest",
+          "origin": "npm",
+          "version": "1.0.1",
+          "range": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/056.json"
+    },
+    {
+      "repository": "Mooling0602/dsh-web-file-uploader",
+      "commit": "e2d84d424b47606661e6e0bfb09ac57c1807a920",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-web-file-uploader",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.0-alpha.5",
+          "range": null,
+          "path": null,
+          "commit": "e2d84d424b47606661e6e0bfb09ac57c1807a920"
+        }
+      ],
+      "evidence": "repos/057.json"
+    },
+    {
+      "repository": "MutaLucem/dsh-plugin-integration",
+      "commit": "0f720b7e53c0633b77e48c04c8bb8e06d16b7a37",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-plugin-integration",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.3.10",
+          "range": "0.1.0-rc.6",
+          "path": null,
+          "commit": "0f720b7e53c0633b77e48c04c8bb8e06d16b7a37"
+        }
+      ],
+      "evidence": "repos/058.json"
+    },
+    {
+      "repository": "OK-wx/dsh-ocgo-lite",
+      "commit": "96314bcd7966c88b6907fe5797719793a9b014e9",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-ocgo-lite",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "96314bcd7966c88b6907fe5797719793a9b014e9"
+        }
+      ],
+      "evidence": "repos/059.json"
+    },
+    {
+      "repository": "Owen718/snapgrep",
+      "commit": "5760762aaccecd20641399725bf79b4b33b818bc",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "snapgrep",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.1",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": "5760762aaccecd20641399725bf79b4b33b818bc"
+        },
+        {
+          "name": "snapgrep",
+          "target": "snapgrep",
+          "origin": "npm",
+          "version": "0.1.1",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/060.json"
+    },
+    {
+      "repository": "PerryLink/dsh-budget",
+      "commit": "f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-budget",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.17",
+          "range": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+          "path": null,
+          "commit": "f91da1fc555b3599e02fc7ad1b6a7a2d6e9f7bbd"
+        },
+        {
+          "name": "dsh-budget",
+          "target": "dsh-budget",
+          "origin": "npm",
+          "version": "0.4.17",
+          "range": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/061.json"
+    },
+    {
+      "repository": "Physicolor/dsh-ui-harmonizer",
+      "commit": "99ab31aa8809c08d887ece531382ee33bc063cbc",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-ui-harmonizer",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.9.1",
+          "range": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": "99ab31aa8809c08d887ece531382ee33bc063cbc"
+        },
+        {
+          "name": "dsh-ui-harmonizer",
+          "target": "dsh-ui-harmonizer",
+          "origin": "npm",
+          "version": "0.9.1",
+          "range": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/062.json"
+    },
+    {
+      "repository": "SakalioLabs/dsh-code-ide",
+      "commit": "ce33753295a3f8e269f92cd0037e54cce75ed300",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-code-ide",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0-alpha.1",
+          "range": null,
+          "path": null,
+          "commit": "ce33753295a3f8e269f92cd0037e54cce75ed300"
+        }
+      ],
+      "evidence": "repos/063.json"
+    },
+    {
+      "repository": "Soulize/hard-flash",
+      "commit": "06c20ded45e6a3cf80db91717c9e0e2928d04e74",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-agent-preset-standard-plus",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.0",
+          "range": null,
+          "path": null,
+          "commit": "06c20ded45e6a3cf80db91717c9e0e2928d04e74"
+        }
+      ],
+      "evidence": "repos/064.json"
+    },
+    {
+      "repository": "Tianbuyu-wwx/DSH-FormatForge",
+      "commit": "ce14eed72e5fc44937075f639318a91c33c25571",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@tianbuyu-wwx/dsh-formatforge",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "3.0.1",
+          "range": ">=0.2.0-rc.1 <0.3.0-0",
+          "path": "packages/dsh-formatforge",
+          "commit": "ce14eed72e5fc44937075f639318a91c33c25571"
+        },
+        {
+          "name": "@tianbuyu-wwx/dsh-formatforge",
+          "target": "@tianbuyu-wwx/dsh-formatforge",
+          "origin": "npm",
+          "version": "3.0.0",
+          "range": ">=0.2.0-rc.1 <0.3.0-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/065.json"
+    },
+    {
+      "repository": "TryDing-T/dsh-Plugin--ChineseChess",
+      "commit": "eac72fc6fa635a0063b751f9d10222e505e156ab",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@deepseek-ai/dsh-plugin-xiangqi",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.19",
+          "range": "0.1.5-alpha.1",
+          "path": null,
+          "commit": "eac72fc6fa635a0063b751f9d10222e505e156ab"
+        }
+      ],
+      "evidence": "repos/066.json"
+    },
+    {
+      "repository": "Tsqurt/dsh-plugin-studio",
+      "commit": "b9d53830326a1b7b6b75f28abeb1c60fa96275ce",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@tsqurt/dsh-plugin-studio",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.3-alpha",
+          "range": null,
+          "path": null,
+          "commit": "b9d53830326a1b7b6b75f28abeb1c60fa96275ce"
+        },
+        {
+          "name": "@tsqurt/dsh-plugin-studio",
+          "target": "@tsqurt/dsh-plugin-studio",
+          "origin": "npm",
+          "version": "0.1.3-alpha",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/067.json"
+    },
+    {
+      "repository": "WindyPro-rourou/dsh-logcat",
+      "commit": "5f0fe50e754e4ac27cfa45091d45ce44604ffc30",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 4,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@windypro-rourou/dsh-logcat",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.8.3",
+          "range": null,
+          "path": null,
+          "commit": "5f0fe50e754e4ac27cfa45091d45ce44604ffc30"
+        },
+        {
+          "name": "@windypro-rourou/dsh-logcat",
+          "target": "@windypro-rourou/dsh-logcat",
+          "origin": "npm",
+          "version": "0.8.3",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "@windypro-rourou/dsh-logcat",
+          "target": "@windypro-rourou/dsh-logcat@latest",
+          "origin": "npm",
+          "version": "0.8.3",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "@windypro-rourou/dsh-logcat",
+          "target": "@windypro-rourou/dsh-logcat@preview",
+          "origin": "npm",
+          "version": "0.6.0-preview.5",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/068.json"
+    },
+    {
+      "repository": "a903067276-rgb/dsh-file-upload",
+      "commit": "8c7a17e6399f205620e9c3ebc5080c28d02fa705",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 4,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-file-upload",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.7",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": "8c7a17e6399f205620e9c3ebc5080c28d02fa705"
+        },
+        {
+          "name": "dsh-file-upload",
+          "target": "https://github.com/a903067276-rgb/dsh-file-upload#main",
+          "origin": "git_target",
+          "version": "0.1.7",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": "8c7a17e6399f205620e9c3ebc5080c28d02fa705"
+        },
+        {
+          "name": "dsh-file-upload",
+          "target": "https://github.com/a903067276-rgb/dsh-file-upload#v0.1.4",
+          "origin": "git_target",
+          "version": "0.1.4",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": "4d8c83280983bfdd57647fbfb7f7455adbf01a74"
+        },
+        {
+          "name": "dsh-file-upload",
+          "target": "https://github.com/a903067276-rgb/dsh-file-upload#v0.1.2",
+          "origin": "git_target",
+          "version": "0.1.2",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": "7a38a158dd05d1aded3b34b9915013519ea61169"
+        }
+      ],
+      "evidence": "repos/069.json"
+    },
+    {
+      "repository": "appthin/dsh-mcp-manager-plus",
+      "commit": "9a29d1a7fb76ccf32b8c987f9833f244b285cb0e",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-mcp-manager-plus",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.4",
+          "range": ">=0.1.6-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+          "path": null,
+          "commit": "9a29d1a7fb76ccf32b8c987f9833f244b285cb0e"
+        },
+        {
+          "name": "dsh-mcp-manager-plus",
+          "target": "dsh-mcp-manager-plus",
+          "origin": "npm",
+          "version": "0.4.4",
+          "range": ">=0.1.6-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/070.json"
+    },
+    {
+      "repository": "boxeryao/dsh-mini-tui",
+      "commit": "6b37de9bb5a2231d053ee1fbd086f27a1a95d274",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-mini-tui",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.1",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": "6b37de9bb5a2231d053ee1fbd086f27a1a95d274"
+        },
+        {
+          "name": "dsh-mini-tui",
+          "target": "dsh-mini-tui@latest",
+          "origin": "npm",
+          "version": "0.2.1",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/071.json"
+    },
+    {
+      "repository": "dat-lequoc/dsh-kiro",
+      "commit": "6988643ea250d16e3dd20053f4ab679c90f7a68c",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-kiro",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.19",
+          "range": "0.2.0-rc.1",
+          "path": null,
+          "commit": "6988643ea250d16e3dd20053f4ab679c90f7a68c"
+        }
+      ],
+      "evidence": "repos/072.json"
+    },
+    {
+      "repository": "dpskk2/dsh-chatsync",
+      "commit": "b8cbf7221b6bef787be62ef71038f42c57e8bfca",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@dpskk2/dsh-chatsync",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.20.0",
+          "range": ">=0.1.5-rc.3",
+          "path": null,
+          "commit": "b8cbf7221b6bef787be62ef71038f42c57e8bfca"
+        },
+        {
+          "name": "@dpskk2/dsh-chatsync",
+          "target": "@dpskk2/dsh-chatsync",
+          "origin": "npm",
+          "version": "0.20.0",
+          "range": ">=0.1.5-rc.3",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/073.json"
+    },
+    {
+      "repository": "eric-song-dev/dsh-ikun-pet",
+      "commit": "ada74e3755730bbff1e619ca0f8ff7926d03ba98",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-ikun-pet",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "2.2.0",
+          "range": null,
+          "path": null,
+          "commit": "ada74e3755730bbff1e619ca0f8ff7926d03ba98"
+        },
+        {
+          "name": "dsh-ikun-pet",
+          "target": "dsh-ikun-pet",
+          "origin": "npm",
+          "version": "2.2.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/074.json"
+    },
+    {
+      "repository": "falling-ts/dsh-force-compact",
+      "commit": "23d4aa13ccdf87cd9740aa1716dae98819cd2168",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@falling-ts/dsh-force-compact",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.8.4",
+          "range": ">=0.2.0-rc.1",
+          "path": null,
+          "commit": "23d4aa13ccdf87cd9740aa1716dae98819cd2168"
+        }
+      ],
+      "evidence": "repos/075.json"
+    },
+    {
+      "repository": "goatbroai/web-background",
+      "commit": "7cd751575f590c509c9c7545dbfd48d983aa3640",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "web-background",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "7cd751575f590c509c9c7545dbfd48d983aa3640"
+        },
+        {
+          "name": "web-background",
+          "target": "https://github.com/lndyzwdxhs/web-background#main",
+          "origin": "git_target",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "7cd751575f590c509c9c7545dbfd48d983aa3640"
+        }
+      ],
+      "evidence": "repos/076.json"
+    },
+    {
+      "repository": "gxpppp/dsh-search-mcp",
+      "commit": "ae3a247aa104c952f720736cb4dfa3f024f01551",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-search-mcp",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.0",
+          "range": null,
+          "path": null,
+          "commit": "ae3a247aa104c952f720736cb4dfa3f024f01551"
+        }
+      ],
+      "evidence": "repos/077.json"
+    },
+    {
+      "repository": "hachimi-ai/dsh-aemeath",
+      "commit": "f58eef75dcadb5aeaee9e78542e7e1d9ba43f821",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-aemeath",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": "f58eef75dcadb5aeaee9e78542e7e1d9ba43f821"
+        }
+      ],
+      "evidence": "repos/078.json"
+    },
+    {
+      "repository": "hackerFish/dsh-video-studio",
+      "commit": "36198b88de34899083be8def3b97b25afe84b153",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@hackerfish/dsh-video-studio",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.0",
+          "range": null,
+          "path": null,
+          "commit": "36198b88de34899083be8def3b97b25afe84b153"
+        }
+      ],
+      "evidence": "repos/079.json"
+    },
+    {
+      "repository": "hellosky983/dsh-mc-agent",
+      "commit": "98d8a791948f2f0e88ea08cfa5add91a3f9fa6f3",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-mc-agent",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": "^0.1.0-rc.6 || ^0.1.1-rc.1 || ^0.1.2-alpha.2 || ^0.1.3-alpha.2 || ^0.1.5-alpha.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": "98d8a791948f2f0e88ea08cfa5add91a3f9fa6f3"
+        }
+      ],
+      "evidence": "repos/080.json"
+    },
+    {
+      "repository": "huashenglian/dsh-livechat",
+      "commit": "9ab4501aa32bbeb1475027c69f3a48a0a4301f9a",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-livechat",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.6.10",
+          "range": null,
+          "path": null,
+          "commit": "9ab4501aa32bbeb1475027c69f3a48a0a4301f9a"
+        },
+        {
+          "name": "dsh-livechat",
+          "target": "dsh-livechat",
+          "origin": "npm",
+          "version": "0.6.10",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/081.json"
+    },
+    {
+      "repository": "kermanx/dshw",
+      "commit": "36dae1cd9c6a15a0497bc27aabfb647df07a9f6e",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dshw",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "36dae1cd9c6a15a0497bc27aabfb647df07a9f6e"
+        }
+      ],
+      "evidence": "repos/082.json"
+    },
+    {
+      "repository": "lee259/dsh-workbench",
+      "commit": "0dbeb0d76b5a6a50983ee087b1a442c2c81ea9c0",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-workbench",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.16.1",
+          "range": null,
+          "path": null,
+          "commit": "0dbeb0d76b5a6a50983ee087b1a442c2c81ea9c0"
+        },
+        {
+          "name": "dsh-workbench",
+          "target": "dsh-workbench",
+          "origin": "npm",
+          "version": "0.16.1",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/083.json"
+    },
+    {
+      "repository": "leechen298/Code2Skill",
+      "commit": "afd25120129e4cfb69fb57d0c9dfea490e8a3c60",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@leechen298/code2skill",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.2.0",
+          "range": null,
+          "path": null,
+          "commit": "afd25120129e4cfb69fb57d0c9dfea490e8a3c60"
+        },
+        {
+          "name": "@leechen298/code2skill",
+          "target": "https://github.com/leechen298/Code2Skill#v1.2.0",
+          "origin": "git_target",
+          "version": "1.2.0",
+          "range": null,
+          "path": null,
+          "commit": "27bac3f270e3e7cbfd16a41475222570874fbdb0"
+        }
+      ],
+      "evidence": "repos/084.json"
+    },
+    {
+      "repository": "lemonxiny55/dsh-code-index",
+      "commit": "cc46057b87cf6e9bed6d317e982ed555ec4a1a34",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-code-index",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.10.0",
+          "range": "0.2.0-rc.2",
+          "path": null,
+          "commit": "cc46057b87cf6e9bed6d317e982ed555ec4a1a34"
+        }
+      ],
+      "evidence": "repos/085.json"
+    },
+    {
+      "repository": "licyer/dsh-token-monitor",
+      "commit": "f3936b16bf158a338affdaaa2443c4c629162065",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-token-monitor",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.12",
+          "range": null,
+          "path": null,
+          "commit": "f3936b16bf158a338affdaaa2443c4c629162065"
+        },
+        {
+          "name": "dsh-token-monitor",
+          "target": "dsh-token-monitor",
+          "origin": "npm",
+          "version": "1.0.12",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/086.json"
+    },
+    {
+      "repository": "lincong1987/dsh-model-switch",
+      "commit": "388de8a36cb3f6514a161e9e9dcc45ca04cd3a08",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-model-switch",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.8.0",
+          "range": "^0.1.5-rc.1",
+          "path": null,
+          "commit": "388de8a36cb3f6514a161e9e9dcc45ca04cd3a08"
+        }
+      ],
+      "evidence": "repos/087.json"
+    },
+    {
+      "repository": "liuup/dsh-latex-tools",
+      "commit": "ec82dd87657dc35757f28c1e716a17422e32aad8",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-latex-tools",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.2",
+          "range": null,
+          "path": null,
+          "commit": "ec82dd87657dc35757f28c1e716a17422e32aad8"
+        },
+        {
+          "name": "dsh-latex-tools",
+          "target": "dsh-latex-tools",
+          "origin": "npm",
+          "version": "0.1.2",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/088.json"
+    },
+    {
+      "repository": "loudMore/dsh-drop-to-path",
+      "commit": "d938c1ddf14e86ddbad5e634f0118e6ace857668",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@dsh-external/dsh-drop-to-path",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.1",
+          "range": null,
+          "path": null,
+          "commit": "d938c1ddf14e86ddbad5e634f0118e6ace857668"
+        }
+      ],
+      "evidence": "repos/089.json"
+    },
+    {
+      "repository": "pbwheel/dsh-workbuddy-expert",
+      "commit": "17abcb35bad974dd86bee586d1dbf391fbd9db91",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-workbuddy-expert",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.0",
+          "range": ">=0.2.0-rc.2 <0.3.0",
+          "path": null,
+          "commit": "17abcb35bad974dd86bee586d1dbf391fbd9db91"
+        },
+        {
+          "name": "dsh-workbuddy-expert",
+          "target": "dsh-workbuddy-expert",
+          "origin": "npm",
+          "version": "0.2.1",
+          "range": ">=0.2.0-rc.2 <0.3.0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/090.json"
+    },
+    {
+      "repository": "photon-hq/dsh-imessage",
+      "commit": "a644183adf332bff12b2fe359b3326ca1c066846",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-imessage",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.0",
+          "range": "0.1.0-rc.6",
+          "path": null,
+          "commit": "a644183adf332bff12b2fe359b3326ca1c066846"
+        },
+        {
+          "name": "dsh-imessage",
+          "target": "dsh-imessage",
+          "origin": "npm",
+          "version": "0.2.0",
+          "range": "0.1.0-rc.6",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/091.json"
+    },
+    {
+      "repository": "pure-craft/dsh-capability-panel",
+      "commit": "04b3bd2aa6feb4a7c14eadf0ee36f1ece367d11d",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-capability-panel",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.4.1",
+          "range": ">=0.1.2-rc.1 <0.2.0-0 >=0.1.5-alpha.1 || >=0.1.3-alpha.2 <0.2.0-0 >=0.1.5-alpha.1 || >=0.1.5-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+          "path": null,
+          "commit": "04b3bd2aa6feb4a7c14eadf0ee36f1ece367d11d"
+        },
+        {
+          "name": "dsh-capability-panel",
+          "target": "dsh-capability-panel",
+          "origin": "npm",
+          "version": "1.4.1",
+          "range": ">=0.1.2-rc.1 <0.2.0-0 >=0.1.5-alpha.1 || >=0.1.3-alpha.2 <0.2.0-0 >=0.1.5-alpha.1 || >=0.1.5-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/092.json"
+    },
+    {
+      "repository": "sayho-pm/dsh-locale-pack",
+      "commit": "3c062212a484aa21dfd33bd8f42c1ced88c3d174",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-locale-pack",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.1",
+          "range": null,
+          "path": null,
+          "commit": "3c062212a484aa21dfd33bd8f42c1ced88c3d174"
+        }
+      ],
+      "evidence": "repos/093.json"
+    },
+    {
+      "repository": "taikaikaikai-pixel/dsh-tap",
+      "commit": "8cdd31ec1605a6f4fa4f9aa859b9948da8faebc0",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-tap",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.20.0",
+          "range": null,
+          "path": null,
+          "commit": "8cdd31ec1605a6f4fa4f9aa859b9948da8faebc0"
+        },
+        {
+          "name": "dsh-tap",
+          "target": "dsh-tap",
+          "origin": "npm",
+          "version": "0.20.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/094.json"
+    },
+    {
+      "repository": "tjxj/dsh-wanghong-handwritten-ppt",
+      "commit": "3968e8b2e46ac5373c87a6191d0520022a0ed010",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-wanghong-handwritten-ppt",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "3968e8b2e46ac5373c87a6191d0520022a0ed010"
+        }
+      ],
+      "evidence": "repos/095.json"
+    },
+    {
+      "repository": "tuojc/dsh-browser-firefox",
+      "commit": "11c1d0e01f828db2726f8fc9428289009eb2bd96",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-browser-firefox",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.8",
+          "range": "^0.2.0-rc.1",
+          "path": "plugin",
+          "commit": "11c1d0e01f828db2726f8fc9428289009eb2bd96"
+        },
+        {
+          "name": "dsh-browser-firefox",
+          "target": "dsh-browser-firefox@latest",
+          "origin": "npm",
+          "version": "0.4.8",
+          "range": "^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/096.json"
+    },
+    {
+      "repository": "turtle1999/turtle-ui",
+      "commit": "b08ed69e4c4edbd0dcaba556fa7b5ea6cd0f91e2",
+      "outcome": "retry_required",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "note": "README 指向 deepseek-harness/turtle-ui（404）；仓库候选声明 ^0.0.1，不含 0.2.1-alpha.5。",
+      "candidates": [
+        {
+          "name": "@deepseek-ai/dsh-tui",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.0.1",
+          "range": "^0.0.1",
+          "path": null,
+          "commit": "b08ed69e4c4edbd0dcaba556fa7b5ea6cd0f91e2"
+        }
+      ],
+      "evidence": "repos/097.json"
+    },
+    {
+      "repository": "unclecode/toolshrink",
+      "commit": "3d654ab491146dd685f0b47fef94e78a14590860",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "toolshrink",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "3d654ab491146dd685f0b47fef94e78a14590860"
+        }
+      ],
+      "evidence": "repos/098.json"
+    },
+    {
+      "repository": "wei-806206088/dsh-skin",
+      "commit": "3e8306eaa5bd092e28e70ec507fa887c4f80a001",
+      "outcome": "no_eligible_bundle_found",
+      "eligibleRows": 0,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "no_eligible_bundle",
+      "candidates": [],
+      "evidence": "repos/099.json"
+    },
+    {
+      "repository": "xianyuyijinban/boardwise",
+      "commit": "f56dced92b30d76863511b4426f9e33158aaddf0",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "boardwise-dsh",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.2",
+          "range": ">=0.0.1-rc.1 <0.3.0 || >=0.1.7-rc.2 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+          "path": "dsh-plugin",
+          "commit": "f56dced92b30d76863511b4426f9e33158aaddf0"
+        }
+      ],
+      "evidence": "repos/100.json"
+    },
+    {
+      "repository": "xiaoso456/dsh-tool-plus",
+      "commit": "353ac0a17a71f160d29afe75a1de15cf0af406ba",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@xiaoso/dsh-tool-plus",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.14",
+          "range": ">=0.2.1-0 <0.3.0-0",
+          "path": null,
+          "commit": "353ac0a17a71f160d29afe75a1de15cf0af406ba"
+        },
+        {
+          "name": "@xiaoso/dsh-tool-plus",
+          "target": "@xiaoso/dsh-tool-plus",
+          "origin": "npm",
+          "version": "0.1.14",
+          "range": ">=0.2.1-0 <0.3.0-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/101.json"
+    },
+    {
+      "repository": "xiaoxiaosrm/dsh-mattpocock-skills",
+      "commit": "a46a2abbdacf3416b91b5bb4570b611fa7017559",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@mattpocock-community/dsh-engineering-skills",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.0",
+          "range": null,
+          "path": null,
+          "commit": "a46a2abbdacf3416b91b5bb4570b611fa7017559"
+        }
+      ],
+      "evidence": "repos/102.json"
+    },
+    {
+      "repository": "zetaluolang-cyber/deepseek-harness-phone-remote",
+      "commit": "a9b1353361bb225bd99f914cb2ea1c503cb62167",
+      "outcome": "no_eligible_bundle_found",
+      "eligibleRows": 0,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "no_eligible_bundle",
+      "candidates": [],
+      "evidence": "repos/103.json"
+    },
+    {
+      "repository": "zhijun-dai/Catppuccin-dsh-theme",
+      "commit": "140ed3c3133ecb31761845224f4ec91d45ba747e",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-catppuccin",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.5",
+          "range": null,
+          "path": null,
+          "commit": "140ed3c3133ecb31761845224f4ec91d45ba747e"
+        },
+        {
+          "name": "dsh-catppuccin",
+          "target": "dsh-catppuccin",
+          "origin": "npm",
+          "version": "0.2.3",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/104.json"
+    },
+    {
+      "repository": "131CDA1/dsh-scrape-webpage",
+      "commit": "7485af10c063579323058583c7f13e69c4c8bd21",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-scrape-webpage",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.0",
+          "range": null,
+          "path": null,
+          "commit": "7485af10c063579323058583c7f13e69c4c8bd21"
+        },
+        {
+          "name": "dsh-scrape-webpage",
+          "target": "dsh-scrape-webpage",
+          "origin": "npm",
+          "version": "1.0.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/105.json"
+    },
+    {
+      "repository": "1Lyn-en/dsh-whale",
+      "commit": "3bfc3a92ab79938da2d8d1e5936b3bc3cf9a7349",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@1lyn-en/dsh-whale",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": ">=0.0.1-rc.1 <0.2.0",
+          "path": null,
+          "commit": "3bfc3a92ab79938da2d8d1e5936b3bc3cf9a7349"
+        }
+      ],
+      "evidence": "repos/106.json"
+    },
+    {
+      "repository": "2768651338/dsh-plugin-manager",
+      "commit": "4aef790ae8face67b5c65e50b9f47d3eb8c969f0",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@txc2768651338/dsh-plugin-manager",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.8.0",
+          "range": ">=0.1.0-rc.0 || >=0.1.5-rc.0 || >=0.2.0-rc.0",
+          "path": null,
+          "commit": "4aef790ae8face67b5c65e50b9f47d3eb8c969f0"
+        },
+        {
+          "name": "@txc2768651338/dsh-plugin-manager",
+          "target": "https://github.com/2768651338/dsh-plugin-manager#main",
+          "origin": "git_target",
+          "version": "0.8.0",
+          "range": ">=0.1.0-rc.0 || >=0.1.5-rc.0 || >=0.2.0-rc.0",
+          "path": null,
+          "commit": "4aef790ae8face67b5c65e50b9f47d3eb8c969f0"
+        }
+      ],
+      "evidence": "repos/107.json"
+    },
+    {
+      "repository": "AKS1st/dsh-mermaid",
+      "commit": "2708cdf2e2eb1c0cd15448c3d3d680b8fba58d48",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-mermaid",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.5.0",
+          "range": null,
+          "path": null,
+          "commit": "2708cdf2e2eb1c0cd15448c3d3d680b8fba58d48"
+        }
+      ],
+      "evidence": "repos/108.json"
+    },
+    {
+      "repository": "AKS1st/ikun-theme-skin",
+      "commit": "c0e59e61332a5e3317365848f73240308d9d9345",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "ikun-theme-skin",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.0",
+          "range": null,
+          "path": null,
+          "commit": "c0e59e61332a5e3317365848f73240308d9d9345"
+        }
+      ],
+      "evidence": "repos/109.json"
+    },
+    {
+      "repository": "AcidGr/dsh-web-mobile-fix",
+      "commit": "bba4d83bfb1aac90c209fb5602428cbb9bb3fcc7",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-web-mobile-fix",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.8",
+          "range": null,
+          "path": null,
+          "commit": "bba4d83bfb1aac90c209fb5602428cbb9bb3fcc7"
+        },
+        {
+          "name": "dsh-web-mobile-fix",
+          "target": "dsh-web-mobile-fix",
+          "origin": "npm",
+          "version": "1.0.6",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/110.json"
+    },
+    {
+      "repository": "AdonisSheldon/dsh-openai-oauth",
+      "commit": "ba29660530fe05779b06f129a0c0ed5c2237b73f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-openai-oauth",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": ">=0.1.0-rc.8 <0.2.0-0",
+          "path": null,
+          "commit": "ba29660530fe05779b06f129a0c0ed5c2237b73f"
+        }
+      ],
+      "evidence": "repos/111.json"
+    },
+    {
+      "repository": "BananaSoldier01/dsh-tidychat",
+      "commit": "0fa0dc2327d3001b4d459556ad9b5cd3141b47b2",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@bananasoldier01/dsh-tidychat",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.0",
+          "range": ">=0.2.0-rc.2 <0.3.0-0",
+          "path": null,
+          "commit": "0fa0dc2327d3001b4d459556ad9b5cd3141b47b2"
+        },
+        {
+          "name": "@bananasoldier01/dsh-tidychat",
+          "target": "@bananasoldier01/dsh-tidychat",
+          "origin": "npm",
+          "version": "0.4.0",
+          "range": ">=0.2.0-rc.2 <0.3.0-0",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "@bananasoldier01/dsh-tidychat",
+          "target": "git+https://github.com/BananaSoldier01/dsh-tidychat.git#v0.4.0",
+          "origin": "git_target",
+          "version": "0.4.0",
+          "range": ">=0.2.0-rc.2 <0.3.0-0",
+          "path": null,
+          "commit": "0fa0dc2327d3001b4d459556ad9b5cd3141b47b2"
+        }
+      ],
+      "evidence": "repos/112.json"
+    },
+    {
+      "repository": "ChuShiZ/dsh-archive-manager",
+      "commit": "ece9bc799753c231581906f8e45adcbe5acfdf91",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@chushiz/dsh-archive-manager",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.6.3",
+          "range": "^0.2.0-rc.2",
+          "path": null,
+          "commit": "ece9bc799753c231581906f8e45adcbe5acfdf91"
+        },
+        {
+          "name": "@chushiz/dsh-archive-manager",
+          "target": "@chushiz/dsh-archive-manager",
+          "origin": "npm",
+          "version": "0.6.3",
+          "range": "^0.2.0-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/113.json"
+    },
+    {
+      "repository": "CrazyShout/dsh-ssh-remote",
+      "commit": "c1c88a1dca9651694228838fe3df17d9a982c202",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-ssh-remote",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.10.2",
+          "range": ">=0.2.0-rc.2 <0.3.0",
+          "path": null,
+          "commit": "c1c88a1dca9651694228838fe3df17d9a982c202"
+        },
+        {
+          "name": "dsh-ssh-remote",
+          "target": "https://github.com/CrazyShout/dsh-ssh-remote#v0.10.2",
+          "origin": "git_target",
+          "version": "0.10.2",
+          "range": ">=0.2.0-rc.2 <0.3.0",
+          "path": null,
+          "commit": "c1c88a1dca9651694228838fe3df17d9a982c202"
+        },
+        {
+          "name": "dsh-ssh-remote",
+          "target": "https://github.com/CrazyShout/dsh-ssh-remote#abff63bafd0959820ec2d9976803f5cdbdc77580",
+          "origin": "git_target",
+          "version": "0.10.1",
+          "range": ">=0.2.0-rc.2 <0.3.0",
+          "path": null,
+          "commit": "abff63bafd0959820ec2d9976803f5cdbdc77580"
+        }
+      ],
+      "evidence": "repos/114.json"
+    },
+    {
+      "repository": "Crosery/dsh-viewer",
+      "commit": "59cfd6e42e2064048d0a88ca67d2029d313082f3",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@crosery/dsh-viewer",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.1",
+          "range": ">=0.0.1-rc.0 <0.0.2-0 || >=0.1.0-rc.0 <0.1.1-0 || >=0.1.1-rc.0 <0.1.2-0 || >=0.1.2-alpha.0 <0.1.3-0 || >=0.1.3-alpha.0 <0.1.4-0 || >=0.1.5-alpha.0 <0.1.6-0 || >=0.1.6-alpha.0 <0.1.7-0 || >=0.1.7-alpha.0 <0.1.8-0 || >=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-alpha.0 <0.2.2-0",
+          "path": null,
+          "commit": "59cfd6e42e2064048d0a88ca67d2029d313082f3"
+        }
+      ],
+      "evidence": "repos/115.json"
+    },
+    {
+      "repository": "Edge-Echo/dsh-mcp-bridge",
+      "commit": "75dc4f073c29ca04aa2b614e51b14146e2d68b12",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-mcp-bridge",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.1",
+          "range": ">=0.1.0-rc.6",
+          "path": null,
+          "commit": "75dc4f073c29ca04aa2b614e51b14146e2d68b12"
+        },
+        {
+          "name": "dsh-mcp-bridge",
+          "target": "dsh-mcp-bridge",
+          "origin": "npm",
+          "version": "0.2.1",
+          "range": ">=0.1.0-rc.6",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/116.json"
+    },
+    {
+      "repository": "FrostLeafKEE/dsh-chat-bridge",
+      "commit": "1904f282ac27b877a56c2503d7fd79c1a7bb58a8",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-chat-bridge",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.1",
+          "range": "0.2.0-rc.2",
+          "path": null,
+          "commit": "1904f282ac27b877a56c2503d7fd79c1a7bb58a8"
+        }
+      ],
+      "evidence": "repos/117.json"
+    },
+    {
+      "repository": "GooDAnDReaDY/dsh-voice",
+      "commit": "c17b4e6950831e1efe32c2a849e9f7085af64967",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@goodandready/dsh-voice",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.9.36",
+          "range": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": "c17b4e6950831e1efe32c2a849e9f7085af64967"
+        },
+        {
+          "name": "@goodandready/dsh-voice",
+          "target": "@goodandready/dsh-voice",
+          "origin": "npm",
+          "version": "0.9.36",
+          "range": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/118.json"
+    },
+    {
+      "repository": "KYinCode/dsh-hot-installer",
+      "commit": "fa2d66382f79f44f1bdbf4a0ccb9228c7606e37f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-hot-installer",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.5.4",
+          "range": null,
+          "path": null,
+          "commit": "fa2d66382f79f44f1bdbf4a0ccb9228c7606e37f"
+        },
+        {
+          "name": "dsh-hot-installer",
+          "target": "dsh-hot-installer",
+          "origin": "npm",
+          "version": "0.5.4",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-hot-installer",
+          "target": "dsh-hot-installer@latest",
+          "origin": "npm",
+          "version": "0.5.4",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/119.json"
+    },
+    {
+      "repository": "Machine-126/dsh-alert-sound",
+      "commit": "8ad6a3f45d74fdbb7066a8aeb753d6d1eef67f1a",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@machine-126/dsh-alert-sound",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.16",
+          "range": ">=0.2.0-rc.2",
+          "path": null,
+          "commit": "8ad6a3f45d74fdbb7066a8aeb753d6d1eef67f1a"
+        },
+        {
+          "name": "@machine-126/dsh-alert-sound",
+          "target": "@machine-126/dsh-alert-sound",
+          "origin": "npm",
+          "version": "0.3.16",
+          "range": ">=0.2.0-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/120.json"
+    },
+    {
+      "repository": "Moon-shiyue/dsh-github-connect",
+      "commit": "89f8258fcca57fdd017bea64e2682f275302f813",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-github-connect",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.0",
+          "range": null,
+          "path": null,
+          "commit": "89f8258fcca57fdd017bea64e2682f275302f813"
+        }
+      ],
+      "evidence": "repos/121.json"
+    },
+    {
+      "repository": "NOirBRight/dsh-llm-ollama",
+      "commit": "52c34e9246f1631c040cd3dfe328d4e9acea9554",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-llm-ollama",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.6.28",
+          "range": ">=0.1.7-alpha.2",
+          "path": null,
+          "commit": "52c34e9246f1631c040cd3dfe328d4e9acea9554"
+        }
+      ],
+      "evidence": "repos/122.json"
+    },
+    {
+      "repository": "PianoPrince/dsh-workspace-mover",
+      "commit": "6623639581c943d2f3e295e0c5d8ee383c33436c",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-workspace-mover",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "2.3.0",
+          "range": ">=0.1.5-rc.1",
+          "path": null,
+          "commit": "6623639581c943d2f3e295e0c5d8ee383c33436c"
+        },
+        {
+          "name": "dsh-workspace-mover",
+          "target": "dsh-workspace-mover",
+          "origin": "npm",
+          "version": "2.3.0",
+          "range": ">=0.1.5-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/123.json"
+    },
+    {
+      "repository": "STARDUSTLC666/dsh-codex-port",
+      "commit": "9b144ccfa69479b6e979aa7adb04179ebbce2056",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-codex-port",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.0",
+          "range": null,
+          "path": null,
+          "commit": "9b144ccfa69479b6e979aa7adb04179ebbce2056"
+        },
+        {
+          "name": "dsh-codex-port",
+          "target": "dsh-codex-port",
+          "origin": "npm",
+          "version": "0.3.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/124.json"
+    },
+    {
+      "repository": "Tianbuyu-wwx/dsh-hermes-link",
+      "commit": "1c63009c138d6e46d43c4f154b9cc017cab5ae4a",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@tianbuyu-wwx/dsh-hermes-link",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.6.11",
+          "range": null,
+          "path": "packages/dsh-hermes-link",
+          "commit": "1c63009c138d6e46d43c4f154b9cc017cab5ae4a"
+        }
+      ],
+      "evidence": "repos/125.json"
+    },
+    {
+      "repository": "TonyDua/dsh-web-search-exa",
+      "commit": "9628bc41012e8dc5273c2b7dbda16a9c00a23507",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@tonydua/dsh-web-search-exa",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.3",
+          "range": ">=0.1.2-alpha.2 || >=0.1.3-alpha.2 || >=0.1.4-0 || >=0.1.5-alpha.1 || >=0.1.6-alpha.1 || >=0.1.7-alpha.1 || >=0.1.8 || >=0.2.0-rc.1 || >=0.2.1-alpha.1",
+          "path": null,
+          "commit": "9628bc41012e8dc5273c2b7dbda16a9c00a23507"
+        },
+        {
+          "name": "@tonydua/dsh-web-search-exa",
+          "target": "@tonydua/dsh-web-search-exa",
+          "origin": "npm",
+          "version": "0.2.3",
+          "range": ">=0.1.2-alpha.2 || >=0.1.3-alpha.2 || >=0.1.4-0 || >=0.1.5-alpha.1 || >=0.1.6-alpha.1 || >=0.1.7-alpha.1 || >=0.1.8 || >=0.2.0-rc.1 || >=0.2.1-alpha.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/126.json"
+    },
+    {
+      "repository": "Victor-770/dsh-commandcode-provider",
+      "commit": "23ccbedb100abf8bafae8abc01ffa3ae03787bf8",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-commandcode-provider",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.0",
+          "range": "^0.2.0-rc.2",
+          "path": null,
+          "commit": "23ccbedb100abf8bafae8abc01ffa3ae03787bf8"
+        },
+        {
+          "name": "dsh-commandcode-provider",
+          "target": "dsh-commandcode-provider@0.2.0",
+          "origin": "npm",
+          "version": "0.2.0",
+          "range": "^0.2.0-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/127.json"
+    },
+    {
+      "repository": "Wine-Red/dsh-codex-timeline",
+      "commit": "71343f97437fd3b7f1c80f91bfdb589b9c2136fe",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-codex-timeline",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.6.4",
+          "range": "0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1",
+          "path": null,
+          "commit": "71343f97437fd3b7f1c80f91bfdb589b9c2136fe"
+        },
+        {
+          "name": "dsh-codex-timeline",
+          "target": "dsh-codex-timeline@0.5.5",
+          "origin": "npm",
+          "version": "0.5.5",
+          "range": "^0.1.1-rc.2",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-codex-timeline",
+          "target": "dsh-codex-timeline@0.6.4",
+          "origin": "npm",
+          "version": "0.6.4",
+          "range": "0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/128.json"
+    },
+    {
+      "repository": "XHR666/dsh-mpkg-wallpaper",
+      "commit": "62e07a3d845269f9943fed4029f6d8da5b8a0cf3",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-mpkg-wallpaper",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "3.16.6",
+          "range": null,
+          "path": null,
+          "commit": "62e07a3d845269f9943fed4029f6d8da5b8a0cf3"
+        },
+        {
+          "name": "dsh-mpkg-wallpaper",
+          "target": "dsh-mpkg-wallpaper",
+          "origin": "npm",
+          "version": "3.16.6",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/129.json"
+    },
+    {
+      "repository": "Yuuz12/dsh-webui-auth",
+      "commit": "c82c8a15971a8ac68b6c8b5a11f5a7127b39eb92",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-webui-auth",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.6",
+          "range": null,
+          "path": null,
+          "commit": "c82c8a15971a8ac68b6c8b5a11f5a7127b39eb92"
+        },
+        {
+          "name": "dsh-webui-auth",
+          "target": "dsh-webui-auth",
+          "origin": "npm",
+          "version": "0.3.6",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/130.json"
+    },
+    {
+      "repository": "a903067276-rgb/dsh-hud",
+      "commit": "ddc64f5cb7fb3631f473775506a2bd9512fba0cd",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 5,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-hud",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.9.3",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": "ddc64f5cb7fb3631f473775506a2bd9512fba0cd"
+        },
+        {
+          "name": "dsh-hud",
+          "target": "https://github.com/a903067276-rgb/dsh-hud#main",
+          "origin": "git_target",
+          "version": "1.9.3",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": "ddc64f5cb7fb3631f473775506a2bd9512fba0cd"
+        },
+        {
+          "name": "dsh-hud",
+          "target": "https://github.com/a903067276-rgb/dsh-hud#v1.4.1",
+          "origin": "git_target",
+          "version": "1.4.0",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": "4857bc1dd302343c8d46b0a1ac4c62d0a31d3b2c"
+        },
+        {
+          "name": "dsh-hud",
+          "target": "https://github.com/a903067276-rgb/dsh-hud#v1.2.11",
+          "origin": "git_target",
+          "version": "1.2.11",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": "eb82bc888ea614c6641761602cc3098b790132a4"
+        },
+        {
+          "name": "dsh-hud",
+          "target": "https://github.com/a903067276-rgb/dsh-hud#rc6-compat",
+          "origin": "git_target",
+          "version": "1.2.11",
+          "range": ">=0.0.1",
+          "path": null,
+          "commit": "50880bd2e05323b5937f5e8abe3d6477b11e283c"
+        }
+      ],
+      "evidence": "repos/131.json"
+    },
+    {
+      "repository": "aa2246740/dsh-resume",
+      "commit": "470e21f8d97215f70166991fe6a0607915516b3a",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-resume",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.5",
+          "range": ">=0.2.0-rc.1 <0.2.1",
+          "path": null,
+          "commit": "470e21f8d97215f70166991fe6a0607915516b3a"
+        },
+        {
+          "name": "dsh-resume",
+          "target": "https://github.com/aa2246740/dsh-resume#v0.2.5",
+          "origin": "git_target",
+          "version": "0.2.5",
+          "range": ">=0.2.0-rc.1 <0.2.1",
+          "path": null,
+          "commit": "470e21f8d97215f70166991fe6a0607915516b3a"
+        }
+      ],
+      "evidence": "repos/132.json"
+    },
+    {
+      "repository": "ai-tools-mtl/Aurify",
+      "commit": "429a0a69768131cbf12b1db19928fcd9cdc0b085",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@mtl-academic/dsh-patent",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.6-alpha.7",
+          "range": null,
+          "path": "packages/bundle-patent",
+          "commit": "429a0a69768131cbf12b1db19928fcd9cdc0b085"
+        },
+        {
+          "name": "@mtl-academic/dsh-patent",
+          "target": "@mtl-academic/dsh-patent",
+          "origin": "npm",
+          "version": "0.1.6-alpha.7",
+          "range": "^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/133.json"
+    },
+    {
+      "repository": "aiworkskills/dsh-wechat-article",
+      "commit": "56e48fc6d1caa3e6fa78ee21655b167691c863a2",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@aiworkskills/aws-wechat-article",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": "0.1.1-rc.2",
+          "path": null,
+          "commit": "56e48fc6d1caa3e6fa78ee21655b167691c863a2"
+        }
+      ],
+      "evidence": "repos/134.json"
+    },
+    {
+      "repository": "asukasec/dsh-message-preview",
+      "commit": "dfdb543e3982ed5d3f5612b3b0b2e2f6be0f0ed7",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-message-preview",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.1",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": "dfdb543e3982ed5d3f5612b3b0b2e2f6be0f0ed7"
+        },
+        {
+          "name": "dsh-message-preview",
+          "target": "https://github.com/asukasec/dsh-message-preview#main",
+          "origin": "git_target",
+          "version": "0.1.1",
+          "range": "^0.1.0-rc.6",
+          "path": null,
+          "commit": "dfdb543e3982ed5d3f5612b3b0b2e2f6be0f0ed7"
+        }
+      ],
+      "evidence": "repos/135.json"
+    },
+    {
+      "repository": "buhuikongpan/dsh-pluginmanager",
+      "commit": "de79f77748d0a60106650cfb37d9ce020663171d",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-pluginmanager",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.0",
+          "range": null,
+          "path": null,
+          "commit": "de79f77748d0a60106650cfb37d9ce020663171d"
+        }
+      ],
+      "evidence": "repos/136.json"
+    },
+    {
+      "repository": "ccch713/deepddw",
+      "commit": "c1335af1e4543afaa4e27aaef3f5c2e155f42f22",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@deepddw/ddw-teams-panel",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.5.1",
+          "range": null,
+          "path": "plugins/ddw-teams-panel",
+          "commit": "c1335af1e4543afaa4e27aaef3f5c2e155f42f22"
+        }
+      ],
+      "evidence": "repos/137.json"
+    },
+    {
+      "repository": "cdxiaodong/dsh-island",
+      "commit": "62699999e0ccc46b191d5c46b5f0679a463ac097",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-island",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.6.12",
+          "range": null,
+          "path": null,
+          "commit": "62699999e0ccc46b191d5c46b5f0679a463ac097"
+        }
+      ],
+      "evidence": "repos/138.json"
+    },
+    {
+      "repository": "chengzhi43/dsh-file",
+      "commit": "4ace98226b5bf25075beedbdd7f62bcce51f90cd",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@rose43/dsh-file",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.1",
+          "range": null,
+          "path": null,
+          "commit": "4ace98226b5bf25075beedbdd7f62bcce51f90cd"
+        },
+        {
+          "name": "@rose43/dsh-file",
+          "target": "@rose43/dsh-file",
+          "origin": "npm",
+          "version": "0.2.1",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/139.json"
+    },
+    {
+      "repository": "codeAnqiang-ma/dsh-superpowers",
+      "commit": "9511c7b961faafb35f31e6b0e297524bf377aeaf",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-superpowers",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "9511c7b961faafb35f31e6b0e297524bf377aeaf"
+        },
+        {
+          "name": "dsh-superpowers",
+          "target": "dsh-superpowers",
+          "origin": "npm",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-superpowers",
+          "target": "https://github.com/codeAnqiang-ma/dsh-superpowers#master",
+          "origin": "git_target",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "9511c7b961faafb35f31e6b0e297524bf377aeaf"
+        }
+      ],
+      "evidence": "repos/140.json"
+    },
+    {
+      "repository": "cogine-ai/dsh-claude-tui",
+      "commit": "ea920c6225ce22ffb3917df6fac7f39c21a69f5e",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-claude-tui",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.9",
+          "range": ">=0.2.1-rc.2 <0.2.2",
+          "path": null,
+          "commit": "ea920c6225ce22ffb3917df6fac7f39c21a69f5e"
+        }
+      ],
+      "evidence": "repos/141.json"
+    },
+    {
+      "repository": "cookiesheep/whale-on-desk",
+      "commit": "d50a2e45eddcb6cd1483820f9c4c1e8991913581",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "whale-on-desk",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "3.0.0",
+          "range": null,
+          "path": null,
+          "commit": "d50a2e45eddcb6cd1483820f9c4c1e8991913581"
+        },
+        {
+          "name": "whale-on-desk",
+          "target": "whale-on-desk",
+          "origin": "npm",
+          "version": "3.0.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/142.json"
+    },
+    {
+      "repository": "corrinehu/dsh-chat-imagine",
+      "commit": "2b54498963382690703692c3397c3f11723674d5",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-chat-imagine",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.1",
+          "range": "^0.1.0-rc.6 || ^0.1.1-rc.2",
+          "path": null,
+          "commit": "2b54498963382690703692c3397c3f11723674d5"
+        },
+        {
+          "name": "dsh-chat-imagine",
+          "target": "dsh-chat-imagine",
+          "origin": "npm",
+          "version": "0.4.1",
+          "range": "^0.1.0-rc.6 || ^0.1.1-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/143.json"
+    },
+    {
+      "repository": "culture-flask/dsh-aemeath-pet",
+      "commit": "15e9c830b993e2ca6e4ba1b92b41109ce0c4ab31",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-aemeath-pet",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "15e9c830b993e2ca6e4ba1b92b41109ce0c4ab31"
+        }
+      ],
+      "evidence": "repos/144.json"
+    },
+    {
+      "repository": "dsh-plugin-lab/dsh-workbuddy-bridge",
+      "commit": "c8021e1bac0e0703f6c6f8d58935be0405cc637e",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-workbuddy-bridge",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.0",
+          "range": "^0.1.7-rc.1 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": "c8021e1bac0e0703f6c6f8d58935be0405cc637e"
+        },
+        {
+          "name": "dsh-workbuddy-bridge",
+          "target": "dsh-workbuddy-bridge",
+          "origin": "npm",
+          "version": "0.4.0",
+          "range": ">=0.1.7-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/145.json"
+    },
+    {
+      "repository": "dushaobindoudou/dsh-acp",
+      "commit": "44511216c30df99c5ab573edffca3a676f1cad24",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-acp-server",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.14.2",
+          "range": null,
+          "path": null,
+          "commit": "44511216c30df99c5ab573edffca3a676f1cad24"
+        },
+        {
+          "name": "dsh-acp-server",
+          "target": "dsh-acp-server",
+          "origin": "npm",
+          "version": "0.14.2",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/146.json"
+    },
+    {
+      "repository": "elangan1997-cmyk/canvas-workbench",
+      "commit": "90fcba6524f1c63222b9cb6b5893e234d90059a8",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@local/canvas-workbench",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.9.53",
+          "range": "0.1.0-rc.7 || >=0.1.0 <0.2.0 || >=0.1.7-rc.1 <0.2.0 || >=0.2.0-rc.1 <0.3.0 || >=0.2.1-rc.1 <0.3.0",
+          "path": "canvas-workbench",
+          "commit": "90fcba6524f1c63222b9cb6b5893e234d90059a8"
+        },
+        {
+          "name": "dsh-codex",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.0-dsh2.0.1",
+          "range": "^0.1.2-alpha.1",
+          "path": "dsh-codex",
+          "commit": "90fcba6524f1c63222b9cb6b5893e234d90059a8"
+        },
+        {
+          "name": "canvas-workbench",
+          "target": "canvas-workbench",
+          "origin": "npm",
+          "version": "1.9.53",
+          "range": "0.1.0-rc.7 || >=0.1.0 <0.2.0 || >=0.1.7-rc.1 <0.2.0 || >=0.2.0-rc.1 <0.3.0 || >=0.2.1-rc.1 <0.3.0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/147.json"
+    },
+    {
+      "repository": "everclear077/dsh-progressive-tools",
+      "commit": "f929e86fb442bf289d56e268562b31d8fb8a390b",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@everclear077/dsh-progressive-tools",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.7.0",
+          "range": "0.2.0-rc.1",
+          "path": null,
+          "commit": "f929e86fb442bf289d56e268562b31d8fb8a390b"
+        }
+      ],
+      "evidence": "repos/148.json"
+    },
+    {
+      "repository": "isheng-eqi/dsh-hermes-memory",
+      "commit": "f8fce2b15b7a933be3644288344e97a9ff47a841",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-hermes-memory",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.1.10",
+          "range": ">=0.1.0-rc.6 <0.2.0",
+          "path": null,
+          "commit": "f8fce2b15b7a933be3644288344e97a9ff47a841"
+        },
+        {
+          "name": "dsh-hermes-memory",
+          "target": "dsh-hermes-memory",
+          "origin": "npm",
+          "version": "1.1.10",
+          "range": ">=0.1.0-rc.6 <0.2.0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/149.json"
+    },
+    {
+      "repository": "iyllyt/dsh-btw",
+      "commit": "dd2923dca9304ea08f9f33bc5578533d61ec2d42",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-btw",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.0",
+          "range": "0.2.1-rc.2",
+          "path": null,
+          "commit": "dd2923dca9304ea08f9f33bc5578533d61ec2d42"
+        }
+      ],
+      "evidence": "repos/150.json"
+    },
+    {
+      "repository": "jelly-000/dsh-balance-monitor",
+      "commit": "0a2f4949e5439643ce8dcd11de0587a6b14052ef",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-balance-monitor",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.1",
+          "range": null,
+          "path": null,
+          "commit": "0a2f4949e5439643ce8dcd11de0587a6b14052ef"
+        }
+      ],
+      "evidence": "repos/151.json"
+    },
+    {
+      "repository": "kriskite/dsh-network-proxy",
+      "commit": "b191f365db02e85e82df207e5b64f27edb9fc628",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-network-proxy",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.1",
+          "range": ">=0.1.0-rc.7",
+          "path": null,
+          "commit": "b191f365db02e85e82df207e5b64f27edb9fc628"
+        }
+      ],
+      "evidence": "repos/152.json"
+    },
+    {
+      "repository": "kvmem/dsh-super-advisor",
+      "commit": "dc47128a7401550567eb25e5f6eea2636e0c2c24",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-super-advisor",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.11",
+          "range": "0.1.2-alpha.4 || 0.1.2-alpha.5 || 0.1.2-rc.1 || 0.1.3-alpha.2 || 0.1.5-alpha.1",
+          "path": null,
+          "commit": "dc47128a7401550567eb25e5f6eea2636e0c2c24"
+        }
+      ],
+      "evidence": "repos/153.json"
+    },
+    {
+      "repository": "lhh010/dsh-paste-input",
+      "commit": "21047c2709ed9440e7b35b7e095abaa710413d2c",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@dsh-community/dsh-paste-input",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.14",
+          "range": null,
+          "path": null,
+          "commit": "21047c2709ed9440e7b35b7e095abaa710413d2c"
+        }
+      ],
+      "evidence": "repos/154.json"
+    },
+    {
+      "repository": "liang-today/dsh-liangxiang",
+      "commit": "9e45c72512ed4a648096d366405bceb835ba2e38",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-liangxiang",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.1.6",
+          "range": null,
+          "path": null,
+          "commit": "9e45c72512ed4a648096d366405bceb835ba2e38"
+        },
+        {
+          "name": "dsh-liangxiang",
+          "target": "dsh-liangxiang",
+          "origin": "npm",
+          "version": "1.1.6",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/155.json"
+    },
+    {
+      "repository": "lilwhich/dsh-plugin-gather",
+      "commit": "93b0b0d2a9baa5cd5d2a438721de10a6154410c1",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "my_better-dsh",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.9.6",
+          "range": null,
+          "path": null,
+          "commit": "93b0b0d2a9baa5cd5d2a438721de10a6154410c1"
+        }
+      ],
+      "evidence": "repos/156.json"
+    },
+    {
+      "repository": "lutrodev/dsh-roleplay",
+      "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 23,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-roleplay-rp-asset-tools",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-asset-tools",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-character-card",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-character-card",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-compact-access-mode",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": null,
+          "path": "plugins/rp-compact-access-mode",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-compat-mvu",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": null,
+          "path": "plugins/rp-compat-mvu",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-conversation-summary",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-conversation-summary",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-core",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-core",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-dialogue-highlight",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-dialogue-highlight",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-feature-manager",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-feature-manager",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-library",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-library",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-lore-book",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-lore-book",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-macro",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": null,
+          "path": "plugins/rp-macro",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-message-actions",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-message-actions",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-message-avatar",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-message-avatar",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-persona",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-persona",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-preset",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-preset",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-quick-replies",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-quick-replies",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-reply-options",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-reply-options",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-session",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-session",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-state",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-state",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-state-display",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-state-display",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-subagent-manager",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-subagent-manager",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "dsh-roleplay-rp-writing-style",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": "plugins/rp-writing-style",
+          "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1"
+        },
+        {
+          "name": "@lutrodev/dsh-roleplay",
+          "target": "@lutrodev/dsh-roleplay",
+          "origin": "npm",
+          "version": "0.1.8",
+          "range": "0.1.2-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/157.json"
+    },
+    {
+      "repository": "ly6170/dsh-messager",
+      "commit": "50e004ff33edab46025ba1a3fe3bfb47d8427d28",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-messager",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.6",
+          "range": "^0.2.0-rc.1",
+          "path": null,
+          "commit": "50e004ff33edab46025ba1a3fe3bfb47d8427d28"
+        },
+        {
+          "name": "dsh-messager",
+          "target": "dsh-messager",
+          "origin": "npm",
+          "version": "0.3.6",
+          "range": "^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/158.json"
+    },
+    {
+      "repository": "omdsh-dev/dsh-tool-calculator",
+      "commit": "b2007a13f06bcf75bf07b9d277ee8d434a316490",
+      "outcome": "retry_required",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "note": "README 中 https://github.com/omdsh-dev/... 为占位链接且不可访问；仓库候选声明 >=0.0.1-rc.1 <0.2.0，不含 0.2.1-alpha.5。",
+      "candidates": [
+        {
+          "name": "@deepseek-ai/dsh-tool-calculator",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.0.1",
+          "range": ">=0.0.1-rc.1 <0.2.0",
+          "path": null,
+          "commit": "b2007a13f06bcf75bf07b9d277ee8d434a316490"
+        }
+      ],
+      "evidence": "repos/159.json"
+    },
+    {
+      "repository": "platonai/dsh-browser4",
+      "commit": "fb1c490d0536c33123026876f54b5ae3482aea89",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-browser4",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.0.1",
+          "range": null,
+          "path": null,
+          "commit": "fb1c490d0536c33123026876f54b5ae3482aea89"
+        },
+        {
+          "name": "dsh-browser4",
+          "target": "dsh-browser4",
+          "origin": "npm",
+          "version": "0.0.1",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/160.json"
+    },
+    {
+      "repository": "qimidandapigu/dsh-xiaotangyuan-game",
+      "commit": "a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@qimidandapigu/dsh-xiaotangyuan-game",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.7.6",
+          "range": "^0.1.0-rc.6",
+          "path": "apps/harness-plugin",
+          "commit": "a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba"
+        },
+        {
+          "name": "@qimidandapigu/oni-adapter",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.4",
+          "range": "^0.1.0-rc.6",
+          "path": "games/oxygen-not-included/adapter",
+          "commit": "a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba"
+        }
+      ],
+      "evidence": "repos/161.json"
+    },
+    {
+      "repository": "rayafriandion/dsh-oc-tui",
+      "commit": "75f224dd6d46558078521688b1bf0725cfdc02ba",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-oc-tui",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.5",
+          "range": null,
+          "path": null,
+          "commit": "75f224dd6d46558078521688b1bf0725cfdc02ba"
+        },
+        {
+          "name": "dsh-oc-tui",
+          "target": "dsh-oc-tui",
+          "origin": "npm",
+          "version": "0.1.5",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-oc-tui",
+          "target": "dsh-oc-tui@next",
+          "origin": "npm",
+          "version": "0.2.0-pre.9",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/162.json"
+    },
+    {
+      "repository": "rogerdigital/dsh-searxng",
+      "commit": "9b8f54496294db471f3f657d59daa9adb6185098",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-searxng",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.0",
+          "range": ">=0.0.1-rc.3 <0.2.0 >=0.1.0-rc.6",
+          "path": null,
+          "commit": "9b8f54496294db471f3f657d59daa9adb6185098"
+        },
+        {
+          "name": "dsh-searxng",
+          "target": "dsh-searxng",
+          "origin": "npm",
+          "version": "0.4.0",
+          "range": ">=0.1.0-rc.6 <0.2.0 >=0.0.1-rc.3",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/163.json"
+    },
+    {
+      "repository": "sheep-programmer/dsh-web-search-free",
+      "commit": "3e4495c1245a83471b6de80f72bc72b3a566137b",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@sheep233_/dsh-web-search-free",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.1",
+          "range": ">=0.1.1-rc <2",
+          "path": null,
+          "commit": "3e4495c1245a83471b6de80f72bc72b3a566137b"
+        },
+        {
+          "name": "@sheep233_/dsh-web-search-free",
+          "target": "@sheep233_/dsh-web-search-free",
+          "origin": "npm",
+          "version": "0.3.1",
+          "range": ">=0.1.1-rc <2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/164.json"
+    },
+    {
+      "repository": "siegfly/dsh-deepseek-vision",
+      "commit": "e44c4c90c96b2c2e85828e96db8c7e9b222b2f67",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-deepseek-vision",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.9",
+          "range": null,
+          "path": null,
+          "commit": "e44c4c90c96b2c2e85828e96db8c7e9b222b2f67"
+        },
+        {
+          "name": "dsh-deepseek-vision",
+          "target": "dsh-deepseek-vision",
+          "origin": "npm",
+          "version": "0.1.7",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-deepseek-vision",
+          "target": "dsh-deepseek-vision@0.1.7",
+          "origin": "npm",
+          "version": "0.1.7",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/165.json"
+    },
+    {
+      "repository": "sorsama/deepseek-harness-relay",
+      "commit": "10c2758e77192413d9450a4d641daafb2a675286",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-relay",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.1",
+          "range": ">=0.1.0-rc.7",
+          "path": null,
+          "commit": "10c2758e77192413d9450a4d641daafb2a675286"
+        },
+        {
+          "name": "dsh-relay",
+          "target": "dsh-relay",
+          "origin": "npm",
+          "version": "0.2.1",
+          "range": ">=0.1.0-rc.7",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/166.json"
+    },
+    {
+      "repository": "spacexun2/dsh-worktime-board",
+      "commit": "85c5cd58704f4c6a61a02050a738ef9a850af0f7",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-worktime-board",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.9",
+          "range": ">=0.0.1-rc <2",
+          "path": null,
+          "commit": "85c5cd58704f4c6a61a02050a738ef9a850af0f7"
+        },
+        {
+          "name": "dsh-worktime-board",
+          "target": "dsh-worktime-board",
+          "origin": "npm",
+          "version": "0.1.9",
+          "range": ">=0.0.1-rc <2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/167.json"
+    },
+    {
+      "repository": "stuarthu/dsh-chrome",
+      "commit": "1c15b3caa4d4c2ceac74a2bf049a590186a3f88f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-chrome",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.3",
+          "range": null,
+          "path": null,
+          "commit": "1c15b3caa4d4c2ceac74a2bf049a590186a3f88f"
+        },
+        {
+          "name": "dsh-chrome",
+          "target": "dsh-chrome",
+          "origin": "npm",
+          "version": "0.1.3",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/168.json"
+    },
+    {
+      "repository": "tma1-ai/dsh-otel",
+      "commit": "87fa8d65e442db48ee75798d75fabe60f70bdaab",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@tma1-ai/dsh-plugin-greptimedb",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0-beta.5",
+          "range": null,
+          "path": null,
+          "commit": "87fa8d65e442db48ee75798d75fabe60f70bdaab"
+        },
+        {
+          "name": "@tma1-ai/dsh-plugin-greptimedb",
+          "target": "@tma1-ai/dsh-plugin-greptimedb",
+          "origin": "npm",
+          "version": "0.1.0-beta.4",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "@tma1-ai/dsh-plugin-greptimedb",
+          "target": "@tma1-ai/dsh-plugin-greptimedb@beta",
+          "origin": "npm",
+          "version": "0.1.0-beta.5",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/169.json"
+    },
+    {
+      "repository": "tylina/dsh-tylina",
+      "commit": "5ea98ee4c6315cbc241395ba18e7f97e11e3a972",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 4,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-tylina-native",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.15.3-alpha.1",
+          "range": null,
+          "path": "bundle-native",
+          "commit": "5ea98ee4c6315cbc241395ba18e7f97e11e3a972"
+        },
+        {
+          "name": "dsh-tylina",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.15.3-alpha.1",
+          "range": null,
+          "path": "bundle-wasm",
+          "commit": "5ea98ee4c6315cbc241395ba18e7f97e11e3a972"
+        },
+        {
+          "name": "dsh-tylina",
+          "target": "dsh-tylina",
+          "origin": "npm",
+          "version": "0.15.2",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-tylina-native",
+          "target": "dsh-tylina-native",
+          "origin": "npm",
+          "version": "0.15.2",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/170.json"
+    },
+    {
+      "repository": "uson1x/dsh-plugin-llm-verifier",
+      "commit": "5bd2a6704e679f2eb88a2146d2c6d459edc5d1e5",
+      "outcome": "no_eligible_bundle_found",
+      "eligibleRows": 0,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "no_eligible_bundle",
+      "candidates": [],
+      "evidence": "repos/171.json"
+    },
+    {
+      "repository": "wanderer-yk/dsh-xueqiu",
+      "commit": "3b468a49d10acc8cdc2ce51009c09ae97d1c1a46",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-xueqiu",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.22.15",
+          "range": null,
+          "path": null,
+          "commit": "3b468a49d10acc8cdc2ce51009c09ae97d1c1a46"
+        },
+        {
+          "name": "dsh-xueqiu",
+          "target": "dsh-xueqiu",
+          "origin": "npm",
+          "version": "1.22.15",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/172.json"
+    },
+    {
+      "repository": "warmwine/dsh-ui-font",
+      "commit": "5d198b3384dd126c01bf6cfb7cc707833255de43",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-ui-font",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.9.6",
+          "range": null,
+          "path": null,
+          "commit": "5d198b3384dd126c01bf6cfb7cc707833255de43"
+        }
+      ],
+      "evidence": "repos/173.json"
+    },
+    {
+      "repository": "weibaohui/dsh-tasks",
+      "commit": "25a3860903b991bfc36bd7430bcfb4565c553451",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@weibaohui/dsh-tasks",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.5.9",
+          "range": ">=0.1.7-rc.2",
+          "path": null,
+          "commit": "25a3860903b991bfc36bd7430bcfb4565c553451"
+        },
+        {
+          "name": "@weibaohui/dsh-tasks",
+          "target": "@weibaohui/dsh-tasks",
+          "origin": "npm",
+          "version": "0.5.9",
+          "range": ">=0.1.7-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/174.json"
+    },
+    {
+      "repository": "weibaohui/hermes-loop",
+      "commit": "97d39677bebfb25d2bda9936375b05ffe7fde57a",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@weibaohui/hermes-loop",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.0",
+          "range": ">=0.1.7-rc.2",
+          "path": null,
+          "commit": "97d39677bebfb25d2bda9936375b05ffe7fde57a"
+        },
+        {
+          "name": "@weibaohui/hermes-loop",
+          "target": "@weibaohui/hermes-loop",
+          "origin": "npm",
+          "version": "0.3.0",
+          "range": ">=0.1.7-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/175.json"
+    },
+    {
+      "repository": "wingoo/codex-plugin-dsh",
+      "commit": "79fe7503390d641680bad8efade52782a3c31ced",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "codex-plugin-dsh",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "79fe7503390d641680bad8efade52782a3c31ced"
+        }
+      ],
+      "evidence": "repos/176.json"
+    },
+    {
+      "repository": "wssfk12138/dsh-wechat-notify",
+      "commit": "f7cf5f3859e7e1e1000cc656239cfa822f3a7448",
+      "outcome": "no_eligible_bundle_found",
+      "eligibleRows": 0,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "no_eligible_bundle",
+      "candidates": [],
+      "evidence": "repos/177.json"
+    },
+    {
+      "repository": "wsxwj123/dsh-plugins",
+      "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 10,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-appearance-gallery",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.2",
+          "range": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+          "path": "packages/dsh-appearance-gallery",
+          "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc"
+        },
+        {
+          "name": "dsh-composer-tools",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.1",
+          "range": null,
+          "path": "packages/dsh-composer-tools",
+          "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc"
+        },
+        {
+          "name": "dsh-pet-bridge",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": "packages/dsh-pet-bridge",
+          "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc"
+        },
+        {
+          "name": "@wsxwj123/dsh-session-manager",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.2",
+          "range": null,
+          "path": "packages/dsh-session-manager",
+          "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc"
+        },
+        {
+          "name": "dsh-turn-scrubber",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.0",
+          "range": null,
+          "path": "packages/dsh-turn-scrubber",
+          "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc"
+        },
+        {
+          "name": "dsh-appearance-gallery",
+          "target": "dsh-appearance-gallery",
+          "origin": "npm",
+          "version": "1.0.2",
+          "range": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-turn-scrubber",
+          "target": "dsh-turn-scrubber",
+          "origin": "npm",
+          "version": "0.2.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-composer-tools",
+          "target": "dsh-composer-tools",
+          "origin": "npm",
+          "version": "0.1.1",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "@wsxwj123/dsh-session-manager",
+          "target": "@wsxwj123/dsh-session-manager",
+          "origin": "npm",
+          "version": "0.1.2",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-pet-bridge",
+          "target": "dsh-pet-bridge",
+          "origin": "npm",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/178.json"
+    },
+    {
+      "repository": "xiaoso456/dsh-workflow-lite",
+      "commit": "060fd6c8f55e391ebf8cb35d45fab472070e08e3",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@xiaoso/dsh-workflow-lite",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.5.0",
+          "range": ">=0.2.0-0 <0.2.1-0 || >=0.2.1-0 <0.3.0-0",
+          "path": null,
+          "commit": "060fd6c8f55e391ebf8cb35d45fab472070e08e3"
+        },
+        {
+          "name": "@xiaoso/dsh-workflow-lite",
+          "target": "@xiaoso/dsh-workflow-lite",
+          "origin": "npm",
+          "version": "0.5.0",
+          "range": ">=0.2.0-0 <0.2.1-0 || >=0.2.1-0 <0.3.0-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/179.json"
+    },
+    {
+      "repository": "xmanrui/dsh-feishu",
+      "commit": "9510b7758af5f393ca5cb0fabacc780a6b7b1d0b",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@xmanrui/dsh-feishu",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": null,
+          "path": null,
+          "commit": "9510b7758af5f393ca5cb0fabacc780a6b7b1d0b"
+        }
+      ],
+      "evidence": "repos/180.json"
+    },
+    {
+      "repository": "yefeng7531/dsh-whale-maid-mascot",
+      "commit": "100675a4d93c46be791cd4707b57d616c567689d",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-whale-maid-mascot",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.0.0",
+          "range": null,
+          "path": null,
+          "commit": "100675a4d93c46be791cd4707b57d616c567689d"
+        }
+      ],
+      "evidence": "repos/181.json"
+    },
+    {
+      "repository": "yh4922/dsh-workspace",
+      "commit": "3e2876d4d8d1b787dac7815400ec4a8992a3803d",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@yh4922/dsh-workspace",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.12.3",
+          "range": "^0.1.5-rc.2 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": "3e2876d4d8d1b787dac7815400ec4a8992a3803d"
+        },
+        {
+          "name": "@yh4922/dsh-workspace",
+          "target": "@yh4922/dsh-workspace",
+          "origin": "npm",
+          "version": "0.12.3",
+          "range": "^0.1.5-rc.2 || ^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/182.json"
+    },
+    {
+      "repository": "yhlooo/dsh-bridges",
+      "commit": "977a1fc8b7fe0d37e304c81526774be1d5a64b7f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-bridges",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.0",
+          "range": "^0.1.5-rc.1",
+          "path": null,
+          "commit": "977a1fc8b7fe0d37e304c81526774be1d5a64b7f"
+        },
+        {
+          "name": "dsh-bridges",
+          "target": "dsh-bridges",
+          "origin": "npm",
+          "version": "0.3.0",
+          "range": "^0.1.5-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/183.json"
+    },
+    {
+      "repository": "yindf/taskfold",
+      "commit": "4c7985bd4960edfc0d98122efbb34a16c8921836",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 4,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-taskfold",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.38.2",
+          "range": "^0.2.0-rc.1",
+          "path": null,
+          "commit": "4c7985bd4960edfc0d98122efbb34a16c8921836"
+        },
+        {
+          "name": "dsh-taskfold",
+          "target": "https://github.com/yindf/taskfold#master",
+          "origin": "git_target",
+          "version": "0.38.2",
+          "range": "^0.2.0-rc.1",
+          "path": null,
+          "commit": "4c7985bd4960edfc0d98122efbb34a16c8921836"
+        },
+        {
+          "name": "dsh-taskfold",
+          "target": "https://github.com/yindf/taskfold#alpha",
+          "origin": "git_target",
+          "version": "0.36.1",
+          "range": "^0.1.7-alpha.2",
+          "path": null,
+          "commit": "ee871a63c7e98fedcc2492acee4dfb4a721504bf"
+        },
+        {
+          "name": "dsh-taskfold",
+          "target": "dsh-taskfold",
+          "origin": "npm",
+          "version": "0.38.2",
+          "range": "^0.2.0-rc.1",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/184.json"
+    },
+    {
+      "repository": "yumiao-dev/dsh-chat-thinking-editor",
+      "commit": "6fab4a6562a12ce67eb1842fc0da1201c33d802b",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-chat-thinking-editor",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.2",
+          "range": "^0.1.1-rc.2",
+          "path": null,
+          "commit": "6fab4a6562a12ce67eb1842fc0da1201c33d802b"
+        },
+        {
+          "name": "dsh-chat-thinking-editor",
+          "target": "dsh-chat-thinking-editor",
+          "origin": "npm",
+          "version": "0.1.2",
+          "range": "^0.1.1-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/185.json"
+    },
+    {
+      "repository": "ziduup/dsh-programming-mode",
+      "commit": "46b92e4207830b09ece197e21918a18c83df3137",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@ziduup/dsh-programming-mode",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.0",
+          "range": ">=0.1.3-alpha.2",
+          "path": null,
+          "commit": "46b92e4207830b09ece197e21918a18c83df3137"
+        },
+        {
+          "name": "@ziduup/dsh-programming-mode",
+          "target": "@ziduup/dsh-programming-mode",
+          "origin": "npm",
+          "version": "0.4.0",
+          "range": ">=0.1.3-alpha.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/186.json"
+    },
+    {
+      "repository": "zmh2000829/DSH-agent-bridge",
+      "commit": "e7111741a67269503d1f71c379902354687da7f8",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "dsh-grok-acp",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.3",
+          "range": "0.1.1-rc.2",
+          "path": null,
+          "commit": "e7111741a67269503d1f71c379902354687da7f8"
+        },
+        {
+          "name": "dsh-grok-acp",
+          "target": "dsh-grok-acp@latest",
+          "origin": "npm",
+          "version": "0.3.4",
+          "range": "0.1.5-rc.3",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/187.json"
+    },
+    {
+      "repository": "zxmqq1234/dsh-auto-retry",
+      "commit": "3eaade311307e5e7e3c6ba31ad29d06671cdac3f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 1,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-auto-retry",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.1",
+          "range": "^0.1.7-alpha.1 || ^0.2.0-rc.1 || ^0.2.0-rc.2 || ^0.2.1-alpha.3",
+          "path": null,
+          "commit": "3eaade311307e5e7e3c6ba31ad29d06671cdac3f"
+        }
+      ],
+      "evidence": "repos/188.json"
+    },
+    {
+      "repository": "0QwQ0/dsh-ui-auth",
+      "commit": "6c5e87b44be4e973b092910968001916bb97d22e",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 3,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-ui-auth",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.7.1",
+          "range": null,
+          "path": null,
+          "commit": "6c5e87b44be4e973b092910968001916bb97d22e"
+        },
+        {
+          "name": "dsh-ui-auth",
+          "target": "dsh-ui-auth",
+          "origin": "npm",
+          "version": "0.7.1",
+          "range": null,
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "dsh-ui-auth",
+          "target": "https://github.com/0QwQ0/dsh-ui-auth#v0.7.0",
+          "origin": "git_target",
+          "version": "0.7.0",
+          "range": null,
+          "path": null,
+          "commit": "0131bae6b9c27b7fbe650bf15716eb7ca08a1cda"
+        }
+      ],
+      "evidence": "repos/189.json"
+    },
+    {
+      "repository": "0x7A7A6572/dsh-forge-studio",
+      "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 8,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@zzerx/dsh-plugin-daily-log",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.3",
+          "range": ">=0.1.7-alpha.0 <0.3.0-0",
+          "path": "packages/plugin-daily-log",
+          "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e"
+        },
+        {
+          "name": "@zzerx/dsh-plugin-memory",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.3",
+          "range": ">=0.1.7-alpha.0 <0.3.0-0",
+          "path": "packages/plugin-memory",
+          "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e"
+        },
+        {
+          "name": "@zzerx/dsh-plugin-notes",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.4.3",
+          "range": ">=0.1.7-alpha.0 <0.3.0-0",
+          "path": "packages/plugin-notes",
+          "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e"
+        },
+        {
+          "name": "@zzerx/dsh-plugin-usage-billing",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "1.3.0",
+          "range": ">=0.1.7-alpha.0 <0.3.0-0",
+          "path": "packages/plugin-usage-billing",
+          "commit": "acb136c0dbbf8e984bdffea9de48b6ed73d0103e"
+        },
+        {
+          "name": "@zzerx/dsh-plugin-notes",
+          "target": "@zzerx/dsh-plugin-notes",
+          "origin": "npm",
+          "version": "0.4.3",
+          "range": ">=0.1.7-alpha.0 <0.3.0-0",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "@zzerx/dsh-plugin-daily-log",
+          "target": "@zzerx/dsh-plugin-daily-log",
+          "origin": "npm",
+          "version": "0.4.3",
+          "range": ">=0.1.7-alpha.0 <0.3.0-0",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "@zzerx/dsh-plugin-memory",
+          "target": "@zzerx/dsh-plugin-memory",
+          "origin": "npm",
+          "version": "0.4.3",
+          "range": ">=0.1.7-alpha.0 <0.3.0-0",
+          "path": null,
+          "commit": null
+        },
+        {
+          "name": "@zzerx/dsh-plugin-usage-billing",
+          "target": "@zzerx/dsh-plugin-usage-billing",
+          "origin": "npm",
+          "version": "1.3.0",
+          "range": ">=0.1.7-alpha.0 <0.3.0-0",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/190.json"
+    },
+    {
+      "repository": "1264459640/dsh-trellis",
+      "commit": "7d2e5b69d2e744de511ac01632cf0865dfa79a85",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "@banana-peeljj12/dsh-trellis",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.7",
+          "range": "^0.2.0-rc.2",
+          "path": null,
+          "commit": "7d2e5b69d2e744de511ac01632cf0865dfa79a85"
+        },
+        {
+          "name": "@banana-peeljj12/dsh-trellis",
+          "target": "@banana-peeljj12/dsh-trellis@latest",
+          "origin": "npm",
+          "version": "0.3.7",
+          "range": "^0.2.0-rc.2",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/191.json"
+    },
+    {
+      "repository": "2nd1st/dsh-plugin-open-app",
+      "commit": "01706d45221a1c98ac33be9c900a9dc3eec4f9af",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@2nd1st/dsh-plugin-open-app",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.2",
+          "range": null,
+          "path": null,
+          "commit": "01706d45221a1c98ac33be9c900a9dc3eec4f9af"
+        },
+        {
+          "name": "@2nd1st/dsh-plugin-open-app",
+          "target": "@2nd1st/dsh-plugin-open-app",
+          "origin": "npm",
+          "version": "0.1.2",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/192.json"
+    },
+    {
+      "repository": "3274375092/dsh-voice",
+      "commit": "de3911b18e4ecc9ec1bad7709c66c45b62c57f46",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@nn12138/dsh-voice",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.6",
+          "range": null,
+          "path": null,
+          "commit": "de3911b18e4ecc9ec1bad7709c66c45b62c57f46"
+        },
+        {
+          "name": "@nn12138/dsh-voice",
+          "target": "@nn12138/dsh-voice",
+          "origin": "npm",
+          "version": "0.2.6",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/193.json"
+    },
+    {
+      "repository": "42ch-dev/dsh-rust-sdk",
+      "commit": "5ead7b973961290bf2edd2d65ab6f6f410b8419c",
+      "outcome": "no_eligible_bundle_found",
+      "eligibleRows": 0,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "no_eligible_bundle",
+      "candidates": [],
+      "evidence": "repos/194.json"
+    },
+    {
+      "repository": "Aik358/dsh-literature",
+      "commit": "fc6650ef12747de08512d99c2f9c8388572b7724",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@a9i5k4/dsh-literature",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.3.6",
+          "range": null,
+          "path": null,
+          "commit": "fc6650ef12747de08512d99c2f9c8388572b7724"
+        },
+        {
+          "name": "@a9i5k4/dsh-literature",
+          "target": "@a9i5k4/dsh-literature",
+          "origin": "npm",
+          "version": "0.3.6",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/195.json"
+    },
+    {
+      "repository": "AlexPeng07/dsh-custom-plugin",
+      "commit": "901a665fd0ed6c50e9ed873bcc1b55cc6d16cb8f",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "incompatible_declared",
+      "candidates": [
+        {
+          "name": "@alexpeng/dsh-custom-plugin",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.8.0",
+          "range": ">=0.1.7-rc.2 <0.2.0-0 || >=0.2.0-rc.2 <0.2.0-rc.3 || >=0.2.1-rc.2 <0.2.1-rc.3",
+          "path": null,
+          "commit": "901a665fd0ed6c50e9ed873bcc1b55cc6d16cb8f"
+        },
+        {
+          "name": "@alexpeng/dsh-custom-plugin",
+          "target": "@alexpeng/dsh-custom-plugin",
+          "origin": "npm",
+          "version": "0.8.0",
+          "range": ">=0.1.7-rc.2 <0.2.0-0 || >=0.2.0-rc.2 <0.2.0-rc.3 || >=0.2.1-rc.2 <0.2.1-rc.3",
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/196.json"
+    },
+    {
+      "repository": "Alm-Allen/dsh-chat-ux",
+      "commit": "64bdd9e28b0b7870ee1f4fa3fe68dbba001baeca",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "@alm-allen/dsh-chat-ux",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.2.8",
+          "range": null,
+          "path": null,
+          "commit": "64bdd9e28b0b7870ee1f4fa3fe68dbba001baeca"
+        },
+        {
+          "name": "@alm-allen/dsh-chat-ux",
+          "target": "@alm-allen/dsh-chat-ux",
+          "origin": "npm",
+          "version": "0.2.8",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/197.json"
+    },
+    {
+      "repository": "CHplus0/dsh-learning-mode",
+      "commit": "960afb6bf0233f283870a6613cf1804d5717345e",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": false,
+      "unconstrained": true,
+      "decision": "unconstrained_pending",
+      "candidates": [
+        {
+          "name": "dsh-learning-mode",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.2",
+          "range": null,
+          "path": "plugin",
+          "commit": "960afb6bf0233f283870a6613cf1804d5717345e"
+        },
+        {
+          "name": "dsh-learning-mode",
+          "target": "dsh-learning-mode",
+          "origin": "npm",
+          "version": "0.1.1",
+          "range": null,
+          "path": null,
+          "commit": null
+        }
+      ],
+      "evidence": "repos/198.json"
+    },
+    {
+      "repository": "Caoran1314/apple-cn-checkout",
+      "commit": "994f55ab66f51ac502e0fc8907c875fb7cca6b22",
+      "outcome": "no_eligible_bundle_found",
+      "eligibleRows": 0,
+      "explicitCompatible": false,
+      "unconstrained": false,
+      "decision": "no_eligible_bundle",
+      "candidates": [],
+      "evidence": "repos/199.json"
+    },
+    {
+      "repository": "Carl-5535/dsh-wechat-gateway",
+      "commit": "93e9b79005cac482b4bfea87232b17fae1ffb7c0",
+      "outcome": "mapping_can_be_added",
+      "eligibleRows": 2,
+      "explicitCompatible": true,
+      "unconstrained": false,
+      "decision": "explicit_compatible",
+      "candidates": [
+        {
+          "name": "dsh-wechat-gateway",
+          "target": null,
+          "origin": "repository_discovery",
+          "version": "0.1.0",
+          "range": "^0.2.0-rc.1",
+          "path": null,
+          "commit": "93e9b79005cac482b4bfea87232b17fae1ffb7c0"
+        },
+        {
+          "name": "dsh-wechat-gateway",
+          "target": "https://github.com/Carl-5535/dsh-wechat-gateway#main",
+          "origin": "git_target",
+          "version": "0.1.0",
+          "range": "^0.2.0-rc.1",
+          "path": null,
+          "commit": "93e9b79005cac482b4bfea87232b17fae1ffb7c0"
+        }
+      ],
+      "evidence": "repos/200.json"
+    }
+  ]
+}

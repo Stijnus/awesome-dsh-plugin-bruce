@@ -1,0 +1,190 @@
+{
+  "full_name": "834063245-creator/LantaiAgent",
+  "originalPosition": 110,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:27.869Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7f95a10ee4cb3d42796c8863b24001f5077e371324e168d7f2190d50a2c288b4",
+      "url": "https://github.com/834063245-creator/LantaiAgent/blob/ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/plugins/hello/README.md",
+      "sha256": "50178cacc7d64b35113d6929e27bf8d0ce414b7ce42d628fb510a9e5ab029f07",
+      "url": "https://github.com/834063245-creator/LantaiAgent/blob/ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9/examples/plugins/hello/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/plugins/README.md",
+      "sha256": "dd06944909f2c06e26ce521032da8a7b673f679842cb5bc1e1dd46d011e7362e",
+      "url": "https://github.com/834063245-creator/LantaiAgent/blob/ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9/docs/plugins/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/composition/README.md",
+      "sha256": "2f2e91a84e7304549c8c8c1f927677f7c88202a48fbd6c6ea197a49fa56bae0a",
+      "url": "https://github.com/834063245-creator/LantaiAgent/blob/ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9/docs/composition/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-bundle/README.md",
+      "sha256": "51e181cc37fd094274088248312f3e99806b45072c2c78707d194edf026df8d1",
+      "url": "https://github.com/834063245-creator/LantaiAgent/blob/ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9/dsh-bundle/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@a834063245/hologram-dsh",
+          "command": "dsh plugin --profile web add @a834063245/hologram-dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/engine-plugins/README.md",
+      "sha256": "03ad8b216e19c92f8dc1ea344bd32557cfa35fe2b247e862c53943d9ed2a7970",
+      "url": "https://github.com/834063245-creator/LantaiAgent/blob/ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9/examples/engine-plugins/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/plans/README.md",
+      "sha256": "9a37bce164d52a6d5fa4e2a0c00709eb9b152aa3a73eb1c6c3d8ed9affbec081",
+      "url": "https://github.com/834063245-creator/LantaiAgent/blob/ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9/docs/plans/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/cookbook/README.md",
+      "sha256": "5318b55b1a9c542c8ff70d6398ffb9624179967c604bfd3d3f5aea0c97e96fdf",
+      "url": "https://github.com/834063245-creator/LantaiAgent/blob/ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9/docs/cookbook/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "a24121b446bbc4d2a8b5407dd45371377920932eccee641e105d628c46f8e9f3",
+      "url": "https://github.com/834063245-creator/LantaiAgent/blob/ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@a834063245/hologram-dsh",
+      "version": "1.0.7",
+      "path": "dsh-bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/834063245-creator/LantaiAgent",
+        "commit": "ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9",
+        "path": "dsh-bundle"
+      },
+      "manifestSha256": "ee21468cb8212f452ea54a72c1f3c8097bb0222ba7c3b27e9393edc0c69cc02c",
+      "manifestUrl": "https://github.com/834063245-creator/LantaiAgent/blob/ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9/dsh-bundle/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@a834063245/hologram-dsh",
+        "versions": [
+          {
+            "version": "1.0.7",
+            "publishTimestamp": 1792253799,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/834063245-creator/LantaiAgent",
+              "commit": "ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9",
+              "path": "dsh-bundle"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@a834063245/hologram-dsh",
+      "origin": "npm",
+      "name": "@a834063245/hologram-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@a834063245/hologram-dsh",
+        "title": "@a834063245/hologram-dsh",
+        "description": "HoloGram code-dependency graph engine, packaged as a DeepSeek Harness bundle plugin. Engine binary is fetched from GitHub Releases on install (Windows x64).",
+        "repository": {
+          "url": "https://github.com/834063245-creator/LantaiAgent",
+          "directory": "dsh-bundle"
+        },
+        "metadata": {
+          "keywords": [
+            "hologram",
+            "deepseek-harness",
+            "dsh",
+            "code-graph",
+            "mcp",
+            "dependency-graph"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.7",
+            "publishTimestamp": 1792019468,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "63f462f76e1d06dbe827af60fb05ec1a58481aab46198f74f5a6e6a092417d83",
+      "evidence": [
+        {
+          "name": "@a834063245/hologram-dsh",
+          "version": "1.0.7",
+          "tarball": "https://registry.npmjs.org/@a834063245/hologram-dsh/-/hologram-dsh-1.0.7.tgz",
+          "integrity": "sha512-9/P/Dz0oIwCbveMBJRWTDe0eQz+3M2QEG4A5wx2TxzWvFCm42EyYK/ILgIZdbLjU/CmuhRhjaUD1rGbJjtsubg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@a834063245/hologram-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/834063245-creator/LantaiAgent",
+    "commit": "ce3b4b01b7ff52c4a42a808f6c05d45aea40b0a9",
+    "releaseTags": 49,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:47.206Z"
+}

@@ -1,0 +1,134 @@
+{
+  "full_name": "ZK-Andy/dsh-continual-evolve",
+  "originalPosition": 172,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 172,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:09.252Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "02bf46f60dee3f2edca0e4cbef29e9be9a4b03a375b2cb9d4c3c4a5c6ba78896",
+      "url": "https://github.com/ZK-Andy/dsh-continual-evolve/blob/18c35764454c324231044536f4b37ed017018959/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-continual-evolve",
+          "command": "dsh plugin add dsh-continual-evolve",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e3b7c5201a0ae8451409657c6e4b8b653ff052b0085ddc5f6585bad333e8f908",
+      "url": "https://github.com/ZK-Andy/dsh-continual-evolve/blob/18c35764454c324231044536f4b37ed017018959/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-continual-evolve",
+          "command": "dsh plugin add dsh-continual-evolve",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-continual-evolve",
+      "version": "0.18.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZK-Andy/dsh-continual-evolve",
+        "commit": "18c35764454c324231044536f4b37ed017018959"
+      },
+      "manifestSha256": "f0a6691844eb20dede5ba0f8d98c3b75dfc048b7cc21269ee663ee580e1b5755",
+      "manifestUrl": "https://github.com/ZK-Andy/dsh-continual-evolve/blob/18c35764454c324231044536f4b37ed017018959/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-continual-evolve",
+        "versions": [
+          {
+            "version": "0.18.2",
+            "publishTimestamp": 1792259888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ZK-Andy/dsh-continual-evolve",
+              "commit": "18c35764454c324231044536f4b37ed017018959"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-continual-evolve",
+      "origin": "npm",
+      "name": "dsh-continual-evolve",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-continual-evolve",
+        "title": {
+          "en": "Workspace Memory",
+          "zh": "工作区记忆"
+        },
+        "description": {
+          "en": "Central SQLite memory and skill store partitioned by workspace: session-start index injection, gated explicit writes and proposal-based extraction, skills materialized as SKILL.md.",
+          "zh": "中央 SQLite 记忆与技能库，按工作区分区：开局注入索引、显式写入与提案制提取全部过代码门禁，技能物化为 SKILL.md。"
+        },
+        "homepage": "https://github.com/ZK-Andy/dsh-continual-evolve",
+        "repository": {
+          "url": "https://github.com/ZK-Andy/dsh-continual-evolve"
+        },
+        "versions": [
+          {
+            "version": "0.18.2",
+            "publishTimestamp": 1792257062,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "80beaed1e3b5ee46f1feb9cb8425359b11d60c4d0ede12266d4c848ed8902189",
+      "evidence": [
+        {
+          "name": "dsh-continual-evolve",
+          "version": "0.18.2",
+          "tarball": "https://registry.npmjs.org/dsh-continual-evolve/-/dsh-continual-evolve-0.18.2.tgz",
+          "integrity": "sha512-5WCZBI2KlbiEwoqQPNj3SSnFUyTKUAyFICcis9ugkkBU1vxaYNY7xyri9qXmcieRJZwQ/ngTEx3mFMcsfsPL+g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-continual-evolve",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZK-Andy/dsh-continual-evolve",
+    "commit": "18c35764454c324231044536f4b37ed017018959",
+    "releaseTags": 60,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:15.274Z"
+}

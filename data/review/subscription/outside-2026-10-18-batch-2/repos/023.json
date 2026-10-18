@@ -1,0 +1,101 @@
+{
+  "full_name": "Classicoke/cleverer-dsh",
+  "originalPosition": 23,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 23,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:36.086Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "58bc299e572b26e6da0f113203efc28cab920bd7b13fd606b818e849c482a3d3",
+      "url": "https://github.com/Classicoke/cleverer-dsh/blob/40bd216ea9c7a95da887aa97fb661a0e8c7b1dd2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Classicoke/cleverer-dsh",
+          "command": "dsh plugin --profile web add github:Classicoke/cleverer-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Classicoke/cleverer-dsh",
+          "command": "dsh plugin --profile headless add github:Classicoke/cleverer-dsh",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "12b15fa12886b68662cc5a868aa7bbaaf7786ea04ea5de850cb74da939a0fb87",
+      "url": "https://github.com/Classicoke/cleverer-dsh/blob/40bd216ea9c7a95da887aa97fb661a0e8c7b1dd2/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Classicoke/cleverer-dsh",
+          "command": "dsh plugin --profile web add github:Classicoke/cleverer-dsh",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Classicoke/cleverer-dsh",
+          "command": "dsh plugin --profile headless add github:Classicoke/cleverer-dsh",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "cleverer-dsh",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Classicoke/cleverer-dsh",
+        "commit": "40bd216ea9c7a95da887aa97fb661a0e8c7b1dd2"
+      },
+      "manifestSha256": "a0b570f8adc8588da7cae1478948e530987f8d89d86049aa9c1ef0a6928a1bda",
+      "manifestUrl": "https://github.com/Classicoke/cleverer-dsh/blob/40bd216ea9c7a95da887aa97fb661a0e8c7b1dd2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "cleverer-dsh",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1786852343,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Classicoke/cleverer-dsh",
+              "commit": "40bd216ea9c7a95da887aa97fb661a0e8c7b1dd2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Classicoke/cleverer-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Classicoke/cleverer-dsh",
+    "commit": "40bd216ea9c7a95da887aa97fb661a0e8c7b1dd2",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:41.418Z"
+}

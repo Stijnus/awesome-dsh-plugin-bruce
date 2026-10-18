@@ -1,0 +1,189 @@
+{
+  "full_name": "zuoyunlai/lunheng-article-pipeline-dsh",
+  "originalPosition": 57,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 57,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:31.489Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f54e6cbd87574dd025fa6ba5f1adda8e99e22f275f038c7f28d1ca529505061e",
+      "url": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh/blob/7f59c2b5bfed73134731b6f6d2e26fd44bfae1c4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "lunheng-article-pipeline",
+          "command": "dsh plugin --profile web add lunheng-article-pipeline",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "982663f0c36124dadbde0354f5258f840d4ca317db48dae683bb736a50bbf763",
+      "url": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh/blob/7f59c2b5bfed73134731b6f6d2e26fd44bfae1c4/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "lunheng-article-pipeline",
+          "command": "dsh plugin --profile web add lunheng-article-pipeline",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "f02414aa0849c05c8cdaa1095606cee2f9241f5dd80d8d55622b9e52f3f46f81",
+      "url": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh/blob/7f59c2b5bfed73134731b6f6d2e26fd44bfae1c4/README-es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "lunheng-article-pipeline",
+          "command": "dsh plugin --profile web add lunheng-article-pipeline",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "76ba5bcf10b949367039882ec48bfb86952884ff7a97ee2a25b03d2cc53daecd",
+      "url": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh/blob/7f59c2b5bfed73134731b6f6d2e26fd44bfae1c4/README-pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "lunheng-article-pipeline",
+          "command": "dsh plugin --profile web add lunheng-article-pipeline",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "920deb66732a9352737b3d0a748500cdfa19bf5fc958d3ad651d7db6d4975358",
+      "url": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh/blob/7f59c2b5bfed73134731b6f6d2e26fd44bfae1c4/README-hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "lunheng-article-pipeline",
+          "command": "dsh plugin --profile web add lunheng-article-pipeline",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "lunheng-article-pipeline",
+      "version": "19.11.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh",
+        "commit": "7f59c2b5bfed73134731b6f6d2e26fd44bfae1c4"
+      },
+      "manifestSha256": "6736c5d59999fb08c505efc2a224514521b9b5cc464d088eb12bbab3e9c1bba4",
+      "manifestUrl": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh/blob/7f59c2b5bfed73134731b6f6d2e26fd44bfae1c4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "lunheng-article-pipeline",
+        "versions": [
+          {
+            "version": "19.11.2",
+            "publishTimestamp": 1792256806,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh",
+              "commit": "7f59c2b5bfed73134731b6f6d2e26fd44bfae1c4"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "lunheng-article-pipeline",
+      "origin": "npm",
+      "name": "lunheng-article-pipeline",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "lunheng-article-pipeline",
+        "title": "lunheng-article-pipeline",
+        "description": "论衡（lunheng-article-pipeline）— 多 Agent 深度长文流水线技能包（DeepSeek Harness 原生插件）：定题→并行检索（文献/数据/案例）→分析→大纲人在环确认→写作→批判→审计→审稿→修订→配图→终检交付，9 个独立角色 T1-T9 互不可替代（文献/数据/案例/分析/写作/批判/审计/终检/审稿），主控 = T0 调度 + T8 终检亲执行（T8 独立角色，执行者主控担任，不 spawn），T9 审稿按 `_shared/文类档案.md` 启用（学术三类必选、lit-review 可选、其余默认不选），三角验证 + M 机械化硬门 + F 失败模式防御 + G14 中文 AI 痕迹闸 + 期刊匹配助手，用 dsh subagent 子代理编排。",
+        "author": "zuoyunlai",
+        "homepage": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh#readme",
+        "repository": {
+          "url": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "skill",
+            "bundle",
+            "article-pipeline",
+            "agent",
+            "论文流水线"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPCEtLSBDcmVhdG9yOiBDb3JlbERSQVcgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjBweCIgaGVpZ2h0PSI2MHB4IiB2ZXJzaW9uPSIxLjEiIHN0eWxlPSJzaGFwZS1yZW5kZXJpbmc6Z2VvbWV0cmljUHJlY2lzaW9uOyB0ZXh0LXJlbmRlcmluZzpnZW9tZXRyaWNQcmVjaXNpb247IGltYWdlLXJlbmRlcmluZzpvcHRpbWl6ZVF1YWxpdHk7IGZpbGwtcnVsZTpldmVub2RkOyBjbGlwLXJ1bGU6ZXZlbm9kZCIKdmlld0JveD0iMCAwIDU5Ljc0IDU5Ljc0IgogeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiCiB4bWxuczp4b2RtPSJodHRwOi8vd3d3LmNvcmVsLmNvbS9jb3JlbGRyYXcvb2RtLzIwMDMiPgogPGRlZnM+CiAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgPCFbQ0RBVEFbCiAgICAuZmlsMCB7ZmlsbDp3aGVhdH0KICAgIC5maWwxIHtmaWxsOiM4NDM5MDA7ZmlsbC1ydWxlOm5vbnplcm99CiAgIF1dPgogIDwvc3R5bGU+CiA8L2RlZnM+CiA8ZyBpZD0i5ZyW5bGkX3gwMDIwXzEiPgogIDxtZXRhZGF0YSBpZD0iQ29yZWxDb3JwSURfMENvcmVsLUxheWVyIi8+CiAgPGcgaWQ9Il8xNzU4OTIxNTQ3NjAwIj4KICAgPGNpcmNsZSBjbGFzcz0iZmlsMCIgY3g9IjI5Ljg3IiBjeT0iMjkuODciIHI9IjI5Ljg3Ii8+CiAgIDxnPgogICAgPHBhdGggY2xhc3M9ImZpbDEiIGQ9Ik0yNi4wMyAxNi4zM2wtMC4yOSAtMC4yNCAtMC4zMyAtMC4xNCAtMC42MiAtMC4xNCAtMC42NCAtMC4wMyAtMS45NyAwLjI5IC0xIC0wLjAzIC0wLjMzIC0wLjA5IC0yLjE0IDAuMDkgLTEuMDYgLTAuMiAtMC4xNyAtMC4wNiAtMC41NiAtMC4wOSAtMC41NiAwIC0yLjY4IDAuNTggLTAuNTYgMC4wNiAwLjEyIDAuMzIgMC4wOSAwLjEyIDAuMTIgMC4wOSAwLjI2IDAuMDYgMC4zIDAgMC43IC0wLjEyIDAuNTMgLTAuMDMgMC4xNSAwLjAzIDAuMjkgMC4xNyAwLjI0IDAuMjEgMC4xOCAwLjI3IDAuMDYgMC4yOSAwLjI2IDIuOTEgMC4wNiAwLjEyIDAuMDMgMC4xNCAtMC4wNiAxLjE1IDAuMDYgMC40IDAuMDMgMC4xMiAwLjM1IDAuNDQgMC4yIDAuMTggMC40NyAwLjI5IDAuNTMgMC4yMSAwLjU5IDAuMDYgMC4xMiAwLjE1IDAuMDkgMC4xNCAwLjEyIDAuOTUgMC4wNSAwLjE3IC0wLjA1IDEuOTkgMC4wNSAwLjc0IDAuMDkgMC4zOCAwLjE4IDIuNjIgLTAuMDYgMS4wMyAtMC4xMiAwLjQ2IC0wLjA2IDAuNjUgMC4wMyAwLjg4IC0wLjAzIDAuMjYgLTAuMDggMC4yNyAtMC4wNiAwLjEyIC0wLjE1IDAuMiAtMC4xMiAwLjA2IC0wLjE4IDAuMDYgLTAuMjMgMC4wMyAtMC4yMSAtMC4wMyAtMC42NyAtMC4yMSAtMC4yMSAtMC4wMiAtMC4yMSAtMC4xMiAtMC4zMSAtMC4zIC0wLjE1IC0wLjE3IC0wLjE1IC0wLjM5IC0wLjAzIC0wLjIzIDAgLTAuMjEgLTAuMTcgLTAuOTcgLTAuMTggLTEuOTMgLTAuMDMgLTAuOTQgLTAuMDYgLTAuMTIgLTAuMDkgLTAuNDEgLTAuMDYgLTAuODggLTAuMDYgLTAuMTIgLTAuMDUgLTAuMDkgLTAuMDkgLTAuMDkgLTAuMTIgLTAuMDUgLTAuMTIgLTAuMDMgLTAuMTcgMCAtMC4xOCAwLjAzIC0wLjEyIDAuMDUgLTAuMTIgMC4xMiAwIDAuMDkgMC4wMyAwLjA5IC0wLjAzIDAuNTUgMC4xMiAxLjU2IDAuMzggMi4wMiAwLjA2IDAuNjggMC4xMiAwLjY1IDAuMTggMC41OSAwLjI5IDAuNTMgMC4zIDAuMjMgMC45OSAwLjM4IDEuMzUgMC4yNCAwLjMgMC4yMyAwLjA5IDAuMTIgMC4xNCAwLjI2IDAuMDkgMC40NyAwLjAzIDEuMzUgLTAuMDkgMC4yMSAtMC4wMyAwLjIzIDAgMC40MSAwLjA2IDAuNDIgMCAwLjIzIC0wLjAzIDAuMjEgMC4wOSAwLjMyIDAuMDMgMC4yOSAtMC4yIDEuNTMgMCAwLjI5IC0wLjM2IDAuMzkgLTAuNDQgMC4xNyAtMC42NSAwLjA5IC0wLjk5IDAuMDMgLTAuMyAtMC4yMyAtMC4xNyAtMC4yNyAtMC4wNiAtMC4xNSAtMC4wOSAtMC41IC0wLjA2IC0xLjQgLTAuMDkgLTAuMDkgLTAuMDYgLTAuMTIgMCAtMC4yMSAwLjAzIC0wLjExIDAgLTAuMDkgLTAuMDYgLTAuMTIgLTAuMDggLTAuMTIgLTAuMTIgLTAuMDYgLTAuMTIgLTAuMDMgLTAuMjEgMCAtMC4wOCAwLjA2IC0wLjEyIDAuMDYgLTAuMjEgMC4xOCAtMC4wMyAxLjQ3IDAuMjEgMy42MSAwIDAuNzMgMC4wNiAwLjE4IDAuMDMgMC4yIC0wLjAzIDEuNzEgMC4wNiAwLjQxIDAuMTEgMC4zOCAwLjI0IDAuMzIgMC43NyAwLjQ3IDAuODcgMC4zMyAwLjkyIDAuMTEgMC40NyAwIDAuNDcgLTAuMDYgMi4wMiAwLjI0IDAuNTMgMCAwLjUgLTAuMDkgMC40NyAtMC4yIDAuNDIgLTAuMzMgMC40MSAtMC40NCAwLjMyIC0wLjUyIDAuMTIgLTAuMjcgMC4wNiAtMC4yNiAwIC0wLjI5IC0wLjA2IC0wLjI3IDAuMTIgLTIuMTIgLTAuMDMgLTIuMDIgLTAuMDkgLTAuNTMgLTAuMDYgLTEuNjcgLTAuMDMgLTAuMjcgLTAuMTIgLTAuNDcgLTAuMjMgLTAuMzUgLTAuMjEgLTAuMTUgLTAuMiAtMC4wOSAtMC4yNyAtMC4wNiAtMC4xMiAwLjIxIC0wLjA2IDAuMjEgLTAuMDIgMC4yIDAgMC4yMSAwLjIgMS4zMiAwIDAuMjMgLTAuMDkgMC4zOSAtMC4xMSAwLjIgLTAuMTUgMC4xOCAtMC4yNCAwLjE1IC0wLjk3IDAuMDMgLTAuMiAtMC4wMyAtMC4xOCAtMC4wNiAtMC4xNCAtMC4xMiAtMC4yNCAtMC40NyAtMC4xNSAtMC40NyAtMC4wMyAtMC41IDAuMTIgLTAuNDQgLTAuMDMgLTEuMTUgMC4xOCAtMi42NCAtMC4wMyAtMC41NiAwLjA5IC0wLjIgMC4wOSAtMC4xNSAwLjExIC0wLjE1IDAuMjkgLTAuMTcgMC4xOCAtMC4wNiAxLjQ3IC0wLjA5IDAuMyAtMC4xMiAwLjQxIC0wLjIzIDAuMjYgLTAuMzUgMC4yMSAtMC40MSAwLjIxIC0wLjkyIDAuMTQgLTEuNDYgLTAuMDYgLTAuMTIgMC4wMyAtMC43IC0wLjA2IC0wLjMgLTAuMDUgLTIuMTIgMC4wNSAtMC44MiAwLjA5IC0wLjM1IC0wLjE0IC0wLjA5IC0wLjU5IC0wLjU1IC0wLjMgLTAuMTIgLTAuMTQgMC4wOSAtMC4xNSAwLjIgLTAuMDYgMC4yNiAwIDAuMTIgMC4xMiAwLjg2IDAgMC4yOSAtMC4wNiAwLjIzIDAuMTUgMS4zMyAtMC4wNiAyIC0wLjIxIDEuMzEgLTAuMjEgMC43NyAtMC4xMSAwLjE3IC0wLjI0IDAuMTUgLTAuNDEgMC4wNiAtMC4yMSAtMC4wMyAtMC40MSAwIC0wLjQ0IC0wLjQxIC0wLjE0IC0wLjIxIC0wLjA5IC0wLjIzIC0wLjA5IC0wLjUzIDAgLTAuNTYgMC4xNSAtMS40MSAtMC4wNiAtMC41NSAtMC4wNiAtMC4yNCAwLjA2IC0wLjY4IDAuMDYgLTIuMTEgLTAuMDMgLTIuNzYgMC4wMyAtMC4yOSAwLjE3IC0wLjQ0IDAuMjQgLTAuMjQgMC4xMSAtMC4wNiAxLjUzIC0wLjMyIDAuMzYgLTAuMjQgMC4xMSAtMC4xMiAwLjA5IC0wLjExIDAuMjEgLTAuMzYgMC4wNiAtMC4yIDAuMDMgLTAuMiAwIC0wLjcxIDAuMDggLTAuNjcgLTAuMjMgLTIuMjYgMC4wNiAtMC44IDAuMDkgLTAuMjYgMC4xMSAtMC4yNCAwLjMzIC0wLjQ3IDAuNjcgLTAuMTggMC40NCAwIDAuNDcgMC4wOSAwLjIxIDAuMDkgMC4xNSAtMC4wOSAwLjMyIC0wLjI5IDAgMHptNy44NSAyLjA2bDAuMTcgMC4xNyAwLjA5IDAuMzYgMCAwLjc5IDAuMDkgMC4zNSAwLjA5IDAuMTIgLTAuMjEgMi4xNyAwLjA5IDAuODggMC4xMiAwLjQ0IC0wLjEyIDAuNDQgLTAuMDYgMSAwLjAzIDEuMDkgLTAuMDkgMS4wOCAtMC4xNCAwLjUzIC0wLjE4IDAuMTggLTAuMjQgMC4xMiAtMC4yMyAwLjAzIC0wLjg1IC0wLjA5IC0wLjU2IDAuMDMgLTAuMzggLTAuMjcgLTAuMDkgLTAuMTUgLTAuMTIgLTAuMjYgLTAuMTcgLTEuMiAtMC4wOSAtMC4yOSAwLjA2IC0wLjg2IC0wLjA2IC0xLjM1IDAuMDMgLTAuNDQgMC4xNCAtMC45MSAtMC4xNCAtMC4wNiAtMC41OSAtMC4zMiAtMC4xNSAtMC4wMyAtMC4xOCAwLjAzIC0wLjE0IDAuMDkgLTAuMjEgMS42NCAwIDAuNTMgMC4wOSAwLjE4IDAuMDYgMC4yIDAuMDYgMC40MSAwLjAzIDAuODYgLTAuMDYgMS4zMSAwLjAzIDAuNDIgLTAuNDcgMC41NSAtMC4wOSAwLjA5IC0wLjA5IDAuMDYgLTAuMTggMC4wOSAtMC4yIDAuMDMgLTAuMjEgMCAtMC44NSAtMC4xNSAtMC40MSAtMC4zOCAtMC4yMyAtMC40NCAtMC4xMiAtMC41IC0wLjAzIC0wLjUzIDAuMTUgLTEuNjEgMC4wMiAtMS4xMiAtMC4wMiAtMS4yNiAtMC4wOSAtMC4yOSAtMC4xMiAtMC4yNyAtMC4wMyAtMC4xMiAtMC4wOSAtMC4wNiAtMC4wOSAtMC4wMyAtMC4wOCAwIC0wLjYyIDAuMjQgLTAuMTIgMC4wOSAtMC4xOCAwLjM1IC0wLjA2IDAuMjkgMC4wOSAyLjE4IDAuMTIgMi4zNCAtMC4wNiAwLjQ1IDAuMTUgMC40MSAwLjA5IDAuNDEgMC4wMyAwLjg1IC0wLjE4IDEuODIgMC4xMiAyLjA1IDAuMDMgNC4wOSAtMC4wNiAxLjkzIDAuMDYgMS40MiAwLjMyIDMuNDYgMC4wMyAzLjgyIC0wLjEyIDMuMDUgMC4wNiAwLjE4IDAuMDMgMC4xNCAwLjA5IDAuMTIgMC4wMyAwLjAzIDAuMDkgMCAwLjQ3IC0wLjg4IDAuMDkgLTAuMjQgMC4wOCAtMC40NiAwIC0wLjMgMC4wNiAtMC4xNSAwLjA5IC0wLjUgLTAuMDkgLTEuNjkgMC4wMyAtMC4zNiAtMC4wOSAtMC45NCAtMC4wNiAtMS44NSAwLjA2IC00Ljc2IDAuMTggLTAuMzIgMC41OSAtMC40NCAwLjM1IC0wLjE4IDAuMjMgMC4xMiAwLjUzIDAuMDMgMC4zIC0wLjA2IDAuMDkgMC4wNiAwLjExIDAuMDYgMC4xMiAwLjExIDAuMDkgMC4xOCAwLjAzIDAuMTggMC4wMyAwLjQxIDAuMDMgMC4xOCAwLjA2IDAuMTQgMC4zOCAxMS4xIDAuMzUgMC4yMSAwLjEyIC0wLjA2IDAuMDkgLTAuMDYgMC4zOCAtMC42NSAtMC4wOSAtMC4zNSAtMC4wOSAtMC43MyAwLjE1IC0zLjIgLTAuMDkgLTEuMDkgLTAuMDkgLTAuMzUgMC4wMyAtMi4zOCAtMC4wOCAtMC44OCAtMC4xMiAtMC40MSAwLjA2IC0wLjEyIDAuMDggLTAuNDEgLTAuMDIgLTAuMjMgMCAtMC44IDAuMDIgLTAuMTUgMC4xMiAtMC4yMyAwLjEyIC0wLjE1IDAuMDYgLTAuMTIgMC4wOSAtMC4xMSAwLjA5IC0wLjA5IDAuMDggLTAuMDYgMC4yNCAtMC4wOSAwLjIzIC0wLjAzIDEuMDkgMC4wMyAwLjIxIDAuMDkgMC4yNiAwLjE4IDAuMDkgMC4xNCAwLjA2IDAuMTUgMC4wMyAwLjE1IC0wLjE1IDEuNSAwLjA2IDAuMzUgMC4wOSA1LjU1IDAuMDggMC43NCAwLjA5IDAuMjMgMC4wOSAwLjczIC0wLjAzIDEuMDMgMC4wNiAwLjcgMC4xNSAwLjQ0IDAuMjkgMC4zOCAwLjIxIDAuMTUgMC4zMiAtMC4zNSAwLjEyIC0wLjIxIDAuMTIgLTAuMzggMC4wMyAtMC4yIDAuMDYgLTEuNzYgMC4xMSAtMC40NyAtMC4wMyAtMS4yNyAtMC4wOCAtMS4yMyAtMC4yNyAtMi40MSAwLjA5IC0wLjUgMC4xOCAtMi40OSAwLjI5IC0wLjk0IDAuMjYgLTAuMTUgMC4zIC0wLjEyIDAuNTggLTAuMDkgMS4zIDAuMDYgMC4xNCAwLjEyIDAuMSAwLjE1IDAuMTQgMC4yOSAwLjAzIDIuOTEgMC4yMSAyLjI2IC0wLjA5IDMuMzUgMC4wNiAwLjUzIC0wLjA5IDAuNyAwLjAzIDAuNjcgMC4wNiAwLjMzIDAuMjcgMC41OCAwLjIgMC4yNCAwLjEyIDAuMDYgMC4xMiAwIDAuMTEgLTAuMDYgMC4zIC0wLjI3IDAuMDkgLTAuMTEgMC4xMSAtMC4wOSAwLjEyIC0wLjQxIDAuMDYgLTAuNDEgMCAtMC40NCAtMC4xNSAtMS43NiAwLjEyIC0wLjk0IDAgLTAuNSAtMC4yMyAtMi40NyAwLjA4IC0wLjUgLTAuMDIgLTAuNDQgMC4wNSAtMS4zOCAwLjMzIC0xLjg1IDAuMDYgLTAuMTUgMC4wOCAtMC4xMSAwLjMgLTAuMTggMC4zMiAtMC4wNiAwLjIxIDAuMDMgMC4xOCAwIDAuMTQgMC4wMyAwLjEyIDAuMDYgMC4wOCAwLjA2IDAuMDYgMC4wNiAwLjA2IDAuMDggMC4wMyAwLjA5IDAuMDMgMC4yMSAtMC4wMyAwLjQ0IDAuMDYgMC40MSAtMC4wNiAxLjMgMC4wOSAzLjMxIDAuMjQgMS43OSAwLjI5IDMuNTYgLTAuMDYgMC4xMSAtMC4wMyAwLjA5IC0wLjAzIDAuMTcgMC4xMiAwLjM5IDAuMjEgMC4zNSAwLjA1IDAuMTggMC4wMyAwLjIgMC4zIDAuMDkgMC4xNyAwIDAuMjQgLTAuNzEgMC4wMyAtMC4xNyAwIC0wLjIxIC0wLjAzIC0wLjIgLTAuMDYgLTAuMjEgMC4wOSAtMC40NCAwLjAzIC0wLjk0IC0wLjEyIC0xLjM0IDAgLTAuOTUgMC4xMiAtMC42NyAwLjAzIC0wLjY1IC0wLjEyIC0zLjQzIDAuMDYgLTAuNjggLTAuMTIgLTAuMzIgLTAuMDYgLTAuMzUgMCAtMC4zNiAwLjAzIC0wLjE0IDAuMDYgLTAuMTUgMC4wOSAtMC45NCAtMC4wOSAtNC44NSAwLjEyIC0xLjQ3IDAuMDkgLTAuNDYgLTAuMDkgLTAuNTYgMCAtMC41NiAwLjIgLTEuNjUgMC4wMyAtMS4wOCAtMC4wNSAtMC41NiAtMC4wOSAwLjE4IC0wLjA2IDAuMDMgLTAuMDMgMCAtMC4yMSAtMC4yMSAtMC4wNiAtMC4yMSAwIC0wLjA1IDAuMDMgLTAuMDMgMC4wMyAtMC4wNiAwLjA5IC0wLjAzIDAuMTUgMCAwLjA2IDAuMDMgMC4wOSAwLjA2IDAuMTEgLTAuNzYgLTAuMDMgLTAuNzkgMC4wMyAtMC44IDAuMTUgLTAuNzYgLTAuMDMgLTAuMjEgMC4wMyAtMC42NSAwLjA2IC0wLjIzIDAgLTAuNDQgLTAuMDYgLTAuMjYgMCAtMC4xMiAtMC4wNiAtMC4wOSAtMC4wMyAtMC4wNiAtMC4wOSAtMC4wOSAtMC4xNCAtMC4wOSAtMC4xOCAtMC4wNSAtMC41NiAtMC4wOSAtMC4xNSAtMC4wNiAtMC4yIDAuMTIgLTAuMTIgMC4wOCAtMC4wNiAwLjAzIC0wLjAzIDAuMDYgMCAwLjA5IDAuMDMgMC4wOSAtMC4wOSAxLjM1IDAuMDkgMi42MiAtMC4xOCAxLjI4IC0wLjE0IDAuMzkgLTAuMTIgMC4xMSAtMC4xMiAwLjA5IC0wLjEyIDAuMDYgLTAuMTQgMC4wMyAtMC4xOCAwIC0xLjM4IC0wLjEyIC0wLjE1IDAuMDMgLTAuMjkgLTAuMiAtMC4xOCAtMC4yNyAtMC4wNiAtMC4yNiAtMC4wMiAtMC4zIDAuMDIgLTAuNjQgLTAuMDggLTAuNDQgLTAuMDYgLTAuMTUgMC4xMiAtMC43IDAgLTAuMjcgLTAuMTIgLTEuMDMgLTAuMDYgLTAuMDggLTAuMDMgLTAuMDkgLTAuMDMgLTAuMjQgMC4wMyAtMC40NCAtMC4wMyAtMC4yNCAwIC0wLjA4IC0wLjA2IC0wLjEyIC0wLjA2IC0wLjA5IC0wLjA5IC0wLjA4IC0wLjA4IC0wLjA2IC0wLjE1IC0wLjA2IC0wLjI3IDAuMDYgLTAuMjEgMC4xMiAtMC4xMSAwLjExIC0wLjA5IDAuMTIgLTAuMTUgMC4yNiAtMC4wOSAwLjMgLTAuMDMgMC4zMiAwLjA5IDEuNjggMC4xMiAxLjQgMCAwLjQ0IC0wLjAzIDAuMjEgLTAuMDYgMC4yIC0wLjE4IDAuMzkgLTAuMTQgMC4xNyAtMC4xOCAwLjE1IC0wLjY1IDAuMDYgLTAuMjMgMCAtMC4yNCAtMC4wMyAtMC4zMiAtMC4xNSAtMC4wOSAtMC4wNiAtMC4wOCAtMC4wOCAtMC4wOSAtMC4xMiAtMC4wNiAtMC44OCAtMC4wMyAtMy41IC0wLjA5IC0xLjY3IC0wLjA5IC0wLjgyIDAuMTggLTEuNTYgMC4yMSAtMC41OSAwLjE3IC0wLjI5IDAuMjQgLTAuMTIgMC4wOCAtMC4wMyAwLjA2IC0wLjAzIDAuMDkgMC4wMyAwLjA5IDAuMDYgMC40NCAtMC4wOSAwLjg1IC0wLjA1IDEuMyAwLjA1IDAuOTEgLTAuMDMgMC40NCAtMC4yOSAwLjI0IC0wLjA5IDAuMDkgMCAwLjA5IDAuMDMgLTAuNTkgLTAuNDcgLTEuMTUgMCAtNC42OCAwLjI3IC0yLjMyIDAuMDUgLTEuMTggLTAuMDUgLTAuMjYgMC4yIDAuMDkgMC4yMSAwLjIzIDAuMjYgMC4zMyAwLjEyIDAuMTcgMC4wMyAxLjU5IC0wLjA5IDAuNDEgMC4xMiAwLjEyIDAuMDkgMCAwem0wLjA2IDEwLjk4bDAuMDggMC4xMSAwLjE4IDQuMDYgLTAuMDYgMS40MSAtMC4xNyAwLjI5IC0wLjAzIDAuMTggMC4wMyAxLjIzIC0wLjAzIDAuMTUgLTAuMTIgMC4yOSAtMC4xMiAwLjEyIC0wLjMyIDAuMTggLTAuMTIgLTAuMDYgLTAuMTUgLTAuMDMgLTAuMjkgMCAtMC41OSAwLjEyIC0wLjM4IDAgLTAuMTIgLTAuMDMgLTAuMiAtMC4xNSAtMC4zIC0wLjg4IC0wLjA2IC0wLjU2IDAuMTIgLTIuMjYgLTAuMDMgLTAuODYgLTAuMDYgLTAuMjkgMC4wOSAtMC4xOCAwLjAzIC0wLjE5IDAgLTAuMjEgLTAuMTIgLTAuNjUgMCAtMC40NCAwLjE1IC0wLjc0IDAuMDMgLTAuMiAwLjE4IC0wLjMyIDAuMTEgLTAuMTUgMC4zIDAgMS4yNiAtMC4xNSAwLjI5IDAuMDMgMC40MiAwLjE4IDAgMHptMi4yOSAtMC4xNWwwLjE1IC0wLjEyIDAuMTQgMC4wMyAxIC0wLjIzIDAuMjcgLTAuMDMgMC4yMyAwLjA2IDAuMTIgMC4wNSAwLjE4IDAuMjQgMC4wNiAwLjE4IC0wLjAzIDAuMiAwLjA1IDEuMTUgLTAuMTQgMC40NCAwLjA5IDEuNDYgMC4yMSAyLjI0IDAuMDMgMC43MyAtMC4wMyAwLjc0IC0wLjEgMC43NiAtMC40NCAwLjI3IC0wLjE0IDAuMDMgLTAuMzkgMC4wMyAtMC43MyAtMC4wOSAtMS4wMyAtMC4yNCAtMC4wNiAtMS4yOSAwLjE4IC0xLjkxIC0wLjA2IC0xLjMyIC0wLjE1IC0wLjY3IC0wLjAzIC0xLjE1IDAuMTIgLTAuNzcgMC4wNiAtMC4xNyAwLjE4IC0wLjMzIDAuMjYgLTAuMjkgMCAwem01LjMzIC0wLjM1bDAuMzIgMC4wOSAwLjE0IDAuMDUgMC4zIDAuMTggMC4wOSAwLjEyIDAuMTQgMC40NCAwLjA2IDAuNDcgLTAuMDMgMC40NCAtMC4yIDEuMzYgMCAwLjIyIDAuMDYgMC40MSAwLjA4IDAuMjQgLTAuMjkgMy43NiAtMC4wNiAwLjI3IC0wLjA5IDAuMTEgLTAuMzIgMC4zIC0wLjQ3IDAuMjMgLTAuMTcgMCAtMC4xOCAtMC4wNiAtMC4xNSAtMC4wOCAtMC42MiAtMC40MSAtMC4xNCAtMC40OCAtMC4wOSAtMS4wMyAwLjAzIC0wLjU1IC0wLjE4IC0wLjc3IDAuMDMgLTIuMDMgLTAuMjMgLTEuOTkgMCAtMC40NCAwLjA1IC0wLjEyIDAuMDkgLTAuMjYgMC4xNSAtMC4yNCAwLjk3IC0wLjIzIDAuNzEgMCAwIDB6bS0yMy44NSAtMTEuNzJsMC4xOCAtMC4xOCAwLjIzIC0wLjE3IDAuMzYgLTAuMDYgMS4xMSAwIDAuNzQgLTAuMDkgMC4zMiAtMC4xMiAwLjE1IC0wLjA4IDAuMTQgLTAuMTIgMC4yNyAwLjA5IDAuMjMgMC4xNCAwLjE4IDAuMTUgMC4xMiAwLjE4IDAuMTcgMC40MSAwLjA2IDAuNDcgLTAuMDYgMS41NiAwLjA2IDAuNDcgLTAuMTEgMS4yMyAtMC4zNiAxLjEyIC0wLjMyIDAuMjMgLTAuMzggMC4xNCAtMC44MiAwLjE1IC0wLjQyIDAuMDMgLTEuMjYgLTAuMDkgLTAuMTggLTAuMDMgLTAuMjYgLTAuMTcgLTAuMDkgLTAuMDkgLTAuMTIgLTAuMjYgLTAuMTUgLTAuODggLTAuMDggLTAuMyAtMC4wNiAtMC4xMSAtMC4wOSAtMC4xMiAwLjA2IC0wLjI0IDAuMDYgLTAuNzkgLTAuMDMgLTEuMDkgMC4wNiAtMC43MyAwLjA2IC0wLjI0IDAuMjMgLTAuNDEgMCAwem0yNi41MiAtMS4zMWwtMC4yIC0wLjI3IC0wLjMzIC0wLjE1IC0wLjU2IC0wLjQ0IC0xIC0wLjk3IC0xLjE0IC0wLjg4IC0yLjQ0IC0yLjM1IC0wLjE4IC0wLjExIC0wLjE4IC0wLjE1IC0wLjU5IC0wLjcgLTAuMjYgLTAuNDIgLTAuNDUgLTAuNTMgLTAuNTIgLTAuNDEgLTAuMjQgLTAuMDkgLTAuMjMgLTAuMDMgLTEuNzcgMi4wNiAtMS4zNSAxLjM1IC0xLjM1IDEuNDQgLTEuMzIgMS41IC0xLjM2IDEuNDMgLTAuMjMgMC4xMiAtMC4yMSAwLjE1IC0wLjU1IDAuNjEgLTAuNDUgMC4zNiAtMC4xMSAwLjA2IC0wLjE1IDAuMDMgLTAuMTUgMC4yOSAtMC43OSAwLjk3IC0wLjE4IDAuMjcgLTAuMTggMC4zOCAtMC4wMiAwLjE3IDAuNjEgLTAuMiAwLjMgLTAuMTUgMC44MiAtMC42OCAwLjUzIC0wLjUgMC40MSAtMC40NyAxLjkxIC0xLjc1IDAuOCAtMC45NyAwLjI5IC0wLjU2IDAuODIgLTAuMjcgMiAtMS43OSAwLjU2IC0wLjY4IDAuMjQgLTAuMTQgMC45MSAtMC44NSAwLjI2IC0wLjIgMC41NiAtMC4zIDAuNTMgMC40NyAyLjMgMi4zOCAwLjk0IDAuOTEgMC4wOSAwLjIzIDAuMjMgMC4zOCAwLjQxIDAuNDcgMS4wMyAwLjggMC40NyAwLjQ2IDAuMTIgMC4yMSAwLjE3IDAuMDYgMC4xMiAwLjA2IDAuMjQgMC4yIDAuMTcgMC4yMSAwLjYyIDEuMDMgMC4yMSAwLjIzIDAuOTEgMC42OCAwLjI2IDAuMTIgMC4xNSAwLjAzIDAuMjkgMCAwLjE1IC0wLjAzIDAuMTUgLTAuMDYgMC4xNCAtMC4wOSAwLjEyIC0wLjE4IDAuMDMgLTAuMTQgMCAtMC4xOCAtMC4wMyAtMC4xNSAtMC4zOCAtMC41OSAtMS43IC0xLjQ0IC0wLjI3IC0wLjI1em0tMTQuODUgMTMuNTlsMC4yNCAwLjA1IDAuMjYgMC4zIDAuMDkgMC42NSAwLjA2IDEuNDQgLTAuMDMgMC43MyAwLjA5IDAuMTQgMC4wNSAwLjE4IDAuMDYgMC4zMiAwIDAuMzYgLTAuMTcgMS4wNiAwIDAuNTUgMC4wNiAwLjIxIC0wLjAzIDAuMiAwLjExIDAuODYgMCAwLjIgLTAuMDggMC40NCAtMC4wOSAwLjE1IC0wLjEyIDAuMTIgLTAuMTIgMC4wOCAtMC4yNiAwLjEyIC0wLjE1IDAuMDIgLTAuMjkgMC4wMyAtMS4yNCAtMC4wNSAtMC4yIC0wLjIzIC0wLjE4IC0wLjI3IC0wLjEyIC0wLjIzIC0wLjExIC0wLjUzIDAgLTAuMyAwLjIgLTEuNzMgLTAuMDYgLTAuODUgLTAuMTcgLTAuNTYgMC4wMyAtMC41MyAwLjE3IC0wLjcgLTAuMDMgLTAuNDcgMC4wOSAtMC44OCAwLjA2IC0wLjI0IDAuMjEgLTAuNDEgMC4xMSAtMC4xOCAwLjI0IDAuMDMgMC4yNCAwIDAuNjQgLTAuMDggMC40NCAwem0tMTIuNzUgMTMuNTZsMC4yIC0wLjA5IDAuNDQgLTAuMTEgMC4yMyAtMC4wMyAyLjEyIDAuMTEgMC4yMSAtMC4wMyAyLjUzIDAuMyAwLjE3IDAuMjkgMC4wOSAwLjI5IDAuMDMgMC4zMyAwIDEuMjkgMC4wOSAwLjMyIC0wLjA5IDAuMzkgLTAuMDkgMC43NiAtMC4wOSAwLjQxIC0wLjE3IDAuNTMgLTAuMjQgMC4yOSAtMC4xNSAwLjE1IC0wLjE3IDAuMTEgLTAuMjQgMC4wOSAtMS41MiAwLjMzIC0xLjA2IDAuMDMgLTEuMDYgLTAuMTggLTEuMDYgLTAuMzUgLTAuMjkgLTAuMjMgLTAuMTIgLTAuMTUgLTAuMjMgLTAuMzggLTAuMDkgLTAuNSAtMC4wOSAtMS4wNiAwLjAzIC0xLjAzIDAuMjMgLTEuNTYgMC4xOCAtMC4xNyAwLjIxIC0wLjE1em02LjYxIC0zMi4xMmwtMC45NyAtMC4zOCAtMyAtMC4yOSAtMS4wOSAwIC0xLjA2IDAuMiAtMC4zNSAwLjEyIC0wLjM1IDAuMTggLTAuMzIgMC4zMSAtMC4wNiAwLjEyIC0wLjAzIDAuMDkgMCAwLjEyIDAuMDYgMC4wOSAwLjUzIDAuMDggMi4yNiAwLjAzIDEuMTIgMC4xMiAwLjI2IDAuMDYgMC4yNCAwLjA5IDEuODggLTAuMzMgMS44OCAtMC4yMyAtMC42NSAtMC4yOSAtMC4zNSAtMC4wOXoiLz4KICAgPC9nPgogIDwvZz4KIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "19.11.2",
+            "publishTimestamp": 1792257393,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "89dbb3017cfb20c4907092f199baf5b53dd2d1de47d42b783066cf6b4661c82b",
+      "evidence": [
+        {
+          "name": "lunheng-article-pipeline",
+          "version": "19.11.2",
+          "tarball": "https://registry.npmjs.org/lunheng-article-pipeline/-/lunheng-article-pipeline-19.11.2.tgz",
+          "integrity": "sha512-d8e1zIqgy0ElyyKn40egori/ybyzGcDBKI+FW76PjtPdEqTCH1X9FfMP6ahk2IojbnVjLXciMLUVxv+UmI+XuQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "lunheng-article-pipeline",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh",
+    "commit": "7f59c2b5bfed73134731b6f6d2e26fd44bfae1c4",
+    "releaseTags": 233,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:41.921Z"
+}

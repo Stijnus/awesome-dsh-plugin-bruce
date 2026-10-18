@@ -1,0 +1,77 @@
+{
+  "full_name": "unclecode/toolshrink",
+  "originalPosition": 98,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 98,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:20.263Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2bd1df33e0be265b3fb6d9a165b5c48af1b531e467a2776229ee1a584751979b",
+      "url": "https://github.com/unclecode/toolshrink/blob/3d654ab491146dd685f0b47fef94e78a14590860/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/unclecode/toolshrink",
+          "command": "dsh plugin --profile web add github:unclecode/toolshrink",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "toolshrink",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/unclecode/toolshrink",
+        "commit": "3d654ab491146dd685f0b47fef94e78a14590860"
+      },
+      "manifestSha256": "ef477a924efd2403a14590ab1a9dd362f5a7d6a4e3a47707f87ffb27e199549f",
+      "manifestUrl": "https://github.com/unclecode/toolshrink/blob/3d654ab491146dd685f0b47fef94e78a14590860/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "toolshrink",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787139247,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/unclecode/toolshrink",
+              "commit": "3d654ab491146dd685f0b47fef94e78a14590860"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/unclecode/toolshrink",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/unclecode/toolshrink",
+    "commit": "3d654ab491146dd685f0b47fef94e78a14590860",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:25.099Z"
+}

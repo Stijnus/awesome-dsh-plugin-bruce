@@ -1,0 +1,705 @@
+{
+  "full_name": "WZZNNE/DSH-CyberWorkStation",
+  "originalPosition": 114,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 114,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:33.713Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "81b0493e9d704868e26d8cf15b538db8ca03c93e14ea906feed65cd3d88944df",
+      "url": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "28f4231527a4d97bf69a027bafb268f56c8084b4358467007f2b91945218e02d",
+      "url": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-editor",
+      "version": "0.1.0",
+      "path": "plugins/dsh-chat-editor",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-chat-editor"
+      },
+      "manifestSha256": "e28c5ef50abb8f5d1c54b000532d6fcbd87182ec9e3bc17c8125c7757c843ddf",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-chat-editor/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chat-editor",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-chat-editor"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-control-deck",
+      "version": "0.3.1",
+      "path": "plugins/dsh-control-deck",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-control-deck"
+      },
+      "manifestSha256": "ffa477bcbf93ccc4f6cccf5f4cecd3f0dd62c52998593a84e3955b745e81aa24",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-control-deck/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-control-deck",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-control-deck"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cost-meter-plus",
+      "version": "1.6.0",
+      "path": "plugins/dsh-cost-meter-plus",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-cost-meter-plus"
+      },
+      "manifestSha256": "36e9893326c8bc412ab87444066e848466ca85c547349fc9d8daec17c0d9aaae",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-cost-meter-plus/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cost-meter-plus",
+        "versions": [
+          {
+            "version": "1.6.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-cost-meter-plus"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-credentials-center",
+      "version": "0.3.0",
+      "path": "plugins/dsh-credentials-center",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-credentials-center"
+      },
+      "manifestSha256": "3556fcdc1543d78da7a5946ec082bfbf696548f5e12461fd686c98c8a5d94001",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-credentials-center/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-credentials-center",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-credentials-center"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-desktop-pet-cws",
+      "version": "0.2.2",
+      "path": "plugins/dsh-desktop-pet",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-desktop-pet"
+      },
+      "manifestSha256": "1e19eb062db781e7ed9c784e16e686e972d1ef83618868a34755bce2f20faea9",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-desktop-pet/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-desktop-pet-cws",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-desktop-pet"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-drop-files",
+      "version": "0.1.1",
+      "path": "plugins/dsh-drop-files",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-drop-files"
+      },
+      "manifestSha256": "25eef257698fd133fdaefc97e103ab9d7f46c111d5510b22760cfe825d1f0802",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-drop-files/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-drop-files",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-drop-files"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-import-note",
+      "version": "0.1.0",
+      "path": "plugins/dsh-import-note",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-import-note"
+      },
+      "manifestSha256": "349d60ad5398ba72f2b5d1b3829ab65b3cfd6f8b18ad465eb55f4d3588b30f90",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-import-note/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-import-note",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-import-note"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-local-reasoning",
+      "version": "0.1.1",
+      "path": "plugins/dsh-local-reasoning",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-local-reasoning"
+      },
+      "manifestSha256": "839396acdcc738503762f8bae79141bc671de04ff96addd03ac5bae7222a1c4f",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-local-reasoning/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-local-reasoning",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-local-reasoning"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-media-lab",
+      "version": "0.1.1",
+      "path": "plugins/dsh-media-lab",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-media-lab"
+      },
+      "manifestSha256": "adbf377ef1a80698ca616a81f0885e3c737f3a330d5e23dcb04c6cf891b9e692",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-media-lab/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-media-lab",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-media-lab"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-lite",
+      "version": "0.1.0",
+      "path": "plugins/dsh-memory-lite",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-memory-lite"
+      },
+      "manifestSha256": "3aaff865fc6f67dcbfd17f8c5cda95826e337d0815e7c3d80de17b62e59c9943",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-memory-lite/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-memory-lite",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-memory-lite"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-price-hint",
+      "version": "0.1.0",
+      "path": "plugins/dsh-price-hint",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-price-hint"
+      },
+      "manifestSha256": "5d11069a82d6ff16a1ca9b285f11a1d05ee8b2379fc2717c43def812d66a3d33",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-price-hint/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-price-hint",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-price-hint"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-provider-sync",
+      "version": "0.2.0",
+      "path": "plugins/dsh-provider-sync",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-provider-sync"
+      },
+      "manifestSha256": "bdc28fb0f7723c9c0b02c68c1061bff61f088fe8b4bf2841bfeaa90594279e3c",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-provider-sync/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-provider-sync",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-provider-sync"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-quick-workspace",
+      "version": "0.1.0",
+      "path": "plugins/dsh-quick-workspace",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-quick-workspace"
+      },
+      "manifestSha256": "c087fc5f75f1676becc240bd447b95c72340892ca0353d8daf374fa58881416c",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-quick-workspace/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-quick-workspace",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-quick-workspace"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-safe-guard",
+      "version": "0.2.0",
+      "path": "plugins/dsh-safe-guard",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-safe-guard"
+      },
+      "manifestSha256": "72f0febde2d546b831199cba4270edc7b691c2497ccc26ef519a0ca62268ef6a",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-safe-guard/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-safe-guard",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-safe-guard"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skin-loader",
+      "version": "0.1.0",
+      "path": "plugins/dsh-skin-loader",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-skin-loader"
+      },
+      "manifestSha256": "06f8ad0d897dcfb006efbfb21fcb9794aa76f869adc7f799ab292cb68c32f59d",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-skin-loader/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-skin-loader",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-skin-loader"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skin-studio-cws",
+      "version": "0.1.0",
+      "path": "plugins/dsh-skin-studio",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-skin-studio"
+      },
+      "manifestSha256": "de26ff74bf56ba4c103b584bb4e47348e78de15cd59c541c61035ab9904305b2",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-skin-studio/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-skin-studio-cws",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-skin-studio"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-temp-chat-cws",
+      "version": "0.1.1",
+      "path": "plugins/dsh-temp-chat",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-temp-chat"
+      },
+      "manifestSha256": "5ef90786d124e21ae4e3dfa73ded2000b0198da167bf6731c302df6b3d7572dc",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-temp-chat/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-temp-chat-cws",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-temp-chat"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-token-usage-plus",
+      "version": "2.1.0-plus.1",
+      "path": "plugins/dsh-token-usage-plus",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-token-usage-plus"
+      },
+      "manifestSha256": "fe8ed35c3aa9ba8e0ecb9180fbc2206cf6c7e7328b5177e6fe783082f4ed7cbb",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-token-usage-plus/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-token-usage-plus",
+        "versions": [
+          {
+            "version": "2.1.0-plus.1",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-token-usage-plus"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vision-bridge-zh",
+      "version": "0.4.6",
+      "path": "plugins/dsh-vision-bridge-zh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-vision-bridge-zh"
+      },
+      "manifestSha256": "7eecb31d9e05f85cd24149a8f6515ef276ab0800ab3bbbf87af6141598662bab",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-vision-bridge-zh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-vision-bridge-zh",
+        "versions": [
+          {
+            "version": "0.4.6",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-vision-bridge-zh"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-search-plus",
+      "version": "0.5.0",
+      "path": "plugins/dsh-web-search-plus",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+        "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+        "path": "plugins/dsh-web-search-plus"
+      },
+      "manifestSha256": "1c34c929b600168c8e95896141311e71b394c22aff0ada84d75c7bb5e698dbbc",
+      "manifestUrl": "https://github.com/WZZNNE/DSH-CyberWorkStation/blob/54855352ddc1a46f62c26ebb8ba6e9e2a4f07875/plugins/dsh-web-search-plus/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-web-search-plus",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1789537930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+              "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+              "path": "plugins/dsh-web-search-plus"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+    "commit": "54855352ddc1a46f62c26ebb8ba6e9e2a4f07875",
+    "releaseTags": 8,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:44.778Z"
+}

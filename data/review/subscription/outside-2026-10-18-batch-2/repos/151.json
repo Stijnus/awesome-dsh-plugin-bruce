@@ -1,0 +1,65 @@
+{
+  "full_name": "Mungbean-Cake/dsh-plugin-whale-fenggu",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:34.380Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ebf7322057a0bfa117e4e3789bd7e195140bd42ee87e72c3a3ef3e0cdf4c2f94",
+      "url": "https://github.com/Mungbean-Cake/dsh-plugin-whale-fenggu/blob/46346de0dcff9d9979286529b5f6f573beb283d4/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-whale-fenggu",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mungbean-Cake/dsh-plugin-whale-fenggu",
+        "commit": "46346de0dcff9d9979286529b5f6f573beb283d4"
+      },
+      "manifestSha256": "33c6c9481a363627f1e54edb00a3f0811b1cf4eceb9546eabd3168cad3f392da",
+      "manifestUrl": "https://github.com/Mungbean-Cake/dsh-plugin-whale-fenggu/blob/46346de0dcff9d9979286529b5f6f573beb283d4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-whale-fenggu",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1787134256,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mungbean-Cake/dsh-plugin-whale-fenggu",
+              "commit": "46346de0dcff9d9979286529b5f6f573beb283d4"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mungbean-Cake/dsh-plugin-whale-fenggu",
+    "commit": "46346de0dcff9d9979286529b5f6f573beb283d4",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:38.789Z"
+}

@@ -1,0 +1,139 @@
+{
+  "full_name": "xyrrrrr-r/dsh-eval-control",
+  "originalPosition": 39,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 39,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:58.932Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "18f6c20c3cdd35c8ddeffdec481f5b01c20205dbd0873c4d47b022a2e7d1c9d7",
+      "url": "https://github.com/xyrrrrr-r/dsh-eval-control/blob/58ea64124c6696dcf7815d2985eb1065fcc30166/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-eval-control@0.2.6",
+          "command": "dsh plugin --profile web add dsh-eval-control@0.2.6",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-eval-control",
+      "version": "0.2.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xyrrrrr-r/dsh-eval-control",
+        "commit": "58ea64124c6696dcf7815d2985eb1065fcc30166"
+      },
+      "manifestSha256": "bd861f58316f0d3937db99abb9e6e0ea4ef78c6fbc8ab2e669aada16d2a97b4f",
+      "manifestUrl": "https://github.com/xyrrrrr-r/dsh-eval-control/blob/58ea64124c6696dcf7815d2985eb1065fcc30166/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-0 <0.3.0-0 0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-eval-control",
+        "versions": [
+          {
+            "version": "0.2.6",
+            "publishTimestamp": 1792167938,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xyrrrrr-r/dsh-eval-control",
+              "commit": "58ea64124c6696dcf7815d2985eb1065fcc30166"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-0 <0.3.0-0 0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-eval-control@0.2.6",
+      "origin": "npm",
+      "name": "dsh-eval-control",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-eval-control",
+        "title": {
+          "en": "aeval eval control",
+          "zh": "aeval 评测控制"
+        },
+        "description": {
+          "en": "Host-side control plugin that binds one evaluation trial's run binding, gateway-lease budget, fork lineage, and bundle descriptor to a DSH session, and reports its control status in the Web UI.",
+          "zh": "宿主侧控制插件：把单次评测试次的 run 绑定、网关租约预算、fork 血统与 bundle descriptor 绑定到 DSH 会话，并在 Web 界面显示控制状态。"
+        },
+        "homepage": "https://github.com/xyrrrrr-r/dsh-eval-control#readme",
+        "repository": {
+          "url": "https://github.com/xyrrrrr-r/dsh-eval-control"
+        },
+        "metadata": {
+          "keywords": [
+            "aeval",
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "dsh-plugin",
+            "agent-evaluation",
+            "gateway-lease",
+            "eval-harness"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImFldmFsIGV2YWwgY29udHJvbCI+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0zMiA2IEw1NCAxOCB2MjggTDMyIDU4IDEwIDQ2IFYxOCBaIi8+CiAgICA8cGF0aCBkPSJNMjIgMjYgdjEyIi8+CiAgICA8cGF0aCBkPSJNMzIgMjIgdjIwIi8+CiAgICA8cGF0aCBkPSJNNDIgMjYgdjEyIi8+CiAgPC9nPgo8L3N2Zz4=",
+        "versions": [
+          {
+            "version": "0.2.6",
+            "publishTimestamp": 1791734160,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.1 <0.1.8-0 || >=0.1.8-alpha.1 <0.2.0-0 || >=0.2.0-0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d6567cdf67dc0766f1e8114cdcc77db05a05375d03241302879e44b7d52f5c6c",
+      "evidence": [
+        {
+          "name": "dsh-eval-control",
+          "version": "0.2.6",
+          "tarball": "https://registry.npmjs.org/dsh-eval-control/-/dsh-eval-control-0.2.6.tgz",
+          "integrity": "sha512-FwIvMQAodLzdaJqnqAWZ5IBJf1vJlMl6vwC21T+WepcUXRuQOvGawA7f1e1p+i6VyFssB99HInR9m4gnWQlykw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-eval-control@0.2.6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xyrrrrr-r/dsh-eval-control",
+    "commit": "58ea64124c6696dcf7815d2985eb1065fcc30166",
+    "releaseTags": 8,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:05.796Z"
+}

@@ -1,0 +1,65 @@
+{
+  "full_name": "gxpppp/dsh-search-mcp",
+  "originalPosition": 77,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 77,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:51.630Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6f945ce4b16b17375fb232456b8b22bf57fb2f365c848bc7d9f38effba1a9425",
+      "url": "https://github.com/gxpppp/dsh-search-mcp/blob/ae3a247aa104c952f720736cb4dfa3f024f01551/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-search-mcp",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gxpppp/dsh-search-mcp",
+        "commit": "ae3a247aa104c952f720736cb4dfa3f024f01551"
+      },
+      "manifestSha256": "fc98b14e01e5f4fc723ec4fa7663cab917050cd5ffb351d305a8ca37d283832b",
+      "manifestUrl": "https://github.com/gxpppp/dsh-search-mcp/blob/ae3a247aa104c952f720736cb4dfa3f024f01551/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-search-mcp",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788096822,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gxpppp/dsh-search-mcp",
+              "commit": "ae3a247aa104c952f720736cb4dfa3f024f01551"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gxpppp/dsh-search-mcp",
+    "commit": "ae3a247aa104c952f720736cb4dfa3f024f01551",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:56.261Z"
+}

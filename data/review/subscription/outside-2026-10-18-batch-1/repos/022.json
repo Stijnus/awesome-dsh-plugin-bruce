@@ -1,0 +1,75 @@
+{
+  "full_name": "yunxiiQwQ/dsh-maid-whale-UI",
+  "originalPosition": 22,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 22,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:07.382Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "49c2f84c7e6a16ea787597e979ad1cf57901c6e5623b9f421c7bdeaceeeea38b",
+      "url": "https://github.com/yunxiiQwQ/dsh-maid-whale-UI/blob/34c09d7bfbed9b36b3b23f1f72a733ed310265cd/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c09ecb48d8de0ff8f766021449e28015923e95562608963797d0b3752a317001",
+      "url": "https://github.com/yunxiiQwQ/dsh-maid-whale-UI/blob/34c09d7bfbed9b36b3b23f1f72a733ed310265cd/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yunxii/dsh-client-ui-skin-maid-whale-webui",
+      "version": "0.1.1",
+      "path": "maid-whale-webui",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yunxiiQwQ/dsh-maid-whale-UI",
+        "commit": "34c09d7bfbed9b36b3b23f1f72a733ed310265cd",
+        "path": "maid-whale-webui"
+      },
+      "manifestSha256": "16d34b51ad69c6d38ffc7ac79547866b97a694a314b558a663cd2f3364a335e4",
+      "manifestUrl": "https://github.com/yunxiiQwQ/dsh-maid-whale-UI/blob/34c09d7bfbed9b36b3b23f1f72a733ed310265cd/maid-whale-webui/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@yunxii/dsh-client-ui-skin-maid-whale-webui",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1790785428,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yunxiiQwQ/dsh-maid-whale-UI",
+              "commit": "34c09d7bfbed9b36b3b23f1f72a733ed310265cd",
+              "path": "maid-whale-webui"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yunxiiQwQ/dsh-maid-whale-UI",
+    "commit": "34c09d7bfbed9b36b3b23f1f72a733ed310265cd",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:21.262Z"
+}

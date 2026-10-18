@@ -1,0 +1,144 @@
+{
+  "full_name": "Yurzi/dsh-web-fetch-enhanced",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:17.216Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "745a89290924951db3cb4a605d29d3821e0edea614391301118e1f0ed6fc5eab",
+      "url": "https://github.com/Yurzi/dsh-web-fetch-enhanced/blob/a2c87b67a84d69219c3ac90486a92e4a360bb98b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-fetch-enhanced",
+          "command": "dsh plugin --profile web add dsh-web-fetch-enhanced",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "42d7de848659c08ffbaf0cb1f82ed8e696e6491989dc9137f3a8c1e07baa5d27",
+      "url": "https://github.com/Yurzi/dsh-web-fetch-enhanced/blob/a2c87b67a84d69219c3ac90486a92e4a360bb98b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-fetch-enhanced",
+          "command": "dsh plugin --profile web add dsh-web-fetch-enhanced",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-fetch-enhanced",
+      "version": "0.0.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yurzi/dsh-web-fetch-enhanced",
+        "commit": "a2c87b67a84d69219c3ac90486a92e4a360bb98b"
+      },
+      "manifestSha256": "3cf786059aa7476302b451c195234a212ad329312cd2d079423d9b6892883f62",
+      "manifestUrl": "https://github.com/Yurzi/dsh-web-fetch-enhanced/blob/a2c87b67a84d69219c3ac90486a92e4a360bb98b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-web-fetch-enhanced",
+        "versions": [
+          {
+            "version": "0.0.12",
+            "publishTimestamp": 1791610011,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yurzi/dsh-web-fetch-enhanced",
+              "commit": "a2c87b67a84d69219c3ac90486a92e4a360bb98b"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-web-fetch-enhanced",
+      "origin": "npm",
+      "name": "dsh-web-fetch-enhanced",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-web-fetch-enhanced",
+        "title": "dsh-web-fetch-enhanced",
+        "description": "Configurable User-Agent and non-public address allowlists for DeepSeek Harness web_fetch",
+        "homepage": "https://github.com/Yurzi/dsh-web-fetch-enhanced#readme",
+        "repository": {
+          "url": "https://github.com/Yurzi/dsh-web-fetch-enhanced"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "web-fetch",
+            "ssrf",
+            "fake-ip",
+            "allowlist"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.0.12",
+            "publishTimestamp": 1791610143,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6971f05532cf9cdf572583ca9da70538616b3245da2b84093505d419a93061b7",
+      "evidence": [
+        {
+          "name": "dsh-web-fetch-enhanced",
+          "version": "0.0.12",
+          "tarball": "https://registry.npmjs.org/dsh-web-fetch-enhanced/-/dsh-web-fetch-enhanced-0.0.12.tgz",
+          "integrity": "sha512-ssQmnnyW+vkLA87dZE0+436rsqg/dA+IdFbKl8DABkhkGiX9mkW3I3P8Stu1A+RRtLnrFWv4JtOzRIQ1K65ylA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-web-fetch-enhanced",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yurzi/dsh-web-fetch-enhanced",
+    "commit": "a2c87b67a84d69219c3ac90486a92e4a360bb98b",
+    "releaseTags": 9,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:22.817Z"
+}

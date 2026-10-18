@@ -1,0 +1,137 @@
+{
+  "full_name": "yanzwzz/dsh-whale-girl-pet",
+  "originalPosition": 86,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 86,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:50.277Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "900664e8eb85004c84a6ee37fee8ea9c0ddb6def945df731eda699e8967cfea5",
+      "url": "https://github.com/yanzwzz/dsh-whale-girl-pet/blob/b5ce53cfa87b9fc669eef2aabe64946bb77adb72/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-whale-girl-pet",
+          "command": "dsh plugin --profile web add dsh-whale-girl-pet",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-girl-pet",
+      "version": "0.3.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanzwzz/dsh-whale-girl-pet",
+        "commit": "b5ce53cfa87b9fc669eef2aabe64946bb77adb72"
+      },
+      "manifestSha256": "d0b42847baca53c16e5ddc3e4c6356036724fc730591a47da1177f2b73b65b8e",
+      "manifestUrl": "https://github.com/yanzwzz/dsh-whale-girl-pet/blob/b5ce53cfa87b9fc669eef2aabe64946bb77adb72/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-whale-girl-pet",
+        "versions": [
+          {
+            "version": "0.3.10",
+            "publishTimestamp": 1791945197,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yanzwzz/dsh-whale-girl-pet",
+              "commit": "b5ce53cfa87b9fc669eef2aabe64946bb77adb72"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-whale-girl-pet",
+      "origin": "npm",
+      "name": "dsh-whale-girl-pet",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-whale-girl-pet",
+        "title": "dsh-whale-girl-pet",
+        "description": "🐋 DeepSeek 娘桌宠：住进 DeepSeek Harness Web 界面的蓝发鲸鱼女仆。工作链路（开工/轮播/收工庆祝）、任务完成统计气泡（用时/消耗/花费）、会话与单轮费用 pill（缓存命中/未命中/输出三桶 + 谷峰）、📊 分时段花费看板（北京小时·日趋势、三桶堆叠柱、缓存命中率、可拖动缩放）、睡眠系统、时间感知、余额/天气/喂食按钮与完整设置面板。A whale-girl desktop pet for the DeepSeek Harness Web UI.",
+        "author": "yanzwzz",
+        "homepage": "https://github.com/yanzwzz/dsh-whale-girl-pet#readme",
+        "repository": {
+          "url": "https://github.com/yanzwzz/dsh-whale-girl-pet"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "desktop-pet",
+            "pet",
+            "floating-widget",
+            "web-ui",
+            "cordis",
+            "react",
+            "deepseek",
+            "mascot",
+            "whale"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.10",
+            "publishTimestamp": 1791945322,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9c918035e66479c121149bfdd2e2af95fbb6873b90eb7936b3c397fef688ea5d",
+      "evidence": [
+        {
+          "name": "dsh-whale-girl-pet",
+          "version": "0.3.10",
+          "tarball": "https://registry.npmjs.org/dsh-whale-girl-pet/-/dsh-whale-girl-pet-0.3.10.tgz",
+          "integrity": "sha512-NwRU/+gKXXd/AIMsRKTTtAsDfPGhAYpUFrJkFXYPVcG0VBIzMj+4BV5lOCnvjhnrznZCmUS+HOMprHP5SP3eVg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-whale-girl-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yanzwzz/dsh-whale-girl-pet",
+    "commit": "b5ce53cfa87b9fc669eef2aabe64946bb77adb72",
+    "releaseTags": 13,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:54.590Z"
+}

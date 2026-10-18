@@ -1,0 +1,77 @@
+{
+  "full_name": "OK-wx/dsh-ocgo-lite",
+  "originalPosition": 59,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 59,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:31.366Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "906c402090e458d3846b45a1c248ae53f6ede3bedef71d7d025d3b74d455cbc7",
+      "url": "https://github.com/OK-wx/dsh-ocgo-lite/blob/96314bcd7966c88b6907fe5797719793a9b014e9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/OK-wx/dsh-ocgo-lite",
+          "command": "dsh plugin --profile web add github:OK-wx/dsh-ocgo-lite",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ocgo-lite",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/OK-wx/dsh-ocgo-lite",
+        "commit": "96314bcd7966c88b6907fe5797719793a9b014e9"
+      },
+      "manifestSha256": "d6c75e2855dbe8e93f2dde9241c632e30db33fb0ad7e38a6e0886d200f4a2db6",
+      "manifestUrl": "https://github.com/OK-wx/dsh-ocgo-lite/blob/96314bcd7966c88b6907fe5797719793a9b014e9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ocgo-lite",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787275295,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/OK-wx/dsh-ocgo-lite",
+              "commit": "96314bcd7966c88b6907fe5797719793a9b014e9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/OK-wx/dsh-ocgo-lite",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/OK-wx/dsh-ocgo-lite",
+    "commit": "96314bcd7966c88b6907fe5797719793a9b014e9",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:36.716Z"
+}

@@ -1,0 +1,68 @@
+{
+  "full_name": "suzike/freestyle-dsh-theme",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:23.244Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "43e9335b1d7f1fda7c96f86900db25ff282c019b7046fcce1e2583f6e716395a",
+      "url": "https://github.com/suzike/freestyle-dsh-theme/blob/cd9e9eb53ccbaded4cf6123919e24392daeda0d4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@linxin666/freestyle-dsh-theme",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/suzike/freestyle-dsh-theme",
+        "commit": "cd9e9eb53ccbaded4cf6123919e24392daeda0d4"
+      },
+      "manifestSha256": "3bb2f78f8cd422ab5acce6d608a8cb816447e6aa8bebd6a27c31c6572e5dcdcb",
+      "manifestUrl": "https://github.com/suzike/freestyle-dsh-theme/blob/cd9e9eb53ccbaded4cf6123919e24392daeda0d4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@linxin666/freestyle-dsh-theme",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786688452,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/suzike/freestyle-dsh-theme",
+              "commit": "cd9e9eb53ccbaded4cf6123919e24392daeda0d4"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/suzike/freestyle-dsh-theme",
+    "commit": "cd9e9eb53ccbaded4cf6123919e24392daeda0d4",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:28.155Z"
+}

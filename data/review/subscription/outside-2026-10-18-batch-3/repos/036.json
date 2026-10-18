@@ -1,0 +1,93 @@
+{
+  "full_name": "wally8-8/dsh-done-whale",
+  "originalPosition": 36,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 36,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:53.839Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0944f8667acb27ddcf55c79402c4c00a62367d8524273c15d25e39e43ec0e6c6",
+      "url": "https://github.com/wally8-8/dsh-done-whale/blob/39055c5ed43906fe35a7e49465e074ecc9aa0755/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/wally8-8/dsh-done-whale",
+          "command": "dsh plugin --profile web add -w github:wally8-8/dsh-done-whale",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-done-whale",
+          "command": "dsh plugin --profile web add dsh-done-whale",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-done-whale",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wally8-8/dsh-done-whale",
+        "commit": "39055c5ed43906fe35a7e49465e074ecc9aa0755"
+      },
+      "manifestSha256": "1184ca9af5ac1572ccbd89623995080b0844e4664cdb7fbc222b5d283ab788ab",
+      "manifestUrl": "https://github.com/wally8-8/dsh-done-whale/blob/39055c5ed43906fe35a7e49465e074ecc9aa0755/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-done-whale",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1790248244,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wally8-8/dsh-done-whale",
+              "commit": "39055c5ed43906fe35a7e49465e074ecc9aa0755"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-done-whale",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/wally8-8/dsh-done-whale",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-done-whale",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wally8-8/dsh-done-whale",
+    "commit": "39055c5ed43906fe35a7e49465e074ecc9aa0755",
+    "releaseTags": 7,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:58.286Z"
+}

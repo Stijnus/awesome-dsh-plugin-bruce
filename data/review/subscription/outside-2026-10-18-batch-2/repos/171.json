@@ -1,0 +1,415 @@
+{
+  "full_name": "jiuge2467/dsh-studio",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:00.049Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "22625611db51e20115a596c5a963ed1de57e9e5e9a24869c77d20cb0d0fcf898",
+      "url": "https://github.com/jiuge2467/dsh-studio/blob/e85107ade4fe8266f657a6387268b24b5e2ac74f/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-sidebar",
+          "command": "dsh plugin --profile web add dsh-better-sidebar",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-sidebar-mcp",
+          "command": "dsh plugin --profile web add dsh-better-sidebar-mcp",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mascot-pet",
+          "command": "dsh plugin --profile web add dsh-mascot-pet",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7eeb2aa217aa52e08d64059890ce48afe164b6393cb8e48c1404ade9c9dadde9",
+      "url": "https://github.com/jiuge2467/dsh-studio/blob/e85107ade4fe8266f657a6387268b24b5e2ac74f/README.zh.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-sidebar-mcp",
+          "command": "dsh plugin --profile web add dsh-better-sidebar-mcp",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-sidebar",
+          "command": "dsh plugin --profile web add dsh-better-sidebar",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mascot-pet",
+          "command": "dsh plugin --profile web add dsh-mascot-pet",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6a186f1b83f75ca1149f05fa250df6f51a283123bbd9911d1a28c28b31990312",
+      "url": "https://github.com/jiuge2467/dsh-studio/blob/e85107ade4fe8266f657a6387268b24b5e2ac74f/README.en.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-sidebar",
+          "command": "dsh plugin --profile web add dsh-better-sidebar",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-sidebar-mcp",
+          "command": "dsh plugin --profile web add dsh-better-sidebar-mcp",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mascot-pet",
+          "command": "dsh plugin --profile web add dsh-mascot-pet",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-base",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/base",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiuge2467/dsh-studio",
+        "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+        "path": "packages/bundle/base"
+      },
+      "manifestSha256": "9199fac428e298444f7c111b0a96e77474ce48cbf8544e191b79b70a0dda197f",
+      "manifestUrl": "https://github.com/jiuge2467/dsh-studio/blob/e85107ade4fe8266f657a6387268b24b5e2ac74f/packages/bundle/base/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-base",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1786909308,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiuge2467/dsh-studio",
+              "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+              "path": "packages/bundle/base"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-headless",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/headless",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiuge2467/dsh-studio",
+        "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+        "path": "packages/bundle/headless"
+      },
+      "manifestSha256": "f4bacd6de47033457e083c63dd1c624fc63ac7510fbca9ed6786e7dad0340c42",
+      "manifestUrl": "https://github.com/jiuge2467/dsh-studio/blob/e85107ade4fe8266f657a6387268b24b5e2ac74f/packages/bundle/headless/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-headless",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1786909308,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiuge2467/dsh-studio",
+              "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+              "path": "packages/bundle/headless"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-web-app",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/web-app",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiuge2467/dsh-studio",
+        "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+        "path": "packages/bundle/web-app"
+      },
+      "manifestSha256": "e7a78c64bd743fbe32fbeffb83202eaaf4952329bbff6b385943051f0e43a919",
+      "manifestUrl": "https://github.com/jiuge2467/dsh-studio/blob/e85107ade4fe8266f657a6387268b24b5e2ac74f/packages/bundle/web-app/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-web-app",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1786909308,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiuge2467/dsh-studio",
+              "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+              "path": "packages/bundle/web-app"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-sidebar",
+      "version": "0.12.3",
+      "path": "plugins/dsh-better-sidebar",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiuge2467/dsh-studio",
+        "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+        "path": "plugins/dsh-better-sidebar"
+      },
+      "manifestSha256": "3e796f96ae609f1e6ac594566806c49290a6013853f916f864c2d3e1290e98a2",
+      "manifestUrl": "https://github.com/jiuge2467/dsh-studio/blob/e85107ade4fe8266f657a6387268b24b5e2ac74f/plugins/dsh-better-sidebar/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-better-sidebar",
+        "versions": [
+          {
+            "version": "0.12.3",
+            "publishTimestamp": 1786909308,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiuge2467/dsh-studio",
+              "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+              "path": "plugins/dsh-better-sidebar"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-sidebar-mcp",
+      "version": "0.1.0",
+      "path": "plugins/dsh-better-sidebar-mcp",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiuge2467/dsh-studio",
+        "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+        "path": "plugins/dsh-better-sidebar-mcp"
+      },
+      "manifestSha256": "40b4a679f4d43b6b1c6b7cee776c55332410ad528685ed57daa67bece0188ad9",
+      "manifestUrl": "https://github.com/jiuge2467/dsh-studio/blob/e85107ade4fe8266f657a6387268b24b5e2ac74f/plugins/dsh-better-sidebar-mcp/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-better-sidebar-mcp",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786909308,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiuge2467/dsh-studio",
+              "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+              "path": "plugins/dsh-better-sidebar-mcp"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-sidebar-skills",
+      "version": "0.1.0",
+      "path": "plugins/dsh-better-sidebar-skills",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiuge2467/dsh-studio",
+        "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+        "path": "plugins/dsh-better-sidebar-skills"
+      },
+      "manifestSha256": "551cb841bfa64a16a26ae18f2102dc35ca169ce5be9920c5aa8e5adeb89cc5e2",
+      "manifestUrl": "https://github.com/jiuge2467/dsh-studio/blob/e85107ade4fe8266f657a6387268b24b5e2ac74f/plugins/dsh-better-sidebar-skills/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-better-sidebar-skills",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786909308,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiuge2467/dsh-studio",
+              "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+              "path": "plugins/dsh-better-sidebar-skills"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mascot-pet",
+      "version": "0.1.0",
+      "path": "plugins/dsh-mascot-pet",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiuge2467/dsh-studio",
+        "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+        "path": "plugins/dsh-mascot-pet"
+      },
+      "manifestSha256": "a5c5b7465298fa5322670b666d50ceb5b16362794b1540b16fc456d37cac06cf",
+      "manifestUrl": "https://github.com/jiuge2467/dsh-studio/blob/e85107ade4fe8266f657a6387268b24b5e2ac74f/plugins/dsh-mascot-pet/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-mascot-pet",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786909308,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiuge2467/dsh-studio",
+              "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+              "path": "plugins/dsh-mascot-pet"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-better-sidebar",
+      "origin": "npm",
+      "name": "dsh-better-sidebar",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-better-sidebar",
+        "title": {
+          "en": "Better Sidebar",
+          "zh": "Better Sidebar"
+        },
+        "description": {
+          "en": "A better right sidebar — file tree, editor, changes, tasks and side chat in one column, separate for every conversation.",
+          "zh": "更好用的右侧边栏——文件树、编辑器、文件变动、任务和侧边对话都收在这一栏里，每个会话互不干扰。"
+        },
+        "repository": {
+          "url": "https://github.com/omdsh-dev/DSH-better-sidebar"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI2LjUiIHk9IjkiIHdpZHRoPSIyMyIgaGVpZ2h0PSIxOCIgcng9IjIuNSIgZmlsbD0idXJsKCNhKSIgLz4KICA8cmVjdCB4PSIyMS41IiB5PSI5IiB3aWR0aD0iOCIgaGVpZ2h0PSIxOCIgcng9IjIuNSIgZmlsbD0idXJsKCNiKSIgLz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjYuNSIgeTE9IjkiIHgyPSIyOS41IiB5Mj0iMjciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzY5QjlGRiIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzI0REUyIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjI1LjUiIHkxPSI5IiB4Mj0iMjUuNSIgeTI9IjI3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM0NUU3QTQiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA1OTA5RCIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.28.0",
+            "publishTimestamp": 1792218651,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a98cd854de0f96359b1e3e36f8bc1d6d0f92e86327904b49ee3551cb19467792",
+      "evidence": [
+        {
+          "name": "dsh-better-sidebar",
+          "version": "0.28.0",
+          "tarball": "https://registry.npmjs.org/dsh-better-sidebar/-/dsh-better-sidebar-0.28.0.tgz",
+          "integrity": "sha512-x7+/YmH/HrSlXWOBZkhL7qQqcDgZEnDcWrhR5GlizzUZjz+w84FbQ6jo8trJC9tyaQxMaNvXVnXwDxn4I330Ew=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-better-sidebar-mcp",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    },
+    {
+      "target": "dsh-mascot-pet",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-sidebar",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-sidebar-mcp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mascot-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jiuge2467/dsh-studio",
+    "commit": "e85107ade4fe8266f657a6387268b24b5e2ac74f",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:22.151Z"
+}

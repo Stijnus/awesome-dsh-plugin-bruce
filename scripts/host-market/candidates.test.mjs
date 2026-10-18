@@ -2,7 +2,7 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { buildCandidates } from './candidates.mjs'
 const mapping = { packages: [{ profile: 'web', source: 'npm:demo', install: 'demo', command: 'dsh plugin add demo' }], status: 'readme-verified', verified_date: '2026-10-17', verified_via: 'README' }
-test('subscription expands beyond the community cap while retaining approval and exclusion gates', () => {
+test('candidate pool expands beyond the community cap before the final verified cap', () => {
   const names = ['base', 'low', 'blocked', 'archived', 'unapproved', 'pending', 'manual']
   const snapshot = { repositories: names.map((name, id) => ({ id: id + 1, full_name: `owner/${name}`, description: 'DSH plugin', stargazers_count: name === 'base' ? 100 : 1, archived: name === 'archived' })) }
   const market = { schema_version: 2, entries: [{ full_name: 'owner/base', stargazers_count: 100 }], featured: { entries: [] } }
@@ -10,6 +10,9 @@ test('subscription expands beyond the community cap while retaining approval and
   const before = JSON.stringify(input)
   const result = buildCandidates(input)
   assert.deepEqual(result.entries.map(r => r.full_name), ['owner/base', 'owner/low'])
+  assert.ok(result.excludedRepositories.includes('owner/blocked'))
+  assert.ok(result.excludedRepositories.includes('bruc3van/awesome-dsh-plugin'))
+  assert.equal(result.subscriptionCandidates.selectionPolicy, 'top-600-verified-plugins-by-stars-v1')
   assert.equal(result.subscriptionCandidates.outsideDirectoryWithoutMapping, 1)
   assert.equal(result.subscriptionCandidates.outsideDirectoryManual, 1)
   assert.equal(JSON.stringify(input), before)

@@ -1,0 +1,148 @@
+{
+  "full_name": "aa2246740/dsh-resume",
+  "originalPosition": 132,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:58.542Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5af2532180a1d90cbe23ffd36d4ce198be149e97f2b84b9dbedf9aac82684133",
+      "url": "https://github.com/aa2246740/dsh-resume/blob/470e21f8d97215f70166991fe6a0607915516b3a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/aa2246740/dsh-resume#v0.2.5",
+          "command": "dsh plugin --profile web add github:aa2246740/dsh-resume#v0.2.5",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "93e692cdfe211febc6803bea4f526bbd2c840a8fb6da164b684d49a1cc04e679",
+      "url": "https://github.com/aa2246740/dsh-resume/blob/470e21f8d97215f70166991fe6a0607915516b3a/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/aa2246740/dsh-resume#v0.2.5",
+          "command": "dsh plugin --profile web add github:aa2246740/dsh-resume#v0.2.5",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-resume",
+      "version": "0.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aa2246740/dsh-resume",
+        "commit": "470e21f8d97215f70166991fe6a0607915516b3a"
+      },
+      "manifestSha256": "9f8e3f835565969ada19d2989c512f7573a29b433f16f6ddef67718cbf7853a6",
+      "manifestUrl": "https://github.com/aa2246740/dsh-resume/blob/470e21f8d97215f70166991fe6a0607915516b3a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.2.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-resume",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1790687928,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/aa2246740/dsh-resume",
+              "commit": "470e21f8d97215f70166991fe6a0607915516b3a"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/aa2246740/dsh-resume#v0.2.5",
+      "origin": "git_target",
+      "name": "dsh-resume",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-resume",
+        "title": "dsh-resume",
+        "description": "Continue Codex, Claude Code, Cursor, Grok, Pi, and ZCode work in DeepSeek Harness.",
+        "homepage": "https://github.com/aa2246740/dsh-resume#readme",
+        "repository": {
+          "url": "https://github.com/aa2246740/dsh-resume"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "codex",
+            "claude-code",
+            "cursor",
+            "grok",
+            "pi-coding-agent",
+            "zcode",
+            "session-handoff"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1790687928,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/aa2246740/dsh-resume",
+              "commit": "470e21f8d97215f70166991fe6a0607915516b3a"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "470e21f8d97215f70166991fe6a0607915516b3a",
+          "name": "dsh-resume",
+          "version": "0.2.5",
+          "url": "https://github.com/aa2246740/dsh-resume",
+          "manifestSha256": "9f8e3f835565969ada19d2989c512f7573a29b433f16f6ddef67718cbf7853a6",
+          "publishTimestamp": 1790687928
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/aa2246740/dsh-resume#v0.2.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aa2246740/dsh-resume",
+    "commit": "470e21f8d97215f70166991fe6a0607915516b3a",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:10.043Z"
+}

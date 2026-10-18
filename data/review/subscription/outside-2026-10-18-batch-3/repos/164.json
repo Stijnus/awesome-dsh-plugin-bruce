@@ -1,0 +1,151 @@
+{
+  "full_name": "sheep-programmer/dsh-web-search-free",
+  "originalPosition": 164,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 164,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:42.166Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "40c3fd092e49334e9314786fdd8627be9b37bd42ae759d528af98164074baa7b",
+      "url": "https://github.com/sheep-programmer/dsh-web-search-free/blob/3e4495c1245a83471b6de80f72bc72b3a566137b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@sheep233_/dsh-web-search-free",
+          "command": "dsh plugin --profile web add @sheep233_/dsh-web-search-free",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "8bc4b739705df22c0b1a47b9fd8d2447f14d6d63956525097e82a870fc147c53",
+      "url": "https://github.com/sheep-programmer/dsh-web-search-free/blob/3e4495c1245a83471b6de80f72bc72b3a566137b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@sheep233_/dsh-web-search-free",
+          "command": "dsh plugin --profile web add @sheep233_/dsh-web-search-free",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@sheep233_/dsh-web-search-free",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sheep-programmer/dsh-web-search-free",
+        "commit": "3e4495c1245a83471b6de80f72bc72b3a566137b"
+      },
+      "manifestSha256": "6b51a76974874464411b50929e8a1c7348d65b1b12cab497da2b531fb6cf89a9",
+      "manifestUrl": "https://github.com/sheep-programmer/dsh-web-search-free/blob/3e4495c1245a83471b6de80f72bc72b3a566137b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc <2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@sheep233_/dsh-web-search-free",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1787966391,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sheep-programmer/dsh-web-search-free",
+              "commit": "3e4495c1245a83471b6de80f72bc72b3a566137b"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc <2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@sheep233_/dsh-web-search-free",
+      "origin": "npm",
+      "name": "@sheep233_/dsh-web-search-free",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@sheep233_/dsh-web-search-free",
+        "title": "@sheep233_/dsh-web-search-free",
+        "description": "DSH 免费网页搜索 provider + 设置开关（Parallel 默认 / Exa 备用）+ MCP server 双传输（stdio + HTTP/SSE），兼容 Claude Code / Codex，一键切换官方计费搜索与免费搜索",
+        "author": "sheep-programmer",
+        "homepage": "https://github.com/sheep-programmer/dsh-web-search-free#readme",
+        "repository": {
+          "url": "https://github.com/sheep-programmer/dsh-web-search-free"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "web-search",
+            "search",
+            "free",
+            "parallel",
+            "exa",
+            "mcp",
+            "claude-code",
+            "codex",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1787978149,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc <2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "dabb1c1d252b01876a4b75357a64bcb44e808634da29a3747c024d29750d613c",
+      "evidence": [
+        {
+          "name": "@sheep233_/dsh-web-search-free",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/@sheep233_/dsh-web-search-free/-/dsh-web-search-free-0.3.1.tgz",
+          "integrity": "sha512-vU/H22j6YCXuhsUspRu2bMOC7Cpp6wRMUwXakouHBoISfZOpENJojd2NwyC3G8Plzcq9+Uy7IQ9Ing1g1BUhVA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@sheep233_/dsh-web-search-free",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sheep-programmer/dsh-web-search-free",
+    "commit": "3e4495c1245a83471b6de80f72bc72b3a566137b",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:47.575Z"
+}

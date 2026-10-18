@@ -1,0 +1,68 @@
+{
+  "full_name": "mistnest/dsh-cuigengji-plugin",
+  "originalPosition": 75,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 75,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:23.925Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "da4ca8d49171241e5d920f416fe37322d1f12ffee3720231a8c4a87f910d2b75",
+      "url": "https://github.com/mistnest/dsh-cuigengji-plugin/blob/7e547182608c0e5034fed483cdae29c3885176b4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cuigengji-plugin",
+      "version": "0.4.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mistnest/dsh-cuigengji-plugin",
+        "commit": "7e547182608c0e5034fed483cdae29c3885176b4"
+      },
+      "manifestSha256": "78344b760dbaa658ca558c7ca017446cb7f38ff7543d3f2a5ba77b735ce19ea2",
+      "manifestUrl": "https://github.com/mistnest/dsh-cuigengji-plugin/blob/7e547182608c0e5034fed483cdae29c3885176b4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-cuigengji-plugin",
+        "versions": [
+          {
+            "version": "0.4.5",
+            "publishTimestamp": 1792236358,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mistnest/dsh-cuigengji-plugin",
+              "commit": "7e547182608c0e5034fed483cdae29c3885176b4"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mistnest/dsh-cuigengji-plugin",
+    "commit": "7e547182608c0e5034fed483cdae29c3885176b4",
+    "releaseTags": 6,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:33.313Z"
+}

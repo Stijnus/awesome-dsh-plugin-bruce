@@ -1,0 +1,172 @@
+{
+  "full_name": "eric-song-dev/dsh-ikun-pet",
+  "originalPosition": 74,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 74,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:47.820Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e50dd0eddaf5e0fcca8973ef0486f7508526288879e975fdc46e699ee843bf6b",
+      "url": "https://github.com/eric-song-dev/dsh-ikun-pet/blob/ada74e3755730bbff1e619ca0f8ff7926d03ba98/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/eric-song-dev/dsh-ikun-pet",
+          "command": "dsh plugin add github:eric-song-dev/dsh-ikun-pet --profile web",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/eric-song-dev/dsh-ikun-pet.git",
+          "command": "dsh plugin add https://github.com/eric-song-dev/dsh-ikun-pet.git --profile web",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ikun-pet",
+          "command": "dsh plugin add dsh-ikun-pet --profile web",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b41c52b98df88bd57a26e9d88055c82570d4974c4edb4102cb499d411c7435ba",
+      "url": "https://github.com/eric-song-dev/dsh-ikun-pet/blob/ada74e3755730bbff1e619ca0f8ff7926d03ba98/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/eric-song-dev/dsh-ikun-pet",
+          "command": "dsh plugin add github:eric-song-dev/dsh-ikun-pet --profile web",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/eric-song-dev/dsh-ikun-pet.git",
+          "command": "dsh plugin add https://github.com/eric-song-dev/dsh-ikun-pet.git --profile web",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ikun-pet",
+          "command": "dsh plugin add dsh-ikun-pet --profile web",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ikun-pet",
+      "version": "2.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/eric-song-dev/dsh-ikun-pet",
+        "commit": "ada74e3755730bbff1e619ca0f8ff7926d03ba98"
+      },
+      "manifestSha256": "b239bfe9a876bb37e62501a39d0ed0e7e5cbfab564fa069c9ce291ac18f4ce67",
+      "manifestUrl": "https://github.com/eric-song-dev/dsh-ikun-pet/blob/ada74e3755730bbff1e619ca0f8ff7926d03ba98/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ikun-pet",
+        "versions": [
+          {
+            "version": "2.2.0",
+            "publishTimestamp": 1786822048,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/eric-song-dev/dsh-ikun-pet",
+              "commit": "ada74e3755730bbff1e619ca0f8ff7926d03ba98"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ikun-pet",
+      "origin": "npm",
+      "name": "dsh-ikun-pet",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ikun-pet",
+        "title": "dsh-ikun-pet",
+        "description": "dsh-ikun-pet · ikun 桌宠 —— DeepSeek Harness 永久插件：在 DSH Deep diving 回答期间，用坤宠动图填满深潜状态行下方区块，进度 0%→100%，每 20% 切换动作与文案，完成时系统级播放提示音",
+        "author": "eric-song-dev",
+        "homepage": "https://github.com/eric-song-dev/dsh-ikun-pet#readme",
+        "repository": {
+          "url": "https://github.com/eric-song-dev/dsh-ikun-pet"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "plugin",
+            "deep-dive",
+            "progress",
+            "desktop-pet",
+            "kun",
+            "桌宠"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.2.0",
+            "publishTimestamp": 1786820912,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e9b98a7270144596c9cfdbb806571c0d64d97f253b066e8793cdeb286e32f106",
+      "evidence": [
+        {
+          "name": "dsh-ikun-pet",
+          "version": "2.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-ikun-pet/-/dsh-ikun-pet-2.2.0.tgz",
+          "integrity": "sha512-FEI5lVskxvf3GDmpVgO+7YjIh087oUFFHwosIzR5Djj0w46KvkTkcLc6UHrt6Ru2xEjHui1YcV+epaKYzvSAeQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/eric-song-dev/dsh-ikun-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/eric-song-dev/dsh-ikun-pet.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ikun-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/eric-song-dev/dsh-ikun-pet",
+    "commit": "ada74e3755730bbff1e619ca0f8ff7926d03ba98",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:57.806Z"
+}

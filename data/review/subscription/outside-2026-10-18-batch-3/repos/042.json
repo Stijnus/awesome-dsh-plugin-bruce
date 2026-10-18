@@ -1,0 +1,479 @@
+{
+  "full_name": "AKS1st/dock",
+  "originalPosition": 42,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 42,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:01.134Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c5eb265cd9254f1d44f1e3d058d315e80b902835c0249d308e68dfee6ec5a58e",
+      "url": "https://github.com/AKS1st/dock/blob/8535f6e24670931d9e93fb087ab474e38aa01856/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AKS1st/dock",
+          "command": "dsh plugin --profile web add github:AKS1st/dock",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/dock-files",
+          "command": "dsh plugin --profile web add github:AKS1st/dock-files",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/dock-editor",
+          "command": "dsh plugin --profile web add github:AKS1st/dock-editor",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/dock-images",
+          "command": "dsh plugin --profile web add github:AKS1st/dock-images",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/dock-markdown",
+          "command": "dsh plugin --profile web add github:AKS1st/dock-markdown",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/dock-git",
+          "command": "dsh plugin --profile web add github:AKS1st/dock-git",
+          "profile": "web"
+        },
+        {
+          "install": "dock-base",
+          "command": "dsh plugin --profile web add dock-base",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b8532661166e7c2d2bae871155fa51d90deabef53054d7eec5e7bd40e3f19411",
+      "url": "https://github.com/AKS1st/dock/blob/8535f6e24670931d9e93fb087ab474e38aa01856/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AKS1st/dock",
+          "command": "dsh plugin --profile web add github:AKS1st/dock",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/dock-files",
+          "command": "dsh plugin --profile web add github:AKS1st/dock-files",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/dock-editor",
+          "command": "dsh plugin --profile web add github:AKS1st/dock-editor",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/dock-images",
+          "command": "dsh plugin --profile web add github:AKS1st/dock-images",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/dock-markdown",
+          "command": "dsh plugin --profile web add github:AKS1st/dock-markdown",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/dock-git",
+          "command": "dsh plugin --profile web add github:AKS1st/dock-git",
+          "profile": "web"
+        },
+        {
+          "install": "dock-base",
+          "command": "dsh plugin --profile web add dock-base",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dock-base",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AKS1st/dock",
+        "commit": "8535f6e24670931d9e93fb087ab474e38aa01856"
+      },
+      "manifestSha256": "dd8f000415415cd8128a392370408b6610ad039d1ac65ed037a375350fe158c7",
+      "manifestUrl": "https://github.com/AKS1st/dock/blob/8535f6e24670931d9e93fb087ab474e38aa01856/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.3-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dock-base",
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1790740226,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AKS1st/dock",
+              "commit": "8535f6e24670931d9e93fb087ab474e38aa01856"
+            },
+            "engines": {
+              "dsh": ">=0.1.3-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/AKS1st/dock-files",
+      "origin": "git_target",
+      "name": "dock-files",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dock-files",
+        "title": "dock-files",
+        "description": "File explorer for the DSH dock: browse the active conversation's working directory and open files in the registered file viewers.",
+        "repository": {
+          "url": "https://github.com/AKS1st/dock-files"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "dsh-plugin",
+            "web-ui",
+            "files",
+            "explorer",
+            "dock"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1790794401,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AKS1st/dock-files",
+              "commit": "d24224beb8cf024a9c6e79fe97445001d73150b8"
+            },
+            "engines": {
+              "dsh": ">=0.1.3-alpha.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "d24224beb8cf024a9c6e79fe97445001d73150b8",
+          "name": "dock-files",
+          "version": "0.4.0",
+          "url": "https://github.com/AKS1st/dock-files",
+          "manifestSha256": "6e86d634a70649db290d973f9662e0187c273d823388dab792cb47eba358d254",
+          "publishTimestamp": 1790794401
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/AKS1st/dock-editor",
+      "origin": "git_target",
+      "name": "dock-editor",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dock-editor",
+        "title": "dock-editor",
+        "description": "Text file viewer and editor for the dock file explorer: undo/redo, Ctrl+S save, and unsaved-change confirmation.",
+        "repository": {
+          "url": "https://github.com/AKS1st/dock-editor"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "dsh-plugin",
+            "web-ui",
+            "editor",
+            "text",
+            "dock"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1789113914,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AKS1st/dock-editor",
+              "commit": "f6e5e0845c42e2b09a7a8d671a66b331fe094634"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "f6e5e0845c42e2b09a7a8d671a66b331fe094634",
+          "name": "dock-editor",
+          "version": "0.2.2",
+          "url": "https://github.com/AKS1st/dock-editor",
+          "manifestSha256": "cdcb3acf1207cf00bf19e62cb258e90a347b752417d27719368723b3416da7ee",
+          "publishTimestamp": 1789113914
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/AKS1st/dock-images",
+      "origin": "git_target",
+      "name": "dock-images",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dock-images",
+        "title": "dock-images",
+        "description": "Image viewer for the dock file explorer: renders PNG, JPEG, GIF, WebP, BMP, SVG, ICO and AVIF files.",
+        "repository": {
+          "url": "https://github.com/AKS1st/dock-images"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "dsh-plugin",
+            "web-ui",
+            "image",
+            "viewer",
+            "dock"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1790149223,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AKS1st/dock-images",
+              "commit": "b98f3910c59af6f30c742b0ddc001315c2c176ee"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "b98f3910c59af6f30c742b0ddc001315c2c176ee",
+          "name": "dock-images",
+          "version": "0.1.3",
+          "url": "https://github.com/AKS1st/dock-images",
+          "manifestSha256": "c50629a8f9b4e6b4616c93ae4125d57fa4f4a3146d5f2fdf441f549e2a48da52",
+          "publishTimestamp": 1790149223
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/AKS1st/dock-markdown",
+      "origin": "git_target",
+      "name": "dock-markdown",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dock-markdown",
+        "title": "dock-markdown",
+        "description": "Markdown viewer for the dock file explorer: renders .md/.markdown/.mdx files with a one-click switch to the text editor.",
+        "repository": {
+          "url": "https://github.com/AKS1st/dock-markdown"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "dsh-plugin",
+            "web-ui",
+            "markdown",
+            "viewer",
+            "dock"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1789113915,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AKS1st/dock-markdown",
+              "commit": "64cbfd89b2e008ca3bd2c42a8f167e46ee7b3b54"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "64cbfd89b2e008ca3bd2c42a8f167e46ee7b3b54",
+          "name": "dock-markdown",
+          "version": "0.1.2",
+          "url": "https://github.com/AKS1st/dock-markdown",
+          "manifestSha256": "9de551380ab9c0f7b9ca30deca87d5ea5977db918e956f33518a4b20bc78e0cf",
+          "publishTimestamp": 1789113915
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/AKS1st/dock-git",
+      "origin": "git_target",
+      "name": "dock-git",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dock-git",
+        "title": "dock-git",
+        "description": "Git history viewer for the DSH dock: browse the commit graph, branches, tags and remotes; stage, commit, push and manage repository settings.",
+        "repository": {
+          "url": "https://github.com/AKS1st/dock-git"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "dsh-plugin",
+            "web-ui",
+            "git",
+            "history",
+            "graph",
+            "dock"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1789113914,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AKS1st/dock-git",
+              "commit": "961c203dd87a3dc2940f7c7a3df51d6a00e37b5e"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "961c203dd87a3dc2940f7c7a3df51d6a00e37b5e",
+          "name": "dock-git",
+          "version": "0.3.4",
+          "url": "https://github.com/AKS1st/dock-git",
+          "manifestSha256": "27e309d1e43d7681aebc676d73e9e83afb45bb24a99772b11df19ffb5eb6fe65",
+          "publishTimestamp": 1789113914
+        }
+      ]
+    },
+    {
+      "target": "dock-base",
+      "origin": "npm",
+      "name": "dock-base",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dock-base",
+        "title": "dock-base",
+        "description": "DSH Web workbench base: a VSCode-style layout shell (activity bar, side bar, editor area, panel, status bar) with a registry service (ctx.workbench) that feature plugins use to mount panels, editor views, activity items, status items and commands.",
+        "repository": {
+          "url": "https://github.com/AKS1st/dock"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "dsh-plugin",
+            "web-ui",
+            "workbench",
+            "dock",
+            "layout"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1790740410,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.3-alpha.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d6a9b65dfbc76983bfb2049157b06b910cae890d9ef43e78eb082dd88125fd12",
+      "evidence": [
+        {
+          "name": "dock-base",
+          "version": "0.2.4",
+          "tarball": "https://registry.npmjs.org/dock-base/-/dock-base-0.2.4.tgz",
+          "integrity": "sha512-mpf8rF7n1xzJkyaETzbzj2tmGIvudHlpJvorapp17YkqvlTn0b/8HSVeKMas8QCToXRszRl/aJMEJ7iF6R55Kg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AKS1st/dock",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AKS1st/dock-files",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AKS1st/dock-editor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AKS1st/dock-images",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AKS1st/dock-markdown",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AKS1st/dock-git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dock-base",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AKS1st/dock",
+    "commit": "8535f6e24670931d9e93fb087ab474e38aa01856",
+    "releaseTags": 7,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:34.363Z"
+}

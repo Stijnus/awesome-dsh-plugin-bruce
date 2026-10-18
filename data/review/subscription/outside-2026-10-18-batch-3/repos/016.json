@@ -1,0 +1,73 @@
+{
+  "full_name": "XSJUSTC/dsh-rewind",
+  "originalPosition": 16,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 16,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:29.553Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c7438c743c250a1de4060df031de5bd6a62392534d4a11c359c26dccfcd81c87",
+      "url": "https://github.com/XSJUSTC/dsh-rewind/blob/bff8664a5b6165122b75af253a350b36b77533ce/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "4038af218a585b165f1a95b7407b39f0f918b188bc58edf27f2baed4fe5570c1",
+      "url": "https://github.com/XSJUSTC/dsh-rewind/blob/bff8664a5b6165122b75af253a350b36b77533ce/README_EN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xsj/dsh-rewind",
+      "version": "2.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XSJUSTC/dsh-rewind",
+        "commit": "bff8664a5b6165122b75af253a350b36b77533ce"
+      },
+      "manifestSha256": "780fe37b030e6fec995b7097a7d523594605358320eb682efdacc3b58c7d10f2",
+      "manifestUrl": "https://github.com/XSJUSTC/dsh-rewind/blob/bff8664a5b6165122b75af253a350b36b77533ce/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@xsj/dsh-rewind",
+        "versions": [
+          {
+            "version": "2.4.0",
+            "publishTimestamp": 1790042980,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XSJUSTC/dsh-rewind",
+              "commit": "bff8664a5b6165122b75af253a350b36b77533ce"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XSJUSTC/dsh-rewind",
+    "commit": "bff8664a5b6165122b75af253a350b36b77533ce",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:34.451Z"
+}

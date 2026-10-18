@@ -1,0 +1,128 @@
+{
+  "full_name": "TQSY114514/dsh-ui-appearance",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:18.487Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dd71aad7901e4d73037a623886b03b286124d8dc1b96880bfc145373d9a3a55b",
+      "url": "https://github.com/TQSY114514/dsh-ui-appearance/blob/e64243af0c21caa5afa99264cb2c6198f16a3d68/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ui-appearance",
+          "command": "dsh plugin --profile <name> add dsh-ui-appearance",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "45f78d72564990b45753e96bcfde5c4cf335508d9037e5de2985f8ba12cf32ec",
+      "url": "https://github.com/TQSY114514/dsh-ui-appearance/blob/e64243af0c21caa5afa99264cb2c6198f16a3d68/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ui-appearance",
+          "command": "dsh plugin --profile <name> add dsh-ui-appearance",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ui-appearance",
+      "version": "0.1.23",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TQSY114514/dsh-ui-appearance",
+        "commit": "e64243af0c21caa5afa99264cb2c6198f16a3d68"
+      },
+      "manifestSha256": "44ad7c4f9eb2d54865e69cc08ea65e75b87abd3ce090620dc0e528aa289f7055",
+      "manifestUrl": "https://github.com/TQSY114514/dsh-ui-appearance/blob/e64243af0c21caa5afa99264cb2c6198f16a3d68/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ui-appearance",
+        "versions": [
+          {
+            "version": "0.1.23",
+            "publishTimestamp": 1792165620,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TQSY114514/dsh-ui-appearance",
+              "commit": "e64243af0c21caa5afa99264cb2c6198f16a3d68"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ui-appearance",
+      "origin": "npm",
+      "name": "dsh-ui-appearance",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ui-appearance",
+        "title": "dsh-ui-appearance",
+        "description": "Appearance customization plugin for DeepSeek Harness WebUI: theme palette, background image, transparency and blur over the --dsw-* token system",
+        "author": "TQSY114514",
+        "repository": {
+          "url": "https://github.com/TQSY114514/dsh-ui-appearance"
+        },
+        "versions": [
+          {
+            "version": "0.1.23",
+            "publishTimestamp": 1792165750,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1fa7d967fb0db72c4e73c2dcedcf620dc24b15b1c0cd1467842595c00f8e3416",
+      "evidence": [
+        {
+          "name": "dsh-ui-appearance",
+          "version": "0.1.23",
+          "tarball": "https://registry.npmjs.org/dsh-ui-appearance/-/dsh-ui-appearance-0.1.23.tgz",
+          "integrity": "sha512-CEniSKkCsE4JU7Cb0ZtGw1gQe9Wf0KoJEV4sri3lEofwtddaH2ZGLJh+EspGyciSaIKWuIx3ulQGrAOADTVHpQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ui-appearance",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TQSY114514/dsh-ui-appearance",
+    "commit": "e64243af0c21caa5afa99264cb2c6198f16a3d68",
+    "releaseTags": 24,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:25.301Z"
+}

@@ -1,0 +1,65 @@
+{
+  "full_name": "U1s1-king/dsh-live2d-mygo",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:26.270Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7b8402011bbaac5041076a9e2d00e92b301495166b5122b5634a28c618edfb6d",
+      "url": "https://github.com/U1s1-king/dsh-live2d-mygo/blob/ff1072895d1ea52ed39271a1ed982d305a9188a6/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-live2d-mygo",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/U1s1-king/dsh-live2d-mygo",
+        "commit": "ff1072895d1ea52ed39271a1ed982d305a9188a6"
+      },
+      "manifestSha256": "98c79552de172a5fa3e1ead6983a34593f4ec23c679e3398203ac310b57c0ffe",
+      "manifestUrl": "https://github.com/U1s1-king/dsh-live2d-mygo/blob/ff1072895d1ea52ed39271a1ed982d305a9188a6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-live2d-mygo",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786970981,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/U1s1-king/dsh-live2d-mygo",
+              "commit": "ff1072895d1ea52ed39271a1ed982d305a9188a6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/U1s1-king/dsh-live2d-mygo",
+    "commit": "ff1072895d1ea52ed39271a1ed982d305a9188a6",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:50.619Z"
+}

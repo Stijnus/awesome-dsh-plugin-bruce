@@ -1,0 +1,141 @@
+{
+  "full_name": "AskTheWay/dsh-jev-interceptor",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:27.025Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9bd4f707b7906549d829dc63df106c64a6d3a18d8602a22183c40238b7e39e09",
+      "url": "https://github.com/AskTheWay/dsh-jev-interceptor/blob/57b8ea7889fe3dcb1b0628161b22e6a2c74a34f8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-jev-interceptor",
+          "command": "dsh plugin --profile <name> add dsh-jev-interceptor",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "45f38033ae548b897f513068a478ec9eac562396e70b0d1f209020a7b79cce15",
+      "url": "https://github.com/AskTheWay/dsh-jev-interceptor/blob/57b8ea7889fe3dcb1b0628161b22e6a2c74a34f8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-jev-interceptor",
+          "command": "dsh plugin --profile <name> add dsh-jev-interceptor",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-jev-interceptor",
+      "version": "0.4.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AskTheWay/dsh-jev-interceptor",
+        "commit": "57b8ea7889fe3dcb1b0628161b22e6a2c74a34f8"
+      },
+      "manifestSha256": "ce50c5cda669e5d84eec051466999c52dd67ed5e1d116f6dadc54dd028bb9654",
+      "manifestUrl": "https://github.com/AskTheWay/dsh-jev-interceptor/blob/57b8ea7889fe3dcb1b0628161b22e6a2c74a34f8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-jev-interceptor",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1792205229,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AskTheWay/dsh-jev-interceptor",
+              "commit": "57b8ea7889fe3dcb1b0628161b22e6a2c74a34f8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-jev-interceptor",
+      "origin": "npm",
+      "name": "dsh-jev-interceptor",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-jev-interceptor",
+        "title": "dsh-jev-interceptor",
+        "description": "Millisecond System-1 judgement for every tool call in DeepSeek Harness: Jev-powered risk classification and evidence-gated auto-approval, fail-closed by construction.",
+        "author": "AskTheWay",
+        "homepage": "https://github.com/AskTheWay/dsh-jev-interceptor#readme",
+        "repository": {
+          "url": "https://github.com/AskTheWay/dsh-jev-interceptor"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "jev",
+            "typesafe",
+            "system-one",
+            "system-1",
+            "agent-harness",
+            "tool-approval"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1792165480,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f0d039facb65d03ec7b17984e3f2f6915bc8a15faa2edac3168e9cb50284db74",
+      "evidence": [
+        {
+          "name": "dsh-jev-interceptor",
+          "version": "0.4.3",
+          "tarball": "https://registry.npmjs.org/dsh-jev-interceptor/-/dsh-jev-interceptor-0.4.3.tgz",
+          "integrity": "sha512-KFo88t5C6WxB1RqX8JlXMYdlXrcfi8+f6bT+W5BYq9soc+ANlF2btHzZyjnRCEf88wehWw3nq8W37zNxAMYznQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-jev-interceptor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AskTheWay/dsh-jev-interceptor",
+    "commit": "57b8ea7889fe3dcb1b0628161b22e6a2c74a34f8",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:36.011Z"
+}

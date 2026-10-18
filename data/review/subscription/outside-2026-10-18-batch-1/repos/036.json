@@ -1,0 +1,91 @@
+{
+  "full_name": "Andersen216/dsh-whale-girl-live2d",
+  "originalPosition": 36,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 36,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:32.352Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c8263fbbbf9d08099fa1f4cb3965e586009504de5f12e722827f6da0c8879be7",
+      "url": "https://github.com/Andersen216/dsh-whale-girl-live2d/blob/cfaa7cd03ca21ab6a4a5e44a7b23ff2072d3bbf6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Andersen216/dsh-whale-girl-live2d",
+          "command": "dsh plugin --profile web add github:Andersen216/dsh-whale-girl-live2d",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "desktop/README.md",
+      "sha256": "be44a3205cbcf124aac878248f48274b2be416fec460e5453841aebeb62cfc65",
+      "url": "https://github.com/Andersen216/dsh-whale-girl-live2d/blob/cfaa7cd03ca21ab6a4a5e44a7b23ff2072d3bbf6/desktop/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Andersen216/dsh-whale-girl-live2d",
+          "command": "dsh plugin --profile web add github:Andersen216/dsh-whale-girl-live2d",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-girl-live2d",
+      "version": "0.4.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Andersen216/dsh-whale-girl-live2d",
+        "commit": "cfaa7cd03ca21ab6a4a5e44a7b23ff2072d3bbf6"
+      },
+      "manifestSha256": "462d2dda7a74379ce548ca7e5ad7d12ccd45256979628b27412efd9f7c19d3df",
+      "manifestUrl": "https://github.com/Andersen216/dsh-whale-girl-live2d/blob/cfaa7cd03ca21ab6a4a5e44a7b23ff2072d3bbf6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-whale-girl-live2d",
+        "versions": [
+          {
+            "version": "0.4.6",
+            "publishTimestamp": 1791699766,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Andersen216/dsh-whale-girl-live2d",
+              "commit": "cfaa7cd03ca21ab6a4a5e44a7b23ff2072d3bbf6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Andersen216/dsh-whale-girl-live2d",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Andersen216/dsh-whale-girl-live2d",
+    "commit": "cfaa7cd03ca21ab6a4a5e44a7b23ff2072d3bbf6",
+    "releaseTags": 7,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:38.634Z"
+}

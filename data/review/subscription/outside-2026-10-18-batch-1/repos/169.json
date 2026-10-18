@@ -1,0 +1,139 @@
+{
+  "full_name": "STARDUSTLC666/dsh-email",
+  "originalPosition": 169,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 169,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:05.380Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eda7d47e53a29a6399964c4d28c15ca82358768a57340ce639db3756be929009",
+      "url": "https://github.com/STARDUSTLC666/dsh-email/blob/f032bc0b53a15f876e5a8d291774143bc9e3bc87/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-email",
+          "command": "dsh plugin --profile desktop add dsh-email",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "448c5478b17f79507ae3ce86a8e9aa56c364603b52ac5ba811d81e283bd617f6",
+      "url": "https://github.com/STARDUSTLC666/dsh-email/blob/f032bc0b53a15f876e5a8d291774143bc9e3bc87/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-email",
+          "command": "dsh plugin --profile desktop add dsh-email",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-email",
+      "version": "0.17.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/STARDUSTLC666/dsh-email",
+        "commit": "f032bc0b53a15f876e5a8d291774143bc9e3bc87"
+      },
+      "manifestSha256": "894e05d87d41c223e4f9107af1fb4c67edd33d837f5de86da9614cdf0c8cced6",
+      "manifestUrl": "https://github.com/STARDUSTLC666/dsh-email/blob/f032bc0b53a15f876e5a8d291774143bc9e3bc87/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-email",
+        "versions": [
+          {
+            "version": "0.17.0",
+            "publishTimestamp": 1792250110,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/STARDUSTLC666/dsh-email",
+              "commit": "f032bc0b53a15f876e5a8d291774143bc9e3bc87"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-email",
+      "origin": "npm",
+      "name": "dsh-email",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-email",
+        "title": "dsh-email",
+        "description": "在 DSH 中收发、搜索和整理邮件，支持多个邮箱账号。",
+        "author": "stardustlc",
+        "homepage": "https://github.com/STARDUSTLC666/dsh-email#readme",
+        "repository": {
+          "url": "https://github.com/STARDUSTLC666/dsh-email"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "email",
+            "imap",
+            "smtp"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.17.0",
+            "publishTimestamp": 1792250441,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "218b79045d6e80805fbd2594b455f04ca660a958a5aa15dbf77848fde477dcfb",
+      "evidence": [
+        {
+          "name": "dsh-email",
+          "version": "0.17.0",
+          "tarball": "https://registry.npmjs.org/dsh-email/-/dsh-email-0.17.0.tgz",
+          "integrity": "sha512-EsMrgIbS56w205L3flD55MeoBrQOc08Ej8Ngiut96rXt22caA4JAmB8/vRRSKJEpWm67D0A2/XXLWiAsO0+REw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-email",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/STARDUSTLC666/dsh-email",
+    "commit": "f032bc0b53a15f876e5a8d291774143bc9e3bc87",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:12.635Z"
+}

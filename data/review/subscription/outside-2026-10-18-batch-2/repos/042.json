@@ -1,0 +1,139 @@
+{
+  "full_name": "Clizo1209/dsh-playwright-browser",
+  "originalPosition": 42,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 42,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:05.797Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7b86265109d780b305859ccbf8482faf988dad5f32ddf37482bae96426c2c5d9",
+      "url": "https://github.com/Clizo1209/dsh-playwright-browser/blob/e6131c5de3a45f4f48dc81f76895abfcafb4cf02/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-playwright-browser",
+          "command": "dsh plugin --profile web add dsh-playwright-browser",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "737c53234d101723f7b05b7b8bc9c1d84573c1045fb3a29348960689b23931c9",
+      "url": "https://github.com/Clizo1209/dsh-playwright-browser/blob/e6131c5de3a45f4f48dc81f76895abfcafb4cf02/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-playwright-browser",
+          "command": "dsh plugin --profile web add dsh-playwright-browser",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-playwright-browser",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Clizo1209/dsh-playwright-browser",
+        "commit": "e6131c5de3a45f4f48dc81f76895abfcafb4cf02"
+      },
+      "manifestSha256": "67b77fc5bf3117bb56338763a07261b1c4ddfaeae026b42da0855fdf34a7b027",
+      "manifestUrl": "https://github.com/Clizo1209/dsh-playwright-browser/blob/e6131c5de3a45f4f48dc81f76895abfcafb4cf02/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-playwright-browser",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1786686620,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Clizo1209/dsh-playwright-browser",
+              "commit": "e6131c5de3a45f4f48dc81f76895abfcafb4cf02"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-playwright-browser",
+      "origin": "npm",
+      "name": "dsh-playwright-browser",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-playwright-browser",
+        "title": "dsh-playwright-browser",
+        "description": "Semantic, multi-tab Playwright browser automation for DeepSeek Harness",
+        "homepage": "https://github.com/Clizo1209/dsh-playwright-browser#readme",
+        "repository": {
+          "url": "https://github.com/Clizo1209/dsh-playwright-browser"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "browser",
+            "playwright",
+            "agent",
+            "automation",
+            "semantic-locators"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1786682803,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d3c24cafb8db064a20c6775f67c13459485494fc117bd8ffcaf1cd204140264d",
+      "evidence": [
+        {
+          "name": "dsh-playwright-browser",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-playwright-browser/-/dsh-playwright-browser-0.1.3.tgz",
+          "integrity": "sha512-Mw3B6Y37GSElEYOoRmU15CjR1GPp74Ja0twoM4cbZw7LiSDQMd2unW2DEfozPZdxNPqqXyxTDhWMMQGxdbIoEg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-playwright-browser",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Clizo1209/dsh-playwright-browser",
+    "commit": "e6131c5de3a45f4f48dc81f76895abfcafb4cf02",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:12.097Z"
+}

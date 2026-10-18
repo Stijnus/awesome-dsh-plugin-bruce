@@ -1,0 +1,217 @@
+{
+  "full_name": "tylina/dsh-tylina",
+  "originalPosition": 170,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 170,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:47.576Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "382ddbd643bd87850e8731a1e3bb4be4894bf15470a3783604742d5de978e111",
+      "url": "https://github.com/tylina/dsh-tylina/blob/5ea98ee4c6315cbc241395ba18e7f97e11e3a972/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tylina",
+          "command": "dsh plugin --profile web add dsh-tylina",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tylina-native",
+          "command": "dsh plugin --profile web add dsh-tylina-native",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "d5df9700cc222d9b817398b2c1ddf2c314109ad35e0299003d6b74e28e5f9011",
+      "url": "https://github.com/tylina/dsh-tylina/blob/5ea98ee4c6315cbc241395ba18e7f97e11e3a972/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tylina",
+          "command": "dsh plugin --profile web add dsh-tylina",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tylina-native",
+          "command": "dsh plugin --profile web add dsh-tylina-native",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tylina-native",
+      "version": "0.15.3-alpha.1",
+      "path": "bundle-native",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tylina/dsh-tylina",
+        "commit": "5ea98ee4c6315cbc241395ba18e7f97e11e3a972",
+        "path": "bundle-native"
+      },
+      "manifestSha256": "6e9ede03f1801b7b24c3d528559ef944793eab43651f9910bef85b4a8f66669a",
+      "manifestUrl": "https://github.com/tylina/dsh-tylina/blob/5ea98ee4c6315cbc241395ba18e7f97e11e3a972/bundle-native/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tylina-native",
+        "versions": [
+          {
+            "version": "0.15.3-alpha.1",
+            "publishTimestamp": 1789794674,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tylina/dsh-tylina",
+              "commit": "5ea98ee4c6315cbc241395ba18e7f97e11e3a972",
+              "path": "bundle-native"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tylina",
+      "version": "0.15.3-alpha.1",
+      "path": "bundle-wasm",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tylina/dsh-tylina",
+        "commit": "5ea98ee4c6315cbc241395ba18e7f97e11e3a972",
+        "path": "bundle-wasm"
+      },
+      "manifestSha256": "96760afd1ce1d81d1d10393b46023959fcffb6f1c2545626f31fd33c8b72c652",
+      "manifestUrl": "https://github.com/tylina/dsh-tylina/blob/5ea98ee4c6315cbc241395ba18e7f97e11e3a972/bundle-wasm/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tylina",
+        "versions": [
+          {
+            "version": "0.15.3-alpha.1",
+            "publishTimestamp": 1789794674,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tylina/dsh-tylina",
+              "commit": "5ea98ee4c6315cbc241395ba18e7f97e11e3a972",
+              "path": "bundle-wasm"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tylina",
+      "origin": "npm",
+      "name": "dsh-tylina",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tylina",
+        "title": "dsh-tylina",
+        "description": "Tylina wasm runtime bundle for DeepSeek Harness",
+        "homepage": "https://github.com/tylina/dsh-tylina#readme",
+        "repository": {
+          "url": "https://github.com/tylina/dsh-tylina",
+          "directory": "bundle-wasm"
+        },
+        "versions": [
+          {
+            "version": "0.15.2",
+            "publishTimestamp": 1789735271,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b1d3fb63ae8b8223a118d0079834a2573a15e11b54ad2fae091b5df696f16746",
+      "evidence": [
+        {
+          "name": "dsh-tylina",
+          "version": "0.15.2",
+          "tarball": "https://registry.npmjs.org/dsh-tylina/-/dsh-tylina-0.15.2.tgz",
+          "integrity": "sha512-CF++G+p8CEcUQ8+olc0TNEkZV4nNizZr/WbW2sfddnvUbiAmfRwuv2xPG8ySivPLWbaMu7ha2jBvYgMCeWe8rA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-tylina-native",
+      "origin": "npm",
+      "name": "dsh-tylina-native",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tylina-native",
+        "title": "dsh-tylina-native",
+        "description": "Tylina native runtime bundle for DeepSeek Harness",
+        "homepage": "https://github.com/tylina/dsh-tylina#readme",
+        "repository": {
+          "url": "https://github.com/tylina/dsh-tylina",
+          "directory": "bundle-native"
+        },
+        "versions": [
+          {
+            "version": "0.15.2",
+            "publishTimestamp": 1789735336,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "80594bafe97d030af8926a9e78a01958df0ced3f6a019c6cca7f8ead46ae3d8f",
+      "evidence": [
+        {
+          "name": "dsh-tylina-native",
+          "version": "0.15.2",
+          "tarball": "https://registry.npmjs.org/dsh-tylina-native/-/dsh-tylina-native-0.15.2.tgz",
+          "integrity": "sha512-U+46nYmvCSKyuuVohQ+D+rHpmoTAFkK210+UUZ9AXohFHc31h82utF0KSJRX3U0yRsP6f/TM4Y8qHQQHj2tPqQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tylina",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tylina-native",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tylina/dsh-tylina",
+    "commit": "5ea98ee4c6315cbc241395ba18e7f97e11e3a972",
+    "releaseTags": 24,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:55.888Z"
+}

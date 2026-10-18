@@ -1,0 +1,91 @@
+{
+  "full_name": "sumarilkkxx/dsh-artifact",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:15.524Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "27de8312a487d8591f9fcd5a1fd19405da4d08ed270e3c9c2ba634358490a7dd",
+      "url": "https://github.com/sumarilkkxx/dsh-artifact/blob/3faae245d4d938702209f21a5db4682a50547a66/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sumarilkkxx/dsh-artifact",
+          "command": "dsh plugin --profile web add github:sumarilkkxx/dsh-artifact",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "c7d9fa67d6940de1d45e24af51f2f6d43d04bb477d418110dcdae293e5ec1eb8",
+      "url": "https://github.com/sumarilkkxx/dsh-artifact/blob/3faae245d4d938702209f21a5db4682a50547a66/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sumarilkkxx/dsh-artifact",
+          "command": "dsh plugin --profile web add github:sumarilkkxx/dsh-artifact",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-artifact",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sumarilkkxx/dsh-artifact",
+        "commit": "3faae245d4d938702209f21a5db4682a50547a66"
+      },
+      "manifestSha256": "be7de28c68239e9b3ce908eb1480881f390e28f8693bf46a4f6605aeddffcd35",
+      "manifestUrl": "https://github.com/sumarilkkxx/dsh-artifact/blob/3faae245d4d938702209f21a5db4682a50547a66/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-artifact",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787718894,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sumarilkkxx/dsh-artifact",
+              "commit": "3faae245d4d938702209f21a5db4682a50547a66"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/sumarilkkxx/dsh-artifact",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sumarilkkxx/dsh-artifact",
+    "commit": "3faae245d4d938702209f21a5db4682a50547a66",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:24.884Z"
+}

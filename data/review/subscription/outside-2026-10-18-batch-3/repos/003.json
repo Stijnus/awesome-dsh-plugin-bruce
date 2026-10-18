@@ -1,0 +1,68 @@
+{
+  "full_name": "Max-Null/dsh-chinese-thinking",
+  "originalPosition": 3,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 3,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:15.794Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "36b04107b1553a2c3cfd62c1bd80d71b6c90b9c046ebd62fce4d9c42cfdbf0d3",
+      "url": "https://github.com/Max-Null/dsh-chinese-thinking/blob/a46614c2d39eae06dae347905982ebbfb9a235a2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@max-null/dsh-chinese-thinking",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Max-Null/dsh-chinese-thinking",
+        "commit": "a46614c2d39eae06dae347905982ebbfb9a235a2"
+      },
+      "manifestSha256": "158a120e96dc8c31f9161a2b0b1df7a793b7534bfd5be141563905425e920e71",
+      "manifestUrl": "https://github.com/Max-Null/dsh-chinese-thinking/blob/a46614c2d39eae06dae347905982ebbfb9a235a2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@max-null/dsh-chinese-thinking",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792267823,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Max-Null/dsh-chinese-thinking",
+              "commit": "a46614c2d39eae06dae347905982ebbfb9a235a2"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Max-Null/dsh-chinese-thinking",
+    "commit": "a46614c2d39eae06dae347905982ebbfb9a235a2",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:20.241Z"
+}

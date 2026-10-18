@@ -1,0 +1,144 @@
+{
+  "full_name": "xxxyz/DeepSeekHarness-MCP-Manager",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:20.758Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6178350e51056496b4e7d023b1beaa9f0a134b567d1465bf9239ca1c9432c2f1",
+      "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager/blob/b6783c30a307842a3afccc7b549811219d10050c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xxxyz/dsh-mcp-manager@latest",
+          "command": "dsh plugin --profile web add @xxxyz/dsh-mcp-manager@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "686023e4ca538ec85a9619515129f3bddf230cac1db7dd4283bd24ebf52352eb",
+      "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager/blob/b6783c30a307842a3afccc7b549811219d10050c/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xxxyz/dsh-mcp-manager@latest",
+          "command": "dsh plugin --profile web add @xxxyz/dsh-mcp-manager@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xxxyz/dsh-mcp-manager",
+      "version": "2.2.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager",
+        "commit": "b6783c30a307842a3afccc7b549811219d10050c"
+      },
+      "manifestSha256": "5e3484ffd9827a5f0740db6581668612fe9c4b26e88cac24eefc93850a27693b",
+      "manifestUrl": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager/blob/b6783c30a307842a3afccc7b549811219d10050c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@xxxyz/dsh-mcp-manager",
+        "versions": [
+          {
+            "version": "2.2.7",
+            "publishTimestamp": 1789023485,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager",
+              "commit": "b6783c30a307842a3afccc7b549811219d10050c"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@xxxyz/dsh-mcp-manager@latest",
+      "origin": "npm",
+      "name": "@xxxyz/dsh-mcp-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@xxxyz/dsh-mcp-manager",
+        "title": "@xxxyz/dsh-mcp-manager",
+        "description": "DSH-standard MCP manager plugin: Settings UI + HTTP API + model-facing mcp_manager_* tools. Install with one command: dsh plugin --profile web add @xxxyz/dsh-mcp-manager@latest",
+        "homepage": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager",
+        "repository": {
+          "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "mcp",
+            "mcp-server",
+            "plugin",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.2.7",
+            "publishTimestamp": 1789023577,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "88d102e47a77990b0dae74e9958da0ce0fdb7218698b3ca5ce3cde4f51d53c79",
+      "evidence": [
+        {
+          "name": "@xxxyz/dsh-mcp-manager",
+          "version": "2.2.7",
+          "tarball": "https://registry.npmjs.org/@xxxyz/dsh-mcp-manager/-/dsh-mcp-manager-2.2.7.tgz",
+          "integrity": "sha512-rZTgEPc+kHcjC0gzRs41UR67gG9CJ010WOgM+k7Ng5uVelh5ruJmWySfG6ldMXnhhNsMWQ8jOnBirLlDEQvBXQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@xxxyz/dsh-mcp-manager@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager",
+    "commit": "b6783c30a307842a3afccc7b549811219d10050c",
+    "releaseTags": 20,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:27.573Z"
+}

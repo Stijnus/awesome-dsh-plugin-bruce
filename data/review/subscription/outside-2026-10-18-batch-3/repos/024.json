@@ -1,0 +1,131 @@
+{
+  "full_name": "gxinxing/deepseek-harness-tui",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:39.062Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "00b836a070e582c47faadc92c85602acc77c23e264e00081460bfa59cb76d32d",
+      "url": "https://github.com/gxinxing/deepseek-harness-tui/blob/0c251a26a3228ffc6d4195f9dd31db45ddbc557f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@deepseek-ai/dsh-headless",
+          "command": "dsh plugin --profile tui add @deepseek-ai/dsh-headless",
+          "profile": "tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "22b4e63c76da7ac28c537a27f60d9a4cc132e7e073f36012d54487408f74078a",
+      "url": "https://github.com/gxinxing/deepseek-harness-tui/blob/0c251a26a3228ffc6d4195f9dd31db45ddbc557f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@deepseek-ai/dsh-headless",
+          "command": "dsh plugin --profile tui add @deepseek-ai/dsh-headless",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-harness-tui",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gxinxing/deepseek-harness-tui",
+        "commit": "0c251a26a3228ffc6d4195f9dd31db45ddbc557f"
+      },
+      "manifestSha256": "134c0212811f4de8af52718fd754c642b1300387774f8e028086324a09b140f9",
+      "manifestUrl": "https://github.com/gxinxing/deepseek-harness-tui/blob/0c251a26a3228ffc6d4195f9dd31db45ddbc557f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "deepseek-harness-tui",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786654769,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gxinxing/deepseek-harness-tui",
+              "commit": "0c251a26a3228ffc6d4195f9dd31db45ddbc557f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@deepseek-ai/dsh-headless",
+      "origin": "npm",
+      "name": "@deepseek-ai/dsh-headless",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@deepseek-ai/dsh-headless",
+        "title": "@deepseek-ai/dsh-headless",
+        "description": "The dsh one-shot bundle: a direct core Agent/Session runner over dsh-base with no Host, HTTP, or browser layer",
+        "repository": {
+          "url": "https://github.com/deepseek-ai/deepseek-harness",
+          "directory": "packages/bundle/headless"
+        },
+        "versions": [
+          {
+            "version": "0.0.1-rc.1",
+            "publishTimestamp": 1786390693,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.0.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "20d49d1241f513048a943024f3a457847802849ca196b90487ef01ee722b53fb",
+      "evidence": [
+        {
+          "name": "@deepseek-ai/dsh-headless",
+          "version": "0.0.1-rc.1",
+          "tarball": "https://registry.npmjs.org/@deepseek-ai/dsh-headless/-/dsh-headless-0.0.1-rc.1.tgz",
+          "integrity": "sha512-+yIpIT2RbigHd/n3XUg+JxJVkv3LFSQtD9K56IX5DbTnsntEwmI9rw/IC2Myf/FkqgUoeyphrU6+tF04Iv188g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@deepseek-ai/dsh-headless",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gxinxing/deepseek-harness-tui",
+    "commit": "0c251a26a3228ffc6d4195f9dd31db45ddbc557f",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:45.376Z"
+}

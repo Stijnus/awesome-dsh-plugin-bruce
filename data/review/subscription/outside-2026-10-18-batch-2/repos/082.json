@@ -1,0 +1,120 @@
+{
+  "full_name": "610la/dsh-notification-center",
+  "originalPosition": 82,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 82,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:01.332Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e8be6730df4d192add5607c28207f167161803f908e36618fa8b3e73c35c558d",
+      "url": "https://github.com/610la/dsh-notification-center/blob/eef53f19a263304ec46f6ff856aa5852ea9db5b5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@lyhalal/dsh-notification-center",
+          "command": "dsh plugin --profile web add @lyhalal/dsh-notification-center",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lyhalal/dsh-notification-center",
+      "version": "0.1.35",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/610la/dsh-notification-center",
+        "commit": "eef53f19a263304ec46f6ff856aa5852ea9db5b5"
+      },
+      "manifestSha256": "3a8ed7802c82be456f02f62a629952fbedb427c484eeff3368dd0c79992f7988",
+      "manifestUrl": "https://github.com/610la/dsh-notification-center/blob/eef53f19a263304ec46f6ff856aa5852ea9db5b5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@lyhalal/dsh-notification-center",
+        "versions": [
+          {
+            "version": "0.1.35",
+            "publishTimestamp": 1788324775,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/610la/dsh-notification-center",
+              "commit": "eef53f19a263304ec46f6ff856aa5852ea9db5b5"
+            },
+            "engines": {
+              "dsh": ">=0.1.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@lyhalal/dsh-notification-center",
+      "origin": "npm",
+      "name": "@lyhalal/dsh-notification-center",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@lyhalal/dsh-notification-center",
+        "title": "@lyhalal/dsh-notification-center",
+        "description": "通知中心：对话/任务完成、报错、等待批准等事件触发浏览器通知 + 21 种匹配音效，每类事件独立配置（音效/文件/URL/音量/开关）。",
+        "homepage": "https://github.com/610la/dsh-notification-center",
+        "repository": {
+          "url": "https://github.com/610la/dsh-notification-center"
+        },
+        "versions": [
+          {
+            "version": "0.1.35",
+            "publishTimestamp": 1788325655,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7c52e3bef281fa01c39b013bd0733a44ccbdcc753df74444cb039cfcec9ac851",
+      "evidence": [
+        {
+          "name": "@lyhalal/dsh-notification-center",
+          "version": "0.1.35",
+          "tarball": "https://registry.npmjs.org/@lyhalal/dsh-notification-center/-/dsh-notification-center-0.1.35.tgz",
+          "integrity": "sha512-rhp+DTtVA9CS48yOPBDR7AUH8gI8AxTLHjADM27tiCRAuCHQ5agpvb993IjXrZJ1r6BvmvU9gYSQqh/xS9an0Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@lyhalal/dsh-notification-center",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/610la/dsh-notification-center",
+    "commit": "eef53f19a263304ec46f6ff856aa5852ea9db5b5",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:06.251Z"
+}

@@ -1,0 +1,137 @@
+{
+  "full_name": "893413974-bit/dsh-setting-restart",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:30.833Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b35c5ec839642618b2884c96a2feec74bfd185f416c2b1e610fb4eef956a3202",
+      "url": "https://github.com/893413974-bit/dsh-setting-restart/blob/ede6d2dc68f87c395c9e5e932cc1609a1ae0cb61/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-setting-restart",
+          "command": "dsh plugin --profile web add dsh-setting-restart",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f2e60c654ce0f39dc063c1a0b0b53a643031a7437843957cec7e50ed0403ae45",
+      "url": "https://github.com/893413974-bit/dsh-setting-restart/blob/ede6d2dc68f87c395c9e5e932cc1609a1ae0cb61/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-setting-restart",
+          "command": "dsh plugin --profile web add dsh-setting-restart",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-setting-restart",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/893413974-bit/dsh-setting-restart",
+        "commit": "ede6d2dc68f87c395c9e5e932cc1609a1ae0cb61"
+      },
+      "manifestSha256": "a31f84fbbb09c20912e7de86f0286024a2ce6c9d6a078df19e70d91e03e1721f",
+      "manifestUrl": "https://github.com/893413974-bit/dsh-setting-restart/blob/ede6d2dc68f87c395c9e5e932cc1609a1ae0cb61/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-setting-restart",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1787042789,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/893413974-bit/dsh-setting-restart",
+              "commit": "ede6d2dc68f87c395c9e5e932cc1609a1ae0cb61"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-setting-restart",
+      "origin": "npm",
+      "name": "dsh-setting-restart",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-setting-restart",
+        "title": "dsh-setting-restart",
+        "description": "One-click restart of the DSH service from Settings > General (通用设置 · 一键重启)",
+        "homepage": "https://github.com/893413974-bit/dsh-setting-restart#readme",
+        "repository": {
+          "url": "https://github.com/893413974-bit/dsh-setting-restart"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "restart",
+            "settings"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1787041818,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0bdd8ca13a7b01e3300fef6783fb8afbdccf4a72fd9878647f6481406f0a8a6b",
+      "evidence": [
+        {
+          "name": "dsh-setting-restart",
+          "version": "1.0.0",
+          "tarball": "https://registry.npmjs.org/dsh-setting-restart/-/dsh-setting-restart-1.0.0.tgz",
+          "integrity": "sha512-KfLY3uxm9YiaCBF520lZl9IA/r7gBBt/zsfnec7D9KGZxSgk/+pkWQZKP7u41uId+BU7syUIpWPazs/ATgK92A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-setting-restart",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/893413974-bit/dsh-setting-restart",
+    "commit": "ede6d2dc68f87c395c9e5e932cc1609a1ae0cb61",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:35.227Z"
+}

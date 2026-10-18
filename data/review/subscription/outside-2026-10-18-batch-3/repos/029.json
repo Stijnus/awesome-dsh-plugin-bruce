@@ -1,0 +1,142 @@
+{
+  "full_name": "penguin-oo/dsh-bookmarks",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:45.376Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ffa90cf75d16994a37bd4a4399e0b76f9d79f06a9acf7562598a762cb04f4874",
+      "url": "https://github.com/penguin-oo/dsh-bookmarks/blob/56f6767e9fb8b825f975923ef499e4cf88c50942/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bookmarks",
+          "command": "dsh plugin --profile web add dsh-bookmarks",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "193066dd18d8d681183f0b58426a1ad53df3f8fd0b608a60c249a6e606728d9c",
+      "url": "https://github.com/penguin-oo/dsh-bookmarks/blob/56f6767e9fb8b825f975923ef499e4cf88c50942/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bookmarks",
+          "command": "dsh plugin --profile web add dsh-bookmarks",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bookmarks",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/penguin-oo/dsh-bookmarks",
+        "commit": "56f6767e9fb8b825f975923ef499e4cf88c50942"
+      },
+      "manifestSha256": "6d7eb1a770bf29acce61d6a65b15e0c2000480e7c12a4efc309ae4f6ee645cc7",
+      "manifestUrl": "https://github.com/penguin-oo/dsh-bookmarks/blob/56f6767e9fb8b825f975923ef499e4cf88c50942/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-bookmarks",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1790779149,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/penguin-oo/dsh-bookmarks",
+              "commit": "56f6767e9fb8b825f975923ef499e4cf88c50942"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-bookmarks",
+      "origin": "npm",
+      "name": "dsh-bookmarks",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bookmarks",
+        "title": "dsh-bookmarks",
+        "description": "Bookmark assistant replies in DeepSeek Harness: per-message bookmarks with notes and tags, a cross-session bookmark center, and one-click Markdown export.",
+        "repository": {
+          "url": "https://github.com/penguin-oo/dsh-bookmarks"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "bookmark",
+            "web"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1790779503,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3a95b33d5a83d8b22de598bb7b3ea6644673208ce136eaebd0a128a0707dfb73",
+      "evidence": [
+        {
+          "name": "dsh-bookmarks",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/dsh-bookmarks/-/dsh-bookmarks-0.1.5.tgz",
+          "integrity": "sha512-77L6wAjN36TTYbv3gzeWSi3wGv1NdkzybSpP/6TSN6DOMTACms9I54n6MaIXhZLAU3XylveGpUBeVeFglQUbyw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bookmarks",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/penguin-oo/dsh-bookmarks",
+    "commit": "56f6767e9fb8b825f975923ef499e4cf88c50942",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:51.112Z"
+}

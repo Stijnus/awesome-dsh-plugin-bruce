@@ -1,0 +1,154 @@
+{
+  "full_name": "AlfredChaos/dsh-usage-panel",
+  "originalPosition": 145,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:26.712Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a8a8d9b8a24cf59e773363e5af3e907fe5fbd0f8a7be665b4991b6413de5e403",
+      "url": "https://github.com/AlfredChaos/dsh-usage-panel/blob/f77e7f4a6f158d0869cc7924f70fa6837de0428a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-usage-panel",
+          "command": "dsh plugin --profile web add dsh-usage-panel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AlfredChaos/dsh-usage-panel",
+          "command": "dsh plugin --profile web add github:AlfredChaos/dsh-usage-panel",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "dc71802a61d188133a96b291d25c36ede52fa2d10b8af57c9812e508327d9482",
+      "url": "https://github.com/AlfredChaos/dsh-usage-panel/blob/f77e7f4a6f158d0869cc7924f70fa6837de0428a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-usage-panel",
+          "command": "dsh plugin --profile web add dsh-usage-panel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AlfredChaos/dsh-usage-panel",
+          "command": "dsh plugin --profile web add github:AlfredChaos/dsh-usage-panel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-usage-panel",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AlfredChaos/dsh-usage-panel",
+        "commit": "f77e7f4a6f158d0869cc7924f70fa6837de0428a"
+      },
+      "manifestSha256": "d4f055090115ff6f220f88d8fa14113b9e7f53a651946800fa472af62c8fd230",
+      "manifestUrl": "https://github.com/AlfredChaos/dsh-usage-panel/blob/f77e7f4a6f158d0869cc7924f70fa6837de0428a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-usage-panel",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1789486264,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AlfredChaos/dsh-usage-panel",
+              "commit": "f77e7f4a6f158d0869cc7924f70fa6837de0428a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-usage-panel",
+      "origin": "npm",
+      "name": "dsh-usage-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-usage-panel",
+        "title": "dsh-usage-panel",
+        "description": "DeepSeek Harness 消耗统计插件：设置页「消耗统计」展示 Token 用量 KPI、半年活跃贡献热力图、按模型堆叠柱状图与模型环形图（Host 投影聚合 + 只读重算会话日志，永不写回）",
+        "repository": {
+          "url": "https://github.com/AlfredChaos/dsh-usage-panel"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "token-usage",
+            "agent-analytics",
+            "typescript",
+            "usage-statistics"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1789437731,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cadb2e5cc7093caf9688457f24762aebdf9f27f099392938ca9b6eddfb609ce2",
+      "evidence": [
+        {
+          "name": "dsh-usage-panel",
+          "version": "0.2.3",
+          "tarball": "https://registry.npmjs.org/dsh-usage-panel/-/dsh-usage-panel-0.2.3.tgz",
+          "integrity": "sha512-IvuapKN2zDQQ2E4n1DbIg70EvLiefXN8HhWC0FDNdNto3AIuBAvLyPQnVmyc/weFK/8W00yykTCfjDDPmHSydg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-usage-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AlfredChaos/dsh-usage-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AlfredChaos/dsh-usage-panel",
+    "commit": "f77e7f4a6f158d0869cc7924f70fa6837de0428a",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:32.666Z"
+}

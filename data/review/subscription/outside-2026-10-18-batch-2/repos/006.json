@@ -1,0 +1,77 @@
+{
+  "full_name": "HuaJi2077/empty-fort-strategy",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:07.579Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c823a8f4d8b8adc2afe40795d7247e537a8a99bb1b5249445bf22cfb75e65142",
+      "url": "https://github.com/HuaJi2077/empty-fort-strategy/blob/5fb5d86c383ba45deae91ce4f16331d55a2fafcd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/HuaJi2077/empty-fort-strategy",
+          "command": "pnpm dsh plugin --profile web add github:HuaJi2077/empty-fort-strategy",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "empty-fort-strategy",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuaJi2077/empty-fort-strategy",
+        "commit": "5fb5d86c383ba45deae91ce4f16331d55a2fafcd"
+      },
+      "manifestSha256": "6d26342e40d14efe5cfd5555ec607f5569f8d47d174d4cc6e11713f76b2d7f00",
+      "manifestUrl": "https://github.com/HuaJi2077/empty-fort-strategy/blob/5fb5d86c383ba45deae91ce4f16331d55a2fafcd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "empty-fort-strategy",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1787981853,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HuaJi2077/empty-fort-strategy",
+              "commit": "5fb5d86c383ba45deae91ce4f16331d55a2fafcd"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/HuaJi2077/empty-fort-strategy",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HuaJi2077/empty-fort-strategy",
+    "commit": "5fb5d86c383ba45deae91ce4f16331d55a2fafcd",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:12.619Z"
+}

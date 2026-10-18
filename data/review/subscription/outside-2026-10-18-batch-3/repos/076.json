@@ -1,0 +1,124 @@
+{
+  "full_name": "goatbroai/web-background",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:51.028Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "27c2b64ae789db17ae515337154e8ee46b5f1371913059fd66fe3900b9099575",
+      "url": "https://github.com/goatbroai/web-background/blob/7cd751575f590c509c9c7545dbfd48d983aa3640/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lndyzwdxhs/web-background#main",
+          "command": "dsh plugin --profile web add \"github:lndyzwdxhs/web-background#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "web-background",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatbroai/web-background",
+        "commit": "7cd751575f590c509c9c7545dbfd48d983aa3640"
+      },
+      "manifestSha256": "aa46dcb8b8e35cc6dbf44282526ad1a00dc9a2ccdcdb6cd01601d60aadb7ed0c",
+      "manifestUrl": "https://github.com/goatbroai/web-background/blob/7cd751575f590c509c9c7545dbfd48d983aa3640/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "web-background",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786977365,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/goatbroai/web-background",
+              "commit": "7cd751575f590c509c9c7545dbfd48d983aa3640"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/lndyzwdxhs/web-background#main",
+      "origin": "git_target",
+      "name": "web-background",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "web-background",
+        "title": "web-background",
+        "description": "DeepSeek Harness web background settings plugin with solid color, image, and opacity controls.",
+        "author": "lndyzwdxhs",
+        "repository": {
+          "url": "https://github.com/lndyzwdxhs/web-background"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "web",
+            "background",
+            "wallpaper"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786977365,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lndyzwdxhs/web-background",
+              "commit": "7cd751575f590c509c9c7545dbfd48d983aa3640"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "7cd751575f590c509c9c7545dbfd48d983aa3640",
+          "name": "web-background",
+          "version": "0.1.0",
+          "url": "https://github.com/lndyzwdxhs/web-background",
+          "manifestSha256": "aa46dcb8b8e35cc6dbf44282526ad1a00dc9a2ccdcdb6cd01601d60aadb7ed0c",
+          "publishTimestamp": 1786977365
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lndyzwdxhs/web-background#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/goatbroai/web-background",
+    "commit": "7cd751575f590c509c9c7545dbfd48d983aa3640",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:02.195Z"
+}

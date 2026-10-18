@@ -1,0 +1,185 @@
+{
+  "full_name": "0QwQ0/dsh-ui-auth",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "startedAt": "2026-10-18T02:00:10.181Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ff8f696e2f9e13d7a8c86f0d14bcdaa253bb084a5a1f4679ef830e978c40f6ec",
+      "url": "https://github.com/0QwQ0/dsh-ui-auth/blob/6c5e87b44be4e973b092910968001916bb97d22e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ui-auth",
+          "command": "dsh plugin --profile web add dsh-ui-auth",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/0QwQ0/dsh-ui-auth#v0.7.0",
+          "command": "dsh plugin --profile web add github:0QwQ0/dsh-ui-auth#v0.7.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ui-auth",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/0QwQ0/dsh-ui-auth",
+        "commit": "6c5e87b44be4e973b092910968001916bb97d22e"
+      },
+      "manifestSha256": "b5d71f0790d5bc86c119e8e371dc0fadf369db1f4f1f2da17cc66d00ffb1c372",
+      "manifestUrl": "https://github.com/0QwQ0/dsh-ui-auth/blob/6c5e87b44be4e973b092910968001916bb97d22e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ui-auth",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1792164743,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/0QwQ0/dsh-ui-auth",
+              "commit": "6c5e87b44be4e973b092910968001916bb97d22e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ui-auth",
+      "origin": "npm",
+      "name": "dsh-ui-auth",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ui-auth",
+        "title": "dsh-ui-auth",
+        "description": "DSH Web UI 认证网关：登录保护全部 HTTP/WS 接口；用户管理、邀请码注册、TOTP 两步验证与通行密钥（Passkey/WebAuthn）登录。",
+        "repository": {
+          "url": "https://github.com/0QwQ0/dsh-ui-auth"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "auth",
+            "authentication",
+            "login",
+            "passkey",
+            "webauthn",
+            "two-factor"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1792161994,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8ad35f4a7183d2463f55add0cb8c8c407a650c2906e09112d19dea66f9eaae56",
+      "evidence": [
+        {
+          "name": "dsh-ui-auth",
+          "version": "0.7.1",
+          "tarball": "https://registry.npmjs.org/dsh-ui-auth/-/dsh-ui-auth-0.7.1.tgz",
+          "integrity": "sha512-oetUh+ZAWaAyPnf+FLe8byD35kKoqIXm/s89ABhPk4tKLqZtMg4Esk/mgvCCi21Uii3jx9XCmhSOPl2PPVowCA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/0QwQ0/dsh-ui-auth#v0.7.0",
+      "origin": "git_target",
+      "name": "dsh-ui-auth",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ui-auth",
+        "title": "dsh-ui-auth",
+        "description": "DSH Web UI 认证网关：登录保护全部 HTTP/WS 接口；用户管理、邀请码注册、TOTP 两步验证与通行密钥（Passkey/WebAuthn）登录。",
+        "repository": {
+          "url": "https://github.com/0QwQ0/dsh-ui-auth"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "auth",
+            "authentication",
+            "login",
+            "passkey",
+            "webauthn",
+            "two-factor"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1790775128,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/0QwQ0/dsh-ui-auth",
+              "commit": "0131bae6b9c27b7fbe650bf15716eb7ca08a1cda"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "0131bae6b9c27b7fbe650bf15716eb7ca08a1cda",
+          "name": "dsh-ui-auth",
+          "version": "0.7.0",
+          "url": "https://github.com/0QwQ0/dsh-ui-auth",
+          "manifestSha256": "9201b8b9d569465cdf192e9646d1f4e177f42ea557ac20ac468fe33e3e3549c2",
+          "publishTimestamp": 1790775128
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ui-auth",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/0QwQ0/dsh-ui-auth#v0.7.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/0QwQ0/dsh-ui-auth",
+    "commit": "6c5e87b44be4e973b092910968001916bb97d22e",
+    "releaseTags": 12,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T02:00:21.945Z"
+}

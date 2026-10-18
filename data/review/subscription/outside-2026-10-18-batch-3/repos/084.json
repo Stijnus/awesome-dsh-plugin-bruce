@@ -1,0 +1,152 @@
+{
+  "full_name": "leechen298/Code2Skill",
+  "originalPosition": 84,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 84,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:02.196Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4a241360cf310c052d3113ebeae9fb53447bdda8fb5eb68d7036f4cd7796f959",
+      "url": "https://github.com/leechen298/Code2Skill/blob/afd25120129e4cfb69fb57d0c9dfea490e8a3c60/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/leechen298/Code2Skill#v1.2.0",
+          "command": "dsh plugin --profile web add github:leechen298/Code2Skill#v1.2.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "1721f7e450b76e957cfe3106977f2e4a0c6dfbe79d69ac33e3ca997da51c6be2",
+      "url": "https://github.com/leechen298/Code2Skill/blob/afd25120129e4cfb69fb57d0c9dfea490e8a3c60/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/leechen298/Code2Skill#v1.2.0",
+          "command": "dsh plugin --profile web add github:leechen298/Code2Skill#v1.2.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.en.md",
+      "sha256": "283c424b23a33d605465b4d21a6786d08c91384abd175fba7699fd389a4cab37",
+      "url": "https://github.com/leechen298/Code2Skill/blob/afd25120129e4cfb69fb57d0c9dfea490e8a3c60/docs/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "d2b685a19b1261cc21641ffad437b229f335e8973ae61c24f1e5bcab36fb6302",
+      "url": "https://github.com/leechen298/Code2Skill/blob/afd25120129e4cfb69fb57d0c9dfea490e8a3c60/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@leechen298/code2skill",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/leechen298/Code2Skill",
+        "commit": "afd25120129e4cfb69fb57d0c9dfea490e8a3c60"
+      },
+      "manifestSha256": "200be64bab6c006a7a76e73ef2645021a1a5974cc51f4708052bde65016025f2",
+      "manifestUrl": "https://github.com/leechen298/Code2Skill/blob/afd25120129e4cfb69fb57d0c9dfea490e8a3c60/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@leechen298/code2skill",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1791351532,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/leechen298/Code2Skill",
+              "commit": "afd25120129e4cfb69fb57d0c9dfea490e8a3c60"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/leechen298/Code2Skill#v1.2.0",
+      "origin": "git_target",
+      "name": "@leechen298/code2skill",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@leechen298/code2skill",
+        "title": "@leechen298/code2skill",
+        "description": "Generate and review portable Function, MCP, and Agent Skill packages from existing code.",
+        "repository": {
+          "url": "https://github.com/leechen298/Code2Skill"
+        },
+        "metadata": {
+          "keywords": [
+            "agent-skills",
+            "code2skill",
+            "deepseek-harness",
+            "dsh-plugin",
+            "mcp"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1787815204,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/leechen298/Code2Skill",
+              "commit": "27bac3f270e3e7cbfd16a41475222570874fbdb0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "27bac3f270e3e7cbfd16a41475222570874fbdb0",
+          "name": "@leechen298/code2skill",
+          "version": "1.2.0",
+          "url": "https://github.com/leechen298/Code2Skill",
+          "manifestSha256": "200be64bab6c006a7a76e73ef2645021a1a5974cc51f4708052bde65016025f2",
+          "publishTimestamp": 1787815204
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/leechen298/Code2Skill#v1.2.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/leechen298/Code2Skill",
+    "commit": "afd25120129e4cfb69fb57d0c9dfea490e8a3c60",
+    "releaseTags": 7,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:28.160Z"
+}

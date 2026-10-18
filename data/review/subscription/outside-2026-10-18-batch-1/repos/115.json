@@ -1,0 +1,168 @@
+{
+  "full_name": "Y1X1n/dsh-prompt-optimizer",
+  "originalPosition": 115,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:37.358Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0433b8ff9a8961197a2abd41671fa0afa25f4ab7539defe16bb48a016cd876cb",
+      "url": "https://github.com/Y1X1n/dsh-prompt-optimizer/blob/afea83ae14b43921ad0855731aacb33fe9c5d9fe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@y1x1n/dsh-prompt-optimizer",
+          "command": "dsh plugin --profile web add @y1x1n/dsh-prompt-optimizer",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Y1X1n/dsh-prompt-optimizer",
+          "command": "dsh plugin --profile web add github:Y1X1n/dsh-prompt-optimizer",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e6d1a04eda9167a75279a421afa3cd905dd9cb23ee976ee99a91438610f0ae02",
+      "url": "https://github.com/Y1X1n/dsh-prompt-optimizer/blob/afea83ae14b43921ad0855731aacb33fe9c5d9fe/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@y1x1n/dsh-prompt-optimizer",
+          "command": "dsh plugin --profile web add @y1x1n/dsh-prompt-optimizer",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Y1X1n/dsh-prompt-optimizer",
+          "command": "dsh plugin --profile web add github:Y1X1n/dsh-prompt-optimizer",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.simple.md",
+      "sha256": "486441ab64b023f1c85be1cd99d2f5544d0f454753d6e9876e4bafdc3c83d704",
+      "url": "https://github.com/Y1X1n/dsh-prompt-optimizer/blob/afea83ae14b43921ad0855731aacb33fe9c5d9fe/README.simple.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@y1x1n/dsh-prompt-optimizer",
+          "command": "dsh plugin --profile web add @y1x1n/dsh-prompt-optimizer",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@y1x1n/dsh-prompt-optimizer",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Y1X1n/dsh-prompt-optimizer",
+        "commit": "afea83ae14b43921ad0855731aacb33fe9c5d9fe"
+      },
+      "manifestSha256": "760597c5eb4a01978c716afeb360fe57ffd468b467ca314402f3118ce133f35b",
+      "manifestUrl": "https://github.com/Y1X1n/dsh-prompt-optimizer/blob/afea83ae14b43921ad0855731aacb33fe9c5d9fe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@y1x1n/dsh-prompt-optimizer",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1791875209,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Y1X1n/dsh-prompt-optimizer",
+              "commit": "afea83ae14b43921ad0855731aacb33fe9c5d9fe"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@y1x1n/dsh-prompt-optimizer",
+      "origin": "npm",
+      "name": "@y1x1n/dsh-prompt-optimizer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@y1x1n/dsh-prompt-optimizer",
+        "title": "@y1x1n/dsh-prompt-optimizer",
+        "description": "DeepSeek Harness 插件:在发送栏旁一键分析并优化提示词(复用当前会话模型)。适配 dsh 0.2.0-rc.2(含官方桌面端)",
+        "homepage": "https://github.com/Y1X1n/dsh-prompt-optimizer#readme",
+        "repository": {
+          "url": "https://github.com/Y1X1n/dsh-prompt-optimizer"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "harness",
+            "prompt",
+            "optimizer",
+            "plugin",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1791873032,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1797017cd3e0f1126c40000e6a5e4b0f26119ec76253df20c011b7a593b20d32",
+      "evidence": [
+        {
+          "name": "@y1x1n/dsh-prompt-optimizer",
+          "version": "0.5.0",
+          "tarball": "https://registry.npmjs.org/@y1x1n/dsh-prompt-optimizer/-/dsh-prompt-optimizer-0.5.0.tgz",
+          "integrity": "sha512-tlBos5GDdzz8Ptq6EkLPIH6JIUDw3kT/xd4DiP4BrOUMizmYEldPncTAdNATs0lReiZ4mDlHW6eSsYQzBRPtdg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@y1x1n/dsh-prompt-optimizer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Y1X1n/dsh-prompt-optimizer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Y1X1n/dsh-prompt-optimizer",
+    "commit": "afea83ae14b43921ad0855731aacb33fe9c5d9fe",
+    "releaseTags": 22,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:44.861Z"
+}

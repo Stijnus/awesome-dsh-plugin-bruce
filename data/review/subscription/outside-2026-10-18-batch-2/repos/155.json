@@ -1,0 +1,103 @@
+{
+  "full_name": "Ramenne/DeepSeek-Harness-Gov",
+  "originalPosition": 155,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 155,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:38.861Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3c482848ee536d6aca546814c9cb410e0b7628cf4a26926de456fbbab7d3927c",
+      "url": "https://github.com/Ramenne/DeepSeek-Harness-Gov/blob/fa9305fa6c080385b77fa908eef2d6732dd1f286/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-gov-portal",
+      "version": "0.1.0",
+      "path": "plugins/dsh-gov-portal",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ramenne/DeepSeek-Harness-Gov",
+        "commit": "fa9305fa6c080385b77fa908eef2d6732dd1f286",
+        "path": "plugins/dsh-gov-portal"
+      },
+      "manifestSha256": "d49ed775e29e415d90442d2dfd3aa080af7802650f0043c10496fe3e3177946a",
+      "manifestUrl": "https://github.com/Ramenne/DeepSeek-Harness-Gov/blob/fa9305fa6c080385b77fa908eef2d6732dd1f286/plugins/dsh-gov-portal/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-gov-portal",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787885693,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ramenne/DeepSeek-Harness-Gov",
+              "commit": "fa9305fa6c080385b77fa908eef2d6732dd1f286",
+              "path": "plugins/dsh-gov-portal"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tool-hongtou",
+      "version": "0.2.0",
+      "path": "plugins/dsh-tool-hongtou",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ramenne/DeepSeek-Harness-Gov",
+        "commit": "fa9305fa6c080385b77fa908eef2d6732dd1f286",
+        "path": "plugins/dsh-tool-hongtou"
+      },
+      "manifestSha256": "29fcb05fbc6c98dcaa40a6605ba5375e33d76f7cc826ab83251c627fc520a3e7",
+      "manifestUrl": "https://github.com/Ramenne/DeepSeek-Harness-Gov/blob/fa9305fa6c080385b77fa908eef2d6732dd1f286/plugins/dsh-tool-hongtou/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-tool-hongtou",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787885693,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ramenne/DeepSeek-Harness-Gov",
+              "commit": "fa9305fa6c080385b77fa908eef2d6732dd1f286",
+              "path": "plugins/dsh-tool-hongtou"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ramenne/DeepSeek-Harness-Gov",
+    "commit": "fa9305fa6c080385b77fa908eef2d6732dd1f286",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:45.188Z"
+}

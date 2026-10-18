@@ -1,0 +1,83 @@
+{
+  "full_name": "Tokeii0/dsh-lovelyaudit",
+  "originalPosition": 67,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 67,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:42.136Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0a8e23711172ceae53de914a1f6b41b0a234cfc112f9e211350ebbb90204531f",
+      "url": "https://github.com/Tokeii0/dsh-lovelyaudit/blob/89de08c2865485105c6e501075b8cd8708236a6f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Tokeii0/dsh-lovelyaudit/releases/latest/download/dsh-lovelyaudit.tgz",
+          "command": "dsh plugin --profile web add https://github.com/Tokeii0/dsh-lovelyaudit/releases/latest/download/dsh-lovelyaudit.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lovelyaudit",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tokeii0/dsh-lovelyaudit",
+        "commit": "89de08c2865485105c6e501075b8cd8708236a6f"
+      },
+      "manifestSha256": "ee1ebfbccdcfd0c8346ff25a99cd93a1960cea502b763962dc32e20da637988d",
+      "manifestUrl": "https://github.com/Tokeii0/dsh-lovelyaudit/blob/89de08c2865485105c6e501075b8cd8708236a6f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-lovelyaudit",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787371843,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tokeii0/dsh-lovelyaudit",
+              "commit": "89de08c2865485105c6e501075b8cd8708236a6f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Tokeii0/dsh-lovelyaudit/releases/latest/download/dsh-lovelyaudit.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Tokeii0/dsh-lovelyaudit/releases/latest/download/dsh-lovelyaudit.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tokeii0/dsh-lovelyaudit",
+    "commit": "89de08c2865485105c6e501075b8cd8708236a6f",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:47.028Z"
+}

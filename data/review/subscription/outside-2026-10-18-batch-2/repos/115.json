@@ -1,0 +1,145 @@
+{
+  "full_name": "GooDAnDReaDY/dsh-subscriptions",
+  "originalPosition": 115,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:45.701Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9c73acbd650a5d63cbbdef4b151b4ccb3e292993068cfff48b5ab2e9fd92c934",
+      "url": "https://github.com/GooDAnDReaDY/dsh-subscriptions/blob/9e0e39094d0be0bbae4b7f8247bfc69db1f10320/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-subscriptions",
+          "command": "dsh plugin --profile web add @goodandready/dsh-subscriptions",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "215f0fccfb7dba850665cd20a92ac046fb127d074b9216430a979a37fc847609",
+      "url": "https://github.com/GooDAnDReaDY/dsh-subscriptions/blob/9e0e39094d0be0bbae4b7f8247bfc69db1f10320/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-subscriptions",
+          "command": "dsh plugin --profile web add @goodandready/dsh-subscriptions",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@goodandready/dsh-subscriptions",
+      "version": "0.6.77",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GooDAnDReaDY/dsh-subscriptions",
+        "commit": "9e0e39094d0be0bbae4b7f8247bfc69db1f10320"
+      },
+      "manifestSha256": "05eabe4957b374b284facab3252ea461d582c2cad11a6794c0e53c9b7cd6061e",
+      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-subscriptions/blob/9e0e39094d0be0bbae4b7f8247bfc69db1f10320/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@goodandready/dsh-subscriptions",
+        "versions": [
+          {
+            "version": "0.6.77",
+            "publishTimestamp": 1792157566,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GooDAnDReaDY/dsh-subscriptions",
+              "commit": "9e0e39094d0be0bbae4b7f8247bfc69db1f10320"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@goodandready/dsh-subscriptions",
+      "origin": "npm",
+      "name": "@goodandready/dsh-subscriptions",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@goodandready/dsh-subscriptions",
+        "title": "@goodandready/dsh-subscriptions",
+        "description": "Use ChatGPT Codex, Claude, Grok, Antigravity, Kimi, GLM, Cursor, Kiro, Copilot, Qwen, ERNIE, Spark, JetBrains, Perplexity, Replit, and Cody subscriptions as DeepSeek Harness LLM providers via OAuth.",
+        "homepage": "https://github.com/GooDAnDReaDY/dsh-subscriptions",
+        "repository": {
+          "url": "https://github.com/GooDAnDReaDY/dsh-subscriptions"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "oauth",
+            "chatgpt",
+            "claude",
+            "grok"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.72",
+            "publishTimestamp": 1791918041,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "30b67148539afc99a9be3119516c88550c7f182b43202b8f1c3612b6e26dce17",
+      "evidence": [
+        {
+          "name": "@goodandready/dsh-subscriptions",
+          "version": "0.6.72",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-subscriptions/-/dsh-subscriptions-0.6.72.tgz",
+          "integrity": "sha512-C9UvY7MAKA3qd2K/Rw6w2vnlDo8KCcQ4j6bjFTQ5tfD5NTSLK9nUtIliHP4JQAHiz/cItEP9sUBtjDIfIj8M8A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@goodandready/dsh-subscriptions",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GooDAnDReaDY/dsh-subscriptions",
+    "commit": "9e0e39094d0be0bbae4b7f8247bfc69db1f10320",
+    "releaseTags": 112,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:51.909Z"
+}

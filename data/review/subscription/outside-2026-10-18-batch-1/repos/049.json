@@ -1,0 +1,156 @@
+{
+  "full_name": "magian1127/deepseek-harness-zh_pro",
+  "originalPosition": 49,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 49,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:46.596Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "66984c0b8f93d1a1d2aaa5c4dca15c30fe2c5ab55804cec5ae53b3c14bd7c00c",
+      "url": "https://github.com/magian1127/deepseek-harness-zh_pro/blob/9bf9f6f475056f055a100ffd2b5b7449fd8a0d40/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-harness-zh_pro",
+          "command": "dsh plugin --profile web add deepseek-harness-zh_pro",
+          "profile": "web"
+        },
+        {
+          "install": "deepseek-harness-zh_pro",
+          "command": "dsh plugin --profile headless add deepseek-harness-zh_pro",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "070f12d07022982d86bbf3bddc21ef1d458815b3f8e4ece681e153fde7d40efc",
+      "url": "https://github.com/magian1127/deepseek-harness-zh_pro/blob/9bf9f6f475056f055a100ffd2b5b7449fd8a0d40/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-harness-zh_pro",
+          "command": "dsh plugin --profile web add deepseek-harness-zh_pro",
+          "profile": "web"
+        },
+        {
+          "install": "deepseek-harness-zh_pro",
+          "command": "dsh plugin --profile headless add deepseek-harness-zh_pro",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-harness-zh_pro",
+      "version": "0.9.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/magian1127/deepseek-harness-zh_pro",
+        "commit": "9bf9f6f475056f055a100ffd2b5b7449fd8a0d40"
+      },
+      "manifestSha256": "7572615e110fbbfc7c07b330b4417e9b58732c1bdfe917c6b89b625a3965dd29",
+      "manifestUrl": "https://github.com/magian1127/deepseek-harness-zh_pro/blob/9bf9f6f475056f055a100ffd2b5b7449fd8a0d40/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "deepseek-harness-zh_pro",
+        "versions": [
+          {
+            "version": "0.9.6",
+            "publishTimestamp": 1792098568,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/magian1127/deepseek-harness-zh_pro",
+              "commit": "9bf9f6f475056f055a100ffd2b5b7449fd8a0d40"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "deepseek-harness-zh_pro",
+      "origin": "npm",
+      "name": "deepseek-harness-zh_pro",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "deepseek-harness-zh_pro",
+        "title": {
+          "en": "Chinese Enhancement Suite",
+          "zh": "中文增强套件"
+        },
+        "description": {
+          "en": "Comprehensive enhancement plugin with UI polish, layout tweaks, prompt injection, and more.",
+          "zh": "综合性增强插件：界面优化、布局调整与提示词注入等更多功能。"
+        },
+        "homepage": "https://github.com/magian1127/deepseek-harness-zh_pro#readme",
+        "repository": {
+          "url": "https://github.com/magian1127/deepseek-harness-zh_pro"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "chinese",
+            "zh",
+            "enhancement",
+            "中文",
+            "汉化"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.9.6",
+            "publishTimestamp": 1791023868,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7a5d47f729e24870c0cb67564da39d50c22509c7c06891508fbce447a55c9c29",
+      "evidence": [
+        {
+          "name": "deepseek-harness-zh_pro",
+          "version": "0.9.6",
+          "tarball": "https://registry.npmjs.org/deepseek-harness-zh_pro/-/deepseek-harness-zh_pro-0.9.6.tgz",
+          "integrity": "sha512-dWv0PZlfd48GCYKSXtENRu4B+p6N+r6bPD77rUAArGbOuzzsv2Gl5baJ8+On6B7+3xBn6X64SqaNYR+HB6ewSA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "deepseek-harness-zh_pro",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/magian1127/deepseek-harness-zh_pro",
+    "commit": "9bf9f6f475056f055a100ffd2b5b7449fd8a0d40",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:53.767Z"
+}

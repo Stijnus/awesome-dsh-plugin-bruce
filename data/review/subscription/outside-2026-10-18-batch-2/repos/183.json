@@ -1,0 +1,85 @@
+{
+  "full_name": "yingjian666/dsh-zh-thinking",
+  "originalPosition": 183,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:28.012Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "49a04fc77125e655913fe29dd4118b131676d2a64b3cc8122f218b11d6f9a2ba",
+      "url": "https://github.com/yingjian666/dsh-zh-thinking/blob/ce5bc5b786d4a2925552b2b03d218a0e80d9d8fe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yingjian666/dsh-zh-thinking",
+          "command": "dsh plugin --profile <name> add github:yingjian666/dsh-zh-thinking",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/yingjian666/dsh-zh-thinking",
+          "command": "dsh plugin --profile desktop add github:yingjian666/dsh-zh-thinking",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-zh-thinking",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yingjian666/dsh-zh-thinking",
+        "commit": "ce5bc5b786d4a2925552b2b03d218a0e80d9d8fe"
+      },
+      "manifestSha256": "2f2f526c831b16cf7c54222bcfa9d245df80e62b4998d68a73500c319b2f9ca5",
+      "manifestUrl": "https://github.com/yingjian666/dsh-zh-thinking/blob/ce5bc5b786d4a2925552b2b03d218a0e80d9d8fe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-zh-thinking",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790870004,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yingjian666/dsh-zh-thinking",
+              "commit": "ce5bc5b786d4a2925552b2b03d218a0e80d9d8fe"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yingjian666/dsh-zh-thinking",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yingjian666/dsh-zh-thinking",
+    "commit": "ce5bc5b786d4a2925552b2b03d218a0e80d9d8fe",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:32.168Z"
+}

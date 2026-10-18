@@ -1,0 +1,140 @@
+{
+  "full_name": "Seetraum/harness-session-delete",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:20.468Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f2bc7a622348b2f83960c7c856bf98b0bb8cede52c23ba556549fc2956ce3abf",
+      "url": "https://github.com/Seetraum/harness-session-delete/blob/3f41dd29221b6a844f9682a835551568a4b49f89/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-recycle-bin",
+          "command": "dsh plugin --profile web add dsh-session-recycle-bin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "eed2d64031948f7b67e9214a261d7bbf4d4928776bc0774980dd48d26f5e590d",
+      "url": "https://github.com/Seetraum/harness-session-delete/blob/3f41dd29221b6a844f9682a835551568a4b49f89/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-recycle-bin",
+          "command": "dsh plugin --profile web add dsh-session-recycle-bin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-recycle-bin",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Seetraum/harness-session-delete",
+        "commit": "3f41dd29221b6a844f9682a835551568a4b49f89"
+      },
+      "manifestSha256": "c7a26cb4948ec790ef57cf4e46228843aca00cc61485a35f7ee829e182121724",
+      "manifestUrl": "https://github.com/Seetraum/harness-session-delete/blob/3f41dd29221b6a844f9682a835551568a4b49f89/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-session-recycle-bin",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1791881960,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Seetraum/harness-session-delete",
+              "commit": "3f41dd29221b6a844f9682a835551568a4b49f89"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-session-recycle-bin",
+      "origin": "npm",
+      "name": "dsh-session-recycle-bin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-recycle-bin",
+        "title": "dsh-session-recycle-bin",
+        "description": "DSH 会话回收站：会话详情归档入口、回收站多选还原/彻底删除、活跃会话保护。 · Session trash & permanent delete for DeepSeek Harness.",
+        "homepage": "https://github.com/Seetraum/harness-session-delete#readme",
+        "repository": {
+          "url": "https://github.com/Seetraum/harness-session-delete"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "session",
+            "trash",
+            "recycle-bin",
+            "session-management"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1791882108,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8bd90a28679f99dc2a2aaf48635d58447d19168432fc2e90e51a31d5d0f9847c",
+      "evidence": [
+        {
+          "name": "dsh-session-recycle-bin",
+          "version": "0.5.0",
+          "tarball": "https://registry.npmjs.org/dsh-session-recycle-bin/-/dsh-session-recycle-bin-0.5.0.tgz",
+          "integrity": "sha512-CTFN16DhP6zwEWnLq02RuJ0KvC2G07ZMh3NXJzaGzLBDPCItmDcmkMEdzx+QNGI1pzyiig2ZHF0/pK49aoNTPw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-session-recycle-bin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Seetraum/harness-session-delete",
+    "commit": "3f41dd29221b6a844f9682a835551568a4b49f89",
+    "releaseTags": 17,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:26.268Z"
+}

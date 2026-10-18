@@ -1,0 +1,91 @@
+{
+  "full_name": "JRJRJPRO/dsh-chat-tree",
+  "originalPosition": 60,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 60,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:33.653Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d19e8beba7161e372498715b199572d90a806b3c6164291954419376b70caf4e",
+      "url": "https://github.com/JRJRJPRO/dsh-chat-tree/blob/0e53e30db7e7bbb477d2fd05bb65fe1a251c5cd8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/JRJRJPRO/dsh-chat-tree",
+          "command": "dsh plugin --profile web add github:JRJRJPRO/dsh-chat-tree",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "343fbb855cf4fcf4106efa47224a5db99933f8b12f1ce129b0a4d7bf685326f3",
+      "url": "https://github.com/JRJRJPRO/dsh-chat-tree/blob/0e53e30db7e7bbb477d2fd05bb65fe1a251c5cd8/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/JRJRJPRO/dsh-chat-tree",
+          "command": "dsh plugin --profile web add github:JRJRJPRO/dsh-chat-tree",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-tree",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JRJRJPRO/dsh-chat-tree",
+        "commit": "0e53e30db7e7bbb477d2fd05bb65fe1a251c5cd8"
+      },
+      "manifestSha256": "33abc3f0884b84df1ba4bb2a2b868cb3834f7eff05d0afe26ca8c93f6fde037e",
+      "manifestUrl": "https://github.com/JRJRJPRO/dsh-chat-tree/blob/0e53e30db7e7bbb477d2fd05bb65fe1a251c5cd8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chat-tree",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1791130964,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JRJRJPRO/dsh-chat-tree",
+              "commit": "0e53e30db7e7bbb477d2fd05bb65fe1a251c5cd8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/JRJRJPRO/dsh-chat-tree",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JRJRJPRO/dsh-chat-tree",
+    "commit": "0e53e30db7e7bbb477d2fd05bb65fe1a251c5cd8",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:40.847Z"
+}

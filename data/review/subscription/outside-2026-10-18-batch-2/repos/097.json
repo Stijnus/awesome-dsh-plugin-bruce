@@ -1,0 +1,241 @@
+{
+  "full_name": "chenproton/dsh-history",
+  "originalPosition": 97,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 97,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:16.750Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c7f0689dc16be48b1a55fd5c3fa7f5472ef976b1d4a2acb8a246a90d495a532c",
+      "url": "https://github.com/chenproton/dsh-history/blob/ecb474edf44c85d8d7ec7a0ade15e3d22ad5bd80/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-history@latest",
+          "command": "dsh plugin --profile web add dsh-history@latest",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chenproton/dsh-history#main",
+          "command": "dsh plugin --profile web add github:chenproton/dsh-history#main",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chenproton/dsh-history.git#main",
+          "command": "dsh plugin --profile web add https://github.com/chenproton/dsh-history.git#main",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "29eebe7f87c38365de2cfc9f2344a7b3855242019b017402488afb40d995ed32",
+      "url": "https://github.com/chenproton/dsh-history/blob/ecb474edf44c85d8d7ec7a0ade15e3d22ad5bd80/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-history@latest",
+          "command": "dsh plugin --profile web add dsh-history@latest",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chenproton/dsh-history#main",
+          "command": "dsh plugin --profile web add github:chenproton/dsh-history#main",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chenproton/dsh-history.git#main",
+          "command": "dsh plugin --profile web add https://github.com/chenproton/dsh-history.git#main",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-history",
+      "version": "0.1.25",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chenproton/dsh-history",
+        "commit": "ecb474edf44c85d8d7ec7a0ade15e3d22ad5bd80"
+      },
+      "manifestSha256": "3e36dc1bd8d5b71625d6d3da068f77710b58611460d22f029427c19bbdf8fcff",
+      "manifestUrl": "https://github.com/chenproton/dsh-history/blob/ecb474edf44c85d8d7ec7a0ade15e3d22ad5bd80/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-history",
+        "versions": [
+          {
+            "version": "0.1.25",
+            "publishTimestamp": 1789113120,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chenproton/dsh-history",
+              "commit": "ecb474edf44c85d8d7ec7a0ade15e3d22ad5bd80"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-history@latest",
+      "origin": "npm",
+      "name": "dsh-history",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-history",
+        "title": "dsh-history",
+        "description": "Quickly view, search, and jump to all the messages you sent in a long conversation.",
+        "repository": {
+          "url": "https://github.com/chenproton/dsh-history"
+        },
+        "versions": [
+          {
+            "version": "0.1.25",
+            "publishTimestamp": 1789112692,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4c25a18cda6eb11d50dc06fa61999802b2a78959ee28e26595a446768a3cc4f5",
+      "evidence": [
+        {
+          "name": "dsh-history",
+          "version": "0.1.25",
+          "tarball": "https://registry.npmjs.org/dsh-history/-/dsh-history-0.1.25.tgz",
+          "integrity": "sha512-GO/ykT+MUxTxI1eQtBZnSV6TsFddCU+gcZqgHNCU3tEVTjSI0I3n1z/eZbBJsVF4CIWzoLgieI53cBt0CqUt7g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "https://github.com/chenproton/dsh-history#main",
+      "origin": "git_target",
+      "name": "dsh-history",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-history",
+        "title": "dsh-history",
+        "description": "Quickly view, search, and jump to all the messages you sent in a long conversation.",
+        "repository": {
+          "url": "https://github.com/chenproton/dsh-history"
+        },
+        "versions": [
+          {
+            "version": "0.1.25",
+            "publishTimestamp": 1789113120,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chenproton/dsh-history",
+              "commit": "ecb474edf44c85d8d7ec7a0ade15e3d22ad5bd80"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "ecb474edf44c85d8d7ec7a0ade15e3d22ad5bd80",
+          "name": "dsh-history",
+          "version": "0.1.25",
+          "url": "https://github.com/chenproton/dsh-history",
+          "manifestSha256": "3e36dc1bd8d5b71625d6d3da068f77710b58611460d22f029427c19bbdf8fcff",
+          "publishTimestamp": 1789113120
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/chenproton/dsh-history.git#main",
+      "origin": "git_target",
+      "name": "dsh-history",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-history",
+        "title": "dsh-history",
+        "description": "Quickly view, search, and jump to all the messages you sent in a long conversation.",
+        "repository": {
+          "url": "https://github.com/chenproton/dsh-history"
+        },
+        "versions": [
+          {
+            "version": "0.1.25",
+            "publishTimestamp": 1789113120,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chenproton/dsh-history",
+              "commit": "ecb474edf44c85d8d7ec7a0ade15e3d22ad5bd80"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "ecb474edf44c85d8d7ec7a0ade15e3d22ad5bd80",
+          "name": "dsh-history",
+          "version": "0.1.25",
+          "url": "https://github.com/chenproton/dsh-history",
+          "manifestSha256": "3e36dc1bd8d5b71625d6d3da068f77710b58611460d22f029427c19bbdf8fcff",
+          "publishTimestamp": 1789113120
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-history@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/chenproton/dsh-history#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/chenproton/dsh-history.git#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chenproton/dsh-history",
+    "commit": "ecb474edf44c85d8d7ec7a0ade15e3d22ad5bd80",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:30.714Z"
+}

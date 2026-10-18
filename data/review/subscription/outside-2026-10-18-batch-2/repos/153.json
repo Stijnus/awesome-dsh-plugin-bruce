@@ -1,0 +1,191 @@
+{
+  "full_name": "Ox0400/dsh-vault",
+  "originalPosition": 153,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 153,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:37.742Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f8da09fac5f4babe0e8b619bb2703d465710e533764c59b5b480ee0bebaf161",
+      "url": "https://github.com/Ox0400/dsh-vault/blob/deebe535663e17db5daf94683888e17928ec74e6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vault",
+          "command": "dsh plugin --profile web add dsh-vault",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Ox0400/dsh-vault#v0.1.1",
+          "command": "dsh plugin --profile web add github:Ox0400/dsh-vault#v0.1.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "563763324d1bb253b844daf29cb0c5262bf8470cf3159b7060ee0c35132c1d75",
+      "url": "https://github.com/Ox0400/dsh-vault/blob/deebe535663e17db5daf94683888e17928ec74e6/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vault",
+          "command": "dsh plugin --profile web add dsh-vault",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Ox0400/dsh-vault#v0.1.1",
+          "command": "dsh plugin --profile web add github:Ox0400/dsh-vault#v0.1.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vault",
+      "version": "1.10.75",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ox0400/dsh-vault",
+        "commit": "deebe535663e17db5daf94683888e17928ec74e6"
+      },
+      "manifestSha256": "72c4e4d59e7683a1da6f6c10114d51be7ebf30620addb200fa84f5e7612a80b0",
+      "manifestUrl": "https://github.com/Ox0400/dsh-vault/blob/deebe535663e17db5daf94683888e17928ec74e6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-vault",
+        "versions": [
+          {
+            "version": "1.10.75",
+            "publishTimestamp": 1792118584,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ox0400/dsh-vault",
+              "commit": "deebe535663e17db5daf94683888e17928ec74e6"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-vault",
+      "origin": "npm",
+      "name": "dsh-vault",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-vault",
+        "title": "dsh-vault",
+        "description": "Encrypted credential vault for DeepSeek Harness: store and retrieve usernames, emails, phone numbers, passwords, TOTP secrets, SSH/API-key/OAuth developer credentials through model tools and a Settings UI page.",
+        "author": "Ox0400",
+        "homepage": "https://github.com/Ox0400/dsh-vault#readme",
+        "repository": {
+          "url": "https://github.com/Ox0400/dsh-vault"
+        },
+        "versions": [
+          {
+            "version": "1.10.75",
+            "publishTimestamp": 1791795190,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4b9259cd23b4204a6a010402a6e354ddce06774c579b2f2d9c52dd8136e87bdd",
+      "evidence": [
+        {
+          "name": "dsh-vault",
+          "version": "1.10.75",
+          "tarball": "https://registry.npmjs.org/dsh-vault/-/dsh-vault-1.10.75.tgz",
+          "integrity": "sha512-uaB3U9tZ0Y3KEZnweeiRnxfc+5NfCove8YV1gN657CTDZ/tJFChmH/lebN7TurCigLaGrUILxmEXWC9hQmOoLA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/Ox0400/dsh-vault#v0.1.1",
+      "origin": "git_target",
+      "name": "dsh-vault",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-vault",
+        "title": "dsh-vault",
+        "description": "Encrypted credential vault for DeepSeek Harness: store and retrieve usernames, emails, phone numbers, passwords, TOTP secrets, SSH/API-key/OAuth developer credentials through model tools and a Settings UI page.",
+        "author": "Ox0400",
+        "homepage": "https://github.com/Ox0400/dsh-vault#readme",
+        "repository": {
+          "url": "https://github.com/Ox0400/dsh-vault"
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786689802,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ox0400/dsh-vault",
+              "commit": "9f6784c87a22e42ec05e4f9e4a1f9183db71bf7a"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "9f6784c87a22e42ec05e4f9e4a1f9183db71bf7a",
+          "name": "dsh-vault",
+          "version": "0.1.1",
+          "url": "https://github.com/Ox0400/dsh-vault",
+          "manifestSha256": "2c3d7c20ecfe2783de6954f164b70770656f0ec5e6eb0d42f5564bbc32e7b2ab",
+          "publishTimestamp": 1786689802
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-vault",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Ox0400/dsh-vault#v0.1.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ox0400/dsh-vault",
+    "commit": "deebe535663e17db5daf94683888e17928ec74e6",
+    "releaseTags": 264,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:48.672Z"
+}

@@ -1,0 +1,186 @@
+{
+  "full_name": "RSLN-creator/dsh-web-bridge",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 154,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:38.789Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "82a2cc64f777f1809925a81554b8043acfee6635144af8c18626099e021d5bc2",
+      "url": "https://github.com/RSLN-creator/dsh-web-bridge/blob/a46a697fe36ca809589790ed877db8727cf0da92/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/RSLN-creator/dsh-web-bridge/tree/main/package/dsh-webcode-bridge",
+          "command": "dsh plugin --profile web add https://github.com/RSLN-creator/dsh-web-bridge/tree/main/package/dsh-webcode-bridge",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-webcode-bridge",
+          "command": "dsh plugin --profile web add dsh-webcode-bridge",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "cbb7cf3c66ecf667aecdb6ad0a7b34f80b801ebd3edb5f63fd41c202f127111a",
+      "url": "https://github.com/RSLN-creator/dsh-web-bridge/blob/a46a697fe36ca809589790ed877db8727cf0da92/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/RSLN-creator/dsh-web-bridge/tree/main/package/dsh-webcode-bridge",
+          "command": "dsh plugin --profile web add https://github.com/RSLN-creator/dsh-web-bridge/tree/main/package/dsh-webcode-bridge",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-webcode-bridge",
+          "command": "dsh plugin --profile web add dsh-webcode-bridge",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "doc/README.md",
+      "sha256": "f99c24f25ff442bcbd4aff19e2cbffd75a583c84f734e6dfff292129cdb95519",
+      "url": "https://github.com/RSLN-creator/dsh-web-bridge/blob/a46a697fe36ca809589790ed877db8727cf0da92/doc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-webcode-bridge",
+      "version": "0.19.92",
+      "path": "package/dsh-webcode-bridge",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/RSLN-creator/dsh-web-bridge",
+        "commit": "a46a697fe36ca809589790ed877db8727cf0da92",
+        "path": "package/dsh-webcode-bridge"
+      },
+      "manifestSha256": "93584471b7c71835c993c1bd23079ed1ee5fb4afad0e08a3e15882c6960feb32",
+      "manifestUrl": "https://github.com/RSLN-creator/dsh-web-bridge/blob/a46a697fe36ca809589790ed877db8727cf0da92/package/dsh-webcode-bridge/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-webcode-bridge",
+        "versions": [
+          {
+            "version": "0.19.92",
+            "publishTimestamp": 1792253477,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/RSLN-creator/dsh-web-bridge",
+              "commit": "a46a697fe36ca809589790ed877db8727cf0da92",
+              "path": "package/dsh-webcode-bridge"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-webcode-bridge",
+      "origin": "npm",
+      "name": "dsh-webcode-bridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-webcode-bridge",
+        "title": {
+          "en": "Web Bridge",
+          "zh": "网页桥接"
+        },
+        "description": {
+          "en": "Use your logged-in web AI as model providers. Web models emit tool calls, DSH runs them under its native permission system, and results return to the same web session. No API keys.",
+          "zh": "把已登录的网页版 AI 接成可调用的模型 provider。网页模型输出工具调用，DSH 在它自己的权限系统下执行，结果回灌同一个网页会话。不需要 API 密钥。"
+        },
+        "homepage": "https://github.com/RSLN-creator/dsh-web-bridge#readme",
+        "repository": {
+          "url": "https://github.com/RSLN-creator/dsh-web-bridge",
+          "directory": "package/dsh-webcode-bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh-bundle",
+            "webcode",
+            "web-ai",
+            "llm-adapter",
+            "model-provider",
+            "deepseek-web"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNCIgaGVpZ2h0PSIxMDI0IiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDx0aXRsZT5XZWIgQnJpZGdlPC90aXRsZT4KICA8IS0tCiAgICDlk4HniYzlm77moIflrprnqL/vvIgwLjE5LjU477yJ77yM5oyJ55So5oi355SoIGFwcGljb24tZm9yZ2Ug5b6u6LCD5ZCO55qE56i/5a2Q6YCQ6aG56L+Y5Y6f77yaCiAgICAgIOWbvuagh+W9oueKtiAgSWNvbm9pciBgYnJpZGdlLTNkYO+8iOS9nOiAhSBMdWNhIEJ1cmdpb++8jE1JVO+8jGh0dHBzOi8vZ2l0aHViLmNvbS9pY29ub2lyLWljb25zL2ljb25vaXLvvIkKICAgICAg5bqV6ImyL+WchuinkiAgI2ZmZmZmZiDCtyBib3JkZXJSYWRpdXMgNzcgwrcg5o+P6L65ICNEMUQxRDHvvIgwLjVweO+8jDE6MSDmmKDlsITliLAgMTAyNO+8iQogICAgICDlm77moIfpopzoibIgICMwMDAwMDDvvIhpY29uQ29sb3LvvIkKICAgICAg5peL6L2sICAgICAgaWNvblJvdGF0aW9uIDkwIOKHkiDmlbTkvZMgcm90YXRlKDkwIDUxMiA1MTIpCiAgICAgIOWJr+W9sSAgICAgICM2NWIzZmPvvIxvZmZzZXQgKOKIkjIsICszKSAvIGJsdXIgMe+8iGljb25TaGFkb3fvvInvvIzmjIkgMTAyNC8yNCDmjaLnrpcKICAgICAg5Y2g55S75q+UICAgIGljb25TaXplIDE0OS8yNTYg4oeSIOWGheWuuSA1OTZweOOAgeWbm+WRqOeVmeeZvSAyMTRweAogICAg6K645Y+v77yaTUlUIOimgeaxguS/neeVmeiuuOWPr+S4juS9nOiAheWjsOaYju+8iOingeS4iuaWueazqOmHiu+8ieOAggogIC0tPgogIDwhLS0g5bqV77ya55m95bqV5ZyG6KeS5pa55Z2XICsgMXB4IOaPj+i+ue+8iGJvcmRlcldpZHRoIDAg5ZyoIDEwMjQg55S75biD5LiK5oyJIDAuNXB4IOWRiOeOsO+8iSAtLT4KICA8cmVjdCB4PSIwLjUiIHk9IjAuNSIgd2lkdGg9IjEwMjMiIGhlaWdodD0iMTAyMyIgcng9Ijc3IiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9IiNEMUQxRDEiIC8+CgogIDwhLS0g5Ymv5b2x77yIaWNvblNoYWRvd++8miM2NWIzZmPvvIxvZmZzZXQg4oiSMiwrM++8jGJsdXIgMe+8iSAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMiAzKSIgb3BhY2l0eT0iMC41NSI+CiAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg5MCA1MTIgNTEyKSI+CiAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxNCAyMTQpIHNjYWxlKDI0LjgzMzMpIj4KICAgICAgICA8cGF0aCBkPSJNMTggNEwyMSA0IiBzdHJva2U9IiM2NWIzZmMiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgICAgICAgPHBhdGggZD0iTTEwIDIxQzEwLjU1MjMgMjEgMTEgMjAuNTUyMyAxMSAyMEMxMSAxOS40NDc3IDEwLjU1MjMgMTkgMTAgMTlDOS40NDc3MiAxOSA5IDE5LjQ0NzcgOSAyMEM5IDIwLjU1MjMgOS40NDc3MiAyMSAxMCAyMVoiIGZpbGw9IiM2NWIzZmMiIHN0cm9rZT0iIzY1YjNmYyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogICAgICAgIDxwYXRoIGQ9Ik0xNCA1QzE0LjU1MjMgNSAxNSA0LjU1MjI4IDE1IDRDMTUgMy40NDc3MiAxNC41NTIzIDMgMTQgM0MxMy40NDc3IDMgMTMgMy40NDc3MiAxMyA0QzEzIDQuNTUyMjggMTMuNDQ3NyA1IDE0IDVaIiBmaWxsPSIjNjViM2ZjIiBzdHJva2U9IiM2NWIzZmMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICAgICAgICA8cGF0aCBkPSJNMTAgMjBDMTAgMjAgMTYuNSAxNy41IDEyIDEyQzcuNSA2LjUgMTQgNCAxNCA0IiBzdHJva2U9IiM2NWIzZmMiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgICAgICAgPHBhdGggZD0iTTMgMjBINiIgc3Ryb2tlPSIjNjViM2ZjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogICAgICA8L2c+CiAgICA8L2c+CiAgPC9nPgoKICA8IS0tIOacrOS9k++8mum7keiJsu+8iGljb25Db2xvciAjMDAwMDAw77yJ77yM5ZCM5LiA5aWX5a6Y5pa55Yeg5L2VICsg5peL6L2sIDkwwrAgLS0+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoOTAgNTEyIDUxMikiPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjE0IDIxNCkgc2NhbGUoMjQuODMzMykiPgogICAgICA8cGF0aCBkPSJNMTggNEwyMSA0IiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgICAgIDxwYXRoIGQ9Ik0xMCAyMUMxMC41NTIzIDIxIDExIDIwLjU1MjMgMTEgMjBDMTEgMTkuNDQ3NyAxMC41NTIzIDE5IDEwIDE5QzkuNDQ3NzIgMTkgOSAxOS40NDc3IDkgMjBDOSAyMC41NTIzIDkuNDQ3NzIgMjEgMTAgMjFaIiBmaWxsPSIjMDAwMDAwIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICAgICAgPHBhdGggZD0iTTE0IDVDMTQuNTUyMyA1IDE1IDQuNTUyMjggMTUgNEMxNSAzLjQ0NzcyIDE0LjU1MjMgMyAxNCAzQzEzLjQ0NzcgMyAxMyAzLjQ0NzcyIDEzIDRDMTMgNC41NTIyOCAxMy40NDc3IDUgMTQgNVoiIGZpbGw9IiMwMDAwMDAiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogICAgICA8cGF0aCBkPSJNMTAgMjBDMTAgMjAgMTYuNSAxNy41IDEyIDEyQzcuNSA2LjUgMTQgNCAxNCA0IiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgICAgIDxwYXRoIGQ9Ik0zIDIwSDYiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.19.76",
+            "publishTimestamp": 1791973139,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e3f0feffe68c292f56c1f5d8ae850dfd243e6a01c26804c8a7e50b36dded9e5c",
+      "evidence": [
+        {
+          "name": "dsh-webcode-bridge",
+          "version": "0.19.76",
+          "tarball": "https://registry.npmjs.org/dsh-webcode-bridge/-/dsh-webcode-bridge-0.19.76.tgz",
+          "integrity": "sha512-6OMsobcHKO8RBa85kk7VhHYa2U12EZMyYZuWP65Fh8NKErF5akBRk1f4phWa/tcxgrJk4Nq52NQn0M1RSy0N3A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/RSLN-creator/dsh-web-bridge/tree/main/package/dsh-webcode-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-webcode-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "https://github.com/RSLN-creator/dsh-web-bridge/tree/main/package/dsh-webcode-bridge",
+      "reason": "Command failed: git -c core.hooksPath=/dev/null -c core.fsmonitor=false -c submodule.recurse=false -c gc.auto=0 -c maintenance.auto=false -c protocol.allow=never -c protocol.https.allow=always ls-remote -- https://github.com/RSLN-creator/dsh-web-bridge/tree/main/package/dsh-webcode-bridge HEAD refs/tags/*\nfatal: repository 'https://github.com/RSLN-creator/dsh-web-bridge/tree/main/package/dsh-webcode-bridge/' not found\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/RSLN-creator/dsh-web-bridge",
+    "commit": "a46a697fe36ca809589790ed877db8727cf0da92",
+    "releaseTags": 25,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:48.916Z",
+  "resolution": "README 使用 GitHub tree URL，审计器按仓库地址解析失败；仓库已发现 package/dsh-webcode-bridge 子包并通过元数据核验，npm dsh-webcode-bridge 0.19.76 也可用。"
+}

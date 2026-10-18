@@ -1,0 +1,141 @@
+{
+  "full_name": "AHGGG/dsh-side-chat",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:32.396Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "78d1ff1163332ab05c2ed0d3e6b0976b0216049559a5f4c9d78de1e428b68e46",
+      "url": "https://github.com/AHGGG/dsh-side-chat/blob/8d463ea7410bcb0b4e76a2d11d5b848d04fc0086/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ahggg/dsh-side-chat@1.0.2",
+          "command": "dsh plugin --profile web add @ahggg/dsh-side-chat@1.0.2 --save-exact",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "e22061c676649ac5d78c4cc9f83f1470f18f430f2021bc7a7075a0a16283c617",
+      "url": "https://github.com/AHGGG/dsh-side-chat/blob/8d463ea7410bcb0b4e76a2d11d5b848d04fc0086/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ahggg/dsh-side-chat@1.0.2",
+          "command": "dsh plugin --profile web add @ahggg/dsh-side-chat@1.0.2 --save-exact",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ahggg/dsh-side-chat",
+      "version": "1.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AHGGG/dsh-side-chat",
+        "commit": "8d463ea7410bcb0b4e76a2d11d5b848d04fc0086"
+      },
+      "manifestSha256": "549e343a14b3a4637f3e049ae683bec317d5ed6251f1e8cba7382e233fcee324",
+      "manifestUrl": "https://github.com/AHGGG/dsh-side-chat/blob/8d463ea7410bcb0b4e76a2d11d5b848d04fc0086/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@ahggg/dsh-side-chat",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "publishTimestamp": 1790737033,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AHGGG/dsh-side-chat",
+              "commit": "8d463ea7410bcb0b4e76a2d11d5b848d04fc0086"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@ahggg/dsh-side-chat@1.0.2",
+      "origin": "npm",
+      "name": "@ahggg/dsh-side-chat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@ahggg/dsh-side-chat",
+        "title": "@ahggg/dsh-side-chat",
+        "description": "Codex-style side conversations for DeepSeek Harness",
+        "homepage": "https://github.com/AHGGG/dsh-side-chat#readme",
+        "repository": {
+          "url": "https://github.com/AHGGG/dsh-side-chat"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "side-chat"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.2",
+            "publishTimestamp": 1790736390,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3774b606715d5c8dab12d97abc21f1519b64f465d3d7f851b9b7cadc8f71692d",
+      "evidence": [
+        {
+          "name": "@ahggg/dsh-side-chat",
+          "version": "1.0.2",
+          "tarball": "https://registry.npmjs.org/@ahggg/dsh-side-chat/-/dsh-side-chat-1.0.2.tgz",
+          "integrity": "sha512-f15bhPKI9PivYTjM5oinkOLtlLqVh+6oMAYJf/epK9cn4gR6YFO9ur/WdRECz+tDISRhc92KW6YQatDfGYvPVg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@ahggg/dsh-side-chat@1.0.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AHGGG/dsh-side-chat",
+    "commit": "8d463ea7410bcb0b4e76a2d11d5b848d04fc0086",
+    "releaseTags": 17,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:39.236Z"
+}

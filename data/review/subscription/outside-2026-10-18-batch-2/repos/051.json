@@ -1,0 +1,85 @@
+{
+  "full_name": "godchen520/dsh-web-remote",
+  "originalPosition": 51,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 51,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:20.808Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d41e54c5cf7697168f3c0a992e329c4b3705804cc41c16e275d640b27a7e6276",
+      "url": "https://github.com/godchen520/dsh-web-remote/blob/d2a669b87c0e6ce9be2bdd2b28d404c89dbc04dd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/godchen520/dsh-web-remote",
+          "command": "dsh plugin --profile web add github:godchen520/dsh-web-remote",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "ab4a8bd53620e0c88b36527a6fccdc62e94f408748ab81510ff8929254ed06f5",
+      "url": "https://github.com/godchen520/dsh-web-remote/blob/d2a669b87c0e6ce9be2bdd2b28d404c89dbc04dd/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-remote",
+      "version": "5.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/godchen520/dsh-web-remote",
+        "commit": "d2a669b87c0e6ce9be2bdd2b28d404c89dbc04dd"
+      },
+      "manifestSha256": "01196f15d7d8448d3fef1701d2cdef8306c5896db1a1a59f8cb402de22e5fca2",
+      "manifestUrl": "https://github.com/godchen520/dsh-web-remote/blob/d2a669b87c0e6ce9be2bdd2b28d404c89dbc04dd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-web-remote",
+        "versions": [
+          {
+            "version": "5.7.1",
+            "publishTimestamp": 1791681289,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/godchen520/dsh-web-remote",
+              "commit": "d2a669b87c0e6ce9be2bdd2b28d404c89dbc04dd"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/godchen520/dsh-web-remote",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/godchen520/dsh-web-remote",
+    "commit": "d2a669b87c0e6ce9be2bdd2b28d404c89dbc04dd",
+    "releaseTags": 45,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:25.950Z"
+}

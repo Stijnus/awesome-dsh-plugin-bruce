@@ -1,0 +1,73 @@
+{
+  "full_name": "Aisland-SJL/dsh-reminder",
+  "originalPosition": 4,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:07.578Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d47ebe24b135152b93a06771cad755ebc2405335935921aae075d3997d1e8362",
+      "url": "https://github.com/Aisland-SJL/dsh-reminder/blob/bd1b64f7056297d07ae49baecb90f1584c11f415/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "53ad40d8e6d0e6c5928717eedf6d9543714f2559fa587ce0ebf0b13182b48530",
+      "url": "https://github.com/Aisland-SJL/dsh-reminder/blob/bd1b64f7056297d07ae49baecb90f1584c11f415/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-reminder",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Aisland-SJL/dsh-reminder",
+        "commit": "bd1b64f7056297d07ae49baecb90f1584c11f415"
+      },
+      "manifestSha256": "d33f84d2fd210a73881c301eca8cacac4713e67d05fe05cc2ec4c365187cbf6c",
+      "manifestUrl": "https://github.com/Aisland-SJL/dsh-reminder/blob/bd1b64f7056297d07ae49baecb90f1584c11f415/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-reminder",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786888464,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Aisland-SJL/dsh-reminder",
+              "commit": "bd1b64f7056297d07ae49baecb90f1584c11f415"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Aisland-SJL/dsh-reminder",
+    "commit": "bd1b64f7056297d07ae49baecb90f1584c11f415",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:11.861Z"
+}

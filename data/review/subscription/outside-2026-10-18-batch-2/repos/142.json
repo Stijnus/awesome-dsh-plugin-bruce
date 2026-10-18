@@ -1,0 +1,154 @@
+{
+  "full_name": "xmuwenxiang/dsh-web-chat",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:21.038Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "532f041676777ac8a6f56e7e3e4eba7f2cf9704d62ba50d88ad6cc684d7526ac",
+      "url": "https://github.com/xmuwenxiang/dsh-web-chat/blob/835e501ea40738de4f0bc3e63c406a9f416984cd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xmuwenxiang/dsh-web-chat",
+          "command": "dsh plugin --profile web add github:xmuwenxiang/dsh-web-chat",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-webchat",
+          "command": "dsh plugin --profile web add dsh-webchat",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "62987ba5bcc7759ff6f4f131875638eb169f2edd446f7ce205afad742fc7e09b",
+      "url": "https://github.com/xmuwenxiang/dsh-web-chat/blob/835e501ea40738de4f0bc3e63c406a9f416984cd/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xmuwenxiang/dsh-web-chat",
+          "command": "dsh plugin --profile web add github:xmuwenxiang/dsh-web-chat",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-webchat",
+          "command": "dsh plugin --profile web add dsh-webchat",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-webchat",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xmuwenxiang/dsh-web-chat",
+        "commit": "835e501ea40738de4f0bc3e63c406a9f416984cd"
+      },
+      "manifestSha256": "5a8bc6c5b988fc0bc355022ea87e7d76a1cb2e2615c1eaccadabbd1434d0a4fc",
+      "manifestUrl": "https://github.com/xmuwenxiang/dsh-web-chat/blob/835e501ea40738de4f0bc3e63c406a9f416984cd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-webchat",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788771875,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xmuwenxiang/dsh-web-chat",
+              "commit": "835e501ea40738de4f0bc3e63c406a9f416984cd"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-webchat",
+      "origin": "npm",
+      "name": "dsh-webchat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-webchat",
+        "title": "dsh-webchat",
+        "description": "Codex-ChatGPT-mode style web chat for DeepSeek Harness: chat through chat.deepseek.com (deepseek-chat) using your DeepSeek web session instead of API billing, then transfer the conversation into a harness session as development context — or let the harness agent chat through the same web session. Hot-pluggable: mounted via the web profile's bundles list + a profile node_modules install, no dsh source changes.",
+        "repository": {
+          "url": "https://github.com/xmuwenxiang/dsh-web-chat"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "deepseek",
+            "webchat",
+            "chatgpt-mode",
+            "deepseek-web",
+            "harness-plugin",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787650902,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "083dc21bd873e90a0416c70cf7a83caeef1c4d2f228496d599b60137cf3337bf",
+      "evidence": [
+        {
+          "name": "dsh-webchat",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-webchat/-/dsh-webchat-0.2.0.tgz",
+          "integrity": "sha512-SENADal2isetA6rfwg4pQmmKansr/bq9DRwSwHaXu8MzCWENnFsOelHb5Xs/A7kzw05P7sPFPAsHbNz2OVkrWQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xmuwenxiang/dsh-web-chat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-webchat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xmuwenxiang/dsh-web-chat",
+    "commit": "835e501ea40738de4f0bc3e63c406a9f416984cd",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:26.585Z"
+}

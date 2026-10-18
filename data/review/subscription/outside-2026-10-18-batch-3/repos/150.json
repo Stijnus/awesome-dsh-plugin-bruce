@@ -1,0 +1,80 @@
+{
+  "full_name": "iyllyt/dsh-btw",
+  "originalPosition": 150,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 150,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:26.017Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1b6381b436b7a6e6ec9320996813512a8aa3740d816169eaaae1ca3c73dcd7cf",
+      "url": "https://github.com/iyllyt/dsh-btw/blob/dd2923dca9304ea08f9f33bc5578533d61ec2d42/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/iyllyt/dsh-btw",
+          "command": "dsh plugin --profile desktop add github:iyllyt/dsh-btw --ignore-scripts",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-btw",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/iyllyt/dsh-btw",
+        "commit": "dd2923dca9304ea08f9f33bc5578533d61ec2d42"
+      },
+      "manifestSha256": "8464b451343bcd89a9ce0cc6ade9517a3b18496f367cb5c90d7c135613e371c7",
+      "manifestUrl": "https://github.com/iyllyt/dsh-btw/blob/dd2923dca9304ea08f9f33bc5578533d61ec2d42/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-btw",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1792249472,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/iyllyt/dsh-btw",
+              "commit": "dd2923dca9304ea08f9f33bc5578533d61ec2d42"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/iyllyt/dsh-btw",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/iyllyt/dsh-btw",
+    "commit": "dd2923dca9304ea08f9f33bc5578533d61ec2d42",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:30.899Z"
+}

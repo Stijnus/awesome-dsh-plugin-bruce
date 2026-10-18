@@ -1,0 +1,212 @@
+{
+  "full_name": "ArvinQi/dsh-mcp",
+  "originalPosition": 148,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 148,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:31.215Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7cbe0d539181e62d714eeaeb20b0de6d60ad78bbd61f4dc2ae061c8d3405bec8",
+      "url": "https://github.com/ArvinQi/dsh-mcp/blob/28c659bace63bc26652a57167fc81627fa0cff76/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp",
+          "command": "dsh plugin --profile web add dsh-mcp",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ArvinQi/dsh-mcp",
+          "command": "dsh plugin --profile web add github:ArvinQi/dsh-mcp",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/ArvinQi/dsh-mcp.git",
+          "command": "dsh plugin --profile web add git+https://github.com/ArvinQi/dsh-mcp.git",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp@latest",
+          "command": "dsh plugin --profile web add dsh-mcp@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "bfea5f3607893af9b12e3d4d1f3d98c7cf4821fc4b5060ca48ae56b26bec1202",
+      "url": "https://github.com/ArvinQi/dsh-mcp/blob/28c659bace63bc26652a57167fc81627fa0cff76/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp",
+          "command": "dsh plugin --profile web add dsh-mcp",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ArvinQi/dsh-mcp",
+          "command": "dsh plugin --profile web add github:ArvinQi/dsh-mcp",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/ArvinQi/dsh-mcp.git",
+          "command": "dsh plugin --profile web add git+https://github.com/ArvinQi/dsh-mcp.git",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp@latest",
+          "command": "dsh plugin --profile web add dsh-mcp@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mcp",
+      "version": "1.14.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ArvinQi/dsh-mcp",
+        "commit": "28c659bace63bc26652a57167fc81627fa0cff76"
+      },
+      "manifestSha256": "ad72dc1c71c4ac4b657ed328121a8306fee6200bac34977fc330ff3f460f00a7",
+      "manifestUrl": "https://github.com/ArvinQi/dsh-mcp/blob/28c659bace63bc26652a57167fc81627fa0cff76/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-mcp",
+        "versions": [
+          {
+            "version": "1.14.0",
+            "publishTimestamp": 1791871015,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ArvinQi/dsh-mcp",
+              "commit": "28c659bace63bc26652a57167fc81627fa0cff76"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mcp",
+      "origin": "npm",
+      "name": "dsh-mcp",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mcp",
+        "title": "dsh-mcp",
+        "description": "MCP 管理界面 + tool search：可视化配置/启停/刷新 MCP 服务器与工具勾选，按需检索（tool search）热注入；工具列表稳定命中缓存、不撑爆上下文。DeepSeek Harness plugin: MCP management UI + tool search — stable tool list, cache-friendly, no context bloat.",
+        "author": "Arvin.qi",
+        "homepage": "https://github.com/ArvinQi/dsh-mcp",
+        "repository": {
+          "url": "https://github.com/ArvinQi/dsh-mcp"
+        },
+        "versions": [
+          {
+            "version": "1.14.0",
+            "publishTimestamp": 1791871125,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "aa43fac4ed844a7d0f1f9579587e4b080811138bedde4634e1205ed3527788c3",
+      "evidence": [
+        {
+          "name": "dsh-mcp",
+          "version": "1.14.0",
+          "tarball": "https://registry.npmjs.org/dsh-mcp/-/dsh-mcp-1.14.0.tgz",
+          "integrity": "sha512-a7EeABR99oghgXb9QCIQUk5Qtzfcj54XUMIzpE4dWr0jj+vxbcQ+6cLJnILAU5MeG1C+mTo38EqUwe5qBIODrA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-mcp@latest",
+      "origin": "npm",
+      "name": "dsh-mcp",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mcp",
+        "title": "dsh-mcp",
+        "description": "MCP 管理界面 + tool search：可视化配置/启停/刷新 MCP 服务器与工具勾选，按需检索（tool search）热注入；工具列表稳定命中缓存、不撑爆上下文。DeepSeek Harness plugin: MCP management UI + tool search — stable tool list, cache-friendly, no context bloat.",
+        "author": "Arvin.qi",
+        "homepage": "https://github.com/ArvinQi/dsh-mcp",
+        "repository": {
+          "url": "https://github.com/ArvinQi/dsh-mcp"
+        },
+        "versions": [
+          {
+            "version": "1.14.0",
+            "publishTimestamp": 1791871125,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "aa43fac4ed844a7d0f1f9579587e4b080811138bedde4634e1205ed3527788c3",
+      "evidence": [
+        {
+          "name": "dsh-mcp",
+          "version": "1.14.0",
+          "tarball": "https://registry.npmjs.org/dsh-mcp/-/dsh-mcp-1.14.0.tgz",
+          "integrity": "sha512-a7EeABR99oghgXb9QCIQUk5Qtzfcj54XUMIzpE4dWr0jj+vxbcQ+6cLJnILAU5MeG1C+mTo38EqUwe5qBIODrA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mcp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ArvinQi/dsh-mcp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/ArvinQi/dsh-mcp.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mcp@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ArvinQi/dsh-mcp",
+    "commit": "28c659bace63bc26652a57167fc81627fa0cff76",
+    "releaseTags": 17,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:42.491Z"
+}

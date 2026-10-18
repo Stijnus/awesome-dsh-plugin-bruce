@@ -1,0 +1,123 @@
+{
+  "full_name": "609476965/dsh-LorebookMD",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:47.206Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a903fb0da0321538ddc7cf38e280dc6df0968c1ef90eccfcc483a398237b2c72",
+      "url": "https://github.com/609476965/dsh-LorebookMD/blob/4bc4110efbfb4888286b81aaf53191705dade9dd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-lorebookmd",
+          "command": "dsh plugin --profile web add dsh-lorebookmd",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lorebookmd",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/609476965/dsh-LorebookMD",
+        "commit": "4bc4110efbfb4888286b81aaf53191705dade9dd"
+      },
+      "manifestSha256": "29aee2079f31887ed861c9a291a591d9b5b82194945fc14ff0ce50d0486115cb",
+      "manifestUrl": "https://github.com/609476965/dsh-LorebookMD/blob/4bc4110efbfb4888286b81aaf53191705dade9dd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-lorebookmd",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1786732455,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/609476965/dsh-LorebookMD",
+              "commit": "4bc4110efbfb4888286b81aaf53191705dade9dd"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-lorebookmd",
+      "origin": "npm",
+      "name": "dsh-lorebookmd",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-lorebookmd",
+        "title": "dsh-lorebookmd",
+        "description": "DSH lorebook-driven fiction writer plugin: import Tavern/SillyTavern character cards & world books, save local Markdown lore documents, and generate novel prose with the world settings as reference.",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "lorebook",
+            "world-info",
+            "sillytavern",
+            "tavern",
+            "novel",
+            "fiction"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1786732411,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "437f307e491b0f4010cf173e9fb03410bdc6087898ad065d5d74724bb4684963",
+      "evidence": [
+        {
+          "name": "dsh-lorebookmd",
+          "version": "1.0.0",
+          "tarball": "https://registry.npmjs.org/dsh-lorebookmd/-/dsh-lorebookmd-1.0.0.tgz",
+          "integrity": "sha512-Dzgnis1IxZBTgEG6q8Q8jqDP0e9tbWKOje8qSbGmj0LcKKUpA/eg5BTY0GjlI4ch7P7ftHdVjAvF+RqtoIHwOw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-lorebookmd",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/609476965/dsh-LorebookMD",
+    "commit": "4bc4110efbfb4888286b81aaf53191705dade9dd",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:52.105Z"
+}

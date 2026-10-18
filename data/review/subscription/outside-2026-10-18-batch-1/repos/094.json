@@ -1,0 +1,93 @@
+{
+  "full_name": "Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:02.194Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ac672b67a6c26b7b944cbb4db8d38c5cdf9c37901ecdd0ff9456b329d479606c",
+      "url": "https://github.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl/blob/2154a5deb30039f9f5825677b653a825975fcee2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl",
+          "command": "dsh plugin --profile web add github:Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-whale-widget-bowl",
+          "command": "dsh plugin --profile web add dsh-whale-widget-bowl",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-widget-bowl",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl",
+        "commit": "2154a5deb30039f9f5825677b653a825975fcee2"
+      },
+      "manifestSha256": "2adfd1a0044d4a7ff8cbddf5053fcae0dfded9936a08a6c09a7400a55fce047f",
+      "manifestUrl": "https://github.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl/blob/2154a5deb30039f9f5825677b653a825975fcee2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-whale-widget-bowl",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1791186156,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl",
+              "commit": "2154a5deb30039f9f5825677b653a825975fcee2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-whale-widget-bowl",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-whale-widget-bowl",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl",
+    "commit": "2154a5deb30039f9f5825677b653a825975fcee2",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:09.007Z"
+}

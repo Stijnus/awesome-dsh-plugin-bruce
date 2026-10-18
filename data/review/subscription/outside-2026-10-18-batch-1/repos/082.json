@@ -1,0 +1,179 @@
+{
+  "full_name": "loongsuite/dsh-plugin",
+  "originalPosition": 82,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 82,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:45.433Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d56da343935db2d76f0194035bf14d9242096402d17fb80fa4023a9c552831c0",
+      "url": "https://github.com/loongsuite/dsh-plugin/blob/f44ccfcd2255186bfcfe1c9f8c7db047204865b7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@loongsuite/dsh-plugin",
+          "command": "dsh plugin --profile web add @loongsuite/dsh-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "@loongsuite/dsh-plugin",
+          "command": "dsh plugin --profile headless add @loongsuite/dsh-plugin",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "318749b92083d5f47ca030df77d6f7ff32ebe36014bcfd008b911badfe6408e4",
+      "url": "https://github.com/loongsuite/dsh-plugin/blob/f44ccfcd2255186bfcfe1c9f8c7db047204865b7/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@loongsuite/dsh-plugin",
+          "command": "dsh plugin --profile web add @loongsuite/dsh-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "@loongsuite/dsh-plugin",
+          "command": "dsh plugin --profile headless add @loongsuite/dsh-plugin",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "examples/quickstart/README.md",
+      "sha256": "30895e6448c6c031ee715690a3c12ec80ac64b2dc845b0845fb40cbcd1cfe0f2",
+      "url": "https://github.com/loongsuite/dsh-plugin/blob/f44ccfcd2255186bfcfe1c9f8c7db047204865b7/examples/quickstart/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@loongsuite/dsh-plugin",
+          "command": "dsh plugin --profile web add @loongsuite/dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/quickstart/README.zh-CN.md",
+      "sha256": "c5eedb3b9af487f6ccec72b77c362093cbaa3516e2f668eedd76da3b4234aa08",
+      "url": "https://github.com/loongsuite/dsh-plugin/blob/f44ccfcd2255186bfcfe1c9f8c7db047204865b7/examples/quickstart/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@loongsuite/dsh-plugin",
+          "command": "dsh plugin --profile web add @loongsuite/dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@loongsuite/dsh-plugin",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/loongsuite/dsh-plugin",
+        "commit": "f44ccfcd2255186bfcfe1c9f8c7db047204865b7"
+      },
+      "manifestSha256": "59dec6956a3bee026390dc30ac7bd3c6f0abf632309d83a1f3d12981d2112964",
+      "manifestUrl": "https://github.com/loongsuite/dsh-plugin/blob/f44ccfcd2255186bfcfe1c9f8c7db047204865b7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@loongsuite/dsh-plugin",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1791789945,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/loongsuite/dsh-plugin",
+              "commit": "f44ccfcd2255186bfcfe1c9f8c7db047204865b7"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@loongsuite/dsh-plugin",
+      "origin": "npm",
+      "name": "@loongsuite/dsh-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@loongsuite/dsh-plugin",
+        "title": "@loongsuite/dsh-plugin",
+        "description": "Standalone OpenTelemetry GenAI observability plugin for DeepSeek Harness",
+        "homepage": "https://github.com/loongsuite/dsh-plugin#readme",
+        "repository": {
+          "url": "https://github.com/loongsuite/dsh-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "opentelemetry",
+            "otel",
+            "otlp",
+            "genai",
+            "observability",
+            "loongsuite"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1791790806,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c8d81183a8516f589835d06d50911f10b9c6d6be3cfa975757554d617507b394",
+      "evidence": [
+        {
+          "name": "@loongsuite/dsh-plugin",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/@loongsuite/dsh-plugin/-/dsh-plugin-0.1.3.tgz",
+          "integrity": "sha512-eXS592OYs3G8P1S3c8ICXK2wsSQtrF+A45lNDMSWs/AjA60x5l9CQx4LbpDttpnLKhCTkxspSMrAMrr+8TqLNA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@loongsuite/dsh-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/loongsuite/dsh-plugin",
+    "commit": "f44ccfcd2255186bfcfe1c9f8c7db047204865b7",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:51.751Z"
+}

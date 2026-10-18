@@ -1,0 +1,91 @@
+{
+  "full_name": "ccch713/deepddw",
+  "originalPosition": 137,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 137,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:06.347Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0d8a3edbec5ed8f47989404ef349fea4226d6fd82b2f3067422eae62dd1e2245",
+      "url": "https://github.com/ccch713/deepddw/blob/c1335af1e4543afaa4e27aaef3f5c2e155f42f22/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "797b971b81db2cc3172c97d6288cb346ba75b30191958523bc2fb876c9ebca26",
+      "url": "https://github.com/ccch713/deepddw/blob/c1335af1e4543afaa4e27aaef3f5c2e155f42f22/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "plugins/ddw_org_relay/README_EN.md",
+      "sha256": "2e4e1f2325a4ed1016017a4686d50d4c7e988363b5cacf4f31a88a4bc4424bed",
+      "url": "https://github.com/ccch713/deepddw/blob/c1335af1e4543afaa4e27aaef3f5c2e155f42f22/plugins/ddw_org_relay/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/ddw_org_relay/README.md",
+      "sha256": "fd6df8af53581c790cb362751af89a56a42d33ff7aa61751dae77d7eaecd2f11",
+      "url": "https://github.com/ccch713/deepddw/blob/c1335af1e4543afaa4e27aaef3f5c2e155f42f22/plugins/ddw_org_relay/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepddw/ddw-teams-panel",
+      "version": "0.5.1",
+      "path": "plugins/ddw-teams-panel",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ccch713/deepddw",
+        "commit": "c1335af1e4543afaa4e27aaef3f5c2e155f42f22",
+        "path": "plugins/ddw-teams-panel"
+      },
+      "manifestSha256": "8bc932ad952f5b9b2911137a18e4c40922ccfea9e54ef5133b0cef8551f347c5",
+      "manifestUrl": "https://github.com/ccch713/deepddw/blob/c1335af1e4543afaa4e27aaef3f5c2e155f42f22/plugins/ddw-teams-panel/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepddw/ddw-teams-panel",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1791969852,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ccch713/deepddw",
+              "commit": "c1335af1e4543afaa4e27aaef3f5c2e155f42f22",
+              "path": "plugins/ddw-teams-panel"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ccch713/deepddw",
+    "commit": "c1335af1e4543afaa4e27aaef3f5c2e155f42f22",
+    "releaseTags": 10,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:11.633Z"
+}

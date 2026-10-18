@@ -1,0 +1,94 @@
+{
+  "full_name": "falling-ts/dsh-force-compact",
+  "originalPosition": 75,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 75,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:49.667Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "014bae0825a7b0ddcf58c17acdccf07523fd3de896091cf52ddf2f7714005b63",
+      "url": "https://github.com/falling-ts/dsh-force-compact/blob/23d4aa13ccdf87cd9740aa1716dae98819cd2168/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/falling-ts/dsh-force-compact",
+          "command": "dsh plugin --profile web add github:falling-ts/dsh-force-compact",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.cn.md",
+      "sha256": "4ec72912733e3401393aa4ce8bc487517baa58844e22c65aa308868778d2bbb6",
+      "url": "https://github.com/falling-ts/dsh-force-compact/blob/23d4aa13ccdf87cd9740aa1716dae98819cd2168/README.cn.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/falling-ts/dsh-force-compact",
+          "command": "dsh plugin --profile web add github:falling-ts/dsh-force-compact",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@falling-ts/dsh-force-compact",
+      "version": "0.8.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/falling-ts/dsh-force-compact",
+        "commit": "23d4aa13ccdf87cd9740aa1716dae98819cd2168"
+      },
+      "manifestSha256": "e9d624008d2545691841aa545e1ff97cf0690c5d394a26fab4abc0b1a854b879",
+      "manifestUrl": "https://github.com/falling-ts/dsh-force-compact/blob/23d4aa13ccdf87cd9740aa1716dae98819cd2168/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@falling-ts/dsh-force-compact",
+        "versions": [
+          {
+            "version": "0.8.4",
+            "publishTimestamp": 1791727974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/falling-ts/dsh-force-compact",
+              "commit": "23d4aa13ccdf87cd9740aa1716dae98819cd2168"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/falling-ts/dsh-force-compact",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/falling-ts/dsh-force-compact",
+    "commit": "23d4aa13ccdf87cd9740aa1716dae98819cd2168",
+    "releaseTags": 27,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:54.898Z"
+}

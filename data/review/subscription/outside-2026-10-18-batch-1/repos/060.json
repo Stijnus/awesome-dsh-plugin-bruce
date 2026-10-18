@@ -1,0 +1,137 @@
+{
+  "full_name": "MoFeng2223/dsh-claude-provider",
+  "originalPosition": 60,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 60,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:59.695Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "14cbf7cf71506ca20535681603ba2a6de8f6b7da9055da6a492de4b0edc6e20e",
+      "url": "https://github.com/MoFeng2223/dsh-claude-provider/blob/d0e9787ce187cd6387afc2e54cd7de1313e6154a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mofeng2223/dsh-claude-provider",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @mofeng2223/dsh-claude-provider",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "cec3d9d02162826c2da1663d650d34fcaadc724ef86b8fd7ba988d475a7e7076",
+      "url": "https://github.com/MoFeng2223/dsh-claude-provider/blob/d0e9787ce187cd6387afc2e54cd7de1313e6154a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mofeng2223/dsh-claude-provider",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @mofeng2223/dsh-claude-provider",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mofeng2223/dsh-claude-provider",
+      "version": "0.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MoFeng2223/dsh-claude-provider",
+        "commit": "d0e9787ce187cd6387afc2e54cd7de1313e6154a"
+      },
+      "manifestSha256": "5ed72aca357c8d44f228849803e8105362bf3be37089967443f72abd8171704e",
+      "manifestUrl": "https://github.com/MoFeng2223/dsh-claude-provider/blob/d0e9787ce187cd6387afc2e54cd7de1313e6154a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@mofeng2223/dsh-claude-provider",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1792228049,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MoFeng2223/dsh-claude-provider",
+              "commit": "d0e9787ce187cd6387afc2e54cd7de1313e6154a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@mofeng2223/dsh-claude-provider",
+      "origin": "npm",
+      "name": "@mofeng2223/dsh-claude-provider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@mofeng2223/dsh-claude-provider",
+        "title": "@mofeng2223/dsh-claude-provider",
+        "description": "Custom Claude provider support for DeepSeek Harness 0.2.1-rc.2",
+        "author": "mofeng2223",
+        "homepage": "https://github.com/MoFeng2223/dsh-claude-provider#readme",
+        "repository": {
+          "url": "https://github.com/MoFeng2223/dsh-claude-provider"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "claude",
+            "anthropic"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1792228106,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b3b2477aa50e080ae446bb026402d687bbb9b5e94a085872f2d3331a44913ed4",
+      "evidence": [
+        {
+          "name": "@mofeng2223/dsh-claude-provider",
+          "version": "0.6.1",
+          "tarball": "https://registry.npmjs.org/@mofeng2223/dsh-claude-provider/-/dsh-claude-provider-0.6.1.tgz",
+          "integrity": "sha512-0gErxLzW2+cieRbFtm8mxr3D1GGnWfHXkShSg6u+u1lc4FMRwzH/3JkY7CGi3JX6WBms0jekOzsU3NVLBAx3CA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mofeng2223/dsh-claude-provider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MoFeng2223/dsh-claude-provider",
+    "commit": "d0e9787ce187cd6387afc2e54cd7de1313e6154a",
+    "releaseTags": 24,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:05.762Z"
+}

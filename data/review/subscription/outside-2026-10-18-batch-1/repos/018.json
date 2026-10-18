@@ -1,0 +1,207 @@
+{
+  "full_name": "CheshireJCat/blender",
+  "originalPosition": 18,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 18,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:59.577Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e90f1ed3dcd3f08d9caab5b1a7859b882c29bde2cc5bf8703177d7482c630578",
+      "url": "https://github.com/CheshireJCat/blender/blob/9bd95e97a61096cfae1edb0f88fcd2be54b0adee/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/CheshireJCat/blender#v0.2.3",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:CheshireJCat/blender#v0.2.3",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-blender",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-blender",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "36d22192f135b9104ac9d467829c75cf81b23d949a8148e2723ac8a81edd36ac",
+      "url": "https://github.com/CheshireJCat/blender/blob/9bd95e97a61096cfae1edb0f88fcd2be54b0adee/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/CheshireJCat/blender#v0.2.3",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:CheshireJCat/blender#v0.2.3",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-blender",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-blender",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-blender",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CheshireJCat/blender",
+        "commit": "9bd95e97a61096cfae1edb0f88fcd2be54b0adee"
+      },
+      "manifestSha256": "796335e2a36eff219f84a633ac9ff8a6524f455598abf59d728f47d107d171af",
+      "manifestUrl": "https://github.com/CheshireJCat/blender/blob/9bd95e97a61096cfae1edb0f88fcd2be54b0adee/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.2.0-rc.2 || ^0.2.1-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-blender",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1791776479,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CheshireJCat/blender",
+              "commit": "9bd95e97a61096cfae1edb0f88fcd2be54b0adee"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.2 || ^0.2.1-alpha.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/CheshireJCat/blender#v0.2.3",
+      "origin": "git_target",
+      "name": "dsh-blender",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-blender",
+        "title": "dsh-blender",
+        "description": "DeepSeek Harness Blender production, reconstruction, validation, and export plugin",
+        "homepage": "https://github.com/CheshireJCat/blender#readme",
+        "repository": {
+          "url": "https://github.com/CheshireJCat/blender"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "blender",
+            "3d-modeling",
+            "agent-skill"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1791776479,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CheshireJCat/blender",
+              "commit": "9bd95e97a61096cfae1edb0f88fcd2be54b0adee"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.2 || ^0.2.1-alpha.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "9bd95e97a61096cfae1edb0f88fcd2be54b0adee",
+          "name": "dsh-blender",
+          "version": "0.2.3",
+          "url": "https://github.com/CheshireJCat/blender",
+          "manifestSha256": "796335e2a36eff219f84a633ac9ff8a6524f455598abf59d728f47d107d171af",
+          "publishTimestamp": 1791776479
+        }
+      ]
+    },
+    {
+      "target": "dsh-blender",
+      "origin": "npm",
+      "name": "dsh-blender",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-blender",
+        "title": "dsh-blender",
+        "description": "DeepSeek Harness Blender production, reconstruction, validation, and export plugin",
+        "homepage": "https://github.com/CheshireJCat/blender#readme",
+        "repository": {
+          "url": "https://github.com/CheshireJCat/blender"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "blender",
+            "3d-modeling",
+            "agent-skill"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1791776699,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.2 || ^0.2.1-alpha.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "08b155c6e62d78c1310fb96b948700c2306ef39c52f016e01c883cc3cc102a3c",
+      "evidence": [
+        {
+          "name": "dsh-blender",
+          "version": "0.2.3",
+          "tarball": "https://registry.npmjs.org/dsh-blender/-/dsh-blender-0.2.3.tgz",
+          "integrity": "sha512-KymFwgMuDStffMsA+UMu1DbF/7aeC8A8PIso3kkiFP4xTMC4Jf/ll3KFBqXA6eKIjxXupcNGUXU1N49yDuJf+Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/CheshireJCat/blender#v0.2.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-blender",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CheshireJCat/blender",
+    "commit": "9bd95e97a61096cfae1edb0f88fcd2be54b0adee",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:10.582Z"
+}

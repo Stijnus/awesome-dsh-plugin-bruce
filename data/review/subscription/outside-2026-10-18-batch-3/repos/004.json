@@ -1,0 +1,73 @@
+{
+  "full_name": "MicroMilo/upstream-radar",
+  "originalPosition": 4,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:15.794Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8350065cd022d3197b9272a4147b13d9edba2de66e1d4ae56b41a544d14f6147",
+      "url": "https://github.com/MicroMilo/upstream-radar/blob/53757f4681a143315706d6ebf8350a2cb4f609dc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/dsh/active-agent/reports/README.md",
+      "sha256": "38ed4a131ef54aca90492286b3014bb065de90514363a9ad551e068aa455e4a0",
+      "url": "https://github.com/MicroMilo/upstream-radar/blob/53757f4681a143315706d6ebf8350a2cb4f609dc/examples/dsh/active-agent/reports/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "upstream-radar",
+      "version": "0.45.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MicroMilo/upstream-radar",
+        "commit": "53757f4681a143315706d6ebf8350a2cb4f609dc"
+      },
+      "manifestSha256": "141d8dd9ee5285ba6decafdc50ae2b7c8dac2d36647579327c2f44195492fef0",
+      "manifestUrl": "https://github.com/MicroMilo/upstream-radar/blob/53757f4681a143315706d6ebf8350a2cb4f609dc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "upstream-radar",
+        "versions": [
+          {
+            "version": "0.45.0",
+            "publishTimestamp": 1791981159,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MicroMilo/upstream-radar",
+              "commit": "53757f4681a143315706d6ebf8350a2cb4f609dc"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MicroMilo/upstream-radar",
+    "commit": "53757f4681a143315706d6ebf8350a2cb4f609dc",
+    "releaseTags": 71,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:22.396Z"
+}

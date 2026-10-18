@@ -1,0 +1,138 @@
+{
+  "full_name": "WizisCool/dsh-ears",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:54.592Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "015bab9f8e3a3e66be3511f5b7cbba0b2c06cef2ae3b9f4db8ebe31867a89537",
+      "url": "https://github.com/WizisCool/dsh-ears/blob/fa0b7adbe8fa1e8a41835ef17f6287b486591892/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ears",
+          "command": "dsh plugin --profile web add dsh-ears",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ears",
+      "version": "0.4.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WizisCool/dsh-ears",
+        "commit": "fa0b7adbe8fa1e8a41835ef17f6287b486591892"
+      },
+      "manifestSha256": "1129125a8102cd3cca09933fb9dfce9e51ddb3ea92274ea62ee91ccd36d3f45b",
+      "manifestUrl": "https://github.com/WizisCool/dsh-ears/blob/fa0b7adbe8fa1e8a41835ef17f6287b486591892/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ears",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1792237492,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WizisCool/dsh-ears",
+              "commit": "fa0b7adbe8fa1e8a41835ef17f6287b486591892"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ears",
+      "origin": "npm",
+      "name": "dsh-ears",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ears",
+        "title": {
+          "en": "dsh-ears",
+          "zh": "dsh-ears 语音输入"
+        },
+        "description": {
+          "en": "Dictate into the composer, then polish the text through a dsh model before sending",
+          "zh": "用语音在输入框写作，发送前可用 dsh 模型润色；支持本地 Whisper 与多家云端识别"
+        },
+        "author": "JUNZE",
+        "homepage": "https://github.com/WizisCool/dsh-ears#readme",
+        "repository": {
+          "url": "https://github.com/WizisCool/dsh-ears"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "voice",
+            "speech-to-text",
+            "whisper",
+            "asr"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI0Ljc1IiB5PSIxNSIgd2lkdGg9IjIuNSIgaGVpZ2h0PSI2IiByeD0iMS4yNSIgZmlsbD0idXJsKCNkc2gtZWFycy13YXZlKSIgLz4KICA8cmVjdCB4PSIxMC43NSIgeT0iMTEiIHdpZHRoPSIyLjUiIGhlaWdodD0iMTQiIHJ4PSIxLjI1IiBmaWxsPSJ1cmwoI2RzaC1lYXJzLXdhdmUpIiAvPgogIDxyZWN0IHg9IjE2Ljc1IiB5PSI5IiB3aWR0aD0iMi41IiBoZWlnaHQ9IjE4IiByeD0iMS4yNSIgZmlsbD0idXJsKCNkc2gtZWFycy13YXZlKSIgLz4KICA8cmVjdCB4PSIyMi43NSIgeT0iMTMiIHdpZHRoPSIyLjUiIGhlaWdodD0iMTAiIHJ4PSIxLjI1IiBmaWxsPSJ1cmwoI2RzaC1lYXJzLXdhdmUpIiAvPgogIDxyZWN0IHg9IjI4Ljc1IiB5PSIxNS41IiB3aWR0aD0iMi41IiBoZWlnaHQ9IjUiIHJ4PSIxLjI1IiBmaWxsPSJ1cmwoI2RzaC1lYXJzLXdhdmUpIiAvPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJkc2gtZWFycy13YXZlIiB4MT0iNiIgeTE9IjkiIHgyPSIzMCIgeTI9IjI3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2N0M3RkUiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzNGNzdEOCIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1792237106,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "25c6a19d1b8d4c8f133373d7673410caf26c6e2a7ea69cb94d98ad88bc27accb",
+      "evidence": [
+        {
+          "name": "dsh-ears",
+          "version": "0.4.3",
+          "tarball": "https://registry.npmjs.org/dsh-ears/-/dsh-ears-0.4.3.tgz",
+          "integrity": "sha512-9nrBtIUV5owq3GGEMZeC+n452EpD8DgF17jkHZOTEQtpj+r5Ow4T9czWVe/2009Pur2mGkdAeB5uecyVh5/a+Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ears",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WizisCool/dsh-ears",
+    "commit": "fa0b7adbe8fa1e8a41835ef17f6287b486591892",
+    "releaseTags": 18,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:01.872Z"
+}

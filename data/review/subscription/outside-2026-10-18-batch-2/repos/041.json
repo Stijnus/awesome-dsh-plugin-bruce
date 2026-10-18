@@ -1,0 +1,204 @@
+{
+  "full_name": "z953218350/dsh-history-tree",
+  "originalPosition": 41,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 41,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:03.271Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4498367c5738fe155fcdd59d048fbfccee2fb0d5bbc23f2e67aa557ade5a84dc",
+      "url": "https://github.com/z953218350/dsh-history-tree/blob/701cb74c9ddadcdc843e1e4131268da6254535e1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-history-tree",
+          "command": "dsh plugin --profile web add -w dsh-history-tree",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-history-tree@1.0.4",
+          "command": "dsh plugin --profile web add -w \"dsh-history-tree@1.0.4\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "dfc07986701040c82725cb982e69711a4b268115d7e1af994312e2dd4b52b4cc",
+      "url": "https://github.com/z953218350/dsh-history-tree/blob/701cb74c9ddadcdc843e1e4131268da6254535e1/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-history-tree",
+          "command": "dsh plugin --profile web add -w dsh-history-tree",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-history-tree@1.0.4",
+          "command": "dsh plugin --profile web add -w \"dsh-history-tree@1.0.4\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-history-tree",
+      "version": "1.0.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/z953218350/dsh-history-tree",
+        "commit": "701cb74c9ddadcdc843e1e4131268da6254535e1"
+      },
+      "manifestSha256": "0d19c349f331f63ae74182fd2dbec0b560b9feb37e20c5d3a1803242d09bcfd3",
+      "manifestUrl": "https://github.com/z953218350/dsh-history-tree/blob/701cb74c9ddadcdc843e1e4131268da6254535e1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-history-tree",
+        "versions": [
+          {
+            "version": "1.0.4",
+            "publishTimestamp": 1788149782,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/z953218350/dsh-history-tree",
+              "commit": "701cb74c9ddadcdc843e1e4131268da6254535e1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-history-tree",
+      "origin": "npm",
+      "name": "dsh-history-tree",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-history-tree",
+        "title": "dsh-history-tree",
+        "description": "Codex-style conversation turn timeline tree and history overview on the left border of chat messages in DSH Web UI",
+        "author": "DSH Harness Agent",
+        "homepage": "https://github.com/z953218350/dsh-history-tree",
+        "repository": {
+          "url": "https://github.com/z953218350/dsh-history-tree"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "cordis",
+            "plugin",
+            "history",
+            "tree",
+            "codex",
+            "timeline"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.4",
+            "publishTimestamp": 1788149809,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "acab9bb87e2e8c8200209ec45091ffe0b22124c977b10f9b6fb8546e31e714f3",
+      "evidence": [
+        {
+          "name": "dsh-history-tree",
+          "version": "1.0.4",
+          "tarball": "https://registry.npmjs.org/dsh-history-tree/-/dsh-history-tree-1.0.4.tgz",
+          "integrity": "sha512-rWVgx7zEpHmf2rI1UcDiHkjqiF7lHpB23eos+23Fjbn0xP3dwajr5RjUzv2q4QJv6RZfvi8aC/B8mfgvDpFD0A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-history-tree@1.0.4",
+      "origin": "npm",
+      "name": "dsh-history-tree",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-history-tree",
+        "title": "dsh-history-tree",
+        "description": "Codex-style conversation turn timeline tree and history overview on the left border of chat messages in DSH Web UI",
+        "author": "DSH Harness Agent",
+        "homepage": "https://github.com/z953218350/dsh-history-tree",
+        "repository": {
+          "url": "https://github.com/z953218350/dsh-history-tree"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "cordis",
+            "plugin",
+            "history",
+            "tree",
+            "codex",
+            "timeline"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.4",
+            "publishTimestamp": 1788149809,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "acab9bb87e2e8c8200209ec45091ffe0b22124c977b10f9b6fb8546e31e714f3",
+      "evidence": [
+        {
+          "name": "dsh-history-tree",
+          "version": "1.0.4",
+          "tarball": "https://registry.npmjs.org/dsh-history-tree/-/dsh-history-tree-1.0.4.tgz",
+          "integrity": "sha512-rWVgx7zEpHmf2rI1UcDiHkjqiF7lHpB23eos+23Fjbn0xP3dwajr5RjUzv2q4QJv6RZfvi8aC/B8mfgvDpFD0A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-history-tree",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-history-tree@1.0.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/z953218350/dsh-history-tree",
+    "commit": "701cb74c9ddadcdc843e1e4131268da6254535e1",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:09.101Z"
+}

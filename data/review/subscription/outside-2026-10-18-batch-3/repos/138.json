@@ -1,0 +1,77 @@
+{
+  "full_name": "cdxiaodong/dsh-island",
+  "originalPosition": 138,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 138,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:08.109Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e45a755b1f618f41392547edb0bdfbc885772479e07c02445756ca1bacc4a4ba",
+      "url": "https://github.com/cdxiaodong/dsh-island/blob/62699999e0ccc46b191d5c46b5f0679a463ac097/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/cdxiaodong/dsh-island",
+          "command": "dsh plugin --profile <profile> add github:cdxiaodong/dsh-island",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-island",
+      "version": "0.6.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cdxiaodong/dsh-island",
+        "commit": "62699999e0ccc46b191d5c46b5f0679a463ac097"
+      },
+      "manifestSha256": "0e64bb17d860450750f4e184459acb33052897922dfd2854b65732f48759a926",
+      "manifestUrl": "https://github.com/cdxiaodong/dsh-island/blob/62699999e0ccc46b191d5c46b5f0679a463ac097/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-island",
+        "versions": [
+          {
+            "version": "0.6.12",
+            "publishTimestamp": 1786925001,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cdxiaodong/dsh-island",
+              "commit": "62699999e0ccc46b191d5c46b5f0679a463ac097"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/cdxiaodong/dsh-island",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cdxiaodong/dsh-island",
+    "commit": "62699999e0ccc46b191d5c46b5f0679a463ac097",
+    "releaseTags": 31,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:18.263Z"
+}

@@ -1,0 +1,152 @@
+{
+  "full_name": "dsh-plugin-lab/dsh-zhihu-search",
+  "originalPosition": 134,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:11.492Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8b808b0a928026c6be8e457110d9912e7402d366679bdd6c1a335c889f7d3b7c",
+      "url": "https://github.com/dsh-plugin-lab/dsh-zhihu-search/blob/86d23449b31b673cbc6a4fda26e398e857407981/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-zhihu-search",
+          "command": "dsh plugin --profile web add dsh-zhihu-search",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_en.md",
+      "sha256": "43438b0c43301fcb4662612dc74a3e623696d0e8a1398f186465a916f1939bc2",
+      "url": "https://github.com/dsh-plugin-lab/dsh-zhihu-search/blob/86d23449b31b673cbc6a4fda26e398e857407981/README_en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-zhihu-search",
+          "command": "dsh plugin --profile web add dsh-zhihu-search",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-zhihu-search",
+      "version": "2.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dsh-plugin-lab/dsh-zhihu-search",
+        "commit": "86d23449b31b673cbc6a4fda26e398e857407981"
+      },
+      "manifestSha256": "92d51712be187f00570860add09755abddd6bcb514b3bad39e9dfee38b0c2546",
+      "manifestUrl": "https://github.com/dsh-plugin-lab/dsh-zhihu-search/blob/86d23449b31b673cbc6a4fda26e398e857407981/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.1 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-zhihu-search",
+        "versions": [
+          {
+            "version": "2.1.2",
+            "publishTimestamp": 1792050161,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dsh-plugin-lab/dsh-zhihu-search",
+              "commit": "86d23449b31b673cbc6a4fda26e398e857407981"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-zhihu-search",
+      "origin": "npm",
+      "name": "dsh-zhihu-search",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-zhihu-search",
+        "title": {
+          "en": "Zhihu Search",
+          "zh": "知乎检索"
+        },
+        "description": {
+          "en": "Zhihu in-site search, global web search, and Zhida answers for the model, over the official Zhihu Open Platform API.",
+          "zh": "接知乎开放平台官方接口，给模型知乎站内检索、全网检索与直答三种能力。"
+        },
+        "homepage": "https://github.com/dsh-plugin-lab/dsh-zhihu-search#readme",
+        "repository": {
+          "url": "https://github.com/dsh-plugin-lab/dsh-zhihu-search"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "zhihu",
+            "zhihu-api",
+            "search",
+            "tool"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMjAuOTYxOCAxMy43MjhDMTkuNjk4OCAxMy41NTA1IDE4Ljc2NDMgMTQuMjU0NCAxOC41ODY5IDE1LjUxN0wxNy45NDQzIDIwLjA4OUMxNy43NjY4IDIxLjM1MjQgMTguNDcxNCAyMi4yODYyIDE5LjczNDEgMjIuNDYzN0wyNC4zMDU3IDIzLjEwNjJDMjUuNTY4NyAyMy4yODM3IDI2LjUwMjQgMjIuNTc5OCAyNi42Nzk5IDIxLjMxNzFMMjcuMzIyNCAxNi43NDUxQzI3LjUgMTUuNDgxNyAyNi43OTYxIDE0LjU0OCAyNS41MzM0IDE0LjM3MDZMMjAuOTYxOCAxMy43MjhaTTIxLjQ2OCAxNS4zMTI4QzIxLjMzMiAxNS41NjQ3IDIxLjIxMjcgMTUuODA5MiAyMS4xMTI2IDE2LjA0NjFMMjIuNzgyMiAxNi4yODA3QzIyLjk4MDkgMTYuMzA2NCAyMi44ODQ0IDE2LjcyODYgMjIuODg0MyAxNi43Mjk3TDIxLjkxODYgMTYuNTk0QzIxLjg1NTMgMTcuMDU1MiAyMS43NzY5IDE3LjUxNDIgMjEuNjgzNiAxNy45NzAzTDIyLjY3MDcgMTguMTA5QzIyLjgxMDggMTguMTM3MyAyMi43NDk4IDE4LjU4NDUgMjIuNzQ5IDE4LjU5TDIxLjU4NjQgMTguNDI2NUMyMS41MzAzIDE4LjY4MzcgMjEuNDQ0MyAxOC45MzM1IDIxLjMzMDQgMTkuMTcwOEwyMS42MzY4IDE4Ljk4OTdDMjEuNzc4IDE5LjE3ODcgMjIuMDk5NiAxOS42OTAxIDIyLjIxOTIgMTkuODc5NUMyMi4zNTY2IDIwLjE1MTYgMjIuMTM1NyAyMC42NDAyIDIyLjEzNTcgMjAuNjQwMkwyMS4yOTE3IDE5LjI2NjNDMjAuOTI1MyAyMC4xNDk0IDIwLjQzNTcgMjAuNDg0OCAyMC40MzU3IDIwLjQ4NDhDMjAuMjIxNCAyMC42Mjg0IDE5LjgxODYgMjAuNzAyNSAxOS40NDg0IDIwLjUzNzZDMjAuMzQ0MiAyMC4wMjE0IDIwLjkwMDkgMTkuMjg3OCAyMS4xMTU0IDE4LjM2MDNMMTkuODc4NiAxOC4xODY1QzE5Ljg3OTQgMTguMTgxMSAyMC4wMTM5IDE3Ljc0NDIgMjAuMjM2OCAxNy43NjdMMjEuMjIzMiAxNy45MDU2QzIxLjI0ODMgMTcuNzkwNCAyMS40MjA5IDE2LjcyNTYgMjEuNDQ4NyAxNi41Mjc5TDIwLjkwNDUgMTYuNDUxNUMyMC44MzQzIDE2LjU5MjMgMjAuODI0MiAxNi42MDYxIDIwLjc2ODUgMTYuNzExOUMyMC40OTYyIDE3LjA4IDIwLjEyNzYgMTcuMDM4MiAyMC4wMTUzIDE3LjAzNDdDMjAuNDM4MiAxNi40MTgyIDIwLjcxNDggMTUuNzk2OCAyMC44MDIzIDE1LjYzNjhDMjEuMDE0NSAxNS4yNDk1IDIxLjQ2OCAxNS4zMTI4IDIxLjQ2OCAxNS4zMTI4Wk0yMy4zMzI3IDE2LjI4ODNMMjUuNjUzOCAxNi42MTQ1TDI1LjA3NDIgMjAuNzM4NEwyNC4xMzc3IDIwLjYwNjhMMjMuMjcyNSAyMC45OTQ5TDIzLjE5NjggMjAuNDc0NkwyMi43NTMxIDIwLjQxMjJMMjMuMzMyNyAxNi4yODgzWk0yMy43NDgyIDE2Ljc5OTJMMjMuMjk1IDIwLjAyNEwyMy41MjE4IDIwLjA1NTlMMjMuNTY5NiAyMC40MTA0TDI0LjE0NzEgMjAuMTQzNEwyNC42NzcxIDIwLjIxNzlMMjUuMTMwMyAxNi45OTNMMjMuNzQ4MiAxNi43OTkyWiIgZmlsbD0iIzAwODRGRiIvPgogIDxwYXRoIGQ9Ik0yMS4zNDg5IDEzLjA2MjhDMjEuMTk5NyAxMy4wMTEzIDIxLjE1NTMgMTMuMTUgMjEuMDgxMiAxMy4yMjY2QzIxLjA1NTcgMTMuMjUxNSAyMS4wMzU0IDEzLjI4MjUgMjEuMDE0NyAxMy4zMTEyQzIwLjgzNiAxMy41NTYgMjAuNjEzNSAxMy43Mjk2IDIwLjI5NzYgMTMuNzUwOUMxOS44MzU3IDEzLjc4MTUgMTkuNDYxNyAxMy45NzM3IDE5LjE1ODQgMTQuMzY3QzE5LjAzMTYgMTMuOTQzNiAxOC43NTUzIDEzLjcxNTUgMTguMzYyNyAxMy41OTU2QzE4LjE1NzUgMTMuNTMzNSAxNy45NDk5IDEzLjQ3MTQgMTcuNzkwNSAxMy4zMDExQzE3LjY3ODkgMTMuMTc5NSAxNy42MzQ2IDEzLjAzNDMgMTcuNTY5IDEyLjg5MzdDMTcuNTI3OCAxMi44MDkyIDE3LjQ4NjYgMTIuNzIyNiAxNy4zODI5IDEyLjcyQzE3LjI3MDQgMTIuNzE2MyAxNy4yMzg1IDEyLjgxNDIgMTcuMjA0NyAxMi44OTY5QzE3LjA3MDMgMTMuMjM0NSAxNy4wNDYgMTMuNTkxMiAxNy4wOTYgMTMuOTQzNEMxNy4yMDg2IDE0LjczNTUgMTcuNjIxOCAxNS4zMjY3IDE4LjM0MzcgMTUuNjk0N0MxOC40MjU3IDE1LjczNyAxOC40NTE2IDE1Ljc4NjIgMTguNDM3IDE1Ljg2NDVDMTguNDEwNCAxNi4wMjUxIDE4LjM3NSAxNi4xODIyIDE4LjM0NjQgMTYuMzQzQzE4LjMyODIgMTYuNDQ1NiAxOC4yODU2IDE2LjQ3MjkgMTguMTc0MiAxNi40NDI3QzE3Ljc4OTUgMTYuMzM0OSAxNy40NDU4IDE2LjE0NzYgMTcuMTMyOSAxNS45MDg4QzE2LjYwMjcgMTUuNTA4OSAxNi4xMTE5IDE1LjA1NTcgMTUuNTI4OCAxNC43MjU0QzE1LjM5MTkgMTQuNjQ4MiAxNS4yNTU3IDE0LjU3NzcgMTUuMTE1NyAxNC41MTE3QzE0LjUwNTMgMTQuMDQ5NCAxNS4wNjg4IDEzLjUzOSAxNS4yMDUzIDEzLjQ2OTlDMTUuMzQ4IDEzLjM5NzcgMTUuMjI3OCAxMy4yMjQ1IDE0Ljc0NTUgMTMuMjg2MUMxNC4yNjMxIDEzLjM0NzMgMTMuODQxNCAxMy41NjMyIDEzLjMwNDkgMTMuODQ3NUMxMy4yMjY2IDEzLjg5IDEzLjE0MjkgMTMuOTI0MSAxMy4wNTY3IDEzLjk1NDVDMTIuNTM0MSAxMy45MjAzIDEyLjAwMDkgMTMuOTY0IDExLjQ1NDYgMTQuMDk0NEMxMC40MjU3IDE0LjMzODYgOS42NTI5IDE0LjkzMzcgOS4xNDM3IDE1Ljg1MDJDOC41MzIxIDE2Ljk1MTggOC41IDE4LjEyMjEgOC44NTkgMTkuMjk0NEM5LjIzNjkgMjAuNTMwMSAxMC4wMTA1IDIxLjQ5NjUgMTEuMTAyMiAyMi4xOTIzQzEyLjIzNDIgMjIuOTEzNyAxMy40NjkyIDIzLjE4MzggMTQuODEwMyAyMi45MzgyQzE1LjYyNDkgMjIuNzkwMiAxNi41MjQ3IDIyLjU2ODQgMTcuNDQ3OSAyMS41NzA1QzE3LjcyMzYgMjEuNjY3OCAxOC4wMDI3IDIxLjY4NTkgMTguNDU5NiAyMS42NjkxQzE4LjgxMiAyMS42NTg3IDE5LjE0MTQgMjEuNTY3OSAxOS4zOTQ2IDIxLjQ4MjFDMTkuNzkwOSAyMS4zNDYyIDE5LjcxNjUgMjAuOTczMiAxOS41NjEgMjAuOTIyMkMxOC4zMDAzIDIwLjUxMzUgMTguNTg5OCAyMC43MDcyIDE4LjMyOTMgMjAuNTUzNkMxOC44NDczIDE5Ljc2MjkgMTkuNjE2NiAxOC4zNzU4IDE5LjY4OTMgMTYuNjA2OUMxOS42OTM5IDE2LjQxMiAxOS42OTY2IDE2LjEzOCAxOS42NzMzIDE1Ljk4MzVDMTkuNjU5NCAxNS44ODkyIDE5LjY3NjcgMTUuODQ5OCAxOS43ODM0IDE1LjgyNTdDMjAuMDc4IDE1Ljc1NDYgMjAuMzU3OCAxNS42Mzc0IDIwLjYwNjIgMTUuNDU4MkMyMS4zMjczIDE0Ljk0MTUgMjEuNTUzOSAxNC4yMTA0IDIxLjUyNTMgMTMuMzcxQzIxLjUyMDYgMTMuMjQyNyAyMS40OTEzIDEzLjExMzEgMjEuMzQ4OSAxMy4wNjI4Wk0xNS41MzMgMjEuMzY0NEMxNC4yNjU3IDIwLjU5ODIgMTMuNjY4NCAyMC4zNjgyIDEzLjQzODUgMjAuNDA5NUMxMy4yMjM3IDIwLjQ0OSAxMy4yOTMgMjAuNjkxNyAxMy4zNjA1IDIwLjg0NzNDMTMuNDI5OSAyMS4wMDA0IDEzLjUwODIgMjEuMTAyMiAxMy42MTYzIDIxLjIzMDlDMTMuNjkwNCAyMS4zMTU4IDEzLjc1MDYgMjEuNDQ4IDEzLjU5NDQgMjEuNTcyMkMxMy4yNTA1IDIxLjg0OCAxMi41NjU1IDIxLjYyIDEyLjUzMzMgMjEuNjA4NUMxMS43MjU1IDIxLjI1NzcgMTEuMDI0IDIwLjc0OTkgMTAuNDgxOSAyMC4wMDQxQzkuOTU4NiAxOS4yODY1IDkuNjA4MiAxOC40OTA3IDkuNDU4OSAxNy42MTM3QzkuNDIxOSAxNy40MDIyIDkuNDc1NCAxNy4zMTkxIDkuNjgyOSAxNy4yNTQzQzkuOTU1OCAxNy4xNjg1IDEwLjI0MjQgMTcuMTIyMiAxMC41MjY0IDE3LjEyOUMxMS43MjczIDE3LjE1NjMgMTIuNzk2MiAxNy41NiAxMy43NDA2IDE4LjI5MTZDMTQuMjc5NSAxOC43MDggMTQuNzEyOSAxOS4yMzE2IDE1LjE1NTUgMTkuNzQwNkMxNS42MjYyIDIwLjI4MTEgMTYuMTIzNiAyMC43OTAxIDE2LjcyNTggMjEuMTgzNkMxNi45MzgzIDIxLjMyMTMgMTcuMTA3IDIxLjQyNSAxNy4yNjUyIDIxLjQ5NzVDMTYuODI3NyAyMS42MDE2IDE2LjA4ODYgMjEuNzAyNSAxNS41MzMgMjEuMzY0NFpNMTUuNjQ5OCAxNy43MzU1QzE1LjYzODIgMTcuNjQwOSAxNS43MDQ3IDE3LjU1NjMgMTUuNzk5OSAxNy41NDQ2QzE1LjgyMTQgMTcuNTQxOSAxNS44NDE0IDE3LjU0MzkgMTUuODU5NyAxNy41NDhDMTUuODg0NSAxNy41NTM3IDE1LjkwNzkgMTcuNTYzOSAxNS45Mjc1IDE3LjU4MTJDMTUuOTYxNiAxNy42MDc2IDE1Ljk4NDEgMTcuNjQ4NSAxNS45ODk2IDE3LjY5MzdDMTYuMDAxMiAxNy43ODgzIDE1LjkzNDggMTcuODczIDE1LjgzOTYgMTcuODg0N0MxNS43NDQ0IDE3Ljg5NjQgMTUuNjYxNCAxNy44MyAxNS42NDk4IDE3LjczNTVaTTE3LjQ3ODkgMTguNDA2MkMxNy4zNzQgMTguNDY1IDE3LjI2ODQgMTguNTE3MiAxNy4xNjI4IDE4LjUzNDZDMTYuOTk5MyAxOC41NjM0IDE2LjgxMTYgMTguNTE4NyAxNi43MDQxIDE4LjQ0ODlDMTYuNTM3MSAxOC4zNDA2IDE2LjQyIDE4LjI4MjkgMTYuMzQ3NSAxOC4wNjY5QzE2LjMxNjMgMTcuOTc0NyAxNi4zMDkzIDE3LjgyNyAxNi4zMTYyIDE3Ljc0MDlDMTYuMzMzIDE3LjU1NTMgMTYuMjc1NCAxNy40NDQ2IDE2LjEzNDkgMTcuMzU0OEMxNi4wMjA1IDE3LjI4MTYgMTUuODg1NCAxNy4yNzQgMTUuNzQwMyAxNy4yOTE4QzE1LjY4NjEgMTcuMjk4NSAxNS42MzM2IDE3LjI4MDggMTUuNTk0MyAxNy4yNjYyQzE1LjUzIDE3LjI0MzUgMTUuNDcwOCAxNy4xNzQzIDE1LjUwNzIgMTcuMDc1OUMxNS41MTg2IDE3LjA0MzkgMTUuNTgzNCAxNi45NjE4IDE1LjU5OSAxNi45NDY4QzE1Ljc4MjIgMTYuODEwNiAxNi4wMTM4IDE2LjgxOTQgMTYuMjM0MyAxNi44Nzc1QzE2LjQzODggMTYuOTMzMyAxNi42MDQxIDE3LjA2MTMgMTYuODQxNCAxNy4yNDE5QzE3LjA4ODUgMTcuNDY0OSAxNy4xMzYgMTcuNTI4OSAxNy4yODIzIDE3LjcwMTFDMTcuMzk3NyAxNy44MzU2IDE3LjUwNDggMTcuOTc1MSAxNy41ODY4IDE4LjEzOTlDMTcuNjM2NyAxOC4yNDI4IDE3LjU5OTkgMTguMzM2NiAxNy40Nzg5IDE4LjQwNjJaIiBmaWxsPSIjMDA4NEZGIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "2.1.2",
+            "publishTimestamp": 1792051788,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2e5470d7b6f1b4f07195d3ffe55eab9615a84c5d07560c4c3e4f1206d69fc827",
+      "evidence": [
+        {
+          "name": "dsh-zhihu-search",
+          "version": "2.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-zhihu-search/-/dsh-zhihu-search-2.1.2.tgz",
+          "integrity": "sha512-F6K5DeolrWDsiNHdiy10l+SnjFhc06YBiU2NdKm3x9TGjICe/1axa4x66jlGDregMOI7CbUcOoPqvoHEaGp6UA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-zhihu-search",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dsh-plugin-lab/dsh-zhihu-search",
+    "commit": "86d23449b31b673cbc6a4fda26e398e857407981",
+    "releaseTags": 31,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:17.629Z"
+}

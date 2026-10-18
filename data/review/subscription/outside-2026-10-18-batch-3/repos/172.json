@@ -1,0 +1,156 @@
+{
+  "full_name": "wanderer-yk/dsh-xueqiu",
+  "originalPosition": 172,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 172,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:50.647Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8cda4262564c85b87221c3828685de2bbc4ded25edff82c6fd961354fd618b1c",
+      "url": "https://github.com/wanderer-yk/dsh-xueqiu/blob/3b468a49d10acc8cdc2ce51009c09ae97d1c1a46/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-xueqiu",
+          "command": "dsh plugin --profile web add dsh-xueqiu",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/wanderer-yk/dsh-xueqiu",
+          "command": "dsh plugin --profile web add github:wanderer-yk/dsh-xueqiu",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3e2921e47a6f693be462de57f93e8f6e2796dd26498c0b82eef502355502ee88",
+      "url": "https://github.com/wanderer-yk/dsh-xueqiu/blob/3b468a49d10acc8cdc2ce51009c09ae97d1c1a46/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-xueqiu",
+          "command": "dsh plugin --profile web add dsh-xueqiu",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/wanderer-yk/dsh-xueqiu",
+          "command": "dsh plugin --profile web add github:wanderer-yk/dsh-xueqiu",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-xueqiu",
+      "version": "1.22.15",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wanderer-yk/dsh-xueqiu",
+        "commit": "3b468a49d10acc8cdc2ce51009c09ae97d1c1a46"
+      },
+      "manifestSha256": "f49a79249ca154ce614d0a747bbce5c99f4285d74b21eddf01e7584660923aec",
+      "manifestUrl": "https://github.com/wanderer-yk/dsh-xueqiu/blob/3b468a49d10acc8cdc2ce51009c09ae97d1c1a46/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-xueqiu",
+        "versions": [
+          {
+            "version": "1.22.15",
+            "publishTimestamp": 1788411419,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wanderer-yk/dsh-xueqiu",
+              "commit": "3b468a49d10acc8cdc2ce51009c09ae97d1c1a46"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-xueqiu",
+      "origin": "npm",
+      "name": "dsh-xueqiu",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-xueqiu",
+        "title": "dsh-xueqiu",
+        "description": "雪球 mini 行情面板 — DeepSeek Harness 免登录 A股/港美股实时行情、K线(蜡烛/成交量/均线)、分时图、热榜、搜索、7x24 快讯、热议用户。嵌入式面板 + 可拖拽行情徽标，内置请求节流、TTL 缓存与 Cookie 自动续期。",
+        "homepage": "https://github.com/wanderer-yk/dsh-xueqiu#readme",
+        "repository": {
+          "url": "https://github.com/wanderer-yk/dsh-xueqiu"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "xueqiu",
+            "雪球",
+            "stock",
+            "a-share",
+            "finance"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.22.15",
+            "publishTimestamp": 1788413687,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4aa576b2f3189dc497c39343a339554b7c4f9bd06005712ee78c80f263db3226",
+      "evidence": [
+        {
+          "name": "dsh-xueqiu",
+          "version": "1.22.15",
+          "tarball": "https://registry.npmjs.org/dsh-xueqiu/-/dsh-xueqiu-1.22.15.tgz",
+          "integrity": "sha512-lc6418UI7LG0wUH71qgWfOabYl5BS25HhBn6mVMEphYZPQhZbI+8saZrCKJekGpPUaDkvGalMBS1S+ZQoUlNuw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-xueqiu",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/wanderer-yk/dsh-xueqiu",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wanderer-yk/dsh-xueqiu",
+    "commit": "3b468a49d10acc8cdc2ce51009c09ae97d1c1a46",
+    "releaseTags": 59,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:56.981Z"
+}

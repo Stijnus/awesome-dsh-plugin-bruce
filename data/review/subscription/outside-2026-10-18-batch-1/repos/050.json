@@ -1,0 +1,129 @@
+{
+  "full_name": "zhu168/dsh-save-money",
+  "originalPosition": 50,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 50,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:48.178Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "82f0a2445cd3f649f7c785b3f426ae0a2cfeadab9a4c9e30a97954a756b464a8",
+      "url": "https://github.com/zhu168/dsh-save-money/blob/adaa4ba539ae528e749895620ba1c2a84f394951/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-save-money",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-save-money",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ae2d2bac3adc95ba609264bdccc4325075f71096df1ab7beda42320fefe790f8",
+      "url": "https://github.com/zhu168/dsh-save-money/blob/adaa4ba539ae528e749895620ba1c2a84f394951/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-save-money",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-save-money",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-save-money",
+      "version": "1.4.4",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu168/dsh-save-money",
+        "commit": "adaa4ba539ae528e749895620ba1c2a84f394951",
+        "path": "plugin"
+      },
+      "manifestSha256": "c462b5eefa52ffc2dc0b28e27a5c2f004340705280b4faa419280921d50540ba",
+      "manifestUrl": "https://github.com/zhu168/dsh-save-money/blob/adaa4ba539ae528e749895620ba1c2a84f394951/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-save-money",
+        "versions": [
+          {
+            "version": "1.4.4",
+            "publishTimestamp": 1787434685,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhu168/dsh-save-money",
+              "commit": "adaa4ba539ae528e749895620ba1c2a84f394951",
+              "path": "plugin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-save-money",
+      "origin": "npm",
+      "name": "dsh-save-money",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-save-money",
+        "title": "dsh-save-money",
+        "description": "DSH save-money plugin — time-window auto pause/resume for peak/off-peak API pricing (no requests sent while paused).",
+        "repository": {
+          "url": "https://github.com/zhu168/dsh-save-money"
+        },
+        "versions": [
+          {
+            "version": "1.4.4",
+            "publishTimestamp": 1787434721,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b6c44fd10619a60c5e099bd4708065406c1b9c7452490a73519db9fc32c3cb7f",
+      "evidence": [
+        {
+          "name": "dsh-save-money",
+          "version": "1.4.4",
+          "tarball": "https://registry.npmjs.org/dsh-save-money/-/dsh-save-money-1.4.4.tgz",
+          "integrity": "sha512-9XvYDHIKrufkAWVLaPU9CIHg68/FmJkuqf8LWZS9MFZO7OXtyvZVFqqEdlRJH9qLdfGWD7fI00TqcjRIEgsWww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-save-money",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhu168/dsh-save-money",
+    "commit": "adaa4ba539ae528e749895620ba1c2a84f394951",
+    "releaseTags": 15,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:53.924Z"
+}

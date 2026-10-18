@@ -1,0 +1,165 @@
+{
+  "full_name": "fan56/dsh-tui-pi",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:50.584Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d8956db37155edf09df6ca662664f0282896d490e0061bd9ed71bef4d71e1852",
+      "url": "https://github.com/fan56/dsh-tui-pi/blob/783cc5ddaa8399c3a6844524f6565756f725966f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@aiwayds/dsh-tui-pi",
+          "command": "dsh plugin --profile tui add @aiwayds/dsh-tui-pi",
+          "profile": "tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "2a38d238f8e0d2e665231b7b3e2ca5fa2e7789191ef7afa777eab6cae7020dc8",
+      "url": "https://github.com/fan56/dsh-tui-pi/blob/783cc5ddaa8399c3a6844524f6565756f725966f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@aiwayds/dsh-tui-pi",
+          "command": "dsh plugin --profile tui add @aiwayds/dsh-tui-pi",
+          "profile": "tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f8b3d9ecbb9e4fe2532a40af54b67c7e0139dc6a1dd82ecbe4ac42e85c053d42",
+      "url": "https://github.com/fan56/dsh-tui-pi/blob/783cc5ddaa8399c3a6844524f6565756f725966f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@aiwayds/dsh-tui-pi",
+      "version": "2.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fan56/dsh-tui-pi",
+        "commit": "783cc5ddaa8399c3a6844524f6565756f725966f"
+      },
+      "manifestSha256": "222863346b1f7824232f55ff23d3d19c71caf2b9cfbfdb7f6c23de4bb42ad814",
+      "manifestUrl": "https://github.com/fan56/dsh-tui-pi/blob/783cc5ddaa8399c3a6844524f6565756f725966f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@aiwayds/dsh-tui-pi",
+        "versions": [
+          {
+            "version": "2.7.0",
+            "publishTimestamp": 1792256710,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fan56/dsh-tui-pi",
+              "commit": "783cc5ddaa8399c3a6844524f6565756f725966f"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@aiwayds/dsh-tui-pi",
+      "origin": "npm",
+      "name": "@aiwayds/dsh-tui-pi",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@aiwayds/dsh-tui-pi",
+        "title": {
+          "en": "dsh-tui-pi",
+          "ja": "dsh-tui-pi",
+          "ko": "dsh-tui-pi",
+          "zh-cn": "dsh-tui-pi"
+        },
+        "description": {
+          "en": "Fully-featured pi-style terminal UI for dsh: history look-back & fork-at-turn, preset switching, live subagent steering, model profiles & themes.",
+          "ja": "dsh の多機能 pi 風ターミナル UI：履歴の遡りとターン単位の分岐、プリセット切替、サブエージェントのリアルタイム操縦、モデルプロファイルとテーマ。",
+          "ko": "dsh용 pi 스타일 풀기능 터미널 UI: 히스토리 되돌아보기와 턴 분기, 프리셋 전환, 서브에이전트 실시간 조종, 모델 프로필과 테마.",
+          "zh-cn": "dsh 的全功能 pi 风格终端界面：历史回看与按轮分叉、预设切换、子代理实时驾驭、模型配置档与主题。"
+        },
+        "author": "fan56",
+        "repository": {
+          "url": "https://github.com/fan56/dsh-tui-pi"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "tui",
+            "terminal",
+            "pi",
+            "powerline",
+            "ui"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3QgeD0iMyIgeT0iNCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE2IiByeD0iMiIvPgogIDxwYXRoIGQ9Ik0zIDguNWgxOCIvPgogIDxwYXRoIGQ9Ik0xNC41IDguNVYyMCIvPgogIDxwYXRoIGQ9Im02LjUgMTIgMiAxLjc1LTIgMS43NSIvPgogIDxwYXRoIGQ9Ik0xMCAxNS41aDIuNSIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "2.28.0",
+            "publishTimestamp": 1792257738,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0f8f7185a7e56d88ef00fbe65ae9667f460f9285b76d2f937335c1580af0e746",
+      "evidence": [
+        {
+          "name": "@aiwayds/dsh-tui-pi",
+          "version": "2.28.0",
+          "tarball": "https://registry.npmjs.org/@aiwayds/dsh-tui-pi/-/dsh-tui-pi-2.28.0.tgz",
+          "integrity": "sha512-+U0oBZ9QCUiRqBn5kCQhlcEaPL0BnjPcq+3mtxlvp3m3UD9K2L+ZRkUiQglY+0H1hdP1WIIuL2upLYralHJd2A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@aiwayds/dsh-tui-pi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fan56/dsh-tui-pi",
+    "commit": "783cc5ddaa8399c3a6844524f6565756f725966f",
+    "releaseTags": 104,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:00.047Z"
+}

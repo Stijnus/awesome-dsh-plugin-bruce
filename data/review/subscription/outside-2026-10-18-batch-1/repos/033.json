@@ -1,0 +1,159 @@
+{
+  "full_name": "limbo947/dsh-recall-plugin",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:27.251Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dd82036784174f9f1441730b62f578e075cac4afc1444c4fd6bf200d3404d85c",
+      "url": "https://github.com/limbo947/dsh-recall-plugin/blob/4d7f38a439f2d66e9a3dcee7f0a013d1575e0225/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-recall-plugin",
+          "command": "dsh plugin --profile web add dsh-recall-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-recall-plugin",
+          "command": "dsh plugin --profile desktop add dsh-recall-plugin",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/limbo947/dsh-recall-plugin",
+          "command": "dsh plugin --profile web add github:limbo947/dsh-recall-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "8ba62d49bf32ef78c853c34cabc64a756af753be716c1878e7a88d0f40128d04",
+      "url": "https://github.com/limbo947/dsh-recall-plugin/blob/4d7f38a439f2d66e9a3dcee7f0a013d1575e0225/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-recall-plugin",
+          "command": "dsh plugin --profile web add dsh-recall-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-recall-plugin",
+          "command": "dsh plugin --profile desktop add dsh-recall-plugin",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/limbo947/dsh-recall-plugin",
+          "command": "dsh plugin --profile web add github:limbo947/dsh-recall-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-recall-plugin",
+      "version": "2.4.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/limbo947/dsh-recall-plugin",
+        "commit": "4d7f38a439f2d66e9a3dcee7f0a013d1575e0225"
+      },
+      "manifestSha256": "bceb0a7a36837aefcd3916c7df0a36afbeb82c9bba01b9bdf0585d5ff361c5b7",
+      "manifestUrl": "https://github.com/limbo947/dsh-recall-plugin/blob/4d7f38a439f2d66e9a3dcee7f0a013d1575e0225/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.1 <0.1.3 || >=0.1.3-alpha.1 <0.1.4 || >=0.1.5-alpha.1 <0.1.6 || >=0.1.6-alpha.1 <0.1.7 || >=0.1.7-alpha.1 <0.1.8 || >=0.2.0-rc.1 <0.2.1 || >=0.2.1-alpha.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-recall-plugin",
+        "versions": [
+          {
+            "version": "2.4.14",
+            "publishTimestamp": 1792257529,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/limbo947/dsh-recall-plugin",
+              "commit": "4d7f38a439f2d66e9a3dcee7f0a013d1575e0225"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.1 <0.1.3 || >=0.1.3-alpha.1 <0.1.4 || >=0.1.5-alpha.1 <0.1.6 || >=0.1.6-alpha.1 <0.1.7 || >=0.1.7-alpha.1 <0.1.8 || >=0.2.0-rc.1 <0.2.1 || >=0.2.1-alpha.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-recall-plugin",
+      "origin": "npm",
+      "name": "dsh-recall-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-recall-plugin",
+        "title": "dsh-recall-plugin",
+        "description": "在 DSH 中撤回自己发过的消息：工作区文件与对话历史一起回到那条消息发出之前，消息的文本与附件自动放回输入框，改完即可重发。文件走独立影子 git 快照（不碰项目自身的 git），对话走官方 sessions.fork，原会话归档可找回。",
+        "repository": {
+          "url": "https://github.com/limbo947/dsh-recall-plugin"
+        },
+        "icon": "data:image/svg+xml;base64,PCEtLQ0KICDmj5Lku7blm77moIfvvIhwYWNrYWdlLmpzb24g6aG25bGCIGljb24g5a2X5q615byV55So77yM5a6/5Li7IGRzaC1hcHAtYm9vdCDnmoQgcmVhZFBsdWdpbk1ldGENCiAg6K+75Y+W5ZCO6L2sIGJhc2U2NCBkYXRhIFVSTO+8jOWcqOaPkuS7tueuoeeQhumhteeahCBidW5kbGUg5Y2h54mHL+ivpuaDhemhteS7pSA8aW1nPiDmuLLmn5PvvInjgIINCg0KICDlvaLnirbvvJ3mkqTlm57mjInpkq7nmoQgVW5kb0ljb27vvIhzcmMvY2xpZW50L3JlY2FsbC1ub2RlLnRz77yJ77yM55S75biDIDIww5cyMO+8jOWbm+WkhOaUueWKqO+8mg0KICAtIOminOiJsuWGmeatuyAjNjU4RUZG77yI5a6Y5pa55ZOB54mM5riQ5Y+Y55qE6JOd56uv77yJ77yM5LiN6IO955SoIHN0cm9rZT0iY3VycmVudENvbG9yIuKAlOKAlA0KICAgIOWbvuagh+S7pSA8aW1nIHNyYz0iZGF0YTouLi4iPiDpmpTnprvmuLLmn5PvvIzkuI3nu6fmib/pobXpnaIgY3VycmVudENvbG9y77yM5Lya6YCA5YyW5oiQ6buR6Imy77ybDQogICAg6K+l6Imy5Zyo5rWF6Imy5bqV77yI5a+55q+UIOKJiDMuMTox77yJ5LiO5rex6Imy5bqV77yI4omINS41OjHvvInpg73muIXmmbDvvIzmlYXml6DpnIDkuLvpopjliIbmlK/jgIINCiAgLSDnrq3lpLTkuKTmnaHkvqfnv7zku47nrq3lsJbnrpfotbfnvKnnn60gMzAl77yI5a+56KeS5YiG6YePIDQg4oaSIDIuOO+8jOerr+eCuSAoNy41LDMuNSkvKDcuNSwxMS41KQ0KICAgIOKGkiAoNi4zLDQuNykvKDYuMywxMC4zKe+8ie+8muWPquiuqeeureWwluabtOe0p+WHke+8jOeureWwliAoMy41LDcuNSkg5LiO57q/5a69IDEuNCDkv53mjIHljp/moLfjgIINCiAgLSDlsL7nq6/msLTlubPnur/lkJHlt6blu7bplb/liLAgeD02LjPvvIjplb8gMS41IOKGkiAzLjLvvInvvJrorqnlsL7nq6/kuI7kvqfnv7znq6/ngrnlnKjnq5bnm7TmlrnlkJHlr7npvZANCiAgICDvvIjkuIrnv7znq6/jgIHkuIvnv7znq6/lkIzlnKggeD02LjPvvInvvIzniYjpnaLmlLbmnZ/jgIINCiAgLSDmlbTnu4TkuIrnp7sgMS4xIOWBmuinhuinieWxheS4re+8muaUueWujOeahOi3r+W+hOWHoOS9lSBiYm94IOaYryB4WzMuNSwxMi41XSAvIHlbNC43LDEzLjVd77yMDQogICAg5Lit5b+DICg4LCA5LjEpIOiAjOeUu+W4g+S4reW/g+aYryAoOCwgOCnigJTigJTlubPnp7vlkI7kuIrkuIvnlZnnmb3lr7nnp7DvvIjlkIQgMy4277yJ77yM5bem5Y+z5pys5bCx5a+556ew44CCDQogICAg5bGF5Lit55So57uE5LiK55qEIHRyYW5zZm9ybSDogIzkuI3ph43nrpfot6/lvoTlnZDmoIfvvIzot6/lvoTku43kuI7mjInpkq7lhoXogZTniYjpgJDngrnlr7nlupTjgIHkvr/kuo7mr5Tlr7njgIINCiAg5L+d55WZIHZpZXdCb3ggMCAwIDE2IDE277yMd2lkdGgvaGVpZ2h0IOWjsOaYjiAyMCDljbPlkb3kuK3jgIzlm77moIflpKflsI8gMjDDlzIw44CN77ybDQogIOWNoeeJh+mHjOeUseWumOaWueaMiSAzNnB4IOe8qeaUvuaYvuekuuOAgg0KLS0+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiPg0KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0xLjEpIiBzdHJva2U9IiM2NThFRkYiIHN0cm9rZS13aWR0aD0iMS40IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPg0KICAgIDxwYXRoIGQ9Ik02LjMgNC43IDMuNSA3LjVsMi44IDIuOCIgLz4NCiAgICA8cGF0aCBkPSJNNC41IDcuNWg1YTMgMyAwIDAgMSAwIDZINi4zIiAvPg0KICA8L2c+DQo8L3N2Zz4NCg==",
+        "versions": [
+          {
+            "version": "2.4.14",
+            "publishTimestamp": 1792257607,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.1 <0.1.3 || >=0.1.3-alpha.1 <0.1.4 || >=0.1.5-alpha.1 <0.1.6 || >=0.1.6-alpha.1 <0.1.7 || >=0.1.7-alpha.1 <0.1.8 || >=0.2.0-rc.1 <0.2.1 || >=0.2.1-alpha.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9f705123e332485b1c47804f5c6a9ccdc70139b925171ac00eb35e7030111ec8",
+      "evidence": [
+        {
+          "name": "dsh-recall-plugin",
+          "version": "2.4.14",
+          "tarball": "https://registry.npmjs.org/dsh-recall-plugin/-/dsh-recall-plugin-2.4.14.tgz",
+          "integrity": "sha512-xmx2uRuV8zyllRLerVyaCws0h9wMH3PDhO5U4jlPREg5W/lQ8Uy4hkthRtQx1vfUKO4yrsAk1GfrTSE2oqmllQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-recall-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/limbo947/dsh-recall-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/limbo947/dsh-recall-plugin",
+    "commit": "4d7f38a439f2d66e9a3dcee7f0a013d1575e0225",
+    "releaseTags": 57,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:33.836Z"
+}

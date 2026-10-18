@@ -1,0 +1,146 @@
+{
+  "full_name": "Chael-Chael/dsh-reference-anything",
+  "originalPosition": 59,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 59,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:32.475Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9799e01cef461cb131d8d7651847dfe0919706b631b254979f10214a6748a775",
+      "url": "https://github.com/Chael-Chael/dsh-reference-anything/blob/d5097f6715cb80860089399743b5034d9e368994/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-reference-anything",
+          "command": "dsh plugin --profile web add dsh-reference-anything",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_zh-CN.md",
+      "sha256": "eb385348cc715f0532861d66796c54fdbbe27a5a1886e2a50e5b8143df164dd5",
+      "url": "https://github.com/Chael-Chael/dsh-reference-anything/blob/d5097f6715cb80860089399743b5034d9e368994/README_zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-reference-anything",
+          "command": "dsh plugin --profile web add dsh-reference-anything",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-reference-anything",
+      "version": "0.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chael-Chael/dsh-reference-anything",
+        "commit": "d5097f6715cb80860089399743b5034d9e368994"
+      },
+      "manifestSha256": "4e5e7f09a7fe5bcc08ba8320aa4513488616444f5e3229082d9bfd4f799756e7",
+      "manifestUrl": "https://github.com/Chael-Chael/dsh-reference-anything/blob/d5097f6715cb80860089399743b5034d9e368994/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-reference-anything",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1791958923,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Chael-Chael/dsh-reference-anything",
+              "commit": "d5097f6715cb80860089399743b5034d9e368994"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-reference-anything",
+      "origin": "npm",
+      "name": "dsh-reference-anything",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-reference-anything",
+        "title": {
+          "en": "Reference Anything",
+          "zh": "引用万物"
+        },
+        "description": {
+          "en": "Reference files, sessions, commands, skills, and historical external AI chats from the DSH @ menu.",
+          "zh": "在 DSH 的 @ 菜单中引用文件、会话、命令、技能和外部 AI 历史对话。"
+        },
+        "repository": {
+          "url": "https://github.com/Chael-Chael/dsh-reference-anything"
+        },
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1791821149,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6fd8605e91df5e975bad60db433c36c9e17cd9cd4d969409792a1211cf4af650",
+      "evidence": [
+        {
+          "name": "dsh-reference-anything",
+          "version": "0.4.4",
+          "tarball": "https://registry.npmjs.org/dsh-reference-anything/-/dsh-reference-anything-0.4.4.tgz",
+          "integrity": "sha512-43L/IYGuaL/HyB/wDfOrsnLkbq7xnap55BjWg2kmBATfOlfXRiAt3KTwo7/DFGhxYlVOTddZjSfWcfBiqPYsYA=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-reference-anything",
+          "code": "metadata_warning",
+          "status": "warning",
+          "reason": "图标超过 32 KiB 内联上限，已省略"
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-reference-anything",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chael-Chael/dsh-reference-anything",
+    "commit": "d5097f6715cb80860089399743b5034d9e368994",
+    "releaseTags": 11,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:49.027Z"
+}

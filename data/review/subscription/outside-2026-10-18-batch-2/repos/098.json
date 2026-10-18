@@ -1,0 +1,94 @@
+{
+  "full_name": "islibaodong/dsh-login",
+  "originalPosition": 98,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 98,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:17.286Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "68125c86a95f40966185fb04920dba7df2e23d496d708b1e75aeec71e9770b38",
+      "url": "https://github.com/islibaodong/dsh-login/blob/7689cca46d5ac800fecf690ca76c46258c8349ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/islibaodong/dsh-login",
+          "command": "dsh plugin --profile web add github:islibaodong/dsh-login",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "67d4cd80b9bd2d19c42fdec7a4a2cbefccdc8b117b52b820d03bf7ed314b7b04",
+      "url": "https://github.com/islibaodong/dsh-login/blob/7689cca46d5ac800fecf690ca76c46258c8349ce/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/islibaodong/dsh-login",
+          "command": "dsh plugin --profile web add github:islibaodong/dsh-login",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@islibaodong/dsh-login",
+      "version": "0.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/islibaodong/dsh-login",
+        "commit": "7689cca46d5ac800fecf690ca76c46258c8349ce"
+      },
+      "manifestSha256": "1e990f4e589aa3a5448e9b43013732e2e1535f9cf926af95886493f7669bdc89",
+      "manifestUrl": "https://github.com/islibaodong/dsh-login/blob/7689cca46d5ac800fecf690ca76c46258c8349ce/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-alpha.1 <0.2.0-0 || >=0.1.6-alpha.1 <0.2.0-0 || >=0.1.7-alpha.2 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-alpha.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@islibaodong/dsh-login",
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1792144616,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/islibaodong/dsh-login",
+              "commit": "7689cca46d5ac800fecf690ca76c46258c8349ce"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-alpha.1 <0.2.0-0 || >=0.1.6-alpha.1 <0.2.0-0 || >=0.1.7-alpha.2 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-alpha.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/islibaodong/dsh-login",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/islibaodong/dsh-login",
+    "commit": "7689cca46d5ac800fecf690ca76c46258c8349ce",
+    "releaseTags": 13,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:23.110Z"
+}

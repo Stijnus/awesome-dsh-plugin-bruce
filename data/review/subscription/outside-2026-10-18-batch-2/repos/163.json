@@ -1,0 +1,68 @@
+{
+  "full_name": "caoyiwei850/dsh-client-ui-skins",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:49.636Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c6d6c6f580998db0e711c610fcbf5db264876e74824157e544bfa7ddd492f0d7",
+      "url": "https://github.com/caoyiwei850/dsh-client-ui-skins/blob/f4bc4ef36a04751aca7404d7c0e3275dea31764f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-client-ui-skins",
+      "version": "0.1.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/caoyiwei850/dsh-client-ui-skins",
+        "commit": "f4bc4ef36a04751aca7404d7c0e3275dea31764f"
+      },
+      "manifestSha256": "b2db8df005b6def8b5f7773c7f54ddd76cee8644f83c4ec37d13acb2438e6c79",
+      "manifestUrl": "https://github.com/caoyiwei850/dsh-client-ui-skins/blob/f4bc4ef36a04751aca7404d7c0e3275dea31764f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.8",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-client-ui-skins",
+        "versions": [
+          {
+            "version": "0.1.16",
+            "publishTimestamp": 1788015218,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/caoyiwei850/dsh-client-ui-skins",
+              "commit": "f4bc4ef36a04751aca7404d7c0e3275dea31764f"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/caoyiwei850/dsh-client-ui-skins",
+    "commit": "f4bc4ef36a04751aca7404d7c0e3275dea31764f",
+    "releaseTags": 12,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:54.180Z"
+}

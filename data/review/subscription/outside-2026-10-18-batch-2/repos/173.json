@@ -1,0 +1,138 @@
+{
+  "full_name": "nzl153/dsh-pet-whale",
+  "originalPosition": 173,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 173,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:06.858Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f30ae3b92e77138c58ff6cd36620723666c44668e15eedc7137c72b673578763",
+      "url": "https://github.com/nzl153/dsh-pet-whale/blob/231a1936c427e0fae1d34ebb3942aa342192ffb6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/nzl153/dsh-pet-whale#main",
+          "command": "dsh plugin --profile web add \"github:nzl153/dsh-pet-whale#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "9a69f23618a6ba469581f4f4eb2dabf6f768fc5afa8edf0f4105518b66329473",
+      "url": "https://github.com/nzl153/dsh-pet-whale/blob/231a1936c427e0fae1d34ebb3942aa342192ffb6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/nzl153/dsh-pet-whale#main",
+          "command": "dsh plugin --profile web add \"github:nzl153/dsh-pet-whale#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "pet-whale",
+      "version": "1.2.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/nzl153/dsh-pet-whale",
+        "commit": "231a1936c427e0fae1d34ebb3942aa342192ffb6"
+      },
+      "manifestSha256": "a5dcf75dbbcb37d391a297775e089fe2e7ec94dc79ca8b6ad98e8f0834a866bd",
+      "manifestUrl": "https://github.com/nzl153/dsh-pet-whale/blob/231a1936c427e0fae1d34ebb3942aa342192ffb6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "pet-whale",
+        "versions": [
+          {
+            "version": "1.2.7",
+            "publishTimestamp": 1790928123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/nzl153/dsh-pet-whale",
+              "commit": "231a1936c427e0fae1d34ebb3942aa342192ffb6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/nzl153/dsh-pet-whale#main",
+      "origin": "git_target",
+      "name": "pet-whale",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "pet-whale",
+        "title": "pet-whale",
+        "description": "桌宠小鲸鱼：DeepSeek Harness 桌宠插件，桌面端和网页端都能用，随 agent 状态切换动画（官方轮廓版）",
+        "homepage": "https://nzl153.github.io/dsh-pet-whale/preview.html",
+        "repository": {
+          "url": "https://github.com/nzl153/dsh-pet-whale"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "desktop-pet",
+            "whale",
+            "pet"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.2.7",
+            "publishTimestamp": 1790928123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/nzl153/dsh-pet-whale",
+              "commit": "231a1936c427e0fae1d34ebb3942aa342192ffb6"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "231a1936c427e0fae1d34ebb3942aa342192ffb6",
+          "name": "pet-whale",
+          "version": "1.2.7",
+          "url": "https://github.com/nzl153/dsh-pet-whale",
+          "manifestSha256": "a5dcf75dbbcb37d391a297775e089fe2e7ec94dc79ca8b6ad98e8f0834a866bd",
+          "publishTimestamp": 1790928123
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/nzl153/dsh-pet-whale#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/nzl153/dsh-pet-whale",
+    "commit": "231a1936c427e0fae1d34ebb3942aa342192ffb6",
+    "releaseTags": 18,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:18.986Z"
+}

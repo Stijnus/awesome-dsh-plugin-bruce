@@ -1,0 +1,139 @@
+{
+  "full_name": "ChuShiZ/dsh-archive-manager",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:37.317Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6456720e20f165fc5eb5434d4c619a4631ca553d60ac364912b560d91f7ac521",
+      "url": "https://github.com/ChuShiZ/dsh-archive-manager/blob/ece9bc799753c231581906f8e45adcbe5acfdf91/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@chushiz/dsh-archive-manager",
+          "command": "dsh plugin --profile web add @chushiz/dsh-archive-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "01e02b0d62afd64a2500600df2057ea1ca2fe12951d52526633bb3efae0ec59e",
+      "url": "https://github.com/ChuShiZ/dsh-archive-manager/blob/ece9bc799753c231581906f8e45adcbe5acfdf91/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@chushiz/dsh-archive-manager",
+          "command": "dsh plugin --profile web add @chushiz/dsh-archive-manager",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@chushiz/dsh-archive-manager",
+      "version": "0.6.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ChuShiZ/dsh-archive-manager",
+        "commit": "ece9bc799753c231581906f8e45adcbe5acfdf91"
+      },
+      "manifestSha256": "89db4917eb0b9bcc998f3fb57884adb9b6b06cc93d6d3c0a1128a90b99da2561",
+      "manifestUrl": "https://github.com/ChuShiZ/dsh-archive-manager/blob/ece9bc799753c231581906f8e45adcbe5acfdf91/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@chushiz/dsh-archive-manager",
+        "versions": [
+          {
+            "version": "0.6.3",
+            "publishTimestamp": 1791602331,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ChuShiZ/dsh-archive-manager",
+              "commit": "ece9bc799753c231581906f8e45adcbe5acfdf91"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@chushiz/dsh-archive-manager",
+      "origin": "npm",
+      "name": "@chushiz/dsh-archive-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@chushiz/dsh-archive-manager",
+        "title": {
+          "en": "dsh-archive-manager",
+          "zh": "dsh-archive-manager"
+        },
+        "description": {
+          "en": "dsh Archive Manager",
+          "zh": "dsh归档会话管理"
+        },
+        "repository": {
+          "url": "https://github.com/ChuShiZ/dsh-archive-manager"
+        },
+        "versions": [
+          {
+            "version": "0.6.3",
+            "publishTimestamp": 1791602617,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cd4ced63cfe718c128be68933c9fbf176aac56249150d76d12a8450e95699710",
+      "evidence": [
+        {
+          "name": "@chushiz/dsh-archive-manager",
+          "version": "0.6.3",
+          "tarball": "https://registry.npmjs.org/@chushiz/dsh-archive-manager/-/dsh-archive-manager-0.6.3.tgz",
+          "integrity": "sha512-t/xcorcmH5k2ZUMv8PSDH8uMw9qhEzm0kRT70ShdBOW4FlZA+1Hmqe2hXwwYeW72ExEuE0NegNrKGeQ2jDWonw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@chushiz/dsh-archive-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ChuShiZ/dsh-archive-manager",
+    "commit": "ece9bc799753c231581906f8e45adcbe5acfdf91",
+    "releaseTags": 13,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:43.347Z"
+}

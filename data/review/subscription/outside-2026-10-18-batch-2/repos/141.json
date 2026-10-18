@@ -1,0 +1,110 @@
+{
+  "full_name": "xiaoxianyu-office/dsh-router-flash",
+  "originalPosition": 141,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:19.531Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b2c185abe7324f52bbf9b8d61ed62eba9ca0967161edd9fab1f679fe53243ecf",
+      "url": "https://github.com/xiaoxianyu-office/dsh-router-flash/blob/554d3aedf76202f82eb263833f55d934774cc58f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xiaoxianyu-office/dsh-router-flash#v0.1.0",
+          "command": "dsh plugin --profile web add -w github:xiaoxianyu-office/dsh-router-flash#v0.1.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-router-flash",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaoxianyu-office/dsh-router-flash",
+        "commit": "554d3aedf76202f82eb263833f55d934774cc58f"
+      },
+      "manifestSha256": "e9cfa24a78ff874bba465cc8ecfd369ce2c3991edba05b94e1acd6db345384da",
+      "manifestUrl": "https://github.com/xiaoxianyu-office/dsh-router-flash/blob/554d3aedf76202f82eb263833f55d934774cc58f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-router-flash",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786788954,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaoxianyu-office/dsh-router-flash",
+              "commit": "554d3aedf76202f82eb263833f55d934774cc58f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/xiaoxianyu-office/dsh-router-flash#v0.1.0",
+      "origin": "git_target",
+      "name": "dsh-router-flash",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-router-flash",
+        "title": "dsh-router-flash",
+        "description": "DSH agent preset 分发包：V4 Flash 神模式（opencode-go）——启动时自动把 router-flash preset 安装到 ~/.dsh/.agent-presets。",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786787763,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaoxianyu-office/dsh-router-flash",
+              "commit": "0bb6c3be822e4131c59309fa258319da777c0c83"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "0bb6c3be822e4131c59309fa258319da777c0c83",
+          "name": "dsh-router-flash",
+          "version": "0.1.0",
+          "url": "https://github.com/xiaoxianyu-office/dsh-router-flash",
+          "manifestSha256": "afb53250177edcf0cb0528f45b2096200189b81ebd23cf564fa6e3d5a786a84e",
+          "publishTimestamp": 1786787763
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xiaoxianyu-office/dsh-router-flash#v0.1.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaoxianyu-office/dsh-router-flash",
+    "commit": "554d3aedf76202f82eb263833f55d934774cc58f",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:27.765Z"
+}

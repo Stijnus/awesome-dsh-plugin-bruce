@@ -1,0 +1,97 @@
+{
+  "full_name": "huermi/dsh-deepseek-web-adapter",
+  "originalPosition": 52,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 52,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:21.384Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9830b99446e8daaeda881f28efcb357d93ab7f62e21b54d3438d3f7f003ad0ad",
+      "url": "https://github.com/huermi/dsh-deepseek-web-adapter/blob/43b4c17e7e5ee18737fc84feeed6f8c01666cedf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepseek-web-adapter",
+          "command": "dsh plugin --profile web add dsh-deepseek-web-adapter",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "ea75a3d38c884394a11feb901c369bfe2062a3445bbc9f1d56cc5c2e08dba773",
+      "url": "https://github.com/huermi/dsh-deepseek-web-adapter/blob/43b4c17e7e5ee18737fc84feeed6f8c01666cedf/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepseek-web-adapter",
+          "command": "dsh plugin --profile web add dsh-deepseek-web-adapter",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepseek-web-adapter",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huermi/dsh-deepseek-web-adapter",
+        "commit": "43b4c17e7e5ee18737fc84feeed6f8c01666cedf"
+      },
+      "manifestSha256": "1d96ad66f9f1dc78f46100b10ba8df9188ef55332f5b55858f9a138c66bbdaa0",
+      "manifestUrl": "https://github.com/huermi/dsh-deepseek-web-adapter/blob/43b4c17e7e5ee18737fc84feeed6f8c01666cedf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-deepseek-web-adapter",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1786787864,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/huermi/dsh-deepseek-web-adapter",
+              "commit": "43b4c17e7e5ee18737fc84feeed6f8c01666cedf"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-deepseek-web-adapter",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-deepseek-web-adapter",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huermi/dsh-deepseek-web-adapter",
+    "commit": "43b4c17e7e5ee18737fc84feeed6f8c01666cedf",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:26.158Z"
+}

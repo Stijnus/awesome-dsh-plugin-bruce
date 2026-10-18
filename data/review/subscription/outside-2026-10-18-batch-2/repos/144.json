@@ -1,0 +1,200 @@
+{
+  "full_name": "9931666/dsh-plugin-roundtable",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:26.587Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "84920b0676d0ffafc11beb141a1fcc017a3bc8b5acb088580389e76e4d717620",
+      "url": "https://github.com/9931666/dsh-plugin-roundtable/blob/ceaef099d29d4363e9acaa6d3db8804545595d5e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@y9931666/dsh-plugin-roundtable@next",
+          "command": "dsh plugin --profile web add @y9931666/dsh-plugin-roundtable@next",
+          "profile": "web"
+        },
+        {
+          "install": "@y9931666/dsh-plugin-roundtable",
+          "command": "dsh plugin add @y9931666/dsh-plugin-roundtable",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@y9931666/dsh-plugin-roundtable",
+      "version": "1.0.0-rc.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/9931666/dsh-plugin-roundtable",
+        "commit": "ceaef099d29d4363e9acaa6d3db8804545595d5e"
+      },
+      "manifestSha256": "0d3a27a357ea9c6ebdf928ffa8b1964f091fe1d24d4bdeeb5f15b9b607c231cc",
+      "manifestUrl": "https://github.com/9931666/dsh-plugin-roundtable/blob/ceaef099d29d4363e9acaa6d3db8804545595d5e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@y9931666/dsh-plugin-roundtable",
+        "versions": [
+          {
+            "version": "1.0.0-rc.3",
+            "publishTimestamp": 1791013987,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/9931666/dsh-plugin-roundtable",
+              "commit": "ceaef099d29d4363e9acaa6d3db8804545595d5e"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@y9931666/dsh-plugin-roundtable@next",
+      "origin": "npm",
+      "name": "@y9931666/dsh-plugin-roundtable",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@y9931666/dsh-plugin-roundtable",
+        "title": "@y9931666/dsh-plugin-roundtable",
+        "description": "RoundTable for DeepSeek Harness: turn one session into a visualized round-table meeting — expert nodes on a ring, directed edges, an aggregation gateway, proxy thinking for black-box worker models, and a live topology tab in the web GUI. Includes 针锋相对 (adversarial review): red-team experts attack a settled plan and you endorse real flaws.",
+        "author": "y9931666",
+        "homepage": "https://github.com/9931666/dsh-plugin-roundtable#readme",
+        "repository": {
+          "url": "https://github.com/9931666/dsh-plugin-roundtable"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "roundtable",
+            "multi-agent",
+            "debate",
+            "topology",
+            "proxy-thinking",
+            "adversarial-review",
+            "red-team"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.0-rc.3",
+            "publishTimestamp": 1791014120,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b0cd57b4ff29aa5648fa37c4f0eb871c28c3a6de8e0a4e8c1cc885d9d71d8bf6",
+      "evidence": [
+        {
+          "name": "@y9931666/dsh-plugin-roundtable",
+          "version": "1.0.0-rc.3",
+          "tarball": "https://registry.npmjs.org/@y9931666/dsh-plugin-roundtable/-/dsh-plugin-roundtable-1.0.0-rc.3.tgz",
+          "integrity": "sha512-ZUqoa7FiA9tV0eG7PCNnuPl5Efm3CyE5gZHhmHlrvgfrYoWGVMMyfdrab+HME6EtNjLNldsRvVrktn0XS3yeQA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@y9931666/dsh-plugin-roundtable",
+      "origin": "npm",
+      "name": "@y9931666/dsh-plugin-roundtable",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@y9931666/dsh-plugin-roundtable",
+        "title": "@y9931666/dsh-plugin-roundtable",
+        "description": "RoundTable for DeepSeek Harness: turn one session into a visualized round-table meeting — expert nodes on a ring, directed edges, an aggregation gateway, proxy thinking for black-box worker models, and a live topology tab in the web GUI. Includes 针锋相对 (adversarial review): red-team experts attack a settled plan and you endorse real flaws.",
+        "author": "y9931666",
+        "homepage": "https://github.com/9931666/dsh-plugin-roundtable#readme",
+        "repository": {
+          "url": "https://github.com/9931666/dsh-plugin-roundtable"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "roundtable",
+            "multi-agent",
+            "debate",
+            "topology",
+            "proxy-thinking",
+            "adversarial-review",
+            "red-team"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.0-rc.3",
+            "publishTimestamp": 1791014120,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b0cd57b4ff29aa5648fa37c4f0eb871c28c3a6de8e0a4e8c1cc885d9d71d8bf6",
+      "evidence": [
+        {
+          "name": "@y9931666/dsh-plugin-roundtable",
+          "version": "1.0.0-rc.3",
+          "tarball": "https://registry.npmjs.org/@y9931666/dsh-plugin-roundtable/-/dsh-plugin-roundtable-1.0.0-rc.3.tgz",
+          "integrity": "sha512-ZUqoa7FiA9tV0eG7PCNnuPl5Efm3CyE5gZHhmHlrvgfrYoWGVMMyfdrab+HME6EtNjLNldsRvVrktn0XS3yeQA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@y9931666/dsh-plugin-roundtable@next",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@y9931666/dsh-plugin-roundtable",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/9931666/dsh-plugin-roundtable",
+    "commit": "ceaef099d29d4363e9acaa6d3db8804545595d5e",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:34.378Z"
+}

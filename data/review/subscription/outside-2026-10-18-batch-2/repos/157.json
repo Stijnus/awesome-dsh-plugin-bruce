@@ -1,0 +1,152 @@
+{
+  "full_name": "Scorp1o117/dsh-soul-md",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:39.932Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "32d42c8b8b0f438520f17024316b57c7f1807e10cbc464c8bd017c97cd480c62",
+      "url": "https://github.com/Scorp1o117/dsh-soul-md/blob/9e768f709e32d3761fb74cc4f612994c76fe5f1b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-soul-md",
+          "command": "dsh plugin --profile desktop add dsh-soul-md",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2737273409873faed3d4dd371e7edf23d117fea8afebec49a96d16e79efe48fc",
+      "url": "https://github.com/Scorp1o117/dsh-soul-md/blob/9e768f709e32d3761fb74cc4f612994c76fe5f1b/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-soul-md",
+          "command": "dsh plugin --profile desktop add dsh-soul-md",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-soul-md",
+      "version": "0.10.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Scorp1o117/dsh-soul-md",
+        "commit": "9e768f709e32d3761fb74cc4f612994c76fe5f1b"
+      },
+      "manifestSha256": "2e40782fc3b0ba0f3511f96ccadf08441d7424d8f267d439ed0749778bf083e3",
+      "manifestUrl": "https://github.com/Scorp1o117/dsh-soul-md/blob/9e768f709e32d3761fb74cc4f612994c76fe5f1b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0 || 0.2.1-rc.1 || 0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-soul-md",
+        "versions": [
+          {
+            "version": "0.10.2",
+            "publishTimestamp": 1792232076,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Scorp1o117/dsh-soul-md",
+              "commit": "9e768f709e32d3761fb74cc4f612994c76fe5f1b"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0 || 0.2.1-rc.1 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-soul-md",
+      "origin": "npm",
+      "name": "dsh-soul-md",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-soul-md",
+        "title": {
+          "en": "Persona and memory",
+          "zh": "人设与记忆"
+        },
+        "description": {
+          "en": "Manage Markdown persona cards, persona choices for sessions and workspaces, and plugin-managed long-term memory.",
+          "zh": "管理 Markdown 人设卡、会话和工作区的人设选择，以及插件托管的长期记忆。"
+        },
+        "homepage": "https://github.com/Scorp1o117/dsh-soul-md",
+        "repository": {
+          "url": "https://github.com/Scorp1o117/dsh-soul-md"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "persona",
+            "soul",
+            "memory",
+            "roleplay",
+            "system-prompt"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.10.2",
+            "publishTimestamp": 1792232135,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0 || 0.2.1-rc.1 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "af772d955afd0f5530c5bcbce71f8aa669ba18fc51314e053e7d5237925cd9b6",
+      "evidence": [
+        {
+          "name": "dsh-soul-md",
+          "version": "0.10.2",
+          "tarball": "https://registry.npmjs.org/dsh-soul-md/-/dsh-soul-md-0.10.2.tgz",
+          "integrity": "sha512-QIPtVutYlNYJs4OapItnY43k0EJBWvSlrTGGD3VG1Ih+gqjag8oCSh28Zm2IbAdrPLHA5P9+prMsb3iDe7yP+w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-soul-md",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Scorp1o117/dsh-soul-md",
+    "commit": "9e768f709e32d3761fb74cc4f612994c76fe5f1b",
+    "releaseTags": 36,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:45.089Z"
+}

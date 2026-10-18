@@ -1,0 +1,147 @@
+{
+  "full_name": "hellodigua/dsh-emoji",
+  "originalPosition": 15,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 15,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:55.561Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "64e6c4b48f321db0fdf7a54c0bdfa1851eabd7a7a5c7351684848008e1495027",
+      "url": "https://github.com/hellodigua/dsh-emoji/blob/4c8e13d9785a02bd7c794c5cbb3e49132810d303/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-emoji",
+          "command": "dsh plugin --profile web add dsh-emoji",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2c4bcfe4c21e75a2885005676ae3d2b81060db0987592980209e93c72729f5a1",
+      "url": "https://github.com/hellodigua/dsh-emoji/blob/4c8e13d9785a02bd7c794c5cbb3e49132810d303/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-emoji",
+          "command": "dsh plugin --profile web add dsh-emoji",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-emoji",
+      "version": "0.3.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hellodigua/dsh-emoji",
+        "commit": "4c8e13d9785a02bd7c794c5cbb3e49132810d303"
+      },
+      "manifestSha256": "0ec84305eb3d6ecffb555f3f1146959ed75ce1868567e22e69e56e655b8ba232",
+      "manifestUrl": "https://github.com/hellodigua/dsh-emoji/blob/4c8e13d9785a02bd7c794c5cbb3e49132810d303/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.2 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-emoji",
+        "versions": [
+          {
+            "version": "0.3.6",
+            "publishTimestamp": 1790687661,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hellodigua/dsh-emoji",
+              "commit": "4c8e13d9785a02bd7c794c5cbb3e49132810d303"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-emoji",
+      "origin": "npm",
+      "name": "dsh-emoji",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-emoji",
+        "title": "dsh-emoji",
+        "description": {
+          "en": "Tiny semantic inline emoji for DSH Agent responses",
+          "zh": "为 DSH Agent 回复添加贴合语义的微型行内表情"
+        },
+        "author": "hellodigua",
+        "homepage": "https://github.com/hellodigua/dsh-emoji#readme",
+        "repository": {
+          "url": "https://github.com/hellodigua/dsh-emoji"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "emoji",
+            "inline-emoji"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.6",
+            "publishTimestamp": 1790687857,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "427f8f47a5fe23c50f61efb845fb7c6ed53157c2bf0229f1e69ed28e306fb26c",
+      "evidence": [
+        {
+          "name": "dsh-emoji",
+          "version": "0.3.6",
+          "tarball": "https://registry.npmjs.org/dsh-emoji/-/dsh-emoji-0.3.6.tgz",
+          "integrity": "sha512-lbKabHwFNk9/uI1mOSEuNyn3YZmrSlzaU5IiSmvuDLBoH83VK1oziOzXtBD2Mo/BsG7aKHC9pEhoHUXX2XX12w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-emoji",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hellodigua/dsh-emoji",
+    "commit": "4c8e13d9785a02bd7c794c5cbb3e49132810d303",
+    "releaseTags": 9,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:09.900Z"
+}

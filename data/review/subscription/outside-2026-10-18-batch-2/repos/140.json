@@ -1,0 +1,130 @@
+{
+  "full_name": "wycto/dsh-dock",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:19.302Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d003ca5f230fa41da4e1f22660cfd507f03acf29ebaca60ffd5bfb5aa99d577d",
+      "url": "https://github.com/wycto/dsh-dock/blob/6a3a3edc753dfa4b870b6e5e18099bb069a4eb02/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dock",
+          "command": "dsh plugin --profile web add dsh-dock",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dock",
+      "version": "0.15.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wycto/dsh-dock",
+        "commit": "6a3a3edc753dfa4b870b6e5e18099bb069a4eb02"
+      },
+      "manifestSha256": "49a31961cf260d889da50b0fb1ef0dbe8b2a3ec43a43b735cbc6caa71dfcdeee",
+      "manifestUrl": "https://github.com/wycto/dsh-dock/blob/6a3a3edc753dfa4b870b6e5e18099bb069a4eb02/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-dock",
+        "versions": [
+          {
+            "version": "0.15.0",
+            "publishTimestamp": 1791816978,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wycto/dsh-dock",
+              "commit": "6a3a3edc753dfa4b870b6e5e18099bb069a4eb02"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-dock",
+      "origin": "npm",
+      "name": "dsh-dock",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-dock",
+        "title": "dsh-dock",
+        "description": "DeepSeek Harness 功能坞插件（dsh-dock）：模块化功能中枢——每个功能一个 features/ 模块（可单独提取成包发布，又可经 dockBridge 装回面板）。含用量记录（LLM 调用记账/费用统计，支持各模型自定义单价、多段分时价与周末/节假日谷价）、模型设置、图片理解代理、模型余额、任务动画（19 种运行动画 + 桌面伙伴 3D 场景）、任务通知（完成/异常/需确认通知、提示音、系统通知、钉钉/飞书推送）、运行状态（进行中任务与最近完成一览）；侧栏入口 + 可拖拽弹窗（最大化/最小化/缩放）。",
+        "author": "wycto",
+        "homepage": "https://github.com/wycto/dsh-dock",
+        "repository": {
+          "url": "https://github.com/wycto/dsh-dock"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "dock",
+            "function-dock",
+            "功能坞",
+            "panel",
+            "hub",
+            "web",
+            "dashboard"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.15.0",
+            "publishTimestamp": 1791817173,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fa0567b42077302a74411276a77336ee373ed467879a8a6119fbd638cb425cae",
+      "evidence": [
+        {
+          "name": "dsh-dock",
+          "version": "0.15.0",
+          "tarball": "https://registry.npmjs.org/dsh-dock/-/dsh-dock-0.15.0.tgz",
+          "integrity": "sha512-A6auQnwt+l3T4TrjeJVAnloBLOLHEMJus1gO7pAu3FDygnNYJeYv3vKnaMWcjn4brbRPOfrGckwtMTJ8TplzxA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dock",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wycto/dsh-dock",
+    "commit": "6a3a3edc753dfa4b870b6e5e18099bb069a4eb02",
+    "releaseTags": 30,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:32.539Z"
+}

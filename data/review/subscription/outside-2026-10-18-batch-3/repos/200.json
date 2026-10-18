@@ -1,0 +1,125 @@
+{
+  "full_name": "Carl-5535/dsh-wechat-gateway",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "startedAt": "2026-10-18T02:00:29.156Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0080797bf9651e28c39c984b18475853caaba39edbe099753c7a1dc7e759f5f8",
+      "url": "https://github.com/Carl-5535/dsh-wechat-gateway/blob/93e9b79005cac482b4bfea87232b17fae1ffb7c0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Carl-5535/dsh-wechat-gateway#main",
+          "command": "dsh plugin --profile web add \"github:Carl-5535/dsh-wechat-gateway#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wechat-gateway",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Carl-5535/dsh-wechat-gateway",
+        "commit": "93e9b79005cac482b4bfea87232b17fae1ffb7c0"
+      },
+      "manifestSha256": "74545c453b6bb03a5246f3681a1598ffb57b982e109dc3e1bf5efb41eb2cbfb4",
+      "manifestUrl": "https://github.com/Carl-5535/dsh-wechat-gateway/blob/93e9b79005cac482b4bfea87232b17fae1ffb7c0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-wechat-gateway",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790654678,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Carl-5535/dsh-wechat-gateway",
+              "commit": "93e9b79005cac482b4bfea87232b17fae1ffb7c0"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Carl-5535/dsh-wechat-gateway#main",
+      "origin": "git_target",
+      "name": "dsh-wechat-gateway",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-wechat-gateway",
+        "title": "dsh-wechat-gateway",
+        "description": "In-process DeepSeek Harness plugin: chat with your DSH agent directly in WeChat",
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "wechat",
+            "weixin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790654678,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Carl-5535/dsh-wechat-gateway",
+              "commit": "93e9b79005cac482b4bfea87232b17fae1ffb7c0"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "93e9b79005cac482b4bfea87232b17fae1ffb7c0",
+          "name": "dsh-wechat-gateway",
+          "version": "0.1.0",
+          "url": "https://github.com/Carl-5535/dsh-wechat-gateway",
+          "manifestSha256": "74545c453b6bb03a5246f3681a1598ffb57b982e109dc3e1bf5efb41eb2cbfb4",
+          "publishTimestamp": 1790654678
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Carl-5535/dsh-wechat-gateway#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Carl-5535/dsh-wechat-gateway",
+    "commit": "93e9b79005cac482b4bfea87232b17fae1ffb7c0",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T02:00:38.427Z"
+}

@@ -1,0 +1,158 @@
+{
+  "full_name": "jiesou/dsh-cline-free-provider",
+  "originalPosition": 99,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 99,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:17.782Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "50b95bfb5dc0845c4f282449160dbce95c71c6cd339fddc2e4fc7b715f5ee32f",
+      "url": "https://github.com/jiesou/dsh-cline-free-provider/blob/495b1c7bae5ca4fd6ab253e4828155dd068ece57/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jiesou/dsh-cline-free-provider",
+          "command": "dsh plugin --profile web add @jiesou/dsh-cline-free-provider",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/jiesou/dsh-cline-free-provider",
+          "command": "dsh plugin --profile web add github:jiesou/dsh-cline-free-provider",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "87ee8bd0a3827088630a66a28d63f67e6614a39853a8e38fedff6daea0241957",
+      "url": "https://github.com/jiesou/dsh-cline-free-provider/blob/495b1c7bae5ca4fd6ab253e4828155dd068ece57/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jiesou/dsh-cline-free-provider",
+          "command": "dsh plugin --profile web add @jiesou/dsh-cline-free-provider",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/jiesou/dsh-cline-free-provider",
+          "command": "dsh plugin --profile web add github:jiesou/dsh-cline-free-provider",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@jiesou/dsh-cline-free-provider",
+      "version": "0.1.23",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiesou/dsh-cline-free-provider",
+        "commit": "495b1c7bae5ca4fd6ab253e4828155dd068ece57"
+      },
+      "manifestSha256": "fcc2538969578b09044ddc88b8243c25fc213594cb4f9e1b6d9781d91436d712",
+      "manifestUrl": "https://github.com/jiesou/dsh-cline-free-provider/blob/495b1c7bae5ca4fd6ab253e4828155dd068ece57/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@jiesou/dsh-cline-free-provider",
+        "versions": [
+          {
+            "version": "0.1.23",
+            "publishTimestamp": 1791008019,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiesou/dsh-cline-free-provider",
+              "commit": "495b1c7bae5ca4fd6ab253e4828155dd068ece57"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@jiesou/dsh-cline-free-provider",
+      "origin": "npm",
+      "name": "@jiesou/dsh-cline-free-provider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jiesou/dsh-cline-free-provider",
+        "title": "@jiesou/dsh-cline-free-provider",
+        "description": "Cline free models provider for dsh: scan the Cline model catalog dynamically and serve the :free models through the harness LLM seam",
+        "repository": {
+          "url": "https://github.com/jiesou/dsh-cline-free-provider"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cline",
+            "llm-provider",
+            "dsh-bundle"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.23",
+            "publishTimestamp": 1791008099,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f6aec889f274f802386045ccf05a67a563fbb184d0c5e9fd197868d2586ef2ed",
+      "evidence": [
+        {
+          "name": "@jiesou/dsh-cline-free-provider",
+          "version": "0.1.23",
+          "tarball": "https://registry.npmjs.org/@jiesou/dsh-cline-free-provider/-/dsh-cline-free-provider-0.1.23.tgz",
+          "integrity": "sha512-rs+S07i5I50l1F/zRg2bbD93ndl9UuoiK7JseQ3ZPPtc4euXTKK7eGJEuIgsbk0ZmnyhyMCg6F2HP+Itt1cH/Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jiesou/dsh-cline-free-provider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/jiesou/dsh-cline-free-provider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jiesou/dsh-cline-free-provider",
+    "commit": "495b1c7bae5ca4fd6ab253e4828155dd068ece57",
+    "releaseTags": 21,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:22.722Z"
+}

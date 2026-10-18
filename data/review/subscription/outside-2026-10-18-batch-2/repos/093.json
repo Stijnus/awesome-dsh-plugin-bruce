@@ -1,0 +1,143 @@
+{
+  "full_name": "STARDUSTLC666/dsh-ppt",
+  "originalPosition": 93,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 93,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:10.536Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c68335968aaef0747b55afa62255da936a848d9d4645112a5fc33a66a65913a4",
+      "url": "https://github.com/STARDUSTLC666/dsh-ppt/blob/46bb52724ba17253818ece75ebf4ef1ad4cab9e3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ppt",
+          "command": "dsh plugin --profile desktop add dsh-ppt",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "80df6deed60c4a90132fad440a7db32c77dd4f4c3acbd5751d25ef08a5020b22",
+      "url": "https://github.com/STARDUSTLC666/dsh-ppt/blob/46bb52724ba17253818ece75ebf4ef1ad4cab9e3/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ppt",
+          "command": "dsh plugin --profile desktop add dsh-ppt",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ppt",
+      "version": "0.11.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/STARDUSTLC666/dsh-ppt",
+        "commit": "46bb52724ba17253818ece75ebf4ef1ad4cab9e3"
+      },
+      "manifestSha256": "e500c25e448f5eadc280a777c63c386991828dcfb1b7d37ac43dd099c63193f0",
+      "manifestUrl": "https://github.com/STARDUSTLC666/dsh-ppt/blob/46bb52724ba17253818ece75ebf4ef1ad4cab9e3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ppt",
+        "versions": [
+          {
+            "version": "0.11.0",
+            "publishTimestamp": 1792250131,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/STARDUSTLC666/dsh-ppt",
+              "commit": "46bb52724ba17253818ece75ebf4ef1ad4cab9e3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ppt",
+      "origin": "npm",
+      "name": "dsh-ppt",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ppt",
+        "title": "dsh-ppt",
+        "description": "DSH 演示文稿插件：生成 HTML、可编辑 PPTX 和工程文件，支持图表、轻量编辑、撤销与质量检查。",
+        "author": "stardustlc",
+        "homepage": "https://github.com/STARDUSTLC666/dsh-ppt#readme",
+        "repository": {
+          "url": "https://github.com/STARDUSTLC666/dsh-ppt"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "plugin",
+            "skills",
+            "ppt",
+            "pptx",
+            "presentation",
+            "slides",
+            "html"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.11.0",
+            "publishTimestamp": 1792250621,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7377194f74c0dbe56b61fb30937cc7fa8cbcaf6d26e87a1e5fee9c6b10539931",
+      "evidence": [
+        {
+          "name": "dsh-ppt",
+          "version": "0.11.0",
+          "tarball": "https://registry.npmjs.org/dsh-ppt/-/dsh-ppt-0.11.0.tgz",
+          "integrity": "sha512-MxXRfaD2eqoFCeG6TGkWLX8Ei68txySkctdyWQ9Uhs7ElU0r9XRi9LeC5kS8IX3lWjVhRPqJLvsOE2fzXvJ/2Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ppt",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/STARDUSTLC666/dsh-ppt",
+    "commit": "46bb52724ba17253818ece75ebf4ef1ad4cab9e3",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:17.285Z"
+}

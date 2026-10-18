@@ -1,0 +1,250 @@
+{
+  "full_name": "taichuy/deepseek-harness-auth",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:11.246Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dbee11adcbd9d8b7e8547da6c0a8314a630fccedd5a383a2d59ed6d690b752f5",
+      "url": "https://github.com/taichuy/deepseek-harness-auth/blob/ac44b1081de6603dbfb6628a9df61f798d9e644d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-harness-auth@latest",
+          "command": "dsh plugin --profile web add deepseek-harness-auth@latest",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/taichuy/deepseek-harness-auth#v0.4.0",
+          "command": "dsh plugin --profile web add github:taichuy/deepseek-harness-auth#v0.4.0",
+          "profile": "web"
+        },
+        {
+          "install": "deepseek-harness-auth@0.4.0",
+          "command": "dsh plugin --profile web add deepseek-harness-auth@0.4.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-harness-auth",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/taichuy/deepseek-harness-auth",
+        "commit": "ac44b1081de6603dbfb6628a9df61f798d9e644d"
+      },
+      "manifestSha256": "869f34d4282743e6b6ad07d177614dff73119e50e67b716e3ed3cac554c76cbf",
+      "manifestUrl": "https://github.com/taichuy/deepseek-harness-auth/blob/ac44b1081de6603dbfb6628a9df61f798d9e644d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "deepseek-harness-auth",
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1790954230,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/taichuy/deepseek-harness-auth",
+              "commit": "ac44b1081de6603dbfb6628a9df61f798d9e644d"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "deepseek-harness-auth@latest",
+      "origin": "npm",
+      "name": "deepseek-harness-auth",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "deepseek-harness-auth",
+        "title": "deepseek-harness-auth",
+        "description": "Fail-closed password authentication proxy bundle for the DeepSeek Harness Web profile",
+        "homepage": "https://github.com/taichuy/deepseek-harness-auth#readme",
+        "repository": {
+          "url": "https://github.com/taichuy/deepseek-harness-auth"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "authentication",
+            "reverse-proxy"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1790954404,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c36a0168482d934ebde70593e6ff99feabbaadc42714db2121713b06b774d52a",
+      "evidence": [
+        {
+          "name": "deepseek-harness-auth",
+          "version": "0.4.2",
+          "tarball": "https://registry.npmjs.org/deepseek-harness-auth/-/deepseek-harness-auth-0.4.2.tgz",
+          "integrity": "sha512-SRPt1VJYK6RefOTqGnF1mSLMk29+8YPzx2zqnjkOOSF0UEnyWvB2JlbWuklk4L6YfcfpQxEG2gvlpIkO0/99YA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/taichuy/deepseek-harness-auth#v0.4.0",
+      "origin": "git_target",
+      "name": "deepseek-harness-auth",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "deepseek-harness-auth",
+        "title": "deepseek-harness-auth",
+        "description": "Fail-closed password authentication proxy bundle for the DeepSeek Harness Web profile",
+        "homepage": "https://github.com/taichuy/deepseek-harness-auth#readme",
+        "repository": {
+          "url": "https://github.com/taichuy/deepseek-harness-auth"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "authentication",
+            "reverse-proxy"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1786874578,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/taichuy/deepseek-harness-auth",
+              "commit": "403cd584a0e0fb1815a51fbf48d1d7a94e4fbe49"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "403cd584a0e0fb1815a51fbf48d1d7a94e4fbe49",
+          "name": "deepseek-harness-auth",
+          "version": "0.4.0",
+          "url": "https://github.com/taichuy/deepseek-harness-auth",
+          "manifestSha256": "3be304a29fd480f1db37dabf1e380eaa06db62127fc51c404d33b4cf9ac504d9",
+          "publishTimestamp": 1786874578
+        }
+      ]
+    },
+    {
+      "target": "deepseek-harness-auth@0.4.0",
+      "origin": "npm",
+      "name": "deepseek-harness-auth",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "deepseek-harness-auth",
+        "title": "deepseek-harness-auth",
+        "description": "Fail-closed password authentication proxy bundle for the DeepSeek Harness Web profile",
+        "homepage": "https://github.com/taichuy/deepseek-harness-auth#readme",
+        "repository": {
+          "url": "https://github.com/taichuy/deepseek-harness-auth"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "authentication",
+            "reverse-proxy"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1786874622,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c36a0168482d934ebde70593e6ff99feabbaadc42714db2121713b06b774d52a",
+      "evidence": [
+        {
+          "name": "deepseek-harness-auth",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/deepseek-harness-auth/-/deepseek-harness-auth-0.4.0.tgz",
+          "integrity": "sha512-sZEeuxSu6JUbwp3hmuA9VxG/8nzdwht/JRASDawXLna6Zsz0/ACA9QbzrU7tNr/tIvmiKLkA736bJqAVyF9d+A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "deepseek-harness-auth@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/taichuy/deepseek-harness-auth#v0.4.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "deepseek-harness-auth@0.4.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/taichuy/deepseek-harness-auth",
+    "commit": "ac44b1081de6603dbfb6628a9df61f798d9e644d",
+    "releaseTags": 10,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:21.314Z"
+}

@@ -1,0 +1,77 @@
+{
+  "full_name": "xiake595/touhou-hakurei",
+  "originalPosition": 145,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:25.302Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d559d549a83b6325a2344e27120a9a034ec23625552c94ca6c4999d933464d03",
+      "url": "https://github.com/xiake595/touhou-hakurei/blob/74ff7d05cd86425502176399c60ea7dbcad5333f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xiake595/touhou-hakurei",
+          "command": "dsh plugin --profile web add https://github.com/xiake595/touhou-hakurei",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-client-ui-skin-hakurei-shrine",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiake595/touhou-hakurei",
+        "commit": "74ff7d05cd86425502176399c60ea7dbcad5333f"
+      },
+      "manifestSha256": "486a2d526fec308c08d2f73837c5fc29c578724905ed06931acab84613680b6a",
+      "manifestUrl": "https://github.com/xiake595/touhou-hakurei/blob/74ff7d05cd86425502176399c60ea7dbcad5333f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-external/dsh-client-ui-skin-hakurei-shrine",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789278480,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiake595/touhou-hakurei",
+              "commit": "74ff7d05cd86425502176399c60ea7dbcad5333f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xiake595/touhou-hakurei",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiake595/touhou-hakurei",
+    "commit": "74ff7d05cd86425502176399c60ea7dbcad5333f",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:32.135Z"
+}

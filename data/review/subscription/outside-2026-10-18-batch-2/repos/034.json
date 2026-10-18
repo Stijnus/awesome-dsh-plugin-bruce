@@ -1,0 +1,141 @@
+{
+  "full_name": "better-er/dsh-cache-billing",
+  "originalPosition": 34,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 34,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:51.531Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cd35d8c90b402108aaddf88bc7b7ffe52d58b48631cee26089d24114b210f080",
+      "url": "https://github.com/better-er/dsh-cache-billing/blob/0f2bba94b522f7cd6e1c487bacb4fded69095275/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/better-er/dsh-cache-billing",
+          "command": "dsh plugin --profile web add github:better-er/dsh-cache-billing",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-cache-billing",
+          "command": "dsh plugin --profile web add dsh-cache-billing",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cache-billing",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/better-er/dsh-cache-billing",
+        "commit": "0f2bba94b522f7cd6e1c487bacb4fded69095275"
+      },
+      "manifestSha256": "79b233819b1a36cae3c5608bcd48f27281b4e361fdf057cee99fc21389e4e121",
+      "manifestUrl": "https://github.com/better-er/dsh-cache-billing/blob/0f2bba94b522f7cd6e1c487bacb4fded69095275/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-cache-billing",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1790949251,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/better-er/dsh-cache-billing",
+              "commit": "0f2bba94b522f7cd6e1c487bacb4fded69095275"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-cache-billing",
+      "origin": "npm",
+      "name": "dsh-cache-billing",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cache-billing",
+        "title": "dsh-cache-billing",
+        "description": "「DSH·缓存账单」：上下文圆环弹层里实时算账——当前步/当前轮/会话累计三块明细，缓存命中/未命中/输出各带 token 与金额，峰谷自动计价，第三方中转照常记账，专治『缓存命中率 100% 却越用越贵』",
+        "author": "betterer",
+        "repository": {
+          "url": "https://github.com/better-er/dsh-cache-billing"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "billing",
+            "cache-hit",
+            "cost",
+            "peak-offpeak"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1790768179,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "93321f99b3d1233539b316db0de72356bb122c31bb20fe88c85cf62fe70e561f",
+      "evidence": [
+        {
+          "name": "dsh-cache-billing",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/dsh-cache-billing/-/dsh-cache-billing-0.1.5.tgz",
+          "integrity": "sha512-WBftrPRB8NgHmlwhtbppaNry3p1AbE4wKfSwNQFr0+vfMzAkR+oyl/VfRNqiOmC55l7Y0qnWhTQ8r2+2Rif1dA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/better-er/dsh-cache-billing",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-cache-billing",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/better-er/dsh-cache-billing",
+    "commit": "0f2bba94b522f7cd6e1c487bacb4fded69095275",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:56.355Z"
+}

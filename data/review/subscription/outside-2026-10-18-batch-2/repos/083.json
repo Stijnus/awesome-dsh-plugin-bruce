@@ -1,0 +1,167 @@
+{
+  "full_name": "AI-Galaxy-GPU/dsh-sound",
+  "originalPosition": 83,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 83,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:01.833Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "06d48729866ddbaa9b4566878a767e5c6b4c28f94d9bd6fb1b71226f8e6ab1eb",
+      "url": "https://github.com/AI-Galaxy-GPU/dsh-sound/blob/aa7be415ee34570bd1c834da9d8a500e85401583/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ai-galaxy/dsh-sound",
+          "command": "dsh plugin --profile web add @ai-galaxy/dsh-sound",
+          "profile": "web"
+        },
+        {
+          "install": "@ai-galaxy/dsh-sound",
+          "command": "dsh plugin --profile <name> add @ai-galaxy/dsh-sound",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/AI-Galaxy-GPU/dsh-sound",
+          "command": "dsh plugin --profile web add github:AI-Galaxy-GPU/dsh-sound",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7025bf0a006cf804c9df8b9c63f8b11d476185e231b6ab322c2711d3df8e2ab9",
+      "url": "https://github.com/AI-Galaxy-GPU/dsh-sound/blob/aa7be415ee34570bd1c834da9d8a500e85401583/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ai-galaxy/dsh-sound",
+          "command": "dsh plugin --profile web add @ai-galaxy/dsh-sound",
+          "profile": "web"
+        },
+        {
+          "install": "@ai-galaxy/dsh-sound",
+          "command": "dsh plugin --profile <name> add @ai-galaxy/dsh-sound",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/AI-Galaxy-GPU/dsh-sound",
+          "command": "dsh plugin --profile web add github:AI-Galaxy-GPU/dsh-sound",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ai-galaxy/dsh-sound",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AI-Galaxy-GPU/dsh-sound",
+        "commit": "aa7be415ee34570bd1c834da9d8a500e85401583"
+      },
+      "manifestSha256": "1288e4eba83df0cec9ec24bceee2c0033b00f0ebb7a3f10bbf10cc0cafa7ac7d",
+      "manifestUrl": "https://github.com/AI-Galaxy-GPU/dsh-sound/blob/aa7be415ee34570bd1c834da9d8a500e85401583/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@ai-galaxy/dsh-sound",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1789490144,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AI-Galaxy-GPU/dsh-sound",
+              "commit": "aa7be415ee34570bd1c834da9d8a500e85401583"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@ai-galaxy/dsh-sound",
+      "origin": "npm",
+      "name": "@ai-galaxy/dsh-sound",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@ai-galaxy/dsh-sound",
+        "title": "@ai-galaxy/dsh-sound",
+        "description": "DeepSeek Harness plugin: per-event task-completion and attention sounds for turn-end / approval / question / plan-review / goal-blocked / task-failure, each with its own sound (built-in synth, local audio file) and volume, with a separate subagent channel (Web UI)",
+        "homepage": "https://github.com/AI-Galaxy-GPU/dsh-sound#readme",
+        "repository": {
+          "url": "https://github.com/AI-Galaxy-GPU/dsh-sound"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "plugin",
+            "notification",
+            "sound",
+            "ringtone",
+            "subagent",
+            "tts",
+            "voice"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1789353835,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "77fbb611f72010edd5a4d7a0c89e5457e0d7e289274d1144ac00e06756e86a1d",
+      "evidence": [
+        {
+          "name": "@ai-galaxy/dsh-sound",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/@ai-galaxy/dsh-sound/-/dsh-sound-0.4.1.tgz",
+          "integrity": "sha512-bKoGqU9nnE1RPGYB6De5j/iU3YohIh10hwXhmy41djhFXExNU9WYbG4fvpjZiG4xDIKFApzYUFNvJhtzMGH8XA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@ai-galaxy/dsh-sound",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AI-Galaxy-GPU/dsh-sound",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AI-Galaxy-GPU/dsh-sound",
+    "commit": "aa7be415ee34570bd1c834da9d8a500e85401583",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:07.383Z"
+}

@@ -1,0 +1,147 @@
+{
+  "full_name": "g-yixuan/dsh-sidenote",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:13.945Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1ae9480524967a9ac8f8826a3e04650a5c3a825933b1a1fad539b54d522d29f6",
+      "url": "https://github.com/g-yixuan/dsh-sidenote/blob/d26900c70beb085c65a25ac621403c3e9d304e87/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sidenote",
+          "command": "dsh plugin --profile web add dsh-sidenote",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "597f11bd795de0c686ca60150830f1fbc570036243fbe5f82f5df76d14f9244b",
+      "url": "https://github.com/g-yixuan/dsh-sidenote/blob/d26900c70beb085c65a25ac621403c3e9d304e87/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sidenote",
+          "command": "dsh plugin --profile web add dsh-sidenote",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sidenote",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/g-yixuan/dsh-sidenote",
+        "commit": "d26900c70beb085c65a25ac621403c3e9d304e87"
+      },
+      "manifestSha256": "75d753cc34f3ab4b2f6eebf6b9334d8d9c0d16fc27d1abdfcd63e488b8c66052",
+      "manifestUrl": "https://github.com/g-yixuan/dsh-sidenote/blob/d26900c70beb085c65a25ac621403c3e9d304e87/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.1 <0.2.0 || =0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-sidenote",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1792091548,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/g-yixuan/dsh-sidenote",
+              "commit": "d26900c70beb085c65a25ac621403c3e9d304e87"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.1 <0.2.0 || =0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-sidenote",
+      "origin": "npm",
+      "name": "dsh-sidenote",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-sidenote",
+        "title": "dsh-sidenote",
+        "description": "DSH web plugin: Codex-style side chat (fork the current session into a persistent side panel) + selection annotations with numbered badges and a composer chip. Runs directly on the DSH native right sidebar (DSH ≥ 0.1.5); dsh-better-sidebar is an optional peer for older hosts. / Codex 风格侧边聊天 + 划选注释的 DSH 插件。",
+        "author": "gyixuan",
+        "homepage": "https://github.com/g-yixuan/dsh-sidenote#readme",
+        "repository": {
+          "url": "https://github.com/g-yixuan/dsh-sidenote"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "dsh-better-sidebar",
+            "side-chat",
+            "annotation",
+            "ai-coding",
+            "deepseek"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1792092258,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.1 <0.2.0 || =0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "18ce521fa4b4523101f8d84e7503f67e04c4972c320c68e9eca53d1f7d2d95e0",
+      "evidence": [
+        {
+          "name": "dsh-sidenote",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/dsh-sidenote/-/dsh-sidenote-0.5.1.tgz",
+          "integrity": "sha512-WPiXfHi3OHdjAL7K1iGlcEa0KTdvxN1spbonaDNn96HapQldBRtDr/Yf11IMPg8ZLkkn3P9XOQWINbBCUJkKmg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sidenote",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/g-yixuan/dsh-sidenote",
+    "commit": "d26900c70beb085c65a25ac621403c3e9d304e87",
+    "releaseTags": 18,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:21.037Z"
+}

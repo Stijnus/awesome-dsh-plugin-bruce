@@ -1,0 +1,91 @@
+{
+  "full_name": "Jungod1121/dsh-anchored-standard",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:56.840Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "596a7a59c7a121ea41fbaac14a0eec10342970b343b5320ff9e38082a8f88f6e",
+      "url": "https://github.com/Jungod1121/dsh-anchored-standard/blob/560530f0e1af6dba3528ac8962f5e5e63951b1bb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Jungod1121/dsh-anchored-standard",
+          "command": "dsh plugin --profile web add github:Jungod1121/dsh-anchored-standard",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "86e4a406a636d88a6b3a42c7806efa381764c3b563fc58a0a2783a8251619fc7",
+      "url": "https://github.com/Jungod1121/dsh-anchored-standard/blob/560530f0e1af6dba3528ac8962f5e5e63951b1bb/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Jungod1121/dsh-anchored-standard",
+          "command": "dsh plugin --profile web add github:Jungod1121/dsh-anchored-standard",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-anchored-standard",
+      "version": "1.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jungod1121/dsh-anchored-standard",
+        "commit": "560530f0e1af6dba3528ac8962f5e5e63951b1bb"
+      },
+      "manifestSha256": "b4a323f095768c89016a8945112492502c44e24dc48e820dcbd111b6b6d0dbb6",
+      "manifestUrl": "https://github.com/Jungod1121/dsh-anchored-standard/blob/560530f0e1af6dba3528ac8962f5e5e63951b1bb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-anchored-standard",
+        "versions": [
+          {
+            "version": "1.2.1",
+            "publishTimestamp": 1786860139,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jungod1121/dsh-anchored-standard",
+              "commit": "560530f0e1af6dba3528ac8962f5e5e63951b1bb"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Jungod1121/dsh-anchored-standard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jungod1121/dsh-anchored-standard",
+    "commit": "560530f0e1af6dba3528ac8962f5e5e63951b1bb",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:03.579Z"
+}

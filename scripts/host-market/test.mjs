@@ -4,7 +4,17 @@ import {
   parseMarketIndex,
   marketInstallTarget,
 } from '@deepseek-ai/dsh-plugin-market-index'
-import { generateIndex, npmTarget, projectPackage } from './generate.mjs'
+import {
+  generateIndex,
+  npmTarget,
+  projectPackage,
+  selectTopPlugins,
+} from './generate.mjs'
+import { MAX_PLUGINS } from './policy.mjs'
+import {
+  blockedPluginRepository,
+  repositorySlug,
+} from './repository-policy.mjs'
 
 const metadata = (name = 'demo') => ({
   'dist-tags': { latest: '1.2.3' },
@@ -130,6 +140,10 @@ test('publication preserves existing data on network failure, empty output or a 
     () => assertPublishable({ index: index(7) }, index(10)),
     /collapsed/,
   )
+  assert.throws(
+    () => assertPublishable({ index: index(MAX_PLUGINS + 1) }),
+    /published cap/,
+  )
   assert.doesNotThrow(() => assertPublishable({ index: index(8) }, index(10)))
 })
 
@@ -231,6 +245,60 @@ test('default order mixes npm and Git by repository stars with stable repository
     evidence: [], diagnostics: [] }))
   assert.deepEqual(result.index.plugins.map(p => p.name),
     ['git-high', 'tie-a', 'tie-z', 'tie-b', 'low', 'unknown'])
+})
+
+
+test('selection caps only after verification and keeps the highest-star plugins', () => {
+  const plugins = Array.from({ length: MAX_PLUGINS + 5 }, (_, i) => ({
+    name: `plugin-${String(i).padStart(3, '0')}`,
+  }))
+  const ranks = new Map(
+    plugins.map((plugin, i) => [
+      plugin.name,
+      { stars: i, repo: `owner/${plugin.name}` },
+    ]),
+  )
+  const selection = selectTopPlugins(plugins, ranks)
+  assert.equal(selection.eligiblePlugins, MAX_PLUGINS + 5)
+  assert.equal(selection.plugins.length, MAX_PLUGINS)
+  assert.equal(selection.droppedByLimit, 5)
+  assert.equal(selection.cutoffStars, 5)
+  assert.equal(selection.plugins[0].name, 'plugin-604')
+  assert.equal(selection.plugins.at(-1).name, 'plugin-005')
+})
+
+
+test('package-level repository exclusions override an otherwise eligible mapping', async () => {
+  assert.equal(repositorySlug('git+https://github.com/Owner/Repo.git'), 'owner/repo')
+  assert.equal(repositorySlug('github:Owner/Repo'), 'owner/repo')
+  const plugin = projectPackage('demo', ['latest'], metadata()).plugin
+  plugin.repository = { url: 'https://github.com/Blocked/Repo' }
+  const result = await generateIndex(
+    {
+      schema_version: 2,
+      excludedRepositories: ['blocked/repo'],
+      entries: [{
+        full_name: 'allowed/candidate',
+        stargazers_count: 100,
+        packages: { mode: 'command', targets: [{ install: 'demo' }] },
+      }],
+    },
+    async () => metadata(),
+    undefined,
+    async () => ({ plugin, diagnostics: [] }),
+  )
+  assert.equal(result.index.plugins.length, 0)
+  assert.equal(result.selection.eligiblePlugins, 0)
+  assert.deepEqual(result.repositoryExclusions, [{
+    name: 'demo',
+    repository: 'blocked/repo',
+    reference: 'https://github.com/Blocked/Repo',
+  }])
+  assert.equal(result.diagnostics[0].code, 'excluded_repository')
+  assert.equal(
+    blockedPluginRepository(plugin, new Set(['blocked/repo'])).slug,
+    'blocked/repo',
+  )
 })
 
 

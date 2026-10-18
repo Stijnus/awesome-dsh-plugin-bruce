@@ -1,0 +1,199 @@
+{
+  "full_name": "Guzhou2002/Fairy-DSH-Optimized",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:45.905Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "45f1d9467762cd5d6bc130960607a656a9758a6d2f970e0df0675e816dd131ef",
+      "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized/blob/356d21f52493a93cfe893d017ddab7a534911825/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-balance-meter",
+      "version": "0.2.0",
+      "path": "balance-meter/dsh-balance-meter",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+        "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+        "path": "balance-meter/dsh-balance-meter"
+      },
+      "manifestSha256": "777155f5437e3f607e6062240bddee776751344bf9bc0fa196bc251503cbd8e0",
+      "manifestUrl": "https://github.com/Guzhou2002/Fairy-DSH-Optimized/blob/356d21f52493a93cfe893d017ddab7a534911825/balance-meter/dsh-balance-meter/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-balance-meter",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1789392700,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+              "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+              "path": "balance-meter/dsh-balance-meter"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-browser-dock",
+      "version": "0.1.0",
+      "path": "browser-dock/dsh-browser-dock",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+        "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+        "path": "browser-dock/dsh-browser-dock"
+      },
+      "manifestSha256": "5979c279a334c81e79a4ae416eb285601df66c21f8f3a5d6e7a35bbeb1d7ad52",
+      "manifestUrl": "https://github.com/Guzhou2002/Fairy-DSH-Optimized/blob/356d21f52493a93cfe893d017ddab7a534911825/browser-dock/dsh-browser-dock/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-browser-dock",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789392700,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+              "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+              "path": "browser-dock/dsh-browser-dock"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fairy-startup",
+      "version": "1.0.0",
+      "path": "fairy-startup/dsh-fairy-startup",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+        "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+        "path": "fairy-startup/dsh-fairy-startup"
+      },
+      "manifestSha256": "6c6291ab9a093c6ab489c43d8f224a20562ca34ab3cdce4d0a9c25b5fb02e13a",
+      "manifestUrl": "https://github.com/Guzhou2002/Fairy-DSH-Optimized/blob/356d21f52493a93cfe893d017ddab7a534911825/fairy-startup/dsh-fairy-startup/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-fairy-startup",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1789392700,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+              "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+              "path": "fairy-startup/dsh-fairy-startup"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fairy-visual",
+      "version": "0.1.8",
+      "path": "fairy-visual/dsh-fairy-visual",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+        "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+        "path": "fairy-visual/dsh-fairy-visual"
+      },
+      "manifestSha256": "4af80297919867ae014a74cf291402271a95c7bec1a2d7f63b25abf9ecf002f1",
+      "manifestUrl": "https://github.com/Guzhou2002/Fairy-DSH-Optimized/blob/356d21f52493a93cfe893d017ddab7a534911825/fairy-visual/dsh-fairy-visual/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-fairy-visual",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1789392700,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+              "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+              "path": "fairy-visual/dsh-fairy-visual"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fairy-voice",
+      "version": "1.0.5",
+      "path": "fairy-voice/dsh-fairy-voice",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+        "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+        "path": "fairy-voice/dsh-fairy-voice"
+      },
+      "manifestSha256": "c923631e9b93c09a1d99744313eb1a1f98b1579e7512e74c1df6b49554dcf29d",
+      "manifestUrl": "https://github.com/Guzhou2002/Fairy-DSH-Optimized/blob/356d21f52493a93cfe893d017ddab7a534911825/fairy-voice/dsh-fairy-voice/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-fairy-voice",
+        "versions": [
+          {
+            "version": "1.0.5",
+            "publishTimestamp": 1789392700,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+              "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+              "path": "fairy-voice/dsh-fairy-voice"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+    "commit": "356d21f52493a93cfe893d017ddab7a534911825",
+    "releaseTags": 10,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:51.453Z"
+}

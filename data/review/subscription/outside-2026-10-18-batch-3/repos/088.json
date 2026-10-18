@@ -1,0 +1,134 @@
+{
+  "full_name": "liuup/dsh-latex-tools",
+  "originalPosition": 88,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 88,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:08.162Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6676200cdd1a918e37ccd159777ca9e4b77d851f27a0d591b05b3cd2eba3c287",
+      "url": "https://github.com/liuup/dsh-latex-tools/blob/ec82dd87657dc35757f28c1e716a17422e32aad8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-latex-tools",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-latex-tools",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/liuup/dsh-latex-tools",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:liuup/dsh-latex-tools",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-latex-tools",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liuup/dsh-latex-tools",
+        "commit": "ec82dd87657dc35757f28c1e716a17422e32aad8"
+      },
+      "manifestSha256": "0aec4f5bbb1f70a0cc23d43dde3ce694de382f34191fe014934e04b85ad4dd6b",
+      "manifestUrl": "https://github.com/liuup/dsh-latex-tools/blob/ec82dd87657dc35757f28c1e716a17422e32aad8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-latex-tools",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1791766396,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liuup/dsh-latex-tools",
+              "commit": "ec82dd87657dc35757f28c1e716a17422e32aad8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-latex-tools",
+      "origin": "npm",
+      "name": "dsh-latex-tools",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-latex-tools",
+        "title": "dsh-latex-tools",
+        "description": "Hover LaTeX formulas in the DeepSeek Harness Web UI to copy the TeX source or export the formula as a standalone SVG.",
+        "repository": {
+          "url": "https://github.com/liuup/dsh-latex-tools"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "latex",
+            "katex",
+            "mathjax",
+            "svg"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786666117,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ec859eeafd032fc02890ed743ba7d25fa738e18f6b5a9473ee832f44abc7cdd7",
+      "evidence": [
+        {
+          "name": "dsh-latex-tools",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-latex-tools/-/dsh-latex-tools-0.1.2.tgz",
+          "integrity": "sha512-VWxVyyypGLKuGLAS0iaOzbeS65E/l+Bp9ovN7qiBHm8qFPLi+YcLSVPiWT4XsqX3FDwYOoAhUHRvq/Hjnzzojw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-latex-tools",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/liuup/dsh-latex-tools",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liuup/dsh-latex-tools",
+    "commit": "ec82dd87657dc35757f28c1e716a17422e32aad8",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:14.224Z"
+}

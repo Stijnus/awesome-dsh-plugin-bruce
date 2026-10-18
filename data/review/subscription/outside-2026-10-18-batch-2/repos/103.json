@@ -1,0 +1,144 @@
+{
+  "full_name": "master1Sun/dsh-prompt-library",
+  "originalPosition": 103,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 103,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:23.196Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b80a8f40ec8cdb02f4a60f5099abf3bd694d5684e75cce6ad9c1e49cb4df6d2d",
+      "url": "https://github.com/master1Sun/dsh-prompt-library/blob/ef1616baab0d2bb64a06f7adc2908d76ff5af8db/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@sunjuntao/dsh-prompt-library",
+          "command": "dsh plugin --profile web add @sunjuntao/dsh-prompt-library",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d65591aeb25c06fbfeafec1a5b944e4db87543f4d3aaa80ad872d3d7f0c0f959",
+      "url": "https://github.com/master1Sun/dsh-prompt-library/blob/ef1616baab0d2bb64a06f7adc2908d76ff5af8db/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@sunjuntao/dsh-prompt-library",
+          "command": "dsh plugin --profile web add @sunjuntao/dsh-prompt-library",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@sunjuntao/dsh-prompt-library",
+      "version": "0.17.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/master1Sun/dsh-prompt-library",
+        "commit": "ef1616baab0d2bb64a06f7adc2908d76ff5af8db"
+      },
+      "manifestSha256": "02a0c1f5691b5d94234db454e9eb88c83986e5023125d50c18d466533d7b894c",
+      "manifestUrl": "https://github.com/master1Sun/dsh-prompt-library/blob/ef1616baab0d2bb64a06f7adc2908d76ff5af8db/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@sunjuntao/dsh-prompt-library",
+        "versions": [
+          {
+            "version": "0.17.1",
+            "publishTimestamp": 1790737092,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/master1Sun/dsh-prompt-library",
+              "commit": "ef1616baab0d2bb64a06f7adc2908d76ff5af8db"
+            },
+            "engines": {
+              "dsh": ">=0.1.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@sunjuntao/dsh-prompt-library",
+      "origin": "npm",
+      "name": "@sunjuntao/dsh-prompt-library",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@sunjuntao/dsh-prompt-library",
+        "title": "@sunjuntao/dsh-prompt-library",
+        "description": "DSH 提示词库插件：集中管理提示词（增删改查、标签分类、导入导出、AI 优化），聊天快捷收录与调用。 DSH Prompt Library plugin: manage prompts (CRUD, tags, import/export, AI polish), quick capture & reuse in chat.",
+        "author": "master1Sun",
+        "repository": {
+          "url": "https://github.com/master1Sun/dsh-prompt-library"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "plugin",
+            "prompt",
+            "prompt-library",
+            "deepseek-harness",
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.17.1",
+            "publishTimestamp": 1791790345,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b209402ada83bd5158568368b36152fce67afe705b2d24994aefa4aca3c41c89",
+      "evidence": [
+        {
+          "name": "@sunjuntao/dsh-prompt-library",
+          "version": "0.17.1",
+          "tarball": "https://registry.npmjs.org/@sunjuntao/dsh-prompt-library/-/dsh-prompt-library-0.17.1.tgz",
+          "integrity": "sha512-diNk6Dvd4dwE3FaGiOo+0tpu5fsxf3XS0ktTewsgOywdPKfk07aEuy+2xWVUveTMlHzTCjI/NOV6G6tMMsXlsw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@sunjuntao/dsh-prompt-library",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/master1Sun/dsh-prompt-library",
+    "commit": "ef1616baab0d2bb64a06f7adc2908d76ff5af8db",
+    "releaseTags": 33,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:31.842Z"
+}

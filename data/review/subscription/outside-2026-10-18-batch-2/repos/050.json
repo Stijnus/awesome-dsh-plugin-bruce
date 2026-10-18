@@ -1,0 +1,183 @@
+{
+  "full_name": "claudejaune/OmaSeek",
+  "originalPosition": 50,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 50,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:18.285Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "06db45711f8eaca98543e951adab913b5b3046f74ee865ceb06575d2a43b3353",
+      "url": "https://github.com/claudejaune/OmaSeek/blob/e66e7ade4e95d295568454bae47af27b01b7f846/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "omaseek-themes@latest",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add omaseek-themes@latest omaseek-pixel@latest omaseek-music@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "omaseek-music",
+      "version": "0.2.6",
+      "path": "packages/omaseek-music",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/claudejaune/OmaSeek",
+        "commit": "e66e7ade4e95d295568454bae47af27b01b7f846",
+        "path": "packages/omaseek-music"
+      },
+      "manifestSha256": "5e86ed4d4ec595ce759ed991eb8eee4a46249bfbe016a5fc0568e4d65b6679e6",
+      "manifestUrl": "https://github.com/claudejaune/OmaSeek/blob/e66e7ade4e95d295568454bae47af27b01b7f846/packages/omaseek-music/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "omaseek-music",
+        "versions": [
+          {
+            "version": "0.2.6",
+            "publishTimestamp": 1792236568,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/claudejaune/OmaSeek",
+              "commit": "e66e7ade4e95d295568454bae47af27b01b7f846",
+              "path": "packages/omaseek-music"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "omaseek-pixel",
+      "version": "0.2.1",
+      "path": "packages/omaseek-pixel",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/claudejaune/OmaSeek",
+        "commit": "e66e7ade4e95d295568454bae47af27b01b7f846",
+        "path": "packages/omaseek-pixel"
+      },
+      "manifestSha256": "00e11731a96d06174abb6ffb728205d9b99f1e1cf95a329bfd4324417e3fc668",
+      "manifestUrl": "https://github.com/claudejaune/OmaSeek/blob/e66e7ade4e95d295568454bae47af27b01b7f846/packages/omaseek-pixel/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "omaseek-pixel",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1792236568,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/claudejaune/OmaSeek",
+              "commit": "e66e7ade4e95d295568454bae47af27b01b7f846",
+              "path": "packages/omaseek-pixel"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "omaseek-themes",
+      "version": "0.3.1",
+      "path": "packages/omaseek-themes",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/claudejaune/OmaSeek",
+        "commit": "e66e7ade4e95d295568454bae47af27b01b7f846",
+        "path": "packages/omaseek-themes"
+      },
+      "manifestSha256": "924c678b1ddb84d9caca48e7f39de806281626d4322e00cbe28af55b9af1e754",
+      "manifestUrl": "https://github.com/claudejaune/OmaSeek/blob/e66e7ade4e95d295568454bae47af27b01b7f846/packages/omaseek-themes/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "omaseek-themes",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792236568,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/claudejaune/OmaSeek",
+              "commit": "e66e7ade4e95d295568454bae47af27b01b7f846",
+              "path": "packages/omaseek-themes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "omaseek-themes@latest",
+      "origin": "npm",
+      "name": "omaseek-themes",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "omaseek-themes",
+        "title": "omaseek-themes",
+        "description": "Omarchy's 22 home-page themes for DeepSeek Harness, with the scheme-aware picker",
+        "author": "claudejaune",
+        "repository": {
+          "url": "https://github.com/claudejaune/OmaSeek",
+          "directory": "packages/omaseek-themes"
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1791057005,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9607b58976cad6f56b1e88ee1e02c818aabc020729bf96c8069516f80ff63171",
+      "evidence": [
+        {
+          "name": "omaseek-themes",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/omaseek-themes/-/omaseek-themes-0.3.1.tgz",
+          "integrity": "sha512-+sHjgMQlopUO9k6GLJoJhttyDMKS/gUkID2EECzrdAtigzdoetvfMGFSvb6RoNZcCX8WO0RfuQessvjRkJ8Rgg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "omaseek-themes@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/claudejaune/OmaSeek",
+    "commit": "e66e7ade4e95d295568454bae47af27b01b7f846",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:24.189Z"
+}

@@ -7,8 +7,9 @@ import semver from 'semver'
 import { applyDiscovery } from './discovery.mjs'
 import { verifyNpmPlugin } from './npm.mjs'
 import { classifyTarget, readGitTarget } from './git.mjs'
+import { blockedPluginRepository } from './repository-policy.mjs'
 import { isBundle, dshRange } from './vendor/packages.ts'
-import { assertPublishable } from './policy.mjs'
+import { assertPublishable, MAX_PLUGINS } from './policy.mjs'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
 
 const REGISTRY = 'https://registry.npmjs.org/'
@@ -26,6 +27,28 @@ export function npmTarget(spec) {
   if (!semver.valid(selector) && !/^[a-zA-Z][a-zA-Z0-9._-]*$/.test(selector))
     return null
   return { name: match[1], selector }
+}
+
+/** Rank verified plugins by repository stars, then cap the published selection. */
+export function selectTopPlugins(plugins, ranks, max = MAX_PLUGINS) {
+  const compareText = (a, b) => (a < b ? -1 : a > b ? 1 : 0)
+  const ordered = [...plugins].sort((a, b) => {
+    const left = ranks.get(a.name) ?? { stars: -1, repo: '' }
+    const right = ranks.get(b.name) ?? { stars: -1, repo: '' }
+    return (
+      right.stars - left.stars ||
+      compareText(left.repo, right.repo) ||
+      compareText(a.name, b.name)
+    )
+  })
+  const selected = ordered.slice(0, max)
+  const last = selected.at(-1)
+  return {
+    plugins: selected,
+    eligiblePlugins: ordered.length,
+    droppedByLimit: Math.max(0, ordered.length - selected.length),
+    cutoffStars: last ? (ranks.get(last.name)?.stars ?? -1) : null,
+  }
 }
 
 /** Project registry evidence, using the official host compatibility resolver. */
@@ -118,8 +141,10 @@ export async function generateIndex(
 ) {
   if (feed?.schema_version !== 2 || !Array.isArray(feed.entries))
     throw new Error('Expected a curated market-v2 feed')
-  const compareText = (a, b) => a < b ? -1 : a > b ? 1 : 0
   const npmRanks = new Map(), gitRanks = new Map(), ranks = new Map()
+  const blockedRepositories = new Set(
+    (feed.excludedRepositories ?? []).map((name) => String(name).toLowerCase()),
+  )
   const targets = new Map()
   const gitTargets = new Map()
   const sourceTargets = new Set()
@@ -256,11 +281,30 @@ export async function generateIndex(
       ranks.set(plugin.name, gitRanks.get(gitKeys[i]))
     }
   }
-  // Sort presentation only after source selection; npm identity precedence is unchanged.
-  plugins.sort((a, b) => {
-    const left = ranks.get(a.name), right = ranks.get(b.name)
-    return right.stars - left.stars || compareText(left.repo, right.repo) || compareText(a.name, b.name)
-  })
+  // Cap only after every candidate has passed source, compatibility and
+  // package-level repository exclusion checks.
+  const eligiblePlugins = []
+  const repositoryExclusions = []
+  for (const plugin of plugins) {
+    const blocked = blockedPluginRepository(plugin, blockedRepositories)
+    if (!blocked) {
+      eligiblePlugins.push(plugin)
+      continue
+    }
+    repositoryExclusions.push({
+      name: plugin.name,
+      repository: blocked.slug,
+      reference: blocked.reference,
+    })
+    diagnostics.push({
+      name: plugin.name,
+      code: 'excluded_repository',
+      status: 'excluded',
+      reason: `包或 Git 来源指向已排除仓库 ${blocked.slug}`,
+    })
+  }
+  const selection = selectTopPlugins(eligiblePlugins, ranks)
+  const selectedPlugins = selection.plugins
   const index = {
     format: 1,
     title: { en: 'DSH Community Market', zh: 'DSH 社区市场' },
@@ -268,8 +312,8 @@ export async function generateIndex(
       en: 'Verified npm metadata and commit-pinned Git bundles from the community catalog. Inclusion is not a security review.',
       zh: '从社区精选目录核实 npm 元数据及固定提交的 Git 组合包；收录不代表安全审查。',
     },
-    metadata: applyDiscovery(plugins, ranks),
-    plugins,
+    metadata: applyDiscovery(selectedPlugins, ranks),
+    plugins: selectedPlugins,
   }
   parseMarketIndex(index, INDEX_URL)
   return {
@@ -281,6 +325,8 @@ export async function generateIndex(
     uniqueTargets: sourceTargets.size,
     npmEvidence: results.flatMap((r) => r.evidence ?? []),
     gitEvidence: gitResults.flatMap((r) => r.evidence),
+    selection,
+    repositoryExclusions,
     fetchFailures: [...results, ...gitResults].filter(
       (result) => result.fetchFailed,
     ).length,
@@ -315,7 +361,13 @@ async function main() {
       return JSON.parse(body)
     },
     readGitTarget,
-    verifyNpmPlugin,
+    (plugin, packument) =>
+      verifyNpmPlugin(plugin, packument, {
+        // Large-but-valid tarballs need more than the reader's default 60s
+        // on slow registry links; the 64 MiB size cap still applies.
+        timeoutMs: 180_000,
+        maxTarballBytes: 64 * 1024 * 1024,
+      }),
   )
   await mkdir(dirname(resolve(outputPath)), { recursive: true })
   const serialized = JSON.stringify(result.index, null, 2) + '\n'
@@ -345,6 +397,8 @@ async function main() {
         '确认该版本或子目录声明 dsh.bundle.patch，而非普通库或尚未打包的源码。',
       package_size_limit:
         '压缩包或解压文件总量超过生成器 64 MiB 上限；请精简发布产物后发布新版本，再重新核验。',
+      excluded_repository:
+        '安装包或 Git 来源指向目录黑名单、市场竞品或平台自身仓库；需要改用独立、可审查的插件仓库。',
       npm_fetch_failed:
         '检查网络、registry 和安装包完整性；失败时保留已发布索引。',
       git_fetch_failed:
@@ -359,6 +413,10 @@ async function main() {
       npmCandidates: result.npmCandidates,
       gitCandidates: result.gitCandidates,
       uniqueTargets: result.uniqueTargets,
+      eligiblePluginsBeforeLimit: result.selection.eligiblePlugins,
+      excludedByRepositoryPolicy: result.repositoryExclusions.length,
+      excludedByLimit: result.selection.droppedByLimit,
+      cutoffStars: result.selection.cutoffStars,
       includedNpm: result.index.plugins.filter(
         (p) => p.versions[0].source.type === 'npm',
       ).length,
@@ -369,6 +427,13 @@ async function main() {
       counting:
         '候选按 npm 包或 Git 目标去重；诊断可按版本/路径多条记录，不等于独立插件数量',
     },
+    selection: {
+      policy: 'top-600-verified-plugins-by-stars-v1',
+      eligiblePlugins: result.selection.eligiblePlugins,
+      included: result.index.plugins.length,
+      droppedByLimit: result.selection.eligiblePlugins - result.index.plugins.length,
+      cutoffStars: result.selection.cutoffStars,
+    },
     indexSha256: createHash('sha256').update(serialized).digest('hex'),
     fetchFailures: result.fetchFailures,
     generatedAt: new Date().toISOString(),
@@ -376,6 +441,7 @@ async function main() {
     feedSha256: createHash('sha256').update(raw).digest('hex'),
     candidates: result.candidates,
     included: result.index.plugins.length,
+    repositoryExclusions: result.repositoryExclusions,
     diagnostics: result.diagnostics,
     evidence,
     gitEvidence: result.gitEvidence,
@@ -391,7 +457,9 @@ async function main() {
   assertPublishable(result)
   await writeFile(outputPath, serialized)
   console.log(
-    `Generated ${result.index.plugins.length}/${result.candidates} sources; ${result.diagnostics.length} diagnostics. ${outputPath}`,
+    `Generated ${result.index.plugins.length}/${result.selection.eligiblePlugins} verified plugins ` +
+      `(${result.selection.droppedByLimit} beyond the ${MAX_PLUGINS}-plugin cap) ` +
+      `from ${result.candidates} sources; ${result.diagnostics.length} diagnostics. ${outputPath}`,
   )
 }
 

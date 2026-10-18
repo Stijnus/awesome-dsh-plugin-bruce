@@ -1,0 +1,91 @@
+{
+  "full_name": "2672243194/dsh-read-url",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:27.542Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7166546c35b6e6de008f727b9a60f983b825c4c32b6d47b326913436a124fccf",
+      "url": "https://github.com/2672243194/dsh-read-url/blob/5d195034fe7ce0668927b1f3fdda38029752476b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/2672243194/dsh-read-url",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:2672243194/dsh-read-url",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "daab697dfae3c405aea325c2b57f51fa9ac2e8ae3284e046327acd0566389000",
+      "url": "https://github.com/2672243194/dsh-read-url/blob/5d195034fe7ce0668927b1f3fdda38029752476b/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/2672243194/dsh-read-url",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:2672243194/dsh-read-url",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-read-url",
+      "version": "1.9.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/2672243194/dsh-read-url",
+        "commit": "5d195034fe7ce0668927b1f3fdda38029752476b"
+      },
+      "manifestSha256": "f8ea18dc3bb4a300362036bad3a0f6fde508ea421113b63556dc06796419a923",
+      "manifestUrl": "https://github.com/2672243194/dsh-read-url/blob/5d195034fe7ce0668927b1f3fdda38029752476b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-read-url",
+        "versions": [
+          {
+            "version": "1.9.2",
+            "publishTimestamp": 1791041278,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/2672243194/dsh-read-url",
+              "commit": "5d195034fe7ce0668927b1f3fdda38029752476b"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/2672243194/dsh-read-url",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/2672243194/dsh-read-url",
+    "commit": "5d195034fe7ce0668927b1f3fdda38029752476b",
+    "releaseTags": 34,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:32.648Z"
+}

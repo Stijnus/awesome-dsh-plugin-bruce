@@ -1,0 +1,147 @@
+{
+  "full_name": "seven282/oss-prompt-optimizer",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:15.311Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e0d2caebe047c5acc327e2cce95616a93dbb9867a7d437e83d193cd436003a0f",
+      "url": "https://github.com/seven282/oss-prompt-optimizer/blob/21f2f11c3066bbd783e8190156e6fd439d7f40e6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "oss-prompt-optimizer",
+          "command": "dsh plugin --profile web add oss-prompt-optimizer",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c3a032bc6ef873d9cefc4c9c0b0fd86bbceca46a95571e66da9838d52775e7da",
+      "url": "https://github.com/seven282/oss-prompt-optimizer/blob/21f2f11c3066bbd783e8190156e6fd439d7f40e6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "oss-prompt-optimizer",
+          "command": "dsh plugin --profile web add oss-prompt-optimizer",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "oss-prompt-optimizer",
+      "version": "1.13.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/seven282/oss-prompt-optimizer",
+        "commit": "21f2f11c3066bbd783e8190156e6fd439d7f40e6"
+      },
+      "manifestSha256": "712bc3a9bfa65a35430d7d722357e83c498b146cf378cbcb8f159f598cae9b70",
+      "manifestUrl": "https://github.com/seven282/oss-prompt-optimizer/blob/21f2f11c3066bbd783e8190156e6fd439d7f40e6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "oss-prompt-optimizer",
+        "versions": [
+          {
+            "version": "1.13.1",
+            "publishTimestamp": 1791607939,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/seven282/oss-prompt-optimizer",
+              "commit": "21f2f11c3066bbd783e8190156e6fd439d7f40e6"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "oss-prompt-optimizer",
+      "origin": "npm",
+      "name": "oss-prompt-optimizer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "oss-prompt-optimizer",
+        "title": "oss-prompt-optimizer",
+        "description": "DeepSeek Harness plugin bundle: optimize raw instructions into professional Role / Task / Context / Format prompts through the harness llm service",
+        "homepage": "https://github.com/seven282/oss-prompt-optimizer#readme",
+        "repository": {
+          "url": "https://github.com/seven282/oss-prompt-optimizer"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "prompt",
+            "prompt-optimizer",
+            "prompt-engineering",
+            "llm",
+            "cordis",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.13.1",
+            "publishTimestamp": 1791606596,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4a0aa84eb0ef82d8159cbaed5c167903fcd63986ac1c9e55dd225a78afdca97e",
+      "evidence": [
+        {
+          "name": "oss-prompt-optimizer",
+          "version": "1.13.1",
+          "tarball": "https://registry.npmjs.org/oss-prompt-optimizer/-/oss-prompt-optimizer-1.13.1.tgz",
+          "integrity": "sha512-VqX1x9+7my0w5g+jAk4mF9L8afvvWDdQ41JVle9NJmQeZqbqFrwMdS4K7zBudC/d/6ol+VY8XQYViPCwvIHGzg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "oss-prompt-optimizer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/seven282/oss-prompt-optimizer",
+    "commit": "21f2f11c3066bbd783e8190156e6fd439d7f40e6",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:21.551Z"
+}

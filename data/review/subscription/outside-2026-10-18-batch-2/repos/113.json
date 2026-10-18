@@ -1,0 +1,76 @@
+{
+  "full_name": "BrambleXu/dsh-annotate",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:40.167Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fb03534d185b28dbadcb6f017ec72a302ee58a52070c8358b5ff0c8051d2a2d7",
+      "url": "https://github.com/BrambleXu/dsh-annotate/blob/993a122d622b5ff4ccdd195d9c021b8c6de2e8d7/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "aecab503eaefd7f9897620e08a54c54677d2a14c05e05e264d9de14afcdb007e",
+      "url": "https://github.com/BrambleXu/dsh-annotate/blob/993a122d622b5ff4ccdd195d9c021b8c6de2e8d7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-annotate",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BrambleXu/dsh-annotate",
+        "commit": "993a122d622b5ff4ccdd195d9c021b8c6de2e8d7"
+      },
+      "manifestSha256": "3ff8485f234951ab73047bfcd7dddef8c96a139457c2b9599837b100207c7d98",
+      "manifestUrl": "https://github.com/BrambleXu/dsh-annotate/blob/993a122d622b5ff4ccdd195d9c021b8c6de2e8d7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.5 <1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-annotate",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791592009,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BrambleXu/dsh-annotate",
+              "commit": "993a122d622b5ff4ccdd195d9c021b8c6de2e8d7"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5 <1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BrambleXu/dsh-annotate",
+    "commit": "993a122d622b5ff4ccdd195d9c021b8c6de2e8d7",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:45.905Z"
+}

@@ -1,0 +1,123 @@
+{
+  "full_name": "Ianzhyh/workbuddy-to-dsh",
+  "originalPosition": 25,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 25,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:39.220Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "40f9591247aaa5f841d857ab72792195f428ea601d7c0090306ca8cce78ba5d1",
+      "url": "https://github.com/Ianzhyh/workbuddy-to-dsh/blob/1a3b0990af0c1a715081c1a8191ec181ca2c9307/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ianzhyh/workbuddy-to-dsh",
+          "command": "dsh plugin --profile desktop add github:Ianzhyh/workbuddy-to-dsh",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Ianzhyh/workbuddy-to-dsh",
+          "command": "dsh plugin add github:Ianzhyh/workbuddy-to-dsh",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2ddf99e02c241c2278483985fd2eccfdbe342e0a418452db8e230ff1a22b5929",
+      "url": "https://github.com/Ianzhyh/workbuddy-to-dsh/blob/1a3b0990af0c1a715081c1a8191ec181ca2c9307/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ianzhyh/workbuddy-to-dsh",
+          "command": "dsh plugin --profile desktop add github:Ianzhyh/workbuddy-to-dsh",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Ianzhyh/workbuddy-to-dsh",
+          "command": "dsh plugin add github:Ianzhyh/workbuddy-to-dsh",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "sha256": "134f8f05f579dde48ba8d8ade2ef7cf0d7286ea3c41d51160d63cd65c7fba15b",
+      "url": "https://github.com/Ianzhyh/workbuddy-to-dsh/blob/1a3b0990af0c1a715081c1a8191ec181ca2c9307/dsh-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ianzhyh/workbuddy-to-dsh",
+          "command": "dsh plugin add github:Ianzhyh/workbuddy-to-dsh",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "dashboard/README.md",
+      "sha256": "8a928ef8b1cbbd206e1ee29d4c65403916ecd5fdacbeab457f4ca7c41e30bd93",
+      "url": "https://github.com/Ianzhyh/workbuddy-to-dsh/blob/1a3b0990af0c1a715081c1a8191ec181ca2c9307/dashboard/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "workbuddy-to-dsh",
+      "version": "1.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ianzhyh/workbuddy-to-dsh",
+        "commit": "1a3b0990af0c1a715081c1a8191ec181ca2c9307"
+      },
+      "manifestSha256": "49cde7e81239c07232e76ebfb5ab2c3582579e24db57fbea0e10b6c97428d5db",
+      "manifestUrl": "https://github.com/Ianzhyh/workbuddy-to-dsh/blob/1a3b0990af0c1a715081c1a8191ec181ca2c9307/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "workbuddy-to-dsh",
+        "versions": [
+          {
+            "version": "1.6.1",
+            "publishTimestamp": 1792246452,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ianzhyh/workbuddy-to-dsh",
+              "commit": "1a3b0990af0c1a715081c1a8191ec181ca2c9307"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Ianzhyh/workbuddy-to-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ianzhyh/workbuddy-to-dsh",
+    "commit": "1a3b0990af0c1a715081c1a8191ec181ca2c9307",
+    "releaseTags": 18,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:45.690Z"
+}

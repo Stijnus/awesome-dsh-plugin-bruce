@@ -1,0 +1,159 @@
+{
+  "full_name": "TecFancy/dsh-auth-gate",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:40.847Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fc6cf8ab71c2fa053dd27711ce48eba83b554797d3e661623e9323d3b57422a7",
+      "url": "https://github.com/TecFancy/dsh-auth-gate/blob/d056c02bc6360e26856f610a169705d14b2e6cf1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-auth-gate",
+          "command": "dsh plugin --profile web add dsh-auth-gate",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8ac9066c3ff83bf7744558529bf04b419b70d1f23a91539d4bdc7a00cb25c866",
+      "url": "https://github.com/TecFancy/dsh-auth-gate/blob/d056c02bc6360e26856f610a169705d14b2e6cf1/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-auth-gate",
+          "command": "dsh plugin --profile web add dsh-auth-gate",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-auth-gate",
+      "version": "0.17.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TecFancy/dsh-auth-gate",
+        "commit": "d056c02bc6360e26856f610a169705d14b2e6cf1"
+      },
+      "manifestSha256": "8489a0a5ae0127527e5ade57dd3dde30a4f635f764661e004ba5135cfa640b19",
+      "manifestUrl": "https://github.com/TecFancy/dsh-auth-gate/blob/d056c02bc6360e26856f610a169705d14b2e6cf1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.1.5-rc.2 || ^0.1.7-alpha.1 || >=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-auth-gate",
+        "versions": [
+          {
+            "version": "0.17.4",
+            "publishTimestamp": 1792129450,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TecFancy/dsh-auth-gate",
+              "commit": "d056c02bc6360e26856f610a169705d14b2e6cf1"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.1.5-rc.2 || ^0.1.7-alpha.1 || >=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-auth-gate",
+      "origin": "npm",
+      "name": "dsh-auth-gate",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auth-gate",
+        "title": {
+          "en": "Auth Gate",
+          "zh": "登录门禁"
+        },
+        "description": {
+          "en": "A login gate for a dsh web instance: password or shared-token sign-in, optional TOTP two-factor, sessions, rate limiting and a user-management CLI.",
+          "zh": "给 dsh web 实例加一道登录门：密码或共享令牌登录、可选的 TOTP 两步验证、会话、限流，以及一套用户管理 CLI。"
+        },
+        "homepage": "https://github.com/TecFancy/dsh-auth-gate",
+        "repository": {
+          "url": "https://github.com/TecFancy/dsh-auth-gate"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "auth",
+            "authentication",
+            "login",
+            "password",
+            "token",
+            "security",
+            "access-control",
+            "rate-limiting",
+            "totp",
+            "two-factor",
+            "self-hosted"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIGRzaC1hdXRoLWdhdGUncyBtYXJrIGZvciB0aGUgUGx1Z2lucyBwYWdlOiB0aGUgYWNjb3VudCByb3cncyBzaGllbGQgYW5kCiAgICAgICBrZXlob2xlLCByZWRyYXduIGFzIGEgZmlsbGVkIGJhZGdlIHNvIGl0IHJlYWRzIGF0IDMwcHggYW5kIGF0IDM2cHguCiAgICAgICBDb2xvdXJzIGFyZSBleHBsaWNpdCBvbiBwdXJwb3NlOiB0aGUgSG9zdCBpbmxpbmVzIHRoaXMgZmlsZSBhcyBhIGRhdGEgVVJMCiAgICAgICBhbmQgdGhlIG1hbmFnZXIgZHJhd3MgaXQgaW4gYW4gPGltZz4sIHdoZXJlIGN1cnJlbnRDb2xvciBhbmQgdGhlIHRoZW1lCiAgICAgICB0b2tlbnMgb2YgdGhlIHBhZ2UgZG8gbm90IHJlYWNoLiAtLT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2hpZWxkIiB4MT0iNyIgeTE9IjQiIHgyPSIzMCIgeTI9IjMzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2RDhCRkYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMkYzQkM4Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBkPSJNMTggMy40IDMwLjIgOHYxMC40YzAgNy41LTUuMSAxMy40LTEyLjIgMTUuOC03LjEtMi40LTEyLjItOC4zLTEyLjItMTUuOFY4WiIgZmlsbD0idXJsKCNzaGllbGQpIi8+CiAgPGNpcmNsZSBjeD0iMTgiIGN5PSIxNS40IiByPSIzIiBmaWxsPSIjRkZGRkZGIi8+CiAgPHBhdGggZD0iTTE4IDE3LjR2NS40IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMy44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.17.4",
+            "publishTimestamp": 1792129549,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.1.5-rc.2 || ^0.1.7-alpha.1 || >=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "238687b3aa534434ec8210c050b038be9ba799ace97a6a2947a30d469c4fa22c",
+      "evidence": [
+        {
+          "name": "dsh-auth-gate",
+          "version": "0.17.4",
+          "tarball": "https://registry.npmjs.org/dsh-auth-gate/-/dsh-auth-gate-0.17.4.tgz",
+          "integrity": "sha512-UwO2hwXW02JdC6yP9+LieSkDKhl+LK616stafBXkHWB5U4rvImJb2x0RAGwkojMJYi6l2tawOIjTVrAnZCPuVQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-auth-gate",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TecFancy/dsh-auth-gate",
+    "commit": "d056c02bc6360e26856f610a169705d14b2e6cf1",
+    "releaseTags": 36,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:48.265Z"
+}

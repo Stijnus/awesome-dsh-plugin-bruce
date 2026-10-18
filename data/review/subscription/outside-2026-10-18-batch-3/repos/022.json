@@ -1,0 +1,128 @@
+{
+  "full_name": "errorcode7/dsh-prompt-manager",
+  "originalPosition": 22,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 22,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:37.475Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "26bc60da04694b779759a9d0476c102e8f0fd6bf356740e0f61c2c2ea7eb733e",
+      "url": "https://github.com/errorcode7/dsh-prompt-manager/blob/c3623ad4a9a8f28167ca43169b4ddf3dd9bc1708/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-manager",
+          "command": "dsh plugin --profile web add dsh-prompt-manager",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-manager",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/errorcode7/dsh-prompt-manager",
+        "commit": "c3623ad4a9a8f28167ca43169b4ddf3dd9bc1708"
+      },
+      "manifestSha256": "e0f40a7fd83f2500629bec52c152ffd7ea33bfba4592a1364a02c55abd28b14f",
+      "manifestUrl": "https://github.com/errorcode7/dsh-prompt-manager/blob/c3623ad4a9a8f28167ca43169b4ddf3dd9bc1708/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-prompt-manager",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786735513,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/errorcode7/dsh-prompt-manager",
+              "commit": "c3623ad4a9a8f28167ca43169b4ddf3dd9bc1708"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-prompt-manager",
+      "origin": "npm",
+      "name": "dsh-prompt-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-prompt-manager",
+        "title": "dsh-prompt-manager",
+        "description": "A local, bilingual prompt library with session-level system prompt injection for DeepSeek Harness Web.",
+        "author": "SaiSenBox",
+        "homepage": "https://github.com/SaiSenBox/dsh-prompt-manager#readme",
+        "repository": {
+          "url": "https://github.com/SaiSenBox/dsh-prompt-manager"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "prompt-manager",
+            "prompt-library"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.5.2",
+            "publishTimestamp": 1790471854,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b6ca1c7fa0064f913e49a7e375834aecbb56426ef211418c69ff5fdd1d8626ae",
+      "evidence": [
+        {
+          "name": "dsh-prompt-manager",
+          "version": "1.5.2",
+          "tarball": "https://registry.npmjs.org/dsh-prompt-manager/-/dsh-prompt-manager-1.5.2.tgz",
+          "integrity": "sha512-8gJ2fO7+UUS64CUErkJCqzQ2xlHc7QHUwBx2qMZKBk78cWdMIh2FHPWvnVdBJymSH0sdDvleGTMuT3yQFlxhew=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-prompt-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/errorcode7/dsh-prompt-manager",
+    "commit": "c3623ad4a9a8f28167ca43169b4ddf3dd9bc1708",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:43.711Z"
+}

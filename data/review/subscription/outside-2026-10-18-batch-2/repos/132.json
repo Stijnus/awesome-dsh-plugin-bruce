@@ -1,0 +1,73 @@
+{
+  "full_name": "chushixixin/dsh-harness-mcp-server",
+  "originalPosition": 132,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:10.768Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3413d737d479b68f2c0b3808f889b382cd87d77a6fba471beebe21344f8dadf1",
+      "url": "https://github.com/chushixixin/dsh-harness-mcp-server/blob/d174cea870aaa9f6dd67f2e9c3f3e3fa0f0e041e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "c61f1725360b49d80131f8f2b14d36e80034657bc2d010bd56cda4d298b6d8c9",
+      "url": "https://github.com/chushixixin/dsh-harness-mcp-server/blob/d174cea870aaa9f6dd67f2e9c3f3e3fa0f0e041e/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@chushixixin/dsh-harness-mcp-server",
+      "version": "0.1.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chushixixin/dsh-harness-mcp-server",
+        "commit": "d174cea870aaa9f6dd67f2e9c3f3e3fa0f0e041e"
+      },
+      "manifestSha256": "a18879766ca04f262ea5aa0f9b8e9ec12c8503554792da79c69f45d888ea5d4a",
+      "manifestUrl": "https://github.com/chushixixin/dsh-harness-mcp-server/blob/d174cea870aaa9f6dd67f2e9c3f3e3fa0f0e041e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@chushixixin/dsh-harness-mcp-server",
+        "versions": [
+          {
+            "version": "0.1.10",
+            "publishTimestamp": 1786801485,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chushixixin/dsh-harness-mcp-server",
+              "commit": "d174cea870aaa9f6dd67f2e9c3f3e3fa0f0e041e"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chushixixin/dsh-harness-mcp-server",
+    "commit": "d174cea870aaa9f6dd67f2e9c3f3e3fa0f0e041e",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:15.044Z"
+}

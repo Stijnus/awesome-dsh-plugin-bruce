@@ -1,0 +1,65 @@
+{
+  "full_name": "Xenia0922/dsh-opencode-go-usage",
+  "originalPosition": 17,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 17,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:29.619Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "32ec948fec5f082ee64cd0e0c6d8a101b821f7488fb5ced62f5b8312809d33ed",
+      "url": "https://github.com/Xenia0922/dsh-opencode-go-usage/blob/c25bf52019b38bd983c5dd484e06a5a1565c246c/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-go-usage",
+      "version": "1.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Xenia0922/dsh-opencode-go-usage",
+        "commit": "c25bf52019b38bd983c5dd484e06a5a1565c246c"
+      },
+      "manifestSha256": "c03a673514e733722e930d8a7fe723763dba56d007fa64fca06f4047643d8081",
+      "manifestUrl": "https://github.com/Xenia0922/dsh-opencode-go-usage/blob/c25bf52019b38bd983c5dd484e06a5a1565c246c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-opencode-go-usage",
+        "versions": [
+          {
+            "version": "1.7.1",
+            "publishTimestamp": 1788263698,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Xenia0922/dsh-opencode-go-usage",
+              "commit": "c25bf52019b38bd983c5dd484e06a5a1565c246c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Xenia0922/dsh-opencode-go-usage",
+    "commit": "c25bf52019b38bd983c5dd484e06a5a1565c246c",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:34.472Z"
+}

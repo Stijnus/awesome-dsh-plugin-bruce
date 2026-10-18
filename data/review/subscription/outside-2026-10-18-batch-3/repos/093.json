@@ -1,0 +1,65 @@
+{
+  "full_name": "sayho-pm/dsh-locale-pack",
+  "originalPosition": 93,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 93,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:14.226Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6bfa5714c254b293473623d985db1797c150b51d4c4b2ce916be73b72d3fc721",
+      "url": "https://github.com/sayho-pm/dsh-locale-pack/blob/3c062212a484aa21dfd33bd8f42c1ced88c3d174/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-locale-pack",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sayho-pm/dsh-locale-pack",
+        "commit": "3c062212a484aa21dfd33bd8f42c1ced88c3d174"
+      },
+      "manifestSha256": "f4480d8a89ad641ee0bd0bea20405bcf35270803ca563ab96b00fec02204e991",
+      "manifestUrl": "https://github.com/sayho-pm/dsh-locale-pack/blob/3c062212a484aa21dfd33bd8f42c1ced88c3d174/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-locale-pack",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1791955260,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sayho-pm/dsh-locale-pack",
+              "commit": "3c062212a484aa21dfd33bd8f42c1ced88c3d174"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sayho-pm/dsh-locale-pack",
+    "commit": "3c062212a484aa21dfd33bd8f42c1ced88c3d174",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:20.262Z"
+}

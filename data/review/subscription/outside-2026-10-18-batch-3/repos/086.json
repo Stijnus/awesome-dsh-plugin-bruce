@@ -1,0 +1,139 @@
+{
+  "full_name": "licyer/dsh-token-monitor",
+  "originalPosition": 86,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 86,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:02.707Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9f41c57b55e1f0ed23c3dd9c2dd91fe0bb64ba4df3485eea0ef19a70a463181d",
+      "url": "https://github.com/licyer/dsh-token-monitor/blob/f3936b16bf158a338affdaaa2443c4c629162065/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-token-monitor",
+          "command": "dsh plugin --profile web add dsh-token-monitor",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/licyer/dsh-token-monitor",
+          "command": "dsh plugin --profile web add github:licyer/dsh-token-monitor",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-token-monitor",
+      "version": "1.0.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/licyer/dsh-token-monitor",
+        "commit": "f3936b16bf158a338affdaaa2443c4c629162065"
+      },
+      "manifestSha256": "1febc5ae4ad0bd33fc7021d659e2b627ab7454fb98f3367010eb4147473bfac8",
+      "manifestUrl": "https://github.com/licyer/dsh-token-monitor/blob/f3936b16bf158a338affdaaa2443c4c629162065/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-token-monitor",
+        "versions": [
+          {
+            "version": "1.0.12",
+            "publishTimestamp": 1792127163,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/licyer/dsh-token-monitor",
+              "commit": "f3936b16bf158a338affdaaa2443c4c629162065"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-token-monitor",
+      "origin": "npm",
+      "name": "dsh-token-monitor",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-token-monitor",
+        "title": "dsh-token-monitor",
+        "description": "DSH Web 会话头部大模型余量监控插件：当前模型额度徽标 + 全部提供方详情弹层 + 用量统计页签",
+        "author": "licyer",
+        "homepage": "https://github.com/licyer/dsh-token-monitor#readme",
+        "repository": {
+          "url": "https://github.com/licyer/dsh-token-monitor"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "token-monitor",
+            "usage",
+            "quota",
+            "kimi",
+            "deepseek",
+            "llm",
+            "token-usage"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.12",
+            "publishTimestamp": 1792127618,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fd21394cd9371db552f174652a274c2cef17101f8d6a41be8c20801008ebfe57",
+      "evidence": [
+        {
+          "name": "dsh-token-monitor",
+          "version": "1.0.12",
+          "tarball": "https://registry.npmjs.org/dsh-token-monitor/-/dsh-token-monitor-1.0.12.tgz",
+          "integrity": "sha512-9FuZkVbOTE0x++PKnpwk02A1etsa9aJPr8PnWVEfRCVL5LkuSPfHzrjX1tuJ8D+ukc/jyyGYs59N7YlTODmHoA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-token-monitor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/licyer/dsh-token-monitor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/licyer/dsh-token-monitor",
+    "commit": "f3936b16bf158a338affdaaa2443c4c629162065",
+    "releaseTags": 13,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:09.761Z"
+}

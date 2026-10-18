@@ -1,0 +1,131 @@
+{
+  "full_name": "fang2hou/dsh-locale-ja",
+  "originalPosition": 23,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 23,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:38.526Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "acc937cb0efddbce47bc2b06bb31b9fa44e286709c5adccfc8f88d909703dc73",
+      "url": "https://github.com/fang2hou/dsh-locale-ja/blob/8729021616a16abf054f2ef37a9ad18dc16faaa3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@fang2hou/dsh-locale-ja",
+          "command": "dsh plugin --profile web add @fang2hou/dsh-locale-ja",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@fang2hou/dsh-locale-ja",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fang2hou/dsh-locale-ja",
+        "commit": "8729021616a16abf054f2ef37a9ad18dc16faaa3"
+      },
+      "manifestSha256": "5f66f8e7365fcfb7ff13e0b81e3ad5ba72ee8473f493f6fb6296f959843135d7",
+      "manifestUrl": "https://github.com/fang2hou/dsh-locale-ja/blob/8729021616a16abf054f2ef37a9ad18dc16faaa3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@fang2hou/dsh-locale-ja",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1792255900,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fang2hou/dsh-locale-ja",
+              "commit": "8729021616a16abf054f2ef37a9ad18dc16faaa3"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@fang2hou/dsh-locale-ja",
+      "origin": "npm",
+      "name": "@fang2hou/dsh-locale-ja",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@fang2hou/dsh-locale-ja",
+        "title": "@fang2hou/dsh-locale-ja",
+        "description": "Japanese (日本語) interface for DeepSeek Harness — a standard DSH client plugin that adds 日本語 as a selectable UI language alongside 中文 and English, with Japanese system fonts.",
+        "homepage": "https://github.com/fang2hou/dsh-locale-ja#readme",
+        "repository": {
+          "url": "https://github.com/fang2hou/dsh-locale-ja"
+        },
+        "metadata": {
+          "keywords": [
+            "cordis",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "i18n",
+            "japanese",
+            "locale"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1792256271,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1bab476a18cc25e87f5ae360d6e2031a636ac34e68e3d91192738e3d36b33f75",
+      "evidence": [
+        {
+          "name": "@fang2hou/dsh-locale-ja",
+          "version": "0.7.0",
+          "tarball": "https://registry.npmjs.org/@fang2hou/dsh-locale-ja/-/dsh-locale-ja-0.7.0.tgz",
+          "integrity": "sha512-yZt2WFsK9xNVrh4+HeIThmQOaQx+OkXKMB9pD3LznFb9aDrSZe+YRmswJaX3Jf34TTd6W/q4OBmRNbqux9maQA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@fang2hou/dsh-locale-ja",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fang2hou/dsh-locale-ja",
+    "commit": "8729021616a16abf054f2ef37a9ad18dc16faaa3",
+    "releaseTags": 13,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:44.106Z"
+}

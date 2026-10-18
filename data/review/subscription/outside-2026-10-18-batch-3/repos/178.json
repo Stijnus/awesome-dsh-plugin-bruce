@@ -1,0 +1,492 @@
+{
+  "full_name": "wsxwj123/dsh-plugins",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:56.982Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "426433e7faee412f5fc2e62aa4eb5699aa16a42da9c24ff5a5e4cf357d99e8bb",
+      "url": "https://github.com/wsxwj123/dsh-plugins/blob/c92ff6b61461de988cbf152bd2c6273ceb7406cc/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-appearance-gallery",
+          "command": "dsh plugin --profile web add dsh-appearance-gallery",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-turn-scrubber",
+          "command": "dsh plugin --profile web add dsh-turn-scrubber",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-composer-tools",
+          "command": "dsh plugin --profile web add dsh-composer-tools",
+          "profile": "web"
+        },
+        {
+          "install": "@wsxwj123/dsh-session-manager",
+          "command": "dsh plugin --profile web add @wsxwj123/dsh-session-manager",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-pet-bridge",
+          "command": "dsh plugin --profile web add dsh-pet-bridge",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e0cd2fdcac2ddc27fc3725b9d4189bf02c03cc02e32b2cdcaf0639194cb5a860",
+      "url": "https://github.com/wsxwj123/dsh-plugins/blob/c92ff6b61461de988cbf152bd2c6273ceb7406cc/README.en.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-appearance-gallery",
+          "command": "dsh plugin --profile web add dsh-appearance-gallery",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-turn-scrubber",
+          "command": "dsh plugin --profile web add dsh-turn-scrubber",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-composer-tools",
+          "command": "dsh plugin --profile web add dsh-composer-tools",
+          "profile": "web"
+        },
+        {
+          "install": "@wsxwj123/dsh-session-manager",
+          "command": "dsh plugin --profile web add @wsxwj123/dsh-session-manager",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-pet-bridge",
+          "command": "dsh plugin --profile web add dsh-pet-bridge",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-appearance-gallery",
+      "version": "1.0.2",
+      "path": "packages/dsh-appearance-gallery",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wsxwj123/dsh-plugins",
+        "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+        "path": "packages/dsh-appearance-gallery"
+      },
+      "manifestSha256": "89cb782e6749fb98af6594ab66321684a33f14cb7a6f47ab499b19b79c61f325",
+      "manifestUrl": "https://github.com/wsxwj123/dsh-plugins/blob/c92ff6b61461de988cbf152bd2c6273ceb7406cc/packages/dsh-appearance-gallery/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-appearance-gallery",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "publishTimestamp": 1790847059,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wsxwj123/dsh-plugins",
+              "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+              "path": "packages/dsh-appearance-gallery"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-composer-tools",
+      "version": "0.1.1",
+      "path": "packages/dsh-composer-tools",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wsxwj123/dsh-plugins",
+        "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+        "path": "packages/dsh-composer-tools"
+      },
+      "manifestSha256": "f41510689e663fdaf0bbfbb372d783833d996125077f6be640a75d260a422cec",
+      "manifestUrl": "https://github.com/wsxwj123/dsh-plugins/blob/c92ff6b61461de988cbf152bd2c6273ceb7406cc/packages/dsh-composer-tools/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-composer-tools",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1790847059,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wsxwj123/dsh-plugins",
+              "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+              "path": "packages/dsh-composer-tools"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pet-bridge",
+      "version": "0.1.0",
+      "path": "packages/dsh-pet-bridge",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wsxwj123/dsh-plugins",
+        "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+        "path": "packages/dsh-pet-bridge"
+      },
+      "manifestSha256": "f3e9a565c1b7a6f7a78cd8ede276258f2a36a49e0d7e837b1a5fd12a590bf674",
+      "manifestUrl": "https://github.com/wsxwj123/dsh-plugins/blob/c92ff6b61461de988cbf152bd2c6273ceb7406cc/packages/dsh-pet-bridge/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pet-bridge",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790847059,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wsxwj123/dsh-plugins",
+              "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+              "path": "packages/dsh-pet-bridge"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@wsxwj123/dsh-session-manager",
+      "version": "0.1.2",
+      "path": "packages/dsh-session-manager",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wsxwj123/dsh-plugins",
+        "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+        "path": "packages/dsh-session-manager"
+      },
+      "manifestSha256": "232c3759c91778a8b0ae359ef035c9438d9aa24a8863a92ef272f304d91b7b83",
+      "manifestUrl": "https://github.com/wsxwj123/dsh-plugins/blob/c92ff6b61461de988cbf152bd2c6273ceb7406cc/packages/dsh-session-manager/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@wsxwj123/dsh-session-manager",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790847059,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wsxwj123/dsh-plugins",
+              "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+              "path": "packages/dsh-session-manager"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-turn-scrubber",
+      "version": "0.2.0",
+      "path": "packages/dsh-turn-scrubber",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wsxwj123/dsh-plugins",
+        "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+        "path": "packages/dsh-turn-scrubber"
+      },
+      "manifestSha256": "8334e8cda647c7260af91737af4fb075e2febbb033f3b9eef9e10f3e44ab63b0",
+      "manifestUrl": "https://github.com/wsxwj123/dsh-plugins/blob/c92ff6b61461de988cbf152bd2c6273ceb7406cc/packages/dsh-turn-scrubber/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-turn-scrubber",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790847059,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wsxwj123/dsh-plugins",
+              "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+              "path": "packages/dsh-turn-scrubber"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-appearance-gallery",
+      "origin": "npm",
+      "name": "dsh-appearance-gallery",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-appearance-gallery",
+        "title": "dsh-appearance-gallery",
+        "description": "One DSH appearance plugin: 15 curated theme families + 9 complete skins + controlled custom import, behind a single settings entry.",
+        "homepage": "https://github.com/wsxwj123/dsh-plugins/tree/main/packages/dsh-appearance-gallery#readme",
+        "repository": {
+          "url": "https://github.com/wsxwj123/dsh-plugins",
+          "directory": "packages/dsh-appearance-gallery"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "cordis",
+            "theme",
+            "skin",
+            "appearance",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.2",
+            "publishTimestamp": 1790846414,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "027fd6dbbbd388893413403ada3479fd7b2d7454e1f74b9a8e74a4aee61ea23b",
+      "evidence": [
+        {
+          "name": "dsh-appearance-gallery",
+          "version": "1.0.2",
+          "tarball": "https://registry.npmjs.org/dsh-appearance-gallery/-/dsh-appearance-gallery-1.0.2.tgz",
+          "integrity": "sha512-En16cFxSz4CxmBuHjQElOnTC9Ubt6K8U8Tl4HAHesJES4FIlS1tYa/OVn/gdGWRm2KqAVMTvs1mu3Zn1mZjbyA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-turn-scrubber",
+      "origin": "npm",
+      "name": "dsh-turn-scrubber",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-turn-scrubber",
+        "title": "dsh-turn-scrubber",
+        "description": "DSH web client plugin: waveform turn rail on the right edge of the conversation — hover ripples like a wave, click jumps to that turn (ported from claude-gui's TurnScrubber, re-styled as linear waveform bars)",
+        "homepage": "https://github.com/wsxwj123/dsh-plugins/tree/main/packages/dsh-turn-scrubber#readme",
+        "repository": {
+          "url": "https://github.com/wsxwj123/dsh-plugins",
+          "directory": "packages/dsh-turn-scrubber"
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787306580,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ff57ee48bda8713ffddb02378c32af43099b790cacbbfa9630f5c2c18930b48d",
+      "evidence": [
+        {
+          "name": "dsh-turn-scrubber",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-turn-scrubber/-/dsh-turn-scrubber-0.2.0.tgz",
+          "integrity": "sha512-qGsKVWvNo+uT2/kD2rYrivgwJDRGvYgPoHtqBdJSDAcGVyN52upAzMmjronilptrsfqZZo9bJA10tb0cXObKLQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-composer-tools",
+      "origin": "npm",
+      "name": "dsh-composer-tools",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-composer-tools",
+        "title": "dsh-composer-tools",
+        "description": "DSH web plugin: arrow-key input history (session-scoped, draft-preserving) + instructions viewer/editor (global & project AGENTS.md/CLAUDE.md) + prompt library (Cherry Studio agents-zh, AGPL-3.0, append-to-input).",
+        "homepage": "https://github.com/wsxwj123/dsh-plugins/tree/main/packages/dsh-composer-tools#readme",
+        "repository": {
+          "url": "https://github.com/wsxwj123/dsh-plugins",
+          "directory": "packages/dsh-composer-tools"
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1790846277,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c6e31c0ce6eb2697ebdbd5fa0d862ac1ffa183170aeaf6ff725fee641f26e3ce",
+      "evidence": [
+        {
+          "name": "dsh-composer-tools",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-composer-tools/-/dsh-composer-tools-0.1.1.tgz",
+          "integrity": "sha512-fD8Ee7h+KKcLZE0XkRJl7onp0m+uEyWIdf/HDYsg0Kln4GHDa1kng4Qs1odTJ3HKKeEmqORjiC2qGCADxf1tUw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@wsxwj123/dsh-session-manager",
+      "origin": "npm",
+      "name": "@wsxwj123/dsh-session-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@wsxwj123/dsh-session-manager",
+        "title": "@wsxwj123/dsh-session-manager",
+        "description": "DSH web plugin: recycle-bin session deletion (5s undo) + archived-session view / unarchive. Host (node) half owns the /sm/* RPC surface and the workspace storage-domain archive write.",
+        "homepage": "https://github.com/wsxwj123/dsh-plugins/tree/main/packages/dsh-session-manager#readme",
+        "repository": {
+          "url": "https://github.com/wsxwj123/dsh-plugins",
+          "directory": "packages/dsh-session-manager"
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790846390,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7a540a052bd381465136136c931bffd1d25562ee22f0d5480f71aa279c1da904",
+      "evidence": [
+        {
+          "name": "@wsxwj123/dsh-session-manager",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@wsxwj123/dsh-session-manager/-/dsh-session-manager-0.1.2.tgz",
+          "integrity": "sha512-wD3NO+pBz7IfBpder1slSKTwNHY5dzenlJM5ZG5sCa+FqrTUNwC/N5hQIPNUEEMSiG4GnNQAxjqvFj7f3yqixA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-pet-bridge",
+      "origin": "npm",
+      "name": "dsh-pet-bridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-pet-bridge",
+        "title": "dsh-pet-bridge",
+        "description": "DSH server plugin: push dsh session status to the cc-pet desktop pet bubble in real time.",
+        "homepage": "https://github.com/wsxwj123/dsh-plugins/tree/main/packages/dsh-pet-bridge#readme",
+        "repository": {
+          "url": "https://github.com/wsxwj123/dsh-plugins",
+          "directory": "packages/dsh-pet-bridge"
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787306611,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c92b7f65be71cd0ded3861836fff586aa28def192759ab9aac208d5617aad9f0",
+      "evidence": [
+        {
+          "name": "dsh-pet-bridge",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-pet-bridge/-/dsh-pet-bridge-0.1.0.tgz",
+          "integrity": "sha512-EqTFKGWN7sQ+HENOIuV64cw9b0QL5xks3022cDA5esQDDjw83UMSOcXWMeP/31A58lQzk8px80k61WPlYuJjQw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-appearance-gallery",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-turn-scrubber",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-composer-tools",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@wsxwj123/dsh-session-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-pet-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wsxwj123/dsh-plugins",
+    "commit": "c92ff6b61461de988cbf152bd2c6273ceb7406cc",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T02:00:07.761Z"
+}

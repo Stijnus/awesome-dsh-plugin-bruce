@@ -1,0 +1,75 @@
+{
+  "full_name": "agi-fans/oh-my-dsh",
+  "originalPosition": 62,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 62,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:01.813Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ae093f23390163693c3340cd304edf0a858126b60b71933916b21a0b796717d8",
+      "url": "https://github.com/agi-fans/oh-my-dsh/blob/191ed802737d8eafdbed7e542f825295a5b13267/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "056f5b298c9d14f8bfe4fa968dcdf36d37e6438c8fdb23136715aa7500d9e692",
+      "url": "https://github.com/agi-fans/oh-my-dsh/blob/191ed802737d8eafdbed7e542f825295a5b13267/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@agi-fans/oh-my-dsh",
+      "version": "0.20.0",
+      "path": "apps/omdsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/agi-fans/oh-my-dsh",
+        "commit": "191ed802737d8eafdbed7e542f825295a5b13267",
+        "path": "apps/omdsh"
+      },
+      "manifestSha256": "14d6084ae68688751951daf74a968f2efa745de81a6eceed077642b7e264b815",
+      "manifestUrl": "https://github.com/agi-fans/oh-my-dsh/blob/191ed802737d8eafdbed7e542f825295a5b13267/apps/omdsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@agi-fans/oh-my-dsh",
+        "versions": [
+          {
+            "version": "0.20.0",
+            "publishTimestamp": 1791980931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/agi-fans/oh-my-dsh",
+              "commit": "191ed802737d8eafdbed7e542f825295a5b13267",
+              "path": "apps/omdsh"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/agi-fans/oh-my-dsh",
+    "commit": "191ed802737d8eafdbed7e542f825295a5b13267",
+    "releaseTags": 23,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:09.075Z"
+}

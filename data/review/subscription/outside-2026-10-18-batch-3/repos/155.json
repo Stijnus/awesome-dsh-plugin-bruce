@@ -1,0 +1,122 @@
+{
+  "full_name": "liang-today/dsh-liangxiang",
+  "originalPosition": 155,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 155,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:32.838Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "becb8de4c4aaf509992a21e966b3a669e00b9cda352481ef5fbb00b79d8f8ffb",
+      "url": "https://github.com/liang-today/dsh-liangxiang/blob/9e45c72512ed4a648096d366405bceb835ba2e38/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-liangxiang",
+          "command": "npx --yes @deepseek-ai/dsh plugin --profile web add dsh-liangxiang",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-liangxiang",
+      "version": "1.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liang-today/dsh-liangxiang",
+        "commit": "9e45c72512ed4a648096d366405bceb835ba2e38"
+      },
+      "manifestSha256": "800b869c0eb622c43b4ffbabfca4168720c904f503da4f7c72589641b00dbb4c",
+      "manifestUrl": "https://github.com/liang-today/dsh-liangxiang/blob/9e45c72512ed4a648096d366405bceb835ba2e38/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-liangxiang",
+        "versions": [
+          {
+            "version": "1.1.6",
+            "publishTimestamp": 1791838325,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liang-today/dsh-liangxiang",
+              "commit": "9e45c72512ed4a648096d366405bceb835ba2e38"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-liangxiang",
+      "origin": "npm",
+      "name": "dsh-liangxiang",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-liangxiang",
+        "title": "dsh-liangxiang",
+        "description": "用 DeepSeek Harness 凝聚香火，投下一炷夯或拉；众香汇成梁位，共同显出今日梁相。",
+        "homepage": "https://liang.today/",
+        "repository": {
+          "url": "https://github.com/liang-today/dsh-liangxiang"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "plugin",
+            "liangxiang"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.6",
+            "publishTimestamp": 1788392525,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "79d5ca0feb19fd32ae50afd725787ebf1c4c76df3b9dcd296c21eeea073207f6",
+      "evidence": [
+        {
+          "name": "dsh-liangxiang",
+          "version": "1.1.6",
+          "tarball": "https://registry.npmjs.org/dsh-liangxiang/-/dsh-liangxiang-1.1.6.tgz",
+          "integrity": "sha512-57nXinnYL0bEjRF2OSfPP6QDxIVph1vaTOC2JVyaUzE+4A1vI+r9GUDqNzZJY7vlOzoCNmWNr6gPhuzMKvFujw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-liangxiang",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liang-today/dsh-liangxiang",
+    "commit": "9e45c72512ed4a648096d366405bceb835ba2e38",
+    "releaseTags": 8,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:41.209Z"
+}

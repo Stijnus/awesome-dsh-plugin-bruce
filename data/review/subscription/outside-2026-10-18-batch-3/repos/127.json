@@ -1,0 +1,145 @@
+{
+  "full_name": "Victor-770/dsh-commandcode-provider",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:53.114Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cba778b08c159b0ef8250a57059fc96cafa37657922d6e3ab4a6f0dd7257f0f0",
+      "url": "https://github.com/Victor-770/dsh-commandcode-provider/blob/23ccbedb100abf8bafae8abc01ffa3ae03787bf8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-commandcode-provider@0.2.0",
+          "command": "dsh plugin --profile web add dsh-commandcode-provider@0.2.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "cdc91c92239bfa7ffeda5c99cee692549b774c161a337a481d122c49ef096625",
+      "url": "https://github.com/Victor-770/dsh-commandcode-provider/blob/23ccbedb100abf8bafae8abc01ffa3ae03787bf8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-commandcode-provider@0.2.0",
+          "command": "dsh plugin --profile web add dsh-commandcode-provider@0.2.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-commandcode-provider",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Victor-770/dsh-commandcode-provider",
+        "commit": "23ccbedb100abf8bafae8abc01ffa3ae03787bf8"
+      },
+      "manifestSha256": "c756d597965778ffb268b3067f385e71e6ed3f1f6f136cb4ae66438768b1ea4d",
+      "manifestUrl": "https://github.com/Victor-770/dsh-commandcode-provider/blob/23ccbedb100abf8bafae8abc01ffa3ae03787bf8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-commandcode-provider",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791286257,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Victor-770/dsh-commandcode-provider",
+              "commit": "23ccbedb100abf8bafae8abc01ffa3ae03787bf8"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-commandcode-provider@0.2.0",
+      "origin": "npm",
+      "name": "dsh-commandcode-provider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-commandcode-provider",
+        "title": "dsh-commandcode-provider",
+        "description": "Command Code provider plugin for DeepSeek Harness (dsh) — works with every Command Code plan including the $1 Go plan; uses the Studio authentication API key over /alpha/generate, not the Provider API",
+        "repository": {
+          "url": "https://github.com/Kristin130/dsh-commandcode-provider"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "commandcode",
+            "provider",
+            "llm",
+            "dsh-plugin",
+            "deepseek-harness-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791301474,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3e654bdb77e7be1f208b27efbd0ba2c46505e6b79cfb6bbb2b17cdcb5692b6f2",
+      "evidence": [
+        {
+          "name": "dsh-commandcode-provider",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-commandcode-provider/-/dsh-commandcode-provider-0.2.0.tgz",
+          "integrity": "sha512-R7RtnEi/XbzuNGeD98Qpd58m8XhpPv72YiZkEOk0NOtJJGge2X9PXgN0bZ6sYC9OY3v+8oi9iuIvSoA5tc036w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-commandcode-provider@0.2.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Victor-770/dsh-commandcode-provider",
+    "commit": "23ccbedb100abf8bafae8abc01ffa3ae03787bf8",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:58.343Z"
+}

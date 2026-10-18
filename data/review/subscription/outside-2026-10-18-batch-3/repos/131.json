@@ -1,0 +1,350 @@
+{
+  "full_name": "a903067276-rgb/dsh-hud",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:58.344Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e66b0c125527430c22ab5a94c506857cdd9ddaf9fd1889f2534742de3797085c",
+      "url": "https://github.com/a903067276-rgb/dsh-hud/blob/ddc64f5cb7fb3631f473775506a2bd9512fba0cd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-hud#main",
+          "command": "dsh plugin --profile web add \"github:a903067276-rgb/dsh-hud#main\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-hud#v1.4.1",
+          "command": "dsh plugin --profile web add \"github:a903067276-rgb/dsh-hud#v1.4.1\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-hud#v1.2.11",
+          "command": "dsh plugin add github:a903067276-rgb/dsh-hud#v1.2.11",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-hud#rc6-compat",
+          "command": "dsh plugin add github:a903067276-rgb/dsh-hud#rc6-compat",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "d2c88255fb52fb8dae9765159430a2507fe1ae879cc0c3d0d0c097c752578c3b",
+      "url": "https://github.com/a903067276-rgb/dsh-hud/blob/ddc64f5cb7fb3631f473775506a2bd9512fba0cd/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-hud#main",
+          "command": "dsh plugin --profile web add \"github:a903067276-rgb/dsh-hud#main\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-hud#v1.4.1",
+          "command": "dsh plugin --profile web add \"github:a903067276-rgb/dsh-hud#v1.4.1\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-hud#v1.2.11",
+          "command": "dsh plugin add github:a903067276-rgb/dsh-hud#v1.2.11",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-hud#rc6-compat",
+          "command": "dsh plugin add github:a903067276-rgb/dsh-hud#rc6-compat",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-hud",
+      "version": "1.9.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/a903067276-rgb/dsh-hud",
+        "commit": "ddc64f5cb7fb3631f473775506a2bd9512fba0cd"
+      },
+      "manifestSha256": "80ca26411b87a2b827443abb3c30618864568ce174a2bb021d88285282ca223a",
+      "manifestUrl": "https://github.com/a903067276-rgb/dsh-hud/blob/ddc64f5cb7fb3631f473775506a2bd9512fba0cd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-hud",
+        "versions": [
+          {
+            "version": "1.9.3",
+            "publishTimestamp": 1792232465,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-hud",
+              "commit": "ddc64f5cb7fb3631f473775506a2bd9512fba0cd"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/a903067276-rgb/dsh-hud#main",
+      "origin": "git_target",
+      "name": "dsh-hud",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hud",
+        "title": {
+          "en": "HUD",
+          "zh": "HUD 状态面板"
+        },
+        "description": {
+          "en": "Status panel for git status, MCP servers, skills, model and token usage.",
+          "zh": "状态面板：展示 Git 状态、MCP 服务器、技能列表、模型与 token 用量。"
+        },
+        "repository": {
+          "url": "https://github.com/a903067276-rgb/dsh-hud"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "hud",
+            "git",
+            "git-status",
+            "mcp",
+            "web-ui"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkhVRCI+CiAgPHJlY3QgeD0iMSIgeT0iMSIgd2lkdGg9IjIyIiBoZWlnaHQ9IjIyIiByeD0iNiIgZmlsbD0iIzA4OTFiMiIvPgogIDxwYXRoIGQ9Ik01LjIgMTYuNGE3LjQgNy40IDAgMSAxIDEzLjYgMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTEyIDE1LjIgMTYgOS42IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMi42IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjE1LjYiIHI9IjEuNyIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "1.9.3",
+            "publishTimestamp": 1792232465,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-hud",
+              "commit": "ddc64f5cb7fb3631f473775506a2bd9512fba0cd"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "ddc64f5cb7fb3631f473775506a2bd9512fba0cd",
+          "name": "dsh-hud",
+          "version": "1.9.3",
+          "url": "https://github.com/a903067276-rgb/dsh-hud",
+          "manifestSha256": "80ca26411b87a2b827443abb3c30618864568ce174a2bb021d88285282ca223a",
+          "publishTimestamp": 1792232465
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/a903067276-rgb/dsh-hud#v1.4.1",
+      "origin": "git_target",
+      "name": "dsh-hud",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hud",
+        "title": "dsh-hud",
+        "description": "A HUD status panel for DSH web: git status, MCP servers, skills, model and token usage in a floating side panel",
+        "repository": {
+          "url": "https://github.com/a903067276-rgb/dsh-hud"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "hud",
+            "git",
+            "git-status",
+            "mcp",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1789604215,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-hud",
+              "commit": "4857bc1dd302343c8d46b0a1ac4c62d0a31d3b2c"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "4857bc1dd302343c8d46b0a1ac4c62d0a31d3b2c",
+          "name": "dsh-hud",
+          "version": "1.4.0",
+          "url": "https://github.com/a903067276-rgb/dsh-hud",
+          "manifestSha256": "f13c66cf6133a9d0a5215c0a0919ace391689f5121d474a9ed484d26c63d029c",
+          "publishTimestamp": 1789604215
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/a903067276-rgb/dsh-hud#v1.2.11",
+      "origin": "git_target",
+      "name": "dsh-hud",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hud",
+        "title": "dsh-hud",
+        "description": "A HUD status panel for DSH web: git status, MCP servers, skills, model and token usage in a floating side panel",
+        "repository": {
+          "url": "https://github.com/a903067276-rgb/dsh-hud"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "hud",
+            "git",
+            "git-status",
+            "mcp",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.2.11",
+            "publishTimestamp": 1787288310,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-hud",
+              "commit": "eb82bc888ea614c6641761602cc3098b790132a4"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "eb82bc888ea614c6641761602cc3098b790132a4",
+          "name": "dsh-hud",
+          "version": "1.2.11",
+          "url": "https://github.com/a903067276-rgb/dsh-hud",
+          "manifestSha256": "723bdd897b37cafb965382798b58db0d9aeb01e7339128406e34f98c3fd6d9fb",
+          "publishTimestamp": 1787288310
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/a903067276-rgb/dsh-hud#rc6-compat",
+      "origin": "git_target",
+      "name": "dsh-hud",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hud",
+        "title": "dsh-hud",
+        "description": "A HUD status panel for DSH web: git status, MCP servers, skills, model and token usage in a floating side panel",
+        "repository": {
+          "url": "https://github.com/a903067276-rgb/dsh-hud"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "hud",
+            "git",
+            "git-status",
+            "mcp",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.2.11",
+            "publishTimestamp": 1787288999,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-hud",
+              "commit": "50880bd2e05323b5937f5e8abe3d6477b11e283c"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "50880bd2e05323b5937f5e8abe3d6477b11e283c",
+          "name": "dsh-hud",
+          "version": "1.2.11",
+          "url": "https://github.com/a903067276-rgb/dsh-hud",
+          "manifestSha256": "723bdd897b37cafb965382798b58db0d9aeb01e7339128406e34f98c3fd6d9fb",
+          "publishTimestamp": 1787288999
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a903067276-rgb/dsh-hud#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a903067276-rgb/dsh-hud#v1.4.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a903067276-rgb/dsh-hud#v1.2.11",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a903067276-rgb/dsh-hud#rc6-compat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/a903067276-rgb/dsh-hud",
+    "commit": "ddc64f5cb7fb3631f473775506a2bd9512fba0cd",
+    "releaseTags": 34,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:23.740Z"
+}

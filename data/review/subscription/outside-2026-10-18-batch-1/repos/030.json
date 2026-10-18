@@ -1,0 +1,65 @@
+{
+  "full_name": "lhh010/dsh-ui-whale",
+  "originalPosition": 30,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 30,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:21.715Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "210c1321623ed2bcee666c64780c9e04968ebdb8d54d4d8445a86c87d00730f7",
+      "url": "https://github.com/lhh010/dsh-ui-whale/blob/329be15dfbf7cb36e80760b38d7aa91ccbf20989/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-ui-whale",
+      "version": "0.3.31",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lhh010/dsh-ui-whale",
+        "commit": "329be15dfbf7cb36e80760b38d7aa91ccbf20989"
+      },
+      "manifestSha256": "bad8506c48a4217cd5dee29859109c28b32cc09c4122fc27aad287970058500a",
+      "manifestUrl": "https://github.com/lhh010/dsh-ui-whale/blob/329be15dfbf7cb36e80760b38d7aa91ccbf20989/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-external/dsh-ui-whale",
+        "versions": [
+          {
+            "version": "0.3.31",
+            "publishTimestamp": 1792221805,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lhh010/dsh-ui-whale",
+              "commit": "329be15dfbf7cb36e80760b38d7aa91ccbf20989"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lhh010/dsh-ui-whale",
+    "commit": "329be15dfbf7cb36e80760b38d7aa91ccbf20989",
+    "releaseTags": 31,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:27.251Z"
+}

@@ -1,0 +1,115 @@
+{
+  "full_name": "10086ggqq/dsh_theme_terraria",
+  "originalPosition": 71,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 71,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:15.759Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4db6abe61eacd96749882c28a7766badccd9c1a98a76a741abedba7a40c24925",
+      "url": "https://github.com/10086ggqq/dsh_theme_terraria/blob/5b619d789e1f24c0e1aa26307556a193a90bd2d7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/10086ggqq/dsh_theme_terraria",
+          "command": "dsh plugin --profile web add github:10086ggqq/dsh_theme_terraria",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-theme-terraria",
+          "command": "dsh plugin --profile web add dsh-theme-terraria",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "527bcff817b954a700c0cd719c4f249f00522314635924f01261cae80de2efab",
+      "url": "https://github.com/10086ggqq/dsh_theme_terraria/blob/5b619d789e1f24c0e1aa26307556a193a90bd2d7/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/10086ggqq/dsh_theme_terraria",
+          "command": "dsh plugin --profile web add github:10086ggqq/dsh_theme_terraria",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-theme-terraria",
+          "command": "dsh plugin package: this repository is itself an npm package — the entry index.js exports the apply(ctx) required by the plugin spec, cordis.patch.yml declares the dsh.bundle patch layer, and a single dsh plugin --profile web add dsh-theme-terraria",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-terraria",
+      "version": "0.2.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/10086ggqq/dsh_theme_terraria",
+        "commit": "5b619d789e1f24c0e1aa26307556a193a90bd2d7"
+      },
+      "manifestSha256": "03bff776a3dba7fa0ac20bddab552264aa6dace0295e58afb6bb0555df2958a7",
+      "manifestUrl": "https://github.com/10086ggqq/dsh_theme_terraria/blob/5b619d789e1f24c0e1aa26307556a193a90bd2d7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-theme-terraria",
+        "versions": [
+          {
+            "version": "0.2.7",
+            "publishTimestamp": 1791365882,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/10086ggqq/dsh_theme_terraria",
+              "commit": "5b619d789e1f24c0e1aa26307556a193a90bd2d7"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-theme-terraria",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/10086ggqq/dsh_theme_terraria",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-theme-terraria",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/10086ggqq/dsh_theme_terraria",
+    "commit": "5b619d789e1f24c0e1aa26307556a193a90bd2d7",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:23.923Z"
+}

@@ -1,0 +1,202 @@
+{
+  "full_name": "patrykorwat/open-dream-rsi",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:11.831Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b7cd8ff46a615cd04317b0290f607530c3d875b4e00d8264dbe7f82a7f3275bc",
+      "url": "https://github.com/patrykorwat/open-dream-rsi/blob/0cc58b071a261007c558cb8b8f54513a4cfaf0da/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-open-dream-rsi",
+          "command": "dsh plugin --profile web add dsh-open-dream-rsi",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/deepseek_harness/README.md",
+      "sha256": "70a8385906a3f8f8de13028d83d6677b737e4624ba128b8ecd7cbb5afb118afd",
+      "url": "https://github.com/patrykorwat/open-dream-rsi/blob/0cc58b071a261007c558cb8b8f54513a4cfaf0da/plugins/deepseek_harness/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/patrykorwat/open-dream-rsi#path:plugins/deepseek_harness",
+          "command": "dsh plugin --profile <name> add github:patrykorwat/open-dream-rsi#path:plugins/deepseek_harness",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-open-dream-rsi",
+          "command": "dsh plugin --profile <name> add dsh-open-dream-rsi",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-open-dream-rsi",
+      "version": "0.3.7",
+      "path": "plugins/deepseek_harness",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/patrykorwat/open-dream-rsi",
+        "commit": "0cc58b071a261007c558cb8b8f54513a4cfaf0da",
+        "path": "plugins/deepseek_harness"
+      },
+      "manifestSha256": "5b27177d2362163a35dfca493aba4fe110c4e696571db81209625634bcda1204",
+      "manifestUrl": "https://github.com/patrykorwat/open-dream-rsi/blob/0cc58b071a261007c558cb8b8f54513a4cfaf0da/plugins/deepseek_harness/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-open-dream-rsi",
+        "versions": [
+          {
+            "version": "0.3.7",
+            "publishTimestamp": 1792240628,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/patrykorwat/open-dream-rsi",
+              "commit": "0cc58b071a261007c558cb8b8f54513a4cfaf0da",
+              "path": "plugins/deepseek_harness"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-open-dream-rsi",
+      "origin": "npm",
+      "name": "dsh-open-dream-rsi",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-open-dream-rsi",
+        "title": "dsh-open-dream-rsi",
+        "description": "Let your coding agent dream: strategies must survive counterfactual replay before they earn trust. An offline self-improvement loop over an evolving world model — no fine-tuning, the LLM stays frozen. Speaks MCP. Ships its Python server inside the package — the only requirement is a system python3 (3.10+) on PATH — and the plugin's bridge serves the dreamer's LLM calls from the model your harness is already configured with (no API keys, no env, no extra endpoints).",
+        "author": "patrykorwat",
+        "repository": {
+          "url": "https://github.com/patrykorwat/open-dream-rsi",
+          "directory": "plugins/deepseek_harness"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "mcp",
+            "mcp-server",
+            "open-dream-rsi",
+            "self-improvement",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1791876719,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "54c0e1f7fd694cbf4ffdbcfadc4e795f01bc2cee550ce3ac63d920b5172ea5b3",
+      "evidence": [
+        {
+          "name": "dsh-open-dream-rsi",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/dsh-open-dream-rsi/-/dsh-open-dream-rsi-0.3.1.tgz",
+          "integrity": "sha512-79oIBItNJ3/ZDV2JBvix0JmxGfuHvYELXl3pZDGEPvCCawFo5Xx2Q9tQTy0t98US0JERosYdIYPU0mCp7u8oRA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/patrykorwat/open-dream-rsi#path:plugins/deepseek_harness",
+      "origin": "git_target",
+      "name": "dsh-open-dream-rsi",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-open-dream-rsi",
+        "title": "dsh-open-dream-rsi",
+        "description": "Let your coding agent dream: strategies must survive counterfactual replay before they earn trust. An offline self-improvement loop over an evolving world model — no fine-tuning, the LLM stays frozen. Speaks MCP. Ships its Python server inside the package — the only requirement is a system python3 (3.10+) on PATH — and the plugin's bridge serves the dreamer's LLM calls from the model your harness is already configured with (no API keys, no env, no extra endpoints).",
+        "author": "patrykorwat",
+        "repository": {
+          "url": "https://github.com/patrykorwat/open-dream-rsi",
+          "directory": "plugins/deepseek_harness"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "mcp",
+            "mcp-server",
+            "open-dream-rsi",
+            "self-improvement",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.7",
+            "publishTimestamp": 1792240628,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/patrykorwat/open-dream-rsi",
+              "commit": "0cc58b071a261007c558cb8b8f54513a4cfaf0da",
+              "path": "plugins/deepseek_harness"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "plugins/deepseek_harness",
+          "commit": "0cc58b071a261007c558cb8b8f54513a4cfaf0da",
+          "name": "dsh-open-dream-rsi",
+          "version": "0.3.7",
+          "url": "https://github.com/patrykorwat/open-dream-rsi",
+          "manifestSha256": "5b27177d2362163a35dfca493aba4fe110c4e696571db81209625634bcda1204",
+          "publishTimestamp": 1792240628
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-open-dream-rsi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/patrykorwat/open-dream-rsi#path:plugins/deepseek_harness",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/patrykorwat/open-dream-rsi",
+    "commit": "0cc58b071a261007c558cb8b8f54513a4cfaf0da",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:23.930Z"
+}

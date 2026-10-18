@@ -1,0 +1,143 @@
+{
+  "full_name": "ai-tools-mtl/Aurify",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:58.572Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "549fa54fa958f1786488393ca302882c51b8e90ba3427decf45b0c9931e3f3bb",
+      "url": "https://github.com/ai-tools-mtl/Aurify/blob/429a0a69768131cbf12b1db19928fcd9cdc0b085/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mtl-academic/dsh-patent",
+          "command": "dsh plugin --profile patent-demo add @mtl-academic/dsh-patent",
+          "profile": "patent-demo"
+        },
+        {
+          "install": "@mtl-academic/dsh-patent",
+          "command": "dsh plugin add @mtl-academic/dsh-patent",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "dist/README.md",
+      "sha256": "049c45e26d1947218bcc9cc1266c596c79d8d826fdbcdd984592b1a85c26f9c2",
+      "url": "https://github.com/ai-tools-mtl/Aurify/blob/429a0a69768131cbf12b1db19928fcd9cdc0b085/dist/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mtl-academic/dsh-patent",
+          "command": "dsh plugin add @mtl-academic/dsh-patent",
+          "profile": "default"
+        },
+        {
+          "install": "@mtl-academic/dsh-patent",
+          "command": "dsh plugin --profile patent-demo add @mtl-academic/dsh-patent",
+          "profile": "patent-demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mtl-academic/dsh-patent",
+      "version": "0.1.6-alpha.7",
+      "path": "packages/bundle-patent",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ai-tools-mtl/Aurify",
+        "commit": "429a0a69768131cbf12b1db19928fcd9cdc0b085",
+        "path": "packages/bundle-patent"
+      },
+      "manifestSha256": "86ce76f7dc9e81a6d852e65b5ccbbf6a5991be34eec681c76c123b6921ecfab7",
+      "manifestUrl": "https://github.com/ai-tools-mtl/Aurify/blob/429a0a69768131cbf12b1db19928fcd9cdc0b085/packages/bundle-patent/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@mtl-academic/dsh-patent",
+        "versions": [
+          {
+            "version": "0.1.6-alpha.7",
+            "publishTimestamp": 1791187666,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ai-tools-mtl/Aurify",
+              "commit": "429a0a69768131cbf12b1db19928fcd9cdc0b085",
+              "path": "packages/bundle-patent"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@mtl-academic/dsh-patent",
+      "origin": "npm",
+      "name": "@mtl-academic/dsh-patent",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@mtl-academic/dsh-patent",
+        "title": "@mtl-academic/dsh-patent",
+        "description": "The dsh patent-writing bundle: a disclosure-drafting capability layer over dsh-base with its tools, review command, and shipped skills",
+        "repository": {
+          "url": "https://github.com/ai-tools-mtl/Aurify",
+          "directory": "packages/bundle-patent"
+        },
+        "versions": [
+          {
+            "version": "0.1.6-alpha.7",
+            "publishTimestamp": 1791189622,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6be39d6416ae1058114bf2e27010151173226ab7e8657087a57fb53458f5475e",
+      "evidence": [
+        {
+          "name": "@mtl-academic/dsh-patent",
+          "version": "0.1.6-alpha.7",
+          "tarball": "https://registry.npmjs.org/@mtl-academic/dsh-patent/-/dsh-patent-0.1.6-alpha.7.tgz",
+          "integrity": "sha512-SiD92+P8ZUjfzgRT/ovfaUngVaSDZTiqetXITh30Diw5wjv4NAiIEV/3WHdkwKO1wR6roEexr8scTpu/E2RjkQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mtl-academic/dsh-patent",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ai-tools-mtl/Aurify",
+    "commit": "429a0a69768131cbf12b1db19928fcd9cdc0b085",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:06.346Z"
+}

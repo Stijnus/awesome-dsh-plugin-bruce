@@ -1,0 +1,141 @@
+{
+  "full_name": "minivv/dsh-agent-skills",
+  "originalPosition": 53,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 53,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:24.190Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2e92098192c252348ff28a6d3c4b5c0909c056a10d890a8aab67e63dc583a2c5",
+      "url": "https://github.com/minivv/dsh-agent-skills/blob/590431c61db9bcd723087abc84e9cf88ea3035e1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-agent-skills",
+          "command": "dsh plugin --profile web add dsh-agent-skills",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/minivv/dsh-agent-skills",
+          "command": "dsh plugin --profile web add github:minivv/dsh-agent-skills",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agent-skills",
+      "version": "0.1.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/minivv/dsh-agent-skills",
+        "commit": "590431c61db9bcd723087abc84e9cf88ea3035e1"
+      },
+      "manifestSha256": "e2b4daf30a95cfd78ea098e95bcfc5ad772e9864d33932899ffaad94e14f1854",
+      "manifestUrl": "https://github.com/minivv/dsh-agent-skills/blob/590431c61db9bcd723087abc84e9cf88ea3035e1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.2.0 || ^0.1.1-rc.1 || ^0.1.2-alpha.2 || ^0.1.2-rc.1 || ^0.1.3-alpha.2 || ^0.1.5-alpha.1 || ^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-agent-skills",
+        "versions": [
+          {
+            "version": "0.1.14",
+            "publishTimestamp": 1791539570,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/minivv/dsh-agent-skills",
+              "commit": "590431c61db9bcd723087abc84e9cf88ea3035e1"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.2.0 || ^0.1.1-rc.1 || ^0.1.2-alpha.2 || ^0.1.2-rc.1 || ^0.1.3-alpha.2 || ^0.1.5-alpha.1 || ^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-agent-skills",
+      "origin": "npm",
+      "name": "dsh-agent-skills",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-agent-skills",
+        "title": "dsh-agent-skills",
+        "description": "Discover and manage Claude Code, Codex, Gemini CLI, and other Agent Skills inside DeepSeek Harness.",
+        "author": "Wei",
+        "homepage": "https://weispot.vercel.app/projects/dsh-agent-skills",
+        "repository": {
+          "url": "https://github.com/minivv/dsh-agent-skills"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-skills",
+            "skills",
+            "codex",
+            "claude-code"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.14",
+            "publishTimestamp": 1791539737,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.2.0 || ^0.1.1-rc.1 || ^0.1.2-alpha.2 || ^0.1.2-rc.1 || ^0.1.3-alpha.2 || ^0.1.5-alpha.1 || ^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0044c604c1bbee6e16e244c61e62cb19f764d29aadcd412b5581bf3efc19149c",
+      "evidence": [
+        {
+          "name": "dsh-agent-skills",
+          "version": "0.1.14",
+          "tarball": "https://registry.npmjs.org/dsh-agent-skills/-/dsh-agent-skills-0.1.14.tgz",
+          "integrity": "sha512-H8qL8Gp6yqRlQNnjk7eF8RcD8R8TpPKyThsiaodecIdmBlCcOwSHS8Kp36PV1dYCn/340q8qvcY4viFWKWsPCA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-agent-skills",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/minivv/dsh-agent-skills",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/minivv/dsh-agent-skills",
+    "commit": "590431c61db9bcd723087abc84e9cf88ea3035e1",
+    "releaseTags": 9,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:30.398Z"
+}

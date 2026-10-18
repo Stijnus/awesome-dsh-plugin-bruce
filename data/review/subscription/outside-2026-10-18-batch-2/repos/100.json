@@ -1,0 +1,77 @@
+{
+  "full_name": "lemonorangeapple/dsh-effort-switcher",
+  "originalPosition": 100,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 100,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:18.857Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a8f64084b1bfb3b5a7e98adca178af34aa8a0c132fb4d83f34685801d1ff4d10",
+      "url": "https://github.com/lemonorangeapple/dsh-effort-switcher/blob/1c4f796ed592c68fd5c33fa6bb370755a2fcbfb9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lemonorangeapple/dsh-effort-switcher",
+          "command": "dsh plugin --profile web add github:lemonorangeapple/dsh-effort-switcher",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-effort-switcher",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lemonorangeapple/dsh-effort-switcher",
+        "commit": "1c4f796ed592c68fd5c33fa6bb370755a2fcbfb9"
+      },
+      "manifestSha256": "cfb5316237e5cb0af67cd5f245f14f80e175514c883414be7c2d123ac8588181",
+      "manifestUrl": "https://github.com/lemonorangeapple/dsh-effort-switcher/blob/1c4f796ed592c68fd5c33fa6bb370755a2fcbfb9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-effort-switcher",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1791646192,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lemonorangeapple/dsh-effort-switcher",
+              "commit": "1c4f796ed592c68fd5c33fa6bb370755a2fcbfb9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lemonorangeapple/dsh-effort-switcher",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lemonorangeapple/dsh-effort-switcher",
+    "commit": "1c4f796ed592c68fd5c33fa6bb370755a2fcbfb9",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:23.195Z"
+}

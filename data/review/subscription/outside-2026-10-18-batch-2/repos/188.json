@@ -1,0 +1,150 @@
+{
+  "full_name": "7dgroup-ai/dsh-skill-7d-code-reviewer",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:32.168Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f666fd736d3cae4ecc7a76c116c409993d909f98a8e085d43973799668b98283",
+      "url": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer/blob/bd0069f4feabbcb6ede8b0ba2da6a59f4d477057/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "command": "dsh plugin --profile <name> add github:7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "profile": "default"
+        },
+        {
+          "install": "git+https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer.git",
+          "command": "dsh plugin --profile <name> add git+https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer.git",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "command": "dsh plugin --profile tui add github:7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "profile": "tui"
+        },
+        {
+          "install": "@7dgroup/dsh-skill-7d-code-reviewer",
+          "command": "dsh plugin --profile <name> add @7dgroup/dsh-skill-7d-code-reviewer",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "command": "dsh plugin --profile web add github:7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1a125535c099cbf514f6281b53609d9ac3d990b0460da34728f06cb72e9b7e70",
+      "url": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer/blob/bd0069f4feabbcb6ede8b0ba2da6a59f4d477057/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "command": "dsh plugin --profile <name> add github:7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "profile": "default"
+        },
+        {
+          "install": "git+https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer.git",
+          "command": "dsh plugin --profile <name> add git+https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer.git",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "command": "dsh plugin --profile tui add github:7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "profile": "tui"
+        },
+        {
+          "install": "@7dgroup/dsh-skill-7d-code-reviewer",
+          "command": "dsh plugin --profile <name> add @7dgroup/dsh-skill-7d-code-reviewer",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "command": "dsh plugin --profile web add github:7dgroup-ai/dsh-skill-7d-code-reviewer",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@7dgroup/dsh-skill-7d-code-reviewer",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer",
+        "commit": "bd0069f4feabbcb6ede8b0ba2da6a59f4d477057"
+      },
+      "manifestSha256": "b540c05bba0cf3fbc88750e4586eb13e9af9b839b0c3dad260080bb0cf526f8c",
+      "manifestUrl": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer/blob/bd0069f4feabbcb6ede8b0ba2da6a59f4d477057/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@7dgroup/dsh-skill-7d-code-reviewer",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790928516,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer",
+              "commit": "bd0069f4feabbcb6ede8b0ba2da6a59f4d477057"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@7dgroup/dsh-skill-7d-code-reviewer",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@7dgroup/dsh-skill-7d-code-reviewer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer",
+    "commit": "bd0069f4feabbcb6ede8b0ba2da6a59f4d477057",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:41.478Z"
+}

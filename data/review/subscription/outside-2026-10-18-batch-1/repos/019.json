@@ -1,0 +1,142 @@
+{
+  "full_name": "fishzjp/qa-skills",
+  "originalPosition": 19,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 19,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:00.238Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f5db5a4576e449bf5aff939c6cdefa875af804c64628baec91ea337475d46219",
+      "url": "https://github.com/fishzjp/qa-skills/blob/ff6957f44190e63ec46dcb1a513d196a0b062bd4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-qa-skills",
+          "command": "dsh plugin --profile web add dsh-qa-skills",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5237ad52eefc532a4464dbb33ecd29a068cf5a141ef4419793e729fb87bdd5b2",
+      "url": "https://github.com/fishzjp/qa-skills/blob/ff6957f44190e63ec46dcb1a513d196a0b062bd4/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-qa-skills",
+          "command": "dsh plugin --profile web add dsh-qa-skills",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qa-skills",
+      "version": "0.9.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fishzjp/qa-skills",
+        "commit": "ff6957f44190e63ec46dcb1a513d196a0b062bd4"
+      },
+      "manifestSha256": "c0e6df3f18ed321a850359674914748872d93b8f965beb9ee3e89b636dd5e235",
+      "manifestUrl": "https://github.com/fishzjp/qa-skills/blob/ff6957f44190e63ec46dcb1a513d196a0b062bd4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-qa-skills",
+        "versions": [
+          {
+            "version": "0.9.0",
+            "publishTimestamp": 1791616851,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fishzjp/qa-skills",
+              "commit": "ff6957f44190e63ec46dcb1a513d196a0b062bd4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-qa-skills",
+      "origin": "npm",
+      "name": "dsh-qa-skills",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-qa-skills",
+        "title": "dsh-qa-skills",
+        "description": "DeepSeek Harness (dsh) plugin: 10 testing skills (requirement analysis, test strategy, case writing/review, E2E/API automation, exploratory, regression, bug analysis) + shared core knowledge base — a full QA pipeline as agent skills.",
+        "author": "fishzjp",
+        "homepage": "https://github.com/fishzjp/qa-skills#readme",
+        "repository": {
+          "url": "https://github.com/fishzjp/qa-skills"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-skills",
+            "skills",
+            "qa",
+            "testing",
+            "test-case",
+            "test-automation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1787826549,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7acc6809e8318a928d9cddaab34022d28756d4354b922c9d09ed4d5a37578ba3",
+      "evidence": [
+        {
+          "name": "dsh-qa-skills",
+          "version": "0.6.0",
+          "tarball": "https://registry.npmjs.org/dsh-qa-skills/-/dsh-qa-skills-0.6.0.tgz",
+          "integrity": "sha512-qWsgsNxhHeMtEuXV7FNvnyyYrIT9huYY4lWLYg7j/JYZvBH302yU21rx2YP/R/Z10ZF2JmP56Z2r+Dl9nNCnaQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-qa-skills",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fishzjp/qa-skills",
+    "commit": "ff6957f44190e63ec46dcb1a513d196a0b062bd4",
+    "releaseTags": 11,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:08.050Z"
+}

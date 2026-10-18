@@ -1,0 +1,886 @@
+{
+  "full_name": "lutrodev/dsh-roleplay",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:35.037Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b52ee27fca985132c9281ba9bab8f32f819e85d5636d4e054e4b4029beef0989",
+      "url": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@lutrodev/dsh-roleplay",
+          "command": "dsh plugin --profile web add -w @lutrodev/dsh-roleplay",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/rp-feature-manager/README.md",
+      "sha256": "ba54a67f0d0c9427cee0cb74767df1af2f38f7bda56a2d45e5a0ef26c728e311",
+      "url": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-feature-manager/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-asset-tools",
+      "version": "0.1.8",
+      "path": "plugins/rp-asset-tools",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-asset-tools"
+      },
+      "manifestSha256": "d303355f6a287099eebe1aaf3b40ffb834c72c9c5acecb90f99b057662a44766",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-asset-tools/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-asset-tools",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-asset-tools"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-character-card",
+      "version": "0.1.8",
+      "path": "plugins/rp-character-card",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-character-card"
+      },
+      "manifestSha256": "578b9bf7cde816c18e8e9be6b32e5bc275b7460cad1ebd26db8a642f72217913",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-character-card/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-character-card",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-character-card"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-compact-access-mode",
+      "version": "0.1.8",
+      "path": "plugins/rp-compact-access-mode",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-compact-access-mode"
+      },
+      "manifestSha256": "82cea908d6f6e436c4b129caee3e0ea22e9c24a198f3e4a8bc7a53bda6811528",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-compact-access-mode/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-roleplay-rp-compact-access-mode",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-compact-access-mode"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-compat-mvu",
+      "version": "0.1.8",
+      "path": "plugins/rp-compat-mvu",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-compat-mvu"
+      },
+      "manifestSha256": "b06f4a73352ec32ce3063ccdb14dc65258f956865746856e01ca986e361bad8b",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-compat-mvu/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-roleplay-rp-compat-mvu",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-compat-mvu"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-conversation-summary",
+      "version": "0.1.8",
+      "path": "plugins/rp-conversation-summary",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-conversation-summary"
+      },
+      "manifestSha256": "23dbda282eccd6349e8ebb799a9e614f05b0ea3158d4c7eb0adf8b01f1f9f35d",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-conversation-summary/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-conversation-summary",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-conversation-summary"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-core",
+      "version": "0.1.8",
+      "path": "plugins/rp-core",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-core"
+      },
+      "manifestSha256": "a3dcd8f4c7287fbd7bd8b7a5aaeef3083b6085c64d70af42c59a0ea1e3fe6ca4",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-core/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-core",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-core"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-dialogue-highlight",
+      "version": "0.1.8",
+      "path": "plugins/rp-dialogue-highlight",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-dialogue-highlight"
+      },
+      "manifestSha256": "fb9e2f766691af94225dde6d8f4ec3806cfca5ec5e4b9bd048f29b29e9fbe6d8",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-dialogue-highlight/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-dialogue-highlight",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-dialogue-highlight"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-feature-manager",
+      "version": "0.1.8",
+      "path": "plugins/rp-feature-manager",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-feature-manager"
+      },
+      "manifestSha256": "5efbf4dc0dd5c84b331d2a0904cf3076ac31350c780c6ce80ecb861896d40735",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-feature-manager/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-feature-manager",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-feature-manager"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-library",
+      "version": "0.1.8",
+      "path": "plugins/rp-library",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-library"
+      },
+      "manifestSha256": "b774d8780cd5d1ceab05e37bce90882fca33c242d867c995758f0cfe19b6a9d9",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-library/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-library",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-library"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-lore-book",
+      "version": "0.1.8",
+      "path": "plugins/rp-lore-book",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-lore-book"
+      },
+      "manifestSha256": "433cd999caebd8ef5f01d35479c1325ca3eb8a1116bb4c06ce837771dd43ef29",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-lore-book/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-lore-book",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-lore-book"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-macro",
+      "version": "0.1.8",
+      "path": "plugins/rp-macro",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-macro"
+      },
+      "manifestSha256": "e0937577ee71949e1f8bfd3b237c12c52f169f796c3f54824a4aec214e689eca",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-macro/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-roleplay-rp-macro",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-macro"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-message-actions",
+      "version": "0.1.8",
+      "path": "plugins/rp-message-actions",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-message-actions"
+      },
+      "manifestSha256": "126d3c17c0d3be0f10c2bb0033bcc5a2ab1bc1114085f053f4595e0d9bd8fd8c",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-message-actions/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-message-actions",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-message-actions"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-message-avatar",
+      "version": "0.1.8",
+      "path": "plugins/rp-message-avatar",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-message-avatar"
+      },
+      "manifestSha256": "36251f1180042a121a3f75dc4422ea0b004afe3558da797a9c676fc0c497d695",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-message-avatar/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-message-avatar",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-message-avatar"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-persona",
+      "version": "0.1.8",
+      "path": "plugins/rp-persona",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-persona"
+      },
+      "manifestSha256": "93a46d8d6e082de12427b45f04f31f2ccce83d61e881b2bb9b2d889b25fcb7de",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-persona/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-persona",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-persona"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-preset",
+      "version": "0.1.8",
+      "path": "plugins/rp-preset",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-preset"
+      },
+      "manifestSha256": "952e048ac4dfb8a599afff31dbc627c02cc67ac5e137e4dea8820cf81aef343c",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-preset/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-preset",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-preset"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-quick-replies",
+      "version": "0.1.8",
+      "path": "plugins/rp-quick-replies",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-quick-replies"
+      },
+      "manifestSha256": "c28326cc314908c06f684b713e3df3c83cd1aac02054ed05eb08f61e5f185d88",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-quick-replies/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-quick-replies",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-quick-replies"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-reply-options",
+      "version": "0.1.8",
+      "path": "plugins/rp-reply-options",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-reply-options"
+      },
+      "manifestSha256": "2eaed1ca988fa709b2530e6b11924ac18fced3a906c625d4c1c8d50ad4c6eb3b",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-reply-options/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-reply-options",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-reply-options"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-session",
+      "version": "0.1.8",
+      "path": "plugins/rp-session",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-session"
+      },
+      "manifestSha256": "c55789564d4c99f45c45986e402709f3596f8b8fe949389a4594dd0b072ecce9",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-session/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-session",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-session"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-state",
+      "version": "0.1.8",
+      "path": "plugins/rp-state",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-state"
+      },
+      "manifestSha256": "abce637331bf0d3092143764ece7bcdf88a829fbf987ba0fca6ec81b65c38722",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-state/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-state",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-state"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-state-display",
+      "version": "0.1.8",
+      "path": "plugins/rp-state-display",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-state-display"
+      },
+      "manifestSha256": "e7dcfefa9ec92dde9da33e06e5cb71537434491509cafb45110cf3ac59a3dafc",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-state-display/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-state-display",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-state-display"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-subagent-manager",
+      "version": "0.1.8",
+      "path": "plugins/rp-subagent-manager",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-subagent-manager"
+      },
+      "manifestSha256": "0794472fe872b1b8ad2d38771741951ed62eddf35affaad83c1e31ad1919021f",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-subagent-manager/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-subagent-manager",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-subagent-manager"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-roleplay-rp-writing-style",
+      "version": "0.1.8",
+      "path": "plugins/rp-writing-style",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lutrodev/dsh-roleplay",
+        "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+        "path": "plugins/rp-writing-style"
+      },
+      "manifestSha256": "a257765c1d1d45096efa49639d59732ff0ddfebf26ad43f45d175af0247f79ca",
+      "manifestUrl": "https://github.com/lutrodev/dsh-roleplay/blob/e736f86f78ce927a75b543eb829cb4e9cf3103a1/plugins/rp-writing-style/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-roleplay-rp-writing-style",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445943,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lutrodev/dsh-roleplay",
+              "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+              "path": "plugins/rp-writing-style"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@lutrodev/dsh-roleplay",
+      "origin": "npm",
+      "name": "@lutrodev/dsh-roleplay",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@lutrodev/dsh-roleplay",
+        "title": "@lutrodev/dsh-roleplay",
+        "description": "Open-source roleplay plugin suite for DeepSeek Harness",
+        "homepage": "https://github.com/lutrodev/dsh-roleplay#readme",
+        "repository": {
+          "url": "https://github.com/lutrodev/dsh-roleplay"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "roleplay",
+            "character-card",
+            "lorebook"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1788445977,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4251dfc732375a7cbdfa8f0bc1eb4d3cfd3277a8b71d566399702cfb7b3cfa88",
+      "evidence": [
+        {
+          "name": "@lutrodev/dsh-roleplay",
+          "version": "0.1.8",
+          "tarball": "https://registry.npmjs.org/@lutrodev/dsh-roleplay/-/dsh-roleplay-0.1.8.tgz",
+          "integrity": "sha512-kU+/mdLsFyStSNDgrueS4UGgX4eSnTFn1vlNFtVCDwy7Vlz/mV2z0S4KWRkj0iT2luyHBaPtUim4mPgd+j1gkg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@lutrodev/dsh-roleplay",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lutrodev/dsh-roleplay",
+    "commit": "e736f86f78ce927a75b543eb829cb4e9cf3103a1",
+    "releaseTags": 9,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:44.899Z"
+}

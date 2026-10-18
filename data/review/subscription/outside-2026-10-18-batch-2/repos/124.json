@@ -1,0 +1,93 @@
+{
+  "full_name": "QIANLING-0831/dsh-memory-plus",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:56.944Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4a776e96240e26305711b3da507d5e77e420f1d1c5549c4051d861e4060f93ab",
+      "url": "https://github.com/QIANLING-0831/dsh-memory-plus/blob/197185d19b8a73a21624ac024606116d646abe7f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/QIANLING-0831/dsh-memory-plus/releases/download/v0.2.2/dsh-memory-bundle-0.2.2.tgz",
+          "command": "dsh plugin --profile headless add https://github.com/QIANLING-0831/dsh-memory-plus/releases/download/v0.2.2/dsh-memory-bundle-0.2.2.tgz",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-session-query-sqlite-cjk/README.md",
+      "sha256": "8d01c3d3b022be194e6d6828c3d2edd9288a7bac784a3a1d3b92dc8c647be47f",
+      "url": "https://github.com/QIANLING-0831/dsh-memory-plus/blob/197185d19b8a73a21624ac024606116d646abe7f/packages/dsh-session-query-sqlite-cjk/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-bundle",
+      "version": "0.2.2",
+      "path": "packages/dsh-memory-bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QIANLING-0831/dsh-memory-plus",
+        "commit": "197185d19b8a73a21624ac024606116d646abe7f",
+        "path": "packages/dsh-memory-bundle"
+      },
+      "manifestSha256": "34da6799993011a93a2729d51e8983a36634f26317227d4dc7d933ab86297677",
+      "manifestUrl": "https://github.com/QIANLING-0831/dsh-memory-plus/blob/197185d19b8a73a21624ac024606116d646abe7f/packages/dsh-memory-bundle/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-memory-bundle",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1792226303,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QIANLING-0831/dsh-memory-plus",
+              "commit": "197185d19b8a73a21624ac024606116d646abe7f",
+              "path": "packages/dsh-memory-bundle"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/QIANLING-0831/dsh-memory-plus/releases/download/v0.2.2/dsh-memory-bundle-0.2.2.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/QIANLING-0831/dsh-memory-plus/releases/download/v0.2.2/dsh-memory-bundle-0.2.2.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QIANLING-0831/dsh-memory-plus",
+    "commit": "197185d19b8a73a21624ac024606116d646abe7f",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:01.938Z"
+}

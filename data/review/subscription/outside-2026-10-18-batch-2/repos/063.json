@@ -1,0 +1,223 @@
+{
+  "full_name": "PerryLink/dsh-talk",
+  "originalPosition": 63,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 63,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:36.959Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b8f838d1345e4fcb9fb683d1ab1dc30a319de85c0f492de29b6bddb4f41febed",
+      "url": "https://github.com/PerryLink/dsh-talk/blob/5df15bdf2f2a84cad3890dd66d7bf94a3497aeb6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-talk",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-talk",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-talk",
+          "command": "dsh plugin --profile web add dsh-talk",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "b434f8326b5cf555977d14f2c904a805bc97d94e139e82581126113ae573ad89",
+      "url": "https://github.com/PerryLink/dsh-talk/blob/5df15bdf2f2a84cad3890dd66d7bf94a3497aeb6/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-talk",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-talk",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-talk",
+          "command": "dsh plugin --profile web add dsh-talk",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "7ae7f0a656e0d98c090c4a29636fd2c548b9393a60a04f662f31e5ac4edbe4da",
+      "url": "https://github.com/PerryLink/dsh-talk/blob/5df15bdf2f2a84cad3890dd66d7bf94a3497aeb6/README-es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-talk",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-talk",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-talk",
+          "command": "dsh plugin --profile web add dsh-talk",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "52f3668adffa12258b5758c854ef912eb5a5725404f1629fa0b91ec104b34fa3",
+      "url": "https://github.com/PerryLink/dsh-talk/blob/5df15bdf2f2a84cad3890dd66d7bf94a3497aeb6/README-pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-talk",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-talk",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-talk",
+          "command": "dsh plugin --profile web add dsh-talk",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "da1574ff4a221e5c34e6f5a0646496f746693e948c366e652ff00dccd6e276cf",
+      "url": "https://github.com/PerryLink/dsh-talk/blob/5df15bdf2f2a84cad3890dd66d7bf94a3497aeb6/README-hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-talk",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-talk",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-talk",
+          "command": "dsh plugin --profile web add dsh-talk",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-talk",
+      "version": "0.3.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-talk",
+        "commit": "5df15bdf2f2a84cad3890dd66d7bf94a3497aeb6"
+      },
+      "manifestSha256": "c02f787bf280fba677728dd95bd6da3f183dcd917f889212ae12938c8846906c",
+      "manifestUrl": "https://github.com/PerryLink/dsh-talk/blob/5df15bdf2f2a84cad3890dd66d7bf94a3497aeb6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-talk",
+        "versions": [
+          {
+            "version": "0.3.20",
+            "publishTimestamp": 1791813006,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-talk",
+              "commit": "5df15bdf2f2a84cad3890dd66d7bf94a3497aeb6"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-talk",
+      "origin": "npm",
+      "name": "dsh-talk",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-talk",
+        "title": "dsh-talk",
+        "description": "Voice-first session loop for DeepSeek Harness: a composer microphone button with browser/local speech-to-text (Web Speech, FunASR, whisper.cpp), a speak tool for text-to-speech replies (browser, edge-tts, piper), event announcements with mute, and speak-to-interrupt.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-talk#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-talk"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "voice",
+            "speech",
+            "tts",
+            "stt",
+            "speech-to-text",
+            "text-to-speech",
+            "microphone"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.20",
+            "publishTimestamp": 1791594348,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "967a7c88d53de3f017b9235d80edbc8aa50492723ec554c32e70183b0125a842",
+      "evidence": [
+        {
+          "name": "dsh-talk",
+          "version": "0.3.20",
+          "tarball": "https://registry.npmjs.org/dsh-talk/-/dsh-talk-0.3.20.tgz",
+          "integrity": "sha512-D1qoWD9wGEb8cxrx/IQdI9CnuhMZX/YRbU61r7gcL5+p9rILXm1JANZj5FSU/vLqQEvtfb6L5PpITiw+1XRkwA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-talk",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-talk",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-talk",
+    "commit": "5df15bdf2f2a84cad3890dd66d7bf94a3497aeb6",
+    "releaseTags": 27,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:43.839Z"
+}

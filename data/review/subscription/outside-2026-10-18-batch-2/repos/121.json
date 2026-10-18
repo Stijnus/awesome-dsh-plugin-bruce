@@ -1,0 +1,152 @@
+{
+  "full_name": "MingoZhou/dsh-replay",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:51.910Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "42d8c4f8fb83206c4f6f1deb62655830b5a601b0075de8304284427eb2a3654d",
+      "url": "https://github.com/MingoZhou/dsh-replay/blob/930f5bc9d31d316009e2f372989c19ffd642b08d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mingozhou/dsh-replay",
+          "command": "dsh plugin --profile <your-profile> add @mingozhou/dsh-replay",
+          "profile": "default"
+        },
+        {
+          "install": "@mingozhou/dsh-replay",
+          "command": "pnpm dsh plugin --profile web add @mingozhou/dsh-replay",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1472e90ceca4f71f0f0bfe6c96f6812b0b091150d8072423b540b82d52a8a85b",
+      "url": "https://github.com/MingoZhou/dsh-replay/blob/930f5bc9d31d316009e2f372989c19ffd642b08d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mingozhou/dsh-replay",
+          "command": "dsh plugin --profile <你的profile> add @mingozhou/dsh-replay",
+          "profile": "default"
+        },
+        {
+          "install": "@mingozhou/dsh-replay",
+          "command": "pnpm dsh plugin --profile web add @mingozhou/dsh-replay",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mingozhou/dsh-replay",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MingoZhou/dsh-replay",
+        "commit": "930f5bc9d31d316009e2f372989c19ffd642b08d"
+      },
+      "manifestSha256": "fd2fdef8921f835c974e58c43f98d2d7a073b5e868a74b9e289ac8e2e35b7eeb",
+      "manifestUrl": "https://github.com/MingoZhou/dsh-replay/blob/930f5bc9d31d316009e2f372989c19ffd642b08d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@mingozhou/dsh-replay",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1787202200,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MingoZhou/dsh-replay",
+              "commit": "930f5bc9d31d316009e2f372989c19ffd642b08d"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@mingozhou/dsh-replay",
+      "origin": "npm",
+      "name": "@mingozhou/dsh-replay",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@mingozhou/dsh-replay",
+        "title": "@mingozhou/dsh-replay",
+        "description": "Session replay, fork-tree, audit & compare visualization for DeepSeek Harness — time machine for your agent sessions",
+        "author": "MingoZhou",
+        "homepage": "https://mingozhou.github.io/dsh-replay/",
+        "repository": {
+          "url": "https://github.com/MingoZhou/dsh-replay"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh",
+            "agent",
+            "session-replay",
+            "observability",
+            "audit",
+            "timeline",
+            "visualization"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1787202468,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "381de8cfc15d8a48be7cf1b4f3ebf0809dc0b57174d7d8a17c3497d05edd236e",
+      "evidence": [
+        {
+          "name": "@mingozhou/dsh-replay",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/@mingozhou/dsh-replay/-/dsh-replay-0.4.1.tgz",
+          "integrity": "sha512-L2Kk4JmD4UubPVxMLrEfdpPnbytn4tASR+xLuyrXQhj5CvfYBwiUTRvaXASushW/Te0hJeQ2mS9n0OpJ7cu8rA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mingozhou/dsh-replay",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MingoZhou/dsh-replay",
+    "commit": "930f5bc9d31d316009e2f372989c19ffd642b08d",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:10.767Z"
+}

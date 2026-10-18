@@ -1,0 +1,126 @@
+{
+  "full_name": "ilps2/dsh-video-understand",
+  "originalPosition": 170,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 170,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:58.897Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e3544d9a90e8a9eed4a8ea404b29a49b516987983cdb2773ddcfed78b241629c",
+      "url": "https://github.com/ilps2/dsh-video-understand/blob/a1280abec2af3a851484543a6a2faf1ba65b64e0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-video-understand",
+          "command": "dsh plugin add dsh-video-understand",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-video-understand",
+      "version": "0.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ilps2/dsh-video-understand",
+        "commit": "a1280abec2af3a851484543a6a2faf1ba65b64e0"
+      },
+      "manifestSha256": "8126e1633c3c81290287a641fadfa4d543381007b99df590d9ff085885f90189",
+      "manifestUrl": "https://github.com/ilps2/dsh-video-understand/blob/a1280abec2af3a851484543a6a2faf1ba65b64e0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-video-understand",
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1792248445,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ilps2/dsh-video-understand",
+              "commit": "a1280abec2af3a851484543a6a2faf1ba65b64e0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-video-understand",
+      "origin": "npm",
+      "name": "dsh-video-understand",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-video-understand",
+        "title": "dsh-video-understand",
+        "description": "低成本视频理解工具：B站链接/BV/本地视频 → 信息层（ASR+场景+对象轨迹+YOLO）→ 摘要+问答。问题驱动动态路由分层（L0/L1/L2）、语义层复用、预算上限。引擎自包含，无需外部依赖。",
+        "homepage": "https://github.com/ilps2/dsh-video-understand",
+        "repository": {
+          "url": "https://github.com/ilps2/dsh-video-understand"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "video-understand",
+            "avis",
+            "video-understanding",
+            "low-cost",
+            "bilibili"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1787207444,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a1115cf129cbf34195a10b8683eb8a945c81a15076e849cc4d28cb1634944fb0",
+      "evidence": [
+        {
+          "name": "dsh-video-understand",
+          "version": "0.5.2",
+          "tarball": "https://registry.npmjs.org/dsh-video-understand/-/dsh-video-understand-0.5.2.tgz",
+          "integrity": "sha512-XEercBqTVsooze/3uTNSjrGp+wl1t3EY8zTruUrDa0pTdU3FgAzus0jeNaTMV3YYEbHhQL4Rp9x0IE+bBtNNRg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-video-understand",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ilps2/dsh-video-understand",
+    "commit": "a1280abec2af3a851484543a6a2faf1ba65b64e0",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:18.737Z"
+}

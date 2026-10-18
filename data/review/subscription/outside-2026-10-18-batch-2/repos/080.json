@@ -1,0 +1,145 @@
+{
+  "full_name": "shatyuka/dsh-llm-codebuddy",
+  "originalPosition": 80,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 80,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:59.584Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "61f901c472fe04adb00b87c7114822e35c56b877035f7d141ab60c603ecefb9b",
+      "url": "https://github.com/shatyuka/dsh-llm-codebuddy/blob/5dd9e10702f7ca8134cd7cb0f4cb11552564fa0d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@shatyuka/dsh-llm-codebuddy",
+          "command": "dsh plugin --profile web add @shatyuka/dsh-llm-codebuddy",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "0cb2b96c53f0cd3503d97374258b496aceba7c34275921be1299889c0d213451",
+      "url": "https://github.com/shatyuka/dsh-llm-codebuddy/blob/5dd9e10702f7ca8134cd7cb0f4cb11552564fa0d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@shatyuka/dsh-llm-codebuddy",
+          "command": "dsh plugin --profile web add @shatyuka/dsh-llm-codebuddy",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@shatyuka/dsh-llm-codebuddy",
+      "version": "0.8.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shatyuka/dsh-llm-codebuddy",
+        "commit": "5dd9e10702f7ca8134cd7cb0f4cb11552564fa0d"
+      },
+      "manifestSha256": "81a8c13dea31ce4e993335a1498e536fa38991be7e69fc18247adf82dfdec6d0",
+      "manifestUrl": "https://github.com/shatyuka/dsh-llm-codebuddy/blob/5dd9e10702f7ca8134cd7cb0f4cb11552564fa0d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@shatyuka/dsh-llm-codebuddy",
+        "versions": [
+          {
+            "version": "0.8.1",
+            "publishTimestamp": 1792259483,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/shatyuka/dsh-llm-codebuddy",
+              "commit": "5dd9e10702f7ca8134cd7cb0f4cb11552564fa0d"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@shatyuka/dsh-llm-codebuddy",
+      "origin": "npm",
+      "name": "@shatyuka/dsh-llm-codebuddy",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@shatyuka/dsh-llm-codebuddy",
+        "title": "@shatyuka/dsh-llm-codebuddy",
+        "description": "Tencent CodeBuddy plugin for DeepSeek Harness (dsh).",
+        "author": "shatyuka",
+        "repository": {
+          "url": "https://github.com/shatyuka/dsh-llm-codebuddy"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "llm",
+            "codebuddy",
+            "tencent",
+            "oauth"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.1",
+            "publishTimestamp": 1791219025,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a9ce9e2c305e86c2a2e0fcb4b7d2ee20695fa897d0d98d225e7b4144416f787d",
+      "evidence": [
+        {
+          "name": "@shatyuka/dsh-llm-codebuddy",
+          "version": "0.8.1",
+          "tarball": "https://registry.npmjs.org/@shatyuka/dsh-llm-codebuddy/-/dsh-llm-codebuddy-0.8.1.tgz",
+          "integrity": "sha512-o82ND49aaxpti0o7gF4WWxEjIGPsJOUnuc55PfHVcRxSPOBR27Eq8gSzV5fqhgI5TryBP/mDCNqflJdesje3fg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@shatyuka/dsh-llm-codebuddy",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shatyuka/dsh-llm-codebuddy",
+    "commit": "5dd9e10702f7ca8134cd7cb0f4cb11552564fa0d",
+    "releaseTags": 16,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:05.265Z"
+}

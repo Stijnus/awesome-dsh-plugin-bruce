@@ -1,0 +1,126 @@
+{
+  "full_name": "Leon0555/dsh-lan-access",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:51.453Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "028aed707b6c8fd96350fe85647dc9646ae51a3912e652f277b96bb9c9230876",
+      "url": "https://github.com/Leon0555/dsh-lan-access/blob/4d206e35836a9d1d8c0d94c440039cda85364dde/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-lan-access",
+          "command": "dsh plugin --profile web add dsh-lan-access",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lan-access",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Leon0555/dsh-lan-access",
+        "commit": "4d206e35836a9d1d8c0d94c440039cda85364dde"
+      },
+      "manifestSha256": "28e6d3555e16197f407d923a3753bcff15368b16c8a8bef7ae0d5d3201d6e662",
+      "manifestUrl": "https://github.com/Leon0555/dsh-lan-access/blob/4d206e35836a9d1d8c0d94c440039cda85364dde/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-lan-access",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1787552151,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Leon0555/dsh-lan-access",
+              "commit": "4d206e35836a9d1d8c0d94c440039cda85364dde"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-lan-access",
+      "origin": "npm",
+      "name": "dsh-lan-access",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-lan-access",
+        "title": "dsh-lan-access",
+        "description": "DSH plugin: bind the Web GUI to 0.0.0.0 for LAN access and polyfill crypto.randomUUID for non-secure (LAN HTTP) contexts. Trusted networks only.",
+        "author": "Leon0555",
+        "repository": {
+          "url": "https://github.com/Leon0555/dsh-lan-access"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek-harness-plugin",
+            "lan",
+            "局域网",
+            "remote-access",
+            "randomuuid"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1787500763,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "963780fe2fbb13f8ee82162902a4fb012029ebd58250d309012d1add7b8b8140",
+      "evidence": [
+        {
+          "name": "dsh-lan-access",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-lan-access/-/dsh-lan-access-0.1.3.tgz",
+          "integrity": "sha512-QmHWQ4HGuPbdTovSmG5Tpe50aJKrTFY7bbAQdqPXTvJER7wfQTyzaBDaqVrUI6NXz0Ud2hlVPHicLin6p9rQSQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-lan-access",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Leon0555/dsh-lan-access",
+    "commit": "4d206e35836a9d1d8c0d94c440039cda85364dde",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:56.057Z"
+}

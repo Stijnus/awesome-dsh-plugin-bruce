@@ -1,0 +1,140 @@
+{
+  "full_name": "STARDUSTLC666/dsh-codex-port",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:50.383Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f6b62427e72dbd2bff061d0baacf263becda656de9135442900a812ef05fa26b",
+      "url": "https://github.com/STARDUSTLC666/dsh-codex-port/blob/9b144ccfa69479b6e979aa7adb04179ebbce2056/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-port",
+          "command": "dsh plugin --profile desktop add dsh-codex-port",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "59709e5886ca328b643dec0a20e819d581b36f68538aef9e962d2ad8b0584ddf",
+      "url": "https://github.com/STARDUSTLC666/dsh-codex-port/blob/9b144ccfa69479b6e979aa7adb04179ebbce2056/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-port",
+          "command": "dsh plugin --profile desktop add dsh-codex-port",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-port",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/STARDUSTLC666/dsh-codex-port",
+        "commit": "9b144ccfa69479b6e979aa7adb04179ebbce2056"
+      },
+      "manifestSha256": "521e80de0c6aaf08d9c16015013da768b527f7b4d9b0fffef89162fd15646be3",
+      "manifestUrl": "https://github.com/STARDUSTLC666/dsh-codex-port/blob/9b144ccfa69479b6e979aa7adb04179ebbce2056/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-codex-port",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1791460812,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/STARDUSTLC666/dsh-codex-port",
+              "commit": "9b144ccfa69479b6e979aa7adb04179ebbce2056"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-codex-port",
+      "origin": "npm",
+      "name": "dsh-codex-port",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-codex-port",
+        "title": "dsh-codex-port",
+        "description": "把本机 Codex 技能转换为 DSH 可使用的技能。",
+        "author": "stardustlc",
+        "homepage": "https://github.com/STARDUSTLC666/dsh-codex-port#readme",
+        "repository": {
+          "url": "https://github.com/STARDUSTLC666/dsh-codex-port"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "codex",
+            "skills",
+            "migration",
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1791173319,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7790e99020b0c53f644b767bcc015f8094022626840984ff23e35e0564674b97",
+      "evidence": [
+        {
+          "name": "dsh-codex-port",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-codex-port/-/dsh-codex-port-0.3.0.tgz",
+          "integrity": "sha512-qId9z+7hu0/QCWJmg4ttHU+lxf5+EGwms1K6jfQfvmyLWewkFthyABh4lAx9RdQ8yNMTVS/rRUpVRbRKTaHkCg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-port",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/STARDUSTLC666/dsh-codex-port",
+    "commit": "9b144ccfa69479b6e979aa7adb04179ebbce2056",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:57.704Z"
+}

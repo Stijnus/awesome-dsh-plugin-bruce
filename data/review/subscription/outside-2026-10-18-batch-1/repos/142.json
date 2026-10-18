@@ -1,0 +1,169 @@
+{
+  "full_name": "gjj-star/dsh-conversation-navigator",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:22.438Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "90d1a6b098c9fcdf88679e681b7b7860c9d9875597da10ce6667d3cdb7cbd021",
+      "url": "https://github.com/gjj-star/dsh-conversation-navigator/blob/bdce0a40c64944431bb1d4749edb3c4481c8f931/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-conversation-navigator",
+          "command": "dsh plugin --profile web add dsh-conversation-navigator",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/gjj-star/dsh-conversation-navigator",
+          "command": "dsh plugin --profile web add github:gjj-star/dsh-conversation-navigator",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a096d9edbc82e487a20c1be8d54f3a3facee1d7d02f1b29cb1d97e160c46e1ca",
+      "url": "https://github.com/gjj-star/dsh-conversation-navigator/blob/bdce0a40c64944431bb1d4749edb3c4481c8f931/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-conversation-navigator",
+          "command": "dsh plugin --profile web add dsh-conversation-navigator",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/gjj-star/dsh-conversation-navigator",
+          "command": "dsh plugin --profile web add github:gjj-star/dsh-conversation-navigator",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/traffic/README.md",
+      "sha256": "4519e2177e14323a7293940f8ee796428861bdf1cce0736ce17740fdf696a777",
+      "url": "https://github.com/gjj-star/dsh-conversation-navigator/blob/bdce0a40c64944431bb1d4749edb3c4481c8f931/docs/traffic/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-conversation-navigator",
+      "version": "0.2.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gjj-star/dsh-conversation-navigator",
+        "commit": "bdce0a40c64944431bb1d4749edb3c4481c8f931"
+      },
+      "manifestSha256": "1094094be5202dc71e7e355a085eb71e0b167530bf207f75a45530d4dc4b48ee",
+      "manifestUrl": "https://github.com/gjj-star/dsh-conversation-navigator/blob/bdce0a40c64944431bb1d4749edb3c4481c8f931/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-conversation-navigator",
+        "versions": [
+          {
+            "version": "0.2.11",
+            "publishTimestamp": 1792223528,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gjj-star/dsh-conversation-navigator",
+              "commit": "bdce0a40c64944431bb1d4749edb3c4481c8f931"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-conversation-navigator",
+      "origin": "npm",
+      "name": "dsh-conversation-navigator",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-conversation-navigator",
+        "title": "dsh-conversation-navigator",
+        "description": "DSH(DeepSeek Harness)会话导航插件:按轮折叠的对话大纲面板,支持节点点击跳转、滚动位置高亮与轨迹视图同款配色。",
+        "repository": {
+          "url": "https://github.com/gjj-star/dsh-conversation-navigator"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "cordis-plugin",
+            "conversation",
+            "navigator",
+            "outline",
+            "session",
+            "会话导航"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.11",
+            "publishTimestamp": 1790732771,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e85829f9906ca50d7618d66bc03fff5ac6dbb6b768030471b2a124951571dfe3",
+      "evidence": [
+        {
+          "name": "dsh-conversation-navigator",
+          "version": "0.2.11",
+          "tarball": "https://registry.npmjs.org/dsh-conversation-navigator/-/dsh-conversation-navigator-0.2.11.tgz",
+          "integrity": "sha512-Avc/YWNnd7+ah5gPMA+zpnK71rxM4vXbloGJbG+dTj+Ngk59pAyOTYfsE4pLlv3P+xEJ5fZNmShlkwKpVyaiiA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-conversation-navigator",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/gjj-star/dsh-conversation-navigator",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gjj-star/dsh-conversation-navigator",
+    "commit": "bdce0a40c64944431bb1d4749edb3c4481c8f931",
+    "releaseTags": 12,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:30.831Z"
+}

@@ -1,0 +1,136 @@
+{
+  "full_name": "kendu76/dsh-music-player",
+  "originalPosition": 17,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 17,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:22.675Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "29d81e854e9bcbb45caf7e784877b80c41e753d7f49d46691fdb5e02a0c2842a",
+      "url": "https://github.com/kendu76/dsh-music-player/blob/172355b147f91ae994631aa4cbd61adfe8a5fb66/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-music-player",
+          "command": "dsh plugin --profile <profile> add dsh-music-player",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/kendu76/dsh-music-player",
+          "command": "dsh plugin --profile <profile> add github:kendu76/dsh-music-player",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-music-player",
+      "version": "1.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kendu76/dsh-music-player",
+        "commit": "172355b147f91ae994631aa4cbd61adfe8a5fb66"
+      },
+      "manifestSha256": "7b48c4cbba600d718a26f21499eac7ecff2e0e53e5f6409c739079734485c4b1",
+      "manifestUrl": "https://github.com/kendu76/dsh-music-player/blob/172355b147f91ae994631aa4cbd61adfe8a5fb66/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-music-player",
+        "versions": [
+          {
+            "version": "1.0.3",
+            "publishTimestamp": 1789909347,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kendu76/dsh-music-player",
+              "commit": "172355b147f91ae994631aa4cbd61adfe8a5fb66"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-music-player",
+      "origin": "npm",
+      "name": "dsh-music-player",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-music-player",
+        "title": "dsh-music-player",
+        "description": "Vibe coding时的好伴侣",
+        "repository": {
+          "url": "https://github.com/kendu76/dsh-music-player"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "music",
+            "player",
+            "audio",
+            "tts",
+            "novel",
+            "book"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.3",
+            "publishTimestamp": 1789909837,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5baa047c2dc3ac4fb23ee657f7beb045b4f38fa9083fc57b2969277d417e2051",
+      "evidence": [
+        {
+          "name": "dsh-music-player",
+          "version": "1.0.3",
+          "tarball": "https://registry.npmjs.org/dsh-music-player/-/dsh-music-player-1.0.3.tgz",
+          "integrity": "sha512-3pYMYug66vXILUNjLUtXy6DjSU6illd0kfM0t9YebUmQGfiHU6AOf67pj38A604zm5SKKXYjuo+jU1RIHEiwfg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-music-player",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/kendu76/dsh-music-player",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kendu76/dsh-music-player",
+    "commit": "172355b147f91ae994631aa4cbd61adfe8a5fb66",
+    "releaseTags": 35,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:30.309Z"
+}

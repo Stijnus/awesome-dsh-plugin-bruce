@@ -1,0 +1,149 @@
+{
+  "full_name": "CC19990113/dsh-plugin-codegraph",
+  "originalPosition": 114,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 114,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:40.271Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bae78d07bea0222a62514eab4da1ab459a5f050b79ad21b228f06e68f968cc55",
+      "url": "https://github.com/CC19990113/dsh-plugin-codegraph/blob/fff66800577770a2f92af0418cb9e336fd6086b2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-codegraph",
+          "command": "dsh plugin --profile <name> add dsh-plugin-codegraph",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "07c4083b35bb1ba3d428775b25fae53ffe11d9c74ac48085e27a48fe733cbdb5",
+      "url": "https://github.com/CC19990113/dsh-plugin-codegraph/blob/fff66800577770a2f92af0418cb9e336fd6086b2/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-codegraph",
+          "command": "dsh plugin --profile <name> add dsh-plugin-codegraph",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-codegraph-root",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CC19990113/dsh-plugin-codegraph",
+        "commit": "fff66800577770a2f92af0418cb9e336fd6086b2"
+      },
+      "manifestSha256": "4fc57c475014b65b300e86c2b26d55bdec56113bd24de5b1e0e69238bed85028",
+      "manifestUrl": "https://github.com/CC19990113/dsh-plugin-codegraph/blob/fff66800577770a2f92af0418cb9e336fd6086b2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-codegraph-root",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787558869,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CC19990113/dsh-plugin-codegraph",
+              "commit": "fff66800577770a2f92af0418cb9e336fd6086b2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-codegraph",
+      "origin": "npm",
+      "name": "dsh-plugin-codegraph",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-codegraph",
+        "title": "dsh-plugin-codegraph",
+        "description": "Structural code intelligence for DeepSeek Harness — gives the agent codegraph and codegraph_index tools to find where a symbol is declared, what calls it, what a change reaches, and how one symbol reaches another, from a tree-sitter index it builds itself",
+        "author": "CC ZHAO",
+        "homepage": "https://github.com/CC19990113/dsh-plugin-codegraph#readme",
+        "repository": {
+          "url": "https://github.com/CC19990113/dsh-plugin-codegraph",
+          "directory": "packages/bundle"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "cordis-plugin",
+            "codegraph",
+            "code-graph",
+            "call-graph",
+            "tree-sitter",
+            "code-intelligence",
+            "static-analysis",
+            "ai-agent",
+            "llm-tools",
+            "agent-tools"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1787289398,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "374accca4b5c9c4babc28519afa3308d666ec8f97c967fbe3390e53efad58c76",
+      "evidence": [
+        {
+          "name": "dsh-plugin-codegraph",
+          "version": "0.1.6",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-codegraph/-/dsh-plugin-codegraph-0.1.6.tgz",
+          "integrity": "sha512-3oG0TmWuI0V16SA2vs2RCpxf3mJFeFrKrxxqa8wIpqgf3jtwMKvd7SgbwfKtX6YvkW0pUgTOIvn5wS9/1Rxlmw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-codegraph",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CC19990113/dsh-plugin-codegraph",
+    "commit": "fff66800577770a2f92af0418cb9e336fd6086b2",
+    "releaseTags": 7,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:45.684Z"
+}

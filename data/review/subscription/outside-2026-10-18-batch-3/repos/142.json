@@ -1,0 +1,148 @@
+{
+  "full_name": "cookiesheep/whale-on-desk",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:11.633Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ec6033f286fc0082e23e7a457709d822dee29dd7c566c8f55a6e6dc7b6c14142",
+      "url": "https://github.com/cookiesheep/whale-on-desk/blob/d50a2e45eddcb6cd1483820f9c4c1e8991913581/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "whale-on-desk",
+          "command": "dsh plugin --profile web add whale-on-desk",
+          "profile": "web"
+        },
+        {
+          "install": "whale-on-desk",
+          "command": "dsh plugin add whale-on-desk",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.en.md",
+      "sha256": "e439faf2d8e16799062c5045c30de02467f259d81f778c66acaaca828fd73c2a",
+      "url": "https://github.com/cookiesheep/whale-on-desk/blob/d50a2e45eddcb6cd1483820f9c4c1e8991913581/docs/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "whale-on-desk",
+          "command": "dsh plugin --profile web add whale-on-desk",
+          "profile": "web"
+        },
+        {
+          "install": "whale-on-desk",
+          "command": "dsh plugin add whale-on-desk",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "whale-on-desk",
+      "version": "3.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cookiesheep/whale-on-desk",
+        "commit": "d50a2e45eddcb6cd1483820f9c4c1e8991913581"
+      },
+      "manifestSha256": "ba203eaef391b2a2359813eb31eb118b753023855762beb36c00f3d13f8a5a05",
+      "manifestUrl": "https://github.com/cookiesheep/whale-on-desk/blob/d50a2e45eddcb6cd1483820f9c4c1e8991913581/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "whale-on-desk",
+        "versions": [
+          {
+            "version": "3.0.0",
+            "publishTimestamp": 1787146763,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cookiesheep/whale-on-desk",
+              "commit": "d50a2e45eddcb6cd1483820f9c4c1e8991913581"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "whale-on-desk",
+      "origin": "npm",
+      "name": "whale-on-desk",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "whale-on-desk",
+        "title": "whale-on-desk",
+        "description": "A pixel-art whale desktop companion for DeepSeek Harness — it swims while your agents work and taps the glass when an approval is waiting.",
+        "homepage": "https://cookiesheep.github.io/whale-on-desk",
+        "repository": {
+          "url": "https://github.com/cookiesheep/whale-on-desk"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "desktop-pet",
+            "web-ui",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "3.0.0",
+            "publishTimestamp": 1787147063,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "24b046ee30d7a195205073b6fb2f0e884d0233e02cc7f48bb2d3339e089ba299",
+      "evidence": [
+        {
+          "name": "whale-on-desk",
+          "version": "3.0.0",
+          "tarball": "https://registry.npmjs.org/whale-on-desk/-/whale-on-desk-3.0.0.tgz",
+          "integrity": "sha512-g5KIb8OS7Pc8tn/er0lmba8BVpEeTgwY3qIrnAuyHdFBSfYoxcd8sTHnXgkYy+RaWQrYLRBccoo9K8KB9SEBUA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "whale-on-desk",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cookiesheep/whale-on-desk",
+    "commit": "d50a2e45eddcb6cd1483820f9c4c1e8991913581",
+    "releaseTags": 43,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:38.993Z"
+}

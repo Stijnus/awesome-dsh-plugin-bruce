@@ -1,0 +1,139 @@
+{
+  "full_name": "better-er/dsh-tool-autoexpand",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:48.672Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0f7340c65be040a844d194dcf92b322c5b3100de50a6f7e72a49b71e73e103d1",
+      "url": "https://github.com/better-er/dsh-tool-autoexpand/blob/9c01f235b7288d1bd74191755908a415aec27e0d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/better-er/dsh-tool-autoexpand",
+          "command": "dsh plugin --profile web add github:better-er/dsh-tool-autoexpand",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tool-autoexpand",
+          "command": "dsh plugin --profile web add dsh-tool-autoexpand",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tool-autoexpand",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/better-er/dsh-tool-autoexpand",
+        "commit": "9c01f235b7288d1bd74191755908a415aec27e0d"
+      },
+      "manifestSha256": "90a5987880412ce98a36d53e369a60a10b5cfd79f21da99a4bc55ae7a988f43d",
+      "manifestUrl": "https://github.com/better-er/dsh-tool-autoexpand/blob/9c01f235b7288d1bd74191755908a415aec27e0d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-tool-autoexpand",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1790949253,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/better-er/dsh-tool-autoexpand",
+              "commit": "9c01f235b7288d1bd74191755908a415aec27e0d"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tool-autoexpand",
+      "origin": "npm",
+      "name": "dsh-tool-autoexpand",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tool-autoexpand",
+        "title": "dsh-tool-autoexpand",
+        "description": "「DSH·工具结果自动展开」：在 DSH web 界面自动展开工具调用卡片，支持侧边栏开关。标准可安装的 dsh 客户端插件。",
+        "repository": {
+          "url": "https://github.com/better-er/dsh-tool-autoexpand"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "tool-call",
+            "autoexpand",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1790768182,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "060c96af6f08fa9d5357d9644e8195e4b66fe009edaa538b6d5e58c149510b74",
+      "evidence": [
+        {
+          "name": "dsh-tool-autoexpand",
+          "version": "0.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-tool-autoexpand/-/dsh-tool-autoexpand-0.3.2.tgz",
+          "integrity": "sha512-c/XIEI9SsEUfLOm0sFzaAB4eJkEqYUyr0iuZTSOUHi09QF1djdQpzJrjQanQh6ipjFhDWc4rG0GxOODliZwing=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/better-er/dsh-tool-autoexpand",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tool-autoexpand",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/better-er/dsh-tool-autoexpand",
+    "commit": "9c01f235b7288d1bd74191755908a415aec27e0d",
+    "releaseTags": 9,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:58.515Z"
+}

@@ -1,0 +1,222 @@
+{
+  "full_name": "PerryLink/dsh-local-ai",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:35.229Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c178b8b6ac8025c667bd45405d0bf8c2794b045a35facdf201b927c98f0db9d7",
+      "url": "https://github.com/PerryLink/dsh-local-ai/blob/db47771a9debe36a68b8526101c867c01aa3c6c1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-local-ai",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-local-ai",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-local-ai",
+          "command": "dsh plugin --profile web add dsh-local-ai",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "1d12ea7ac0560a171ad9b3093922e84ceb5125b7c8d193a50038041c4ab54904",
+      "url": "https://github.com/PerryLink/dsh-local-ai/blob/db47771a9debe36a68b8526101c867c01aa3c6c1/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-local-ai",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-local-ai",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-local-ai",
+          "command": "dsh plugin --profile web add dsh-local-ai",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "7d5c8d589d6c4b2549436ac23eb0363512a5ce6aa61e4c81a6d47cd2d77d47be",
+      "url": "https://github.com/PerryLink/dsh-local-ai/blob/db47771a9debe36a68b8526101c867c01aa3c6c1/README-es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-local-ai",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-local-ai",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-local-ai",
+          "command": "dsh plugin --profile web add dsh-local-ai",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "c8766ee0079c6d9de23dc40459d6368d804297e5314e1f33354065293986073f",
+      "url": "https://github.com/PerryLink/dsh-local-ai/blob/db47771a9debe36a68b8526101c867c01aa3c6c1/README-pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-local-ai",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-local-ai",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-local-ai",
+          "command": "dsh plugin --profile web add dsh-local-ai",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "0b7f3847bad19b960ea816df4d4f6d98ece2d9afd1e23fa3050a336dae9541a3",
+      "url": "https://github.com/PerryLink/dsh-local-ai/blob/db47771a9debe36a68b8526101c867c01aa3c6c1/README-hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-local-ai",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-local-ai",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-local-ai",
+          "command": "dsh plugin --profile web add dsh-local-ai",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-local-ai",
+      "version": "0.2.19",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-local-ai",
+        "commit": "db47771a9debe36a68b8526101c867c01aa3c6c1"
+      },
+      "manifestSha256": "dcf6a77416406b28678b5d99b4eca2a25e26d658d186def82919a8d623a3099a",
+      "manifestUrl": "https://github.com/PerryLink/dsh-local-ai/blob/db47771a9debe36a68b8526101c867c01aa3c6c1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-local-ai",
+        "versions": [
+          {
+            "version": "0.2.19",
+            "publishTimestamp": 1791813000,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-local-ai",
+              "commit": "db47771a9debe36a68b8526101c867c01aa3c6c1"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-local-ai",
+      "origin": "npm",
+      "name": "dsh-local-ai",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-local-ai",
+        "title": "dsh-local-ai",
+        "description": "Local-model (Ollama) integration for DeepSeek Harness: discover, pull, remove, and inspect local models, route requests to them by task type or keyword with automatic fallback to the cloud, and get a one-shot status overview via /ollama.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-local-ai#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-local-ai"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "ollama",
+            "local-llm",
+            "local-models",
+            "offline",
+            "privacy",
+            "model-routing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.19",
+            "publishTimestamp": 1791594687,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "82ce553e88b996db8c77b4483520bdf991fa04303e56c9d71068359bb011955f",
+      "evidence": [
+        {
+          "name": "dsh-local-ai",
+          "version": "0.2.19",
+          "tarball": "https://registry.npmjs.org/dsh-local-ai/-/dsh-local-ai-0.2.19.tgz",
+          "integrity": "sha512-AJkGxD9NqJrEM1kR3NGHft+g9XobRJzdHXYc2/cVgG5ar131UP81rBb6JuzU3e6ZQNrz70Vb/4YYf85KTZ+dbg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-local-ai",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-local-ai",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-local-ai",
+    "commit": "db47771a9debe36a68b8526101c867c01aa3c6c1",
+    "releaseTags": 25,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:41.929Z"
+}

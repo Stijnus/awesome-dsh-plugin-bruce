@@ -1,0 +1,145 @@
+{
+  "full_name": "Tkingxiao/dsh-novel-solo",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:24.623Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1e25be21bd712bb521c95d9106fed01a2ae3a7a2d2bd4195086779db5de2c763",
+      "url": "https://github.com/Tkingxiao/dsh-novel-solo/blob/c7fc43a088d22b3c0c68f0aacf9bd68534e99188/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-novel-solo",
+          "command": "dsh plugin --profile web add \"dsh-novel-solo\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8fc27a2cff3fef86f184811b8d7d13fe571f7061b88e9c5bc06922f689f22fc2",
+      "url": "https://github.com/Tkingxiao/dsh-novel-solo/blob/c7fc43a088d22b3c0c68f0aacf9bd68534e99188/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-novel-solo",
+          "command": "dsh plugin --profile web add \"dsh-novel-solo\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-novel-solo",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tkingxiao/dsh-novel-solo",
+        "commit": "c7fc43a088d22b3c0c68f0aacf9bd68534e99188"
+      },
+      "manifestSha256": "d225b88312ae61e2da51e04de419ff3d9aadd01c914d85c9069dcf4871aca1b9",
+      "manifestUrl": "https://github.com/Tkingxiao/dsh-novel-solo/blob/c7fc43a088d22b3c0c68f0aacf9bd68534e99188/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.3 || 0.2.1-rc.2 || >=0.1.7-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-novel-solo",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1792253314,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tkingxiao/dsh-novel-solo",
+              "commit": "c7fc43a088d22b3c0c68f0aacf9bd68534e99188"
+            },
+            "engines": {
+              "dsh": "0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.3 || 0.2.1-rc.2 || >=0.1.7-alpha.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-novel-solo",
+      "origin": "npm",
+      "name": "dsh-novel-solo",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-novel-solo",
+        "title": "dsh-novel-solo",
+        "description": "novel-solo helper for DeepSeek Harness: a subagent-count setting (1-12) card on the plugin page, saved into the host settings, mirrored to disk and consumed by the novel-solo preset to cap parallel subagent fan-out.",
+        "author": "Tkingxiao",
+        "homepage": "https://github.com/Tkingxiao/dsh-novel-solo#readme",
+        "repository": {
+          "url": "https://github.com/Tkingxiao/dsh-novel-solo"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "dsh-plugin",
+            "novel",
+            "settings"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1792257190,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.3 || 0.2.1-rc.2 || >=0.1.7-alpha.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9aa8db28ec789fa9bad493c7ef26859d3c94ae627dc2b10eccc309750547b907",
+      "evidence": [
+        {
+          "name": "dsh-novel-solo",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-novel-solo/-/dsh-novel-solo-0.2.1.tgz",
+          "integrity": "sha512-5NTllRVDk7unkWndomodh78Ut/WdfiUwCCinlz6C5gVtm8cN51FkHeDRsXj13zqZndJQ6a8qLPW2QDwGnYoIEQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-novel-solo",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tkingxiao/dsh-novel-solo",
+    "commit": "c7fc43a088d22b3c0c68f0aacf9bd68534e99188",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:29.553Z"
+}

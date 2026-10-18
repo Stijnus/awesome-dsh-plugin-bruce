@@ -1,0 +1,207 @@
+{
+  "full_name": "aklnaaw/dsh-claude-theme",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:18.887Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9018a81afc84cbc50c53bddd9a58f4035df80620cfdaa82a537444ac6237f94e",
+      "url": "https://github.com/aklnaaw/dsh-claude-theme/blob/8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "scripts/README.md",
+      "sha256": "deb76dca143579adba21b58aa178bcb3588ec0aeb2fc732deafaebb31473e70c",
+      "url": "https://github.com/aklnaaw/dsh-claude-theme/blob/8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e/scripts/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-claude-brand",
+      "version": "1.0.0",
+      "path": "brand-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aklnaaw/dsh-claude-theme",
+        "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+        "path": "brand-plugin"
+      },
+      "manifestSha256": "550f1969033daa0745aaed12c9e91b90de4be45b260333d683a35dad1c8263f9",
+      "manifestUrl": "https://github.com/aklnaaw/dsh-claude-theme/blob/8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e/brand-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-claude-brand",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792192126,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/aklnaaw/dsh-claude-theme",
+              "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+              "path": "brand-plugin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-claude-crab",
+      "version": "1.2.0",
+      "path": "crab-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aklnaaw/dsh-claude-theme",
+        "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+        "path": "crab-plugin"
+      },
+      "manifestSha256": "483342106a47dde7373017352d1e4b39d36c39c3dfade546b062bf5bc28db781",
+      "manifestUrl": "https://github.com/aklnaaw/dsh-claude-theme/blob/8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e/crab-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-claude-crab",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1792192126,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/aklnaaw/dsh-claude-theme",
+              "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+              "path": "crab-plugin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-font-switcher",
+      "version": "0.1.0",
+      "path": "plugins/font-switcher",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aklnaaw/dsh-claude-theme",
+        "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+        "path": "plugins/font-switcher"
+      },
+      "manifestSha256": "7ac8d72212be8853e355705265f6929c7ed4295d5bb569032d100f0bb6636036",
+      "manifestUrl": "https://github.com/aklnaaw/dsh-claude-theme/blob/8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e/plugins/font-switcher/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-font-switcher",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792192126,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/aklnaaw/dsh-claude-theme",
+              "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+              "path": "plugins/font-switcher"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lan-access",
+      "version": "0.1.0",
+      "path": "plugins/lan-access",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aklnaaw/dsh-claude-theme",
+        "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+        "path": "plugins/lan-access"
+      },
+      "manifestSha256": "fea10faea2407056483532698b8ab008707a668e35731ae8a42c763372bcdc4a",
+      "manifestUrl": "https://github.com/aklnaaw/dsh-claude-theme/blob/8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e/plugins/lan-access/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-lan-access",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792192126,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/aklnaaw/dsh-claude-theme",
+              "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+              "path": "plugins/lan-access"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-claude-skin",
+      "version": "1.0.0",
+      "path": "plugins/skin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aklnaaw/dsh-claude-theme",
+        "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+        "path": "plugins/skin"
+      },
+      "manifestSha256": "896ad1c5ccb75682b36eb3da0b7fba6d66753a4a793b0eff822cad9ecf6d1212",
+      "manifestUrl": "https://github.com/aklnaaw/dsh-claude-theme/blob/8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e/plugins/skin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-claude-skin",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792192126,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/aklnaaw/dsh-claude-theme",
+              "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+              "path": "plugins/skin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aklnaaw/dsh-claude-theme",
+    "commit": "8dc9fb4e5d79bf0bfa9b01158d811bfdec21f96e",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:25.042Z"
+}

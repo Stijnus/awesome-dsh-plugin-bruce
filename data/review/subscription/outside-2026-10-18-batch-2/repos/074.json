@@ -1,0 +1,155 @@
+{
+  "full_name": "dushaobindoudou/dsh-freeroute",
+  "originalPosition": 74,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 74,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:51.923Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "44b02cdc667046fa9a574d3a8a8754a8ec79dacb244f4256391dd25c2a0a57cb",
+      "url": "https://github.com/dushaobindoudou/dsh-freeroute/blob/9bfc9fa86a38ad037cf23f2a45a87282b7ca153b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-freeroute",
+          "command": "dsh plugin --profile web add dsh-freeroute",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "80582f75dca746d03113dd0f332194bb7353e89acd49b2a61eeea385961f26e6",
+      "url": "https://github.com/dushaobindoudou/dsh-freeroute/blob/9bfc9fa86a38ad037cf23f2a45a87282b7ca153b/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-freeroute",
+          "command": "dsh plugin --profile web add dsh-freeroute",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-freeroute",
+      "version": "0.8.19",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dushaobindoudou/dsh-freeroute",
+        "commit": "9bfc9fa86a38ad037cf23f2a45a87282b7ca153b"
+      },
+      "manifestSha256": "03fb4b3b786c736679a66d1fbbd72f6e1686c5da68c0fa8f1c7227d79a5ccc31",
+      "manifestUrl": "https://github.com/dushaobindoudou/dsh-freeroute/blob/9bfc9fa86a38ad037cf23f2a45a87282b7ca153b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-freeroute",
+        "versions": [
+          {
+            "version": "0.8.19",
+            "publishTimestamp": 1789706416,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dushaobindoudou/dsh-freeroute",
+              "commit": "9bfc9fa86a38ad037cf23f2a45a87282b7ca153b"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-freeroute",
+      "origin": "npm",
+      "name": "dsh-freeroute",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-freeroute",
+        "title": {
+          "en": "FreeRoute",
+          "zh": "FreeRoute"
+        },
+        "description": {
+          "en": "Aggregate free-tier and custom model upstreams with transparent failover and key rotation",
+          "zh": "聚合免费额度与自建模型上游：透明故障切换、多 Key 轮换、OpenAI 兼容端点"
+        },
+        "author": "dushaobindoudou",
+        "homepage": "https://github.com/dushaobindoudou/dsh-freeroute",
+        "repository": {
+          "url": "https://github.com/dushaobindoudou/dsh-freeroute"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis-plugin",
+            "openrouter",
+            "free-tier",
+            "llm-routing",
+            "failover",
+            "openai-compatible"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNOCAyN0M4IDIwIDEzIDE5IDE3IDE4LjRDMjEuNiAxNy43IDI2IDE2LjYgMjYgMTAuNiIgc3Ryb2tlPSJ1cmwoI2ZyX21haW4pIiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik04IDI3QzggMjIuNCAxMS4yIDIxLjIgMTQuNiAyMC44IiBzdHJva2U9IiNGMkFGNjMiIHN0cm9rZS13aWR0aD0iMi42IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1kYXNoYXJyYXk9IjAuMSA0LjYiIC8+CiAgPGNpcmNsZSBjeD0iOCIgY3k9IjI3IiByPSIzIiBmaWxsPSIjNjdDN0ZFIiAvPgogIDxjaXJjbGUgY3g9IjI2IiBjeT0iOSIgcj0iMyIgZmlsbD0iIzNGNzdEOCIgLz4KICA8Y2lyY2xlIGN4PSIyNiIgY3k9IjI0LjUiIHI9IjIuNCIgZmlsbD0iIzQ1RDlFNyIgLz4KICA8cGF0aCBkPSJNMjMuNCAyNC41QzIwLjggMjQuNSAxOS42IDI1LjQgMTguMiAyNi40IiBzdHJva2U9IiM0NUQ5RTciIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtZGFzaGFycmF5PSIwLjEgMy44IiAvPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJmcl9tYWluIiB4MT0iOCIgeTE9IjI3IiB4Mj0iMjYiIHkyPSI5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2N0M3RkUiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzNGNzdEOCIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.8.24",
+            "publishTimestamp": 1791613655,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "949ff17b82f36a26e208bde00f693149f4bfe444ec1296e743b7d66524f09299",
+      "evidence": [
+        {
+          "name": "dsh-freeroute",
+          "version": "0.8.24",
+          "tarball": "https://registry.npmjs.org/dsh-freeroute/-/dsh-freeroute-0.8.24.tgz",
+          "integrity": "sha512-bSrU+0/UozNSrzILy4vdRRyTwaIU2oBfw7p5BNQiZ7iK21V5JTQRLOszl+y0IlDQmlc0Rk+3GBJiMCdEEvtLEg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-freeroute",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dushaobindoudou/dsh-freeroute",
+    "commit": "9bfc9fa86a38ad037cf23f2a45a87282b7ca153b",
+    "releaseTags": 13,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:57.582Z"
+}

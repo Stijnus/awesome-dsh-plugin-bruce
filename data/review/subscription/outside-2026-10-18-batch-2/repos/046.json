@@ -1,0 +1,142 @@
+{
+  "full_name": "PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+  "originalPosition": 46,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 46,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:11.812Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d107cad1169c3270d7293315ca2400ff76c0896dc01aed7a1dc85010f6a9874c",
+      "url": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude/blob/a240ab43bd15fd4b2cc853d20bee2c749299134a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@pakiknowledge/dsh-client-ui-skin-claude",
+          "command": "dsh plugin --profile web add @pakiknowledge/dsh-client-ui-skin-claude",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+          "command": "dsh plugin --profile web add github:PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "7d595e1c2b336286af6d6093791b9f8d8348ea96ca01929e26113d5fbe4825e4",
+      "url": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude/blob/a240ab43bd15fd4b2cc853d20bee2c749299134a/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@pakiknowledge/dsh-client-ui-skin-claude",
+          "command": "dsh plugin --profile web add @pakiknowledge/dsh-client-ui-skin-claude",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+          "command": "dsh plugin --profile web add github:PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@pakiknowledge/dsh-client-ui-skin-claude",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+        "commit": "a240ab43bd15fd4b2cc853d20bee2c749299134a"
+      },
+      "manifestSha256": "8262c2273b86e38ea25882e07b2c4dd13393e27c6c4e59be2d515483a4bf6631",
+      "manifestUrl": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude/blob/a240ab43bd15fd4b2cc853d20bee2c749299134a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@pakiknowledge/dsh-client-ui-skin-claude",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1788275155,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+              "commit": "a240ab43bd15fd4b2cc853d20bee2c749299134a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@pakiknowledge/dsh-client-ui-skin-claude",
+      "origin": "npm",
+      "name": "@pakiknowledge/dsh-client-ui-skin-claude",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@pakiknowledge/dsh-client-ui-skin-claude",
+        "title": "@pakiknowledge/dsh-client-ui-skin-claude",
+        "description": "Claude-style skin for the dsh web GUI — warm-black canvas, clay accent, Anthropic Sans UI / Serif body font modes, follows the native light/dark theme",
+        "repository": {
+          "url": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude"
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1788356624,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "28bcea6207cd56674efd1ad2ebd9782175345ce038d3c5ab0a412e721a361b02",
+      "evidence": [
+        {
+          "name": "@pakiknowledge/dsh-client-ui-skin-claude",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/@pakiknowledge/dsh-client-ui-skin-claude/-/dsh-client-ui-skin-claude-0.2.1.tgz",
+          "integrity": "sha512-EAsMW/XQ2TSqevzCdrF7M9e9DwmNMUqrEO/rqld9QLYizh2sJuEoV4nHqtviZTftsALNNL8aXj2cmN3/ppSyYg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@pakiknowledge/dsh-client-ui-skin-claude",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+    "commit": "a240ab43bd15fd4b2cc853d20bee2c749299134a",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:18.284Z"
+}

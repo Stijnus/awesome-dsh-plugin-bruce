@@ -18,7 +18,7 @@ https://bruc3van.com/markets/dsh/index.json
 
 在 DSH `0.2.1-alpha.5` 中启用第三方市场功能后，打开 **插件 → 发现 → 管理索引源 → 添加索引源**，粘贴上面的地址并保存，即可浏览和安装索引中的插件。仅订阅官方「发现」页无需安装 `safer-dsh-market`；如需独立市场界面、多选安装和安装后 AI 审查，可另行安装市场插件。
 
-索引由 [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) 自动生成，通过 Cloudflare 上的 `bruc3van.com` 提供无重定向 JSON。收录经过核实的 npm 目标及固定完整提交的 Git 组合包，核实 bundle 声明、时间及官方宿主兼容范围规则，因此不是完整仓库目录；收录不代表安全审查或实机兼容保证。 订阅候选不受社区目录 600 条上限限制，自动补充已批准且有安装映射的仓库；官方发现页支持中英文分类、npm/Git 标签、关键词搜索及 Star/仓库更新时间排序。
+索引由 [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) 自动生成，通过 Cloudflare 上的 `bruc3van.com` 提供无重定向 JSON。收录经过核实的 npm 目标及固定完整提交的 Git 组合包，核实 bundle 声明、时间及官方宿主兼容范围规则，因此不是完整仓库目录；收录不代表安全审查或实机兼容保证。订阅先排除未审批、归档、禁用、黑名单及无效安装来源，再将通过核验的插件按仓库 Star 数降序选取前 600 个；官方发现页支持中英文分类、npm/Git 标签、关键词搜索及 Star/仓库更新时间排序。
 
 [查看索引生成与排除报告](https://bruc3van.com/markets/dsh/audit.json) · [最新版市场插件](https://www.npmjs.com/package/safer-dsh-market)
 
@@ -92,7 +92,7 @@ mindmap
 
 ### 🖥️ 桌面与终端
 
-- **想要独立的桌面客户端**，而不是浏览器标签页：优先使用[官方客户端](https://www.deepseek.com/harness/)。也可以考虑本列表作者开发的 [dsh-desktop](https://github.com/bruc3van/dsh-desktop) —— 原汁原味的官方 Web UI，不做过多修改；支持 macOS、Windows、Linux 三大平台，其中 Linux 是官方客户端之外独有的差异化特色；关闭窗口任务照跑，常驻托盘随点随开。安装包自带官方运行时，双击即用，不用装 Node.js、也不用敲命令；智能模式自动复用本机已运行的实例，固定地址模式则直连你自己维护的地址。安全上逐层加固——窗口沙箱、导航锁定、更新链路防劫持、权限最小化，内置安全市场，精选分类600+插件，主打先审查、再安装。
+- **想要独立的桌面客户端**，而不是浏览器标签页：优先使用[官方客户端](https://www.deepseek.com/harness/)。也可以考虑本列表作者开发的 [dsh-desktop](https://github.com/bruc3van/dsh-desktop) —— 原汁原味的官方 Web UI，不做过多修改；支持 macOS、Windows、Linux 三大平台，其中 Linux 是官方客户端之外独有的差异化特色；关闭窗口任务照跑，常驻托盘随点随开。安装包自带官方运行时，双击即用，不用装 Node.js、也不用敲命令；智能模式自动复用本机已运行的实例，固定地址模式则直连你自己维护的地址。安全上逐层加固——窗口沙箱、导航锁定、更新链路防劫持、权限最小化，内置安全市场，最多精选 600 款插件，主打先审查、再安装。
 - **想在终端里用 Claude Code 风格界面**：[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) —— 全屏交互终端：状态行、思考流展开、上下文/TPS 仪表；tianshu 版本还内置 TDD 与证据门工作流。
 - **想在安卓手机上本地跑 DSH**：[dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) —— 安卓壳 APK：WebView UI + 内嵌 Termux 运行时、SAF 目录桥、保活服务与看门狗。只想用手机遥控电脑上已在跑的 DSH，见下方 [dsh-pocket](https://github.com/shaobeichen/dsh-pocket)。
 
@@ -391,7 +391,7 @@ mindmap
 
 **作者维护**
 
-- **[dsh-desktop](https://github.com/bruc3van/dsh-desktop)** — 让 Agent 安全常驻桌面的独立 DeepSeek Harness 客户端。原汁原味的官方 Web UI，不做过多修改；关窗任务照跑，常驻托盘随点随开；安装包自带官方运行时，双击即用；智能模式复用已有实例、固定地址直连自己的实例。安全上逐层加固，内置安全市场精选 600+ 插件，先审查、再安装。（其内置市场的目录数据即来自本仓库的 [`market.json`](./data/market.json)。）
+- **[dsh-desktop](https://github.com/bruc3van/dsh-desktop)** — 让 Agent 安全常驻桌面的独立 DeepSeek Harness 客户端。原汁原味的官方 Web UI，不做过多修改；关窗任务照跑，常驻托盘随点随开；安装包自带官方运行时，双击即用；智能模式复用已有实例、固定地址直连自己的实例。安全上逐层加固，内置安全市场最多精选 600 款插件，先审查、再安装。（其内置市场的目录数据即来自本仓库的 [`market.json`](./data/market.json)。）
 - **[dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market)** — 先审查再安装的 DSH 市场（review-before-install DSH marketplace）。（消费本仓库 [`market.json`](./data/market.json) 的下游市场，DSH 桌面端内置的「插件市场」即由它实现。）
 - **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — 面向 AI Agent 的 Markdown 转 Word 工具：中文排版、Mermaid 图表转图片、可编辑数学公式，同一份内容提供 Skill、独立 CLI 与 DSH 插件三种形态。（同见目录 [agents-workflows 分册](./catalog/agents-workflows.md)。）
 

@@ -1,0 +1,77 @@
+{
+  "full_name": "Angel2518975237/deepseek-harness-hello-kitty-suite",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:07.579Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2c1cc9ede7f2579bac6ebf9deb2859cb6571d36f4a88276df46098df8342505b",
+      "url": "https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite/blob/1b8cd7e74ae9bb5cc53b82d6ce55dc134d2cc818/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite.git",
+          "command": "dsh plugin --profile web add https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-harness-hello-kitty-suite",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite",
+        "commit": "1b8cd7e74ae9bb5cc53b82d6ce55dc134d2cc818"
+      },
+      "manifestSha256": "c81110354ca286220483bc39d403e4596b67b24b18835a0482b1553b744a7449",
+      "manifestUrl": "https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite/blob/1b8cd7e74ae9bb5cc53b82d6ce55dc134d2cc818/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "deepseek-harness-hello-kitty-suite",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1789038308,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite",
+              "commit": "1b8cd7e74ae9bb5cc53b82d6ce55dc134d2cc818"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite",
+    "commit": "1b8cd7e74ae9bb5cc53b82d6ce55dc134d2cc818",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:13.348Z"
+}

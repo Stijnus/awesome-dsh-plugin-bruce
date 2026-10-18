@@ -1,0 +1,116 @@
+{
+  "full_name": "luweiyabo/dsh-whale-pet",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:08:24.858Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1a63b7221d9812f30f9c6978a6c6ec7e17b19c54db587a711d07ff8217401218",
+      "url": "https://github.com/luweiyabo/dsh-whale-pet/blob/4c9ad7ff8c8ad640a827525b3512ca544572e9ca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@luweiyabo/dsh-whale-pet",
+          "command": "dsh plugin --profile web add @luweiyabo/dsh-whale-pet",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/luweiyabo/dsh-whale-pet",
+          "command": "dsh plugin --profile web add github:luweiyabo/dsh-whale-pet",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "f79f0b1209eb81ef2149ab2ce95a48a90de80d47365f2d6b84a2e815d43c7eef",
+      "url": "https://github.com/luweiyabo/dsh-whale-pet/blob/4c9ad7ff8c8ad640a827525b3512ca544572e9ca/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@luweiyabo/dsh-whale-pet",
+          "command": "dsh plugin --profile web add @luweiyabo/dsh-whale-pet",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/luweiyabo/dsh-whale-pet",
+          "command": "dsh plugin --profile web add github:luweiyabo/dsh-whale-pet",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@luweiyabo/dsh-whale-pet",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/luweiyabo/dsh-whale-pet",
+        "commit": "4c9ad7ff8c8ad640a827525b3512ca544572e9ca"
+      },
+      "manifestSha256": "fdfd9e5874ad7f2ce49603e72c0eb904caa8a9649534e9f86e743b6c111047f5",
+      "manifestUrl": "https://github.com/luweiyabo/dsh-whale-pet/blob/4c9ad7ff8c8ad640a827525b3512ca544572e9ca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.2.0-0 || >=0.1.2-rc.1 <0.2.0-0 >=0.1.0-rc.6 || >=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@luweiyabo/dsh-whale-pet",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1791086176,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/luweiyabo/dsh-whale-pet",
+              "commit": "4c9ad7ff8c8ad640a827525b3512ca544572e9ca"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0-0 || >=0.1.2-rc.1 <0.2.0-0 >=0.1.0-rc.6 || >=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@luweiyabo/dsh-whale-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/luweiyabo/dsh-whale-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "@luweiyabo/dsh-whale-pet",
+      "reason": "The operation was aborted due to timeout"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/luweiyabo/dsh-whale-pet",
+    "commit": "4c9ad7ff8c8ad640a827525b3512ca544572e9ca",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:09:41.534Z",
+  "resolution": "npm 安装目标连续两次超时；仓库默认分支 bundle 已核验且声明范围包含 0.2.1-alpha.5，改用固定 Git 提交。"
+}

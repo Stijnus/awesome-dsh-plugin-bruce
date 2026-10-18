@@ -1,0 +1,129 @@
+{
+  "full_name": "xinchen03/minta",
+  "originalPosition": 40,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 40,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:58.955Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23c3e7a94f03ec8a8b840f24f18249daad3c95b5295871918162a3a9202ff43d",
+      "url": "https://github.com/xinchen03/minta/blob/4255d6eec620361e76a52b5eb24608478a3c6835/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xxinchen/dsh-plugin",
+          "command": "dsh plugin --profile web add @xxinchen/dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "1aebe6b2a684a4be4faa70a485d8fa43e36e7df0456787f2cd2b71c2e4a3f474",
+      "url": "https://github.com/xinchen03/minta/blob/4255d6eec620361e76a52b5eb24608478a3c6835/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xxinchen/dsh-plugin",
+          "command": "dsh plugin --profile web add @xxinchen/dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xxinchen/dsh-plugin",
+      "version": "0.2.2",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xinchen03/minta",
+        "commit": "4255d6eec620361e76a52b5eb24608478a3c6835",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "0e38a772eaf11870d8700e6f28e80bb68f19cf47c344c9d3803203e1b6623c2e",
+      "manifestUrl": "https://github.com/xinchen03/minta/blob/4255d6eec620361e76a52b5eb24608478a3c6835/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@xxinchen/dsh-plugin",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1791353927,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xinchen03/minta",
+              "commit": "4255d6eec620361e76a52b5eb24608478a3c6835",
+              "path": "dsh-plugin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@xxinchen/dsh-plugin",
+      "origin": "npm",
+      "name": "@xxinchen/dsh-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@xxinchen/dsh-plugin",
+        "title": "@xxinchen/dsh-plugin",
+        "description": "Minta for DeepSeek Harness — bundles the MCP wiring, a real Cordis plugin (runtime skill + session-start prewarm), and the minta agent preset (per-turn preflight/postflight protocol) over the Minta memory engine.",
+        "repository": {
+          "url": "https://github.com/xinchen03/minta"
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1788848491,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "68055c622ac8e42daface8474e169f6d0c08c2e01d5271471a97a5dbb7d97b72",
+      "evidence": [
+        {
+          "name": "@xxinchen/dsh-plugin",
+          "version": "0.2.2",
+          "tarball": "https://registry.npmjs.org/@xxinchen/dsh-plugin/-/dsh-plugin-0.2.2.tgz",
+          "integrity": "sha512-fUkXnS41gOHclMjX83WhoPHYHzV+Yh6ZtAuE9kW04oACVyKx6UXl+vQWEtxWR2fCaYUnVB5pgLlZrpt4cmEKIg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@xxinchen/dsh-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xinchen03/minta",
+    "commit": "4255d6eec620361e76a52b5eb24608478a3c6835",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:08.447Z"
+}

@@ -1,0 +1,165 @@
+{
+  "full_name": "appthin/dsh-mcp-manager-plus",
+  "originalPosition": 70,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 70,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:44.392Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ebaa5bf2e04a98515b40a40e0db65bcdda8ec5ac99db77ed814393ecac269036",
+      "url": "https://github.com/appthin/dsh-mcp-manager-plus/blob/9a29d1a7fb76ccf32b8c987f9833f244b285cb0e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp-manager-plus",
+          "command": "dsh plugin --profile web add dsh-mcp-manager-plus",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/appthin/dsh-mcp-manager-plus.git",
+          "command": "dsh plugin --profile web add https://github.com/appthin/dsh-mcp-manager-plus.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "27cfbc5866c1c7e612fc6212329f621bb7d273dff47ac0dfc5c9c7b1a52fda79",
+      "url": "https://github.com/appthin/dsh-mcp-manager-plus/blob/9a29d1a7fb76ccf32b8c987f9833f244b285cb0e/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp-manager-plus",
+          "command": "dsh plugin --profile web add dsh-mcp-manager-plus",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/appthin/dsh-mcp-manager-plus.git",
+          "command": "dsh plugin --profile web add https://github.com/appthin/dsh-mcp-manager-plus.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mcp-manager-plus",
+      "version": "0.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/appthin/dsh-mcp-manager-plus",
+        "commit": "9a29d1a7fb76ccf32b8c987f9833f244b285cb0e"
+      },
+      "manifestSha256": "7f732aeb3bb057293d393591e39f6c75bad59b83e0e9f171951910d8d518f396",
+      "manifestUrl": "https://github.com/appthin/dsh-mcp-manager-plus/blob/9a29d1a7fb76ccf32b8c987f9833f244b285cb0e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-mcp-manager-plus",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1792042595,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/appthin/dsh-mcp-manager-plus",
+              "commit": "9a29d1a7fb76ccf32b8c987f9833f244b285cb0e"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mcp-manager-plus",
+      "origin": "npm",
+      "name": "dsh-mcp-manager-plus",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mcp-manager-plus",
+        "title": {
+          "en": "MCP Manager",
+          "zh": "MCP 管理"
+        },
+        "description": {
+          "en": "Manage the MCP servers you have added — enable, configure, or add new tool capabilities.",
+          "zh": "管理您已添加的 MCP 服务器，可启用、配置或添加新的工具能力。"
+        },
+        "repository": {
+          "url": "https://github.com/appthin/dsh-mcp-manager-plus"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "mcp",
+            "model-context-protocol"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik1DUCBNYW5hZ2VyIFBsdXMiPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSIjMjQ3YmJmIi8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYgMTYpIHNjYWxlKDIpIiBmaWxsPSIjZmZmZmZmIj4KICAgIDxwYXRoIGQ9Ik05Ljk0MTMzIDYuNTAxNzNDMTEuMzIxOCA3Ljk5NjAzIDExLjMyMTggMTAuMzAxMSA5Ljk0MTI4IDExLjc5NTRDOS44ODY5MSAxMS44NTQyIDkuODIxMjUgMTEuOTE5NiA5LjcyMDk5IDEyLjAxOThMNy43NTcwNyAxMy45ODM4QzcuNjU3MDkgMTQuMDgzOCA3LjU5MiAxNC4xNDkxIDcuNTMzMzQgMTQuMjAzNEM2LjAzOTA2IDE1LjU4NDMgMy43MzI3IDE1LjU4NTQgMi4yMzgyNyAxNC4yMDQ4QzIuMTc5MzMgMTQuMTUwMyAyLjExMzc0IDE0LjA4NDQgMi4wMTMxNSAxMy45ODM4QzEuOTEzMTggMTMuODgzOSAxLjg0OTIyIDEzLjgxODggMS43OTQ5NSAxMy43NjAxQzAuNDEzODU3IDEyLjI2NTcgMC40MTM5MDkgOS45NTk0OCAxLjc5NSA4LjQ2NTAzQzEuODQ5MjMgOC40MDY0IDEuOTEzMzUgOC4zNDExNSAyLjAxMzIxIDguMjQxMjlMMy43OTI3NSA2LjQ2MzEzQzMuNzE4MTQgNy4wODEwMSAzLjc1MjM2IDcuNzE0NDUgMy45MDExNSA4LjMzNTE4TDMuMDAzNDQgOS4yMzE1MUMyLjg5Mzk4IDkuMzQwOTcgMi44NTM1IDkuMzgzMDcgMi44MjI1MSA5LjQxNjU4QzEuOTM3NzEgMTAuMzc0NCAxLjkzNzA0IDExLjg1MTQgMi44MjE3OSAxMi44MDkyQzIuODUyNzkgMTIuODQyNyAyLjg5MzgzIDEyLjg4NCAzLjAwMzQgMTIuOTkzNkMzLjExMjcyIDEzLjEwMjkgMy4xNTQyOSAxMy4xNDQyIDMuMTg3NzcgMTMuMTc1MkM0LjE0NTYxIDE0LjA2MDMgNS42MjM4MSAxNC4wNjA4IDYuNTgxNzggMTMuMTc1OEM2LjYxNTMyIDEzLjE0NDggNi42NTcyMiAxMy4xMDMyIDYuNzY2ODUgMTIuOTkzNUw4LjczMDc3IDExLjAyOTZDOC44Mzk5OSAxMC45MjA0IDguODgxNDIgMTAuODc4NyA4LjkxMjM4IDEwLjg0NTJDOS43OTc0NCA5Ljg4NzI4IDkuNzk2OSA4LjQwOTExIDguOTExNzMgNy40NTEyNEM4Ljg4MDc0IDcuNDE3NzUgOC44Mzk0NCA3LjM3NjIgOC43MzAxMSA3LjI2Njg3QzguNjIwODIgNy4xNTc1NyA4LjU4MDYxIDcuMTE2MjMgOC41NDcxMiA3LjA4NTI2QzguMzczNDcgNi45MjQ3NyA4LjE4MjQzIDYuNzkzNjEgNy45ODA4OCA2LjY5MTY1TDkuMDAyODkgNS42Njk2NEM5LjE3NTA2IDUuNzgzNzMgOS4zNDAzNSA1LjkxMjY1IDkuNDk2NjMgNi4wNTcwM0M5LjU1NTM4IDYuMTExMzUgOS42MjAyNiA2LjE3NjUyIDkuNzIwMzYgNi4yNzY2MkM5LjgyMDk0IDYuMzc3MiA5Ljg4Njg2IDYuNDQyOCA5Ljk0MTMzIDYuNTAxNzNaIi8+CiAgICA8cGF0aCBkPSJNNi4wNjgxNiA5LjQ5MTk2QzQuNjg2MjYgNy45OTcyNCA0LjY4NjY3IDUuNjg5NDIgNi4wNjg4NSA0LjE5NDg3QzYuMTIyNjggNC4xMzY3MSA2LjE4Nzg5IDQuMDczMDYgNi4yODcwNiAzLjk3MzlMOC4yNDU0MSAyLjAxNDE2QzguMzQ0NzggMS45MTQ3OSA4LjQxMDE4IDEuODUwNTUgOC40Njg0NSAxLjc5NjY1QzkuOTYzMDEgMC40MTQ5MDIgMTIuMjY4OSAwLjQxNDkyMiAxMy43NjM1IDEuNzk2NjVDMTMuODIxNyAxLjg1MDUxIDEzLjg4NjYgMS45MTU1OSAxMy45ODU4IDIuMDE0ODZDMTQuMDg0OSAyLjExMzk0IDE0LjE1MDIgMi4xNzc2OSAxNC4yMDQgMi4yMzU4M0MxNS41ODYxIDMuNzMwNCAxNS41ODY2IDYuMDM4MjMgMTQuMjA0NyA3LjUzMjkxQzE0LjE1MDggNy41OTEyNSAxNC4wODU0IDcuNjU2MzggMTMuOTg1OCA3Ljc1NTk1TDEyLjE5OTQgOS41NDA5OEMxMi4yNjE0IDguOTI5ODIgMTIuMjE4NSA4LjMwNTg3IDEyLjA2MzQgNy42OTY1N0wxMi45OTU2IDYuNzY1NzNDMTMuMTA0NCA2LjY1NjkyIDEzLjE0NTggNi42MTUyOSAxMy4xNzY1IDYuNTgyMDVDMTQuMDYyMSA1LjYyNDA0IDE0LjA2MjEgNC4xNDU0IDEzLjE3NjUgMy4xODczOEMxMy4xNDU4IDMuMTU0MTkgMTMuMTA0IDMuMTEzNSAxMi45OTU2IDMuMDA1MDhDMTIuODg3NyAyLjg5NzE2IDEyLjg0NzEgMi44NTU1MSAxMi44MTQgMi44MjQ4NUMxMS44NTU5IDEuOTM4OSAxMC4zNzYgMS45Mzg4NiA5LjQxNzk0IDIuODI0ODVDOS4zODQ3OSAyLjg1NTU0IDkuMzQzODEgMi44OTYyMiA5LjIzNTY0IDMuMDA0MzlMNy4yNzcyOCA0Ljk2NDEzQzcuMTY4NzUgNS4wNzI2NSA3LjEyNzA4IDUuMTEzMjIgNy4wOTYzNiA1LjE0NjQzQzYuMjEwNzQgNi4xMDQ0MSA2LjIxMTUzIDcuNTgyMzYgNy4wOTcwNSA4LjU0MDRDNy4xMjc3NSA4LjU3MzU3IDcuMTY4MjYgOC42MTU3NSA3LjI3NjU5IDguNzI0MDhDNy4zODQ1NiA4LjgzMjA1IDcuNDI2NDcgOC44NzIyNyA3LjQ1OTU4IDguOTAyOTNDNy42Mjg0OSA5LjA1OTEgNy44MTMwOSA5LjE4ODEgOC4wMDg1NiA5LjI4ODk0TDYuOTg3OTUgMTAuMzA5NUM2LjgyMTExIDEwLjE5NzggNi42NjA1MiAxMC4wNzE1IDYuNTA4NzIgOS45MzExNEM2LjQ1MDU3IDkuODc3MzMgNi4zODU0NyA5LjgxMzQxIDYuMjg2MzcgOS43MTQzMUM2LjE4NzEgOS42MTUwNCA2LjEyMjAyIDkuNTUwMTggNi4wNjgxNiA5LjQ5MTk2WiIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1792041641,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "274fbc3f365a52f2e9f4dee94833e3181f17eb98ca932abf27b23ce4d7b78d9d",
+      "evidence": [
+        {
+          "name": "dsh-mcp-manager-plus",
+          "version": "0.4.4",
+          "tarball": "https://registry.npmjs.org/dsh-mcp-manager-plus/-/dsh-mcp-manager-plus-0.4.4.tgz",
+          "integrity": "sha512-IYCrrTwjxZuo5n1g41li4Gy/JPUMTLf/dWvBLZCFBJ8iyXtHhv5W4zE3a/TB7IBjdpbwVjQyBqdqnBlZ42kP6g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mcp-manager-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/appthin/dsh-mcp-manager-plus.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/appthin/dsh-mcp-manager-plus",
+    "commit": "9a29d1a7fb76ccf32b8c987f9833f244b285cb0e",
+    "releaseTags": 6,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:49.666Z"
+}

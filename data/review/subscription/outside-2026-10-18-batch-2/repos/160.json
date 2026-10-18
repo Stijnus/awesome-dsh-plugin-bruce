@@ -1,0 +1,139 @@
+{
+  "full_name": "better-er/dsh-edit-diff",
+  "originalPosition": 160,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 160,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:45.188Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d83d6a85a20862f26d6bcc239a84754292a6681f779debe9550a6a1e59bd5c97",
+      "url": "https://github.com/better-er/dsh-edit-diff/blob/2eaeb5e869534dac66567006148183260b5b5e1e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/better-er/dsh-edit-diff",
+          "command": "dsh plugin --profile web add github:better-er/dsh-edit-diff",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-edit-diff",
+          "command": "dsh plugin --profile web add dsh-edit-diff",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-edit-diff",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/better-er/dsh-edit-diff",
+        "commit": "2eaeb5e869534dac66567006148183260b5b5e1e"
+      },
+      "manifestSha256": "c85108064022105dec40b9834cc77fd0d3776ed9dfd17af6542d0c46e7cc9bce",
+      "manifestUrl": "https://github.com/better-er/dsh-edit-diff/blob/2eaeb5e869534dac66567006148183260b5b5e1e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-edit-diff",
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1790949252,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/better-er/dsh-edit-diff",
+              "commit": "2eaeb5e869534dac66567006148183260b5b5e1e"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-edit-diff",
+      "origin": "npm",
+      "name": "dsh-edit-diff",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-edit-diff",
+        "title": "dsh-edit-diff",
+        "description": "「DSH·质量 diff」：接管 edit/write 及 extraTools 配置的其他工具卡片：行级去重与行内高亮，消除相同内容在删除与新增两区的重复；兼容 PTC 模式，标准可安装的 dsh 客户端插件",
+        "repository": {
+          "url": "https://github.com/better-er/dsh-edit-diff"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "diff",
+            "edit",
+            "review"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1790768243,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0cbba7fb688e62a086b856437a4571662d0270cdaec26f3534d816b61e9fd6f3",
+      "evidence": [
+        {
+          "name": "dsh-edit-diff",
+          "version": "0.4.2",
+          "tarball": "https://registry.npmjs.org/dsh-edit-diff/-/dsh-edit-diff-0.4.2.tgz",
+          "integrity": "sha512-eZ0DuW6IP0TbWJAGAZ2OGKFD2/sfLiGS9mt4YJA55NeFahQWCyH+p17/HbQV4A70LT8mhFiPBO7Wu9bAH+x+jQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/better-er/dsh-edit-diff",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-edit-diff",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/better-er/dsh-edit-diff",
+    "commit": "2eaeb5e869534dac66567006148183260b5b5e1e",
+    "releaseTags": 7,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:50.583Z"
+}

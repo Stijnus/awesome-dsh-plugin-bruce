@@ -1,0 +1,106 @@
+{
+  "full_name": "sgzeng/pbfuzz",
+  "originalPosition": 79,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 79,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:57.583Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b90e77811a6cd71dee181d27a89b1ebfbc8f97caaa2a0e442708420b9da9d781",
+      "url": "https://github.com/sgzeng/pbfuzz/blob/70d0b96dce14961ca184e10d96838902bee9bae1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@pbfuzz/dsh-kanalyzer",
+      "version": "0.1.0",
+      "path": "packages/dsh-kanalyzer",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sgzeng/pbfuzz",
+        "commit": "70d0b96dce14961ca184e10d96838902bee9bae1",
+        "path": "packages/dsh-kanalyzer"
+      },
+      "manifestSha256": "7d0d5c51df5af2893c534c2912a04a728bc12bc7af5352d2e3f19eb3714fc3c2",
+      "manifestUrl": "https://github.com/sgzeng/pbfuzz/blob/70d0b96dce14961ca184e10d96838902bee9bae1/packages/dsh-kanalyzer/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@pbfuzz/dsh-kanalyzer",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790929639,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sgzeng/pbfuzz",
+              "commit": "70d0b96dce14961ca184e10d96838902bee9bae1",
+              "path": "packages/dsh-kanalyzer"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@pbfuzz/dsh-pbfuzz",
+      "version": "0.1.0",
+      "path": "packages/dsh-pbfuzz",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sgzeng/pbfuzz",
+        "commit": "70d0b96dce14961ca184e10d96838902bee9bae1",
+        "path": "packages/dsh-pbfuzz"
+      },
+      "manifestSha256": "ca54a95c7c355bb7bae8ece2609be7d08e464e6dd3db982449483c9ee3738608",
+      "manifestUrl": "https://github.com/sgzeng/pbfuzz/blob/70d0b96dce14961ca184e10d96838902bee9bae1/packages/dsh-pbfuzz/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@pbfuzz/dsh-pbfuzz",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790929639,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sgzeng/pbfuzz",
+              "commit": "70d0b96dce14961ca184e10d96838902bee9bae1",
+              "path": "packages/dsh-pbfuzz"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sgzeng/pbfuzz",
+    "commit": "70d0b96dce14961ca184e10d96838902bee9bae1",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:02.899Z"
+}

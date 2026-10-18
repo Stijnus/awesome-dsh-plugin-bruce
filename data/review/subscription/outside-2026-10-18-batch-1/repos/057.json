@@ -1,0 +1,73 @@
+{
+  "full_name": "bihangchi9-creator/lark-agent-bridge",
+  "originalPosition": 57,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 57,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:54.813Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "072bcb49211db883c90ef49e90d76a02a619ad572785dc1935e7ee116abdf11c",
+      "url": "https://github.com/bihangchi9-creator/lark-agent-bridge/blob/5f5468ddf7a283f6f2f2111d105006cb5cfee60b/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "154427beded79c9b7ccef71d1d0309c930187357d46ea9dab8aa45dd422b14c5",
+      "url": "https://github.com/bihangchi9-creator/lark-agent-bridge/blob/5f5468ddf7a283f6f2f2111d105006cb5cfee60b/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@bihangchi9/lark-agent-bridge",
+      "version": "0.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bihangchi9-creator/lark-agent-bridge",
+        "commit": "5f5468ddf7a283f6f2f2111d105006cb5cfee60b"
+      },
+      "manifestSha256": "b6a99666ec5dfe3a6f31257026559ef802d850fa9a62274a728fa00145e7e670",
+      "manifestUrl": "https://github.com/bihangchi9-creator/lark-agent-bridge/blob/5f5468ddf7a283f6f2f2111d105006cb5cfee60b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@bihangchi9/lark-agent-bridge",
+        "versions": [
+          {
+            "version": "0.0.3",
+            "publishTimestamp": 1789719804,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bihangchi9-creator/lark-agent-bridge",
+              "commit": "5f5468ddf7a283f6f2f2111d105006cb5cfee60b"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bihangchi9-creator/lark-agent-bridge",
+    "commit": "5f5468ddf7a283f6f2f2111d105006cb5cfee60b",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:59.772Z"
+}

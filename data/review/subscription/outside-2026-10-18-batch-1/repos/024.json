@@ -1,0 +1,116 @@
+{
+  "full_name": "Zhenyu98/dsh-context-doctor",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:09.901Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d5fbcac3fec0d6392aefc4c9e35ecd40e0e042c44256687e85d8b1642054492",
+      "url": "https://github.com/Zhenyu98/dsh-context-doctor/blob/41d5c2e4bbe0611b7928c4007bb28545f7ace38f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Zhenyu98/dsh-context-doctor#main",
+          "command": "dsh plugin --profile web add \"github:Zhenyu98/dsh-context-doctor#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-context-doctor",
+      "version": "0.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zhenyu98/dsh-context-doctor",
+        "commit": "41d5c2e4bbe0611b7928c4007bb28545f7ace38f"
+      },
+      "manifestSha256": "f9ddebe6e5f9da71ea5c391b5ec929e272d3e90abcaff0732b7e2fa0a4eeeda6",
+      "manifestUrl": "https://github.com/Zhenyu98/dsh-context-doctor/blob/41d5c2e4bbe0611b7928c4007bb28545f7ace38f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-context-doctor",
+        "versions": [
+          {
+            "version": "0.7.2",
+            "publishTimestamp": 1788676172,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zhenyu98/dsh-context-doctor",
+              "commit": "41d5c2e4bbe0611b7928c4007bb28545f7ace38f"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Zhenyu98/dsh-context-doctor#main",
+      "origin": "git_target",
+      "name": "dsh-context-doctor",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-context-doctor",
+        "title": "dsh-context-doctor",
+        "description": "DSH 上下文注入审计插件：统计 AGENTS.md 指令链 / 技能目录 / 工具 schema / MCP 工具的 token 成本，检测重复与冲突；原生 Context Doctor 面板 + context_audit 工具。",
+        "versions": [
+          {
+            "version": "0.7.2",
+            "publishTimestamp": 1788676172,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zhenyu98/dsh-context-doctor",
+              "commit": "41d5c2e4bbe0611b7928c4007bb28545f7ace38f"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "41d5c2e4bbe0611b7928c4007bb28545f7ace38f",
+          "name": "dsh-context-doctor",
+          "version": "0.7.2",
+          "url": "https://github.com/Zhenyu98/dsh-context-doctor",
+          "manifestSha256": "f9ddebe6e5f9da71ea5c391b5ec929e272d3e90abcaff0732b7e2fa0a4eeeda6",
+          "publishTimestamp": 1788676172
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Zhenyu98/dsh-context-doctor#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zhenyu98/dsh-context-doctor",
+    "commit": "41d5c2e4bbe0611b7928c4007bb28545f7ace38f",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:21.714Z"
+}

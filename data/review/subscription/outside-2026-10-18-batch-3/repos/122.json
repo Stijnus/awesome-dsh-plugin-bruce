@@ -1,0 +1,76 @@
+{
+  "full_name": "NOirBRight/dsh-llm-ollama",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:48.944Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a542ecacd3ab5cc7b2c4a7e67ba5f018a646bf0fc43f75c266d9c0c0630d32fb",
+      "url": "https://github.com/NOirBRight/dsh-llm-ollama/blob/52c34e9246f1631c040cd3dfe328d4e9acea9554/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3be6b6940060732f4589d9472893da48af4fac7a03c661a613d723e8ac736eff",
+      "url": "https://github.com/NOirBRight/dsh-llm-ollama/blob/52c34e9246f1631c040cd3dfe328d4e9acea9554/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-ollama",
+      "version": "0.6.28",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NOirBRight/dsh-llm-ollama",
+        "commit": "52c34e9246f1631c040cd3dfe328d4e9acea9554"
+      },
+      "manifestSha256": "ca555905b101732bfab20264f30d33475410c187648bc9df43543d7f508393b2",
+      "manifestUrl": "https://github.com/NOirBRight/dsh-llm-ollama/blob/52c34e9246f1631c040cd3dfe328d4e9acea9554/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-llm-ollama",
+        "versions": [
+          {
+            "version": "0.6.28",
+            "publishTimestamp": 1790645476,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NOirBRight/dsh-llm-ollama",
+              "commit": "52c34e9246f1631c040cd3dfe328d4e9acea9554"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NOirBRight/dsh-llm-ollama",
+    "commit": "52c34e9246f1631c040cd3dfe328d4e9acea9554",
+    "releaseTags": 46,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:57.113Z"
+}

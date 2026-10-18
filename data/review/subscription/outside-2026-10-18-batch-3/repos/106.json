@@ -1,0 +1,96 @@
+{
+  "full_name": "1Lyn-en/dsh-whale",
+  "originalPosition": 106,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 106,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:29.805Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "75ee9e50f6c3d270865593dab4a41de8ec4dbc39ed095dc2ed2abb13eff00c63",
+      "url": "https://github.com/1Lyn-en/dsh-whale/blob/3bfc3a92ab79938da2d8d1e5936b3bc3cf9a7349/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/1Lyn-en/dsh-whale",
+          "command": "dsh plugin --profile web add github:1Lyn-en/dsh-whale",
+          "profile": "web"
+        },
+        {
+          "install": "@1lyn-en/dsh-whale",
+          "command": "dsh plugin --profile web add @1lyn-en/dsh-whale",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@1lyn-en/dsh-whale",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1Lyn-en/dsh-whale",
+        "commit": "3bfc3a92ab79938da2d8d1e5936b3bc3cf9a7349"
+      },
+      "manifestSha256": "7508ac44eba5854ea4adb8b66f79db21d2b411624aa0f31554ee1af7f48b7ea2",
+      "manifestUrl": "https://github.com/1Lyn-en/dsh-whale/blob/3bfc3a92ab79938da2d8d1e5936b3bc3cf9a7349/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc.1 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@1lyn-en/dsh-whale",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789895873,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1Lyn-en/dsh-whale",
+              "commit": "3bfc3a92ab79938da2d8d1e5936b3bc3cf9a7349"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1 <0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@1lyn-en/dsh-whale",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/1Lyn-en/dsh-whale",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@1lyn-en/dsh-whale",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1Lyn-en/dsh-whale",
+    "commit": "3bfc3a92ab79938da2d8d1e5936b3bc3cf9a7349",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:36.293Z"
+}

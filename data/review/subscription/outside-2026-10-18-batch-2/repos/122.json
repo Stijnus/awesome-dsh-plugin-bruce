@@ -1,0 +1,120 @@
+{
+  "full_name": "Norman-else/dsh-claude",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:53.363Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "edf7c4cd70bb17a4a88ba0602ca6377a8c4613725aa64081c063f9f6da08e3a6",
+      "url": "https://github.com/Norman-else/dsh-claude/blob/fe00e3af0b1ad03acc977b13b4d4ab805086f6da/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@norman-else/dsh-claude",
+          "command": "dsh plugin --profile desktop add @norman-else/dsh-claude",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@norman-else/dsh-claude",
+      "version": "0.1.65",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Norman-else/dsh-claude",
+        "commit": "fe00e3af0b1ad03acc977b13b4d4ab805086f6da"
+      },
+      "manifestSha256": "d383e173f9cb9afe841bf704be53be3d25da5d7e26f847bb6b8d4ecde76ed83d",
+      "manifestUrl": "https://github.com/Norman-else/dsh-claude/blob/fe00e3af0b1ad03acc977b13b4d4ab805086f6da/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@norman-else/dsh-claude",
+        "versions": [
+          {
+            "version": "0.1.65",
+            "publishTimestamp": 1791899543,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Norman-else/dsh-claude",
+              "commit": "fe00e3af0b1ad03acc977b13b4d4ab805086f6da"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@norman-else/dsh-claude",
+      "origin": "npm",
+      "name": "@norman-else/dsh-claude",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@norman-else/dsh-claude",
+        "title": "@norman-else/dsh-claude",
+        "description": "Run the local Claude Code CLI as a first-class main conversation inside DeepSeek Harness",
+        "homepage": "https://github.com/Norman-else/dsh-claude#readme",
+        "repository": {
+          "url": "https://github.com/Norman-else/dsh-claude"
+        },
+        "versions": [
+          {
+            "version": "0.1.65",
+            "publishTimestamp": 1791899665,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1c13a7093fcfa1e0579824b2d3a4cb652d5ea9cf228ced8862fed902b539fc38",
+      "evidence": [
+        {
+          "name": "@norman-else/dsh-claude",
+          "version": "0.1.65",
+          "tarball": "https://registry.npmjs.org/@norman-else/dsh-claude/-/dsh-claude-0.1.65.tgz",
+          "integrity": "sha512-sT7+Wy79G0S4tqOjdX9WR5lk7t2opJ6L1jYHL0jcy1zqRvRkwxfhdPeuqApDyB72JWgE8iyNNDkNwlvvoeJ9DQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@norman-else/dsh-claude",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Norman-else/dsh-claude",
+    "commit": "fe00e3af0b1ad03acc977b13b4d4ab805086f6da",
+    "releaseTags": 61,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:03.929Z"
+}

@@ -1,0 +1,281 @@
+{
+  "full_name": "a903067276-rgb/dsh-file-mentions",
+  "originalPosition": 68,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 68,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:43.839Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ee6f057ad358d6c236969e608d1a3bc6f44710123fac1768b5adbfe4ac4f2fa8",
+      "url": "https://github.com/a903067276-rgb/dsh-file-mentions/blob/9152c20cc6401e433d5ef77839e953e6adf43442/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-mentions#main",
+          "command": "dsh plugin --profile web add \"github:a903067276-rgb/dsh-file-mentions#main\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-mentions#v1.0.14",
+          "command": "dsh plugin --profile web add \"github:a903067276-rgb/dsh-file-mentions#v1.0.14\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-mentions#v1.0.8",
+          "command": "dsh plugin add github:a903067276-rgb/dsh-file-mentions#v1.0.8",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "8e2b30d391d9d5a422acfb587628507d94123294924368b02b575768e528f997",
+      "url": "https://github.com/a903067276-rgb/dsh-file-mentions/blob/9152c20cc6401e433d5ef77839e953e6adf43442/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-mentions#main",
+          "command": "dsh plugin --profile web add \"github:a903067276-rgb/dsh-file-mentions#main\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-mentions#v1.0.14",
+          "command": "dsh plugin --profile web add \"github:a903067276-rgb/dsh-file-mentions#v1.0.14\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/a903067276-rgb/dsh-file-mentions#v1.0.8",
+          "command": "dsh plugin add github:a903067276-rgb/dsh-file-mentions#v1.0.8",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-file-mentions",
+      "version": "1.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/a903067276-rgb/dsh-file-mentions",
+        "commit": "9152c20cc6401e433d5ef77839e953e6adf43442"
+      },
+      "manifestSha256": "fb26255e953c04203db646eeaebd1bc4d4605d526be9b846e60c89881120b007",
+      "manifestUrl": "https://github.com/a903067276-rgb/dsh-file-mentions/blob/9152c20cc6401e433d5ef77839e953e6adf43442/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-file-mentions",
+        "versions": [
+          {
+            "version": "1.2.3",
+            "publishTimestamp": 1792232438,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-file-mentions",
+              "commit": "9152c20cc6401e433d5ef77839e953e6adf43442"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/a903067276-rgb/dsh-file-mentions#main",
+      "origin": "git_target",
+      "name": "dsh-file-mentions",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-file-mentions",
+        "title": {
+          "en": "File Mentions",
+          "zh": "文件路径可点击"
+        },
+        "description": {
+          "en": "Turn file paths in replies into clickable links that open or reveal the file.",
+          "zh": "回复里提到的文件路径点一下就打开，并可在文件管理器中定位。"
+        },
+        "repository": {
+          "url": "https://github.com/a903067276-rgb/dsh-file-mentions"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "file-mentions",
+            "clickable-paths",
+            "codex",
+            "web-ui"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1maWxlLW1lbnRpb25zIj4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHJ4PSI1LjUiIGZpbGw9IiMyNTYzRUIiLz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1vcGFjaXR5PSIwLjg1Ij4KICAgIDxwYXRoIGQ9Ik02LjIgMy4yaDVMMTQuNiA2LjZ2OS42YTIgMiAwIDAgMS0yIDJINi4yYTIgMiAwIDAgMS0yLTJWNS4yYTIgMiAwIDAgMSAyLTJ6Ii8+CiAgICA8cGF0aCBkPSJNMTEuMiAzLjJ2My40aDMuNCIvPgogICAgPHBhdGggZD0iTTcgMTAuNGg0LjYiLz4KICAgIDxwYXRoIGQ9Ik03IDEzSDkuNiIvPgogIDwvZz4KICA8Y2lyY2xlIGN4PSIxNi42IiBjeT0iMTYuMiIgcj0iNC44IiBmaWxsPSIjMjU2M0VCIi8+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0xNC41IDE4LjMgMTguNSAxNC4zIi8+CiAgICA8cGF0aCBkPSJNMTUuMyAxMy45aDMuM3YzLjMiLz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "1.2.3",
+            "publishTimestamp": 1792232438,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-file-mentions",
+              "commit": "9152c20cc6401e433d5ef77839e953e6adf43442"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "9152c20cc6401e433d5ef77839e953e6adf43442",
+          "name": "dsh-file-mentions",
+          "version": "1.2.3",
+          "url": "https://github.com/a903067276-rgb/dsh-file-mentions",
+          "manifestSha256": "fb26255e953c04203db646eeaebd1bc4d4605d526be9b846e60c89881120b007",
+          "publishTimestamp": 1792232438
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/a903067276-rgb/dsh-file-mentions#v1.0.14",
+      "origin": "git_target",
+      "name": "dsh-file-mentions",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-file-mentions",
+        "title": "dsh-file-mentions",
+        "description": "Clickable file paths in DSH replies: open files/directories from inline paths (Codex-style), with a mentioned-files chip list as fallback",
+        "repository": {
+          "url": "https://github.com/a903067276-rgb/dsh-file-mentions"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "file-mentions",
+            "clickable-paths",
+            "codex",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.14",
+            "publishTimestamp": 1789017207,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-file-mentions",
+              "commit": "6b1c48b5f7d6f09a61f704e2376f1b567ca82ece"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "6b1c48b5f7d6f09a61f704e2376f1b567ca82ece",
+          "name": "dsh-file-mentions",
+          "version": "1.0.14",
+          "url": "https://github.com/a903067276-rgb/dsh-file-mentions",
+          "manifestSha256": "f7ae42bf5adee9cade4664fe54dd5f48f49afd418d72840e7026090739189c3f",
+          "publishTimestamp": 1789017207
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/a903067276-rgb/dsh-file-mentions#v1.0.8",
+      "origin": "git_target",
+      "name": "dsh-file-mentions",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-file-mentions",
+        "title": "dsh-file-mentions",
+        "description": "Clickable file paths in DSH replies: open files/directories from inline paths (Codex-style), with a mentioned-files chip list as fallback",
+        "repository": {
+          "url": "https://github.com/a903067276-rgb/dsh-file-mentions"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "file-mentions",
+            "clickable-paths",
+            "codex",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.8",
+            "publishTimestamp": 1787287848,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a903067276-rgb/dsh-file-mentions",
+              "commit": "65ceae68c4c04b2e54524e816da11838761c77c0"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "65ceae68c4c04b2e54524e816da11838761c77c0",
+          "name": "dsh-file-mentions",
+          "version": "1.0.8",
+          "url": "https://github.com/a903067276-rgb/dsh-file-mentions",
+          "manifestSha256": "b2ed2501986fbf7a18f367bff2c76912409a5dced66fff316139f854baba4039",
+          "publishTimestamp": 1787287848
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a903067276-rgb/dsh-file-mentions#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a903067276-rgb/dsh-file-mentions#v1.0.14",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a903067276-rgb/dsh-file-mentions#v1.0.8",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/a903067276-rgb/dsh-file-mentions",
+    "commit": "9152c20cc6401e433d5ef77839e953e6adf43442",
+    "releaseTags": 21,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:01.833Z"
+}

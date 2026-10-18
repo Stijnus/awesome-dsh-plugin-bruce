@@ -1,0 +1,244 @@
+{
+  "full_name": "zerob13/dsh-better-markdown",
+  "originalPosition": 185,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 185,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:23.646Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c50bd675f692c935670d1d5ced8aecc00238c851ed2eb7502578e0e36efdd18a",
+      "url": "https://github.com/zerob13/dsh-better-markdown/blob/2241facb67ad88632e256ca6341b831c56b9dd30/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-markdown",
+          "command": "dsh plugin --profile web add dsh-better-markdown",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/zerob13/dsh-better-markdown.git",
+          "command": "dsh plugin --profile web add git+https://github.com/zerob13/dsh-better-markdown.git",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-markdown@latest",
+          "command": "dsh plugin --profile web add dsh-better-markdown@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "c1cfbe35e8820a3bf9e77361e7af18db873d22fa8649c14461ce6d115610de85",
+      "url": "https://github.com/zerob13/dsh-better-markdown/blob/2241facb67ad88632e256ca6341b831c56b9dd30/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-markdown",
+          "command": "dsh plugin --profile web add dsh-better-markdown",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/zerob13/dsh-better-markdown.git",
+          "command": "dsh plugin --profile web add git+https://github.com/zerob13/dsh-better-markdown.git",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-markdown@latest",
+          "command": "dsh plugin --profile web add dsh-better-markdown@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-markdown",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zerob13/dsh-better-markdown",
+        "commit": "2241facb67ad88632e256ca6341b831c56b9dd30"
+      },
+      "manifestSha256": "3c6eb80ec1b4f3f7177bb80259196e1b3a3352dd3333873458e4a64b436e4c34",
+      "manifestUrl": "https://github.com/zerob13/dsh-better-markdown/blob/2241facb67ad88632e256ca6341b831c56b9dd30/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-better-markdown",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786931744,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zerob13/dsh-better-markdown",
+              "commit": "2241facb67ad88632e256ca6341b831c56b9dd30"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-better-markdown",
+      "origin": "npm",
+      "name": "dsh-better-markdown",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-better-markdown",
+        "title": "dsh-better-markdown",
+        "description": "DeepSeek Harness Web plugin that renders streamed assistant Markdown with markstream-react.",
+        "author": "duskzhen",
+        "homepage": "https://github.com/zerob13/dsh-better-markdown#readme",
+        "repository": {
+          "url": "https://github.com/zerob13/dsh-better-markdown"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "ai-chat",
+            "llm",
+            "markdown",
+            "markstream",
+            "markstream-react",
+            "streaming-markdown",
+            "shiki",
+            "syntax-highlighting",
+            "react",
+            "mermaid",
+            "katex"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786931796,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a6a03af1a3143b4443bb67d1090a6266124562b5cf0a6e60eece55e8e016302f",
+      "evidence": [
+        {
+          "name": "dsh-better-markdown",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-better-markdown/-/dsh-better-markdown-0.1.2.tgz",
+          "integrity": "sha512-iW5MgBNDZkfdpYAepHfCE5ZFsRjHExl5rllNQ8savG3jWQOoyWTJIAz3KRQj1a7ocb2nx14YO/bmYNhNdxGJIA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-better-markdown@latest",
+      "origin": "npm",
+      "name": "dsh-better-markdown",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-better-markdown",
+        "title": "dsh-better-markdown",
+        "description": "DeepSeek Harness Web plugin that renders streamed assistant Markdown with markstream-react.",
+        "author": "duskzhen",
+        "homepage": "https://github.com/zerob13/dsh-better-markdown#readme",
+        "repository": {
+          "url": "https://github.com/zerob13/dsh-better-markdown"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "ai-chat",
+            "llm",
+            "markdown",
+            "markstream",
+            "markstream-react",
+            "streaming-markdown",
+            "shiki",
+            "syntax-highlighting",
+            "react",
+            "mermaid",
+            "katex"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786931796,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a6a03af1a3143b4443bb67d1090a6266124562b5cf0a6e60eece55e8e016302f",
+      "evidence": [
+        {
+          "name": "dsh-better-markdown",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-better-markdown/-/dsh-better-markdown-0.1.2.tgz",
+          "integrity": "sha512-iW5MgBNDZkfdpYAepHfCE5ZFsRjHExl5rllNQ8savG3jWQOoyWTJIAz3KRQj1a7ocb2nx14YO/bmYNhNdxGJIA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-markdown",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/zerob13/dsh-better-markdown.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-markdown@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zerob13/dsh-better-markdown",
+    "commit": "2241facb67ad88632e256ca6341b831c56b9dd30",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:51.752Z"
+}

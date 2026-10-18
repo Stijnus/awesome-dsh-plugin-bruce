@@ -1,0 +1,137 @@
+{
+  "full_name": "Yunado/dsh-qwen38-local-qol",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:08.972Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f7137665db12f3e6e3a5255c88ee15c07b4221d4d431aaa649516bdb93076579",
+      "url": "https://github.com/Yunado/dsh-qwen38-local-qol/blob/e8b170d618aa821a007084f20119436c2908c29a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Yunado/dsh-qwen38-local-qol#v0.3.3",
+          "command": "dsh plugin --profile web add github:Yunado/dsh-qwen38-local-qol#v0.3.3",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qwen38-local-qol",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yunado/dsh-qwen38-local-qol",
+        "commit": "e8b170d618aa821a007084f20119436c2908c29a"
+      },
+      "manifestSha256": "c20449c1fcc4ff5f5ef955dbe170e1a2d0b4140e560c81a2dd074f3d0d364956",
+      "manifestUrl": "https://github.com/Yunado/dsh-qwen38-local-qol/blob/e8b170d618aa821a007084f20119436c2908c29a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-qwen38-local-qol",
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1791910968,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yunado/dsh-qwen38-local-qol",
+              "commit": "e8b170d618aa821a007084f20119436c2908c29a"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Yunado/dsh-qwen38-local-qol#v0.3.3",
+      "origin": "git_target",
+      "name": "dsh-qwen38-local-qol",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-qwen38-local-qol",
+        "title": "dsh-qwen38-local-qol",
+        "description": "DeepSeek Harness QoL plugin for the local Qwen3.8 line (27B, Flash-Next): per-request thinking budgets on llama.cpp, NInfer, TabbyAPI, and oMLX dialects, vision + tools, and a compaction backend whose summaries stop burning the output cap on thinking.",
+        "author": "Yunado",
+        "homepage": "https://github.com/Yunado/dsh-qwen38-local-qol#readme",
+        "repository": {
+          "url": "https://github.com/Yunado/dsh-qwen38-local-qol"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "qwen",
+            "qwen3.8",
+            "llama-cpp",
+            "ninfer",
+            "tabbyapi",
+            "omlx",
+            "mlx",
+            "thinking-budget",
+            "compaction",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1791910968,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yunado/dsh-qwen38-local-qol",
+              "commit": "e8b170d618aa821a007084f20119436c2908c29a"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "e8b170d618aa821a007084f20119436c2908c29a",
+          "name": "dsh-qwen38-local-qol",
+          "version": "0.3.3",
+          "url": "https://github.com/Yunado/dsh-qwen38-local-qol",
+          "manifestSha256": "c20449c1fcc4ff5f5ef955dbe170e1a2d0b4140e560c81a2dd074f3d0d364956",
+          "publishTimestamp": 1791910968
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Yunado/dsh-qwen38-local-qol#v0.3.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yunado/dsh-qwen38-local-qol",
+    "commit": "e8b170d618aa821a007084f20119436c2908c29a",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:19.085Z"
+}

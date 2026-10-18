@@ -1,0 +1,200 @@
+{
+  "full_name": "KYinCode/dsh-hot-installer",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:44.869Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "591099e9b49379b3f1452fe024121a7b9264005d45532668ba53f460bf5276ec",
+      "url": "https://github.com/KYinCode/dsh-hot-installer/blob/fa2d66382f79f44f1bdbf4a0ccb9228c7606e37f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hot-installer",
+          "command": "dsh plugin --profile web add dsh-hot-installer",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-hot-installer@latest",
+          "command": "dsh plugin add dsh-hot-installer@latest",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "dfeab3d767335c968af362ae87d2553367174df2bcccb930863edd9d2cbb35f8",
+      "url": "https://github.com/KYinCode/dsh-hot-installer/blob/fa2d66382f79f44f1bdbf4a0ccb9228c7606e37f/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hot-installer",
+          "command": "dsh plugin --profile web add dsh-hot-installer",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-hot-installer@latest",
+          "command": "dsh plugin add dsh-hot-installer@latest",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-hot-installer",
+      "version": "0.5.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KYinCode/dsh-hot-installer",
+        "commit": "fa2d66382f79f44f1bdbf4a0ccb9228c7606e37f"
+      },
+      "manifestSha256": "8a7450bbe4f1914989f8e281c9fda55da31af95d79fac8fd7aedc7e93028143b",
+      "manifestUrl": "https://github.com/KYinCode/dsh-hot-installer/blob/fa2d66382f79f44f1bdbf4a0ccb9228c7606e37f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-hot-installer",
+        "versions": [
+          {
+            "version": "0.5.4",
+            "publishTimestamp": 1790078190,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KYinCode/dsh-hot-installer",
+              "commit": "fa2d66382f79f44f1bdbf4a0ccb9228c7606e37f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-hot-installer",
+      "origin": "npm",
+      "name": "dsh-hot-installer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hot-installer",
+        "title": "dsh-hot-installer",
+        "description": "Hot-install, hot-remove, hot-update and replay-protected profile bundles for DeepSeek Harness: install once, restart once, and every later `dsh plugin add` / `remove` / `update` takes effect live — no restarts, no stale rows, no page errors, and hand-edits of cordis.patch.yml can no longer drop hot-installed rows.",
+        "repository": {
+          "url": "https://github.com/KYinCode/dsh-hot-installer"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "bundle",
+            "hot-install",
+            "hot-reload",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.4",
+            "publishTimestamp": 1790076785,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "866bdfcc3818c2c154c612a5aef40294e41eade24db28030339dc4e6258af921",
+      "evidence": [
+        {
+          "name": "dsh-hot-installer",
+          "version": "0.5.4",
+          "tarball": "https://registry.npmjs.org/dsh-hot-installer/-/dsh-hot-installer-0.5.4.tgz",
+          "integrity": "sha512-tsY5Alit15cnoRHpVPYm5ruHIwrkU9FGerNgTzR4wSjn37U/vuon1/wgTLtFelD2dIbiE7lJkYaxIpMYi4Un2A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-hot-installer@latest",
+      "origin": "npm",
+      "name": "dsh-hot-installer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hot-installer",
+        "title": "dsh-hot-installer",
+        "description": "Hot-install, hot-remove, hot-update and replay-protected profile bundles for DeepSeek Harness: install once, restart once, and every later `dsh plugin add` / `remove` / `update` takes effect live — no restarts, no stale rows, no page errors, and hand-edits of cordis.patch.yml can no longer drop hot-installed rows.",
+        "repository": {
+          "url": "https://github.com/KYinCode/dsh-hot-installer"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "bundle",
+            "hot-install",
+            "hot-reload",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.4",
+            "publishTimestamp": 1790076785,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "866bdfcc3818c2c154c612a5aef40294e41eade24db28030339dc4e6258af921",
+      "evidence": [
+        {
+          "name": "dsh-hot-installer",
+          "version": "0.5.4",
+          "tarball": "https://registry.npmjs.org/dsh-hot-installer/-/dsh-hot-installer-0.5.4.tgz",
+          "integrity": "sha512-tsY5Alit15cnoRHpVPYm5ruHIwrkU9FGerNgTzR4wSjn37U/vuon1/wgTLtFelD2dIbiE7lJkYaxIpMYi4Un2A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-hot-installer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-hot-installer@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KYinCode/dsh-hot-installer",
+    "commit": "fa2d66382f79f44f1bdbf4a0ccb9228c7606e37f",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:50.382Z"
+}

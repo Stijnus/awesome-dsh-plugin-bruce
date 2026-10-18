@@ -1,0 +1,65 @@
+{
+  "full_name": "lw-storm/dsh-plugin-masterprompt",
+  "originalPosition": 28,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 28,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:44.108Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e2076572850da9f5a991301214916dcd439fa1d9d8aa541a37d495ff7a4d6f3a",
+      "url": "https://github.com/lw-storm/dsh-plugin-masterprompt/blob/ddd0ff617a6a8e7a12d968a0c92e2cc66656be2c/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-masterprompt",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lw-storm/dsh-plugin-masterprompt",
+        "commit": "ddd0ff617a6a8e7a12d968a0c92e2cc66656be2c"
+      },
+      "manifestSha256": "a2ea97bc72e68711e98887e4e5b6c07e0ab78d7cb636b83f995440210ed2245b",
+      "manifestUrl": "https://github.com/lw-storm/dsh-plugin-masterprompt/blob/ddd0ff617a6a8e7a12d968a0c92e2cc66656be2c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-masterprompt",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792258714,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lw-storm/dsh-plugin-masterprompt",
+              "commit": "ddd0ff617a6a8e7a12d968a0c92e2cc66656be2c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lw-storm/dsh-plugin-masterprompt",
+    "commit": "ddd0ff617a6a8e7a12d968a0c92e2cc66656be2c",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:49.584Z"
+}

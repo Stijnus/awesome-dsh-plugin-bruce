@@ -1,0 +1,140 @@
+{
+  "full_name": "MichengAI/dsh-code-review",
+  "originalPosition": 56,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 56,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:26.302Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "243d2236a64a9d1b93fd3b6874b1632824b26001940b947f283e1094d8ddad18",
+      "url": "https://github.com/MichengAI/dsh-code-review/blob/29fde5fd2a51f42d1e98df488bf4284b82dd54e4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-code-review@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/, then dsh --profile web --dump-config. Confirm the plugin is loaded and explain how to restart DSH and use",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "46f6a44e456327c70fd1fa88aa6de0a8106ecf49d7d98291670d0dc2da253adf",
+      "url": "https://github.com/MichengAI/dsh-code-review/blob/29fde5fd2a51f42d1e98df488bf4284b82dd54e4/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-code-review@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/，再运行 dsh --profile web --dump-config，确认插件已加载，并说明如何重启 DSH",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-code-review",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-code-review",
+        "commit": "29fde5fd2a51f42d1e98df488bf4284b82dd54e4"
+      },
+      "manifestSha256": "f5aa33bb9b779fddedc9a725f75d23727ab23b8a33de146e0a71214452d86ba3",
+      "manifestUrl": "https://github.com/MichengAI/dsh-code-review/blob/29fde5fd2a51f42d1e98df488bf4284b82dd54e4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@michengai/dsh-code-review",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1792229503,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MichengAI/dsh-code-review",
+              "commit": "29fde5fd2a51f42d1e98df488bf4284b82dd54e4"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@michengai/dsh-code-review@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-code-review",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@michengai/dsh-code-review",
+        "title": {
+          "en": "Code Review",
+          "zh": "Code Review"
+        },
+        "description": {
+          "en": "Codex-style code review with independent agents, flexible scope, and bilingual reports.",
+          "zh": "Codex 风格代码审查，使用独立子 Agent，并返回中英文报告。"
+        },
+        "homepage": "https://github.com/MichengAI/dsh-code-review#readme",
+        "repository": {
+          "url": "https://github.com/MichengAI/dsh-code-review"
+        },
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1792229617,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "88d75a5a51b8d775cb2bc7a182d6f617bb6b8982a384bf171985cb478baa7da7",
+      "evidence": [
+        {
+          "name": "@michengai/dsh-code-review",
+          "version": "1.0.1",
+          "tarball": "https://registry.npmjs.org/@michengai/dsh-code-review/-/dsh-code-review-1.0.1.tgz",
+          "integrity": "sha512-dsGc5h5ThPj7X0NYwt6YUTq7bXkjrsYem6xwb8B3O/tDSoJeH5kUVm3O/hbqy8N4o5lemHWtgVDBN2DYGA/gSQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@michengai/dsh-code-review@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-code-review",
+    "commit": "29fde5fd2a51f42d1e98df488bf4284b82dd54e4",
+    "releaseTags": 19,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:38.005Z"
+}

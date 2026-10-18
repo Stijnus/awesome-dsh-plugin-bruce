@@ -1,0 +1,148 @@
+{
+  "full_name": "PolinniZhong/dsh-knit",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:14:38.910Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1f1d98c933efcdfc123f5fdba46d486e25de42782f31d10f42fc789e46eebbd8",
+      "url": "https://github.com/PolinniZhong/dsh-knit/blob/b8cd907df70b91960dc820e1892878331e7f1627/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-knit",
+          "command": "dsh plugin --profile web add dsh-knit",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-knit",
+      "version": "0.24.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PolinniZhong/dsh-knit",
+        "commit": "b8cd907df70b91960dc820e1892878331e7f1627"
+      },
+      "manifestSha256": "8f25153c6e39bad232fa13d1e57fbc7297c918fd1421a9fa7ca1a2a89c14b204",
+      "manifestUrl": "https://github.com/PolinniZhong/dsh-knit/blob/b8cd907df70b91960dc820e1892878331e7f1627/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-knit",
+        "versions": [
+          {
+            "version": "0.24.0",
+            "publishTimestamp": 1792108920,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PolinniZhong/dsh-knit",
+              "commit": "b8cd907df70b91960dc820e1892878331e7f1627"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-knit",
+      "origin": "npm",
+      "name": "dsh-knit",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-knit",
+        "title": "dsh-knit",
+        "description": "Context retrieval for DeepSeek Harness: ranks docs, code and media by relevance into a sidebar Context Pack. Lexical and fully local by default. Hybrid is off until you configure a provider; it sends your query and file titles/summaries, not bodies.",
+        "author": "Polinni",
+        "homepage": "https://github.com/PolinniZhong/dsh-knit",
+        "repository": {
+          "url": "https://github.com/PolinniZhong/dsh-knit"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "markdown",
+            "documents",
+            "code",
+            "code-context",
+            "typescript",
+            "sidebar",
+            "right-sidebar",
+            "recent-files",
+            "relevance",
+            "context-pack",
+            "workspace-context",
+            "context-retrieval",
+            "hybrid-retrieval",
+            "semantic-retrieval",
+            "context-lifecycle",
+            "task-context",
+            "images",
+            "video",
+            "media-gallery",
+            "http-range",
+            "最近文档",
+            "侧边栏",
+            "知识管理",
+            "图片视频",
+            "agent-tool",
+            "model-tool"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.24.0",
+            "publishTimestamp": 1791935178,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a6f84c10e9bfd90d9982f87258055c6a50e6bbe9bad68566e5b15350fc29bdf5",
+      "evidence": [
+        {
+          "name": "dsh-knit",
+          "version": "0.24.0",
+          "tarball": "https://registry.npmjs.org/dsh-knit/-/dsh-knit-0.24.0.tgz",
+          "integrity": "sha512-wGxjW+r6+DRO+jtmVM+Gzzv0+5C9kReXZiIbBTb+Kr2UlAAd68xhWlqXH0XSHgPRrC3m4UQt1HLWqBFPX3jXOw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-knit",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PolinniZhong/dsh-knit",
+    "commit": "b8cd907df70b91960dc820e1892878331e7f1627",
+    "releaseTags": 22,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:14:52.659Z"
+}

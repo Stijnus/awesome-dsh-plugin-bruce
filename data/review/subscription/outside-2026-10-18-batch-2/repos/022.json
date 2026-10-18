@@ -1,0 +1,152 @@
+{
+  "full_name": "Alan2Z/dsh-speak",
+  "originalPosition": 22,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 22,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:33.201Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1b7603571cac0afc8b7c319aa7ece8dde095fb11b5e210f6d8fcd0c39bc591fb",
+      "url": "https://github.com/Alan2Z/dsh-speak/blob/5c23e7d934fd5a72ae481bdda729ff3d44ab42ee/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-speak",
+          "command": "dsh plugin --profile web add dsh-speak",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "90832a07978c9a4b657d7991cc129060b4845f43231914c03bf68a1104d7cfde",
+      "url": "https://github.com/Alan2Z/dsh-speak/blob/5c23e7d934fd5a72ae481bdda729ff3d44ab42ee/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-speak",
+          "command": "dsh plugin --profile web add dsh-speak",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-speak",
+      "version": "1.8.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Alan2Z/dsh-speak",
+        "commit": "5c23e7d934fd5a72ae481bdda729ff3d44ab42ee"
+      },
+      "manifestSha256": "799609f120011cd340b004b0f6b862f19c3d75d248df16b60d313cb269422ff1",
+      "manifestUrl": "https://github.com/Alan2Z/dsh-speak/blob/5c23e7d934fd5a72ae481bdda729ff3d44ab42ee/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-speak",
+        "versions": [
+          {
+            "version": "1.8.2",
+            "publishTimestamp": 1790414192,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Alan2Z/dsh-speak",
+              "commit": "5c23e7d934fd5a72ae481bdda729ff3d44ab42ee"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-speak",
+      "origin": "npm",
+      "name": "dsh-speak",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-speak",
+        "title": "dsh-speak",
+        "description": "Make your AI harness speak — voice announcements for DSH and other AI coding harnesses (Windows SAPI5 + macOS system voices)",
+        "author": "Alan2Z",
+        "repository": {
+          "url": "https://github.com/Alan2Z/dsh-speak"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "tts",
+            "text-to-speech",
+            "voice",
+            "speech",
+            "voice-announcement",
+            "sapi5",
+            "windows",
+            "powershell",
+            "macos",
+            "darwin",
+            "say"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.8.2",
+            "publishTimestamp": 1790413108,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "812065b449bb84529fe92a5eae269880a34d521cff9935d6da991b5e5b1e5f7a",
+      "evidence": [
+        {
+          "name": "dsh-speak",
+          "version": "1.8.2",
+          "tarball": "https://registry.npmjs.org/dsh-speak/-/dsh-speak-1.8.2.tgz",
+          "integrity": "sha512-TByaYK3wgIjhyDIthgTK1fIU3XwgMur7laqQFOJaXNxQ487jdSByoLtsaIBAaJwfhpmVnc56mUa2OiV/e+AGPg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-speak",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Alan2Z/dsh-speak",
+    "commit": "5c23e7d934fd5a72ae481bdda729ff3d44ab42ee",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:39.219Z"
+}

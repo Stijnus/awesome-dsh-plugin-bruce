@@ -1,0 +1,124 @@
+{
+  "full_name": "Tsqurt/dsh-plugin-studio",
+  "originalPosition": 67,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 67,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:40.494Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "17e7f8d38e19df3c239f58efb6af7a803fcb7d7daf6a550c9b49b55748755c54",
+      "url": "https://github.com/Tsqurt/dsh-plugin-studio/blob/b9d53830326a1b7b6b75f28abeb1c60fa96275ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@tsqurt/dsh-plugin-studio",
+          "command": "dsh plugin --profile web add @tsqurt/dsh-plugin-studio",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tsqurt/dsh-plugin-studio",
+      "version": "0.1.3-alpha",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tsqurt/dsh-plugin-studio",
+        "commit": "b9d53830326a1b7b6b75f28abeb1c60fa96275ce"
+      },
+      "manifestSha256": "dd451a3877bfe62f2a849a4cd849d2e5a8d2c94ef5cd5116261337b5fcb70afe",
+      "manifestUrl": "https://github.com/Tsqurt/dsh-plugin-studio/blob/b9d53830326a1b7b6b75f28abeb1c60fa96275ce/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@tsqurt/dsh-plugin-studio",
+        "versions": [
+          {
+            "version": "0.1.3-alpha",
+            "publishTimestamp": 1787845410,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tsqurt/dsh-plugin-studio",
+              "commit": "b9d53830326a1b7b6b75f28abeb1c60fa96275ce"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@tsqurt/dsh-plugin-studio",
+      "origin": "npm",
+      "name": "@tsqurt/dsh-plugin-studio",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@tsqurt/dsh-plugin-studio",
+        "title": "@tsqurt/dsh-plugin-studio",
+        "description": "DSH 插件工作室 — 事件流 / 插件一览 / 插件管理 / 插件开发的 webUI 工作台",
+        "homepage": "https://github.com/Tsqurt/dsh-plugin-studio#readme",
+        "repository": {
+          "url": "https://github.com/Tsqurt/dsh-plugin-studio"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "cordis",
+            "plugin",
+            "studio",
+            "waterfall",
+            "workflow"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3-alpha",
+            "publishTimestamp": 1787845863,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "44d0d11a5ee3c7f6c41830f496f019c261e7b3595a1f33f11ff3ca170fa6f500",
+      "evidence": [
+        {
+          "name": "@tsqurt/dsh-plugin-studio",
+          "version": "0.1.3-alpha",
+          "tarball": "https://registry.npmjs.org/@tsqurt/dsh-plugin-studio/-/dsh-plugin-studio-0.1.3-alpha.tgz",
+          "integrity": "sha512-M+pEKZ+mKriH5xzp1RmguUSe8uGRqSyNV/WXe5lC58mirKcrqF5A2d2SjhAuIMYzPBI7mD2giSNlxvzcaJ5jWA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@tsqurt/dsh-plugin-studio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tsqurt/dsh-plugin-studio",
+    "commit": "b9d53830326a1b7b6b75f28abeb1c60fa96275ce",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:45.924Z"
+}

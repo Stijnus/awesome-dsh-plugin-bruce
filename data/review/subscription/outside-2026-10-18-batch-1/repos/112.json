@@ -1,0 +1,255 @@
+{
+  "full_name": "Iwctwbh/dsh-flowglass",
+  "originalPosition": 112,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 112,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:28.831Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9b02924b18aa08d03d3ba106305be2d11d7b5bac6664899a08804313b2bcaa7a",
+      "url": "https://github.com/Iwctwbh/dsh-flowglass/blob/e4cb2c5d06a153ab4bd47a6a46108f4721e8d824/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-flowglass@0.7.4",
+          "command": "dsh plugin --profile web add dsh-flowglass@0.7.4",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Iwctwbh/dsh-flowglass#v0.7.4",
+          "command": "dsh plugin --profile web add github:Iwctwbh/dsh-flowglass#v0.7.4",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dynamic-toolbox/README.md",
+      "sha256": "d1eb10daec14ebb25add89a34196ecd59a55394e8210490e30b4e387e736a66a",
+      "url": "https://github.com/Iwctwbh/dsh-flowglass/blob/e4cb2c5d06a153ab4bd47a6a46108f4721e8d824/dynamic-toolbox/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dynamic-toolbox",
+          "command": "dsh plugin --profile web add dsh-dynamic-toolbox",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-flowglass",
+      "version": "0.7.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Iwctwbh/dsh-flowglass",
+        "commit": "e4cb2c5d06a153ab4bd47a6a46108f4721e8d824"
+      },
+      "manifestSha256": "0e085dab12b73237878913cc3517490f9796c97925b8f6c7fc5e5efab53008c0",
+      "manifestUrl": "https://github.com/Iwctwbh/dsh-flowglass/blob/e4cb2c5d06a153ab4bd47a6a46108f4721e8d824/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1 || ^0.1.6-alpha.2 || ^0.1.7-alpha.2 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-flowglass",
+        "versions": [
+          {
+            "version": "0.7.4",
+            "publishTimestamp": 1790757856,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Iwctwbh/dsh-flowglass",
+              "commit": "e4cb2c5d06a153ab4bd47a6a46108f4721e8d824"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.1.6-alpha.2 || ^0.1.7-alpha.2 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-flowglass@0.7.4",
+      "origin": "npm",
+      "name": "dsh-flowglass",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-flowglass",
+        "title": "dsh-flowglass",
+        "description": "可视化会话执行流、工具调用、子代理与多会话并发分支。",
+        "author": "Iwctwbh",
+        "repository": {
+          "url": "https://github.com/Iwctwbh/dsh-flowglass"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "flow"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.4",
+            "publishTimestamp": 1790752799,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.1.6-alpha.2 || ^0.1.7-alpha.2 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cbe09db7980738a9ee85aa459f17101f823fcf55aec2f59d1e274e1f82b9faea",
+      "evidence": [
+        {
+          "name": "dsh-flowglass",
+          "version": "0.7.4",
+          "tarball": "https://registry.npmjs.org/dsh-flowglass/-/dsh-flowglass-0.7.4.tgz",
+          "integrity": "sha512-U6CoMupcsbaXowZEzc7+o0c0bBQvp+7FOiIzqEB/vcMvU8R2y0IWaVqbVWT4yOD4x8hZRjqMI1+hwygIE8an1A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/Iwctwbh/dsh-flowglass#v0.7.4",
+      "origin": "git_target",
+      "name": "dsh-flowglass",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-flowglass",
+        "title": "dsh-flowglass",
+        "description": "可视化会话执行流、工具调用、子代理与多会话并发分支。",
+        "author": "Iwctwbh",
+        "repository": {
+          "url": "https://github.com/Iwctwbh/dsh-flowglass"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "flow"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.4",
+            "publishTimestamp": 1790752578,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Iwctwbh/dsh-flowglass",
+              "commit": "98ebd6fcf4ebc41d59bcac3ab33cdc80eb3f1377"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.1.6-alpha.2 || ^0.1.7-alpha.2 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "98ebd6fcf4ebc41d59bcac3ab33cdc80eb3f1377",
+          "name": "dsh-flowglass",
+          "version": "0.7.4",
+          "url": "https://github.com/Iwctwbh/dsh-flowglass",
+          "manifestSha256": "0e085dab12b73237878913cc3517490f9796c97925b8f6c7fc5e5efab53008c0",
+          "publishTimestamp": 1790752578
+        }
+      ]
+    },
+    {
+      "target": "dsh-dynamic-toolbox",
+      "origin": "npm",
+      "name": "dsh-dynamic-toolbox",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-dynamic-toolbox",
+        "title": "dsh-dynamic-toolbox",
+        "description": "工具箱（DSH 原生静态工具箱）",
+        "author": "Iwctwbh",
+        "repository": {
+          "url": "https://github.com/Iwctwbh/dsh-flowglass",
+          "directory": "dynamic-toolbox"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "toolbox",
+            "dynamic-toolbox"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.3",
+            "publishTimestamp": 1790567049,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.1.6-alpha.2 || ^0.1.7-alpha.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b6b99944b6fbec1ddc0492192f5f9ff112f6b30eab39a3977145fb3036ad838b",
+      "evidence": [
+        {
+          "name": "dsh-dynamic-toolbox",
+          "version": "0.7.3",
+          "tarball": "https://registry.npmjs.org/dsh-dynamic-toolbox/-/dsh-dynamic-toolbox-0.7.3.tgz",
+          "integrity": "sha512-b0zc2hamEcB17KHamcCNJEevTWNGkLaKT2uEOZmmkQdHnfe2c2DMJBKYKhpMquY3axQkZGjwgvBilK+cppX3Jw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-flowglass@0.7.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Iwctwbh/dsh-flowglass#v0.7.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dynamic-toolbox",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Iwctwbh/dsh-flowglass",
+    "commit": "e4cb2c5d06a153ab4bd47a6a46108f4721e8d824",
+    "releaseTags": 17,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:42.797Z"
+}

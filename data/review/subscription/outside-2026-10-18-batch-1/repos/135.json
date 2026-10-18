@@ -1,0 +1,139 @@
+{
+  "full_name": "Js2Hou/dsh-mcp-manager",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:18:12.338Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "de68138356a5edb9df7624a9ede91d981d601701cca91a9ec640224903b6006f",
+      "url": "https://github.com/Js2Hou/dsh-mcp-manager/blob/023eca390ade26cab07411caac2827ba13ad62f8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@js2hou/dsh-mcp-manager",
+          "command": "dsh plugin --profile web add @js2hou/dsh-mcp-manager",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Js2Hou/dsh-mcp-manager",
+          "command": "dsh plugin --profile web add github:Js2Hou/dsh-mcp-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "3bfa59d361e777396a770ded92492a0ed48fcf45a3c393a2c3c8b51388b8df0c",
+      "url": "https://github.com/Js2Hou/dsh-mcp-manager/blob/023eca390ade26cab07411caac2827ba13ad62f8/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@js2hou/dsh-mcp-manager",
+          "command": "dsh plugin --profile web add @js2hou/dsh-mcp-manager",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Js2Hou/dsh-mcp-manager",
+          "command": "dsh plugin --profile web add github:Js2Hou/dsh-mcp-manager",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@js2hou/dsh-mcp-manager",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Js2Hou/dsh-mcp-manager",
+        "commit": "023eca390ade26cab07411caac2827ba13ad62f8"
+      },
+      "manifestSha256": "dd73bd91db40fa75cbe86737f03b022dbc167fd741f753ccab2b4e5cf4464e15",
+      "manifestUrl": "https://github.com/Js2Hou/dsh-mcp-manager/blob/023eca390ade26cab07411caac2827ba13ad62f8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@js2hou/dsh-mcp-manager",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1792223388,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Js2Hou/dsh-mcp-manager",
+              "commit": "023eca390ade26cab07411caac2827ba13ad62f8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@js2hou/dsh-mcp-manager",
+      "origin": "npm",
+      "name": "@js2hou/dsh-mcp-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@js2hou/dsh-mcp-manager",
+        "title": "@js2hou/dsh-mcp-manager",
+        "description": "MCP visual manager plugin for DeepSeek Harness: inspect installed/enabled MCP servers, add/remove, enable/disable and view live connection status from the web GUI.",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1787063404,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "aa161b6b2a9e1f9acc4456cfc7e7be09842fb9f12bf60685185627bc4ae5eadf",
+      "evidence": [
+        {
+          "name": "@js2hou/dsh-mcp-manager",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/@js2hou/dsh-mcp-manager/-/dsh-mcp-manager-0.1.5.tgz",
+          "integrity": "sha512-vP1CEDjdWH2JtAXRAp3iOuRFB1Iww14J7XHLvuca830i832ZUFLa2+g7LIaKVstxBUY2/PJwQe1y/nUJo9Sy7g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@js2hou/dsh-mcp-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Js2Hou/dsh-mcp-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Js2Hou/dsh-mcp-manager",
+    "commit": "023eca390ade26cab07411caac2827ba13ad62f8",
+    "releaseTags": 6,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:18.487Z"
+}

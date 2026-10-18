@@ -1,0 +1,133 @@
+{
+  "full_name": "tuojc/dsh-browser-firefox",
+  "originalPosition": 96,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 96,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:16.365Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eac1bee2e005e503cc7bfb393ca10206b6d1b60cda73f06a3fb2e3efe23435ca",
+      "url": "https://github.com/tuojc/dsh-browser-firefox/blob/11c1d0e01f828db2726f8fc9428289009eb2bd96/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-browser-firefox@latest",
+          "command": "dsh plugin --profile web add dsh-browser-firefox@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-browser-firefox",
+      "version": "0.4.8",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tuojc/dsh-browser-firefox",
+        "commit": "11c1d0e01f828db2726f8fc9428289009eb2bd96",
+        "path": "plugin"
+      },
+      "manifestSha256": "f51dd6d92e5ecb338c0afcfb040b7a7b2bf2d739d81ab50ef06e928bbaae7f8d",
+      "manifestUrl": "https://github.com/tuojc/dsh-browser-firefox/blob/11c1d0e01f828db2726f8fc9428289009eb2bd96/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-browser-firefox",
+        "versions": [
+          {
+            "version": "0.4.8",
+            "publishTimestamp": 1790742956,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tuojc/dsh-browser-firefox",
+              "commit": "11c1d0e01f828db2726f8fc9428289009eb2bd96",
+              "path": "plugin"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-browser-firefox@latest",
+      "origin": "npm",
+      "name": "dsh-browser-firefox",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-browser-firefox",
+        "title": "dsh-browser-firefox",
+        "description": "Firefox browser control for DeepSeek Harness: token-authenticated WebSocket bridge + browser_* tools (native-image screenshots) driving the user's own Firefox via the companion AMO extension, with sidebar ask_user_question answering",
+        "author": "tuojc",
+        "homepage": "https://github.com/tuojc/dsh-browser-firefox",
+        "repository": {
+          "url": "https://github.com/tuojc/dsh-browser-firefox",
+          "directory": "plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "firefox",
+            "browser-automation",
+            "webextension"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.8",
+            "publishTimestamp": 1790694641,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "649c6d33b0130309bd61e6dfe75b86380559bb12cc130ecfb07648dac9513c7c",
+      "evidence": [
+        {
+          "name": "dsh-browser-firefox",
+          "version": "0.4.8",
+          "tarball": "https://registry.npmjs.org/dsh-browser-firefox/-/dsh-browser-firefox-0.4.8.tgz",
+          "integrity": "sha512-jwCvfTd0vry/24oNTyGfm/AarYwD3L34xzReNKmmTUCcIOPjyPsjx+vVXuEIRsRkpsKBtXuoJdoL3Ai0HzDRkQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-browser-firefox@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tuojc/dsh-browser-firefox",
+    "commit": "11c1d0e01f828db2726f8fc9428289009eb2bd96",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:22.290Z"
+}

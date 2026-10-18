@@ -1,0 +1,147 @@
+{
+  "full_name": "crazywoola/dsh-balance",
+  "originalPosition": 96,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 96,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:03.723Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "029cf52e2a8b6f4595718825e34a08af90a4f19ae5144d9453a44e6e9f7647b7",
+      "url": "https://github.com/crazywoola/dsh-balance/blob/30cf71aa7d6e521be209dd156ffafcd40b046cbc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@pinkbanana/dsh-balance@latest",
+          "command": "dsh plugin --profile web add @pinkbanana/dsh-balance@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "953b4eb75c5017855e9c468822a1145c46e1258cec0d75b41ec46a9b004a7cc4",
+      "url": "https://github.com/crazywoola/dsh-balance/blob/30cf71aa7d6e521be209dd156ffafcd40b046cbc/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@pinkbanana/dsh-balance@latest",
+          "command": "dsh plugin --profile web add @pinkbanana/dsh-balance@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@pinkbanana/dsh-balance",
+      "version": "0.10.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/crazywoola/dsh-balance",
+        "commit": "30cf71aa7d6e521be209dd156ffafcd40b046cbc"
+      },
+      "manifestSha256": "bcc1e06e942528e3748d345de688e6c6a7d4483ea1cde4db62089d75822cb860",
+      "manifestUrl": "https://github.com/crazywoola/dsh-balance/blob/30cf71aa7d6e521be209dd156ffafcd40b046cbc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@pinkbanana/dsh-balance",
+        "versions": [
+          {
+            "version": "0.10.2",
+            "publishTimestamp": 1790779907,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/crazywoola/dsh-balance",
+              "commit": "30cf71aa7d6e521be209dd156ffafcd40b046cbc"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@pinkbanana/dsh-balance@latest",
+      "origin": "npm",
+      "name": "@pinkbanana/dsh-balance",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@pinkbanana/dsh-balance",
+        "title": "@pinkbanana/dsh-balance",
+        "description": "DeepSeek Harness plugin for multi-provider API balances, available models, and usage billing",
+        "homepage": "https://github.com/crazywoola/dsh-balance#readme",
+        "repository": {
+          "url": "https://github.com/crazywoola/dsh-balance"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "stepfun",
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh-plugins",
+            "balance",
+            "models",
+            "usage",
+            "billing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.10.2",
+            "publishTimestamp": 1790780075,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "683177311830b9b0ba461a5febe46e3c4c29125e59b6820dfcab7e13650cdfb1",
+      "evidence": [
+        {
+          "name": "@pinkbanana/dsh-balance",
+          "version": "0.10.2",
+          "tarball": "https://registry.npmjs.org/@pinkbanana/dsh-balance/-/dsh-balance-0.10.2.tgz",
+          "integrity": "sha512-KT8sM3Ln0Obc7bgix1u8xIw1RGAVgUr0Sbz9L78pCdTjZ3e9Q1FPG6MwsB7O2zduiCB3EgOSe2sGf4g98ejA9g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@pinkbanana/dsh-balance@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/crazywoola/dsh-balance",
+    "commit": "30cf71aa7d6e521be209dd156ffafcd40b046cbc",
+    "releaseTags": 9,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:11.245Z"
+}

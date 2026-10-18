@@ -1,0 +1,142 @@
+{
+  "full_name": "1264459640/dsh-trellis",
+  "originalPosition": 191,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 191,
+  "batch": 1,
+  "startedAt": "2026-10-18T02:00:13.571Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "02eeacdc3cb9b59686717a0c944ac2bf62b58ba339e43da0de560010dd6c86bc",
+      "url": "https://github.com/1264459640/dsh-trellis/blob/7d2e5b69d2e744de511ac01632cf0865dfa79a85/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@banana-peeljj12/dsh-trellis@latest",
+          "command": "dsh plugin --profile web add @banana-peeljj12/dsh-trellis@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "756c037ee67654e58f5e9b430a6bcf00897c4b6bcf2c1e1bce5db31de1571169",
+      "url": "https://github.com/1264459640/dsh-trellis/blob/7d2e5b69d2e744de511ac01632cf0865dfa79a85/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@banana-peeljj12/dsh-trellis@latest",
+          "command": "dsh plugin --profile web add @banana-peeljj12/dsh-trellis@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@banana-peeljj12/dsh-trellis",
+      "version": "0.3.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1264459640/dsh-trellis",
+        "commit": "7d2e5b69d2e744de511ac01632cf0865dfa79a85"
+      },
+      "manifestSha256": "f6cbff440629c3c9e78888da2809020ce7e27f32b02ebd4f0b57c90c1ccb93c1",
+      "manifestUrl": "https://github.com/1264459640/dsh-trellis/blob/7d2e5b69d2e744de511ac01632cf0865dfa79a85/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@banana-peeljj12/dsh-trellis",
+        "versions": [
+          {
+            "version": "0.3.7",
+            "publishTimestamp": 1791441551,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1264459640/dsh-trellis",
+              "commit": "7d2e5b69d2e744de511ac01632cf0865dfa79a85"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@banana-peeljj12/dsh-trellis@latest",
+      "origin": "npm",
+      "name": "@banana-peeljj12/dsh-trellis",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@banana-peeljj12/dsh-trellis",
+        "title": "@banana-peeljj12/dsh-trellis",
+        "description": "Self-contained Trellis workflow trigger for DeepSeek Harness: per-turn breadcrumb injection via agent/pre-step, a bundled skill provider, and DSH-native task/phase state resolution. No Trellis AGPL code is vendored; workflow semantics are rewritten and licensed MIT.",
+        "repository": {
+          "url": "https://github.com/1264459640/dsh-trellis"
+        },
+        "metadata": {
+          "keywords": [
+            "cordis",
+            "deepseek-harness",
+            "dsh",
+            "trellis",
+            "workflow"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.7",
+            "publishTimestamp": 1791441907,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6bf787335ccb8e7fd94ea3d2b3283fffb7c39495ea44774eac56f4e597f71943",
+      "evidence": [
+        {
+          "name": "@banana-peeljj12/dsh-trellis",
+          "version": "0.3.7",
+          "tarball": "https://registry.npmjs.org/@banana-peeljj12/dsh-trellis/-/dsh-trellis-0.3.7.tgz",
+          "integrity": "sha512-6KXgmjo57OI4sdD8SxgXw6Z5j1VGORynZFTa7OFkPDyey66dx0Os+51Vzxz/4kURz5kyUdqXBN1kjDPbGLoRsw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@banana-peeljj12/dsh-trellis@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1264459640/dsh-trellis",
+    "commit": "7d2e5b69d2e744de511ac01632cf0865dfa79a85",
+    "releaseTags": 26,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T02:00:20.536Z"
+}

@@ -1,0 +1,86 @@
+{
+  "full_name": "Hotsteel2901/dsh-client-ui-mobile-adapt",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:50.633Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8ee0f4d790d060f2ac9fcb7c6aa9391df9b50fde8138d23017f6c7c3badbe1f8",
+      "url": "https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt/blob/157105403febc206a5f7a805d529e97cec67d55c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt/archive/refs/heads/main.tar.gz",
+          "command": "dsh plugin --profile web <profile 名> add https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt/archive/refs/heads/main.tar.gz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-client-ui-mobile-adapt",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt",
+        "commit": "157105403febc206a5f7a805d529e97cec67d55c"
+      },
+      "manifestSha256": "6b9d1fce3d18b034599b898fe7aa2d3877c4e1be817216db919eade0308caab2",
+      "manifestUrl": "https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt/blob/157105403febc206a5f7a805d529e97cec67d55c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.2 <0.3.0 >=0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-client-ui-mobile-adapt",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1790915131,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt",
+              "commit": "157105403febc206a5f7a805d529e97cec67d55c"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0 >=0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt/archive/refs/heads/main.tar.gz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt/archive/refs/heads/main.tar.gz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt",
+    "commit": "157105403febc206a5f7a805d529e97cec67d55c",
+    "releaseTags": 3,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:55.259Z"
+}

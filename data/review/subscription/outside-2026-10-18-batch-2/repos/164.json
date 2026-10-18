@@ -1,0 +1,65 @@
+{
+  "full_name": "euanguo/dsh-studio",
+  "originalPosition": 164,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 164,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:50.462Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "332cb942c3a85c6171eb0a24ccdfe9c40e24cd08fd9dd7289fa94e327acc9825",
+      "url": "https://github.com/euanguo/dsh-studio/blob/ccc4bdf0a957bee40806793cff28642b5eff4270/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-studio/desktop",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/euanguo/dsh-studio",
+        "commit": "ccc4bdf0a957bee40806793cff28642b5eff4270"
+      },
+      "manifestSha256": "2e0021f9239f68a4338ba3201e49738ba722fc19f8f0a5b91905f2d2b23f4ca3",
+      "manifestUrl": "https://github.com/euanguo/dsh-studio/blob/ccc4bdf0a957bee40806793cff28642b5eff4270/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-studio/desktop",
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1788099383,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/euanguo/dsh-studio",
+              "commit": "ccc4bdf0a957bee40806793cff28642b5eff4270"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/euanguo/dsh-studio",
+    "commit": "ccc4bdf0a957bee40806793cff28642b5eff4270",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:58.536Z"
+}

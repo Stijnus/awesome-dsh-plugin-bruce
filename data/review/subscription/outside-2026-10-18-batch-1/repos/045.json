@@ -1,0 +1,171 @@
+{
+  "full_name": "Rianico/dsh-better-edit",
+  "originalPosition": 45,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 45,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:40.165Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d4988b16e06d71c8d472a75b878960159b1213b65df1eeff527a0f45369b4411",
+      "url": "https://github.com/Rianico/dsh-better-edit/blob/7f38175fe2eefa765485d14f06abcb97bfda736c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Rianico/dsh-better-edit",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:Rianico/dsh-better-edit",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-edit",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-better-edit",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ec3389251691597285b8644f68e30d5a8c701081ca1574626a9adc28803a29d5",
+      "url": "https://github.com/Rianico/dsh-better-edit/blob/7f38175fe2eefa765485d14f06abcb97bfda736c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Rianico/dsh-better-edit",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:Rianico/dsh-better-edit",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-better-edit",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-better-edit",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "benchmark/README.md",
+      "sha256": "211796313c73bd3b9bada0d938e6229deb92413975befe2eee13d13611d65ea0",
+      "url": "https://github.com/Rianico/dsh-better-edit/blob/7f38175fe2eefa765485d14f06abcb97bfda736c/benchmark/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-edit",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Rianico/dsh-better-edit",
+        "commit": "7f38175fe2eefa765485d14f06abcb97bfda736c"
+      },
+      "manifestSha256": "e550c82c1f414677e08568c0278aa0b7bee671be919e0218ae99aa114781aa13",
+      "manifestUrl": "https://github.com/Rianico/dsh-better-edit/blob/7f38175fe2eefa765485d14f06abcb97bfda736c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-better-edit",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1790602281,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Rianico/dsh-better-edit",
+              "commit": "7f38175fe2eefa765485d14f06abcb97bfda736c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-better-edit",
+      "origin": "npm",
+      "name": "dsh-better-edit",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-better-edit",
+        "title": "dsh-better-edit",
+        "description": "Hash-anchored read/edit/undo_last_edit tools for DeepSeek Harness (dsh). Every line gets a unique 3-char hash (A-Za-z0-9) that stays stable across edits; stale or ambiguous anchors are rejected, never fuzzy-matched. Undo persists across restarts.",
+        "author": "dsh-better-edit contributors",
+        "homepage": "https://github.com/Rianico/dsh-better-edit",
+        "repository": {
+          "url": "https://github.com/Rianico/dsh-better-edit"
+        },
+        "metadata": {
+          "keywords": [
+            "anchors",
+            "batch-edit",
+            "coding-agent",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "edit",
+            "file-editing",
+            "hash",
+            "hash-anchored",
+            "hashline",
+            "oh-my-pi",
+            "read",
+            "stable",
+            "undo"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1790517330,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1ae4d9156e48a198a1682954624ec371a8ec56e6ed76114b490e6d0894045248",
+      "evidence": [
+        {
+          "name": "dsh-better-edit",
+          "version": "1.0.0",
+          "tarball": "https://registry.npmjs.org/dsh-better-edit/-/dsh-better-edit-1.0.0.tgz",
+          "integrity": "sha512-SAWoiY/5RACbNY9uxcpXrKoWf7oWU06I7pMwhVxX0BSdJND3dqEloU/LIqGfncadoJPBNphYX80vx1CzFOY4yw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Rianico/dsh-better-edit",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-edit",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Rianico/dsh-better-edit",
+    "commit": "7f38175fe2eefa765485d14f06abcb97bfda736c",
+    "releaseTags": 31,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:46.594Z"
+}

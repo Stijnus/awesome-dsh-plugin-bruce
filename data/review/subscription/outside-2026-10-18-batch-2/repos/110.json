@@ -1,0 +1,77 @@
+{
+  "full_name": "xingyingyuzhui/dsh-liquid-glass",
+  "originalPosition": 110,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:05:34.436Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fa148c9d270912148b65d1c5101c3ebee6f944840f6243df889c6d300aa4e440",
+      "url": "https://github.com/xingyingyuzhui/dsh-liquid-glass/blob/573a81d66ddff86216a61ebee4c755ed49ae31de/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xingyingyuzhui/dsh-liquid-glass",
+          "command": "dsh plugin --profile web add github:xingyingyuzhui/dsh-liquid-glass",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-liquid-glass",
+      "version": "0.12.82",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xingyingyuzhui/dsh-liquid-glass",
+        "commit": "573a81d66ddff86216a61ebee4c755ed49ae31de"
+      },
+      "manifestSha256": "e987038dc875caac0f679a93ffba39d3153220c7dffd302a51f87ec757c5e19f",
+      "manifestUrl": "https://github.com/xingyingyuzhui/dsh-liquid-glass/blob/573a81d66ddff86216a61ebee4c755ed49ae31de/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-liquid-glass",
+        "versions": [
+          {
+            "version": "0.12.82",
+            "publishTimestamp": 1786775770,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xingyingyuzhui/dsh-liquid-glass",
+              "commit": "573a81d66ddff86216a61ebee4c755ed49ae31de"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xingyingyuzhui/dsh-liquid-glass",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xingyingyuzhui/dsh-liquid-glass",
+    "commit": "573a81d66ddff86216a61ebee4c755ed49ae31de",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:05:40.166Z"
+}

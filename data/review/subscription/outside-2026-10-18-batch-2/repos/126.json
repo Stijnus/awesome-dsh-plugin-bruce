@@ -1,0 +1,91 @@
+{
+  "full_name": "TiantianFlow/dsh-one-gateway",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:01.939Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b01a14d26760ca7c4e15a8431d9f0b2439417b5cd9f6e386a3f2e841f6ca26b7",
+      "url": "https://github.com/TiantianFlow/dsh-one-gateway/blob/9b752b0e300dab353d02cea2d76b895452bcf515/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TiantianFlow/dsh-one-gateway",
+          "command": "dsh plugin --profile web add github:TiantianFlow/dsh-one-gateway",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "06718e1ba88d48a4a4f011dd9114a210b3e52878cbe08244211b58bd0479575c",
+      "url": "https://github.com/TiantianFlow/dsh-one-gateway/blob/9b752b0e300dab353d02cea2d76b895452bcf515/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TiantianFlow/dsh-one-gateway",
+          "command": "dsh plugin --profile web add github:TiantianFlow/dsh-one-gateway",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-one-gateway",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TiantianFlow/dsh-one-gateway",
+        "commit": "9b752b0e300dab353d02cea2d76b895452bcf515"
+      },
+      "manifestSha256": "1022bed88a2ba89382ce3dcdded1435f5f3c1cbe07167bcb49f79f205e049622",
+      "manifestUrl": "https://github.com/TiantianFlow/dsh-one-gateway/blob/9b752b0e300dab353d02cea2d76b895452bcf515/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-one-gateway",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787714824,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TiantianFlow/dsh-one-gateway",
+              "commit": "9b752b0e300dab353d02cea2d76b895452bcf515"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TiantianFlow/dsh-one-gateway",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TiantianFlow/dsh-one-gateway",
+    "commit": "9b752b0e300dab353d02cea2d76b895452bcf515",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:06:06.088Z"
+}

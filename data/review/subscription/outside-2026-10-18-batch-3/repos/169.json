@@ -1,0 +1,232 @@
+{
+  "full_name": "tma1-ai/dsh-otel",
+  "originalPosition": 169,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 169,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:47.501Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9f272ea62572ba10865af65e92550d52a8f23ef4083e94ea35b5c543132175b7",
+      "url": "https://github.com/tma1-ai/dsh-otel/blob/87fa8d65e442db48ee75798d75fabe60f70bdaab/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@tma1-ai/dsh-plugin-greptimedb",
+          "command": "dsh plugin --profile web add @tma1-ai/dsh-plugin-greptimedb",
+          "profile": "web"
+        },
+        {
+          "install": "@tma1-ai/dsh-plugin-greptimedb@beta",
+          "command": "dsh plugin --profile web add @tma1-ai/dsh-plugin-greptimedb@beta",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "be12bdadd1ebd525f8af97421bd63d0f1b4ec10fec4f20cfdb5844c52bba9630",
+      "url": "https://github.com/tma1-ai/dsh-otel/blob/87fa8d65e442db48ee75798d75fabe60f70bdaab/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@tma1-ai/dsh-plugin-greptimedb",
+          "command": "dsh plugin --profile web add @tma1-ai/dsh-plugin-greptimedb",
+          "profile": "web"
+        },
+        {
+          "install": "@tma1-ai/dsh-plugin-greptimedb@beta",
+          "command": "dsh plugin --profile web add @tma1-ai/dsh-plugin-greptimedb@beta",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "grafana/README.md",
+      "sha256": "4964302d5c0f330f8f23d8f457cbdb3b81347785df77dfaf6712359755fb090e",
+      "url": "https://github.com/tma1-ai/dsh-otel/blob/87fa8d65e442db48ee75798d75fabe60f70bdaab/grafana/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tma1-ai/dsh-plugin-greptimedb",
+      "version": "0.1.0-beta.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tma1-ai/dsh-otel",
+        "commit": "87fa8d65e442db48ee75798d75fabe60f70bdaab"
+      },
+      "manifestSha256": "fc1f832d2f1b937b064c6a6194ba76229aea029ac6c4938ddc05864d97bbaf69",
+      "manifestUrl": "https://github.com/tma1-ai/dsh-otel/blob/87fa8d65e442db48ee75798d75fabe60f70bdaab/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@tma1-ai/dsh-plugin-greptimedb",
+        "versions": [
+          {
+            "version": "0.1.0-beta.5",
+            "publishTimestamp": 1788419082,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tma1-ai/dsh-otel",
+              "commit": "87fa8d65e442db48ee75798d75fabe60f70bdaab"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@tma1-ai/dsh-plugin-greptimedb",
+      "origin": "npm",
+      "name": "@tma1-ai/dsh-plugin-greptimedb",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@tma1-ai/dsh-plugin-greptimedb",
+        "title": "@tma1-ai/dsh-plugin-greptimedb",
+        "description": "What a DeepSeek Harness run costs in tokens, money, and time. OpenTelemetry traces, metrics, and logs in GreptimeDB, with seven Grafana dashboards.",
+        "homepage": "https://github.com/tma1-ai/dsh-otel#readme",
+        "repository": {
+          "url": "https://github.com/tma1-ai/dsh-otel"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "opentelemetry",
+            "otel",
+            "greptimedb",
+            "observability",
+            "agent-observability",
+            "llm-observability",
+            "genai",
+            "token-usage",
+            "cost",
+            "tracing",
+            "grafana",
+            "llm",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0-beta.4",
+            "publishTimestamp": 1787941236,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "10b244cd409d4d9e45bb9412e666a236a90d940b07e8f85c9625cf2eceb0fefd",
+      "evidence": [
+        {
+          "name": "@tma1-ai/dsh-plugin-greptimedb",
+          "version": "0.1.0-beta.4",
+          "tarball": "https://registry.npmjs.org/@tma1-ai/dsh-plugin-greptimedb/-/dsh-plugin-greptimedb-0.1.0-beta.4.tgz",
+          "integrity": "sha512-JYGVY9V6L7OknxN/nUpmZ27nZ5IkSq9QuU0JzM0CShmk8vhQLbBjVJrHSP7wx3UtHQGOlwQgrhod0RbCfvIDag=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@tma1-ai/dsh-plugin-greptimedb@beta",
+      "origin": "npm",
+      "name": "@tma1-ai/dsh-plugin-greptimedb",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@tma1-ai/dsh-plugin-greptimedb",
+        "title": "@tma1-ai/dsh-plugin-greptimedb",
+        "description": "What a DeepSeek Harness run costs in tokens, money, and time. OpenTelemetry traces, metrics, and logs in GreptimeDB, with seven Grafana dashboards.",
+        "homepage": "https://github.com/tma1-ai/dsh-otel#readme",
+        "repository": {
+          "url": "https://github.com/tma1-ai/dsh-otel"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "opentelemetry",
+            "otel",
+            "greptimedb",
+            "observability",
+            "agent-observability",
+            "llm-observability",
+            "genai",
+            "token-usage",
+            "cost",
+            "tracing",
+            "grafana",
+            "llm",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0-beta.5",
+            "publishTimestamp": 1788419490,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "10b244cd409d4d9e45bb9412e666a236a90d940b07e8f85c9625cf2eceb0fefd",
+      "evidence": [
+        {
+          "name": "@tma1-ai/dsh-plugin-greptimedb",
+          "version": "0.1.0-beta.5",
+          "tarball": "https://registry.npmjs.org/@tma1-ai/dsh-plugin-greptimedb/-/dsh-plugin-greptimedb-0.1.0-beta.5.tgz",
+          "integrity": "sha512-uW9S8jAFCkruw99IFn5cYBjGvz+xJTdyc4viWB/k5iDlWwXtU+VU1eIZSer3t24TB6hbHJqi+igJdyjbbYr61g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@tma1-ai/dsh-plugin-greptimedb",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@tma1-ai/dsh-plugin-greptimedb@beta",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tma1-ai/dsh-otel",
+    "commit": "87fa8d65e442db48ee75798d75fabe60f70bdaab",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:53.788Z"
+}

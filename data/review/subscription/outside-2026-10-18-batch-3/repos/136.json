@@ -1,0 +1,77 @@
+{
+  "full_name": "buhuikongpan/dsh-pluginmanager",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:05.068Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "da5f16ed6b58a5394399f58f93d20c14712bac08daa52aa9d09f7f4aaae5ef87",
+      "url": "https://github.com/buhuikongpan/dsh-pluginmanager/blob/de79f77748d0a60106650cfb37d9ce020663171d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/buhuikongpan/dsh-pluginmanager",
+          "command": "dsh plugin add github:buhuikongpan/dsh-pluginmanager",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pluginmanager",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/buhuikongpan/dsh-pluginmanager",
+        "commit": "de79f77748d0a60106650cfb37d9ce020663171d"
+      },
+      "manifestSha256": "fe9bb1f1a48706aae3a0dc2ec7954386a82abcd1c5023e5462bf9cc2aa1b3691",
+      "manifestUrl": "https://github.com/buhuikongpan/dsh-pluginmanager/blob/de79f77748d0a60106650cfb37d9ce020663171d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pluginmanager",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787233178,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/buhuikongpan/dsh-pluginmanager",
+              "commit": "de79f77748d0a60106650cfb37d9ce020663171d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/buhuikongpan/dsh-pluginmanager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/buhuikongpan/dsh-pluginmanager",
+    "commit": "de79f77748d0a60106650cfb37d9ce020663171d",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:09.532Z"
+}

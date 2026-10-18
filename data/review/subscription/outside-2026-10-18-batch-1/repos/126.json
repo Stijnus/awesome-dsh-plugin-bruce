@@ -1,0 +1,157 @@
+{
+  "full_name": "huliux/dsh-asr-plugin",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:56.088Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "adbafa13a6b03bceb5d199d0be83da4766a25f698a0746ceb71806fd3a9ddb14",
+      "url": "https://github.com/huliux/dsh-asr-plugin/blob/03b5e86c647a3960018d32b324b5a045846520d7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@huliux/dsh-asr-plugin@0.1.2",
+          "command": "dsh plugin --profile web add --ignore-scripts @huliux/dsh-asr-plugin@0.1.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "527fd580ad7807486b58946c4da21a4c26b22f2bfd7f11ba729be5942deae4cb",
+      "url": "https://github.com/huliux/dsh-asr-plugin/blob/03b5e86c647a3960018d32b324b5a045846520d7/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@huliux/dsh-asr-plugin@0.1.2",
+          "command": "dsh plugin --profile web add --ignore-scripts @huliux/dsh-asr-plugin@0.1.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "sha256": "f3da6a456a8fd8be724efb4b535a6aefe5bca19d6ab664b904e7c88b850717ac",
+      "url": "https://github.com/huliux/dsh-asr-plugin/blob/03b5e86c647a3960018d32b324b5a045846520d7/assets/screenshots/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huliux/dsh-asr-plugin",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huliux/dsh-asr-plugin",
+        "commit": "03b5e86c647a3960018d32b324b5a045846520d7"
+      },
+      "manifestSha256": "f590faf6bfeac7d2bdd461dcf47d99c4524504093f6b8d885f0016f114f4e36b",
+      "manifestUrl": "https://github.com/huliux/dsh-asr-plugin/blob/03b5e86c647a3960018d32b324b5a045846520d7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@huliux/dsh-asr-plugin",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1791455622,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/huliux/dsh-asr-plugin",
+              "commit": "03b5e86c647a3960018d32b324b5a045846520d7"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@huliux/dsh-asr-plugin@0.1.2",
+      "origin": "npm",
+      "name": "@huliux/dsh-asr-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@huliux/dsh-asr-plugin",
+        "title": {
+          "en": "DSH ASR (macOS)",
+          "zh": "DSH ASR（macOS）"
+        },
+        "description": {
+          "en": "Local recording and meeting transcription. Apple Silicon Mac only.",
+          "zh": "本地录音与会议转写，仅支持 Apple Silicon Mac。"
+        },
+        "homepage": "https://github.com/huliux/dsh-asr-plugin#readme",
+        "repository": {
+          "url": "https://github.com/huliux/dsh-asr-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "asr",
+            "meeting-transcription",
+            "local-transcription"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1791368003,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3b32e303d0cb37d8d9771ef2b5b19dc1888daa2a466da5b4514d152e5250a8e8",
+      "evidence": [
+        {
+          "name": "@huliux/dsh-asr-plugin",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@huliux/dsh-asr-plugin/-/dsh-asr-plugin-0.1.2.tgz",
+          "integrity": "sha512-VjpOoDJ/ZXJ+/5uA7juamFyVPQWdqU6myvZAjBO8ffZ1N+56Za5XyIGvDrwBBl3zvu8gtqdByBuWHMUAwpLjNw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@huliux/dsh-asr-plugin@0.1.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huliux/dsh-asr-plugin",
+    "commit": "03b5e86c647a3960018d32b324b5a045846520d7",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:18:04.066Z"
+}

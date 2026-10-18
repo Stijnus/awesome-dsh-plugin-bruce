@@ -1,0 +1,125 @@
+{
+  "full_name": "Cyrene-xl/DSH-Cyrene",
+  "originalPosition": 47,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 47,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:09.206Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "641f050b0895eb4c516c09a733e801bc1462b591fbe54e81a60d6577cf83f1e4",
+      "url": "https://github.com/Cyrene-xl/DSH-Cyrene/blob/dfd24ad74243043b3d38396f92dda8c4619ac812/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cyrene",
+          "command": "dsh plugin --profile <你的 profile> add dsh-cyrene",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cyrene",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Cyrene-xl/DSH-Cyrene",
+        "commit": "dfd24ad74243043b3d38396f92dda8c4619ac812"
+      },
+      "manifestSha256": "4b1a41132328c6afd56368fdf758d631477f6ccc14bb1ad8257e9a2dd19748c1",
+      "manifestUrl": "https://github.com/Cyrene-xl/DSH-Cyrene/blob/dfd24ad74243043b3d38396f92dda8c4619ac812/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cyrene",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1792287753,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Cyrene-xl/DSH-Cyrene",
+              "commit": "dfd24ad74243043b3d38396f92dda8c4619ac812"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-cyrene",
+      "origin": "npm",
+      "name": "dsh-cyrene",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cyrene",
+        "title": "dsh-cyrene",
+        "description": "昔涟 (Cyrene) 主题 + 桌宠 for the dsh web GUI — pearl-white pink theme, Live2D desktop pet, particle background, gradient, and a collapsible config card. Ported from Cyrene-Agent (MIT) with the Live2D model creator's permission.",
+        "homepage": "https://github.com/under-the-ocean/dsh-plugin-cyrene#readme",
+        "repository": {
+          "url": "https://github.com/under-the-ocean/dsh-plugin-cyrene"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "theme",
+            "pet",
+            "live2d",
+            "cyrene"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1788621015,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7bb96701c89241f09a1b5745e772c7d69f6ced7c3f24416a237187f04089db68",
+      "evidence": [
+        {
+          "name": "dsh-cyrene",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-cyrene/-/dsh-cyrene-0.4.1.tgz",
+          "integrity": "sha512-xm54Q3bnCIRdaTjCixDEJOsBFYNe52U429XVDP3rREDxFUKYS1pdwouz8uhSgNIda223EJID/aU6j5wu3FGEFg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-cyrene",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Cyrene-xl/DSH-Cyrene",
+    "commit": "dfd24ad74243043b3d38396f92dda8c4619ac812",
+    "releaseTags": 6,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:34.803Z"
+}

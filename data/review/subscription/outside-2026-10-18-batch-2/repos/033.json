@@ -1,0 +1,65 @@
+{
+  "full_name": "Z-6354/dsh-mobile-hanui",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:50.918Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2616fd98ef66f6683a815d2b428e66b65ea31cd4be7c771221710d546f58d2be",
+      "url": "https://github.com/Z-6354/dsh-mobile-hanui/blob/27f11e7b7925fafcd63926dfefde11cfc1197cf3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mobile-hanui",
+      "version": "0.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Z-6354/dsh-mobile-hanui",
+        "commit": "27f11e7b7925fafcd63926dfefde11cfc1197cf3"
+      },
+      "manifestSha256": "8662db44ef56acc78896d1a8dcd08cb938fdefa358c9e71a2a8d5f569cbf5306",
+      "manifestUrl": "https://github.com/Z-6354/dsh-mobile-hanui/blob/27f11e7b7925fafcd63926dfefde11cfc1197cf3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-mobile-hanui",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1787057645,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Z-6354/dsh-mobile-hanui",
+              "commit": "27f11e7b7925fafcd63926dfefde11cfc1197cf3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Z-6354/dsh-mobile-hanui",
+    "commit": "27f11e7b7925fafcd63926dfefde11cfc1197cf3",
+    "releaseTags": 6,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:03:54.878Z"
+}

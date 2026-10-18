@@ -1,0 +1,155 @@
+{
+  "full_name": "AcidGr/dsh-web-whale-maid",
+  "originalPosition": 43,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 43,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:04.265Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a7087107735358e39fc688ba97f9abb0e97f0d6be5e52d23b3a864d310e7bbfb",
+      "url": "https://github.com/AcidGr/dsh-web-whale-maid/blob/7389222e2176603b197076ab3823e44d85547b3b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-whale-maid",
+          "command": "dsh plugin --profile web add dsh-web-whale-maid",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AcidGr/dsh-web-whale-maid",
+          "command": "dsh plugin --profile web add github:AcidGr/dsh-web-whale-maid",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8ded7991c39bbe958673216a33dc9fb7ce2cef32f915ec9c0a0608bff55696d3",
+      "url": "https://github.com/AcidGr/dsh-web-whale-maid/blob/7389222e2176603b197076ab3823e44d85547b3b/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-whale-maid",
+          "command": "dsh plugin --profile web add dsh-web-whale-maid",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AcidGr/dsh-web-whale-maid",
+          "command": "dsh plugin --profile web add github:AcidGr/dsh-web-whale-maid",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-whale-maid",
+      "version": "1.0.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AcidGr/dsh-web-whale-maid",
+        "commit": "7389222e2176603b197076ab3823e44d85547b3b"
+      },
+      "manifestSha256": "eb7f7b35eeb7eea75312c06516c67e279bf3d6ffb300059aa2b207d05d6b2d73",
+      "manifestUrl": "https://github.com/AcidGr/dsh-web-whale-maid/blob/7389222e2176603b197076ab3823e44d85547b3b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-web-whale-maid",
+        "versions": [
+          {
+            "version": "1.0.8",
+            "publishTimestamp": 1790178424,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AcidGr/dsh-web-whale-maid",
+              "commit": "7389222e2176603b197076ab3823e44d85547b3b"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-web-whale-maid",
+      "origin": "npm",
+      "name": "dsh-web-whale-maid",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-web-whale-maid",
+        "title": "dsh-web-whale-maid",
+        "description": "Anime maid whale desktop pet for the DeepSeek Harness (dsh) Web UI: real-time LLM dialogues, 8 mood animations, satiety reserve system, persistent speech bubble, and mobile-adapted cupboard UI.",
+        "homepage": "https://github.com/AcidGr/dsh-web-whale-maid",
+        "repository": {
+          "url": "https://github.com/AcidGr/dsh-web-whale-maid"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "desktop-pet",
+            "whale-maid",
+            "anime",
+            "maid",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.7",
+            "publishTimestamp": 1789647631,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a413e286ce91cd0c8d85c872c6702da9dbb22584b63b5e2d77b96823dadc3de5",
+      "evidence": [
+        {
+          "name": "dsh-web-whale-maid",
+          "version": "1.0.7",
+          "tarball": "https://registry.npmjs.org/dsh-web-whale-maid/-/dsh-web-whale-maid-1.0.7.tgz",
+          "integrity": "sha512-J2AY8xoWMia1QquELfXPZsgqdLPgfWGSp6rPbP4+VRndbY1NG/wVKlx4tE6voktNQw8AAfXgbW0h8kGaWBpmdw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-web-whale-maid",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AcidGr/dsh-web-whale-maid",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AcidGr/dsh-web-whale-maid",
+    "commit": "7389222e2176603b197076ab3823e44d85547b3b",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:25.696Z"
+}

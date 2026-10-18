@@ -1,0 +1,151 @@
+{
+  "full_name": "KannaKuron/dsh-better-workspace",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:36.548Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1bd99546d85a6c6990df0fc98e712b3f1d16ee1c6e47450ce5a0cb3c7686f91c",
+      "url": "https://github.com/KannaKuron/dsh-better-workspace/blob/2c0ced3c9554b72bae0e94f7f2d403f62f5f1fc4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-workspace",
+          "command": "dsh plugin --profile web add dsh-better-workspace",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "4b7bab2e6550351a2ff3b3ff66deccee1f386540906cc43eed2147f40cad67b6",
+      "url": "https://github.com/KannaKuron/dsh-better-workspace/blob/2c0ced3c9554b72bae0e94f7f2d403f62f5f1fc4/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-workspace",
+          "command": "dsh plugin --profile web add dsh-better-workspace",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-workspace",
+      "version": "0.30.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KannaKuron/dsh-better-workspace",
+        "commit": "2c0ced3c9554b72bae0e94f7f2d403f62f5f1fc4"
+      },
+      "manifestSha256": "9bcdff11a8de4acaab6d75fe93db454d62263a1239adc92c5e4b1d550ea54527",
+      "manifestUrl": "https://github.com/KannaKuron/dsh-better-workspace/blob/2c0ced3c9554b72bae0e94f7f2d403f62f5f1fc4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-better-workspace",
+        "versions": [
+          {
+            "version": "0.30.0",
+            "publishTimestamp": 1792217647,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KannaKuron/dsh-better-workspace",
+              "commit": "2c0ced3c9554b72bae0e94f7f2d403f62f5f1fc4"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-better-workspace",
+      "origin": "npm",
+      "name": "dsh-better-workspace",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-better-workspace",
+        "title": {
+          "en": "Better Workspace",
+          "zh": "更好的工作区"
+        },
+        "description": {
+          "en": "Upgrades the sidebar workspace list into a two-layer hierarchy tree (disk nesting by the official owningParentFolder semantics, optional name-slash grouping), explicit empty folders, appearance customization with live preview, and the official add-workspace flow for every backend.",
+          "zh": "把侧边栏工作区列表升级为两层层级树(磁盘层按官方 owningParentFolder 语义嵌套,名称层按标题里的 / 可选分组),支持显式空分组、带实时预览的外观自定义,添加工作区全程走官方目录流。"
+        },
+        "homepage": "https://github.com/KannaKuron/dsh-better-workspace",
+        "repository": {
+          "url": "https://github.com/KannaKuron/dsh-better-workspace"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "sidebar",
+            "workspace",
+            "dsh-better"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSI+CiAgPHBhdGggZD0iTTQgMTAuNUEyLjUgMi41IDAgMCAxIDYuNSA4aDZsMi40IDIuOEgyOS41QTIuNSAyLjUgMCAwIDEgMzIgMTMuM1YyNmEyLjUgMi41IDAgMCAxLTIuNSAyLjVoLTIzQTIuNSAyLjUgMCAwIDEgNCAyNlYxMC41eiIgc3Ryb2tlPSIjNDQ5M2Y4IiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0xMSAxNy41aDlNMTEgMjEuNWgxNCIgc3Ryb2tlPSIjNDQ5M2Y4IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iMjQuNSIgY3k9IjE3LjUiIHI9IjEuMyIgZmlsbD0iI2YwODgzZSIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.30.0",
+            "publishTimestamp": 1792218014,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6956dce3b59b3f47f008c67cce38ec264a28945c4d8384bc72f23881982f4a34",
+      "evidence": [
+        {
+          "name": "dsh-better-workspace",
+          "version": "0.30.0",
+          "tarball": "https://registry.npmjs.org/dsh-better-workspace/-/dsh-better-workspace-0.30.0.tgz",
+          "integrity": "sha512-CLOenS9ZKanbguZ7TfjzBREAfquXmg2vA1I7JcR+Jkr65HK3Y/b5MgwI2I8qAdg0Trl7QOIEbmk7UTvHJvshcw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-workspace",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KannaKuron/dsh-better-workspace",
+    "commit": "2c0ced3c9554b72bae0e94f7f2d403f62f5f1fc4",
+    "releaseTags": 50,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:42.526Z"
+}

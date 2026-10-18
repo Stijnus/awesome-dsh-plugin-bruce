@@ -1,0 +1,246 @@
+{
+  "full_name": "JAdpp/dsh-whale-galgame",
+  "originalPosition": 52,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 52,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:51.050Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d6e4a26898113a4f3540ddfef9f377af5696e1e9e389f5d886776ebae319bac2",
+      "url": "https://github.com/JAdpp/dsh-whale-galgame/blob/046b848f244450e6e636335766276bf3343fe84b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-whale-galgame",
+          "command": "dsh plugin --profile web add dsh-whale-galgame",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/JAdpp/dsh-whale-galgame#main",
+          "command": "dsh plugin --profile web add github:JAdpp/dsh-whale-galgame#main",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "8a3907a81987ec832c6f1cafe225de626472ea3f165679edc3f887cad70a3373",
+      "url": "https://github.com/JAdpp/dsh-whale-galgame/blob/046b848f244450e6e636335766276bf3343fe84b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-whale-galgame",
+          "command": "dsh plugin --profile web add dsh-whale-galgame",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/JAdpp/dsh-whale-galgame#main",
+          "command": "dsh plugin --profile web add github:JAdpp/dsh-whale-galgame#main",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "ebef398a8bd40e3416546dffeb2842a7e9ff463a55813c8f535d6c55a123a75a",
+      "url": "https://github.com/JAdpp/dsh-whale-galgame/blob/046b848f244450e6e636335766276bf3343fe84b/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-whale-galgame",
+          "command": "dsh plugin --profile web add dsh-whale-galgame",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/JAdpp/dsh-whale-galgame#main",
+          "command": "dsh plugin --profile web add github:JAdpp/dsh-whale-galgame#main",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "f517fa529a21604d7f64a1b03e128afeb27358d40256f1f07c42d6f17efcf939",
+      "url": "https://github.com/JAdpp/dsh-whale-galgame/blob/046b848f244450e6e636335766276bf3343fe84b/README.ko.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-whale-galgame",
+          "command": "dsh plugin --profile web add dsh-whale-galgame",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/JAdpp/dsh-whale-galgame#main",
+          "command": "dsh plugin --profile web add github:JAdpp/dsh-whale-galgame#main",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "assets/default/README.md",
+      "sha256": "c86b1e5d49d821de53e8c450b824c96d52e3b84ddd90323a0e29b39159eecb53",
+      "url": "https://github.com/JAdpp/dsh-whale-galgame/blob/046b848f244450e6e636335766276bf3343fe84b/assets/default/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-galgame",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JAdpp/dsh-whale-galgame",
+        "commit": "046b848f244450e6e636335766276bf3343fe84b"
+      },
+      "manifestSha256": "da396be400db7f2b2f146161930a1293f0b8a7af8e3f25fa12d7f74ce9587738",
+      "manifestUrl": "https://github.com/JAdpp/dsh-whale-galgame/blob/046b848f244450e6e636335766276bf3343fe84b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-whale-galgame",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1791044713,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JAdpp/dsh-whale-galgame",
+              "commit": "046b848f244450e6e636335766276bf3343fe84b"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-whale-galgame",
+      "origin": "npm",
+      "name": "dsh-whale-galgame",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-whale-galgame",
+        "title": "dsh-whale-galgame",
+        "description": "A multi-character Galgame interface and optional desktop companion for DeepSeek Harness Web.",
+        "homepage": "https://github.com/JAdpp/dsh-whale-galgame#readme",
+        "repository": {
+          "url": "https://github.com/JAdpp/dsh-whale-galgame"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh-plugin",
+            "galgame",
+            "visual-novel",
+            "desktop-pet"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1789471416,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b6e6e663a05b2b8d599dee73247885f8be2eb5e7e0520b898597c0b54a0c7b51",
+      "evidence": [
+        {
+          "name": "dsh-whale-galgame",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-whale-galgame/-/dsh-whale-galgame-0.4.1.tgz",
+          "integrity": "sha512-gu/Kc9rzhL9IxuxJV52je/4q+9KHXjWbWU5yVmjkboEebqFJDFwp8VU/jUmi47S8kOqjnbl/OPPgkcFuZlEqIg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/JAdpp/dsh-whale-galgame#main",
+      "origin": "git_target",
+      "name": "dsh-whale-galgame",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-whale-galgame",
+        "title": "dsh-whale-galgame",
+        "description": "A multi-character Galgame interface and optional desktop companion for DeepSeek Harness Web.",
+        "homepage": "https://github.com/JAdpp/dsh-whale-galgame#readme",
+        "repository": {
+          "url": "https://github.com/JAdpp/dsh-whale-galgame"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh-plugin",
+            "galgame",
+            "visual-novel",
+            "desktop-pet"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1791044713,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JAdpp/dsh-whale-galgame",
+              "commit": "046b848f244450e6e636335766276bf3343fe84b"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "046b848f244450e6e636335766276bf3343fe84b",
+          "name": "dsh-whale-galgame",
+          "version": "0.4.1",
+          "url": "https://github.com/JAdpp/dsh-whale-galgame",
+          "manifestSha256": "da396be400db7f2b2f146161930a1293f0b8a7af8e3f25fa12d7f74ce9587738",
+          "publishTimestamp": 1791044713
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-whale-galgame",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/JAdpp/dsh-whale-galgame#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JAdpp/dsh-whale-galgame",
+    "commit": "046b848f244450e6e636335766276bf3343fe84b",
+    "releaseTags": 1,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:45.433Z"
+}

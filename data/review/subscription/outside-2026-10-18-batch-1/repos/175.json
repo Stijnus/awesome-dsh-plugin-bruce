@@ -1,0 +1,159 @@
+{
+  "full_name": "jiesou/dsh-opencode-zen-free-provider",
+  "originalPosition": 175,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 175,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:12.636Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c71bdf273143f1331abb291b094d8d65cc85c6ca6031743e736e836a854a05e4",
+      "url": "https://github.com/jiesou/dsh-opencode-zen-free-provider/blob/6c44a64844c7c4e4128f080214853ae82e7e9a3b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jiesou/dsh-opencode-zen-free-provider",
+          "command": "dsh plugin --profile web add @jiesou/dsh-opencode-zen-free-provider",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/jiesou/dsh-opencode-zen-free-provider",
+          "command": "dsh plugin --profile web add github:jiesou/dsh-opencode-zen-free-provider",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "236fe1a0a878d606a4e9f80259cbb08b27027e82315409bd2da79b9bf6fc6980",
+      "url": "https://github.com/jiesou/dsh-opencode-zen-free-provider/blob/6c44a64844c7c4e4128f080214853ae82e7e9a3b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jiesou/dsh-opencode-zen-free-provider",
+          "command": "dsh plugin --profile web add @jiesou/dsh-opencode-zen-free-provider",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/jiesou/dsh-opencode-zen-free-provider",
+          "command": "dsh plugin --profile web add github:jiesou/dsh-opencode-zen-free-provider",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@jiesou/dsh-opencode-zen-free-provider",
+      "version": "0.1.25",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiesou/dsh-opencode-zen-free-provider",
+        "commit": "6c44a64844c7c4e4128f080214853ae82e7e9a3b"
+      },
+      "manifestSha256": "ea5fd596ef970ff9705a96a0440ce3a92e852d66d45c86a5a45d8b22aa916fa3",
+      "manifestUrl": "https://github.com/jiesou/dsh-opencode-zen-free-provider/blob/6c44a64844c7c4e4128f080214853ae82e7e9a3b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@jiesou/dsh-opencode-zen-free-provider",
+        "versions": [
+          {
+            "version": "0.1.25",
+            "publishTimestamp": 1792145712,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiesou/dsh-opencode-zen-free-provider",
+              "commit": "6c44a64844c7c4e4128f080214853ae82e7e9a3b"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@jiesou/dsh-opencode-zen-free-provider",
+      "origin": "npm",
+      "name": "@jiesou/dsh-opencode-zen-free-provider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jiesou/dsh-opencode-zen-free-provider",
+        "title": "@jiesou/dsh-opencode-zen-free-provider",
+        "description": "OpenCode Zen free models provider for dsh",
+        "repository": {
+          "url": "https://github.com/jiesou/dsh-opencode-zen-free-provider"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "opencode",
+            "zen",
+            "llm-provider",
+            "dsh-bundle"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.25",
+            "publishTimestamp": 1792145935,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "dd38a995754a1ff141e95b20a8cdaa7ba78cc7961914dc95a4a0a07900cc9b19",
+      "evidence": [
+        {
+          "name": "@jiesou/dsh-opencode-zen-free-provider",
+          "version": "0.1.25",
+          "tarball": "https://registry.npmjs.org/@jiesou/dsh-opencode-zen-free-provider/-/dsh-opencode-zen-free-provider-0.1.25.tgz",
+          "integrity": "sha512-+5zpe14FoA0Z54l/oEB/oLGQZQShuOMHk4iZ7D3azkdHQWHz1NUo712k08WIJgMVR9/P+G4p2hiw018p7dtNCQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jiesou/dsh-opencode-zen-free-provider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/jiesou/dsh-opencode-zen-free-provider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jiesou/dsh-opencode-zen-free-provider",
+    "commit": "6c44a64844c7c4e4128f080214853ae82e7e9a3b",
+    "releaseTags": 24,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:17.680Z"
+}

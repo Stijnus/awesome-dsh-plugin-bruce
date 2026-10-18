@@ -1,0 +1,49 @@
+{
+  "full_name": "weixinlll/dsh-tavern-image",
+  "originalPosition": 181,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 181,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:23.931Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b980c72491e0caa8b669fd16e2fe869fa41f4c7976e540e5085154f49a3e2ff9",
+      "url": "https://github.com/weixinlll/dsh-tavern-image/blob/2b25f31e0a86aa68859acb200c12c834aac01aad/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tavern-comfy",
+      "version": "2.5.4.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weixinlll/dsh-tavern-image",
+        "commit": "2b25f31e0a86aa68859acb200c12c834aac01aad"
+      },
+      "manifestSha256": "b9bc0a86e619c7274de7a7f6ac6b479d94ed9af3df81ad0a5d0f87b536b170e3",
+      "manifestUrl": "https://github.com/weixinlll/dsh-tavern-image/blob/2b25f31e0a86aa68859acb200c12c834aac01aad/package.json",
+      "status": "invalid_manifest",
+      "reason": "$.plugins[0].versions[0].version must be an exact SemVer version"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/weixinlll/dsh-tavern-image",
+    "commit": "2b25f31e0a86aa68859acb200c12c834aac01aad",
+    "releaseTags": 9,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-10-17T19:07:28.940Z"
+}

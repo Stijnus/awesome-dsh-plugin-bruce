@@ -1,0 +1,192 @@
+{
+  "full_name": "fuzhengwei/walioffice-dsh-plugin",
+  "originalPosition": 166,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 166,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:06:54.180Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fe24f7762f35a1d5f700a9742745e8b1a377f9e142b89164aa334d6154c06a26",
+      "url": "https://github.com/fuzhengwei/walioffice-dsh-plugin/blob/e851be48b62696fd5bb98387bb3f6ddfdcfe9454/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "walioffice-dsh-plugin",
+          "command": "dsh plugin --profile web add walioffice-dsh-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "walioffice-dsh-plugin@latest",
+          "command": "dsh plugin --profile web add walioffice-dsh-plugin@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "walioffice-dsh-plugin",
+      "version": "0.1.15",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fuzhengwei/walioffice-dsh-plugin",
+        "commit": "e851be48b62696fd5bb98387bb3f6ddfdcfe9454"
+      },
+      "manifestSha256": "a241b7a4b19b2ce38234df11aa2892f5a27e044309d5ef3401c6f91804f9b2eb",
+      "manifestUrl": "https://github.com/fuzhengwei/walioffice-dsh-plugin/blob/e851be48b62696fd5bb98387bb3f6ddfdcfe9454/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.8",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "walioffice-dsh-plugin",
+        "versions": [
+          {
+            "version": "0.1.15",
+            "publishTimestamp": 1787643607,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fuzhengwei/walioffice-dsh-plugin",
+              "commit": "e851be48b62696fd5bb98387bb3f6ddfdcfe9454"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "walioffice-dsh-plugin",
+      "origin": "npm",
+      "name": "walioffice-dsh-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "walioffice-dsh-plugin",
+        "title": "walioffice-dsh-plugin",
+        "description": "WaLiOffice 办公工具套件 — DeepSeek Harness (DSH) 插件",
+        "homepage": "https://github.com/fuzhengwei/walioffice-dsh-plugin#readme",
+        "repository": {
+          "url": "https://github.com/fuzhengwei/walioffice-dsh-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "office",
+            "pptx",
+            "docx",
+            "xlsx"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.15",
+            "publishTimestamp": 1787387703,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.8"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ef3fa6942a52156e7e1d7195f6b4df459c692285cbc5b31f2e482a53285f7456",
+      "evidence": [
+        {
+          "name": "walioffice-dsh-plugin",
+          "version": "0.1.15",
+          "tarball": "https://registry.npmjs.org/walioffice-dsh-plugin/-/walioffice-dsh-plugin-0.1.15.tgz",
+          "integrity": "sha512-976kVhbLfV4shEciGshXlPT/yyF32A6nY0yqOPO0Po4dmLXh4ytEGl4xwnhbIQKy5VIxc3Fx+kTEeYpTYY1Yww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "walioffice-dsh-plugin@latest",
+      "origin": "npm",
+      "name": "walioffice-dsh-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "walioffice-dsh-plugin",
+        "title": "walioffice-dsh-plugin",
+        "description": "WaLiOffice 办公工具套件 — DeepSeek Harness (DSH) 插件",
+        "homepage": "https://github.com/fuzhengwei/walioffice-dsh-plugin#readme",
+        "repository": {
+          "url": "https://github.com/fuzhengwei/walioffice-dsh-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "office",
+            "pptx",
+            "docx",
+            "xlsx"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.15",
+            "publishTimestamp": 1787387703,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.8"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ef3fa6942a52156e7e1d7195f6b4df459c692285cbc5b31f2e482a53285f7456",
+      "evidence": [
+        {
+          "name": "walioffice-dsh-plugin",
+          "version": "0.1.15",
+          "tarball": "https://registry.npmjs.org/walioffice-dsh-plugin/-/walioffice-dsh-plugin-0.1.15.tgz",
+          "integrity": "sha512-976kVhbLfV4shEciGshXlPT/yyF32A6nY0yqOPO0Po4dmLXh4ytEGl4xwnhbIQKy5VIxc3Fx+kTEeYpTYY1Yww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "walioffice-dsh-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "walioffice-dsh-plugin@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fuzhengwei/walioffice-dsh-plugin",
+    "commit": "e851be48b62696fd5bb98387bb3f6ddfdcfe9454",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:00.349Z"
+}

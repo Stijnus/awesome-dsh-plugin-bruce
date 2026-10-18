@@ -1,0 +1,91 @@
+{
+  "full_name": "tjxj/dsh-wanghong-handwritten-ppt",
+  "originalPosition": 95,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 95,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:15.545Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dab70fc4098319eb180066f77f41cb7c476afcc337d880952dd7025a920d2b21",
+      "url": "https://github.com/tjxj/dsh-wanghong-handwritten-ppt/blob/3968e8b2e46ac5373c87a6191d0520022a0ed010/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tjxj/dsh-wanghong-handwritten-ppt",
+          "command": "dsh plugin --profile web add github:tjxj/dsh-wanghong-handwritten-ppt",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "54162024b15dd06b158c3c480fcb847db1f792a5c50cb652400225fb77ffb0c4",
+      "url": "https://github.com/tjxj/dsh-wanghong-handwritten-ppt/blob/3968e8b2e46ac5373c87a6191d0520022a0ed010/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tjxj/dsh-wanghong-handwritten-ppt",
+          "command": "dsh plugin --profile web add github:tjxj/dsh-wanghong-handwritten-ppt",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wanghong-handwritten-ppt",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tjxj/dsh-wanghong-handwritten-ppt",
+        "commit": "3968e8b2e46ac5373c87a6191d0520022a0ed010"
+      },
+      "manifestSha256": "74d8ce8799ffc41d0744bded5f18d04dec84fec13d53a420401872d4ccb93d53",
+      "manifestUrl": "https://github.com/tjxj/dsh-wanghong-handwritten-ppt/blob/3968e8b2e46ac5373c87a6191d0520022a0ed010/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-wanghong-handwritten-ppt",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786704121,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tjxj/dsh-wanghong-handwritten-ppt",
+              "commit": "3968e8b2e46ac5373c87a6191d0520022a0ed010"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/tjxj/dsh-wanghong-handwritten-ppt",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tjxj/dsh-wanghong-handwritten-ppt",
+    "commit": "3968e8b2e46ac5373c87a6191d0520022a0ed010",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:20.829Z"
+}

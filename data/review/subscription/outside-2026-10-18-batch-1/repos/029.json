@@ -1,0 +1,136 @@
+{
+  "full_name": "bychv/dsh-preset-enhance",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:21.262Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6136938fb338fcc4aeba0a76cd5b5169927c32dc2a6570f5c7ec1aee9cd3bb8d",
+      "url": "https://github.com/bychv/dsh-preset-enhance/blob/7cc181787ce0d03405016fcc14f713151dda0113/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-preset-enhance@next",
+          "command": "dsh plugin --profile web add dsh-preset-enhance@next",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "a3127b30f518084605c6cfddd5877bf5945bfb2dfb2b61b1859c894c85967149",
+      "url": "https://github.com/bychv/dsh-preset-enhance/blob/7cc181787ce0d03405016fcc14f713151dda0113/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-preset-enhance",
+      "version": "0.3.6-rc.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bychv/dsh-preset-enhance",
+        "commit": "7cc181787ce0d03405016fcc14f713151dda0113"
+      },
+      "manifestSha256": "86e611bf0f608d7c1eb5c85adc6a9dcd468a9a2ce3a69fd88fde0647e70acfd3",
+      "manifestUrl": "https://github.com/bychv/dsh-preset-enhance/blob/7cc181787ce0d03405016fcc14f713151dda0113/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-0 <0.2.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-preset-enhance",
+        "versions": [
+          {
+            "version": "0.3.6-rc.1",
+            "publishTimestamp": 1792211229,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bychv/dsh-preset-enhance",
+              "commit": "7cc181787ce0d03405016fcc14f713151dda0113"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-0 <0.2.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-preset-enhance@next",
+      "origin": "npm",
+      "name": "dsh-preset-enhance",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-preset-enhance",
+        "title": {
+          "en": "DeepSeek Preset Enhance",
+          "zh-cn": "DeepSeek-预设增强"
+        },
+        "description": {
+          "en": "Preset editing, prompt injection, and DeepSeek adapter configuration",
+          "zh-cn": "预设编辑、提示词注入与 DeepSeek 适配器配置"
+        },
+        "author": "bychv",
+        "homepage": "https://github.com/bychv/dsh-preset-enhance",
+        "repository": {
+          "url": "https://github.com/bychv/dsh-preset-enhance"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgPHJlY3QgeD0iNiIgeT0iNiIgd2lkdGg9IjE5IiBoZWlnaHQ9IjIzIiByeD0iNCIgZmlsbD0iIzdDQjdGRiIgZmlsbC1vcGFjaXR5PSIwLjM1Ii8+DQogIDxyZWN0IHg9IjEwIiB5PSI5IiB3aWR0aD0iMjAiIGhlaWdodD0iMjIiIHJ4PSI0IiBmaWxsPSJ1cmwoI3ByZXNldC1ncmFkaWVudCkiLz4NCiAgPHBhdGggZD0iTTE1IDE2SDI1TTE1IDIzSDI1IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4NCiAgPHJlY3QgeD0iMTciIHk9IjEzLjUiIHdpZHRoPSIzIiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiNGRkZGRkYiLz4NCiAgPHJlY3QgeD0iMjEiIHk9IjIwLjUiIHdpZHRoPSIzIiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiNGRkZGRkYiLz4NCiAgPGRlZnM+DQogICAgPGxpbmVhckdyYWRpZW50IGlkPSJwcmVzZXQtZ3JhZGllbnQiIHgxPSIxMiIgeTE9IjkiIHgyPSIyOCIgeTI9IjMxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjN0NCN0ZGIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNDVBRjMiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICA8L2RlZnM+DQo8L3N2Zz4NCg==",
+        "versions": [
+          {
+            "version": "0.3.6-rc.1",
+            "publishTimestamp": 1792211625,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-0 <0.2.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2ea3596a5213878608efb7ed037ddc5013a7308bcbdc5702c4ad613342056b56",
+      "evidence": [
+        {
+          "name": "dsh-preset-enhance",
+          "version": "0.3.6-rc.1",
+          "tarball": "https://registry.npmjs.org/dsh-preset-enhance/-/dsh-preset-enhance-0.3.6-rc.1.tgz",
+          "integrity": "sha512-fbBSSPmG3Y9EL5KD/PumhQ87RZ77GzAJYo0cc1So9uY4X+8YL87qYj/OncLhSByRVKhS6FoAAgsy41GhgAg9Yw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-preset-enhance@next",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bychv/dsh-preset-enhance",
+    "commit": "7cc181787ce0d03405016fcc14f713151dda0113",
+    "releaseTags": 16,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:28.037Z"
+}

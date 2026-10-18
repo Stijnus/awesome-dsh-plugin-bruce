@@ -1,0 +1,161 @@
+{
+  "full_name": "Tkingxiao/dsh-any-background",
+  "originalPosition": 23,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 23,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:08.051Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bc0d68bb0cf79dfa5711c01e34c08e57d13c4bfaa33e31ff9c2c3632fdcaa9c0",
+      "url": "https://github.com/Tkingxiao/dsh-any-background/blob/bf36b0938ea7eab2d76faa5ca727c870ace39deb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-any-background",
+          "command": "dsh plugin --profile web add dsh-any-background",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Tkingxiao/dsh-any-background",
+          "command": "dsh plugin --profile web add github:Tkingxiao/dsh-any-background",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6c9d20f339a32f034856859587103da59f0a6f6de7077563f0afe36262e15381",
+      "url": "https://github.com/Tkingxiao/dsh-any-background/blob/bf36b0938ea7eab2d76faa5ca727c870ace39deb/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-any-background",
+          "command": "dsh plugin --profile web add dsh-any-background",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Tkingxiao/dsh-any-background",
+          "command": "dsh plugin --profile web add github:Tkingxiao/dsh-any-background",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-any-background",
+      "version": "0.3.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tkingxiao/dsh-any-background",
+        "commit": "bf36b0938ea7eab2d76faa5ca727c870ace39deb"
+      },
+      "manifestSha256": "0493550098175b13e1af6dac13774e6881a2fec73bc371b9dc292d46b2adaa7b",
+      "manifestUrl": "https://github.com/Tkingxiao/dsh-any-background/blob/bf36b0938ea7eab2d76faa5ca727c870ace39deb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || >=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-any-background",
+        "versions": [
+          {
+            "version": "0.3.8",
+            "publishTimestamp": 1792250114,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tkingxiao/dsh-any-background",
+              "commit": "bf36b0938ea7eab2d76faa5ca727c870ace39deb"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || >=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-any-background",
+      "origin": "npm",
+      "name": "dsh-any-background",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-any-background",
+        "title": "dsh-any-background",
+        "description": "Appearance plugin for DeepSeek Harness: custom theme color (PS-style color wheel), background wallpaper with opacity/blur controls, and separate main/settings interface opacity.",
+        "author": "Tkingxiao",
+        "homepage": "https://github.com/Tkingxiao/dsh-any-background#readme",
+        "repository": {
+          "url": "https://github.com/Tkingxiao/dsh-any-background"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "dsh-plugin",
+            "theme",
+            "wallpaper",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.8",
+            "publishTimestamp": 1792250267,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || >=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f461f15be25537fd4d62a3435bede9aadfffd173ad58f3724700da866c113644",
+      "evidence": [
+        {
+          "name": "dsh-any-background",
+          "version": "0.3.8",
+          "tarball": "https://registry.npmjs.org/dsh-any-background/-/dsh-any-background-0.3.8.tgz",
+          "integrity": "sha512-Yg/dqWgTP0timSmUe3EviQp9JK1VFmIeTrbJ3P86B7OR+F/XFdcuMsBAVidcsLwyE/vLKEQvfuT1WWc2FYPlJg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-any-background",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Tkingxiao/dsh-any-background",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tkingxiao/dsh-any-background",
+    "commit": "bf36b0938ea7eab2d76faa5ca727c870ace39deb",
+    "releaseTags": 4,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:15.248Z"
+}

@@ -1,0 +1,156 @@
+{
+  "full_name": "yh4922/dsh-workspace",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "startedAt": "2026-10-18T02:00:00.666Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "558736b98f423c363a6207d614f9a84c63930d3e4763b999e0a7a934f5d94be8",
+      "url": "https://github.com/yh4922/dsh-workspace/blob/3e2876d4d8d1b787dac7815400ec4a8992a3803d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yh4922/dsh-workspace",
+          "command": "dsh plugin --profile <profile> add @yh4922/dsh-workspace",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/yh4922/dsh-workspace/releases/latest/download/dsh-workspace.tgz",
+          "command": "dsh plugin --profile <profile> add https://github.com/yh4922/dsh-workspace/releases/latest/download/dsh-workspace.tgz",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b51928a72b3cbe8eb783fcb76c8c1aafb6700496cf6e64547d3a7673809e1595",
+      "url": "https://github.com/yh4922/dsh-workspace/blob/3e2876d4d8d1b787dac7815400ec4a8992a3803d/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yh4922/dsh-workspace",
+          "command": "dsh plugin --profile <profile> add @yh4922/dsh-workspace",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/yh4922/dsh-workspace/releases/latest/download/dsh-workspace.tgz",
+          "command": "dsh plugin --profile <profile> add https://github.com/yh4922/dsh-workspace/releases/latest/download/dsh-workspace.tgz",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yh4922/dsh-workspace",
+      "version": "0.12.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yh4922/dsh-workspace",
+        "commit": "3e2876d4d8d1b787dac7815400ec4a8992a3803d"
+      },
+      "manifestSha256": "b74d121e5c21a2613513530fcd9d7346f09d1310b1a3db4cde3d35774363abd9",
+      "manifestUrl": "https://github.com/yh4922/dsh-workspace/blob/3e2876d4d8d1b787dac7815400ec4a8992a3803d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@yh4922/dsh-workspace",
+        "versions": [
+          {
+            "version": "0.12.3",
+            "publishTimestamp": 1792058105,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yh4922/dsh-workspace",
+              "commit": "3e2876d4d8d1b787dac7815400ec4a8992a3803d"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@yh4922/dsh-workspace",
+      "origin": "npm",
+      "name": "@yh4922/dsh-workspace",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@yh4922/dsh-workspace",
+        "title": "@yh4922/dsh-workspace",
+        "description": "Remote workspace for DeepSeek Harness: SSH host vault (groups, jump chains, proxy, encrypted credentials), interactive SSH terminal, SFTP explorer, remote workspace binding, and session-scoped remote agent tools.",
+        "author": "YangHeng",
+        "homepage": "https://github.com/yh4922/dsh-workspace#readme",
+        "repository": {
+          "url": "https://github.com/yh4922/dsh-workspace"
+        },
+        "versions": [
+          {
+            "version": "0.12.3",
+            "publishTimestamp": 1791805255,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b3a156a74ecfe7f2dc102fed1ea9ebad6a253f3149a039753971254dcaf0ea95",
+      "evidence": [
+        {
+          "name": "@yh4922/dsh-workspace",
+          "version": "0.12.3",
+          "tarball": "https://registry.npmjs.org/@yh4922/dsh-workspace/-/dsh-workspace-0.12.3.tgz",
+          "integrity": "sha512-QIuq4HWYlUBA7yIeM6x9F/425DiK+M19a+3qTXzc31hG1e6HnbBCMwvfpJ0w+NYKuJs7CYKRNEYZHgqyoww1uA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/yh4922/dsh-workspace/releases/latest/download/dsh-workspace.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@yh4922/dsh-workspace",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yh4922/dsh-workspace/releases/latest/download/dsh-workspace.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yh4922/dsh-workspace",
+    "commit": "3e2876d4d8d1b787dac7815400ec4a8992a3803d",
+    "releaseTags": 12,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T02:00:30.879Z"
+}

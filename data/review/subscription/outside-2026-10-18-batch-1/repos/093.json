@@ -1,0 +1,138 @@
+{
+  "full_name": "Scorp1o117/dsh-motion-ui",
+  "originalPosition": 93,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 93,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:00.081Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "27703dc4c266803d4db40832fd2a969115d453bcf88847d0990fb85e6527eda1",
+      "url": "https://github.com/Scorp1o117/dsh-motion-ui/blob/30c9253755470049da84c5869b2b4aec89958b77/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-motion-ui",
+          "command": "dsh plugin --profile web add dsh-motion-ui",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/screenshots/README.md",
+      "sha256": "68190a41480bed34b615a404c17c17df276ae01507ff33f2cba01f1b68ac902f",
+      "url": "https://github.com/Scorp1o117/dsh-motion-ui/blob/30c9253755470049da84c5869b2b4aec89958b77/docs/screenshots/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-motion-ui",
+      "version": "0.8.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Scorp1o117/dsh-motion-ui",
+        "commit": "30c9253755470049da84c5869b2b4aec89958b77"
+      },
+      "manifestSha256": "b4a5057fbe708090ba3ff504fc7ccaa0bb028365bcd124f11941dc564cbb4ec4",
+      "manifestUrl": "https://github.com/Scorp1o117/dsh-motion-ui/blob/30c9253755470049da84c5869b2b4aec89958b77/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-motion-ui",
+        "versions": [
+          {
+            "version": "0.8.4",
+            "publishTimestamp": 1792242927,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Scorp1o117/dsh-motion-ui",
+              "commit": "30c9253755470049da84c5869b2b4aec89958b77"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-motion-ui",
+      "origin": "npm",
+      "name": "dsh-motion-ui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-motion-ui",
+        "title": "dsh-motion-ui",
+        "description": "Readable conversational UI, interactive HTML/SVG, editable motion and local MP4 production for DeepSeek Harness.",
+        "author": "Scorp1o117",
+        "homepage": "https://github.com/Scorp1o117/dsh-motion-ui#readme",
+        "repository": {
+          "url": "https://github.com/Scorp1o117/dsh-motion-ui"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "generative-ui",
+            "interactive-ui",
+            "svg"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.4",
+            "publishTimestamp": 1792243131,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "50fdfd4ddc419ac08ac88eb633a1ca0260eb3755d35727a437b681a2e14f0eeb",
+      "evidence": [
+        {
+          "name": "dsh-motion-ui",
+          "version": "0.8.4",
+          "tarball": "https://registry.npmjs.org/dsh-motion-ui/-/dsh-motion-ui-0.8.4.tgz",
+          "integrity": "sha512-0X5kEkpIh9fgBJG9WUZgM1THnxCKCJW211DHoD24UaDJh3Zob0I5GttLfoKGExNCtJSpFVxvgM+iFYWtCS0ylQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-motion-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Scorp1o117/dsh-motion-ui",
+    "commit": "30c9253755470049da84c5869b2b4aec89958b77",
+    "releaseTags": 13,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:11.036Z"
+}

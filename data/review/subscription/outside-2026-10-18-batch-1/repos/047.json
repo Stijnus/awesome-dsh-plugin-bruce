@@ -1,0 +1,130 @@
+{
+  "full_name": "GooDAnDReaDY/dsh-russian-lang",
+  "originalPosition": 47,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 47,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:44.042Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "03bd26b6795a8cc4741a193830db4d4b2f03d787c81a7f118c721eb0647e32d7",
+      "url": "https://github.com/GooDAnDReaDY/dsh-russian-lang/blob/f8b6315efaa75da507bc546975ba5e67498dc35d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-russian-lang",
+          "command": "dsh plugin --profile web add @goodandready/dsh-russian-lang",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@goodandready/dsh-russian-lang",
+      "version": "0.3.48",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GooDAnDReaDY/dsh-russian-lang",
+        "commit": "f8b6315efaa75da507bc546975ba5e67498dc35d"
+      },
+      "manifestSha256": "90c93d85d73cc84a7529707da08c32e1b8f47f0db50407f4a80fd38c22907735",
+      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-russian-lang/blob/f8b6315efaa75da507bc546975ba5e67498dc35d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@goodandready/dsh-russian-lang",
+        "versions": [
+          {
+            "version": "0.3.48",
+            "publishTimestamp": 1792142920,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GooDAnDReaDY/dsh-russian-lang",
+              "commit": "f8b6315efaa75da507bc546975ba5e67498dc35d"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@goodandready/dsh-russian-lang",
+      "origin": "npm",
+      "name": "@goodandready/dsh-russian-lang",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@goodandready/dsh-russian-lang",
+        "title": "@goodandready/dsh-russian-lang",
+        "description": "Полная русская локализация DeepSeek Harness (DSH): ядро v0.2.1-alpha.3 + 83 плагина экосистемы, 10,432 UI keys, 100% ручной вычитанный перевод, переключение на лету",
+        "homepage": "https://github.com/GooDAnDReaDY/dsh-russian-lang#readme",
+        "repository": {
+          "url": "https://github.com/GooDAnDReaDY/dsh-russian-lang"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "i18n",
+            "locale",
+            "russian"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.48",
+            "publishTimestamp": 1792143029,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cb2e18e2596bbfb844c23a55ff846786cefbf07400cb8166f0c23e57f8aa13a4",
+      "evidence": [
+        {
+          "name": "@goodandready/dsh-russian-lang",
+          "version": "0.3.48",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-russian-lang/-/dsh-russian-lang-0.3.48.tgz",
+          "integrity": "sha512-SrdEin9PcZilF0xy9IeJaBrTjXgV0YVZ9SW22Ul0FI4e74ZqV8EMfXErddmm0H21U8bQppJVWSuuJhD23oDOHA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@goodandready/dsh-russian-lang",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GooDAnDReaDY/dsh-russian-lang",
+    "commit": "f8b6315efaa75da507bc546975ba5e67498dc35d",
+    "releaseTags": 104,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:51.050Z"
+}

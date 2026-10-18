@@ -1,0 +1,77 @@
+{
+  "full_name": "DViridescent/dafy-whale-theme",
+  "originalPosition": 194,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 194,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:07:41.479Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "85c58af7b90f38b8b2692052cc19a147571dc50dc1f5c6797f170120a5ae3c89",
+      "url": "https://github.com/DViridescent/dafy-whale-theme/blob/99e8c571c40eee8d2e0599af8eddfcbf4f47fc89/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/DViridescent/dafy-whale-theme",
+          "command": "dsh plugin --profile web add github:DViridescent/dafy-whale-theme",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dafy-whale-theme",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DViridescent/dafy-whale-theme",
+        "commit": "99e8c571c40eee8d2e0599af8eddfcbf4f47fc89"
+      },
+      "manifestSha256": "42a1cfae3b7f249f493862c3dbc8198fb9e4921dd95fa185ce024e0118c625e1",
+      "manifestUrl": "https://github.com/DViridescent/dafy-whale-theme/blob/99e8c571c40eee8d2e0599af8eddfcbf4f47fc89/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dafy-whale-theme",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1786729017,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DViridescent/dafy-whale-theme",
+              "commit": "99e8c571c40eee8d2e0599af8eddfcbf4f47fc89"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/DViridescent/dafy-whale-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DViridescent/dafy-whale-theme",
+    "commit": "99e8c571c40eee8d2e0599af8eddfcbf4f47fc89",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:07:47.562Z"
+}

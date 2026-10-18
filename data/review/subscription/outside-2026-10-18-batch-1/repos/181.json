@@ -1,0 +1,80 @@
+{
+  "full_name": "sz1698/dsh-bg-new",
+  "originalPosition": 181,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 181,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:19:19.086Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "faf7a0e68da2cd4c919396fe2734aa1d446a73883750cba2c3ce6e57cd84d874",
+      "url": "https://github.com/sz1698/dsh-bg-new/blob/329c636efee581f7fa527714cb4fd867135aee82/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sz1698/dsh-bg-new",
+          "command": "dsh plugin --profile web add github:sz1698/dsh-bg-new",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bg-new",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sz1698/dsh-bg-new",
+        "commit": "329c636efee581f7fa527714cb4fd867135aee82"
+      },
+      "manifestSha256": "c11741bfca8b051e6d16d70f34eb5ac8266ddf47b025dd61ee85cbce911fc519",
+      "manifestUrl": "https://github.com/sz1698/dsh-bg-new/blob/329c636efee581f7fa527714cb4fd867135aee82/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-bg-new",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1789118307,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sz1698/dsh-bg-new",
+              "commit": "329c636efee581f7fa527714cb4fd867135aee82"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/sz1698/dsh-bg-new",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sz1698/dsh-bg-new",
+    "commit": "329c636efee581f7fa527714cb4fd867135aee82",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:19:24.816Z"
+}

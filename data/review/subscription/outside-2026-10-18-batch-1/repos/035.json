@@ -1,0 +1,82 @@
+{
+  "full_name": "yyxcnasd/amadeus-for-dsh",
+  "originalPosition": 35,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 35,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:15:29.809Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "076d308a2e81941f4d51b1e87ef4ff53ddd54a2a7aa64d45d2f088aba16daea7",
+      "url": "https://github.com/yyxcnasd/amadeus-for-dsh/blob/eaf48f879a3a47ebb59eeaa9551708cc8a65b148/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yyxcnasd/amadeus-for-dsh",
+          "command": "dsh plugin --profile desktop add github:yyxcnasd/amadeus-for-dsh",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/yyxcnasd/amadeus-for-dsh",
+          "command": "dsh plugin --profile web add github:yyxcnasd/amadeus-for-dsh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "amadeus-for-dsh",
+      "version": "2.4.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yyxcnasd/amadeus-for-dsh",
+        "commit": "eaf48f879a3a47ebb59eeaa9551708cc8a65b148"
+      },
+      "manifestSha256": "1837ab8bc367e2441479f8e006fbbe7ce2900f159efd9b2026608062110fb741",
+      "manifestUrl": "https://github.com/yyxcnasd/amadeus-for-dsh/blob/eaf48f879a3a47ebb59eeaa9551708cc8a65b148/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "amadeus-for-dsh",
+        "versions": [
+          {
+            "version": "2.4.6",
+            "publishTimestamp": 1791508647,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yyxcnasd/amadeus-for-dsh",
+              "commit": "eaf48f879a3a47ebb59eeaa9551708cc8a65b148"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yyxcnasd/amadeus-for-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yyxcnasd/amadeus-for-dsh",
+    "commit": "eaf48f879a3a47ebb59eeaa9551708cc8a65b148",
+    "releaseTags": 6,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:15:35.962Z"
+}

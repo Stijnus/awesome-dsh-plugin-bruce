@@ -1,0 +1,158 @@
+{
+  "full_name": "taikaikaikai-pixel/dsh-tap",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:58:15.303Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cc6f1bdc19975235e6e11cf6a8221f531cb7bed18f616145073ddd785f583c93",
+      "url": "https://github.com/taikaikaikai-pixel/dsh-tap/blob/8cdd31ec1605a6f4fa4f9aa859b9948da8faebc0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tap",
+          "command": "dsh plugin --profile web add dsh-tap",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/taikaikaikai-pixel/dsh-tap",
+          "command": "dsh plugin --profile web add github:taikaikaikai-pixel/dsh-tap",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "9db7b8003efe9ff3e44d8428f4ff8e5e9e4301c0f2ed743438d17fe91edf9a19",
+      "url": "https://github.com/taikaikaikai-pixel/dsh-tap/blob/8cdd31ec1605a6f4fa4f9aa859b9948da8faebc0/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tap",
+          "command": "dsh plugin --profile web add dsh-tap",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/taikaikaikai-pixel/dsh-tap",
+          "command": "dsh plugin --profile web add github:taikaikaikai-pixel/dsh-tap",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tap",
+      "version": "0.20.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/taikaikaikai-pixel/dsh-tap",
+        "commit": "8cdd31ec1605a6f4fa4f9aa859b9948da8faebc0"
+      },
+      "manifestSha256": "d05397fcd9629544212bf09051b86337403499418695d25e1449620a06581a76",
+      "manifestUrl": "https://github.com/taikaikaikai-pixel/dsh-tap/blob/8cdd31ec1605a6f4fa4f9aa859b9948da8faebc0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tap",
+        "versions": [
+          {
+            "version": "0.20.0",
+            "publishTimestamp": 1791212016,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/taikaikaikai-pixel/dsh-tap",
+              "commit": "8cdd31ec1605a6f4fa4f9aa859b9948da8faebc0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tap",
+      "origin": "npm",
+      "name": "dsh-tap",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tap",
+        "title": "dsh-tap",
+        "description": "Unofficial upstream bundle for DeepSeek Harness (dsh): CodeBuddy (copilot.tencent.com) with a runtime-synced model catalogue, web search/fetch, image generation and a streaming bridge; TraeWork CN and Qoder CN subscription channels via local OpenAI translation gateways; plus a key-type OpenAI-compatible provider registry - all managed from a 4-block accordion settings card.",
+        "homepage": "https://github.com/taikaikaikai-pixel/dsh-tap#readme",
+        "repository": {
+          "url": "https://github.com/taikaikaikai-pixel/dsh-tap"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "codebuddy",
+            "trae",
+            "qoder",
+            "llm",
+            "deepseek",
+            "glm",
+            "kimi",
+            "minimax",
+            "hunyuan"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.20.0",
+            "publishTimestamp": 1791211962,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1f5e81626a7f1c8cc69d3b63c115d69716f0a0e8df5f6880ad59147245f7e7ec",
+      "evidence": [
+        {
+          "name": "dsh-tap",
+          "version": "0.20.0",
+          "tarball": "https://registry.npmjs.org/dsh-tap/-/dsh-tap-0.20.0.tgz",
+          "integrity": "sha512-Hea7jZd6R4uZCCsYIxyPYkO9h8sMrGDa9WlW7AmzN1YXX3w+5KOX7JpAC7MObY3qpndaYU1e8GMAnfXwH2SJyA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tap",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/taikaikaikai-pixel/dsh-tap",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/taikaikaikai-pixel/dsh-tap",
+    "commit": "8cdd31ec1605a6f4fa4f9aa859b9948da8faebc0",
+    "releaseTags": 26,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:58:23.435Z"
+}

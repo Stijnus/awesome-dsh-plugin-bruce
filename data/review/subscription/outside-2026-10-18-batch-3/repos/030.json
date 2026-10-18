@@ -1,0 +1,145 @@
+{
+  "full_name": "poplarity/dsh-science-workbench",
+  "originalPosition": 30,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 30,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:56:47.230Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fa33d8b6e194cf774fe27f3837f758549f41dcfb6d91453b4430d2f2940408c6",
+      "url": "https://github.com/poplarity/dsh-science-workbench/blob/387961cd2c26defcb388ee4776dc2605c40cda73/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-science-workbench",
+          "command": "dsh plugin --profile web add dsh-science-workbench",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d470a536d602449ca15c1149336a37521619eaf141a907893f158e243123f171",
+      "url": "https://github.com/poplarity/dsh-science-workbench/blob/387961cd2c26defcb388ee4776dc2605c40cda73/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-science-workbench",
+          "command": "dsh plugin --profile web add dsh-science-workbench",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-science-workbench",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/poplarity/dsh-science-workbench",
+        "commit": "387961cd2c26defcb388ee4776dc2605c40cda73"
+      },
+      "manifestSha256": "37247813502cdd96af2b7faaaa6534ec0d7be8a538a2c17abf9b7261241ee8bb",
+      "manifestUrl": "https://github.com/poplarity/dsh-science-workbench/blob/387961cd2c26defcb388ee4776dc2605c40cda73/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-science-workbench",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792071745,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/poplarity/dsh-science-workbench",
+              "commit": "387961cd2c26defcb388ee4776dc2605c40cda73"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-science-workbench",
+      "origin": "npm",
+      "name": "dsh-science-workbench",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-science-workbench",
+        "title": "dsh-science-workbench",
+        "description": "A reproducible science workbench plugin for the DeepSeek Harness: agent-driven cells, inline figures with feedback/rerun, manifest provenance, and environment snapshots.",
+        "repository": {
+          "url": "https://github.com/poplarity/dsh-science-workbench"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "bioinformatics",
+            "reproducible-research",
+            "workbench",
+            "jupyter",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792070997,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "533d5f44f26975076add12ef5ac87c83e2823b6e0c1d091e0d9453f03a800380",
+      "evidence": [
+        {
+          "name": "dsh-science-workbench",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/dsh-science-workbench/-/dsh-science-workbench-0.3.1.tgz",
+          "integrity": "sha512-qTKZ1qm4jrDfkA7J85U9zpQABzIKpqRZwElAe5iZ3yao286i/AAOi3GHnu5I5RcHEBY7OIqrMdQlFYV/SUoUMg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-science-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/poplarity/dsh-science-workbench",
+    "commit": "387961cd2c26defcb388ee4776dc2605c40cda73",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:56:53.240Z"
+}

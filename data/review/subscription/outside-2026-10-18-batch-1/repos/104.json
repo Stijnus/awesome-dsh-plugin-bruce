@@ -1,0 +1,187 @@
+{
+  "full_name": "1624318455/dsh-plugin-tts",
+  "originalPosition": 104,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 104,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:16.290Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "97f2ee2cdf4c211b9f0e88547f1bff6e4072cf0c76e8179889a937f8194bcdf6",
+      "url": "https://github.com/1624318455/dsh-plugin-tts/blob/5b094011dfba35a1d30d44a18d2b411654e8fff8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@memef1f1y/dsh-plugin-tts",
+          "command": "dsh plugin --profile web add \"@memef1f1y/dsh-plugin-tts\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/1624318455/dsh-plugin-tts#main",
+          "command": "dsh plugin --profile web add \"github:1624318455/dsh-plugin-tts#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1877597eec6b27610187e1e7bf4cc18430aeb70ca7ca46263c9df5e72f8d235a",
+      "url": "https://github.com/1624318455/dsh-plugin-tts/blob/5b094011dfba35a1d30d44a18d2b411654e8fff8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@memef1f1y/dsh-plugin-tts",
+          "command": "dsh plugin --profile web add \"@memef1f1y/dsh-plugin-tts\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/1624318455/dsh-plugin-tts#main",
+          "command": "dsh plugin --profile web add \"github:1624318455/dsh-plugin-tts#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@memef1f1y/dsh-plugin-tts",
+      "version": "0.6.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1624318455/dsh-plugin-tts",
+        "commit": "5b094011dfba35a1d30d44a18d2b411654e8fff8"
+      },
+      "manifestSha256": "badc49adef3313689c9339198acdca25077516a4167124104cecf1e009893d49",
+      "manifestUrl": "https://github.com/1624318455/dsh-plugin-tts/blob/5b094011dfba35a1d30d44a18d2b411654e8fff8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@memef1f1y/dsh-plugin-tts",
+        "versions": [
+          {
+            "version": "0.6.7",
+            "publishTimestamp": 1791859831,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1624318455/dsh-plugin-tts",
+              "commit": "5b094011dfba35a1d30d44a18d2b411654e8fff8"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@memef1f1y/dsh-plugin-tts",
+      "origin": "npm",
+      "name": "@memef1f1y/dsh-plugin-tts",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@memef1f1y/dsh-plugin-tts",
+        "title": "@memef1f1y/dsh-plugin-tts",
+        "description": "Edge TTS 语音大集成插件：消息朗读按钮、自动朗读开关、语音设置面板（Edge TTS / RVC / Index-TTS2 / CosyVoice / Google Cloud TTS）",
+        "repository": {
+          "url": "https://github.com/1624318455/dsh-plugin-tts"
+        },
+        "versions": [
+          {
+            "version": "0.6.7",
+            "publishTimestamp": 1791859598,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5930082a3055c567e2bc1cda5ea1b387348f79d6a7ec3fff75abd0c5b49325fb",
+      "evidence": [
+        {
+          "name": "@memef1f1y/dsh-plugin-tts",
+          "version": "0.6.7",
+          "tarball": "https://registry.npmjs.org/@memef1f1y/dsh-plugin-tts/-/dsh-plugin-tts-0.6.7.tgz",
+          "integrity": "sha512-EPXoLE1ZhnOJ5mxYSrcAURFFoQI7FXbGKSG1fOMwHUshokhFEg+M720Dc0kpGUdSOeFYejUBrKwf6hdYeqyW8g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/1624318455/dsh-plugin-tts#main",
+      "origin": "git_target",
+      "name": "@memef1f1y/dsh-plugin-tts",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@memef1f1y/dsh-plugin-tts",
+        "title": "@memef1f1y/dsh-plugin-tts",
+        "description": "Edge TTS 语音大集成插件：消息朗读按钮、自动朗读开关、语音设置面板（Edge TTS / RVC / Index-TTS2 / CosyVoice / Google Cloud TTS）",
+        "repository": {
+          "url": "https://github.com/1624318455/dsh-plugin-tts"
+        },
+        "versions": [
+          {
+            "version": "0.6.7",
+            "publishTimestamp": 1791859831,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1624318455/dsh-plugin-tts",
+              "commit": "5b094011dfba35a1d30d44a18d2b411654e8fff8"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "5b094011dfba35a1d30d44a18d2b411654e8fff8",
+          "name": "@memef1f1y/dsh-plugin-tts",
+          "version": "0.6.7",
+          "url": "https://github.com/1624318455/dsh-plugin-tts",
+          "manifestSha256": "badc49adef3313689c9339198acdca25077516a4167124104cecf1e009893d49",
+          "publishTimestamp": 1791859831
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@memef1f1y/dsh-plugin-tts",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/1624318455/dsh-plugin-tts#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1624318455/dsh-plugin-tts",
+    "commit": "5b094011dfba35a1d30d44a18d2b411654e8fff8",
+    "releaseTags": 5,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:28.571Z"
+}

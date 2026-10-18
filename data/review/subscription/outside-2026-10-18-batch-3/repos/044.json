@@ -1,0 +1,139 @@
+{
+  "full_name": "AngelosZou/dsh-multi-folder",
+  "originalPosition": 44,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 44,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:57:06.816Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8f8f848e62cdb2572ee680d5e0c63b9549c49e46a43cb23fc28803aad601cb65",
+      "url": "https://github.com/AngelosZou/dsh-multi-folder/blob/5921c0e2fd2623bc0757b8f13feaf73cee3648ca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-multi-folder",
+          "command": "dsh plugin --profile web add dsh-multi-folder",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f61fcb6d764e4e02602decc1b03923d45c12cccd6c78cf80a479c0be973b71ce",
+      "url": "https://github.com/AngelosZou/dsh-multi-folder/blob/5921c0e2fd2623bc0757b8f13feaf73cee3648ca/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-multi-folder",
+          "command": "dsh plugin --profile web add dsh-multi-folder",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-multi-folder",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AngelosZou/dsh-multi-folder",
+        "commit": "5921c0e2fd2623bc0757b8f13feaf73cee3648ca"
+      },
+      "manifestSha256": "e6dfa3522a514c88f3b36c795983f36b7ca56bbcbf563bdaf70d63506716c3ae",
+      "manifestUrl": "https://github.com/AngelosZou/dsh-multi-folder/blob/5921c0e2fd2623bc0757b8f13feaf73cee3648ca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-multi-folder",
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1791615008,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AngelosZou/dsh-multi-folder",
+              "commit": "5921c0e2fd2623bc0757b8f13feaf73cee3648ca"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-multi-folder",
+      "origin": "npm",
+      "name": "dsh-multi-folder",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-multi-folder",
+        "title": "dsh-multi-folder",
+        "description": "DeepSeek Harness plugin: secondary working directories for a project. The agent keeps the primary workspace as cwd, gains equal write/exec permissions on configured secondary directories under workspace-write mode, and is notified of configuration changes at the next message boundary. Configurable from the session header AND from the session-creation page (before the first message) through a sessionless multiFolder remote API.",
+        "author": "Yutong Zou",
+        "homepage": "https://github.com/AngelosZou/dsh-multi-folder#readme",
+        "repository": {
+          "url": "https://github.com/AngelosZou/dsh-multi-folder"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "multi-folder",
+            "secondary-workspace",
+            "workspace"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1791615653,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ab926f3ebb09ab3ff43f230ef20d60a11c4eb278db02bf070712ce62671fadd3",
+      "evidence": [
+        {
+          "name": "dsh-multi-folder",
+          "version": "0.3.3",
+          "tarball": "https://registry.npmjs.org/dsh-multi-folder/-/dsh-multi-folder-0.3.3.tgz",
+          "integrity": "sha512-+REahOqYjDnyVnUyyvgFiWNZW7k4FkfP3FyNyhSQczynKizIKu7AuLxEgBaBCRhFs/n1cQ2wo1hgZxBxwjv1BQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-multi-folder",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AngelosZou/dsh-multi-folder",
+    "commit": "5921c0e2fd2623bc0757b8f13feaf73cee3648ca",
+    "releaseTags": 0,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:57:12.178Z"
+}

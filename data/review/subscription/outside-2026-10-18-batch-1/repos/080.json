@@ -1,0 +1,217 @@
+{
+  "full_name": "PerryLink/dsh-claude-move",
+  "originalPosition": 80,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 80,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:16:39.952Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bd507d1da87a2c6c9269b154b7ea637b315ef0c9ae907fb68afde538eb99a136",
+      "url": "https://github.com/PerryLink/dsh-claude-move/blob/38022a15955743ee7412b56cf88946888e327d7c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-claude-move",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-claude-move",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-claude-move",
+          "command": "dsh plugin --profile web add dsh-claude-move",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "71aa66a9f51f71567c504cae5d0463f9df5be25f7e4997e6037de8314e340524",
+      "url": "https://github.com/PerryLink/dsh-claude-move/blob/38022a15955743ee7412b56cf88946888e327d7c/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-claude-move",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-claude-move",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-claude-move",
+          "command": "dsh plugin --profile web add dsh-claude-move",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "507a13c6a09c81aeb9c74354378ce28701893d601ac5c492122db14b7ff11c5a",
+      "url": "https://github.com/PerryLink/dsh-claude-move/blob/38022a15955743ee7412b56cf88946888e327d7c/README-es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-claude-move",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-claude-move",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-claude-move",
+          "command": "dsh plugin --profile web add dsh-claude-move",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "a0b806b90dd9b55ec035909bc9ff13b7dd8fc2370f2fb4165a810844881fbf61",
+      "url": "https://github.com/PerryLink/dsh-claude-move/blob/38022a15955743ee7412b56cf88946888e327d7c/README-pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-claude-move",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-claude-move",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-claude-move",
+          "command": "dsh plugin --profile web add dsh-claude-move",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "f412f02718e37a6437ea17adff5501b579d6a4111ff2bf36ba2dddcccf378b01",
+      "url": "https://github.com/PerryLink/dsh-claude-move/blob/38022a15955743ee7412b56cf88946888e327d7c/README-hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/PerryLink/dsh-claude-move",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-claude-move",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-claude-move",
+          "command": "dsh plugin --profile web add dsh-claude-move",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-claude-move",
+      "version": "0.4.17",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-claude-move",
+        "commit": "38022a15955743ee7412b56cf88946888e327d7c"
+      },
+      "manifestSha256": "9519947305394c7f1e5c212a46b724006ee6d808a45f5cae09262c7e9e1f4f44",
+      "manifestUrl": "https://github.com/PerryLink/dsh-claude-move/blob/38022a15955743ee7412b56cf88946888e327d7c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-claude-move",
+        "versions": [
+          {
+            "version": "0.4.17",
+            "publishTimestamp": 1791815923,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-claude-move",
+              "commit": "38022a15955743ee7412b56cf88946888e327d7c"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-claude-move",
+      "origin": "npm",
+      "name": "dsh-claude-move",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-claude-move",
+        "title": "dsh-claude-move",
+        "description": "Four-source migration wizard: copy Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DeepSeek Harness as resumable sessions — copy-only, approval-gated, idempotent",
+        "homepage": "https://github.com/PerryLink/dsh-claude-move#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-claude-move"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "claude-code",
+            "migration",
+            "session-import",
+            "resume"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.17",
+            "publishTimestamp": 1791594515,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "40d56f5750e979ff8030fe6450f58b1ce2d46262bb9891527c042ef5eeebc0b1",
+      "evidence": [
+        {
+          "name": "dsh-claude-move",
+          "version": "0.4.17",
+          "tarball": "https://registry.npmjs.org/dsh-claude-move/-/dsh-claude-move-0.4.17.tgz",
+          "integrity": "sha512-KmpmNIXQeGDj8RCu51nqhz5ipvdrlKsRQ/OKabgd+mkDN98upWa88aF2mWZJfjIAO1L+01aaoryaPBA4knc7Aw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-claude-move",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-claude-move",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-claude-move",
+    "commit": "38022a15955743ee7412b56cf88946888e327d7c",
+    "releaseTags": 31,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:16:47.406Z"
+}

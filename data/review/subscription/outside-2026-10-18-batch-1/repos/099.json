@@ -1,0 +1,141 @@
+{
+  "full_name": "omdsh-dev/dsh-office",
+  "originalPosition": 99,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 99,
+  "batch": 1,
+  "startedAt": "2026-10-17T18:17:09.498Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "797416ea617a0de9facd01dc2c52c59dcee1a05f5b26985f4b9c65a6cbc88640",
+      "url": "https://github.com/omdsh-dev/dsh-office/blob/dfd99dbb6481bc0147c51dea71c25ec9b0ed5fd4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@huiliyi37/dsh-office",
+          "command": "dsh plugin --profile <name> add @huiliyi37/dsh-office",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2049128a4be2450779c63fe98a41c120c64b33cf4c42b8c5a90da741be54b16c",
+      "url": "https://github.com/omdsh-dev/dsh-office/blob/dfd99dbb6481bc0147c51dea71c25ec9b0ed5fd4/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@huiliyi37/dsh-office",
+          "command": "dsh plugin --profile <名称> add @huiliyi37/dsh-office",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huiliyi37/dsh-office",
+      "version": "0.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-office",
+        "commit": "dfd99dbb6481bc0147c51dea71c25ec9b0ed5fd4"
+      },
+      "manifestSha256": "bbaac22e4036e679a89232a7b723a6c5bff7c43dcf56d5c9cbfaec1b486305b6",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-office/blob/dfd99dbb6481bc0147c51dea71c25ec9b0ed5fd4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.5 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@huiliyi37/dsh-office",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1791711418,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/omdsh-dev/dsh-office",
+              "commit": "dfd99dbb6481bc0147c51dea71c25ec9b0ed5fd4"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@huiliyi37/dsh-office",
+      "origin": "npm",
+      "name": "@huiliyi37/dsh-office",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@huiliyi37/dsh-office",
+        "title": "@huiliyi37/dsh-office",
+        "description": "Office document tools (xlsx / pdf / pptx / docx) for DeepSeek Harness: generate, read, and edit spreadsheets, PDFs, presentations, and Word documents",
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "office",
+            "xlsx",
+            "pdf",
+            "pptx",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1790276650,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a5e739aa8a6c43cb3648853cc01929c9966976f760b20fa86e34a446d04b6c5a",
+      "evidence": [
+        {
+          "name": "@huiliyi37/dsh-office",
+          "version": "0.2.4",
+          "tarball": "https://registry.npmjs.org/@huiliyi37/dsh-office/-/dsh-office-0.2.4.tgz",
+          "integrity": "sha512-cTLnwzv9MdIXGO4vfK+1QHkOziZndFF4K/T8B98Im8h3gmQn1sAUpQ1z5PliEQHJsX4j4jCbFBBPBx37XFsZGw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@huiliyi37/dsh-office",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-office",
+    "commit": "dfd99dbb6481bc0147c51dea71c25ec9b0ed5fd4",
+    "releaseTags": 6,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T18:17:15.331Z"
+}

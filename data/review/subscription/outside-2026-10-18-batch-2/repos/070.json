@@ -1,0 +1,120 @@
+{
+  "full_name": "ai-shushu/dsh-quota-meter",
+  "originalPosition": 70,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 70,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:04:47.028Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "76420162c65d84cfcc97f679b378e099f0f0eea4c33013c19c68ce4eb750f4a3",
+      "url": "https://github.com/ai-shushu/dsh-quota-meter/blob/66bb2bee4a48458dbae30452999b37e31640963d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/ai-shushu/dsh-quota-meter",
+          "command": "dsh plugin --profile web add github:ai-shushu/dsh-quota-meter",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-shushu/dsh-quota-meter#v0.4.0",
+          "command": "dsh plugin --profile web add github:ai-shushu/dsh-quota-meter#v0.4.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "quota-meter-shushu",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ai-shushu/dsh-quota-meter",
+        "commit": "66bb2bee4a48458dbae30452999b37e31640963d"
+      },
+      "manifestSha256": "aa80577cc46e1f805d05d1a4395498e71f3def045958afb13409fa207c5d417a",
+      "manifestUrl": "https://github.com/ai-shushu/dsh-quota-meter/blob/66bb2bee4a48458dbae30452999b37e31640963d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "quota-meter-shushu",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1787992720,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ai-shushu/dsh-quota-meter",
+              "commit": "66bb2bee4a48458dbae30452999b37e31640963d"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/ai-shushu/dsh-quota-meter#v0.4.0",
+      "origin": "git_target",
+      "name": "quota-meter-shushu",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "quota-meter-shushu",
+        "title": "quota-meter-shushu",
+        "description": "会话额度监控（官方 dsh bundle）：按 DeepSeek 官方价格记账、额度耗尽拦截 + 输入框上方进度条 UI",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1787123633,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ai-shushu/dsh-quota-meter",
+              "commit": "2097652d19313713e7a23fecfaba91a05651c17e"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "2097652d19313713e7a23fecfaba91a05651c17e",
+          "name": "quota-meter-shushu",
+          "version": "0.4.0",
+          "url": "https://github.com/ai-shushu/dsh-quota-meter",
+          "manifestSha256": "bcb90175ec6d267661cf1957d2c71877d95793bba922481965fc29164992df93",
+          "publishTimestamp": 1787123633
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ai-shushu/dsh-quota-meter",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ai-shushu/dsh-quota-meter#v0.4.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ai-shushu/dsh-quota-meter",
+    "commit": "66bb2bee4a48458dbae30452999b37e31640963d",
+    "releaseTags": 2,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:57.406Z"
+}

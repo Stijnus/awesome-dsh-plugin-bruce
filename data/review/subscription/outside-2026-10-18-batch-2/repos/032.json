@@ -1,0 +1,138 @@
+{
+  "full_name": "Yuuhann1999/dsh-bloub-mood",
+  "originalPosition": 32,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 32,
+  "batch": 1,
+  "startedAt": "2026-10-17T19:03:46.616Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ac5da6328a922443ec599032548c0b2192cbeddaa5b6766ca09aa1b167c4e799",
+      "url": "https://github.com/Yuuhann1999/dsh-bloub-mood/blob/c626528b3d6c32669c265d7144e85f60f48570d2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bloub-mood",
+          "command": "dsh plugin --profile web add dsh-bloub-mood",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Yuuhann1999/dsh-bloub-mood",
+          "command": "dsh plugin --profile web add github:Yuuhann1999/dsh-bloub-mood",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bloub-mood",
+      "version": "2.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yuuhann1999/dsh-bloub-mood",
+        "commit": "c626528b3d6c32669c265d7144e85f60f48570d2"
+      },
+      "manifestSha256": "e4939fcb9e58f15d413975b4648e8852f533c5a3cfb6ffc1aa49d104c2a98169",
+      "manifestUrl": "https://github.com/Yuuhann1999/dsh-bloub-mood/blob/c626528b3d6c32669c265d7144e85f60f48570d2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-bloub-mood",
+        "versions": [
+          {
+            "version": "2.4.4",
+            "publishTimestamp": 1787419775,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yuuhann1999/dsh-bloub-mood",
+              "commit": "c626528b3d6c32669c265d7144e85f60f48570d2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-bloub-mood",
+      "origin": "npm",
+      "name": "dsh-bloub-mood",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bloub-mood",
+        "title": "dsh-bloub-mood",
+        "description": "DeepSeek Harness 心情图标插件：把 web 端 logo/状态点换成 bloub 心情形象（8 形状 × 12 色 × 16 表情，随会话状态自动切换），内置桌面启动子功能（macOS/Windows 桌面入口共用 dsh web 后端），设置页中英双语。",
+        "author": "Yuuhann1999",
+        "homepage": "https://github.com/Yuuhann1999/dsh-bloub-mood#readme",
+        "repository": {
+          "url": "https://github.com/Yuuhann1999/dsh-bloub-mood"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "web",
+            "favicon",
+            "logo",
+            "animated",
+            "bloub",
+            "mood"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.4.4",
+            "publishTimestamp": 1787419792,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7a268d92787b9e564022f49677c8e400c0cbf975f65a1bab67b8e1f30f8d1500",
+      "evidence": [
+        {
+          "name": "dsh-bloub-mood",
+          "version": "2.4.4",
+          "tarball": "https://registry.npmjs.org/dsh-bloub-mood/-/dsh-bloub-mood-2.4.4.tgz",
+          "integrity": "sha512-mShun0DJXAM4rBo+eKuPsfEXlK+oVvuJFag1bGA+HlX5xtoToCdYPJeVM4QWvbX96LxuaaOfy3+81jl9paisig=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bloub-mood",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Yuuhann1999/dsh-bloub-mood",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yuuhann1999/dsh-bloub-mood",
+    "commit": "c626528b3d6c32669c265d7144e85f60f48570d2",
+    "releaseTags": 8,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-17T19:04:31.488Z"
+}

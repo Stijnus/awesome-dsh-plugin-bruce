@@ -1,0 +1,220 @@
+{
+  "full_name": "siegfly/dsh-deepseek-vision",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "startedAt": "2026-10-18T01:59:43.922Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "460bd6d4611e842ddd4fbbad0f36345be5cd11efb5b7ed1d73358488680c7073",
+      "url": "https://github.com/siegfly/dsh-deepseek-vision/blob/e44c4c90c96b2c2e85828e96db8c7e9b222b2f67/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepseek-vision",
+          "command": "dsh plugin --profile web add dsh-deepseek-vision",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-deepseek-vision",
+          "command": "dsh plugin --profile headless add dsh-deepseek-vision",
+          "profile": "headless"
+        },
+        {
+          "install": "dsh-deepseek-vision@0.1.7",
+          "command": "dsh plugin --profile web add dsh-deepseek-vision@0.1.7",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "479b09a7e295c0413511bddfa3bfa82a57d674971a2240564d72b511f9e4d395",
+      "url": "https://github.com/siegfly/dsh-deepseek-vision/blob/e44c4c90c96b2c2e85828e96db8c7e9b222b2f67/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepseek-vision",
+          "command": "dsh plugin --profile web add dsh-deepseek-vision",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-deepseek-vision",
+          "command": "dsh plugin --profile headless add dsh-deepseek-vision",
+          "profile": "headless"
+        },
+        {
+          "install": "dsh-deepseek-vision@0.1.7",
+          "command": "dsh plugin --profile web add dsh-deepseek-vision@0.1.7",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepseek-vision",
+      "version": "0.1.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/siegfly/dsh-deepseek-vision",
+        "commit": "e44c4c90c96b2c2e85828e96db8c7e9b222b2f67"
+      },
+      "manifestSha256": "444cd152a20bca484bcd2bcad8dbeeccfd4ccca23e66e72205f206575e3c5c09",
+      "manifestUrl": "https://github.com/siegfly/dsh-deepseek-vision/blob/e44c4c90c96b2c2e85828e96db8c7e9b222b2f67/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-deepseek-vision",
+        "versions": [
+          {
+            "version": "0.1.9",
+            "publishTimestamp": 1789024374,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/siegfly/dsh-deepseek-vision",
+              "commit": "e44c4c90c96b2c2e85828e96db8c7e9b222b2f67"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-deepseek-vision",
+      "origin": "npm",
+      "name": "dsh-deepseek-vision",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-deepseek-vision",
+        "title": "dsh-deepseek-vision",
+        "description": "Out-of-tree dsh provider plugin: a DeepSeek gateway route that claims image input and transparently describes pasted images through a configured vision-language model (e.g. Qwen-VL) before the text-only DeepSeek wire sees them.",
+        "homepage": "https://github.com/siegfly/dsh-deepseek-vision#readme",
+        "repository": {
+          "url": "https://github.com/siegfly/dsh-deepseek-vision"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "deepseek-harness",
+            "plugin",
+            "vision",
+            "vision-language",
+            "multimodal",
+            "qwen-vl",
+            "provider",
+            "llm-gateway",
+            "coding-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1787448665,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6f390cc9240e38a7202730448dfc978f601cd764cfd5b3be9e4d6bfc8c21405b",
+      "evidence": [
+        {
+          "name": "dsh-deepseek-vision",
+          "version": "0.1.7",
+          "tarball": "https://registry.npmjs.org/dsh-deepseek-vision/-/dsh-deepseek-vision-0.1.7.tgz",
+          "integrity": "sha512-PMSdsAkZTeGNm/MzcNlHEYlUAZJXiFU9Dl2vbTwrYIyxVe6PLDurCehKvuadM8s4ewQVzaGQte1AknVd7Ay5qw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-deepseek-vision@0.1.7",
+      "origin": "npm",
+      "name": "dsh-deepseek-vision",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-deepseek-vision",
+        "title": "dsh-deepseek-vision",
+        "description": "Out-of-tree dsh provider plugin: a DeepSeek gateway route that claims image input and transparently describes pasted images through a configured vision-language model (e.g. Qwen-VL) before the text-only DeepSeek wire sees them.",
+        "homepage": "https://github.com/siegfly/dsh-deepseek-vision#readme",
+        "repository": {
+          "url": "https://github.com/siegfly/dsh-deepseek-vision"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "deepseek-harness",
+            "plugin",
+            "vision",
+            "vision-language",
+            "multimodal",
+            "qwen-vl",
+            "provider",
+            "llm-gateway",
+            "coding-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1787448665,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6f390cc9240e38a7202730448dfc978f601cd764cfd5b3be9e4d6bfc8c21405b",
+      "evidence": [
+        {
+          "name": "dsh-deepseek-vision",
+          "version": "0.1.7",
+          "tarball": "https://registry.npmjs.org/dsh-deepseek-vision/-/dsh-deepseek-vision-0.1.7.tgz",
+          "integrity": "sha512-PMSdsAkZTeGNm/MzcNlHEYlUAZJXiFU9Dl2vbTwrYIyxVe6PLDurCehKvuadM8s4ewQVzaGQte1AknVd7Ay5qw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-deepseek-vision",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-deepseek-vision@0.1.7",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/siegfly/dsh-deepseek-vision",
+    "commit": "e44c4c90c96b2c2e85828e96db8c7e9b222b2f67",
+    "releaseTags": 10,
+    "reader": "git_bare_objects"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-18T01:59:50.645Z"
+}
