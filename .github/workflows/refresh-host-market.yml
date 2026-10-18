@@ -120,4 +120,4 @@ jobs:
           # Credentials exist only in this step; artifacts are never executed.
           gh auth setup-git
           # A moving main rejects this atomic push. A later run regenerates it.
-          git push --atomic origin HEAD:main HEAD:market-release
+          git push --atomic origin HEAD:refs/heads/main HEAD:refs/heads/market-release
