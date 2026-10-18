@@ -3475,6 +3475,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "lcy0121/dsh-plugin-compat-check": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "dsh-plugin-compat-check",
+          "source": "npm:dsh-plugin-compat-check",
+          "command": "dsh plugin --profile desktop add dsh-plugin-compat-check"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-18",
+      "verified_via": "README@main"
+    },
     "le-soleil-se-couche/dsh-token-cost": {
       "packages": [
         {
