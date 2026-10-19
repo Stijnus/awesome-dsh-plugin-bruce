@@ -2,7 +2,8 @@
 
 数据源仓库生成和验证索引，个人站点只分发固定 JSON：
 
-- 订阅：`https://bruc3van.com/markets/dsh/index.json`
+- 订阅：`https://bruc3van.com/dsh-plugins/index.json`
+- 旧地址（继续兼容）：`https://bruc3van.com/markets/dsh/index.json`；两个地址直接返回同一份 JSON，无重定向。
 - 索引生成与排除报告：`https://bruc3van.com/markets/dsh/audit.json`
 - 产物：`data/dsh-market-index.json`、`data/dsh-market-index.report.json`
 
@@ -14,8 +15,8 @@
 
 1. 打开左侧 **插件**，点击 **实验性插件** 旁的 **更多**，开启 **自定义插件市场**。
 2. 进入 **发现**，首次使用时点击 **添加索引源**；已有市场时，从左上角市场下拉菜单打开 **管理索引源…**。
-3. 在 **索引 URL** 中填入 `https://bruc3van.com/markets/dsh/index.json`，点击 **添加**，确认其出现在列表后关闭弹窗。
-4. 选择 **DSH 社区市场**，按需刷新、检索并安装插件。索引源保存在当前 profile 中。
+3. 在 **索引 URL** 中填入 `https://bruc3van.com/dsh-plugins/index.json`，点击 **添加**，确认其出现在列表后关闭弹窗。
+4. 选择 **Bruce 的精选插件**，按需刷新、检索并安装插件。索引源保存在当前 profile 中。
 
 [DSH 插件导航](https://bruc3van.com/dsh-plugins/) 用于网页浏览，不是要填写的 JSON 索引 URL。仅订阅官方「发现」页不需要安装 `safer-dsh-market`。完整用户说明见[仓库 README](../../README.md#订阅到-dsh-官方发现页)。
 

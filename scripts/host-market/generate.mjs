@@ -15,7 +15,7 @@ import { assertPublishable, MAX_PLUGINS } from './policy.mjs'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
 
 const REGISTRY = 'https://registry.npmjs.org/'
-const INDEX_URL = 'https://bruc3van.com/markets/dsh/index.json'
+const INDEX_URL = 'https://bruc3van.com/dsh-plugins/index.json'
 
 /** Only registry targets are resolved here. Git requires separate commit/manifest evidence. */
 export function npmTarget(spec) {
@@ -310,10 +310,10 @@ export async function generateIndex(
   diagnostics.push(...applyPresentation(selectedPlugins))
   const index = {
     format: 1,
-    title: { en: 'DSH Community Market', zh: 'DSH 社区市场' },
+    title: { en: "Bruce's Plugin Picks", zh: 'Bruce 的精选插件' },
     description: {
-      en: 'Verified npm metadata and commit-pinned Git bundles from the community catalog. Inclusion is not a security review.',
-      zh: '从社区精选目录核实 npm 元数据及固定提交的 Git 组合包；收录不代表安全审查。',
+      en: "DSH community plugin picks by Bruce, sourced from awesome-dsh-plugin. npm metadata and Git commits are verified; inclusion is not a security review.",
+      zh: 'Bruce 整理的 DSH 社区插件精选，数据来自 awesome-dsh-plugin。核实 npm 元数据与 Git 提交；收录不代表安全审查。',
     },
     metadata: applyDiscovery(selectedPlugins, ranks),
     plugins: selectedPlugins,

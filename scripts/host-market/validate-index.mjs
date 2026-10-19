@@ -17,7 +17,7 @@ const reportPath = resolve(
 const indexText = await readFile(indexPath, 'utf8')
 const index = parseMarketIndex(
   JSON.parse(indexText),
-  'https://bruc3van.com/markets/dsh/index.json',
+  'https://bruc3van.com/dsh-plugins/index.json',
 )
 const report = JSON.parse(await readFile(reportPath, 'utf8'))
 const curated = JSON.parse(
