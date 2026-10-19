@@ -10,17 +10,29 @@
 
 ## 订阅到 DSH 官方「发现」页
 
+**适用版本：DSH 正式版 V0.2.1 及以上。** 这里的版本要求针对官方「发现」页的第三方订阅功能；各插件仍需满足详情中声明的宿主版本要求。
+
+先在网页里找插件：[DSH 插件导航](https://bruc3van.com/dsh-plugins/)。在 DSH 中配置时，请使用下面的 **JSON 订阅地址**，不要填写导航网页地址。
+
 **订阅链接：[https://bruc3van.com/markets/dsh/index.json](https://bruc3van.com/markets/dsh/index.json)**
 
 ```text
 https://bruc3van.com/markets/dsh/index.json
 ```
 
-在 DSH `0.2.1-alpha.5` 中启用第三方市场功能后，打开 **插件 → 发现 → 管理索引源 → 添加索引源**，粘贴上面的地址并保存，即可浏览和安装索引中的插件。仅订阅官方「发现」页无需安装 `safer-dsh-market`；如需独立市场界面、多选安装和安装后 AI 审查，可另行安装市场插件。
+1. **确认版本**：将 DSH 升级到正式版 **V0.2.1 或更高版本**。
+2. **开启自定义市场**：打开左侧 **插件**，点击 **实验性插件** 旁的 **更多**，找到 **自定义插件市场** 并开启。启用后，插件页会显示 **已安装 / 发现** 两个标签页。
+3. **打开索引源配置**：进入 **发现**。首次使用时点击 **添加索引源**；已有市场时，展开左上角的市场名称下拉菜单，选择 **管理索引源…**。
+4. **添加订阅**：在 **索引 URL** 中粘贴上面的 `index.json` 地址，点击 **添加**。确认地址出现在已添加的索引源列表后，关闭弹窗；配置保存在当前 profile 中。
+5. **浏览和安装**：在市场下拉菜单中选择 **DSH 社区市场**；如需重新读取数据，点击 **刷新**。按分类、关键词或 npm/Git 标签查找插件，查看版本要求后再安装。
+
+如果没有看到「发现」，请先检查 DSH 是否为 V0.2.1 及以上正式版，以及「自定义插件市场」是否已开启。只开启功能还不会自动添加本订阅源，仍需完成上面的添加步骤。
+
+仅订阅官方「发现」页**无需安装 `safer-dsh-market`**；如需独立市场界面、多选安装和安装后 AI 审查，可另行安装市场插件。开启「自定义插件市场」与市场插件自己的「启用安全市场」开关是两个不同入口。
 
 索引由 [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) 自动生成，通过 Cloudflare 上的 `bruc3van.com` 提供无重定向 JSON。收录经过核实的 npm 目标及固定完整提交的 Git 组合包，核实 bundle 声明、时间及官方宿主兼容范围规则，因此不是完整仓库目录；收录不代表安全审查或实机兼容保证。订阅先排除未审批、归档、禁用、黑名单及无效安装来源，再将通过核验的插件按仓库 Star 数降序选取前 600 个；官方发现页支持中英文分类、npm/Git 标签、关键词搜索及 Star/仓库更新时间排序。
 
-[查看索引生成与排除报告](https://bruc3van.com/markets/dsh/audit.json) · [最新版市场插件](https://www.npmjs.com/package/safer-dsh-market)
+[DSH 插件导航与订阅指南](https://bruc3van.com/dsh-plugins/#subscribe) · [查看索引生成与排除报告](https://bruc3van.com/markets/dsh/audit.json) · [最新版市场插件](https://www.npmjs.com/package/safer-dsh-market)
 
 ## 🗺️ 生态全景
 
