@@ -1,12 +1,12 @@
 {
   "format": 1,
   "title": {
-    "en": "DSH Community Market",
-    "zh": "DSH 社区市场"
+    "en": "Bruce's Plugin Picks",
+    "zh": "Bruce 的精选插件"
   },
   "description": {
-    "en": "Verified npm metadata and commit-pinned Git bundles from the community catalog. Inclusion is not a security review.",
-    "zh": "从社区精选目录核实 npm 元数据及固定提交的 Git 组合包；收录不代表安全审查。"
+    "en": "DSH community plugin picks by Bruce, sourced from awesome-dsh-plugin. npm metadata and Git commits are verified; inclusion is not a security review.",
+    "zh": "Bruce 整理的 DSH 社区插件精选，数据来自 awesome-dsh-plugin。核实 npm 元数据与 Git 提交；收录不代表安全审查。"
   },
   "metadata": {
     "categories": {
@@ -3207,8 +3207,8 @@
       },
       "versions": [
         {
-          "version": "0.3.27",
-          "publishTimestamp": 1792342687,
+          "version": "0.3.29",
+          "publishTimestamp": 1792405034,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -3289,8 +3289,8 @@
       },
       "versions": [
         {
-          "version": "2.3.3",
-          "publishTimestamp": 1792394935,
+          "version": "2.3.4",
+          "publishTimestamp": 1792404924,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -9184,8 +9184,8 @@
       },
       "versions": [
         {
-          "version": "0.9.28",
-          "publishTimestamp": 1792332724,
+          "version": "0.9.29",
+          "publishTimestamp": 1792404971,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -9242,8 +9242,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1wbHVnaW4tZ3VpZGUiPg0KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzBiNmJjYiIgLz4NCiAgPHBhdGggZD0iTTE0IDIwaDM2djVIMTR6TTE0IDMwaDI0djVIMTR6TTE0IDQwaDMwdjVIMTR6IiBmaWxsPSIjZmZmZmZmIiAvPg0KICA8Y2lyY2xlIGN4PSI0OCIgY3k9IjMyIiByPSI1IiBmaWxsPSIjZmZkMTY2IiAvPg0KPC9zdmc+DQo=",
       "versions": [
         {
-          "version": "0.3.37",
-          "publishTimestamp": 1792347323,
+          "version": "0.3.38",
+          "publishTimestamp": 1792405499,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -14125,8 +14125,8 @@
       },
       "versions": [
         {
-          "version": "0.6.31",
-          "publishTimestamp": 1792349401,
+          "version": "0.6.32",
+          "publishTimestamp": 1792404776,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -15013,6 +15013,46 @@
       ]
     },
     {
+      "name": "deepseek-harness-zh-cn",
+      "title": "deepseek-harness-zh-cn",
+      "description": "A Chinese-first plugin for DeepSeek Harness: reason (reasoning) and answer in Simplified Chinese by default.",
+      "homepage": "https://github.com/imlishiyuan/deepseek-harness-zh-cn#readme",
+      "repository": {
+        "url": "https://github.com/imlishiyuan/deepseek-harness-zh-cn"
+      },
+      "metadata": {
+        "category": "developer-tools",
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "chinese",
+          "i18n",
+          "locale",
+          "plugin",
+          "开发工具",
+          "编程",
+          "developer tools"
+        ],
+        "labels": [
+          "npm"
+        ],
+        "sortKeys": {
+          "stars": 23,
+          "repositoryUpdated": 1790681836
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1792404219,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          }
+        }
+      ]
+    },
+    {
       "name": "@klarkxy/dsh-zhihu",
       "title": {
         "en": "Zhihu",
@@ -15805,8 +15845,8 @@
       },
       "versions": [
         {
-          "version": "0.2.29",
-          "publishTimestamp": 1792344841,
+          "version": "0.2.30",
+          "publishTimestamp": 1792405120,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -27504,51 +27544,6 @@
           },
           "engines": {
             "dsh": ">=0.1.1-rc <2"
-          }
-        }
-      ]
-    },
-    {
-      "name": "dsh-worktime-board",
-      "title": "dsh-worktime-board",
-      "description": "🐂🐴 牛马修仙看板：DeepSeek Harness 工时与修仙值统计面板——日/周/月三档统计 + 学年年历，十二境界修仙体系（炼气→宇宙洪荒）",
-      "homepage": "https://github.com/spacexun2/dsh-worktime-board#readme",
-      "repository": {
-        "url": "https://github.com/spacexun2/dsh-worktime-board"
-      },
-      "metadata": {
-        "category": "agents-workflows",
-        "keywords": [
-          "deepseek-harness",
-          "dsh",
-          "dsh-plugin",
-          "cordis",
-          "worktime",
-          "dashboard",
-          "productivity",
-          "智能体",
-          "自动化",
-          "工作流",
-          "workflow"
-        ],
-        "labels": [
-          "npm"
-        ],
-        "sortKeys": {
-          "stars": 9,
-          "repositoryUpdated": 1788165676
-        }
-      },
-      "versions": [
-        {
-          "version": "0.1.9",
-          "publishTimestamp": 1788165694,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          },
-          "engines": {
-            "dsh": ">=0.0.1-rc <2"
           }
         }
       ]
