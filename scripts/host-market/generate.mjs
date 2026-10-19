@@ -5,6 +5,8 @@ import { pathToFileURL } from 'node:url'
 import { createHash } from 'node:crypto'
 import semver from 'semver'
 import { applyDiscovery } from './discovery.mjs'
+import { applyPresentation } from './presentation.mjs'
+import { presentationQuality } from './quality.mjs'
 import { verifyNpmPlugin } from './npm.mjs'
 import { classifyTarget, readGitTarget } from './git.mjs'
 import { blockedPluginRepository } from './repository-policy.mjs'
@@ -305,6 +307,7 @@ export async function generateIndex(
   }
   const selection = selectTopPlugins(eligiblePlugins, ranks)
   const selectedPlugins = selection.plugins
+  diagnostics.push(...applyPresentation(selectedPlugins))
   const index = {
     format: 1,
     title: { en: 'DSH Community Market', zh: 'DSH 社区市场' },
@@ -406,9 +409,11 @@ async function main() {
     },
     generator: {
       hostVersion: '0.2.1-alpha.5',
+      discoveryHostVersion: '0.2.1-rc.2',
       compatibilityPolicy: 'official-dshRange-v1',
       gitReaderCommit: '1517a4dbca0a2789ff1d41ba439600f8547d23fa',
     },
+    presentationQuality: presentationQuality(result.index),
     summary: {
       npmCandidates: result.npmCandidates,
       gitCandidates: result.gitCandidates,

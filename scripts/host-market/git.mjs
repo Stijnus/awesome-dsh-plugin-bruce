@@ -12,6 +12,7 @@ import {
   dshRange,
 } from './vendor/packages.ts'
 import { readDisplayMetadata } from './vendor/metadata.ts'
+import { inlineIcon } from './icons.mjs'
 const run = promisify(execFile)
 const limits = { timeoutMs: 60_000, maxTarballBytes: 64 * 1024 * 1024 }
 export function classifyTarget(spec) {
@@ -206,10 +207,7 @@ export async function readGitTarget(
         manifest,
         { inlineBytes: 32768, warn },
       )
-      if (iconFile) {
-        delete display.icon
-        warn('图标超过 32 KiB 内联上限；固定 JSON 路由不分发外部图标，已省略')
-      }
+      await inlineIcon(display, iconFile, (detail) => diagnostics.push({ ...base, ...detail }))
       const version = {
         version: manifest.version,
         publishTimestamp: await objects.committed(refs.head),

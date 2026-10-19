@@ -26,9 +26,7 @@ const run = spawnSync(
   process.execPath,
   [
     '--import',
-    fileURLToPath(
-      new URL('./node_modules/tsx/dist/loader.mjs', import.meta.url),
-    ),
+    new URL('./node_modules/tsx/dist/loader.mjs', import.meta.url).href,
     fileURLToPath(new URL('./generate.mjs', import.meta.url)),
     input,
     candidate,

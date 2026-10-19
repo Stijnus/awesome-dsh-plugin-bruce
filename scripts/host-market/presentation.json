@@ -1,0 +1,1236 @@
+{
+  "format": 1,
+  "reviewedAt": "2026-10-19",
+  "policy": "Reviewed translations and concise summaries; retain package install identity. Skip on upstream display changes.",
+  "plugins": {
+    "@dsh-external/dsh-super-injector": {
+      "reviewedVersion": "0.3.3",
+      "displaySha256": "1ef106ee77c5c0637f4b66a6f24163bb84bcc2bdcf3e0e2b365ec010bfba4dee",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "模组注入",
+        "预设",
+        "injector",
+        "preset"
+      ],
+      "title": {
+        "en": "DSH Super Injector",
+        "zh": "DSH 超级模组注入器"
+      },
+      "description": {
+        "en": "Runtime module injection without restarting DSH, with router-standard presets; plugin entry: injector/.",
+        "zh": "免重启注入 DSH 模组，附带 router-standard 预设；插件入口为 injector/。"
+      }
+    },
+    "@deepseek-harness-tui/dsh-tui": {
+      "reviewedVersion": "0.16.1",
+      "displaySha256": "dd6fb50b1b8d17bbdd107909f1dbd687c1f645fdf7a537a65e1bcb037c92fec9",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "terminal"
+      ],
+      "keywords": [
+        "终端",
+        "命令行界面",
+        "terminal",
+        "TUI"
+      ],
+      "title": {
+        "en": "DSH TUI",
+        "zh": "DSH TUI 终端界面"
+      },
+      "description": {
+        "en": "Interactive terminal interface for DeepSeek Harness agents, sessions and tools.",
+        "zh": "在终端中交互管理 DSH 智能体、会话和工具。"
+      }
+    },
+    "@liustack/modlens": {
+      "reviewedVersion": "3.26.5",
+      "displaySha256": "b472d0012e712fc3943767add4c8c5deebfe74bf84a8f4694f42c1efdece17a2",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "vision"
+      ],
+      "keywords": [
+        "看图",
+        "图像理解",
+        "vision",
+        "Antigravity"
+      ],
+      "title": {
+        "en": "ModLens",
+        "zh": "ModLens 图像理解"
+      },
+      "description": {
+        "en": "Plug-in vision for text-only LLMs, powered by the free Antigravity CLI",
+        "zh": "通过 Antigravity CLI 为纯文本模型提供图像理解能力。"
+      }
+    },
+    "dsh-better-sidebar": {
+      "reviewedVersion": "0.28.0",
+      "displaySha256": "bba116c6ec785dc40ff0753776df0b986bd9b1efce10e8431ddbc4076c5bef18",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "侧边栏",
+        "文件树",
+        "文件编辑",
+        "sidebar",
+        "file tree"
+      ]
+    },
+    "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager": {
+      "reviewedVersion": "0.1.7",
+      "displaySha256": "774be17d243349dc3d34fe36ee590291de1ead320e74760036f36b38714f5b88",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "theme"
+      ],
+      "keywords": [
+        "换肤",
+        "皮肤设置",
+        "主题",
+        "skin",
+        "theme"
+      ]
+    },
+    "@smalltailqwq/dsh-client-ui-skin-maid-atelier": {
+      "reviewedVersion": "0.1.8",
+      "displaySha256": "db63de9414d19304d13693bfa9465fcde3a4697cd6ad467260d489892e98d2d0",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "theme"
+      ],
+      "keywords": [
+        "女仆",
+        "换肤",
+        "主题",
+        "maid",
+        "theme"
+      ]
+    },
+    "@smalltailqwq/dsh-client-ui-skin-orca-link": {
+      "reviewedVersion": "0.1.8",
+      "displaySha256": "1386b66797ac0e7843afd8178155f787510c65e08c50d63cf7aa1e395a0b4705",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "theme"
+      ],
+      "keywords": [
+        "虎鲸",
+        "主题",
+        "换肤",
+        "orca",
+        "theme"
+      ]
+    },
+    "dsh-context": {
+      "reviewedVersion": "0.73.3",
+      "displaySha256": "169ed9e9603db8d587163746b7d78835c0c375cec35bbb222b5191fb01273f97",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "上下文管理",
+        "上下文仪表盘",
+        "context",
+        "dashboard"
+      ]
+    },
+    "@nanmicoder/dsh-agent-teams": {
+      "reviewedVersion": "0.1.22-rc.1",
+      "displaySha256": "adce8a103d0603c8a535ad0904f7928dddee72252ad2d56570c2e57d03d22d3a",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "teams"
+      ],
+      "keywords": [
+        "多智能体协作",
+        "任务依赖",
+        "团队编排",
+        "agent teams"
+      ],
+      "title": {
+        "en": "Agent Teams",
+        "zh": "Agent Teams 多智能体协作"
+      },
+      "description": {
+        "en": "AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies, messaging) driven by natural language, with a tree monitor in the web GUI",
+        "zh": "用自然语言编排多 Agent 团队，支持任务依赖、成员消息与网页树状监控。"
+      }
+    },
+    "@xmanrui/dsh-im": {
+      "reviewedVersion": "5.1.0",
+      "displaySha256": "110edeef8ff67762b94cc0d6eadff823cd8064011860b6b03295136595c608f6",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "聊天机器人",
+        "即时通讯",
+        "微信",
+        "飞书",
+        "QQ",
+        "IM bots"
+      ]
+    },
+    "dsh-pocket": {
+      "reviewedVersion": "2.12.0",
+      "displaySha256": "dddf7486451f2313c7499310f9d6ce3f25bd62eff22479f675b14d26f028aab9",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "remote"
+      ],
+      "keywords": [
+        "手机访问",
+        "扫码",
+        "同屏",
+        "远程访问",
+        "mobile"
+      ],
+      "title": {
+        "en": "DSH Pocket",
+        "zh": "DSH Pocket 随身访问"
+      },
+      "description": {
+        "en": "Access desktop DSH from your phone by scanning a QR code, over LAN or the internet with live mirroring.",
+        "zh": "手机扫码访问电脑上的 DSH，支持局域网、公网与实时同屏。"
+      }
+    },
+    "dsh-pet": {
+      "reviewedVersion": "0.3.7",
+      "displaySha256": "0bd01aa92501de4a2b66f5538e9c90d0d6e952aaf567bb5a5c22ffd04aeb25de",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "桌宠",
+        "宠物",
+        "陪伴",
+        "pet"
+      ],
+      "title": {
+        "en": "DSH Pet",
+        "zh": "DSH Pet 蓝色鱼宠物"
+      },
+      "description": {
+        "en": "A blue fish companion in DSH with desktop interaction, chat and a balance wallet.",
+        "zh": "在 DSH 中养一只蓝色鱼宠物，支持桌面互动、聊天和余额钱包。"
+      }
+    },
+    "dsh-plugin-wallpaper-engine": {
+      "reviewedVersion": "1.3.3",
+      "displaySha256": "537cec48f6492183f456f31d2091fc7c57a04ac004897fefa462fc13d82fe2dc",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "theme"
+      ],
+      "keywords": [
+        "动态壁纸",
+        "液态玻璃",
+        "桌面美化",
+        "wallpaper"
+      ],
+      "title": {
+        "en": "Wallpaper Engine",
+        "zh": "Wallpaper Engine 动态壁纸"
+      },
+      "description": {
+        "en": "Use local Wallpaper Engine scene, web or video wallpapers in DSH with adjustable liquid-glass styling.",
+        "zh": "在 DSH 中显示本地 Wallpaper Engine 场景、网页或视频壁纸，并调整液态玻璃外观。"
+      }
+    },
+    "dsh-workbuddy-connect": {
+      "reviewedVersion": "0.7.8",
+      "displaySha256": "479a3abccb824387b1428e498258ab4da47ff9cd225946c06687c1931218429d",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "provider"
+      ],
+      "keywords": [
+        "WorkBuddy",
+        "模型提供方",
+        "模型接入",
+        "provider"
+      ],
+      "title": {
+        "en": "WorkBuddy Connect",
+        "zh": "WorkBuddy 模型接入"
+      },
+      "description": {
+        "en": "Connect models available in the WorkBuddy desktop app to DSH.",
+        "zh": "将 WorkBuddy 桌面应用提供的模型接入 DSH。"
+      }
+    },
+    "dsh-vision-router": {
+      "reviewedVersion": "3.0.4",
+      "displaySha256": "d986b454f98423974113c1e6b8700f7e971c0edefdec9489f31891f8f5b0b09a",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "vision"
+      ],
+      "keywords": [
+        "图像理解",
+        "视觉路由",
+        "像素工具",
+        "vision router"
+      ],
+      "title": {
+        "en": "Vision Router",
+        "zh": "Vision Router 图像路由"
+      },
+      "description": {
+        "en": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain + pixel-level tools. Remote vision providers, including the default free fallback, receive image content unless strict local-only use is configured.",
+        "zh": "为纯文本 Agent 提供视觉链路与像素工具；远程视觉服务会接收图像，除非配置为严格仅本地使用。"
+      }
+    },
+    "@anionex/dsh-vision-toolkit": {
+      "reviewedVersion": "0.1.47",
+      "displaySha256": "0ad099c825e66475ea0f82c44014daf573dd6883ab8c554cf544540ae04f2e33",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "vision"
+      ],
+      "keywords": [
+        "文字识别",
+        "图像问答",
+        "界面定位",
+        "OCR",
+        "pixel diff"
+      ],
+      "title": {
+        "en": "Vision Toolkit",
+        "zh": "Vision Toolkit 视觉工具箱"
+      },
+      "description": {
+        "en": "DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration, pixel diff, Artifacts, and Web UI.",
+        "zh": "为 DSH 提供图像问答、OCR、界面定位与还原、像素差异和 Artifacts 工具。"
+      }
+    },
+    "@liustack/modsearch": {
+      "reviewedVersion": "5.10.5",
+      "displaySha256": "77168536cf06dcb4467a93f2731552495f48a42bec011cb0b2e6751f9ea6108b",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "search"
+      ],
+      "keywords": [
+        "联网搜索",
+        "网页抓取",
+        "X 搜索",
+        "web search",
+        "fetch"
+      ],
+      "title": {
+        "en": "ModSearch",
+        "zh": "ModSearch 联网搜索"
+      },
+      "description": {
+        "en": "Web search, X search and page fetching for models without native web access.",
+        "zh": "为缺少原生联网能力的模型提供网页搜索、X 搜索与页面抓取。"
+      }
+    },
+    "@dsh-external/dsh-redteam-model": {
+      "reviewedVersion": "1.1.1",
+      "displaySha256": "dd2fce285636f7e77bc1da05f3a978d18b49811853b03e34f0a082c9215e3baf",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "research"
+      ],
+      "keywords": [
+        "红队",
+        "安全研究",
+        "red team",
+        "security research"
+      ],
+      "title": {
+        "en": "DSH Redteam",
+        "zh": "DSH Redteam 红队研究"
+      },
+      "description": {
+        "en": "Manage DSH red-team security research presets and runtime plugins from one settings page.",
+        "zh": "在一个设置页中管理 DSH 红队安全研究预设与运行时插件。"
+      }
+    },
+    "@nagi-ovo/dsh-ads": {
+      "reviewedVersion": "0.1.2",
+      "displaySha256": "cd81862f039b5c84d1342d4f61b5e6fc56dff632e42c3e748b8d8ed27869ed93",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "恶搞",
+        "广告",
+        "抽奖",
+        "parody",
+        "ads"
+      ],
+      "title": {
+        "en": "DSH Ads",
+        "zh": "DSH Ads 广告恶搞"
+      },
+      "description": {
+        "en": "DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a jackpot wheel, rewarded inference ads, and fake-game animation.",
+        "zh": "在 DSH 中展示恶搞弹窗、抽奖转盘、激励式推理广告与假游戏动画。"
+      }
+    },
+    "@changfenhuang/dsh-genui": {
+      "reviewedVersion": "0.13.0",
+      "displaySha256": "aba246a2be88fa9bf611a97b6aab92ebd1ff41f5388b358f42ade9911c6eee47",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "交互界面",
+        "图表",
+        "表单",
+        "生成式界面",
+        "GenUI"
+      ],
+      "title": {
+        "en": "GenUI",
+        "zh": "GenUI 交互界面"
+      },
+      "description": {
+        "en": "Render interactive UI in assistant replies, including charts, forms, quizzes, Mermaid and 3D scenes.",
+        "zh": "在助手回复中渲染交互界面，支持图表、表单、测验、Mermaid 和 3D 场景。"
+      }
+    },
+    "dsh-image-gen": {
+      "reviewedVersion": "0.9.1",
+      "displaySha256": "960ef041c82b2e84fcc2dd3e75d9cb923a987c0db456660db6195f5b587ad8ae",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "文生图",
+        "图片生成",
+        "图像生成",
+        "image generation",
+        "ComfyUI"
+      ],
+      "title": {
+        "en": "DSH Image Gen",
+        "zh": "DSH 图像生成"
+      },
+      "description": {
+        "en": "Bring ChatGPT-like image generation to DeepSeek Harness — Gemini, OpenAI, Seedream, DashScope, local ComfyUI & more.",
+        "zh": "为 DSH 接入 Gemini、OpenAI、Seedream、DashScope 和本地 ComfyUI 等图像生成服务。"
+      }
+    },
+    "dsh-mnemon": {
+      "reviewedVersion": "0.5.32",
+      "displaySha256": "e95b3b4268d9061202b6fa1cfcefa7c33dc0919a8e825f38e1eb74a6793be6f7",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "memory"
+      ],
+      "keywords": [
+        "分层记忆",
+        "可组合记忆",
+        "长期记忆",
+        "memory"
+      ]
+    },
+    "dsh-mimir": {
+      "reviewedVersion": "0.21.1",
+      "displaySha256": "6ee3ffe477e88331e27f46f64a352283932bbdae8856f64f3af1939cd7eb0ba3",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "research"
+      ],
+      "keywords": [
+        "学术研究",
+        "论文检索",
+        "文献",
+        "LaTeX",
+        "research"
+      ],
+      "title": {
+        "en": "Mimir",
+        "zh": "Mimir 学术研究助手"
+      },
+      "description": {
+        "en": "Research-assistant plugin suite (literature search, research wiki, LaTeX compile, independent subagent review) for the DeepSeek Harness",
+        "zh": "提供文献检索、研究 Wiki、LaTeX 编译与独立子 Agent 审阅工具。"
+      }
+    },
+    "dsh-synapse": {
+      "reviewedVersion": "0.4.2",
+      "displaySha256": "b597b6cfa5cabe46582708cf53fe8f00f77caddfec187a27cd7854f33d5b8330",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "非线性对话",
+        "对话工作区",
+        "可视化",
+        "conversation"
+      ],
+      "title": {
+        "en": "Synapse",
+        "zh": "Synapse 可视化对话"
+      },
+      "description": {
+        "en": "A visual, non-linear conversation workspace plugin for DeepSeek Harness.",
+        "zh": "为 DSH 提供可视化、非线性的对话工作区。"
+      }
+    },
+    "@anysearch/anysearch-dsh": {
+      "reviewedVersion": "0.1.8",
+      "displaySha256": "fa33a033c1935b645a62f8b396626af34a8103e61d58dc3a0fe93c7adc11f6ce",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "search"
+      ],
+      "keywords": [
+        "网页搜索",
+        "页面抓取",
+        "联网检索",
+        "AnySearch"
+      ],
+      "title": {
+        "en": "AnySearch",
+        "zh": "AnySearch 联网检索"
+      },
+      "description": {
+        "en": "AnySearch web search and fetch providers plus advanced tools for DeepSeek Harness",
+        "zh": "为 DSH 接入 AnySearch 网页搜索、页面抓取和进阶工具。"
+      }
+    },
+    "@ethanyoq/dsh-invoice-downloader": {
+      "reviewedVersion": "0.1.1",
+      "displaySha256": "4f4203684b75cb00c3972268844e3bfcf51127a1e5a92b5badda3abbd5d89ed7",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "发票",
+        "邮件",
+        "归档",
+        "Excel",
+        "invoice",
+        "IMAP"
+      ],
+      "title": {
+        "en": "Invoice Downloader",
+        "zh": "发票下载与整理"
+      },
+      "description": {
+        "en": "Local IMAP invoice download, OCR, archive, and Excel summary bundle for DeepSeek Harness",
+        "zh": "通过本地 IMAP 下载发票，支持 OCR、归档与 Excel 汇总。"
+      }
+    },
+    "@beiyege-01/dsh-voice-ai-girlfriend": {
+      "reviewedVersion": "0.3.0",
+      "displaySha256": "93323e1d53ceb70150a48dcbf9509bad2dfa66aa156287c11bc07bdea2effb4d",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "语音输入",
+        "语音回复",
+        "陪伴",
+        "TTS",
+        "FunASR",
+        "NapCat"
+      ],
+      "title": {
+        "en": "DSH Voice Companion",
+        "zh": "DSH 语音陪伴"
+      },
+      "description": {
+        "en": "Voice AI girlfriend for DeepSeek Harness: FunASR mic input, Qwen3-TTS voice replies, companion animation window, QQ two-way chat. Needs the repo's voice bridge + NapCat.",
+        "zh": "提供麦克风输入、语音回复、动画陪伴和 QQ 双向聊天；需配置仓库中的语音桥及 NapCat。"
+      }
+    },
+    "dsh-plugin-memtrace": {
+      "reviewedVersion": "0.1.0",
+      "displaySha256": "e5d08984d5364b1c9adcf5c1a0b6a32d53440246ef91f5f7c040383bad66dab2",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "memory"
+      ],
+      "keywords": [
+        "代码知识图谱",
+        "结构搜索",
+        "影响分析",
+        "Memtrace"
+      ],
+      "title": {
+        "en": "Memtrace",
+        "zh": "Memtrace 代码知识图谱"
+      },
+      "description": {
+        "en": "Local-first code intelligence graph for DeepSeek Harness: structural search, blast radius, temporal memory, and 27 agent skills over Memtrace MCP.",
+        "zh": "通过 Memtrace MCP 提供本地优先的代码结构搜索、影响范围分析、时序记忆与 Agent 技能。"
+      }
+    },
+    "dsh-preset-workbench": {
+      "reviewedVersion": "1.0.0",
+      "displaySha256": "f1f17d8f306e22091d09794dc3db83009b80f15152b8b16d87239e1263b48e3a",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "预设管理",
+        "提示词",
+        "preset",
+        "prompt"
+      ],
+      "title": {
+        "en": "Preset Workbench",
+        "zh": "DSH 预设工作台"
+      },
+      "description": {
+        "en": "Create and edit agent preset prompts in Settings, and register user presets from disk.",
+        "zh": "在设置页创建和编辑 Agent 预设提示词，并注册磁盘上的用户预设。"
+      }
+    },
+    "dsh-plugin-subscriptions": {
+      "reviewedVersion": "0.9.10",
+      "displaySha256": "7280fa3fca837466f736bacc1321d0c78650813a20f89db54e8881c2a334c30b",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "provider"
+      ],
+      "keywords": [
+        "模型订阅",
+        "OAuth",
+        "ChatGPT",
+        "Claude",
+        "Copilot"
+      ],
+      "title": {
+        "en": "DSH Subscriptions",
+        "zh": "DSH 模型订阅接入"
+      },
+      "description": {
+        "en": "Use ChatGPT (Codex), Claude, Grok (X Premium), GitHub Copilot, and Google Antigravity subscriptions as DeepSeek Harness LLM providers, with OAuth login from the web Settings page",
+        "zh": "通过网页设置中的 OAuth 登录，接入 ChatGPT、Claude、Grok、GitHub Copilot 和 Antigravity 等订阅模型。"
+      }
+    },
+    "dsh-cost-meter": {
+      "reviewedVersion": "1.9.12",
+      "displaySha256": "322712e4287da97f9caa0dbd2d35009364641037ed1a15cb23f33594102bd248",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "费用统计",
+        "余额",
+        "配额",
+        "成本",
+        "token",
+        "cost"
+      ]
+    },
+    "dsh-openstory": {
+      "reviewedVersion": "0.2.0",
+      "displaySha256": "fc83ae0781c1c571b7b1a5c2fceda94a4040502674e20e3dbd811b656c2dbf58",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "teams"
+      ],
+      "keywords": [
+        "多智能体模拟",
+        "红楼梦",
+        "OpenStory",
+        "simulation"
+      ],
+      "title": {
+        "en": "OpenStory",
+        "zh": "OpenStory 多智能体模拟"
+      },
+      "description": {
+        "en": "DeepSeek Harness community plugin: drive the OpenStory multi-agent simulation (Dream of the Red Chamber) as native agent tools",
+        "zh": "通过 DSH 原生 Agent 工具驱动 OpenStory《红楼梦》多智能体模拟。"
+      }
+    },
+    "dsh-client-ui-aqua": {
+      "reviewedVersion": "1.3.1",
+      "displaySha256": "bf3d143e8deef83b1dd3c3aa7db4f5d41e106f157ae1fe3295c2f55c27afa939",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "theme"
+      ],
+      "keywords": [
+        "毛玻璃",
+        "透明主题",
+        "动态壁纸",
+        "Aqua",
+        "glassmorphism"
+      ],
+      "title": {
+        "en": "Aqua",
+        "zh": "Aqua 玻璃主题"
+      },
+      "description": {
+        "en": "A customizable glass theme for DSH Web UI, with blur, animated or video wallpapers and motion.",
+        "zh": "为 DSH 网页界面提供可定制的毛玻璃、动态或视频壁纸、统一玻璃外观和动效。"
+      }
+    },
+    "@mars-sea/dsh-commandcode-provider": {
+      "reviewedVersion": "0.14.2",
+      "displaySha256": "da44121fc2597ffa52e02559e72a63be15092795bfc38d7c21525bd78c332d7e",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "provider"
+      ],
+      "keywords": [
+        "Command Code",
+        "模型接入",
+        "多账号",
+        "配额",
+        "provider"
+      ]
+    },
+    "dsh-memory-evolve": {
+      "reviewedVersion": "0.1.0",
+      "displaySha256": "985305cde254d1f73310c575ee911a63d9abe9b0d3840b231e2523808661c722",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "memory"
+      ],
+      "keywords": [
+        "长期记忆",
+        "自我进化",
+        "技能管理",
+        "CLI 调度",
+        "memory"
+      ],
+      "title": {
+        "en": "DSH Memory Evolve",
+        "zh": "DSH 分层记忆与进化"
+      },
+      "description": {
+        "en": "Layered long-term memory, experience capture, skills and todos, plus external AI CLI dispatch and a web management UI.",
+        "zh": "提供分层长期记忆、经验沉淀、技能与待办管理，并调度外部 AI CLI；附网页管理界面。"
+      }
+    },
+    "open-sea-skin": {
+      "reviewedVersion": "1.2.3",
+      "displaySha256": "fdd9ec0696f6bd4c0d2fca37c1e5c575fb5162337dbe7a7aa89e22247c61e8ea",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "theme"
+      ],
+      "keywords": [
+        "海洋",
+        "主题",
+        "WebGPU",
+        "ocean"
+      ],
+      "title": {
+        "en": "Open Sea",
+        "zh": "Open Sea 海洋主题"
+      },
+      "description": {
+        "en": "Realtime WebGPU ocean skin for DeepSeek Harness on Chrome and Edge",
+        "zh": "在 Chrome 和 Edge 中为 DSH 显示实时 WebGPU 海洋主题。"
+      }
+    },
+    "ds-harness-remote": {
+      "reviewedVersion": "0.4.23",
+      "displaySha256": "be7a815ef1354c6b51dc04e7309096538e67833301631cb5fc6747b5259b6795",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "remote"
+      ],
+      "keywords": [
+        "远程连接",
+        "远程工作区",
+        "Android",
+        "端到端加密",
+        "remote access"
+      ]
+    },
+    "whale-girl": {
+      "reviewedVersion": "0.2.0",
+      "displaySha256": "e81e8a882069ea2828fb3c42abd8da35843549480023f9f71fe0ebd222bd3b69",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "桌面宠物",
+        "桌宠",
+        "陪伴",
+        "pet"
+      ],
+      "title": {
+        "en": "Whale Girl",
+        "zh": "Whale Girl 桌面宠物"
+      },
+      "description": {
+        "en": "A QQ-pet-style desktop companion in the DSH web GUI.",
+        "zh": "在 DSH 网页界面中显示 QQ 宠物形态的桌面宠物。"
+      }
+    },
+    "@zseven-w/dsh-ios": {
+      "reviewedVersion": "0.1.0-rc.10",
+      "displaySha256": "74eb89a377eaa8b95d9d0fc2b78d3ad728917c2817be76c8bee1c8e48f54341c",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "iOS",
+        "模拟器",
+        "应用构建",
+        "simulator"
+      ],
+      "title": {
+        "en": "DSH iOS",
+        "zh": "DSH iOS 模拟器"
+      },
+      "description": {
+        "en": "DeepSeek Harness plugin for the iOS Simulator — build, run, and interact with a live simulator stream inside a conversation. Tested with DSH 0.1.5-rc.1.",
+        "zh": "在对话中构建、运行并操作 iOS 模拟器实时画面；原作者标注测试版本为 DSH 0.1.5-rc.1。"
+      }
+    },
+    "@nagi-ovo/dsh-visualize": {
+      "reviewedVersion": "0.1.7",
+      "displaySha256": "e303e94a0521186c4eb07247a64d76a98c71d47ef0085fc646dc5bd995be682a",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "可视化",
+        "交互卡片",
+        "HTML",
+        "visualize"
+      ],
+      "title": {
+        "en": "DSH Visualize",
+        "zh": "DSH 交互可视化"
+      },
+      "description": {
+        "en": "DSH inline visualization plugin: a visualize tool + bundled skill let the model render interactive HTML fragments as sandboxed cards in the conversation (Codex /visualize semantics).",
+        "zh": "通过 visualize 工具与配套技能，在对话中渲染沙箱化的交互 HTML 卡片。"
+      }
+    },
+    "dsh-agent-team-gui": {
+      "reviewedVersion": "1.3.0",
+      "displaySha256": "00221469436720bac2882d6abd27685b5da8983a1c3764738f16a0ffb86a8357",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "teams"
+      ],
+      "keywords": [
+        "多模型团队",
+        "工作流编排",
+        "DAG",
+        "agent team"
+      ],
+      "title": {
+        "en": "Agent Team GUI",
+        "zh": "Agent Team GUI 团队编排"
+      },
+      "description": {
+        "en": "Persistent multi-model squads for DeepSeek Harness with durable orchestration, DAG workflows, run history, and provider-reported token usage",
+        "zh": "提供持久化的多模型团队、DAG 工作流、运行历史与提供方报告的 token 用量。"
+      }
+    },
+    "@huiliyi37/dsh-tianshu-tui": {
+      "reviewedVersion": "1.0.0-rc.2",
+      "displaySha256": "db60d5875dc9f8f852169e3853be2eae3b4a7591914d28bd581e0017eaecc6cd",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "terminal"
+      ],
+      "keywords": [
+        "天枢",
+        "终端",
+        "命令行界面",
+        "TUI"
+      ],
+      "title": {
+        "en": "Tianshu TUI",
+        "zh": "天枢终端界面"
+      },
+      "description": {
+        "en": "An interactive DSH terminal UI with streaming Markdown, tool cards, themes, session tabs and diagnostics.",
+        "zh": "为 DSH 提供交互式终端界面，支持流式 Markdown、工具卡片、主题、会话标签与诊断信息。"
+      }
+    },
+    "@dshtrading/base": {
+      "reviewedVersion": "0.6.1",
+      "displaySha256": "399f6ccd5789e3b25af921b1d1eefa61f534ac860cd759443c24eaac0d829dd9",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "交易审批",
+        "交易预设",
+        "trading"
+      ],
+      "title": {
+        "en": "DSH Trading Base",
+        "zh": "DSH Trading 基础组件"
+      },
+      "description": {
+        "en": "Shared dsh-trading bundle for order/cancel approval and agent preset registration.",
+        "zh": "为 dsh-trading 提供统一的下单与撤单审批入口，以及共享 Agent 预设注册。"
+      }
+    },
+    "@opencode2dsh/dsh-plugin": {
+      "reviewedVersion": "0.3.12",
+      "displaySha256": "94514b5952c36352de957c6019c3c6cf70ee5e72479469b4637caec887a4af92",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "provider"
+      ],
+      "keywords": [
+        "OpenCode",
+        "Zen",
+        "模型接入",
+        "provider"
+      ],
+      "title": {
+        "en": "OpenCode Zen for DSH",
+        "zh": "OpenCode Zen 模型接入"
+      },
+      "description": {
+        "en": "Free OpenCode Zen models for DeepSeek Harness (DSH): native dsh-llm adapter plugin, no API key.",
+        "zh": "通过 DSH 原生模型适配器接入 OpenCode Zen 模型，无需 API Key。"
+      }
+    },
+    "@dhicoc/dsh-reverse-skill": {
+      "reviewedVersion": "1.2.0",
+      "displaySha256": "d54ba90b07e467ec7321b86652103accfe5da36aa4b65f5dbf0cf99071662998",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "skills",
+        "research"
+      ],
+      "keywords": [
+        "逆向工程",
+        "授权渗透测试",
+        "安全研究",
+        "reverse engineering"
+      ],
+      "title": {
+        "en": "Reverse Skill",
+        "zh": "Reverse Skill 逆向研究技能"
+      },
+      "description": {
+        "en": "A DSH skill router pack for reverse engineering, authorized penetration testing and security research.",
+        "zh": "为 DSH 提供逆向工程、授权渗透测试与安全研究的技能路由包。"
+      }
+    },
+    "dsh-dream-skin": {
+      "reviewedVersion": "10.16.0",
+      "displaySha256": "07c71a10a108711edbf3a29ba819c802ac0d8b15b73eaa7ed791105cfeea6e55",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "theme"
+      ],
+      "keywords": [
+        "主题",
+        "壁纸",
+        "换肤",
+        "skin",
+        "theme"
+      ]
+    },
+    "@leon___/dsh-client-liang-intensity-skin": {
+      "reviewedVersion": "0.1.11",
+      "displaySha256": "9acfd0ce5c8d15b62e9a0c6128bcf2dc25383a5751df20fd0fce0bbf824cdcfb",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "theme"
+      ],
+      "keywords": [
+        "推理强度",
+        "滑块",
+        "reasoning effort"
+      ],
+      "title": {
+        "en": "Liang Reasoning Skin",
+        "zh": "滑动变祖 推理强度皮肤"
+      },
+      "description": {
+        "en": "An opt-in adaptive reasoning-effort slider skin for DSH.",
+        "zh": "为 DSH 提供可选择启用的自适应推理强度滑块皮肤。"
+      }
+    },
+    "dsh-chat-import": {
+      "reviewedVersion": "0.26.1",
+      "displaySha256": "d9f284066a9f8586c0a98a54e3b4e558b7fb8b563a57fe8bf106edfbe2c80443",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "聊天记录",
+        "会话导入",
+        "导出",
+        "chat import"
+      ],
+      "title": {
+        "en": "DSH Chat Import",
+        "zh": "DSH 聊天记录导入"
+      },
+      "description": {
+        "en": "Import other AI coding agents’ histories into resumable DSH sessions, preserving tool calls, reasoning and results, with reverse export.",
+        "zh": "将其他 AI 编程 Agent 的记录导入 DSH 继续对话，保留工具调用、推理与结果，并支持反向导出。"
+      }
+    },
+    "dsh-auto-review": {
+      "reviewedVersion": "0.13.7",
+      "displaySha256": "f6b291686d9e0b5361ad4aff9ddea5444fdbc16bc278ed05202c28b6925b79ec",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "审批审阅",
+        "权限审批",
+        "只读审阅",
+        "auto review"
+      ],
+      "title": {
+        "en": "DSH Auto Review",
+        "zh": "DSH 审批自动审阅"
+      },
+      "description": {
+        "en": "A separate read-only model reviews approval requests, with fail-closed fallback and full session logging.",
+        "zh": "用独立的只读模型审阅审批请求；失败时拒绝放行，并保留完整会话日志。"
+      }
+    },
+    "dsh-reasoning-effort": {
+      "reviewedVersion": "0.8.0",
+      "displaySha256": "40f2924d171b99738e7907184bc3ab8e68856c6ddc35c4a9710e70d37f6d4cc3",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "推理强度",
+        "模型选择",
+        "reasoning effort"
+      ],
+      "title": {
+        "en": "DSH Reasoning Effort",
+        "zh": "DSH 模型与推理选择器"
+      },
+      "description": {
+        "en": "A Codex-style model and reasoning selector using model-advertised effort levels.",
+        "zh": "提供 Codex 风格的模型与推理强度选择，使用模型声明的强度等级。"
+      }
+    },
+    "@michengai/dsh-skills-manager": {
+      "reviewedVersion": "1.2.8",
+      "displaySha256": "3de8183add431c52adfef501e2309e422c8413efdfb0a4d36d24556f7600c65b",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "skills"
+      ],
+      "keywords": [
+        "技能管理",
+        "本地技能",
+        "Skills"
+      ],
+      "title": {
+        "en": "Skills Manager",
+        "zh": "Skills 技能管理器"
+      }
+    },
+    "dsh-meme": {
+      "reviewedVersion": "0.1.53",
+      "displaySha256": "45b1b6be38f004ccc0705c349899d091919ef4879368ba3028563372e94c96e2",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "表情包",
+        "斗图",
+        "图库",
+        "meme"
+      ]
+    },
+    "pi2dsh": {
+      "reviewedVersion": "0.26.0",
+      "displaySha256": "57ff6e36d560969cf1c0d3bd7d64ba6f73377b83ffb4588d53ecdf5915f9871d",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [],
+      "keywords": [
+        "Pi 扩展",
+        "生态桥接",
+        "MCP 配置",
+        "bridge"
+      ],
+      "title": {
+        "en": "Pi2DSH",
+        "zh": "Pi2DSH 扩展桥接"
+      },
+      "description": {
+        "en": "Bridge the Pi and DeepSeek Harness ecosystems: a general Pi Host ABI that runs unmodified Pi extensions as native DSH plugins, with compatibility inspection and Pi-to-DSH MCP config translation.",
+        "zh": "把未修改的 Pi 扩展接入为原生 DSH 插件，并检查兼容性、转换 MCP 配置。"
+      }
+    },
+    "dsh-industry-research": {
+      "reviewedVersion": "0.3.23",
+      "displaySha256": "7f7719add0a262d17d035ee57c85bcf16e4b23f6f9cdcdb479c44eeb3007d315",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "research"
+      ],
+      "keywords": [
+        "行业研究",
+        "公司研究",
+        "产业链",
+        "研究报告"
+      ],
+      "title": {
+        "en": "DSH Industry Research",
+        "zh": "DSH 行业研究"
+      },
+      "description": {
+        "en": "Industry-chain research, public-source policy/news tracking, company scans and auditable reports. Research only; not investment advice.",
+        "zh": "提供产业链、政策新闻跟踪、公司扫描与可追溯研究报告；仅用于研究，不构成投资建议。"
+      }
+    },
+    "@dhicoc/dsh-chinese-traditional-wisdom-skill": {
+      "reviewedVersion": "1.3.0",
+      "displaySha256": "9c03b11e36bfef0abffc5bf554ca2277dff4d39d61c1767de53db7d005abee25",
+      "evidence": [
+        {
+          "repository": "dhicoc/dsh-chinese-traditional-wisdom-skill",
+          "description": "中华传统智慧（玄枢）AI Agent 技能包的 DeepSeek Harness（dsh）Cordis 插件：八字/紫微/六爻/梅花/奇门/风水/五运六气/体质全融合，本地确定性引擎 + 可视化 Dashboard，一行 dsh plugin add 安装。",
+          "snapshot": "data/repositories.json",
+          "snapshotSha256": "dcb71ef6d78a1afaddf63cccf3233027597bee32a83d17e9e03d3e56774c4447"
+        }
+      ],
+      "labels": [
+        "skills"
+      ],
+      "keywords": [
+        "传统文化",
+        "玄枢",
+        "技能包"
+      ],
+      "title": {
+        "en": "Chinese Traditional Wisdom",
+        "zh": "玄枢 传统文化技能"
+      },
+      "description": {
+        "en": "A Chinese traditional culture skill pack for DSH with local engines and a visual dashboard.",
+        "zh": "面向 DSH 的中华传统文化技能包，附本地引擎与可视化面板。"
+      }
+    },
+    "dsh-network-proxy": {
+      "reviewedVersion": "1.0.1",
+      "displaySha256": "de813ee6bfbc64e2b698077684a228c87acc92ade7ed3705aa14f1d9102105c2",
+      "evidence": [
+        {
+          "repository": "kriskite/dsh-network-proxy",
+          "description": "DeepSeek Harness plugin to manage network proxy (system / manual / direct) with a live settings UI. [dsh-plugin]",
+          "snapshot": "data/repositories.json",
+          "snapshotSha256": "dcb71ef6d78a1afaddf63cccf3233027597bee32a83d17e9e03d3e56774c4447"
+        }
+      ],
+      "labels": [],
+      "keywords": [
+        "网络代理",
+        "系统代理",
+        "直连",
+        "proxy"
+      ],
+      "title": {
+        "en": "DSH Network Proxy",
+        "zh": "DSH 网络代理"
+      },
+      "description": {
+        "en": "Manage system, manual and direct network proxy modes for DSH from a live settings UI.",
+        "zh": "在设置界面管理 DSH 的系统代理、手动代理与直连模式。"
+      }
+    }
+  }
+}

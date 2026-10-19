@@ -3,6 +3,7 @@ import semver from 'semver'
 import { npmTarball } from './vendor/fetchers.ts'
 import { isBundle, dshRange } from './vendor/packages.ts'
 import { readDisplayMetadata } from './vendor/metadata.ts'
+import { inlineIcon } from './icons.mjs'
 export async function verifyNpmPlugin(
   plugin,
   packument,
@@ -53,15 +54,7 @@ export async function verifyNpmPlugin(
         }),
     },
   )
-  if (iconFile) {
-    delete display.icon
-    diagnostics.push({
-      name: plugin.name,
-      code: 'metadata_warning',
-      status: 'warning',
-      reason: '图标超过 32 KiB 内联上限，已省略',
-    })
-  }
+  await inlineIcon(display, iconFile, (detail) => diagnostics.push({ name: plugin.name, ...detail }))
   return {
     plugin: { name: plugin.name, ...display, versions: plugin.versions },
     diagnostics,

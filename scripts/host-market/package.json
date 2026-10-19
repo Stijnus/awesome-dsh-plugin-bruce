@@ -3,15 +3,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --import tsx --test test.mjs git.test.mjs audit.test.mjs candidates.test.mjs discovery.test.mjs publication.test.mjs"
+    "test": "node --import tsx --test test.mjs git.test.mjs audit.test.mjs candidates.test.mjs discovery.test.mjs presentation.test.mjs publication.test.mjs"
   },
   "dependencies": {
     "@deepseek-ai/dsh-plugin-market-index": "0.2.1-alpha.5",
-    "semver": "7.8.5",
-    "tsx": "4.22.4",
-    "tar": "7.5.22",
-    "yaml": "2.9.0",
     "hosted-git-info": "9.0.3",
-    "resolve.exports": "2.0.3"
+    "resolve.exports": "2.0.3",
+    "semver": "7.8.5",
+    "sharp": "0.35.5",
+    "tar": "7.5.22",
+    "tsx": "4.22.4",
+    "yaml": "2.9.0"
   }
 }

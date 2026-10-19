@@ -19,7 +19,8 @@ test('publisher accepts matching data and rejects tampered or unexpected artifac
       writeFileSync(join(dir, 'release-data/dsh-market-index.json'), index)
       writeFileSync(join(dir, 'release-data/dsh-market-index.report.json'), JSON.stringify(report))
       if (scenario === 'extra') writeFileSync(join(dir, 'release-data/run.sh'), 'untrusted')
-      const result = spawnSync('python3', ['-c', code], { cwd: dir, encoding: 'utf8', env: { ...process.env, SOURCE_SHA: 'a'.repeat(40), TRIGGER_SHA: 'b'.repeat(40), RUN_ID: '123' } })
+      const result = spawnSync(process.platform === 'win32' ? 'python' : 'python3', ['-c', code], { cwd: dir, encoding: 'utf8', env: { ...process.env, SOURCE_SHA: 'a'.repeat(40), TRIGGER_SHA: 'b'.repeat(40), RUN_ID: '123' } })
+      assert.ifError(result.error)
       assert.equal(result.status === 0, scenario === 'valid', result.stderr)
       if (scenario === 'valid') {
         const release = JSON.parse(readFileSync(join(dir, 'data/dsh-market-release.json')))
