@@ -3313,6 +3313,48 @@
       "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
+    "kira905/dsh-butler-archive": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-10-19",
+      "verified_via": "README@main",
+      "manual_instructions": "This package is a patch-style plugin and does not declare dsh.bundle, so it is not a profile layer. Install with \"npm install @kira905/dsh-butler-archive --prefix <DSH_HOME>/profiles/<profile>\" and add the plugin entry to that profile's cordis.patch.yml (copy-ready snippet in README, section Installation). Restart DSH afterwards.",
+      "install_mode": "manual"
+    },
+    "kira905/dsh-ecosystem-panel": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@kira905/dsh-ecosystem-panel",
+          "install": "@kira905/dsh-ecosystem-panel",
+          "command": "dsh plugin --profile web add \"@kira905/dsh-ecosystem-panel\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-19",
+      "verified_via": "README@main"
+    },
+    "kira905/dsh-session-title-live": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-10-19",
+      "verified_via": "README@main",
+      "manual_instructions": "This package is a patch-style plugin and does not declare dsh.bundle, so it is not a profile layer. Install with \"npm install @kira905/dsh-session-title-live --prefix <DSH_HOME>/profiles/<profile>\" and insert the plugin entry into that profile's cordis.patch.yml (see README, section Installation). Restart DSH afterwards.",
+      "install_mode": "manual"
+    },
+    "kira905/dsh-task-board-local": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@kira905/dsh-task-board-local",
+          "install": "@kira905/dsh-task-board-local",
+          "command": "dsh plugin --profile web add \"@kira905/dsh-task-board-local\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-19",
+      "verified_via": "README@main"
+    },
     "knqiufan/powercontext-dsh": {
       "packages": [],
       "status": "readme-verified",
