@@ -9959,20 +9959,6 @@
       "verified_date": "2026-10-20",
       "verified_via": "README@main"
     },
-    "hellosky983/dsh-mc-agent": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/hellosky983/dsh-mc-agent#98d8a791948f2f0e88ea08cfa5add91a3f9fa6f3",
-          "source": "github:hellosky983/dsh-mc-agent#98d8a791948f2f0e88ea08cfa5add91a3f9fa6f3",
-          "command": "dsh plugin --profile web add \"github:hellosky983/dsh-mc-agent#98d8a791948f2f0e88ea08cfa5add91a3f9fa6f3\""
-        }
-      ],
-      "status": "repo-fallback",
-      "verified_date": "2026-10-18",
-      "verified_via": "manifest@98d8a791948f",
-      "note": "README 未提供可用的固定发行版本或 npm 来源；按已核验的提交固定到 Git 来源，安装命令由标准语法构造。"
-    },
     "pbwheel/dsh-workbuddy-expert": {
       "packages": [
         {
