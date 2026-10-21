@@ -12,15 +12,11 @@
 
 **Required version: DSH V0.2.1-rc.2 or later.** This requirement is for third-party subscriptions in the official Discover tab; individual plugins still have their own host compatibility requirements.
 
-Browse first in the [DSH Plugin Directory](https://bruc3van.com/dsh-plugins/). When configuring DSH, use the **JSON subscription URL** below, not the directory webpage URL.
-
 **Subscription URL: [https://bruc3van.com/dsh-plugins/index.json](https://bruc3van.com/dsh-plugins/index.json)**
 
 ```text
 https://bruc3van.com/dsh-plugins/index.json
 ```
-
-The previous URL, `https://bruc3van.com/markets/dsh/index.json`, remains supported. Existing subscriptions need no changes; both URLs provide the same Bruce's Plugin Picks feed, so add only one.
 
 1. **Check the version:** upgrade DSH to **V0.2.1-rc.2 or later**.
 2. **Enable custom markets:** open **Plugins** in the left sidebar, click **More** beside **Experimental plugins**, and switch on **Custom plugin markets**. The Plugins page then shows the **Installed / Discover** tabs.

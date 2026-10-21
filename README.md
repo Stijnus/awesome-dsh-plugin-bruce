@@ -12,15 +12,11 @@
 
 **适用版本：DSH V0.2.1-rc.2 及以上。** 这里的版本要求针对官方「发现」页的第三方订阅功能；各插件仍需满足详情中声明的宿主版本要求。
 
-先在网页里找插件：[DSH 插件导航](https://bruc3van.com/dsh-plugins/)。在 DSH 中配置时，请使用下面的 **JSON 订阅地址**，不要填写导航网页地址。
-
 **订阅链接：[https://bruc3van.com/dsh-plugins/index.json](https://bruc3van.com/dsh-plugins/index.json)**
 
 ```text
 https://bruc3van.com/dsh-plugins/index.json
 ```
-
-旧地址 `https://bruc3van.com/markets/dsh/index.json` 继续兼容，已有订阅无需更换；新旧地址提供同一份「Bruce 的精选插件」，请勿同时添加。
 
 1. **确认版本**：将 DSH 升级到 **V0.2.1-rc.2 或更高版本**。
 2. **开启自定义市场**：打开左侧 **插件**，点击 **实验性插件** 旁的 **更多**，找到 **自定义插件市场** 并开启。启用后，插件页会显示 **已安装 / 发现** 两个标签页。
