@@ -28,7 +28,7 @@ If Discover is missing, check that you are running DSH V0.2.1-rc.2 or later and 
 
 Subscribing in the official Discover tab **does not require `safer-dsh-market`**. Install that plugin separately for its standalone interface, multiple-target installation, and optional post-install AI review. Custom plugin markets and the plugin's own Enable Safe Market switch are separate controls.
 
-[awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) generates the index automatically; `bruc3van.com` serves JSON through Cloudflare without redirects. The index verifies npm metadata and Git bundles pinned to full commits, including bundle declarations, timestamps, and explicit host compatibility ranges. This is a subset of the repository catalog, and inclusion is not a security audit or proof of runtime compatibility.
+The index verifies npm metadata and Git bundles pinned to full commits, including bundle declarations, timestamps, and explicit host compatibility ranges. This is a subset of the repository catalog, and inclusion is not a security audit or proof of runtime compatibility.
 
 [DSH Plugin Directory and subscription guide](https://bruc3van.com/dsh-plugins/#subscribe) · [Index generation and exclusions report](https://bruc3van.com/markets/dsh/audit.json) · [Latest market plugin](https://www.npmjs.com/package/safer-dsh-market)
 

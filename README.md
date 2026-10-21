@@ -28,7 +28,7 @@ https://bruc3van.com/dsh-plugins/index.json
 
 仅订阅官方「发现」页**无需安装 `safer-dsh-market`**；如需独立市场界面、多选安装和安装后 AI 审查，可另行安装市场插件。开启「自定义插件市场」与市场插件自己的「启用安全市场」开关是两个不同入口。
 
-索引由 [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) 自动生成，通过 Cloudflare 上的 `bruc3van.com` 提供无重定向 JSON。收录经过核实的 npm 目标及固定完整提交的 Git 组合包，核实 bundle 声明、时间及官方宿主兼容范围规则，因此不是完整仓库目录；收录不代表安全审查或实机兼容保证。订阅先排除未审批、归档、禁用、黑名单及无效安装来源，再将通过核验的插件按仓库 Star 数降序选取前 600 个；官方发现页支持中英文分类、npm/Git 标签、关键词搜索及 Star/仓库更新时间排序。
+收录经过核实的 npm 目标及固定完整提交的 Git 组合包，核实 bundle 声明、时间及官方宿主兼容范围规则，因此不是完整仓库目录；收录不代表安全审查或实机兼容保证。订阅先排除未审批、归档、禁用、黑名单及无效安装来源，再将通过核验的插件按仓库 Star 数降序选取前 600 个；官方发现页支持中英文分类、npm/Git 标签、关键词搜索及 Star/仓库更新时间排序。
 
 [DSH 插件导航与订阅指南](https://bruc3van.com/dsh-plugins/#subscribe) · [查看索引生成与排除报告](https://bruc3van.com/markets/dsh/audit.json) · [最新版市场插件](https://www.npmjs.com/package/safer-dsh-market)
 
