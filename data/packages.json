@@ -1929,19 +1929,6 @@
       "verified_date": "2026-10-20",
       "verified_via": "README@master"
     },
-    "corrinehu/dsh-workbuddy-connect": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-workbuddy-connect@0.7.9",
-          "source": "npm:dsh-workbuddy-connect@0.7.9",
-          "command": "dsh plugin --profile web add dsh-workbuddy-connect@0.7.9"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-20",
-      "verified_via": "README@main"
-    },
     "crazyshout/dsh-ssh-remote": {
       "packages": [
         {
@@ -1949,19 +1936,6 @@
           "install": "https://github.com/CrazyShout/dsh-ssh-remote#v0.13.0",
           "source": "github:CrazyShout/dsh-ssh-remote#v0.13.0",
           "command": "dsh plugin --profile web add 'github:CrazyShout/dsh-ssh-remote#v0.13.0'"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-20",
-      "verified_via": "README@main"
-    },
-    "crosery/dsh-viewer": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/crosery/dsh-viewer",
-          "source": "github:crosery/dsh-viewer",
-          "command": "dsh plugin --profile web add github:crosery/dsh-viewer"
         }
       ],
       "status": "readme-verified",
@@ -10552,20 +10526,6 @@
           "source": "npm:dsh-timeline@0.1.5",
           "install": "dsh-timeline@0.1.5",
           "command": "dsh plugin --profile web add \"dsh-timeline@0.1.5\""
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-22",
-      "verified_via": "README + npm registry",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
-    },
-    "fishzjp/qa-skills": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-qa-skills@0.6.0",
-          "install": "dsh-qa-skills@0.6.0",
-          "command": "dsh plugin --profile web add \"dsh-qa-skills@0.6.0\""
         }
       ],
       "status": "readme-verified",
