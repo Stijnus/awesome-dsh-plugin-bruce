@@ -16,7 +16,7 @@
 // install: every featured repo must have a packages.json mapping, or the
 // build aborts. Picks inside the published feed resolve through their feed
 // entry; a pick the daily deal left out (bruc3van/bruce-md2word — too few
-// stars for the 600-entry round-robin) rides along with its packages block
+// stars for the 1000-entry round-robin) rides along with its packages block
 // inline, so consumers stay install-ready from the featured section alone.
 //
 // The file is a pure projection of already-validated sources: the
@@ -40,7 +40,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
 export const V2_SCHEMA_VERSION = 2;
 export const V1_SCHEMA_VERSION = 1;
-export const MAX_FILE_BYTES = 1024 * 1024; // v2 is a superset of v1's 500 KB feed — generous headroom for the mapping.
+export const MAX_FILE_BYTES = 1024 * 1024; // v2 is a superset of v1; keep headroom for the joined mapping.
 export const FEATURED_SCHEMA_VERSION = 1;
 export const MAX_FEATURED_ENTRIES = 50; // the curated list is hand-picked and stays small; double digits of picks, not hundreds.
 

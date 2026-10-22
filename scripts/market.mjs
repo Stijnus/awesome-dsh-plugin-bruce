@@ -30,8 +30,8 @@ import { escapeCell } from './markdown.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
 export const SCHEMA_VERSION = 1;
-export const MAX_ENTRIES = 600;
-export const MAX_FILE_BYTES = 500 * 1024;
+export const MAX_ENTRIES = 1000;
+export const MAX_FILE_BYTES = 1024 * 1024;
 export const MARKDOWN_OUTPUT = 'MARKET.md';
 export const BREAKER_RATIO = 0.6;
 export const STALE_SNAPSHOT_MS = 26 * 60 * 60 * 1000;
@@ -261,12 +261,12 @@ export function buildMarket({ snapshot, curated, approved, previous = null, now 
     entries: list,
   });
 
-  // The artifact cap (§2, ≤500 KB) wins over the deal cap (600): when the full
-  // deal does not fit, publish the largest prefix of it that does. A prefix
-  // keeps every structural property the consumer relies on — the §5 star-order
-  // invariant and the category balance — and the consumer's default truncation
-  // (marketSize 200) is untouched. 600 is the deal's upper bound, and the
-  // published entry count may legally be anywhere in 1–600. The budget is
+  // The artifact cap wins over the deal cap (1000): when the full deal does
+  // not fit, publish the largest prefix of it that does. A prefix keeps every
+  // structural property the consumer relies on — the §5 star-order invariant
+  // and the category balance — and the consumer's default truncation
+  // (marketSize 1000) is untouched. 1000 is the deal's upper bound, and the
+  // published entry count may legally be anywhere in 1–1000. The budget is
   // injectable so the trim path stays testable at a smaller size.
   const fits = (list) => Buffer.byteLength(`${JSON.stringify(envelopeWith(list))}\n`, 'utf8') <= maxBytes;
   let entries = dealt;

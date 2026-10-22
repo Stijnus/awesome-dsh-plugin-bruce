@@ -359,9 +359,9 @@ test('generated_at never moves backwards, even with clock skew', () => {
 });
 
 test('the byte cap trims the deal to its largest fitting prefix', () => {
-  // Max-length descriptions push a full 600-row deal past a tight injected
+  // Max-length descriptions push a full 1000-row deal past a tight injected
   // budget, so the trim path is exercised without depending on real data.
-  const repos = Array.from({ length: 600 }, (_, i) =>
+  const repos = Array.from({ length: 1000 }, (_, i) =>
     repo({ id: i + 1, full_name: `o/r${i}`, name: `r${i}`, description: 'x'.repeat(300), stargazers_count: i }),
   );
   const budget = 40 * 1024;
@@ -374,7 +374,7 @@ test('the byte cap trims the deal to its largest fitting prefix', () => {
     maxBytes: budget,
   });
   assert.equal(result.outcome, 'written');
-  assert.ok(result.envelope.entries.length >= 1 && result.envelope.entries.length < 600);
+  assert.ok(result.envelope.entries.length >= 1 && result.envelope.entries.length < 1000);
   assert.ok(
     Buffer.byteLength(`${JSON.stringify(result.envelope)}\n`, 'utf8') <= budget,
     'published envelope must fit the injected byte budget',
@@ -384,9 +384,9 @@ test('the byte cap trims the deal to its largest fitting prefix', () => {
   assert.deepEqual(result.envelope.entries, fullDeal.slice(0, result.envelope.entries.length));
 });
 
-test('a full 600-row deal fits the default 500 KB cap', () => {
+test('a full 1000-row deal fits the default 1 MB cap', () => {
   // Worst-case text: every entry at the maximum description length.
-  const repos = Array.from({ length: 600 }, (_, i) =>
+  const repos = Array.from({ length: 1000 }, (_, i) =>
     repo({ id: i + 1, full_name: `o/r${i}`, name: `r${i}`, description: 'x'.repeat(300), stargazers_count: i }),
   );
   const result = buildMarket({
@@ -397,7 +397,7 @@ test('a full 600-row deal fits the default 500 KB cap', () => {
     now: new Date('2026-08-16T01:30:00Z'),
   });
   assert.equal(result.outcome, 'written');
-  assert.equal(result.envelope.entries.length, 600);
+  assert.equal(result.envelope.entries.length, 1000);
   assert.ok(
     Buffer.byteLength(`${JSON.stringify(result.envelope)}\n`, 'utf8') <= MAX_FILE_BYTES,
     'published envelope must fit the default byte cap',
