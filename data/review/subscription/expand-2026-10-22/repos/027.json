@@ -1,0 +1,212 @@
+{
+  "full_name": "Sev7eEn7/dsh-sieve",
+  "originalPosition": 27,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 27,
+  "batch": 1,
+  "stargazers_count": 110,
+  "startedAt": "2026-10-22T05:13:43.458Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8b580a09491fafdfdbb3afd26c892cc5e06e2b828f66ab28abd343882c7fc1cf",
+      "url": "https://github.com/Sev7eEn7/dsh-sieve/blob/5b437749c3ef6617bc16008527cbb9e93ea1c4ec/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sieve@0.2.0",
+          "command": "dsh plugin --profile web add dsh-sieve@0.2.0 dsh-sieve-web@0.2.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-sieve@0.2.0",
+          "command": "dsh plugin --profile headless add dsh-sieve@0.2.0",
+          "profile": "headless"
+        },
+        {
+          "install": "https://github.com/Sev7eEn7/sieve/releases/download/v0.2.0/dsh-sieve-0.2.0.tgz",
+          "command": "dsh plugin --profile web add https://github.com/Sev7eEn7/sieve/releases/download/v0.2.0/dsh-sieve-0.2.0.tgz https://github.com/Sev7eEn7/sieve/releases/download/v0.2.0/dsh-sieve-web-0.2.0.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "26f88eeae26c731f28cab1373601201c19dd248bb5afc8da29d8052c8798ec11",
+      "url": "https://github.com/Sev7eEn7/dsh-sieve/blob/5b437749c3ef6617bc16008527cbb9e93ea1c4ec/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sieve@0.2.0",
+          "command": "dsh plugin --profile web add dsh-sieve@0.2.0 dsh-sieve-web@0.2.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-sieve@0.2.0",
+          "command": "dsh plugin --profile headless add dsh-sieve@0.2.0",
+          "profile": "headless"
+        },
+        {
+          "install": "https://github.com/Sev7eEn7/sieve/releases/download/v0.2.0/dsh-sieve-0.2.0.tgz",
+          "command": "dsh plugin --profile web add https://github.com/Sev7eEn7/sieve/releases/download/v0.2.0/dsh-sieve-0.2.0.tgz https://github.com/Sev7eEn7/sieve/releases/download/v0.2.0/dsh-sieve-web-0.2.0.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sieve",
+      "version": "0.2.0",
+      "path": "packages/dsh-sieve",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Sev7eEn7/dsh-sieve",
+        "commit": "5b437749c3ef6617bc16008527cbb9e93ea1c4ec",
+        "path": "packages/dsh-sieve"
+      },
+      "manifestSha256": "c5643adab1380c932838ced6802933a88be1c43c341c6722903025249003eb11",
+      "manifestUrl": "https://github.com/Sev7eEn7/dsh-sieve/blob/5b437749c3ef6617bc16008527cbb9e93ea1c4ec/packages/dsh-sieve/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-sieve",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791616220,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Sev7eEn7/dsh-sieve",
+              "commit": "5b437749c3ef6617bc16008527cbb9e93ea1c4ec",
+              "path": "packages/dsh-sieve"
+            },
+            "engines": {
+              "dsh": "0.2.1-alpha.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sieve-web",
+      "version": "0.2.0",
+      "path": "packages/dsh-sieve-web",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Sev7eEn7/dsh-sieve",
+        "commit": "5b437749c3ef6617bc16008527cbb9e93ea1c4ec",
+        "path": "packages/dsh-sieve-web"
+      },
+      "manifestSha256": "cfcbbe084963c27c2034aa5ec2be51c7d6b2862f77f12322123c1e1371a1d6aa",
+      "manifestUrl": "https://github.com/Sev7eEn7/dsh-sieve/blob/5b437749c3ef6617bc16008527cbb9e93ea1c4ec/packages/dsh-sieve-web/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-sieve-web",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791616220,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Sev7eEn7/dsh-sieve",
+              "commit": "5b437749c3ef6617bc16008527cbb9e93ea1c4ec",
+              "path": "packages/dsh-sieve-web"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-sieve@0.2.0",
+      "origin": "npm",
+      "name": "dsh-sieve",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-sieve",
+        "title": "dsh-sieve",
+        "description": "Context admission and disclosure layer for DeepSeek Harness: tool output admission, history forgetting, skill catalog disclosure",
+        "homepage": "https://github.com/Sev7eEn7/sieve#readme",
+        "repository": {
+          "url": "https://github.com/Sev7eEn7/sieve",
+          "directory": "packages/dsh-sieve"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "context-management",
+            "llm",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791392206,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.1-alpha.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b10808b723ba00f565182b7d80e8d457710f0d836f6a66b74215dfa2148ad9a0",
+      "evidence": [
+        {
+          "name": "dsh-sieve",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-sieve/-/dsh-sieve-0.2.0.tgz",
+          "integrity": "sha512-qQ1RqDgmY3C2rhHiYYsCuO+RFe08r8aYMhNJQb6FIOyifc6HWmJnxJuLy6hJX6xtqyDRdtYNxjlgxwX1WZwxag=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "https://github.com/Sev7eEn7/sieve/releases/download/v0.2.0/dsh-sieve-0.2.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sieve@0.2.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Sev7eEn7/sieve/releases/download/v0.2.0/dsh-sieve-0.2.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Sev7eEn7/dsh-sieve",
+    "commit": "5b437749c3ef6617bc16008527cbb9e93ea1c4ec",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:02.238Z"
+}

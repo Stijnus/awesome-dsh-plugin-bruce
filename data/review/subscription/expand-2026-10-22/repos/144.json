@@ -1,0 +1,174 @@
+{
+  "full_name": "ouli-1242/dsh-plugin-tool-management",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-10-22T05:18:41.539Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fe8f6bfa053b75ba1d33b05fe643c0d298d23c31453c3943c7e9bdb2a0ba2a36",
+      "url": "https://github.com/ouli-1242/dsh-plugin-tool-management/blob/8f950c5e8e0fd822ad547349b5f918b3e54709b3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-tool-management@latest",
+          "command": "dsh plugin --profile web add dsh-plugin-tool-management@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-tool-management@latest",
+          "command": "dsh plugin --profile desktop add dsh-plugin-tool-management@latest",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "614d9ba210b4f296c5ba0895272e5e565b64582b603e3a4b03693c76c7f888a1",
+      "url": "https://github.com/ouli-1242/dsh-plugin-tool-management/blob/8f950c5e8e0fd822ad547349b5f918b3e54709b3/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-tool-management@latest",
+          "command": "dsh plugin --profile web add dsh-plugin-tool-management@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-tool-management@latest",
+          "command": "dsh plugin --profile desktop add dsh-plugin-tool-management@latest",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-tool-management",
+      "version": "0.21.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ouli-1242/dsh-plugin-tool-management",
+        "commit": "8f950c5e8e0fd822ad547349b5f918b3e54709b3"
+      },
+      "manifestSha256": "4f886d6c9451f23651204f50a7f398f26388cf0f7d16d7fd23bcf8806505887a",
+      "manifestUrl": "https://github.com/ouli-1242/dsh-plugin-tool-management/blob/8f950c5e8e0fd822ad547349b5f918b3e54709b3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.2.0-rc.1 || >=0.2.0-rc.1 <0.2.1-rc.2 || >=0.2.1-rc.2 <0.2.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-tool-management",
+        "versions": [
+          {
+            "version": "0.21.1",
+            "publishTimestamp": 1792314996,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ouli-1242/dsh-plugin-tool-management",
+              "commit": "8f950c5e8e0fd822ad547349b5f918b3e54709b3"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0-rc.1 || >=0.2.0-rc.1 <0.2.1-rc.2 || >=0.2.1-rc.2 <0.2.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-tool-management@latest",
+      "origin": "npm",
+      "name": "dsh-plugin-tool-management",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-tool-management",
+        "title": {
+          "en": "Tools Management",
+          "zh": "工具管理"
+        },
+        "description": {
+          "en": "One settings panel for MCP, skills, memories, subagents, prompts and archived sessions; compose scenes to switch the whole environment in one move, and the agent can drive this plugin for you.",
+          "zh": "一个设置面板，统一管理 MCP、技能、记忆、子智能体、提示词和归档会话；可自定义搭配场景，一个场景即可切换整个环境；Agent也能帮你操作这个插件。"
+        },
+        "repository": {
+          "url": "https://github.com/ouli-1242/dsh-plugin-tool-management"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "skill",
+            "skills",
+            "mcp",
+            "mcp-server",
+            "plugin",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.21.1",
+            "publishTimestamp": 1792315301,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0-rc.1 || >=0.2.0-rc.1 <0.2.1-rc.2 || >=0.2.1-rc.2 <0.2.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "85c2e5795c5bedd90e30b6dc54adbbf8c8c0e1995b4b55f72733a96afd5a6668",
+      "evidence": [
+        {
+          "name": "dsh-plugin-tool-management",
+          "version": "0.21.1",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-tool-management/-/dsh-plugin-tool-management-0.21.1.tgz",
+          "integrity": "sha512-7gtutS7gCrNUFY3ll5DvFy5tsGWfWvZUPkKUWLIzHoESBierTh5KxhvIbDp5j11+QSfwAV9m2G3f0Zt+FuQqng=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-plugin-tool-management",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "719b8658ece13721fd67d873e1bd391f5fac8c57adb5a1d459517b631dea4bed",
+          "outputSha256": "f864a628d9fb8edd528d306f66b902c0a99362d0b92901c344e63f68b7bb8ea8",
+          "inputBytes": 77381,
+          "outputBytes": 4978
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-tool-management@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ouli-1242/dsh-plugin-tool-management",
+    "commit": "8f950c5e8e0fd822ad547349b5f918b3e54709b3",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:58.690Z"
+}

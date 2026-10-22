@@ -1,0 +1,142 @@
+{
+  "full_name": "shuxidemosheng/dsh-tool-todo-plus",
+  "originalPosition": 31,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 31,
+  "batch": 1,
+  "stargazers_count": 103,
+  "startedAt": "2026-10-22T05:13:48.250Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d41a48bffc5f9ffa760de1f01f83a67fa70e09a4b809fbb459d503142bc1405e",
+      "url": "https://github.com/shuxidemosheng/dsh-tool-todo-plus/blob/5bae1006b83afd9607158ab9488bec9f394365cd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tool-todo-plus",
+          "command": "dsh plugin --profile <你的profile名> add dsh-tool-todo-plus",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/shuxidemosheng/dsh-tool-todo-plus.git",
+          "command": "dsh plugin --profile <你的profile名> add https://github.com/shuxidemosheng/dsh-tool-todo-plus.git",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tool-todo-plus",
+      "version": "0.7.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shuxidemosheng/dsh-tool-todo-plus",
+        "commit": "5bae1006b83afd9607158ab9488bec9f394365cd"
+      },
+      "manifestSha256": "60fb671b4af52b813ec1ec71dd465593f3d9cc94dff9d9d78afe0ad885e9645a",
+      "manifestUrl": "https://github.com/shuxidemosheng/dsh-tool-todo-plus/blob/5bae1006b83afd9607158ab9488bec9f394365cd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-tool-todo-plus",
+        "versions": [
+          {
+            "version": "0.7.4",
+            "publishTimestamp": 1792312557,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/shuxidemosheng/dsh-tool-todo-plus",
+              "commit": "5bae1006b83afd9607158ab9488bec9f394365cd"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tool-todo-plus",
+      "origin": "npm",
+      "name": "dsh-tool-todo-plus",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tool-todo-plus",
+        "title": "dsh-tool-todo-plus",
+        "description": "todo_write tool with priority tags, markdown checklist rendering and a floating task panel — drop-in enhanced fork of @deepseek-ai/dsh-tool-todo",
+        "homepage": "https://github.com/shuxidemosheng/dsh-tool-todo-plus#readme",
+        "repository": {
+          "url": "https://github.com/shuxidemosheng/dsh-tool-todo-plus"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "todo",
+            "agent",
+            "task-list"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.4",
+            "publishTimestamp": 1792314295,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0ac323ceb65b9f2f07ecfd11e0ee0b00a189262bda8334198b572a802b2d138f",
+      "evidence": [
+        {
+          "name": "dsh-tool-todo-plus",
+          "version": "0.7.4",
+          "tarball": "https://registry.npmjs.org/dsh-tool-todo-plus/-/dsh-tool-todo-plus-0.7.4.tgz",
+          "integrity": "sha512-UfgV6LVP3WWHk05lChQc06OnQQ5D8Jeij9CwHlAG+GCQD2A7q81D9jLK0oUTa/nHxdc6o2r4fAY/PKyUgzaLdA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tool-todo-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/shuxidemosheng/dsh-tool-todo-plus.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shuxidemosheng/dsh-tool-todo-plus",
+    "commit": "5bae1006b83afd9607158ab9488bec9f394365cd",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:58.275Z"
+}

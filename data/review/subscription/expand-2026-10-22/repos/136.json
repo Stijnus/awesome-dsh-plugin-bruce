@@ -1,0 +1,66 @@
+{
+  "full_name": "yanfei0725/dsh-qwen-paint",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-10-22T05:18:25.265Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2e25f37a61c44d552cefe55279366cf851dbea7a5684dcae0e3f1874d6877c06",
+      "url": "https://github.com/yanfei0725/dsh-qwen-paint/blob/711bb09e33266fef865b9f3c35966f9abc9c6732/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qwen-paint",
+      "version": "0.17.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanfei0725/dsh-qwen-paint",
+        "commit": "711bb09e33266fef865b9f3c35966f9abc9c6732"
+      },
+      "manifestSha256": "59137198d293185ac788738b1acd996049912440bf1ea46299eee2ff20a6d012",
+      "manifestUrl": "https://github.com/yanfei0725/dsh-qwen-paint/blob/711bb09e33266fef865b9f3c35966f9abc9c6732/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-qwen-paint",
+        "versions": [
+          {
+            "version": "0.17.13",
+            "publishTimestamp": 1792504876,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yanfei0725/dsh-qwen-paint",
+              "commit": "711bb09e33266fef865b9f3c35966f9abc9c6732"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yanfei0725/dsh-qwen-paint",
+    "commit": "711bb09e33266fef865b9f3c35966f9abc9c6732",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:32.870Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "whiteguo233/dsh-openbiliclaw",
+  "originalPosition": 46,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 46,
+  "batch": 1,
+  "stargazers_count": 65,
+  "startedAt": "2026-10-22T05:14:24.725Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6c86c2066da6542ce41b40ec2aefdce1f36ec322707b41fcb315b7a858cea043",
+      "url": "https://github.com/whiteguo233/dsh-openbiliclaw/blob/41ba58292f9e1e4e70f583bacf602071ea765871/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@openbiliclaw/dsh-plugin",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/whiteguo233/dsh-openbiliclaw",
+        "commit": "41ba58292f9e1e4e70f583bacf602071ea765871"
+      },
+      "manifestSha256": "e7187595ed73afac85d4ab93ae8805173a1a9e73f39ad41dfa9186d9818b4ddf",
+      "manifestUrl": "https://github.com/whiteguo233/dsh-openbiliclaw/blob/41ba58292f9e1e4e70f583bacf602071ea765871/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@openbiliclaw/dsh-plugin",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1789097916,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/whiteguo233/dsh-openbiliclaw",
+              "commit": "41ba58292f9e1e4e70f583bacf602071ea765871"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/whiteguo233/dsh-openbiliclaw",
+    "commit": "41ba58292f9e1e4e70f583bacf602071ea765871",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:31.312Z"
+}

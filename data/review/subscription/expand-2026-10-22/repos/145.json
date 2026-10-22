@@ -1,0 +1,125 @@
+{
+  "full_name": "2huy4n/ProjectKaren",
+  "originalPosition": 145,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-10-22T05:18:43.925Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e7d01b97f4fa9288e3790c01424c41fc86c95a98acdc513f1a97d4b4a2e1ae2a",
+      "url": "https://github.com/2huy4n/ProjectKaren/blob/f9961151c32b0a5fd79b76b25660208a43f854cb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/2huy4n/ProjectKaren#v0.2.4",
+          "command": "dsh plugin --profile <profile> add \"git+https://github.com/2huy4n/ProjectKaren#v0.2.4\"",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "project-karen",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/2huy4n/ProjectKaren",
+        "commit": "f9961151c32b0a5fd79b76b25660208a43f854cb"
+      },
+      "manifestSha256": "cc353e10c5bb8039b13e0b6bb14ef7a03db3ee67233d76059755d44046c2b209",
+      "manifestUrl": "https://github.com/2huy4n/ProjectKaren/blob/f9961151c32b0a5fd79b76b25660208a43f854cb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "project-karen",
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1791366624,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/2huy4n/ProjectKaren",
+              "commit": "f9961151c32b0a5fd79b76b25660208a43f854cb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "git+https://github.com/2huy4n/ProjectKaren#v0.2.4",
+      "origin": "git_target",
+      "name": "project-karen",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "project-karen",
+        "title": "project-karen",
+        "description": "ProjectKaren: a DeepSeek Harness plugin that gives a roleplay character a clock - sleep/wake, greetings, idle actions, proactive small talk, and optional outing photos.",
+        "homepage": "https://github.com/2huy4n/ProjectKaren#readme",
+        "repository": {
+          "url": "https://github.com/2huy4n/ProjectKaren"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "cordis",
+            "roleplay",
+            "life-simulation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1791366624,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/2huy4n/ProjectKaren",
+              "commit": "f9961151c32b0a5fd79b76b25660208a43f854cb"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "f9961151c32b0a5fd79b76b25660208a43f854cb",
+          "name": "project-karen",
+          "version": "0.2.4",
+          "url": "https://github.com/2huy4n/ProjectKaren",
+          "manifestSha256": "cc353e10c5bb8039b13e0b6bb14ef7a03db3ee67233d76059755d44046c2b209",
+          "publishTimestamp": 1791366624
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/2huy4n/ProjectKaren#v0.2.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/2huy4n/ProjectKaren",
+    "commit": "f9961151c32b0a5fd79b76b25660208a43f854cb",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:57.480Z"
+}

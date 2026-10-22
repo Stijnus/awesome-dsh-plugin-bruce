@@ -1,0 +1,195 @@
+{
+  "full_name": "Imzl-zl/dsh-toolbox-ui",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "stargazers_count": 33,
+  "startedAt": "2026-10-22T05:15:22.745Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e54d400b1d1bfe79457a7d97d26630257fba470097c39a742953d61cf93b67c5",
+      "url": "https://github.com/Imzl-zl/dsh-toolbox-ui/blob/c5c12aaeb1d1668ba2fc5a10324f73625665b9d3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Imzl-zl/dsh-toolbox-ui#v1.8.2",
+          "command": "dsh plugin --profile web add github:Imzl-zl/dsh-toolbox-ui#v1.8.2",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-toolbox-ui",
+          "command": "dsh plugin --profile web add dsh-toolbox-ui",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-toolbox-ui",
+      "version": "1.8.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Imzl-zl/dsh-toolbox-ui",
+        "commit": "c5c12aaeb1d1668ba2fc5a10324f73625665b9d3"
+      },
+      "manifestSha256": "e213d111137c0998dd446d661d11c0a5890ea46ba8811988ab2975531e064cab",
+      "manifestUrl": "https://github.com/Imzl-zl/dsh-toolbox-ui/blob/c5c12aaeb1d1668ba2fc5a10324f73625665b9d3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-toolbox-ui",
+        "versions": [
+          {
+            "version": "1.8.2",
+            "publishTimestamp": 1792497817,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Imzl-zl/dsh-toolbox-ui",
+              "commit": "c5c12aaeb1d1668ba2fc5a10324f73625665b9d3"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Imzl-zl/dsh-toolbox-ui#v1.8.2",
+      "origin": "git_target",
+      "name": "dsh-toolbox-ui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-toolbox-ui",
+        "title": "dsh-toolbox-ui",
+        "description": "Responsive MCP management UI and skills manager for DeepSeek Harness Web — floating panel, JSON import, profile-backed Host Remote management, and a skill market with a hard license gate.",
+        "homepage": "https://github.com/Imzl-zl/dsh-toolbox-ui#readme",
+        "repository": {
+          "url": "https://github.com/Imzl-zl/dsh-toolbox-ui"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "mcp",
+            "skills",
+            "skill-manager",
+            "agent-skills"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.8.2",
+            "publishTimestamp": 1792497817,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Imzl-zl/dsh-toolbox-ui",
+              "commit": "c5c12aaeb1d1668ba2fc5a10324f73625665b9d3"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "c5c12aaeb1d1668ba2fc5a10324f73625665b9d3",
+          "name": "dsh-toolbox-ui",
+          "version": "1.8.2",
+          "url": "https://github.com/Imzl-zl/dsh-toolbox-ui",
+          "manifestSha256": "e213d111137c0998dd446d661d11c0a5890ea46ba8811988ab2975531e064cab",
+          "publishTimestamp": 1792497817
+        }
+      ]
+    },
+    {
+      "target": "dsh-toolbox-ui",
+      "origin": "npm",
+      "name": "dsh-toolbox-ui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-toolbox-ui",
+        "title": "dsh-toolbox-ui",
+        "description": "Responsive MCP management UI and skills manager for DeepSeek Harness Web — floating panel, JSON import, profile-backed Host Remote management, and a skill market with a hard license gate.",
+        "homepage": "https://github.com/Imzl-zl/dsh-toolbox-ui#readme",
+        "repository": {
+          "url": "https://github.com/Imzl-zl/dsh-toolbox-ui"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "mcp",
+            "skills",
+            "skill-manager",
+            "agent-skills"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.8.2",
+            "publishTimestamp": 1792497985,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7c1ece555d80749b153d3ef5b4a96b0f34d159e6e594679f42a0d8d68e524428",
+      "evidence": [
+        {
+          "name": "dsh-toolbox-ui",
+          "version": "1.8.2",
+          "tarball": "https://registry.npmjs.org/dsh-toolbox-ui/-/dsh-toolbox-ui-1.8.2.tgz",
+          "integrity": "sha512-j8Ebs5T6JuWnWiZROl8oZg09tyc7UjLrTvRNZjmwBs/S5VWWJb54swxiL1PdvH2aTjU58hxyIEjYk0lxn/1oPQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Imzl-zl/dsh-toolbox-ui#v1.8.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-toolbox-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Imzl-zl/dsh-toolbox-ui",
+    "commit": "c5c12aaeb1d1668ba2fc5a10324f73625665b9d3",
+    "releaseTags": 36,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:42.083Z"
+}

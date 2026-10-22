@@ -1,0 +1,66 @@
+{
+  "full_name": "zoe1nan/dsh-cockpit",
+  "originalPosition": 155,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 155,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-10-22T05:18:58.692Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f65974599a1b96b549fbf0de5dc6a2ef28e0a149ab1cb0f20806c864f15f6f31",
+      "url": "https://github.com/zoe1nan/dsh-cockpit/blob/b353ca50fe88f70fbde1fd3a8e9a9aa2bf96c934/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cockpit",
+      "version": "1.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zoe1nan/dsh-cockpit",
+        "commit": "b353ca50fe88f70fbde1fd3a8e9a9aa2bf96c934"
+      },
+      "manifestSha256": "8c64e2dc4bf30db8be2cfd77bd6fcd1358d0f3005e92e8e4752826614e9f2ffd",
+      "manifestUrl": "https://github.com/zoe1nan/dsh-cockpit/blob/b353ca50fe88f70fbde1fd3a8e9a9aa2bf96c934/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cockpit",
+        "versions": [
+          {
+            "version": "1.2.2",
+            "publishTimestamp": 1792551675,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zoe1nan/dsh-cockpit",
+              "commit": "b353ca50fe88f70fbde1fd3a8e9a9aa2bf96c934"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zoe1nan/dsh-cockpit",
+    "commit": "b353ca50fe88f70fbde1fd3a8e9a9aa2bf96c934",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:19:08.620Z"
+}

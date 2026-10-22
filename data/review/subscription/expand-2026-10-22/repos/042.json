@@ -1,0 +1,66 @@
+{
+  "full_name": "Ebony-Vinyl/EAC-design-world",
+  "originalPosition": 42,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 42,
+  "batch": 1,
+  "stargazers_count": 70,
+  "startedAt": "2026-10-22T05:14:16.206Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8d17d0d6585006b2c85c01b6af6e29bcaad175a3b3957c144f63dd5118e38b6b",
+      "url": "https://github.com/Ebony-Vinyl/EAC-design-world/blob/370eb4fab632bf698f69a1328d1fcffccf2c3f99/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "eac-design-world",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ebony-Vinyl/EAC-design-world",
+        "commit": "370eb4fab632bf698f69a1328d1fcffccf2c3f99"
+      },
+      "manifestSha256": "dea3f203cd384904fd18533dc6f939a6b5bb247eb555a72d94f88d95e60927ef",
+      "manifestUrl": "https://github.com/Ebony-Vinyl/EAC-design-world/blob/370eb4fab632bf698f69a1328d1fcffccf2c3f99/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "eac-design-world",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1792306669,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ebony-Vinyl/EAC-design-world",
+              "commit": "370eb4fab632bf698f69a1328d1fcffccf2c3f99"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ebony-Vinyl/EAC-design-world",
+    "commit": "370eb4fab632bf698f69a1328d1fcffccf2c3f99",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:24.714Z"
+}

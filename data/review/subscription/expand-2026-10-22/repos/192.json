@@ -1,0 +1,149 @@
+{
+  "full_name": "UynajGI/dsh-ssh",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 13,
+  "startedAt": "2026-10-22T05:20:19.087Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f0fdd70b747385faaaa9b7acdb31fbdc0c7ee6743aec24a8129df73fe6f929d1",
+      "url": "https://github.com/UynajGI/dsh-ssh/blob/5b7b451477f61d9b5444d3a02b8773abaeb56ba9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ssh",
+          "command": "dsh plugin --profile web add dsh-ssh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "5d898d57b84d665d19148fb6c45bf52ca31c005482c82dfa7a7c6de461631f7b",
+      "url": "https://github.com/UynajGI/dsh-ssh/blob/5b7b451477f61d9b5444d3a02b8773abaeb56ba9/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ssh",
+          "command": "dsh plugin --profile web add dsh-ssh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ssh",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/UynajGI/dsh-ssh",
+        "commit": "5b7b451477f61d9b5444d3a02b8773abaeb56ba9"
+      },
+      "manifestSha256": "5d6cfdb91ad7fb9b14f2bd31388df73edadee618a60c173ef85a74c5270774b3",
+      "manifestUrl": "https://github.com/UynajGI/dsh-ssh/blob/5b7b451477f61d9b5444d3a02b8773abaeb56ba9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ssh",
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1792494235,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/UynajGI/dsh-ssh",
+              "commit": "5b7b451477f61d9b5444d3a02b8773abaeb56ba9"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ssh",
+      "origin": "npm",
+      "name": "dsh-ssh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ssh",
+        "title": "dsh-ssh",
+        "description": "SSH remote-execution plugin for DeepSeek Harness — ProxyJump chain, SFTP filesystem, subprocess and PTY over ssh2",
+        "author": "yuunagi_cn",
+        "homepage": "https://github.com/UynajGI/dsh-ssh",
+        "repository": {
+          "url": "https://github.com/UynajGI/dsh-ssh"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "ssh",
+            "remote-development",
+            "proxyjump",
+            "sftp",
+            "directory-picker",
+            "add-workspace"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1792494340,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "40c4a54d596d82590a000ad63a8d2a35eca2df7ea8fbf66f1858195e0bc3f75e",
+      "evidence": [
+        {
+          "name": "dsh-ssh",
+          "version": "0.4.2",
+          "tarball": "https://registry.npmjs.org/dsh-ssh/-/dsh-ssh-0.4.2.tgz",
+          "integrity": "sha512-PQYmIw5y1Z3dR0i7MZdpkfYGzkka045lkL89Q+NuHWGaBOC3v8RDoowgYO4knENufZ25UtUx33xIZTyrwwJnSw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ssh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/UynajGI/dsh-ssh",
+    "commit": "5b7b451477f61d9b5444d3a02b8773abaeb56ba9",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:20:29.593Z"
+}

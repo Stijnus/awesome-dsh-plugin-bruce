@@ -1,0 +1,69 @@
+{
+  "full_name": "pengpengyi92/dsh-quant",
+  "originalPosition": 56,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 56,
+  "batch": 1,
+  "stargazers_count": 53,
+  "startedAt": "2026-10-22T05:14:45.540Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "419e4b282d9a2be53b7d7a954b6ae60424218fe143a14e090f6c3a1fcefb3d5c",
+      "url": "https://github.com/pengpengyi92/dsh-quant/blob/b07a7881b03cefbc7cf95a2cae3d2b056bc695ca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-quant",
+      "version": "0.91.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/pengpengyi92/dsh-quant",
+        "commit": "b07a7881b03cefbc7cf95a2cae3d2b056bc695ca"
+      },
+      "manifestSha256": "916815cc5d8c072cd675ee787b49ee076926af8160d29aacd0899b23a02b865d",
+      "manifestUrl": "https://github.com/pengpengyi92/dsh-quant/blob/b07a7881b03cefbc7cf95a2cae3d2b056bc695ca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.5 || >=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-alpha.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-quant",
+        "versions": [
+          {
+            "version": "0.91.1",
+            "publishTimestamp": 1792324336,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/pengpengyi92/dsh-quant",
+              "commit": "b07a7881b03cefbc7cf95a2cae3d2b056bc695ca"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5 || >=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-alpha.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pengpengyi92/dsh-quant",
+    "commit": "b07a7881b03cefbc7cf95a2cae3d2b056bc695ca",
+    "releaseTags": 114,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:53.044Z"
+}

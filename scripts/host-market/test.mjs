@@ -128,6 +128,42 @@ test('generation deduplicates npm targets, processes Git and skips manual instru
     assert.equal(npmTarget(spec), null)
 })
 
+test('missing git repository is excluded without blocking publication', async () => {
+  const { classifyGitFailure } = await import('./generate.mjs')
+  const missing = classifyGitFailure(
+    new Error(
+      "Command failed: git ls-remote\nremote: Repository not found.\nfatal: repository 'https://github.com/crosery/dsh-viewer/' not found\n",
+    ),
+  )
+  assert.deepEqual(missing, {
+    permanent: true,
+    code: 'git_repository_not_found',
+  })
+  assert.deepEqual(
+    classifyGitFailure(Object.assign(new Error('指定 Git 引用不存在'), { code: 'git_ref_not_found' })),
+    { permanent: true, code: 'git_ref_not_found' },
+  )
+  assert.deepEqual(classifyGitFailure(new Error('ECONNRESET')), {
+    permanent: false,
+    code: 'git_fetch_failed',
+  })
+  assert.deepEqual(
+    classifyGitFailure(new Error('Command failed: git ls-tree\nfatal: not a tree object\n')),
+    { permanent: true, code: 'git_object_not_found' },
+  )
+  assert.deepEqual(
+    classifyGitFailure(
+      Object.assign(
+        new Error(
+          "EPERM, Permission denied: \\\\?\\C:\\Users\\Bruce\\AppData\\Local\\Temp\\plugin-market-git-abc123",
+        ),
+        { code: 'EPERM' },
+      ),
+    ),
+    { permanent: true, code: 'git_temp_cleanup_failed' },
+  )
+})
+
 test('publication preserves existing data on network failure, empty output or a collapsed candidate', async () => {
   const { assertPublishable } = await import('./policy.mjs')
   const index = (n) => ({ plugins: Array.from({ length: n }, () => ({})) })
@@ -263,8 +299,30 @@ test('selection caps only after verification and keeps the highest-star plugins'
   assert.equal(selection.plugins.length, MAX_PLUGINS)
   assert.equal(selection.droppedByLimit, 5)
   assert.equal(selection.cutoffStars, 5)
-  assert.equal(selection.plugins[0].name, 'plugin-604')
+  assert.equal(selection.plugins[0].name, `plugin-${String(MAX_PLUGINS + 4).padStart(3, '0')}`)
   assert.equal(selection.plugins.at(-1).name, 'plugin-005')
+})
+
+test('featured plugins stay in the selection even when they rank below the star cap', () => {
+  const plugins = Array.from({ length: MAX_PLUGINS + 5 }, (_, i) => ({
+    name: `plugin-${String(i).padStart(3, '0')}`,
+  }))
+  const ranks = new Map(
+    plugins.map((plugin, i) => [
+      plugin.name,
+      { stars: i, repo: `owner/${plugin.name}` },
+    ]),
+  )
+  const selection = selectTopPlugins(
+    plugins,
+    ranks,
+    MAX_PLUGINS,
+    new Set(['owner/plugin-000']),
+  )
+  assert.equal(selection.plugins.length, MAX_PLUGINS)
+  assert.equal(selection.plugins[0].name, `plugin-${String(MAX_PLUGINS + 4).padStart(3, '0')}`)
+  assert.equal(selection.plugins.at(-1).name, 'plugin-000')
+  assert.equal(selection.cutoffStars, 0)
 })
 
 

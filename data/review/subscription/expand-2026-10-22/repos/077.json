@@ -1,0 +1,122 @@
+{
+  "full_name": "LingyeSoul/DSH-SoulMojito",
+  "originalPosition": 77,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 77,
+  "batch": 1,
+  "stargazers_count": 33,
+  "startedAt": "2026-10-22T05:15:24.410Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "54e95f1219cf2ea55ee4829e4c0f59bb7782324c5217bd0271358b0a7ea0d272",
+      "url": "https://github.com/LingyeSoul/DSH-SoulMojito/blob/108a378cae6af65f11930fd65a007e271079fc20/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LingyeSoul/DSH-SoulMojito#path:/packages/plugin",
+          "command": "dsh plugin --profile desktop add github:LingyeSoul/DSH-SoulMojito#path:/packages/plugin",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "06ac159ee60729d4db4fdc922b51294b3691682ace569821978f1f9bf78e4003",
+      "url": "https://github.com/LingyeSoul/DSH-SoulMojito/blob/108a378cae6af65f11930fd65a007e271079fc20/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-soulmojito",
+      "version": "0.6.8",
+      "path": "packages/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LingyeSoul/DSH-SoulMojito",
+        "commit": "108a378cae6af65f11930fd65a007e271079fc20",
+        "path": "packages/plugin"
+      },
+      "manifestSha256": "ccee24dbb007045a24209cb034b9a917a68a0fae32056cf25ceac828ec9a69cd",
+      "manifestUrl": "https://github.com/LingyeSoul/DSH-SoulMojito/blob/108a378cae6af65f11930fd65a007e271079fc20/packages/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-soulmojito",
+        "versions": [
+          {
+            "version": "0.6.8",
+            "publishTimestamp": 1792635579,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LingyeSoul/DSH-SoulMojito",
+              "commit": "108a378cae6af65f11930fd65a007e271079fc20",
+              "path": "packages/plugin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/LingyeSoul/DSH-SoulMojito#path:/packages/plugin",
+      "origin": "git_target",
+      "name": "dsh-soulmojito",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-soulmojito",
+        "title": "dsh-soulmojito",
+        "description": "DSH plugin: SillyTavern-compatible roleplay workspace with Character Card V2/V3/PNG import, World Info lore engine, presets, swipes, chat editing and streaming LLM generation. Official bundle, install via dsh plugin --profile web add.",
+        "versions": [
+          {
+            "version": "0.6.8",
+            "publishTimestamp": 1792635579,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LingyeSoul/DSH-SoulMojito",
+              "commit": "108a378cae6af65f11930fd65a007e271079fc20",
+              "path": "packages/plugin"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "packages/plugin",
+          "commit": "108a378cae6af65f11930fd65a007e271079fc20",
+          "name": "dsh-soulmojito",
+          "version": "0.6.8",
+          "url": "https://github.com/LingyeSoul/DSH-SoulMojito",
+          "manifestSha256": "ccee24dbb007045a24209cb034b9a917a68a0fae32056cf25ceac828ec9a69cd",
+          "publishTimestamp": 1792635579
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LingyeSoul/DSH-SoulMojito#path:/packages/plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LingyeSoul/DSH-SoulMojito",
+    "commit": "108a378cae6af65f11930fd65a007e271079fc20",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:59.137Z"
+}

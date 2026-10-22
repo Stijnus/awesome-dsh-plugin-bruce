@@ -1,0 +1,140 @@
+{
+  "full_name": "shengsheng90/DSH-taskboard",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "stargazers_count": 338,
+  "startedAt": "2026-10-22T05:12:55.511Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a5bc8b7724bf384638f43e2de8b5f8b3bbc6519a8f2d7a468125fa67013641e8",
+      "url": "https://github.com/shengsheng90/DSH-taskboard/blob/0fa3f97ed7f2266e173d6643819921b9f3963aa8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@shengsheng/dsh-taskboard",
+          "command": "dsh plugin --profile web add -w @shengsheng/dsh-taskboard",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/shengsheng90/DSH-taskboard.git",
+          "command": "dsh plugin --profile web add -w git+https://github.com/shengsheng90/DSH-taskboard.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "209a227efb6e2a310430506e791ae32a61c78a269ae70c35c8a3a05a5d3ea4f3",
+      "url": "https://github.com/shengsheng90/DSH-taskboard/blob/0fa3f97ed7f2266e173d6643819921b9f3963aa8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@shengsheng/dsh-taskboard",
+          "command": "dsh plugin --profile web add -w @shengsheng/dsh-taskboard",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/shengsheng90/DSH-taskboard.git",
+          "command": "dsh plugin --profile web add -w git+https://github.com/shengsheng90/DSH-taskboard.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@shengsheng/dsh-taskboard",
+      "version": "0.1.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shengsheng90/DSH-taskboard",
+        "commit": "0fa3f97ed7f2266e173d6643819921b9f3963aa8"
+      },
+      "manifestSha256": "2dfe09bb9aed5c99c30ca7f9231ebe7f30100789b76c64a9503031acf74edc5e",
+      "manifestUrl": "https://github.com/shengsheng90/DSH-taskboard/blob/0fa3f97ed7f2266e173d6643819921b9f3963aa8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@shengsheng/dsh-taskboard",
+        "versions": [
+          {
+            "version": "0.1.10",
+            "publishTimestamp": 1792403701,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/shengsheng90/DSH-taskboard",
+              "commit": "0fa3f97ed7f2266e173d6643819921b9f3963aa8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@shengsheng/dsh-taskboard",
+      "origin": "npm",
+      "name": "@shengsheng/dsh-taskboard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@shengsheng/dsh-taskboard",
+        "title": "@shengsheng/dsh-taskboard",
+        "description": "Native local project taskboard bundle for DeepSeek Harness",
+        "versions": [
+          {
+            "version": "0.1.9",
+            "publishTimestamp": 1791876907,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "70238f654c49054892cf65ce03293d5548144d664be0cc660d1850bf25f42e76",
+      "evidence": [
+        {
+          "name": "@shengsheng/dsh-taskboard",
+          "version": "0.1.9",
+          "tarball": "https://registry.npmjs.org/@shengsheng/dsh-taskboard/-/dsh-taskboard-0.1.9.tgz",
+          "integrity": "sha512-o+E6Qo8GFjLQj9pWFFIkVuidkj5Lu1/p9JTFLjtk5DWsxYCulJtqorcph3X/3Jvp/kqrQsdORyBBa6WoWnfLRg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@shengsheng/dsh-taskboard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/shengsheng90/DSH-taskboard.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shengsheng90/DSH-taskboard",
+    "commit": "0fa3f97ed7f2266e173d6643819921b9f3963aa8",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:09.288Z"
+}

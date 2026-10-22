@@ -1,0 +1,154 @@
+{
+  "full_name": "Oscar-Williams/dsh-deepcanary",
+  "originalPosition": 36,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 36,
+  "batch": 1,
+  "stargazers_count": 91,
+  "startedAt": "2026-10-22T05:14:02.249Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3aad7a0ec8ee4ab5f2da93d762ac37f2e870be376d82711790ae6c714803c947",
+      "url": "https://github.com/Oscar-Williams/dsh-deepcanary/blob/22c1cc0b80b8b94de35ae6382f81a0f6e10cd945/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepcanary@0.1.6-rc.4",
+          "command": "dsh plugin --profile web add dsh-deepcanary@0.1.6-rc.4 --registry=https://registry.npmjs.org/",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "7df19c5e394796b18627e3889456edca062d55ef28bacf0d8478c4e8b78484d0",
+      "url": "https://github.com/Oscar-Williams/dsh-deepcanary/blob/22c1cc0b80b8b94de35ae6382f81a0f6e10cd945/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepcanary@0.1.6-rc.4",
+          "command": "dsh plugin --profile web add dsh-deepcanary@0.1.6-rc.4 --registry=https://registry.npmjs.org/",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "038ef456f491621c23a10904175d4e870925a2d8cdf4e0be69435755ee8af030",
+      "url": "https://github.com/Oscar-Williams/dsh-deepcanary/blob/22c1cc0b80b8b94de35ae6382f81a0f6e10cd945/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepcanary",
+      "version": "0.1.6-rc.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Oscar-Williams/dsh-deepcanary",
+        "commit": "22c1cc0b80b8b94de35ae6382f81a0f6e10cd945"
+      },
+      "manifestSha256": "cc3b7aa774d5da8257852d638ff92f9f3015995cc7bb6b66def0ebfc16f29e19",
+      "manifestUrl": "https://github.com/Oscar-Williams/dsh-deepcanary/blob/22c1cc0b80b8b94de35ae6382f81a0f6e10cd945/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-deepcanary",
+        "versions": [
+          {
+            "version": "0.1.6-rc.4",
+            "publishTimestamp": 1792328526,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Oscar-Williams/dsh-deepcanary",
+              "commit": "22c1cc0b80b8b94de35ae6382f81a0f6e10cd945"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-deepcanary@0.1.6-rc.4",
+      "origin": "npm",
+      "name": "dsh-deepcanary",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-deepcanary",
+        "title": "dsh-deepcanary",
+        "description": "Know when your DeepSeek Harness tasks need you. Local alerts, quiet notifications, and a task inbox.",
+        "homepage": "https://github.com/Oscar-Williams/dsh-deepcanary#readme",
+        "repository": {
+          "url": "https://github.com/Oscar-Williams/dsh-deepcanary"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "deepseek-harness",
+            "dsh-plugin",
+            "attention-management",
+            "agent-observability",
+            "human-in-the-loop"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.6-rc.4",
+            "publishTimestamp": 1792332118,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e623352cc3317e5a9e10f0722e02d4c0c3fc2e7a5afcee26fa6ac6e6b9e52614",
+      "evidence": [
+        {
+          "name": "dsh-deepcanary",
+          "version": "0.1.6-rc.4",
+          "tarball": "https://registry.npmjs.org/dsh-deepcanary/-/dsh-deepcanary-0.1.6-rc.4.tgz",
+          "integrity": "sha512-5/nIo6tF3B6GXKMe5ezggtkPV8pSz4LD2SvFfZeERtucdkptF9mJCEb6ZW/lri0iZGiTCbacRRLhHRaN9idaNQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-deepcanary@0.1.6-rc.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Oscar-Williams/dsh-deepcanary",
+    "commit": "22c1cc0b80b8b94de35ae6382f81a0f6e10cd945",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:15.855Z"
+}

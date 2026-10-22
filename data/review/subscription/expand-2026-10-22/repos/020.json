@@ -1,0 +1,74 @@
+{
+  "full_name": "yannicksong0106/dsh-550c-boot",
+  "originalPosition": 20,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 20,
+  "batch": 1,
+  "stargazers_count": 172,
+  "startedAt": "2026-10-22T05:13:20.147Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6829517aaa7a6ff320cd9c13c14bb3a52f802daf0bb3051ae79ade56301be928",
+      "url": "https://github.com/yannicksong0106/dsh-550c-boot/blob/56f48b541a58dfb53d4324e8a32cc8975810c360/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5843b3b2af16dee4fdf045c6bc9cb1651331fa776772142fd8fe4a90640dd3fe",
+      "url": "https://github.com/yannicksong0106/dsh-550c-boot/blob/56f48b541a58dfb53d4324e8a32cc8975810c360/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-550c-boot",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yannicksong0106/dsh-550c-boot",
+        "commit": "56f48b541a58dfb53d4324e8a32cc8975810c360"
+      },
+      "manifestSha256": "d1807d5c114f6faa35d0769fd372b04a30cb8dec8536d7bd9354cb52373f7412",
+      "manifestUrl": "https://github.com/yannicksong0106/dsh-550c-boot/blob/56f48b541a58dfb53d4324e8a32cc8975810c360/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-550c-boot",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1792613119,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yannicksong0106/dsh-550c-boot",
+              "commit": "56f48b541a58dfb53d4324e8a32cc8975810c360"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yannicksong0106/dsh-550c-boot",
+    "commit": "56f48b541a58dfb53d4324e8a32cc8975810c360",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:30.123Z"
+}

@@ -1,0 +1,74 @@
+{
+  "full_name": "Mr-remon219/search-boost",
+  "originalPosition": 53,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 53,
+  "batch": 1,
+  "stargazers_count": 55,
+  "startedAt": "2026-10-22T05:14:37.836Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "39f68bff67678cebf192bd59c3684006507f90318cc7281089328c2eef163db7",
+      "url": "https://github.com/Mr-remon219/search-boost/blob/a218d8a5002944f9fc73c24a330f2cb144573740/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "f8f065d639731be154759de0fa73212159f15dde0414c87f823f4969f1aa1362",
+      "url": "https://github.com/Mr-remon219/search-boost/blob/a218d8a5002944f9fc73c24a330f2cb144573740/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "search-boost",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mr-remon219/search-boost",
+        "commit": "a218d8a5002944f9fc73c24a330f2cb144573740"
+      },
+      "manifestSha256": "f94e1a0993574e8a57166b04f4d0ffaf2d34169314ab33837242dd88880f8493",
+      "manifestUrl": "https://github.com/Mr-remon219/search-boost/blob/a218d8a5002944f9fc73c24a330f2cb144573740/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "search-boost",
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1791037096,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mr-remon219/search-boost",
+              "commit": "a218d8a5002944f9fc73c24a330f2cb144573740"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mr-remon219/search-boost",
+    "commit": "a218d8a5002944f9fc73c24a330f2cb144573740",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:50.564Z"
+}

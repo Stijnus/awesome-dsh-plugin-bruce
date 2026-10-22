@@ -1,0 +1,171 @@
+{
+  "full_name": "T-Auto/dsh-ops",
+  "originalPosition": 1,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "stargazers_count": 3470,
+  "startedAt": "2026-10-22T05:12:36.696Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fc6dd5eac377afa036f9e89a81656d8ec0b46e3dbdfa3bc0646cb6b5f79c502b",
+      "url": "https://github.com/T-Auto/dsh-ops/blob/b963fb29e03ad21ebe76d6f552c70f0544ca92b9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ops",
+          "command": "dsh plugin --profile web add dsh-ops",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ops",
+          "command": "dsh plugin --profile dsh-tui add dsh-ops",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b922fb52afb18668b377c3f9da0a6ce5fcf778e42e832053504d0aee0d017c8d",
+      "url": "https://github.com/T-Auto/dsh-ops/blob/b963fb29e03ad21ebe76d6f552c70f0544ca92b9/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ops",
+          "command": "dsh plugin --profile web add dsh-ops",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ops",
+          "command": "dsh plugin --profile dsh-tui add dsh-ops",
+          "profile": "dsh-tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ops",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T-Auto/dsh-ops",
+        "commit": "b963fb29e03ad21ebe76d6f552c70f0544ca92b9"
+      },
+      "manifestSha256": "17434bd3ec41c9825c9615984f5be531c9b56ee2d2504b7ff2bb6dc543b0c2df",
+      "manifestUrl": "https://github.com/T-Auto/dsh-ops/blob/b963fb29e03ad21ebe76d6f552c70f0544ca92b9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ops",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1792594963,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T-Auto/dsh-ops",
+              "commit": "b963fb29e03ad21ebe76d6f552c70f0544ca92b9"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ops",
+      "origin": "npm",
+      "name": "dsh-ops",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ops",
+        "title": {
+          "en": "dsh-ops",
+          "zh": "dsh-ops"
+        },
+        "description": {
+          "en": "Provides optional Bash and native Rust tools for DSH to improve token efficiency; PowerShell remains host-managed",
+          "zh": "为 DSH 提供可选 Bash 和原生 Rust 工具以提高 token 效率；PowerShell 继续由宿主管理"
+        },
+        "homepage": "https://github.com/T-Auto/dsh-ops#readme",
+        "repository": {
+          "url": "https://github.com/T-Auto/dsh-ops"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "repository-tools"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1792500020,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e5986eb5bbdad5cca84ea57f6a27e486b66561b41b4ba79b347b8e08c49358e5",
+      "evidence": [
+        {
+          "name": "dsh-ops",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-ops/-/dsh-ops-0.4.1.tgz",
+          "integrity": "sha512-TBG6jsMCrMowoHTBCgOcAZ2p/4GLeJi0Pbpq6irqbCBQNumPmYq1WIACDlEheg9XMQcDOkcnNs7XZgVmU2dkYA=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-ops",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "4e5d6b86d8209e1f5b7ac9abbd11f3a49473cbcfc8cf78d02e1874a86ffc395a",
+          "outputSha256": "7a866a978016ea290cb41a09cdd097fcd4bc309540cae7b129dec2b613822a8a",
+          "inputBytes": 119677,
+          "outputBytes": 2478
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ops",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/T-Auto/dsh-ops",
+    "commit": "b963fb29e03ad21ebe76d6f552c70f0544ca92b9",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:07.328Z"
+}

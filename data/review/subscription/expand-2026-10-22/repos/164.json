@@ -1,0 +1,69 @@
+{
+  "full_name": "S3K926/dsh-selfwake",
+  "originalPosition": 164,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 164,
+  "batch": 1,
+  "stargazers_count": 16,
+  "startedAt": "2026-10-22T05:19:25.117Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b93d0812c4540c0e2a621aaf45dfc733ef779058c31623b143c2469e4e11b1f3",
+      "url": "https://github.com/S3K926/dsh-selfwake/blob/4ec7c81077974bc0595e18e9fcc4276acaf2f9bf/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-selfwake",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/S3K926/dsh-selfwake",
+        "commit": "4ec7c81077974bc0595e18e9fcc4276acaf2f9bf"
+      },
+      "manifestSha256": "045e69e769d1001280bfd01fd4270d206f14f4672cd53b5dcaffe1decb14a4e7",
+      "manifestUrl": "https://github.com/S3K926/dsh-selfwake/blob/4ec7c81077974bc0595e18e9fcc4276acaf2f9bf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-selfwake",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1792646156,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/S3K926/dsh-selfwake",
+              "commit": "4ec7c81077974bc0595e18e9fcc4276acaf2f9bf"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/S3K926/dsh-selfwake",
+    "commit": "4ec7c81077974bc0595e18e9fcc4276acaf2f9bf",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:19:36.717Z"
+}

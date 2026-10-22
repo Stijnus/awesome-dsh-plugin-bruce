@@ -1,0 +1,74 @@
+{
+  "full_name": "Lzcdebear/better-dsh-session-deletetool",
+  "originalPosition": 82,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 82,
+  "batch": 1,
+  "stargazers_count": 31,
+  "startedAt": "2026-10-22T05:15:42.084Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3370d364392747e3a1eaa661c2f9e0232283fc0f0f38e7b02352db8c89e8abbc",
+      "url": "https://github.com/Lzcdebear/better-dsh-session-deletetool/blob/68e16871573be29b23cd6b598a7d006c1e6b13cb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "569993897e586a6b4bb2a15da422225bc0f5c077d9fe2999e8bd553fd149eeb9",
+      "url": "https://github.com/Lzcdebear/better-dsh-session-deletetool/blob/68e16871573be29b23cd6b598a7d006c1e6b13cb/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "better-dsh-session-deletetool",
+      "version": "0.5.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lzcdebear/better-dsh-session-deletetool",
+        "commit": "68e16871573be29b23cd6b598a7d006c1e6b13cb"
+      },
+      "manifestSha256": "beb4f5716e574d0247c073996b46125bd3174ab480275902abc4f3766f5ca227",
+      "manifestUrl": "https://github.com/Lzcdebear/better-dsh-session-deletetool/blob/68e16871573be29b23cd6b598a7d006c1e6b13cb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "better-dsh-session-deletetool",
+        "versions": [
+          {
+            "version": "0.5.3",
+            "publishTimestamp": 1791981256,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lzcdebear/better-dsh-session-deletetool",
+              "commit": "68e16871573be29b23cd6b598a7d006c1e6b13cb"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lzcdebear/better-dsh-session-deletetool",
+    "commit": "68e16871573be29b23cd6b598a7d006c1e6b13cb",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:49.844Z"
+}

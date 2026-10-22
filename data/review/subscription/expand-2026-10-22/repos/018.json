@@ -1,0 +1,154 @@
+{
+  "full_name": "a86582751/dsh-nexttavern",
+  "originalPosition": 18,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 18,
+  "batch": 1,
+  "stargazers_count": 187,
+  "startedAt": "2026-10-22T05:13:16.873Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6685a24e1140eddccd49390efec8ee1c3c0db14970b66769883c759df8b3a0f2",
+      "url": "https://github.com/a86582751/dsh-nexttavern/blob/85eeabebce981a72e4ccb811351c95c2295e830b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-nexttavern",
+          "command": "dsh plugin --profile web add dsh-nexttavern",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "343475105173bd11d14cc1216e3e56d0800dba17695540fe9d593415b374e2d2",
+      "url": "https://github.com/a86582751/dsh-nexttavern/blob/85eeabebce981a72e4ccb811351c95c2295e830b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-nexttavern",
+          "command": "dsh plugin --profile web add dsh-nexttavern",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-nexttavern",
+      "version": "0.3.0-rc.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/a86582751/dsh-nexttavern",
+        "commit": "85eeabebce981a72e4ccb811351c95c2295e830b"
+      },
+      "manifestSha256": "8fffcf68011ef5602378803f6453decc3b22be3e3c7c354d14fcb8f261d8c8c9",
+      "manifestUrl": "https://github.com/a86582751/dsh-nexttavern/blob/85eeabebce981a72e4ccb811351c95c2295e830b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-nexttavern",
+        "versions": [
+          {
+            "version": "0.3.0-rc.1",
+            "publishTimestamp": 1792641857,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a86582751/dsh-nexttavern",
+              "commit": "85eeabebce981a72e4ccb811351c95c2295e830b"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-nexttavern",
+      "origin": "npm",
+      "name": "dsh-nexttavern",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-nexttavern",
+        "title": {
+          "en": "NextTavern",
+          "zh-cn": "NextTavern"
+        },
+        "description": {
+          "en": "A long-form roleplay plugin for DeepSeek Harness with character cards, worldlines, long-term memory, hybrid retrieval and SillyTavern compatibility.",
+          "zh-cn": "一个面向 DeepSeek Harness 的长篇角色扮演插件，支持角色卡、世界线、长期记忆、混合检索和 SillyTavern 兼容。"
+        },
+        "homepage": "https://a86582751.github.io/dsh-nexttavern/",
+        "repository": {
+          "url": "https://github.com/a86582751/dsh-nexttavern"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-nexttavern",
+            "dsh-plugin",
+            "deepseek-harness",
+            "roleplay",
+            "character-card",
+            "tavern",
+            "sillytavern",
+            "ai-roleplay",
+            "long-form-roleplay"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.9-rc.4",
+            "publishTimestamp": 1792350733,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1b4d2bd2acb1a4fa7973590415b9d4cd61533324a172b128c07702a2d3c44d4a",
+      "evidence": [
+        {
+          "name": "dsh-nexttavern",
+          "version": "0.2.9-rc.4",
+          "tarball": "https://registry.npmjs.org/dsh-nexttavern/-/dsh-nexttavern-0.2.9-rc.4.tgz",
+          "integrity": "sha512-cid347M3bhytQ5MGTURBBCpVC+3CpEYaJ/qXllxMlui8IvKVFgr2ofup9Z22D9Swloozgo+4O+eLEfvEAWj2pA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-nexttavern",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/a86582751/dsh-nexttavern",
+    "commit": "85eeabebce981a72e4ccb811351c95c2295e830b",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:24.166Z"
+}

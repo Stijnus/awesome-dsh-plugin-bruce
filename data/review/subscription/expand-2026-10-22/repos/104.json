@@ -1,0 +1,169 @@
+{
+  "full_name": "songoao25/dsh-chatgpt-sub",
+  "originalPosition": 104,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 104,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-10-22T05:16:22.711Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d46e78f1e9181a456f4ecf3e2a3602507ffb4cc5299978820d81f3103cbd853e",
+      "url": "https://github.com/songoao25/dsh-chatgpt-sub/blob/2c13fe53569506ff5a0b509b31d39f73aba627a0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chatgpt-sub",
+          "command": "dsh plugin --profile web add dsh-chatgpt-sub",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "4f41a404e768ae208ab3ececd91c33a921aa44b8e0c82f4a6f804af331bf5d8c",
+      "url": "https://github.com/songoao25/dsh-chatgpt-sub/blob/2c13fe53569506ff5a0b509b31d39f73aba627a0/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chatgpt-sub",
+          "command": "dsh plugin --profile web add dsh-chatgpt-sub",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chatgpt-sub",
+      "version": "0.6.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/songoao25/dsh-chatgpt-sub",
+        "commit": "2c13fe53569506ff5a0b509b31d39f73aba627a0"
+      },
+      "manifestSha256": "4d1b07961e16f7966e47664dd5fe8c97ab4af0ff3548af16277f1a712ea68209",
+      "manifestUrl": "https://github.com/songoao25/dsh-chatgpt-sub/blob/2c13fe53569506ff5a0b509b31d39f73aba627a0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chatgpt-sub",
+        "versions": [
+          {
+            "version": "0.6.3",
+            "publishTimestamp": 1792200637,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/songoao25/dsh-chatgpt-sub",
+              "commit": "2c13fe53569506ff5a0b509b31d39f73aba627a0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-chatgpt-sub",
+      "origin": "npm",
+      "name": "dsh-chatgpt-sub",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-chatgpt-sub",
+        "title": {
+          "en": "ChatGPT Subscription",
+          "de": "ChatGPT-Abonnement",
+          "es": "Suscripción de ChatGPT",
+          "fr": "Abonnement ChatGPT",
+          "hi": "ChatGPT सदस्यता",
+          "id": "Langganan ChatGPT",
+          "it": "Abbonamento ChatGPT",
+          "ja": "ChatGPT サブスクリプション",
+          "ko": "ChatGPT 구독",
+          "pt": "Assinatura do ChatGPT",
+          "ru": "Подписка ChatGPT",
+          "zh-hant": "ChatGPT 訂閱",
+          "zh": "ChatGPT 订阅"
+        },
+        "description": {
+          "en": "Sign in with your ChatGPT account to use ChatGPT models in DSH.",
+          "de": "Mit deinem ChatGPT-Konto anmelden, um ChatGPT-Modelle in DSH zu nutzen.",
+          "es": "Inicia sesión con tu cuenta de ChatGPT para usar sus modelos en DSH.",
+          "fr": "Connectez-vous avec votre compte ChatGPT pour utiliser les modèles ChatGPT dans DSH.",
+          "hi": "DSH में ChatGPT मॉडल इस्तेमाल करने के लिए अपने ChatGPT खाते से साइन इन करें।",
+          "id": "Masuk dengan akun ChatGPT untuk menggunakan model ChatGPT di DSH.",
+          "it": "Accedi con il tuo account ChatGPT per usare i modelli ChatGPT in DSH.",
+          "ja": "ChatGPT アカウントでログインして、DSH で ChatGPT モデルを使用します。",
+          "ko": "ChatGPT 계정으로 로그인하여 DSH에서 ChatGPT 모델을 사용합니다.",
+          "pt": "Entre com sua conta do ChatGPT para usar os modelos do ChatGPT no DSH.",
+          "ru": "Войдите в аккаунт ChatGPT, чтобы использовать модели ChatGPT в DSH.",
+          "zh-hant": "使用 ChatGPT 帳號登入，在 DSH 中使用 ChatGPT 模型。",
+          "zh": "用 ChatGPT 账号登录，在 DSH 里使用 ChatGPT 模型。"
+        },
+        "author": "SONGOAO25",
+        "homepage": "https://github.com/songoao25/dsh-chatgpt-sub",
+        "repository": {
+          "url": "https://github.com/songoao25/dsh-chatgpt-sub"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "chatgpt",
+            "codex",
+            "subscription",
+            "oauth",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.3",
+            "publishTimestamp": 1792200716,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ef84ef0fc455e22b0667167885a5c430504b4690e74b4115eb933434381e4593",
+      "evidence": [
+        {
+          "name": "dsh-chatgpt-sub",
+          "version": "0.6.3",
+          "tarball": "https://registry.npmjs.org/dsh-chatgpt-sub/-/dsh-chatgpt-sub-0.6.3.tgz",
+          "integrity": "sha512-CkzYXj9MbwhImEUf7ThI7VVXkWg0HiJOlc2cqZoE263Ovy0R1wWjHtOdRvQeI20P0yfw5/fE4r51X+X9diSMXA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-chatgpt-sub",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/songoao25/dsh-chatgpt-sub",
+    "commit": "2c13fe53569506ff5a0b509b31d39f73aba627a0",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:16:35.473Z"
+}

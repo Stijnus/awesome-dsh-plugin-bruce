@@ -1,0 +1,128 @@
+{
+  "full_name": "tomowang/dsh-tui",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "stargazers_count": 23,
+  "startedAt": "2026-10-22T05:17:09.157Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "16969f9223ee35a0e36c1843d0692452c8b6197c17796f75c19f8a476093b5c4",
+      "url": "https://github.com/tomowang/dsh-tui/blob/3e7a51f6ec14eaaaeb79c8102c996e8fe9c3b0df/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@tomowang/dsh-tui",
+          "command": "dsh plugin --profile tui add @tomowang/dsh-tui",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tomowang/dsh-tui",
+      "version": "0.10.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tomowang/dsh-tui",
+        "commit": "3e7a51f6ec14eaaaeb79c8102c996e8fe9c3b0df"
+      },
+      "manifestSha256": "9f0d587fbe9228dbe374ea30fe6cb328a92601363bf68769cc791e0d79b0f92a",
+      "manifestUrl": "https://github.com/tomowang/dsh-tui/blob/3e7a51f6ec14eaaaeb79c8102c996e8fe9c3b0df/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0-0 0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@tomowang/dsh-tui",
+        "versions": [
+          {
+            "version": "0.10.0",
+            "publishTimestamp": 1792243800,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tomowang/dsh-tui",
+              "commit": "3e7a51f6ec14eaaaeb79c8102c996e8fe9c3b0df"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0 0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@tomowang/dsh-tui",
+      "origin": "npm",
+      "name": "@tomowang/dsh-tui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@tomowang/dsh-tui",
+        "title": "@tomowang/dsh-tui",
+        "description": "Terminal front door for DeepSeek Harness (dsh): an out-of-tree TUI mode bundle over dsh-base",
+        "repository": {
+          "url": "https://github.com/tomowang/dsh-tui"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "tui",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.10.0",
+            "publishTimestamp": 1792243924,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0 0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "febc03cd36a42ef052d5841768b770c732cd0b9abe5168398849eb736eb89787",
+      "evidence": [
+        {
+          "name": "@tomowang/dsh-tui",
+          "version": "0.10.0",
+          "tarball": "https://registry.npmjs.org/@tomowang/dsh-tui/-/dsh-tui-0.10.0.tgz",
+          "integrity": "sha512-3sjBr19+EC60uDesai2PLfEuyBvVvy7OVcp5LJojKrUqNMugDEfXXjZQ2dCIvPitbCnIPP00KwAfMZ3v+NlI/w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@tomowang/dsh-tui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tomowang/dsh-tui",
+    "commit": "3e7a51f6ec14eaaaeb79c8102c996e8fe9c3b0df",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:17:21.132Z"
+}

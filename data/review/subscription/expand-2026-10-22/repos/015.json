@@ -1,0 +1,66 @@
+{
+  "full_name": "c3cvld7aag/fujiang-dsh",
+  "originalPosition": 15,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 15,
+  "batch": 1,
+  "stargazers_count": 212,
+  "startedAt": "2026-10-22T05:13:09.118Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "32e72dbb8cf41c505ae4a9b81b0ae89a297fa26069838a1e5e47e92cd235abcc",
+      "url": "https://github.com/c3cvld7aag/fujiang-dsh/blob/ab86ddcd169f0f13bc74923b6ed95eda55224931/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "fujiang-armor",
+      "version": "0.4.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/c3cvld7aag/fujiang-dsh",
+        "commit": "ab86ddcd169f0f13bc74923b6ed95eda55224931"
+      },
+      "manifestSha256": "0c32568fd035096e31a037ff02415f7b53eb6446dba2487ae330582a170d013a",
+      "manifestUrl": "https://github.com/c3cvld7aag/fujiang-dsh/blob/ab86ddcd169f0f13bc74923b6ed95eda55224931/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "fujiang-armor",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1791044150,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/c3cvld7aag/fujiang-dsh",
+              "commit": "ab86ddcd169f0f13bc74923b6ed95eda55224931"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/c3cvld7aag/fujiang-dsh",
+    "commit": "ab86ddcd169f0f13bc74923b6ed95eda55224931",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:14.900Z"
+}

@@ -1,4 +1,5 @@
 /** Build a validated DSH format-1 index from curated npm and Git targets without executing packages. */
+import './git-temp-cleanup.mjs'
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import { pathToFileURL } from 'node:url'
@@ -11,11 +12,36 @@ import { verifyNpmPlugin } from './npm.mjs'
 import { classifyTarget, readGitTarget } from './git.mjs'
 import { blockedPluginRepository } from './repository-policy.mjs'
 import { isBundle, dshRange } from './vendor/packages.ts'
-import { assertPublishable, MAX_PLUGINS } from './policy.mjs'
+import { assertPublishable, MAX_PLUGINS, SELECTION_POLICY } from './policy.mjs'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
 
 const REGISTRY = 'https://registry.npmjs.org/'
 const INDEX_URL = 'https://bruc3van.com/dsh-plugins/index.json'
+
+const PERMANENT_GIT_CODES = new Set([
+  'ambiguous_short_commit',
+  'ambiguous_git_ref',
+  'git_ref_not_found',
+])
+
+/** Deleted, private, or mistyped remotes should not freeze catalog publication. */
+export function classifyGitFailure(error) {
+  if (PERMANENT_GIT_CODES.has(error?.code))
+    return { permanent: true, code: error.code }
+  const reason = String(error?.message ?? '')
+  if (
+    /Repository not found|fatal: repository ['"].+['"] not found/i.test(reason)
+  )
+    return { permanent: true, code: 'git_repository_not_found' }
+  if (/fatal: not a tree object/i.test(reason))
+    return { permanent: true, code: 'git_object_not_found' }
+  if (
+    (error?.code === 'EPERM' || /EPERM, Permission denied/.test(reason)) &&
+    /plugin-market-git-/.test(reason)
+  )
+    return { permanent: true, code: 'git_temp_cleanup_failed' }
+  return { permanent: false, code: 'git_fetch_failed' }
+}
 
 /** Only registry targets are resolved here. Git requires separate commit/manifest evidence. */
 export function npmTarget(spec) {
@@ -32,24 +58,34 @@ export function npmTarget(spec) {
 }
 
 /** Rank verified plugins by repository stars, then cap the published selection. */
-export function selectTopPlugins(plugins, ranks, max = MAX_PLUGINS) {
+export function selectTopPlugins(plugins, ranks, max = MAX_PLUGINS, featured = new Set()) {
   const compareText = (a, b) => (a < b ? -1 : a > b ? 1 : 0)
-  const ordered = [...plugins].sort((a, b) => {
-    const left = ranks.get(a.name) ?? { stars: -1, repo: '' }
-    const right = ranks.get(b.name) ?? { stars: -1, repo: '' }
+  const rankOf = (plugin) => ranks.get(plugin.name) ?? { stars: -1, repo: '' }
+  const compare = (a, b) => {
+    const left = rankOf(a), right = rankOf(b)
     return (
       right.stars - left.stars ||
       compareText(left.repo, right.repo) ||
       compareText(a.name, b.name)
     )
-  })
-  const selected = ordered.slice(0, max)
+  }
+  const ordered = [...plugins].sort(compare)
+  const featuredRepos = new Set(
+    [...featured].map((name) => String(name).toLowerCase()),
+  )
+  const isFeatured = (plugin) => featuredRepos.has(rankOf(plugin).repo.toLowerCase())
+  const selected = [
+    ...ordered.filter(isFeatured),
+    ...ordered.filter((plugin) => !isFeatured(plugin)),
+  ]
+    .slice(0, max)
+    .sort(compare)
   const last = selected.at(-1)
   return {
     plugins: selected,
     eligiblePlugins: ordered.length,
     droppedByLimit: Math.max(0, ordered.length - selected.length),
-    cutoffStars: last ? (ranks.get(last.name)?.stars ?? -1) : null,
+    cutoffStars: last ? (rankOf(last).stars ?? -1) : null,
   }
 }
 
@@ -241,19 +277,15 @@ export async function generateIndex(
         try {
           gitResults[i] = await fetchGit(target)
         } catch (error) {
-          const permanent = [
-            'ambiguous_short_commit',
-            'ambiguous_git_ref',
-            'git_ref_not_found',
-          ].includes(error.code)
+          const failure = classifyGitFailure(error)
           gitResults[i] = {
             plugins: [],
             evidence: [],
-            fetchFailed: !permanent,
+            fetchFailed: !failure.permanent,
             diagnostics: [
               {
-                code: permanent ? error.code : 'git_fetch_failed',
-                status: permanent ? 'excluded' : 'error',
+                code: failure.code,
+                status: failure.permanent ? 'excluded' : 'error',
                 reason: error.message,
               },
             ],
@@ -305,7 +337,15 @@ export async function generateIndex(
       reason: `包或 Git 来源指向已排除仓库 ${blocked.slug}`,
     })
   }
-  const selection = selectTopPlugins(eligiblePlugins, ranks)
+  const featured = new Set(
+    [
+      ...(feed.featuredRepositories ?? []),
+      ...(feed.featured?.entries ?? []).map((entry) => entry.full_name),
+    ]
+      .filter(Boolean)
+      .map((name) => String(name).toLowerCase()),
+  )
+  const selection = selectTopPlugins(eligiblePlugins, ranks, MAX_PLUGINS, featured)
   const selectedPlugins = selection.plugins
   diagnostics.push(...applyPresentation(selectedPlugins))
   const index = {
@@ -315,7 +355,7 @@ export async function generateIndex(
       en: "DSH community plugin picks by Bruce, sourced from awesome-dsh-plugin. npm metadata and Git commits are verified; inclusion is not a security review.",
       zh: 'Bruce 整理的 DSH 社区插件精选，数据来自 awesome-dsh-plugin。核实 npm 元数据与 Git 提交；收录不代表安全审查。',
     },
-    metadata: applyDiscovery(selectedPlugins, ranks),
+    metadata: applyDiscovery(selectedPlugins, ranks, { featured }),
     plugins: selectedPlugins,
   }
   parseMarketIndex(index, INDEX_URL)
@@ -406,6 +446,12 @@ async function main() {
         '检查网络、registry 和安装包完整性；失败时保留已发布索引。',
       git_fetch_failed:
         '检查仓库访问权限和网络；不能据此判断插件兼容性或安全性。',
+      git_repository_not_found:
+        'Git 仓库已删除、设为私有或地址写错；排除该来源后继续发布，不因单个缺失仓库冻结整份索引。',
+      git_object_not_found:
+        '固定 commit 不是可读的 tree 对象；排除该 Git 目标，不猜测改用默认分支。',
+      git_temp_cleanup_failed:
+        'Windows 临时目录清理被文件锁打断；该条 Git 核验结果作废，不因此冻结整份索引。Linux CI 通常不会出现。',
     },
     generator: {
       hostVersion: '0.2.1-alpha.5',
@@ -433,7 +479,7 @@ async function main() {
         '候选按 npm 包或 Git 目标去重；诊断可按版本/路径多条记录，不等于独立插件数量',
     },
     selection: {
-      policy: 'top-600-verified-plugins-by-stars-v1',
+      policy: SELECTION_POLICY,
       eligiblePlugins: result.selection.eligiblePlugins,
       included: result.index.plugins.length,
       droppedByLimit: result.selection.eligiblePlugins - result.index.plugins.length,
@@ -459,8 +505,8 @@ async function main() {
   )
     throw new Error('Generated JSON exceeds the HTTPS route size limit')
   await writeFile(`${outputPath}.report.json`, reportText)
-  assertPublishable(result)
   await writeFile(outputPath, serialized)
+  assertPublishable(result)
   console.log(
     `Generated ${result.index.plugins.length}/${result.selection.eligiblePlugins} verified plugins ` +
       `(${result.selection.droppedByLimit} beyond the ${MAX_PLUGINS}-plugin cap) ` +

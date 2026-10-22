@@ -1,0 +1,77 @@
+{
+  "full_name": "sixtysevenlf/dsh-blender-plugin",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 920,
+  "startedAt": "2026-10-22T05:12:36.738Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "635fbbeb94af601a6c38a5a12615c4b2b5af9edc218f49d9bd585bb3d8c78d6d",
+      "url": "https://github.com/sixtysevenlf/dsh-blender-plugin/blob/55a9597802e743d7231a2a7e69cb9dd758765b7b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "9dadd9b2d40879fc78e7b7b9f7b87cfbccad037198206d315972010a9137984b",
+      "url": "https://github.com/sixtysevenlf/dsh-blender-plugin/blob/55a9597802e743d7231a2a7e69cb9dd758765b7b/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-blender-plugin",
+      "version": "2.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
+        "commit": "55a9597802e743d7231a2a7e69cb9dd758765b7b"
+      },
+      "manifestSha256": "fe293e2c7786f430d286ca5150d7f3db4f9114fcc17db9946f445f6da0d69130",
+      "manifestUrl": "https://github.com/sixtysevenlf/dsh-blender-plugin/blob/55a9597802e743d7231a2a7e69cb9dd758765b7b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc <2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-external/dsh-blender-plugin",
+        "versions": [
+          {
+            "version": "2.6.0",
+            "publishTimestamp": 1792605340,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
+              "commit": "55a9597802e743d7231a2a7e69cb9dd758765b7b"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc <2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
+    "commit": "55a9597802e743d7231a2a7e69cb9dd758765b7b",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:12:46.434Z"
+}

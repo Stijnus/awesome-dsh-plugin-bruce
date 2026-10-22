@@ -1,0 +1,138 @@
+{
+  "full_name": "alienzhou/html-workbench",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "stargazers_count": 40,
+  "startedAt": "2026-10-22T05:15:04.448Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e9143b1f3788dd6dc940f8437e94f8b9ca6b51514f85908e46dc1ddcb020ea66",
+      "url": "https://github.com/alienzhou/html-workbench/blob/52c8d0cb7d08340ccb7d64a9287c541542960f35/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@vibe-x/dsh-html-workbench",
+          "command": "dsh plugin --profile web add @vibe-x/dsh-html-workbench",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "54c8f7fe9c398cbdef617237a0db193cd1f8b5d95875b23aaa21fbbf4e7c9d3f",
+      "url": "https://github.com/alienzhou/html-workbench/blob/52c8d0cb7d08340ccb7d64a9287c541542960f35/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@vibe-x/dsh-html-workbench",
+          "command": "dsh plugin --profile web add @vibe-x/dsh-html-workbench",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@vibe-x/dsh-html-workbench",
+      "version": "0.3.1",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/alienzhou/html-workbench",
+        "commit": "52c8d0cb7d08340ccb7d64a9287c541542960f35",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "5766c587ffc4841fc892e97ade7873f3d60f98f5411e5e1c19b3fc6b4c101333",
+      "manifestUrl": "https://github.com/alienzhou/html-workbench/blob/52c8d0cb7d08340ccb7d64a9287c541542960f35/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@vibe-x/dsh-html-workbench",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1791288824,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/alienzhou/html-workbench",
+              "commit": "52c8d0cb7d08340ccb7d64a9287c541542960f35",
+              "path": "dsh-plugin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@vibe-x/dsh-html-workbench",
+      "origin": "npm",
+      "name": "@vibe-x/dsh-html-workbench",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@vibe-x/dsh-html-workbench",
+        "title": "@vibe-x/dsh-html-workbench",
+        "description": "DeepSeek Harness 插件：在右侧栏预览并可视化编辑 agent 生成的 HTML（复用/拉起本地 html-workbench 服务）。",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "cordis",
+            "html",
+            "editor",
+            "workbench"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1789479360,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6b0a1382eb31b16e447bcbb6dfe3340d0f8c105040ce48decb7f2eeeaf461d39",
+      "evidence": [
+        {
+          "name": "@vibe-x/dsh-html-workbench",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/@vibe-x/dsh-html-workbench/-/dsh-html-workbench-0.3.1.tgz",
+          "integrity": "sha512-Njrp976lGUDWH9emzMHWQzramFdOecWBEOauvsupUvV96ilaloBS21M8Z9SJlddYdbR8s9EwPIXwM9ofLwnCkQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@vibe-x/dsh-html-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/alienzhou/html-workbench",
+    "commit": "52c8d0cb7d08340ccb7d64a9287c541542960f35",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:17.746Z"
+}

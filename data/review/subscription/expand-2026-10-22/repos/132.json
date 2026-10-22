@@ -1,0 +1,83 @@
+{
+  "full_name": "berhbro/dsh-cyrene-theme",
+  "originalPosition": 132,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-10-22T05:18:10.116Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4c7a82c58afaa64a8fb3b5ccb6ff7b830f7424f740c38cfb9c1e5e2908dd6d21",
+      "url": "https://github.com/berhbro/dsh-cyrene-theme/blob/dda6092e53c5b9f0897813ea419d6b313219317c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/berhbro/dsh-cyrene-theme",
+          "command": "dsh plugin --profile web add github:berhbro/dsh-cyrene-theme",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/berhbro/dsh-cyrene-theme",
+          "command": "dsh plugin --profile desktop add github:berhbro/dsh-cyrene-theme",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cyrene-theme",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/berhbro/dsh-cyrene-theme",
+        "commit": "dda6092e53c5b9f0897813ea419d6b313219317c"
+      },
+      "manifestSha256": "f2d86f0d35234c507db1f3e59de68a5c26ada32fdfc03c3323fe8c96307e8139",
+      "manifestUrl": "https://github.com/berhbro/dsh-cyrene-theme/blob/dda6092e53c5b9f0897813ea419d6b313219317c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cyrene-theme",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792644827,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/berhbro/dsh-cyrene-theme",
+              "commit": "dda6092e53c5b9f0897813ea419d6b313219317c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/berhbro/dsh-cyrene-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/berhbro/dsh-cyrene-theme",
+    "commit": "dda6092e53c5b9f0897813ea419d6b313219317c",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:20.478Z"
+}

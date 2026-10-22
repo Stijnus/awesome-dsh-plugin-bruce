@@ -41,6 +41,8 @@ test('reviewed translations improve discovery without changing install fields an
   const metadata = applyDiscovery([plugin], new Map([['demo', { stars: 1, row: { category: 'ui-experience', category_zh: '界面与体验' } }]]))
   const index = parseMarketIndex({ format: 1, title: 'Test', metadata, plugins: [plugin] }, 'https://example.com/index.json')
   assert.deepEqual(index.plugins[0].metadata.labels, ['npm', 'theme'])
+  assert.equal(index.metadata.labels['updated-month'].title.zh, '最近一个月有更新')
+  assert.equal(index.metadata.labels['stars-500'].title.zh, '500+ Star')
   assert.ok(index.plugins[0].metadata.keywords.includes('主题'))
   assert.equal(index.metadata.labels.theme.title.zh, '主题外观')
 })

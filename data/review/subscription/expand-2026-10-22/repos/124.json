@@ -1,0 +1,181 @@
+{
+  "full_name": "SuperWheel/dsh-cliworker-now",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 22,
+  "startedAt": "2026-10-22T05:17:29.017Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "26e8f43438c31769f32eb8f99632b7775ad429cedb454e72e2fa68bff6bc8dd5",
+      "url": "https://github.com/SuperWheel/dsh-cliworker-now/blob/09d8e5485bc49e8a3b8bec2fc001e98ed954f9b6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cliworker-now@latest",
+          "command": "dsh plugin --profile desktop add dsh-cliworker-now@latest",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/SuperWheel/dsh-cliworker-now/releases/download/v0.8.2/dsh-cliworker-now-0.8.2.tgz",
+          "command": "dsh plugin --profile desktop add https://github.com/SuperWheel/dsh-cliworker-now/releases/download/v0.8.2/dsh-cliworker-now-0.8.2.tgz",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/SuperWheel/dsh-cliworker-now",
+          "command": "dsh plugin --profile desktop add github:SuperWheel/dsh-cliworker-now",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "4eacf0ad1978a8561b83fe2a18b00e0a4b36f41d6a27f09767ea5046375613a7",
+      "url": "https://github.com/SuperWheel/dsh-cliworker-now/blob/09d8e5485bc49e8a3b8bec2fc001e98ed954f9b6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cliworker-now@latest",
+          "command": "dsh plugin --profile desktop add dsh-cliworker-now@latest",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/SuperWheel/dsh-cliworker-now/releases/download/v0.8.2/dsh-cliworker-now-0.8.2.tgz",
+          "command": "dsh plugin --profile desktop add https://github.com/SuperWheel/dsh-cliworker-now/releases/download/v0.8.2/dsh-cliworker-now-0.8.2.tgz",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/SuperWheel/dsh-cliworker-now",
+          "command": "dsh plugin --profile desktop add github:SuperWheel/dsh-cliworker-now",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "runtime-host/README.md",
+      "sha256": "697fc6aece90bda8f684993e7f1d337b0723c3d094cc6ad0bcb891efa3c097d2",
+      "url": "https://github.com/SuperWheel/dsh-cliworker-now/blob/09d8e5485bc49e8a3b8bec2fc001e98ed954f9b6/runtime-host/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "doc/README.md",
+      "sha256": "e063afdf083bcee5e01b7018d0b7c1664fe1c87795f95555230ebbf3c66fd360",
+      "url": "https://github.com/SuperWheel/dsh-cliworker-now/blob/09d8e5485bc49e8a3b8bec2fc001e98ed954f9b6/doc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cliworker-now",
+      "version": "0.8.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SuperWheel/dsh-cliworker-now",
+        "commit": "09d8e5485bc49e8a3b8bec2fc001e98ed954f9b6"
+      },
+      "manifestSha256": "2a27ddfb8e397c5273149c02997c5d7506c29099c51b3d9021c8069aef8af675",
+      "manifestUrl": "https://github.com/SuperWheel/dsh-cliworker-now/blob/09d8e5485bc49e8a3b8bec2fc001e98ed954f9b6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cliworker-now",
+        "versions": [
+          {
+            "version": "0.8.2",
+            "publishTimestamp": 1792513688,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SuperWheel/dsh-cliworker-now",
+              "commit": "09d8e5485bc49e8a3b8bec2fc001e98ed954f9b6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-cliworker-now@latest",
+      "origin": "npm",
+      "name": "dsh-cliworker-now",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cliworker-now",
+        "title": "dsh-cliworker-now",
+        "description": "Multiple agent CLI conversations in the DeepSeek Harness sidebar",
+        "homepage": "https://github.com/SuperWheel/dsh-cliworker-now#readme",
+        "repository": {
+          "url": "https://github.com/SuperWheel/dsh-cliworker-now"
+        },
+        "versions": [
+          {
+            "version": "0.8.2",
+            "publishTimestamp": 1792518585,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f12c5e144773f98b53aa27cdbf4898aa9f2a732d861fa39c862232aacce4b829",
+      "evidence": [
+        {
+          "name": "dsh-cliworker-now",
+          "version": "0.8.2",
+          "tarball": "https://registry.npmjs.org/dsh-cliworker-now/-/dsh-cliworker-now-0.8.2.tgz",
+          "integrity": "sha512-AUF/VQfuhBDuULvNBcL5w25SbnTsAdKYSTUPXXukEM3ZR19H6eqyUZ2KfXbQkGnoNsBiNr//IQoipnrL1ly3zg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/SuperWheel/dsh-cliworker-now/releases/download/v0.8.2/dsh-cliworker-now-0.8.2.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-cliworker-now@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/SuperWheel/dsh-cliworker-now/releases/download/v0.8.2/dsh-cliworker-now-0.8.2.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/SuperWheel/dsh-cliworker-now",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SuperWheel/dsh-cliworker-now",
+    "commit": "09d8e5485bc49e8a3b8bec2fc001e98ed954f9b6",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:43.916Z"
+}

@@ -1,0 +1,149 @@
+{
+  "full_name": "Yu-tao-Li/dsh-computer-use-win",
+  "originalPosition": 38,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 38,
+  "batch": 1,
+  "stargazers_count": 89,
+  "startedAt": "2026-10-22T05:14:06.520Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5ee921c6b5c2f13709d53235105364730d070b4215b6c93d013e25c397344c1a",
+      "url": "https://github.com/Yu-tao-Li/dsh-computer-use-win/blob/a6d6c2e625e15ca322842b038b4e9165bee1d42f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-computer-use-win",
+          "command": "dsh plugin --profile desktop add dsh-computer-use-win",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-computer-use-win",
+          "command": "dsh plugin --profile web add dsh-computer-use-win",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
+          "command": "dsh plugin --profile desktop add github:Yu-tao-Li/dsh-computer-use-win",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-computer-use-win",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
+        "commit": "a6d6c2e625e15ca322842b038b4e9165bee1d42f"
+      },
+      "manifestSha256": "251d1acfebafc994dc39d234148e68fba2ec63fe769ecde186c276c114f05cfd",
+      "manifestUrl": "https://github.com/Yu-tao-Li/dsh-computer-use-win/blob/a6d6c2e625e15ca322842b038b4e9165bee1d42f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 || >=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-computer-use-win",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1792438422,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
+              "commit": "a6d6c2e625e15ca322842b038b4e9165bee1d42f"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 || >=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-computer-use-win",
+      "origin": "npm",
+      "name": "dsh-computer-use-win",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-computer-use-win",
+        "title": "dsh-computer-use-win",
+        "description": "Windows computer use for DeepSeek Harness: an MCP stdio server + PowerShell UIA backend, bridged into DSH via @deepseek-ai/dsh-mcp-client. Read/act on real Windows desktop apps (UI Automation tree, screenshots, typed input, OCR, window management).",
+        "author": "Yu-tao-Li",
+        "homepage": "https://github.com/Yu-tao-Li/dsh-computer-use-win#readme",
+        "repository": {
+          "url": "https://github.com/Yu-tao-Li/dsh-computer-use-win"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "mcp",
+            "computer-use",
+            "windows",
+            "uia",
+            "desktop-automation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1792441775,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 || >=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "59e4a3ef63bd183b9017807a767bb16780ec27d85c91bd5f6cdb80bf4adc0b3b",
+      "evidence": [
+        {
+          "name": "dsh-computer-use-win",
+          "version": "0.5.0",
+          "tarball": "https://registry.npmjs.org/dsh-computer-use-win/-/dsh-computer-use-win-0.5.0.tgz",
+          "integrity": "sha512-El8lVnh9EzDom5s7JtnvgZ7UZ2EeDherJOUSBMUYsssRh44SFhR8vuMhn6vLewdGqXrG/QVu7C6xNLGIV0AbZA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-computer-use-win",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
+    "commit": "a6d6c2e625e15ca322842b038b4e9165bee1d42f",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:18.808Z"
+}

@@ -1,0 +1,117 @@
+{
+  "full_name": "Ebony-Vinyl/EAC-skin-loader",
+  "originalPosition": 81,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 81,
+  "batch": 1,
+  "stargazers_count": 31,
+  "startedAt": "2026-10-22T05:15:31.968Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "29d7c40defb8ef055e2e56c20037f668bc93e23712e070f9d250941645a5fde1",
+      "url": "https://github.com/Ebony-Vinyl/EAC-skin-loader/blob/43e9236c162332058754c7e84dc76aefa8ac40b7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/DSH-EAC/EAC-skin-loader",
+          "command": "dsh plugin --profile web add github:DSH-EAC/EAC-skin-loader",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-eac/skin-loader-pack",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ebony-Vinyl/EAC-skin-loader",
+        "commit": "43e9236c162332058754c7e84dc76aefa8ac40b7"
+      },
+      "manifestSha256": "631f0e942e579a131d7c2812005ad85a13e2452bc51bdea1ee73489a492afdbd",
+      "manifestUrl": "https://github.com/Ebony-Vinyl/EAC-skin-loader/blob/43e9236c162332058754c7e84dc76aefa8ac40b7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.7-rc.2 || 0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-eac/skin-loader-pack",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1791202815,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ebony-Vinyl/EAC-skin-loader",
+              "commit": "43e9236c162332058754c7e84dc76aefa8ac40b7"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.2 || 0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/DSH-EAC/EAC-skin-loader",
+      "origin": "git_target",
+      "name": "@dsh-eac/skin-loader-pack",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-eac/skin-loader-pack",
+        "title": "@dsh-eac/skin-loader-pack",
+        "description": "DSH UI 皮肤加载器 Git 分发组合包：以仓内固定制品经 patch 挂载 @dsh-eac/ui-skin-loader（分发契约见 docs/git-distribution.md）。",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1791202815,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DSH-EAC/EAC-skin-loader",
+              "commit": "43e9236c162332058754c7e84dc76aefa8ac40b7"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.2 || 0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "43e9236c162332058754c7e84dc76aefa8ac40b7",
+          "name": "@dsh-eac/skin-loader-pack",
+          "version": "1.2.0",
+          "url": "https://github.com/DSH-EAC/EAC-skin-loader",
+          "manifestSha256": "631f0e942e579a131d7c2812005ad85a13e2452bc51bdea1ee73489a492afdbd",
+          "publishTimestamp": 1791202815
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/DSH-EAC/EAC-skin-loader",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ebony-Vinyl/EAC-skin-loader",
+    "commit": "43e9236c162332058754c7e84dc76aefa8ac40b7",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:52.032Z"
+}

@@ -1,0 +1,154 @@
+{
+  "full_name": "Anionex/dsh-computer-use",
+  "originalPosition": 45,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 45,
+  "batch": 1,
+  "stargazers_count": 65,
+  "startedAt": "2026-10-22T05:14:24.193Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1e46d36c45844b6621c47718e9d51a22e2d227a6522254e904bc1dd29a8107af",
+      "url": "https://github.com/Anionex/dsh-computer-use/blob/1e9c8862e99ee86519799b8f30e335d22c078ee7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@anionex/dsh-computer-use",
+          "command": "dsh plugin --profile web add @anionex/dsh-computer-use",
+          "profile": "web"
+        },
+        {
+          "install": "@anionex/dsh-computer-use",
+          "command": "dsh plugin --profile headless add @anionex/dsh-computer-use",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "eaebfbfadee010125b530d7f63458744fafb48f142bfc2f35f4cbe0925d2f781",
+      "url": "https://github.com/Anionex/dsh-computer-use/blob/1e9c8862e99ee86519799b8f30e335d22c078ee7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@anionex/dsh-computer-use",
+          "command": "dsh plugin --profile web add @anionex/dsh-computer-use",
+          "profile": "web"
+        },
+        {
+          "install": "@anionex/dsh-computer-use",
+          "command": "dsh plugin --profile headless add @anionex/dsh-computer-use",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@anionex/dsh-computer-use",
+      "version": "0.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Anionex/dsh-computer-use",
+        "commit": "1e9c8862e99ee86519799b8f30e335d22c078ee7"
+      },
+      "manifestSha256": "b309fc3dd4428d07abd72da2c2f1977904715781a4a9c0aba3ea476a93a3f4f3",
+      "manifestUrl": "https://github.com/Anionex/dsh-computer-use/blob/1e9c8862e99ee86519799b8f30e335d22c078ee7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.2.0-0 || 0.1.7-rc.2 >=0.1.0-rc.6 <0.2.0-0 || 0.2.0-rc.2 || 0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@anionex/dsh-computer-use",
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1792290424,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Anionex/dsh-computer-use",
+              "commit": "1e9c8862e99ee86519799b8f30e335d22c078ee7"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0-0 || 0.1.7-rc.2 >=0.1.0-rc.6 <0.2.0-0 || 0.2.0-rc.2 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@anionex/dsh-computer-use",
+      "origin": "npm",
+      "name": "@anionex/dsh-computer-use",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@anionex/dsh-computer-use",
+        "title": "@anionex/dsh-computer-use",
+        "description": "Accessibility-first macOS Computer Use capability for DeepSeek Harness with stale-observation protection, app leases, confirmations, screenshots, and Web diagnostics",
+        "repository": {
+          "url": "https://github.com/Anionex/dsh-computer-use"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "computer-use",
+            "macos",
+            "accessibility",
+            "desktop-automation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1792290490,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0-0 || 0.1.7-rc.2 >=0.1.0-rc.6 <0.2.0-0 || 0.2.0-rc.2 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "00c65c4801cf22ed23c51a207b7a68c0f2851b84f2d0445725dbff4236148e34",
+      "evidence": [
+        {
+          "name": "@anionex/dsh-computer-use",
+          "version": "0.3.4",
+          "tarball": "https://registry.npmjs.org/@anionex/dsh-computer-use/-/dsh-computer-use-0.3.4.tgz",
+          "integrity": "sha512-meamM+ljpMX1HIS7FKj2W+jI+aUsCwjL2lApyaB6DLDsrgc02id7/QfrCnzX+XxlnnEeVSBn+JOZbXfu0EFxpg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@anionex/dsh-computer-use",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Anionex/dsh-computer-use",
+    "commit": "1e9c8862e99ee86519799b8f30e335d22c078ee7",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:37.573Z"
+}

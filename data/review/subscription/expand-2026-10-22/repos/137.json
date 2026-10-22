@@ -1,0 +1,69 @@
+{
+  "full_name": "zmm863-commits/dsh-agnes-studio",
+  "originalPosition": 137,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 137,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-10-22T05:18:30.373Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "197c7c5d354cf442ea787168a5a11eeb04de056a9eeb88ae1fe42f3081c94619",
+      "url": "https://github.com/zmm863-commits/dsh-agnes-studio/blob/e1947f749d216770b3eb5f886363518d730fc883/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agnes-studio",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zmm863-commits/dsh-agnes-studio",
+        "commit": "e1947f749d216770b3eb5f886363518d730fc883"
+      },
+      "manifestSha256": "deed4f3d6b80b0e4caada4a200dc09b2f6dcc6f989a6b037852b9c8fc918dd01",
+      "manifestUrl": "https://github.com/zmm863-commits/dsh-agnes-studio/blob/e1947f749d216770b3eb5f886363518d730fc883/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-agnes-studio",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1791128010,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zmm863-commits/dsh-agnes-studio",
+              "commit": "e1947f749d216770b3eb5f886363518d730fc883"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zmm863-commits/dsh-agnes-studio",
+    "commit": "e1947f749d216770b3eb5f886363518d730fc883",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:38.914Z"
+}

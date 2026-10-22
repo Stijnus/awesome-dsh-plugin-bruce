@@ -1,0 +1,69 @@
+{
+  "full_name": "IWAIBAOLI/dsh-with-pencil",
+  "originalPosition": 115,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "stargazers_count": 23,
+  "startedAt": "2026-10-22T05:16:58.694Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9561d703f9acd3b5ea2d88083a7b2f4156f15c6999bd06d5567dcc497886b376",
+      "url": "https://github.com/IWAIBAOLI/dsh-with-pencil/blob/c919b8b6edd9466ed1c8f3ac9a80047485c51fe2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-with-pencil",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/IWAIBAOLI/dsh-with-pencil",
+        "commit": "c919b8b6edd9466ed1c8f3ac9a80047485c51fe2"
+      },
+      "manifestSha256": "a52b8ffdc310927e72afefb1f2f98a8e6ad2c5f1ee5304e6ebc99dca0cb61f80",
+      "manifestUrl": "https://github.com/IWAIBAOLI/dsh-with-pencil/blob/c919b8b6edd9466ed1c8f3ac9a80047485c51fe2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-with-pencil",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1791673586,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/IWAIBAOLI/dsh-with-pencil",
+              "commit": "c919b8b6edd9466ed1c8f3ac9a80047485c51fe2"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/IWAIBAOLI/dsh-with-pencil",
+    "commit": "c919b8b6edd9466ed1c8f3ac9a80047485c51fe2",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:17:09.157Z"
+}

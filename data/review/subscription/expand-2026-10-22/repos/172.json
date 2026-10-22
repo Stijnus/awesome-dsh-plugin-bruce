@@ -1,0 +1,69 @@
+{
+  "full_name": "Thanksgiver233/comm-protocol-hub",
+  "originalPosition": 172,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 172,
+  "batch": 1,
+  "stargazers_count": 15,
+  "startedAt": "2026-10-22T05:19:39.502Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "80441845140f3c44a2cc2164fd6b981b145c558308b8d85635824f7acc626d96",
+      "url": "https://github.com/Thanksgiver233/comm-protocol-hub/blob/8b7b07d88315ffe85ead1d680e72f9b83f07853d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-comm-protocol-hub",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Thanksgiver233/comm-protocol-hub",
+        "commit": "8b7b07d88315ffe85ead1d680e72f9b83f07853d"
+      },
+      "manifestSha256": "48c6772c9f39fa732e749853f59fb5c4a18ccc9a39418b697e0da9abb33f4d66",
+      "manifestUrl": "https://github.com/Thanksgiver233/comm-protocol-hub/blob/8b7b07d88315ffe85ead1d680e72f9b83f07853d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-comm-protocol-hub",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1786699739,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Thanksgiver233/comm-protocol-hub",
+              "commit": "8b7b07d88315ffe85ead1d680e72f9b83f07853d"
+            },
+            "engines": {
+              "dsh": ">=0.1.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Thanksgiver233/comm-protocol-hub",
+    "commit": "8b7b07d88315ffe85ead1d680e72f9b83f07853d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:19:48.472Z"
+}

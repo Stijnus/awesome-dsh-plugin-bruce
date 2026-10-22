@@ -2,9 +2,9 @@
 
 // Validates data/packages.json — the hand-maintained install-target mapping
 // (repo slug → exact `dsh plugin` command / npm package / install source,
-// plus requirements and verification status). Unlike every other data file
-// under data/, this one is written only by humans and AI assistants, never
-// regenerated, so this offline pass is what keeps it honest:
+// plus requirements and verification status). Humans, AI review, and the
+// subscription expander may append new keys; existing entries are never
+// rewritten. This offline pass is what keeps it honest:
 //
 //   - envelope and entry schema (statuses, dates, install modes)
 //   - keys are lowercase owner/repo slugs that exist in the current snapshot

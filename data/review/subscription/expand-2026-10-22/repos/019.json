@@ -1,0 +1,121 @@
+{
+  "full_name": "Microqian2th/dsh-codex-effort-slider",
+  "originalPosition": 19,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 19,
+  "batch": 1,
+  "stargazers_count": 178,
+  "startedAt": "2026-10-22T05:13:18.897Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2cfc4e830a7e7187f22250f5117fa1cbdd94111d55328d3250b8eac770ea6a2c",
+      "url": "https://github.com/Microqian2th/dsh-codex-effort-slider/blob/d1bb67b20bc19d44be7d7694ffca92a6f2fcbe9b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-effort-slider",
+          "command": "dsh plugin --profile <你的 profile> add dsh-codex-effort-slider",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-effort-slider",
+      "version": "1.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Microqian2th/dsh-codex-effort-slider",
+        "commit": "d1bb67b20bc19d44be7d7694ffca92a6f2fcbe9b"
+      },
+      "manifestSha256": "f69742b8f5bbd2c895d60216124ac039cb0e52692ab5ed355ad4c2d58d793cff",
+      "manifestUrl": "https://github.com/Microqian2th/dsh-codex-effort-slider/blob/d1bb67b20bc19d44be7d7694ffca92a6f2fcbe9b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-codex-effort-slider",
+        "versions": [
+          {
+            "version": "1.1.2",
+            "publishTimestamp": 1792281861,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Microqian2th/dsh-codex-effort-slider",
+              "commit": "d1bb67b20bc19d44be7d7694ffca92a6f2fcbe9b"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-codex-effort-slider",
+      "origin": "npm",
+      "name": "dsh-codex-effort-slider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-codex-effort-slider",
+        "title": "dsh-codex-effort-slider",
+        "description": "Codex 风格的推理等级滑条：把 DSH 输入框工具行的推理等级档位换成一条可拖动的连续滑条 / A Codex-style reasoning-effort slider for DeepSeek Harness",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "reasoning-effort",
+            "slider",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.3",
+            "publishTimestamp": 1792281566,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6a66702de0e058314c75e9de06677b83c154cabb8bff8e0a84629d2b7b2e9640",
+      "evidence": [
+        {
+          "name": "dsh-codex-effort-slider",
+          "version": "1.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-codex-effort-slider/-/dsh-codex-effort-slider-1.1.3.tgz",
+          "integrity": "sha512-9ncA5ciOReVoBQ7n6/79M/YKdtfe8n0m9i6aBB106NG/93CIYgX8Ww6m6BWlczdkKXsSdY9Sr+JaDb1nZggJUQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-effort-slider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Microqian2th/dsh-codex-effort-slider",
+    "commit": "d1bb67b20bc19d44be7d7694ffca92a6f2fcbe9b",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:31.306Z"
+}

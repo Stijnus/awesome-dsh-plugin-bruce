@@ -1,4 +1,5 @@
 /** Resolve only explicit HTTPS Git targets; never install or execute repository code. */
+import './git-temp-cleanup.mjs'
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
 import { createHash } from 'node:crypto'

@@ -1,0 +1,92 @@
+{
+  "full_name": "pk14742952-AD/dsh-host-rsi",
+  "originalPosition": 74,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 74,
+  "batch": 1,
+  "stargazers_count": 35,
+  "startedAt": "2026-10-22T05:15:18.975Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "34d7c6341df8d7ab6943ee0373f0c39bc6f40634db97eb58b80fb85479ae5d4d",
+      "url": "https://github.com/pk14742952-AD/dsh-host-rsi/blob/6d4a593b4e6514b262a701b4297bfdd69917cdbe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/pk14742952-AD/dsh-host-rsi",
+          "command": "dsh plugin add github:pk14742952-AD/dsh-host-rsi",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "469fec41f1a6b27d9ab7f87939513fdd5bc7644ed911c4b6aeb07db05f9408dd",
+      "url": "https://github.com/pk14742952-AD/dsh-host-rsi/blob/6d4a593b4e6514b262a701b4297bfdd69917cdbe/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/pk14742952-AD/dsh-host-rsi",
+          "command": "dsh plugin add github:pk14742952-AD/dsh-host-rsi",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-host-rsi",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/pk14742952-AD/dsh-host-rsi",
+        "commit": "6d4a593b4e6514b262a701b4297bfdd69917cdbe"
+      },
+      "manifestSha256": "324a8dc46228cac5c5dcafcfce85f01996c85443d7577fcfc3be5eb9f146cb6b",
+      "manifestUrl": "https://github.com/pk14742952-AD/dsh-host-rsi/blob/6d4a593b4e6514b262a701b4297bfdd69917cdbe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-host-rsi",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792298000,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/pk14742952-AD/dsh-host-rsi",
+              "commit": "6d4a593b4e6514b262a701b4297bfdd69917cdbe"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/pk14742952-AD/dsh-host-rsi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pk14742952-AD/dsh-host-rsi",
+    "commit": "6d4a593b4e6514b262a701b4297bfdd69917cdbe",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:29.168Z"
+}

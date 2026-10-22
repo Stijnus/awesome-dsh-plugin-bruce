@@ -1,0 +1,78 @@
+{
+  "full_name": "BreakFree003/dsh-clinepass-deepseek",
+  "originalPosition": 180,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 180,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-10-22T05:19:52.615Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3890415d48d2415ada674c5b1c929323a2773ca45253b90b8696d93b78b7fe5b",
+      "url": "https://github.com/BreakFree003/dsh-clinepass-deepseek/blob/ea64a2649cb3f67713cd51db601db340a5fc91f1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/BreakFree003/dsh-clinepass-deepseek",
+          "command": "dsh plugin --profile web add github:BreakFree003/dsh-clinepass-deepseek",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-clinepass",
+      "version": "0.12.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BreakFree003/dsh-clinepass-deepseek",
+        "commit": "ea64a2649cb3f67713cd51db601db340a5fc91f1"
+      },
+      "manifestSha256": "f9317e27a1b20c099a01ae5efbdbb7d73b5f2521746fb608faa9ede151ab2308",
+      "manifestUrl": "https://github.com/BreakFree003/dsh-clinepass-deepseek/blob/ea64a2649cb3f67713cd51db601db340a5fc91f1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-clinepass",
+        "versions": [
+          {
+            "version": "0.12.7",
+            "publishTimestamp": 1792460085,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BreakFree003/dsh-clinepass-deepseek",
+              "commit": "ea64a2649cb3f67713cd51db601db340a5fc91f1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/BreakFree003/dsh-clinepass-deepseek",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BreakFree003/dsh-clinepass-deepseek",
+    "commit": "ea64a2649cb3f67713cd51db601db340a5fc91f1",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:20:01.449Z"
+}

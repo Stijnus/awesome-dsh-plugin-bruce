@@ -1,0 +1,149 @@
+{
+  "full_name": "Miaotofu01/Study-Mate",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 1104,
+  "startedAt": "2026-10-22T05:12:36.729Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "031330a03efdb183f66ed64c1e0e028518cbfd1ab364da42252b1ddbcf4550b6",
+      "url": "https://github.com/Miaotofu01/Study-Mate/blob/d8114f38363272852b339d6788b2f8f007243b43/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yunmiao/studymate",
+          "command": "dsh plugin --profile web add @yunmiao/studymate",
+          "profile": "web"
+        },
+        {
+          "install": "@yunmiao/studymate",
+          "command": "dsh plugin --profile desktop add @yunmiao/studymate",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "scripts/tests/README.md",
+      "sha256": "a7754b8b1a0c3342be491bd1faf213664c041121b946f9716202de9978a7cbb5",
+      "url": "https://github.com/Miaotofu01/Study-Mate/blob/d8114f38363272852b339d6788b2f8f007243b43/scripts/tests/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "templates/README.md",
+      "sha256": "6a3ca983998d92254061d0b4db6f3294f215d60de4f45973a3025e9b211494a3",
+      "url": "https://github.com/Miaotofu01/Study-Mate/blob/d8114f38363272852b339d6788b2f8f007243b43/templates/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yunmiao/studymate",
+      "version": "2.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Miaotofu01/Study-Mate",
+        "commit": "d8114f38363272852b339d6788b2f8f007243b43"
+      },
+      "manifestSha256": "9af99682e65047a5bb58826ea3f2a75d7f65e017d474b28871eaf95e5a843bf8",
+      "manifestUrl": "https://github.com/Miaotofu01/Study-Mate/blob/d8114f38363272852b339d6788b2f8f007243b43/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@yunmiao/studymate",
+        "versions": [
+          {
+            "version": "2.0.3",
+            "publishTimestamp": 1792607040,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Miaotofu01/Study-Mate",
+              "commit": "d8114f38363272852b339d6788b2f8f007243b43"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@yunmiao/studymate",
+      "origin": "npm",
+      "name": "@yunmiao/studymate",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@yunmiao/studymate",
+        "title": "@yunmiao/studymate",
+        "description": "StudyMate learning skills and lesson engine for DeepSeek Harness, Google Antigravity, Codex and ChatGPT Work.",
+        "author": "Cattofu",
+        "homepage": "https://github.com/Miaotofu01/Study-Mate#readme",
+        "repository": {
+          "url": "https://github.com/Miaotofu01/Study-Mate"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "studymate",
+            "learning",
+            "education",
+            "antigravity",
+            "codex",
+            "chatgpt"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.0.3",
+            "publishTimestamp": 1792596172,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c8596edd4174f88352d8066a7acdaa8b5414c03254743e94addea643a360a178",
+      "evidence": [
+        {
+          "name": "@yunmiao/studymate",
+          "version": "2.0.3",
+          "tarball": "https://registry.npmjs.org/@yunmiao/studymate/-/studymate-2.0.3.tgz",
+          "integrity": "sha512-t59TQL0tafq/FaUdtj3axLTl0U3kIs++F9xeHdMU+ili9aZevnAY88fWKVsvgZ71GFwo5sv3TDeVdubt54qwFA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@yunmiao/studymate",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Miaotofu01/Study-Mate",
+    "commit": "d8114f38363272852b339d6788b2f8f007243b43",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:12:59.033Z"
+}

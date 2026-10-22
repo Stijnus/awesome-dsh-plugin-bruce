@@ -1,0 +1,77 @@
+{
+  "full_name": "omdsh-dev/plugin-template",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "stargazers_count": 13,
+  "startedAt": "2026-10-22T05:20:37.770Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "43f1b7e274ab09eade8116c52dd0c37b676129b87c602ea533a72e04e53821fb",
+      "url": "https://github.com/omdsh-dev/plugin-template/blob/644ac11934e0b71fb21a55e0fa2c2743222c7c3c/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3ffa03974c79a81993a042781489d78914c8c9318f919b6094f3ecc233a8f313",
+      "url": "https://github.com/omdsh-dev/plugin-template/blob/644ac11934e0b71fb21a55e0fa2c2743222c7c3c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@your-scope/dsh-plugin-template",
+      "version": "0.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/plugin-template",
+        "commit": "644ac11934e0b71fb21a55e0fa2c2743222c7c3c"
+      },
+      "manifestSha256": "aea2fd8aad7106e9d05fd91a096c83d7b77f5c0f18d3db5ee55478eb1b679a12",
+      "manifestUrl": "https://github.com/omdsh-dev/plugin-template/blob/644ac11934e0b71fb21a55e0fa2c2743222c7c3c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@your-scope/dsh-plugin-template",
+        "versions": [
+          {
+            "version": "0.0.1",
+            "publishTimestamp": 1792235903,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/omdsh-dev/plugin-template",
+              "commit": "644ac11934e0b71fb21a55e0fa2c2743222c7c3c"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/plugin-template",
+    "commit": "644ac11934e0b71fb21a55e0fa2c2743222c7c3c",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "template_or_example_review",
+  "finishedAt": "2026-10-22T05:20:48.900Z"
+}

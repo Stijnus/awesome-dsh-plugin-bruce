@@ -1,0 +1,123 @@
+{
+  "full_name": "iJetLi/dsh-providers-hub",
+  "originalPosition": 50,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 50,
+  "batch": 1,
+  "stargazers_count": 60,
+  "startedAt": "2026-10-22T05:14:29.972Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dc2f1548d49884ebac91fa0d71b92b702c55c9329eca56f0164c8279f370f6aa",
+      "url": "https://github.com/iJetLi/dsh-providers-hub/blob/70d1d64760565098cd6ab2e6c595d46f08e42c64/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://gitee.com/iJetLi/deepseek-harness-codearts.git",
+          "command": "dsh plugin --profile <name> add \"https://gitee.com/iJetLi/deepseek-harness-codearts.git\"",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-providers-hub",
+      "version": "0.2.1-rc.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/iJetLi/dsh-providers-hub",
+        "commit": "70d1d64760565098cd6ab2e6c595d46f08e42c64"
+      },
+      "manifestSha256": "65b8b9b460970937442f65abb502787b3ff62602f84954509ab139e99cee0ed7",
+      "manifestUrl": "https://github.com/iJetLi/dsh-providers-hub/blob/70d1d64760565098cd6ab2e6c595d46f08e42c64/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-providers-hub",
+        "versions": [
+          {
+            "version": "0.2.1-rc.2",
+            "publishTimestamp": 1792604299,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/iJetLi/dsh-providers-hub",
+              "commit": "70d1d64760565098cd6ab2e6c595d46f08e42c64"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://gitee.com/iJetLi/deepseek-harness-codearts.git",
+      "origin": "git_target",
+      "name": "dsh-providers-hub",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-providers-hub",
+        "title": {
+          "en": "Jet Hub",
+          "zh": "Jet Hub"
+        },
+        "description": {
+          "en": "Sign in and manage accounts across multiple providers, with multi-account pools, silent credential refresh, per-model list toggles, credit balances and daily check-in.",
+          "zh": "登录并管理多家渠道账号，支持多账号池、凭据静默续期、模型列表开关、积分余额与每日签到。"
+        },
+        "versions": [
+          {
+            "version": "0.2.1-rc.2",
+            "publishTimestamp": 1792604299,
+            "source": {
+              "type": "git",
+              "url": "https://gitee.com/iJetLi/deepseek-harness-codearts",
+              "commit": "70d1d64760565098cd6ab2e6c595d46f08e42c64"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "70d1d64760565098cd6ab2e6c595d46f08e42c64",
+          "name": "dsh-providers-hub",
+          "version": "0.2.1-rc.2",
+          "url": "https://gitee.com/iJetLi/deepseek-harness-codearts",
+          "manifestSha256": "65b8b9b460970937442f65abb502787b3ff62602f84954509ab139e99cee0ed7",
+          "publishTimestamp": 1792604299
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://gitee.com/iJetLi/deepseek-harness-codearts.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/iJetLi/dsh-providers-hub",
+    "commit": "70d1d64760565098cd6ab2e6c595d46f08e42c64",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:45.320Z"
+}

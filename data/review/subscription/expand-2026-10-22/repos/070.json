@@ -1,0 +1,66 @@
+{
+  "full_name": "LaplaceYoung/dsh-directorx",
+  "originalPosition": 70,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 70,
+  "batch": 1,
+  "stargazers_count": 38,
+  "startedAt": "2026-10-22T05:15:15.315Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "108deab580f94c7ed3fd33096caeef208d892e4c9c885d81c8332179ca753b93",
+      "url": "https://github.com/LaplaceYoung/dsh-directorx/blob/d63c425b4d6c40f3db30ccd433d24ed34947c8af/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-directorx",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LaplaceYoung/dsh-directorx",
+        "commit": "d63c425b4d6c40f3db30ccd433d24ed34947c8af"
+      },
+      "manifestSha256": "b508ba5525ea70f97c610f515c39866f4d980445e32fdae8c3cc4f842e3809b9",
+      "manifestUrl": "https://github.com/LaplaceYoung/dsh-directorx/blob/d63c425b4d6c40f3db30ccd433d24ed34947c8af/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-directorx",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791582554,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LaplaceYoung/dsh-directorx",
+              "commit": "d63c425b4d6c40f3db30ccd433d24ed34947c8af"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LaplaceYoung/dsh-directorx",
+    "commit": "d63c425b4d6c40f3db30ccd433d24ed34947c8af",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:22.743Z"
+}

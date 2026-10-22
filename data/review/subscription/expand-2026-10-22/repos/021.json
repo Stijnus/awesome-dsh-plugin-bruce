@@ -1,0 +1,77 @@
+{
+  "full_name": "a1exsun/dsh-council",
+  "originalPosition": 21,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "stargazers_count": 157,
+  "startedAt": "2026-10-22T05:13:23.561Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ffc6a7124d3fb27ed2148a3c04016f1dfa59fc4cbf78554a6f63e71e1c37f08c",
+      "url": "https://github.com/a1exsun/dsh-council/blob/d195761c3d7e7f62acc6e792a8b2d44859d9ced5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "bc07d0dfee8fbb2d8f2e26b1aa4262d1b27c20a0bf69184b6353207a8741ef2d",
+      "url": "https://github.com/a1exsun/dsh-council/blob/d195761c3d7e7f62acc6e792a8b2d44859d9ced5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@a1exsun/dsh-council",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/a1exsun/dsh-council",
+        "commit": "d195761c3d7e7f62acc6e792a8b2d44859d9ced5"
+      },
+      "manifestSha256": "b553e9f86964bbcf4d849cd30aa8ba5aaf0ef492e601aa74d981528dfef9963e",
+      "manifestUrl": "https://github.com/a1exsun/dsh-council/blob/d195761c3d7e7f62acc6e792a8b2d44859d9ced5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@a1exsun/dsh-council",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788868287,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a1exsun/dsh-council",
+              "commit": "d195761c3d7e7f62acc6e792a8b2d44859d9ced5"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/a1exsun/dsh-council",
+    "commit": "d195761c3d7e7f62acc6e792a8b2d44859d9ced5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:30.800Z"
+}

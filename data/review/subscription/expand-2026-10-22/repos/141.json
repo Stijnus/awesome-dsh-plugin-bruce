@@ -1,0 +1,77 @@
+{
+  "full_name": "chengshenyangtai/dsh-workbuddy-trae-qoder-connect",
+  "originalPosition": 141,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-10-22T05:18:37.750Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aefd0179761b7ec019bbc581990227466d7c39d3ed1bc3adf820712effa7d879",
+      "url": "https://github.com/chengshenyangtai/dsh-workbuddy-trae-qoder-connect/blob/2b4f433f005b4622303b8539c1b2800e3a2fa56d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "probes/README.md",
+      "sha256": "7637a7c8639823b054e729ebed3230954b438d3dbe3221b119e5f19106a0f9f3",
+      "url": "https://github.com/chengshenyangtai/dsh-workbuddy-trae-qoder-connect/blob/2b4f433f005b4622303b8539c1b2800e3a2fa56d/probes/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workbuddy-trae-qoder-connect",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chengshenyangtai/dsh-workbuddy-trae-qoder-connect",
+        "commit": "2b4f433f005b4622303b8539c1b2800e3a2fa56d"
+      },
+      "manifestSha256": "4cdd38dc5186cf636887b5e52a31acfa68e7421e30c9e0ed0ccf5f2ca8f743ab",
+      "manifestUrl": "https://github.com/chengshenyangtai/dsh-workbuddy-trae-qoder-connect/blob/2b4f433f005b4622303b8539c1b2800e3a2fa56d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-workbuddy-trae-qoder-connect",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1792576068,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chengshenyangtai/dsh-workbuddy-trae-qoder-connect",
+              "commit": "2b4f433f005b4622303b8539c1b2800e3a2fa56d"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chengshenyangtai/dsh-workbuddy-trae-qoder-connect",
+    "commit": "2b4f433f005b4622303b8539c1b2800e3a2fa56d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:47.170Z"
+}

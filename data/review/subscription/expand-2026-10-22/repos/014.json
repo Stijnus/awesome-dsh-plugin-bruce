@@ -1,0 +1,166 @@
+{
+  "full_name": "Nwflower/dsh-claude-style",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "stargazers_count": 248,
+  "startedAt": "2026-10-22T05:13:07.490Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4b56e7e0de700fedbf2a0e6818f78e5458d4ce4e86defd57ced7b209d50631e2",
+      "url": "https://github.com/Nwflower/dsh-claude-style/blob/2fe04aaea64cc82a559d88c77cd08eff8a386ef9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-claude-style",
+          "command": "dsh plugin --profile web add dsh-claude-style",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1556f2c3c2b30e4a620ece873b16bfabc3b9fb0afd40b9ecf42e357be5760d7c",
+      "url": "https://github.com/Nwflower/dsh-claude-style/blob/2fe04aaea64cc82a559d88c77cd08eff8a386ef9/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-claude-style",
+          "command": "dsh plugin --profile web add dsh-claude-style",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/adr/README.md",
+      "sha256": "5efda93d96c1a7b0a7abe6476292f3a0d7734156b9f8d7fb18b779775a245103",
+      "url": "https://github.com/Nwflower/dsh-claude-style/blob/2fe04aaea64cc82a559d88c77cd08eff8a386ef9/docs/adr/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-claude-style",
+      "version": "0.18.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nwflower/dsh-claude-style",
+        "commit": "2fe04aaea64cc82a559d88c77cd08eff8a386ef9"
+      },
+      "manifestSha256": "316579fe31d60435e02cb51043524be2e506eb7a9d07157cc431ea3be938f916",
+      "manifestUrl": "https://github.com/Nwflower/dsh-claude-style/blob/2fe04aaea64cc82a559d88c77cd08eff8a386ef9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-claude-style",
+        "versions": [
+          {
+            "version": "0.18.2",
+            "publishTimestamp": 1792640652,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Nwflower/dsh-claude-style",
+              "commit": "2fe04aaea64cc82a559d88c77cd08eff8a386ef9"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-claude-style",
+      "origin": "npm",
+      "name": "dsh-claude-style",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-claude-style",
+        "title": {
+          "en": "Claude Code Style",
+          "zh": "Claude Code 风格"
+        },
+        "description": {
+          "en": "Claude Code Desktop theme for the DeepSeek Harness web GUI — ivory and warm-black canvases, the clay accent, a Claude-style model picker, permission segments and an account drawer.",
+          "zh": "为 DeepSeek Harness 网页界面复刻 Claude Code Desktop 的主题插件——象牙白与暖黑双画布、陶烬橙强调色、Claude 风格模型选择器、权限分段与账户抽屉。"
+        },
+        "author": "Nwflower",
+        "homepage": "https://github.com/Nwflower/dsh-claude-style#readme",
+        "repository": {
+          "url": "https://github.com/Nwflower/dsh-claude-style"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "cordis",
+            "web-ui",
+            "theme",
+            "claude",
+            "claude-code",
+            "desktop-theme",
+            "anthropic",
+            "editorial"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNDguMDkgMTQ4LjE4Jz48ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNzUuOTYsLTIyMy41MyknPjxwYXRoIGZpbGw9JyNEOTc3NTcnIGQ9J20gMTA1LjAxLDMyMi4wNyAyOS4xNCwtMTYuMzUgMC40OSwtMS40MiAtMC40OSwtMC43OSBoIC0xLjQyIGwgLTQuODcsLTAuMyAtMTYuNjUsLTAuNDUgLTE0LjQ0LC0wLjYgLTEzLjk5LC0wLjc1IC0zLjUyLC0wLjc1IC0zLjMsLTQuMzUgMC4zNCwtMi4xNyAyLjk2LC0xLjk5IDQuMjQsMC4zNyA5LjM3LDAuNjQgMTQuMDYsMC45NyAxMC4yLDAuNiAxNS4xMSwxLjU3IGggMi40IGwgMC4zNCwtMC45NyAtMC44MiwtMC42IC0wLjY0LC0wLjYgLTE0LjU1LC05Ljg2IC0xNS43NSwtMTAuNDIgLTguMjUsLTYgLTQuNDYsLTMuMDQgLTIuMjUsLTIuODUgLTAuOTcsLTYuMjIgNC4wNSwtNC40NiA1LjQ0LDAuMzcgMS4zOSwwLjM3IDUuNTEsNC4yNCAxMS43Nyw5LjExIDE1LjM3LDExLjMyIDIuMjUsMS44NyAwLjksLTAuNjQgMC4xMSwtMC40NSAtMS4wMSwtMS42OSAtOC4zNiwtMTUuMTEgLTguOTIsLTE1LjM3IC0zLjk3LC02LjM3IC0xLjA1LC0zLjgyIGMgLTAuMzcsLTEuNTcgLTAuNjQsLTIuODkgLTAuNjQsLTQuNSBsIDQuNjEsLTYuMjYgMi41NSwtMC44MiA2LjE1LDAuODIgMi41OSwyLjI1IDMuODIsOC43NCA2LjE5LDEzLjc2IDkuNiwxOC43MSAyLjgxLDUuNTUgMS41LDUuMTQgMC41NiwxLjU3IGggMC45NyB2IC0wLjkgbCAwLjc5LC0xMC41NCAxLjQ2LC0xMi45NCAxLjQyLC0xNi42NSAwLjQ5LC00LjY5IDIuMzIsLTUuNjIgNC42MSwtMy4wNCAzLjYsMS43MiAyLjk2LDQuMjQgLTAuNDEsMi43NCAtMS43NiwxMS40NCAtMy40NSwxNy45MiAtMi4yNSwxMiBoIDEuMzEgbCAxLjUsLTEuNSA2LjA3LC04LjA2IDEwLjIsLTEyLjc1IDQuNSwtNS4wNiA1LjI1LC01LjU5IDMuMzcsLTIuNjYgaCA2LjM3IGwgNC42OSw2Ljk3IC0yLjEsNy4yIC02LjU2LDguMzIgLTUuNDQsNy4wNSAtNy44LDEwLjUgLTQuODcsOC40IDAuNDUsMC42NyAxLjE2LC0wLjExIDE3LjYyLC0zLjc1IDkuNTIsLTEuNzIgMTEuMzYsLTEuOTUgNS4xNCwyLjQgMC41NiwyLjQ0IC0yLjAyLDQuOTkgLTEyLjE1LDMgLTE0LjI1LDIuODUgLTIxLjIyLDUuMDIgLTAuMjYsMC4xOSAwLjMsMC4zNyA5LjU2LDAuOSA0LjA5LDAuMjIgaCAxMC4wMSBsIDE4LjY0LDEuMzkgNC44NywzLjIyIDIuOTIsMy45NCAtMC40OSwzIC03LjUsMy44MiAtMTAuMTIsLTIuNCAtMjMuNjIsLTUuNjIgLTguMSwtMi4wMiBoIC0xLjEyIHYgMC42NyBsIDYuNzUsNi42IDEyLjM3LDExLjE3IDE1LjQ5LDE0LjQgMC43OSwzLjU2IC0xLjk5LDIuODEgLTIuMSwtMC4zIC0xMy42MSwtMTAuMjQgLTUuMjUsLTQuNjEgLTExLjg5LC0xMC4wMSBoIC0wLjc5IHYgMS4wNSBsIDIuNzQsNC4wMSAxNC40NywyMS43NSAwLjc1LDYuNjcgLTEuMDUsMi4xNyAtMy43NSwxLjMxIC00LjEyLC0wLjc1IC04LjQ3LC0xMS44OSAtOC43NCwtMTMuMzkgLTcuMDUsLTEyIC0wLjg2LDAuNDkgLTQuMTYsNDQuODEgLTEuOTUsMi4yOSAtNC41LDEuNzIgLTMuNzUsLTIuODUgLTEuOTksLTQuNjEgMS45OSwtOS4xMSAyLjQsLTExLjg5IDEuOTUsLTkuNDUgMS43NiwtMTEuNzQgMS4wNSwtMy45IC0wLjA3LC0wLjI2IC0wLjg2LDAuMTEgLTguODUsMTIuMTUgLTEzLjQ2LDE4LjE5IC0xMC42NSwxMS40IC0yLjU1LDEuMDEgLTQuNDIsLTIuMjkgMC40MSwtNC4wOSAyLjQ3LC0zLjY0IDE0Ljc0LC0xOC43NSA4Ljg5LC0xMS42MiA1Ljc0LC02LjcxIC0wLjA0LC0wLjk3IGggLTAuMzQgbCAtMzkuMTUsMjUuNDIgLTYuOTcsMC45IC0zLC0yLjgxIDAuMzcsLTQuNjEgMS40MiwtMS41IDExLjc3LC04LjEgLTAuMDQsMC4wNCB6Jy8+PC9nPjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.18.2",
+            "publishTimestamp": 1792599346,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6d423ff9791f107529bc7e06acba193f9d0b36ca4b36167b2473b34fa2f8bddd",
+      "evidence": [
+        {
+          "name": "dsh-claude-style",
+          "version": "0.18.2",
+          "tarball": "https://registry.npmjs.org/dsh-claude-style/-/dsh-claude-style-0.18.2.tgz",
+          "integrity": "sha512-jUSgT6TJkW/XPvpuj83lfDz2pnu/KNQU3D+yqmAVgWUPGLITFpwu6RxZ/Ftg5Jyf4Z0fPfv5w75UPqW4FrA5nQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-claude-style",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nwflower/dsh-claude-style",
+    "commit": "2fe04aaea64cc82a559d88c77cd08eff8a386ef9",
+    "releaseTags": 54,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:23.559Z"
+}

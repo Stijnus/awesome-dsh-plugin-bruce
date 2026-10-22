@@ -1,0 +1,82 @@
+{
+  "full_name": "Aik358/dsh-auto-memory",
+  "originalPosition": 22,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 22,
+  "batch": 1,
+  "stargazers_count": 137,
+  "startedAt": "2026-10-22T05:13:27.915Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fa0d85cd9161751646f879949fd37431bfac2da35f070bc67a95b631fed50405",
+      "url": "https://github.com/Aik358/dsh-auto-memory/blob/4a0d621f3e8f7dadf7d2de6649b4f6db891d065f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "aadec7b732796338b38dde5d351a19986c7242c19d748cf72fef71d75f205593",
+      "url": "https://github.com/Aik358/dsh-auto-memory/blob/4a0d621f3e8f7dadf7d2de6649b4f6db891d065f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "skins/README.md",
+      "sha256": "9af34b2a3f82a28da8d51d8d0ed76c16bb56d69640e8a3fa5dd9c819caa336aa",
+      "url": "https://github.com/Aik358/dsh-auto-memory/blob/4a0d621f3e8f7dadf7d2de6649b4f6db891d065f/skins/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@a9i5k4/dsh-auto-memory",
+      "version": "3.3.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Aik358/dsh-auto-memory",
+        "commit": "4a0d621f3e8f7dadf7d2de6649b4f6db891d065f"
+      },
+      "manifestSha256": "0609d7a2ac289fa1b7868e0649d3d92064ed70ee74023fd7d9aa7c3c276f354c",
+      "manifestUrl": "https://github.com/Aik358/dsh-auto-memory/blob/4a0d621f3e8f7dadf7d2de6649b4f6db891d065f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@a9i5k4/dsh-auto-memory",
+        "versions": [
+          {
+            "version": "3.3.16",
+            "publishTimestamp": 1792637976,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Aik358/dsh-auto-memory",
+              "commit": "4a0d621f3e8f7dadf7d2de6649b4f6db891d065f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Aik358/dsh-auto-memory",
+    "commit": "4a0d621f3e8f7dadf7d2de6649b4f6db891d065f",
+    "releaseTags": 106,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:44.508Z"
+}

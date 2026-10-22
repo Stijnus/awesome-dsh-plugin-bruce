@@ -1,0 +1,95 @@
+{
+  "full_name": "mangfufu/dsh-comfyui-web",
+  "originalPosition": 143,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 143,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-10-22T05:18:38.915Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3d7606c3798eaee3fe682246d773515d63cf2b8b1e556a7ddba6bcc513a530d7",
+      "url": "https://github.com/mangfufu/dsh-comfyui-web/blob/c11bc45c1037d1b34c5587e4bb2a4f58d0e84622/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mangfufu/dsh-comfyui-web",
+          "command": "dsh plugin --profile web add github:mangfufu/dsh-comfyui-web",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3eb1a4204450eb14bca503775e03f1296abc63a0e0545063e89a5a89ee5aff24",
+      "url": "https://github.com/mangfufu/dsh-comfyui-web/blob/c11bc45c1037d1b34c5587e4bb2a4f58d0e84622/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mangfufu/dsh-comfyui-web",
+          "command": "dsh plugin --profile web add github:mangfufu/dsh-comfyui-web",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-comfyui-web",
+      "version": "0.5.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mangfufu/dsh-comfyui-web",
+        "commit": "c11bc45c1037d1b34c5587e4bb2a4f58d0e84622"
+      },
+      "manifestSha256": "08243f2617b2779461b046f5b1ceac83fad04b6f8f97eaebee5a50bfdfb0dabb",
+      "manifestUrl": "https://github.com/mangfufu/dsh-comfyui-web/blob/c11bc45c1037d1b34c5587e4bb2a4f58d0e84622/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-comfyui-web",
+        "versions": [
+          {
+            "version": "0.5.12",
+            "publishTimestamp": 1792307646,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mangfufu/dsh-comfyui-web",
+              "commit": "c11bc45c1037d1b34c5587e4bb2a4f58d0e84622"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/mangfufu/dsh-comfyui-web",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mangfufu/dsh-comfyui-web",
+    "commit": "c11bc45c1037d1b34c5587e4bb2a4f58d0e84622",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:47.862Z"
+}

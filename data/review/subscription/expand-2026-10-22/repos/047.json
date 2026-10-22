@@ -1,0 +1,278 @@
+{
+  "full_name": "pearjelly/deep-blend",
+  "originalPosition": 47,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 47,
+  "batch": 1,
+  "stargazers_count": 63,
+  "startedAt": "2026-10-22T05:14:25.518Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "55588e10b230ed4b23a5202bee9da53efa26813fc4e6fd1787dbcb455bdef46f",
+      "url": "https://github.com/pearjelly/deep-blend/blob/6462af7d5e337c3d175a59edee4b1b30e72a9ee3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+          "command": "dsh plugin --profile web add https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pearjelly/deep-blend#path:/packages/deepblend/bundle",
+          "command": "dsh plugin --profile web add 'github:pearjelly/deep-blend#path:/packages/deepblend/bundle'",
+          "profile": "web"
+        },
+        {
+          "install": "@deepblend/dsh-blender-bundle",
+          "command": "dsh plugin --profile web add @deepblend/dsh-blender-bundle",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7518bb5cee285405ac2a24b14804bbcb37b09d4a899b6a6c9d725a77aefd0216",
+      "url": "https://github.com/pearjelly/deep-blend/blob/6462af7d5e337c3d175a59edee4b1b30e72a9ee3/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+          "command": "dsh plugin --profile web add https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pearjelly/deep-blend#path:/packages/deepblend/bundle",
+          "command": "dsh plugin --profile web add 'github:pearjelly/deep-blend#path:/packages/deepblend/bundle'",
+          "profile": "web"
+        },
+        {
+          "install": "@deepblend/dsh-blender-bundle",
+          "command": "dsh plugin --profile web add @deepblend/dsh-blender-bundle",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "deepblend/docs/README.md",
+      "sha256": "1a27a03bbad4618ab01aebd5b3e5f014b48063226752265d482996b0d6aac9ef",
+      "url": "https://github.com/pearjelly/deep-blend/blob/6462af7d5e337c3d175a59edee4b1b30e72a9ee3/deepblend/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deepblend/showcase/pagoda/README.md",
+      "sha256": "6fa9e4ebefba55f5b52b817fa5d974a9ab85d6059dba3f99aa31fe68b01873e3",
+      "url": "https://github.com/pearjelly/deep-blend/blob/6462af7d5e337c3d175a59edee4b1b30e72a9ee3/deepblend/showcase/pagoda/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deepblend/showcase/README.md",
+      "sha256": "af2f18450786801f1984a3addd26e0246f9e677948faaa571d7147a9b8eebf92",
+      "url": "https://github.com/pearjelly/deep-blend/blob/6462af7d5e337c3d175a59edee4b1b30e72a9ee3/deepblend/showcase/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deepblend/reproductions/recovery-v0.11.0/README.md",
+      "sha256": "ed0920c44736300d971fe6a0823dd5572284946a3a957c7e7df070ec9abfafb8",
+      "url": "https://github.com/pearjelly/deep-blend/blob/6462af7d5e337c3d175a59edee4b1b30e72a9ee3/deepblend/reproductions/recovery-v0.11.0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deepblend/development/README.md",
+      "sha256": "6b183a9b7b1ae6b1b67a4a1103218ff168054d6c5a9e574f78eaf96615a87109",
+      "url": "https://github.com/pearjelly/deep-blend/blob/6462af7d5e337c3d175a59edee4b1b30e72a9ee3/deepblend/development/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepblend/dsh-blender-bundle",
+      "version": "0.16.0",
+      "path": "packages/deepblend/bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/pearjelly/deep-blend",
+        "commit": "6462af7d5e337c3d175a59edee4b1b30e72a9ee3",
+        "path": "packages/deepblend/bundle"
+      },
+      "manifestSha256": "8044ddf7519955900d10f0d00b23ebc764c2596ccb97ade8fdfbff4c1c123ad3",
+      "manifestUrl": "https://github.com/pearjelly/deep-blend/blob/6462af7d5e337c3d175a59edee4b1b30e72a9ee3/packages/deepblend/bundle/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.5-rc.2 || 0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@deepblend/dsh-blender-bundle",
+        "versions": [
+          {
+            "version": "0.16.0",
+            "publishTimestamp": 1792645339,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/pearjelly/deep-blend",
+              "commit": "6462af7d5e337c3d175a59edee4b1b30e72a9ee3",
+              "path": "packages/deepblend/bundle"
+            },
+            "engines": {
+              "dsh": "0.1.5-rc.2 || 0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/pearjelly/deep-blend#path:/packages/deepblend/bundle",
+      "origin": "git_target",
+      "name": "@deepblend/dsh-blender-bundle",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@deepblend/dsh-blender-bundle",
+        "title": "@deepblend/dsh-blender-bundle",
+        "description": "Create Blender product scenes in DSH with editable recipes, model imports, previews and PNG/MP4 delivery; includes workbench and agent configuration.",
+        "homepage": "https://github.com/pearjelly/deep-blend#quick-start",
+        "repository": {
+          "url": "https://github.com/pearjelly/deep-blend",
+          "directory": "packages/deepblend/bundle"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "blender",
+            "3d",
+            "product-visualization",
+            "rendering",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.16.0",
+            "publishTimestamp": 1792645339,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/pearjelly/deep-blend",
+              "commit": "6462af7d5e337c3d175a59edee4b1b30e72a9ee3",
+              "path": "packages/deepblend/bundle"
+            },
+            "engines": {
+              "dsh": "0.1.5-rc.2 || 0.2.1-rc.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "packages/deepblend/bundle",
+          "commit": "6462af7d5e337c3d175a59edee4b1b30e72a9ee3",
+          "name": "@deepblend/dsh-blender-bundle",
+          "version": "0.16.0",
+          "url": "https://github.com/pearjelly/deep-blend",
+          "manifestSha256": "8044ddf7519955900d10f0d00b23ebc764c2596ccb97ade8fdfbff4c1c123ad3",
+          "publishTimestamp": 1792645339
+        }
+      ]
+    },
+    {
+      "target": "@deepblend/dsh-blender-bundle",
+      "origin": "npm",
+      "name": "@deepblend/dsh-blender-bundle",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@deepblend/dsh-blender-bundle",
+        "title": "@deepblend/dsh-blender-bundle",
+        "description": "Create Blender product scenes in DSH with editable recipes, model imports, previews and PNG/MP4 delivery; includes workbench and agent configuration.",
+        "homepage": "https://github.com/pearjelly/deep-blend#quick-start",
+        "repository": {
+          "url": "https://github.com/pearjelly/deep-blend",
+          "directory": "packages/deepblend/bundle"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "blender",
+            "3d",
+            "product-visualization",
+            "rendering",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.16.0",
+            "publishTimestamp": 1792642072,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.5-rc.2 || 0.2.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "099c5e94ecfd2479c96b6e2dedba13cf097d7e0ec3542a45cac54f13a7aadc90",
+      "evidence": [
+        {
+          "name": "@deepblend/dsh-blender-bundle",
+          "version": "0.16.0",
+          "tarball": "https://registry.npmjs.org/@deepblend/dsh-blender-bundle/-/dsh-blender-bundle-0.16.0.tgz",
+          "integrity": "sha512-EuitBN5/zH+mMOgeuCAQUz4XYY6j1Jc10oDUpComDMBp9tBCxs2Bd3w3kxVUytDQ0nObzLz5hHkMDuz496ob/g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/pearjelly/deep-blend/releases/latest/download/deepblend-bundle.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/pearjelly/deep-blend#path:/packages/deepblend/bundle",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@deepblend/dsh-blender-bundle",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pearjelly/deep-blend",
+    "commit": "6462af7d5e337c3d175a59edee4b1b30e72a9ee3",
+    "releaseTags": 52,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:10.764Z"
+}

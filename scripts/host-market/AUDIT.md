@@ -41,7 +41,7 @@ node --import ./scripts/host-market/node_modules/tsx/dist/loader.mjs scripts/hos
 
 `eligible_source_verified` 不代表所有候选都通过；逐个候选的状态及 `mappingFindings` 仍需查看。一个仓库可以有多个包和安装目标，因此仓库数、候选数与订阅包数不能混算。`declaredCompatibleWithHost` 仅判断作者范围是否包含 alpha.5，不代表实机测试。
 
-核验报告先进入仓库供复核。确认修正后才更新映射、重新生成 v2 与订阅索引，执行验证并发布。不会自动替第三方包添加 `engines.dsh`，也不会自动联系作者。
+核验报告先进入仓库供复核。身份可追溯的合格来源由 `expand-mappings.mjs` 追加到 `data/packages.json`（不改已有条目、不代填 `engines.dsh`），再经 v2 与订阅索引核验后发布。模板包和 npm 身份对不上的仓库写入 `mapping-pending.md` 供 AI 核实。不会自动替第三方包添加 `engines.dsh`，也不会自动联系作者。
 
 `triage.json` 汇总待修映射、模板/示例标记及可核实来源，供维护者逐项处理。`--summary` 根据已保存证据更新分类，不重新抓取网络内容。
 

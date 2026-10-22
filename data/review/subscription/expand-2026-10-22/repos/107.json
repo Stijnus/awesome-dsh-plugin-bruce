@@ -1,0 +1,311 @@
+{
+  "full_name": "czcdr/dsh-plugin-rea",
+  "originalPosition": 107,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "stargazers_count": 25,
+  "startedAt": "2026-10-22T05:16:31.358Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5d7320e1fe332f72a7deb57683c2933f0817d2db8f625c7bbf592052b1e386a3",
+      "url": "https://github.com/czcdr/dsh-plugin-rea/blob/1438672f9a57d92680254ad3782baec0b34c5d3f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-rea",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-rea",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/czcdr/dsh-plugin-rea#v2.0.11",
+          "command": "dsh plugin --profile <profile> add github:czcdr/dsh-plugin-rea#v2.0.11",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/czcdr/dsh-plugin-rea#v1.0.6",
+          "command": "dsh plugin --profile <profile> add github:czcdr/dsh-plugin-rea#v1.0.6",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-plugin-rea@1.0.6",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-rea@1.0.6",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "0602c42a24b78aae36140b980b338b7b311968f9b97a9cc2129063c47ea61aa4",
+      "url": "https://github.com/czcdr/dsh-plugin-rea/blob/1438672f9a57d92680254ad3782baec0b34c5d3f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-rea",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-rea",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/czcdr/dsh-plugin-rea#v2.0.11",
+          "command": "dsh plugin --profile <profile> add github:czcdr/dsh-plugin-rea#v2.0.11",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/czcdr/dsh-plugin-rea#v1.0.6",
+          "command": "dsh plugin --profile <profile> add github:czcdr/dsh-plugin-rea#v1.0.6",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-plugin-rea@1.0.6",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-rea@1.0.6",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-rea",
+      "version": "2.0.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/czcdr/dsh-plugin-rea",
+        "commit": "1438672f9a57d92680254ad3782baec0b34c5d3f"
+      },
+      "manifestSha256": "0c812684554f8fb45c5aeba6e3b64edb68cc0616bec2e99996608f792e42cadd",
+      "manifestUrl": "https://github.com/czcdr/dsh-plugin-rea/blob/1438672f9a57d92680254ad3782baec0b34c5d3f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-rea",
+        "versions": [
+          {
+            "version": "2.0.11",
+            "publishTimestamp": 1792494556,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/czcdr/dsh-plugin-rea",
+              "commit": "1438672f9a57d92680254ad3782baec0b34c5d3f"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-rea",
+      "origin": "npm",
+      "name": "dsh-plugin-rea",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-rea",
+        "title": "dsh-plugin-rea",
+        "description": "One-plugin bundle: provisions Node/REA/JDK/Ghidra for you, then registers the upstream REA MCP server as mcp__rea__* tools. · 一体包：自动准备 Node/REA/JDK/Ghidra，并把上游 REA 的 MCP 服务接入 DeepSeek Harness。",
+        "author": "czcdr",
+        "homepage": "https://github.com/czcdr/dsh-plugin-rea",
+        "repository": {
+          "url": "https://github.com/czcdr/dsh-plugin-rea"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "cordis-plugin",
+            "bundle",
+            "mcp",
+            "rea",
+            "reverse-engineering",
+            "ghidra",
+            "binary-analysis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.0.10",
+            "publishTimestamp": 1792418809,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "690d5b2dbf15225a1a18a96215c6d90c0763fc04178a85e567f16841f8869de5",
+      "evidence": [
+        {
+          "name": "dsh-plugin-rea",
+          "version": "2.0.10",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-rea/-/dsh-plugin-rea-2.0.10.tgz",
+          "integrity": "sha512-zEGynFIwNMoLG6wfrw1uaTyTv7uJ6qL4AdOVuUDSTeCJKHrmQ8oCXKGJqG5pveYDbpnF2/pEhCR9RDMixEECpg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/czcdr/dsh-plugin-rea#v2.0.11",
+      "status": "mapping_needs_review",
+      "code": "git_ref_not_found",
+      "reason": "指定 Git 引用不存在"
+    },
+    {
+      "target": "https://github.com/czcdr/dsh-plugin-rea#v1.0.6",
+      "origin": "git_target",
+      "name": "dsh-plugin-rea",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-rea",
+        "title": "dsh-plugin-rea",
+        "description": "Registers the upstream REA MCP server into DeepSeek Harness as mcp__rea__* tools — a third-party adapter, analysis is upstream's. · 把上游 REA 的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具（第三方适配，分析能力属上游）。",
+        "author": "czcdr",
+        "homepage": "https://github.com/czcdr/dsh-plugin-rea",
+        "repository": {
+          "url": "https://github.com/czcdr/dsh-plugin-rea"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "cordis-plugin",
+            "bundle",
+            "mcp",
+            "rea",
+            "reverse-engineering",
+            "ghidra",
+            "binary-analysis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.6",
+            "publishTimestamp": 1791887119,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/czcdr/dsh-plugin-rea",
+              "commit": "3bcd313c7b2f8073a0343d0f5907ac2c3cc6223d"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "3bcd313c7b2f8073a0343d0f5907ac2c3cc6223d",
+          "name": "dsh-plugin-rea",
+          "version": "1.0.6",
+          "url": "https://github.com/czcdr/dsh-plugin-rea",
+          "manifestSha256": "14e2069f1ffde1ec715094c82d9fc5f93463a3cc6bd8c3ace0937d2f4cffcd16",
+          "publishTimestamp": 1791887119
+        }
+      ]
+    },
+    {
+      "target": "dsh-plugin-rea@1.0.6",
+      "origin": "npm",
+      "name": "dsh-plugin-rea",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-rea",
+        "title": "dsh-plugin-rea",
+        "description": "Registers the upstream REA MCP server into DeepSeek Harness as mcp__rea__* tools — a third-party adapter, analysis is upstream's. · 把上游 REA 的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具（第三方适配，分析能力属上游）。",
+        "author": "czcdr",
+        "homepage": "https://github.com/czcdr/dsh-plugin-rea",
+        "repository": {
+          "url": "https://github.com/czcdr/dsh-plugin-rea"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "cordis-plugin",
+            "bundle",
+            "mcp",
+            "rea",
+            "reverse-engineering",
+            "ghidra",
+            "binary-analysis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.6",
+            "publishTimestamp": 1791887795,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "690d5b2dbf15225a1a18a96215c6d90c0763fc04178a85e567f16841f8869de5",
+      "evidence": [
+        {
+          "name": "dsh-plugin-rea",
+          "version": "1.0.6",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-rea/-/dsh-plugin-rea-1.0.6.tgz",
+          "integrity": "sha512-k6/5qaggE45Q2m6Cbv5UVhAR+ErfKlefFuEyfkRz+XcF+PKvQYjS+W/vmmh742AeFecGr0DiVRRzkz7KxhHD8Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-rea",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/czcdr/dsh-plugin-rea#v2.0.11",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/czcdr/dsh-plugin-rea#v1.0.6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-rea@1.0.6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/czcdr/dsh-plugin-rea",
+    "commit": "1438672f9a57d92680254ad3782baec0b34c5d3f",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:17:00.689Z"
+}

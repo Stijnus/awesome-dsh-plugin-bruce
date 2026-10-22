@@ -1,4 +1,5 @@
-export const MAX_PLUGINS = 600
+export const MAX_PLUGINS = 1000
+export const SELECTION_POLICY = `top-${MAX_PLUGINS}-verified-plugins-by-stars-v1`
 
 /** Refuse publishing incomplete reads, an oversized index, or a suspiciously collapsed catalog. */
 export function assertPublishable({ index, fetchFailures = 0 }, previous) {

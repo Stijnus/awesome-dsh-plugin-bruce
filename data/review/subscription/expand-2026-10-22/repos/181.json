@@ -1,0 +1,77 @@
+{
+  "full_name": "DeepTrial/dsh-bash-rtk",
+  "originalPosition": 181,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 181,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-10-22T05:19:53.452Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f186985ea9c8dbc7cf815aca6b95b00d591e839b6b4f65d9a639aa9b0db5ce0",
+      "url": "https://github.com/DeepTrial/dsh-bash-rtk/blob/d6559654d328eef88a1d5aa4bf45511ef16b0b7a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3a03beee6f136c214bb39a9ab922e053d56265b255d5914e12a587482b0ff024",
+      "url": "https://github.com/DeepTrial/dsh-bash-rtk/blob/d6559654d328eef88a1d5aa4bf45511ef16b0b7a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deeptrial/dsh-bash-rtk",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DeepTrial/dsh-bash-rtk",
+        "commit": "d6559654d328eef88a1d5aa4bf45511ef16b0b7a"
+      },
+      "manifestSha256": "17a631175ef6ea52e5be3369e91b3dabd60e86fa3deffb460f0cb2202911de74",
+      "manifestUrl": "https://github.com/DeepTrial/dsh-bash-rtk/blob/d6559654d328eef88a1d5aa4bf45511ef16b0b7a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.2.0 || >=0.2.0-0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@deeptrial/dsh-bash-rtk",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792309210,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DeepTrial/dsh-bash-rtk",
+              "commit": "d6559654d328eef88a1d5aa4bf45511ef16b0b7a"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0 || >=0.2.0-0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DeepTrial/dsh-bash-rtk",
+    "commit": "d6559654d328eef88a1d5aa4bf45511ef16b0b7a",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:20:01.617Z"
+}

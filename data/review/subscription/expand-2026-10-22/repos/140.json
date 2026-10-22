@@ -1,0 +1,66 @@
+{
+  "full_name": "Zoria-Lind/dsh-token-optimizer",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-10-22T05:18:37.742Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f2b2f2ccbab04f975202bb480519c7917560f7eb71a8f208e9723b7e7bb8d192",
+      "url": "https://github.com/Zoria-Lind/dsh-token-optimizer/blob/95ca622b986f36f5459536958baf0bff94efa5fe/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zoria-lind/dsh-token-optimizer",
+      "version": "2.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zoria-Lind/dsh-token-optimizer",
+        "commit": "95ca622b986f36f5459536958baf0bff94efa5fe"
+      },
+      "manifestSha256": "c5811f7f6a57f79fdc544b38dff0455bc6da9f77b34aeb7b66eb271a29c65df0",
+      "manifestUrl": "https://github.com/Zoria-Lind/dsh-token-optimizer/blob/95ca622b986f36f5459536958baf0bff94efa5fe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@zoria-lind/dsh-token-optimizer",
+        "versions": [
+          {
+            "version": "2.2.2",
+            "publishTimestamp": 1791118437,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zoria-Lind/dsh-token-optimizer",
+              "commit": "95ca622b986f36f5459536958baf0bff94efa5fe"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zoria-Lind/dsh-token-optimizer",
+    "commit": "95ca622b986f36f5459536958baf0bff94efa5fe",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:47.059Z"
+}

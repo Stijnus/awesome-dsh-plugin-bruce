@@ -1,0 +1,66 @@
+{
+  "full_name": "hg1048596-pixel/dsh-recall-unread",
+  "originalPosition": 25,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 25,
+  "batch": 1,
+  "stargazers_count": 126,
+  "startedAt": "2026-10-22T05:13:31.308Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d81d01281bc022c9407ec595784320bde39dabd67227fb7029c67f93915ab9a6",
+      "url": "https://github.com/hg1048596-pixel/dsh-recall-unread/blob/4167610857d67c50a9c4fd15964de277547f08dc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-recall-unread",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hg1048596-pixel/dsh-recall-unread",
+        "commit": "4167610857d67c50a9c4fd15964de277547f08dc"
+      },
+      "manifestSha256": "82ee7369c95e1f67f46a7a4b1f4172514adf5e60231f6730dba1a17ad776d163",
+      "manifestUrl": "https://github.com/hg1048596-pixel/dsh-recall-unread/blob/4167610857d67c50a9c4fd15964de277547f08dc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-recall-unread",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1791016888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hg1048596-pixel/dsh-recall-unread",
+              "commit": "4167610857d67c50a9c4fd15964de277547f08dc"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hg1048596-pixel/dsh-recall-unread",
+    "commit": "4167610857d67c50a9c4fd15964de277547f08dc",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:38.001Z"
+}

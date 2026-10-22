@@ -1,0 +1,93 @@
+{
+  "full_name": "gulagala001/oh-my-dsh",
+  "originalPosition": 72,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 72,
+  "batch": 1,
+  "stargazers_count": 36,
+  "startedAt": "2026-10-22T05:15:17.258Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2764cba6c8ff5f076cc4e81f581bfe0c8a4649c7855913cc59ab15773802fbda",
+      "url": "https://github.com/gulagala001/oh-my-dsh/blob/af8ea78b9fac0356810315ed64ee83cb2520eafa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "c1e87ae8d1e5c961a616b4c5a83ee72bda59b9f98aecde82c73e7f004923f75d",
+      "url": "https://github.com/gulagala001/oh-my-dsh/blob/af8ea78b9fac0356810315ed64ee83cb2520eafa/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "ff658ca2ba9d5efe33a1aed72e79a538f52380e9609a66ab0031374ba0aa9b5d",
+      "url": "https://github.com/gulagala001/oh-my-dsh/blob/af8ea78b9fac0356810315ed64ee83cb2520eafa/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README_EN.md",
+      "sha256": "6cc912033ad7483e9e0cd7f6f89eb30810e1819a10982d79a944538598917a7e",
+      "url": "https://github.com/gulagala001/oh-my-dsh/blob/af8ea78b9fac0356810315ed64ee83cb2520eafa/docs/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "trisoul_x",
+      "version": "0.2.1-rc.2.omd.0.19.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gulagala001/oh-my-dsh",
+        "commit": "af8ea78b9fac0356810315ed64ee83cb2520eafa"
+      },
+      "manifestSha256": "41d5e43e04e38ee594a31bee77bdfc95f6f7e33b9c5efb0725127e1129c952de",
+      "manifestUrl": "https://github.com/gulagala001/oh-my-dsh/blob/af8ea78b9fac0356810315ed64ee83cb2520eafa/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "trisoul_x",
+        "versions": [
+          {
+            "version": "0.2.1-rc.2.omd.0.19.0",
+            "publishTimestamp": 1792553836,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gulagala001/oh-my-dsh",
+              "commit": "af8ea78b9fac0356810315ed64ee83cb2520eafa"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gulagala001/oh-my-dsh",
+    "commit": "af8ea78b9fac0356810315ed64ee83cb2520eafa",
+    "releaseTags": 83,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:30.535Z"
+}

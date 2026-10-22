@@ -1,0 +1,138 @@
+{
+  "full_name": "hdhgsysh/dsh-connect-qoder",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-10-22T05:18:38.784Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c197cf56b6a14795b2d562acd408f81685ae95f54f4d237ece948aff5188f5e2",
+      "url": "https://github.com/hdhgsysh/dsh-connect-qoder/blob/e3d4a5a1ca704b426166889de8ac69cc1f234cde/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@eghrhegpe/dsh-connect-qoder",
+          "command": "dsh plugin --profile web add @eghrhegpe/dsh-connect-qoder",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@eghrhegpe/dsh-connect-qoder",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hdhgsysh/dsh-connect-qoder",
+        "commit": "e3d4a5a1ca704b426166889de8ac69cc1f234cde"
+      },
+      "manifestSha256": "f640fa02f1b008cc7d9223c7eb1920a5b8be4de478854f5df4dddcc35312db7c",
+      "manifestUrl": "https://github.com/hdhgsysh/dsh-connect-qoder/blob/e3d4a5a1ca704b426166889de8ac69cc1f234cde/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5 <0.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@eghrhegpe/dsh-connect-qoder",
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1790686976,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hdhgsysh/dsh-connect-qoder",
+              "commit": "e3d4a5a1ca704b426166889de8ac69cc1f234cde"
+            },
+            "engines": {
+              "dsh": ">=0.1.5 <0.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@eghrhegpe/dsh-connect-qoder",
+      "origin": "npm",
+      "name": "@eghrhegpe/dsh-connect-qoder",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@eghrhegpe/dsh-connect-qoder",
+        "title": {
+          "en": "DSH Connect Qoder",
+          "zh": "DSH Connect Qoder"
+        },
+        "description": {
+          "en": "Registers Qoder CN and international language models into DSH, fetching each model's rate automatically as it shifts with off-peak hours. It also provides a daily check-in, a usage pill and a credit lookup. Needs the Qoder login state on this machine, or one browser login.",
+          "zh": "注册 Qoder 中国版与国际版的语言模型到 DSH，自动获取每个模型的费率，随错峰时段变化。并提供每天签到、用量胶囊与积分查询功能。需要本机Qoder的登录态，或浏览器登录一次。"
+        },
+        "author": "eghrhegpe",
+        "homepage": "https://github.com/eghrhegpe/dsh-connect-qoder",
+        "repository": {
+          "url": "https://github.com/eghrhegpe/dsh-connect-qoder"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "qoder",
+            "model-provider"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iLTE0IC0xNCAzMTQgMzIxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDwhLS0KICAgIFFvZGVyIG1hcmssIHRyYWNlZCBmcm9tIHVwc3RyZWFtL3FvZGVyLWljb24ucG5nICh0aGUgIlFvZGVyIENOIiBicmFuZCBsb2NrdXAsCiAgICBnbHlwaCBwb3J0aW9uKS4gU3RydWN0dXJlOiBhbiBvdXRlciByb3VuZGVkIHNpbGhvdWV0dGUgKGJpZyBsZWZ0IGFyYywgc2xvcGVkCiAgICB0b3AtcmlnaHQgZWRnZSwgc3RyYWlnaHQgcmlnaHQgc2lkZSwgcG9pbnRlZCBib3R0b20gd2l0aCBhIHNtYWxsIG5vdGNoIGZvb3QKICAgIGF0IHRoZSBsb3dlci1yaWdodCkgcGx1cyBhbiBpbm5lciAibGVucyIgd2hvc2UgYXBleCB0b3VjaGVzIHRoZSBzbG9wZWQgZWRnZQogICAgYW5kIHdob3NlIGxlZnQgc3Ryb2tlIHJ1bnMgZG93biBpbnRvIHRoZSBib3R0b20tbGVmdCBhcmMuCiAgICBJbmsgaXMgbmVhci1ibGFjayBvbiBsaWdodCB0aGVtZXMgYW5kIG5lYXItd2hpdGUgb24gZGFyayB0aGVtZXMgKHRoZSBjYXJkCiAgICB0aWxlIGlzIGRhcmspLCBtYXRjaGluZyBob3cgdGhlIHNpYmxpbmcgcGx1Z2luIGljb25zIHN0YXkgcmVhZGFibGUgYm90aCB3YXlzLgogIC0tPgogIDxzdHlsZT4KICAgIC5pbmsgeyBzdHJva2U6ICMxNzE3MTc7IH0KICAgIEBtZWRpYSAocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspIHsgLmluayB7IHN0cm9rZTogI2YyZjJmMjsgfSB9CiAgPC9zdHlsZT4KICA8ZyBjbGFzcz0iaW5rIiBzdHJva2Utd2lkdGg9IjIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgPCEtLSBvdXRlciBzaWxob3VldHRlLCBjbG9ja3dpc2UgZnJvbSB0b3AgYXBleCAtLT4KICAgIDxwYXRoIGQ9Ik0xMTMgMwogICAgICAgICAgICAgQyA4OCA5LCA1OCAyNCwgNDMgNDQKICAgICAgICAgICAgIEMgMzAgNjEsIDE4IDgxLCAxMiAxMDMKICAgICAgICAgICAgIEMgOCAxMTksIDcgMTM2LCA5IDE1MwogICAgICAgICAgICAgQyAxMSAxNzEsIDEzIDE4NiwgMTkgMTk5CiAgICAgICAgICAgICBDIDI5IDIxNywgNDYgMjMzLCA2NyAyNDcKICAgICAgICAgICAgIEMgOTYgMjY2LCAxMzEgMjg0LCAxNjYgMjkxCiAgICAgICAgICAgICBDIDE3MiAyOTIsIDE3NiAyODksIDE3OSAyODQKICAgICAgICAgICAgIEMgMTg2IDI3NiwgMTk4IDI3MiwgMjEyIDI3MwogICAgICAgICAgICAgTCAyMjYgMjc0CiAgICAgICAgICAgICBDIDIzMCAyNjgsIDIzNCAyNjIsIDIzOCAyNjIKICAgICAgICAgICAgIEMgMjQyIDI2MiwgMjQ0IDI2OCwgMjQ2IDI3NAogICAgICAgICAgICAgQyAyNTIgMjc5LCAyNjIgMjgwLCAyNjggMjc3CiAgICAgICAgICAgICBDIDI3MiAyNzUsIDI3NCAyNzEsIDI3NCAyNjQKICAgICAgICAgICAgIEwgMjc0IDEwMgogICAgICAgICAgICAgQyAyNzQgODQsIDI2NiA3MCwgMjQ3IDYzCiAgICAgICAgICAgICBDIDIwNSA0MCwgMTUwIDE0LCAxMTMgMwogICAgICAgICAgICAgWiIgLz4KICAgIDwhLS0gbGVuczogbGVmdCBzdHJva2UgKGFwZXggZnVzZWQgaW50byB0aGUgc2xvcGVkIGVkZ2UsIGJ1bGdpbmcgbGVmdCwgcnVubmluZyBkb3duIGludG8gdGhlIGJvdHRvbS1sZWZ0IGFyYykgLS0+CiAgICA8cGF0aCBkPSJNMTY2IDU0CiAgICAgICAgICAgICBDIDE1MCA3NCwgMTM0IDk2LCAxMjcgMTE4CiAgICAgICAgICAgICBDIDEyMCAxMzgsIDExNSAxNjAsIDExMyAxODIKICAgICAgICAgICAgIEMgMTEyIDIwMCwgMTE0IDIxOCwgMTE3IDIzMgogICAgICAgICAgICAgQyAxMTkgMjQwLCAxMjEgMjQ0LCAxMjIgMjQ3IiAvPgogICAgPCEtLSBsZW5zOiByaWdodCBzdHJva2UgKHNhbWUgYXBleCwgbmVhci12ZXJ0aWNhbCB0aGVuIGhvb2tpbmcgbGVmdCB0byBhIHRpcCBpbnNpZGUgdGhlIGxlbnMpIC0tPgogICAgPHBhdGggZD0iTTE2NiA1NAogICAgICAgICAgICAgQyAxNjkgNzUsIDE3MCA5NSwgMTY5IDExNwogICAgICAgICAgICAgQyAxNjcgMTQwLCAxNjIgMTYwLCAxNTQgMTc4CiAgICAgICAgICAgICBDIDE0OCAxOTAsIDE0MSAxOTcsIDEzNCAyMDAiIC8+CiAgPC9nPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.7.4",
+            "publishTimestamp": 1792572514,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.0 <0.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cd6252769e7eca5824d2454318ed4fe2f091846da9d54c791d2ce8ea50d18fd6",
+      "evidence": [
+        {
+          "name": "@eghrhegpe/dsh-connect-qoder",
+          "version": "0.7.4",
+          "tarball": "https://registry.npmjs.org/@eghrhegpe/dsh-connect-qoder/-/dsh-connect-qoder-0.7.4.tgz",
+          "integrity": "sha512-/5NTwu7/waRwNY8rxFZnus/VOHrmhMapspKMYC3bZoVHmgeYbSGAbujlI7ULHvad4h3YyBR+14cXGCIeaXrOpQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@eghrhegpe/dsh-connect-qoder",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hdhgsysh/dsh-connect-qoder",
+    "commit": "e3d4a5a1ca704b426166889de8ac69cc1f234cde",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:46.779Z"
+}

@@ -1,0 +1,74 @@
+{
+  "full_name": "plolpl789/dsh-raw-html",
+  "originalPosition": 39,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 39,
+  "batch": 1,
+  "stargazers_count": 83,
+  "startedAt": "2026-10-22T05:14:07.403Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6ab9e78857ed3797ca751a8160ad308f37affa33ddda7fc6e27eecd81c503f39",
+      "url": "https://github.com/plolpl789/dsh-raw-html/blob/ab1f1d56748e5a4f1a3b6c61bb648a812d260b12/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3682cbea797731462b4a552dcb06699fea22d3cb109e4208655dc1672786ec0d",
+      "url": "https://github.com/plolpl789/dsh-raw-html/blob/ab1f1d56748e5a4f1a3b6c61bb648a812d260b12/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-raw-html",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/plolpl789/dsh-raw-html",
+        "commit": "ab1f1d56748e5a4f1a3b6c61bb648a812d260b12"
+      },
+      "manifestSha256": "f3314b18e50039d0e24edb52d9d313510ba1e8c89cdaea631028e9b23c4cda1f",
+      "manifestUrl": "https://github.com/plolpl789/dsh-raw-html/blob/ab1f1d56748e5a4f1a3b6c61bb648a812d260b12/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-raw-html",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1787932298,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/plolpl789/dsh-raw-html",
+              "commit": "ab1f1d56748e5a4f1a3b6c61bb648a812d260b12"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/plolpl789/dsh-raw-html",
+    "commit": "ab1f1d56748e5a4f1a3b6c61bb648a812d260b12",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:16.205Z"
+}

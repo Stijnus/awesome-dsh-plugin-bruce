@@ -1,0 +1,90 @@
+{
+  "full_name": "WestFox-AwA/dsh-wish-specializer",
+  "originalPosition": 23,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 23,
+  "batch": 1,
+  "stargazers_count": 131,
+  "startedAt": "2026-10-22T05:13:30.125Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "872cd1fcb23ae2ed81d8df903439ce1f642b06fc9cbb0ac16b36ad285ef24ab1",
+      "url": "https://github.com/WestFox-AwA/dsh-wish-specializer/blob/d0dc8b4150c398a78b805c1403bdf1ee1b7514a5/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a50c85f31f967bb36bacab6e05c60c1fcd0afc0fc1cbacad6150ef87a4ee5fdd",
+      "url": "https://github.com/WestFox-AwA/dsh-wish-specializer/blob/d0dc8b4150c398a78b805c1403bdf1ee1b7514a5/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "po06/README.md",
+      "sha256": "aaf64ab711225cde052272a5e5a114c96c39dd56d49c2c754803d273221426aa",
+      "url": "https://github.com/WestFox-AwA/dsh-wish-specializer/blob/d0dc8b4150c398a78b805c1403bdf1ee1b7514a5/po06/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "old/README.md",
+      "sha256": "7499f24e0dbad143b29e672fa51a539ba24b1a024bfc25b7d668b7fd53e619ae",
+      "url": "https://github.com/WestFox-AwA/dsh-wish-specializer/blob/d0dc8b4150c398a78b805c1403bdf1ee1b7514a5/old/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-wish-specializer",
+      "version": "0.9.0-beta-1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WestFox-AwA/dsh-wish-specializer",
+        "commit": "d0dc8b4150c398a78b805c1403bdf1ee1b7514a5"
+      },
+      "manifestSha256": "fd93a40b56a4444e01147689a7cdbacf3703956f2c840040838708fc9c2924ae",
+      "manifestUrl": "https://github.com/WestFox-AwA/dsh-wish-specializer/blob/d0dc8b4150c398a78b805c1403bdf1ee1b7514a5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-external/dsh-wish-specializer",
+        "versions": [
+          {
+            "version": "0.9.0-beta-1",
+            "publishTimestamp": 1792480369,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WestFox-AwA/dsh-wish-specializer",
+              "commit": "d0dc8b4150c398a78b805c1403bdf1ee1b7514a5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WestFox-AwA/dsh-wish-specializer",
+    "commit": "d0dc8b4150c398a78b805c1403bdf1ee1b7514a5",
+    "releaseTags": 87,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:45.130Z"
+}

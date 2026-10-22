@@ -1,0 +1,82 @@
+{
+  "full_name": "chiphoton/DeepSeek-Harness-Video-Director",
+  "originalPosition": 40,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 40,
+  "batch": 1,
+  "stargazers_count": 76,
+  "startedAt": "2026-10-22T05:14:14.885Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "45aeb3c56e969bf98dd050943ddeb5861eadc78602c239537824492759471aab",
+      "url": "https://github.com/chiphoton/DeepSeek-Harness-Video-Director/blob/5b376d52ea6690f385387c9bcee2a89afa198177/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "646611de6dc1cda03d1d6d586baf325e551670cb9ecff39e27c583949d36b2a5",
+      "url": "https://github.com/chiphoton/DeepSeek-Harness-Video-Director/blob/5b376d52ea6690f385387c9bcee2a89afa198177/README_zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "custom_nodes/README.md",
+      "sha256": "71445abe25bac9337ee4a6ab7b1d8d8bad1a6365293b35e83d44a9450cbc5657",
+      "url": "https://github.com/chiphoton/DeepSeek-Harness-Video-Director/blob/5b376d52ea6690f385387c9bcee2a89afa198177/custom_nodes/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-video-director",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chiphoton/DeepSeek-Harness-Video-Director",
+        "commit": "5b376d52ea6690f385387c9bcee2a89afa198177"
+      },
+      "manifestSha256": "c55b0ff5879627d4649852ee7e264510046a663e49e193b4b4736291e335ad2b",
+      "manifestUrl": "https://github.com/chiphoton/DeepSeek-Harness-Video-Director/blob/5b376d52ea6690f385387c9bcee2a89afa198177/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-video-director",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790604857,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chiphoton/DeepSeek-Harness-Video-Director",
+              "commit": "5b376d52ea6690f385387c9bcee2a89afa198177"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chiphoton/DeepSeek-Harness-Video-Director",
+    "commit": "5b376d52ea6690f385387c9bcee2a89afa198177",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:14:25.508Z"
+}

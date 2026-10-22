@@ -1,0 +1,74 @@
+{
+  "full_name": "flizzywine/dsh-tavern",
+  "originalPosition": 4,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "stargazers_count": 1158,
+  "startedAt": "2026-10-22T05:12:36.722Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9b2867ae4d38eaf739b5d5b083a39eef05ca111e0b7330320e777af94d7ff594",
+      "url": "https://github.com/flizzywine/dsh-tavern/blob/1f790736f22d3f170e01db4f334a3089e7b77b42/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "tavern-plugin/packages/dsh-profile-bridge/README.md",
+      "sha256": "04ae6954e7dba9abe5e6ae18e1953aa866cd6d30c6dae038709e535af4bbe6b1",
+      "url": "https://github.com/flizzywine/dsh-tavern/blob/1f790736f22d3f170e01db4f334a3089e7b77b42/tavern-plugin/packages/dsh-profile-bridge/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-profile-tavern",
+      "version": "3.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/flizzywine/dsh-tavern",
+        "commit": "1f790736f22d3f170e01db4f334a3089e7b77b42"
+      },
+      "manifestSha256": "088f6fcdf87bfa070833fa9cffdb0ecc06784cbe9cf5913166377eb4238d52b9",
+      "manifestUrl": "https://github.com/flizzywine/dsh-tavern/blob/1f790736f22d3f170e01db4f334a3089e7b77b42/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-profile-tavern",
+        "versions": [
+          {
+            "version": "3.1.0",
+            "publishTimestamp": 1792644522,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/flizzywine/dsh-tavern",
+              "commit": "1f790736f22d3f170e01db4f334a3089e7b77b42"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/flizzywine/dsh-tavern",
+    "commit": "1f790736f22d3f170e01db4f334a3089e7b77b42",
+    "releaseTags": 34,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:12:45.443Z"
+}

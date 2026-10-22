@@ -1,0 +1,105 @@
+{
+  "full_name": "TOBYCAI/dsh-sessions-manager",
+  "originalPosition": 89,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 89,
+  "batch": 1,
+  "stargazers_count": 30,
+  "startedAt": "2026-10-22T05:15:52.034Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a0625fea11ba111b0f8d221e21d2ab861983b2d15399a2d5cc6128512512e702",
+      "url": "https://github.com/TOBYCAI/dsh-sessions-manager/blob/aa975ba92a06ce7322a2a076f9974d0c03ea84a5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TOBYCAI/dsh-sessions-manager",
+          "command": "dsh plugin --profile desktop add \"github:TOBYCAI/dsh-sessions-manager\"",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/TOBYCAI/dsh-sessions-manager",
+          "command": "dsh plugin --profile web add \"github:TOBYCAI/dsh-sessions-manager\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a828092bfed7996e66c10d918a234c3c27bcc9843e123c40797811fe9d961000",
+      "url": "https://github.com/TOBYCAI/dsh-sessions-manager/blob/aa975ba92a06ce7322a2a076f9974d0c03ea84a5/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TOBYCAI/dsh-sessions-manager",
+          "command": "dsh plugin --profile desktop add \"github:TOBYCAI/dsh-sessions-manager\"",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/TOBYCAI/dsh-sessions-manager",
+          "command": "dsh plugin --profile web add \"github:TOBYCAI/dsh-sessions-manager\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sessions-manager",
+      "version": "3.7.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TOBYCAI/dsh-sessions-manager",
+        "commit": "aa975ba92a06ce7322a2a076f9974d0c03ea84a5"
+      },
+      "manifestSha256": "c8e3eff1686d68f79faa9c7ccf0cec4662d8b56b52e4fe49658f17351c36c8c7",
+      "manifestUrl": "https://github.com/TOBYCAI/dsh-sessions-manager/blob/aa975ba92a06ce7322a2a076f9974d0c03ea84a5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-sessions-manager",
+        "versions": [
+          {
+            "version": "3.7.8",
+            "publishTimestamp": 1792571854,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TOBYCAI/dsh-sessions-manager",
+              "commit": "aa975ba92a06ce7322a2a076f9974d0c03ea84a5"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TOBYCAI/dsh-sessions-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TOBYCAI/dsh-sessions-manager",
+    "commit": "aa975ba92a06ce7322a2a076f9974d0c03ea84a5",
+    "releaseTags": 32,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:16:06.328Z"
+}

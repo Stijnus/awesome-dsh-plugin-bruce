@@ -1,0 +1,69 @@
+{
+  "full_name": "S3K926/dsh-memory-board",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "stargazers_count": 16,
+  "startedAt": "2026-10-22T05:19:22.693Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "47db43b52c22ef4020990631d3086df139288aa32918a546297f304ab05f5df3",
+      "url": "https://github.com/S3K926/dsh-memory-board/blob/963cf514eeb96807f179039e5c786dc14d742f59/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-board",
+      "version": "1.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/S3K926/dsh-memory-board",
+        "commit": "963cf514eeb96807f179039e5c786dc14d742f59"
+      },
+      "manifestSha256": "4f63a77f6369176215b1b145fb4841d4d6eddf31026f65117256b46667939bb7",
+      "manifestUrl": "https://github.com/S3K926/dsh-memory-board/blob/963cf514eeb96807f179039e5c786dc14d742f59/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-memory-board",
+        "versions": [
+          {
+            "version": "1.3.4",
+            "publishTimestamp": 1792646169,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/S3K926/dsh-memory-board",
+              "commit": "963cf514eeb96807f179039e5c786dc14d742f59"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/S3K926/dsh-memory-board",
+    "commit": "963cf514eeb96807f179039e5c786dc14d742f59",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:19:30.435Z"
+}

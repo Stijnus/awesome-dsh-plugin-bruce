@@ -1,0 +1,29 @@
+{
+  "full_name": "firecrawl/dsh-firecrawl",
+  "originalPosition": 173,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 173,
+  "batch": 1,
+  "stargazers_count": 15,
+  "startedAt": "2026-10-22T05:19:42.068Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/firecrawl/dsh-firecrawl/git/commits/2204a7ec9cbcf814601182de64204a6ce525b5ff\nGet \"https://api.github.com/repos/firecrawl/dsh-firecrawl/git/commits/2204a7ec9cbcf814601182de64204a6ce525b5ff\": net/http: TLS handshake timeout\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/firecrawl/dsh-firecrawl",
+    "commit": "2204a7ec9cbcf814601182de64204a6ce525b5ff",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-10-22T05:19:53.625Z"
+}

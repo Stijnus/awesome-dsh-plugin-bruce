@@ -1,0 +1,69 @@
+{
+  "full_name": "Fisfzy/dsh-ego-browser",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "stargazers_count": 272,
+  "startedAt": "2026-10-22T05:13:06.944Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bfeac8b802799f4fec2e84f1d50b40d6448f247727599db5404d7afa90a1d0f8",
+      "url": "https://github.com/Fisfzy/dsh-ego-browser/blob/35ff8648ef0186e08be41fd26e849a258351994b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ego-browser",
+      "version": "0.8.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fisfzy/dsh-ego-browser",
+        "commit": "35ff8648ef0186e08be41fd26e849a258351994b"
+      },
+      "manifestSha256": "5b8d4d20a1b1bb0f30d3af41101f52babae2b27c990455f764a34c2a54dd585b",
+      "manifestUrl": "https://github.com/Fisfzy/dsh-ego-browser/blob/35ff8648ef0186e08be41fd26e849a258351994b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ego-browser",
+        "versions": [
+          {
+            "version": "0.8.7",
+            "publishTimestamp": 1792645541,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Fisfzy/dsh-ego-browser",
+              "commit": "35ff8648ef0186e08be41fd26e849a258351994b"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fisfzy/dsh-ego-browser",
+    "commit": "35ff8648ef0186e08be41fd26e849a258351994b",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:18.895Z"
+}

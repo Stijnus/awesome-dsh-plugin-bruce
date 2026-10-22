@@ -1,18 +1,55 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
-import { applyDiscovery } from './discovery.mjs'
+import { applyDiscovery, discoveryLabels, FEATURED_CATEGORY } from './discovery.mjs'
+const now = Date.parse('2026-10-22T00:00:00Z')
 test('official schema preserves localized categories, keywords, labels and sortable facts', () => {
   const plugins = [{ name: 'demo', metadata: { keywords: ['search'] }, versions: [{ version: '1.0.0', publishTimestamp: 1, source: { type: 'npm' } }] }]
-  const metadata = applyDiscovery(plugins, new Map([['demo', { stars: 8, row: { category: 'tools', category_zh: '工具', category_en: 'Tools', pushed_at: '2026-10-17T00:00:00Z', packages: { tasks: ['检索', 'search'] } } }]]))
+  const metadata = applyDiscovery(plugins, new Map([['demo', { stars: 8, repo: 'owner/demo', row: { category: 'tools', category_zh: '工具', category_en: 'Tools', pushed_at: '2026-10-17T00:00:00Z', packages: { tasks: ['检索', 'search'] } } }]]), { now })
   const index = parseMarketIndex({ format: 1, title: 'Test', metadata, plugins }, 'https://example.com/index.json')
   assert.equal(index.metadata.categories.tools.title.zh, '工具')
   assert.equal(index.metadata.sortKeys.stars.order, 'desc')
   assert.deepEqual(index.plugins[0].metadata.keywords, ['search', '检索'])
-  assert.deepEqual(index.plugins[0].metadata.labels, ['npm'])
+  assert.deepEqual(index.plugins[0].metadata.labels, ['npm', 'updated-week', 'updated-month'])
   assert.equal(index.plugins[0].metadata.sortKeys.stars, 8)
   assert.equal(index.plugins[0].metadata.sortKeys.repositoryUpdated, 1792195200)
   applyDiscovery(plugins, new Map([['demo', { stars: -1, row: {} }]]))
   assert.deepEqual(plugins[0].metadata.sortKeys, {})
   assert.equal(plugins[0].metadata.category, undefined)
+})
+test('featured plugins move to 编辑推荐 while keeping original category keywords', () => {
+  const plugins = [{ name: 'pick', metadata: { keywords: ['sidebar'] }, versions: [{ version: '1.0.0', publishTimestamp: 1, source: { type: 'npm' } }] }]
+  const metadata = applyDiscovery(
+    plugins,
+    new Map([['pick', { stars: 80, repo: 'omdsh-dev/better-sidebar', row: { full_name: 'omdsh-dev/better-sidebar', category: 'ui-experience', category_zh: '界面与体验', category_en: 'UI & Experience', pushed_at: '2026-09-01T00:00:00Z' } }]]),
+    { featured: ['omdsh-dev/better-sidebar'], now },
+  )
+  const index = parseMarketIndex({ format: 1, title: 'Test', metadata, plugins }, 'https://example.com/index.json')
+  assert.equal(Object.keys(index.metadata.categories)[0], FEATURED_CATEGORY)
+  assert.equal(index.metadata.categories[FEATURED_CATEGORY].title.zh, '编辑推荐')
+  assert.equal(index.plugins[0].metadata.category, FEATURED_CATEGORY)
+  assert.ok(index.plugins[0].metadata.keywords.includes('界面体验'))
+  assert.ok(index.plugins[0].metadata.keywords.includes('编辑推荐'))
+})
+test('recency and star labels are inclusive and computed from snapshot facts', () => {
+  assert.deepEqual(
+    discoveryLabels({ stars: 666, pushedAt: '2026-10-20T00:00:00Z', now }),
+    ['updated-week', 'updated-month', 'stars-500', 'stars-100'],
+  )
+  assert.deepEqual(
+    discoveryLabels({ stars: 120, pushedAt: '2026-10-01T00:00:00Z', now }),
+    ['updated-month', 'stars-100'],
+  )
+  assert.deepEqual(
+    discoveryLabels({ stars: 8, pushedAt: '2026-08-01T00:00:00Z', now }),
+    [],
+  )
+  const plugins = [{ name: 'hot', versions: [{ version: '1.0.0', publishTimestamp: 1, source: { type: 'npm' } }] }]
+  applyDiscovery(
+    plugins,
+    new Map([['hot', { stars: 500, repo: 'owner/hot', row: { category: 'utilities', category_zh: '实用工具', category_en: 'Utilities', pushed_at: '2026-10-20T00:00:00Z' } }]]),
+    { now },
+  )
+  assert.deepEqual(plugins[0].metadata.labels, ['npm', 'updated-week', 'updated-month', 'stars-500', 'stars-100'])
+  assert.equal(plugins[0].metadata.category, 'utilities')
 })

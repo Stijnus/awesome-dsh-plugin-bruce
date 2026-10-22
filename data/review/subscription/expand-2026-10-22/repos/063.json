@@ -1,0 +1,78 @@
+{
+  "full_name": "Len7183/DSH-Think-zh",
+  "originalPosition": 63,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 63,
+  "batch": 1,
+  "stargazers_count": 41,
+  "startedAt": "2026-10-22T05:14:57.587Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "14879d9348ef1c78936b4ac14647baf81674020e8b599941fc3708f339c43da7",
+      "url": "https://github.com/Len7183/DSH-Think-zh/blob/2ba0a1e338410b44c07f221087907e210ad65b59/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Len7183/DSH-Think-zh",
+          "command": "dsh plugin --profile <profile 名> add github:Len7183/DSH-Think-zh",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-think-zh",
+      "version": "1.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Len7183/DSH-Think-zh",
+        "commit": "2ba0a1e338410b44c07f221087907e210ad65b59"
+      },
+      "manifestSha256": "958964a9b4ef39bb91f2d736f361fde8c49a5cc35271a78ca28a04c2aff821ac",
+      "manifestUrl": "https://github.com/Len7183/DSH-Think-zh/blob/2ba0a1e338410b44c07f221087907e210ad65b59/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-think-zh",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1792259504,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Len7183/DSH-Think-zh",
+              "commit": "2ba0a1e338410b44c07f221087907e210ad65b59"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Len7183/DSH-Think-zh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Len7183/DSH-Think-zh",
+    "commit": "2ba0a1e338410b44c07f221087907e210ad65b59",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:08.848Z"
+}

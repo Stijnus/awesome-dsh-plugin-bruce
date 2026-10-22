@@ -1,0 +1,143 @@
+{
+  "full_name": "fourzkw/dsh-drawai",
+  "originalPosition": 85,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 85,
+  "batch": 1,
+  "stargazers_count": 31,
+  "startedAt": "2026-10-22T05:15:45.665Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1099dd434314f70078b2b80de7a4494bead94c241c8f88745e713534dde712b8",
+      "url": "https://github.com/fourzkw/dsh-drawai/blob/06ea502f369f5e8b3d8bb3ef36660d277aacb21c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-drawai",
+          "command": "dsh plugin --profile web add dsh-drawai",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/fourzkw/dsh-drawai",
+          "command": "dsh plugin --profile web add github:fourzkw/dsh-drawai",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-drawai",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fourzkw/dsh-drawai",
+        "commit": "06ea502f369f5e8b3d8bb3ef36660d277aacb21c"
+      },
+      "manifestSha256": "f7984af1e3d0509450bb1884c108689bfb94480d0894a56ea0e4cb4d2c991877",
+      "manifestUrl": "https://github.com/fourzkw/dsh-drawai/blob/06ea502f369f5e8b3d8bb3ef36660d277aacb21c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.1 <0.1.0 || >=0.1.5-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-drawai",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1792396106,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fourzkw/dsh-drawai",
+              "commit": "06ea502f369f5e8b3d8bb3ef36660d277aacb21c"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1 <0.1.0 || >=0.1.5-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-drawai",
+      "origin": "npm",
+      "name": "dsh-drawai",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-drawai",
+        "title": "dsh-drawai",
+        "description": "DSH 右侧栏的可编辑画布 + AI 语义绘图工具（diagram_apply / diagram_read），直接读写原生 .drawio 文件",
+        "author": "fourzkw",
+        "repository": {
+          "url": "https://github.com/fourzkw/dsh-drawai"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "diagram",
+            "drawio",
+            "mxfile",
+            "canvas"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1792396199,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1 <0.1.0 || >=0.1.5-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7127816cb1c704f75277ee85120f66972716c5da179cb75d73a31206cba83378",
+      "evidence": [
+        {
+          "name": "dsh-drawai",
+          "version": "0.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-drawai/-/dsh-drawai-0.3.2.tgz",
+          "integrity": "sha512-g2gyKHMNR9EibiqkhWAHy1FzRybCKKtpGMTq5g0Gm4eAJLMsKrtMN69esExzLSNeRZ8vhkp/XH22M/7B+RjeUw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-drawai",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/fourzkw/dsh-drawai",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fourzkw/dsh-drawai",
+    "commit": "06ea502f369f5e8b3d8bb3ef36660d277aacb21c",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:15:55.657Z"
+}

@@ -1,0 +1,74 @@
+{
+  "full_name": "Airmetro/dsh-update-checker",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-10-22T05:18:46.789Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "82fb00e59c9b6771710de85fc149e9581325da1adee8929e39f74d34fac032f7",
+      "url": "https://github.com/Airmetro/dsh-update-checker/blob/d9b20e1de7298f43a8bd50d0e3565685bb17eeb8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c89e384e6f97471477c761faadd004b63370a55b179c1a1a36198c38207589a0",
+      "url": "https://github.com/Airmetro/dsh-update-checker/blob/d9b20e1de7298f43a8bd50d0e3565685bb17eeb8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-update-checker",
+      "version": "1.7.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Airmetro/dsh-update-checker",
+        "commit": "d9b20e1de7298f43a8bd50d0e3565685bb17eeb8"
+      },
+      "manifestSha256": "a4f168e04201d257cf5ef68c10e9c2d8408c3266f6daab0b83334a2711246556",
+      "manifestUrl": "https://github.com/Airmetro/dsh-update-checker/blob/d9b20e1de7298f43a8bd50d0e3565685bb17eeb8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-update-checker",
+        "versions": [
+          {
+            "version": "1.7.3",
+            "publishTimestamp": 1792561191,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Airmetro/dsh-update-checker",
+              "commit": "d9b20e1de7298f43a8bd50d0e3565685bb17eeb8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Airmetro/dsh-update-checker",
+    "commit": "d9b20e1de7298f43a8bd50d0e3565685bb17eeb8",
+    "releaseTags": 33,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:54.918Z"
+}

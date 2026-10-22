@@ -14,7 +14,7 @@ test('publisher accepts matching data and rejects tampered or unexpected artifac
     const dir = mkdtempSync(join(tmpdir(), 'market-publication-'))
     try {
       mkdirSync(join(dir, 'release-data')); mkdirSync(join(dir, 'data'))
-      const index = JSON.stringify({ plugins: Array.from({ length: scenario === 'overflow' ? 601 : 1 }, () => ({ name: 'demo' })) })
+      const index = JSON.stringify({ plugins: Array.from({ length: scenario === 'overflow' ? 1001 : 1 }, () => ({ name: 'demo' })) })
       const report = { indexSha256: scenario === 'hash' ? '0'.repeat(64) : createHash('sha256').update(index).digest('hex'), included: JSON.parse(index).plugins.length, fetchFailures: scenario === 'failure' ? 1 : 0 }
       writeFileSync(join(dir, 'release-data/dsh-market-index.json'), index)
       writeFileSync(join(dir, 'release-data/dsh-market-index.report.json'), JSON.stringify(report))

@@ -1,4 +1,4 @@
-/** Build the verified candidate pool; the generator applies the final 600-plugin cap. */
+/** Build the verified candidate pool; the generator applies the final 1000-plugin cap. */
 import {
   SELF_EXCLUDED_REPOS,
   buildEntry,
@@ -6,6 +6,7 @@ import {
   filterPool,
 } from '../market.mjs'
 import { packagesBlockFor } from '../market-v2.mjs'
+import { MAX_PLUGINS, SELECTION_POLICY } from './policy.mjs'
 const compare = (a, b) => b.stargazers_count - a.stargazers_count || (a.full_name < b.full_name ? -1 : a.full_name > b.full_name ? 1 : 0)
 export function buildCandidates({ market, snapshot, curated, approved, packages }) {
   if (market.schema_version !== 2 || packages.schema_version !== 1)
@@ -52,9 +53,10 @@ export function buildCandidates({ market, snapshot, curated, approved, packages 
     excludedRepositories,
     entries: [...unique.values(), ...extra].sort(compare),
     featured: { ...market.featured, entries: [] },
+    featuredRepositories: [...new Set((market.featured?.entries ?? []).map(row => row.full_name).filter(Boolean))],
     subscriptionCandidates: {
       policy: 'approved-mapped-pool-v1',
-      selectionPolicy: 'top-600-verified-plugins-by-stars-v1',
+      selectionPolicy: SELECTION_POLICY,
       communityRepositories: market.entries.length,
       eligiblePoolRepositories: repos.length,
       additionalMappedRepositories: extra.map(row => row.full_name),
@@ -62,7 +64,7 @@ export function buildCandidates({ market, snapshot, curated, approved, packages 
       outsideDirectoryWithoutMapping: pending.length,
       pendingPreview: pending.slice(0, 200),
       pendingPreviewLimit: 200,
-      note: 'Missing mappings are pending evidence, not incompatibility. Every candidate is source-verified before the final top-600-by-stars selection; repository and package counts differ.',
+      note: `Missing mappings are pending evidence, not incompatibility. Every candidate is source-verified before the final top-${MAX_PLUGINS}-by-stars selection; repository and package counts differ.`,
     },
   }
 }

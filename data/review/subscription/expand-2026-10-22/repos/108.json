@@ -1,0 +1,76 @@
+{
+  "full_name": "dingkaihu63/dsh-robotic-harness",
+  "originalPosition": 108,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "stargazers_count": 25,
+  "startedAt": "2026-10-22T05:16:33.481Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1d61591935675c4dc4b1f979fb12c777c443b4f3a56c01f9aed1fa98461690ca",
+      "url": "https://github.com/dingkaihu63/dsh-robotic-harness/blob/8cc09e7e3389a9fdafd4349d2840cfbac9b6e9c6/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "52760a5c85ebbf869aa3a8a0bd144ee6b22816f8b3021a0320d0d151d8a43638",
+      "url": "https://github.com/dingkaihu63/dsh-robotic-harness/blob/8cc09e7e3389a9fdafd4349d2840cfbac9b6e9c6/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@robotic-harness/dsh-bundle",
+      "version": "0.1.0",
+      "path": "packages/dsh-bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dingkaihu63/dsh-robotic-harness",
+        "commit": "8cc09e7e3389a9fdafd4349d2840cfbac9b6e9c6",
+        "path": "packages/dsh-bundle"
+      },
+      "manifestSha256": "7fc3460ef75aa9444cf4c79b24a7d6ed1c75d92101adf5d6db6b96cc9e4144e4",
+      "manifestUrl": "https://github.com/dingkaihu63/dsh-robotic-harness/blob/8cc09e7e3389a9fdafd4349d2840cfbac9b6e9c6/packages/dsh-bundle/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@robotic-harness/dsh-bundle",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787051871,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dingkaihu63/dsh-robotic-harness",
+              "commit": "8cc09e7e3389a9fdafd4349d2840cfbac9b6e9c6",
+              "path": "packages/dsh-bundle"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dingkaihu63/dsh-robotic-harness",
+    "commit": "8cc09e7e3389a9fdafd4349d2840cfbac9b6e9c6",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:16:49.643Z"
+}

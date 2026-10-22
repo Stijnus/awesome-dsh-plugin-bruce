@@ -1,0 +1,77 @@
+{
+  "full_name": "EricWang1358/dsh-web-studyhub",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "stargazers_count": 130,
+  "startedAt": "2026-10-22T05:13:30.801Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7b3e3bae7c4f63eb0184b5fc388e95eb57c97ccf0a55f37481038bac0874cff2",
+      "url": "https://github.com/EricWang1358/dsh-web-studyhub/blob/f09eb08399908211b54c7cba899c5ec1d93e6b3c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b287274cba7764023b8ede9ab4baba67cac327f56b86a3bd1306a5c4ea1bb35e",
+      "url": "https://github.com/EricWang1358/dsh-web-studyhub/blob/f09eb08399908211b54c7cba899c5ec1d93e6b3c/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ericwang1358/dsh-daily-flashcard",
+      "version": "3.5.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EricWang1358/dsh-web-studyhub",
+        "commit": "f09eb08399908211b54c7cba899c5ec1d93e6b3c"
+      },
+      "manifestSha256": "6838e655b330df0d8da9f7173649415d5acddac139ee822651c2488c0dd3f031",
+      "manifestUrl": "https://github.com/EricWang1358/dsh-web-studyhub/blob/f09eb08399908211b54c7cba899c5ec1d93e6b3c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@ericwang1358/dsh-daily-flashcard",
+        "versions": [
+          {
+            "version": "3.5.7",
+            "publishTimestamp": 1792424520,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/EricWang1358/dsh-web-studyhub",
+              "commit": "f09eb08399908211b54c7cba899c5ec1d93e6b3c"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EricWang1358/dsh-web-studyhub",
+    "commit": "f09eb08399908211b54c7cba899c5ec1d93e6b3c",
+    "releaseTags": 72,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:43.457Z"
+}

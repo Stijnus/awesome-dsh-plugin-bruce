@@ -1,0 +1,133 @@
+{
+  "full_name": "FuRongJun-1999/dsh-memory",
+  "originalPosition": 9,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 9,
+  "batch": 1,
+  "stargazers_count": 430,
+  "startedAt": "2026-10-22T05:12:53.895Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e7cff174be69487279e430fd07c33ad2d9416437f81022b35e211747ae656c7d",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/ops/README.md",
+      "sha256": "9ae2cae7f5499bc7dc005d89028f09bb53f562574a6862cf7126823271d3f7c0",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1/docs/ops/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "c6ff2a852ef57fce2b5657da366d97933f655889965e2ecc632d137fe06e7981",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/dev/README.md",
+      "sha256": "1170bc929017177c0d4859557721a852b2fbefb4b93d9df614333f30ed332f5d",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1/docs/dev/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh/README.md",
+      "sha256": "b796c489a2a0f829a01a2dfd8fef7473ffb8edddbf947c5d1ccfbc5798120329",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1/dsh/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "codebuddy/README.md",
+      "sha256": "7baba22f1ef41641037e65da78a92c993453efa38ccb38f2a2390551d2340a76",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1/codebuddy/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "zcode/README.md",
+      "sha256": "493305347fba006a20a61717b8d02e3cb9b4a9c802e55e899ded90b81e0d7d93",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1/zcode/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "codex/README.md",
+      "sha256": "117e10cc35baba8b56f9f90fcf883480ca6bdb07388cc15c997eae31631ef649",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1/codex/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "claude/README.md",
+      "sha256": "5efb20bce3f20d5873331e3fd80ded8882bc19e6d57161e25a87283df5305d11",
+      "url": "https://github.com/FuRongJun-1999/dsh-memory/blob/87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1/claude/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@furongjun1999/dsh-memory",
+      "version": "0.9.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FuRongJun-1999/dsh-memory",
+        "commit": "87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1"
+      },
+      "manifestSha256": "85256a95f133072fab846328132835fca5d48d67a1f6e0273b8aa52e241aefb9",
+      "manifestUrl": "https://github.com/FuRongJun-1999/dsh-memory/blob/87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@furongjun1999/dsh-memory",
+        "versions": [
+          {
+            "version": "0.9.10",
+            "publishTimestamp": 1792597072,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FuRongJun-1999/dsh-memory",
+              "commit": "87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FuRongJun-1999/dsh-memory",
+    "commit": "87b43ceafac1b6aa67a14defb6ee46b5fab0bdc1",
+    "releaseTags": 41,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:20.147Z"
+}

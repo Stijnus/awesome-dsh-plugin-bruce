@@ -1,0 +1,77 @@
+{
+  "full_name": "yan-mc/dsh-normify",
+  "originalPosition": 26,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 26,
+  "batch": 1,
+  "stargazers_count": 117,
+  "startedAt": "2026-10-22T05:13:38.011Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2e01a6555fa174c2f0cf2b598cc81a639c6c5f05020ff62ef3db0db2df5bc8a7",
+      "url": "https://github.com/yan-mc/dsh-normify/blob/ed404e5b8db0010ff57ec8486ec8749421072545/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "76a9cd0cf635ef05f3339840db76fe34fa7e53ee6024ce5541c5f0003b300be6",
+      "url": "https://github.com/yan-mc/dsh-normify/blob/ed404e5b8db0010ff57ec8486ec8749421072545/README_EN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-normify",
+      "version": "0.5.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yan-mc/dsh-normify",
+        "commit": "ed404e5b8db0010ff57ec8486ec8749421072545"
+      },
+      "manifestSha256": "03759ba68f0a8d2eb706606c2dd31e0b58c97b369d7ef7b012abf93cca945b43",
+      "manifestUrl": "https://github.com/yan-mc/dsh-normify/blob/ed404e5b8db0010ff57ec8486ec8749421072545/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.2 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-external/dsh-normify",
+        "versions": [
+          {
+            "version": "0.5.4",
+            "publishTimestamp": 1789279314,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yan-mc/dsh-normify",
+              "commit": "ed404e5b8db0010ff57ec8486ec8749421072545"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yan-mc/dsh-normify",
+    "commit": "ed404e5b8db0010ff57ec8486ec8749421072545",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:48.249Z"
+}

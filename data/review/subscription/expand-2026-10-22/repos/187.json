@@ -1,0 +1,212 @@
+{
+  "full_name": "linyp/dsh-plugin-langfuse",
+  "originalPosition": 187,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 187,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-10-22T05:20:10.360Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7999e983077f874c61ca9801e206866a51a5f5870285827b885c52619afff546",
+      "url": "https://github.com/linyp/dsh-plugin-langfuse/blob/0391c677729a1d56d4685ef23808c33c792484cf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-langfuse",
+          "command": "dsh plugin --profile web add dsh-plugin-langfuse",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-langfuse@0.9.0",
+          "command": "dsh plugin --profile web add dsh-plugin-langfuse@0.9.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c5931188a74c986b1dd9c18a945b21ffaa1fc591840d261d89a010f0af3adc38",
+      "url": "https://github.com/linyp/dsh-plugin-langfuse/blob/0391c677729a1d56d4685ef23808c33c792484cf/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-langfuse",
+          "command": "dsh plugin --profile web add dsh-plugin-langfuse",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-langfuse@0.9.0",
+          "command": "dsh plugin --profile web add dsh-plugin-langfuse@0.9.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-langfuse",
+      "version": "0.9.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/linyp/dsh-plugin-langfuse",
+        "commit": "0391c677729a1d56d4685ef23808c33c792484cf"
+      },
+      "manifestSha256": "b23b6bc45e24a26fca2fb95619e6b1f36da6b7ebc62c803dcaf0710a5216b658",
+      "manifestUrl": "https://github.com/linyp/dsh-plugin-langfuse/blob/0391c677729a1d56d4685ef23808c33c792484cf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-langfuse",
+        "versions": [
+          {
+            "version": "0.9.0",
+            "publishTimestamp": 1792594775,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/linyp/dsh-plugin-langfuse",
+              "commit": "0391c677729a1d56d4685ef23808c33c792484cf"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-langfuse",
+      "origin": "npm",
+      "name": "dsh-plugin-langfuse",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-langfuse",
+        "title": "dsh-plugin-langfuse",
+        "description": "Langfuse observability for DeepSeek Harness: OpenTelemetry traces, compaction, feedback Scores, and fork lineage",
+        "author": "Yupeng Lin",
+        "homepage": "https://github.com/linyp/dsh-plugin-langfuse#readme",
+        "repository": {
+          "url": "https://github.com/linyp/dsh-plugin-langfuse"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "langfuse",
+            "opentelemetry",
+            "observability",
+            "llm-tracing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.9.0",
+            "publishTimestamp": 1792595190,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "db2be28967c08d5507f1a1574ebaf222be28d82dd7842e1035357b2f2021732b",
+      "evidence": [
+        {
+          "name": "dsh-plugin-langfuse",
+          "version": "0.9.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-langfuse/-/dsh-plugin-langfuse-0.9.0.tgz",
+          "integrity": "sha512-XbrPdZVcNHzmLAOqMqRhu8CLVWqrSDF17XDCbFf0NPgcpPMthGsn/VeI8KkyVHOSE1hy5uRK5cp+kF+AHRi9dQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-plugin-langfuse@0.9.0",
+      "origin": "npm",
+      "name": "dsh-plugin-langfuse",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-langfuse",
+        "title": "dsh-plugin-langfuse",
+        "description": "Langfuse observability for DeepSeek Harness: OpenTelemetry traces, compaction, feedback Scores, and fork lineage",
+        "author": "Yupeng Lin",
+        "homepage": "https://github.com/linyp/dsh-plugin-langfuse#readme",
+        "repository": {
+          "url": "https://github.com/linyp/dsh-plugin-langfuse"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "langfuse",
+            "opentelemetry",
+            "observability",
+            "llm-tracing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.9.0",
+            "publishTimestamp": 1792595190,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "db2be28967c08d5507f1a1574ebaf222be28d82dd7842e1035357b2f2021732b",
+      "evidence": [
+        {
+          "name": "dsh-plugin-langfuse",
+          "version": "0.9.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-langfuse/-/dsh-plugin-langfuse-0.9.0.tgz",
+          "integrity": "sha512-XbrPdZVcNHzmLAOqMqRhu8CLVWqrSDF17XDCbFf0NPgcpPMthGsn/VeI8KkyVHOSE1hy5uRK5cp+kF+AHRi9dQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-langfuse",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-langfuse@0.9.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/linyp/dsh-plugin-langfuse",
+    "commit": "0391c677729a1d56d4685ef23808c33c792484cf",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:20:26.557Z"
+}

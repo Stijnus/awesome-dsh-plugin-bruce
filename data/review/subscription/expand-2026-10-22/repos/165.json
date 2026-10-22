@@ -1,0 +1,157 @@
+{
+  "full_name": "gezi-wen/sage-mem",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "stargazers_count": 16,
+  "startedAt": "2026-10-22T05:19:25.158Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b958011f8dc90ee370b8cc72a010c224976e82a90bb20b069263f57ed8a834b0",
+      "url": "https://github.com/gezi-wen/sage-mem/blob/2fff74cfddbc9afaec562e73aa0aa5f82bd1be15/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "sage-mem",
+          "command": "dsh plugin --profile web add sage-mem",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "dc32d1c871da18f54f1cf5980b64c6699d69c81b95a93201ce126199374ea54d",
+      "url": "https://github.com/gezi-wen/sage-mem/blob/2fff74cfddbc9afaec562e73aa0aa5f82bd1be15/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "sage-mem",
+          "command": "dsh plugin --profile web add sage-mem",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "sage-mem",
+      "version": "1.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gezi-wen/sage-mem",
+        "commit": "2fff74cfddbc9afaec562e73aa0aa5f82bd1be15"
+      },
+      "manifestSha256": "0c88969b162a788eba68875b2783751678a4f55ea6d1035c9b429f5e3e893fe3",
+      "manifestUrl": "https://github.com/gezi-wen/sage-mem/blob/2fff74cfddbc9afaec562e73aa0aa5f82bd1be15/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "sage-mem",
+        "versions": [
+          {
+            "version": "1.6.0",
+            "publishTimestamp": 1792508822,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gezi-wen/sage-mem",
+              "commit": "2fff74cfddbc9afaec562e73aa0aa5f82bd1be15"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "sage-mem",
+      "origin": "npm",
+      "name": "sage-mem",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "sage-mem",
+        "title": "sage-mem",
+        "description": "Cross-session memory for DeepSeek Harness — plain markdown files, no database, no worker.",
+        "homepage": "https://github.com/gezi-wen/sage-mem#readme",
+        "repository": {
+          "url": "https://github.com/gezi-wen/sage-mem"
+        },
+        "metadata": {
+          "keywords": [
+            "memory",
+            "ai-memory",
+            "agent-memory",
+            "long-term-memory",
+            "cross-session-memory",
+            "context-management",
+            "knowledge-management",
+            "markdown",
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "deepseek-harness",
+            "cordis",
+            "typert",
+            "plugin",
+            "ai-agent",
+            "agent",
+            "claude-code"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.6.0",
+            "publishTimestamp": 1792508973,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f61139b440e152ff4fb4981a9b022e8705813a53521c279dcbd41e74892be5c5",
+      "evidence": [
+        {
+          "name": "sage-mem",
+          "version": "1.6.0",
+          "tarball": "https://registry.npmjs.org/sage-mem/-/sage-mem-1.6.0.tgz",
+          "integrity": "sha512-ltRAYltuhmCXsu7uVhalYW7wIs9OHr1hrieqDlNZxWCLdp9vQa0MxIFNwRhoarNqH65B3j6WBUAVaQ0XwLwx9A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "sage-mem",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gezi-wen/sage-mem",
+    "commit": "2fff74cfddbc9afaec562e73aa0aa5f82bd1be15",
+    "releaseTags": 57,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:19:43.526Z"
+}

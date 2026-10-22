@@ -1,0 +1,69 @@
+{
+  "full_name": "Lanxing6480/dsh-galgame",
+  "originalPosition": 138,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 138,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-10-22T05:18:30.947Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "395fcccdf8d3f736611e20b9f35177076c8df9d4172cd32df7fa9121bb60aa95",
+      "url": "https://github.com/Lanxing6480/dsh-galgame/blob/6e88fa7d896bbde8fed36f80e033e1e08e97766f/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lanxing/dsh-galgame",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lanxing6480/dsh-galgame",
+        "commit": "6e88fa7d896bbde8fed36f80e033e1e08e97766f"
+      },
+      "manifestSha256": "86acd104fe2645f3cf55e63685401e303429ce55a9a23d3210c438f399f8d4f5",
+      "manifestUrl": "https://github.com/Lanxing6480/dsh-galgame/blob/6e88fa7d896bbde8fed36f80e033e1e08e97766f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@lanxing/dsh-galgame",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1792388936,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lanxing6480/dsh-galgame",
+              "commit": "6e88fa7d896bbde8fed36f80e033e1e08e97766f"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lanxing6480/dsh-galgame",
+    "commit": "6e88fa7d896bbde8fed36f80e033e1e08e97766f",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:18:37.741Z"
+}

@@ -1,0 +1,186 @@
+{
+  "full_name": "Fei2411/DeepSeek-Bot",
+  "originalPosition": 2,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "stargazers_count": 2684,
+  "startedAt": "2026-10-22T05:12:36.707Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "363e1da50cc78c367feacf49240b7636ec02ded85d67c9d06c93e08bd425cea9",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot/blob/ae63b45c0d0e75b5f59fc3042b5043761ee41391/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "0ee77cbd8d7374abfe85e6e24dd7a2ec83b667bcde23a37f36d9613fa4bc1c2e",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot/blob/ae63b45c0d0e75b5f59fc3042b5043761ee41391/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docker/README.md",
+      "sha256": "4eb431c655d7141f55dfc5f1da5a74b2b6cabf4e28c1791fb3d89958c2e4f508",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot/blob/ae63b45c0d0e75b5f59fc3042b5043761ee41391/docker/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "ds-bot/README.md",
+      "sha256": "5080bfb0998e038bffdec97a73510695aef5251883dafba62c5f4037f81999d4",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot/blob/ae63b45c0d0e75b5f59fc3042b5043761ee41391/ds-bot/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "ds-bot",
+          "command": "dsh plugin --profile desktop add ds-bot",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-bot-engine",
+      "version": "0.2.0",
+      "path": "app/engine",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fei2411/DeepSeek-Bot",
+        "commit": "ae63b45c0d0e75b5f59fc3042b5043761ee41391",
+        "path": "app/engine"
+      },
+      "manifestSha256": "efed5c9087484b8516d60dc6115ea1f703d7f56a40ef55ae60b6d5a3d155f7a9",
+      "manifestUrl": "https://github.com/Fei2411/DeepSeek-Bot/blob/ae63b45c0d0e75b5f59fc3042b5043761ee41391/app/engine/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "deepseek-bot-engine",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792563083,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Fei2411/DeepSeek-Bot",
+              "commit": "ae63b45c0d0e75b5f59fc3042b5043761ee41391",
+              "path": "app/engine"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "ds-bot",
+      "version": "0.2.0",
+      "path": "ds-bot",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fei2411/DeepSeek-Bot",
+        "commit": "ae63b45c0d0e75b5f59fc3042b5043761ee41391",
+        "path": "ds-bot"
+      },
+      "manifestSha256": "db9c943fc3174efda0027dc9ab22a472b26ea7668305c40a11f92e505008dfdf",
+      "manifestUrl": "https://github.com/Fei2411/DeepSeek-Bot/blob/ae63b45c0d0e75b5f59fc3042b5043761ee41391/ds-bot/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "ds-bot",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792563083,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Fei2411/DeepSeek-Bot",
+              "commit": "ae63b45c0d0e75b5f59fc3042b5043761ee41391",
+              "path": "ds-bot"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "ds-bot",
+      "origin": "npm",
+      "name": "ds-bot",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "ds-bot",
+        "title": "ds-bot",
+        "description": "DS Bot: a team of long-lived Bots for DeepSeek Harness, with Main Bots, Bot-to-Bot messages and group chats",
+        "homepage": "https://github.com/Fei2411/DeepSeek-Bot#readme",
+        "repository": {
+          "url": "https://github.com/Fei2411/DeepSeek-Bot",
+          "directory": "ds-bot"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "deepseek",
+            "bot",
+            "multi-agent",
+            "agents"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792563300,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "20302255e7e5b871ff3b1a10e9d466710e41c15410cc0b1bbfec6ad64de1f0cd",
+      "evidence": [
+        {
+          "name": "ds-bot",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/ds-bot/-/ds-bot-0.2.0.tgz",
+          "integrity": "sha512-YAPaCbUYupG5BwJuP75WpyHmakcH+rfkKWnxIGv5AsUIc2+AP3D0675EZdz3qqjmF7eS3gkhtr5gPnLUd9dVgQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "ds-bot",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fei2411/DeepSeek-Bot",
+    "commit": "ae63b45c0d0e75b5f59fc3042b5043761ee41391",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:12:55.507Z"
+}

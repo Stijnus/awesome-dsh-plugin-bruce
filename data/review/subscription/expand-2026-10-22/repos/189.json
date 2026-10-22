@@ -1,0 +1,81 @@
+{
+  "full_name": "omdsh-dev/dsh-sidechain",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-10-22T05:20:13.743Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6cc96ddbb3431163fc536cd9ad9e05c79146cdd95a6e4e568efd23989e153581",
+      "url": "https://github.com/omdsh-dev/dsh-sidechain/blob/706941c26cee4c85960cda4228f7a624eda39e37/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-sidechain",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-sidechain",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-sidechain",
+      "version": "0.2.1-rc.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-sidechain",
+        "commit": "706941c26cee4c85960cda4228f7a624eda39e37"
+      },
+      "manifestSha256": "b4ace000483e9435e1896d3d1948d2061ec71bacd94368146b511d913e7f081f",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-sidechain/blob/706941c26cee4c85960cda4228f7a624eda39e37/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-external/dsh-sidechain",
+        "versions": [
+          {
+            "version": "0.2.1-rc.2",
+            "publishTimestamp": 1792462680,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/omdsh-dev/dsh-sidechain",
+              "commit": "706941c26cee4c85960cda4228f7a624eda39e37"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/omdsh-dev/dsh-sidechain",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-sidechain",
+    "commit": "706941c26cee4c85960cda4228f7a624eda39e37",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:20:22.774Z"
+}

@@ -1,4 +1,4 @@
-/** Validate the committed index, its report hash, and the published 600-plugin policy. */
+/** Validate the committed index, its report hash, and the published plugin cap. */
 import { readFile } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
 import { resolve } from 'node:path'

@@ -1,0 +1,145 @@
+{
+  "full_name": "Alice-Marx/dsh-model-router",
+  "originalPosition": 17,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 17,
+  "batch": 1,
+  "stargazers_count": 198,
+  "startedAt": "2026-10-22T05:13:14.901Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4c5375c963bad43996ea255c6df091b9d146f472526cc2f4ac6c2c38ebf0232c",
+      "url": "https://github.com/Alice-Marx/dsh-model-router/blob/63491d3274635ebe721a83efbcfad623e1f88d9d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ljwei-stak/dsh-model-router@0.22.2",
+          "command": "dsh plugin --profile web add @ljwei-stak/dsh-model-router@0.22.2",
+          "profile": "web"
+        },
+        {
+          "install": "@ljwei-stak/dsh-model-router@0.22.2",
+          "command": "dsh plugin --profile desktop add @ljwei-stak/dsh-model-router@0.22.2",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "a5fb16293a2c8e67bfab423971b02402d10f5de3b3423d7db14cf0697865b283",
+      "url": "https://github.com/Alice-Marx/dsh-model-router/blob/63491d3274635ebe721a83efbcfad623e1f88d9d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ljwei-stak/dsh-model-router@0.22.2",
+          "command": "dsh plugin --profile web add @ljwei-stak/dsh-model-router@0.22.2",
+          "profile": "web"
+        },
+        {
+          "install": "@ljwei-stak/dsh-model-router@0.22.2",
+          "command": "dsh plugin --profile desktop add @ljwei-stak/dsh-model-router@0.22.2",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ljwei-stak/dsh-model-router",
+      "version": "0.22.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Alice-Marx/dsh-model-router",
+        "commit": "63491d3274635ebe721a83efbcfad623e1f88d9d"
+      },
+      "manifestSha256": "7ac5a840fa7575ef382fb05aa5b69a87d308a50b8da1124369810f85667ecf30",
+      "manifestUrl": "https://github.com/Alice-Marx/dsh-model-router/blob/63491d3274635ebe721a83efbcfad623e1f88d9d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@ljwei-stak/dsh-model-router",
+        "versions": [
+          {
+            "version": "0.22.2",
+            "publishTimestamp": 1792636802,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Alice-Marx/dsh-model-router",
+              "commit": "63491d3274635ebe721a83efbcfad623e1f88d9d"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@ljwei-stak/dsh-model-router@0.22.2",
+      "origin": "npm",
+      "name": "@ljwei-stak/dsh-model-router",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@ljwei-stak/dsh-model-router",
+        "title": "@ljwei-stak/dsh-model-router",
+        "description": "Model Router for official DeepSeek Harness Desktop: cost-aware task routing, dependent work packages and official vendor CLI discovery, installation and execution. GAL is available separately as @ljwei-stak/dsh-galgame.",
+        "homepage": "https://github.com/Alice-Marx/dsh-model-router#readme",
+        "repository": {
+          "url": "https://github.com/Alice-Marx/dsh-model-router"
+        },
+        "versions": [
+          {
+            "version": "0.22.2",
+            "publishTimestamp": 1792400671,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8c92610a2828d4ce07151b72bde3607369853884c69e94aedc4975ffef9a60b0",
+      "evidence": [
+        {
+          "name": "@ljwei-stak/dsh-model-router",
+          "version": "0.22.2",
+          "tarball": "https://registry.npmjs.org/@ljwei-stak/dsh-model-router/-/dsh-model-router-0.22.2.tgz",
+          "integrity": "sha512-QDdf0FFc2hDnHjnERbaIVr3uZNKKZihvLwHCeEmKLYcP1muQ6H3qGVUiB1TgKj+nAoFcGtTJUu4oUPyOWYYrdw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@ljwei-stak/dsh-model-router@0.22.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Alice-Marx/dsh-model-router",
+    "commit": "63491d3274635ebe721a83efbcfad623e1f88d9d",
+    "releaseTags": 45,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-10-22T05:13:27.913Z"
+}
