@@ -3535,11 +3535,11 @@
       "versions": [
         {
           "version": "0.31.1",
-          "publishTimestamp": 1792590594,
+          "publishTimestamp": 1792651506,
           "source": {
             "type": "git",
             "url": "https://github.com/Phant0Meow/dsh-meow-memory",
-            "commit": "1e5cc8f68d46ab515d742570c837d0218a8a2515"
+            "commit": "d531575ef6adaf562e06d49cb84a2c73b66ce6db"
           }
         }
       ]
@@ -16358,7 +16358,7 @@
     {
       "name": "dsh-remote-mobile",
       "title": "dsh-remote-mobile",
-      "description": "DeepSeek Harness 远程与移动端安全网关插件：零修改 DSH 底层代码安全开放局域网与 Tailscale 连接 | DeepSeek Harness (DSH) Remote & Mobile Security Guard: safely opens Tailscale/LAN with zero core modifications, QR scan auth, RSA encryption & brute-force defense.",
+      "description": "DeepSeek Harness 远程与移动端安全接入代理插件：零修改 DSH 底层代码安全开放局域网与 Tailscale 连接 | DeepSeek Harness (DSH) Remote & Mobile Secure Access Proxy: safely opens Tailscale/LAN with zero core modifications, QR scan auth, RSA encryption & brute-force defense.",
       "homepage": "https://github.com/IceApriler/dsh-remote-mobile#readme",
       "repository": {
         "url": "https://github.com/IceApriler/dsh-remote-mobile"
@@ -16390,8 +16390,8 @@
       },
       "versions": [
         {
-          "version": "1.9.1",
-          "publishTimestamp": 1792235994,
+          "version": "1.10.0",
+          "publishTimestamp": 1792652376,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -27957,8 +27957,8 @@
       "icon": "data:image/webp;base64,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",
       "versions": [
         {
-          "version": "0.5.0",
-          "publishTimestamp": 1792466423,
+          "version": "0.5.1",
+          "publishTimestamp": 1792651231,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
