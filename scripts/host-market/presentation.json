@@ -1,15 +1,18 @@
 {
   "format": 1,
-  "reviewedAt": "2026-10-19",
-  "policy": "Reviewed translations and concise summaries; retain package install identity. Skip on upstream display changes.",
+  "reviewedAt": "2026-10-22",
+  "policy": "Reviewed translations, concise summaries and user-value labels supported by pinned display metadata. Retain package install identity; skip on upstream display changes. At most three value labels per plugin; no category or package-name inference.",
   "plugins": {
     "@dsh-external/dsh-super-injector": {
       "reviewedVersion": "0.3.3",
       "displaySha256": "1ef106ee77c5c0637f4b66a6f24163bb84bcc2bdcf3e0e2b365ec010bfba4dee",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "presets"
+      ],
       "keywords": [
         "模组注入",
         "预设",
@@ -77,9 +80,12 @@
       "reviewedVersion": "0.28.0",
       "displaySha256": "bba116c6ec785dc40ff0753776df0b986bd9b1efce10e8431ddbc4076c5bef18",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "file-management"
+      ],
       "keywords": [
         "侧边栏",
         "文件树",
@@ -143,9 +149,12 @@
       "reviewedVersion": "0.73.3",
       "displaySha256": "169ed9e9603db8d587163746b7d78835c0c375cec35bbb222b5191fb01273f97",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "context"
+      ],
       "keywords": [
         "上下文管理",
         "上下文仪表盘",
@@ -157,10 +166,12 @@
       "reviewedVersion": "0.1.22-rc.1",
       "displaySha256": "adce8a103d0603c8a535ad0904f7928dddee72252ad2d56570c2e57d03d22d3a",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
-        "teams"
+        "teams",
+        "workflows"
       ],
       "keywords": [
         "多智能体协作",
@@ -181,9 +192,12 @@
       "reviewedVersion": "5.1.0",
       "displaySha256": "110edeef8ff67762b94cc0d6eadff823cd8064011860b6b03295136595c608f6",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "messaging"
+      ],
       "keywords": [
         "聊天机器人",
         "即时通讯",
@@ -197,9 +211,11 @@
       "reviewedVersion": "2.12.0",
       "displaySha256": "dddf7486451f2313c7499310f9d6ce3f25bd62eff22479f675b14d26f028aab9",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
+        "mobile",
         "remote"
       ],
       "keywords": [
@@ -222,9 +238,12 @@
       "reviewedVersion": "0.3.7",
       "displaySha256": "0bd01aa92501de4a2b66f5538e9c90d0d6e952aaf567bb5a5c22ffd04aeb25de",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "pets"
+      ],
       "keywords": [
         "桌宠",
         "宠物",
@@ -316,10 +335,12 @@
       "reviewedVersion": "0.1.47",
       "displaySha256": "0ad099c825e66475ea0f82c44014daf573dd6883ab8c554cf544540ae04f2e33",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
-        "vision"
+        "vision",
+        "ocr"
       ],
       "keywords": [
         "文字识别",
@@ -341,10 +362,12 @@
       "reviewedVersion": "5.10.5",
       "displaySha256": "77168536cf06dcb4467a93f2731552495f48a42bec011cb0b2e6751f9ea6108b",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
-        "search"
+        "search",
+        "web-extraction"
       ],
       "keywords": [
         "联网搜索",
@@ -366,10 +389,12 @@
       "reviewedVersion": "1.1.1",
       "displaySha256": "dd2fce285636f7e77bc1da05f3a978d18b49811853b03e34f0a082c9215e3baf",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
-        "research"
+        "security-research",
+        "presets"
       ],
       "keywords": [
         "红队",
@@ -413,9 +438,12 @@
       "reviewedVersion": "0.13.0",
       "displaySha256": "aba246a2be88fa9bf611a97b6aab92ebd1ff41f5388b358f42ade9911c6eee47",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "interactive-cards"
+      ],
       "keywords": [
         "交互界面",
         "图表",
@@ -436,9 +464,12 @@
       "reviewedVersion": "0.9.1",
       "displaySha256": "960ef041c82b2e84fcc2dd3e75d9cb923a987c0db456660db6195f5b587ad8ae",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "image-generation"
+      ],
       "keywords": [
         "文生图",
         "图片生成",
@@ -475,7 +506,8 @@
       "reviewedVersion": "0.21.1",
       "displaySha256": "6ee3ffe477e88331e27f46f64a352283932bbdae8856f64f3af1939cd7eb0ba3",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
         "research"
@@ -500,9 +532,12 @@
       "reviewedVersion": "0.4.2",
       "displaySha256": "b597b6cfa5cabe46582708cf53fe8f00f77caddfec187a27cd7854f33d5b8330",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "conversation-workspace"
+      ],
       "keywords": [
         "非线性对话",
         "对话工作区",
@@ -522,10 +557,12 @@
       "reviewedVersion": "0.1.8",
       "displaySha256": "fa33a033c1935b645a62f8b396626af34a8103e61d58dc3a0fe93c7adc11f6ce",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
-        "search"
+        "search",
+        "web-extraction"
       ],
       "keywords": [
         "网页搜索",
@@ -546,9 +583,13 @@
       "reviewedVersion": "0.1.1",
       "displaySha256": "4f4203684b75cb00c3972268844e3bfcf51127a1e5a92b5badda3abbd5d89ed7",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "invoices",
+        "ocr"
+      ],
       "keywords": [
         "发票",
         "邮件",
@@ -570,9 +611,14 @@
       "reviewedVersion": "0.3.0",
       "displaySha256": "93323e1d53ceb70150a48dcbf9509bad2dfa66aa156287c11bc07bdea2effb4d",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "voice-input",
+        "read-aloud",
+        "voice-bridge-required"
+      ],
       "keywords": [
         "语音输入",
         "语音回复",
@@ -594,9 +640,11 @@
       "reviewedVersion": "0.1.0",
       "displaySha256": "e5d08984d5364b1c9adcf5c1a0b6a32d53440246ef91f5f7c040383bad66dab2",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
+        "code-intelligence",
         "memory"
       ],
       "keywords": [
@@ -618,9 +666,12 @@
       "reviewedVersion": "1.0.0",
       "displaySha256": "f1f17d8f306e22091d09794dc3db83009b80f15152b8b16d87239e1263b48e3a",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "presets"
+      ],
       "keywords": [
         "预设管理",
         "提示词",
@@ -665,9 +716,13 @@
       "reviewedVersion": "1.9.12",
       "displaySha256": "322712e4287da97f9caa0dbd2d35009364641037ed1a15cb23f33594102bd248",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "cost-tracking",
+        "usage-tracking"
+      ],
       "keywords": [
         "费用统计",
         "余额",
@@ -747,10 +802,12 @@
       "reviewedVersion": "0.1.0",
       "displaySha256": "985305cde254d1f73310c575ee911a63d9abe9b0d3840b231e2523808661c722",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
-        "memory"
+        "memory",
+        "skills"
       ],
       "keywords": [
         "长期记忆",
@@ -813,9 +870,12 @@
       "reviewedVersion": "0.2.0",
       "displaySha256": "e81e8a882069ea2828fb3c42abd8da35843549480023f9f71fe0ebd222bd3b69",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "pets"
+      ],
       "keywords": [
         "桌面宠物",
         "桌宠",
@@ -835,9 +895,12 @@
       "reviewedVersion": "0.1.0-rc.10",
       "displaySha256": "74eb89a377eaa8b95d9d0fc2b78d3ad728917c2817be76c8bee1c8e48f54341c",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "app-testing"
+      ],
       "keywords": [
         "iOS",
         "模拟器",
@@ -857,9 +920,12 @@
       "reviewedVersion": "0.1.7",
       "displaySha256": "e303e94a0521186c4eb07247a64d76a98c71d47ef0085fc646dc5bd995be682a",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "interactive-cards"
+      ],
       "keywords": [
         "可视化",
         "交互卡片",
@@ -879,10 +945,12 @@
       "reviewedVersion": "1.3.0",
       "displaySha256": "00221469436720bac2882d6abd27685b5da8983a1c3764738f16a0ffb86a8357",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
-        "teams"
+        "teams",
+        "workflows"
       ],
       "keywords": [
         "多模型团队",
@@ -972,11 +1040,12 @@
       "reviewedVersion": "1.2.0",
       "displaySha256": "d54ba90b07e467ec7321b86652103accfe5da36aa4b65f5dbf0cf99071662998",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
-        "skills",
-        "research"
+        "security-research",
+        "skills"
       ],
       "keywords": [
         "逆向工程",
@@ -1037,9 +1106,12 @@
       "reviewedVersion": "0.26.1",
       "displaySha256": "d9f284066a9f8586c0a98a54e3b4e558b7fb8b563a57fe8bf106edfbe2c80443",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "chat-migration"
+      ],
       "keywords": [
         "聊天记录",
         "会话导入",
@@ -1059,9 +1131,12 @@
       "reviewedVersion": "0.13.7",
       "displaySha256": "f6b291686d9e0b5361ad4aff9ddea5444fdbc16bc278ed05202c28b6925b79ec",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
-      "labels": [],
+      "labels": [
+        "approvals"
+      ],
       "keywords": [
         "审批审阅",
         "权限审批",
@@ -1157,10 +1232,11 @@
       "reviewedVersion": "0.3.23",
       "displaySha256": "7f7719add0a262d17d035ee57c85bcf16e4b23f6f9cdcdb479c44eeb3007d315",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
       ],
       "labels": [
-        "research"
+        "industry-research"
       ],
       "keywords": [
         "行业研究",
@@ -1231,6 +1307,507 @@
         "en": "Manage system, manual and direct network proxy modes for DSH from a live settings UI.",
         "zh": "在设置界面管理 DSH 的系统代理、手动代理与直连模式。"
       }
+    },
+    "@shengsheng/dsh-taskboard": {
+      "reviewedVersion": "0.1.9",
+      "displaySha256": "5a307d7a4d4f1c4b83f3cf6d99559fa77948fb78fa2a87b1d9a194860d1d41a4",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "taskboard"
+      ]
+    },
+    "dsh-ego-browser": {
+      "reviewedVersion": "0.8.7",
+      "displaySha256": "a7f11f609092c1feb51a39f2c46a2c45f93434f45a4b82c548a2ab6653469e34",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "browser-automation"
+      ]
+    },
+    "dsh-skill-mcp-panel": {
+      "reviewedVersion": "2.3.5",
+      "displaySha256": "b501d4ab4b5ff4c20f37a5c0ace37175c98c769ee6233b1c69682e00dc10814e",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "mcp",
+        "skills"
+      ]
+    },
+    "@ychris12138/dsh-usage-stats": {
+      "reviewedVersion": "0.3.6",
+      "displaySha256": "631645aa829b9e9a75c7458f0c2cbf31da572a71ffd870ed977f6cf837c0f248",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "cost-tracking",
+        "usage-tracking"
+      ]
+    },
+    "dsh-builtin-browser": {
+      "reviewedVersion": "0.4.14",
+      "displaySha256": "1641642b414aa1ea1d1678b3192fd3616ecfab6779a43781620ae7bf8385436e",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "browser-automation"
+      ]
+    },
+    "dsh-usage": {
+      "reviewedVersion": "0.3.1",
+      "displaySha256": "80b20a01ff842d1bc80f69641dadee313b2678971320b66cdbf82ab6c2d4a229",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "usage-tracking"
+      ]
+    },
+    "dsh-mcp-panel": {
+      "reviewedVersion": "0.6.29",
+      "displaySha256": "5fb1f0fe197274e17f96c24f43e2e185e0ecdb5821a3a718b27e0515435e7044",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "mcp"
+      ]
+    },
+    "dsh-omi-voice": {
+      "reviewedVersion": "0.1.2",
+      "displaySha256": "f195eecfca855c51341162d92dda9cf82c5272e2f79c0e8d0cf6eec6124f1e94",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "read-aloud",
+        "api-key-required"
+      ]
+    },
+    "@anweat/dsh-browser": {
+      "reviewedVersion": "0.2.1",
+      "displaySha256": "e5b3309d7f384df1be60f4e279d5679f11408e6e0c925a05d395dd91efdea1b8",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "browser-automation"
+      ]
+    },
+    "dsh-taskboard": {
+      "reviewedVersion": "0.9.1",
+      "displaySha256": "3b5714745819d24428cd06cca7c037bdde7db445ac1296b80743730fb5884e9c",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "taskboard",
+        "workflows"
+      ]
+    },
+    "dsh-think-translate": {
+      "reviewedVersion": "1.2.13",
+      "displaySha256": "8283310993ae67e5e140dfa95838405b391b4abfcf2265675a3c813e65413d99",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "translation"
+      ]
+    },
+    "dsh-browser-crossplatform": {
+      "reviewedVersion": "0.38.7",
+      "displaySha256": "4896956984fba6601cd7091f11d1e05917c41b6a14d528ffd564f94ca5c4b941",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "browser-automation",
+        "browser-extension-required"
+      ]
+    },
+    "@caob23/dsh-browser-control": {
+      "reviewedVersion": "1.0.19",
+      "displaySha256": "ba42c66d02862d4d51a011ddaa931c8795eab92b90631289f6e9789154cc0f1a",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "browser-automation",
+        "browser-extension-required"
+      ]
+    },
+    "dsh-voice-scribe": {
+      "reviewedVersion": "0.5.3",
+      "displaySha256": "e868f9e0693b4d439cfa46713ea8bbb1c5fe741db8767251ac9ac072681a3030",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "voice-input"
+      ]
+    },
+    "@feiyang666/dsh-usage-plugin": {
+      "reviewedVersion": "1.18.0",
+      "displaySha256": "2455e0784ff0860e92ba82b627059e5d2ed1ba24d294ad7f13d787c75c5f38e5",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "cost-tracking",
+        "usage-tracking"
+      ]
+    },
+    "dsh-usage-stats": {
+      "reviewedVersion": "0.1.16",
+      "displaySha256": "42226dab8d557ebbd25de6a850902f3f87780549d4ae24a99818ecc547820205",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "usage-tracking"
+      ]
+    },
+    "dsh-mcp-studio": {
+      "reviewedVersion": "1.0.6",
+      "displaySha256": "befa6a44d269e33d870a7e1fb229a45731c29afec006aa9f4c0360fe1e83e076",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "mcp",
+        "skills"
+      ]
+    },
+    "@xiaoyuyu6420/dsh-backup": {
+      "reviewedVersion": "0.13.4",
+      "displaySha256": "f122ba55c41bcafacf06270a45344a95284ce8bcbd09da2c4d8d661cf811c81f",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "backup"
+      ]
+    },
+    "@canglongcl/dsh-web-review": {
+      "reviewedVersion": "0.6.0",
+      "displaySha256": "a57c235e7744f02c6d581becc329292b7659c97f22b9c88898faba571e2067a7",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "app-testing"
+      ]
+    },
+    "dsh-mcp": {
+      "reviewedVersion": "1.14.0",
+      "displaySha256": "c57e8e72ce9159e703455922ac06ac8618bc9b508b7c2ff56675d9467aa5241a",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "mcp",
+        "context"
+      ]
+    },
+    "dsh-ccpg-document-preview": {
+      "reviewedVersion": "0.12.0",
+      "displaySha256": "16b33bab9af8a233a57fc5708c07e7f5d61f1c65a38fda006b53d16ce6698223",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "document-preview"
+      ]
+    },
+    "dsh-mcp-manager": {
+      "reviewedVersion": "0.13.0",
+      "displaySha256": "7d04aa02a04232c9326c1b7d4807757ebab8c612e524ebd0e93e36247a65037e",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "mcp"
+      ]
+    },
+    "@js2hou/dsh-mcp-manager": {
+      "reviewedVersion": "0.1.5",
+      "displaySha256": "b68a465ae2da284f12a4a37e71a930ff64f8fcf586fba1fc58eee06d060e3cdb",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "mcp"
+      ]
+    },
+    "dsh-voice-mode": {
+      "reviewedVersion": "0.7.27",
+      "displaySha256": "6194c0c47bd45cba4f770d8e98691996c694920e0eaf6bc627b0b15f30f655a9",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "voice-input",
+        "read-aloud"
+      ]
+    },
+    "dsh-deepseek-usage-panel": {
+      "reviewedVersion": "0.2.3",
+      "displaySha256": "762c3fc63c7dd242429d83923575ad3e72bdb359ce7ab6d01bc4dae3dbd07fb2",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "cost-tracking",
+        "usage-tracking"
+      ]
+    },
+    "dsh-mcp-manage": {
+      "reviewedVersion": "1.1.0",
+      "displaySha256": "ef5ca54429a174127e4a05b3d70f471b8a49b19fd4b83cd3e66fbbc65dc2d747",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "mcp"
+      ]
+    },
+    "dsh-playwright-browser": {
+      "reviewedVersion": "0.1.3",
+      "displaySha256": "0bb6bd295be590b7b2c73cd56479e164b3ba09c37fd87be223f98adb4be9f88f",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "browser-automation"
+      ]
+    },
+    "@laoyuehanni/dsh-token-usage": {
+      "reviewedVersion": "0.4.8",
+      "displaySha256": "650c338d924d6c511c05973c675c1e5413461c1ae184710a103941045775bd6c",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "cost-tracking",
+        "usage-tracking"
+      ]
+    },
+    "dsh-file-mentions": {
+      "reviewedVersion": "1.2.3",
+      "displaySha256": "a715d6c3cdd896d0f7a8fb3fffae2f5e2ad3a90b0a4080404b85848038719990",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "file-management"
+      ]
+    },
+    "dsh-all-usage": {
+      "reviewedVersion": "1.2.1",
+      "displaySha256": "7e8b50b841109804e878953ceb87f6ab81dca8723a560bdcf9e1fbde08dc8eea",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "usage-tracking"
+      ]
+    },
+    "dsh-change-review": {
+      "reviewedVersion": "0.3.0",
+      "displaySha256": "c9f0209447953daf57893cbeecf2079d138b8b87aec4b32e326ce5c626f18379",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "diff-review"
+      ]
+    },
+    "@nono-neko/dsh-browser": {
+      "reviewedVersion": "0.4.0",
+      "displaySha256": "fccbd16021a0d0b1008abde392c8443fbe88519eb8b5f9c0987df8dc44c1b01f",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "browser-automation",
+        "app-testing"
+      ]
+    },
+    "dsh-mcp-manager-plus": {
+      "reviewedVersion": "0.4.4",
+      "displaySha256": "def8f3de4810f341bf71b41367562c6bf857b0a02529de63a32297772462ac89",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "mcp"
+      ]
+    },
+    "@dsh-external/dsh-better-browser": {
+      "reviewedVersion": "0.3.6",
+      "displaySha256": "8c68c882848fb174ee483b1af814ef0dd1c3871c9b65f2777391be1cf61fedd3",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "browser-automation"
+      ]
+    },
+    "@7dgroup/dsh-skill-7d-code-reviewer": {
+      "reviewedVersion": "0.1.0",
+      "displaySha256": "09ec1efec6ca7a3757db09bb0c69a06ebb8af3dfc848e4a7c84abe4a9b8e67f3",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "code-review",
+        "skills"
+      ]
+    },
+    "@cassius0924/dsh-usage-dashboard": {
+      "reviewedVersion": "0.6.0",
+      "displaySha256": "cffe9da1fbd6a48f55dfb9e33caef5827174889fa72cb6edbf24b89995e86a31",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "cost-tracking",
+        "usage-tracking"
+      ]
+    },
+    "dsh-opencode-go-usage": {
+      "reviewedVersion": "1.7.1",
+      "displaySha256": "7820b8830784936db233dbd7d266811fcbc920c9f25389f68bcbbeceb9f6b5a5",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "cost-tracking",
+        "usage-tracking"
+      ]
+    },
+    "@goodandready/dsh-voice": {
+      "reviewedVersion": "0.9.41",
+      "displaySha256": "58b3926a437471cf9e61b65f15ebc7c4d769b0a3ed4ffe235e7c42e5032e1868",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "voice-input"
+      ]
+    },
+    "dsh-search-mcp": {
+      "reviewedVersion": "0.2.0",
+      "displaySha256": "9b6ee65bd47664ff12e2bd954cec5d978f43226be61a34a05c8c3d1f96ba874c",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "search"
+      ]
+    },
+    "dsh-mcp-lens": {
+      "reviewedVersion": "0.1.0-rc.9",
+      "displaySha256": "04725c715995e158fbadb6824acdd440b0861c3ab3ff64abf39a74fa2aec9437",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "context"
+      ]
+    },
+    "dsh-browser-firefox": {
+      "reviewedVersion": "0.4.8",
+      "displaySha256": "7d36211134388515bf99d748e33cf05deb805549e6fd738d68e420f0c23e74d7",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "browser-automation",
+        "browser-extension-required"
+      ]
+    },
+    "@zzerx/dsh-plugin-usage-billing": {
+      "reviewedVersion": "1.3.0",
+      "displaySha256": "b7ca7abaa59e2ef2c0fa89e228a0d0aec42b52d5fca45d8d04d9c6fbb601645d",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "cost-tracking",
+        "usage-tracking"
+      ]
+    },
+    "dsh-usage-panel": {
+      "reviewedVersion": "0.2.3",
+      "displaySha256": "5a788f612a7161d25117898821ce39f9544c2643a3ee832497baf3eef080fc62",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "usage-tracking"
+      ]
+    },
+    "dsh-usage-chart": {
+      "reviewedVersion": "1.1.8",
+      "displaySha256": "e79021882bf4e9b6fb8ff456eb9d57c631a997882df7dd69ff15db4c9ddf3a9e",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "cost-tracking",
+        "usage-tracking"
+      ]
+    },
+    "dsh-browser4": {
+      "reviewedVersion": "0.0.1",
+      "displaySha256": "affa863fb27f06288a2e917befea1a062487b2a1838a573fea6e5060e49c9096",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "browser-automation",
+        "skills"
+      ]
+    },
+    "@nn12138/dsh-voice": {
+      "reviewedVersion": "0.2.6",
+      "displaySha256": "918bf71d918fa03e306a8a60aa3989f3be69452874008e41db4bed7465cf6acc",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "voice-input"
+      ]
+    },
+    "dsh-deepseek-usage": {
+      "reviewedVersion": "0.1.0",
+      "displaySha256": "514f6548d55d5751ca7aeca0a402b170bafdd5272877779b86fd3054bf0b396b",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "cost-tracking",
+        "usage-tracking"
+      ]
+    },
+    "bruce-md2word": {
+      "reviewedVersion": "0.7.0",
+      "displaySha256": "51ba468f5209e2cdb316f4c46e9b019783f77784b6b0dac22ea4c1f8656ec6f1",
+      "evidence": [
+        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+      ],
+      "labels": [
+        "document-export"
+      ]
     }
   }
 }

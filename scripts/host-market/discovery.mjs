@@ -1,24 +1,33 @@
+import { MAX_VALUE_LABELS, VALUE_LABELS } from './value-labels.mjs'
+
 /** Market-owned discovery fields; package identity and install evidence stay untouched. */
 export const FEATURED_CATEGORY = 'featured'
 export const FEATURED_TITLE = { zh: '编辑推荐', en: "Editor's Picks" }
 const DAY = 24 * 60 * 60 * 1000
 const recency = [
-  { id: 'updated-week', days: 7, title: { zh: '本周更新', en: 'Updated this week' } },
-  { id: 'updated-month', days: 30, title: { zh: '最近一个月有更新', en: 'Updated this month' } },
+  { id: 'updated-week', days: 7, title: { zh: '近7天更新', en: 'Updated in the last 7 days' } },
+  { id: 'updated-month', days: 30, title: { zh: '近30天更新', en: 'Updated in the last 30 days' } },
 ]
+// Descending thresholds: each fact belongs to the first matching tier only.
 const popularity = [
+  { id: 'stars-10000', min: 10000, title: { zh: '10k+ Star', en: '10k+ stars' } },
+  { id: 'stars-5000', min: 5000, title: { zh: '5k+ Star', en: '5k+ stars' } },
+  { id: 'stars-1000', min: 1000, title: { zh: '1k+ Star', en: '1k+ stars' } },
   { id: 'stars-500', min: 500, title: { zh: '500+ Star', en: '500+ stars' } },
   { id: 'stars-100', min: 100, title: { zh: '100+ Star', en: '100+ stars' } },
+  { id: 'stars-50', min: 50, title: { zh: '50+ Star', en: '50+ stars' } },
 ]
 
 export function discoveryLabels({ stars, pushedAt, now = Date.now() }) {
   const labels = []
   const age = now - Date.parse(pushedAt)
   if (Number.isFinite(age) && age >= 0) {
-    for (const item of recency) if (age < item.days * DAY) labels.push(item.id)
+    const tier = recency.find(item => age < item.days * DAY)
+    if (tier) labels.push(tier.id)
   }
   if (Number.isFinite(stars) && stars >= 0) {
-    for (const item of popularity) if (stars >= item.min) labels.push(item.id)
+    const tier = popularity.find(item => stars >= item.min)
+    if (tier) labels.push(tier.id)
   }
   return labels
 }
@@ -34,18 +43,6 @@ export function applyDiscovery(plugins, ranks, options = {}) {
     git: { title: { zh: 'Git 源码包', en: 'Git bundle' } },
   }
   for (const item of [...recency, ...popularity]) labels[item.id] = { title: item.title }
-  const capabilities = {
-    theme: { title: { zh: '主题外观', en: 'Themes' } },
-    memory: { title: { zh: '记忆管理', en: 'Memory' } },
-    search: { title: { zh: '联网搜索', en: 'Web search' } },
-    vision: { title: { zh: '图像理解', en: 'Vision' } },
-    teams: { title: { zh: '多 Agent', en: 'Agent teams' } },
-    remote: { title: { zh: '远程访问', en: 'Remote access' } },
-    provider: { title: { zh: '模型接入', en: 'Model providers' } },
-    research: { title: { zh: '研究工具', en: 'Research' } },
-    terminal: { title: { zh: '终端界面', en: 'Terminal UI' } },
-    skills: { title: { zh: '技能管理', en: 'Skills' } },
-  }
   const categoryNames = {
     'multi-agents': '多 Agent 协作',
     'agents-workflows': 'Agent 工作流',
@@ -80,8 +77,9 @@ export function applyDiscovery(plugins, ranks, options = {}) {
     if (row.category && !picked) categories[row.category] = {
       title: { zh: categoryNames[row.category] || row.category_zh || row.category, en: row.category_en || row.category },
     }
-    const tags = (plugin.metadata?.labels ?? []).filter(id => Object.hasOwn(capabilities, id))
-    for (const id of tags) labels[id] = capabilities[id]
+    const tags = [...new Set(plugin.metadata?.labels ?? [])]
+      .filter(id => Object.hasOwn(VALUE_LABELS, id)).slice(0, MAX_VALUE_LABELS)
+    for (const id of tags) labels[id] = { title: VALUE_LABELS[id].title }
     const updated = Math.floor(Date.parse(row.pushed_at) / 1000)
     const computed = discoveryLabels({ stars: rank.stars, pushedAt: row.pushed_at, now })
     plugin.metadata = {

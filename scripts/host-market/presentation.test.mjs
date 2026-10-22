@@ -6,6 +6,7 @@ import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
 import { inlineIcon } from './icons.mjs'
 import { applyPresentation, displayFingerprint } from './presentation.mjs'
 import { applyDiscovery } from './discovery.mjs'
+import { VALUE_LABELS, MAX_VALUE_LABELS } from './value-labels.mjs'
 
 test('large package artwork stays visible as a valid inline icon with a recorded input digest', async () => {
   const input = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"><!--${'artwork '.repeat(5000)}--><rect width="256" height="256" fill="#357aff"/></svg>`)
@@ -41,10 +42,10 @@ test('reviewed translations improve discovery without changing install fields an
   const metadata = applyDiscovery([plugin], new Map([['demo', { stars: 1, row: { category: 'ui-experience', category_zh: '界面与体验' } }]]))
   const index = parseMarketIndex({ format: 1, title: 'Test', metadata, plugins: [plugin] }, 'https://example.com/index.json')
   assert.deepEqual(index.plugins[0].metadata.labels, ['npm', 'theme'])
-  assert.equal(index.metadata.labels['updated-month'].title.zh, '最近一个月有更新')
+  assert.equal(index.metadata.labels['updated-month'].title.zh, '近30天更新')
   assert.equal(index.metadata.labels['stars-500'].title.zh, '500+ Star')
   assert.ok(index.plugins[0].metadata.keywords.includes('主题'))
-  assert.equal(index.metadata.labels.theme.title.zh, '主题外观')
+  assert.equal(index.metadata.labels.theme.title.zh, '主题美化')
 })
 
 test('all reviewed presentation records declare traceable evidence and preserve format-1 text requirements', () => {
@@ -52,11 +53,37 @@ test('all reviewed presentation records declare traceable evidence and preserve 
   for (const [name, record] of Object.entries(records)) {
     assert.match(record.displaySha256, /^[a-f0-9]{64}$/)
     assert.ok(record.evidence.length > 0, name)
+    assert.ok((record.labels ?? []).length <= MAX_VALUE_LABELS, name)
+    assert.equal(new Set(record.labels ?? []).size, (record.labels ?? []).length, name)
+    for (const id of record.labels ?? []) assert.ok(VALUE_LABELS[id], `${name}: unknown label ${id}`)
     for (const field of ['title', 'description']) {
       if (record[field]) {
         assert.ok(record[field].en?.trim(), `${name}: ${field}.en`)
         assert.ok(record[field].zh?.trim(), `${name}: ${field}.zh`)
       }
     }
+  }
+})
+
+test('reviewed value labels help distinguish tasks and setup and yield to upstream display changes', () => {
+  const records = JSON.parse(readFileSync(new URL('./presentation.json', import.meta.url))).plugins
+  const snapshot = JSON.parse(readFileSync(new URL('./fixtures/value-labels.json', import.meta.url)))
+  for (const [name, expected] of [
+    ['bruce-md2word', ['document-export']],
+    ['dsh-voice-scribe', ['voice-input']],
+    ['dsh-omi-voice', ['read-aloud', 'api-key-required']],
+    ['dsh-browser-firefox', ['browser-automation', 'browser-extension-required']],
+    ['dsh-think-translate', ['translation']],
+    ['dsh-change-review', ['diff-review']],
+  ]) {
+    const plugin = structuredClone(snapshot.plugins.find(plugin => plugin.name === name))
+    delete plugin.metadata
+    assert.equal(applyPresentation([plugin], records)[0].code, 'presentation_reviewed', name)
+    assert.deepEqual(plugin.metadata.labels, expected, name)
+    const changed = structuredClone(plugin)
+    delete changed.metadata
+    changed.description = 'Upstream now describes a different capability'
+    assert.equal(applyPresentation([changed], records)[0].code, 'presentation_review_needed', name)
+    assert.equal(changed.metadata, undefined, name)
   }
 })

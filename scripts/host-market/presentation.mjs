@@ -27,7 +27,7 @@ export function applyPresentation(plugins, records = reviewed.plugins) {
     plugin.metadata.keywords = [...new Set([...(plugin.metadata.keywords ?? []), ...(record.keywords ?? [])])]
     plugin.metadata.labels = record.labels ?? []
     diagnostics.push({ name: plugin.name, code: 'presentation_reviewed', status: 'info',
-      reason: '使用已审阅的展示翻译和检索词；安装来源、版本和兼容范围保持包内声明',
+      reason: '使用已审阅的展示信息、用途标签和检索词；安装来源、版本和兼容范围保持包内声明',
       evidence: record.evidence, reviewedVersion: record.reviewedVersion })
   }
   return diagnostics
