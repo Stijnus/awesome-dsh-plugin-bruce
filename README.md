@@ -343,6 +343,7 @@ mindmap
 | [lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout) | 把侧边栏会话拖成独立窗口，多窗并行不用来回切换。 | 2026-10-20 |
 | [Seren-715/dsh-remote-groups](https://github.com/Seren-715/dsh-remote-groups) | Android 远程接入 DSH，并支持多智能体群聊（基于 ds-harness-remote 与 DeepSeek-Bot）。 | 2026-10-20 |
 | [willimqiao/dsh-plugin-pixel-fishing](https://github.com/willimqiao/dsh-plugin-pixel-fishing) | 像素渔场桌宠：透明置顶的钓鱼宠物浮在桌面，挂机钓鱼、随时展开面板。 | 2026-10-20 |
+| [Yhx888/dsh-free-egg-credits](https://github.com/Yhx888/dsh-free-egg-credits) | 本机已装 WorkBuddy2API / qoder2api-hub 时，在 DSH 侧边栏看账号积分、今日额度、签到状态与每轮消耗，支持一键切换优先消耗平台。 | 2026-10-18 |
 | [InariNGT-Ofiicial/dsh-cover-pipeline](https://github.com/InariNGT-Ofiicial/dsh-cover-pipeline) | 本地 AI 翻唱流水线：9 个工具串起分离 → 换声 → 移调 → 混音 → 验收，零 JS 运行时依赖。 | 2026-10-14 |
 | [webkubor/dsh-museav-assets](https://github.com/webkubor/dsh-museav-assets) | 素材浏览插件：按工作区查看 MUSE AV 素材库与出图记录，一键复制素材直链。 | 2026-10-02 |
 | [Tripo-Developer/Tripo3D-Plugin-dsh](https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh) | Tripo 3D 官方插件：文字 / 图片生成带贴图、可绑定的 3D 资产（tripo-cli）。 | 2026-09-07 |
