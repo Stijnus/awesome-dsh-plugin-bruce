@@ -347,7 +347,6 @@ Manually screened recent projects, updated from time to time:
 | [InariNGT-Ofiicial/dsh-cover-pipeline](https://github.com/InariNGT-Ofiicial/dsh-cover-pipeline) | Local AI song-cover pipeline: 9 tools chaining separation → voice swap → pitch shift → mixing → acceptance, zero JS runtime deps. | 2026-10-14 |
 | [webkubor/dsh-museav-assets](https://github.com/webkubor/dsh-museav-assets) | Asset browser: browse MUSE AV image libraries and generation history per workspace, copy direct asset links. | 2026-10-02 |
 | [Tripo-Developer/Tripo3D-Plugin-dsh](https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh) | Official Tripo 3D plugin: text/image to textured, rig-ready 3D assets via tripo-cli. | 2026-09-07 |
-| [Alice-Marx/dsh-model-router](https://github.com/Alice-Marx/dsh-model-router) | A cost-aware model-routing workbench: plan task packages locally, compare routes and execute by dependency via model APIs or official vendor CLIs. | 2026-09-01 |
 
 ## 📣 Author showcase
 
