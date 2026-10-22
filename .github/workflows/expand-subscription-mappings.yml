@@ -4,14 +4,11 @@ name: Expand subscription mappings toward 1000
 # audited eligible sources — and the next 200 unmapped high-star repos — into
 # new packages.json entries. Existing keys are never rewritten. Identity-opaque
 # npm packages go to mapping-pending.md for AI review. refresh-market-v2 and
-# refresh-host-market then pick up the mapping push.
+# refresh-host-market then follow via workflow_run (bot pushes do not trigger push).
 
 on:
   schedule:
     - cron: '12 16 * * *'
-  workflow_run:
-    workflows: ['Refresh the official DSH market index']
-    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -23,11 +20,12 @@ concurrency:
 
 jobs:
   expand:
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version: 22
@@ -57,6 +55,9 @@ jobs:
           node scripts/validate-packages.mjs
       - name: Commit new mappings and the AI review queue
         if: steps.need.outputs.need == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -73,6 +74,7 @@ jobs:
             if git push origin HEAD:main; then
               exit 0
             fi
+            if [ "$attempt" -eq 3 ]; then break; fi
             echo "Push rejected (attempt $attempt) — retrying on origin/main."
             git fetch --depth=1 origin main
             git reset --hard FETCH_HEAD

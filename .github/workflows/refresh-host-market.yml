@@ -12,12 +12,12 @@ on:
       - 'scripts/host-market/**'
       - '.github/workflows/refresh-host-market.yml'
       - 'data/market-v2.json'
-      - 'data/packages.json'
-      - 'data/approved.json'
-      - 'data/curated.json'
-      - 'scripts/market.mjs'
-      - 'scripts/market-v2.mjs'
   workflow_dispatch:
+    inputs:
+      retry_count:
+        description: 'Automatic stale-source retries (maximum 2)'
+        type: number
+        default: 0
 
 permissions:
   contents: read
@@ -73,6 +73,7 @@ jobs:
     timeout-minutes: 5
     permissions:
       contents: write
+      actions: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -89,6 +90,8 @@ jobs:
           SOURCE_SHA: ${{ needs.refresh.outputs.source-sha }}
           TRIGGER_SHA: ${{ github.sha }}
           RUN_ID: ${{ github.run_id }}
+          RETRY_COUNT: ${{ inputs.retry_count || 0 }}
+          GH_REPO: ${{ github.repository }}
         shell: bash
         run: |
           set -euo pipefail
@@ -120,5 +123,18 @@ jobs:
           git commit -m "data: publish validated DSH market snapshot"
           # Credentials exist only in this step; artifacts are never executed.
           gh auth setup-git
-          # A moving main rejects this atomic push. A later run regenerates it.
-          git push --atomic origin HEAD:refs/heads/main HEAD:refs/heads/market-release
+          # Never rebase validated artifacts onto different source inputs.
+          if git push --atomic origin HEAD:refs/heads/main HEAD:refs/heads/market-release; then
+            exit 0
+          fi
+          git fetch --depth=1 origin main
+          if [ "$(git rev-parse FETCH_HEAD)" = "$SOURCE_SHA" ]; then
+            echo "::error::Publication failed without a main update; check permissions and market-release."
+            exit 1
+          fi
+          if [[ ! "$RETRY_COUNT" =~ ^[0-2]$ ]] || [ "$RETRY_COUNT" -ge 2 ]; then
+            echo "::error::main kept moving; automatic regeneration limit reached."
+            exit 1
+          fi
+          gh workflow run refresh-host-market.yml --ref main -f retry_count="$((RETRY_COUNT + 1))"
+          echo "::notice::main moved; queued fresh generation instead of publishing stale artifacts."

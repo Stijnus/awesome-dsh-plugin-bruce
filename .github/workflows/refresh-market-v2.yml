@@ -22,6 +22,7 @@ on:
     workflows:
       - 'Refresh snapshot, review queue, and market file'
       - 'Refresh the downstream market file'
+      - 'Expand subscription mappings toward 1000'
     types:
       - completed
   push:
@@ -31,6 +32,9 @@ on:
       - 'data/packages.json'
       - 'data/featured.json'
       - 'scripts/market-v2.mjs'
+      - 'scripts/validate-market-v2.mjs'
+      - 'scripts/validate-packages.mjs'
+      - '.github/workflows/refresh-market-v2.yml'
   workflow_dispatch:
 
 permissions:
@@ -42,13 +46,15 @@ concurrency:
 
 jobs:
   market-v2:
-    # workflow_run fires on every completion of the two upstream workflows,
+    # workflow_run fires on every completion of the upstream workflows,
     # failed ones included — only rebuild on top of a feed they actually
     # published.
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version: 22
@@ -85,6 +91,7 @@ jobs:
             if git push origin HEAD:main; then
               exit 0
             fi
+            if [ "$attempt" -eq 3 ]; then break; fi
             echo "Push rejected (attempt $attempt) — regenerating on top of origin/main."
             git fetch --depth=1 origin main
             git reset --hard FETCH_HEAD

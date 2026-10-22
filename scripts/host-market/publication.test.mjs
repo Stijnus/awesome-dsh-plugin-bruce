@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { readFileSync, mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs'
+import { readFileSync, mkdtempSync, mkdirSync, writeFileSync, rmSync, existsSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { spawnSync } from 'node:child_process'
@@ -27,6 +27,57 @@ test('publisher accepts matching data and rejects tampered or unexpected artifac
         assert.equal(release.indexSha256, report.indexSha256)
         assert.equal(release.runId, 123)
       }
+    } finally { rmSync(dir, { recursive: true, force: true }) }
+  }
+})
+
+test('atomic publication retries moved main with fresh generation, but not permission failures or exhausted retries', () => {
+  for (const scenario of ['success', 'moved', 'denied', 'exhausted', 'dispatch-failed']) {
+    const dir = mkdtempSync(join(tmpdir(), 'market-push-'))
+    try {
+      const remote = join(dir, 'remote.git'), repo = join(dir, 'repo'), bin = join(dir, 'bin')
+      mkdirSync(repo); mkdirSync(bin)
+      const git = (...args) => {
+        const result = spawnSync('git', args, { cwd: repo, encoding: 'utf8' })
+        assert.equal(result.status, 0, result.stderr)
+        return result.stdout.trim()
+      }
+      git('init', '--bare', remote)
+      git('init', '-b', 'main')
+      git('config', 'user.name', 'Test'); git('config', 'user.email', 'test@example.com')
+      writeFileSync(join(repo, 'README.md'), 'source\n')
+      git('add', '.'); git('commit', '-m', 'source')
+      const source = git('rev-parse', 'HEAD')
+      git('remote', 'add', 'origin', remote)
+      git('push', 'origin', 'HEAD:main', 'HEAD:market-release')
+      if (['moved', 'exhausted', 'dispatch-failed'].includes(scenario)) {
+        writeFileSync(join(repo, 'README.md'), 'new source\n')
+        git('add', '.'); git('commit', '-m', 'concurrent update'); git('push', 'origin', 'HEAD:main')
+      }
+      const mainBefore = git('rev-parse', 'HEAD')
+      git('checkout', '--detach', source)
+      if (scenario === 'denied') writeFileSync(join(remote, 'hooks/pre-receive'), '#!/bin/sh\nexit 1\n', { mode: 0o755 })
+      mkdirSync(join(repo, 'release-data')); mkdirSync(join(repo, 'data'))
+      const index = JSON.stringify({ plugins: [{ name: 'demo' }] })
+      writeFileSync(join(repo, 'release-data/dsh-market-index.json'), index)
+      writeFileSync(join(repo, 'release-data/dsh-market-index.report.json'), JSON.stringify({ indexSha256: createHash('sha256').update(index).digest('hex'), included: 1, fetchFailures: 0 }))
+      writeFileSync(join(bin, 'gh'), '#!/bin/sh\nif [ "$1" = auth ]; then exit 0; fi\nprintf "%s\\n" "$*" > "$DISPATCH_LOG"\nexit "$DISPATCH_STATUS"\n', { mode: 0o755 })
+      const log = join(dir, 'dispatch.log')
+      const result = spawnSync('bash', ['-e', '-o', 'pipefail', '-c', step], {
+        cwd: repo, encoding: 'utf8', env: { ...process.env, PATH: `${bin}:${process.env.PATH}`, SOURCE_SHA: source, TRIGGER_SHA: source, RUN_ID: '123', RETRY_COUNT: scenario === 'exhausted' ? '2' : '0', DISPATCH_LOG: log, DISPATCH_STATUS: scenario === 'dispatch-failed' ? '1' : '0' },
+      })
+      assert.equal(result.status === 0, ['success', 'moved'].includes(scenario), result.stderr)
+      const remoteMain = git('--git-dir', remote, 'rev-parse', 'main')
+      const release = git('--git-dir', remote, 'rev-parse', 'market-release')
+      if (scenario === 'success') {
+        assert.notEqual(remoteMain, source)
+        assert.equal(release, remoteMain)
+      } else {
+        assert.equal(remoteMain, mainBefore, 'failed atomic publication must not change main')
+        assert.equal(release, source, 'failed atomic publication must not change market-release')
+      }
+      assert.equal(existsSync(log), ['moved', 'dispatch-failed'].includes(scenario))
+      if (existsSync(log)) assert.equal(readFileSync(log, 'utf8').trim(), 'workflow run refresh-host-market.yml --ref main -f retry_count=1')
     } finally { rmSync(dir, { recursive: true, force: true }) }
   }
 })

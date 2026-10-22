@@ -14,7 +14,18 @@ on:
       - 'README_EN.md'
       - 'SHOWCASE.md'
       - 'scripts/**'
-      - '.github/workflows/validate-curated.yml'
+      - '.github/workflows/**'
+      - 'data/featured.json'
+      - 'data/stats.json'
+      - 'TOP200.md'
+
+  # Direct code/workflow pushes need the same regression suite as PRs.
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -31,6 +42,12 @@ jobs:
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version: 22
+      - name: Lint all GitHub Actions workflows
+        env:
+          GOBIN: ${{ runner.temp }}/ci-bin
+        run: |
+          go install github.com/rhysd/actionlint/cmd/actionlint@v1.7.7
+          "$GOBIN/actionlint"
       # Every pipeline test, before anything is merged — main-only workflows
       # used to be the first place market-v2 / extractor / star-anomaly
       # regressions surfaced.

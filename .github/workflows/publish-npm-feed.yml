@@ -24,24 +24,24 @@ on:
 permissions:
   contents: read
 
-# Back-to-back publishes race npm's read-after-write window: a queued second
-# run reads dist-tags before the first run's PUT is visible and picks the same
-# calver version → E409. Cancelling the older in-flight run keeps only the
-# newest one (which carries the freshest data) publishing; the digest gate
-# makes the survivor a no-op when nothing actually changed.
+# Let an in-flight npm publish finish. The digest gate and E409 retry in the
+# publisher handle repeated requests; cancellation cannot undo a registry PUT.
 concurrency:
   group: npm-feed-publish
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   publish:
     permissions:
       contents: read
       id-token: write
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') }}
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version: 22
