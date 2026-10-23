@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-10-23",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -1667,19 +1667,6 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
-    "chen731215-dev/dsh-tavern-v2": {
-      "packages": [
-        {
-          "profile": "default",
-          "install": "dsh-tavern",
-          "source": "npm:dsh-tavern",
-          "command": "dsh plugin add dsh-tavern"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-20",
       "verified_via": "README@main"
     },
     "chenruot/dsh-sidebar-qa": {
@@ -14831,19 +14818,6 @@
       "status": "readme-verified",
       "verified_date": "2026-10-22",
       "verified_via": "README + npm registry"
-    },
-    "lingyesoul/dsh-soulmojito": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:LingyeSoul/DSH-SoulMojito#108a378cae6af65f11930fd65a007e271079fc20&path:/packages/plugin",
-          "install": "https://github.com/LingyeSoul/DSH-SoulMojito#108a378cae6af65f11930fd65a007e271079fc20&path:/packages/plugin",
-          "command": "dsh plugin --profile web add \"github:LingyeSoul/DSH-SoulMojito#108a378cae6af65f11930fd65a007e271079fc20&path:/packages/plugin\""
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-22",
-      "verified_via": "README + Git commit"
     },
     "tobycai/dsh-sessions-manager": {
       "packages": [
