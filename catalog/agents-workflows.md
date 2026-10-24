@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–M）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **3418**
+- 本册收录 / Entries in this volume: **3417**
 - 快照日期 / Snapshot date: **2026-10-23 UTC**
 - 最近人工复核 / Last review merge: **2026-10-24**
 
@@ -3166,7 +3166,6 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–M）」分册 / 
 | [linbin-mk/dsh-brand-deepseek](https://github.com/linbin-mk/dsh-brand-deepseek) | deepseek-harness 皮肤 | JavaScript | 0 | MIT | 2026-10-19 |
 | [linbin-mk/dsh-session-sync](https://github.com/linbin-mk/dsh-session-sync) | deepseek-harness 会话同步 | TypeScript | 0 | MIT | 2026-10-19 |
 | [Lindemellis/dsh-tavern-preset-roles](https://github.com/Lindemellis/dsh-tavern-preset-roles) | DSH Tavern plugin: send SillyTavern preset entries with their own role (system/user/assistant) instead of forcing system/user \| 游玩时预设条目按自身 role 发送 | JavaScript | 0 | MIT | 2026-10-07 |
-| [Lingrui98/dsh-project-inbox](https://github.com/Lingrui98/dsh-project-inbox) | Project inbox for DeepSeek Harness: collect questions, deliverables and interrupted turns from every session, and act on them in one place. | TypeScript | 0 | BSD-3-Clause | 2026-10-23 |
 | [Lion-1209/dsh-plugin-lion-skills](https://github.com/Lion-1209/dsh-plugin-lion-skills) | Lion-Skills — a developer-focused agent skill suite (zh) as a DeepSeek Harness plugin: 11 workflow skills mounted on ctx.skills as a bundled provider | JavaScript | 0 | MIT | 2026-08-17 |
 | [lion231226/dsh-verified-progress](https://github.com/lion231226/dsh-verified-progress) | Verified-progress ledger for long-running DSH work: an independent verifier certifies each claimed step, and a fingerprint check voids any verdict whose verifier mutated the workspace. | JavaScript | 0 | MIT | 2026-10-18 |
 | [LionGateOS/dsh-local-voice-dictation](https://github.com/LionGateOS/dsh-local-voice-dictation) | Local voice plugin for DeepSeek Harness: microphone dictation with local STT plus assistant-response Kokoro TTS playback. | JavaScript | 0 | MIT | 2026-08-23 |

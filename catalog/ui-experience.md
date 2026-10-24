@@ -4,7 +4,7 @@ DSH 插件全量目录的「界面与体验（A–L）」分册 / The "UI & Expe
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **2056**
+- 本册收录 / Entries in this volume: **2057**
 - 快照日期 / Snapshot date: **2026-10-23 UTC**
 - 最近人工复核 / Last review merge: **2026-10-24**
 
@@ -1973,6 +1973,7 @@ DSH 插件全量目录的「界面与体验（A–L）」分册 / The "UI & Expe
 | [lin114514-desng/dsh-context-tone](https://github.com/lin114514-desng/dsh-context-tone) | DSH 插件：按上下文占用档位给上下文胶囊的圆环与百分比改色，并在数字右侧显示档位 emoji；五个分界值、五档颜色、六档 emoji 可在插件配置页修改。Colors the DeepSeek Harness context meter by occupancy tier, with tier emoji and a settings page. | JavaScript | 0 | MIT | 2026-10-22 |
 | [linanbuan/dsh-dwg-preview](https://github.com/linanbuan/dsh-dwg-preview) | 侧边栏 DWG/DXF 预览 · Sidebar DWG/DXF preview — DeepSeek Harness (DSH) 插件：在侧边栏的文档预览里直接打开 .dwg / .dxf 工程图纸，宿主侧用 LibreDWG(WASM) 解码、再用自带零依赖渲染器画成矢量 SVG。 A DSH plugin that previews DWG/DXF drawings inside the sidebar document preview. | JavaScript | 0 | MIT | 2026-10-11 |
 | [lingmingxi/dsh-plugin-subitem-status](https://github.com/lingmingxi/dsh-plugin-subitem-status) | DSH 插件界面增强：卡片显示子项状态，设置页显示提供者包名，方便 AI 定位插件并节省 token。 | JavaScript | 0 | MIT | 2026-10-11 |
+| [Lingrui98/dsh-project-inbox](https://github.com/Lingrui98/dsh-project-inbox) | Project inbox for DeepSeek Harness: collect questions, deliverables and interrupted turns from every session, and act on them in one place. | TypeScript | 0 | BSD-3-Clause | 2026-10-23 |
 | [LingYuYo/dsh-qq-guard](https://github.com/LingYuYo/dsh-qq-guard) | 🤖 100% 由 AI 编写完成。把 QQ 接入 DeepSeek Harness 的桥接插件。提供执行期安全门禁、外部插件沙箱、模型无痕热切、看门狗失败降级与完整 Web UI。零外部 npm 依赖。 | JavaScript | 0 | MIT | 2026-10-23 |
 | [LINJJ749/dsh-one-click-session-delete](https://github.com/LINJJ749/dsh-one-click-session-delete) | Permanently delete a Session from the DeepSeek Harness Workspace sidebar with one click: native row action + menu item, confirmation dialog, live-session protection, cascade for derived sessions, and cleanup of the log directory, projection cache and workspace bookkeeping. | JavaScript | 0 | MIT | 2026-10-23 |
 | [Link-h1j/dsh-comfy](https://github.com/Link-h1j/dsh-comfy) | ComfyUI workflow canvas for the DSH (DeepSeek Harness) desktop right sidebar: browse, inspect, edit and run local ComfyUI workflows on a native infinite canvas instead of an embedded browser. | JavaScript | 0 | MIT | 2026-10-19 |

@@ -40,11 +40,11 @@ https://bruc3van.com/dsh-plugins/index.json
 ```mermaid
 mindmap
   root((DSH 插件生态 19363))
-    Agent 自动化与工作流 · 6984
+    Agent 自动化与工作流 · 6983
       定时循环与事件唤醒
       长期记忆与自我进化
       审批、预算与检查点
-    界面与体验 · 4017
+    界面与体验 · 4018
       桌面客户端与终端 TUI
       侧边栏工作台
       皮肤与桌面宠物
