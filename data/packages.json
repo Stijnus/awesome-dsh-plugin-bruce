@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-24",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -15497,6 +15497,27 @@
       "verified_date": "2026-10-22",
       "verified_via": "manifest@1e21a4d48479",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "stijnus/dsh-composer-predictions": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-composer-predictions",
+          "source": "npm:dsh-composer-predictions",
+          "command": "dsh plugin --profile web add dsh-composer-predictions"
+        }
+      ],
+      "status": "install-verified",
+      "verified_date": "2026-10-24",
+      "verified_via": "npm@1.2.0 + DSH 0.2.1-rc.3 web/Electron; Stijnus self-test",
+      "tasks": [
+        "composer autocomplete",
+        "ghost text",
+        "inline completion",
+        "输入补全",
+        "草稿续写"
+      ],
+      "note": "Author-tested npm 1.2.0 in a clean profile and DSH macOS Electron; not an independent security review."
     }
   }
 }

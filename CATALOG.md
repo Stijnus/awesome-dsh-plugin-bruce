@@ -22,7 +22,7 @@ The catalog is split into one volume per category — the full list outgrew GitH
 | --- | ---: |
 | [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 529 |
 | [界面与体验（A–L） / UI & Experience (A–L)](./catalog/ui-experience.md) | 2056 |
-| [界面与体验（M–Z） / UI & Experience (M–Z)](./catalog/ui-experience-m-z.md) | 1960 |
+| [界面与体验（M–Z） / UI & Experience (M–Z)](./catalog/ui-experience-m-z.md) | 1961 |
 | [设计、媒体与视觉 / Design, Media & Vision](./catalog/media-vision.md) | 955 |
 | [网页与浏览器 / Web & Browser](./catalog/web-browser.md) | 2882 |
 | [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 813 |
@@ -30,7 +30,7 @@ The catalog is split into one volume per category — the full list outgrew GitH
 | [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 902 |
 | [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 369 |
 | [Agent、自动化与工作流（A–M） / Agents, Automation & Workflows (A–M)](./catalog/agents-workflows.md) | 3418 |
-| [Agent、自动化与工作流（N–Z） / Agents, Automation & Workflows (N–Z)](./catalog/agents-workflows-n-z.md) | 3567 |
+| [Agent、自动化与工作流（N–Z） / Agents, Automation & Workflows (N–Z)](./catalog/agents-workflows-n-z.md) | 3566 |
 | [实用工具与其他 / Utilities & Other](./catalog/utilities.md) | 1101 |
 
 ## Data source
