@@ -11740,20 +11740,6 @@
       "verified_via": "manifest@36d383e6a393",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
-    "dragonbaba/dsh-routing-suite": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-routing-suite@0.1.2",
-          "install": "dsh-routing-suite@0.1.2",
-          "command": "dsh plugin --profile web add \"dsh-routing-suite@0.1.2\""
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-22",
-      "verified_via": "README + npm registry",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
-    },
     "kendu76/dsh-music-player": {
       "packages": [
         {
