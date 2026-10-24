@@ -4,7 +4,7 @@ DSH 插件全量目录的「界面与体验（M–Z）」分册 / The "UI & Expe
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1960**
+- 本册收录 / Entries in this volume: **1961**
 - 快照日期 / Snapshot date: **2026-10-23 UTC**
 - 最近人工复核 / Last review merge: **2026-10-24**
 
@@ -1467,6 +1467,7 @@ DSH 插件全量目录的「界面与体验（M–Z）」分册 / The "UI & Expe
 | [Stellight/dsh-chat-rail](https://github.com/Stellight/dsh-chat-rail) | DeepSeek Harness 中文插件：对话区右缘的网页版风格导航竖线——每条人类消息一根短横线，靠近展开可跳转的消息列表，并支持回溯更早的历史 | JavaScript | 0 | MIT | 2026-09-23 |
 | [steven-ngle/dsh-elden](https://github.com/steven-ngle/dsh-elden) | Elden Ring style event overlays for the DeepSeek Harness web UI | TypeScript | 0 | MIT | 2026-08-30 |
 | [StevenZha0/dsh-vae-theme](https://github.com/StevenZha0/dsh-vae-theme) | 《庐州月 · 许嵩》— DeepSeek Harness 国风水墨主题插件 \| 夜色水墨长卷 · 金丝九宫格边框 · VAE 书法标志 · 全屏雨幕 · 国风歌词竖排轮播 | JavaScript | 0 | NOASSERTION | 2026-09-13 |
+| [Stijnus/dsh-composer-predictions](https://github.com/Stijnus/dsh-composer-predictions) | Tab-completion ghost text for the DeepSeek Harness composer: next-message suggestions and inline continuations | JavaScript | 0 | MIT | 2026-10-23 |
 | [Stijnus/dsh-ds-kanban](https://github.com/Stijnus/dsh-ds-kanban) | Live task-board plugin for DeepSeek Harness Web: sidebar badge, full-shell kanban with search, filters, export, and diagnostics. | TypeScript | 0 | MIT | 2026-10-23 |
 | [Stijnus/dsh-mcp-overview](https://github.com/Stijnus/dsh-mcp-overview) | Read-only MCP server overview for the DeepSeek Harness web GUI: connection status, transport, endpoint, and registered tools per configured dsh-mcp-client server. | TypeScript | 0 | Apache-2.0 | 2026-10-23 |
 | [Sttrevens/dsh-linked-folders](https://github.com/Sttrevens/dsh-linked-folders) | dsh plugin: multi-folder workspace — global linked-folders list + per-session on-the-fly linking, managed from the Web sidebar. | JavaScript | 0 | MIT | 2026-09-12 |

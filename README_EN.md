@@ -40,11 +40,11 @@ As of 2026-10-23 the catalog lists **19,363** verified repositories. Here is the
 ```mermaid
 mindmap
   root((DSH ecosystem 19363))
-    Agents automation workflows · 6985
+    Agents automation workflows · 6984
       Scheduled loops and event wakeups
       Long-term memory and self-evolution
       Approval budget and checkpoints
-    UI and experience · 4016
+    UI and experience · 4017
       Desktop clients and terminal TUI
       Sidebar workbenches
       Skins and desktop pets

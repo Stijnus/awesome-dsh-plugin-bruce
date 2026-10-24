@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–Z）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **3567**
+- 本册收录 / Entries in this volume: **3566**
 - 快照日期 / Snapshot date: **2026-10-23 UTC**
 - 最近人工复核 / Last review merge: **2026-10-24**
 
@@ -1732,7 +1732,6 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–Z）」分册 / 
 | [StephenEvenson/dsh-plugin-elevenlabs-callback](https://github.com/StephenEvenson/dsh-plugin-elevenlabs-callback) | DeepSeek Harness plugin: when a run finishes or needs approval, get a link on your phone, hear the result from an ElevenLabs voice agent and say what to do next | TypeScript | 0 | MIT | 2026-09-02 |
 | [Steven-Qiang/dsh-pwsh-guard](https://github.com/Steven-Qiang/dsh-pwsh-guard) | DSH (DeepSeek Harness) plugin: reject shell text I/O - Select-String, Get-Content, findstr, rg, cat, node -e - in pwsh/bash/ops_bash, and point the agent at read/grep/glob. | TypeScript | 0 | MIT | 2026-10-20 |
 | [stevysmith/stacktree-dsh](https://github.com/stevysmith/stacktree-dsh) | Publish HTML from DeepSeek Harness to a private, live URL. No account for the viewer, unguessable links, replace in place. DSH plugin (Cordis overlay) for the Stacktree MCP server. | — | 0 | MIT | 2026-09-12 |
-| [Stijnus/dsh-composer-predictions](https://github.com/Stijnus/dsh-composer-predictions) | Tab-completion ghost text for the DeepSeek Harness composer: next-message suggestions and inline continuations | JavaScript | 0 | MIT | 2026-10-23 |
 | [STLI69/coding-plan](https://github.com/STLI69/coding-plan) | Volcengine Ark Coding Plan provider route for DeepSeek Harness (dsh): all 15 Coding Plan models with per-model reasoning-effort control, generated from a single source and drift-checked weekly. | JavaScript | 0 | MIT | 2026-10-16 |
 | [Stone623/ai_skills](https://github.com/Stone623/ai_skills) | A playful Codex skill that lets the agent briefly zone out, recap state, and continue. | JavaScript | 0 | MIT | 2026-09-12 |
 | [Strivy-ZSY/dsh-manim](https://github.com/Strivy-ZSY/dsh-manim) | DSH 插件：Manim 动画工作室 —— 把论文/方法渲成带配音的讲解视频（manim_scene / manim_render / manim_frames / manim_voice） | JavaScript | 0 | MIT | 2026-10-20 |
