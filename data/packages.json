@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-25",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -1511,23 +1511,23 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
-    "caob23/dsh-browser-control": {
+    "angelky7/dsh-browser-control": {
       "packages": [
         {
           "profile": "web",
-          "install": "@caob23/dsh-browser-control",
-          "source": "npm:@caob23/dsh-browser-control",
-          "command": "dsh plugin --profile web add @caob23/dsh-browser-control"
+          "install": "@angelky7/dsh-browser-control",
+          "source": "npm:@angelky7/dsh-browser-control",
+          "command": "dsh plugin --profile web add @angelky7/dsh-browser-control"
         },
         {
           "profile": "web",
-          "install": "https://github.com/caob23/dsh-browser-control#v1.0.19",
-          "source": "github:caob23/dsh-browser-control#v1.0.19",
-          "command": "dsh plugin --profile web add \"github:caob23/dsh-browser-control#v1.0.19\""
+          "install": "https://github.com/angelky7/dsh-browser-control#v1.1.0",
+          "source": "github:angelky7/dsh-browser-control#v1.1.0",
+          "command": "dsh plugin --profile web add \"github:angelky7/dsh-browser-control#v1.1.0\""
         }
       ],
       "status": "readme-verified",
-      "verified_date": "2026-10-20",
+      "verified_date": "2026-10-25",
       "verified_via": "README@main"
     },
     "caoyiwei850/dsh-client-ui-skins": {
@@ -5299,31 +5299,6 @@
           "install": "dsh-qoder-connect",
           "source": "npm:dsh-qoder-connect",
           "command": "dsh plugin --profile desktop add dsh-qoder-connect"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
-    "masknull/dsh-workbuddy-connect": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/masknull/dsh-workbuddy-connect",
-          "source": "github:masknull/dsh-workbuddy-connect",
-          "command": "dsh plugin --profile web add github:masknull/dsh-workbuddy-connect"
-        },
-        {
-          "profile": "desktop",
-          "install": "https://github.com/masknull/dsh-workbuddy-connect",
-          "source": "github:masknull/dsh-workbuddy-connect",
-          "command": "dsh plugin --profile desktop add github:masknull/dsh-workbuddy-connect"
-        },
-        {
-          "profile": "dsh-tui",
-          "install": "https://github.com/masknull/dsh-workbuddy-connect",
-          "source": "github:masknull/dsh-workbuddy-connect",
-          "command": "dsh plugin --profile dsh-tui add github:masknull/dsh-workbuddy-connect"
         }
       ],
       "status": "readme-verified",
