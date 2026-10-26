@@ -3706,51 +3706,6 @@
       ]
     },
     {
-      "name": "eac-design-world",
-      "title": {
-        "en": "EAC design world",
-        "zh": "EAC design world"
-      },
-      "description": {
-        "en": "Autonomous capture, video editing, captions, narration, music and quality checks.",
-        "zh": "自主录制、AI 剪辑、字幕、配音、配乐与成片质检，内置 17 种可视化模板。"
-      },
-      "author": "Ebony-Vinyl",
-      "homepage": "https://github.com/Ebony-Vinyl/EAC-design-world#readme",
-      "repository": {
-        "url": "https://github.com/Ebony-Vinyl/EAC-design-world"
-      },
-      "versions": [
-        {
-          "version": "0.4.0",
-          "publishTimestamp": 1792306669,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/Ebony-Vinyl/EAC-design-world",
-            "commit": "370eb4fab632bf698f69a1328d1fcffccf2c3f99"
-          }
-        }
-      ],
-      "metadata": {
-        "category": "media-vision",
-        "keywords": [
-          "设计",
-          "视觉",
-          "media",
-          "vision"
-        ],
-        "labels": [
-          "git",
-          "updated-week",
-          "stars-100"
-        ],
-        "sortKeys": {
-          "stars": 263,
-          "repositoryUpdated": 1792942320
-        }
-      }
-    },
-    {
       "name": "@fylar/dsh-fylar-office-editor",
       "title": "@fylar/dsh-fylar-office-editor",
       "description": "Fylar Office Editor integration for the DeepSeek Harness Web profile, powered by Fylar Office SDK",
@@ -13042,8 +12997,8 @@
       },
       "versions": [
         {
-          "version": "0.4.5",
-          "publishTimestamp": 1792670184,
+          "version": "0.4.6",
+          "publishTimestamp": 1793047571,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -44932,6 +44887,40 @@
         "sortKeys": {
           "stars": 5,
           "repositoryUpdated": 1792312952
+        }
+      }
+    },
+    {
+      "name": "@ddtcorex/maestro-skills",
+      "title": "@ddtcorex/maestro-skills",
+      "description": "Govard domain skills (17) + superpowers library (15, forked from obra/superpowers), packaged as a Cordis plugin",
+      "repository": {
+        "url": "https://github.com/ddtcorex/maestro-skills"
+      },
+      "versions": [
+        {
+          "version": "2.19.0",
+          "publishTimestamp": 1792751381,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/ddtcorex/maestro-skills",
+            "commit": "052e760389a331be74bd1c471d85c20639baa39c"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "ecosystem-resources",
+        "keywords": [
+          "生态资源",
+          "ecosystem"
+        ],
+        "labels": [
+          "git",
+          "updated-week"
+        ],
+        "sortKeys": {
+          "stars": 5,
+          "repositoryUpdated": 1793020414
         }
       }
     },
