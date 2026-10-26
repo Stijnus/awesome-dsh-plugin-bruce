@@ -11948,6 +11948,46 @@
         "提示词改写"
       ]
     },
+    "stijnus/dsh-move-to-workspace": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-move-to-workspace",
+          "source": "npm:dsh-move-to-workspace",
+          "command": "dsh plugin --profile web add dsh-move-to-workspace"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-26",
+      "verified_via": "README@main + npm registry (dsh-move-to-workspace@0.1.11)",
+      "tasks": [
+        "move conversation to workspace",
+        "move session",
+        "workspace picker",
+        "移动会话",
+        "移动到工作区"
+      ]
+    },
+    "stijnus/dsh-workspace-status": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-workspace-status",
+          "source": "npm:dsh-workspace-status",
+          "command": "dsh plugin --profile web add dsh-workspace-status"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-26",
+      "verified_via": "README@main + npm registry (dsh-workspace-status@0.1.0)",
+      "tasks": [
+        "workspace status",
+        "sidebar status",
+        "waiting for you",
+        "工作区状态",
+        "侧边栏状态"
+      ]
+    },
     "stormycry-cryp/dsh-authinone": {
       "packages": [],
       "status": "readme-verified",
