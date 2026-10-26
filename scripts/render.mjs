@@ -361,9 +361,11 @@ export const CATALOG_PAGE_WARN_BYTES = 850 * 1024;
 // volumes append a range suffix. Only the catalog pages divide — repo.category
 // (the README mindmap, market.json dealing) stays at category granularity.
 const VOLUME_SPLITS = {
-  // Owner-letter byte share as of 2026-09-02: A–M 49% / N–Z 51%.
+  // Owner-letter byte share as of 2026-10-26 (A–M half hit 886 KB, past the 850 KB
+  // mark): A–F 49% / G–M 51% of the former A–M half; N–Z unchanged.
   'agents-workflows': [
-    { key: 'agents-workflows', upTo: 'm', label: 'A–M' },
+    { key: 'agents-workflows', upTo: 'f', label: 'A–F' },
+    { key: 'agents-workflows-g-m', upTo: 'm', label: 'G–M' },
     { key: 'agents-workflows-n-z', upTo: 'z', label: 'N–Z' },
   ],
   // Owner-letter byte share as of 2026-10-15: A–L 52% / M–Z 48%.
